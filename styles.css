@@ -23,6 +23,8 @@ a { color: inherit; }
 .site-header strong { margin-right: 12px; }
 .site-header span, .muted { color: #6b6b66; }
 .site-header nav { font-size: 0.9rem; }
+.test-marker { color: #6b6b66; font-size: .78rem; margin-left: 8px; }
+.site-header nav { display: flex; gap: 14px; }
 
 .layout {
   display: grid;
@@ -180,4 +182,5 @@ footer {
   .index-pane { border-right: 0; border-bottom: 1px solid #d9d9d5; }
   .columns, .facts { grid-template-columns: 1fr; }
   .site-header span { display: none; }
+  .test-marker { display: none; }
 }

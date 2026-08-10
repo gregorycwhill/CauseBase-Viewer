@@ -1,0 +1,31 @@
+name: Deploy validated human-test site
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Run Viewer tests
+        run: npm test
+      - name: Build allowlisted deployment bundle
+        run: node scripts/prepare-pages.mjs
+      - name: Publish static bundle to gh-pages
+        run: |
+          git fetch origin gh-pages
+          git worktree add ../causebase-pages gh-pages
+          git -C ../causebase-pages rm -rf .
+          cp -a dist/. ../causebase-pages/
+          git -C ../causebase-pages add --all
+          git -C ../causebase-pages -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -m "Deploy validated human-test site ${GITHUB_SHA}"
+          git -C ../causebase-pages push origin gh-pages
