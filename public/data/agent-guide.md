@@ -1,7 +1,5 @@
-# CauseBase Phase 2A agent guide
+# CauseBase Phase 2A.1 agent guide
 
-CauseBase is an evidence and uncertainty-oriented information product, not a charity recommendation service. Use `causebase.json` to discover a subject by name, geography, activity or classification, then retrieve `cards/<causebase_id>.json` or `.md` for a compact cited card.
+CauseBase is an experimental evidence and uncertainty-oriented information product, not a charity recommendation service. This is a selected 120-subject human-test release, not the complete national corpus.
 
-A card separates source observations in `evidence` and `coverage` from CauseBase?s model-generated `causebase_summary` and any `fundraising_expenditure` derivation. Check `synthesis`, evidence IDs, coverage statuses and reporting periods before relying on a claim. `similarities.json` contains descriptive semantic neighbours only; it is not a recommendation or ranking.
-
-Cite the opaque `causebase_id`, dataset version and stable card path. The source archive, report PDFs, website snapshots, prompts and credentials are intentionally not published.
+Use `causebase.json` to locate a subject and retrieve its compact JSON or Markdown card. Cards separate source observations from CauseBase synthesis and estimates. CauseBase and ACNC classifications are separate. Semantic neighbours are descriptive, never recommendations.

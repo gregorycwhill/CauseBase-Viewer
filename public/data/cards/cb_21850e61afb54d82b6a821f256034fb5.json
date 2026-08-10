@@ -66,11 +66,11 @@
     },
     {
       "capability": "fundraising_expenditure",
-      "status": "not_yet_processed",
+      "status": "not_available_from_source",
       "source_record_id": null,
       "evidence_ids": [],
       "observed_at": "2026-08-10",
-      "freshness_note": null
+      "freshness_note": "No direct or defensible derived fundraising expenditure was found in selected Phase 2A evidence."
     },
     {
       "capability": "financials",
@@ -81,14 +81,6 @@
       ],
       "observed_at": "2026-08-10",
       "freshness_note": null
-    },
-    {
-      "capability": "fundraising_expenditure",
-      "status": "not_available_from_source",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": "No direct or defensible derived fundraising expenditure was found in selected Phase 2A evidence."
     }
   ],
   "enrichment_level": "enriched",
@@ -236,10 +228,7 @@
       "term_label": "Animal welfare",
       "assignment_method": "llm_classification",
       "confidence": "medium",
-      "evidence_ids": [
-        "ev:acnc:99862937528",
-        "ev:ais:99862937528:2023"
-      ]
+      "evidence_ids": []
     },
     {
       "taxonomy_id": "causebase",
@@ -248,10 +237,7 @@
       "term_label": "Direct service delivery",
       "assignment_method": "llm_classification",
       "confidence": "medium",
-      "evidence_ids": [
-        "ev:acnc:99862937528",
-        "ev:ais:99862937528:2023"
-      ]
+      "evidence_ids": []
     },
     {
       "taxonomy_id": "causebase",
@@ -260,10 +246,7 @@
       "term_label": "Australia",
       "assignment_method": "llm_classification",
       "confidence": "medium",
-      "evidence_ids": [
-        "ev:acnc:99862937528",
-        "ev:ais:99862937528:2023"
-      ]
+      "evidence_ids": []
     },
     {
       "taxonomy_id": "causebase",
@@ -272,10 +255,7 @@
       "term_label": "Local or regional Australia",
       "assignment_method": "llm_classification",
       "confidence": "medium",
-      "evidence_ids": [
-        "ev:acnc:99862937528",
-        "ev:ais:99862937528:2023"
-      ]
+      "evidence_ids": []
     },
     {
       "taxonomy_id": "causebase",
@@ -284,10 +264,7 @@
       "term_label": "Local organisation",
       "assignment_method": "llm_classification",
       "confidence": "medium",
-      "evidence_ids": [
-        "ev:acnc:99862937528",
-        "ev:ais:99862937528:2023"
-      ]
+      "evidence_ids": []
     }
   ],
   "evidence": [
@@ -323,7 +300,7 @@
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
     "source_text_hash": "e06ef6b4e420fedd61451b07d0c155d7def3007b0f1eee70322afc72d44e955d",
-    "generated_at": "2026-08-10T13:05:03.504907Z",
+    "generated_at": "2026-08-10T13:53:24.456628Z",
     "vector_ref": "embeddings.parquet#cb_21850e61afb54d82b6a821f256034fb5"
   },
   "synthesis": {
@@ -335,15 +312,11 @@
     },
     "evidence_input_hash": "74884448214b50bce64bc872adb3270ab3f9d136155b86ad5b34c80534ff91ff",
     "generated_at": "2026-08-10T12:51:50.696585Z",
-    "editorial_policy_version": "0.1",
-    "request_id": "resp_0031cac15f667a6d006a79c94ae708819baeb1a2113562887c",
-    "input_tokens": 1630,
-    "output_tokens": 1951,
-    "estimated_cost_usd": "0.004310"
+    "editorial_policy_version": "0.1"
   },
-  "dataset_version": "phase2a-2026-08-10",
+  "dataset_version": "phase2a-2026-08-10-h1",
   "card_schema_version": "0.1",
   "editorial_policy_version": "0.1",
   "generator_version": "0.1.0",
-  "built_at": "2026-08-10T13:04:18.541285Z"
+  "built_at": "2026-08-10T13:51:56.698029Z"
 }

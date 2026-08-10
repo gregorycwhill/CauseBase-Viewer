@@ -1,0 +1,25 @@
+export function formatMoney(amount, currency = "AUD") {
+  if (amount == null) return "Not available";
+  return new Intl.NumberFormat("en-AU", {
+    style: "currency", currency, maximumFractionDigits: 0,
+  }).format(amount);
+}
+
+export function financialMetricDisplay(entity, metric) {
+  const set = (entity.financial_metrics ?? []).find(item => item.metric === metric);
+  if (!set) return "Not available";
+  if (set.reconciliation_status !== "single_observation") return "Multiple reported values — inspect evidence";
+  const amount = set.observations?.[0]?.amount;
+  return amount ? formatMoney(amount.normalised_amount, amount.normalised_currency) : "Not available";
+}
+
+export function fundraisingDisplay(entity) {
+  const estimate = entity.fundraising_expenditure;
+  return estimate ? formatMoney(estimate.normalised_amount, estimate.normalised_currency) : "Not available from selected evidence.";
+}
+
+export function taxonomyHeading(taxonomyId) {
+  if (taxonomyId === "causebase") return "CauseBase classifications";
+  if (taxonomyId === "acnc-register") return "ACNC classifications";
+  return `${taxonomyId} classifications`;
+}

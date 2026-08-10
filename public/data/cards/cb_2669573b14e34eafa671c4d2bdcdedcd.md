@@ -6,7 +6,7 @@
 
 ## CauseBase summary
 
-North East Men's Shed (Winnaleah) Inc. is recorded in the supplied ACNC register extract under that legal and display name. The organisation name indicates a location in Winnaleah, Tasmania; the ACNC extract in the evidence pack lists Tasmania as the structured geography. No website, program descriptions, lists of services or beneficiaries, participation details or financial statements were included in the supplied evidence. Known coverage metadata notes the ACNC extract was observed and that other sources (annual report, website, financial records) were not available or not yet processed in the evidence pack.
+North East Men's Shed (Winnaleah) Inc. is recorded on the Australian Charities and Not‑for‑profits Commission register with a registered location in Tasmania. CauseBase has no organisation‑authored description, website content, annual report extracts or other source material in this evidence pack that describes the group’s concrete activities, programs, beneficiaries or participation formats. The only verified datum in this release is the registered name and the jurisdiction (Tasmania) from the ACNC register extract. CauseBase does not infer activities from the organisation’s name; therefore no specific services, event types, volunteer roles or beneficiary groups are identified here.
 
 ## Activities
 
@@ -48,7 +48,7 @@ North East Men's Shed (Winnaleah) Inc. is recorded in the supplied ACNC register
 
 ## Build
 
-- Dataset version: `phase2a-2026-08-10`
+- Dataset version: `phase2a-2026-08-10-h1`
 - Card schema: `0.1`
 - Editorial policy: `0.1`
-- Built: 2026-08-10T13:04:18.632143+00:00
+- Built: 2026-08-10T13:51:56.708596+00:00

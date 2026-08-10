@@ -68,11 +68,11 @@
     },
     {
       "capability": "fundraising_expenditure",
-      "status": "not_yet_processed",
+      "status": "not_available_from_source",
       "source_record_id": null,
       "evidence_ids": [],
       "observed_at": "2026-08-10",
-      "freshness_note": null
+      "freshness_note": "No direct or defensible derived fundraising expenditure was found in selected Phase 2A evidence."
     },
     {
       "capability": "financials",
@@ -83,14 +83,6 @@
       ],
       "observed_at": "2026-08-10",
       "freshness_note": null
-    },
-    {
-      "capability": "fundraising_expenditure",
-      "status": "not_available_from_source",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": "No direct or defensible derived fundraising expenditure was found in selected Phase 2A evidence."
     }
   ],
   "enrichment_level": "enriched",
@@ -250,11 +242,7 @@
       "term_label": "Direct service delivery",
       "assignment_method": "llm_classification",
       "confidence": "medium",
-      "evidence_ids": [
-        "ev:acnc:39410139423",
-        "ev:web:39410139423:2026-08-10",
-        "ev:ais:39410139423:2023"
-      ]
+      "evidence_ids": []
     },
     {
       "taxonomy_id": "causebase",
@@ -263,11 +251,7 @@
       "term_label": "Events and public programming",
       "assignment_method": "llm_classification",
       "confidence": "medium",
-      "evidence_ids": [
-        "ev:acnc:39410139423",
-        "ev:web:39410139423:2026-08-10",
-        "ev:ais:39410139423:2023"
-      ]
+      "evidence_ids": []
     },
     {
       "taxonomy_id": "causebase",
@@ -276,11 +260,7 @@
       "term_label": "Community partnership",
       "assignment_method": "llm_classification",
       "confidence": "medium",
-      "evidence_ids": [
-        "ev:acnc:39410139423",
-        "ev:web:39410139423:2026-08-10",
-        "ev:ais:39410139423:2023"
-      ]
+      "evidence_ids": []
     },
     {
       "taxonomy_id": "causebase",
@@ -289,11 +269,7 @@
       "term_label": "Public events",
       "assignment_method": "llm_classification",
       "confidence": "medium",
-      "evidence_ids": [
-        "ev:acnc:39410139423",
-        "ev:web:39410139423:2026-08-10",
-        "ev:ais:39410139423:2023"
-      ]
+      "evidence_ids": []
     },
     {
       "taxonomy_id": "causebase",
@@ -302,11 +278,7 @@
       "term_label": "Volunteering",
       "assignment_method": "llm_classification",
       "confidence": "medium",
-      "evidence_ids": [
-        "ev:acnc:39410139423",
-        "ev:web:39410139423:2026-08-10",
-        "ev:ais:39410139423:2023"
-      ]
+      "evidence_ids": []
     },
     {
       "taxonomy_id": "causebase",
@@ -315,11 +287,7 @@
       "term_label": "Local or regional Australia",
       "assignment_method": "llm_classification",
       "confidence": "medium",
-      "evidence_ids": [
-        "ev:acnc:39410139423",
-        "ev:web:39410139423:2026-08-10",
-        "ev:ais:39410139423:2023"
-      ]
+      "evidence_ids": []
     },
     {
       "taxonomy_id": "causebase",
@@ -328,11 +296,7 @@
       "term_label": "Local organisation",
       "assignment_method": "llm_classification",
       "confidence": "medium",
-      "evidence_ids": [
-        "ev:acnc:39410139423",
-        "ev:web:39410139423:2026-08-10",
-        "ev:ais:39410139423:2023"
-      ]
+      "evidence_ids": []
     }
   ],
   "evidence": [
@@ -380,7 +344,7 @@
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
     "source_text_hash": "d567739ae922ea8d3dfdde4344838a417a4a404925ec5f99b09242f3f4068a78",
-    "generated_at": "2026-08-10T13:05:03.505476Z",
+    "generated_at": "2026-08-10T13:53:24.457430Z",
     "vector_ref": "embeddings.parquet#cb_9b0604e86cb24d31bbda5d23a6e22235"
   },
   "synthesis": {
@@ -392,15 +356,11 @@
     },
     "evidence_input_hash": "7340639a0a8785e09a4b5b0e00c399f2a017944008bd8af7450f1a0039271de4",
     "generated_at": "2026-08-10T12:57:12.004893Z",
-    "editorial_policy_version": "0.1",
-    "request_id": "resp_0bf3245844b82b5f006a79ca81b3d4819b92c74e04c8c50e13",
-    "input_tokens": 2271,
-    "output_tokens": 2725,
-    "estimated_cost_usd": "0.006018"
+    "editorial_policy_version": "0.1"
   },
-  "dataset_version": "phase2a-2026-08-10",
+  "dataset_version": "phase2a-2026-08-10-h1",
   "card_schema_version": "0.1",
   "editorial_policy_version": "0.1",
   "generator_version": "0.1.0",
-  "built_at": "2026-08-10T13:04:18.637245Z"
+  "built_at": "2026-08-10T13:51:56.709087Z"
 }

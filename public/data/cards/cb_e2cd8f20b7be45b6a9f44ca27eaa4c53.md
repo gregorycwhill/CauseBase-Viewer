@@ -2,7 +2,7 @@
 
 **CauseBase subject:** `cb_e2cd8f20b7be45b6a9f44ca27eaa4c53`
 **Subject kind:** unknown
-**Coverage:** `[{"capability": "regulatory", "evidence_ids": ["ev:acnc:15969822381"], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "observed"}, {"capability": "annual_report", "evidence_ids": [], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "not_yet_processed"}, {"capability": "website", "evidence_ids": [], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "retrieval_failed"}, {"capability": "fundraising_expenditure", "evidence_ids": [], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "not_yet_processed"}, {"capability": "financials", "evidence_ids": ["ev:ais:15969822381:2023"], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "observed"}, {"capability": "fundraising_expenditure", "evidence_ids": [], "freshness_note": "No direct or defensible derived fundraising expenditure was found in selected Phase 2A evidence.", "observed_at": "2026-08-10", "source_record_id": null, "status": "not_available_from_source"}]`
+**Coverage:** `[{"capability": "regulatory", "evidence_ids": ["ev:acnc:15969822381"], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "observed"}, {"capability": "annual_report", "evidence_ids": [], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "not_yet_processed"}, {"capability": "website", "evidence_ids": [], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "retrieval_failed"}, {"capability": "fundraising_expenditure", "evidence_ids": [], "freshness_note": "No direct or defensible derived fundraising expenditure was found in selected Phase 2A evidence.", "observed_at": "2026-08-10", "source_record_id": null, "status": "not_available_from_source"}, {"capability": "financials", "evidence_ids": ["ev:ais:15969822381:2023"], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "observed"}]`
 
 ## CauseBase summary
 
@@ -57,7 +57,7 @@ Ananda Marga Pracaraka Samgha Ltd Preschool is recorded on the Australian Charit
 
 ## Build
 
-- Dataset version: `phase2a-2026-08-10`
+- Dataset version: `phase2a-2026-08-10-h1`
 - Card schema: `0.1`
 - Editorial policy: `0.1`
-- Built: 2026-08-10T13:04:18.664017+00:00
+- Built: 2026-08-10T13:51:56.713553+00:00
