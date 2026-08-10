@@ -1,0 +1,283 @@
+{
+  "causebase_id": "cb_3ce4cec8b83e4d64998c0ddf3382d8e3",
+  "subject_kind": "unknown",
+  "external_identifiers": [
+    {
+      "scheme": "abn",
+      "value": "31520352647",
+      "source_evidence_id": "ev:acnc:31520352647"
+    }
+  ],
+  "registrations": [
+    {
+      "regulator": "ACNC",
+      "registration_id": null,
+      "status": "registered",
+      "evidence_ids": [
+        "ev:acnc:31520352647"
+      ]
+    }
+  ],
+  "tax_statuses": [],
+  "relationships": [],
+  "source_resolutions": [
+    {
+      "source_record_id": "src:acnc-register:0421a68f-d878-5b32-bac9-8a42037dc940",
+      "resolution_status": "resolved",
+      "resolution_basis": "automated authoritative ACNC promotion under acnc-authoritative-v1",
+      "confidence": "high",
+      "supporting_signals": [
+        "ABN:31520352647",
+        "ACNC Register"
+      ],
+      "conflicting_signals": [],
+      "review_status": "not_required"
+    }
+  ],
+  "legal_name": "AIM Charitable Trust",
+  "display_name": "AIM Charitable Trust",
+  "entity_status": "registered",
+  "coverage": [
+    {
+      "capability": "regulatory",
+      "status": "observed",
+      "source_record_id": null,
+      "evidence_ids": [
+        "ev:acnc:31520352647"
+      ],
+      "observed_at": "2026-08-10",
+      "freshness_note": null
+    },
+    {
+      "capability": "annual_report",
+      "status": "not_yet_processed",
+      "source_record_id": null,
+      "evidence_ids": [],
+      "observed_at": "2026-08-10",
+      "freshness_note": null
+    },
+    {
+      "capability": "website",
+      "status": "not_available_from_source",
+      "source_record_id": null,
+      "evidence_ids": [],
+      "observed_at": "2026-08-10",
+      "freshness_note": null
+    },
+    {
+      "capability": "fundraising_expenditure",
+      "status": "not_yet_processed",
+      "source_record_id": null,
+      "evidence_ids": [],
+      "observed_at": "2026-08-10",
+      "freshness_note": null
+    },
+    {
+      "capability": "financials",
+      "status": "observed",
+      "source_record_id": null,
+      "evidence_ids": [
+        "ev:ais:31520352647:2023"
+      ],
+      "observed_at": "2026-08-10",
+      "freshness_note": null
+    },
+    {
+      "capability": "fundraising_expenditure",
+      "status": "not_available_from_source",
+      "source_record_id": null,
+      "evidence_ids": [],
+      "observed_at": "2026-08-10",
+      "freshness_note": "No direct or defensible derived fundraising expenditure was found in selected Phase 2A evidence."
+    }
+  ],
+  "enrichment_level": "enriched",
+  "website": null,
+  "geography": [
+    "Northern Territory (NT)"
+  ],
+  "causebase_summary": "AIM Charitable Trust is recorded on the Australian Charities and Not-for-profits Commission (ACNC) register with structured geography noted as the Northern Territory (NT). The only detailed filing in this evidence pack is the ACNC Annual Information Statement (AIS) for the year 1 July 2022 to 30 June 2023, which reports revenue of AUD 81,776 and total expenses of AUD 75,215 for that reporting period. The evidence pack does not include a website, annual report text, program descriptions, or statements of beneficiaries or participation opportunities. Source documents in this pack are an ACNC register extract and the AIS 2023 extract; no other public-facing materials were provided.",
+  "organisation_self_description": null,
+  "activities": [],
+  "beneficiaries": [],
+  "participation_modes": [],
+  "opportunities": [],
+  "financial_records": [
+    {
+      "financial_record_id": "fr:ais:cb_3ce4cec8b83e4d64998c0ddf3382d8e3:2023",
+      "period": {
+        "period_start": "2022-07-01",
+        "period_end": "2023-06-30",
+        "period_length_days": 365,
+        "label": "01/07/2022 to 30/06/2023",
+        "is_transitional_or_nonstandard": false
+      },
+      "reporting_scope": "subject",
+      "reporting_subject_causebase_id": "cb_3ce4cec8b83e4d64998c0ddf3382d8e3",
+      "covered_subjects": [
+        "cb_3ce4cec8b83e4d64998c0ddf3382d8e3"
+      ],
+      "consolidated": "unknown",
+      "attribution_method": "direct_subject_report",
+      "evidence_ids": [
+        "ev:ais:31520352647:2023"
+      ],
+      "revenue": {
+        "source_amount": "81776",
+        "source_currency": "AUD",
+        "source_unit_scale": "1",
+        "normalised_amount": "81776",
+        "normalised_currency": "AUD",
+        "source_unit_label": null,
+        "source_raw_value": "81776",
+        "source_precision": null
+      },
+      "donations": null,
+      "government_grants": null,
+      "employee_costs": null,
+      "total_expenses": {
+        "source_amount": "75215",
+        "source_currency": "AUD",
+        "source_unit_scale": "1",
+        "normalised_amount": "75215",
+        "normalised_currency": "AUD",
+        "source_unit_label": null,
+        "source_raw_value": "75215",
+        "source_precision": null
+      },
+      "assets": null,
+      "liabilities": null
+    }
+  ],
+  "financial_metrics": [
+    {
+      "metric": "revenue",
+      "observations": [
+        {
+          "financial_record_id": "fr:ais:cb_3ce4cec8b83e4d64998c0ddf3382d8e3:2023",
+          "amount": {
+            "source_amount": "81776",
+            "source_currency": "AUD",
+            "source_unit_scale": "1",
+            "normalised_amount": "81776",
+            "normalised_currency": "AUD",
+            "source_unit_label": null,
+            "source_raw_value": "81776",
+            "source_precision": null
+          },
+          "metric_source_label": null,
+          "evidence_ids": [
+            "ev:ais:31520352647:2023"
+          ]
+        }
+      ],
+      "reconciliation_status": "single_observation",
+      "reconciliation_notes": null
+    },
+    {
+      "metric": "total_expenses",
+      "observations": [
+        {
+          "financial_record_id": "fr:ais:cb_3ce4cec8b83e4d64998c0ddf3382d8e3:2023",
+          "amount": {
+            "source_amount": "75215",
+            "source_currency": "AUD",
+            "source_unit_scale": "1",
+            "normalised_amount": "75215",
+            "normalised_currency": "AUD",
+            "source_unit_label": null,
+            "source_raw_value": "75215",
+            "source_precision": null
+          },
+          "metric_source_label": null,
+          "evidence_ids": [
+            "ev:ais:31520352647:2023"
+          ]
+        }
+      ],
+      "reconciliation_status": "single_observation",
+      "reconciliation_notes": null
+    }
+  ],
+  "fundraising_expenditure": null,
+  "classifications": [
+    {
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "purpose.social_welfare",
+      "term_label": "social welfare",
+      "assignment_method": "source_native",
+      "confidence": "high",
+      "evidence_ids": [
+        "ev:acnc:31520352647"
+      ]
+    },
+    {
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "beneficiary.regional_remote",
+      "term_label": "regional remote",
+      "assignment_method": "source_native",
+      "confidence": "high",
+      "evidence_ids": [
+        "ev:acnc:31520352647"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "ev:acnc:31520352647",
+      "source_type": "regulatory",
+      "title": "ACNC Register extract",
+      "publisher": "Australian Charities and Not-for-profits Commission",
+      "url": null,
+      "observed_at": "2026-08-10",
+      "reporting_period": null,
+      "page": null,
+      "section": null,
+      "content_hash": null
+    },
+    {
+      "evidence_id": "ev:ais:31520352647:2023",
+      "source_type": "regulatory",
+      "title": "ACNC AIS 2023 extract",
+      "publisher": "Australian Charities and Not-for-profits Commission",
+      "url": null,
+      "observed_at": "2026-08-10",
+      "reporting_period": "01/07/2022 to 30/06/2023",
+      "page": null,
+      "section": null,
+      "content_hash": null
+    }
+  ],
+  "embedding": {
+    "embedding_id": "cb_3ce4cec8b83e4d64998c0ddf3382d8e3:entity:text-embedding-3-small",
+    "embedding_type": "entity",
+    "model_id": "text-embedding-3-small",
+    "model_version": "text-embedding-3-small",
+    "dimensions": 1536,
+    "source_text_hash": "09e0cc719b68e3cdb411ee5b209c87a75e83246dcf176f128b652c4514dc0df3",
+    "generated_at": "2026-08-10T13:05:03.503659Z",
+    "vector_ref": "embeddings.parquet#cb_3ce4cec8b83e4d64998c0ddf3382d8e3"
+  },
+  "synthesis": {
+    "model_id": "gpt-5-mini-2025-08-07",
+    "prompt_version": "phase2a-0.4",
+    "parameters": {
+      "max_output_tokens": 3000,
+      "structured_output": true
+    },
+    "evidence_input_hash": "5ed13a7604a317c047b71a2c4a8a762f21b5d733240854e26a6bb25de96f07f7",
+    "generated_at": "2026-08-10T12:45:57.271670Z",
+    "editorial_policy_version": "0.1",
+    "request_id": "resp_074041f843a880de006a79c7f4c05c8198bbef9cdc8eeb97ad",
+    "input_tokens": 1638,
+    "output_tokens": 1030,
+    "estimated_cost_usd": "0.002470"
+  },
+  "dataset_version": "phase2a-2026-08-10",
+  "card_schema_version": "0.1",
+  "editorial_policy_version": "0.1",
+  "generator_version": "0.1.0",
+  "built_at": "2026-08-10T13:03:43.663627Z"
+}

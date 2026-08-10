@@ -1,0 +1,290 @@
+{
+  "causebase_id": "cb_d99ab915a62349db9d141ea3b359066a",
+  "subject_kind": "unknown",
+  "external_identifiers": [
+    {
+      "scheme": "abn",
+      "value": "87684571829",
+      "source_evidence_id": "ev:acnc:87684571829"
+    }
+  ],
+  "registrations": [
+    {
+      "regulator": "ACNC",
+      "registration_id": null,
+      "status": "registered",
+      "evidence_ids": [
+        "ev:acnc:87684571829"
+      ]
+    }
+  ],
+  "tax_statuses": [],
+  "relationships": [],
+  "source_resolutions": [
+    {
+      "source_record_id": "src:acnc-register:eced77f6-cdf4-5b97-bfd4-794e2cb42b40",
+      "resolution_status": "resolved",
+      "resolution_basis": "automated authoritative ACNC promotion under acnc-authoritative-v1",
+      "confidence": "high",
+      "supporting_signals": [
+        "ABN:87684571829",
+        "ACNC Register"
+      ],
+      "conflicting_signals": [],
+      "review_status": "not_required"
+    }
+  ],
+  "legal_name": "Accelerated Evolution - The Break Inc.",
+  "display_name": "Accelerated Evolution - The Break Inc.",
+  "entity_status": "registered",
+  "coverage": [
+    {
+      "capability": "regulatory",
+      "status": "observed",
+      "source_record_id": null,
+      "evidence_ids": [
+        "ev:acnc:87684571829"
+      ],
+      "observed_at": "2026-08-10",
+      "freshness_note": null
+    },
+    {
+      "capability": "annual_report",
+      "status": "not_yet_processed",
+      "source_record_id": null,
+      "evidence_ids": [],
+      "observed_at": "2026-08-10",
+      "freshness_note": null
+    },
+    {
+      "capability": "website",
+      "status": "observed",
+      "source_record_id": null,
+      "evidence_ids": [
+        "ev:web:87684571829:2026-08-10"
+      ],
+      "observed_at": "2026-08-10",
+      "freshness_note": null
+    },
+    {
+      "capability": "fundraising_expenditure",
+      "status": "not_yet_processed",
+      "source_record_id": null,
+      "evidence_ids": [],
+      "observed_at": "2026-08-10",
+      "freshness_note": null
+    },
+    {
+      "capability": "financials",
+      "status": "not_found_in_source",
+      "source_record_id": null,
+      "evidence_ids": [],
+      "observed_at": "2026-08-10",
+      "freshness_note": null
+    }
+  ],
+  "enrichment_level": "enriched",
+  "website": "www.thebreak.org.au",
+  "geography": [
+    "Caulfield, Melbourne; Victoria (head office listed)",
+    "Origin in St Kilda East, Victoria (organisation-stated)"
+  ],
+  "causebase_summary": "The organisation’s website describes Accelerated Evolution - The Break Inc. as a volunteer-run, not-for-profit mental health and wellbeing recovery provider based in Victoria. The site states it runs small-group programs (limited to 16 participants) such as Mindfulness, Anger Management and Men’s and Women’s Relapse Prevention, and that it aims for a staff-to-participant ratio of about 1:4 “as funding allows.” The Break says its programs target recovery, reintegration and “full participation in society” for people of all backgrounds and lists specific issues it supports, including homelessness, unemployment, substance recovery, trauma, psychosomatic and psychological disorders, disability, physical ailments, isolation and loneliness. The website also describes delivery of an accredited government work-credit pathway: the Work & Development Permit scheme and arrangements to complete Work for the Dole for people over 55. The site includes participant testimonials, an invitation to apply for course placements, a Caulfield head office address (312–314 Hawthorn Road) and a contact number, and an acknowledgement of Traditional Custodians. The organisation states it evolved from a 2002 clinic in St Kilda East and gained charity status and accreditation in 2018.",
+  "organisation_self_description": null,
+  "activities": [
+    "Runs small-group mental health and wellbeing recovery programs (Mindfulness; Anger Management; Relapse Prevention)",
+    "Delivers an accredited government work-credit program (Work & Development Permit) and facilitates Work for the Dole arrangements for people over 55",
+    "Offers course placements and accepts program participants"
+  ],
+  "beneficiaries": [
+    "People experiencing homelessness, unemployment and substance recovery",
+    "People experiencing trauma, psychosomatic or psychological disorders, disability or physical ailments",
+    "People experiencing isolation and loneliness",
+    "People of all backgrounds regardless of circumstance (organisation-stated)"
+  ],
+  "participation_modes": [
+    "Volunteering (organisation-stated: run by volunteers)",
+    "Course placements for students or trainees",
+    "Attendance as program participants"
+  ],
+  "opportunities": [],
+  "financial_records": [],
+  "financial_metrics": [],
+  "fundraising_expenditure": null,
+  "classifications": [
+    {
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "purpose.health",
+      "term_label": "health",
+      "assignment_method": "source_native",
+      "confidence": "high",
+      "evidence_ids": [
+        "ev:acnc:87684571829"
+      ]
+    },
+    {
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "beneficiary.children",
+      "term_label": "children",
+      "assignment_method": "source_native",
+      "confidence": "high",
+      "evidence_ids": [
+        "ev:acnc:87684571829"
+      ]
+    },
+    {
+      "taxonomy_id": "causebase",
+      "taxonomy_version": "0.1-phase2a",
+      "term_id": "cause.community_wellbeing",
+      "term_label": "Community wellbeing",
+      "assignment_method": "llm_classification",
+      "confidence": "medium",
+      "evidence_ids": [
+        "ev:acnc:87684571829",
+        "ev:web:87684571829:2026-08-10"
+      ]
+    },
+    {
+      "taxonomy_id": "causebase",
+      "taxonomy_version": "0.1-phase2a",
+      "term_id": "beneficiary.people_experiencing_disadvantage",
+      "term_label": "People experiencing disadvantage",
+      "assignment_method": "llm_classification",
+      "confidence": "medium",
+      "evidence_ids": [
+        "ev:acnc:87684571829",
+        "ev:web:87684571829:2026-08-10"
+      ]
+    },
+    {
+      "taxonomy_id": "causebase",
+      "taxonomy_version": "0.1-phase2a",
+      "term_id": "beneficiary.general_community",
+      "term_label": "General community",
+      "assignment_method": "llm_classification",
+      "confidence": "medium",
+      "evidence_ids": [
+        "ev:acnc:87684571829",
+        "ev:web:87684571829:2026-08-10"
+      ]
+    },
+    {
+      "taxonomy_id": "causebase",
+      "taxonomy_version": "0.1-phase2a",
+      "term_id": "activity.direct_service",
+      "term_label": "Direct service delivery",
+      "assignment_method": "llm_classification",
+      "confidence": "medium",
+      "evidence_ids": [
+        "ev:acnc:87684571829",
+        "ev:web:87684571829:2026-08-10"
+      ]
+    },
+    {
+      "taxonomy_id": "causebase",
+      "taxonomy_version": "0.1-phase2a",
+      "term_id": "activity.employment_support",
+      "term_label": "Employment support",
+      "assignment_method": "llm_classification",
+      "confidence": "medium",
+      "evidence_ids": [
+        "ev:acnc:87684571829",
+        "ev:web:87684571829:2026-08-10"
+      ]
+    },
+    {
+      "taxonomy_id": "causebase",
+      "taxonomy_version": "0.1-phase2a",
+      "term_id": "approach.volunteer_enabled",
+      "term_label": "Volunteer-enabled delivery",
+      "assignment_method": "llm_classification",
+      "confidence": "medium",
+      "evidence_ids": [
+        "ev:acnc:87684571829",
+        "ev:web:87684571829:2026-08-10"
+      ]
+    },
+    {
+      "taxonomy_id": "causebase",
+      "taxonomy_version": "0.1-phase2a",
+      "term_id": "participation.volunteering",
+      "term_label": "Volunteering",
+      "assignment_method": "llm_classification",
+      "confidence": "medium",
+      "evidence_ids": [
+        "ev:acnc:87684571829",
+        "ev:web:87684571829:2026-08-10"
+      ]
+    },
+    {
+      "taxonomy_id": "causebase",
+      "taxonomy_version": "0.1-phase2a",
+      "term_id": "geography.local_or_regional",
+      "term_label": "Local or regional Australia",
+      "assignment_method": "llm_classification",
+      "confidence": "medium",
+      "evidence_ids": [
+        "ev:acnc:87684571829",
+        "ev:web:87684571829:2026-08-10"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "ev:acnc:87684571829",
+      "source_type": "regulatory",
+      "title": "ACNC Register extract",
+      "publisher": "Australian Charities and Not-for-profits Commission",
+      "url": null,
+      "observed_at": "2026-08-10",
+      "reporting_period": null,
+      "page": null,
+      "section": null,
+      "content_hash": null
+    },
+    {
+      "evidence_id": "ev:web:87684571829:2026-08-10",
+      "source_type": "organisation_self_report",
+      "title": "Organisation website homepage",
+      "publisher": "Accelerated Evolution - The Break Inc.",
+      "url": "https://thebreak.org.au/",
+      "observed_at": "2026-08-10",
+      "reporting_period": null,
+      "page": null,
+      "section": null,
+      "content_hash": null
+    }
+  ],
+  "embedding": {
+    "embedding_id": "cb_d99ab915a62349db9d141ea3b359066a:entity:text-embedding-3-small",
+    "embedding_type": "entity",
+    "model_id": "text-embedding-3-small",
+    "model_version": "text-embedding-3-small",
+    "dimensions": 1536,
+    "source_text_hash": "bc92eb93fc9fd836cc773bcfb2ec44bc21a42345fd5aab8079dda8dfcbd4bbc4",
+    "generated_at": "2026-08-10T13:05:03.503918Z",
+    "vector_ref": "embeddings.parquet#cb_d99ab915a62349db9d141ea3b359066a"
+  },
+  "synthesis": {
+    "model_id": "gpt-5-mini-2025-08-07",
+    "prompt_version": "phase2a-0.4",
+    "parameters": {
+      "max_output_tokens": 3000,
+      "structured_output": true
+    },
+    "evidence_input_hash": "0637488a4a8857d5ceee297a344ae10ab5ed97b556b0d021f6aa2422c05db11a",
+    "generated_at": "2026-08-10T12:46:55.776940Z",
+    "editorial_policy_version": "0.1",
+    "request_id": "resp_04fa3cd21f036916006a79c8162cdc819a8d671024a2132416",
+    "input_tokens": 2887,
+    "output_tokens": 2531,
+    "estimated_cost_usd": "0.005784"
+  },
+  "dataset_version": "phase2a-2026-08-10",
+  "card_schema_version": "0.1",
+  "editorial_policy_version": "0.1",
+  "generator_version": "0.1.0",
+  "built_at": "2026-08-10T13:03:43.684289Z"
+}

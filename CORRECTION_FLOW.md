@@ -64,6 +64,27 @@ Discussion does not directly alter the card.
 
 A simple external form may be used initially. The intake mechanism must not define the correction data model. All channels converge on the Builder proposal model.
 
+### Phase 2A external-intake contract
+
+Set `window.CAUSEBASE_CORRECTION_INTAKE_URL` to the external intake endpoint. Viewer appends URL-encoded query parameters; the endpoint must accept and preserve these exact names:
+
+- `causebase_id` — required opaque subject identifier;
+- `dataset_version` — required release challenged;
+- `field` — required displayed field or section identifier;
+- `current_value` — optional rendered value at the time of submission;
+- `organisation` — optional display context only;
+- `viewer_url` — optional source page/deep link.
+
+The private intake must collect, in addition to the prefilled values:
+
+- `proposed_correction` (long text, required);
+- `reason` (long text, required);
+- `supporting_evidence` (URL or long text, optional but encouraged);
+- `contact` (email or other contact, optional);
+- `consent_to_contact` (boolean, optional).
+
+The receiver must return or display a private acknowledgement identifier. It must not publish raw submissions, contact details, or an unmoderated proposal ledger.
+
 ## 10. Avoid adversarial framing
 
 Suitable language:

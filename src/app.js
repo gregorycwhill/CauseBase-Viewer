@@ -46,8 +46,31 @@ function correctionUrl(entity, field, currentValue) {
     field,
     current_value: currentValue ?? "",
     dataset_version: entity.dataset_version,
+    viewer_url: location.href,
   });
+  const configured = window.CAUSEBASE_CORRECTION_INTAKE_URL;
+  if (configured) {
+    const separator = configured.includes("?") ? "&" : "?";
+    return `${configured}${separator}${params.toString()}`;
+  }
   return `correction.html?${params.toString()}`;
+}
+
+function metricValue(entity, metric) {
+  const set = (entity.financial_metrics ?? []).find(item => item.metric === metric);
+  if (!set) return null;
+  if (set.reconciliation_status !== "single_observation") return "Multiple reported values — inspect evidence";
+  return set.observations?.[0]?.amount?.normalised_amount ?? null;
+}
+
+function displayMetric(entity, metric) {
+  const value = metricValue(entity, metric);
+  return value === "Multiple reported values — inspect evidence" ? value : money(value);
+}
+
+function fundraisingValue(entity) {
+  const estimate = entity.fundraising_expenditure;
+  return estimate ? money(estimate.normalised_amount) : "Not available from selected evidence";
 }
 
 function externalIdentifiers(entity) {
@@ -93,7 +116,10 @@ function semanticNeighbours(entityId) {
 }
 
 function renderCard(entity) {
-  const fr = entity.fundraising_expenditure;
+  const fr = entity.fundraising_expenditure ?? {
+    method: "not available from selected evidence",
+    confidence: "not available",
+  };
   const taxonomyHtml = [...classificationsByTaxonomy(entity).entries()]
     .map(([taxonomy, terms]) => `
       <div class="taxonomy-block">
@@ -161,15 +187,20 @@ function renderCard(entity) {
     <section>
       <h2>Financials</h2>
       <dl class="facts">
-        <div><dt>Revenue</dt><dd>${money(entity.financials.revenue)}</dd></div>
-        <div><dt>Total expenses</dt><dd>${money(entity.financials.total_expenses)}</dd></div>
-        <div><dt>Fundraising expenditure</dt><dd>${money(fr.value)}</dd></div>
+        <div><dt>Revenue</dt><dd>${escapeHtml(displayMetric(entity, "revenue"))}</dd></div>
+        <div><dt>Total expenses</dt><dd>${escapeHtml(displayMetric(entity, "total_expenses"))}</dd></div>
+        <div><dt>Fundraising expenditure</dt><dd>${escapeHtml(fundraisingValue(entity))}</dd></div>
       </dl>
-      <div class="estimate-note">
+      ${fr ? `<div class="estimate-note">` : `<p class="muted">No direct or defensible derived estimate is currently published.</p>`}
         <strong>${escapeHtml(fr.method)}</strong> · ${escapeHtml(fr.confidence)} confidence
         ${fr.rule_id ? ` · rule <code>${escapeHtml(fr.rule_id)}</code>` : ""}
         ${fr.note ? `<p>${escapeHtml(fr.note)}</p>` : ""}
-      </div>
+      ${fr ? `</div>` : ""}
+    </section>
+
+    <section>
+      <h2>Coverage and freshness</h2>
+      <ul>${(entity.coverage ?? []).map(item => `<li><strong>${escapeHtml(item.capability)}</strong>: ${escapeHtml(item.status)}${item.observed_at ? ` · observed ${escapeHtml(item.observed_at)}` : ""}${item.freshness_note ? ` · ${escapeHtml(item.freshness_note)}` : ""}</li>`).join("") || "<li>None recorded</li>"}</ul>
     </section>
 
     <section>
