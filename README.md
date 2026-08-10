@@ -5,6 +5,10 @@
 
 CauseBase Viewer is the thin public browser for CauseBase Data.
 
+## Human-test deployment
+
+GitHub Pages uses only the `gh-pages` branch, built by the manual **Deploy validated human-test site** workflow. Pushes to `main` do not deploy. The workflow tests Viewer, refuses an unvalidated or unsafe publication candidate, and publishes the static bundle only. Each deployment includes `deployment.json` with the dataset version and Viewer commit used to build it.
+
 It exists to help people discover charities, search/filter, explore semantic neighbourhoods, inspect CauseBase Cards, understand provenance/uncertainty, inspect multiple taxonomies, identify stale/missing information, propose corrections and follow public correction/discussion history.
 
 Viewer does not recommend charities and does not own CauseBase's underlying data.

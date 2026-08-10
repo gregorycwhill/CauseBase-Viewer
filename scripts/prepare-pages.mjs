@@ -1,5 +1,6 @@
-import { cp, mkdir, readFile, rm, stat } from "node:fs/promises";
+import { cp, mkdir, readFile, rm, stat, writeFile } from "node:fs/promises";
 import { resolve } from "node:path";
+import { execFileSync } from "node:child_process";
 
 const root = resolve(import.meta.dirname, "..");
 const output = resolve(root, "dist");
@@ -27,6 +28,15 @@ for (const file of ["index.html", "styles.css", "correction.html", "robots.txt",
 }
 await cp(resolve(root, "src"), resolve(output, "src"), { recursive: true });
 await cp(resolve(root, "public"), resolve(output, "public"), { recursive: true });
+const viewerCommit = process.env.GITHUB_SHA ?? execFileSync("git", ["rev-parse", "HEAD"], { cwd: root, encoding: "utf8" }).trim();
+await writeFile(resolve(output, "deployment.json"), JSON.stringify({
+  deployment_type: "CauseBase human-test",
+  source_branch: "main",
+  deployment_branch: "gh-pages",
+  dataset_version: manifest.dataset_version,
+  viewer_commit: viewerCommit,
+  correction_intake: "not configured; correction page explains this limitation",
+}, null, 2) + "\n");
 
 const walk = async directory => {
   const { readdir } = await import("node:fs/promises");
