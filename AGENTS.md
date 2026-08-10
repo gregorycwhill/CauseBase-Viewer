@@ -3,6 +3,19 @@
 **Status:** Canonical repository instructions  
 **Version:** 0.1
 
+## Shared CauseBase project memory
+
+The canonical shared state and planning documents live in the sibling
+[`CauseBase-Data`](https://github.com/gregorycwhill/CauseBase-Data) repository:
+
+- `CURRENT_STATE.md`
+- `ROADMAP.md`
+- `IMPLEMENTATION_PLAN.md`
+- `TEST_PLAN.md`
+- `CODEX_TO_CHATGPT_HANDOFF.md`
+
+Read those files before changing cross-product contracts. Do not create or maintain workspace-root duplicates.
+
 ## Product boundary
 
 CauseBase Viewer is for discovery, search, inspection, provenance and correction.
