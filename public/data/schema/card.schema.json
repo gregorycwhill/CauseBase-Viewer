@@ -1,0 +1,1565 @@
+{
+  "$defs": {
+    "Classification": {
+      "properties": {
+        "taxonomy_id": {
+          "title": "Taxonomy Id",
+          "type": "string"
+        },
+        "taxonomy_version": {
+          "title": "Taxonomy Version",
+          "type": "string"
+        },
+        "term_id": {
+          "title": "Term Id",
+          "type": "string"
+        },
+        "term_label": {
+          "title": "Term Label",
+          "type": "string"
+        },
+        "assignment_method": {
+          "enum": [
+            "source_native",
+            "deterministic_mapping",
+            "llm_classification",
+            "community_contribution",
+            "fixture"
+          ],
+          "title": "Assignment Method",
+          "type": "string"
+        },
+        "confidence": {
+          "anyOf": [
+            {
+              "enum": [
+                "high",
+                "medium",
+                "low"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Confidence"
+        },
+        "evidence_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Evidence Ids",
+          "type": "array"
+        }
+      },
+      "required": [
+        "taxonomy_id",
+        "taxonomy_version",
+        "term_id",
+        "term_label",
+        "assignment_method"
+      ],
+      "title": "Classification",
+      "type": "object"
+    },
+    "CoverageObservation": {
+      "description": "Machine-readable source/capability status; absence never becomes a negative claim.",
+      "properties": {
+        "capability": {
+          "title": "Capability",
+          "type": "string"
+        },
+        "status": {
+          "enum": [
+            "observed",
+            "not_found_in_source",
+            "not_available_from_source",
+            "not_applicable",
+            "retrieval_failed",
+            "not_yet_processed",
+            "stale",
+            "unknown"
+          ],
+          "title": "Status",
+          "type": "string"
+        },
+        "source_record_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Source Record Id"
+        },
+        "evidence_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Evidence Ids",
+          "type": "array"
+        },
+        "observed_at": {
+          "anyOf": [
+            {
+              "format": "date",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Observed At"
+        },
+        "freshness_note": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Freshness Note"
+        }
+      },
+      "required": [
+        "capability",
+        "status"
+      ],
+      "title": "CoverageObservation",
+      "type": "object"
+    },
+    "EmbeddingMetadata": {
+      "properties": {
+        "embedding_id": {
+          "title": "Embedding Id",
+          "type": "string"
+        },
+        "embedding_type": {
+          "title": "Embedding Type",
+          "type": "string"
+        },
+        "model_id": {
+          "title": "Model Id",
+          "type": "string"
+        },
+        "model_version": {
+          "title": "Model Version",
+          "type": "string"
+        },
+        "dimensions": {
+          "exclusiveMinimum": 0,
+          "title": "Dimensions",
+          "type": "integer"
+        },
+        "source_text_hash": {
+          "title": "Source Text Hash",
+          "type": "string"
+        },
+        "generated_at": {
+          "format": "date-time",
+          "title": "Generated At",
+          "type": "string"
+        },
+        "vector_ref": {
+          "title": "Vector Ref",
+          "type": "string"
+        }
+      },
+      "required": [
+        "embedding_id",
+        "embedding_type",
+        "model_id",
+        "model_version",
+        "dimensions",
+        "source_text_hash",
+        "generated_at",
+        "vector_ref"
+      ],
+      "title": "EmbeddingMetadata",
+      "type": "object"
+    },
+    "EvidenceRef": {
+      "properties": {
+        "evidence_id": {
+          "title": "Evidence Id",
+          "type": "string"
+        },
+        "source_type": {
+          "enum": [
+            "regulatory",
+            "organisation_self_report",
+            "independent_reference",
+            "community_contribution"
+          ],
+          "title": "Source Type",
+          "type": "string"
+        },
+        "title": {
+          "title": "Title",
+          "type": "string"
+        },
+        "publisher": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Publisher"
+        },
+        "url": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Url"
+        },
+        "observed_at": {
+          "format": "date",
+          "title": "Observed At",
+          "type": "string"
+        },
+        "reporting_period": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Reporting Period"
+        },
+        "page": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Page"
+        },
+        "section": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Section"
+        },
+        "content_hash": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Content Hash"
+        }
+      },
+      "required": [
+        "evidence_id",
+        "source_type",
+        "title",
+        "observed_at"
+      ],
+      "title": "EvidenceRef",
+      "type": "object"
+    },
+    "ExternalIdentifier": {
+      "description": "An identifier issued by an external system, never the CauseBase primary key.",
+      "properties": {
+        "scheme": {
+          "title": "Scheme",
+          "type": "string"
+        },
+        "value": {
+          "title": "Value",
+          "type": "string"
+        },
+        "source_evidence_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Source Evidence Id"
+        }
+      },
+      "required": [
+        "scheme",
+        "value"
+      ],
+      "title": "ExternalIdentifier",
+      "type": "object"
+    },
+    "FinancialMetricObservation": {
+      "properties": {
+        "financial_record_id": {
+          "title": "Financial Record Id",
+          "type": "string"
+        },
+        "amount": {
+          "$ref": "#/$defs/MoneyObservation"
+        },
+        "metric_source_label": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Metric Source Label"
+        },
+        "evidence_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Evidence Ids",
+          "type": "array"
+        }
+      },
+      "required": [
+        "financial_record_id",
+        "amount"
+      ],
+      "title": "FinancialMetricObservation",
+      "type": "object"
+    },
+    "FinancialMetricSet": {
+      "properties": {
+        "metric": {
+          "enum": [
+            "revenue",
+            "donations",
+            "government_grants",
+            "employee_costs",
+            "total_expenses",
+            "assets",
+            "liabilities"
+          ],
+          "title": "Metric",
+          "type": "string"
+        },
+        "observations": {
+          "items": {
+            "$ref": "#/$defs/FinancialMetricObservation"
+          },
+          "minItems": 1,
+          "title": "Observations",
+          "type": "array"
+        },
+        "reconciliation_status": {
+          "enum": [
+            "single_observation",
+            "agreeing",
+            "precision_consistent",
+            "divergent",
+            "non_comparable",
+            "unresolved"
+          ],
+          "title": "Reconciliation Status",
+          "type": "string"
+        },
+        "reconciliation_notes": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Reconciliation Notes"
+        }
+      },
+      "required": [
+        "metric",
+        "observations",
+        "reconciliation_status"
+      ],
+      "title": "FinancialMetricSet",
+      "type": "object"
+    },
+    "FinancialPeriod": {
+      "properties": {
+        "period_start": {
+          "anyOf": [
+            {
+              "format": "date",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Period Start"
+        },
+        "period_end": {
+          "anyOf": [
+            {
+              "format": "date",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Period End"
+        },
+        "period_length_days": {
+          "anyOf": [
+            {
+              "exclusiveMinimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Period Length Days"
+        },
+        "label": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Label"
+        },
+        "is_transitional_or_nonstandard": {
+          "default": false,
+          "title": "Is Transitional Or Nonstandard",
+          "type": "boolean"
+        }
+      },
+      "title": "FinancialPeriod",
+      "type": "object"
+    },
+    "Financials": {
+      "properties": {
+        "financial_record_id": {
+          "title": "Financial Record Id",
+          "type": "string"
+        },
+        "period": {
+          "$ref": "#/$defs/FinancialPeriod"
+        },
+        "reporting_scope": {
+          "enum": [
+            "subject",
+            "organisation_group",
+            "consolidated_group",
+            "unknown"
+          ],
+          "title": "Reporting Scope",
+          "type": "string"
+        },
+        "reporting_subject_causebase_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Reporting Subject Causebase Id"
+        },
+        "covered_subjects": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Covered Subjects",
+          "type": "array"
+        },
+        "consolidated": {
+          "default": "unknown",
+          "enum": [
+            "true",
+            "false",
+            "unknown"
+          ],
+          "title": "Consolidated",
+          "type": "string"
+        },
+        "attribution_method": {
+          "default": "unknown",
+          "enum": [
+            "direct_subject_report",
+            "group_scope_report",
+            "explicit_allocation",
+            "unknown"
+          ],
+          "title": "Attribution Method",
+          "type": "string"
+        },
+        "evidence_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Evidence Ids",
+          "type": "array"
+        },
+        "revenue": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/MoneyObservation"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "donations": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/MoneyObservation"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "government_grants": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/MoneyObservation"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "employee_costs": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/MoneyObservation"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "total_expenses": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/MoneyObservation"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "assets": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/MoneyObservation"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "liabilities": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/MoneyObservation"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        }
+      },
+      "required": [
+        "financial_record_id",
+        "period",
+        "reporting_scope"
+      ],
+      "title": "Financials",
+      "type": "object"
+    },
+    "FundraisingComponent": {
+      "properties": {
+        "label": {
+          "title": "Label",
+          "type": "string"
+        },
+        "amount": {
+          "$ref": "#/$defs/MoneyObservation"
+        },
+        "evidence_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Evidence Ids",
+          "type": "array"
+        }
+      },
+      "required": [
+        "label",
+        "amount"
+      ],
+      "title": "FundraisingComponent",
+      "type": "object"
+    },
+    "FundraisingEstimate": {
+      "properties": {
+        "normalised_amount": {
+          "anyOf": [
+            {
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+              "type": "string"
+            }
+          ],
+          "title": "Normalised Amount"
+        },
+        "normalised_currency": {
+          "default": "AUD",
+          "title": "Normalised Currency",
+          "type": "string"
+        },
+        "reporting_period_label": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Reporting Period Label"
+        },
+        "financial_record_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Financial Record Id"
+        },
+        "method": {
+          "enum": [
+            "direct_extract",
+            "deterministic_derivation",
+            "heuristic_estimate",
+            "llm_interpretation",
+            "peer_imputation",
+            "fallback_prior"
+          ],
+          "title": "Method",
+          "type": "string"
+        },
+        "confidence": {
+          "enum": [
+            "high",
+            "medium",
+            "low"
+          ],
+          "title": "Confidence",
+          "type": "string"
+        },
+        "evidence_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Evidence Ids",
+          "type": "array"
+        },
+        "components": {
+          "items": {
+            "$ref": "#/$defs/FundraisingComponent"
+          },
+          "title": "Components",
+          "type": "array"
+        },
+        "direct_observation": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/MoneyObservation"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "rule_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Rule Id"
+        },
+        "note": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Note"
+        },
+        "plausible_low": {
+          "anyOf": [
+            {
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Plausible Low"
+        },
+        "plausible_high": {
+          "anyOf": [
+            {
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Plausible High"
+        }
+      },
+      "required": [
+        "normalised_amount",
+        "method",
+        "confidence"
+      ],
+      "title": "FundraisingEstimate",
+      "type": "object"
+    },
+    "MoneyObservation": {
+      "description": "A directly observed amount with source fidelity and exact normalisation.",
+      "properties": {
+        "source_amount": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+              "type": "string"
+            }
+          ],
+          "title": "Source Amount"
+        },
+        "source_currency": {
+          "default": "AUD",
+          "title": "Source Currency",
+          "type": "string"
+        },
+        "source_unit_scale": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+              "type": "string"
+            }
+          ],
+          "default": "1",
+          "title": "Source Unit Scale"
+        },
+        "normalised_amount": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+              "type": "string"
+            }
+          ],
+          "title": "Normalised Amount"
+        },
+        "normalised_currency": {
+          "default": "AUD",
+          "title": "Normalised Currency",
+          "type": "string"
+        },
+        "source_unit_label": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Source Unit Label"
+        },
+        "source_raw_value": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Source Raw Value"
+        },
+        "source_precision": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Source Precision"
+        }
+      },
+      "required": [
+        "source_amount",
+        "normalised_amount"
+      ],
+      "title": "MoneyObservation",
+      "type": "object"
+    },
+    "Opportunity": {
+      "properties": {
+        "opportunity_id": {
+          "title": "Opportunity Id",
+          "type": "string"
+        },
+        "type": {
+          "enum": [
+            "volunteer",
+            "working_bee",
+            "event",
+            "membership",
+            "board",
+            "committee",
+            "advocacy",
+            "other"
+          ],
+          "title": "Type",
+          "type": "string"
+        },
+        "title": {
+          "title": "Title",
+          "type": "string"
+        },
+        "location": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Location"
+        },
+        "source_url": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Source Url"
+        },
+        "first_seen": {
+          "anyOf": [
+            {
+              "format": "date",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "First Seen"
+        },
+        "last_seen": {
+          "anyOf": [
+            {
+              "format": "date",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Last Seen"
+        },
+        "status": {
+          "default": "unknown",
+          "enum": [
+            "current",
+            "stale",
+            "unknown"
+          ],
+          "title": "Status",
+          "type": "string"
+        }
+      },
+      "required": [
+        "opportunity_id",
+        "type",
+        "title"
+      ],
+      "title": "Opportunity",
+      "type": "object"
+    },
+    "Registration": {
+      "properties": {
+        "regulator": {
+          "title": "Regulator",
+          "type": "string"
+        },
+        "registration_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Registration Id"
+        },
+        "status": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Status"
+        },
+        "evidence_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Evidence Ids",
+          "type": "array"
+        }
+      },
+      "required": [
+        "regulator"
+      ],
+      "title": "Registration",
+      "type": "object"
+    },
+    "SourceResolution": {
+      "description": "A source-record-to-subject resolution; uncertainty is a valid persisted state.",
+      "properties": {
+        "source_record_id": {
+          "title": "Source Record Id",
+          "type": "string"
+        },
+        "resolution_status": {
+          "enum": [
+            "resolved",
+            "candidate",
+            "ambiguous",
+            "unresolved"
+          ],
+          "title": "Resolution Status",
+          "type": "string"
+        },
+        "resolution_basis": {
+          "title": "Resolution Basis",
+          "type": "string"
+        },
+        "confidence": {
+          "enum": [
+            "high",
+            "medium",
+            "low"
+          ],
+          "title": "Confidence",
+          "type": "string"
+        },
+        "supporting_signals": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Supporting Signals",
+          "type": "array"
+        },
+        "conflicting_signals": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Conflicting Signals",
+          "type": "array"
+        },
+        "review_status": {
+          "default": "not_required",
+          "enum": [
+            "not_required",
+            "pending",
+            "reviewed"
+          ],
+          "title": "Review Status",
+          "type": "string"
+        }
+      },
+      "required": [
+        "source_record_id",
+        "resolution_status",
+        "resolution_basis",
+        "confidence"
+      ],
+      "title": "SourceResolution",
+      "type": "object"
+    },
+    "SubjectRelationship": {
+      "properties": {
+        "relationship_type": {
+          "enum": [
+            "registered_as",
+            "operates_as",
+            "part_of",
+            "branch_of",
+            "program_of",
+            "auspiced_by",
+            "successor_to"
+          ],
+          "title": "Relationship Type",
+          "type": "string"
+        },
+        "target_causebase_id": {
+          "title": "Target Causebase Id",
+          "type": "string"
+        },
+        "evidence_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Evidence Ids",
+          "type": "array"
+        },
+        "note": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Note"
+        }
+      },
+      "required": [
+        "relationship_type",
+        "target_causebase_id"
+      ],
+      "title": "SubjectRelationship",
+      "type": "object"
+    },
+    "SynthesisMetadata": {
+      "description": "Reproducibility metadata for an evidence-grounded LLM artefact.\n\nPrompts and raw source excerpts are deliberately excluded from the public\ncard: they are private working material. The stable identifiers and hashes\nmake an artefact auditable without publishing copied third-party text.",
+      "properties": {
+        "model_id": {
+          "title": "Model Id",
+          "type": "string"
+        },
+        "prompt_version": {
+          "title": "Prompt Version",
+          "type": "string"
+        },
+        "parameters": {
+          "additionalProperties": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "integer"
+              },
+              {
+                "type": "number"
+              },
+              {
+                "type": "boolean"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "title": "Parameters",
+          "type": "object"
+        },
+        "evidence_input_hash": {
+          "title": "Evidence Input Hash",
+          "type": "string"
+        },
+        "generated_at": {
+          "format": "date-time",
+          "title": "Generated At",
+          "type": "string"
+        },
+        "editorial_policy_version": {
+          "title": "Editorial Policy Version",
+          "type": "string"
+        },
+        "request_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Request Id"
+        },
+        "input_tokens": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Input Tokens"
+        },
+        "output_tokens": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Output Tokens"
+        },
+        "estimated_cost_usd": {
+          "anyOf": [
+            {
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Estimated Cost Usd"
+        }
+      },
+      "required": [
+        "model_id",
+        "prompt_version",
+        "evidence_input_hash",
+        "generated_at",
+        "editorial_policy_version"
+      ],
+      "title": "SynthesisMetadata",
+      "type": "object"
+    },
+    "TaxStatus": {
+      "properties": {
+        "scheme": {
+          "title": "Scheme",
+          "type": "string"
+        },
+        "status": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Status"
+        },
+        "detail": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Detail"
+        },
+        "evidence_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Evidence Ids",
+          "type": "array"
+        }
+      },
+      "required": [
+        "scheme"
+      ],
+      "title": "TaxStatus",
+      "type": "object"
+    }
+  },
+  "properties": {
+    "causebase_id": {
+      "title": "Causebase Id",
+      "type": "string"
+    },
+    "subject_kind": {
+      "default": "organisation",
+      "enum": [
+        "unknown",
+        "organisation",
+        "organisation_group",
+        "legal_entity",
+        "fund",
+        "organisational_unit",
+        "program"
+      ],
+      "title": "Subject Kind",
+      "type": "string"
+    },
+    "external_identifiers": {
+      "items": {
+        "$ref": "#/$defs/ExternalIdentifier"
+      },
+      "title": "External Identifiers",
+      "type": "array"
+    },
+    "registrations": {
+      "items": {
+        "$ref": "#/$defs/Registration"
+      },
+      "title": "Registrations",
+      "type": "array"
+    },
+    "tax_statuses": {
+      "items": {
+        "$ref": "#/$defs/TaxStatus"
+      },
+      "title": "Tax Statuses",
+      "type": "array"
+    },
+    "relationships": {
+      "items": {
+        "$ref": "#/$defs/SubjectRelationship"
+      },
+      "title": "Relationships",
+      "type": "array"
+    },
+    "source_resolutions": {
+      "items": {
+        "$ref": "#/$defs/SourceResolution"
+      },
+      "title": "Source Resolutions",
+      "type": "array"
+    },
+    "legal_name": {
+      "title": "Legal Name",
+      "type": "string"
+    },
+    "display_name": {
+      "title": "Display Name",
+      "type": "string"
+    },
+    "entity_status": {
+      "title": "Entity Status",
+      "type": "string"
+    },
+    "coverage": {
+      "items": {
+        "$ref": "#/$defs/CoverageObservation"
+      },
+      "title": "Coverage",
+      "type": "array"
+    },
+    "enrichment_level": {
+      "anyOf": [
+        {
+          "enum": [
+            "registered",
+            "thin",
+            "enriched",
+            "rich"
+          ],
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Enrichment Level"
+    },
+    "website": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Website"
+    },
+    "geography": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Geography",
+      "type": "array"
+    },
+    "causebase_summary": {
+      "title": "Causebase Summary",
+      "type": "string"
+    },
+    "organisation_self_description": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Organisation Self Description"
+    },
+    "activities": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Activities",
+      "type": "array"
+    },
+    "beneficiaries": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Beneficiaries",
+      "type": "array"
+    },
+    "participation_modes": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Participation Modes",
+      "type": "array"
+    },
+    "opportunities": {
+      "items": {
+        "$ref": "#/$defs/Opportunity"
+      },
+      "title": "Opportunities",
+      "type": "array"
+    },
+    "financial_records": {
+      "items": {
+        "$ref": "#/$defs/Financials"
+      },
+      "title": "Financial Records",
+      "type": "array"
+    },
+    "financial_metrics": {
+      "items": {
+        "$ref": "#/$defs/FinancialMetricSet"
+      },
+      "title": "Financial Metrics",
+      "type": "array"
+    },
+    "fundraising_expenditure": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/FundraisingEstimate"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    },
+    "classifications": {
+      "items": {
+        "$ref": "#/$defs/Classification"
+      },
+      "title": "Classifications",
+      "type": "array"
+    },
+    "evidence": {
+      "items": {
+        "$ref": "#/$defs/EvidenceRef"
+      },
+      "title": "Evidence",
+      "type": "array"
+    },
+    "embedding": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/EmbeddingMetadata"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    },
+    "synthesis": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/SynthesisMetadata"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    },
+    "dataset_version": {
+      "title": "Dataset Version",
+      "type": "string"
+    },
+    "card_schema_version": {
+      "default": "0.1",
+      "title": "Card Schema Version",
+      "type": "string"
+    },
+    "editorial_policy_version": {
+      "default": "0.1",
+      "title": "Editorial Policy Version",
+      "type": "string"
+    },
+    "generator_version": {
+      "default": "0.1.0",
+      "title": "Generator Version",
+      "type": "string"
+    },
+    "built_at": {
+      "format": "date-time",
+      "title": "Built At",
+      "type": "string"
+    }
+  },
+  "required": [
+    "causebase_id",
+    "legal_name",
+    "display_name",
+    "entity_status",
+    "causebase_summary",
+    "dataset_version",
+    "built_at"
+  ],
+  "title": "CauseBaseCard",
+  "type": "object"
+}

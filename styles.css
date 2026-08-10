@@ -1,0 +1,186 @@
+:root {
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #202124;
+  background: #f7f7f5;
+  line-height: 1.45;
+}
+* { box-sizing: border-box; }
+body { margin: 0; }
+a { color: inherit; }
+
+.site-header {
+  min-height: 56px;
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #d9d9d5;
+  background: white;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+.site-header strong { margin-right: 12px; }
+.site-header span, .muted { color: #6b6b66; }
+.site-header nav { font-size: 0.9rem; }
+.test-marker { color: #6b6b66; font-size: .78rem; margin-left: 8px; }
+.site-header nav { display: flex; gap: 14px; }
+
+.layout {
+  display: grid;
+  grid-template-columns: minmax(280px, 34%) 1fr;
+  min-height: calc(100vh - 56px);
+}
+
+.index-pane {
+  border-right: 1px solid #d9d9d5;
+  background: #fbfbf9;
+  padding: 18px;
+  min-width: 0;
+}
+.index-pane label {
+  display: block;
+  font-weight: 650;
+  margin-bottom: 8px;
+}
+.index-pane input {
+  width: 100%;
+  border: 1px solid #b9b9b4;
+  border-radius: 6px;
+  padding: 10px 12px;
+  font-size: 1rem;
+  background: white;
+}
+
+.results {
+  margin-top: 12px;
+  display: grid;
+  gap: 6px;
+}
+.result {
+  text-align: left;
+  border: 1px solid transparent;
+  background: transparent;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.result:hover, .result.selected {
+  background: white;
+  border-color: #d4d4cf;
+}
+.result strong, .result span, .result small {
+  display: block;
+}
+.result span { color: #555; margin-top: 3px; }
+.result small { color: #777; margin-top: 4px; }
+
+.card-pane {
+  padding: 28px clamp(20px, 4vw, 60px);
+  max-width: 1050px;
+}
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  border-bottom: 1px solid #d9d9d5;
+  padding-bottom: 18px;
+}
+.card-header h1 { margin: 4px 0; font-size: 2rem; }
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  font-size: .75rem;
+  font-weight: 700;
+  color: #6b6b66;
+}
+.badge {
+  height: fit-content;
+  border: 1px solid #aaa;
+  border-radius: 999px;
+  padding: 4px 9px;
+  font-size: .82rem;
+}
+section {
+  padding: 20px 0;
+  border-bottom: 1px solid #e0e0dc;
+}
+section h2 { font-size: 1.1rem; margin: 0 0 10px; }
+section h4 { margin-bottom: 4px; }
+.summary { font-size: 1.15rem; }
+blockquote {
+  margin: 0;
+  border-left: 3px solid #c7c7c2;
+  padding-left: 14px;
+  color: #555;
+}
+.section-title {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+}
+.edit-link { font-size: .85rem; color: #555; }
+.columns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+ul { padding-left: 20px; }
+.facts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin: 0 0 12px;
+}
+.facts div {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 10px;
+  background: #fff;
+}
+.facts dt { color: #666; font-size: .82rem; }
+.facts dd { margin: 3px 0 0; font-weight: 700; }
+.estimate-note {
+  background: #f1f1ee;
+  border-radius: 6px;
+  padding: 12px;
+}
+.taxonomy-block code { color: #666; }
+.evidence-list li, .neighbour-list li { margin-bottom: 8px; }
+.evidence-list span { color: #666; margin-left: 6px; }
+.link-button {
+  border: 0;
+  padding: 0;
+  background: none;
+  text-decoration: underline;
+  cursor: pointer;
+  font: inherit;
+}
+.neighbour-list span { color: #777; margin-left: 8px; font-size: .85rem; }
+footer {
+  color: #777;
+  font-size: .82rem;
+  padding: 20px 0 50px;
+}
+.empty { padding: 40px 0; color: #666; }
+
+.correction-page {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 36px 22px;
+}
+.correction-box {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 18px;
+}
+
+@media (max-width: 780px) {
+  .layout { display: block; }
+  .index-pane { border-right: 0; border-bottom: 1px solid #d9d9d5; }
+  .columns, .facts { grid-template-columns: 1fr; }
+  .site-header span { display: none; }
+  .test-marker { display: none; }
+}
