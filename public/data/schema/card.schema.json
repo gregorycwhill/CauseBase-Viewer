@@ -1,0 +1,905 @@
+{
+  "$defs": {
+    "Classification": {
+      "properties": {
+        "taxonomy_id": {
+          "title": "Taxonomy Id",
+          "type": "string"
+        },
+        "taxonomy_version": {
+          "title": "Taxonomy Version",
+          "type": "string"
+        },
+        "term_id": {
+          "title": "Term Id",
+          "type": "string"
+        },
+        "term_label": {
+          "title": "Term Label",
+          "type": "string"
+        },
+        "assignment_method": {
+          "enum": [
+            "source_native",
+            "deterministic_mapping",
+            "llm_classification",
+            "community_contribution",
+            "fixture"
+          ],
+          "title": "Assignment Method",
+          "type": "string"
+        },
+        "confidence": {
+          "anyOf": [
+            {
+              "enum": [
+                "high",
+                "medium",
+                "low"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Confidence"
+        },
+        "evidence_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Evidence Ids",
+          "type": "array"
+        }
+      },
+      "required": [
+        "taxonomy_id",
+        "taxonomy_version",
+        "term_id",
+        "term_label",
+        "assignment_method"
+      ],
+      "title": "Classification",
+      "type": "object"
+    },
+    "CoverageCapabilities": {
+      "description": "Explicit observed coverage; any enrichment label is a convenience summary.",
+      "properties": {
+        "regulatory": {
+          "default": false,
+          "title": "Regulatory",
+          "type": "boolean"
+        },
+        "financials": {
+          "default": false,
+          "title": "Financials",
+          "type": "boolean"
+        },
+        "annual_report": {
+          "default": false,
+          "title": "Annual Report",
+          "type": "boolean"
+        },
+        "website": {
+          "default": false,
+          "title": "Website",
+          "type": "boolean"
+        },
+        "current_activity": {
+          "default": false,
+          "title": "Current Activity",
+          "type": "boolean"
+        },
+        "llm_card": {
+          "default": false,
+          "title": "Llm Card",
+          "type": "boolean"
+        },
+        "causebase_taxonomy": {
+          "default": false,
+          "title": "Causebase Taxonomy",
+          "type": "boolean"
+        },
+        "external_taxonomies": {
+          "default": false,
+          "title": "External Taxonomies",
+          "type": "boolean"
+        },
+        "embedding": {
+          "default": false,
+          "title": "Embedding",
+          "type": "boolean"
+        },
+        "fundraising_estimate_method": {
+          "anyOf": [
+            {
+              "enum": [
+                "direct_extract",
+                "deterministic_derivation",
+                "heuristic_estimate",
+                "llm_interpretation",
+                "peer_imputation",
+                "fallback_prior"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Fundraising Estimate Method"
+        }
+      },
+      "title": "CoverageCapabilities",
+      "type": "object"
+    },
+    "EmbeddingMetadata": {
+      "properties": {
+        "embedding_id": {
+          "title": "Embedding Id",
+          "type": "string"
+        },
+        "embedding_type": {
+          "title": "Embedding Type",
+          "type": "string"
+        },
+        "model_id": {
+          "title": "Model Id",
+          "type": "string"
+        },
+        "model_version": {
+          "title": "Model Version",
+          "type": "string"
+        },
+        "dimensions": {
+          "exclusiveMinimum": 0,
+          "title": "Dimensions",
+          "type": "integer"
+        },
+        "source_text_hash": {
+          "title": "Source Text Hash",
+          "type": "string"
+        },
+        "generated_at": {
+          "format": "date-time",
+          "title": "Generated At",
+          "type": "string"
+        },
+        "vector_ref": {
+          "title": "Vector Ref",
+          "type": "string"
+        }
+      },
+      "required": [
+        "embedding_id",
+        "embedding_type",
+        "model_id",
+        "model_version",
+        "dimensions",
+        "source_text_hash",
+        "generated_at",
+        "vector_ref"
+      ],
+      "title": "EmbeddingMetadata",
+      "type": "object"
+    },
+    "EvidenceRef": {
+      "properties": {
+        "evidence_id": {
+          "title": "Evidence Id",
+          "type": "string"
+        },
+        "source_type": {
+          "enum": [
+            "regulatory",
+            "organisation_self_report",
+            "independent_reference",
+            "community_contribution"
+          ],
+          "title": "Source Type",
+          "type": "string"
+        },
+        "title": {
+          "title": "Title",
+          "type": "string"
+        },
+        "publisher": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Publisher"
+        },
+        "url": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Url"
+        },
+        "observed_at": {
+          "format": "date",
+          "title": "Observed At",
+          "type": "string"
+        },
+        "reporting_period": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Reporting Period"
+        },
+        "page": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Page"
+        },
+        "section": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Section"
+        },
+        "content_hash": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Content Hash"
+        }
+      },
+      "required": [
+        "evidence_id",
+        "source_type",
+        "title",
+        "observed_at"
+      ],
+      "title": "EvidenceRef",
+      "type": "object"
+    },
+    "ExternalIdentifier": {
+      "description": "An identifier issued by an external system, never the CauseBase primary key.",
+      "properties": {
+        "scheme": {
+          "title": "Scheme",
+          "type": "string"
+        },
+        "value": {
+          "title": "Value",
+          "type": "string"
+        },
+        "source_evidence_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Source Evidence Id"
+        }
+      },
+      "required": [
+        "scheme",
+        "value"
+      ],
+      "title": "ExternalIdentifier",
+      "type": "object"
+    },
+    "Financials": {
+      "properties": {
+        "period": {
+          "title": "Period",
+          "type": "string"
+        },
+        "revenue": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Revenue"
+        },
+        "donations": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Donations"
+        },
+        "government_grants": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Government Grants"
+        },
+        "employee_costs": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Employee Costs"
+        },
+        "total_expenses": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Total Expenses"
+        },
+        "assets": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Assets"
+        },
+        "liabilities": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Liabilities"
+        }
+      },
+      "required": [
+        "period"
+      ],
+      "title": "Financials",
+      "type": "object"
+    },
+    "FundraisingComponent": {
+      "properties": {
+        "label": {
+          "title": "Label",
+          "type": "string"
+        },
+        "value": {
+          "title": "Value",
+          "type": "number"
+        },
+        "evidence_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Evidence Ids",
+          "type": "array"
+        }
+      },
+      "required": [
+        "label",
+        "value"
+      ],
+      "title": "FundraisingComponent",
+      "type": "object"
+    },
+    "FundraisingEstimate": {
+      "properties": {
+        "value": {
+          "minimum": 0,
+          "title": "Value",
+          "type": "number"
+        },
+        "currency": {
+          "default": "AUD",
+          "title": "Currency",
+          "type": "string"
+        },
+        "period": {
+          "title": "Period",
+          "type": "string"
+        },
+        "method": {
+          "enum": [
+            "direct_extract",
+            "deterministic_derivation",
+            "heuristic_estimate",
+            "llm_interpretation",
+            "peer_imputation",
+            "fallback_prior"
+          ],
+          "title": "Method",
+          "type": "string"
+        },
+        "confidence": {
+          "enum": [
+            "high",
+            "medium",
+            "low"
+          ],
+          "title": "Confidence",
+          "type": "string"
+        },
+        "evidence_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Evidence Ids",
+          "type": "array"
+        },
+        "components": {
+          "items": {
+            "$ref": "#/$defs/FundraisingComponent"
+          },
+          "title": "Components",
+          "type": "array"
+        },
+        "rule_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Rule Id"
+        },
+        "note": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Note"
+        },
+        "plausible_low": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Plausible Low"
+        },
+        "plausible_high": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Plausible High"
+        }
+      },
+      "required": [
+        "value",
+        "period",
+        "method",
+        "confidence"
+      ],
+      "title": "FundraisingEstimate",
+      "type": "object"
+    },
+    "Opportunity": {
+      "properties": {
+        "opportunity_id": {
+          "title": "Opportunity Id",
+          "type": "string"
+        },
+        "type": {
+          "enum": [
+            "volunteer",
+            "working_bee",
+            "event",
+            "membership",
+            "board",
+            "committee",
+            "advocacy",
+            "other"
+          ],
+          "title": "Type",
+          "type": "string"
+        },
+        "title": {
+          "title": "Title",
+          "type": "string"
+        },
+        "location": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Location"
+        },
+        "source_url": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Source Url"
+        },
+        "first_seen": {
+          "anyOf": [
+            {
+              "format": "date",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "First Seen"
+        },
+        "last_seen": {
+          "anyOf": [
+            {
+              "format": "date",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Last Seen"
+        },
+        "status": {
+          "default": "unknown",
+          "enum": [
+            "current",
+            "stale",
+            "unknown"
+          ],
+          "title": "Status",
+          "type": "string"
+        }
+      },
+      "required": [
+        "opportunity_id",
+        "type",
+        "title"
+      ],
+      "title": "Opportunity",
+      "type": "object"
+    },
+    "SubjectRelationship": {
+      "properties": {
+        "relationship_type": {
+          "enum": [
+            "registered_as",
+            "operates_as",
+            "part_of",
+            "branch_of",
+            "program_of",
+            "auspiced_by",
+            "successor_to"
+          ],
+          "title": "Relationship Type",
+          "type": "string"
+        },
+        "target_causebase_id": {
+          "title": "Target Causebase Id",
+          "type": "string"
+        },
+        "evidence_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Evidence Ids",
+          "type": "array"
+        },
+        "note": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Note"
+        }
+      },
+      "required": [
+        "relationship_type",
+        "target_causebase_id"
+      ],
+      "title": "SubjectRelationship",
+      "type": "object"
+    }
+  },
+  "properties": {
+    "causebase_id": {
+      "title": "Causebase Id",
+      "type": "string"
+    },
+    "subject_type": {
+      "default": "organisation",
+      "enum": [
+        "organisation",
+        "legal_entity",
+        "fund",
+        "branch",
+        "program",
+        "operating_unit",
+        "other"
+      ],
+      "title": "Subject Type",
+      "type": "string"
+    },
+    "external_identifiers": {
+      "items": {
+        "$ref": "#/$defs/ExternalIdentifier"
+      },
+      "title": "External Identifiers",
+      "type": "array"
+    },
+    "relationships": {
+      "items": {
+        "$ref": "#/$defs/SubjectRelationship"
+      },
+      "title": "Relationships",
+      "type": "array"
+    },
+    "legal_name": {
+      "title": "Legal Name",
+      "type": "string"
+    },
+    "display_name": {
+      "title": "Display Name",
+      "type": "string"
+    },
+    "entity_status": {
+      "title": "Entity Status",
+      "type": "string"
+    },
+    "coverage": {
+      "$ref": "#/$defs/CoverageCapabilities"
+    },
+    "enrichment_level": {
+      "anyOf": [
+        {
+          "enum": [
+            "registered",
+            "thin",
+            "enriched",
+            "rich"
+          ],
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Enrichment Level"
+    },
+    "website": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Website"
+    },
+    "geography": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Geography",
+      "type": "array"
+    },
+    "causebase_summary": {
+      "title": "Causebase Summary",
+      "type": "string"
+    },
+    "organisation_self_description": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Organisation Self Description"
+    },
+    "activities": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Activities",
+      "type": "array"
+    },
+    "beneficiaries": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Beneficiaries",
+      "type": "array"
+    },
+    "participation_modes": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Participation Modes",
+      "type": "array"
+    },
+    "opportunities": {
+      "items": {
+        "$ref": "#/$defs/Opportunity"
+      },
+      "title": "Opportunities",
+      "type": "array"
+    },
+    "financials": {
+      "$ref": "#/$defs/Financials"
+    },
+    "fundraising_expenditure": {
+      "$ref": "#/$defs/FundraisingEstimate"
+    },
+    "classifications": {
+      "items": {
+        "$ref": "#/$defs/Classification"
+      },
+      "title": "Classifications",
+      "type": "array"
+    },
+    "evidence": {
+      "items": {
+        "$ref": "#/$defs/EvidenceRef"
+      },
+      "title": "Evidence",
+      "type": "array"
+    },
+    "embedding": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/EmbeddingMetadata"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    },
+    "dataset_version": {
+      "title": "Dataset Version",
+      "type": "string"
+    },
+    "card_schema_version": {
+      "default": "0.1",
+      "title": "Card Schema Version",
+      "type": "string"
+    },
+    "editorial_policy_version": {
+      "default": "0.1",
+      "title": "Editorial Policy Version",
+      "type": "string"
+    },
+    "generator_version": {
+      "default": "0.1.0",
+      "title": "Generator Version",
+      "type": "string"
+    },
+    "built_at": {
+      "format": "date-time",
+      "title": "Built At",
+      "type": "string"
+    }
+  },
+  "required": [
+    "causebase_id",
+    "legal_name",
+    "display_name",
+    "entity_status",
+    "causebase_summary",
+    "financials",
+    "fundraising_expenditure",
+    "dataset_version",
+    "built_at"
+  ],
+  "title": "CauseBaseCard",
+  "type": "object"
+}

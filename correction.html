@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Suggest a CauseBase correction</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <main class="correction-page">
+    <p><a href="./index.html">← CauseBase Viewer</a></p>
+    <h1>Suggest a correction</h1>
+    <p>
+      CauseBase is built from public evidence and may be incomplete or wrong.
+      This demo page shows the context that a future form will prefill; it does not submit anywhere yet.
+    </p>
+    <div id="context" class="correction-box"></div>
+  </main>
+  <script>
+    const p = new URLSearchParams(location.search);
+    const safe = value => String(value ?? "").replace(/[&<>"']/g, ch => ({
+      "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"
+    }[ch]));
+    document.querySelector("#context").innerHTML = `
+      <p><strong>Organisation:</strong> ${safe(p.get("organisation"))}</p>
+      <p><strong>CauseBase subject:</strong> ${safe(p.get("causebase_id"))}</p>
+      <p><strong>Field:</strong> ${safe(p.get("field"))}</p>
+      <p><strong>Current value:</strong> ${safe(p.get("current_value"))}</p>
+      <p><strong>Dataset version:</strong> ${safe(p.get("dataset_version"))}</p>
+      <hr>
+      <p><em>Next implementation step: connect this context to the chosen public intake form / proposal ledger.</em></p>
+    `;
+  </script>
+</body>
+</html>

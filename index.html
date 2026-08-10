@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>CauseBase Viewer</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div>
+      <strong>CauseBase Viewer</strong>
+      <span>Inspect Australian charity data</span>
+    </div>
+    <nav>
+      <a href="./public/data/manifest.json">Dataset manifest</a>
+    </nav>
+  </header>
+
+  <main class="layout">
+    <aside class="index-pane">
+      <label for="search">Search CauseBase</label>
+      <input id="search" type="search" placeholder="name, place, activity, taxonomy…">
+      <p id="result-count" class="muted"></p>
+      <div id="results" class="results" role="list"></div>
+    </aside>
+
+    <article id="card" class="card-pane">
+      <div class="empty">Loading CauseBase…</div>
+    </article>
+  </main>
+
+  <script type="module" src="./src/app.js"></script>
+</body>
+</html>

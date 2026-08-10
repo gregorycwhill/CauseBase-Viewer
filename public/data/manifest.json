@@ -1,0 +1,74 @@
+{
+  "dataset": "CauseBase",
+  "dataset_version": "demo-0.1",
+  "card_schema_version": "0.1",
+  "editorial_policy_version": "0.1",
+  "generator_version": "0.1.0",
+  "entity_count": 3,
+  "enriched_count": 3,
+  "fundraising_method_counts": {
+    "direct_extract": 1,
+    "fallback_prior": 1,
+    "heuristic_estimate": 1
+  },
+  "embedding": {
+    "model_id": "causebase-demo-hash-embedding",
+    "model_version": "0.1",
+    "note": "Demo deterministic embedding only; not semantically meaningful."
+  },
+  "parquet_status": "written",
+  "validation": {
+    "status": "passed",
+    "errors": []
+  },
+  "artefacts": {
+    "cards/8f/8ffe9836ffd1b753f831ab1830268ac2387d8ad85069d9228d0cf68c98ce5995.md": {
+      "bytes": 2190,
+      "sha256": "86adf14df8c155ce759e06e9413f06f9dcc87e721f280225e1876748a5174b07"
+    },
+    "cards/97/97856f04f1fc749e44cf940b9fac0cd092d24a6c4696ca296d2b4c8aacc78a15.md": {
+      "bytes": 2108,
+      "sha256": "eb6ad909415e47fd25ca8048b84926aa4079609d1568ad6e1a67c6ec5406793c"
+    },
+    "cards/ec/ec333ff0377f1be7da4962cb5e61905f58c9cf99208e6591fb55cabc0c73e69d.md": {
+      "bytes": 2148,
+      "sha256": "65a6ff4bffdbcdcf91d63270ea6fb6bf7dba06eea3b77373b174fe9bbc12ef1d"
+    },
+    "causebase.csv": {
+      "bytes": 3610,
+      "sha256": "bc11c89e3722a2a00ff0d335261637df76f9b85810b3b4b37681b008a4c6e4af"
+    },
+    "causebase.json": {
+      "bytes": 16938,
+      "sha256": "17d2f7b59ca894da234a0aa2f8360ee270f1b921e69afffdfc0153afce468ec9"
+    },
+    "causebase.jsonl": {
+      "bytes": 12356,
+      "sha256": "0aa84476cc0ae67b8d6723296bcadb9749e09ed426dd4247b6c9debc5adb488e"
+    },
+    "causebase.parquet": {
+      "bytes": 18394,
+      "sha256": "76a1ce5b98624345296228db07ad2f4b7cacaee42e75419087f8c94d31e9f3ea"
+    },
+    "embeddings.json": {
+      "bytes": 2518,
+      "sha256": "5ea9cda5fe8b4c30f6afb4b2edd81d87c27c647fa5a56cc96172fc517ea8d4ef"
+    },
+    "embeddings.parquet": {
+      "bytes": 6544,
+      "sha256": "b60bee3e9647945fea941d74144370746bcb948fbbe3eee0fcfb54588f1e197b"
+    },
+    "schema/card.schema.json": {
+      "bytes": 20625,
+      "sha256": "5dd712e8c4f0feb56685fb6401478f33770f68ee13b04648ce080467abe3ef46"
+    },
+    "similarities.json": {
+      "bytes": 1989,
+      "sha256": "4933c91c4200a606560fb8f5319043187b9f88744b49fa7a49abec93fd226924"
+    },
+    "similarities.parquet": {
+      "bytes": 5620,
+      "sha256": "11af6ba96f2ee54c15be87f549d13ac2822e9caac87f1e5205d0abdc22a8d095"
+    }
+  }
+}
