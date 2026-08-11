@@ -2,11 +2,11 @@
 
 **CauseBase subject:** `cb_51c98d3295fb4a8fbcfeb8cece6b8412`
 **Subject kind:** unknown
-**Coverage:** `[{"capability": "regulatory", "evidence_ids": ["ev:acnc:21697650652"], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "observed"}, {"capability": "annual_report", "evidence_ids": [], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "not_yet_processed"}, {"capability": "website", "evidence_ids": [], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "not_available_from_source"}, {"capability": "fundraising_expenditure", "evidence_ids": [], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "not_yet_processed"}, {"capability": "financials", "evidence_ids": ["ev:ais:21697650652:2023"], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "observed"}, {"capability": "fundraising_expenditure", "evidence_ids": [], "freshness_note": "No direct or defensible derived fundraising expenditure was found in selected Phase 2A evidence.", "observed_at": "2026-08-10", "source_record_id": null, "status": "not_available_from_source"}]`
+**Coverage:** `[{"capability": "regulatory", "evidence_ids": ["ev:acnc:21697650652"], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "observed"}, {"capability": "annual_report", "evidence_ids": [], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "not_yet_processed"}, {"capability": "website", "evidence_ids": [], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "not_available_from_source"}, {"capability": "fundraising_expenditure", "evidence_ids": [], "freshness_note": "No direct or defensible derived fundraising expenditure was found in selected Phase 2A evidence.", "observed_at": "2026-08-10", "source_record_id": null, "status": "not_available_from_source"}, {"capability": "financials", "evidence_ids": ["ev:ais:21697650652:2023"], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "observed"}]`
 
 ## CauseBase summary
 
-Aussie Vets PTSD Group Incorporated is an ACNC-registered entity recorded in the Australian Capital Territory. The organisation appears in the ACNC register and submitted an Annual Information Statement covering 1 July 2022 to 30 June 2023. In that AIS the organisation reported revenue of AU$3,753 and total expenses of AU$3,000 for the period; the financial figures are presented as a direct subject report. The supplied evidence package does not include a website, program descriptions, lists of beneficiaries, staff or volunteers, or other operational detail. Registry and AIS records were the sources observed for this card.
+Aussie Vets PTSD Group Incorporated appears on the Australian Charities and Not-for-profits Commission register under that legal name. The supplied regulatory evidence includes an ACNC register extract and the organisation’s Annual Information Statement (AIS) for the reporting period 1 July 2022 to 30 June 2023. The evidence lists the organisation’s structured geography as the Australian Capital Territory (ACT). No website, public description, program details or beneficiary lists were included in the supplied records. The AIS for 2022–23 reports revenue of AUD 3,753 and total expenses of AUD 3,000. Beyond the legal name, register entry and these headline financial figures, the supplied evidence does not describe specific activities, services, beneficiaries or modes of participation.
 
 ## Activities
 
@@ -49,7 +49,7 @@ Aussie Vets PTSD Group Incorporated is an ACNC-registered entity recorded in the
 
 ## Build
 
-- Dataset version: `phase2a-2026-08-10`
+- Dataset version: `phase2a-2026-08-10-h1`
 - Card schema: `0.1`
 - Editorial policy: `0.1`
-- Built: 2026-08-10T13:04:18.597961+00:00
+- Built: 2026-08-10T13:51:56.704823+00:00

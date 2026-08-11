@@ -66,11 +66,11 @@
     },
     {
       "capability": "fundraising_expenditure",
-      "status": "not_yet_processed",
+      "status": "not_available_from_source",
       "source_record_id": null,
       "evidence_ids": [],
       "observed_at": "2026-08-10",
-      "freshness_note": null
+      "freshness_note": "No direct or defensible derived fundraising expenditure was found in selected Phase 2A evidence."
     },
     {
       "capability": "financials",
@@ -81,14 +81,6 @@
       ],
       "observed_at": "2026-08-10",
       "freshness_note": null
-    },
-    {
-      "capability": "fundraising_expenditure",
-      "status": "not_available_from_source",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": "No direct or defensible derived fundraising expenditure was found in selected Phase 2A evidence."
     }
   ],
   "enrichment_level": "enriched",
@@ -230,10 +222,7 @@
       "term_label": "Local or regional Australia",
       "assignment_method": "llm_classification",
       "confidence": "medium",
-      "evidence_ids": [
-        "ev:acnc:40920336423",
-        "ev:ais:40920336423:2023"
-      ]
+      "evidence_ids": []
     },
     {
       "taxonomy_id": "causebase",
@@ -242,10 +231,7 @@
       "term_label": "Local organisation",
       "assignment_method": "llm_classification",
       "confidence": "medium",
-      "evidence_ids": [
-        "ev:acnc:40920336423",
-        "ev:ais:40920336423:2023"
-      ]
+      "evidence_ids": []
     }
   ],
   "evidence": [
@@ -281,7 +267,7 @@
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
     "source_text_hash": "b6b20b6da8eb205fcf4bf1f0ceb58cde6fcbf09ff88d3e58fb5e19cd2a7bfb6d",
-    "generated_at": "2026-08-10T13:05:03.505220Z",
+    "generated_at": "2026-08-10T13:53:24.457051Z",
     "vector_ref": "embeddings.parquet#cb_702846f4dd1d418db5fbc98d68647cf9"
   },
   "synthesis": {
@@ -293,15 +279,11 @@
     },
     "evidence_input_hash": "bfc15493aa09c32584573ac0a6997481880e22447c265eff7d4ff5bb3e8360cf",
     "generated_at": "2026-08-10T12:55:08.996088Z",
-    "editorial_policy_version": "0.1",
-    "request_id": "resp_0733f1e1afef968e006a79ca185110819a942a1962282e48ce",
-    "input_tokens": 1637,
-    "output_tokens": 1293,
-    "estimated_cost_usd": "0.002995"
+    "editorial_policy_version": "0.1"
   },
-  "dataset_version": "phase2a-2026-08-10",
+  "dataset_version": "phase2a-2026-08-10-h1",
   "card_schema_version": "0.1",
   "editorial_policy_version": "0.1",
   "generator_version": "0.1.0",
-  "built_at": "2026-08-10T13:04:18.595564Z"
+  "built_at": "2026-08-10T13:51:56.704561Z"
 }

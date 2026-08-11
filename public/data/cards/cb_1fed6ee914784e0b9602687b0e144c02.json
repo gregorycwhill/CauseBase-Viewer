@@ -66,11 +66,11 @@
     },
     {
       "capability": "fundraising_expenditure",
-      "status": "not_yet_processed",
+      "status": "not_available_from_source",
       "source_record_id": null,
       "evidence_ids": [],
       "observed_at": "2026-08-10",
-      "freshness_note": null
+      "freshness_note": "No direct or defensible derived fundraising expenditure was found in selected Phase 2A evidence."
     },
     {
       "capability": "financials",
@@ -81,14 +81,6 @@
       ],
       "observed_at": "2026-08-10",
       "freshness_note": null
-    },
-    {
-      "capability": "fundraising_expenditure",
-      "status": "not_available_from_source",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": "No direct or defensible derived fundraising expenditure was found in selected Phase 2A evidence."
     }
   ],
   "enrichment_level": "enriched",
@@ -257,7 +249,7 @@
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
     "source_text_hash": "54c234b5cbdc007448b3977a7a7ae73cfb3c2001c2596915eb78376c3afb44f6",
-    "generated_at": "2026-08-10T13:05:03.505954Z",
+    "generated_at": "2026-08-10T13:53:24.458036Z",
     "vector_ref": "embeddings.parquet#cb_1fed6ee914784e0b9602687b0e144c02"
   },
   "synthesis": {
@@ -269,15 +261,11 @@
     },
     "evidence_input_hash": "c58fc052e8e5c3842dee7b1a00a2b585cb97e7f05ff538df9560465040566c41",
     "generated_at": "2026-08-10T13:00:15.404851Z",
-    "editorial_policy_version": "0.1",
-    "request_id": "resp_05e077f9675602ae006a79cb508b488199a5363c7530394109",
-    "input_tokens": 1626,
-    "output_tokens": 974,
-    "estimated_cost_usd": "0.002354"
+    "editorial_policy_version": "0.1"
   },
-  "dataset_version": "phase2a-2026-08-10",
+  "dataset_version": "phase2a-2026-08-10-h1",
   "card_schema_version": "0.1",
   "editorial_policy_version": "0.1",
   "generator_version": "0.1.0",
-  "built_at": "2026-08-10T13:04:18.702683Z"
+  "built_at": "2026-08-10T13:51:56.718389Z"
 }

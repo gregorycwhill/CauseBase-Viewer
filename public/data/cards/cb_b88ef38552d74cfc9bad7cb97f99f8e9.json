@@ -86,7 +86,7 @@
   "geography": [
     "Western Australia"
   ],
-  "causebase_summary": "Greenbushes Community Shed appears on an Australian Charities and Not-for-profits Commission (ACNC) register extract under the legal name Greenbushes Community Shed (source observed 10 August 2026). The only structured location information in the supplied evidence is the state abbreviation “WA” (Western Australia). No website, publicly available self-description, program details, beneficiary groups, participation modes or financial statements were included in the provided evidence pack. The supplied records note that annual report and website information were not available from the source and that financial records were not found or not yet processed in the pack.",
+  "causebase_summary": "Greenbushes Community Shed is a registered entity on the Australian Charities and Not-for-profits Commission (ACNC) register with its recorded location in Western Australia. CauseBase has not located a website, public self-description, annual report text, or financial statements in the supplied sources, and the ACNC extract in this release does not provide further descriptive detail about the group’s activities, services, beneficiaries or participation methods. No organisation-authored program descriptions or activity lists were available in the provided evidence. The name and registration entry are recorded facts from the regulatory extract; any additional statements about purpose, programmes or operations were not included in the supplied material and therefore are not represented here.",
   "organisation_self_description": null,
   "activities": [],
   "beneficiaries": [],
@@ -117,6 +117,24 @@
       "evidence_ids": [
         "ev:acnc:92259617291"
       ]
+    },
+    {
+      "taxonomy_id": "causebase",
+      "taxonomy_version": "0.1-phase2a",
+      "term_id": "geography.australia",
+      "term_label": "Australia",
+      "assignment_method": "llm_classification",
+      "confidence": "medium",
+      "evidence_ids": []
+    },
+    {
+      "taxonomy_id": "causebase",
+      "taxonomy_version": "0.1-phase2a",
+      "term_id": "geography.local_or_regional",
+      "term_label": "Local or regional Australia",
+      "assignment_method": "llm_classification",
+      "confidence": "medium",
+      "evidence_ids": []
     }
   ],
   "evidence": [
@@ -139,28 +157,24 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "1e4c7ae448a3514a5f663f570a858dc414810f0d6936677d7a73f29243b4ed38",
-    "generated_at": "2026-08-10T13:05:03.504691Z",
+    "source_text_hash": "7fcefd64c31cf4e12521329d248b16bd38351d4c259b8df85412e2fd53e7735e",
+    "generated_at": "2026-08-10T13:53:24.456400Z",
     "vector_ref": "embeddings.parquet#cb_b88ef38552d74cfc9bad7cb97f99f8e9"
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2a-0.5",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
     "evidence_input_hash": "93051e064a45e866055cfc87407287da243d625681858a061a9d2ecee28596e1",
-    "generated_at": "2026-08-10T12:50:51.479169Z",
-    "editorial_policy_version": "0.1",
-    "request_id": "resp_0c7676610bc6da1c006a79c91f2ea8819aa4f05654b56f0b9a",
-    "input_tokens": 1194,
-    "output_tokens": 846,
-    "estimated_cost_usd": "0.001990"
+    "generated_at": "2026-08-10T13:50:50.710041Z",
+    "editorial_policy_version": "0.1"
   },
-  "dataset_version": "phase2a-2026-08-10",
+  "dataset_version": "phase2a-2026-08-10-h1",
   "card_schema_version": "0.1",
   "editorial_policy_version": "0.1",
   "generator_version": "0.1.0",
-  "built_at": "2026-08-10T13:04:18.515585Z"
+  "built_at": "2026-08-10T13:51:56.687013Z"
 }

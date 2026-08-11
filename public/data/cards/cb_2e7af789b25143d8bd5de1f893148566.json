@@ -84,9 +84,9 @@
   "enrichment_level": "enriched",
   "website": null,
   "geography": [
-    "Queensland (QLD), Australia"
+    "Queensland (QLD)"
   ],
-  "causebase_summary": "Darumbal People Aboriginal Corporation RNTBC is recorded by the ACNC Register (extract observed 2026-08-10) under the legal and display name shown. The organisation’s name includes the abbreviation RNTBC. The only structured geography in the supplied evidence is Queensland (QLD). No website, descriptive statement, activity list, beneficiary categories or participation options were provided in the supplied sources. The evidence pack shows the ACNC regulatory extract as the sole observed source; an annual report is listed as not yet processed, and financial records or fundraising expenditure were not found in the supplied material.",
+  "causebase_summary": "Darumbal People Aboriginal Corporation RNTBC appears on the ACNC Register and is recorded in this release with structured geography of Queensland (QLD). This CauseBase release includes an ACNC Register extract for the legal entity but does not include a website, a public self-description, statements of activities or programs, beneficiary listings, or financial reports. The organisation's legal name in the register contains the letters “RNTBC”; CauseBase records that as part of the legal name and does not infer functions or services from the name. CauseBase does not have sufficient descriptive evidence in this release to independently identify specific activities, programs, beneficiaries, participation modes, or financial details for this organisation.",
   "organisation_self_description": null,
   "activities": [],
   "beneficiaries": [],
@@ -121,13 +121,11 @@
     {
       "taxonomy_id": "causebase",
       "taxonomy_version": "0.1-phase2a",
-      "term_id": "geography.australia",
-      "term_label": "Australia",
+      "term_id": "geography.local_or_regional",
+      "term_label": "Local or regional Australia",
       "assignment_method": "llm_classification",
       "confidence": "medium",
-      "evidence_ids": [
-        "ev:acnc:93624893443"
-      ]
+      "evidence_ids": []
     }
   ],
   "evidence": [
@@ -150,28 +148,24 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "4db9316adbe8d96584dabba9baf8ccb5398f5bf788e703f1718b046bdf21dffb",
-    "generated_at": "2026-08-10T13:05:03.504092Z",
+    "source_text_hash": "cb16f501c619f0040bd8a8fc830613b2b03419a3902bbf1331cb882c36174ae2",
+    "generated_at": "2026-08-10T13:53:24.455798Z",
     "vector_ref": "embeddings.parquet#cb_2e7af789b25143d8bd5de1f893148566"
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2a-0.5",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
     "evidence_input_hash": "0cf5403e1dd05375944685693b4644ddc41deb408739984853517493ac205566",
-    "generated_at": "2026-08-10T12:48:17.974736Z",
-    "editorial_policy_version": "0.1",
-    "request_id": "resp_0f4ef2684fe61900006a79c8812a6c819b933db0ed652713f9",
-    "input_tokens": 1200,
-    "output_tokens": 1204,
-    "estimated_cost_usd": "0.002708"
+    "generated_at": "2026-08-10T13:50:57.142444Z",
+    "editorial_policy_version": "0.1"
   },
-  "dataset_version": "phase2a-2026-08-10",
+  "dataset_version": "phase2a-2026-08-10-h1",
   "card_schema_version": "0.1",
   "editorial_policy_version": "0.1",
   "generator_version": "0.1.0",
-  "built_at": "2026-08-10T13:04:18.440059Z"
+  "built_at": "2026-08-10T13:51:56.676499Z"
 }

@@ -6,7 +6,7 @@
 
 ## CauseBase summary
 
-Ara Irititja Aboriginal Corporation is listed on the Australian Charities and Not‑for‑profits Commission (ACNC) Register; the only supplied source in the evidence pack is an ACNC register extract. The register entry records the organisation’s geography as South Australia. No website or public organisational materials were available in the supplied sources. An annual report record was flagged as not yet processed and no financial records were found in the provided material. The supplied evidence does not describe programs, services, beneficiary groups, staff or volunteer roles, nor does it specify operating locations beyond the state‑level listing on the ACNC extract.
+Ara Irititja Aboriginal Corporation is recorded on the Australian Charities and Not-for-profits Commission register with a legal name of Ara Irititja Aboriginal Corporation and an ACNC-derived location of South Australia (observed 2026-08-10). CauseBase has not located an organisational website, published descriptive material, or accessible financial statements in the supplied evidence. The available regulatory extract provides the legal identity and jurisdiction only; it does not provide information on specific activities, programs, beneficiaries, or how people can participate. Organisation-authored claims, if any, were not available in the provided sources.
 
 ## Activities
 
@@ -48,7 +48,7 @@ Ara Irititja Aboriginal Corporation is listed on the Australian Charities and No
 
 ## Build
 
-- Dataset version: `phase2a-2026-08-10`
+- Dataset version: `phase2a-2026-08-10-h1`
 - Card schema: `0.1`
 - Editorial policy: `0.1`
-- Built: 2026-08-10T13:04:18.668874+00:00
+- Built: 2026-08-10T13:51:56.714441+00:00

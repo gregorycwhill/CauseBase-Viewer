@@ -71,7 +71,7 @@ Adelaide City Mosque (listed on the ACNC as ADELAIDE MOSQUE ISLAMIC SOCIETY LTD 
 
 ## Build
 
-- Dataset version: `phase2a-2026-08-10`
+- Dataset version: `phase2a-2026-08-10-h1`
 - Card schema: `0.1`
 - Editorial policy: `0.1`
-- Built: 2026-08-10T13:04:18.684929+00:00
+- Built: 2026-08-10T13:51:56.716397+00:00

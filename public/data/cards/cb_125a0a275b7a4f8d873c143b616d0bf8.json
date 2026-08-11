@@ -84,10 +84,9 @@
   "enrichment_level": "enriched",
   "website": null,
   "geography": [
-    "Western Australia",
-    "Australia"
+    "Western Australia (WA)"
   ],
-  "causebase_summary": "JUUKAN GORGE LEGACY FOUNDATION LTD appears on the Australian Charities and Not‑for‑profits Commission (ACNC) Register under its legal name. The only explicit location information in the supplied record is Western Australia (WA). The evidence set contains no organisation-authored description, no website, no public financial statements, and no processed annual report in the provided material. The ACNC extract alone does not list purposes, programs, beneficiaries, staff or volunteers in the supplied evidence. As a result, no specific activities, participation modes or beneficiary groups can be identified from the available documents; the entry is limited to the organisation’s registered name and jurisdictional location in WA as observed on the ACNC register.",
+  "causebase_summary": "JUUKAN GORGE LEGACY FOUNDATION LTD appears in an ACNC register extract observed on 10 August 2026. The ACNC record in the supplied evidence identifies the organisation by legal/display name and lists Western Australia (WA) as structured geography. CauseBase’s evidence pack for this release did not include a website or published financial statements, and an annual report was noted as not yet processed. CauseBase does not have sufficient descriptive evidence in this release to independently identify the foundation’s specific activities, beneficiaries or modes of participation.",
   "organisation_self_description": null,
   "activities": [],
   "beneficiaries": [],
@@ -122,24 +121,20 @@
     {
       "taxonomy_id": "causebase",
       "taxonomy_version": "0.1-phase2a",
-      "term_id": "geography.australia",
-      "term_label": "Australia",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": [
-        "ev:acnc:32668161279"
-      ]
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
       "term_id": "geography.local_or_regional",
       "term_label": "Local or regional Australia",
       "assignment_method": "llm_classification",
       "confidence": "medium",
-      "evidence_ids": [
-        "ev:acnc:32668161279"
-      ]
+      "evidence_ids": []
+    },
+    {
+      "taxonomy_id": "causebase",
+      "taxonomy_version": "0.1-phase2a",
+      "term_id": "geography.australia",
+      "term_label": "Australia",
+      "assignment_method": "llm_classification",
+      "confidence": "medium",
+      "evidence_ids": []
     }
   ],
   "evidence": [
@@ -162,28 +157,24 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "cc77c2b87e27c67e271c7723e276701c5b96d9bafabe46d42225ae9de72a0929",
-    "generated_at": "2026-08-10T13:05:03.505548Z",
+    "source_text_hash": "7e9f1cbba6c90db2a42ae4870d95200999a9d8b4c5574dd2d8820460af1f1961",
+    "generated_at": "2026-08-10T13:53:24.457525Z",
     "vector_ref": "embeddings.parquet#cb_125a0a275b7a4f8d873c143b616d0bf8"
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2a-0.5",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
     "evidence_input_hash": "319f3d36ac9ad73023767163d67cd3b46fbe0ff096bf81cdd335e5db10e9d93a",
-    "generated_at": "2026-08-10T12:57:24.852582Z",
-    "editorial_policy_version": "0.1",
-    "request_id": "resp_010926197630645f006a79caa5ba04819ba3ff37b0d775d400",
-    "input_tokens": 1204,
-    "output_tokens": 1102,
-    "estimated_cost_usd": "0.002505"
+    "generated_at": "2026-08-10T13:51:36.054633Z",
+    "editorial_policy_version": "0.1"
   },
-  "dataset_version": "phase2a-2026-08-10",
+  "dataset_version": "phase2a-2026-08-10-h1",
   "card_schema_version": "0.1",
   "editorial_policy_version": "0.1",
   "generator_version": "0.1.0",
-  "built_at": "2026-08-10T13:04:18.648270Z"
+  "built_at": "2026-08-10T13:51:56.711549Z"
 }

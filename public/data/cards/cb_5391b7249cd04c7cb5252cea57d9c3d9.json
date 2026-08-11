@@ -66,11 +66,11 @@
     },
     {
       "capability": "fundraising_expenditure",
-      "status": "not_yet_processed",
+      "status": "not_available_from_source",
       "source_record_id": null,
       "evidence_ids": [],
       "observed_at": "2026-08-10",
-      "freshness_note": null
+      "freshness_note": "No direct or defensible derived fundraising expenditure was found in selected Phase 2A evidence."
     },
     {
       "capability": "financials",
@@ -81,14 +81,6 @@
       ],
       "observed_at": "2026-08-10",
       "freshness_note": null
-    },
-    {
-      "capability": "fundraising_expenditure",
-      "status": "not_available_from_source",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": "No direct or defensible derived fundraising expenditure was found in selected Phase 2A evidence."
     }
   ],
   "enrichment_level": "enriched",
@@ -230,10 +222,7 @@
       "term_label": "Australia",
       "assignment_method": "llm_classification",
       "confidence": "medium",
-      "evidence_ids": [
-        "ev:acnc:86674411801",
-        "ev:ais:86674411801:2023"
-      ]
+      "evidence_ids": []
     },
     {
       "taxonomy_id": "causebase",
@@ -242,10 +231,7 @@
       "term_label": "Local or regional Australia",
       "assignment_method": "llm_classification",
       "confidence": "medium",
-      "evidence_ids": [
-        "ev:acnc:86674411801",
-        "ev:ais:86674411801:2023"
-      ]
+      "evidence_ids": []
     },
     {
       "taxonomy_id": "causebase",
@@ -254,10 +240,7 @@
       "term_label": "Local organisation",
       "assignment_method": "llm_classification",
       "confidence": "medium",
-      "evidence_ids": [
-        "ev:acnc:86674411801",
-        "ev:ais:86674411801:2023"
-      ]
+      "evidence_ids": []
     }
   ],
   "evidence": [
@@ -293,7 +276,7 @@
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
     "source_text_hash": "c9746773d16d9ee36afecfd9c8398ddba4aeb1f3914038f5d7e35757964b27f6",
-    "generated_at": "2026-08-10T13:05:03.504539Z",
+    "generated_at": "2026-08-10T13:53:24.456194Z",
     "vector_ref": "embeddings.parquet#cb_5391b7249cd04c7cb5252cea57d9c3d9"
   },
   "synthesis": {
@@ -305,15 +288,11 @@
     },
     "evidence_input_hash": "d8b9a4d5012ab19dd353ce683a0be1f0825fb4809b336e512e6b01b43a5653a4",
     "generated_at": "2026-08-10T12:50:18.187480Z",
-    "editorial_policy_version": "0.1",
-    "request_id": "resp_005c0df47593d6c4006a79c8f52470819aad55402056dd926b",
-    "input_tokens": 1631,
-    "output_tokens": 1423,
-    "estimated_cost_usd": "0.003254"
+    "editorial_policy_version": "0.1"
   },
-  "dataset_version": "phase2a-2026-08-10",
+  "dataset_version": "phase2a-2026-08-10-h1",
   "card_schema_version": "0.1",
   "editorial_policy_version": "0.1",
   "generator_version": "0.1.0",
-  "built_at": "2026-08-10T13:04:18.492932Z"
+  "built_at": "2026-08-10T13:51:56.683123Z"
 }
