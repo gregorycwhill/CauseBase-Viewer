@@ -35,7 +35,7 @@ await writeFile(resolve(output, "deployment.json"), JSON.stringify({
   deployment_branch: "gh-pages",
   dataset_version: manifest.dataset_version,
   viewer_commit: viewerCommit,
-  correction_intake: "not configured; correction page explains this limitation",
+  correction_intake: "private Google Forms intake configured with card-context prefill",
 }, null, 2) + "\n");
 
 const walk = async directory => {
