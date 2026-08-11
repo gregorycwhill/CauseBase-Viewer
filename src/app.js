@@ -1,5 +1,6 @@
 import { filterEntities } from "./search.mjs";
 import { financialMetricDisplay, fundraisingDisplay, taxonomyHeading } from "./presentation.mjs";
+import { correctionUrl } from "./corrections.mjs";
 
 const state = {
   entities: [],
@@ -14,6 +15,7 @@ const els = {
   results: document.querySelector("#results"),
   count: document.querySelector("#result-count"),
   card: document.querySelector("#card"),
+  feedback: document.querySelector("#feedback-link"),
 };
 
 async function loadJson(url) {
@@ -29,23 +31,6 @@ function escapeHtml(value) {
     .replaceAll(">", "&gt;")
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#039;");
-}
-
-function correctionUrl(entity, field, currentValue) {
-  const params = new URLSearchParams({
-    causebase_id: entity.causebase_id,
-    organisation: entity.display_name,
-    field,
-    current_value: currentValue ?? "",
-    dataset_version: entity.dataset_version,
-    viewer_url: location.href,
-  });
-  const configured = window.CAUSEBASE_CORRECTION_INTAKE_URL;
-  if (configured) {
-    const separator = configured.includes("?") ? "&" : "?";
-    return `${configured}${separator}${params.toString()}`;
-  }
-  return `correction.html?${params.toString()}`;
 }
 
 function externalIdentifiers(entity) {
@@ -129,7 +114,7 @@ function renderCard(entity) {
     <section>
       <div class="section-title">
         <h2>CauseBase summary</h2>
-        <a class="edit-link" href="${correctionUrl(entity, "causebase_summary", entity.causebase_summary)}">Suggest correction</a>
+        <a class="edit-link" href="${correctionUrl(entity, "causebase_summary", entity.causebase_summary, location.href)}">Suggest correction</a>
       </div>
       <p class="summary">${escapeHtml(entity.causebase_summary)}</p>
     </section>
@@ -237,6 +222,7 @@ async function init() {
     state.similarities = similarities;
     state.semanticAvailable = !manifest.embedding?.model_id?.includes("demo");
     state.filtered = state.entities;
+    els.feedback.href = correctionUrl(null, "general_feedback", "", location.href);
 
     const hashId = decodeURIComponent(location.hash.replace(/^#/, ""));
     state.selectedId =
