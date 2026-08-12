@@ -89,7 +89,29 @@
     "Adelaide, South Australia",
     "Australia"
   ],
-  "causebase_summary": "Circobats Incorporated is presented on its website as an Adelaide-based circus school that offers classes and workshops for children and adults. The site lists a regular term timetable for 2026, April school holiday workshops and full-day holiday programs for varying age groups, and specific holiday program dates (for example 4–8 March with multiple daily session times). It names a venue, “Circobats Community Circus,” and displays an enrolment period (13–17 April) and a 2026 timetable notice. The organisation also publishes performance activity: a CircoBats Performance Troupe production titled ‘The Dreamer’ is listed with an Adelaide Fringe run (26 January–12 April). The website text states that classes cover circus skills such as tumbling, aerial, juggling and spinning and says the programs are open to all skill levels. The available evidence is drawn from the organisation’s public website; no financial reports or independent evaluations were provided in the supplied evidence.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:21602259214"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-SA",
+      "label": "South Australia",
+      "evidence_ids": [
+        "ev:acnc:21602259214"
+      ]
+    }
+  ],
+  "causebase_summary": "CircoBats Incorporated is an Adelaide-based community circus school that, as of 2026, operates a venue called Circobats Community Circus. It runs regular circus classes for children and adults, delivers school-holiday workshops and full-day holiday programs, and stages public circus‑theatre performances through a named CircoBats Performance Troupe (including a Fringe presentation titled 'The Dreamer'). The organisation advertises term timetables, enrolment dates and holiday program schedules for varying age groups and skill levels at its Adelaide venue.",
+  "summary_evidence_ids": [
+    "ev:web:21602259214:2026-08-10",
+    "ev:acnc:21602259214"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Running regular circus classes for children and adults as described on the organisation website",
@@ -113,8 +135,8 @@
       "source_record_id": "src:acnc-register:3b1b8f9d-f46c-5b4b-8dbe-f3582d18af0c",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=21602259214",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -122,7 +144,10 @@
         "ABN": "21602259214",
         "Legal Name": "CIRCOBATS INCORPORATED",
         "Registration Status": "registered",
-        "ACNC classifications": "education; children"
+        "ACNC classifications": "education; children",
+        "Website": "https://www.circobats.com/",
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -264,34 +289,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "e03a8d52f7e7bb286c80360e49f2939ff3715e7f601ca448b0d4eb58b4fdfa13",
-    "generated_at": "2026-08-10T12:51:36.245264Z",
+    "evidence_input_hash": "560ef989827c9ff9d270a04aa685e713275cc6a7b451f69164e4c806b126b9c3",
+    "generated_at": "2026-08-12T13:53:32.456859Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T12:51:36.245264Z",
+      "generated_at": "2026-08-12T13:53:32.456859Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "e03a8d52f7e7bb286c80360e49f2939ff3715e7f601ca448b0d4eb58b4fdfa13",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "560ef989827c9ff9d270a04aa685e713275cc6a7b451f69164e4c806b126b9c3",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T12:51:36.245264Z",
+      "generated_at": "2026-08-12T13:53:32.456859Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "e03a8d52f7e7bb286c80360e49f2939ff3715e7f601ca448b0d4eb58b4fdfa13",
+      "input_hash": "560ef989827c9ff9d270a04aa685e713275cc6a7b451f69164e4c806b126b9c3",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -300,9 +325,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "e03a8d52f7e7bb286c80360e49f2939ff3715e7f601ca448b0d4eb58b4fdfa13",
+      "input_hash": "560ef989827c9ff9d270a04aa685e713275cc6a7b451f69164e4c806b126b9c3",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -311,7 +336,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.456581Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "afa63fe9ff0c82bce9851c671e1808dcd7c121e236d2b012d030fd3b0be62bb9",
       "disposition": "reused",
@@ -322,7 +347,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.456581Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "afa63fe9ff0c82bce9851c671e1808dcd7c121e236d2b012d030fd3b0be62bb9",
       "disposition": "reused",
@@ -330,9 +355,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

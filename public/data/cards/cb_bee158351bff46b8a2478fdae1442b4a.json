@@ -89,7 +89,29 @@
     "South Australia",
     "Australia"
   ],
-  "causebase_summary": "Aboriginal Foundation Of South Australia Incorporated is an entity recorded on the Australian Charities and Not-for-profits Commission (ACNC) register. The available ACNC Annual Information Statement (AIS) for the reporting period 01/07/2022 to 30/06/2023 is the primary source of public information for this period. That AIS reports total revenue of AUD 74 and total expenses of AUD 3,861 for the period; the AIS data are attributed to the organisation’s own AIS filing and the AIS extract lists the subject’s consolidated status as unknown. The ACNC extract and AIS entries were observed on 10 August 2026. The organisation’s structured geography is recorded as South Australia. No website was available in the supplied evidence, and the evidence bundle does not include descriptions of services, programs, beneficiary groups, participation modes or detailed annual reports. Several coverage flags in the evidence note that annual reports and fundraising-expenditure details were not processed or not available from the sources supplied.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:91765078109"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-SA",
+      "label": "South Australia",
+      "evidence_ids": [
+        "ev:acnc:91765078109"
+      ]
+    }
+  ],
+  "causebase_summary": "Aboriginal Foundation Of South Australia Incorporated is a registered charity located in South Australia, Australia. CauseBase does not have sufficient descriptive evidence in this release to independently identify the organisation’s specific activities, programs or primary beneficiaries. The records available for this release are an ACNC register extract and the organisation’s 2023 Annual Information Statement, covering the reporting period 1 July 2022 to 30 June 2023; no website or organisational self-description was supplied in the selected evidence.",
+  "summary_evidence_ids": [
+    "ev:acnc:91765078109",
+    "ev:ais:91765078109:2023"
+  ],
   "organisation_self_description": null,
   "activities": [],
   "beneficiaries": [],
@@ -100,8 +122,8 @@
       "source_record_id": "src:acnc-register:c44234bc-0dc5-5091-b133-6fc8ca8e24b2",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=91765078109",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -109,7 +131,10 @@
         "ABN": "91765078109",
         "Legal Name": "Aboriginal Foundation Of South Australia Incorporated",
         "Registration Status": "registered",
-        "ACNC classifications": "other purpose; young people"
+        "ACNC classifications": "other purpose; young people",
+        "Website": null,
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -125,7 +150,7 @@
       "source_family": "acnc-ais",
       "dataset_version": "2026-08-10",
       "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": "2022-07-01",
       "effective_to": "2023-06-30",
@@ -329,34 +354,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "a73697c75cb1b11ae72fb6deb3b0e7290f7891aade690fc1aac45781d57b67f3",
-    "generated_at": "2026-08-10T12:47:02.058847Z",
+    "evidence_input_hash": "85cc9d7843bea21b94b2e631d02e881a37001ba543c81098e3f65e19d268c431",
+    "generated_at": "2026-08-12T13:41:43.935047Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T12:47:02.058847Z",
+      "generated_at": "2026-08-12T13:41:43.935047Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "a73697c75cb1b11ae72fb6deb3b0e7290f7891aade690fc1aac45781d57b67f3",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "85cc9d7843bea21b94b2e631d02e881a37001ba543c81098e3f65e19d268c431",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T12:47:02.058847Z",
+      "generated_at": "2026-08-12T13:41:43.935047Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "a73697c75cb1b11ae72fb6deb3b0e7290f7891aade690fc1aac45781d57b67f3",
+      "input_hash": "85cc9d7843bea21b94b2e631d02e881a37001ba543c81098e3f65e19d268c431",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -365,9 +390,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "a73697c75cb1b11ae72fb6deb3b0e7290f7891aade690fc1aac45781d57b67f3",
+      "input_hash": "85cc9d7843bea21b94b2e631d02e881a37001ba543c81098e3f65e19d268c431",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -376,7 +401,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.455748Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "7a60e48892f0be739e83e2ebe5d668cc6d1ff5da12e706a3cbb14fa3387dcb6e",
       "disposition": "reused",
@@ -387,7 +412,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.455748Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "7a60e48892f0be739e83e2ebe5d668cc6d1ff5da12e706a3cbb14fa3387dcb6e",
       "disposition": "reused",
@@ -395,9 +420,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

@@ -86,7 +86,28 @@
   "geography": [
     "Victoria (VIC)"
   ],
-  "causebase_summary": "Boorhaman And District Landcare Group Inc is recorded by an ACNC Register extract (observed 2026-08-10) under the legal name Boorhaman And District Landcare Group Inc. The only geographic detail in the supplied records is Victoria (VIC). The evidence pack contains the ACNC regulatory entry but no website, no processed annual report, and no financial records available from the supplied sources. The ACNC extract as provided does not specify the group’s activities, who it serves, how it operates, or modes of participation. The supplied coverage notes list the ACNC entry as observed and other document types (annual report, website, financials) as not available or not yet processed.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:58421528146"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-VIC",
+      "label": "Victoria",
+      "evidence_ids": [
+        "ev:acnc:58421528146"
+      ]
+    }
+  ],
+  "causebase_summary": "Boorhaman And District Landcare Group Inc is an incorporated community landcare group based in Victoria, Australia. The supplied ACNC register extract records the organisation name and Victoria as its location but includes no website, program descriptions or other descriptive material in this release. CauseBase does not have sufficient descriptive evidence in this release to independently identify specific activities, projects, beneficiaries or participation modes for this organisation. Where present, local landcare groups typically undertake activities such as on-ground environmental work, education and volunteer coordination, but those activities are not documented in the supplied evidence and are not attributed to this organisation in this summary.",
+  "summary_evidence_ids": [
+    "ev:acnc:58421528146"
+  ],
   "organisation_self_description": null,
   "activities": [],
   "beneficiaries": [],
@@ -97,8 +118,8 @@
       "source_record_id": "src:acnc-register:b7abf93c-d961-5063-8a16-37366cbca9bb",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=58421528146",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -106,7 +127,10 @@
         "ABN": "58421528146",
         "Legal Name": "Boorhaman And District Landcare Group Inc",
         "Registration Status": "registered",
-        "ACNC classifications": "environment; young people"
+        "ACNC classifications": "environment; young people",
+        "Website": null,
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -173,34 +197,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "5667c804cf95531d51f07d9d4b19fff39c3b4d53f225c2537bdd93fb20ab8530",
-    "generated_at": "2026-08-10T13:01:47.251356Z",
+    "evidence_input_hash": "958bc361592797d938c669c7307917996f947ee7c66d8f3d5511394cd9b97ce5",
+    "generated_at": "2026-08-12T14:18:04.678090Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T13:01:47.251356Z",
+      "generated_at": "2026-08-12T14:18:04.678090Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "5667c804cf95531d51f07d9d4b19fff39c3b4d53f225c2537bdd93fb20ab8530",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "958bc361592797d938c669c7307917996f947ee7c66d8f3d5511394cd9b97ce5",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T13:01:47.251356Z",
+      "generated_at": "2026-08-12T14:18:04.678090Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "5667c804cf95531d51f07d9d4b19fff39c3b4d53f225c2537bdd93fb20ab8530",
+      "input_hash": "958bc361592797d938c669c7307917996f947ee7c66d8f3d5511394cd9b97ce5",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -209,9 +233,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "5667c804cf95531d51f07d9d4b19fff39c3b4d53f225c2537bdd93fb20ab8530",
+      "input_hash": "958bc361592797d938c669c7307917996f947ee7c66d8f3d5511394cd9b97ce5",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -220,7 +244,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.458111Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "6ea91664fc538225b9efb3cb9b1f8e5165c116df2611410c9b6d079db6bd77b4",
       "disposition": "reused",
@@ -231,7 +255,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.458111Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "6ea91664fc538225b9efb3cb9b1f8e5165c116df2611410c9b6d079db6bd77b4",
       "disposition": "reused",
@@ -239,9 +263,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

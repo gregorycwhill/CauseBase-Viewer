@@ -86,7 +86,28 @@
   "geography": [
     "Western Australia"
   ],
-  "causebase_summary": "Bundi Yamatji Aboriginal Corporation is listed on the Australian Charities and Not‑for‑profits Commission (ACNC) register. Structured data associated with this record indicates the organisation is located in Western Australia. Public sources supplied for this review do not include a website, a publicly available description of programs, or financial statements; an annual report entry is noted as not yet processed. The ACNC extract supplied does not specify the corporation’s activities, target beneficiaries or modes of participation, and no additional third‑party documentation was provided. The information in this card is limited to the regulatory entry and the absence of publicly supplied program or financial details in the evidence pack.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:11955042908"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-WA",
+      "label": "Western Australia",
+      "evidence_ids": [
+        "ev:acnc:11955042908"
+      ]
+    }
+  ],
+  "causebase_summary": "Bundi Yamatji Aboriginal Corporation is a registered organisation listed in Western Australia. CauseBase does not have sufficient descriptive evidence in this release to independently identify the organisation’s specific activities, beneficiaries or operating model. The available record is an ACNC register extract that provides the entity name and state of registration but does not describe programs, services or target groups.",
+  "summary_evidence_ids": [
+    "ev:acnc:11955042908"
+  ],
   "organisation_self_description": null,
   "activities": [],
   "beneficiaries": [],
@@ -97,8 +118,8 @@
       "source_record_id": "src:acnc-register:e8548119-90cb-5557-9276-cdd730de13a2",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=11955042908",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -106,7 +127,10 @@
         "ABN": "11955042908",
         "Legal Name": "Bundi Yamatji Aboriginal Corporation",
         "Registration Status": "registered",
-        "ACNC classifications": "environment; other beneficiary"
+        "ACNC classifications": "environment; other beneficiary",
+        "Website": null,
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -173,34 +197,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "f0e46f5c85106a071125c737d7a54df4ae5eeed7c34e08e7cbba3b8a47e6b4af",
-    "generated_at": "2026-08-10T12:56:09.053964Z",
+    "evidence_input_hash": "3ba0dba97f1010733f1e1a7882d5153ab577f75543e4953a31d075add868d343",
+    "generated_at": "2026-08-12T14:03:53.080446Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T12:56:09.053964Z",
+      "generated_at": "2026-08-12T14:03:53.080446Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "f0e46f5c85106a071125c737d7a54df4ae5eeed7c34e08e7cbba3b8a47e6b4af",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "3ba0dba97f1010733f1e1a7882d5153ab577f75543e4953a31d075add868d343",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T12:56:09.053964Z",
+      "generated_at": "2026-08-12T14:03:53.080446Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "f0e46f5c85106a071125c737d7a54df4ae5eeed7c34e08e7cbba3b8a47e6b4af",
+      "input_hash": "3ba0dba97f1010733f1e1a7882d5153ab577f75543e4953a31d075add868d343",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -209,9 +233,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "f0e46f5c85106a071125c737d7a54df4ae5eeed7c34e08e7cbba3b8a47e6b4af",
+      "input_hash": "3ba0dba97f1010733f1e1a7882d5153ab577f75543e4953a31d075add868d343",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -220,7 +244,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.457231Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "4f7e587e0b259ed28e9dcb0e679afedf556e6981726aab14721550eeca321f52",
       "disposition": "reused",
@@ -231,7 +255,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.457231Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "4f7e587e0b259ed28e9dcb0e679afedf556e6981726aab14721550eeca321f52",
       "disposition": "reused",
@@ -239,9 +263,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

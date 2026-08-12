@@ -90,7 +90,30 @@
   "geography": [
     "Victoria, Australia"
   ],
-  "causebase_summary": "International China Concern (Australia) Ltd is an ACNC‑registered entity with a web presence at chinaconcern.org and structured geography recorded as Victoria, Australia. Publicly available website text describes its privacy and website practices: it collects visitors’ IP addresses and linked data for server administration and aggregate analysis, uses cookies, transmits information via SSL encryption, and names third‑party payment/transaction providers (FundraiseUp, GiftTool, Raisely, Charities Aid Foundation, Mollie). The site includes a published Complaints Policy that references five elements (Culture, Principles, People, Process, Analysis), states the policy is modelled on biblical principles, and sets out a seven‑stage complaint process (acknowledgement, assessment, planning, investigation, response, review, consideration of systemic issues). The policy says complaints will ideally be acknowledged within two business days and that the organisation will report progress if a complaint is not finalised within seven days; it also permits anonymous complaints and use of external investigators. Regulatory financial reporting (ACNC AIS 2023) shows revenue of AUD 899,398 and total expenses of AUD 945,189 for the 2023 reporting year (organisation‑level reporting).",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:30091040649"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-VIC",
+      "label": "Victoria",
+      "evidence_ids": [
+        "ev:acnc:30091040649"
+      ]
+    }
+  ],
+  "causebase_summary": "International China Concern (Australia) Ltd is an organisation registered in Victoria, Australia. Available materials include a website with a privacy policy describing collection of IP addresses, use of cookies, SSL encryption for transactions and links to third‑party payment providers, and a complaints policy that applies to members of the public, volunteers, staff and board members. The complaints policy outlines seven handling stages (acknowledgement, assessment, planning, investigation, response, review and systemic follow‑up), refers to biblical principles as guiding principles, and notes volunteers as a stakeholder group. The organisation also references a mission and vision page. CauseBase does not have sufficient descriptive evidence in this release to independently identify specific activities delivered or the intended beneficiary groups.",
+  "summary_evidence_ids": [
+    "ev:web:30091040649:2026-08-10",
+    "ev:ais:30091040649:2023",
+    "ev:acnc:30091040649"
+  ],
   "organisation_self_description": null,
   "activities": [],
   "beneficiaries": [],
@@ -103,8 +126,8 @@
       "source_record_id": "src:acnc-register:27b9f52e-9b0e-58ed-b6d5-9a281e4b3bfa",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=30091040649",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -112,7 +135,10 @@
         "ABN": "30091040649",
         "Legal Name": "International China Concern (Australia) Ltd",
         "Registration Status": "registered",
-        "ACNC classifications": "health; children"
+        "ACNC classifications": "health; children",
+        "Website": "chinaconcern.org",
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -128,7 +154,7 @@
       "source_family": "acnc-ais",
       "dataset_version": "2026-08-10",
       "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": "2023-01-01",
       "effective_to": "2023-12-31",
@@ -353,34 +379,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "28c5c2df5c67493c25c7c4c339a1f7fa018759ebfac34443de3f002b50e984d8",
-    "generated_at": "2026-08-10T12:49:25.395113Z",
+    "evidence_input_hash": "8a1df3998e0ca21c0027bb8758a3edfd44d9c5137f509190e2cf95ec96fa4334",
+    "generated_at": "2026-08-12T13:47:02.145557Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T12:49:25.395113Z",
+      "generated_at": "2026-08-12T13:47:02.145557Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "28c5c2df5c67493c25c7c4c339a1f7fa018759ebfac34443de3f002b50e984d8",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "8a1df3998e0ca21c0027bb8758a3edfd44d9c5137f509190e2cf95ec96fa4334",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T12:49:25.395113Z",
+      "generated_at": "2026-08-12T13:47:02.145557Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "28c5c2df5c67493c25c7c4c339a1f7fa018759ebfac34443de3f002b50e984d8",
+      "input_hash": "8a1df3998e0ca21c0027bb8758a3edfd44d9c5137f509190e2cf95ec96fa4334",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -389,9 +415,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "28c5c2df5c67493c25c7c4c339a1f7fa018759ebfac34443de3f002b50e984d8",
+      "input_hash": "8a1df3998e0ca21c0027bb8758a3edfd44d9c5137f509190e2cf95ec96fa4334",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -400,7 +426,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.456116Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "f3a714808327b2f3c98367b8e2da9e9e87f2f0f24f6155fed578495afca05538",
       "disposition": "reused",
@@ -411,7 +437,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.456116Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "f3a714808327b2f3c98367b8e2da9e9e87f2f0f24f6155fed578495afca05538",
       "disposition": "reused",
@@ -419,9 +445,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

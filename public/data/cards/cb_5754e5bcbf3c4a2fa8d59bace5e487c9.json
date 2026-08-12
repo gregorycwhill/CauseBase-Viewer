@@ -89,7 +89,29 @@
     "Australian Capital Territory (ACT)",
     "Australia"
   ],
-  "causebase_summary": "The National Gallery Of Australia Foundation is recorded on the ACNC register with a structured geography of the Australian Capital Territory (ACT). The available regulatory extract includes the organisation’s ACNC information and an ACNC AIS entry covering 01/07/2022 to 30/06/2023. For that reporting year the AIS lists revenue of AUD 5,428,187 and total expenses of AUD 5,355,927. The AIS entry in the evidence set is labelled as a direct subject report and is not consolidated. The source material provided does not include descriptive text about the foundation’s activities, services, beneficiaries or programs. Retrieval of the organisation’s website and other documents was not successful in this evidence pack and an annual report was not processed, so no further operational detail is available here.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:49008643927"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-ACT",
+      "label": "Australian Capital Territory",
+      "evidence_ids": [
+        "ev:acnc:49008643927"
+      ]
+    }
+  ],
+  "causebase_summary": "National Gallery Of Australia Foundation is a registered foundation based in the Australian Capital Territory, Australia. CauseBase does not have sufficient descriptive evidence in this release to independently identify the Foundation’s specific activities, beneficiaries or programmatic work. The available ACNC register entry and the 2022–23 AIS extract are recorded as source documents for this profile.",
+  "summary_evidence_ids": [
+    "ev:acnc:49008643927",
+    "ev:ais:49008643927:2023"
+  ],
   "organisation_self_description": null,
   "activities": [],
   "beneficiaries": [],
@@ -100,8 +122,8 @@
       "source_record_id": "src:acnc-register:5e8a9934-2eb9-53c7-8ecc-781eb8f5bea6",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=49008643927",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -109,7 +131,10 @@
         "ABN": "49008643927",
         "Legal Name": "National Gallery Of Australia Foundation",
         "Registration Status": "registered",
-        "ACNC classifications": "other purpose; general community"
+        "ACNC classifications": "other purpose; general community",
+        "Website": "https://www.nga.gov.au",
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -125,7 +150,7 @@
       "source_family": "acnc-ais",
       "dataset_version": "2026-08-10",
       "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": "2022-07-01",
       "effective_to": "2023-06-30",
@@ -338,34 +363,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "51c91285b54b474544fabaaa6ef2eb027ee57d58e4b66341b88f644630429682",
-    "generated_at": "2026-08-10T12:50:13.890570Z",
+    "evidence_input_hash": "bfd3f44e5994209535c5bbf63de29118dadbdeee127b85bb6925d9a6f5bdb8f1",
+    "generated_at": "2026-08-12T13:48:45.310782Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T12:50:13.890570Z",
+      "generated_at": "2026-08-12T13:48:45.310782Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "51c91285b54b474544fabaaa6ef2eb027ee57d58e4b66341b88f644630429682",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "bfd3f44e5994209535c5bbf63de29118dadbdeee127b85bb6925d9a6f5bdb8f1",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T12:50:13.890570Z",
+      "generated_at": "2026-08-12T13:48:45.310782Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "51c91285b54b474544fabaaa6ef2eb027ee57d58e4b66341b88f644630429682",
+      "input_hash": "bfd3f44e5994209535c5bbf63de29118dadbdeee127b85bb6925d9a6f5bdb8f1",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -374,9 +399,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "51c91285b54b474544fabaaa6ef2eb027ee57d58e4b66341b88f644630429682",
+      "input_hash": "bfd3f44e5994209535c5bbf63de29118dadbdeee127b85bb6925d9a6f5bdb8f1",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -385,7 +410,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.456233Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "bb7fd44759e6ac175ed542406c9dc3a76ab7e0ed527a0d0baeb37a8a3fd4af9d",
       "disposition": "reused",
@@ -396,7 +421,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.456233Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "bb7fd44759e6ac175ed542406c9dc3a76ab7e0ed527a0d0baeb37a8a3fd4af9d",
       "disposition": "reused",
@@ -404,9 +429,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

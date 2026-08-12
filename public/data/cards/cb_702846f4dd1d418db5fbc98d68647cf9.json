@@ -88,7 +88,21 @@
   "geography": [
     "WA"
   ],
-  "causebase_summary": "East Fremantle Child Development Centre Inc is listed on the Australian Charities and Not-for-profits Commission register (ACNC) with a recorded website address of http://www.steppingstonescdc.com.au. The available regulatory extracts include an ACNC register entry observed 10 August 2026 and an ACNC Information Statement / AIS entry covering 01/01/2023 to 31/12/2023. The AIS shows revenue of AUD 702,998 and total expenses of AUD 674,216 for that reporting year. Structured metadata attached to the subject lists its geography as WA (Western Australia). The organisation’s website retrieval and the annual report have not been processed in the provided evidence pack. The supplied sources do not include explicit descriptions of the centre’s activities, the populations it serves, or modes of participation.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:40920336423"
+      ]
+    }
+  ],
+  "causebase_summary": "East Fremantle Child Development Centre Inc is a registered not-for-profit organisation based in Western Australia. CauseBase does not have sufficient descriptive evidence in this release to identify the centre's specific programs, services or beneficiary groups. The organisation is listed on the ACNC Register and lodged an Annual Information Statement covering 1 January–31 December 2023, which provides the primary documentary record for this entry.",
+  "summary_evidence_ids": [
+    "ev:acnc:40920336423",
+    "ev:ais:40920336423:2023"
+  ],
   "organisation_self_description": null,
   "activities": [],
   "beneficiaries": [],
@@ -99,8 +113,8 @@
       "source_record_id": "src:acnc-register:e6c38ca1-9954-5b59-ad4d-479395814029",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=40920336423",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -108,7 +122,10 @@
         "ABN": "40920336423",
         "Legal Name": "East Fremantle Child Development Centre Inc",
         "Registration Status": "registered",
-        "ACNC classifications": "education; other beneficiary"
+        "ACNC classifications": "education; other beneficiary",
+        "Website": "http://www.steppingstonescdc.com.au",
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -124,7 +141,7 @@
       "source_family": "acnc-ais",
       "dataset_version": "2026-08-10",
       "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": "2023-01-01",
       "effective_to": "2023-12-31",
@@ -328,34 +345,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "bfc15493aa09c32584573ac0a6997481880e22447c265eff7d4ff5bb3e8360cf",
-    "generated_at": "2026-08-10T12:55:08.996088Z",
+    "evidence_input_hash": "c825544b2f838fd7eb4a9e64b0541ffbfa8466b0d8ea5c6e740616b05f48e2ac",
+    "generated_at": "2026-08-12T14:01:19.900210Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T12:55:08.996088Z",
+      "generated_at": "2026-08-12T14:01:19.900210Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "bfc15493aa09c32584573ac0a6997481880e22447c265eff7d4ff5bb3e8360cf",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "c825544b2f838fd7eb4a9e64b0541ffbfa8466b0d8ea5c6e740616b05f48e2ac",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T12:55:08.996088Z",
+      "generated_at": "2026-08-12T14:01:19.900210Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "bfc15493aa09c32584573ac0a6997481880e22447c265eff7d4ff5bb3e8360cf",
+      "input_hash": "c825544b2f838fd7eb4a9e64b0541ffbfa8466b0d8ea5c6e740616b05f48e2ac",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -364,9 +381,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "bfc15493aa09c32584573ac0a6997481880e22447c265eff7d4ff5bb3e8360cf",
+      "input_hash": "c825544b2f838fd7eb4a9e64b0541ffbfa8466b0d8ea5c6e740616b05f48e2ac",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -375,7 +392,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.457051Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "b6b20b6da8eb205fcf4bf1f0ceb58cde6fcbf09ff88d3e58fb5e19cd2a7bfb6d",
       "disposition": "reused",
@@ -386,7 +403,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.457051Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "b6b20b6da8eb205fcf4bf1f0ceb58cde6fcbf09ff88d3e58fb5e19cd2a7bfb6d",
       "disposition": "reused",
@@ -394,9 +411,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

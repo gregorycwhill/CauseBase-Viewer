@@ -87,7 +87,28 @@
     "Queensland (state of registration)",
     "Australia"
   ],
-  "causebase_summary": "This record is for ADMINISTRATORS FOR MINISTRIES LIMITED, shown on the supplied ACNC register extract under that legal and display name. The only jurisdictional detail in the provided evidence is Queensland, where the entity is listed. The evidence pack contains no organisational website, no descriptive text about purposes or programs, no named beneficiaries, and no financial statements or reported activities. Registry metadata in the pack indicates some capabilities (annual report, fundraising expenditure) were not available or not yet processed. The supplied material does not include accounts, program descriptions, staff or volunteer information, or geographic operating locations beyond the Queensland registration.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:34669915333"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-QLD",
+      "label": "Queensland",
+      "evidence_ids": [
+        "ev:acnc:34669915333"
+      ]
+    }
+  ],
+  "causebase_summary": "Administrators for Ministries Limited is a registered not‑for‑profit entity registered in Queensland, Australia. CauseBase does not have sufficient descriptive evidence in this release to independently identify the organisation’s specific activities, programs, or beneficiary groups. The only available record for this release is an ACNC register extract that shows the organisation’s legal name and state of registration but does not describe services, goals or participation modes.",
+  "summary_evidence_ids": [
+    "ev:acnc:34669915333"
+  ],
   "organisation_self_description": null,
   "activities": [],
   "beneficiaries": [],
@@ -98,8 +119,8 @@
       "source_record_id": "src:acnc-register:2cca74b4-16a0-5e4b-a3f7-d1cd874f6660",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=34669915333",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -107,7 +128,10 @@
         "ABN": "34669915333",
         "Legal Name": "ADMINISTRATORS FOR MINISTRIES LIMITED",
         "Registration Status": "registered",
-        "ACNC classifications": "religion; older people"
+        "ACNC classifications": "religion; older people",
+        "Website": null,
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -192,34 +216,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "a44d1da40c01bc0fff0f7cdfde72c279319248d64531adda7d3beb22d5c47062",
-    "generated_at": "2026-08-10T12:50:14.771464Z",
+    "evidence_input_hash": "a2318e1bf88bc72997b9071274f551393f12b5a932afc94dcf6f58f97de09f27",
+    "generated_at": "2026-08-12T13:48:23.115473Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T12:50:14.771464Z",
+      "generated_at": "2026-08-12T13:48:23.115473Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "a44d1da40c01bc0fff0f7cdfde72c279319248d64531adda7d3beb22d5c47062",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "a2318e1bf88bc72997b9071274f551393f12b5a932afc94dcf6f58f97de09f27",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T12:50:14.771464Z",
+      "generated_at": "2026-08-12T13:48:23.115473Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "a44d1da40c01bc0fff0f7cdfde72c279319248d64531adda7d3beb22d5c47062",
+      "input_hash": "a2318e1bf88bc72997b9071274f551393f12b5a932afc94dcf6f58f97de09f27",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -228,9 +252,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "a44d1da40c01bc0fff0f7cdfde72c279319248d64531adda7d3beb22d5c47062",
+      "input_hash": "a2318e1bf88bc72997b9071274f551393f12b5a932afc94dcf6f58f97de09f27",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -239,7 +263,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.456212Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "aaf5bd0e630d11e86b273538904498453103788427ba4847f561b298a00a9e0f",
       "disposition": "reused",
@@ -250,7 +274,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.456212Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "aaf5bd0e630d11e86b273538904498453103788427ba4847f561b298a00a9e0f",
       "disposition": "reused",
@@ -258,9 +282,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

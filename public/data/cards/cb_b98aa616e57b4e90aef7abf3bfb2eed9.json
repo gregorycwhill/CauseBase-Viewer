@@ -86,7 +86,28 @@
   "geography": [
     "South Australia"
   ],
-  "causebase_summary": "Ara Irititja Aboriginal Corporation is recorded on the Australian Charities and Not-for-profits Commission register with a legal name of Ara Irititja Aboriginal Corporation and an ACNC-derived location of South Australia (observed 2026-08-10). CauseBase has not located an organisational website, published descriptive material, or accessible financial statements in the supplied evidence. The available regulatory extract provides the legal identity and jurisdiction only; it does not provide information on specific activities, programs, beneficiaries, or how people can participate. Organisation-authored claims, if any, were not available in the provided sources.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:65996383887"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-SA",
+      "label": "South Australia",
+      "evidence_ids": [
+        "ev:acnc:65996383887"
+      ]
+    }
+  ],
+  "causebase_summary": "Ara Irititja Aboriginal Corporation is an incorporated Aboriginal corporation associated with South Australia. CauseBase has only a regulatory extract recording the organisation’s legal name and its association with South Australia and does not have sufficient descriptive evidence in this release to identify specific activities, programs, beneficiaries or participation modes. No website, annual report or program descriptions were available in the supplied records, so this card is limited to the organisation’s name and geographic association.",
+  "summary_evidence_ids": [
+    "ev:acnc:65996383887"
+  ],
   "organisation_self_description": null,
   "activities": [],
   "beneficiaries": [],
@@ -97,8 +118,8 @@
       "source_record_id": "src:acnc-register:163b9912-b6d7-5c81-a438-8e73f92546c8",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=65996383887",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -106,7 +127,10 @@
         "ABN": "65996383887",
         "Legal Name": "Ara Irititja Aboriginal Corporation",
         "Registration Status": "registered",
-        "ACNC classifications": "social welfare; other beneficiary"
+        "ACNC classifications": "social welfare; other beneficiary",
+        "Website": null,
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -173,34 +197,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.5",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "7cd6457422052328015f69759c5e739f2d9139776ca6d07a144138df10b36c53",
-    "generated_at": "2026-08-10T13:51:29.238183Z",
+    "evidence_input_hash": "0bc1daaaedf4ae2db50925795a0be6a71efc94fbd293d8cdff0ded764711405e",
+    "generated_at": "2026-08-12T14:11:40.434138Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T13:51:29.238183Z",
+      "generated_at": "2026-08-12T14:11:40.434138Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "7cd6457422052328015f69759c5e739f2d9139776ca6d07a144138df10b36c53",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "0bc1daaaedf4ae2db50925795a0be6a71efc94fbd293d8cdff0ded764711405e",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T13:51:29.238183Z",
+      "generated_at": "2026-08-12T14:11:40.434138Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "7cd6457422052328015f69759c5e739f2d9139776ca6d07a144138df10b36c53",
+      "input_hash": "0bc1daaaedf4ae2db50925795a0be6a71efc94fbd293d8cdff0ded764711405e",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -209,9 +233,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "7cd6457422052328015f69759c5e739f2d9139776ca6d07a144138df10b36c53",
+      "input_hash": "0bc1daaaedf4ae2db50925795a0be6a71efc94fbd293d8cdff0ded764711405e",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -220,7 +244,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.457703Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "9631fa5816fd59269cd01bac72b1011112203eaa2ca0d2f8c9fcfa1cbb5e0a07",
       "disposition": "reused",
@@ -231,7 +255,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.457703Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "9631fa5816fd59269cd01bac72b1011112203eaa2ca0d2f8c9fcfa1cbb5e0a07",
       "disposition": "reused",
@@ -239,9 +263,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

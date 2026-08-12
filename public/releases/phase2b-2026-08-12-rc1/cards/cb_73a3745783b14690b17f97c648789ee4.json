@@ -1,0 +1,313 @@
+{
+  "causebase_id": "cb_73a3745783b14690b17f97c648789ee4",
+  "subject_kind": "unknown",
+  "external_identifiers": [
+    {
+      "scheme": "abn",
+      "value": "28287305180",
+      "source_evidence_id": "ev:acnc:28287305180"
+    }
+  ],
+  "registrations": [
+    {
+      "regulator": "ACNC",
+      "registration_id": null,
+      "status": "registered",
+      "evidence_ids": [
+        "ev:acnc:28287305180"
+      ]
+    }
+  ],
+  "tax_statuses": [],
+  "relationships": [],
+  "source_resolutions": [
+    {
+      "source_record_id": "src:acnc-register:8e60ccd8-bf94-5abf-92cc-b31058cf2d34",
+      "resolution_status": "resolved",
+      "resolution_basis": "automated authoritative ACNC promotion under acnc-authoritative-v1",
+      "confidence": "high",
+      "supporting_signals": [
+        "ABN:28287305180",
+        "ACNC Register"
+      ],
+      "conflicting_signals": [],
+      "review_status": "not_required"
+    }
+  ],
+  "legal_name": "Anglican Camping Tasmania Commission",
+  "display_name": "Anglican Camping Tasmania Commission",
+  "entity_status": "registered",
+  "coverage": [
+    {
+      "capability": "regulatory",
+      "status": "observed",
+      "source_record_id": null,
+      "evidence_ids": [
+        "ev:acnc:28287305180"
+      ],
+      "observed_at": "2026-08-10",
+      "freshness_note": null
+    },
+    {
+      "capability": "annual_report",
+      "status": "not_yet_processed",
+      "source_record_id": null,
+      "evidence_ids": [],
+      "observed_at": "2026-08-10",
+      "freshness_note": null
+    },
+    {
+      "capability": "website",
+      "status": "observed",
+      "source_record_id": null,
+      "evidence_ids": [
+        "ev:web:28287305180:2026-08-10"
+      ],
+      "observed_at": "2026-08-10",
+      "freshness_note": null
+    },
+    {
+      "capability": "fundraising_expenditure",
+      "status": "not_yet_processed",
+      "source_record_id": null,
+      "evidence_ids": [],
+      "observed_at": "2026-08-10",
+      "freshness_note": null
+    },
+    {
+      "capability": "financials",
+      "status": "not_found_in_source",
+      "source_record_id": null,
+      "evidence_ids": [],
+      "observed_at": "2026-08-10",
+      "freshness_note": null
+    }
+  ],
+  "enrichment_level": "enriched",
+  "website": "https://anglicancamping.org",
+  "geography": [
+    "Tasmania",
+    "Port Sorell",
+    "Huon",
+    "Derby",
+    "Blue Lagoon",
+    "Camp Banksia",
+    "Mayfield"
+  ],
+  "causebase_summary": "Anglican Camping Tasmania Commission (Anglican Camping Tasmania) is described on its website as a not-for-profit ministry of the Anglican Diocese of Tasmania that runs residential camping programs for children and young people. The organisation’s website lists multiple summer camps and year-round camps for school grades 3–12, with named programs including Burst (Grades 3–6), Banksia (Junior High, Grades 7–9), Derby (Senior High), Huon (Grades 10–12), Vibes (Grades 10–12), Mayfield, Spokes and Leaders in Training (LiT) for Grades 9–12; some sessions have specific dates and locations such as Port Sorell (Banksia, 2–6 Jan 2027) and Huon (3–8 Jan 2027). The website states the group has operated for over 30 years and describes a high leader-to-camper ratio, leaders who hold state government checks and “Safe Church Communities” training and endorsement. The site presents aims to provide opportunities to explore Christian faith, build friendships and offer activities not available daily; these are organisation-authored descriptions rather than independently verified facts. The ACNC register extract is recorded for the entity; no detailed financial records were provided in the supplied evidence.",
+  "organisation_self_description": null,
+  "activities": [
+    "Running residential camps for school-aged children and teenagers",
+    "Operating a Leaders in Training program for older teenagers (Grades 9–12)",
+    "Delivering scheduled seasonal camps and other camps throughout the year"
+  ],
+  "beneficiaries": [
+    "Campers who are children and young people (school grades 3–12)",
+    "Participants in leadership training (students in grades 9–12)"
+  ],
+  "participation_modes": [
+    "Attending as a camper (school-aged children and teenagers)",
+    "Participating as a leader-in-training (students in grades 9–12)"
+  ],
+  "opportunities": [],
+  "source_native_records": [
+    {
+      "source_record_id": "src:acnc-register:8e60ccd8-bf94-5abf-92cc-b31058cf2d34",
+      "source_family": "acnc-register",
+      "dataset_version": "2026-08-10",
+      "source_url": null,
+      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "observed_at": "2026-08-10",
+      "effective_from": null,
+      "effective_to": null,
+      "source_fields": {
+        "ABN": "28287305180",
+        "Legal Name": "Anglican Camping Tasmania Commission",
+        "Registration Status": "registered",
+        "ACNC classifications": "religion; children"
+      },
+      "canonical_field_mappings": {
+        "ABN": "external_identifiers",
+        "Legal Name": "legal_name",
+        "Registration Status": "registrations"
+      },
+      "evidence_ids": [
+        "ev:acnc:28287305180"
+      ]
+    }
+  ],
+  "financial_records": [],
+  "financial_metrics": [],
+  "fundraising_expenditure": null,
+  "funding_sources": [],
+  "fundraising_methods": [],
+  "classifications": [
+    {
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "purpose.religion",
+      "term_label": "religion",
+      "assignment_method": "source_native",
+      "confidence": "high",
+      "evidence_ids": [
+        "ev:acnc:28287305180"
+      ]
+    },
+    {
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "beneficiary.children",
+      "term_label": "children",
+      "assignment_method": "source_native",
+      "confidence": "high",
+      "evidence_ids": [
+        "ev:acnc:28287305180"
+      ]
+    },
+    {
+      "taxonomy_id": "causebase",
+      "taxonomy_version": "0.1-phase2a",
+      "term_id": "activity.direct_service",
+      "term_label": "Direct service delivery",
+      "assignment_method": "llm_classification",
+      "confidence": "medium",
+      "evidence_ids": []
+    },
+    {
+      "taxonomy_id": "causebase",
+      "taxonomy_version": "0.1-phase2a",
+      "term_id": "activity.events_and_public_programming",
+      "term_label": "Events and public programming",
+      "assignment_method": "llm_classification",
+      "confidence": "medium",
+      "evidence_ids": []
+    },
+    {
+      "taxonomy_id": "causebase",
+      "taxonomy_version": "0.1-phase2a",
+      "term_id": "geography.local_or_regional",
+      "term_label": "Local or regional Australia",
+      "assignment_method": "llm_classification",
+      "confidence": "medium",
+      "evidence_ids": []
+    },
+    {
+      "taxonomy_id": "causebase",
+      "taxonomy_version": "0.1-phase2a",
+      "term_id": "organisation.local",
+      "term_label": "Local organisation",
+      "assignment_method": "llm_classification",
+      "confidence": "medium",
+      "evidence_ids": []
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "ev:acnc:28287305180",
+      "source_type": "regulatory",
+      "title": "ACNC Register extract",
+      "publisher": "Australian Charities and Not-for-profits Commission",
+      "url": null,
+      "observed_at": "2026-08-10",
+      "reporting_period": null,
+      "page": null,
+      "section": null,
+      "content_hash": null
+    },
+    {
+      "evidence_id": "ev:web:28287305180:2026-08-10",
+      "source_type": "organisation_self_report",
+      "title": "Organisation website homepage",
+      "publisher": "Anglican Camping Tasmania Commission",
+      "url": "https://anglicancamping.org",
+      "observed_at": "2026-08-10",
+      "reporting_period": null,
+      "page": null,
+      "section": null,
+      "content_hash": null
+    }
+  ],
+  "embedding": {
+    "embedding_id": "cb_73a3745783b14690b17f97c648789ee4:entity:text-embedding-3-small",
+    "embedding_type": "entity",
+    "model_id": "text-embedding-3-small",
+    "model_version": "text-embedding-3-small",
+    "dimensions": 1536,
+    "source_text_hash": "60081a6ee1f40a9586dda58853a0ed2a096781118780d0b4258607096a50fa4a",
+    "generated_at": "2026-08-10T13:53:24.455909Z",
+    "vector_ref": "embeddings.parquet#cb_73a3745783b14690b17f97c648789ee4"
+  },
+  "synthesis": {
+    "model_id": "gpt-5-mini-2025-08-07",
+    "prompt_version": "phase2a-0.4",
+    "parameters": {
+      "max_output_tokens": 3000,
+      "structured_output": true
+    },
+    "evidence_input_hash": "edb0b5646676376c015d3e9eb76ea8267c752424ed9e6c88a2fe6d51f035c984",
+    "generated_at": "2026-08-10T12:48:31.908705Z",
+    "editorial_policy_version": "0.1"
+  },
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-10T12:48:31.908705Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "assessment_method": "phase2b-deterministic-v1",
+      "input_hash": "edb0b5646676376c015d3e9eb76ea8267c752424ed9e6c88a2fe6d51f035c984",
+      "disposition": "reused",
+      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "affected_dimensions": []
+    },
+    {
+      "derivative": "taxonomy",
+      "generated_at": "2026-08-10T12:48:31.908705Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "assessment_method": "phase2b-deterministic-v1",
+      "input_hash": "edb0b5646676376c015d3e9eb76ea8267c752424ed9e6c88a2fe6d51f035c984",
+      "disposition": "reused",
+      "reason": "No new supported canonical classification facts.",
+      "affected_dimensions": []
+    },
+    {
+      "derivative": "fundraising",
+      "generated_at": null,
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "assessment_method": "phase2b-deterministic-v1",
+      "input_hash": "edb0b5646676376c015d3e9eb76ea8267c752424ed9e6c88a2fe6d51f035c984",
+      "disposition": "reused",
+      "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
+      "affected_dimensions": []
+    },
+    {
+      "derivative": "embedding",
+      "generated_at": "2026-08-10T13:53:24.455909Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "assessment_method": "phase2b-deterministic-v1",
+      "input_hash": "60081a6ee1f40a9586dda58853a0ed2a096781118780d0b4258607096a50fa4a",
+      "disposition": "reused",
+      "reason": "Semantic source text unchanged.",
+      "affected_dimensions": []
+    },
+    {
+      "derivative": "similarities",
+      "generated_at": "2026-08-10T13:53:24.455909Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "assessment_method": "phase2b-deterministic-v1",
+      "input_hash": "60081a6ee1f40a9586dda58853a0ed2a096781118780d0b4258607096a50fa4a",
+      "disposition": "reused",
+      "reason": "Embedding reused; semantic neighbours retained.",
+      "affected_dimensions": []
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-12-rc1",
+  "card_schema_version": "0.2",
+  "editorial_policy_version": "0.2",
+  "generator_version": "0.2.0",
+  "built_at": "2026-08-12T11:26:59.282210Z"
+}

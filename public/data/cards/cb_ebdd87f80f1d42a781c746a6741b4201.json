@@ -92,7 +92,30 @@
     "Northern Australia (as described on the school website)",
     "Online delivery (location not specified on the website)"
   ],
-  "causebase_summary": "Haileybury Rendall School is a school based in Darwin, Northern Territory. The school’s website states it provides education from an Early Learning Centre (ages 3–5) through to Year 12, and offers day, boarding and online delivery: the site describes Years 7–12 boarding (for domestic and international students) and an online program for Years 5–12. The website describes a compulsory Experiential Learning outdoor education program that includes activities in remote environments, a teaching framework that uses an Explicit Teaching Model in primary years and VCE in senior years, and a stated commitment to educating Aboriginal students from remote Australian communities. Facilities described on the site include three ovals, basketball and netball courts, a large outdoor gymnasium, a 25-metre outdoor swimming pool, performing-arts spaces (Dumabudla Centre, auditorium, music rooms, drama and dance studio), a modern library/resource space and an on-campus Health Centre for boarding students. The website also notes affiliation with Haileybury campuses in Melbourne and a Haileybury presence in Tianjin, China, and claims the school produced the highest ATAR result in the Northern Territory in 2025. An ACNC AIS extract for 2023 records revenue of AUD 33,396,968 and total expenses of AUD 31,041,515.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:84325837304"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-NT",
+      "label": "Northern Territory",
+      "evidence_ids": [
+        "ev:acnc:84325837304"
+      ]
+    }
+  ],
+  "causebase_summary": "Haileybury Rendall School is a co‑educational day, boarding and online school based in Darwin, Northern Territory, Australia. It educates children from an Early Learning Centre to Year 12, offers boarding for Years 7–12 to domestic and international students, and provides an online program for Years 5–12. The school runs a compulsory Experiential Outdoor Education programme in remote environments and delivers the VCE curriculum in senior years. On campus it maintains sporting and performing‑arts facilities available for hire and a Health Centre for boarding students. The school also states a commitment to educating Aboriginal students from remote Australian communities and public programming such as open days, shows and regional event participation is listed on its events calendar.",
+  "summary_evidence_ids": [
+    "ev:web:84325837304:2026-08-10",
+    "ev:ais:84325837304:2023",
+    "ev:acnc:84325837304"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Day schooling (Early Learning Centre to Year 12)",
@@ -123,8 +146,8 @@
       "source_record_id": "src:acnc-register:89f423a4-f661-59bc-a098-afe9d2c98e7a",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=84325837304",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -132,7 +155,10 @@
         "ABN": "84325837304",
         "Legal Name": "Haileybury Rendall School",
         "Registration Status": "registered",
-        "ACNC classifications": "education; children"
+        "ACNC classifications": "education; children",
+        "Website": "haileyburyrendall.com.au",
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -148,7 +174,7 @@
       "source_family": "acnc-ais",
       "dataset_version": "2026-08-10",
       "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -409,34 +435,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "a41362a6dcb96567ec29adc2ea11616cd0283664cdde3066431d8061afc90bdf",
-    "generated_at": "2026-08-10T12:48:33.026487Z",
+    "evidence_input_hash": "3f1bca9cf49813600b02f6a4565656d42bdfeaecb1fcc26c369556b81d1af054",
+    "generated_at": "2026-08-12T13:43:17.807813Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T12:48:33.026487Z",
+      "generated_at": "2026-08-12T13:43:17.807813Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "a41362a6dcb96567ec29adc2ea11616cd0283664cdde3066431d8061afc90bdf",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "3f1bca9cf49813600b02f6a4565656d42bdfeaecb1fcc26c369556b81d1af054",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T12:48:33.026487Z",
+      "generated_at": "2026-08-12T13:43:17.807813Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "a41362a6dcb96567ec29adc2ea11616cd0283664cdde3066431d8061afc90bdf",
+      "input_hash": "3f1bca9cf49813600b02f6a4565656d42bdfeaecb1fcc26c369556b81d1af054",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -445,9 +471,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "a41362a6dcb96567ec29adc2ea11616cd0283664cdde3066431d8061afc90bdf",
+      "input_hash": "3f1bca9cf49813600b02f6a4565656d42bdfeaecb1fcc26c369556b81d1af054",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -456,7 +482,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.455855Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "ea9e8a7cf8f1b394c5d818e315246dbe47faa6e8137ef5c91915c32b18307c2f",
       "disposition": "reused",
@@ -467,7 +493,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.455855Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "ea9e8a7cf8f1b394c5d818e315246dbe47faa6e8137ef5c91915c32b18307c2f",
       "disposition": "reused",
@@ -475,9 +501,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

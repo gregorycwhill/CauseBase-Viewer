@@ -88,7 +88,29 @@
   "geography": [
     "Western Australia"
   ],
-  "causebase_summary": "Thalanyji Foundation Limited is an organisation registered with the Australian Charities and Not‑for‑profits Commission (ACNC) and recorded as associated with Western Australia. The only supplied public filings are an ACNC register extract and the 2023 Annual Information Statement (reporting period 01/07/2022 to 30/06/2023). In that AIS the organisation reported nil revenue and nil total expenses for the 2022–23 year. No website, program descriptions, activity listings, beneficiary groups, staff or volunteer numbers, assets or grants are present in the supplied evidence. Known coverage flags indicate regulatory information and financials were observed, while a website and annual report content have not been found in the supplied sources.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:17624324741"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-WA",
+      "label": "Western Australia",
+      "evidence_ids": [
+        "ev:acnc:17624324741"
+      ]
+    }
+  ],
+  "causebase_summary": "Thalanyji Foundation Limited is an organisation linked to Western Australia. For the 2022–23 reporting year (01/07/2022 to 30/06/2023) it reported zero revenue and zero expenses. The records supplied do not include a website, public description of activities, or named beneficiaries. CauseBase does not have sufficient descriptive evidence in this release to independently identify the foundation's specific activities, programs, services or intended beneficiaries.",
+  "summary_evidence_ids": [
+    "ev:acnc:17624324741",
+    "ev:ais:17624324741:2023"
+  ],
   "organisation_self_description": null,
   "activities": [],
   "beneficiaries": [],
@@ -99,8 +121,8 @@
       "source_record_id": "src:acnc-register:0fff40d0-e095-5a9f-972a-0f834d4cdb76",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=17624324741",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -108,7 +130,10 @@
         "ABN": "17624324741",
         "Legal Name": "Thalanyji Foundation Limited",
         "Registration Status": "registered",
-        "ACNC classifications": "social welfare; other beneficiary"
+        "ACNC classifications": "social welfare; other beneficiary",
+        "Website": null,
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -124,7 +149,7 @@
       "source_family": "acnc-ais",
       "dataset_version": "2026-08-10",
       "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": "2022-07-01",
       "effective_to": "2023-06-30",
@@ -310,34 +335,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "b6f1cf786f2b056f92a48e1283aa83108b3826c0b1166a20cb24e017922547aa",
-    "generated_at": "2026-08-10T12:46:13.627669Z",
+    "evidence_input_hash": "46f4c2ab26c974fc1e791274949b23e0f1fb5eed1bd42a6cd0de20d2d7aa2f75",
+    "generated_at": "2026-08-12T13:38:29.648790Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T12:46:13.627669Z",
+      "generated_at": "2026-08-12T13:38:29.648790Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "b6f1cf786f2b056f92a48e1283aa83108b3826c0b1166a20cb24e017922547aa",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "46f4c2ab26c974fc1e791274949b23e0f1fb5eed1bd42a6cd0de20d2d7aa2f75",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T12:46:13.627669Z",
+      "generated_at": "2026-08-12T13:38:29.648790Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "b6f1cf786f2b056f92a48e1283aa83108b3826c0b1166a20cb24e017922547aa",
+      "input_hash": "46f4c2ab26c974fc1e791274949b23e0f1fb5eed1bd42a6cd0de20d2d7aa2f75",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -346,9 +371,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "b6f1cf786f2b056f92a48e1283aa83108b3826c0b1166a20cb24e017922547aa",
+      "input_hash": "46f4c2ab26c974fc1e791274949b23e0f1fb5eed1bd42a6cd0de20d2d7aa2f75",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -357,7 +382,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.455542Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "221f642b4b19d7054face3ce73163430cf8eb85d524f28f8bc9c63bf689ab783",
       "disposition": "reused",
@@ -368,7 +393,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.455542Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "221f642b4b19d7054face3ce73163430cf8eb85d524f28f8bc9c63bf689ab783",
       "disposition": "reused",
@@ -376,9 +401,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

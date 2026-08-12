@@ -90,7 +90,30 @@
   "geography": [
     "887 Swanston Street, Parkville, Melbourne, Victoria (Australia)"
   ],
-  "causebase_summary": "The organisation’s website describes Newman College as a co‑educational residential college located at 887 Swanston Street, Parkville, Victoria, affiliated with the University of Melbourne and accepting primarily University of Melbourne students with limited places for ACU, Monash and RMIT students. The website lists figures including about 280 community members, 220 scholarships and bursaries awarded, and about 90 tutorials delivered each week. The site lists activities such as residential accommodation, a tutorial programme and academic mentoring, an outreach programme, Scholar’s Presentations and guest speakers, and opportunities in sport, music, drama and art; it also refers to student engagements in community service and items of news such as a Camino retreat and inter‑collegiate swimming results. The ACNC AIS 2023 extract in the provided evidence reports revenue of AUD 282,179 and total expenses of AUD 193,332 for the 2023 reporting period. Contact details on the website include a Parkville street address, phone number and office email. The material presented here is taken from the organisation’s own website and from the ACNC AIS 2023 extract included in the evidence pack.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:51419209376"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-VIC",
+      "label": "Victoria",
+      "evidence_ids": [
+        "ev:acnc:51419209376"
+      ]
+    }
+  ],
+  "causebase_summary": "Newman College is a co‑educational residential college affiliated with the University of Melbourne, located at 887 Swanston Street, Parkville, Victoria. It primarily accepts students enrolled at the University of Melbourne and holds limited places for students in select courses at ACU, Monash and RMIT. The College provides residential accommodation and runs an academic tutorial programme and mentoring (tutorials delivered weekly), administers scholarships and bursaries, and operates a student community service and outreach programme. It also supports sporting teams and inter‑collegiate competitions, music, drama and arts productions and concerts, guest speakers and Scholar’s Presentations, and student retreats (including Camino retreats). Published site metrics include counts for community membership, scholarships and weekly tutorials.",
+  "summary_evidence_ids": [
+    "ev:web:51419209376:2026-08-10",
+    "ev:acnc:51419209376",
+    "ev:ais:51419209376:2023"
+  ],
   "organisation_self_description": null,
   "activities": [
     "residential accommodation for university students",
@@ -121,8 +144,8 @@
       "source_record_id": "src:acnc-register:f17150da-e2bf-5af8-879c-b106dbe3f087",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=51419209376",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -130,7 +153,10 @@
         "ABN": "51419209376",
         "Legal Name": "The Trustee For The Newman College Foundation",
         "Registration Status": "registered",
-        "ACNC classifications": "education; environment"
+        "ACNC classifications": "education; environment",
+        "Website": "https://newman.unimelb.edu.au",
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -146,7 +172,7 @@
       "source_family": "acnc-ais",
       "dataset_version": "2026-08-10",
       "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": "2023-01-01",
       "effective_to": "2023-12-31",
@@ -398,34 +424,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "18cedb26b8413422a5651245600efec032e11bae69d230a2f7debc9b04bb0a84",
-    "generated_at": "2026-08-10T12:56:30.152186Z",
+    "evidence_input_hash": "69bba02eb37f08692d980c71c423e12af8bd4b7d40960d661f02ca1e8d1ee940",
+    "generated_at": "2026-08-12T14:02:54.936146Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T12:56:30.152186Z",
+      "generated_at": "2026-08-12T14:02:54.936146Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "18cedb26b8413422a5651245600efec032e11bae69d230a2f7debc9b04bb0a84",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "69bba02eb37f08692d980c71c423e12af8bd4b7d40960d661f02ca1e8d1ee940",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T12:56:30.152186Z",
+      "generated_at": "2026-08-12T14:02:54.936146Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "18cedb26b8413422a5651245600efec032e11bae69d230a2f7debc9b04bb0a84",
+      "input_hash": "69bba02eb37f08692d980c71c423e12af8bd4b7d40960d661f02ca1e8d1ee940",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -434,9 +460,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "18cedb26b8413422a5651245600efec032e11bae69d230a2f7debc9b04bb0a84",
+      "input_hash": "69bba02eb37f08692d980c71c423e12af8bd4b7d40960d661f02ca1e8d1ee940",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -445,7 +471,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.457145Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "39f2117f10288c4ef6d41b55153a08525c62d1949459b896b3ca67291ef2bf9a",
       "disposition": "reused",
@@ -456,7 +482,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.457145Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "39f2117f10288c4ef6d41b55153a08525c62d1949459b896b3ca67291ef2bf9a",
       "disposition": "reused",
@@ -464,9 +490,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

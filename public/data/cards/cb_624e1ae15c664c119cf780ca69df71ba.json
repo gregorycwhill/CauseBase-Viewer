@@ -90,7 +90,21 @@
   "geography": [
     "Australia (organisation-stated)"
   ],
-  "causebase_summary": "ACC TAS MINISTRIES LTD (operating as Youth Alive Tas on its website) appears on the ACNC register and filed an ACNC Information Statement for 2023. The organisation’s website states, as an organisation-authored claim, that “Youth Alive exists so that every young person in Australia lives their full God purpose.” The observed website homepage includes a visible email subscription prompt (“Sign up with your email address to receive news and updates”) and a labelled section heading “OUR PARTNERS”; no partners were named in the captured excerpt. The ACNC AIS 2023 extract reported revenue of AUD 88,470 and total expenses of AUD 82,490 for the 2023 reporting year. The publicly available excerpts and the ACNC extract provide financial and basic identity information but do not describe specific programs, service delivery activities, staff or volunteer roles, beneficiary numbers, or geographic operating sites beyond the organisation-authored statement about young people in Australia.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:83624508961"
+      ]
+    }
+  ],
+  "causebase_summary": "ACC TAS MINISTRIES LTD (operating as Youth Alive) is an Australian organisation that frames its purpose in religious language, saying it exists so that every young person in Australia “lives their full God purpose.” Its website offers an email sign-up for news and updates and includes a partners section. The organisation is described as operating in Australia. CauseBase does not have detailed descriptive evidence in this release of specific programs, direct service activities, or additional beneficiary groups beyond young people in Australia.",
+  "summary_evidence_ids": [
+    "ev:web:83624508961:2026-08-10",
+    "ev:acnc:83624508961"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Publishes news and updates via an email subscription form (website)",
@@ -108,8 +122,8 @@
       "source_record_id": "src:acnc-register:6465d22c-d2f2-58b8-83bf-380e853c0e32",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=83624508961",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -117,7 +131,10 @@
         "ABN": "83624508961",
         "Legal Name": "ACC TAS MINISTRIES LTD",
         "Registration Status": "registered",
-        "ACNC classifications": "religion; young people"
+        "ACNC classifications": "religion; young people",
+        "Website": "www.youthalivetas.com.au",
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -133,7 +150,7 @@
       "source_family": "acnc-ais",
       "dataset_version": "2026-08-10",
       "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": "2023-01-01",
       "effective_to": "2023-12-31",
@@ -349,34 +366,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "93e8ed6b8221568c2406ddc1a355d1d1c0343fabc253868f070254876507d9e4",
-    "generated_at": "2026-08-10T12:49:15.685938Z",
+    "evidence_input_hash": "6b562e016f8687e8be6e07310816c91f6ac16c3dbe733d74eade32ad3ffe5f82",
+    "generated_at": "2026-08-12T13:46:37.526307Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T12:49:15.685938Z",
+      "generated_at": "2026-08-12T13:46:37.526307Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "93e8ed6b8221568c2406ddc1a355d1d1c0343fabc253868f070254876507d9e4",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "6b562e016f8687e8be6e07310816c91f6ac16c3dbe733d74eade32ad3ffe5f82",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T12:49:15.685938Z",
+      "generated_at": "2026-08-12T13:46:37.526307Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "93e8ed6b8221568c2406ddc1a355d1d1c0343fabc253868f070254876507d9e4",
+      "input_hash": "6b562e016f8687e8be6e07310816c91f6ac16c3dbe733d74eade32ad3ffe5f82",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -385,9 +402,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "93e8ed6b8221568c2406ddc1a355d1d1c0343fabc253868f070254876507d9e4",
+      "input_hash": "6b562e016f8687e8be6e07310816c91f6ac16c3dbe733d74eade32ad3ffe5f82",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -396,7 +413,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.456094Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "e65349b8b338e78540774b148164595bbce55918a13c8c8aef8560f32465cfb5",
       "disposition": "reused",
@@ -407,7 +424,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.456094Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "e65349b8b338e78540774b148164595bbce55918a13c8c8aef8560f32465cfb5",
       "disposition": "reused",
@@ -415,9 +432,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

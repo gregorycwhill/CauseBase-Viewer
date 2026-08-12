@@ -91,7 +91,29 @@
     "Australia (Australian Division, per website)",
     "Victoria (registered location on ACNC extract)"
   ],
-  "causebase_summary": "The organisation’s website identifies itself as the Russian Imperial Order of St Michael the Archangel and describes an Australian Division of a dynastic Order of knighthood “instituted in 1988.” The website presents governance material (a constitution and a 2012 statute), a “Join now” membership prompt, a photo gallery and a contact/enquiry form. The site states that a “Foundation Contribution” is applied to running the Order and to “humanitarian activities,” and that an “Annual Oblation” supports charitable works designated by “Her Imperial Highness” through the Australian Division Office. The website says monies collected by branches will be retained by the branch for operating expenses and local charity support approved by the Grand Council, with 25% of branch collections remitted to the Australian Division Office. The site also includes liturgical text for a moleben used at investiture ceremonies. An ACNC extract and the organisation’s AIS for 2022–23 are recorded in the evidence pack; the AIS extract shows reported revenue and expenses of AUD 0 for 01/07/2022–30/06/2023. The material in the evidence pack is primarily drawn from the organisation’s own website and ACNC filings.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:13103345213"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-VIC",
+      "label": "Victoria",
+      "evidence_ids": [
+        "ev:acnc:13103345213"
+      ]
+    }
+  ],
+  "causebase_summary": "The Russian Imperial Order of Saint Michael Archangel is a dynastic order that operates an Australian Division with a registered location in Victoria. It collects membership contributions—identified on its site as a Foundation Contribution, an Annual Oblation and branch collections—to fund the Order's running costs and to support ‘humanitarian activities’ and charitable works designated by Her Imperial Highness through the Australian Division Office. Branches may keep funds for local operating expenses and local charity support, with 25% of branch collections remitted to the Australian Division Office. The organisation maintains governance documents and an Australian Division office, and holds investiture ceremonies that include an Orthodox moleben (liturgical service). It offers membership sign-up and public investiture services.",
+  "summary_evidence_ids": [
+    "ev:web:13103345213:2026-08-10",
+    "ev:acnc:13103345213"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Collecting membership contributions and branch collections to support ‘humanitarian activities’ and designated charitable works (per website)",
@@ -109,8 +131,8 @@
       "source_record_id": "src:acnc-register:ae8f2b5b-4ac8-5143-9654-afbbac5e3632",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=13103345213",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -118,7 +140,10 @@
         "ABN": "13103345213",
         "Legal Name": "The Russian Imperial Order of Saint Michael Archangel",
         "Registration Status": "registered",
-        "ACNC classifications": "other purpose; migrants refugees"
+        "ACNC classifications": "other purpose; migrants refugees",
+        "Website": "russianimperialorder.com",
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -134,7 +159,7 @@
       "source_family": "acnc-ais",
       "dataset_version": "2026-08-10",
       "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": "2022-07-01",
       "effective_to": "2023-06-30",
@@ -377,34 +402,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "37a5e0f9acd388f4763236a577c2ad4118157c4d85ec12485c6bf40e063e2c99",
-    "generated_at": "2026-08-10T12:57:14.399312Z",
+    "evidence_input_hash": "15e59ca0c2dec8dfbe431055bf7bb2f8d1ff8161c095b30d1870abb0495270da",
+    "generated_at": "2026-08-12T14:08:08.405995Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T12:57:14.399312Z",
+      "generated_at": "2026-08-12T14:08:08.405995Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "37a5e0f9acd388f4763236a577c2ad4118157c4d85ec12485c6bf40e063e2c99",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "15e59ca0c2dec8dfbe431055bf7bb2f8d1ff8161c095b30d1870abb0495270da",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T12:57:14.399312Z",
+      "generated_at": "2026-08-12T14:08:08.405995Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "37a5e0f9acd388f4763236a577c2ad4118157c4d85ec12485c6bf40e063e2c99",
+      "input_hash": "15e59ca0c2dec8dfbe431055bf7bb2f8d1ff8161c095b30d1870abb0495270da",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -413,9 +438,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "37a5e0f9acd388f4763236a577c2ad4118157c4d85ec12485c6bf40e063e2c99",
+      "input_hash": "15e59ca0c2dec8dfbe431055bf7bb2f8d1ff8161c095b30d1870abb0495270da",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -424,7 +449,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.457480Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "bf4471e2d3a176c98c0cd7df6f76884bd8334b001084ee9e63957d0f31390e2e",
       "disposition": "reused",
@@ -435,7 +460,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.457480Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "bf4471e2d3a176c98c0cd7df6f76884bd8334b001084ee9e63957d0f31390e2e",
       "disposition": "reused",
@@ -443,9 +468,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

@@ -90,7 +90,30 @@
   "geography": [
     "Tasmania (including Hobart/nipaluna and the east coast)"
   ],
-  "causebase_summary": "Landscape Recovery Foundation Ltd (LRF), registered in Tasmania, publishes research and runs conservation projects focused on Tasmanian biodiversity. The organisation’s website describes the release of a report titled “Swift Parrots Beating the Odds”, which LRF says summarises two years of multidisciplinary field research into swift parrot nesting that combined field surveys, passive acoustic monitoring, sugar glider capture, health and diet analysis and forensic veterinary investigation, and drew on two decades of longitudinal monitoring. The site states the Foundation runs named projects including Swift Parrot Conservation, East Coast Catchments Projects, Eucalypt Conservation and Saving Threatened Orchids; it also advertises events (a podcast interview with two researchers, a Women in Conservation conference presentation) and community activity such as the Great East Coast Clean Up. The website records the 2026 Melanie J. Kelly bursary recipients and prize amounts, notes that LRF obtained Deductible Gift Recipient status on 24 June 2025, and solicits donations. An ACNC Annual Information Statement extract for 1 July 2022–30 June 2023 reports revenue of $333,984 and expenses of $329,695. Many programme descriptions and findings are presented as organisation-authored on the website.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:67649417658"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-TAS",
+      "label": "Tasmania",
+      "evidence_ids": [
+        "ev:acnc:67649417658"
+      ]
+    }
+  ],
+  "causebase_summary": "Landscape Recovery Foundation Ltd. is a Tasmania‑based conservation foundation active as of 2026 that aims to translate scientific research into on‑ground actions to address biodiversity loss and land and sea degradation in Tasmania (including nipaluna/Hobart and the east coast). Its work includes multidisciplinary field research on swift parrot nesting (field surveys, passive acoustic monitoring, sugar glider capture, health and diet analysis and forensic veterinary investigation), publication and dissemination of research (for example the report ‘Swift Parrots Beating the Odds’), delivery of named conservation projects (Swift Parrot Conservation; East Coast Catchments; Eucalypt Conservation; Saving Threatened Orchids), administration of the Melanie J. Kelly bursary, community clean‑up events and partnerships with land managers, NGOs, government, corporations and communities. A 2026 foundation report is cited for findings on swift parrot nesting success.",
+  "summary_evidence_ids": [
+    "ev:web:67649417658:2026-08-10",
+    "ev:ais:67649417658:2023",
+    "ev:acnc:67649417658"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Multidisciplinary field research on swift parrot nesting (field surveys, passive acoustic monitoring, sugar glider capture, health and diet analysis, forensic veterinary investigation)",
@@ -119,8 +142,8 @@
       "source_record_id": "src:acnc-register:7bf61536-2904-51aa-8299-951b047accd2",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=67649417658",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -128,7 +151,10 @@
         "ABN": "67649417658",
         "Legal Name": "LANDSCAPE RECOVERY FOUNDATION LTD.",
         "Registration Status": "registered",
-        "ACNC classifications": "environment; animals"
+        "ACNC classifications": "environment; animals",
+        "Website": "https://landscaperecovery.com.au/",
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -144,7 +170,7 @@
       "source_family": "acnc-ais",
       "dataset_version": "2026-08-10",
       "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": "2022-07-01",
       "effective_to": "2023-06-30",
@@ -414,34 +440,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "89658ce5e8d4d763bf5fb061f911616da8ee596e80e3ca3fc50a3e22c5b361df",
-    "generated_at": "2026-08-10T13:04:58.509754Z",
+    "evidence_input_hash": "b708a4e1649da461527096b7cbea67192098f3ba404bcd9ddec1034f09e68e7d",
+    "generated_at": "2026-08-12T14:18:04.712002Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T13:04:58.509754Z",
+      "generated_at": "2026-08-12T14:18:04.712002Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "89658ce5e8d4d763bf5fb061f911616da8ee596e80e3ca3fc50a3e22c5b361df",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "b708a4e1649da461527096b7cbea67192098f3ba404bcd9ddec1034f09e68e7d",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T13:04:58.509754Z",
+      "generated_at": "2026-08-12T14:18:04.712002Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "89658ce5e8d4d763bf5fb061f911616da8ee596e80e3ca3fc50a3e22c5b361df",
+      "input_hash": "b708a4e1649da461527096b7cbea67192098f3ba404bcd9ddec1034f09e68e7d",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -450,9 +476,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "89658ce5e8d4d763bf5fb061f911616da8ee596e80e3ca3fc50a3e22c5b361df",
+      "input_hash": "b708a4e1649da461527096b7cbea67192098f3ba404bcd9ddec1034f09e68e7d",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -461,7 +487,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.458093Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "7a88ad0c4261cf4505e6854ecd47003532883761969fd47e694788743dce0999",
       "disposition": "reused",
@@ -472,7 +498,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.458093Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "7a88ad0c4261cf4505e6854ecd47003532883761969fd47e694788743dce0999",
       "disposition": "reused",
@@ -480,9 +506,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

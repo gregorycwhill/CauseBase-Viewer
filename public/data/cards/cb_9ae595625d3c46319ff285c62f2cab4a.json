@@ -91,7 +91,30 @@
     "Broadview, South Australia (1 Francis Ave)",
     "Australia (local/regional)"
   ],
-  "causebase_summary": "Enfield Baptist Church Inc (displayed as Enfield Baptist Church) operates from 1 Francis Ave, Broadview, South Australia and offers weekly Sunday services at 10:00am that attendees can join in person or watch online. The organisation’s website hosts an archive of previous sermons and a calendar of upcoming events. The site names specific programs including “Lifewell Ministries” and an “Aged Care Volunteer Visitors Scheme”; the latter is presented as a volunteer program. The website provides contact and connection pages and invites people to “Get Connected” and “Join Us,” and it links to social media (Facebook, YouTube). The ACNC extract for 2022–23 reports revenue of $892,389 and total expenses of $821,437 for the 01/07/2022–30/06/2023 reporting period. The organisation’s website includes a statement that it “longs to see lives deeply transformed by Jesus,” presented here as the organisation’s stated purpose. No detailed descriptions of program eligibility, participant numbers, or the operational footprint beyond the Broadview location are provided in the available evidence.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:68056806311"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-SA",
+      "label": "South Australia",
+      "evidence_ids": [
+        "ev:acnc:68056806311"
+      ]
+    }
+  ],
+  "causebase_summary": "Enfield Baptist Church Inc is a local Baptist church based at 1 Francis Ave, Broadview, South Australia. It holds Sunday services in person and online (Sunday 10:00am) and maintains an online archive of recorded sermons. The church lists a named Aged Care Volunteer Visitors Scheme and a program called Lifewell Ministries, and publishes upcoming public events and connection information for congregation and visitors. Volunteers participate in the aged-care visiting program; members of the public and congregation may attend services and events. Contact details and directions are provided on the church website.",
+  "summary_evidence_ids": [
+    "ev:web:68056806311:2026-08-10",
+    "ev:ais:68056806311:2023",
+    "ev:acnc:68056806311"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Sunday church services (in-person and online)",
@@ -115,8 +138,8 @@
       "source_record_id": "src:acnc-register:4bcd8559-77db-537f-b2e3-3e096677a79a",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=68056806311",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -124,7 +147,10 @@
         "ABN": "68056806311",
         "Legal Name": "Enfield Baptist Church Inc",
         "Registration Status": "registered",
-        "ACNC classifications": "religion; people with disability"
+        "ACNC classifications": "religion; people with disability",
+        "Website": "www.enfieldbaptist.com.au",
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -140,7 +166,7 @@
       "source_family": "acnc-ais",
       "dataset_version": "2026-08-10",
       "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": "2022-07-01",
       "effective_to": "2023-06-30",
@@ -410,34 +436,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "42ed880fa4d565083a3282bdbee03d18f4e780b12f43ae5fb6f1514ceb2d8528",
-    "generated_at": "2026-08-10T12:58:50.132447Z",
+    "evidence_input_hash": "926fd5504a33dcf1eb6c81967de03e4a20a71d79dd6d104802d04845d0b9d34c",
+    "generated_at": "2026-08-12T14:11:19.725032Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T12:58:50.132447Z",
+      "generated_at": "2026-08-12T14:11:19.725032Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "42ed880fa4d565083a3282bdbee03d18f4e780b12f43ae5fb6f1514ceb2d8528",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "926fd5504a33dcf1eb6c81967de03e4a20a71d79dd6d104802d04845d0b9d34c",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T12:58:50.132447Z",
+      "generated_at": "2026-08-12T14:11:19.725032Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "42ed880fa4d565083a3282bdbee03d18f4e780b12f43ae5fb6f1514ceb2d8528",
+      "input_hash": "926fd5504a33dcf1eb6c81967de03e4a20a71d79dd6d104802d04845d0b9d34c",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -446,9 +472,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "42ed880fa4d565083a3282bdbee03d18f4e780b12f43ae5fb6f1514ceb2d8528",
+      "input_hash": "926fd5504a33dcf1eb6c81967de03e4a20a71d79dd6d104802d04845d0b9d34c",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -457,7 +483,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.457681Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "8ba9140fe9ea87b6c6371d81c93abd86cd86f84eddd77b95afa7284668d6ad99",
       "disposition": "reused",
@@ -468,7 +494,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.457681Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "8ba9140fe9ea87b6c6371d81c93abd86cd86f84eddd77b95afa7284668d6ad99",
       "disposition": "reused",
@@ -476,9 +502,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

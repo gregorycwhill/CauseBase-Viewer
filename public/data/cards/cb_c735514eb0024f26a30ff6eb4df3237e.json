@@ -89,7 +89,29 @@
     "Queensland (organisational registration observed)",
     "Online/streaming platforms listed on the organisation’s website (mobile, tablet, web, Apple TV, Smart TV, Foxtel, Fetch, Chromecast)"
   ],
-  "causebase_summary": "Australian Christian Channel Pty Ltd (operating a service called GOOD) is presented on its website (watchgood.com) as a streaming television and on‑demand service. The site states the GOOD app can be downloaded for mobile phones and tablets (iOS v12+ and Android v7+), and that GOOD is available on web, Apple TV, Smart TV, Foxtel, Fetch and Chromecast. The website publishes program listings and short articles under headings such as Faith and Culture, Entertainment & The Arts, Lifestyle, Families and Health and Wellness (examples dated 4–9 August 2026 are shown). The site invites users to sign up for a newsletter for program news and behind‑the‑scenes content. An ACNC Register extract for Australian Christian Channel Pty Ltd was observed in the evidence pack. The evidence is primarily the organisation’s website and the ACNC record; the website’s statements about device availability and content categories are reported here as claims from the organisation’s site.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:18083027276"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-QLD",
+      "label": "Queensland",
+      "evidence_ids": [
+        "ev:acnc:18083027276"
+      ]
+    }
+  ],
+  "causebase_summary": "Australian Christian Channel Pty Ltd operates the streaming television and on‑demand service branded as GOOD from Queensland and online. GOOD provides a downloadable app for iOS and Android and is available via web and a range of connected TV platforms; the service publishes programme listings and short articles organised into categories such as Faith and Culture, Entertainment & The Arts, Lifestyle, Families and Health and Wellness. The organisation offers a newsletter sign‑up for programme updates and news. The primary user group is people who access or view the GOOD streaming service and its website content, including families identified as a content category.",
+  "summary_evidence_ids": [
+    "ev:web:18083027276:2026-08-10",
+    "ev:acnc:18083027276"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Operating and promoting a streaming television and on‑demand service called GOOD (website claims availability on mobile, tablet, web and connected TV platforms)",
@@ -111,8 +133,8 @@
       "source_record_id": "src:acnc-register:9bb277b3-ffbb-5dd4-9366-05d278d51667",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=18083027276",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -120,7 +142,10 @@
         "ABN": "18083027276",
         "Legal Name": "Australian Christian Channel Pty Ltd",
         "Registration Status": "registered",
-        "ACNC classifications": "religion; general community"
+        "ACNC classifications": "religion; general community",
+        "Website": "https://watchgood.com",
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -244,34 +269,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "e6da29cc5930bddd2e5945e01c8ab5e5b64f4061da350099b4a80e53e72ddd34",
-    "generated_at": "2026-08-10T12:57:43.552744Z",
+    "evidence_input_hash": "4934afc696573b382a0d82df683b5e4e5276b7e9e737a248b71032fb4e35890d",
+    "generated_at": "2026-08-12T14:09:15.355407Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T12:57:43.552744Z",
+      "generated_at": "2026-08-12T14:09:15.355407Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "e6da29cc5930bddd2e5945e01c8ab5e5b64f4061da350099b4a80e53e72ddd34",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "4934afc696573b382a0d82df683b5e4e5276b7e9e737a248b71032fb4e35890d",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T12:57:43.552744Z",
+      "generated_at": "2026-08-12T14:09:15.355407Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "e6da29cc5930bddd2e5945e01c8ab5e5b64f4061da350099b4a80e53e72ddd34",
+      "input_hash": "4934afc696573b382a0d82df683b5e4e5276b7e9e737a248b71032fb4e35890d",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -280,9 +305,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "e6da29cc5930bddd2e5945e01c8ab5e5b64f4061da350099b4a80e53e72ddd34",
+      "input_hash": "4934afc696573b382a0d82df683b5e4e5276b7e9e737a248b71032fb4e35890d",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -291,7 +316,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.457551Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "979829bb039295a6b798a705384d3ef1bec30e519f0464ee906de7b7915d8a5d",
       "disposition": "reused",
@@ -302,7 +327,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.457551Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "979829bb039295a6b798a705384d3ef1bec30e519f0464ee906de7b7915d8a5d",
       "disposition": "reused",
@@ -310,9 +335,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

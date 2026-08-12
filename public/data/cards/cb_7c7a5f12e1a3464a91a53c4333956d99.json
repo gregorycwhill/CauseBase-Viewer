@@ -91,7 +91,38 @@
     "New South Wales",
     "Australian Capital Territory"
   ],
-  "causebase_summary": "Institute of Public Works Engineering Australasia (NSW Division) Ltd (branded on its website as IPWEA NSW & ACT) presents itself as a professional association and training provider for public works and local government engineering professionals in New South Wales and the Australian Capital Territory. The organisation’s website lists events, training courses, and an Advocacy & Policy stream; it advertises specific forums (Public Works AI Forum, 21 August 2026; Development Engineering Forum, 12–13 November 2026) and says it hosts technical events and workshops. It states it is a Registered Training Organisation (RTO 90174) and offers accredited and short courses, and that it provides NSW Government subsidised courses through Smart and Skilled (318282). The website invites membership and attendance at events and training. The ACNC AIS extract for 01/07/2022–30/06/2023 reports revenue of AUD 2,203,114 and total expenses of AUD 2,485,661 for the reporting period. The descriptions of activities and beneficiaries in this summary are drawn from the organisation’s website excerpts and its ACNC reporting.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:35093562602"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-NSW",
+      "label": "New South Wales",
+      "evidence_ids": [
+        "ev:acnc:35093562602"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-ACT",
+      "label": "Australian Capital Territory",
+      "evidence_ids": [
+        "ev:acnc:35093562602"
+      ]
+    }
+  ],
+  "causebase_summary": "Institute of Public Works Engineering Australasia (NSW Division) Ltd (IPWEA NSW & ACT) is a professional association for public works and local government engineering professionals operating in New South Wales and the Australian Capital Territory. It delivers accredited qualifications, short courses and workshops as a Registered Training Organisation (RTO 90174) and provides NSW Government‑subsidised training via Smart and Skilled (318282). IPWEA NSW & ACT hosts technical events, forums and conferences — including a 2026 Public Works AI Forum and a Development Engineering Forum — and undertakes advocacy and policy activities. Participation options described include joining as a member, registering for and attending events, and enrolling in accredited or short courses. CauseBase does not have sufficient descriptive evidence in this release to identify direct service beneficiaries beyond the members and public works professionals named in the sources.",
+  "summary_evidence_ids": [
+    "ev:web:35093562602:2026-08-10",
+    "ev:ais:35093562602:2023",
+    "ev:acnc:35093562602"
+  ],
   "organisation_self_description": null,
   "activities": [
     "deliver accredited and short professional development courses and workshops",
@@ -117,8 +148,8 @@
       "source_record_id": "src:acnc-register:d1a82638-d3f5-5d23-a0b4-237c2a63a8db",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=35093562602",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -126,7 +157,10 @@
         "ABN": "35093562602",
         "Legal Name": "Institute of Public Works Engineering Australasia (NSW Division) Ltd",
         "Registration Status": "registered",
-        "ACNC classifications": "environment; older people"
+        "ACNC classifications": "environment; older people",
+        "Website": "www.ipweansw.org",
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -142,7 +176,7 @@
       "source_family": "acnc-ais",
       "dataset_version": "2026-08-10",
       "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": "2022-07-01",
       "effective_to": "2023-06-30",
@@ -403,34 +437,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "3d48b16bafb61c5ffe0dd427be04beb2debb1ecee88012756d273373a0db6fe0",
-    "generated_at": "2026-08-10T12:53:52.332822Z",
+    "evidence_input_hash": "d0b5e0025ad89f23b44ce136dcb99c73825714d7a5911169e7813c7ecb63689d",
+    "generated_at": "2026-08-12T13:56:21.844103Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T12:53:52.332822Z",
+      "generated_at": "2026-08-12T13:56:21.844103Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "3d48b16bafb61c5ffe0dd427be04beb2debb1ecee88012756d273373a0db6fe0",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "d0b5e0025ad89f23b44ce136dcb99c73825714d7a5911169e7813c7ecb63689d",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T12:53:52.332822Z",
+      "generated_at": "2026-08-12T13:56:21.844103Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "3d48b16bafb61c5ffe0dd427be04beb2debb1ecee88012756d273373a0db6fe0",
+      "input_hash": "d0b5e0025ad89f23b44ce136dcb99c73825714d7a5911169e7813c7ecb63689d",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -439,9 +473,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "3d48b16bafb61c5ffe0dd427be04beb2debb1ecee88012756d273373a0db6fe0",
+      "input_hash": "d0b5e0025ad89f23b44ce136dcb99c73825714d7a5911169e7813c7ecb63689d",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -450,7 +484,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.456735Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "9e086d358b189940806cdf564acb0f2701ce0d71f080cb7de130636f5e4ec7f6",
       "disposition": "reused",
@@ -461,7 +495,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.456735Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "9e086d358b189940806cdf564acb0f2701ce0d71f080cb7de130636f5e4ec7f6",
       "disposition": "reused",
@@ -469,9 +503,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

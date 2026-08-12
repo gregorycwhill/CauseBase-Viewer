@@ -91,7 +91,29 @@
     "Roleystone, Perth Hills, Western Australia",
     "Approximately 40 minutes from Perth"
   ],
-  "causebase_summary": "According to its website, Araluen Botanic Park Foundation Inc operates Araluen Botanic Park in Roleystone in the Perth Hills, about 40 minutes from Perth. The site describes 14 hectares of cultivated botanical gardens set within 59 hectares of native West Australian bushland and highlights a tree collection developed through “decades of intentional planting, ecological succession, and preservation of native forest.” The park publishes a calendar of public events and programs including a Tulip Festival, live concerts, seasonal festivals, a Flower Crown workshop and a Remembrance Day event. The website advertises venue hire for weddings, an on-site café, membership and volunteer opportunities; one advertised volunteer activity is a scheduled bulb‑planting day that the website says will plant 250,000 bulbs to prepare for spring. The organisation’s ACNC AIS return for 2022–23 reports revenue of AUD 3,029,307 and total expenses of AUD 2,215,004. Contact details and an address in Roleystone are listed on the website.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:44552934060"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-WA",
+      "label": "Western Australia",
+      "evidence_ids": [
+        "ev:acnc:44552934060"
+      ]
+    }
+  ],
+  "causebase_summary": "Araluen Botanic Park Foundation Inc manages Araluen Botanic Park in Roleystone in the Perth Hills, Western Australia. As of August 2026 it maintains 14 hectares of cultivated botanical gardens set within 59 hectares of native West Australian bushland, and manages a significant tree collection and remnant native forest on site. The park hosts public programming including a Tulip Festival, concerts and workshops, operates venue hire for weddings and other events and runs an on‑site café. It recruits and hosts volunteer activities such as a large bulb‑planting day (250,000 bulbs cited) and advertises regular opportunities for visitors to participate. The park is described as open to visitors and supports on‑site wildlife associated with the native bushland.",
+  "summary_evidence_ids": [
+    "ev:web:44552934060:2026-08-10",
+    "ev:acnc:44552934060"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Maintain 14 hectares of cultivated botanical gardens within 59 hectares of native bushland (as described on the organisation's website)",
@@ -115,8 +137,8 @@
       "source_record_id": "src:acnc-register:bfacde73-0b0f-5c71-a167-dc6d5d94b147",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=44552934060",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -124,7 +146,10 @@
         "ABN": "44552934060",
         "Legal Name": "Araluen Botanic Park Foundation Inc",
         "Registration Status": "registered",
-        "ACNC classifications": "environment; children"
+        "ACNC classifications": "environment; children",
+        "Website": "www.araluenbotanicpark.com.au",
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -140,7 +165,7 @@
       "source_family": "acnc-ais",
       "dataset_version": "2026-08-10",
       "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": "2022-07-01",
       "effective_to": "2023-06-30",
@@ -410,34 +435,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "f9e1240f610ab639ad1e056c1a793aa545b10528109c236068f3016e1013d888",
-    "generated_at": "2026-08-10T12:47:09.846797Z",
+    "evidence_input_hash": "bce16e04950effb37825e595af69998294328d06ccaae1a667055fefd67ffcb0",
+    "generated_at": "2026-08-12T13:40:57.054212Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T12:47:09.846797Z",
+      "generated_at": "2026-08-12T13:40:57.054212Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "f9e1240f610ab639ad1e056c1a793aa545b10528109c236068f3016e1013d888",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "bce16e04950effb37825e595af69998294328d06ccaae1a667055fefd67ffcb0",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T12:47:09.846797Z",
+      "generated_at": "2026-08-12T13:40:57.054212Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "f9e1240f610ab639ad1e056c1a793aa545b10528109c236068f3016e1013d888",
+      "input_hash": "bce16e04950effb37825e595af69998294328d06ccaae1a667055fefd67ffcb0",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -446,9 +471,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "f9e1240f610ab639ad1e056c1a793aa545b10528109c236068f3016e1013d888",
+      "input_hash": "bce16e04950effb37825e595af69998294328d06ccaae1a667055fefd67ffcb0",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -457,7 +482,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.455697Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "d111f6dd69785b2eb9cbaa6fcf359418f84e67c45d9c946bf29b7901371c761b",
       "disposition": "reused",
@@ -468,7 +493,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.455697Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "d111f6dd69785b2eb9cbaa6fcf359418f84e67c45d9c946bf29b7901371c761b",
       "disposition": "reused",
@@ -476,9 +501,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

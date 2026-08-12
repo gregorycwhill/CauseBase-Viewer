@@ -86,7 +86,28 @@
   "geography": [
     "Queensland (QLD)"
   ],
-  "causebase_summary": "Darumbal People Aboriginal Corporation RNTBC appears on the ACNC Register and is recorded in this release with structured geography of Queensland (QLD). This CauseBase release includes an ACNC Register extract for the legal entity but does not include a website, a public self-description, statements of activities or programs, beneficiary listings, or financial reports. The organisation's legal name in the register contains the letters “RNTBC”; CauseBase records that as part of the legal name and does not infer functions or services from the name. CauseBase does not have sufficient descriptive evidence in this release to independently identify specific activities, programs, beneficiaries, participation modes, or financial details for this organisation.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:93624893443"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-QLD",
+      "label": "Queensland",
+      "evidence_ids": [
+        "ev:acnc:93624893443"
+      ]
+    }
+  ],
+  "causebase_summary": "Darumbal People Aboriginal Corporation RNTBC is an Aboriginal corporation whose legal name includes the RNTBC designation and is recorded as located in Queensland, Australia. CauseBase does not have sufficient descriptive evidence in this release to independently identify the corporation’s specific activities, programs or beneficiary groups. The single recorded source for this release is an ACNC Register extract (ev:acnc:93624893443); no organisational website text or descriptive reports were supplied here to describe services, projects or participation modes.",
+  "summary_evidence_ids": [
+    "ev:acnc:93624893443"
+  ],
   "organisation_self_description": null,
   "activities": [],
   "beneficiaries": [],
@@ -97,8 +118,8 @@
       "source_record_id": "src:acnc-register:6b35f5bd-161b-579e-b588-aa92447b87be",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=93624893443",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -106,7 +127,10 @@
         "ABN": "93624893443",
         "Legal Name": "Darumbal People Aboriginal Corporation RNTBC",
         "Registration Status": "registered",
-        "ACNC classifications": "health; regional remote"
+        "ACNC classifications": "health; regional remote",
+        "Website": null,
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -182,34 +206,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.5",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "0cf5403e1dd05375944685693b4644ddc41deb408739984853517493ac205566",
-    "generated_at": "2026-08-10T13:50:57.142444Z",
+    "evidence_input_hash": "a65f4f2abbd8dd7d32ce7ff77bffad6354d6830bf45e67baac38799010beea9d",
+    "generated_at": "2026-08-12T13:42:23.031141Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T13:50:57.142444Z",
+      "generated_at": "2026-08-12T13:42:23.031141Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "0cf5403e1dd05375944685693b4644ddc41deb408739984853517493ac205566",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "a65f4f2abbd8dd7d32ce7ff77bffad6354d6830bf45e67baac38799010beea9d",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T13:50:57.142444Z",
+      "generated_at": "2026-08-12T13:42:23.031141Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "0cf5403e1dd05375944685693b4644ddc41deb408739984853517493ac205566",
+      "input_hash": "a65f4f2abbd8dd7d32ce7ff77bffad6354d6830bf45e67baac38799010beea9d",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -218,9 +242,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "0cf5403e1dd05375944685693b4644ddc41deb408739984853517493ac205566",
+      "input_hash": "a65f4f2abbd8dd7d32ce7ff77bffad6354d6830bf45e67baac38799010beea9d",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -229,7 +253,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.455798Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "cb16f501c619f0040bd8a8fc830613b2b03419a3902bbf1331cb882c36174ae2",
       "disposition": "reused",
@@ -240,7 +264,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.455798Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "cb16f501c619f0040bd8a8fc830613b2b03419a3902bbf1331cb882c36174ae2",
       "disposition": "reused",
@@ -248,9 +272,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

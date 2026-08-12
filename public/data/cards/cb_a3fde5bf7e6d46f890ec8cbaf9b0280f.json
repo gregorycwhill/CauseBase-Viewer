@@ -89,7 +89,29 @@
     "Adelaide, South Australia",
     "South Australia, Australia"
   ],
-  "causebase_summary": "Adelaide City Mosque (listed on the ACNC as ADELAIDE MOSQUE ISLAMIC SOCIETY LTD and also referred to on its website as Adelaide Mosque Islamic Society of SA Inc) is a mosque in Adelaide, South Australia. The website describes the building as the oldest functioning mosque in Australia, built in 1886–88 by migrant cameleers from Afghanistan, north‑west India (now Pakistan) and Balochistan. The organisation publishes daily prayer times and a Friday Juma time and says it offers five daily prayers and other facilities. Named services and activities on the website include Prayers/Salah services, funeral services, and halal certification. It lists religious programs and events such as Ramadan, Mawlid‑un‑Nabi and Shab e Miraj, and community activities including a children’s school and a “Sister’s Morning Tea.” The site invites community membership, accepts donations (PayPal, debit/credit card and direct deposit) for general mosque support and specific purposes (iftar, zakat, sadqa, mawlid), and notes website support from the Department of Premier and Cabinet – Multicultural Affairs. The ACNC entry for the legal entity was observed; detailed financial statements and published information on program scale are not included in the supplied evidence.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:47683036106"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-SA",
+      "label": "South Australia",
+      "evidence_ids": [
+        "ev:acnc:47683036106"
+      ]
+    }
+  ],
+  "causebase_summary": "Adelaide Mosque Islamic Society Ltd operates the Adelaide City Mosque in Adelaide, South Australia. Described on its website as Australia’s oldest functioning mosque (built 1886–88), the society offers five daily prayers and Friday (Juma) services, funeral services and halal certification. It runs religious programmes and events (including Ramadan, Mawlid‑un‑Nabi and Shab e Miraj) and community activities such as a children’s school and a Sister’s Morning Tea. The organisation maintains membership (AMISSA) and accepts donations via PayPal, card and direct deposit to support mosque and wider community activities. Services are presented as directed to the Muslim community in Adelaide and to the wider community.",
+  "summary_evidence_ids": [
+    "ev:web:47683036106:2026-08-10",
+    "ev:acnc:47683036106"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Providing five daily prayers and Friday (Juma) prayer services",
@@ -119,8 +141,8 @@
       "source_record_id": "src:acnc-register:7ed139f7-fa0d-58e1-bfce-d43343a3d26b",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=47683036106",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -128,7 +150,10 @@
         "ABN": "47683036106",
         "Legal Name": "ADELAIDE MOSQUE ISLAMIC SOCIETY LTD",
         "Registration Status": "registered",
-        "ACNC classifications": "social welfare; migrants refugees"
+        "ACNC classifications": "social welfare; migrants refugees",
+        "Website": "https://adelaidecitymosque.org.au/",
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -261,34 +286,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "2cd42036d5ce9421edd105a425e96db079648584c2583baf9ef42a3207b095ef",
-    "generated_at": "2026-08-10T12:59:48.257896Z",
+    "evidence_input_hash": "98343e3684acea613ebbc5dea080ef1b5a09a0d4bc258d815de3aa8aee1eff49",
+    "generated_at": "2026-08-12T14:14:09.811121Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T12:59:48.257896Z",
+      "generated_at": "2026-08-12T14:14:09.811121Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "2cd42036d5ce9421edd105a425e96db079648584c2583baf9ef42a3207b095ef",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "98343e3684acea613ebbc5dea080ef1b5a09a0d4bc258d815de3aa8aee1eff49",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T12:59:48.257896Z",
+      "generated_at": "2026-08-12T14:14:09.811121Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "2cd42036d5ce9421edd105a425e96db079648584c2583baf9ef42a3207b095ef",
+      "input_hash": "98343e3684acea613ebbc5dea080ef1b5a09a0d4bc258d815de3aa8aee1eff49",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -297,9 +322,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "2cd42036d5ce9421edd105a425e96db079648584c2583baf9ef42a3207b095ef",
+      "input_hash": "98343e3684acea613ebbc5dea080ef1b5a09a0d4bc258d815de3aa8aee1eff49",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -308,7 +333,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.457866Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "56bbe05bc78e2ca499bdf44a46f3dfd1fd7f46c69a7b832c9f8556be894fdf7f",
       "disposition": "reused",
@@ -319,7 +344,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.457866Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "56bbe05bc78e2ca499bdf44a46f3dfd1fd7f46c69a7b832c9f8556be894fdf7f",
       "disposition": "reused",
@@ -327,9 +352,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

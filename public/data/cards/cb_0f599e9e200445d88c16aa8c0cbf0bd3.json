@@ -90,7 +90,30 @@
   "geography": [
     "South Australia (SA)"
   ],
-  "causebase_summary": "Campbelltown Community Children’s Centre Inc is recorded on its website and in ACNC filings under that legal name and is presented publicly as “Campbelltown CCC.” Available public records for 01/07/2022–30/06/2023 show the organisation reported revenue of AUD 2,310,243 and total expenses of AUD 2,321,451 in its ACNC Annual Information Statement for that period. The organisation’s structured geography in the supplied records is South Australia (SA). The only descriptive material captured from the organisation’s website in the evidence pack is the name/brand “Campbelltown CCC”; no program descriptions, service models, participation opportunities or beneficiary lists were included in the provided website snapshot. The ACNC AIS extract supplied financial figures but no additional program detail in the evidence provided.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:17527786900"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-SA",
+      "label": "South Australia",
+      "evidence_ids": [
+        "ev:acnc:17527786900"
+      ]
+    }
+  ],
+  "causebase_summary": "Campbelltown Community Children's Centre Inc is registered as a community children's centre that operates in South Australia (Campbelltown). The organisation serves children, families and the local community and is identifiable by its legal name and website. It is registered with the Australian Charities and Not‑for‑profits Commission and lodged an Annual Information Statement covering 01/07/2022–30/06/2023. CauseBase does not have sufficient descriptive evidence in this release to independently identify specific programs, daily service models, client age ranges, participation modes (for example, volunteering or working bees) or other operational details beyond the organisation’s name, location and regulatory filings.",
+  "summary_evidence_ids": [
+    "ev:web:17527786900:2026-08-10",
+    "ev:acnc:17527786900",
+    "ev:ais:17527786900:2023"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Identified as a community children’s centre by legal name and website (Campbelltown Community Children’s Centre Inc)"
@@ -107,8 +130,8 @@
       "source_record_id": "src:acnc-register:8ec40fa4-0450-50b3-ac89-1f07d46b686d",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=17527786900",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -116,7 +139,10 @@
         "ABN": "17527786900",
         "Legal Name": "CAMPBELLTOWN COMMUNITY CHILDREN'S CENTRE INC",
         "Registration Status": "registered",
-        "ACNC classifications": "social welfare; other beneficiary"
+        "ACNC classifications": "social welfare; other beneficiary",
+        "Website": "https://www.campbelltownccc.com.au/",
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -132,7 +158,7 @@
       "source_family": "acnc-ais",
       "dataset_version": "2026-08-10",
       "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": "2022-07-01",
       "effective_to": "2023-06-30",
@@ -366,34 +392,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "41b35a6684f285de899e4885d6577f3f30c8e571721bb07688967b76d657eb7c",
-    "generated_at": "2026-08-10T12:53:37.940803Z",
+    "evidence_input_hash": "397973b2af16fe658a10ef01cf1d631fc4444ade7d9255b34f20e7d88114206d",
+    "generated_at": "2026-08-12T13:56:54.453213Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T12:53:37.940803Z",
+      "generated_at": "2026-08-12T13:56:54.453213Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "41b35a6684f285de899e4885d6577f3f30c8e571721bb07688967b76d657eb7c",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "397973b2af16fe658a10ef01cf1d631fc4444ade7d9255b34f20e7d88114206d",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T12:53:37.940803Z",
+      "generated_at": "2026-08-12T13:56:54.453213Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "41b35a6684f285de899e4885d6577f3f30c8e571721bb07688967b76d657eb7c",
+      "input_hash": "397973b2af16fe658a10ef01cf1d631fc4444ade7d9255b34f20e7d88114206d",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -402,9 +428,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "41b35a6684f285de899e4885d6577f3f30c8e571721bb07688967b76d657eb7c",
+      "input_hash": "397973b2af16fe658a10ef01cf1d631fc4444ade7d9255b34f20e7d88114206d",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -413,7 +439,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.456757Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "d25626a16c0f54b88e4473a211c37e9bd6b7e4b1748af37c09116c33d27aa5b4",
       "disposition": "reused",
@@ -424,7 +450,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.456757Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "d25626a16c0f54b88e4473a211c37e9bd6b7e4b1748af37c09116c33d27aa5b4",
       "disposition": "reused",
@@ -432,9 +458,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

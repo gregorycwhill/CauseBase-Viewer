@@ -88,7 +88,29 @@
   "geography": [
     "Victoria (VIC), Australia"
   ],
-  "causebase_summary": "Australia Chung Tai Buddhist Foundation Inc is recorded on the ACNC register with a structured geography of VIC. The available regulatory evidence for 01/07/2022 to 30/06/2023 is an ACNC Annual Information Statement entry reporting revenue of AUD 207,407 and total expenses of AUD 201,787. CauseBase has an ACNC register extract and the AIS 2023 extract as the sources for this record. No organisational self-description or website content was retrieved in this release and the supplied evidence does not describe specific programs, services or beneficiary groups. CauseBase does not have sufficient descriptive evidence in this release to independently identify specific activities or beneficiaries.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:17855693573"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-VIC",
+      "label": "Victoria",
+      "evidence_ids": [
+        "ev:acnc:17855693573"
+      ]
+    }
+  ],
+  "causebase_summary": "Australia Chung Tai Buddhist Foundation Inc is a registered charity based in Victoria, Australia. It filed an Annual Information Statement covering the year 1 July 2022 to 30 June 2023 with the ACNC. CauseBase does not have descriptive material in this release that identifies the foundation’s specific programs, activities or the people or groups it serves.",
+  "summary_evidence_ids": [
+    "ev:acnc:17855693573",
+    "ev:ais:17855693573:2023"
+  ],
   "organisation_self_description": null,
   "activities": [],
   "beneficiaries": [],
@@ -99,8 +121,8 @@
       "source_record_id": "src:acnc-register:6bf7d3bd-e760-53ec-96be-e49a9b9e09ee",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=17855693573",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -108,7 +130,10 @@
         "ABN": "17855693573",
         "Legal Name": "Australia Chung Tai Buddhist Foundation Inc",
         "Registration Status": "registered",
-        "ACNC classifications": "religion; children"
+        "ACNC classifications": "religion; children",
+        "Website": "https://chungtai.org.au/en/",
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -124,7 +149,7 @@
       "source_family": "acnc-ais",
       "dataset_version": "2026-08-10",
       "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": "2022-07-01",
       "effective_to": "2023-06-30",
@@ -310,34 +335,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.5",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "39bc513e4d0e9b4c73be3a6b100c0d80df0fb9a1b5eebecef44180d2aee80da0",
-    "generated_at": "2026-08-10T13:50:51.389102Z",
+    "evidence_input_hash": "b4f9ee3a544efbbdf89d1ea910a4f25f7beb12df0744aa060f80d0d00ea1b03a",
+    "generated_at": "2026-08-12T13:37:07.643668Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T13:50:51.389102Z",
+      "generated_at": "2026-08-12T13:37:07.643668Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "39bc513e4d0e9b4c73be3a6b100c0d80df0fb9a1b5eebecef44180d2aee80da0",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "b4f9ee3a544efbbdf89d1ea910a4f25f7beb12df0744aa060f80d0d00ea1b03a",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T13:50:51.389102Z",
+      "generated_at": "2026-08-12T13:37:07.643668Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "39bc513e4d0e9b4c73be3a6b100c0d80df0fb9a1b5eebecef44180d2aee80da0",
+      "input_hash": "b4f9ee3a544efbbdf89d1ea910a4f25f7beb12df0744aa060f80d0d00ea1b03a",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -346,9 +371,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "39bc513e4d0e9b4c73be3a6b100c0d80df0fb9a1b5eebecef44180d2aee80da0",
+      "input_hash": "b4f9ee3a544efbbdf89d1ea910a4f25f7beb12df0744aa060f80d0d00ea1b03a",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -357,7 +382,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.455395Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "88b00b0e122f3b1b27670bd3eef523383ef292e2874631b9a4432797ad3d8571",
       "disposition": "reused",
@@ -368,7 +393,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.455395Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "88b00b0e122f3b1b27670bd3eef523383ef292e2874631b9a4432797ad3d8571",
       "disposition": "reused",
@@ -376,9 +401,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

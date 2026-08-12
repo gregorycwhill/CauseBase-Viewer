@@ -11,6 +11,7 @@ const entities = [
     external_identifiers: [{ scheme: "abn", value: "11111111111" }],
     causebase_summary: "removes weeds and litter along Merri Creek",
     geography: ["Coburg"],
+    navigation_geography: [{ level: "region_locality", code: "AU-VIC-COBURG", label: "Coburg" }],
     activities: ["revegetates creek banks"],
     beneficiaries: ["urban waterways"],
     participation_modes: ["working bees"],
@@ -24,6 +25,7 @@ const entities = [
     external_identifiers: [{ scheme: "abn", value: "22222222222" }],
     causebase_summary: "provides free legal advice to young people",
     geography: ["Northern Melbourne"],
+    navigation_geography: [{ level: "region_locality", code: "AU-VIC-NMEL", label: "Northern Melbourne" }],
     activities: [],
     beneficiaries: ["young people"],
     participation_modes: ["board service"],
@@ -50,6 +52,6 @@ test("does not imply recommendation ordering", () => {
 test("combines free text with multiple descriptive facets", () => {
   const withFunding = { ...entities[0], funding_sources: [{ source_type: "government_grants_or_contracts" }] };
   assert.equal(filterWithFacets([withFunding, entities[1]], "creek", {
-    geography: ["Coburg"], taxonomy: ["causebase:cause.environment.waterways"], funding: ["government_grants_or_contracts"],
+    geography: ["region_locality:AU-VIC-COBURG:Coburg"], cause: ["cause.environment.waterways"], funding: ["government_grants_or_contracts"],
   }).length, 1);
 });

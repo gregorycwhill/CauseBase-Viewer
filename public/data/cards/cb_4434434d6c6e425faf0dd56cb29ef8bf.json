@@ -93,7 +93,30 @@
     "Asia Pacific region (report lists 30 economies reached, including Australia)",
     "Queensland, Australia (registered location shown in regulatory record)"
   ],
-  "causebase_summary": "The APNIC Foundation Limited is a Queensland-registered organisation that the Foundation’s 2025 annual report describes as an Asia Pacific digital development organisation. The report states the Foundation invested USD 10 million in 2025 across three strategic pillars (Building Capabilities, Driving Digital Innovation, Supporting Digital Transformation) and says it reached communities and practitioners in 30 economies. Reported 2025 outputs include 11,533 people trained, more than 196,700 individuals said to have directly benefited from digital inclusion efforts, and support for digital transformation work in three economies. Program examples named in the report and on the website include ISIF Asia (29 grants across 19 economies; USD 2.31 million in grants in 2025), Switch! (a cohort of 150 women and gender-diverse participants across six Southeast Asian economies), Digital Leap South Asia (DLSA in three South Asian economies) and the RISE‑PH ISIF grantee that the report says connected 53 school sites (51 public schools and 2 teacher‑training colleges; an estimated 80,000–100,000 students). The report and website describe partnerships with APNIC and Keio University, Foundation-led infrastructure activities (M-root deployments, local infrastructure sites), instructor-led and self-paced training, and public events such as SOI Asia and summits.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:24646643156"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-QLD",
+      "label": "Queensland",
+      "evidence_ids": [
+        "ev:acnc:24646643156"
+      ]
+    }
+  ],
+  "causebase_summary": "APNIC Foundation Limited is an Australia-registered organisation (Queensland) that supports internet and digital development across the Asia Pacific. In 2025 it ran grant programs (including ISIF Asia, Trust Discretionary Fund and Community Assistance), directly implemented projects such as school connectivity and M-root deployments, and delivered training through instructor-led workshops and self-paced APNIC Academy courses. It also convenes events and regional schools (for example SOI Asia and APIE) and works with partner organisations on measurement, infrastructure and techno-policy activities. In 2025 the Foundation reports reaching 30 economies, training 11,533 people, and directly reaching about 196,700 individuals; specific project examples include RISE‑PH connecting 53 school sites (an estimated 80,000–100,000 students) and the Switch! cohort of 150 women and gender-diverse technical practitioners.",
+  "summary_evidence_ids": [
+    "ev:report:24646643156:a2a8898a4f64",
+    "ev:web:24646643156:2026-08-10",
+    "ev:acnc:24646643156"
+  ],
   "organisation_self_description": null,
   "activities": [
     "grant-making and project funding (ISIF Asia, Trust Discretionary Fund, Community Assistance)",
@@ -122,8 +145,8 @@
       "source_record_id": "src:acnc-register:6545b90e-33df-509c-8ce5-c2398a92631f",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=24646643156",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -131,7 +154,10 @@
         "ABN": "24646643156",
         "Legal Name": "APNIC FOUNDATION LIMITED",
         "Registration Status": "registered",
-        "ACNC classifications": "education; older people"
+        "ACNC classifications": "education; older people",
+        "Website": "https://apnic.foundation",
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -147,7 +173,7 @@
       "source_family": "acnc-ais",
       "dataset_version": "2026-08-10",
       "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": "2023-01-01",
       "effective_to": "2023-12-31",
@@ -429,34 +455,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "a929080b09b1dcfc54ed564d23e07442c64f6a23e2c50a872d87d62a57af7bd7",
-    "generated_at": "2026-08-10T12:54:12.593128Z",
+    "evidence_input_hash": "7a16c098553982c53fe4b0489dfbc52d6a3c08af8c015d8a97e1019536408192",
+    "generated_at": "2026-08-12T13:57:27.863695Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T12:54:12.593128Z",
+      "generated_at": "2026-08-12T13:57:27.863695Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "a929080b09b1dcfc54ed564d23e07442c64f6a23e2c50a872d87d62a57af7bd7",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "7a16c098553982c53fe4b0489dfbc52d6a3c08af8c015d8a97e1019536408192",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T12:54:12.593128Z",
+      "generated_at": "2026-08-12T13:57:27.863695Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "a929080b09b1dcfc54ed564d23e07442c64f6a23e2c50a872d87d62a57af7bd7",
+      "input_hash": "7a16c098553982c53fe4b0489dfbc52d6a3c08af8c015d8a97e1019536408192",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -465,9 +491,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "a929080b09b1dcfc54ed564d23e07442c64f6a23e2c50a872d87d62a57af7bd7",
+      "input_hash": "7a16c098553982c53fe4b0489dfbc52d6a3c08af8c015d8a97e1019536408192",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -476,7 +502,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.456787Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "49cc9ec7dcc2994b5afb4774a44e5970a89139b730aeea1cd2d8674a50e66bf4",
       "disposition": "reused",
@@ -487,7 +513,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.456787Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "49cc9ec7dcc2994b5afb4774a44e5970a89139b730aeea1cd2d8674a50e66bf4",
       "disposition": "reused",
@@ -495,9 +521,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

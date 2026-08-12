@@ -91,7 +91,29 @@
     "Rossmoyne, City of Canning, Western Australia",
     "Local intake area around Rossmoyne Primary School"
   ],
-  "causebase_summary": "Rossmoyne Kindergarten Association (Inc.) operates Rossmoyne Community Kindergarten, described on its website as a community-run kindergarten leased from the City of Canning and operating since 1969. The website states the kindergarten has two classes with a maximum of 20 children each (a stated staff-to-children ratio of 2:20) and that teachers are appointed by the Department of Education while the service is managed by a parent committee. The site describes an on-site “Enchanted Garden” nature play area with a water pump, sandpits, forts, chickens, rabbits, guinea pigs and vegetable patches and says these features support children’s cognitive and emotional development. Enrolment is described as an in-person, two-step process through Rossmoyne Primary School with an intake preference for local-area residents and siblings; the site states a maximum of 40 kindergarten places per year. The website lists the current cost as A$820 per year (A$205 per term), notes the service relies on community support including grants, donations and volunteers, and offers both an on-site tour and a 360-degree virtual tour. ACNC extracts and the AIS 2023 are listed as regulatory sources; AIS 2023 reports revenue of A$48,227 and expenses of A$49,568.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:62785862039"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-WA",
+      "label": "Western Australia",
+      "evidence_ids": [
+        "ev:acnc:62785862039"
+      ]
+    }
+  ],
+  "causebase_summary": "Rossmoyne Kindergarten Association (Inc.) is a community kindergarten in Rossmoyne, City of Canning, Western Australia. It operates two kindergarten classes with a maximum of 20 children per class for children who are four years old by 30 June in the year they attend. The kindergarten occupies purpose-built facilities leased from the City of Canning, with teachers appointed by the Department of Education and management conducted by a parent committee. On-site provision includes an “Enchanted Garden” nature play area with a water pump, sandpits, forts, poultry and small animals, and vegetable patches. The parent committee manages enrolment administration (applications completed in person at Rossmoyne Primary School), coordinates volunteer involvement, and publishes a 360-degree virtual tour and information on fees and intake timing.",
+  "summary_evidence_ids": [
+    "ev:web:62785862039:2026-08-10",
+    "ev:acnc:62785862039"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Provision of kindergarten (two classes of up to 20 children)",
@@ -115,8 +137,8 @@
       "source_record_id": "src:acnc-register:c56e327c-1d7c-5b2e-a361-66e42975834d",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=62785862039",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -124,7 +146,10 @@
         "ABN": "62785862039",
         "Legal Name": "Rossmoyne Kindergarten Association (Inc.)",
         "Registration Status": "registered",
-        "ACNC classifications": "education; people with disability"
+        "ACNC classifications": "education; people with disability",
+        "Website": "www.rossmoynekindy.com",
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -140,7 +165,7 @@
       "source_family": "acnc-ais",
       "dataset_version": "2026-08-10",
       "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": "2023-01-01",
       "effective_to": "2023-12-31",
@@ -383,34 +408,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "37f01cb02791e3f24994291abcdf32fcced4d93f85f5f8737b3f2f58af908480",
-    "generated_at": "2026-08-10T12:59:57.931843Z",
+    "evidence_input_hash": "d66c3a4809026ca1f4f9c620cdad7ad5b63ade186d1271015a75dd63b134dc2b",
+    "generated_at": "2026-08-12T14:15:11.042755Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T12:59:57.931843Z",
+      "generated_at": "2026-08-12T14:15:11.042755Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "37f01cb02791e3f24994291abcdf32fcced4d93f85f5f8737b3f2f58af908480",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "d66c3a4809026ca1f4f9c620cdad7ad5b63ade186d1271015a75dd63b134dc2b",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T12:59:57.931843Z",
+      "generated_at": "2026-08-12T14:15:11.042755Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "37f01cb02791e3f24994291abcdf32fcced4d93f85f5f8737b3f2f58af908480",
+      "input_hash": "d66c3a4809026ca1f4f9c620cdad7ad5b63ade186d1271015a75dd63b134dc2b",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -419,9 +444,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "37f01cb02791e3f24994291abcdf32fcced4d93f85f5f8737b3f2f58af908480",
+      "input_hash": "d66c3a4809026ca1f4f9c620cdad7ad5b63ade186d1271015a75dd63b134dc2b",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -430,7 +455,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.457917Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "bb2a287426a5afd145d8ea4be8dcfa33204209c51c1b32fed79852fd8aaf2d98",
       "disposition": "reused",
@@ -441,7 +466,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.457917Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "bb2a287426a5afd145d8ea4be8dcfa33204209c51c1b32fed79852fd8aaf2d98",
       "disposition": "reused",
@@ -449,9 +474,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

@@ -92,7 +92,29 @@
     "New Guinea and the Pacific (Papua, Vogelkop Peninsula, Indonesia)",
     "Asian biodiversity hotspots"
   ],
-  "causebase_summary": "Global Wildlife Fund Limited is described on its website as an Australian charity, based in New South Wales, that partners with local conservation organisations to fund and oversee overseas conservation projects. The organisation lists initial geographic priorities as Sub‑Saharan Africa, the Andes–Amazon, New Guinea and the Pacific, and Asian biodiversity hotspots. Website material and news items cited include wildlife translocations (for example, reintroduction of black rhino to Matusadona National Park and translocation of sable antelope in Zimbabwe), a Papua Community Forest Project that aims to help communities secure customary title and implement forest management to prevent industrial logging, and purchase of 250 hectares to expand Narupa Reserve in the Ecuadorian Amazon. The site names target species and groups such as black rhino, snow leopards, African wild dogs, hummingbirds, macaws, birds of paradise and rediscovered marsupials in Papua. The organisation states it negotiates project funding agreements, tracks project progress and reports back on outcomes and metrics. The website also states that directors and founders donate their time to research, assess, support and audit projects and that Australians can make tax‑deductible gifts.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:24661281465"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-NSW",
+      "label": "New South Wales",
+      "evidence_ids": [
+        "ev:acnc:24661281465"
+      ]
+    }
+  ],
+  "causebase_summary": "Global Wildlife Fund is an Australian charity that partners with local conservation organisations to support projects to restore wildlife populations and habitats in selected high‑priority areas. It works in Sub‑Saharan Africa (including Matusadona National Park, Zimbabwe), the Andes–Amazon (including Narupa Reserve, Ecuador), New Guinea and the Pacific (Vogelkop Peninsula, Papua, Indonesia) and Asian biodiversity hotspots. The organisation provides funding for wildlife translocations (for example black rhino and sable antelope), helps acquire or expand private non‑profit reserves (for example a 250 ha Narupa Reserve expansion), supports community forest and land‑rights work in Papua, and negotiates project funding agreements while tracking progress and reporting on project outcomes. Directors and founders donate their time to research, assess, support and audit projects, and Australians can make tax‑deductible gifts to support specific projects.",
+  "summary_evidence_ids": [
+    "ev:web:24661281465:2026-08-10",
+    "ev:acnc:24661281465"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Funding and support for wildlife translocations (e.g. black rhino, sable antelope)",
@@ -115,8 +137,8 @@
       "source_record_id": "src:acnc-register:1fdebdae-04da-5863-bb1f-843011a95031",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=24661281465",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -124,7 +146,10 @@
         "ABN": "24661281465",
         "Legal Name": "GLOBAL WILDLIFE FUND LIMITED",
         "Registration Status": "registered",
-        "ACNC classifications": "environment; environment"
+        "ACNC classifications": "environment; environment",
+        "Website": "https://globalwildlifefund.org/",
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -275,34 +300,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "1202828969c3e6dd8310e8ae06ef16b679b388800a63c0cb44fa44627d12e951",
-    "generated_at": "2026-08-10T12:51:40.654657Z",
+    "evidence_input_hash": "0e5322b678305f284b3681cddf67ed9902ae3f3cf52112d2f8d86a1be5d462c7",
+    "generated_at": "2026-08-12T13:52:54.038403Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T12:51:40.654657Z",
+      "generated_at": "2026-08-12T13:52:54.038403Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "1202828969c3e6dd8310e8ae06ef16b679b388800a63c0cb44fa44627d12e951",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "0e5322b678305f284b3681cddf67ed9902ae3f3cf52112d2f8d86a1be5d462c7",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T12:51:40.654657Z",
+      "generated_at": "2026-08-12T13:52:54.038403Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "1202828969c3e6dd8310e8ae06ef16b679b388800a63c0cb44fa44627d12e951",
+      "input_hash": "0e5322b678305f284b3681cddf67ed9902ae3f3cf52112d2f8d86a1be5d462c7",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -311,9 +336,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "1202828969c3e6dd8310e8ae06ef16b679b388800a63c0cb44fa44627d12e951",
+      "input_hash": "0e5322b678305f284b3681cddf67ed9902ae3f3cf52112d2f8d86a1be5d462c7",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -322,7 +347,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.456532Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "9017eaabf95305239f9ad8592df2ec5442738cff424d9647416e336a53732d18",
       "disposition": "reused",
@@ -333,7 +358,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.456532Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "9017eaabf95305239f9ad8592df2ec5442738cff424d9647416e336a53732d18",
       "disposition": "reused",
@@ -341,9 +366,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

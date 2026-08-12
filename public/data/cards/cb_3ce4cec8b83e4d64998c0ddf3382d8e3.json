@@ -88,7 +88,29 @@
   "geography": [
     "Northern Territory (NT)"
   ],
-  "causebase_summary": "AIM Charitable Trust is recorded on the Australian Charities and Not-for-profits Commission (ACNC) register with structured geography noted as the Northern Territory (NT). The only detailed filing in this evidence pack is the ACNC Annual Information Statement (AIS) for the year 1 July 2022 to 30 June 2023, which reports revenue of AUD 81,776 and total expenses of AUD 75,215 for that reporting period. The evidence pack does not include a website, annual report text, program descriptions, or statements of beneficiaries or participation opportunities. Source documents in this pack are an ACNC register extract and the AIS 2023 extract; no other public-facing materials were provided.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:31520352647"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-NT",
+      "label": "Northern Territory",
+      "evidence_ids": [
+        "ev:acnc:31520352647"
+      ]
+    }
+  ],
+  "causebase_summary": "AIM Charitable Trust is a charitable trust recorded as operating in the Northern Territory (NT). CauseBase does not have sufficient descriptive evidence in this release to independently identify the trust’s specific activities, programmes, beneficiaries or modes of participation. The supplied records for this release do not include a website, public program descriptions or beneficiary detail, so no concrete service descriptions can be reported here.",
+  "summary_evidence_ids": [
+    "ev:acnc:31520352647",
+    "ev:ais:31520352647:2023"
+  ],
   "organisation_self_description": null,
   "activities": [],
   "beneficiaries": [],
@@ -99,8 +121,8 @@
       "source_record_id": "src:acnc-register:0421a68f-d878-5b32-bac9-8a42037dc940",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=31520352647",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -108,7 +130,10 @@
         "ABN": "31520352647",
         "Legal Name": "AIM Charitable Trust",
         "Registration Status": "registered",
-        "ACNC classifications": "social welfare; regional remote"
+        "ACNC classifications": "social welfare; regional remote",
+        "Website": null,
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -124,7 +149,7 @@
       "source_family": "acnc-ais",
       "dataset_version": "2026-08-10",
       "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": "2022-07-01",
       "effective_to": "2023-06-30",
@@ -310,34 +335,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "5ed13a7604a317c047b71a2c4a8a762f21b5d733240854e26a6bb25de96f07f7",
-    "generated_at": "2026-08-10T12:45:57.271670Z",
+    "evidence_input_hash": "b5f068498f8330f89e6cceeba03a8c324ab26f052106d0f051bcee85e03f59b7",
+    "generated_at": "2026-08-12T13:37:35.189236Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T12:45:57.271670Z",
+      "generated_at": "2026-08-12T13:37:35.189236Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "5ed13a7604a317c047b71a2c4a8a762f21b5d733240854e26a6bb25de96f07f7",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "b5f068498f8330f89e6cceeba03a8c324ab26f052106d0f051bcee85e03f59b7",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T12:45:57.271670Z",
+      "generated_at": "2026-08-12T13:37:35.189236Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "5ed13a7604a317c047b71a2c4a8a762f21b5d733240854e26a6bb25de96f07f7",
+      "input_hash": "b5f068498f8330f89e6cceeba03a8c324ab26f052106d0f051bcee85e03f59b7",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -346,9 +371,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "5ed13a7604a317c047b71a2c4a8a762f21b5d733240854e26a6bb25de96f07f7",
+      "input_hash": "b5f068498f8330f89e6cceeba03a8c324ab26f052106d0f051bcee85e03f59b7",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -357,7 +382,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.455457Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "09e0cc719b68e3cdb411ee5b209c87a75e83246dcf176f128b652c4514dc0df3",
       "disposition": "reused",
@@ -368,7 +393,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.455457Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "09e0cc719b68e3cdb411ee5b209c87a75e83246dcf176f128b652c4514dc0df3",
       "disposition": "reused",
@@ -376,9 +401,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

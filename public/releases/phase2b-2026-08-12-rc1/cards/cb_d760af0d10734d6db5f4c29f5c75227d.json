@@ -1,0 +1,266 @@
+{
+  "causebase_id": "cb_d760af0d10734d6db5f4c29f5c75227d",
+  "subject_kind": "unknown",
+  "external_identifiers": [
+    {
+      "scheme": "abn",
+      "value": "34669915333",
+      "source_evidence_id": "ev:acnc:34669915333"
+    }
+  ],
+  "registrations": [
+    {
+      "regulator": "ACNC",
+      "registration_id": null,
+      "status": "registered",
+      "evidence_ids": [
+        "ev:acnc:34669915333"
+      ]
+    }
+  ],
+  "tax_statuses": [],
+  "relationships": [],
+  "source_resolutions": [
+    {
+      "source_record_id": "src:acnc-register:2cca74b4-16a0-5e4b-a3f7-d1cd874f6660",
+      "resolution_status": "resolved",
+      "resolution_basis": "automated authoritative ACNC promotion under acnc-authoritative-v1",
+      "confidence": "high",
+      "supporting_signals": [
+        "ABN:34669915333",
+        "ACNC Register"
+      ],
+      "conflicting_signals": [],
+      "review_status": "not_required"
+    }
+  ],
+  "legal_name": "ADMINISTRATORS FOR MINISTRIES LIMITED",
+  "display_name": "ADMINISTRATORS FOR MINISTRIES LIMITED",
+  "entity_status": "registered",
+  "coverage": [
+    {
+      "capability": "regulatory",
+      "status": "observed",
+      "source_record_id": null,
+      "evidence_ids": [
+        "ev:acnc:34669915333"
+      ],
+      "observed_at": "2026-08-10",
+      "freshness_note": null
+    },
+    {
+      "capability": "annual_report",
+      "status": "not_yet_processed",
+      "source_record_id": null,
+      "evidence_ids": [],
+      "observed_at": "2026-08-10",
+      "freshness_note": null
+    },
+    {
+      "capability": "website",
+      "status": "not_available_from_source",
+      "source_record_id": null,
+      "evidence_ids": [],
+      "observed_at": "2026-08-10",
+      "freshness_note": null
+    },
+    {
+      "capability": "fundraising_expenditure",
+      "status": "not_yet_processed",
+      "source_record_id": null,
+      "evidence_ids": [],
+      "observed_at": "2026-08-10",
+      "freshness_note": null
+    },
+    {
+      "capability": "financials",
+      "status": "not_found_in_source",
+      "source_record_id": null,
+      "evidence_ids": [],
+      "observed_at": "2026-08-10",
+      "freshness_note": null
+    }
+  ],
+  "enrichment_level": "enriched",
+  "website": null,
+  "geography": [
+    "Queensland (state of registration)",
+    "Australia"
+  ],
+  "causebase_summary": "This record is for ADMINISTRATORS FOR MINISTRIES LIMITED, shown on the supplied ACNC register extract under that legal and display name. The only jurisdictional detail in the provided evidence is Queensland, where the entity is listed. The evidence pack contains no organisational website, no descriptive text about purposes or programs, no named beneficiaries, and no financial statements or reported activities. Registry metadata in the pack indicates some capabilities (annual report, fundraising expenditure) were not available or not yet processed. The supplied material does not include accounts, program descriptions, staff or volunteer information, or geographic operating locations beyond the Queensland registration.",
+  "organisation_self_description": null,
+  "activities": [],
+  "beneficiaries": [],
+  "participation_modes": [],
+  "opportunities": [],
+  "source_native_records": [
+    {
+      "source_record_id": "src:acnc-register:2cca74b4-16a0-5e4b-a3f7-d1cd874f6660",
+      "source_family": "acnc-register",
+      "dataset_version": "2026-08-10",
+      "source_url": null,
+      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "observed_at": "2026-08-10",
+      "effective_from": null,
+      "effective_to": null,
+      "source_fields": {
+        "ABN": "34669915333",
+        "Legal Name": "ADMINISTRATORS FOR MINISTRIES LIMITED",
+        "Registration Status": "registered",
+        "ACNC classifications": "religion; older people"
+      },
+      "canonical_field_mappings": {
+        "ABN": "external_identifiers",
+        "Legal Name": "legal_name",
+        "Registration Status": "registrations"
+      },
+      "evidence_ids": [
+        "ev:acnc:34669915333"
+      ]
+    }
+  ],
+  "financial_records": [],
+  "financial_metrics": [],
+  "fundraising_expenditure": null,
+  "funding_sources": [],
+  "fundraising_methods": [],
+  "classifications": [
+    {
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "purpose.religion",
+      "term_label": "religion",
+      "assignment_method": "source_native",
+      "confidence": "high",
+      "evidence_ids": [
+        "ev:acnc:34669915333"
+      ]
+    },
+    {
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "beneficiary.older_people",
+      "term_label": "older people",
+      "assignment_method": "source_native",
+      "confidence": "high",
+      "evidence_ids": [
+        "ev:acnc:34669915333"
+      ]
+    },
+    {
+      "taxonomy_id": "causebase",
+      "taxonomy_version": "0.1-phase2a",
+      "term_id": "geography.australia",
+      "term_label": "Australia",
+      "assignment_method": "llm_classification",
+      "confidence": "medium",
+      "evidence_ids": []
+    },
+    {
+      "taxonomy_id": "causebase",
+      "taxonomy_version": "0.1-phase2a",
+      "term_id": "geography.local_or_regional",
+      "term_label": "Local or regional Australia",
+      "assignment_method": "llm_classification",
+      "confidence": "medium",
+      "evidence_ids": []
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "ev:acnc:34669915333",
+      "source_type": "regulatory",
+      "title": "ACNC Register extract",
+      "publisher": "Australian Charities and Not-for-profits Commission",
+      "url": null,
+      "observed_at": "2026-08-10",
+      "reporting_period": null,
+      "page": null,
+      "section": null,
+      "content_hash": null
+    }
+  ],
+  "embedding": {
+    "embedding_id": "cb_d760af0d10734d6db5f4c29f5c75227d:entity:text-embedding-3-small",
+    "embedding_type": "entity",
+    "model_id": "text-embedding-3-small",
+    "model_version": "text-embedding-3-small",
+    "dimensions": 1536,
+    "source_text_hash": "aaf5bd0e630d11e86b273538904498453103788427ba4847f561b298a00a9e0f",
+    "generated_at": "2026-08-10T13:53:24.456212Z",
+    "vector_ref": "embeddings.parquet#cb_d760af0d10734d6db5f4c29f5c75227d"
+  },
+  "synthesis": {
+    "model_id": "gpt-5-mini-2025-08-07",
+    "prompt_version": "phase2a-0.4",
+    "parameters": {
+      "max_output_tokens": 3000,
+      "structured_output": true
+    },
+    "evidence_input_hash": "a44d1da40c01bc0fff0f7cdfde72c279319248d64531adda7d3beb22d5c47062",
+    "generated_at": "2026-08-10T12:50:14.771464Z",
+    "editorial_policy_version": "0.1"
+  },
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-10T12:50:14.771464Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "assessment_method": "phase2b-deterministic-v1",
+      "input_hash": "a44d1da40c01bc0fff0f7cdfde72c279319248d64531adda7d3beb22d5c47062",
+      "disposition": "reused",
+      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "affected_dimensions": []
+    },
+    {
+      "derivative": "taxonomy",
+      "generated_at": "2026-08-10T12:50:14.771464Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "assessment_method": "phase2b-deterministic-v1",
+      "input_hash": "a44d1da40c01bc0fff0f7cdfde72c279319248d64531adda7d3beb22d5c47062",
+      "disposition": "reused",
+      "reason": "No new supported canonical classification facts.",
+      "affected_dimensions": []
+    },
+    {
+      "derivative": "fundraising",
+      "generated_at": null,
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "assessment_method": "phase2b-deterministic-v1",
+      "input_hash": "a44d1da40c01bc0fff0f7cdfde72c279319248d64531adda7d3beb22d5c47062",
+      "disposition": "reused",
+      "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
+      "affected_dimensions": []
+    },
+    {
+      "derivative": "embedding",
+      "generated_at": "2026-08-10T13:53:24.456212Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "assessment_method": "phase2b-deterministic-v1",
+      "input_hash": "aaf5bd0e630d11e86b273538904498453103788427ba4847f561b298a00a9e0f",
+      "disposition": "reused",
+      "reason": "Semantic source text unchanged.",
+      "affected_dimensions": []
+    },
+    {
+      "derivative": "similarities",
+      "generated_at": "2026-08-10T13:53:24.456212Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "assessment_method": "phase2b-deterministic-v1",
+      "input_hash": "aaf5bd0e630d11e86b273538904498453103788427ba4847f561b298a00a9e0f",
+      "disposition": "reused",
+      "reason": "Embedding reused; semantic neighbours retained.",
+      "affected_dimensions": []
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-12-rc1",
+  "card_schema_version": "0.2",
+  "editorial_policy_version": "0.2",
+  "generator_version": "0.2.0",
+  "built_at": "2026-08-12T11:26:59.282210Z"
+}

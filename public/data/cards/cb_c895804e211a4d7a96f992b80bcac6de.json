@@ -84,7 +84,20 @@
   "enrichment_level": "enriched",
   "website": null,
   "geography": [],
-  "causebase_summary": "NHILL KAREN COMMUNITY LTD appears in the CauseBase evidence pack via an ACNC Register extract. There is no website, no processed annual report, and no financial records or structured entries for activities, beneficiaries, geography or participation included in this release. CauseBase does not have sufficient descriptive evidence in this release to independently identify specific activities, services provided, target beneficiaries, or the geographic area of operations for NHILL KAREN COMMUNITY LTD.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:60669466326"
+      ]
+    }
+  ],
+  "causebase_summary": "NHILL KAREN COMMUNITY LTD is an organisation recorded in CauseBase's ACNC register extract. CauseBase does not have sufficient descriptive evidence in this release to independently identify the organisation's specific activities, beneficiaries, location of operations or how people participate. No website, public program descriptions or financial details were available in the supplied evidence to describe the group's work or target populations.",
+  "summary_evidence_ids": [
+    "ev:acnc:60669466326"
+  ],
   "organisation_self_description": null,
   "activities": [],
   "beneficiaries": [],
@@ -95,8 +108,8 @@
       "source_record_id": "src:acnc-register:8d4f68d7-8acc-5dd2-8b67-a77530834c2a",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=60669466326",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -104,7 +117,10 @@
         "ABN": "60669466326",
         "Legal Name": "NHILL KAREN COMMUNITY LTD",
         "Registration Status": "registered",
-        "ACNC classifications": "social welfare; migrants refugees"
+        "ACNC classifications": "social welfare; migrants refugees",
+        "Website": null,
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -171,34 +187,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.5",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "d122e3428c99df9147e5623b0f7c5034f1af77eb09c7376126d3c8c00d2746db",
-    "generated_at": "2026-08-10T13:51:07.050569Z",
+    "evidence_input_hash": "4f0837b04b26e92c5abeb0f189a9a9c0e1d383081a5c759e5cc1709464881639",
+    "generated_at": "2026-08-12T14:03:39.278762Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T13:51:07.050569Z",
+      "generated_at": "2026-08-12T14:03:39.278762Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "d122e3428c99df9147e5623b0f7c5034f1af77eb09c7376126d3c8c00d2746db",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "4f0837b04b26e92c5abeb0f189a9a9c0e1d383081a5c759e5cc1709464881639",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T13:51:07.050569Z",
+      "generated_at": "2026-08-12T14:03:39.278762Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "d122e3428c99df9147e5623b0f7c5034f1af77eb09c7376126d3c8c00d2746db",
+      "input_hash": "4f0837b04b26e92c5abeb0f189a9a9c0e1d383081a5c759e5cc1709464881639",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -207,9 +223,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "d122e3428c99df9147e5623b0f7c5034f1af77eb09c7376126d3c8c00d2746db",
+      "input_hash": "4f0837b04b26e92c5abeb0f189a9a9c0e1d383081a5c759e5cc1709464881639",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -218,7 +234,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.457185Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "d20a75447dd9c71e559dc87b067a9f33207ca9d45779b4ac0cc51888348de9e1",
       "disposition": "reused",
@@ -229,7 +245,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.457185Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "d20a75447dd9c71e559dc87b067a9f33207ca9d45779b4ac0cc51888348de9e1",
       "disposition": "reused",
@@ -237,9 +253,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

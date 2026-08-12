@@ -86,7 +86,20 @@
   "geography": [
     "QLD"
   ],
-  "causebase_summary": "MULTICULTURAL SENIOR DIGITAL SUPPORT QLD INC is listed under that legal and display name in an ACNC Register extract observed 2026-08-10. The record shows a website URL (https://lifelong.org.au) and structured geography indicated as QLD. No organisation-authored description, program details, activities, beneficiary groups or participation modes were available in the supplied materials. Website retrieval was attempted but failed; an annual report was noted as not yet processed and financial records were not found in the provided sources. The available evidence therefore identifies the entity by name, a web address and a Queensland location on an ACNC extract, and does not provide substantiated information about services, beneficiaries, or operating practices.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:56147787276"
+      ]
+    }
+  ],
+  "causebase_summary": "MULTICULTURAL SENIOR DIGITAL SUPPORT QLD INC is a registered charity based in Queensland, Australia. CauseBase has the organisation’s ACNC registration and a listed website (lifelong.org.au) on record. CauseBase does not have sufficient descriptive evidence in this release to independently identify the specific activities the organisation carries out, the populations it serves, or the locations within Queensland where it operates.",
+  "summary_evidence_ids": [
+    "ev:acnc:56147787276"
+  ],
   "organisation_self_description": null,
   "activities": [],
   "beneficiaries": [],
@@ -97,8 +110,8 @@
       "source_record_id": "src:acnc-register:5ba36dbb-708e-5b5a-a3f3-7a20a628af8a",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=56147787276",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -106,7 +119,10 @@
         "ABN": "56147787276",
         "Legal Name": "MULTICULTURAL SENIOR DIGITAL SUPPORT QLD INC",
         "Registration Status": "registered",
-        "ACNC classifications": "education; older people"
+        "ACNC classifications": "education; older people",
+        "Website": "https://lifelong.org.au",
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -173,34 +189,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "a8d8094e58623ce411fd28479217e1e14ed73f4ca38ba02e4814feafbc53dd95",
-    "generated_at": "2026-08-10T12:56:09.616702Z",
+    "evidence_input_hash": "1ac7da674dbff0f61699debf40e9e7c4c4d2d92c81169c0e480b5e7297efcdad",
+    "generated_at": "2026-08-12T14:04:14.530810Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T12:56:09.616702Z",
+      "generated_at": "2026-08-12T14:04:14.530810Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "a8d8094e58623ce411fd28479217e1e14ed73f4ca38ba02e4814feafbc53dd95",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "1ac7da674dbff0f61699debf40e9e7c4c4d2d92c81169c0e480b5e7297efcdad",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T12:56:09.616702Z",
+      "generated_at": "2026-08-12T14:04:14.530810Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "a8d8094e58623ce411fd28479217e1e14ed73f4ca38ba02e4814feafbc53dd95",
+      "input_hash": "1ac7da674dbff0f61699debf40e9e7c4c4d2d92c81169c0e480b5e7297efcdad",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -209,9 +225,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "a8d8094e58623ce411fd28479217e1e14ed73f4ca38ba02e4814feafbc53dd95",
+      "input_hash": "1ac7da674dbff0f61699debf40e9e7c4c4d2d92c81169c0e480b5e7297efcdad",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -220,7 +236,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.457249Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "e9c81d44d90626c852692251957d309a81c408dbc066d70fdec047fbc5c2b536",
       "disposition": "reused",
@@ -231,7 +247,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.457249Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "e9c81d44d90626c852692251957d309a81c408dbc066d70fdec047fbc5c2b536",
       "disposition": "reused",
@@ -239,9 +255,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

@@ -91,7 +91,30 @@
     "Dickson, Australian Capital Territory (ACT)",
     "Australian Capital Territory (ACT)"
   ],
-  "causebase_summary": "The organisation’s website presents ANCA Inc. as operating ANCA Gallery at 1 Rosevear Place, Dickson ACT 2602, with posted gallery hours (Fri–Sun 11–4pm; Thursdays by appointment) and contact details (gallery@anca.net.au; (02) 6247 8736). The site lists exhibitions with specific dates and events: for example, an exhibition titled Everyday. Reverence with an opening on 3 July 6–8pm and on‑view dates 3–26 July, featuring seven named artists and descriptions of individual works and materials. The website text includes an acknowledgment of the Ngunnawal and Ngambri people as traditional custodians of the land. The ACNC/AIS extract for 2023 records revenue of AUD 301,076 and total expenses of AUD 338,206 for the 01/01/2023–31/12/2023 reporting period. The ACNC register entry is noted in the available evidence. The materials observed are primarily a public website snapshot and the 2023 AIS extract; the website frames the listed exhibitions and artist information as the organisation’s public programming.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:11566496319"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-ACT",
+      "label": "Australian Capital Territory",
+      "evidence_ids": [
+        "ev:acnc:11566496319"
+      ]
+    }
+  ],
+  "causebase_summary": "Australian National Capital Artists Inc (ANCA) is an artist-run gallery organisation based at 1 Rosevear Place, Dickson, Australian Capital Territory. As of mid-2026 it operates a physical gallery with posted public hours (Fri–Sun 11–4pm, Thursdays by appointment) and contact details, runs scheduled exhibitions with opening events, and publishes exhibition details and artist statements on its website. Recent programming listed an exhibition titled Everyday. Reverence (3–26 July) that named seven exhibiting artists and described individual works. Stated beneficiaries include the named exhibiting artists and people who attend or visit listed exhibitions (gallery visitors).",
+  "summary_evidence_ids": [
+    "ev:web:11566496319:2026-08-10",
+    "ev:ais:11566496319:2023",
+    "ev:acnc:11566496319"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Running a public gallery with scheduled exhibitions and exhibition opening events",
@@ -112,8 +135,8 @@
       "source_record_id": "src:acnc-register:3542fc79-80dd-582a-9838-9262b286dc8e",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=11566496319",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -121,7 +144,10 @@
         "ABN": "11566496319",
         "Legal Name": "Australian National Capital Artists Inc",
         "Registration Status": "registered",
-        "ACNC classifications": "other purpose; older people"
+        "ACNC classifications": "other purpose; older people",
+        "Website": "https://www.anca.net.au/",
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -137,7 +163,7 @@
       "source_family": "acnc-ais",
       "dataset_version": "2026-08-10",
       "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": "2023-01-01",
       "effective_to": "2023-12-31",
@@ -389,34 +415,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "0015f6066898c271d8c982cdc1eb06eab0d1048dfb6fdea9838ce8f314d278a0",
-    "generated_at": "2026-08-10T12:56:20.134260Z",
+    "evidence_input_hash": "514d388bbf41d8d12bd17fd386e4cbd25da5f3f7b8c42b728a730fb75bdd2b22",
+    "generated_at": "2026-08-12T14:03:19.249673Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T12:56:20.134260Z",
+      "generated_at": "2026-08-12T14:03:19.249673Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "0015f6066898c271d8c982cdc1eb06eab0d1048dfb6fdea9838ce8f314d278a0",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "514d388bbf41d8d12bd17fd386e4cbd25da5f3f7b8c42b728a730fb75bdd2b22",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T12:56:20.134260Z",
+      "generated_at": "2026-08-12T14:03:19.249673Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "0015f6066898c271d8c982cdc1eb06eab0d1048dfb6fdea9838ce8f314d278a0",
+      "input_hash": "514d388bbf41d8d12bd17fd386e4cbd25da5f3f7b8c42b728a730fb75bdd2b22",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -425,9 +451,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "0015f6066898c271d8c982cdc1eb06eab0d1048dfb6fdea9838ce8f314d278a0",
+      "input_hash": "514d388bbf41d8d12bd17fd386e4cbd25da5f3f7b8c42b728a730fb75bdd2b22",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -436,7 +462,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.457169Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "d611af8c56b2adb985bcec28184e23fd04f83741c5b1a244ee413db4d32fd429",
       "disposition": "reused",
@@ -447,7 +473,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.457169Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "d611af8c56b2adb985bcec28184e23fd04f83741c5b1a244ee413db4d32fd429",
       "disposition": "reused",
@@ -455,9 +481,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

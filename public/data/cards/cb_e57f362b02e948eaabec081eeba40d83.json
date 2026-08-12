@@ -88,7 +88,29 @@
   "geography": [
     "Western Australia"
   ],
-  "causebase_summary": "Ewin Early Learning Centre Inc is registered as a charity on the ACNC Register and is recorded with a Western Australia location. The organisation’s website address is listed as www.ewinelc.org.au, but web retrieval of that site failed in the available evidence. The only substantive documents provided are an ACNC register extract and the organisation’s 2022–23 Annual Information Statement (AIS) entry. For the reporting year 01/07/2022 to 30/06/2023 the AIS shows revenue of AUD 1,626,520 and total expenses of AUD 1,871,637; the AIS entry is presented as a direct subject report (not consolidated) and covers the subject entity alone. The evidence package does not include the organisation’s own program descriptions, annual report text, or other documentation describing activities, beneficiaries or participation models. The organisation’s legal name includes the phrase “Early Learning Centre,” but the supplied records do not provide independent detail on services delivered, target beneficiary groups or operating model.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:23103213929"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-WA",
+      "label": "Western Australia",
+      "evidence_ids": [
+        "ev:acnc:23103213929"
+      ]
+    }
+  ],
+  "causebase_summary": "Ewin Early Learning Centre Inc is an incorporated entity registered in Western Australia. It is listed on the ACNC register and filed an Annual Information Statement for the year ending 30 June 2023. CauseBase does not have sufficient descriptive evidence in this release to independently identify the organisation’s specific activities, services or beneficiary groups.",
+  "summary_evidence_ids": [
+    "ev:acnc:23103213929",
+    "ev:ais:23103213929:2023"
+  ],
   "organisation_self_description": null,
   "activities": [],
   "beneficiaries": [],
@@ -99,8 +121,8 @@
       "source_record_id": "src:acnc-register:965eda6d-6be7-584c-8d26-e9716732a209",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=23103213929",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -108,7 +130,10 @@
         "ABN": "23103213929",
         "Legal Name": "Ewin Early Learning Centre Inc",
         "Registration Status": "registered",
-        "ACNC classifications": "education; regional remote"
+        "ACNC classifications": "education; regional remote",
+        "Website": "www.ewinelc.org.au",
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -124,7 +149,7 @@
       "source_family": "acnc-ais",
       "dataset_version": "2026-08-10",
       "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": "2022-07-01",
       "effective_to": "2023-06-30",
@@ -319,34 +344,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "0c76eecf0cd7424242b595cbd57d229d150b68686365b35387d47de5f6dd9b6b",
-    "generated_at": "2026-08-10T12:54:47.804289Z",
+    "evidence_input_hash": "b9f6e98b6b305edf21d4690ec2f25503ac24087acfa417ab7b9b4952ae151a8b",
+    "generated_at": "2026-08-12T13:59:37.200321Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T12:54:47.804289Z",
+      "generated_at": "2026-08-12T13:59:37.200321Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "0c76eecf0cd7424242b595cbd57d229d150b68686365b35387d47de5f6dd9b6b",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "b9f6e98b6b305edf21d4690ec2f25503ac24087acfa417ab7b9b4952ae151a8b",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T12:54:47.804289Z",
+      "generated_at": "2026-08-12T13:59:37.200321Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "0c76eecf0cd7424242b595cbd57d229d150b68686365b35387d47de5f6dd9b6b",
+      "input_hash": "b9f6e98b6b305edf21d4690ec2f25503ac24087acfa417ab7b9b4952ae151a8b",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -355,9 +380,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "0c76eecf0cd7424242b595cbd57d229d150b68686365b35387d47de5f6dd9b6b",
+      "input_hash": "b9f6e98b6b305edf21d4690ec2f25503ac24087acfa417ab7b9b4952ae151a8b",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -366,7 +391,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.456929Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "dd61e3256066c61d7123fadfd851eb03bdefb0130d4d68e9678d59b5fbf4a759",
       "disposition": "reused",
@@ -377,7 +402,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.456929Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "dd61e3256066c61d7123fadfd851eb03bdefb0130d4d68e9678d59b5fbf4a759",
       "disposition": "reused",
@@ -385,9 +410,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

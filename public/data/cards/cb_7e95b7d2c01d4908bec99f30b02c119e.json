@@ -86,7 +86,21 @@
   "enrichment_level": "enriched",
   "website": "https://www.stepsstaffingsolutions.com.au",
   "geography": [],
-  "causebase_summary": "Steps Staffing Solutions Ltd is recorded under an ACNC Register extract and provided an ACNC Annual Information Statement for the year 01/07/2022 to 30/06/2023. The AIS financial data for that period reports total revenue of AUD 5,176,925 and total expenses of AUD 5,027,845. The organisation’s website URL is listed as https://www.stepsstaffingsolutions.com.au, but website retrieval failed in the supplied evidence. The supplied documents in this evidence pack do not include a description of the organisation’s activities, the people or groups it serves, geographic areas of operation, or modes of public participation. No externally sourced programme descriptions or beneficiary lists are present in the provided material.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:20151472221"
+      ]
+    }
+  ],
+  "causebase_summary": "Steps Staffing Solutions Ltd is an Australian entity registered with the Australian Charities and Not-for-profits Commission. The organisation lodged an ACNC Annual Information Statement covering 1 July 2022 to 30 June 2023. CauseBase does not have sufficient descriptive evidence in this release to independently identify the organisation’s specific activities, services or intended beneficiaries.",
+  "summary_evidence_ids": [
+    "ev:acnc:20151472221",
+    "ev:ais:20151472221:2023"
+  ],
   "organisation_self_description": null,
   "activities": [],
   "beneficiaries": [],
@@ -97,8 +111,8 @@
       "source_record_id": "src:acnc-register:234e2f90-74f8-5177-8dcb-ea17c66a463c",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=20151472221",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -106,7 +120,10 @@
         "ABN": "20151472221",
         "Legal Name": "Steps Staffing Solutions Ltd",
         "Registration Status": "registered",
-        "ACNC classifications": "other purpose; people with disability"
+        "ACNC classifications": "other purpose; people with disability",
+        "Website": "https://www.stepsstaffingsolutions.com.au",
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -122,7 +139,7 @@
       "source_family": "acnc-ais",
       "dataset_version": "2026-08-10",
       "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": "2022-07-01",
       "effective_to": "2023-06-30",
@@ -308,34 +325,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "8747f4873e34e3e24ed5238e6ccde7ac9847ecc18f863266183aca6c3a3c664f",
-    "generated_at": "2026-08-10T12:56:22.360181Z",
+    "evidence_input_hash": "d0e193083ceb8ef7fb791765fa1513df6526ef7193901caf7bc2d0d425d54005",
+    "generated_at": "2026-08-12T14:05:10.745105Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T12:56:22.360181Z",
+      "generated_at": "2026-08-12T14:05:10.745105Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "8747f4873e34e3e24ed5238e6ccde7ac9847ecc18f863266183aca6c3a3c664f",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "d0e193083ceb8ef7fb791765fa1513df6526ef7193901caf7bc2d0d425d54005",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T12:56:22.360181Z",
+      "generated_at": "2026-08-12T14:05:10.745105Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "8747f4873e34e3e24ed5238e6ccde7ac9847ecc18f863266183aca6c3a3c664f",
+      "input_hash": "d0e193083ceb8ef7fb791765fa1513df6526ef7193901caf7bc2d0d425d54005",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -344,9 +361,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "8747f4873e34e3e24ed5238e6ccde7ac9847ecc18f863266183aca6c3a3c664f",
+      "input_hash": "d0e193083ceb8ef7fb791765fa1513df6526ef7193901caf7bc2d0d425d54005",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -355,7 +372,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.457303Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "c957c4cbd4159ceaa41d87727cfdadb4873df462aea0640f65f62ace6a473783",
       "disposition": "reused",
@@ -366,7 +383,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.457303Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "c957c4cbd4159ceaa41d87727cfdadb4873df462aea0640f65f62ace6a473783",
       "disposition": "reused",
@@ -374,9 +391,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

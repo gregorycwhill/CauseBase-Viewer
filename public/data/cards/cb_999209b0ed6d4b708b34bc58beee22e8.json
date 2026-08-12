@@ -91,7 +91,29 @@
     "South Australia",
     "Adelaide (Kaurna traditional lands)"
   ],
-  "causebase_summary": "According to its website, the Aboriginal Legal Rights Movement (ALRM) is an Aboriginal community-controlled legal service based in South Australia, with a main office in Adelaide on Kaurna land. The website describes a focus on “social justice, equality and wellbeing for the Aboriginal people of South Australia, especially for those Aboriginal people who are detained in police custody or imprisoned.” Services and programs listed include a Custody Notification Service and criminal court services and programs for Aboriginal people across South Australia. The site also advertises membership, a process for confirmation of Aboriginality, volunteering opportunities, and current calls for Aboriginal community board members. ALRM publishes media releases and participates in public programming (for example a Law Week panel). The website includes a fundraising page stating donations are tax deductible. The ACNC Annual Information Statement for 2022–23 reports revenue of AUD 11,422,993 and total expenses of AUD 10,655,077 for the period 1 July 2022 to 30 June 2023.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:32942723464"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-SA",
+      "label": "South Australia",
+      "evidence_ids": [
+        "ev:acnc:32942723464"
+      ]
+    }
+  ],
+  "causebase_summary": "The Aboriginal Legal Rights Movement (ALRM) is an Aboriginal community-controlled legal service based in Adelaide on Kaurna country that works across South Australia. ALRM pursues social justice, equality and wellbeing for Aboriginal people of South Australia, with particular focus on those detained in police custody or imprisoned. It operates a Custody Notification Service and provides criminal court services and programs for Aboriginal people across the state. ALRM also offers a Confirmation of Aboriginality service, membership and volunteering opportunities, and runs public programming such as Law Week panels. The organisation issues media releases and advocacy statements, invites applications for Aboriginal community board members and accepts tax-deductible donations to support its work.",
+  "summary_evidence_ids": [
+    "ev:web:32942723464:2026-08-10",
+    "ev:acnc:32942723464"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Custody Notification Service",
@@ -118,8 +140,8 @@
       "source_record_id": "src:acnc-register:8ac1f22d-64f0-596b-9601-546307e6bc84",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=32942723464",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -127,7 +149,10 @@
         "ABN": "32942723464",
         "Legal Name": "Aboriginal Legal Rights Movement",
         "Registration Status": "registered",
-        "ACNC classifications": "other purpose; young people"
+        "ACNC classifications": "other purpose; young people",
+        "Website": "www.alrm.org.au",
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -143,7 +168,7 @@
       "source_family": "acnc-ais",
       "dataset_version": "2026-08-10",
       "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": "2022-07-01",
       "effective_to": "2023-06-30",
@@ -413,34 +438,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "4445771aa3d9262ff747c9f89c9bc0ec778d6b86a0f1d88fc188313f330d8df7",
-    "generated_at": "2026-08-10T12:46:11.625048Z",
+    "evidence_input_hash": "67629e8eb49f3352d5c68e2c10fbf1f93059b545436d8c7447124ba99f4de11f",
+    "generated_at": "2026-08-12T13:37:22.085012Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T12:46:11.625048Z",
+      "generated_at": "2026-08-12T13:37:22.085012Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "4445771aa3d9262ff747c9f89c9bc0ec778d6b86a0f1d88fc188313f330d8df7",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "67629e8eb49f3352d5c68e2c10fbf1f93059b545436d8c7447124ba99f4de11f",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T12:46:11.625048Z",
+      "generated_at": "2026-08-12T13:37:22.085012Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "4445771aa3d9262ff747c9f89c9bc0ec778d6b86a0f1d88fc188313f330d8df7",
+      "input_hash": "67629e8eb49f3352d5c68e2c10fbf1f93059b545436d8c7447124ba99f4de11f",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -449,9 +474,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "4445771aa3d9262ff747c9f89c9bc0ec778d6b86a0f1d88fc188313f330d8df7",
+      "input_hash": "67629e8eb49f3352d5c68e2c10fbf1f93059b545436d8c7447124ba99f4de11f",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -460,7 +485,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.455436Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "215beebd91c9badb153d31a4b07ceafa75ded2569b12b454fcc5c6c4571024ca",
       "disposition": "reused",
@@ -471,7 +496,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.455436Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "215beebd91c9badb153d31a4b07ceafa75ded2569b12b454fcc5c6c4571024ca",
       "disposition": "reused",
@@ -479,9 +504,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

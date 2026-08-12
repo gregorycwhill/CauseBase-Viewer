@@ -88,7 +88,29 @@
   "geography": [
     "Fitzroy North, Victoria, Australia"
   ],
-  "causebase_summary": "Ananda Marga Pracaraka Samgha Ltd Preschool is recorded on the Australian Charities and Not‑for‑profits Commission (ACNC) register and uses a website URL that includes “fitzroy‑north” and the .vic.edu.au domain. The organisation’s 2023 ACNC Information Statement (AIS) extract covers the period 01/01/2023 to 31/12/2023 and reports revenue of AUD 738,678 and total expenses of AUD 712,354 for that year. The available evidence identifies the entity as a preschool; the name and web address indicate a local early childhood service located in Fitzroy North, Victoria, Australia. Data coverage notes in the evidence pack record that the AIS/financials and regulatory register extract were observed, while the organisation’s website retrieval failed and an annual report was not yet processed for inclusion. The material provided does not include detailed program descriptions, enrolment numbers, staffing, fees, opening hours, or statements about educational approach; such details are not present in the supplied extracts and were not independently verified in the retrieved sources.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:15969822381"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-VIC",
+      "label": "Victoria",
+      "evidence_ids": [
+        "ev:acnc:15969822381"
+      ]
+    }
+  ],
+  "causebase_summary": "Ananda Marga Pracaraka Samgha Ltd Preschool is a registered charity that operates a preschool in Fitzroy North, Victoria. In the 2023 reporting period the organisation provided preschool services (early childhood care and education) to children attending its program. The entity is recorded on the Australian Charities and Not-for-profits Commission register and submitted the 2023 Annual Information Statement. CauseBase identifies the organisation’s concrete work as delivering early childhood care and education at its Fitzroy North location; the available records do not provide detailed information about program scope, age ranges beyond ‘children’, or participation arrangements in this release.",
+  "summary_evidence_ids": [
+    "ev:acnc:15969822381",
+    "ev:ais:15969822381:2023"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Preschool services (early childhood care and education)",
@@ -104,8 +126,8 @@
       "source_record_id": "src:acnc-register:37b9077b-577f-5b9a-a798-0f7b55e53c4b",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=15969822381",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -113,7 +135,10 @@
         "ABN": "15969822381",
         "Legal Name": "Ananda Marga Pracaraka Samgha Ltd Preschool",
         "Registration Status": "registered",
-        "ACNC classifications": "education; other beneficiary"
+        "ACNC classifications": "education; other beneficiary",
+        "Website": "http://www.sunrisepreschool.vic.edu.au/fitzroy-north/",
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -129,7 +154,7 @@
       "source_family": "acnc-ais",
       "dataset_version": "2026-08-10",
       "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": "2023-01-01",
       "effective_to": "2023-12-31",
@@ -351,34 +376,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "57b90223d87b4354341b1009d5cd0297ec552c5af5d523b24e7e941899c0ab18",
-    "generated_at": "2026-08-10T12:58:45.814243Z",
+    "evidence_input_hash": "b34c10eec6049e461eb8e8c0921caa60446dafb9a6a666105b63bfcf03edd3d6",
+    "generated_at": "2026-08-12T14:10:53.189478Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T12:58:45.814243Z",
+      "generated_at": "2026-08-12T14:10:53.189478Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "57b90223d87b4354341b1009d5cd0297ec552c5af5d523b24e7e941899c0ab18",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "b34c10eec6049e461eb8e8c0921caa60446dafb9a6a666105b63bfcf03edd3d6",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T12:58:45.814243Z",
+      "generated_at": "2026-08-12T14:10:53.189478Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "57b90223d87b4354341b1009d5cd0297ec552c5af5d523b24e7e941899c0ab18",
+      "input_hash": "b34c10eec6049e461eb8e8c0921caa60446dafb9a6a666105b63bfcf03edd3d6",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -387,9 +412,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "57b90223d87b4354341b1009d5cd0297ec552c5af5d523b24e7e941899c0ab18",
+      "input_hash": "b34c10eec6049e461eb8e8c0921caa60446dafb9a6a666105b63bfcf03edd3d6",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -398,7 +423,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.457656Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "8eca6aeb9dab8c055ede716886bf5259c86036d26d7a5c161297e59b57653ebc",
       "disposition": "reused",
@@ -409,7 +434,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.457656Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "8eca6aeb9dab8c055ede716886bf5259c86036d26d7a5c161297e59b57653ebc",
       "disposition": "reused",
@@ -417,9 +442,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

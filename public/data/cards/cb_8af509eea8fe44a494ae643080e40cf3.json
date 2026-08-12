@@ -89,7 +89,29 @@
     "Ryde, New South Wales",
     "Australia"
   ],
-  "causebase_summary": "Legal name on regulatory records: Calvary Retirement Community Ryde Limited. The organisation’s public website is for Calvary Health Care and describes a group that provides a range of services including hospitals, residential aged care, retirement living and home care. The site states a mission to provide “quality, compassionate healthcare to the most vulnerable, including those reaching the end of their life,” notes a 140‑year heritage in Australia, and says it publishes annual clinical safety and quality data. The website also promotes volunteering, auxiliaries and local fundraising (for example a Calvary Mater Newcastle Auxiliary donation reported in news), lists upcoming events, and describes activity such as “Residential Aged Care Games.” Job and careers pages, location search pages and invitations to join community groups are visible. The available evidence is organisational‑level: it names service types and public engagement activities but does not provide detailed, site‑level descriptions or financial information specific to Calvary Retirement Community Ryde Limited.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:40105898173"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-NSW",
+      "label": "New South Wales",
+      "evidence_ids": [
+        "ev:acnc:40105898173"
+      ]
+    }
+  ],
+  "causebase_summary": "Calvary Retirement Community Ryde Limited is a Calvary Health Care provider based in Ryde, New South Wales (evidence current to 2026). It operates health and aged‑care services in the locality, including hospitals, residential aged care, retirement living and home care. The organisation publishes clinical safety and quality data and maintains careers and recruitment information. It supports volunteer programmes and auxiliaries and runs public events for residents, including the Calvary Residential Aged Care Games. Its stated mission includes providing healthcare to vulnerable people, including those reaching the end of life.",
+  "summary_evidence_ids": [
+    "ev:web:40105898173:2026-08-10",
+    "ev:acnc:40105898173"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Operates hospitals (organisation-level)",
@@ -117,8 +139,8 @@
       "source_record_id": "src:acnc-register:2e2aac73-41f5-5345-8942-5a81feb66535",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=40105898173",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -126,7 +148,10 @@
         "ABN": "40105898173",
         "Legal Name": "Calvary Retirement Community Ryde Limited",
         "Registration Status": "registered",
-        "ACNC classifications": "other purpose; older people"
+        "ACNC classifications": "other purpose; older people",
+        "Website": "https://www.calvarycare.org.au",
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -277,34 +302,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "df2355ecc7d435d3447b46aeff3cbffe9609b674b136455a532a323d19752caa",
-    "generated_at": "2026-08-10T12:55:12.780492Z",
+    "evidence_input_hash": "2b95c7024988f3988a69cc2adb487f521f4e0eed6a74ace427465206b9d3823d",
+    "generated_at": "2026-08-12T14:01:03.342452Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T12:55:12.780492Z",
+      "generated_at": "2026-08-12T14:01:03.342452Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "df2355ecc7d435d3447b46aeff3cbffe9609b674b136455a532a323d19752caa",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "2b95c7024988f3988a69cc2adb487f521f4e0eed6a74ace427465206b9d3823d",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T12:55:12.780492Z",
+      "generated_at": "2026-08-12T14:01:03.342452Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "df2355ecc7d435d3447b46aeff3cbffe9609b674b136455a532a323d19752caa",
+      "input_hash": "2b95c7024988f3988a69cc2adb487f521f4e0eed6a74ace427465206b9d3823d",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -313,9 +338,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "df2355ecc7d435d3447b46aeff3cbffe9609b674b136455a532a323d19752caa",
+      "input_hash": "2b95c7024988f3988a69cc2adb487f521f4e0eed6a74ace427465206b9d3823d",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -324,7 +349,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.457032Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "45d5a69993d6aa7594838abb03fef57742fa856b5e784d44c0ffd3a3f588d49e",
       "disposition": "reused",
@@ -335,7 +360,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.457032Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "45d5a69993d6aa7594838abb03fef57742fa856b5e784d44c0ffd3a3f588d49e",
       "disposition": "reused",
@@ -343,9 +368,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }
