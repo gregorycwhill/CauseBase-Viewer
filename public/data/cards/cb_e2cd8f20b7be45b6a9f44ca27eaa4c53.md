@@ -57,7 +57,7 @@ Ananda Marga Pracaraka Samgha Ltd Preschool is recorded on the Australian Charit
 
 ## Build
 
-- Dataset version: `phase2a-2026-08-10-h1`
-- Card schema: `0.1`
-- Editorial policy: `0.1`
-- Built: 2026-08-10T13:51:56.713553+00:00
+- Dataset version: `phase2b-2026-08-12-rc1`
+- Card schema: `0.2`
+- Editorial policy: `0.2`
+- Built: 2026-08-12T11:26:59.282210+00:00

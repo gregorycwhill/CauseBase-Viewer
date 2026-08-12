@@ -108,6 +108,60 @@
     "Education and advocacy delivered via the organisation's public platform and social media"
   ],
   "opportunities": [],
+  "source_native_records": [
+    {
+      "source_record_id": "src:acnc-register:8a371ce3-f7ed-51c1-8760-37b01a816353",
+      "source_family": "acnc-register",
+      "dataset_version": "2026-08-10",
+      "source_url": null,
+      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "observed_at": "2026-08-10",
+      "effective_from": null,
+      "effective_to": null,
+      "source_fields": {
+        "ABN": "82136720784",
+        "Legal Name": "Project Underdog Rescue Inc",
+        "Registration Status": "registered",
+        "ACNC classifications": "animal welfare; people with disability"
+      },
+      "canonical_field_mappings": {
+        "ABN": "external_identifiers",
+        "Legal Name": "legal_name",
+        "Registration Status": "registrations"
+      },
+      "evidence_ids": [
+        "ev:acnc:82136720784"
+      ]
+    },
+    {
+      "source_record_id": "src:acnc-ais:fr:ais:cb_f2e7f36fef5d4a788b3280d0830ee21b:2023",
+      "source_family": "acnc-ais",
+      "dataset_version": "2026-08-10",
+      "source_url": null,
+      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "observed_at": "2026-08-10",
+      "effective_from": "2022-07-01",
+      "effective_to": "2023-06-30",
+      "source_fields": {
+        "Reporting period": "01/07/2022 to 30/06/2023",
+        "Reporting scope": "subject",
+        "Consolidated": "false",
+        "Revenue": "543901",
+        "Donations and bequests": null,
+        "Government grants": null,
+        "Total expenses": "679638",
+        "Assets": null,
+        "Liabilities": null
+      },
+      "canonical_field_mappings": {
+        "Revenue": "financial_records[].revenue",
+        "Total expenses": "financial_records[].total_expenses"
+      },
+      "evidence_ids": [
+        "ev:ais:82136720784:2023"
+      ]
+    }
+  ],
   "financial_records": [
     {
       "financial_record_id": "fr:ais:cb_f2e7f36fef5d4a788b3280d0830ee21b:2023",
@@ -206,6 +260,8 @@
     }
   ],
   "fundraising_expenditure": null,
+  "funding_sources": [],
+  "fundraising_methods": [],
   "classifications": [
     {
       "taxonomy_id": "acnc-register",
@@ -343,9 +399,66 @@
     "generated_at": "2026-08-10T12:48:36.443726Z",
     "editorial_policy_version": "0.1"
   },
-  "dataset_version": "phase2a-2026-08-10-h1",
-  "card_schema_version": "0.1",
-  "editorial_policy_version": "0.1",
-  "generator_version": "0.1.0",
-  "built_at": "2026-08-10T13:51:56.677914Z"
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-10T12:48:36.443726Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "assessment_method": "phase2b-deterministic-v1",
+      "input_hash": "02cffe75ab86bfe0d97964abdde1384c5117c228cb706ca5437916d8396cd6a5",
+      "disposition": "reused",
+      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "affected_dimensions": []
+    },
+    {
+      "derivative": "taxonomy",
+      "generated_at": "2026-08-10T12:48:36.443726Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "assessment_method": "phase2b-deterministic-v1",
+      "input_hash": "02cffe75ab86bfe0d97964abdde1384c5117c228cb706ca5437916d8396cd6a5",
+      "disposition": "reused",
+      "reason": "No new supported canonical classification facts.",
+      "affected_dimensions": []
+    },
+    {
+      "derivative": "fundraising",
+      "generated_at": null,
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "assessment_method": "phase2b-deterministic-v1",
+      "input_hash": "02cffe75ab86bfe0d97964abdde1384c5117c228cb706ca5437916d8396cd6a5",
+      "disposition": "reused",
+      "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
+      "affected_dimensions": []
+    },
+    {
+      "derivative": "embedding",
+      "generated_at": "2026-08-10T13:53:24.455882Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "assessment_method": "phase2b-deterministic-v1",
+      "input_hash": "cbe17fbd3986a07cfd642db01dbb89cc4155b3aa8ae8cba2fa76cda1278442c7",
+      "disposition": "reused",
+      "reason": "Semantic source text unchanged.",
+      "affected_dimensions": []
+    },
+    {
+      "derivative": "similarities",
+      "generated_at": "2026-08-10T13:53:24.455882Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "assessment_method": "phase2b-deterministic-v1",
+      "input_hash": "cbe17fbd3986a07cfd642db01dbb89cc4155b3aa8ae8cba2fa76cda1278442c7",
+      "disposition": "reused",
+      "reason": "Embedding reused; semantic neighbours retained.",
+      "affected_dimensions": []
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-12-rc1",
+  "card_schema_version": "0.2",
+  "editorial_policy_version": "0.2",
+  "generator_version": "0.2.0",
+  "built_at": "2026-08-12T11:26:59.282210Z"
 }

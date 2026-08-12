@@ -117,6 +117,60 @@
     "Submitting special requests for garments"
   ],
   "opportunities": [],
+  "source_native_records": [
+    {
+      "source_record_id": "src:acnc-register:1087a3cd-7169-5e5a-b703-f8e114664e79",
+      "source_family": "acnc-register",
+      "dataset_version": "2026-08-10",
+      "source_url": null,
+      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "observed_at": "2026-08-10",
+      "effective_from": null,
+      "effective_to": null,
+      "source_fields": {
+        "ABN": "32590616129",
+        "Legal Name": "Angel Gowns Australia Incorporated",
+        "Registration Status": "registered",
+        "ACNC classifications": "health; children"
+      },
+      "canonical_field_mappings": {
+        "ABN": "external_identifiers",
+        "Legal Name": "legal_name",
+        "Registration Status": "registrations"
+      },
+      "evidence_ids": [
+        "ev:acnc:32590616129"
+      ]
+    },
+    {
+      "source_record_id": "src:acnc-ais:fr:ais:cb_e0f83d5305ed4544a95e72a97c8c424a:2023",
+      "source_family": "acnc-ais",
+      "dataset_version": "2026-08-10",
+      "source_url": null,
+      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "observed_at": "2026-08-10",
+      "effective_from": "2022-07-01",
+      "effective_to": "2023-06-30",
+      "source_fields": {
+        "Reporting period": "01/07/2022 to 30/06/2023",
+        "Reporting scope": "subject",
+        "Consolidated": "unknown",
+        "Revenue": "14107",
+        "Donations and bequests": null,
+        "Government grants": null,
+        "Total expenses": "23383",
+        "Assets": null,
+        "Liabilities": null
+      },
+      "canonical_field_mappings": {
+        "Revenue": "financial_records[].revenue",
+        "Total expenses": "financial_records[].total_expenses"
+      },
+      "evidence_ids": [
+        "ev:ais:32590616129:2023"
+      ]
+    }
+  ],
   "financial_records": [
     {
       "financial_record_id": "fr:ais:cb_e0f83d5305ed4544a95e72a97c8c424a:2023",
@@ -215,6 +269,8 @@
     }
   ],
   "fundraising_expenditure": null,
+  "funding_sources": [],
+  "fundraising_methods": [],
   "classifications": [
     {
       "taxonomy_id": "acnc-register",
@@ -382,9 +438,66 @@
     "generated_at": "2026-08-10T12:56:52.060325Z",
     "editorial_policy_version": "0.1"
   },
-  "dataset_version": "phase2a-2026-08-10-h1",
-  "card_schema_version": "0.1",
-  "editorial_policy_version": "0.1",
-  "generator_version": "0.1.0",
-  "built_at": "2026-08-10T13:51:56.708369Z"
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-10T12:56:52.060325Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "assessment_method": "phase2b-deterministic-v1",
+      "input_hash": "898c871d1347e74d1fc00be81b7cc7126afd8017f93ad335a7c895d1f4d682e6",
+      "disposition": "reused",
+      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "affected_dimensions": []
+    },
+    {
+      "derivative": "taxonomy",
+      "generated_at": "2026-08-10T12:56:52.060325Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "assessment_method": "phase2b-deterministic-v1",
+      "input_hash": "898c871d1347e74d1fc00be81b7cc7126afd8017f93ad335a7c895d1f4d682e6",
+      "disposition": "reused",
+      "reason": "No new supported canonical classification facts.",
+      "affected_dimensions": []
+    },
+    {
+      "derivative": "fundraising",
+      "generated_at": null,
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "assessment_method": "phase2b-deterministic-v1",
+      "input_hash": "898c871d1347e74d1fc00be81b7cc7126afd8017f93ad335a7c895d1f4d682e6",
+      "disposition": "reused",
+      "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
+      "affected_dimensions": []
+    },
+    {
+      "derivative": "embedding",
+      "generated_at": "2026-08-10T13:53:24.457352Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "assessment_method": "phase2b-deterministic-v1",
+      "input_hash": "3f165c926980464aba55e3ce81d9989809c3e3649bde0e1b26d6b9b0e9e3cf8a",
+      "disposition": "reused",
+      "reason": "Semantic source text unchanged.",
+      "affected_dimensions": []
+    },
+    {
+      "derivative": "similarities",
+      "generated_at": "2026-08-10T13:53:24.457352Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "assessment_method": "phase2b-deterministic-v1",
+      "input_hash": "3f165c926980464aba55e3ce81d9989809c3e3649bde0e1b26d6b9b0e9e3cf8a",
+      "disposition": "reused",
+      "reason": "Embedding reused; semantic neighbours retained.",
+      "affected_dimensions": []
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-12-rc1",
+  "card_schema_version": "0.2",
+  "editorial_policy_version": "0.2",
+  "generator_version": "0.2.0",
+  "built_at": "2026-08-12T11:26:59.282210Z"
 }

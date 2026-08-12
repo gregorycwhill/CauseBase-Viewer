@@ -113,6 +113,60 @@
     "Making protected disclosures to the IAWA Home Care Delegate (whistleblower mechanism)"
   ],
   "opportunities": [],
+  "source_native_records": [
+    {
+      "source_record_id": "src:acnc-register:5d6aad9c-63fe-5b9f-8226-fb74e0400df7",
+      "source_family": "acnc-register",
+      "dataset_version": "2026-08-10",
+      "source_url": null,
+      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "observed_at": "2026-08-10",
+      "effective_from": null,
+      "effective_to": null,
+      "source_fields": {
+        "ABN": "30913308861",
+        "Legal Name": "Italian Australian Welfare Assn (Granite Belt) Inc",
+        "Registration Status": "registered",
+        "ACNC classifications": "culture; older people"
+      },
+      "canonical_field_mappings": {
+        "ABN": "external_identifiers",
+        "Legal Name": "legal_name",
+        "Registration Status": "registrations"
+      },
+      "evidence_ids": [
+        "ev:acnc:30913308861"
+      ]
+    },
+    {
+      "source_record_id": "src:acnc-ais:fr:ais:cb_5d5f8d975a03485ba5dc07dab3855629:2023",
+      "source_family": "acnc-ais",
+      "dataset_version": "2026-08-10",
+      "source_url": null,
+      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "observed_at": "2026-08-10",
+      "effective_from": "2022-07-01",
+      "effective_to": "2023-06-30",
+      "source_fields": {
+        "Reporting period": "01/07/2022 to 30/06/2023",
+        "Reporting scope": "subject",
+        "Consolidated": "false",
+        "Revenue": "1148626",
+        "Donations and bequests": null,
+        "Government grants": null,
+        "Total expenses": "1018436",
+        "Assets": null,
+        "Liabilities": null
+      },
+      "canonical_field_mappings": {
+        "Revenue": "financial_records[].revenue",
+        "Total expenses": "financial_records[].total_expenses"
+      },
+      "evidence_ids": [
+        "ev:ais:30913308861:2023"
+      ]
+    }
+  ],
   "financial_records": [
     {
       "financial_record_id": "fr:ais:cb_5d5f8d975a03485ba5dc07dab3855629:2023",
@@ -211,6 +265,8 @@
     }
   ],
   "fundraising_expenditure": null,
+  "funding_sources": [],
+  "fundraising_methods": [],
   "classifications": [
     {
       "taxonomy_id": "acnc-register",
@@ -357,9 +413,66 @@
     "generated_at": "2026-08-10T12:58:49.944272Z",
     "editorial_policy_version": "0.1"
   },
-  "dataset_version": "phase2a-2026-08-10-h1",
-  "card_schema_version": "0.1",
-  "editorial_policy_version": "0.1",
-  "generator_version": "0.1.0",
-  "built_at": "2026-08-10T13:51:56.713236Z"
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-10T12:58:49.944272Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "assessment_method": "phase2b-deterministic-v1",
+      "input_hash": "bd683dbbb8bc47af36b94507251e2c3f7afe20cb5f6500cd4c4924924e0e0365",
+      "disposition": "reused",
+      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "affected_dimensions": []
+    },
+    {
+      "derivative": "taxonomy",
+      "generated_at": "2026-08-10T12:58:49.944272Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "assessment_method": "phase2b-deterministic-v1",
+      "input_hash": "bd683dbbb8bc47af36b94507251e2c3f7afe20cb5f6500cd4c4924924e0e0365",
+      "disposition": "reused",
+      "reason": "No new supported canonical classification facts.",
+      "affected_dimensions": []
+    },
+    {
+      "derivative": "fundraising",
+      "generated_at": null,
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "assessment_method": "phase2b-deterministic-v1",
+      "input_hash": "bd683dbbb8bc47af36b94507251e2c3f7afe20cb5f6500cd4c4924924e0e0365",
+      "disposition": "reused",
+      "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
+      "affected_dimensions": []
+    },
+    {
+      "derivative": "embedding",
+      "generated_at": "2026-08-10T13:53:24.457635Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "assessment_method": "phase2b-deterministic-v1",
+      "input_hash": "3bdd38865589fa8c97893b10869950edd6ba0ba2b1bff23d5cd14d9dba72bfaf",
+      "disposition": "reused",
+      "reason": "Semantic source text unchanged.",
+      "affected_dimensions": []
+    },
+    {
+      "derivative": "similarities",
+      "generated_at": "2026-08-10T13:53:24.457635Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "assessment_method": "phase2b-deterministic-v1",
+      "input_hash": "3bdd38865589fa8c97893b10869950edd6ba0ba2b1bff23d5cd14d9dba72bfaf",
+      "disposition": "reused",
+      "reason": "Embedding reused; semantic neighbours retained.",
+      "affected_dimensions": []
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-12-rc1",
+  "card_schema_version": "0.2",
+  "editorial_policy_version": "0.2",
+  "generator_version": "0.2.0",
+  "built_at": "2026-08-12T11:26:59.282210Z"
 }

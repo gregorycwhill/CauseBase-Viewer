@@ -1,0 +1,162 @@
+{
+  "causebase_id": "cb_1ed4d44d34e949098005cf9c6ca1885c",
+  "subject_kind": "unknown",
+  "external_identifiers": [
+    {
+      "scheme": "abn",
+      "value": "56147787276",
+      "source_evidence_id": "ev:acnc:56147787276"
+    }
+  ],
+  "registrations": [
+    {
+      "regulator": "ACNC",
+      "registration_id": null,
+      "status": "registered",
+      "evidence_ids": [
+        "ev:acnc:56147787276"
+      ]
+    }
+  ],
+  "tax_statuses": [],
+  "relationships": [],
+  "source_resolutions": [
+    {
+      "source_record_id": "src:acnc-register:5ba36dbb-708e-5b5a-a3f3-7a20a628af8a",
+      "resolution_status": "resolved",
+      "resolution_basis": "automated authoritative ACNC promotion under acnc-authoritative-v1",
+      "confidence": "high",
+      "supporting_signals": [
+        "ABN:56147787276",
+        "ACNC Register"
+      ],
+      "conflicting_signals": [],
+      "review_status": "not_required"
+    }
+  ],
+  "legal_name": "MULTICULTURAL SENIOR DIGITAL SUPPORT QLD INC",
+  "display_name": "MULTICULTURAL SENIOR DIGITAL SUPPORT QLD INC",
+  "entity_status": "registered",
+  "coverage": [
+    {
+      "capability": "regulatory",
+      "status": "observed",
+      "source_record_id": null,
+      "evidence_ids": [
+        "ev:acnc:56147787276"
+      ],
+      "observed_at": "2026-08-10",
+      "freshness_note": null
+    },
+    {
+      "capability": "annual_report",
+      "status": "not_yet_processed",
+      "source_record_id": null,
+      "evidence_ids": [],
+      "observed_at": "2026-08-10",
+      "freshness_note": null
+    },
+    {
+      "capability": "website",
+      "status": "retrieval_failed",
+      "source_record_id": null,
+      "evidence_ids": [],
+      "observed_at": "2026-08-10",
+      "freshness_note": null
+    },
+    {
+      "capability": "fundraising_expenditure",
+      "status": "not_yet_processed",
+      "source_record_id": null,
+      "evidence_ids": [],
+      "observed_at": "2026-08-10",
+      "freshness_note": null
+    },
+    {
+      "capability": "financials",
+      "status": "not_found_in_source",
+      "source_record_id": null,
+      "evidence_ids": [],
+      "observed_at": "2026-08-10",
+      "freshness_note": null
+    }
+  ],
+  "enrichment_level": "enriched",
+  "website": "https://lifelong.org.au",
+  "geography": [
+    "QLD"
+  ],
+  "causebase_summary": "MULTICULTURAL SENIOR DIGITAL SUPPORT QLD INC is listed under that legal and display name in an ACNC Register extract observed 2026-08-10. The record shows a website URL (https://lifelong.org.au) and structured geography indicated as QLD. No organisation-authored description, program details, activities, beneficiary groups or participation modes were available in the supplied materials. Website retrieval was attempted but failed; an annual report was noted as not yet processed and financial records were not found in the provided sources. The available evidence therefore identifies the entity by name, a web address and a Queensland location on an ACNC extract, and does not provide substantiated information about services, beneficiaries, or operating practices.",
+  "organisation_self_description": null,
+  "activities": [],
+  "beneficiaries": [],
+  "participation_modes": [],
+  "opportunities": [],
+  "financial_records": [],
+  "financial_metrics": [],
+  "fundraising_expenditure": null,
+  "classifications": [
+    {
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "purpose.education",
+      "term_label": "education",
+      "assignment_method": "source_native",
+      "confidence": "high",
+      "evidence_ids": [
+        "ev:acnc:56147787276"
+      ]
+    },
+    {
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "beneficiary.older_people",
+      "term_label": "older people",
+      "assignment_method": "source_native",
+      "confidence": "high",
+      "evidence_ids": [
+        "ev:acnc:56147787276"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "ev:acnc:56147787276",
+      "source_type": "regulatory",
+      "title": "ACNC Register extract",
+      "publisher": "Australian Charities and Not-for-profits Commission",
+      "url": null,
+      "observed_at": "2026-08-10",
+      "reporting_period": null,
+      "page": null,
+      "section": null,
+      "content_hash": null
+    }
+  ],
+  "embedding": {
+    "embedding_id": "cb_1ed4d44d34e949098005cf9c6ca1885c:entity:text-embedding-3-small",
+    "embedding_type": "entity",
+    "model_id": "text-embedding-3-small",
+    "model_version": "text-embedding-3-small",
+    "dimensions": 1536,
+    "source_text_hash": "e9c81d44d90626c852692251957d309a81c408dbc066d70fdec047fbc5c2b536",
+    "generated_at": "2026-08-10T13:53:24.457249Z",
+    "vector_ref": "embeddings.parquet#cb_1ed4d44d34e949098005cf9c6ca1885c"
+  },
+  "synthesis": {
+    "model_id": "gpt-5-mini-2025-08-07",
+    "prompt_version": "phase2a-0.4",
+    "parameters": {
+      "max_output_tokens": 3000,
+      "structured_output": true
+    },
+    "evidence_input_hash": "a8d8094e58623ce411fd28479217e1e14ed73f4ca38ba02e4814feafbc53dd95",
+    "generated_at": "2026-08-10T12:56:09.616702Z",
+    "editorial_policy_version": "0.1"
+  },
+  "dataset_version": "phase2a-2026-08-10-h1",
+  "card_schema_version": "0.1",
+  "editorial_policy_version": "0.1",
+  "generator_version": "0.1.0",
+  "built_at": "2026-08-10T13:51:56.706676Z"
+}

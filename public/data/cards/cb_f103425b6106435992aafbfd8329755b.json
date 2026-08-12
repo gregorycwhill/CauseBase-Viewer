@@ -94,6 +94,60 @@
   "beneficiaries": [],
   "participation_modes": [],
   "opportunities": [],
+  "source_native_records": [
+    {
+      "source_record_id": "src:acnc-register:0fff40d0-e095-5a9f-972a-0f834d4cdb76",
+      "source_family": "acnc-register",
+      "dataset_version": "2026-08-10",
+      "source_url": null,
+      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "observed_at": "2026-08-10",
+      "effective_from": null,
+      "effective_to": null,
+      "source_fields": {
+        "ABN": "17624324741",
+        "Legal Name": "Thalanyji Foundation Limited",
+        "Registration Status": "registered",
+        "ACNC classifications": "social welfare; other beneficiary"
+      },
+      "canonical_field_mappings": {
+        "ABN": "external_identifiers",
+        "Legal Name": "legal_name",
+        "Registration Status": "registrations"
+      },
+      "evidence_ids": [
+        "ev:acnc:17624324741"
+      ]
+    },
+    {
+      "source_record_id": "src:acnc-ais:fr:ais:cb_f103425b6106435992aafbfd8329755b:2023",
+      "source_family": "acnc-ais",
+      "dataset_version": "2026-08-10",
+      "source_url": null,
+      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "observed_at": "2026-08-10",
+      "effective_from": "2022-07-01",
+      "effective_to": "2023-06-30",
+      "source_fields": {
+        "Reporting period": "01/07/2022 to 30/06/2023",
+        "Reporting scope": "subject",
+        "Consolidated": "unknown",
+        "Revenue": "0",
+        "Donations and bequests": null,
+        "Government grants": null,
+        "Total expenses": "0",
+        "Assets": null,
+        "Liabilities": null
+      },
+      "canonical_field_mappings": {
+        "Revenue": "financial_records[].revenue",
+        "Total expenses": "financial_records[].total_expenses"
+      },
+      "evidence_ids": [
+        "ev:ais:17624324741:2023"
+      ]
+    }
+  ],
   "financial_records": [
     {
       "financial_record_id": "fr:ais:cb_f103425b6106435992aafbfd8329755b:2023",
@@ -192,6 +246,8 @@
     }
   ],
   "fundraising_expenditure": null,
+  "funding_sources": [],
+  "fundraising_methods": [],
   "classifications": [
     {
       "taxonomy_id": "acnc-register",
@@ -263,9 +319,66 @@
     "generated_at": "2026-08-10T12:46:13.627669Z",
     "editorial_policy_version": "0.1"
   },
-  "dataset_version": "phase2a-2026-08-10-h1",
-  "card_schema_version": "0.1",
-  "editorial_policy_version": "0.1",
-  "generator_version": "0.1.0",
-  "built_at": "2026-08-10T13:51:56.673431Z"
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-10T12:46:13.627669Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "assessment_method": "phase2b-deterministic-v1",
+      "input_hash": "b6f1cf786f2b056f92a48e1283aa83108b3826c0b1166a20cb24e017922547aa",
+      "disposition": "reused",
+      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "affected_dimensions": []
+    },
+    {
+      "derivative": "taxonomy",
+      "generated_at": "2026-08-10T12:46:13.627669Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "assessment_method": "phase2b-deterministic-v1",
+      "input_hash": "b6f1cf786f2b056f92a48e1283aa83108b3826c0b1166a20cb24e017922547aa",
+      "disposition": "reused",
+      "reason": "No new supported canonical classification facts.",
+      "affected_dimensions": []
+    },
+    {
+      "derivative": "fundraising",
+      "generated_at": null,
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "assessment_method": "phase2b-deterministic-v1",
+      "input_hash": "b6f1cf786f2b056f92a48e1283aa83108b3826c0b1166a20cb24e017922547aa",
+      "disposition": "reused",
+      "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
+      "affected_dimensions": []
+    },
+    {
+      "derivative": "embedding",
+      "generated_at": "2026-08-10T13:53:24.455542Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "assessment_method": "phase2b-deterministic-v1",
+      "input_hash": "221f642b4b19d7054face3ce73163430cf8eb85d524f28f8bc9c63bf689ab783",
+      "disposition": "reused",
+      "reason": "Semantic source text unchanged.",
+      "affected_dimensions": []
+    },
+    {
+      "derivative": "similarities",
+      "generated_at": "2026-08-10T13:53:24.455542Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "assessment_method": "phase2b-deterministic-v1",
+      "input_hash": "221f642b4b19d7054face3ce73163430cf8eb85d524f28f8bc9c63bf689ab783",
+      "disposition": "reused",
+      "reason": "Embedding reused; semantic neighbours retained.",
+      "affected_dimensions": []
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-12-rc1",
+  "card_schema_version": "0.2",
+  "editorial_policy_version": "0.2",
+  "generator_version": "0.2.0",
+  "built_at": "2026-08-12T11:26:59.282210Z"
 }

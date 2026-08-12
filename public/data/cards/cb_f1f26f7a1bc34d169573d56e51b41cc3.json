@@ -107,6 +107,60 @@
     "Engagement with visiting Associate Artist and artistic staff"
   ],
   "opportunities": [],
+  "source_native_records": [
+    {
+      "source_record_id": "src:acnc-register:1e38dc54-4559-5621-a035-acb4516fa7e6",
+      "source_family": "acnc-register",
+      "dataset_version": "2026-08-10",
+      "source_url": null,
+      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "observed_at": "2026-08-10",
+      "effective_from": null,
+      "effective_to": null,
+      "source_fields": {
+        "ABN": "65175035512",
+        "Legal Name": "Young Voices Of Melbourne Inc",
+        "Registration Status": "registered",
+        "ACNC classifications": "culture; children"
+      },
+      "canonical_field_mappings": {
+        "ABN": "external_identifiers",
+        "Legal Name": "legal_name",
+        "Registration Status": "registrations"
+      },
+      "evidence_ids": [
+        "ev:acnc:65175035512"
+      ]
+    },
+    {
+      "source_record_id": "src:acnc-ais:fr:ais:cb_f1f26f7a1bc34d169573d56e51b41cc3:2023",
+      "source_family": "acnc-ais",
+      "dataset_version": "2026-08-10",
+      "source_url": null,
+      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "observed_at": "2026-08-10",
+      "effective_from": "2023-02-01",
+      "effective_to": "2024-01-31",
+      "source_fields": {
+        "Reporting period": "01/02/2023 to 31/01/2024",
+        "Reporting scope": "subject",
+        "Consolidated": "false",
+        "Revenue": "583709",
+        "Donations and bequests": null,
+        "Government grants": null,
+        "Total expenses": "658416",
+        "Assets": null,
+        "Liabilities": null
+      },
+      "canonical_field_mappings": {
+        "Revenue": "financial_records[].revenue",
+        "Total expenses": "financial_records[].total_expenses"
+      },
+      "evidence_ids": [
+        "ev:ais:65175035512:2023"
+      ]
+    }
+  ],
   "financial_records": [
     {
       "financial_record_id": "fr:ais:cb_f1f26f7a1bc34d169573d56e51b41cc3:2023",
@@ -205,6 +259,8 @@
     }
   ],
   "fundraising_expenditure": null,
+  "funding_sources": [],
+  "fundraising_methods": [],
   "classifications": [
     {
       "taxonomy_id": "acnc-register",
@@ -333,9 +389,66 @@
     "generated_at": "2026-08-10T12:48:27.000412Z",
     "editorial_policy_version": "0.1"
   },
-  "dataset_version": "phase2a-2026-08-10-h1",
-  "card_schema_version": "0.1",
-  "editorial_policy_version": "0.1",
-  "generator_version": "0.1.0",
-  "built_at": "2026-08-10T13:51:56.676766Z"
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-10T12:48:27.000412Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "assessment_method": "phase2b-deterministic-v1",
+      "input_hash": "76ce7008d1a0331f18e4f5e6a301964803a518fc1d436868b80e6dea9b7ad299",
+      "disposition": "reused",
+      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "affected_dimensions": []
+    },
+    {
+      "derivative": "taxonomy",
+      "generated_at": "2026-08-10T12:48:27.000412Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "assessment_method": "phase2b-deterministic-v1",
+      "input_hash": "76ce7008d1a0331f18e4f5e6a301964803a518fc1d436868b80e6dea9b7ad299",
+      "disposition": "reused",
+      "reason": "No new supported canonical classification facts.",
+      "affected_dimensions": []
+    },
+    {
+      "derivative": "fundraising",
+      "generated_at": null,
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "assessment_method": "phase2b-deterministic-v1",
+      "input_hash": "76ce7008d1a0331f18e4f5e6a301964803a518fc1d436868b80e6dea9b7ad299",
+      "disposition": "reused",
+      "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
+      "affected_dimensions": []
+    },
+    {
+      "derivative": "embedding",
+      "generated_at": "2026-08-10T13:53:24.455824Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "assessment_method": "phase2b-deterministic-v1",
+      "input_hash": "39ea9ae4d4657e3c74175c88833c913b1ecbe19ccd43dec9ac75b361ebbcc95b",
+      "disposition": "reused",
+      "reason": "Semantic source text unchanged.",
+      "affected_dimensions": []
+    },
+    {
+      "derivative": "similarities",
+      "generated_at": "2026-08-10T13:53:24.455824Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "assessment_method": "phase2b-deterministic-v1",
+      "input_hash": "39ea9ae4d4657e3c74175c88833c913b1ecbe19ccd43dec9ac75b361ebbcc95b",
+      "disposition": "reused",
+      "reason": "Embedding reused; semantic neighbours retained.",
+      "affected_dimensions": []
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-12-rc1",
+  "card_schema_version": "0.2",
+  "editorial_policy_version": "0.2",
+  "generator_version": "0.2.0",
+  "built_at": "2026-08-12T11:26:59.282210Z"
 }
