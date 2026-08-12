@@ -88,7 +88,21 @@
   "geography": [
     "ACT"
   ],
-  "causebase_summary": "Anzac Memorial Chapel Of St Paul Trustees is recorded on the ACNC Register with jurisdiction in the ACT. The available regulatory extract and the organisation’s 2023 ACNC information statement (AIS) are the only processed sources. Those extracts do not describe any activities, programs, services or named beneficiaries. The AIS entry for 2023 reports zero revenue and zero total expenses for the reporting subject. No website or other public organisational description was available in the supplied evidence. The legal name in the register identifies the entity as a body of trustees for an Anzac memorial chapel, but the ACNC extracts supplied do not set out an operating model, locations of activity beyond the ACT designation, staff or volunteer numbers, or recent project information.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:67575837755"
+      ]
+    }
+  ],
+  "causebase_summary": "Anzac Memorial Chapel Of St Paul Trustees is a registered charity located in the Australian Capital Territory. CauseBase does not have sufficient descriptive evidence in this release to independently identify the organisation’s specific activities, services, beneficiaries or operating model. The record provided includes ACNC registration details and an Annual Information Statement dated 2023, but no website, public description or program information is included in the supplied evidence.",
+  "summary_evidence_ids": [
+    "ev:acnc:67575837755",
+    "ev:ais:67575837755:2023"
+  ],
   "organisation_self_description": null,
   "activities": [],
   "beneficiaries": [],
@@ -99,8 +113,8 @@
       "source_record_id": "src:acnc-register:cd87d41d-202a-5cd2-addf-10ab12e3f715",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=67575837755",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -108,7 +122,10 @@
         "ABN": "67575837755",
         "Legal Name": "Anzac Memorial Chapel Of St Paul Trustees",
         "Registration Status": "registered",
-        "ACNC classifications": "religion; other beneficiary"
+        "ACNC classifications": "religion; other beneficiary",
+        "Website": null,
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -124,7 +141,7 @@
       "source_family": "acnc-ais",
       "dataset_version": "2026-08-10",
       "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -310,34 +327,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "6c4a9f719a2e17cc4ce9db44970244eb79944548dd569183ff528764d0a5db66",
-    "generated_at": "2026-08-10T12:46:31.326278Z",
+    "evidence_input_hash": "20215364ddc3e846055dea511c5a6be09ca2f61c11ba565ee58e48a70965f2a8",
+    "generated_at": "2026-08-12T13:40:26.234440Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T12:46:31.326278Z",
+      "generated_at": "2026-08-12T13:40:26.234440Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "6c4a9f719a2e17cc4ce9db44970244eb79944548dd569183ff528764d0a5db66",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "20215364ddc3e846055dea511c5a6be09ca2f61c11ba565ee58e48a70965f2a8",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T12:46:31.326278Z",
+      "generated_at": "2026-08-12T13:40:26.234440Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "6c4a9f719a2e17cc4ce9db44970244eb79944548dd569183ff528764d0a5db66",
+      "input_hash": "20215364ddc3e846055dea511c5a6be09ca2f61c11ba565ee58e48a70965f2a8",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -346,9 +363,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "6c4a9f719a2e17cc4ce9db44970244eb79944548dd569183ff528764d0a5db66",
+      "input_hash": "20215364ddc3e846055dea511c5a6be09ca2f61c11ba565ee58e48a70965f2a8",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -357,7 +374,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.455655Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "5beb1a08390eed347e475e886466115566cc52ba0474933a09a37b6215936a97",
       "disposition": "reused",
@@ -368,7 +385,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.455655Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "5beb1a08390eed347e475e886466115566cc52ba0474933a09a37b6215936a97",
       "disposition": "reused",
@@ -376,9 +393,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

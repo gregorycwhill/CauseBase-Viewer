@@ -97,7 +97,54 @@
     "Sydney (New South Wales)",
     "Adelaide (South Australia)"
   ],
-  "causebase_summary": "Fight Cancer Foundation (formerly Bone Marrow Donor Institute) is described on its website as a national charity. The organisation’s 2015 annual report outlines multiple service streams. An education support program called Back on Track places specialist Education Advisors (trained teachers) in children’s hospitals to provide one-to-one tutoring, group learning sessions, Individual Learning Plans, liaison with schools and clinical teams, and transition planning for learners receiving cancer treatment; the report gives a detailed daily schedule of advisor activities. The report also describes three accommodation centres—Hilltop (Albury), John Opie House (Hobart) and BMDI Rotary House (North Melbourne)—that provide short-term, subsidised accommodation to patients and families who must travel for treatment; house managers handle bookings, patient travel assistance invoicing, waiting lists and on-site issues. The report states involvement with the BMDI Cord Blood Bank in Melbourne (reporting more than 12,700 cord blood units stored and 525 releases for transplant) and ongoing links with the Australian Bone Marrow Donor Registry via a board position. The organisation’s materials note volunteer directors, volunteers and patrons, and describe events, fundraising and research scholarships in support of these programs.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:45127505739"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-VIC",
+      "label": "Victoria",
+      "evidence_ids": [
+        "ev:acnc:45127505739"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-NSW",
+      "label": "New South Wales",
+      "evidence_ids": [
+        "ev:acnc:45127505739"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-SA",
+      "label": "South Australia",
+      "evidence_ids": [
+        "ev:acnc:45127505739"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-TAS",
+      "label": "Tasmania",
+      "evidence_ids": [
+        "ev:acnc:45127505739"
+      ]
+    }
+  ],
+  "causebase_summary": "Bone Marrow Donor Institute (trading as Fight Cancer Foundation) is an Australian charity first established in 1989 that provides practical support to people affected by cancer and their families. It operates nationally with services based in Albury, North Melbourne (BMDI Rotary House), Hobart (John Opie House), Sydney and Adelaide. Its concrete work includes a hospital-based education support program for children (Back on Track), short-term accommodation for patients and families who must travel for treatment, ongoing support of the BMDI Cord Blood Bank in Melbourne, research scholarships and funding, and fundraising and public events. The organisation also liaises with hospitals and education departments to coordinate services and deploys volunteers and volunteer directors in program delivery.",
+  "summary_evidence_ids": [
+    "ev:report:45127505739:2b4900457b82",
+    "ev:web:45127505739:2026-08-10",
+    "ev:acnc:45127505739"
+  ],
   "organisation_self_description": null,
   "activities": [
     "education support for children receiving cancer treatment (Back on Track)",
@@ -123,8 +170,8 @@
       "source_record_id": "src:acnc-register:0b8ef043-ce0c-554f-8953-1173f00acc4d",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=45127505739",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -132,7 +179,10 @@
         "ABN": "45127505739",
         "Legal Name": "Bone Marrow Donor Institute",
         "Registration Status": "registered",
-        "ACNC classifications": "education; children"
+        "ACNC classifications": "education; children",
+        "Website": "www.fightcancer.org.au",
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -148,7 +198,7 @@
       "source_family": "acnc-ais",
       "dataset_version": "2026-08-10",
       "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": "2023-01-01",
       "effective_to": "2023-12-31",
@@ -430,34 +480,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "5fd40b725e5cc52f5d2caaa80e86c2efdeda2d38bb3ae843e0257720519cb85c",
-    "generated_at": "2026-08-10T12:54:24.641576Z",
+    "evidence_input_hash": "da5579d641a8b9a9bdadc50e4297c0fa5a00c40ab047c5164eda06b5cea9d8c9",
+    "generated_at": "2026-08-12T13:58:21.503998Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T12:54:24.641576Z",
+      "generated_at": "2026-08-12T13:58:21.503998Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "5fd40b725e5cc52f5d2caaa80e86c2efdeda2d38bb3ae843e0257720519cb85c",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "da5579d641a8b9a9bdadc50e4297c0fa5a00c40ab047c5164eda06b5cea9d8c9",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T12:54:24.641576Z",
+      "generated_at": "2026-08-12T13:58:21.503998Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "5fd40b725e5cc52f5d2caaa80e86c2efdeda2d38bb3ae843e0257720519cb85c",
+      "input_hash": "da5579d641a8b9a9bdadc50e4297c0fa5a00c40ab047c5164eda06b5cea9d8c9",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -466,9 +516,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "5fd40b725e5cc52f5d2caaa80e86c2efdeda2d38bb3ae843e0257720519cb85c",
+      "input_hash": "da5579d641a8b9a9bdadc50e4297c0fa5a00c40ab047c5164eda06b5cea9d8c9",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -477,7 +527,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.456840Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "4fae15f1a95f84407aeda99d6b0ba6adb5e5e70e9616ad3ed67da10ca285265d",
       "disposition": "reused",
@@ -488,7 +538,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.456840Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "4fae15f1a95f84407aeda99d6b0ba6adb5e5e70e9616ad3ed67da10ca285265d",
       "disposition": "reused",
@@ -496,9 +546,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

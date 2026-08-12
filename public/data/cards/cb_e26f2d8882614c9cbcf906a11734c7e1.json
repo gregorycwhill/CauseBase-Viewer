@@ -90,7 +90,30 @@
   "geography": [
     "Victoria (VIC, Australia)"
   ],
-  "causebase_summary": "Geelong & District Day Nursery Incorporated (display name: Geelong & District Day Nursery Incorporated; website: https://geelongchildrenscentre.com.au/) is registered in Victoria. Evidence available for this subject comprises an ACNC register entry, the organisation’s website homepage, and an ACNC Annual Information Statement (AIS) for 01/07/2022–30/06/2023. The AIS reports revenue of AUD 3,936,353 and total expenses of AUD 3,592,605 for that reporting period. The organisation’s legal name and website name refer to a day nursery/children’s centre; the website snapshot in the evidence pack was not readable for extraction of further program or service details. No independent documentation of specific programs, participant numbers, service locations within Victoria, staffing or governance detail was provided in the selected excerpts.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:16636320874"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-VIC",
+      "label": "Victoria",
+      "evidence_ids": [
+        "ev:acnc:16636320874"
+      ]
+    }
+  ],
+  "causebase_summary": "Geelong & District Day Nursery Incorporated is a local early‑childhood service based in Geelong, Victoria. It operates a day nursery / children’s centre, providing on‑site care and early childhood education for children in the Geelong & district area. Regulatory registration and the organisation’s website and annual information statement identify the organisation, its role as a children’s centre and its location; financial filings are available for the 2022–23 reporting year. CauseBase has evidence that the organisation runs a day nursery in Geelong but does not have sufficient descriptive evidence in this release to identify specific service models, age ranges served, opening hours or eligibility criteria.",
+  "summary_evidence_ids": [
+    "ev:web:16636320874:2026-08-10",
+    "ev:acnc:16636320874",
+    "ev:ais:16636320874:2023"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Operates as a day nursery / children’s centre (stated in legal and display names and website URL)"
@@ -105,8 +128,8 @@
       "source_record_id": "src:acnc-register:2618b214-920d-5cfc-b945-30f776810279",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=16636320874",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -114,7 +137,10 @@
         "ABN": "16636320874",
         "Legal Name": "Geelong & District Day Nursery Incorporated",
         "Registration Status": "registered",
-        "ACNC classifications": "education; people with disability"
+        "ACNC classifications": "education; people with disability",
+        "Website": "www.geelongchildrenscentre.com.au",
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -130,7 +156,7 @@
       "source_family": "acnc-ais",
       "dataset_version": "2026-08-10",
       "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": "2022-07-01",
       "effective_to": "2023-06-30",
@@ -364,34 +390,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "242bc24a26714b1c40dfff8325ed0a9d038619c83903af79f5c92be75f74cc9f",
-    "generated_at": "2026-08-10T12:50:50.767593Z",
+    "evidence_input_hash": "0a8f0fcf08fe01753c07284641aa0a0cd6fdb8f079210c2969c49ae24bafa7c9",
+    "generated_at": "2026-08-12T13:49:48.656888Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T12:50:50.767593Z",
+      "generated_at": "2026-08-12T13:49:48.656888Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "242bc24a26714b1c40dfff8325ed0a9d038619c83903af79f5c92be75f74cc9f",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "0a8f0fcf08fe01753c07284641aa0a0cd6fdb8f079210c2969c49ae24bafa7c9",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T12:50:50.767593Z",
+      "generated_at": "2026-08-12T13:49:48.656888Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "242bc24a26714b1c40dfff8325ed0a9d038619c83903af79f5c92be75f74cc9f",
+      "input_hash": "0a8f0fcf08fe01753c07284641aa0a0cd6fdb8f079210c2969c49ae24bafa7c9",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -400,9 +426,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "242bc24a26714b1c40dfff8325ed0a9d038619c83903af79f5c92be75f74cc9f",
+      "input_hash": "0a8f0fcf08fe01753c07284641aa0a0cd6fdb8f079210c2969c49ae24bafa7c9",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -411,7 +437,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.456310Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "cf68e0de5351de531842dbbfdd4e38e376c68983bdd9760c088057cd508007e0",
       "disposition": "reused",
@@ -422,7 +448,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.456310Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "cf68e0de5351de531842dbbfdd4e38e376c68983bdd9760c088057cd508007e0",
       "disposition": "reused",
@@ -430,9 +456,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

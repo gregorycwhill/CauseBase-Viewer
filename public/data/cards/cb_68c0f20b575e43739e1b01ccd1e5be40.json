@@ -88,7 +88,29 @@
   "geography": [
     "Perth metropolitan area, Western Australia"
   ],
-  "causebase_summary": "Safe Living Australia Ltd describes itself on its website as a provider of short- and long-term housing and support for people in need, operating properties “dotted around the Perth metro area”. The site sets out several service streams: trauma‑informed, tailored child‑centred residential care for children and young people; housing options for young people transitioning from statutory care (“Leaving Care”); and urgent housing placements. The organisation says applicants require a referral and that it works alongside government departments, agencies, support coordinators, case managers and community programs to place clients. The website states occupants may stay for days, weeks or months, with circumstances reviewed after six months. It lists groups the organisation says it assists, including children, young people, families and individuals of all ages, and people leaving violent or dangerous environments, people experiencing poverty and people with disability. The site refers to volunteer involvement—“Urgent Housing Volunteers prioritise housing based on the circumstances of the individual”—and invites feedback and partnership. Safe Living Australia Ltd also states it is a Public Benevolent Institution and a registered DGR and displays contact details for enquiries.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:58675000129"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-WA",
+      "label": "Western Australia",
+      "evidence_ids": [
+        "ev:acnc:58675000129"
+      ]
+    }
+  ],
+  "causebase_summary": "Safe Living Australia Ltd is a Public Benevolent Institution based in the Perth metropolitan area that provides housing and residential care for people who need safe accommodation. It operates a portfolio of properties across the Perth metro area and places occupants by referral, working with government departments, agencies, support coordinators, case managers and community programs. Its services include short- and long-term housing, urgent housing placements, trauma‑informed residential care for children and young people, and housing options for young people transitioning from care. Volunteers take part in prioritising housing placements and the organisation invites client feedback and partnership input; individual placements are reviewed after around six months.",
+  "summary_evidence_ids": [
+    "ev:web:58675000129:2026-08-10",
+    "ev:acnc:58675000129"
+  ],
   "organisation_self_description": null,
   "activities": [
     "short- and long-term housing provision",
@@ -115,8 +137,8 @@
       "source_record_id": "src:acnc-register:b3868c4d-f032-5757-9d96-547ba229f4a1",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=58675000129",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -124,7 +146,10 @@
         "ABN": "58675000129",
         "Legal Name": "SAFE LIVING AUSTRALIA LTD",
         "Registration Status": "registered",
-        "ACNC classifications": "social welfare; people with disability"
+        "ACNC classifications": "social welfare; people with disability",
+        "Website": "https://www.safelivingaustralia.org",
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -266,34 +291,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "449a3b66c73deba3f6bab126560a8143b080284654d0242c1131a9c1ed20fc37",
-    "generated_at": "2026-08-10T13:02:14.886885Z",
+    "evidence_input_hash": "1a4c1a13e397afd7b68e0853d321f773186c9d489f260fd203436587681ca31f",
+    "generated_at": "2026-08-12T14:20:47.232961Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T13:02:14.886885Z",
+      "generated_at": "2026-08-12T14:20:47.232961Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "449a3b66c73deba3f6bab126560a8143b080284654d0242c1131a9c1ed20fc37",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "1a4c1a13e397afd7b68e0853d321f773186c9d489f260fd203436587681ca31f",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T13:02:14.886885Z",
+      "generated_at": "2026-08-12T14:20:47.232961Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "449a3b66c73deba3f6bab126560a8143b080284654d0242c1131a9c1ed20fc37",
+      "input_hash": "1a4c1a13e397afd7b68e0853d321f773186c9d489f260fd203436587681ca31f",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -302,9 +327,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "449a3b66c73deba3f6bab126560a8143b080284654d0242c1131a9c1ed20fc37",
+      "input_hash": "1a4c1a13e397afd7b68e0853d321f773186c9d489f260fd203436587681ca31f",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -313,7 +338,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.458255Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "7cd2b5cd0005dd5fdd1e7301d3a69a958428b228dddf84be64b0efc4b2f09afd",
       "disposition": "reused",
@@ -324,7 +349,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.458255Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "7cd2b5cd0005dd5fdd1e7301d3a69a958428b228dddf84be64b0efc4b2f09afd",
       "disposition": "reused",
@@ -332,9 +357,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

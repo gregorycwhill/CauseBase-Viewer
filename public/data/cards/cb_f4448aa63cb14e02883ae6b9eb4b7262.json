@@ -91,7 +91,30 @@
     "Victoria (registered location)",
     "Australia (local, regional and national activity claimed)"
   ],
-  "causebase_summary": "Agency Projects Limited (Agency) states on its website that it celebrates and promotes Aboriginal and Torres Strait Islander art, culture and people on a local, national and international scale. The site lists a range of concrete activities: First Nations‑led exhibitions of urban, regional and remote artists; art and built‑environment commissions; forums and public talks under the UNTOLD program; digital initiatives including the UPLANDS mapping resource, large‑scale art projections and artist video portraits; publications under Agency Editions; and a residencies program launched in 2023 called Agency AiR. Agency’s event programming examples on the site include a 2024 Rubbish on the Shore Conference on Country, Cultural Conversations at Garma, International NAIDOC Week programming with embassies, and curated projects and book launches in partnership with organisations such as Martumili Artists. The website also describes international project work with the Department of Foreign Affairs and Trade and overseas institutions. The site invites one‑off donations. The ACNC AIS extract for 2022–23 included in the file reports zero revenue and zero total expenses for the period 01/07/2022–30/06/2023.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:48637825668"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-VIC",
+      "label": "Victoria",
+      "evidence_ids": [
+        "ev:acnc:48637825668"
+      ]
+    }
+  ],
+  "causebase_summary": "AGENCY PROJECTS LIMITED (Agency Projects) is a Victoria‑registered arts organisation that delivers First Nations‑led exhibitions, commissions and related public programming on local, national and international scales. Its work includes curating and staging exhibitions that centre Aboriginal and Torres Strait Islander artists, art and built‑environment commissions, forums and the UNTOLD talks series, digital initiatives such as the UPLANDS mapping resource and artist portraits, a residency program (Agency AiR) for First Nations participants, and publications under Agency Editions. Agency also runs events and conference programming (including NAIDOC and Garma partnerships) and says it partners with government and overseas institutions for international projects. Stated beneficiaries include Aboriginal and Torres Strait Islander artists, curators and cultural leaders, First Nations participants and communities, and audiences and collectors.",
+  "summary_evidence_ids": [
+    "ev:web:48637825668:2026-08-10",
+    "ev:acnc:48637825668",
+    "ev:ais:48637825668:2023"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Curating and staging First Nations‑led exhibitions",
@@ -120,8 +143,8 @@
       "source_record_id": "src:acnc-register:47ac393a-bbe8-50ab-80af-d04ef50ec2eb",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=48637825668",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -129,7 +152,10 @@
         "ABN": "48637825668",
         "Legal Name": "AGENCY PROJECTS LIMITED",
         "Registration Status": "registered",
-        "ACNC classifications": "environment; other beneficiary"
+        "ACNC classifications": "environment; other beneficiary",
+        "Website": "www.agencyprojects.org",
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -145,7 +171,7 @@
       "source_family": "acnc-ais",
       "dataset_version": "2026-08-10",
       "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": "2022-07-01",
       "effective_to": "2023-06-30",
@@ -415,34 +441,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "312ea879d8766cc3a531329ce24e673070b7a57c63eddfdc96bb6679cdf45c34",
-    "generated_at": "2026-08-10T12:46:15.329412Z",
+    "evidence_input_hash": "cbc151ea11b1b016a85a7bb47eae823c0844cb56c3d28bcd67e8e66a75229a98",
+    "generated_at": "2026-08-12T13:37:58.023875Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T12:46:15.329412Z",
+      "generated_at": "2026-08-12T13:37:58.023875Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "312ea879d8766cc3a531329ce24e673070b7a57c63eddfdc96bb6679cdf45c34",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "cbc151ea11b1b016a85a7bb47eae823c0844cb56c3d28bcd67e8e66a75229a98",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T12:46:15.329412Z",
+      "generated_at": "2026-08-12T13:37:58.023875Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "312ea879d8766cc3a531329ce24e673070b7a57c63eddfdc96bb6679cdf45c34",
+      "input_hash": "cbc151ea11b1b016a85a7bb47eae823c0844cb56c3d28bcd67e8e66a75229a98",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -451,9 +477,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "312ea879d8766cc3a531329ce24e673070b7a57c63eddfdc96bb6679cdf45c34",
+      "input_hash": "cbc151ea11b1b016a85a7bb47eae823c0844cb56c3d28bcd67e8e66a75229a98",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -462,7 +488,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.455492Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "0d589e6550b7658ed74b511471bdca6bf372dba67ff66585a937416741727d0f",
       "disposition": "reused",
@@ -473,7 +499,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.455492Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "0d589e6550b7658ed74b511471bdca6bf372dba67ff66585a937416741727d0f",
       "disposition": "reused",
@@ -481,9 +507,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

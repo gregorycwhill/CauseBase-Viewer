@@ -87,7 +87,28 @@
     "Northern Territory (NT)",
     "Australia"
   ],
-  "causebase_summary": "Alice As One Incorporated is listed on an ACNC Register extract (observed 2026-08-10) under the legal and display name “Alice As One Incorporated.” The organisation’s website is recorded as https://aliceasone.com/. The supplied structured geography indicates the Northern Territory (NT). The evidence provided to CauseBase is limited to the ACNC Register extract; no governing document text, no self-description, no activities, no beneficiaries and no financial statements were included in the materials supplied. CauseBase retrieval noted that the organisation’s website could not be retrieved and that an annual report has not yet been processed. Because the only confirmed source in this evidence pack is the ACNC register extract, there are no documented programs, services, participation modes or service locations beyond the NT entry in the supplied data.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:53597260800"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-NT",
+      "label": "Northern Territory",
+      "evidence_ids": [
+        "ev:acnc:53597260800"
+      ]
+    }
+  ],
+  "causebase_summary": "Alice As One Incorporated is an incorporated not‑for‑profit organisation recorded as operating in the Northern Territory, Australia. CauseBase has only a regulatory record for this entity and the available evidence does not describe its programs, services, beneficiaries or modes of participation. CauseBase does not have sufficient descriptive evidence in this release to independently identify specific activities or beneficiaries for Alice As One Incorporated.",
+  "summary_evidence_ids": [
+    "ev:acnc:53597260800"
+  ],
   "organisation_self_description": null,
   "activities": [],
   "beneficiaries": [],
@@ -98,8 +119,8 @@
       "source_record_id": "src:acnc-register:05a25c8e-f5cb-528d-af31-dee6d254131c",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=53597260800",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -107,7 +128,10 @@
         "ABN": "53597260800",
         "Legal Name": "Alice As One Incorporated",
         "Registration Status": "registered",
-        "ACNC classifications": "other purpose; young people"
+        "ACNC classifications": "other purpose; young people",
+        "Website": "https://aliceasone.com/",
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -192,34 +216,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "e03030a98735fc17a28498c92997cb5504f831212826fea2913a86bfa995221b",
-    "generated_at": "2026-08-10T12:48:49.177960Z",
+    "evidence_input_hash": "c417d5b45262cef23487584078ae1e10033137edddb19b93d8aebecb4191a453",
+    "generated_at": "2026-08-12T13:44:44.625823Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T12:48:49.177960Z",
+      "generated_at": "2026-08-12T13:44:44.625823Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "e03030a98735fc17a28498c92997cb5504f831212826fea2913a86bfa995221b",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "c417d5b45262cef23487584078ae1e10033137edddb19b93d8aebecb4191a453",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T12:48:49.177960Z",
+      "generated_at": "2026-08-12T13:44:44.625823Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "e03030a98735fc17a28498c92997cb5504f831212826fea2913a86bfa995221b",
+      "input_hash": "c417d5b45262cef23487584078ae1e10033137edddb19b93d8aebecb4191a453",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -228,9 +252,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "e03030a98735fc17a28498c92997cb5504f831212826fea2913a86bfa995221b",
+      "input_hash": "c417d5b45262cef23487584078ae1e10033137edddb19b93d8aebecb4191a453",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -239,7 +263,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.455978Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "e226b5cb1d0291456156d1f192c5daa947bfdb160619d59d607b1bf419c8564f",
       "disposition": "reused",
@@ -250,7 +274,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.455978Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "e226b5cb1d0291456156d1f192c5daa947bfdb160619d59d607b1bf419c8564f",
       "disposition": "reused",
@@ -258,9 +282,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

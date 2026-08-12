@@ -88,7 +88,29 @@
   "geography": [
     "Perth and multiple districts across Western Australia (districts named on the website)"
   ],
-  "causebase_summary": "According to the organisation's website, Alcoholics Anonymous – Perth (Aa Service Council For Western Australia) runs a 24‑hour helpline (08 9325 3566 or 1300 22 22 22) and maintains an office at Claisebrook Lotteries House, 33 Moore Street, East Perth, with listed opening hours Monday–Friday 9.00am–4.30pm. The site publishes meeting lists and a calendar of events for Perth and multiple WA districts (Area A, B, C; Hills; Mid‑West; North‑West; Peel; Port; South West) and links to online and international meetings. The website describes open meetings that are available to anyone interested in AA’s programme, notes that non‑alcoholics may attend, and states the only requirement for membership is “a desire to stop drinking.” It offers resources for people new to AA (pamphlets, personal stories, illustrated talks and recovery workshops), a page for fly‑in/fly‑out workers with peer contacts, and a listing for “Serenity” magazine and other literature. The site also posts a safety policy, code of conduct, a safeguarding statement and an incident report form. Contact email AAPerthoffice@aaperthwa.org is given and links are provided to national AA resources and an international meetings app.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:36482379373"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-WA",
+      "label": "Western Australia",
+      "evidence_ids": [
+        "ev:acnc:36482379373"
+      ]
+    }
+  ],
+  "causebase_summary": "Alcoholics Anonymous, Perth, Western Australia (Aa Service Council For Western Australia) is a local fellowship supporting people who identify a desire to stop drinking. It maintains a staffed office in East Perth with published opening hours (Monday–Friday, 9am–4.30pm) and operates a 24‑hour helpline. The group compiles and publishes meeting lists and a calendar of events (including open and online meetings), provides resources for new members (pamphlets, personal stories, talks and workshops), and publishes or links to AA literature and Serenity magazine. The organisation also maintains a safety policy, code of conduct and incident reporting forms. Open meetings are available to anyone interested in AA’s programme of recovery; the site includes specific contact options for fly‑in/fly‑out workers.",
+  "summary_evidence_ids": [
+    "ev:web:36482379373:2026-08-10",
+    "ev:acnc:36482379373"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Operates a 24‑hour helpline",
@@ -114,8 +136,8 @@
       "source_record_id": "src:acnc-register:8bb8e87f-8375-529f-844b-5b556e44a0eb",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=36482379373",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -123,7 +145,10 @@
         "ABN": "36482379373",
         "Legal Name": "Aa Service Council For Western Australia",
         "Registration Status": "registered",
-        "ACNC classifications": "other purpose; young people"
+        "ACNC classifications": "other purpose; young people",
+        "Website": "http://www.aaperthwa.org",
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -256,34 +281,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "4cd62610e8e41b28fcd94ea2d318f06a4eaff5a7a96b7b577ece22431c35d9cc",
-    "generated_at": "2026-08-10T13:00:00.430760Z",
+    "evidence_input_hash": "7f4e0fa68a563919c71d3662e6aa1f12ac9021bb9909e8870161271a9e856f45",
+    "generated_at": "2026-08-12T14:14:35.969003Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T13:00:00.430760Z",
+      "generated_at": "2026-08-12T14:14:35.969003Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "4cd62610e8e41b28fcd94ea2d318f06a4eaff5a7a96b7b577ece22431c35d9cc",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "7f4e0fa68a563919c71d3662e6aa1f12ac9021bb9909e8870161271a9e856f45",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T13:00:00.430760Z",
+      "generated_at": "2026-08-12T14:14:35.969003Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "4cd62610e8e41b28fcd94ea2d318f06a4eaff5a7a96b7b577ece22431c35d9cc",
+      "input_hash": "7f4e0fa68a563919c71d3662e6aa1f12ac9021bb9909e8870161271a9e856f45",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -292,9 +317,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "4cd62610e8e41b28fcd94ea2d318f06a4eaff5a7a96b7b577ece22431c35d9cc",
+      "input_hash": "7f4e0fa68a563919c71d3662e6aa1f12ac9021bb9909e8870161271a9e856f45",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -303,7 +328,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.457892Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "4c7e873d9ebdbe0ae25293d5c479621674b59cb8ee52be68fb24930e05958fe7",
       "disposition": "reused",
@@ -314,7 +339,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.457892Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "4c7e873d9ebdbe0ae25293d5c479621674b59cb8ee52be68fb24930e05958fe7",
       "disposition": "reused",
@@ -322,9 +347,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

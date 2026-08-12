@@ -91,7 +91,30 @@
     "Deloraine, Tasmania",
     "Tasmania, Australia"
   ],
-  "causebase_summary": "Aged Care Deloraine Inc is a not‑for‑profit aged care provider in Deloraine, Tasmania. Its website lists two residential care facilities — Grenoch (47 beds) and Kanangra (48 beds) — plus independent living units and occasional respite care. The site states the organisation offers specialised high‑care services, including dementia care, and names an Admissions Officer and a Clinical Care Coordinator who work with new residents and families to design individualised care plans. The website emphasises a homelike environment and staff support for residents’ social and mental wellbeing. The organisation states longstanding links with the Deloraine community and says it hosts local students on work placement. An ACNC AIS extract for 01/07/2022–30/06/2023 reports revenue of AUD 11,305,033 and total expenses of AUD 11,752,556 for the reporting entity. Sources for this card are the organisation’s website and the ACNC AIS 2023 extract; organisation‑authored statements are recorded here as claims made by the organisation.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:41461770404"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-TAS",
+      "label": "Tasmania",
+      "evidence_ids": [
+        "ev:acnc:41461770404"
+      ]
+    }
+  ],
+  "causebase_summary": "Aged Care Deloraine Inc is a not‑for‑profit provider of aged care services in Deloraine, Tasmania (information current in evidence observed in 2026). It operates two residential care facilities — Kanangra (48 beds) and Grenoch (47 beds) — alongside independent living units for people wishing to downscale. Services described include occasional respite care, specialised high‑care services including dementia care, and admissions processes with individualised clinical care planning supported by an Admissions Officer and Clinical Care Coordinator. The organisation reports community links in Deloraine, hosts work placements for local students, and offers site tours and admissions consultations for prospective residents and families.",
+  "summary_evidence_ids": [
+    "ev:web:41461770404:2026-08-10",
+    "ev:ais:41461770404:2023",
+    "ev:acnc:41461770404"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Residential aged care at Kanangra (48 beds)",
@@ -117,8 +140,8 @@
       "source_record_id": "src:acnc-register:029e1097-789f-57a1-9dbf-79e65d424f85",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=41461770404",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -126,7 +149,10 @@
         "ABN": "41461770404",
         "Legal Name": "Aged Care Deloraine Inc",
         "Registration Status": "registered",
-        "ACNC classifications": "health; older people"
+        "ACNC classifications": "health; older people",
+        "Website": "www.agedcaredeloraine.org.au",
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -142,7 +168,7 @@
       "source_family": "acnc-ais",
       "dataset_version": "2026-08-10",
       "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": "2022-07-01",
       "effective_to": "2023-06-30",
@@ -403,34 +429,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "b429b19d53fef8979a3f25b8c2fd686c456519c14906e4cfdefa636b8f3f32ad",
-    "generated_at": "2026-08-10T13:02:27.871565Z",
+    "evidence_input_hash": "cecc5476d1494bca060eed41a951ca279db54fe4c3803c096093aad01a647195",
+    "generated_at": "2026-08-12T14:21:48.361402Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T13:02:27.871565Z",
+      "generated_at": "2026-08-12T14:21:48.361402Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "b429b19d53fef8979a3f25b8c2fd686c456519c14906e4cfdefa636b8f3f32ad",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "cecc5476d1494bca060eed41a951ca279db54fe4c3803c096093aad01a647195",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T13:02:27.871565Z",
+      "generated_at": "2026-08-12T14:21:48.361402Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "b429b19d53fef8979a3f25b8c2fd686c456519c14906e4cfdefa636b8f3f32ad",
+      "input_hash": "cecc5476d1494bca060eed41a951ca279db54fe4c3803c096093aad01a647195",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -439,9 +465,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "b429b19d53fef8979a3f25b8c2fd686c456519c14906e4cfdefa636b8f3f32ad",
+      "input_hash": "cecc5476d1494bca060eed41a951ca279db54fe4c3803c096093aad01a647195",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -450,7 +476,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.458307Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "c518367a8b71d75174bc46ead96ee3703ccff33d87a09c32b158097f14fe5441",
       "disposition": "reused",
@@ -461,7 +487,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.458307Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "c518367a8b71d75174bc46ead96ee3703ccff33d87a09c32b158097f14fe5441",
       "disposition": "reused",
@@ -469,9 +495,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

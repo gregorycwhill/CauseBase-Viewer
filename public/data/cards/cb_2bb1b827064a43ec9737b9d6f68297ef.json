@@ -90,7 +90,30 @@
   "geography": [
     "Newmarket, Queensland (on the grounds of Newmarket State School; visits to nearby Banks Street Reserve)"
   ],
-  "causebase_summary": "According to the organisation's website and its ACNC reporting, Banks Street Newmarket Community Preschooling Centre Inc (Banks Street Kindy) is a small not‑for‑profit community kindergarten located on the grounds of Newmarket State School in Newmarket, Queensland. The website describes educator‑led early childhood learning with daily outdoor play across multiple outdoor areas (sandpit, mud kitchen, fairy garden), regular visits to the neighbouring Banks Street Reserve (described as a “Bush Kindy” day), and on‑site chickens named Rainbow and Lamington. The site names a Kindy Director, Sharon Kemp, and an art teacher, Kath, and says the kindergarten holds an annual art show for families. The website describes a volunteer kindy management committee, fundraising activity, and connections with Newmarket State School (library visits and participation in school events). The site also describes a daily acknowledgement of Country, a Welcome to Country song, and visits from Aunty Sharron and Uncle Bruce to teach about First Nations culture. The ACNC AIS 2023 extract in the supplied evidence lists revenue of AUD 437,441 and total expenses of AUD 385,269 for the 2023 year.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:60094500985"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-QLD",
+      "label": "Queensland",
+      "evidence_ids": [
+        "ev:acnc:60094500985"
+      ]
+    }
+  ],
+  "causebase_summary": "Banks Street Newmarket Community Preschooling Centre Inc (Banks Street Kindy) is a not-for-profit community kindergarten operating on the grounds of Newmarket State School in Newmarket, Queensland. As of 2026 it runs community kindergarten sessions with daily outdoor play and nature-based programming, including regular Bush Kindy visits to nearby Banks Street Reserve. The kindergarten runs an arts program and an annual art show, maintains gardens and chickens, and organises family-facing events. A volunteer kindy management committee runs governance and fundraising activities. The centre maintains links with Newmarket State School for shared activities and transitions, and includes acknowledgements and learning about First Nations culture in its program.",
+  "summary_evidence_ids": [
+    "ev:web:60094500985:2026-08-10",
+    "ev:ais:60094500985:2023",
+    "ev:acnc:60094500985"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Early childhood education and care (community kindergarten sessions)",
@@ -114,8 +137,8 @@
       "source_record_id": "src:acnc-register:e06f8aa2-9ad6-5a43-9e01-7345ffdc6809",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=60094500985",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -123,7 +146,10 @@
         "ABN": "60094500985",
         "Legal Name": "Banks Street Newmarket Community Preschooling Centre Inc",
         "Registration Status": "registered",
-        "ACNC classifications": "education; other beneficiary"
+        "ACNC classifications": "education; other beneficiary",
+        "Website": "www.banksstkindy.org",
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -139,7 +165,7 @@
       "source_family": "acnc-ais",
       "dataset_version": "2026-08-10",
       "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": "2023-01-01",
       "effective_to": "2023-12-31",
@@ -409,34 +435,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "e84aa965ec815fb695606bda50b86f5468ba0e7f2e5edebfb8ff4414d2d233c1",
-    "generated_at": "2026-08-10T12:46:40.095926Z",
+    "evidence_input_hash": "b760b74226203b30013cdab669c5954b5feb47471499c92de00976fd20ca54c1",
+    "generated_at": "2026-08-12T13:38:51.990603Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T12:46:40.095926Z",
+      "generated_at": "2026-08-12T13:38:51.990603Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "e84aa965ec815fb695606bda50b86f5468ba0e7f2e5edebfb8ff4414d2d233c1",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "b760b74226203b30013cdab669c5954b5feb47471499c92de00976fd20ca54c1",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T12:46:40.095926Z",
+      "generated_at": "2026-08-12T13:38:51.990603Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "e84aa965ec815fb695606bda50b86f5468ba0e7f2e5edebfb8ff4414d2d233c1",
+      "input_hash": "b760b74226203b30013cdab669c5954b5feb47471499c92de00976fd20ca54c1",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -445,9 +471,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "e84aa965ec815fb695606bda50b86f5468ba0e7f2e5edebfb8ff4414d2d233c1",
+      "input_hash": "b760b74226203b30013cdab669c5954b5feb47471499c92de00976fd20ca54c1",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -456,7 +482,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.455569Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "dfc5c384a13e21bdc394d20f5a8d0dd1b265d625ac37b9110a432c53cac7c507",
       "disposition": "reused",
@@ -467,7 +493,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.455569Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "dfc5c384a13e21bdc394d20f5a8d0dd1b265d625ac37b9110a432c53cac7c507",
       "disposition": "reused",
@@ -475,9 +501,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

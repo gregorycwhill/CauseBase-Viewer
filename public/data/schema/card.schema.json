@@ -1186,6 +1186,42 @@
       "title": "MoneyObservation",
       "type": "object"
     },
+    "NavigationGeography": {
+      "description": "Small controlled geography projection used only for navigation.",
+      "properties": {
+        "level": {
+          "enum": [
+            "country",
+            "state_territory",
+            "region_locality"
+          ],
+          "title": "Level",
+          "type": "string"
+        },
+        "code": {
+          "title": "Code",
+          "type": "string"
+        },
+        "label": {
+          "title": "Label",
+          "type": "string"
+        },
+        "evidence_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Evidence Ids",
+          "type": "array"
+        }
+      },
+      "required": [
+        "level",
+        "code",
+        "label"
+      ],
+      "title": "NavigationGeography",
+      "type": "object"
+    },
     "Opportunity": {
       "properties": {
         "opportunity_id": {
@@ -1908,9 +1944,23 @@
       "title": "Geography",
       "type": "array"
     },
+    "navigation_geography": {
+      "items": {
+        "$ref": "#/$defs/NavigationGeography"
+      },
+      "title": "Navigation Geography",
+      "type": "array"
+    },
     "causebase_summary": {
       "title": "Causebase Summary",
       "type": "string"
+    },
+    "summary_evidence_ids": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Summary Evidence Ids",
+      "type": "array"
     },
     "organisation_self_description": {
       "anyOf": [

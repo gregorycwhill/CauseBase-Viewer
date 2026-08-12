@@ -1,12 +1,14 @@
-export const CORRECTION_INTAKE_URL = "https://docs.google.com/forms/d/e/1FAIpQLSfWpGlSeWv4IzmxSiHQeRsT-gDlUwDeIFnJiUQMbUWxZX8FHQ/viewform?usp=header";
+// This is the Google-generated prefill URL grammar, verified against the
+// live form.  Do not change entry IDs without an end-to-end Form check.
+export const CORRECTION_INTAKE_URL = "https://docs.google.com/forms/d/e/1FAIpQLSfWpGlSeWv4IzmxSiHQeRsT-gDlUwDeIFnJiUQMbUWxZX8FHQ/viewform?usp=pp_url";
 
 const ENTRY = {
-  organisation: "entry.1706692994",
-  causebase_id: "entry.126487103",
-  dataset_version: "entry.1118671490",
-  viewer_url: "entry.682855219",
-  field: "entry.561570777",
-  current_value: "entry.1691361730",
+  organisation: "entry.1802351789",
+  causebase_id: "entry.971651971",
+  dataset_version: "entry.1763981563",
+  viewer_url: "entry.967966977",
+  field: "entry.141688278",
+  current_value: "entry.540909367",
 };
 
 // Google Forms prefill is a convenience, not the identity contract. Keeping

@@ -88,7 +88,29 @@
   "geography": [
     "Australian Capital Territory (ACT)"
   ],
-  "causebase_summary": "The Australian Law Librarians' Association (Australian Capital Territory) Incorporated is an ACT‑incorporated association recorded in an ACNC register extract. The only supplied regulatory filing for 1 July 2022 to 30 June 2023 is the organisation's 2023 AIS, which reports total revenue of AUD 1,592 and total expenses of AUD 618 for that period. The evidence package consists of the ACNC register extract and the AIS; it does not include a public website, a written self-description, or documents that specify programs, services, beneficiaries, membership, staff or volunteer numbers. Structured metadata identifies the organisation's geography as the Australian Capital Territory. No activities, participation modes or beneficiary groups are documented in the supplied records.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:43245526192"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-ACT",
+      "label": "Australian Capital Territory",
+      "evidence_ids": [
+        "ev:acnc:43245526192"
+      ]
+    }
+  ],
+  "causebase_summary": "The Australian Law Librarians' Association (Australian Capital Territory) Incorporated is an incorporated association registered in the Australian Capital Territory. CauseBase holds ACNC register and annual information statement extracts (including the 2022–23 AIS) for this entity. CauseBase does not have sufficient descriptive evidence in this release to independently identify the organisation’s specific activities, programs or beneficiary groups.",
+  "summary_evidence_ids": [
+    "ev:acnc:43245526192",
+    "ev:ais:43245526192:2023"
+  ],
   "organisation_self_description": null,
   "activities": [],
   "beneficiaries": [],
@@ -99,8 +121,8 @@
       "source_record_id": "src:acnc-register:80717ccd-d859-5ddd-afce-ca0900299eef",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=43245526192",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -108,7 +130,10 @@
         "ABN": "43245526192",
         "Legal Name": "The Australian Law Librarians' Association (Australian Capital Territory) Incorporated",
         "Registration Status": "registered",
-        "ACNC classifications": "education; regional remote"
+        "ACNC classifications": "education; regional remote",
+        "Website": null,
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -124,7 +149,7 @@
       "source_family": "acnc-ais",
       "dataset_version": "2026-08-10",
       "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": "2022-07-01",
       "effective_to": "2023-06-30",
@@ -328,34 +353,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "8cf852c2133890ac3675b24a777e5bfae4be47aee023549a227d7e0d2e1d0d51",
-    "generated_at": "2026-08-10T12:57:49.811652Z",
+    "evidence_input_hash": "8ae631e1b2bfc30486580ed9f5753967c0f5903915afa774edee1b64c4e0a588",
+    "generated_at": "2026-08-12T14:09:36.875675Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T12:57:49.811652Z",
+      "generated_at": "2026-08-12T14:09:36.875675Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "8cf852c2133890ac3675b24a777e5bfae4be47aee023549a227d7e0d2e1d0d51",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "8ae631e1b2bfc30486580ed9f5753967c0f5903915afa774edee1b64c4e0a588",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T12:57:49.811652Z",
+      "generated_at": "2026-08-12T14:09:36.875675Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "8cf852c2133890ac3675b24a777e5bfae4be47aee023549a227d7e0d2e1d0d51",
+      "input_hash": "8ae631e1b2bfc30486580ed9f5753967c0f5903915afa774edee1b64c4e0a588",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -364,9 +389,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "8cf852c2133890ac3675b24a777e5bfae4be47aee023549a227d7e0d2e1d0d51",
+      "input_hash": "8ae631e1b2bfc30486580ed9f5753967c0f5903915afa774edee1b64c4e0a588",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -375,7 +400,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.457590Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "a2988525d25bf58832f5c8d99ab6eae644a65c7b0e8fe489352510d56e2f1702",
       "disposition": "reused",
@@ -386,7 +411,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.457590Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "a2988525d25bf58832f5c8d99ab6eae644a65c7b0e8fe489352510d56e2f1702",
       "disposition": "reused",
@@ -394,9 +419,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

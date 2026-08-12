@@ -90,7 +90,30 @@
   "geography": [
     "Western Australia"
   ],
-  "causebase_summary": "5D Clinics Foundation Ltd (5D Clinics Foundation) is presented on its website as an organisation that aims to provide “access to world class cancer treatment for everyone.” The website states the foundation consults with clinical experts who “have access to the full suite of resources available for cancer care” and that it “financially assist[s] patients with the most appropriate treatment specific to their needs.” The organisation frames its activity around supporting people after a cancer diagnosis and says it seeks to reduce fear of the unknown during a patient’s cancer journey. Regulatory records include an ACNC register extract and an ACNC AIS filing for 01/07/2022–30/06/2023 reporting revenue of AUD 220,477 and total expenses of AUD 217,456. The organisation’s listed geography includes Western Australia. The available evidence is primarily the organisation’s website text and an AIS financial extract; the website statements are organisation-authored claims and the AIS provides basic financials but does not report numbers of people assisted, eligibility criteria, detailed service models, or staff and volunteer arrangements.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:55631266601"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-WA",
+      "label": "Western Australia",
+      "evidence_ids": [
+        "ev:acnc:55631266601"
+      ]
+    }
+  ],
+  "causebase_summary": "5D Clinics Foundation Ltd is a Western Australia–based foundation that aims to provide access to cancer treatment for everyone. It describes two core activities: consulting with clinical experts to identify treatment options tailored to individual patients, and providing financial assistance to help patients access those treatments. The foundation states a mission to move patients beyond fear of the unknown and closer to confidence when diagnosed with cancer. Stated beneficiaries are people diagnosed with cancer (patients).",
+  "summary_evidence_ids": [
+    "ev:web:55631266601:2026-08-10",
+    "ev:ais:55631266601:2023",
+    "ev:acnc:55631266601"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Financial assistance to patients for cancer treatment (organisation-stated)",
@@ -106,8 +129,8 @@
       "source_record_id": "src:acnc-register:81331c5e-f912-549a-b2af-64c95d1caa57",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=55631266601",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -115,7 +138,10 @@
         "ABN": "55631266601",
         "Legal Name": "5D CLINICS FOUNDATION LTD",
         "Registration Status": "registered",
-        "ACNC classifications": "health; other beneficiary"
+        "ACNC classifications": "health; other beneficiary",
+        "Website": "https://5dclinics.com.au/5dclinics-foundation/",
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -131,7 +157,7 @@
       "source_family": "acnc-ais",
       "dataset_version": "2026-08-10",
       "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": "2022-07-01",
       "effective_to": "2023-06-30",
@@ -365,34 +391,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "47b0edd49654071a263ca933968aa1c71a5a9d3188791cb6f277ac85b3f23829",
-    "generated_at": "2026-08-10T12:55:28.065340Z",
+    "evidence_input_hash": "c44ae707f9131cf05217fb541097cbe34486faa31467656208bfb2b7d928de58",
+    "generated_at": "2026-08-12T14:02:01.353620Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T12:55:28.065340Z",
+      "generated_at": "2026-08-12T14:02:01.353620Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "47b0edd49654071a263ca933968aa1c71a5a9d3188791cb6f277ac85b3f23829",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "c44ae707f9131cf05217fb541097cbe34486faa31467656208bfb2b7d928de58",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T12:55:28.065340Z",
+      "generated_at": "2026-08-12T14:02:01.353620Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "47b0edd49654071a263ca933968aa1c71a5a9d3188791cb6f277ac85b3f23829",
+      "input_hash": "c44ae707f9131cf05217fb541097cbe34486faa31467656208bfb2b7d928de58",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -401,9 +427,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "47b0edd49654071a263ca933968aa1c71a5a9d3188791cb6f277ac85b3f23829",
+      "input_hash": "c44ae707f9131cf05217fb541097cbe34486faa31467656208bfb2b7d928de58",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -412,7 +438,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.457089Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "60985bfc4473c47e86020554e44eeeb2343046137159d00425d41b8101ae45e4",
       "disposition": "reused",
@@ -423,7 +449,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.457089Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "60985bfc4473c47e86020554e44eeeb2343046137159d00425d41b8101ae45e4",
       "disposition": "reused",
@@ -431,9 +457,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

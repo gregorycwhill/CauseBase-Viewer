@@ -88,7 +88,29 @@
   "geography": [
     "Northern Territory (NT)"
   ],
-  "causebase_summary": "BROTHER TO ANOTHER LTD is recorded on the ACNC register with its structured geography listed as the Northern Territory (NT). The supplied regulatory documents comprise an ACNC register extract and the organisation’s Annual Information Statement (AIS) for the reporting period 01/07/2022 to 30/06/2023. The AIS records revenue of AUD 660,000 and total expenses of AUD 627,000 for that year; the financial submission is presented as consolidated and attributed to the organisation’s own report. No website, program descriptions, annual report text, service locations within the NT, named beneficiary groups, staff or volunteer numbers, or descriptions of specific activities or projects are included in the provided evidence. The legal and display name in the extracts is BROTHER TO ANOTHER LTD. The evidence supplied is limited to the ACNC extracts and the 2022–23 AIS financial figures; it does not describe programs, beneficiaries, modes of participation or operational details beyond the jurisdiction and financial totals.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:24654346693"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-NT",
+      "label": "Northern Territory",
+      "evidence_ids": [
+        "ev:acnc:24654346693"
+      ]
+    }
+  ],
+  "causebase_summary": "Brother to Another Ltd is an Australian not‑for‑profit company registered with the Australian Charities and Not‑for‑profits Commission and recorded as operating in the Northern Territory. It submitted an Annual Information Statement covering the 2022–23 reporting year to the ACNC. The supplied records include ACNC registration and AIS reporting but do not include a public website, descriptive materials or program-level documentation in this release. CauseBase does not have sufficient descriptive evidence here to independently identify the organisation's specific activities, services, target beneficiaries or modes of participation.",
+  "summary_evidence_ids": [
+    "ev:acnc:24654346693",
+    "ev:ais:24654346693:2023"
+  ],
   "organisation_self_description": null,
   "activities": [],
   "beneficiaries": [],
@@ -99,8 +121,8 @@
       "source_record_id": "src:acnc-register:b9cfd4ce-caf6-5bbe-810e-11c0327ad390",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=24654346693",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -108,7 +130,10 @@
         "ABN": "24654346693",
         "Legal Name": "BROTHER TO ANOTHER LTD",
         "Registration Status": "registered",
-        "ACNC classifications": "social welfare; children"
+        "ACNC classifications": "social welfare; children",
+        "Website": null,
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -124,7 +149,7 @@
       "source_family": "acnc-ais",
       "dataset_version": "2026-08-10",
       "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": "2022-07-01",
       "effective_to": "2023-06-30",
@@ -328,34 +353,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "f25240f22c53ef0c3229972ea6fd5b92b190956b0b8b15aa3944e2f4fd422143",
-    "generated_at": "2026-08-10T12:50:44.265845Z",
+    "evidence_input_hash": "8fc80f400f4439a99e10387b63941214d5e38dcf9edda2a16e64528e287cf5ac",
+    "generated_at": "2026-08-12T13:50:06.149552Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T12:50:44.265845Z",
+      "generated_at": "2026-08-12T13:50:06.149552Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "f25240f22c53ef0c3229972ea6fd5b92b190956b0b8b15aa3944e2f4fd422143",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "8fc80f400f4439a99e10387b63941214d5e38dcf9edda2a16e64528e287cf5ac",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T12:50:44.265845Z",
+      "generated_at": "2026-08-12T13:50:06.149552Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "f25240f22c53ef0c3229972ea6fd5b92b190956b0b8b15aa3944e2f4fd422143",
+      "input_hash": "8fc80f400f4439a99e10387b63941214d5e38dcf9edda2a16e64528e287cf5ac",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -364,9 +389,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "f25240f22c53ef0c3229972ea6fd5b92b190956b0b8b15aa3944e2f4fd422143",
+      "input_hash": "8fc80f400f4439a99e10387b63941214d5e38dcf9edda2a16e64528e287cf5ac",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -375,7 +400,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.456332Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "fc674fd416b986be81ed7c590c117a0afc9b0fd15ba351af5858265fe161cb76",
       "disposition": "reused",
@@ -386,7 +411,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.456332Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "fc674fd416b986be81ed7c590c117a0afc9b0fd15ba351af5858265fe161cb76",
       "disposition": "reused",
@@ -394,9 +419,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

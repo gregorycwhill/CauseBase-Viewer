@@ -91,7 +91,30 @@
     "Australia (self‑described national reach)",
     "Australian Capital Territory (registered per ACNC)"
   ],
-  "causebase_summary": "The Healing Foundation (registered in the ACT per ACNC records) describes itself as a national Aboriginal and Torres Strait Islander organisation that works with Stolen Generations survivors, their families and communities. Its website states it provides a platform to amplify survivors’ voices, creates places of safety where survivors and families can speak and tell their own stories, and supports survivor-led, community-led healing initiatives. The site lists more than 50 downloadable resources (fact sheets, reports, toolkits and videos), runs online events and public forums, and in 2026 announced a $200,000 grants program for Stolen Generations truth‑telling projects. The organisation also publishes policy material and submissions and calls for systemic changes (for example, an Aboriginal and Torres Strait Islander aged care commissioner and a national plan framed as From Sorry to Action). ACNC annual information for 2022–23 reports revenue of AUD 9,041,707 and total expenses of AUD 5,783,801. News and resource pages on the website record recent leadership and program updates. Descriptions of activities, reach and impact in this summary are taken from the organisation’s own website and available ACNC financial extracts.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:92140312385"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-ACT",
+      "label": "Australian Capital Territory",
+      "evidence_ids": [
+        "ev:acnc:92140312385"
+      ]
+    }
+  ],
+  "causebase_summary": "Aboriginal And Torres Strait Islander Healing Foundation Limited (The Healing Foundation) is a national Aboriginal and Torres Strait Islander organisation registered in the Australian Capital Territory. It works with Stolen Generations survivors, their families and broader Aboriginal and Torres Strait Islander communities to support survivor‑led, community‑led healing and to restore cultural connections. Its activities include community healing projects, a grants program for truth‑telling projects, production and dissemination of resources (fact sheets, reports, toolkits and videos), online events and public forums, and advocacy with government and policy makers about trauma‑aware, healing‑informed practice. The organisation also publishes policy material and maintains a library of resources for practitioners, survivors and other audiences.",
+  "summary_evidence_ids": [
+    "ev:web:92140312385:2026-08-10",
+    "ev:ais:92140312385:2023",
+    "ev:acnc:92140312385"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Advocacy with government and policymakers",
@@ -116,8 +139,8 @@
       "source_record_id": "src:acnc-register:8829014f-8c10-5c40-a6cd-9174d5169d01",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=92140312385",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -125,7 +148,10 @@
         "ABN": "92140312385",
         "Legal Name": "Aboriginal And Torres Strait Islander Healing Foundation Limited",
         "Registration Status": "registered",
-        "ACNC classifications": "other purpose; regional remote"
+        "ACNC classifications": "other purpose; regional remote",
+        "Website": "www.healingfoundation.org.au",
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -141,7 +167,7 @@
       "source_family": "acnc-ais",
       "dataset_version": "2026-08-10",
       "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": "2022-07-01",
       "effective_to": "2023-06-30",
@@ -411,34 +437,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "f6f90398693c7463764b51fcdcef533e3fb3ff5793bcd49bfc7cd1a778ca5bd4",
-    "generated_at": "2026-08-10T12:54:24.730451Z",
+    "evidence_input_hash": "5438e4ccd36c67a0bf494386d33332408d0e56f434945d6968f47ae46024a68f",
+    "generated_at": "2026-08-12T13:58:44.326945Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T12:54:24.730451Z",
+      "generated_at": "2026-08-12T13:58:44.326945Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "f6f90398693c7463764b51fcdcef533e3fb3ff5793bcd49bfc7cd1a778ca5bd4",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "5438e4ccd36c67a0bf494386d33332408d0e56f434945d6968f47ae46024a68f",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T12:54:24.730451Z",
+      "generated_at": "2026-08-12T13:58:44.326945Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "f6f90398693c7463764b51fcdcef533e3fb3ff5793bcd49bfc7cd1a778ca5bd4",
+      "input_hash": "5438e4ccd36c67a0bf494386d33332408d0e56f434945d6968f47ae46024a68f",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -447,9 +473,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "f6f90398693c7463764b51fcdcef533e3fb3ff5793bcd49bfc7cd1a778ca5bd4",
+      "input_hash": "5438e4ccd36c67a0bf494386d33332408d0e56f434945d6968f47ae46024a68f",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -458,7 +484,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.456867Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "aabc78262483e62ae7110a3a493a96bae7b190ff651c13856c8591ac510fbec1",
       "disposition": "reused",
@@ -469,7 +495,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.456867Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "aabc78262483e62ae7110a3a493a96bae7b190ff651c13856c8591ac510fbec1",
       "disposition": "reused",
@@ -477,9 +503,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

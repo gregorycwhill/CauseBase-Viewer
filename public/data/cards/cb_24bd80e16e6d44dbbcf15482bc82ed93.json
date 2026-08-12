@@ -90,7 +90,29 @@
   "geography": [
     "Victoria (VIC, as listed in organisational records)"
   ],
-  "causebase_summary": "Democracy in Colour Limited (registered in Victoria) presents itself online as an organisation running a mix of campaigns, training and youth programs addressing racism and climate justice. Website excerpts list a Climate Justice Program, anti‑racism training (including workplace training), a Thriving in Colour youth program described as building the power, knowledge and skills of POC youth to lead community campaigns, and a Racism Out This campaign (which began with Racism Out Of Politics and Racism Out Of Media). The site also includes media statements (an “Anti‑Muslim response” is visible in the snapshot) and a statement of theory of change that says the organisation aims to build movements, advocate for policy reform and work in partnership with values‑aligned civil society organisations. Regulatory records referenced include an ACNC extract and an ACNC AIS for 2022–23, which shows reported revenue of AUD 901,276 and total expenses of AUD 728,081 for the period 01/07/2022–30/06/2023. The evidence is organisation‑authored website text and the ACNC filings; independent evaluation or detailed delivery locations beyond Victoria are not provided in the selected evidence.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:57623367117"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-VIC",
+      "label": "Victoria",
+      "evidence_ids": [
+        "ev:acnc:57623367117"
+      ]
+    }
+  ],
+  "causebase_summary": "Democracy in Colour Limited is an organisation based in Victoria that runs campaigns, training and youth programs focused on racial justice and related issues. Its work includes a Climate Justice Program, anti‑racism training (including workplace training), the Thriving in Colour youth leadership and campaigning program for People of Colour (POC) youth, and the Racism Out This campaign (started with Racism Out Of Politics and Racism Out Of Media). The organisation issues media statements and public communications and describes partnering with other civil society organisations. Its stated theory of change emphasises building movement power, advocating for policy reform and working in partnership to challenge discriminatory systems affecting Black, Indigenous and People of Colour (BIPOCs).",
+  "summary_evidence_ids": [
+    "ev:web:57623367117:2026-08-10",
+    "ev:acnc:57623367117"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Climate Justice Program (as described on website)",
@@ -114,8 +136,8 @@
       "source_record_id": "src:acnc-register:cd1a4e66-a39c-5f3e-9aaa-753f45bab38b",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=57623367117",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -123,7 +145,10 @@
         "ABN": "57623367117",
         "Legal Name": "DEMOCRACY IN COLOUR LIMITED",
         "Registration Status": "registered",
-        "ACNC classifications": "human rights; young people"
+        "ACNC classifications": "human rights; young people",
+        "Website": "https://democracyincolour.org/",
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -139,7 +164,7 @@
       "source_family": "acnc-ais",
       "dataset_version": "2026-08-10",
       "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": "2022-07-01",
       "effective_to": "2023-06-30",
@@ -409,34 +434,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "75e43a5876536e8ef1258c03e78957911eca70826120362ee7d1f67c2c71917f",
-    "generated_at": "2026-08-10T12:59:06.043603Z",
+    "evidence_input_hash": "740fc98bd97d1a7f3d3754b9eb71f5f71ef34ebaa023be53a7564231ff01bfa3",
+    "generated_at": "2026-08-12T14:12:10.969928Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T12:59:06.043603Z",
+      "generated_at": "2026-08-12T14:12:10.969928Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "75e43a5876536e8ef1258c03e78957911eca70826120362ee7d1f67c2c71917f",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "740fc98bd97d1a7f3d3754b9eb71f5f71ef34ebaa023be53a7564231ff01bfa3",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T12:59:06.043603Z",
+      "generated_at": "2026-08-12T14:12:10.969928Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "75e43a5876536e8ef1258c03e78957911eca70826120362ee7d1f67c2c71917f",
+      "input_hash": "740fc98bd97d1a7f3d3754b9eb71f5f71ef34ebaa023be53a7564231ff01bfa3",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -445,9 +470,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "75e43a5876536e8ef1258c03e78957911eca70826120362ee7d1f67c2c71917f",
+      "input_hash": "740fc98bd97d1a7f3d3754b9eb71f5f71ef34ebaa023be53a7564231ff01bfa3",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -456,7 +481,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.457729Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "eae58f44d47f757b557539828bc3775ec19b24d4dba34921fcb6edfb80ecc554",
       "disposition": "reused",
@@ -467,7 +492,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.457729Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "eae58f44d47f757b557539828bc3775ec19b24d4dba34921fcb6edfb80ecc554",
       "disposition": "reused",
@@ -475,9 +500,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

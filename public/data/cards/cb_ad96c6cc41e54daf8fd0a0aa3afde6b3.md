@@ -6,7 +6,7 @@
 
 ## CauseBase summary
 
-Christian Community Services (CCS) is described on its website as operating three retirement communities and residential care communities. The site names specific villages (Lynden Grove, Elouera Gardens, Glenhaven Gardens) and refers to Carinya House in the context of residential aged care. The website states CCS places "building personal relationships with our residents and families" at the heart of its model of care and describes a "team of carers" who aim to support residents to maintain independence. The site advertises features such as on-site services, safety and accessibility design, bus outings and opportunities to "book a tour" or "view video." Resident testimonials about community, staff and organised outings appear on the homepage. CCS’s ACNC Annual Information Statement for 2022–23 is included in the evidence pack and records revenue of AUD 30,276,283 and total expenses of AUD 29,505,018 for the year ended 30 June 2023. The website also presents CCS’s activities in a faith context, stating Christian values shape its purpose; this is presented as the organisation’s account rather than independently verified description.
+Christian Community Services is an Australian provider of retirement living and residential aged care. As of the available records it operates three retirement villages and residential care communities, with Carinya House referenced by name. The organisation employs on‑site carers to support residents and runs social activities for residents, for example organised bus outings. Prospective residents can book tours and view online video information about the villages. Christian Community Services states that its approach is shaped by long‑held Christian values and emphasises building personal relationships with residents and families.
 
 ## Activities
 
@@ -62,11 +62,11 @@ Christian Community Services (CCS) is described on its website as operating thre
 - Embedding: `cb_ad96c6cc41e54daf8fd0a0aa3afde6b3:entity:text-embedding-3-small`
 - Embedding model: `text-embedding-3-small`
 - Synthesis model: `gpt-5-mini-2025-08-07`
-- Synthesis evidence hash: `1b11325aeb666491f129652ea236a4187141bc8a33303418cc1a6a5b8d8ffec8`
+- Synthesis evidence hash: `7c6a66807a3dd777a459baad940284e0d0c5d7bfe4938d07945396967922ec3f`
 
 ## Build
 
-- Dataset version: `phase2b-2026-08-12-rc1`
-- Card schema: `0.2`
-- Editorial policy: `0.2`
-- Built: 2026-08-12T11:26:59.282210+00:00
+- Dataset version: `phase2b-2026-08-12-rc2`
+- Card schema: `0.3`
+- Editorial policy: `0.3-rc2`
+- Built: 2026-08-12T14:24:20.675968+00:00

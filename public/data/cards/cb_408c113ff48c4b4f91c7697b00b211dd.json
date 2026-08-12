@@ -91,7 +91,29 @@
     "Australia",
     "Australian Capital Territory (ACT)"
   ],
-  "causebase_summary": "Defence Force Welfare Association - National Inc (DFWA) describes itself on its website as \"an independent voice for Australian Defence Force members, veterans, and their families.\" The site lists specific advocacy areas including ADF pay and conditions of service, rehabilitation of injured veterans, compensation for service injuries, retirement and superannuation, improving service delivery, and veteran recognition. DFWA publishes a newsletter and a membership magazine called Camaraderie (Vol. 57, Nos. 1 and 2 cited in 2026) and invites people to subscribe or download editions online. The organisation runs and promotes surveys related to the WRA 2026–29 process (a Pre-Offer Survey posted 28 May 2026 and a Post-Offer Survey posted 02 Aug 2026) and has posted media releases calling on ADF members to respond to a proposed 3% pay offer. DFWA states it is funded by branch membership fees and donations. Regulatory records include an ACNC extract and an AIS entry for 01/07/2022–30/06/2023 reporting revenue of AUD 80,194 and total expenses of AUD 84,179.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:49929713439"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-ACT",
+      "label": "Australian Capital Territory",
+      "evidence_ids": [
+        "ev:acnc:49929713439"
+      ]
+    }
+  ],
+  "causebase_summary": "As of August 2026, the Defence Force Welfare Association – National Inc (DFWA) describes itself as an independent voice for Australian Defence Force members, veterans and their families. It advocates to government on ADF pay and conditions of service, rehabilitation of injured veterans, compensation for service injuries, retirement and superannuation, service delivery and veteran recognition. DFWA publishes a regular newsletter and the Camaraderie magazine, runs surveys to inform its WRA 2026–29 submission (including pre‑offer and post‑offer surveys), and is funded by branch membership fees and donations. The organisation invites branch membership, newsletter subscriptions and survey participation to help shape its submissions and communications.",
+  "summary_evidence_ids": [
+    "ev:web:49929713439:2026-08-10",
+    "ev:acnc:49929713439"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Advocacy to government on ADF pay and conditions of service",
@@ -120,8 +142,8 @@
       "source_record_id": "src:acnc-register:b7c90a65-7c58-58c3-b44b-b5d302dbf937",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=49929713439",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -129,7 +151,10 @@
         "ABN": "49929713439",
         "Legal Name": "Defence Force Welfare Association - National Inc",
         "Registration Status": "registered",
-        "ACNC classifications": "social welfare; older people"
+        "ACNC classifications": "social welfare; older people",
+        "Website": "https://www.dfwa.org.au/",
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -145,7 +170,7 @@
       "source_family": "acnc-ais",
       "dataset_version": "2026-08-10",
       "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": "2022-07-01",
       "effective_to": "2023-06-30",
@@ -379,34 +404,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "32d500b23bd1e51d840a89170b7876d66137cd32d5a8929685baceb62e0f3829",
-    "generated_at": "2026-08-10T12:51:53.877949Z",
+    "evidence_input_hash": "66b664f3f89278d91e35f57c0066815d7e99a94fd5bef1ec7bd7cf7ee443305b",
+    "generated_at": "2026-08-12T13:54:03.407628Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T12:51:53.877949Z",
+      "generated_at": "2026-08-12T13:54:03.407628Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "32d500b23bd1e51d840a89170b7876d66137cd32d5a8929685baceb62e0f3829",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "66b664f3f89278d91e35f57c0066815d7e99a94fd5bef1ec7bd7cf7ee443305b",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T12:51:53.877949Z",
+      "generated_at": "2026-08-12T13:54:03.407628Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "32d500b23bd1e51d840a89170b7876d66137cd32d5a8929685baceb62e0f3829",
+      "input_hash": "66b664f3f89278d91e35f57c0066815d7e99a94fd5bef1ec7bd7cf7ee443305b",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -415,9 +440,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "32d500b23bd1e51d840a89170b7876d66137cd32d5a8929685baceb62e0f3829",
+      "input_hash": "66b664f3f89278d91e35f57c0066815d7e99a94fd5bef1ec7bd7cf7ee443305b",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -426,7 +451,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.456606Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "8d52382b6863bdbecfb1c355e6fab3ec17e9244b1bc0e3b70fdf9702c7226aef",
       "disposition": "reused",
@@ -437,7 +462,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.456606Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "8d52382b6863bdbecfb1c355e6fab3ec17e9244b1bc0e3b70fdf9702c7226aef",
       "disposition": "reused",
@@ -445,9 +470,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

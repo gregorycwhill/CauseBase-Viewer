@@ -89,7 +89,37 @@
     "Adelaide, South Australia (Henley Beach Rd, Lockleys SA 5032)",
     "Darwin, Northern Territory (listed research partner)"
   ],
-  "causebase_summary": "VITAL LIFE CHOICE LTD is registered with the ACNC as a charity described on its website as a Health Promotion Charity focused on prevention and control of mental and physical diseases, with particular emphasis on Type 2 diabetes. The organisation’s website lists an Adelaide address (Henley Beach Rd, Lockleys SA 5032) and ABN 20 695 710 082. The site describes its core activity as “Community Health Centre Operation (87900 — mainly counselling)” and presents the organisation as offering community health counselling services that link mental choices, diet and environment to physical disease. The website also says the organisation disseminates evidence-based medical research and educational resources, allows open redistribution for non-commercial disease-prevention purposes, and plans quarterly public awareness campaigns focused sequentially on excess carbohydrates, salt, oil and plastic exposure using TV, radio, live events and digital media. The site states requested funds would support staff roles (Project Manager, marketing specialists) and digital resources. It notes a research partner, VitaChoice LTD, listed as located in Darwin. The website includes a medical-advice disclaimer that materials are for educational purposes and encourages volunteer involvement and partnerships.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:20695710082"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-SA",
+      "label": "South Australia",
+      "evidence_ids": [
+        "ev:acnc:20695710082"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-NT",
+      "label": "Northern Territory",
+      "evidence_ids": [
+        "ev:acnc:20695710082"
+      ]
+    }
+  ],
+  "causebase_summary": "Vital Life Choice Ltd is a registered not‑for‑profit charity based in Adelaide, South Australia (Henley Beach Rd, Lockleys), with a listed research partner in Darwin. It delivers community health counselling focused on the prevention and control of diabetes, describing its core activity as a Community Health Centre operation mainly providing counselling. The organisation produces and disseminates educational resources that summarise peer‑reviewed medical and scientific research on Type 2 diabetes, diabetic complications and related conditions, and plans public awareness campaigns using TV, radio, live events and digital media to promote early detection, lifestyle change and effective management strategies. Vital Life Choice invites volunteers and partners and states its materials may be freely shared for non‑commercial disease prevention purposes.",
+  "summary_evidence_ids": [
+    "ev:acnc:20695710082",
+    "ev:web:20695710082:2026-08-10"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Community health counselling (Community Health Centre Operation; described as mainly counselling)",
@@ -110,8 +140,8 @@
       "source_record_id": "src:acnc-register:fcb310f2-8ae5-533f-8b63-5ef42b1cfe94",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=20695710082",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -119,7 +149,10 @@
         "ABN": "20695710082",
         "Legal Name": "VITAL LIFE CHOICE LTD",
         "Registration Status": "registered",
-        "ACNC classifications": "health; general community"
+        "ACNC classifications": "health; general community",
+        "Website": "https://vitallifechoice.org.au",
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -270,34 +303,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "bfdd44adf1637a8f70871136e41c487d516fd0c9b4da83a1db0c9e0376bb0917",
-    "generated_at": "2026-08-10T12:51:11.283949Z",
+    "evidence_input_hash": "199d564345ccd00902829d4c615ba6bd8f99f56ab25fa7a685100769d2e4d998",
+    "generated_at": "2026-08-12T13:51:23.467692Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T12:51:11.283949Z",
+      "generated_at": "2026-08-12T13:51:23.467692Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "bfdd44adf1637a8f70871136e41c487d516fd0c9b4da83a1db0c9e0376bb0917",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "199d564345ccd00902829d4c615ba6bd8f99f56ab25fa7a685100769d2e4d998",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T12:51:11.283949Z",
+      "generated_at": "2026-08-12T13:51:23.467692Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "bfdd44adf1637a8f70871136e41c487d516fd0c9b4da83a1db0c9e0376bb0917",
+      "input_hash": "199d564345ccd00902829d4c615ba6bd8f99f56ab25fa7a685100769d2e4d998",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -306,9 +339,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "bfdd44adf1637a8f70871136e41c487d516fd0c9b4da83a1db0c9e0376bb0917",
+      "input_hash": "199d564345ccd00902829d4c615ba6bd8f99f56ab25fa7a685100769d2e4d998",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -317,7 +350,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.456425Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "d3ba956dc7cbcadd61c43f4f952436b875776b224981117a2feb544af5182be3",
       "disposition": "reused",
@@ -328,7 +361,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.456425Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "d3ba956dc7cbcadd61c43f4f952436b875776b224981117a2feb544af5182be3",
       "disposition": "reused",
@@ -336,9 +369,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

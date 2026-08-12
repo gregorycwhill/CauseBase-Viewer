@@ -91,7 +91,22 @@
     "Australia",
     "Three local/regional retirement communities named on the website (locations not specified in provided evidence)"
   ],
-  "causebase_summary": "Christian Community Services (CCS) is described on its website as operating three retirement communities and residential care communities. The site names specific villages (Lynden Grove, Elouera Gardens, Glenhaven Gardens) and refers to Carinya House in the context of residential aged care. The website states CCS places \"building personal relationships with our residents and families\" at the heart of its model of care and describes a \"team of carers\" who aim to support residents to maintain independence. The site advertises features such as on-site services, safety and accessibility design, bus outings and opportunities to \"book a tour\" or \"view video.\" Resident testimonials about community, staff and organised outings appear on the homepage. CCS’s ACNC Annual Information Statement for 2022–23 is included in the evidence pack and records revenue of AUD 30,276,283 and total expenses of AUD 29,505,018 for the year ended 30 June 2023. The website also presents CCS’s activities in a faith context, stating Christian values shape its purpose; this is presented as the organisation’s account rather than independently verified description.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:54001276599"
+      ]
+    }
+  ],
+  "causebase_summary": "Christian Community Services is an Australian provider of retirement living and residential aged care. As of the available records it operates three retirement villages and residential care communities, with Carinya House referenced by name. The organisation employs on‑site carers to support residents and runs social activities for residents, for example organised bus outings. Prospective residents can book tours and view online video information about the villages. Christian Community Services states that its approach is shaped by long‑held Christian values and emphasises building personal relationships with residents and families.",
+  "summary_evidence_ids": [
+    "ev:web:54001276599:2026-08-10",
+    "ev:ais:54001276599:2023",
+    "ev:acnc:54001276599"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Operates three retirement villages",
@@ -116,8 +131,8 @@
       "source_record_id": "src:acnc-register:fcc4d425-4ae4-54c4-893e-14f6328689e0",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=54001276599",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -125,7 +140,10 @@
         "ABN": "54001276599",
         "Legal Name": "Christian Community Services",
         "Registration Status": "registered",
-        "ACNC classifications": "health; older people"
+        "ACNC classifications": "health; older people",
+        "Website": "www.ccs.com.au",
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -141,7 +159,7 @@
       "source_family": "acnc-ais",
       "dataset_version": "2026-08-10",
       "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": "2022-07-01",
       "effective_to": "2023-06-30",
@@ -384,34 +402,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "1b11325aeb666491f129652ea236a4187141bc8a33303418cc1a6a5b8d8ffec8",
-    "generated_at": "2026-08-10T12:51:44.449225Z",
+    "evidence_input_hash": "7c6a66807a3dd777a459baad940284e0d0c5d7bfe4938d07945396967922ec3f",
+    "generated_at": "2026-08-12T13:53:14.043293Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T12:51:44.449225Z",
+      "generated_at": "2026-08-12T13:53:14.043293Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "1b11325aeb666491f129652ea236a4187141bc8a33303418cc1a6a5b8d8ffec8",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "7c6a66807a3dd777a459baad940284e0d0c5d7bfe4938d07945396967922ec3f",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T12:51:44.449225Z",
+      "generated_at": "2026-08-12T13:53:14.043293Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "1b11325aeb666491f129652ea236a4187141bc8a33303418cc1a6a5b8d8ffec8",
+      "input_hash": "7c6a66807a3dd777a459baad940284e0d0c5d7bfe4938d07945396967922ec3f",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -420,9 +438,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "1b11325aeb666491f129652ea236a4187141bc8a33303418cc1a6a5b8d8ffec8",
+      "input_hash": "7c6a66807a3dd777a459baad940284e0d0c5d7bfe4938d07945396967922ec3f",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -431,7 +449,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.456555Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "accc77c4ddc9f0e283e45ee5ca0e76c222db8ab158dd0a131ce848215e01c030",
       "disposition": "reused",
@@ -442,7 +460,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.456555Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "accc77c4ddc9f0e283e45ee5ca0e76c222db8ab158dd0a131ce848215e01c030",
       "disposition": "reused",
@@ -450,9 +468,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

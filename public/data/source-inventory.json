@@ -108,8 +108,16 @@
     }
   ],
   "gap_report": [
-    "The initial 120-card release has only the source observations acquired for Phase 2A; it is not a complete regulator mirror.",
-    "Full ACNC programs, beneficiaries, locations and status history require a new acquired source observation before publication.",
-    "ASIC integration remains a product/legal/economic assessment, not a scraping task."
-  ]
+    "All regulator fields present in the acquired Phase 2A ACNC/AIS observations are exposed canonically or in source-native sidecars.",
+    "A field not present in those acquired observations is explicitly represented as not_yet_processed; this candidate does not claim to mirror unacquired ACNC profile surfaces.",
+    "ASIC remains outside the accepted access/cost/terms boundary."
+  ],
+  "migration": {
+    "reason": "Editorial policy, synthesis prompt and summary output contract changed for Phase 2B RC2.",
+    "model": "gpt-5-mini",
+    "calls": 120,
+    "input_tokens": 327726,
+    "output_tokens": 222747,
+    "estimated_cost_usd": "0.527423"
+  }
 }

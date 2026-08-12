@@ -89,7 +89,29 @@
     "Western Australia",
     "Organisation states it has a wide national footprint across Australia"
   ],
-  "causebase_summary": "Innovate Australia Ltd (website content) says it was established in 2014 as a not‑for‑profit, independent facilitator to “encourage, assist and proactively promote Australian innovation.” The organisation’s website states it works with industry to bring about and encourage innovation, to showcase innovation, and to develop innovation programs and networks. Slides on the site reference event activity and sponsorship (slide text: “Proud sponsor … Road to Geneva - Finals - 27-03-25”). Recent website content includes a blog post titled “What Judging AI Startups Taught Me About Where the Industry Is Actually Headed” (9 June 2026), and the site notes involvement in judging AI startups. The ACNC register extract for the entity is recorded in the evidence pack but no financial details were provided in the available sources. The organisation is associated with Western Australia in structured data; the site also describes a “wide national footprint” (organisation claim).",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:24602619634"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-WA",
+      "label": "Western Australia",
+      "evidence_ids": [
+        "ev:acnc:24602619634"
+      ]
+    }
+  ],
+  "causebase_summary": "Innovate Australia Ltd is a not-for-profit facilitator of Australian innovation, established in 2014 and based in Western Australia; the organisation states it has a wide national footprint across Australia. It works with industry to encourage, assist and promote Australian innovation, develop innovation programs and networks, and showcase innovation through events and sponsorship. Innovate Australia also judges startup competitions and publishes online commentary — a June 9, 2026 post described the organisation’s experience judging AI startups. The organisation describes itself as independent and focused on bringing about and encouraging innovation through industry-facing programs, events and online publishing.",
+  "summary_evidence_ids": [
+    "ev:acnc:24602619634",
+    "ev:web:24602619634:2026-08-10"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Encouraging, assisting and promoting Australian innovation (organisation claim)",
@@ -113,8 +135,8 @@
       "source_record_id": "src:acnc-register:ed37bbd2-cb38-5d15-9644-3d4e25dcd93d",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=24602619634",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -122,7 +144,10 @@
         "ABN": "24602619634",
         "Legal Name": "INNOVATE AUSTRALIA LTD",
         "Registration Status": "registered",
-        "ACNC classifications": "other purpose; general community"
+        "ACNC classifications": "other purpose; general community",
+        "Website": "https://innovateaustralia.org/",
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -246,34 +271,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "4ea9a0fc2fe648bae08898d551f4a284b28694fbf7642efc755a0fcff3aa5689",
-    "generated_at": "2026-08-10T12:51:20.749005Z",
+    "evidence_input_hash": "0c4f987a055d5c9c77a304ec5a546509596dfdfc8dac828f7218a4afe2729af7",
+    "generated_at": "2026-08-12T13:52:17.361450Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T12:51:20.749005Z",
+      "generated_at": "2026-08-12T13:52:17.361450Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "4ea9a0fc2fe648bae08898d551f4a284b28694fbf7642efc755a0fcff3aa5689",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "0c4f987a055d5c9c77a304ec5a546509596dfdfc8dac828f7218a4afe2729af7",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T12:51:20.749005Z",
+      "generated_at": "2026-08-12T13:52:17.361450Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "4ea9a0fc2fe648bae08898d551f4a284b28694fbf7642efc755a0fcff3aa5689",
+      "input_hash": "0c4f987a055d5c9c77a304ec5a546509596dfdfc8dac828f7218a4afe2729af7",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -282,9 +307,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "4ea9a0fc2fe648bae08898d551f4a284b28694fbf7642efc755a0fcff3aa5689",
+      "input_hash": "0c4f987a055d5c9c77a304ec5a546509596dfdfc8dac828f7218a4afe2729af7",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -293,7 +318,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.456500Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "9368da83dac60ac1b2bf563ad8e311feec88b42b9cbb305e91e19008e531d508",
       "disposition": "reused",
@@ -304,7 +329,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.456500Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "9368da83dac60ac1b2bf563ad8e311feec88b42b9cbb305e91e19008e531d508",
       "disposition": "reused",
@@ -312,9 +337,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

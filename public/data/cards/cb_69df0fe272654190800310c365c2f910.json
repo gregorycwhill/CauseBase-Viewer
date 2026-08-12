@@ -91,7 +91,30 @@
     "Australia (website describes national coordination and national platforms)",
     "Australian Capital Territory (ACNC register location)"
   ],
-  "causebase_summary": "The Trustee for Invasive Species Solutions Trust (branded Centre for Invasive Species Solutions on its website) describes itself as leading “collaborative invasive species research, development and engagement” and says its purpose is to “safeguard Australia’s environment, agriculture and way of life.” The website lists national coordination roles (LandSmart Services National Coordination), named reports (WeedRemeed Impact Report 2024–25) and claims two Australian Biosecurity Awards. The site hosts or points to multiple digital platforms: weeds.org.au (weed management hub), weedscan.org.au (AI weed identification), pestsmart.org.au (codes of practice, training and resources) and feralscan.org.au (record and manage pests). The site invites subscription, highlights news and events, and includes a donate prompt. Regulatory records show the entity is registered in the Australian Capital Territory and its ACNC AIS 2022–23 figures report revenue of AUD 5,235 and total expenses of AUD 3,305 for 01/07/2022–30/06/2023. Most descriptive material in the evidence pack is from the organisation’s website; where the organisation makes factual claims these are presented as the organisation’s statements.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:58144836077"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-ACT",
+      "label": "Australian Capital Territory",
+      "evidence_ids": [
+        "ev:acnc:58144836077"
+      ]
+    }
+  ],
+  "causebase_summary": "The Trustee for Invasive Species Solutions Trust, trading as the Centre for Invasive Species Solutions, is an Australian national centre based in the ACT that coordinates collaborative invasive-species research, development and engagement. It hosts and maintains national digital platforms for weed and pest information and tools (weeds.org.au; weedscan.org.au; pestsmart.org.au; feralscan.org.au), coordinates LandSmart Services nationally, develops and disseminates national codes of practice, training and resources, and publishes reports such as the WeedRemeed Impact Report 2024–25. Its stated work targets invasive species that affect wildlife (including threatened native species) and supports community members and land managers through online tools, training, resources and public events.",
+  "summary_evidence_ids": [
+    "ev:web:58144836077:2026-08-10",
+    "ev:ais:58144836077:2023",
+    "ev:acnc:58144836077"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Collaborative invasive species research, development and engagement (organisation states)",
@@ -113,8 +136,8 @@
       "source_record_id": "src:acnc-register:de82066b-0314-5cea-9904-99e215fe6b4c",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=58144836077",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -122,7 +145,10 @@
         "ABN": "58144836077",
         "Legal Name": "The Trustee for Invasive Species Solutions Trust",
         "Registration Status": "registered",
-        "ACNC classifications": "environment; regional remote"
+        "ACNC classifications": "environment; regional remote",
+        "Website": "www.invasives.com.au",
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -138,7 +164,7 @@
       "source_family": "acnc-ais",
       "dataset_version": "2026-08-10",
       "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": "2022-07-01",
       "effective_to": "2023-06-30",
@@ -408,34 +434,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "d75cf9dda455cd70b67ffe65f2a82357069fb1d6da24a8000343cc3b1cc34a2c",
-    "generated_at": "2026-08-10T12:46:57.872641Z",
+    "evidence_input_hash": "5d446c8683bf86d63b875b608c9b4d39e4fe83fab42c08561446ae3cbd1c9c11",
+    "generated_at": "2026-08-12T13:39:42.108165Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T12:46:57.872641Z",
+      "generated_at": "2026-08-12T13:39:42.108165Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "d75cf9dda455cd70b67ffe65f2a82357069fb1d6da24a8000343cc3b1cc34a2c",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "5d446c8683bf86d63b875b608c9b4d39e4fe83fab42c08561446ae3cbd1c9c11",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T12:46:57.872641Z",
+      "generated_at": "2026-08-12T13:39:42.108165Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "d75cf9dda455cd70b67ffe65f2a82357069fb1d6da24a8000343cc3b1cc34a2c",
+      "input_hash": "5d446c8683bf86d63b875b608c9b4d39e4fe83fab42c08561446ae3cbd1c9c11",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -444,9 +470,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "d75cf9dda455cd70b67ffe65f2a82357069fb1d6da24a8000343cc3b1cc34a2c",
+      "input_hash": "5d446c8683bf86d63b875b608c9b4d39e4fe83fab42c08561446ae3cbd1c9c11",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -455,7 +481,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.455603Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "e010387e5501faeef286274da34420cf368398eb95140b55411713dade7fb023",
       "disposition": "reused",
@@ -466,7 +492,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.455603Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "e010387e5501faeef286274da34420cf368398eb95140b55411713dade7fb023",
       "disposition": "reused",
@@ -474,9 +500,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

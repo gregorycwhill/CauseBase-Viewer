@@ -91,7 +91,29 @@
   "geography": [
     "South Australia (Adelaide and regional towns including Peterborough and Clare)"
   ],
-  "causebase_summary": "Adelaide Symphony Orchestra (ASO) presents a year-round programme of public concerts, regional touring, learning and community activity based in South Australia. The ASO’s 2022 annual report lists 53 performances across series including the Symphony Series (Adelaide Town Hall), Sanctuary Series (Grainger Studio), Chamber and Matinée series (Elder Hall), and special events at Festival Theatre. The company reports regional touring to mid‑north towns including Peterborough and Clare and collaborations with the Adelaide Festival, WOMADelaide, State Opera and The Australian Ballet. Education and participation work recorded in the reports includes school incursions, a commissioned children’s piece based on Alison Lester’s Are We There Yet?, community centre concerts in association with Community Centres SA, and a mini‑festival She Speaks with film, symposium, chamber events and premieres of works by women composers. The ASO also documents digital programming (a Virtual Concert Hall, online mini‑recitals and the Silos & Symphonies learning project) and an artist‑led inclusive project called Floods of Fire described as community‑building and addressing environment and climate themes. The ASO’s materials acknowledge Kaurna Country and note the role of volunteers, donors and supporters in company activity.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:49079016738"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-SA",
+      "label": "South Australia",
+      "evidence_ids": [
+        "ev:acnc:49079016738"
+      ]
+    }
+  ],
+  "causebase_summary": "Adelaide Symphony Orchestra Pty Ltd is a professional symphony orchestra based in Adelaide, South Australia. It presents a season of concerts at venues including Adelaide Town Hall, Elder Hall and the Festival Theatre, and undertakes regional touring and community concerts in South Australian towns such as Peterborough and Clare. The ASO runs learning and schools programmes and community projects (for example Floods of Fire), collaborates with festivals and other companies, and produces digital and broadcast programming including an online concert platform and mini‑recitals. Public participation opportunities include ticketed concerts, community workshops and participatory projects, and online attendance; the organisation also references volunteers and other supporter involvement.",
+  "summary_evidence_ids": [
+    "ev:web:49079016738:2026-08-10",
+    "ev:report:49079016738:5848f21901bd"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Symphony and concert series at Adelaide Town Hall, Elder Hall and Festival Theatre",
@@ -119,8 +141,8 @@
       "source_record_id": "src:acnc-register:d82ef5e3-7e75-593a-ba5c-e44658894168",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=49079016738",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -128,7 +150,10 @@
         "ABN": "49079016738",
         "Legal Name": "Adelaide Symphony Orchestra Pty Ltd",
         "Registration Status": "registered",
-        "ACNC classifications": "culture; children"
+        "ACNC classifications": "culture; children",
+        "Website": "https://www.aso.com.au",
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -294,34 +319,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "e7d69574be4a38148de19c4cfdc11320f31b51c92d2e66e674627d89b8e87218",
-    "generated_at": "2026-08-10T13:02:29.508857Z",
+    "evidence_input_hash": "4386595c4aa17ffe34c859042f5195742927f1b0c1d95fc30bd80aa027fcdb56",
+    "generated_at": "2026-08-12T14:21:24.393184Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T13:02:29.508857Z",
+      "generated_at": "2026-08-12T14:21:24.393184Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "e7d69574be4a38148de19c4cfdc11320f31b51c92d2e66e674627d89b8e87218",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "4386595c4aa17ffe34c859042f5195742927f1b0c1d95fc30bd80aa027fcdb56",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T13:02:29.508857Z",
+      "generated_at": "2026-08-12T14:21:24.393184Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "e7d69574be4a38148de19c4cfdc11320f31b51c92d2e66e674627d89b8e87218",
+      "input_hash": "4386595c4aa17ffe34c859042f5195742927f1b0c1d95fc30bd80aa027fcdb56",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -330,9 +355,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "e7d69574be4a38148de19c4cfdc11320f31b51c92d2e66e674627d89b8e87218",
+      "input_hash": "4386595c4aa17ffe34c859042f5195742927f1b0c1d95fc30bd80aa027fcdb56",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -341,7 +366,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.458282Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "d282b8a791d9b61cc3b55158b481ec9559c87e7d6f2a0c521cdabf42ce0c73e7",
       "disposition": "reused",
@@ -352,7 +377,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.458282Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "d282b8a791d9b61cc3b55158b481ec9559c87e7d6f2a0c521cdabf42ce0c73e7",
       "disposition": "reused",
@@ -360,9 +385,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

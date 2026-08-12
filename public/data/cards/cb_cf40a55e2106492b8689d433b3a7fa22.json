@@ -90,7 +90,30 @@
   "geography": [
     "South Australia"
   ],
-  "causebase_summary": "Generations in Jazz Inc is presented on its website as the organiser of a multi-day jazz event called Generations in Jazz, held across a weekend. A 2026 event page on the site lists “2026 Event Results” and pages for “Individual Results”, “SBA - Sectional Results”, “VEA - Sectional Results” and “Superbands”, and gives event dates of Friday 30 April to Sunday 2 May. The site text states the event brings together aspiring musicians to “learn from each other, study, and perform” and offers tickets for public sale; it also invites people to join a community mailing list and to follow the organisation on social media. Regulatory extracts in the evidence set show an ACNC register entry and an Australian Information Statement covering 01/10/2022–30/09/2023, for which the organisation reported revenue of AUD 1,755,970 and total expenses of AUD 1,591,204. The available sources are the organisation’s website snapshot and ACNC filings; programme details beyond the weekend event, operational staffing, geographic reach outside South Australia, and participant numbers are not provided in the supplied evidence.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:51877284120"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-SA",
+      "label": "South Australia",
+      "evidence_ids": [
+        "ev:acnc:51877284120"
+      ]
+    }
+  ],
+  "causebase_summary": "Generations in Jazz Inc organises an annual multi-day jazz event held in South Australia. The event weekend (listed for 30 April–2 May 2026) includes competitions for individuals, sectional groups and superbands, ticketed public performances and related event programming. The organisation publishes competition results for individual, sectional and superband categories and maintains an online community and social media updates to share event information. Activities centre on providing performance and competition opportunities for aspiring and student musicians and on presenting concerts and programming for jazz audiences and ticketed attendees.",
+  "summary_evidence_ids": [
+    "ev:web:51877284120:2026-08-10",
+    "ev:ais:51877284120:2023",
+    "ev:acnc:51877284120"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Organising a multi-day jazz event and competitions (Generations in Jazz weekend)",
@@ -114,8 +137,8 @@
       "source_record_id": "src:acnc-register:7a692c7a-af9b-514a-9149-61c8f2ab3591",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=51877284120",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -123,7 +146,10 @@
         "ABN": "51877284120",
         "Legal Name": "Generations in Jazz Inc",
         "Registration Status": "registered",
-        "ACNC classifications": "education; young people"
+        "ACNC classifications": "education; young people",
+        "Website": "www.generationsinjazz.com.au",
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -139,7 +165,7 @@
       "source_family": "acnc-ais",
       "dataset_version": "2026-08-10",
       "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": "2022-10-01",
       "effective_to": "2023-09-30",
@@ -391,34 +417,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "ea2b4261179c2ef35a62d4d65a252643f09c16e37ca41b0f627d6f942faf8a2f",
-    "generated_at": "2026-08-10T12:59:59.983806Z",
+    "evidence_input_hash": "5d7d7097611657deaf1cf14c0f3d4ee2b3e8fd4b64609c342300bca4e514ce2c",
+    "generated_at": "2026-08-12T14:15:34.492278Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T12:59:59.983806Z",
+      "generated_at": "2026-08-12T14:15:34.492278Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "ea2b4261179c2ef35a62d4d65a252643f09c16e37ca41b0f627d6f942faf8a2f",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "5d7d7097611657deaf1cf14c0f3d4ee2b3e8fd4b64609c342300bca4e514ce2c",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T12:59:59.983806Z",
+      "generated_at": "2026-08-12T14:15:34.492278Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "ea2b4261179c2ef35a62d4d65a252643f09c16e37ca41b0f627d6f942faf8a2f",
+      "input_hash": "5d7d7097611657deaf1cf14c0f3d4ee2b3e8fd4b64609c342300bca4e514ce2c",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -427,9 +453,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "ea2b4261179c2ef35a62d4d65a252643f09c16e37ca41b0f627d6f942faf8a2f",
+      "input_hash": "5d7d7097611657deaf1cf14c0f3d4ee2b3e8fd4b64609c342300bca4e514ce2c",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -438,7 +464,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.457941Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "70a1e5237ea664ac11e3e9eda280c3e7a72776f0467908f36ab0e9bd247702c5",
       "disposition": "reused",
@@ -449,7 +475,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.457941Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "70a1e5237ea664ac11e3e9eda280c3e7a72776f0467908f36ab0e9bd247702c5",
       "disposition": "reused",
@@ -457,9 +483,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

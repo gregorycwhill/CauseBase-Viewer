@@ -89,7 +89,21 @@
     "Australia",
     "online / international"
   ],
-  "causebase_summary": "Abounding Life Foundation is presented online at nadermansour.com as a platform centred on Nader Mansour and an offering called My Bible Academy. The website says it provides practical Bible teaching via in‑depth video sermons, written content, audio resources and structured online courses, and it invites users to create an account, enrol in courses, watch videos, read material and listen to audio. The site lists specific topics and questions (for example: the Trinity, the Holy Spirit, biblical interpretation, the role of the Church, salvation, end‑times topics) and includes featured video content, a FAQ section, testimonies and an option labelled “Give.” The site states Mansour has preached for over 20 years “in many countries & online” and characterises biblical illiteracy as a widespread problem that its resources aim to address. The provided evidence includes a reference to an ACNC register extract but does not include detailed financial records, program delivery statistics or independent evaluation of activities or outcomes.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:84981035169"
+      ]
+    }
+  ],
+  "causebase_summary": "Abounding Life Foundation (branded around Nader Mansour) is an Australia-based online Christian ministry with international reach. It publishes practical Bible teaching through video sermons and lectures, structured online courses marketed as \"My Bible Academy\", written study materials and audio sermons/podcasts. The site includes a user registration and course enrolment system, invites users to submit testimonies, and provides an online donation option labelled \"Give.\" The organisation presents its content as aimed at helping people read, understand and apply the Bible; it targets Christians and church leaders who use online teaching resources and encourages participation by watching videos, enrolling in courses, reading materials and listening to audio resources.",
+  "summary_evidence_ids": [
+    "ev:web:84981035169:2026-08-10",
+    "ev:acnc:84981035169"
+  ],
   "organisation_self_description": null,
   "activities": [
     "online video sermons and lectures",
@@ -119,8 +133,8 @@
       "source_record_id": "src:acnc-register:33ee12d9-2840-5e15-ab90-404859ab72f9",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=84981035169",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -128,7 +142,10 @@
         "ABN": "84981035169",
         "Legal Name": "Abounding Life Foundation",
         "Registration Status": "registered",
-        "ACNC classifications": "religion; general community"
+        "ACNC classifications": "religion; general community",
+        "Website": "https://www.nadermansour.com",
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -243,34 +260,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "28d83e3bc3d1aefa83da4a04ae731fa78aa1ba2351deee395f516d3607f022c1",
-    "generated_at": "2026-08-10T12:49:07.032130Z",
+    "evidence_input_hash": "a6fc3592507fd1458692097a96b6859d19c338557b7fb79e78c51ea38d418b9a",
+    "generated_at": "2026-08-12T13:45:47.805744Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T12:49:07.032130Z",
+      "generated_at": "2026-08-12T13:45:47.805744Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "28d83e3bc3d1aefa83da4a04ae731fa78aa1ba2351deee395f516d3607f022c1",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "a6fc3592507fd1458692097a96b6859d19c338557b7fb79e78c51ea38d418b9a",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T12:49:07.032130Z",
+      "generated_at": "2026-08-12T13:45:47.805744Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "28d83e3bc3d1aefa83da4a04ae731fa78aa1ba2351deee395f516d3607f022c1",
+      "input_hash": "a6fc3592507fd1458692097a96b6859d19c338557b7fb79e78c51ea38d418b9a",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -279,9 +296,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "28d83e3bc3d1aefa83da4a04ae731fa78aa1ba2351deee395f516d3607f022c1",
+      "input_hash": "a6fc3592507fd1458692097a96b6859d19c338557b7fb79e78c51ea38d418b9a",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -290,7 +307,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.456025Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "bc0e7cfa39b43b2507efc37043bd7c00cbc1ab3c379c40c8bae3bba01f425fb2",
       "disposition": "reused",
@@ -301,7 +318,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.456025Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "bc0e7cfa39b43b2507efc37043bd7c00cbc1ab3c379c40c8bae3bba01f425fb2",
       "disposition": "reused",
@@ -309,9 +326,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

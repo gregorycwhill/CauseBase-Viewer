@@ -89,7 +89,29 @@
     "Tasmania",
     "Australia"
   ],
-  "causebase_summary": "Beechford Residents and Property Owners Association Inc is listed on the Australian Charities and Not-for-profits Commission (ACNC) register. The available regulatory material comprises an ACNC register extract and the 2023 Annual Information Statement (AIS) covering 01/07/2022 to 30/06/2023. The AIS shows reported revenue of AUD 3,120 for that period and reported total expenses of AUD 0. The association is recorded with a structured geography of Tasmania. No website or public-facing organisational description was available in the supplied evidence. The ACNC extracts and AIS provided do not describe specific programs, services, beneficiaries, staff or volunteer roles, nor do they list participation modes such as meetings, events or working bees in the portions of filings supplied. The only concrete operational data in the supplied evidence are the legal name, registration on the ACNC register, the Tasmania location tag, and the single-year financial figures from the AIS.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:94196952697"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-TAS",
+      "label": "Tasmania",
+      "evidence_ids": [
+        "ev:acnc:94196952697"
+      ]
+    }
+  ],
+  "causebase_summary": "Beechford Residents and Property Owners Association Inc is an incorporated association linked with Tasmania, Australia. It appears on the ACNC register and submitted an Annual Information Statement covering 1 July 2022 to 30 June 2023. CauseBase does not have sufficient descriptive evidence in this release to independently identify the organisation’s specific activities, services or beneficiary groups. No website, program descriptions or activity listings were available in the supplied regulatory extracts to allow a more detailed operational summary.",
+  "summary_evidence_ids": [
+    "ev:acnc:94196952697",
+    "ev:ais:94196952697:2023"
+  ],
   "organisation_self_description": null,
   "activities": [],
   "beneficiaries": [],
@@ -100,8 +122,8 @@
       "source_record_id": "src:acnc-register:5ca5ded8-6d21-550f-9f8f-1fd787568229",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=94196952697",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -109,7 +131,10 @@
         "ABN": "94196952697",
         "Legal Name": "BEECHFORD RESIDENTS AND PROPERTY OWNERS ASSOCIATION INC",
         "Registration Status": "registered",
-        "ACNC classifications": "other purpose; regional remote"
+        "ACNC classifications": "other purpose; regional remote",
+        "Website": null,
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -125,7 +150,7 @@
       "source_family": "acnc-ais",
       "dataset_version": "2026-08-10",
       "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": "2022-07-01",
       "effective_to": "2023-06-30",
@@ -329,34 +354,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "508689077691992582282d08e474ccdc9e1c2c8368f01c5e134d28b34665f761",
-    "generated_at": "2026-08-10T12:56:33.171812Z",
+    "evidence_input_hash": "7e55034e7f4c005cae002daffe4f1b0a523238f1f4bb9573fa409ba616ed744f",
+    "generated_at": "2026-08-12T14:04:58.406935Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T12:56:33.171812Z",
+      "generated_at": "2026-08-12T14:04:58.406935Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "508689077691992582282d08e474ccdc9e1c2c8368f01c5e134d28b34665f761",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "7e55034e7f4c005cae002daffe4f1b0a523238f1f4bb9573fa409ba616ed744f",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T12:56:33.171812Z",
+      "generated_at": "2026-08-12T14:04:58.406935Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "508689077691992582282d08e474ccdc9e1c2c8368f01c5e134d28b34665f761",
+      "input_hash": "7e55034e7f4c005cae002daffe4f1b0a523238f1f4bb9573fa409ba616ed744f",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -365,9 +390,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "508689077691992582282d08e474ccdc9e1c2c8368f01c5e134d28b34665f761",
+      "input_hash": "7e55034e7f4c005cae002daffe4f1b0a523238f1f4bb9573fa409ba616ed744f",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -376,7 +401,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.457285Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "18051d96f794540a5e80a83627155589392abf79d06872e7b6efd0daaf9b49ef",
       "disposition": "reused",
@@ -387,7 +412,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.457285Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "18051d96f794540a5e80a83627155589392abf79d06872e7b6efd0daaf9b49ef",
       "disposition": "reused",
@@ -395,9 +420,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

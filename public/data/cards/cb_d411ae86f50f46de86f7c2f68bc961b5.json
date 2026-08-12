@@ -92,7 +92,30 @@
     "Atherton, Queensland",
     "Australia"
   ],
-  "causebase_summary": "Arts Nexus Inc is a not‑for‑profit incorporated in May 1996 and describes itself as an inclusive umbrella body for arts, cultural and creative industries in Far North Queensland (FNQ). The organisation’s website states it supports artists, cultural practitioners and creative industries across artforms and cultures, and aims to connect creative industries, organisations, communities and stakeholders in FNQ. Arts Nexus says it works on policy and regional strategic planning and on the business of arts making. The organisation notes a newly upgraded digital recording studio at 40 Mabel Street, Atherton, Queensland; the studio is open by appointment and studio bookings are available (contact details: admin@artsnexus.com.au; phone 0412 570 701). The site refers to membership across the FNQ region and to social media accounts (TikTok, Instagram, Facebook group and a studio page). The website includes an apolitical disclaimer. ACNC reporting for 2023 shows revenue of AUD 195,946 and total expenses of AUD 188,060 for the 01/01/2023–31/12/2023 period.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:40821754363"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-QLD",
+      "label": "Queensland",
+      "evidence_ids": [
+        "ev:acnc:40821754363"
+      ]
+    }
+  ],
+  "causebase_summary": "Arts Nexus Inc is a not‑for‑profit, community-based arts organisation operating in Far North Queensland and based in Atherton, Queensland. It was founded in 1995 and incorporated in May 1996 as an umbrella body for arts, cultural and creative industries in the FNQ region. The organisation describes work to strengthen operational capacity across the regional arts sector, to drive policy and regional strategic planning, and to support artists, cultural practitioners and creative industries with the business aspects of arts making. Arts Nexus also operates a digital recording studio at 40 Mabel Street, Atherton; the studio is open for bookings by appointment. The organisation states it connects creative industries, organisations, communities and stakeholders across artforms and cultures within the region.",
+  "summary_evidence_ids": [
+    "ev:web:40821754363:2026-08-10",
+    "ev:acnc:40821754363",
+    "ev:ais:40821754363:2023"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Operational capacity building for Far North Queensland arts, cultural and creative industries (organisation statement)",
@@ -119,8 +142,8 @@
       "source_record_id": "src:acnc-register:a25ddc41-b0da-5730-97c9-bff1106cac37",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=40821754363",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -128,7 +151,10 @@
         "ABN": "40821754363",
         "Legal Name": "Arts Nexus Inc",
         "Registration Status": "registered",
-        "ACNC classifications": "culture; regional remote"
+        "ACNC classifications": "culture; regional remote",
+        "Website": "www.artsnexus.com.au",
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -144,7 +170,7 @@
       "source_family": "acnc-ais",
       "dataset_version": "2026-08-10",
       "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": "2023-01-01",
       "effective_to": "2023-12-31",
@@ -405,34 +431,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "1184fde73da2e9221935600d085e8463b2ae558cf506247e585b1ab9029108e3",
-    "generated_at": "2026-08-10T13:01:52.757776Z",
+    "evidence_input_hash": "e08438054b18b56f4e83552f06c840e14d1674f59be3e3468833c277adc424cb",
+    "generated_at": "2026-08-12T14:18:55.678023Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T13:01:52.757776Z",
+      "generated_at": "2026-08-12T14:18:55.678023Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "1184fde73da2e9221935600d085e8463b2ae558cf506247e585b1ab9029108e3",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "e08438054b18b56f4e83552f06c840e14d1674f59be3e3468833c277adc424cb",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T13:01:52.757776Z",
+      "generated_at": "2026-08-12T14:18:55.678023Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "1184fde73da2e9221935600d085e8463b2ae558cf506247e585b1ab9029108e3",
+      "input_hash": "e08438054b18b56f4e83552f06c840e14d1674f59be3e3468833c277adc424cb",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -441,9 +467,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "1184fde73da2e9221935600d085e8463b2ae558cf506247e585b1ab9029108e3",
+      "input_hash": "e08438054b18b56f4e83552f06c840e14d1674f59be3e3468833c277adc424cb",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -452,7 +478,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.458156Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "b05a12233dcc54e92eacdb12bc7d6bdd76682059435918c62f477d3bf1a6ce63",
       "disposition": "reused",
@@ -463,7 +489,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.458156Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "b05a12233dcc54e92eacdb12bc7d6bdd76682059435918c62f477d3bf1a6ce63",
       "disposition": "reused",
@@ -471,9 +497,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

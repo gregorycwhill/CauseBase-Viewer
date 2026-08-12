@@ -89,7 +89,29 @@
     "Northern Territory",
     "Australia"
   ],
-  "causebase_summary": "Alice Springs Child Centre Inc is recorded on the Australian Charities and Not-for-profits Commission (ACNC) register. The organisation’s ACNC Annual Information Statement for the year 01/07/2022 to 30/06/2023 was provided as the financial source. That report shows revenue of AUD 1,042,528 and total expenses of AUD 1,066,873 for the reporting year; the AIS entry is attributed as a direct subject report and not consolidated. The ACNC extract and the AIS are the only supplied sources; no website, program descriptions, stated beneficiaries or activities were provided in the supplied evidence. The record lists the organisation’s structured geography as Northern Territory. Other operational or programmatic details, including staff, volunteers, service types or locations within the Territory, are not available in the provided extracts.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:34204136113"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-NT",
+      "label": "Northern Territory",
+      "evidence_ids": [
+        "ev:acnc:34204136113"
+      ]
+    }
+  ],
+  "causebase_summary": "Alice Springs Child Centre Inc is a registered charitable entity operating in the Northern Territory, Australia. CauseBase holds its ACNC registration record and an Annual Information Statement covering 1 July 2022 to 30 June 2023. This release does not include a website, a self-description of purpose, or documents that describe specific programs, services or target groups. CauseBase does not have sufficient descriptive evidence in this release to independently identify specific activities or beneficiaries for Alice Springs Child Centre Inc. Financial reporting items are present in the 2022–23 AIS record but are not summarised here. Additional descriptive sources would be required to state what services the organisation delivers, who they serve, or how people can participate.",
+  "summary_evidence_ids": [
+    "ev:acnc:34204136113",
+    "ev:ais:34204136113:2023"
+  ],
   "organisation_self_description": null,
   "activities": [],
   "beneficiaries": [],
@@ -100,8 +122,8 @@
       "source_record_id": "src:acnc-register:f1256e2d-87d6-5a08-8340-116ca4fa78aa",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=34204136113",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -109,7 +131,10 @@
         "ABN": "34204136113",
         "Legal Name": "Alice Springs Child Centre Inc",
         "Registration Status": "registered",
-        "ACNC classifications": "education; regional remote"
+        "ACNC classifications": "education; regional remote",
+        "Website": null,
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -125,7 +150,7 @@
       "source_family": "acnc-ais",
       "dataset_version": "2026-08-10",
       "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": "2022-07-01",
       "effective_to": "2023-06-30",
@@ -329,34 +354,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "3f2cd4f74288aa34f3dddaa4b41ef40cf8c980aba292b199afce199aa763ff36",
-    "generated_at": "2026-08-10T12:57:31.608871Z",
+    "evidence_input_hash": "cbbae9688f59dd8c4deb28a09720ce4bc213d1cad499ef31bb9de45bec74a72f",
+    "generated_at": "2026-08-12T14:09:35.282887Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T12:57:31.608871Z",
+      "generated_at": "2026-08-12T14:09:35.282887Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "3f2cd4f74288aa34f3dddaa4b41ef40cf8c980aba292b199afce199aa763ff36",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "cbbae9688f59dd8c4deb28a09720ce4bc213d1cad499ef31bb9de45bec74a72f",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T12:57:31.608871Z",
+      "generated_at": "2026-08-12T14:09:35.282887Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "3f2cd4f74288aa34f3dddaa4b41ef40cf8c980aba292b199afce199aa763ff36",
+      "input_hash": "cbbae9688f59dd8c4deb28a09720ce4bc213d1cad499ef31bb9de45bec74a72f",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -365,9 +390,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "3f2cd4f74288aa34f3dddaa4b41ef40cf8c980aba292b199afce199aa763ff36",
+      "input_hash": "cbbae9688f59dd8c4deb28a09720ce4bc213d1cad499ef31bb9de45bec74a72f",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -376,7 +401,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.457571Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "0adb70ab9460dc6c9d2cbd4f32dc1e9e96cbcfef4991463febb700a48d09238e",
       "disposition": "reused",
@@ -387,7 +412,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.457571Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "0adb70ab9460dc6c9d2cbd4f32dc1e9e96cbcfef4991463febb700a48d09238e",
       "disposition": "reused",
@@ -395,9 +420,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

@@ -91,7 +91,30 @@
     "Australia (national campaigning on federal issues)",
     "Victoria (registered location on ACNC)"
   ],
-  "causebase_summary": "The Australian Conservation Foundation (ACF) presents itself on its website as a national advocacy organisation campaigning on climate, deforestation, fossil fuel projects and species decline. Website content cites petitions and open letters (for example, an open letter to Hungry Jack’s on deforestation-free beef and a “No new gas” petition), fundraising appeals to support legal action (a call to “power our court case against Whitehaven Coal”), and a submission sent to the Federal Environment Minister accompanied by 19,516 signatures. The site promotes public events and member activities, including “Australia’s Biggest Bushwalk” and a wildlife art competition for children aged 5–12, and invites people to “join a local group”, “be a member” and “volunteer with us.” The homepage lists news items about courts, government bills and industry finance. The ACNC/AIS extract for 2022–23 records revenue of AUD 18,128,096 and total expenses of AUD 19,263,764 for the reporting period. Claims about campaign “wins” and other outcomes are presented on the website as organisation-authored statements; the evidence provided here is limited to the organisation’s website snapshot and the ACNC/AIS financial extract.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:22007498482"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-VIC",
+      "label": "Victoria",
+      "evidence_ids": [
+        "ev:acnc:22007498482"
+      ]
+    }
+  ],
+  "causebase_summary": "Australian Conservation Foundation Incorporated is an environmental advocacy organisation registered in Victoria that campaigns nationally across Australia. It runs public campaigns on climate, nature and land-use issues using petitions, open letters and submissions to federal decision-makers. The organisation raises funds to support legal action in environmental cases, organises public programs such as bushwalks and a children’s wildlife art competition, and recruits and supports local volunteer groups. It also promotes targeted corporate and government actions (for example on deforestation and fossil-fuel projects) and solicits signatures for parliamentary and ministerial submissions.",
+  "summary_evidence_ids": [
+    "ev:web:22007498482:2026-08-10",
+    "ev:acnc:22007498482",
+    "ev:ais:22007498482:2023"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Running petitions and open letters aimed at companies and government",
@@ -114,8 +137,8 @@
       "source_record_id": "src:acnc-register:be1b2f79-0f0f-588f-ad41-118a5b803042",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=22007498482",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -123,7 +146,10 @@
         "ABN": "22007498482",
         "Legal Name": "Australian Conservation Foundation Incorporated",
         "Registration Status": "registered",
-        "ACNC classifications": "environment; general community"
+        "ACNC classifications": "environment; general community",
+        "Website": "www.acf.org.au",
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -139,7 +165,7 @@
       "source_family": "acnc-ais",
       "dataset_version": "2026-08-10",
       "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": "2022-07-01",
       "effective_to": "2023-06-30",
@@ -409,34 +435,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "c06081cb332d088dd1805e03730c71a57367becee9f7cff11addaf82e73f44d9",
-    "generated_at": "2026-08-10T12:50:31.298937Z",
+    "evidence_input_hash": "13b380b86e71e223ea634598e916578831f07e41bc9a9da017004c5141f69609",
+    "generated_at": "2026-08-12T13:47:50.522404Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T12:50:31.298937Z",
+      "generated_at": "2026-08-12T13:47:50.522404Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "c06081cb332d088dd1805e03730c71a57367becee9f7cff11addaf82e73f44d9",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "13b380b86e71e223ea634598e916578831f07e41bc9a9da017004c5141f69609",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T12:50:31.298937Z",
+      "generated_at": "2026-08-12T13:47:50.522404Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "c06081cb332d088dd1805e03730c71a57367becee9f7cff11addaf82e73f44d9",
+      "input_hash": "13b380b86e71e223ea634598e916578831f07e41bc9a9da017004c5141f69609",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -445,9 +471,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "c06081cb332d088dd1805e03730c71a57367becee9f7cff11addaf82e73f44d9",
+      "input_hash": "13b380b86e71e223ea634598e916578831f07e41bc9a9da017004c5141f69609",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -456,7 +482,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.456174Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "a78859c66dd69d4ee61350afd7a70c0bb9584b22554fafdd8711f0051d5a5fed",
       "disposition": "reused",
@@ -467,7 +493,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.456174Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "a78859c66dd69d4ee61350afd7a70c0bb9584b22554fafdd8711f0051d5a5fed",
       "disposition": "reused",
@@ -475,9 +501,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

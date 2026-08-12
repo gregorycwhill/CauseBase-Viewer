@@ -86,7 +86,28 @@
   "geography": [
     "Western Australia (WA)"
   ],
-  "causebase_summary": "JUUKAN GORGE LEGACY FOUNDATION LTD appears in an ACNC register extract observed on 10 August 2026. The ACNC record in the supplied evidence identifies the organisation by legal/display name and lists Western Australia (WA) as structured geography. CauseBase’s evidence pack for this release did not include a website or published financial statements, and an annual report was noted as not yet processed. CauseBase does not have sufficient descriptive evidence in this release to independently identify the foundation’s specific activities, beneficiaries or modes of participation.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:32668161279"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-WA",
+      "label": "Western Australia",
+      "evidence_ids": [
+        "ev:acnc:32668161279"
+      ]
+    }
+  ],
+  "causebase_summary": "Juukan Gorge Legacy Foundation Ltd is an incorporated organisation recorded on the Australian Charities and Not-for-profits Commission register with a listed location of Western Australia. The only evidence in this release is the ACNC register entry observed 10 August 2026. CauseBase does not have sufficient descriptive evidence in this release to independently identify the organisation's specific activities, beneficiaries or modes of participation.",
+  "summary_evidence_ids": [
+    "ev:acnc:32668161279"
+  ],
   "organisation_self_description": null,
   "activities": [],
   "beneficiaries": [],
@@ -97,8 +118,8 @@
       "source_record_id": "src:acnc-register:af076d1e-607e-5a8c-8014-87307f29dd2a",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=32668161279",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -106,7 +127,10 @@
         "ABN": "32668161279",
         "Legal Name": "JUUKAN GORGE LEGACY FOUNDATION LTD",
         "Registration Status": "registered",
-        "ACNC classifications": "social welfare; other beneficiary"
+        "ACNC classifications": "social welfare; other beneficiary",
+        "Website": null,
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -191,34 +215,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.5",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "319f3d36ac9ad73023767163d67cd3b46fbe0ff096bf81cdd335e5db10e9d93a",
-    "generated_at": "2026-08-10T13:51:36.054633Z",
+    "evidence_input_hash": "929b557f7632d0efcd4c639e9c5f54cfce3efad8be5f6197a1faf08249c081c9",
+    "generated_at": "2026-08-12T14:08:53.639536Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T13:51:36.054633Z",
+      "generated_at": "2026-08-12T14:08:53.639536Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "319f3d36ac9ad73023767163d67cd3b46fbe0ff096bf81cdd335e5db10e9d93a",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "929b557f7632d0efcd4c639e9c5f54cfce3efad8be5f6197a1faf08249c081c9",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T13:51:36.054633Z",
+      "generated_at": "2026-08-12T14:08:53.639536Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "319f3d36ac9ad73023767163d67cd3b46fbe0ff096bf81cdd335e5db10e9d93a",
+      "input_hash": "929b557f7632d0efcd4c639e9c5f54cfce3efad8be5f6197a1faf08249c081c9",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -227,9 +251,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "319f3d36ac9ad73023767163d67cd3b46fbe0ff096bf81cdd335e5db10e9d93a",
+      "input_hash": "929b557f7632d0efcd4c639e9c5f54cfce3efad8be5f6197a1faf08249c081c9",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -238,7 +262,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.457525Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "7e9f1cbba6c90db2a42ae4870d95200999a9d8b4c5574dd2d8820460af1f1961",
       "disposition": "reused",
@@ -249,7 +273,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.457525Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "7e9f1cbba6c90db2a42ae4870d95200999a9d8b4c5574dd2d8820460af1f1961",
       "disposition": "reused",
@@ -257,9 +281,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

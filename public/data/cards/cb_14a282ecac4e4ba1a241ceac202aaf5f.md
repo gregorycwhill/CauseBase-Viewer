@@ -6,7 +6,7 @@
 
 ## CauseBase summary
 
-BROTHER TO ANOTHER LTD is recorded on the ACNC register with its structured geography listed as the Northern Territory (NT). The supplied regulatory documents comprise an ACNC register extract and the organisation’s Annual Information Statement (AIS) for the reporting period 01/07/2022 to 30/06/2023. The AIS records revenue of AUD 660,000 and total expenses of AUD 627,000 for that year; the financial submission is presented as consolidated and attributed to the organisation’s own report. No website, program descriptions, annual report text, service locations within the NT, named beneficiary groups, staff or volunteer numbers, or descriptions of specific activities or projects are included in the provided evidence. The legal and display name in the extracts is BROTHER TO ANOTHER LTD. The evidence supplied is limited to the ACNC extracts and the 2022–23 AIS financial figures; it does not describe programs, beneficiaries, modes of participation or operational details beyond the jurisdiction and financial totals.
+Brother to Another Ltd is an Australian not‑for‑profit company registered with the Australian Charities and Not‑for‑profits Commission and recorded as operating in the Northern Territory. It submitted an Annual Information Statement covering the 2022–23 reporting year to the ACNC. The supplied records include ACNC registration and AIS reporting but do not include a public website, descriptive materials or program-level documentation in this release. CauseBase does not have sufficient descriptive evidence here to independently identify the organisation's specific activities, services, target beneficiaries or modes of participation.
 
 ## Activities
 
@@ -50,11 +50,11 @@ BROTHER TO ANOTHER LTD is recorded on the ACNC register with its structured geog
 - Embedding: `cb_14a282ecac4e4ba1a241ceac202aaf5f:entity:text-embedding-3-small`
 - Embedding model: `text-embedding-3-small`
 - Synthesis model: `gpt-5-mini-2025-08-07`
-- Synthesis evidence hash: `f25240f22c53ef0c3229972ea6fd5b92b190956b0b8b15aa3944e2f4fd422143`
+- Synthesis evidence hash: `8fc80f400f4439a99e10387b63941214d5e38dcf9edda2a16e64528e287cf5ac`
 
 ## Build
 
-- Dataset version: `phase2b-2026-08-12-rc1`
-- Card schema: `0.2`
-- Editorial policy: `0.2`
-- Built: 2026-08-12T11:26:59.282210+00:00
+- Dataset version: `phase2b-2026-08-12-rc2`
+- Card schema: `0.3`
+- Editorial policy: `0.3-rc2`
+- Built: 2026-08-12T14:24:20.675968+00:00

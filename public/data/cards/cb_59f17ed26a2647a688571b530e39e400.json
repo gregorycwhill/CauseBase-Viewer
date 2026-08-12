@@ -88,7 +88,29 @@
   "geography": [
     "New South Wales (NSW)"
   ],
-  "causebase_summary": "Ariah Park Show Society Inc is listed on the Australian Charities and Not-for-profits Commission (ACNC) register with a structured location of New South Wales (NSW). The only detailed document provided in the evidence pack is the ACNC Annual Information Statement (AIS) extract for the reporting period 01/07/2022 to 30/06/2023. For that period the AIS records total revenue of AUD 18,799 and total expenses of AUD 44,870. Within the supplied extracts there are no program descriptions, lists of services, named beneficiaries or participation mechanisms. The material does not include a website or other public-facing communications in the evidence pack. The financial figures in the AIS show expenses exceeded revenue in the reported year by AUD 26,071. The ACNC register extract and the AIS are the sources for the statements above; the organisation’s own descriptions beyond those filings were not included in the provided evidence.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:36661209143"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-NSW",
+      "label": "New South Wales",
+      "evidence_ids": [
+        "ev:acnc:36661209143"
+      ]
+    }
+  ],
+  "causebase_summary": "Ariah Park Show Society Inc is an incorporated community organisation registered with the Australian Charities and Not-for-profits Commission and located in New South Wales (NSW). The organisation filed an Annual Information Statement covering 01/07/2022 to 30/06/2023. CauseBase does not have sufficient descriptive evidence in this release to independently identify the society's specific activities, programs, participation modes or intended beneficiaries.",
+  "summary_evidence_ids": [
+    "ev:acnc:36661209143",
+    "ev:ais:36661209143:2023"
+  ],
   "organisation_self_description": null,
   "activities": [],
   "beneficiaries": [],
@@ -99,8 +121,8 @@
       "source_record_id": "src:acnc-register:8242805d-0b59-5bec-aa7d-78b544133dbd",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=36661209143",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -108,7 +130,10 @@
         "ABN": "36661209143",
         "Legal Name": "Ariah Park Show Society Inc",
         "Registration Status": "registered",
-        "ACNC classifications": "other purpose; regional remote"
+        "ACNC classifications": "other purpose; regional remote",
+        "Website": null,
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -124,7 +149,7 @@
       "source_family": "acnc-ais",
       "dataset_version": "2026-08-10",
       "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": "2022-07-01",
       "effective_to": "2023-06-30",
@@ -328,34 +353,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "cf210bc191547080d8fa75dd8cacc6092007fbbce20fc12a06a44801607940ba",
-    "generated_at": "2026-08-10T12:56:28.812470Z",
+    "evidence_input_hash": "16bdf4a9a6c586b1b7ada155550d37915f89ccc5d3a70fe067c643844bf3fe3e",
+    "generated_at": "2026-08-12T14:04:32.011186Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T12:56:28.812470Z",
+      "generated_at": "2026-08-12T14:04:32.011186Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "cf210bc191547080d8fa75dd8cacc6092007fbbce20fc12a06a44801607940ba",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "16bdf4a9a6c586b1b7ada155550d37915f89ccc5d3a70fe067c643844bf3fe3e",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T12:56:28.812470Z",
+      "generated_at": "2026-08-12T14:04:32.011186Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "cf210bc191547080d8fa75dd8cacc6092007fbbce20fc12a06a44801607940ba",
+      "input_hash": "16bdf4a9a6c586b1b7ada155550d37915f89ccc5d3a70fe067c643844bf3fe3e",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -364,9 +389,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "cf210bc191547080d8fa75dd8cacc6092007fbbce20fc12a06a44801607940ba",
+      "input_hash": "16bdf4a9a6c586b1b7ada155550d37915f89ccc5d3a70fe067c643844bf3fe3e",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -375,7 +400,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.457268Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "f43f4081955361a47a38c8261e1d657f6dbde73572bd975c93e165303ba3ec27",
       "disposition": "reused",
@@ -386,7 +411,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.457268Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "f43f4081955361a47a38c8261e1d657f6dbde73572bd975c93e165303ba3ec27",
       "disposition": "reused",
@@ -394,9 +419,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

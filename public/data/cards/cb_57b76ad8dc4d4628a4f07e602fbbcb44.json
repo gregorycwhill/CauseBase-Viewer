@@ -89,7 +89,29 @@
     "Northern Territory (NT)",
     "Australia"
   ],
-  "causebase_summary": "The ACNC register lists the legal name Darwin Volunteer Unit (NTES) Association Incorporation. The Northern Territory Emergency Service (NTES) website says NTES is part of NT Police, Fire and Emergency Services and is affiliated with the Australia-wide State Emergency Service. The website states NTES is mostly volunteer-based and describes its responsibilities as facilitating emergency management planning, raising public awareness about disasters and providing a response capability for emergency events through dedicated volunteers. It identifies floods, storms and cyclones as event types and publishes public safety and flood preparedness material (advice on what to pack and what to stock). The site includes a community engagement page and notes volunteers come “from all walks of life.” Contact details shown for assistance are 132 500 (and 000 for emergencies). The site also references a 50-year celebration of NTES. The provided sources are the organisation’s website and an ACNC register extract; no additional operational or financial documents were provided in the evidence pack.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:11580238789"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-NT",
+      "label": "Northern Territory",
+      "evidence_ids": [
+        "ev:acnc:11580238789"
+      ]
+    }
+  ],
+  "causebase_summary": "Darwin Volunteer Unit (NTES) Association Incorporation is the volunteer component of the Northern Territory Emergency Service (NTES), part of NT Police, Fire and Emergency Services, operating across the Northern Territory. NTES maintains a volunteer-led response capability for floods, storms and cyclones, facilitates emergency management planning, and provides public information and community engagement on preparedness and public safety. Volunteers from a range of backgrounds support operational response activities and local community awareness initiatives, and NTES is affiliated with the Australia-wide State Emergency Service. The service publishes flood preparedness advice and practical guidance for residents and promotes community engagement in resilience and preparedness work.",
+  "summary_evidence_ids": [
+    "ev:acnc:11580238789",
+    "ev:web:11580238789:2026-08-10"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Emergency management planning (as described by NTES)",
@@ -110,8 +132,8 @@
       "source_record_id": "src:acnc-register:988eb82e-629c-57c2-9942-09af838db040",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=11580238789",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -119,7 +141,10 @@
         "ABN": "11580238789",
         "Legal Name": "DARWIN VOLUNTEER UNIT (NTES) ASSOCIATION INCORPORATION",
         "Registration Status": "registered",
-        "ACNC classifications": "other purpose; older people"
+        "ACNC classifications": "other purpose; older people",
+        "Website": "pfes.nt.gov.au/emergency-service",
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -270,34 +295,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "d62cfb09230e437a197a226194cbb9ca0158926025c2faf776600f12a3be684a",
-    "generated_at": "2026-08-10T12:50:29.540139Z",
+    "evidence_input_hash": "f16401416968583a6eade106bb805e7d854e7834d1273245628163240a14bd68",
+    "generated_at": "2026-08-12T13:49:10.980297Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T12:50:29.540139Z",
+      "generated_at": "2026-08-12T13:49:10.980297Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "d62cfb09230e437a197a226194cbb9ca0158926025c2faf776600f12a3be684a",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "f16401416968583a6eade106bb805e7d854e7834d1273245628163240a14bd68",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T12:50:29.540139Z",
+      "generated_at": "2026-08-12T13:49:10.980297Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "d62cfb09230e437a197a226194cbb9ca0158926025c2faf776600f12a3be684a",
+      "input_hash": "f16401416968583a6eade106bb805e7d854e7834d1273245628163240a14bd68",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -306,9 +331,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "d62cfb09230e437a197a226194cbb9ca0158926025c2faf776600f12a3be684a",
+      "input_hash": "f16401416968583a6eade106bb805e7d854e7834d1273245628163240a14bd68",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -317,7 +342,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.456259Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "de6f66204bc0f6c051c6a1202b151c86e45b4990c729328f402a8391e07170fc",
       "disposition": "reused",
@@ -328,7 +353,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.456259Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "de6f66204bc0f6c051c6a1202b151c86e45b4990c729328f402a8391e07170fc",
       "disposition": "reused",
@@ -336,9 +361,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

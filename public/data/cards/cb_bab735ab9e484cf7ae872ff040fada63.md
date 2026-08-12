@@ -6,7 +6,7 @@
 
 ## CauseBase summary
 
-Settlement Council of Australia (SCoA) is presented on its website as a peak body for settlement agencies, with invites to "become a member" of "Australia’s leading settlement agencies". The site includes a Reconciliation Action Plan (labelled RAP) and a section titled "National Settlement Outcome Standards", described on the website as articulating outcomes for refugees and migrants to be considered "settled". The organisation’s online homepage uses the phrase "Making Australia home" and explicitly references migrants and refugees settling in Australia. An ACNC information extract and the organisation’s 2022–23 AIS are included in the available records; the AIS records total revenue of AUD 1,340,626 and total expenses of AUD 1,245,694 for the period 01/07/2022 to 30/06/2023. The evidence consists of the organisation’s website text and the ACNC AIS entry; the website text is presented here as the organisation’s own descriptions rather than independently verified operational facts.
+Settlement Council of Australia (SCoA) is a national peak body based in Australia (registered presence in the Australian Capital Territory). As of records observed on 10 August 2026, SCoA operates a membership programme for settlement agencies, publishes the National Settlement Outcome Standards that set out outcomes for refugees and migrants to be considered ‘settled’, and maintains a Reconciliation Action Plan. The organisation’s work is presented as supporting settlement agencies and the process of settlement for people arriving in Australia. Evidence cited for this summary includes the organisation’s website and regulatory filings/current information listed to 2023 and 2026.
 
 ## Activities
 
@@ -59,11 +59,11 @@ Settlement Council of Australia (SCoA) is presented on its website as a peak bod
 - Embedding: `cb_bab735ab9e484cf7ae872ff040fada63:entity:text-embedding-3-small`
 - Embedding model: `text-embedding-3-small`
 - Synthesis model: `gpt-5-mini-2025-08-07`
-- Synthesis evidence hash: `cffdbe7777efcee7731f5b1e8cace47cfc9773046d9022cab3e7646700e22307`
+- Synthesis evidence hash: `ba9a4c4da807338d144e8ef25d1a2a65fe38a3e425b4b85eb7a559c9694a8cb6`
 
 ## Build
 
-- Dataset version: `phase2b-2026-08-12-rc1`
-- Card schema: `0.2`
-- Editorial policy: `0.2`
-- Built: 2026-08-12T11:26:59.282210+00:00
+- Dataset version: `phase2b-2026-08-12-rc2`
+- Card schema: `0.3`
+- Editorial policy: `0.3-rc2`
+- Built: 2026-08-12T14:24:20.675968+00:00

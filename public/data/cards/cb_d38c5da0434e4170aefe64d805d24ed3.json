@@ -89,7 +89,29 @@
     "Australian Capital Territory (ACT)",
     "Australia"
   ],
-  "causebase_summary": "HOPEBOX AUSTRALIA LTD (display name HOPEBOX AUSTRALIA LTD) appears in the Australian Charities and Not-for-profits Commission (ACNC) register. The available regulatory extract and the organisation’s 2023 AIS cover the period 01/01/2023 to 31/01/2024. For that reporting period the AIS lists total revenue of AUD 8,328 and total expenses of AUD 0; the reporting scope is the subject organisation. The ACNC extract is the primary source cited; attempts to retrieve material from the organisation’s website were not successful. The supplied evidence does not describe any programs, services, beneficiaries or modes of participation, and does not specify whether the zero expenses figure reflects timing, accounting classification, or omitted transactions.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:39645963266"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-ACT",
+      "label": "Australian Capital Territory",
+      "evidence_ids": [
+        "ev:acnc:39645963266"
+      ]
+    }
+  ],
+  "causebase_summary": "HOPEBOX AUSTRALIA LTD is a registered charity based in the Australian Capital Territory that operates in Australia. Registry records associated with the organisation list its legal name, a website address and the Australian Capital Territory as its location, and show it filed an Annual Information Statement covering the year to 31 January 2024. CauseBase does not have sufficient descriptive evidence in this release to independently identify specific activities, programs or beneficiary groups for this organisation. CauseBase could not retrieve content from the organisation’s listed website at the time of capture; the available regulatory extracts provide legal identity and location but do not describe services, target populations or modes of delivery.",
+  "summary_evidence_ids": [
+    "ev:acnc:39645963266",
+    "ev:ais:39645963266:2023"
+  ],
   "organisation_self_description": null,
   "activities": [],
   "beneficiaries": [],
@@ -100,8 +122,8 @@
       "source_record_id": "src:acnc-register:0b8769d6-cd66-528f-a87e-fb97a3b40f29",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=39645963266",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -109,7 +131,10 @@
         "ABN": "39645963266",
         "Legal Name": "HOPEBOX AUSTRALIA LTD",
         "Registration Status": "registered",
-        "ACNC classifications": "social welfare; regional remote"
+        "ACNC classifications": "social welfare; regional remote",
+        "Website": "www.hopeboxaustralia.com.au",
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -125,7 +150,7 @@
       "source_family": "acnc-ais",
       "dataset_version": "2026-08-10",
       "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": "2023-01-01",
       "effective_to": "2024-01-31",
@@ -338,34 +363,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "ea93ec93fdd28a1aa817dba4432784ce699f34e6bef667495e9787f58486f860",
-    "generated_at": "2026-08-10T12:49:04.379796Z",
+    "evidence_input_hash": "e4f9351a67cfbb36cce0e03520d48e6f8b3060c6f7727ee9a76d1db40de75b1d",
+    "generated_at": "2026-08-12T13:46:06.844356Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T12:49:04.379796Z",
+      "generated_at": "2026-08-12T13:46:06.844356Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "ea93ec93fdd28a1aa817dba4432784ce699f34e6bef667495e9787f58486f860",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "e4f9351a67cfbb36cce0e03520d48e6f8b3060c6f7727ee9a76d1db40de75b1d",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T12:49:04.379796Z",
+      "generated_at": "2026-08-12T13:46:06.844356Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "ea93ec93fdd28a1aa817dba4432784ce699f34e6bef667495e9787f58486f860",
+      "input_hash": "e4f9351a67cfbb36cce0e03520d48e6f8b3060c6f7727ee9a76d1db40de75b1d",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -374,9 +399,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "ea93ec93fdd28a1aa817dba4432784ce699f34e6bef667495e9787f58486f860",
+      "input_hash": "e4f9351a67cfbb36cce0e03520d48e6f8b3060c6f7727ee9a76d1db40de75b1d",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -385,7 +410,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.456071Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "3e3530a55107510abbbeb14c8f93d3e8ee0f640d2c5d570688781b380f72c95a",
       "disposition": "reused",
@@ -396,7 +421,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.456071Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "3e3530a55107510abbbeb14c8f93d3e8ee0f640d2c5d570688781b380f72c95a",
       "disposition": "reused",
@@ -404,9 +429,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

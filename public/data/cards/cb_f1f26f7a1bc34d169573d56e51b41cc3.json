@@ -90,7 +90,30 @@
   "geography": [
     "Melbourne, Victoria, Australia"
   ],
-  "causebase_summary": "Young Voices Of Melbourne Inc (YVM) is a Melbourne-based choral organisation described on its website and in ACNC filings. Website posts from 2025–2026 document regular ensemble activity: named ensembles include a Senior Training Choir and a Performing Choir; the organisation ran a ‘‘Supercamp’’ rehearsal weekend from 27 February to 1 March 2026 at CYC Forest Edge for singers from both choirs. The site also records a change in artistic leadership (a new Artistic Director appointed in 2025) and the engagement of an internationally described conductor, Dr Michael Barrett, as an Associate Artist in April 2026. The ACNC AIS extract for 01/02/2023–31/01/2024 reports revenue of AUD 583,709 and total expenses of AUD 658,416 for the reporting subject. The organisation’s legal and public identity is Young Voices Of Melbourne Inc, with a website at yvm.com.au and structured geography listed as Victoria. Public materials on the website focus on rehearsals, weekend training events and artistic appointments; they do not provide detailed breakdowns of participant ages, the frequency or locations of public performances, or staffing and volunteer arrangements.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:65175035512"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-VIC",
+      "label": "Victoria",
+      "evidence_ids": [
+        "ev:acnc:65175035512"
+      ]
+    }
+  ],
+  "causebase_summary": "Young Voices Of Melbourne Inc is a Melbourne-based youth choral organisation. As of 2026 it operates two ensembles, the Senior Training Choir and the Performing Choir, and enrolment is by membership of those named choirs. The group runs regular rehearsals and an annual rehearsal weekend (branded Supercamp; most recently held 27 Feb–1 Mar 2026), engages visiting and associate artists and choral clinicians (including the appointment of international conductor Dr Michael Barrett as Associate Artist in April 2026) and provides artistic leadership through an Artistic Director who began in 2025. Participation reported includes attendance at rehearsals, weekend training camps and specialist sessions led by visiting artists and artistic staff.",
+  "summary_evidence_ids": [
+    "ev:web:65175035512:2026-08-10",
+    "ev:acnc:65175035512",
+    "ev:ais:65175035512:2023"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Rehearsal weekends (Supercamp) for Senior Training Choir and Performing Choir",
@@ -112,8 +135,8 @@
       "source_record_id": "src:acnc-register:1e38dc54-4559-5621-a035-acb4516fa7e6",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=65175035512",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -121,7 +144,10 @@
         "ABN": "65175035512",
         "Legal Name": "Young Voices Of Melbourne Inc",
         "Registration Status": "registered",
-        "ACNC classifications": "culture; children"
+        "ACNC classifications": "culture; children",
+        "Website": "http://yvm.com.au",
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -137,7 +163,7 @@
       "source_family": "acnc-ais",
       "dataset_version": "2026-08-10",
       "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": "2023-02-01",
       "effective_to": "2024-01-31",
@@ -380,34 +406,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "76ce7008d1a0331f18e4f5e6a301964803a518fc1d436868b80e6dea9b7ad299",
-    "generated_at": "2026-08-10T12:48:27.000412Z",
+    "evidence_input_hash": "efdab15dc8321c0401b370e16a57f514538e3534f24ce3ef8d6b1e6c977486c4",
+    "generated_at": "2026-08-12T13:42:43.622951Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T12:48:27.000412Z",
+      "generated_at": "2026-08-12T13:42:43.622951Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "76ce7008d1a0331f18e4f5e6a301964803a518fc1d436868b80e6dea9b7ad299",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "efdab15dc8321c0401b370e16a57f514538e3534f24ce3ef8d6b1e6c977486c4",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T12:48:27.000412Z",
+      "generated_at": "2026-08-12T13:42:43.622951Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "76ce7008d1a0331f18e4f5e6a301964803a518fc1d436868b80e6dea9b7ad299",
+      "input_hash": "efdab15dc8321c0401b370e16a57f514538e3534f24ce3ef8d6b1e6c977486c4",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -416,9 +442,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "76ce7008d1a0331f18e4f5e6a301964803a518fc1d436868b80e6dea9b7ad299",
+      "input_hash": "efdab15dc8321c0401b370e16a57f514538e3534f24ce3ef8d6b1e6c977486c4",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -427,7 +453,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.455824Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "39ea9ae4d4657e3c74175c88833c913b1ecbe19ccd43dec9ac75b361ebbcc95b",
       "disposition": "reused",
@@ -438,7 +464,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.455824Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "39ea9ae4d4657e3c74175c88833c913b1ecbe19ccd43dec9ac75b361ebbcc95b",
       "disposition": "reused",
@@ -446,9 +472,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

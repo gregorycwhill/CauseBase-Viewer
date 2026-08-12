@@ -90,7 +90,29 @@
     "Australia",
     "Asia & Pacific region (site names New Zealand, Malaysia, Singapore)"
   ],
-  "causebase_summary": "Asia Pacific Diocese of Malankara (Indian) Orthodox Syrian Church Ltd is presented on its website as a regional diocese of the Malankara Orthodox Syrian Church headquartered in Canberra, Australian Capital Territory. The diocese is described as having jurisdiction across the Asia & Pacific region, including Australia, New Zealand, Malaysia and Singapore; the site states the new diocese became effective from 1 November 2024. The homepage lists more than 2,000 members and over 20 parishes. Leadership names shown on the site include H.H. Baselios Marthoma Mathews III (Catholicos of the East & Malankara Metropolitan) and H.G. Dr. Yuhanon Mar Diascoros (Diocesan Metropolitan). The site provides navigation links labelled “Our Diocese”, “Ministries”, “Parishes”, “Priests”, and “Notices & News”, and a newsletter subscription field and contact email (secretary@asiapacificdiocese.org). An ACNC Register extract for the organisation is noted in the evidence pack. The available sources are a homepage snapshot and a regulatory register entry; no detailed program descriptions, service-level information or financial records were provided in the supplied evidence.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:21687391840"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-ACT",
+      "label": "Australian Capital Territory",
+      "evidence_ids": [
+        "ev:acnc:21687391840"
+      ]
+    }
+  ],
+  "causebase_summary": "Asia Pacific Diocese of Malankara (Indian) Orthodox Syrian Church Ltd is a diocesan body of the Malankara Orthodox Syrian Church headquartered in Canberra, Australian Capital Territory. The diocese has jurisdiction across the Asia & Pacific region, including Australia, New Zealand, Malaysia and Singapore, and was established effective 1 November 2024. It lists more than 2,000 members and 20+ parishes. Day‑to‑day work described on its site includes oversight of parishes and diocesan ministries, maintenance of priestly appointments and parish structures, and publication of news and a newsletter alongside organisational contact details and notices.",
+  "summary_evidence_ids": [
+    "ev:web:21687391840:2026-08-10",
+    "ev:acnc:21687391840"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Oversees parishes and diocesan ministries (as listed on website)",
@@ -112,8 +134,8 @@
       "source_record_id": "src:acnc-register:4bab3c8c-588d-5df0-8c8c-215aa4d387b5",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=21687391840",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -121,7 +143,10 @@
         "ABN": "21687391840",
         "Legal Name": "ASIA PACIFIC DIOCESE OF MALANKARA (INDIAN) ORTHODOX SYRIAN CHURCH LTD",
         "Registration Status": "registered",
-        "ACNC classifications": "education; people with disability"
+        "ACNC classifications": "education; people with disability",
+        "Website": "https://www.apacd.org",
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -245,34 +270,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "a654b2d637c2369632e0977d0fa95a81bda077665b117704dc67f8857fd7384a",
-    "generated_at": "2026-08-10T13:00:38.591905Z",
+    "evidence_input_hash": "750041843ea79c5c150ce838fd3a6535669fb599b15d16e2368661c912612ace",
+    "generated_at": "2026-08-12T14:16:45.883286Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T13:00:38.591905Z",
+      "generated_at": "2026-08-12T14:16:45.883286Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "a654b2d637c2369632e0977d0fa95a81bda077665b117704dc67f8857fd7384a",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "750041843ea79c5c150ce838fd3a6535669fb599b15d16e2368661c912612ace",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T13:00:38.591905Z",
+      "generated_at": "2026-08-12T14:16:45.883286Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "a654b2d637c2369632e0977d0fa95a81bda077665b117704dc67f8857fd7384a",
+      "input_hash": "750041843ea79c5c150ce838fd3a6535669fb599b15d16e2368661c912612ace",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -281,9 +306,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "a654b2d637c2369632e0977d0fa95a81bda077665b117704dc67f8857fd7384a",
+      "input_hash": "750041843ea79c5c150ce838fd3a6535669fb599b15d16e2368661c912612ace",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -292,7 +317,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.458017Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "644504654ff73c1c34c2e0a5a729fe51184936f2892f2597513f27aacadbce3a",
       "disposition": "reused",
@@ -303,7 +328,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.458017Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "644504654ff73c1c34c2e0a5a729fe51184936f2892f2597513f27aacadbce3a",
       "disposition": "reused",
@@ -311,9 +336,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

@@ -91,7 +91,30 @@
     "Queensland, Australia",
     "Australia (organisation reports activity in Australia, New Zealand and the South Pacific)"
   ],
-  "causebase_summary": "Ivory’s Rock Foundation (registered in Queensland) describes itself as a foundation that promotes peace and wellbeing. The foundation’s website says it supports the Peace Education Program in Australia, New Zealand and the South Pacific and states that the program is held in high schools, universities, health care facilities, veteran’s groups, police units and correctional facilities; the website also notes the Peace Education Program operates in 87 countries (organisation claim). Ivory’s Rock Foundation says it sponsors and hosts peace and wellbeing events in its region, and that it invites Prem Rawat as keynote speaker when his schedule permits. The foundation states it supports activities associated with the United Nations International Day of Peace each year. The website additionally notes that “there are over 160 species recorded at Ivory’s Rock including some threatened and endangered wildlife.” The foundation’s 2023 Australian Information Statement reports total revenue of AUD 3,323,799 and total expenses of AUD 2,338,875 for the year ending 31 December 2023. The website includes anniversary material for Prem Rawat and references an on-site location called Ivory’s Rock where events and conservation observations are reported.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:49143249290"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-QLD",
+      "label": "Queensland",
+      "evidence_ids": [
+        "ev:acnc:49143249290"
+      ]
+    }
+  ],
+  "causebase_summary": "Ivory's Rock Foundation is a Queensland-based foundation that reports activity across Australia, New Zealand and the South Pacific. As of 2026 it supports the Peace Education Program in Australia, New Zealand and the South Pacific and sponsors and hosts peace and wellbeing events in its region. The foundation describes the Peace Education Program as being delivered in high schools, universities, health-care facilities, veterans' groups, police units and correctional facilities. It states that Prem Rawat has been invited as keynote speaker for selected events when his schedule permits and that it supports activities associated with the United Nations International Day of Peace. The foundation also reports conservation and sustainability work at the Ivory's Rock property and records over 160 species, including some threatened or endangered wildlife.",
+  "summary_evidence_ids": [
+    "ev:web:49143249290:2026-08-10",
+    "ev:ais:49143249290:2023",
+    "ev:acnc:49143249290"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Supports the Peace Education Program in Australia, New Zealand and the South Pacific (organisation claim)",
@@ -113,8 +136,8 @@
       "source_record_id": "src:acnc-register:6d94aa70-d0f7-54a9-b766-a0af722c829d",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=49143249290",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -122,7 +145,10 @@
         "ABN": "49143249290",
         "Legal Name": "Ivory's Rock Foundation",
         "Registration Status": "registered",
-        "ACNC classifications": "education; general community"
+        "ACNC classifications": "education; general community",
+        "Website": "https://ivorysrock.foundation",
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -138,7 +164,7 @@
       "source_family": "acnc-ais",
       "dataset_version": "2026-08-10",
       "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": "2023-01-01",
       "effective_to": "2023-12-31",
@@ -399,34 +425,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "b874b6215cd0624d6373c336f55825c95c3e26212ea71baa81ec342f8fe269fb",
-    "generated_at": "2026-08-10T12:53:45.430039Z",
+    "evidence_input_hash": "d675917066345af3ea31333fbe15a7fed4925261c88a4bf197e3226bd7500b7f",
+    "generated_at": "2026-08-12T13:55:26.472551Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T12:53:45.430039Z",
+      "generated_at": "2026-08-12T13:55:26.472551Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "b874b6215cd0624d6373c336f55825c95c3e26212ea71baa81ec342f8fe269fb",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "d675917066345af3ea31333fbe15a7fed4925261c88a4bf197e3226bd7500b7f",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T12:53:45.430039Z",
+      "generated_at": "2026-08-12T13:55:26.472551Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "b874b6215cd0624d6373c336f55825c95c3e26212ea71baa81ec342f8fe269fb",
+      "input_hash": "d675917066345af3ea31333fbe15a7fed4925261c88a4bf197e3226bd7500b7f",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -435,9 +461,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "b874b6215cd0624d6373c336f55825c95c3e26212ea71baa81ec342f8fe269fb",
+      "input_hash": "d675917066345af3ea31333fbe15a7fed4925261c88a4bf197e3226bd7500b7f",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -446,7 +472,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.456684Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "aa94a7a2efd673e14f632f3fd0cc867f7af6c485d046e5fd03b52c03171b7c9d",
       "disposition": "reused",
@@ -457,7 +483,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.456684Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "aa94a7a2efd673e14f632f3fd0cc867f7af6c485d046e5fd03b52c03171b7c9d",
       "disposition": "reused",
@@ -465,9 +491,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

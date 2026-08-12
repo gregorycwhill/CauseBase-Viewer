@@ -91,7 +91,30 @@
     "Australia (website text refers to settling in Australia)",
     "Australian Capital Territory (ACT) (structured geography in records / ACNC extract observed)"
   ],
-  "causebase_summary": "Settlement Council of Australia (SCoA) is presented on its website as a peak body for settlement agencies, with invites to \"become a member\" of \"Australia’s leading settlement agencies\". The site includes a Reconciliation Action Plan (labelled RAP) and a section titled \"National Settlement Outcome Standards\", described on the website as articulating outcomes for refugees and migrants to be considered \"settled\". The organisation’s online homepage uses the phrase \"Making Australia home\" and explicitly references migrants and refugees settling in Australia. An ACNC information extract and the organisation’s 2022–23 AIS are included in the available records; the AIS records total revenue of AUD 1,340,626 and total expenses of AUD 1,245,694 for the period 01/07/2022 to 30/06/2023. The evidence consists of the organisation’s website text and the ACNC AIS entry; the website text is presented here as the organisation’s own descriptions rather than independently verified operational facts.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:27983821157"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-ACT",
+      "label": "Australian Capital Territory",
+      "evidence_ids": [
+        "ev:acnc:27983821157"
+      ]
+    }
+  ],
+  "causebase_summary": "Settlement Council of Australia (SCoA) is a national peak body based in Australia (registered presence in the Australian Capital Territory). As of records observed on 10 August 2026, SCoA operates a membership programme for settlement agencies, publishes the National Settlement Outcome Standards that set out outcomes for refugees and migrants to be considered ‘settled’, and maintains a Reconciliation Action Plan. The organisation’s work is presented as supporting settlement agencies and the process of settlement for people arriving in Australia. Evidence cited for this summary includes the organisation’s website and regulatory filings/current information listed to 2023 and 2026.",
+  "summary_evidence_ids": [
+    "ev:web:27983821157:2026-08-10",
+    "ev:ais:27983821157:2023",
+    "ev:acnc:27983821157"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Website invitation to join as a member of settlement agencies (membership programme described on site)",
@@ -112,8 +135,8 @@
       "source_record_id": "src:acnc-register:17bf2a03-4c91-57cd-a67e-77625525337c",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=27983821157",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -121,7 +144,10 @@
         "ABN": "27983821157",
         "Legal Name": "Settlement Council Of Australia",
         "Registration Status": "registered",
-        "ACNC classifications": "social welfare; migrants refugees"
+        "ACNC classifications": "social welfare; migrants refugees",
+        "Website": "www.scoa.org.au",
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -137,7 +163,7 @@
       "source_family": "acnc-ais",
       "dataset_version": "2026-08-10",
       "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": "2022-07-01",
       "effective_to": "2023-06-30",
@@ -389,34 +415,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "cffdbe7777efcee7731f5b1e8cace47cfc9773046d9022cab3e7646700e22307",
-    "generated_at": "2026-08-10T12:59:28.337495Z",
+    "evidence_input_hash": "ba9a4c4da807338d144e8ef25d1a2a65fe38a3e425b4b85eb7a559c9694a8cb6",
+    "generated_at": "2026-08-12T14:13:33.384804Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T12:59:28.337495Z",
+      "generated_at": "2026-08-12T14:13:33.384804Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "cffdbe7777efcee7731f5b1e8cace47cfc9773046d9022cab3e7646700e22307",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "ba9a4c4da807338d144e8ef25d1a2a65fe38a3e425b4b85eb7a559c9694a8cb6",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T12:59:28.337495Z",
+      "generated_at": "2026-08-12T14:13:33.384804Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "cffdbe7777efcee7731f5b1e8cace47cfc9773046d9022cab3e7646700e22307",
+      "input_hash": "ba9a4c4da807338d144e8ef25d1a2a65fe38a3e425b4b85eb7a559c9694a8cb6",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -425,9 +451,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "cffdbe7777efcee7731f5b1e8cace47cfc9773046d9022cab3e7646700e22307",
+      "input_hash": "ba9a4c4da807338d144e8ef25d1a2a65fe38a3e425b4b85eb7a559c9694a8cb6",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -436,7 +462,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.457809Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "527f39792169c25986ef884509fbb3dcfdf07feec0ebc462bba9a90cea40e576",
       "disposition": "reused",
@@ -447,7 +473,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.457809Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "527f39792169c25986ef884509fbb3dcfdf07feec0ebc462bba9a90cea40e576",
       "disposition": "reused",
@@ -455,9 +481,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

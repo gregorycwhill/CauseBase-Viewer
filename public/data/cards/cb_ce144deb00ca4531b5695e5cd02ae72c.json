@@ -88,7 +88,29 @@
   "geography": [
     "Victoria, Australia"
   ],
-  "causebase_summary": "A F E Common Equity Rental Housing Co-operative Limited appears on the Australian Charities and Not-for-profits Commission (ACNC) register under that legal name. The available ACNC Annual Information Statement (AIS) for the year 01/07/2022 to 30/06/2023 reports the entity’s financials: total revenue of AUD 176,523 and total expenses of AUD 171,661 for that period. The AIS record included in the evidence lists the reporting scope as the subject, notes the entity itself as the covered subject, and records the attribution method as a direct subject report; the AIS extract indicates the consolidated reporting status as unknown. The supplied coverage metadata shows ACNC/regulatory information was observed and that no website content was available to the data source. The evidence package does not include a separate annual report, program descriptions, beneficiary lists, or descriptions of activities or modes of participation. No public website or other organisational publications were provided in the evidence set.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:29041947678"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-VIC",
+      "label": "Victoria",
+      "evidence_ids": [
+        "ev:acnc:29041947678"
+      ]
+    }
+  ],
+  "causebase_summary": "A F E Common Equity Rental Housing Co-operative Limited is an incorporated co-operative located in Victoria, Australia. The record includes regulatory filings for the 2022–23 reporting year (ACNC AIS for 01/07/2022–30/06/2023). CauseBase does not have sufficient descriptive evidence in this release to independently identify the co-operative’s specific activities, services or intended beneficiaries.",
+  "summary_evidence_ids": [
+    "ev:acnc:29041947678",
+    "ev:ais:29041947678:2023"
+  ],
   "organisation_self_description": null,
   "activities": [],
   "beneficiaries": [],
@@ -99,8 +121,8 @@
       "source_record_id": "src:acnc-register:bdc889e4-bae6-54ba-b527-cbad388de502",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=29041947678",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -108,7 +130,10 @@
         "ABN": "29041947678",
         "Legal Name": "A F E Common Equity Rental Housing Co-operative Limited",
         "Registration Status": "registered",
-        "ACNC classifications": "social welfare; general community"
+        "ACNC classifications": "social welfare; general community",
+        "Website": null,
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -124,7 +149,7 @@
       "source_family": "acnc-ais",
       "dataset_version": "2026-08-10",
       "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": "2022-07-01",
       "effective_to": "2023-06-30",
@@ -310,34 +335,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "21d6c9b43c8d19b353be1a52807dabdfc77b9c455387d39e499cfcf375be45c6",
-    "generated_at": "2026-08-10T12:56:43.670980Z",
+    "evidence_input_hash": "85a8168096ff518e206335409056fd9b3de74830576a40b8055bd123630cdfae",
+    "generated_at": "2026-08-12T14:05:29.772608Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T12:56:43.670980Z",
+      "generated_at": "2026-08-12T14:05:29.772608Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "21d6c9b43c8d19b353be1a52807dabdfc77b9c455387d39e499cfcf375be45c6",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "85a8168096ff518e206335409056fd9b3de74830576a40b8055bd123630cdfae",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T12:56:43.670980Z",
+      "generated_at": "2026-08-12T14:05:29.772608Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "21d6c9b43c8d19b353be1a52807dabdfc77b9c455387d39e499cfcf375be45c6",
+      "input_hash": "85a8168096ff518e206335409056fd9b3de74830576a40b8055bd123630cdfae",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -346,9 +371,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "21d6c9b43c8d19b353be1a52807dabdfc77b9c455387d39e499cfcf375be45c6",
+      "input_hash": "85a8168096ff518e206335409056fd9b3de74830576a40b8055bd123630cdfae",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -357,7 +382,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.457322Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "fd8fdd53e28d7169b20cb2565893fe2b897b255f59c5715c03be78eacf3aa386",
       "disposition": "reused",
@@ -368,7 +393,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.457322Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "fd8fdd53e28d7169b20cb2565893fe2b897b255f59c5715c03be78eacf3aa386",
       "disposition": "reused",
@@ -376,9 +401,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

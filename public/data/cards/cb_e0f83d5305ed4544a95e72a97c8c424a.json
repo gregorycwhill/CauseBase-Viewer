@@ -93,7 +93,21 @@
     "Services and volunteers across Australia",
     "National coverage (reports service to 211 hospitals and 102 funeral homes across Australia)"
   ],
-  "causebase_summary": "Angel Gowns Australia Incorporated is a volunteer-run charity that repurposes donated wedding and evening-wear fabrics into garments and related items for bereaved families, hospitals and funeral homes. The organisation’s 2021 annual report states it had over 370 volunteers across all states and territories, organised seamstress, tutu-maker and de-constructor roles, and named a management committee and state coordinators. Program activity described in that report includes: handcrafting Angel Gown garments and micro-gowns; producing more than 60 tutus in the past 12 months using salvaged tulle (stock gifted to Ronald McDonald House Perth, Perth Children’s Hospital, Royal Children’s Hospital Melbourne and Women’s and Children’s Hospital Adelaide); creating an Early Loss Pouch for babies under 20 weeks; and fulfilling special requests (report lists specific gifts such as eight poem cards with crystals, multiple micro-gown/wrap packs and larger gowns). The report records the service being stocked by 211 hospitals and 102 funeral homes and notes logistics challenges during COVID (storage access, delivery delays with TOLL/AusPost). The organisation’s 2022–23 regulatory reporting shows revenue of AUD 14,107 and expenses of AUD 23,383.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:32590616129"
+      ]
+    }
+  ],
+  "causebase_summary": "Angel Gowns Australia Incorporated is a volunteer-run Australian not-for-profit that handcrafts and distributes garments made from donated wedding dresses. It supplies Angel Gown garments and smaller micro-gowns, tutus made from salvaged tulle, and Early Loss Pouches to hospitals, funeral homes and directly to families. Volunteers act as seamstresses, tutu makers, de‑constructors and coordinators; the charity also manages logistics, storage, special garment requests and a database to coordinate supply. Angel Gowns Australia reports nationwide activity and volunteer membership, and its 2020–21 annual report states it was servicing 211 hospitals and 102 funeral homes across Australia.",
+  "summary_evidence_ids": [
+    "ev:report:32590616129:3a9518409a8d",
+    "ev:web:32590616129:2026-08-10"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Handcrafting Angel Gown garments and micro-gowns from donated wedding dresses and donating them to hospitals, funeral homes and families",
@@ -122,8 +136,8 @@
       "source_record_id": "src:acnc-register:1087a3cd-7169-5e5a-b703-f8e114664e79",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=32590616129",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -131,7 +145,10 @@
         "ABN": "32590616129",
         "Legal Name": "Angel Gowns Australia Incorporated",
         "Registration Status": "registered",
-        "ACNC classifications": "health; children"
+        "ACNC classifications": "health; children",
+        "Website": "https://www.angelgownsaustralia.org.au",
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -147,7 +164,7 @@
       "source_family": "acnc-ais",
       "dataset_version": "2026-08-10",
       "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": "2022-07-01",
       "effective_to": "2023-06-30",
@@ -429,34 +446,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "898c871d1347e74d1fc00be81b7cc7126afd8017f93ad335a7c895d1f4d682e6",
-    "generated_at": "2026-08-10T12:56:52.060325Z",
+    "evidence_input_hash": "5db9e51223881d8add1e1f5a9705403406f8ec835664f0ab4809e4009c8263eb",
+    "generated_at": "2026-08-12T14:05:59.806552Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T12:56:52.060325Z",
+      "generated_at": "2026-08-12T14:05:59.806552Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "898c871d1347e74d1fc00be81b7cc7126afd8017f93ad335a7c895d1f4d682e6",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "5db9e51223881d8add1e1f5a9705403406f8ec835664f0ab4809e4009c8263eb",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T12:56:52.060325Z",
+      "generated_at": "2026-08-12T14:05:59.806552Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "898c871d1347e74d1fc00be81b7cc7126afd8017f93ad335a7c895d1f4d682e6",
+      "input_hash": "5db9e51223881d8add1e1f5a9705403406f8ec835664f0ab4809e4009c8263eb",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -465,9 +482,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "898c871d1347e74d1fc00be81b7cc7126afd8017f93ad335a7c895d1f4d682e6",
+      "input_hash": "5db9e51223881d8add1e1f5a9705403406f8ec835664f0ab4809e4009c8263eb",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -476,7 +493,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.457352Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "3f165c926980464aba55e3ce81d9989809c3e3649bde0e1b26d6b9b0e9e3cf8a",
       "disposition": "reused",
@@ -487,7 +504,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.457352Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "3f165c926980464aba55e3ce81d9989809c3e3649bde0e1b26d6b9b0e9e3cf8a",
       "disposition": "reused",
@@ -495,9 +512,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

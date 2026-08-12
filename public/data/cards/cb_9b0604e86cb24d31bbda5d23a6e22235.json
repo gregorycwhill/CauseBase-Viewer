@@ -90,7 +90,30 @@
   "geography": [
     "Queensland (Australia)"
   ],
-  "causebase_summary": "Ann Street Presbyterian Church is listed with Queensland as its structured location, and the website content available for the Presbyterian Church of Queensland (PCQ) describes state-level activity that the congregation is associated with. The PCQ website states it “encourag(es) and support(s) individual churches to grow” and lists concrete programmes and resources: Christian education, hospital chaplains, ministry resourcing, women’s ministries, youth and children’s ministry, a PIM Gap Year placement, a “Find a Church” directory, PCQ events, and congregational policies and forms. The website frames these items as ways the Presbyterian Church of Queensland pursues its stated aim of “making known the good news of Jesus Christ,” language presented as organisation-authored claim. The ACNC AIS extract for the 2023 reporting year included in the evidence package records zero revenue and zero total expenses for the reporting subject for 01/01/2023–31/12/2023. Publicly available excerpts provide programme names and administrative resources, but do not include detailed service volumes, staffing or separate financials for the named congregation in the selected documents.",
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:39410139423"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-QLD",
+      "label": "Queensland",
+      "evidence_ids": [
+        "ev:acnc:39410139423"
+      ]
+    }
+  ],
+  "causebase_summary": "Ann Street Presbyterian Church is a Presbyterian congregation in Queensland, Australia. Materials associated with the Presbyterian Church of Queensland indicate congregations in the state are supported through Christian education programming, hospital chaplaincy, ministry resourcing for individual congregations, women’s ministries, youth and children’s ministry, the PIM Gap Year programme, and PCQ events and public programming. The congregation has pathways for people to attend PCQ events, enrol in ministry programmes and access congregational resources and training materials.",
+  "summary_evidence_ids": [
+    "ev:web:39410139423:2026-08-10",
+    "ev:acnc:39410139423",
+    "ev:ais:39410139423:2023"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Christian education programming (as listed on PCQ site)",
@@ -119,8 +142,8 @@
       "source_record_id": "src:acnc-register:0d78896f-9d7d-5c22-8fe6-93d6cb261552",
       "source_family": "acnc-register",
       "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=39410139423",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": null,
       "effective_to": null,
@@ -128,7 +151,10 @@
         "ABN": "39410139423",
         "Legal Name": "Ann Street Presbyterian Church",
         "Registration Status": "registered",
-        "ACNC classifications": "religion; general community"
+        "ACNC classifications": "religion; general community",
+        "Website": "www.pcq.org.au",
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
@@ -144,7 +170,7 @@
       "source_family": "acnc-ais",
       "dataset_version": "2026-08-10",
       "source_url": null,
-      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
       "observed_at": "2026-08-10",
       "effective_from": "2023-01-01",
       "effective_to": "2023-12-31",
@@ -405,34 +431,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "7340639a0a8785e09a4b5b0e00c399f2a017944008bd8af7450f1a0039271de4",
-    "generated_at": "2026-08-10T12:57:12.004893Z",
+    "evidence_input_hash": "987a187d82d009bb7e6a280331adbbda595d6829f3c1ea2e2515b1abd6368128",
+    "generated_at": "2026-08-12T14:07:14.663617Z",
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [
     {
       "derivative": "summary",
-      "generated_at": "2026-08-10T12:57:12.004893Z",
+      "generated_at": "2026-08-12T14:07:14.663617Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "7340639a0a8785e09a4b5b0e00c399f2a017944008bd8af7450f1a0039271de4",
-      "disposition": "reused",
-      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "987a187d82d009bb7e6a280331adbbda595d6829f3c1ea2e2515b1abd6368128",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
       "affected_dimensions": []
     },
     {
       "derivative": "taxonomy",
-      "generated_at": "2026-08-10T12:57:12.004893Z",
+      "generated_at": "2026-08-12T14:07:14.663617Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "7340639a0a8785e09a4b5b0e00c399f2a017944008bd8af7450f1a0039271de4",
+      "input_hash": "987a187d82d009bb7e6a280331adbbda595d6829f3c1ea2e2515b1abd6368128",
       "disposition": "reused",
       "reason": "No new supported canonical classification facts.",
       "affected_dimensions": []
@@ -441,9 +467,9 @@
       "derivative": "fundraising",
       "generated_at": null,
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "7340639a0a8785e09a4b5b0e00c399f2a017944008bd8af7450f1a0039271de4",
+      "input_hash": "987a187d82d009bb7e6a280331adbbda595d6829f3c1ea2e2515b1abd6368128",
       "disposition": "reused",
       "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
       "affected_dimensions": []
@@ -452,7 +478,7 @@
       "derivative": "embedding",
       "generated_at": "2026-08-10T13:53:24.457430Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "d567739ae922ea8d3dfdde4344838a417a4a404925ec5f99b09242f3f4068a78",
       "disposition": "reused",
@@ -463,7 +489,7 @@
       "derivative": "similarities",
       "generated_at": "2026-08-10T13:53:24.457430Z",
       "evidence_through": null,
-      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
       "assessment_method": "phase2b-deterministic-v1",
       "input_hash": "d567739ae922ea8d3dfdde4344838a417a4a404925ec5f99b09242f3f4068a78",
       "disposition": "reused",
@@ -471,9 +497,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc1",
-  "card_schema_version": "0.2",
-  "editorial_policy_version": "0.2",
-  "generator_version": "0.2.0",
-  "built_at": "2026-08-12T11:26:59.282210Z"
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
 }

@@ -1,0 +1,419 @@
+{
+  "causebase_id": "cb_6f183b80a2e54c17a2453bf0cb0281c5",
+  "subject_kind": "unknown",
+  "external_identifiers": [
+    {
+      "scheme": "abn",
+      "value": "97442336082",
+      "source_evidence_id": "ev:acnc:97442336082"
+    }
+  ],
+  "registrations": [
+    {
+      "regulator": "ACNC",
+      "registration_id": null,
+      "status": "registered",
+      "evidence_ids": [
+        "ev:acnc:97442336082"
+      ]
+    }
+  ],
+  "tax_statuses": [],
+  "relationships": [],
+  "source_resolutions": [
+    {
+      "source_record_id": "src:acnc-register:8f3b2770-f777-5c66-a47c-81e41e4bbf73",
+      "resolution_status": "resolved",
+      "resolution_basis": "automated authoritative ACNC promotion under acnc-authoritative-v1",
+      "confidence": "high",
+      "supporting_signals": [
+        "ABN:97442336082",
+        "ACNC Register"
+      ],
+      "conflicting_signals": [],
+      "review_status": "not_required"
+    }
+  ],
+  "legal_name": "Celebrate Health Care Limited",
+  "display_name": "Celebrate Health Care Limited",
+  "entity_status": "registered",
+  "coverage": [
+    {
+      "capability": "regulatory",
+      "status": "observed",
+      "source_record_id": null,
+      "evidence_ids": [
+        "ev:acnc:97442336082"
+      ],
+      "observed_at": "2026-08-10",
+      "freshness_note": null
+    },
+    {
+      "capability": "annual_report",
+      "status": "not_yet_processed",
+      "source_record_id": null,
+      "evidence_ids": [],
+      "observed_at": "2026-08-10",
+      "freshness_note": null
+    },
+    {
+      "capability": "website",
+      "status": "observed",
+      "source_record_id": null,
+      "evidence_ids": [
+        "ev:web:97442336082:2026-08-10"
+      ],
+      "observed_at": "2026-08-10",
+      "freshness_note": null
+    },
+    {
+      "capability": "fundraising_expenditure",
+      "status": "not_available_from_source",
+      "source_record_id": null,
+      "evidence_ids": [],
+      "observed_at": "2026-08-10",
+      "freshness_note": "No direct or defensible derived fundraising expenditure was found in selected Phase 2A evidence."
+    },
+    {
+      "capability": "financials",
+      "status": "observed",
+      "source_record_id": null,
+      "evidence_ids": [
+        "ev:ais:97442336082:2023"
+      ],
+      "observed_at": "2026-08-10",
+      "freshness_note": null
+    }
+  ],
+  "enrichment_level": "enriched",
+  "website": "https://www.celebrate.org.au",
+  "geography": [
+    "Tasmania",
+    "Glamorgan Spring Bay region",
+    "Dorset region",
+    "Break O’Day region",
+    "Scottsdale (Northeast Tasmania)",
+    "Swansea (East Coast, Tasmania)"
+  ],
+  "causebase_summary": "According to its website and ACNC filings, Celebrate Health Care Limited (Celebrate Health Care) operates aged care services in Tasmania. The website names two residential sites — Celebrate May Shaw on the East Coast (Swansea) and Celebrate Aminya in northeast Tasmania (Scottsdale) — and states these sites provide residential care and offer respite stays. The organisation also describes a team that delivers personalised aged care support in clients’ homes and says its packages use a Consumer Directed Care (CDC) approach. The website includes resident testimonials and references to activities and bus tours for residents. The ACNC/AIS extract for 01/07/2022–30/06/2023 records revenue of AUD 17,168,860 and total expenses of AUD 17,192,602 for the reporting entity. Geographic areas named on the website include Glamorgan Spring Bay, Dorset and Break O’Day regions. The material presented is largely organisation-authored: service models, site descriptions (for example, references to gardens and ocean views at May Shaw) and resident quotes appear on the website, while the AIS provides the financial totals for the 2022–23 year.",
+  "organisation_self_description": null,
+  "activities": [
+    "Residential aged care at two sites (Scottsdale and Swansea)",
+    "Respite care at Scottsdale and Swansea",
+    "Personalised in‑home aged care support",
+    "Consumer Directed Care (CDC) packages",
+    "Organised activities and bus tours for residents (described in website testimonials)"
+  ],
+  "beneficiaries": [
+    "Residents of the organisation's residential aged care sites",
+    "People using short‑term respite stays",
+    "People receiving in‑home aged care support",
+    "People living in Glamorgan Spring Bay, Dorset and Break O’Day regions"
+  ],
+  "participation_modes": [
+    "In‑person residential stays",
+    "Short‑term respite stays",
+    "In‑home care visits",
+    "Consumer‑directed care planning"
+  ],
+  "opportunities": [],
+  "source_native_records": [
+    {
+      "source_record_id": "src:acnc-register:8f3b2770-f777-5c66-a47c-81e41e4bbf73",
+      "source_family": "acnc-register",
+      "dataset_version": "2026-08-10",
+      "source_url": null,
+      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "observed_at": "2026-08-10",
+      "effective_from": null,
+      "effective_to": null,
+      "source_fields": {
+        "ABN": "97442336082",
+        "Legal Name": "Celebrate Health Care Limited",
+        "Registration Status": "registered",
+        "ACNC classifications": "health; older people"
+      },
+      "canonical_field_mappings": {
+        "ABN": "external_identifiers",
+        "Legal Name": "legal_name",
+        "Registration Status": "registrations"
+      },
+      "evidence_ids": [
+        "ev:acnc:97442336082"
+      ]
+    },
+    {
+      "source_record_id": "src:acnc-ais:fr:ais:cb_6f183b80a2e54c17a2453bf0cb0281c5:2023",
+      "source_family": "acnc-ais",
+      "dataset_version": "2026-08-10",
+      "source_url": null,
+      "retrieved_at": "2026-08-12T11:26:59.282210Z",
+      "observed_at": "2026-08-10",
+      "effective_from": "2022-07-01",
+      "effective_to": "2023-06-30",
+      "source_fields": {
+        "Reporting period": "01/07/2022 to 30/06/2023",
+        "Reporting scope": "subject",
+        "Consolidated": "false",
+        "Revenue": "17168860",
+        "Donations and bequests": null,
+        "Government grants": null,
+        "Total expenses": "17192602",
+        "Assets": null,
+        "Liabilities": null
+      },
+      "canonical_field_mappings": {
+        "Revenue": "financial_records[].revenue",
+        "Total expenses": "financial_records[].total_expenses"
+      },
+      "evidence_ids": [
+        "ev:ais:97442336082:2023"
+      ]
+    }
+  ],
+  "financial_records": [
+    {
+      "financial_record_id": "fr:ais:cb_6f183b80a2e54c17a2453bf0cb0281c5:2023",
+      "period": {
+        "period_start": "2022-07-01",
+        "period_end": "2023-06-30",
+        "period_length_days": 365,
+        "label": "01/07/2022 to 30/06/2023",
+        "is_transitional_or_nonstandard": false
+      },
+      "reporting_scope": "subject",
+      "reporting_subject_causebase_id": "cb_6f183b80a2e54c17a2453bf0cb0281c5",
+      "covered_subjects": [
+        "cb_6f183b80a2e54c17a2453bf0cb0281c5"
+      ],
+      "consolidated": "false",
+      "attribution_method": "direct_subject_report",
+      "evidence_ids": [
+        "ev:ais:97442336082:2023"
+      ],
+      "revenue": {
+        "source_amount": "17168860",
+        "source_currency": "AUD",
+        "source_unit_scale": "1",
+        "normalised_amount": "17168860",
+        "normalised_currency": "AUD",
+        "source_unit_label": null,
+        "source_raw_value": "17168860",
+        "source_precision": null
+      },
+      "donations": null,
+      "government_grants": null,
+      "employee_costs": null,
+      "total_expenses": {
+        "source_amount": "17192602",
+        "source_currency": "AUD",
+        "source_unit_scale": "1",
+        "normalised_amount": "17192602",
+        "normalised_currency": "AUD",
+        "source_unit_label": null,
+        "source_raw_value": "17192602",
+        "source_precision": null
+      },
+      "assets": null,
+      "liabilities": null
+    }
+  ],
+  "financial_metrics": [
+    {
+      "metric": "revenue",
+      "observations": [
+        {
+          "financial_record_id": "fr:ais:cb_6f183b80a2e54c17a2453bf0cb0281c5:2023",
+          "amount": {
+            "source_amount": "17168860",
+            "source_currency": "AUD",
+            "source_unit_scale": "1",
+            "normalised_amount": "17168860",
+            "normalised_currency": "AUD",
+            "source_unit_label": null,
+            "source_raw_value": "17168860",
+            "source_precision": null
+          },
+          "metric_source_label": null,
+          "evidence_ids": [
+            "ev:ais:97442336082:2023"
+          ]
+        }
+      ],
+      "reconciliation_status": "single_observation",
+      "reconciliation_notes": null
+    },
+    {
+      "metric": "total_expenses",
+      "observations": [
+        {
+          "financial_record_id": "fr:ais:cb_6f183b80a2e54c17a2453bf0cb0281c5:2023",
+          "amount": {
+            "source_amount": "17192602",
+            "source_currency": "AUD",
+            "source_unit_scale": "1",
+            "normalised_amount": "17192602",
+            "normalised_currency": "AUD",
+            "source_unit_label": null,
+            "source_raw_value": "17192602",
+            "source_precision": null
+          },
+          "metric_source_label": null,
+          "evidence_ids": [
+            "ev:ais:97442336082:2023"
+          ]
+        }
+      ],
+      "reconciliation_status": "single_observation",
+      "reconciliation_notes": null
+    }
+  ],
+  "fundraising_expenditure": null,
+  "funding_sources": [],
+  "fundraising_methods": [],
+  "classifications": [
+    {
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "purpose.health",
+      "term_label": "health",
+      "assignment_method": "source_native",
+      "confidence": "high",
+      "evidence_ids": [
+        "ev:acnc:97442336082"
+      ]
+    },
+    {
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "beneficiary.older_people",
+      "term_label": "older people",
+      "assignment_method": "source_native",
+      "confidence": "high",
+      "evidence_ids": [
+        "ev:acnc:97442336082"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "ev:acnc:97442336082",
+      "source_type": "regulatory",
+      "title": "ACNC Register extract",
+      "publisher": "Australian Charities and Not-for-profits Commission",
+      "url": null,
+      "observed_at": "2026-08-10",
+      "reporting_period": null,
+      "page": null,
+      "section": null,
+      "content_hash": null
+    },
+    {
+      "evidence_id": "ev:web:97442336082:2026-08-10",
+      "source_type": "organisation_self_report",
+      "title": "Organisation website homepage",
+      "publisher": "Celebrate Health Care Limited",
+      "url": "https://www.celebrate.org.au",
+      "observed_at": "2026-08-10",
+      "reporting_period": null,
+      "page": null,
+      "section": null,
+      "content_hash": null
+    },
+    {
+      "evidence_id": "ev:ais:97442336082:2023",
+      "source_type": "regulatory",
+      "title": "ACNC AIS 2023 extract",
+      "publisher": "Australian Charities and Not-for-profits Commission",
+      "url": null,
+      "observed_at": "2026-08-10",
+      "reporting_period": "01/07/2022 to 30/06/2023",
+      "page": null,
+      "section": null,
+      "content_hash": null
+    }
+  ],
+  "embedding": {
+    "embedding_id": "cb_6f183b80a2e54c17a2453bf0cb0281c5:entity:text-embedding-3-small",
+    "embedding_type": "entity",
+    "model_id": "text-embedding-3-small",
+    "model_version": "text-embedding-3-small",
+    "dimensions": 1536,
+    "source_text_hash": "37a080b884ae02c23de0b6975469b385802ab97b322ee23d979c8a19409e325a",
+    "generated_at": "2026-08-10T13:53:24.457005Z",
+    "vector_ref": "embeddings.parquet#cb_6f183b80a2e54c17a2453bf0cb0281c5"
+  },
+  "synthesis": {
+    "model_id": "gpt-5-mini-2025-08-07",
+    "prompt_version": "phase2a-0.4",
+    "parameters": {
+      "max_output_tokens": 3000,
+      "structured_output": true
+    },
+    "evidence_input_hash": "d3fb138beef9c13201d27028f26b6399ab9c782d3cd6b0619c08fe2911fda9bd",
+    "generated_at": "2026-08-10T12:55:00.587011Z",
+    "editorial_policy_version": "0.1"
+  },
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-10T12:55:00.587011Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "assessment_method": "phase2b-deterministic-v1",
+      "input_hash": "d3fb138beef9c13201d27028f26b6399ab9c782d3cd6b0619c08fe2911fda9bd",
+      "disposition": "reused",
+      "reason": "Existing summary retained: source-native projection added no new canonical descriptive facts.",
+      "affected_dimensions": []
+    },
+    {
+      "derivative": "taxonomy",
+      "generated_at": "2026-08-10T12:55:00.587011Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "assessment_method": "phase2b-deterministic-v1",
+      "input_hash": "d3fb138beef9c13201d27028f26b6399ab9c782d3cd6b0619c08fe2911fda9bd",
+      "disposition": "reused",
+      "reason": "No new supported canonical classification facts.",
+      "affected_dimensions": []
+    },
+    {
+      "derivative": "fundraising",
+      "generated_at": null,
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "assessment_method": "phase2b-deterministic-v1",
+      "input_hash": "d3fb138beef9c13201d27028f26b6399ab9c782d3cd6b0619c08fe2911fda9bd",
+      "disposition": "reused",
+      "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
+      "affected_dimensions": []
+    },
+    {
+      "derivative": "embedding",
+      "generated_at": "2026-08-10T13:53:24.457005Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "assessment_method": "phase2b-deterministic-v1",
+      "input_hash": "37a080b884ae02c23de0b6975469b385802ab97b322ee23d979c8a19409e325a",
+      "disposition": "reused",
+      "reason": "Semantic source text unchanged.",
+      "affected_dimensions": []
+    },
+    {
+      "derivative": "similarities",
+      "generated_at": "2026-08-10T13:53:24.457005Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-12T11:26:59.282210Z",
+      "assessment_method": "phase2b-deterministic-v1",
+      "input_hash": "37a080b884ae02c23de0b6975469b385802ab97b322ee23d979c8a19409e325a",
+      "disposition": "reused",
+      "reason": "Embedding reused; semantic neighbours retained.",
+      "affected_dimensions": []
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-12-rc1",
+  "card_schema_version": "0.2",
+  "editorial_policy_version": "0.2",
+  "generator_version": "0.2.0",
+  "built_at": "2026-08-12T11:26:59.282210Z"
+}
