@@ -23,3 +23,11 @@ export function taxonomyHeading(taxonomyId) {
   if (taxonomyId === "acnc-register") return "ACNC classifications";
   return `${taxonomyId} classifications`;
 }
+
+export function fundingSourceLabel(sourceType) {
+  return String(sourceType ?? "other").replaceAll("_", " ");
+}
+
+export function sourceRecordLocator(record) {
+  return `./public/data/source-records/${encodeURIComponent(record.source_record_id)}.json`;
+}

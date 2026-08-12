@@ -1,7 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 
-import { financialMetricDisplay, fundraisingDisplay, taxonomyHeading } from "../src/presentation.mjs";
+import { financialMetricDisplay, fundraisingDisplay, fundingSourceLabel, sourceRecordLocator, taxonomyHeading } from "../src/presentation.mjs";
 
 test("renders a missing fundraising estimate without placeholder metadata", () => {
   assert.equal(fundraisingDisplay({ fundraising_expenditure: null }), "Not available from selected evidence.");
@@ -24,4 +24,9 @@ test("uses observation currency and preserves conflicting financial state", () =
 test("uses friendly but separated taxonomy headings", () => {
   assert.equal(taxonomyHeading("causebase"), "CauseBase classifications");
   assert.equal(taxonomyHeading("acnc-register"), "ACNC classifications");
+});
+
+test("keeps source-native records distinct and linkable", () => {
+  assert.equal(fundingSourceLabel("government_grants_or_contracts"), "government grants or contracts");
+  assert.equal(sourceRecordLocator({ source_record_id: "src:acnc/1" }), "./public/data/source-records/src%3Aacnc%2F1.json");
 });

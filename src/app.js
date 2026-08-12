@@ -1,246 +1,69 @@
-import { filterEntities } from "./search.mjs";
-import { financialMetricDisplay, fundraisingDisplay, taxonomyHeading } from "./presentation.mjs";
+import { facetValues, filterWithFacets } from "./search.mjs";
+import { financialMetricDisplay, fundraisingDisplay, fundingSourceLabel, sourceRecordLocator, taxonomyHeading } from "./presentation.mjs";
 import { correctionUrl } from "./corrections.mjs";
 
-const state = {
-  entities: [],
-  similarities: [],
-  semanticAvailable: false,
-  filtered: [],
-  selectedId: null,
-};
-
+const state = { entities: [], similarities: [], semanticAvailable: false, filtered: [], selectedId: null, facets: { geography: [], taxonomy: [], funding: [] } };
 const els = {
-  search: document.querySelector("#search"),
-  results: document.querySelector("#results"),
-  count: document.querySelector("#result-count"),
-  card: document.querySelector("#card"),
-  feedback: document.querySelector("#feedback-link"),
+  search: document.querySelector("#search"), results: document.querySelector("#results"), count: document.querySelector("#result-count"),
+  card: document.querySelector("#card"), feedback: document.querySelector("#feedback-link"), facets: document.querySelector("#facets"),
 };
 
-async function loadJson(url) {
-  const response = await fetch(url);
-  if (!response.ok) throw new Error(`${response.status} ${response.statusText}: ${url}`);
-  return response.json();
+async function loadJson(url) { const response = await fetch(url); if (!response.ok) throw new Error(`${response.status} ${response.statusText}: ${url}`); return response.json(); }
+function escapeHtml(value) { return String(value ?? "").replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;").replaceAll('"', "&quot;").replaceAll("'", "&#039;"); }
+function externalIdentifiers(entity) { return (entity.external_identifiers ?? []).map(item => `${item.scheme.toUpperCase()} ${item.value}`).join(" · "); }
+function citation(entity, evidenceIds = []) {
+  const links = evidenceIds.map(id => entity.evidence?.find(e => e.evidence_id === id)).filter(Boolean);
+  if (!links.length) return "";
+  return `<span class="citations">${links.map((e, i) => e.url ? `<a href="${escapeHtml(e.url)}" target="_blank" rel="noreferrer" aria-label="Source: ${escapeHtml(e.title)}">[${i + 1}]</a>` : `<span title="${escapeHtml(e.title)}">[${i + 1}]</span>`).join(" ")}</span>`;
 }
+function classificationsByTaxonomy(entity) { const map = new Map(); for (const item of entity.classifications ?? []) { if (!map.has(item.taxonomy_id)) map.set(item.taxonomy_id, []); map.get(item.taxonomy_id).push(item); } return map; }
+function semanticNeighbours(entityId) { const byId = new Map(state.entities.map(e => [e.causebase_id, e])); return state.similarities.filter(row => row.causebase_id === entityId).sort((a, b) => a.rank - b.rank).map(row => ({ ...row, entity: byId.get(row.similar_causebase_id) })).filter(row => row.entity); }
+function activeFacet(value, group) { return state.facets[group].includes(value); }
 
-function escapeHtml(value) {
-  return String(value ?? "")
-    .replaceAll("&", "&amp;")
-    .replaceAll("<", "&lt;")
-    .replaceAll(">", "&gt;")
-    .replaceAll('"', "&quot;")
-    .replaceAll("'", "&#039;");
+function renderFacets() {
+  const values = facetValues(state.entities);
+  const label = (value) => value.includes(":") ? value.split(":").at(-1).replaceAll("_", " ") : value.replaceAll("_", " ");
+  els.facets.innerHTML = Object.entries(values).map(([group, entries]) => entries.length ? `<details class="facet-group"><summary>${escapeHtml(group)}${state.facets[group].length ? ` (${state.facets[group].length})` : ""}</summary><div>${entries.map(value => `<button class="facet ${activeFacet(value, group) ? "active" : ""}" data-group="${group}" data-value="${escapeHtml(value)}" aria-pressed="${activeFacet(value, group)}">${escapeHtml(label(value))}</button>`).join("")}</div></details>` : "").join("");
+  els.facets.querySelectorAll(".facet").forEach(button => button.addEventListener("click", () => toggleFacet(button.dataset.group, button.dataset.value)));
 }
-
-function externalIdentifiers(entity) {
-  return (entity.external_identifiers ?? [])
-    .map(identifier => `${identifier.scheme.toUpperCase()} ${identifier.value}`)
-    .join(" · ");
-}
-
 function renderResults() {
-  els.results.innerHTML = "";
-  els.count.textContent = `${state.filtered.length} organisations`;
-
-  for (const entity of state.filtered) {
-    const button = document.createElement("button");
-    button.className = "result";
-    if (entity.causebase_id === state.selectedId) button.classList.add("selected");
-    button.innerHTML = `
-      <strong>${escapeHtml(entity.display_name)}</strong>
-      <span>${escapeHtml(entity.geography?.[0] ?? "")}</span>
-      <small>${escapeHtml(externalIdentifiers(entity))}</small>
-    `;
-    button.addEventListener("click", () => selectEntity(entity.causebase_id));
-    els.results.appendChild(button);
-  }
+  els.results.innerHTML = ""; els.count.textContent = `${state.filtered.length} organisations`;
+  for (const entity of state.filtered) { const button = document.createElement("button"); button.className = `result ${entity.causebase_id === state.selectedId ? "selected" : ""}`; button.innerHTML = `<strong>${escapeHtml(entity.display_name)}</strong><span>${escapeHtml(entity.geography?.[0] ?? "")}</span><small>${escapeHtml(externalIdentifiers(entity))}</small>`; button.addEventListener("click", () => selectEntity(entity.causebase_id)); els.results.appendChild(button); }
 }
-
-function classificationsByTaxonomy(entity) {
-  const map = new Map();
-  for (const item of entity.classifications ?? []) {
-    if (!map.has(item.taxonomy_id)) map.set(item.taxonomy_id, []);
-    map.get(item.taxonomy_id).push(item);
-  }
-  return map;
+function externalLinks(entity) {
+  const abn = entity.external_identifiers?.find(item => item.scheme.toLowerCase() === "abn")?.value;
+  return `<ul class="link-list">${entity.website ? `<li><a href="${escapeHtml(entity.website)}" target="_blank" rel="noreferrer">Organisation website</a></li>` : ""}${abn ? `<li><a href="https://abr.business.gov.au/ABN/View?abn=${encodeURIComponent(abn)}" target="_blank" rel="noreferrer">ABN Lookup</a></li>` : ""}<li><a href="./public/data/cards/${encodeURIComponent(entity.causebase_id)}.json">View JSON</a></li><li><a href="./public/data/cards/${encodeURIComponent(entity.causebase_id)}.md">View Markdown</a></li></ul>`;
 }
-
-function semanticNeighbours(entityId) {
-  const byId = new Map(state.entities.map(e => [e.causebase_id, e]));
-  return state.similarities
-    .filter(row => row.causebase_id === entityId)
-    .sort((a, b) => a.rank - b.rank)
-    .map(row => ({ ...row, entity: byId.get(row.similar_causebase_id) }))
-    .filter(row => row.entity);
-}
-
+function help(term, text) { return `<details class="help"><summary aria-label="About ${escapeHtml(term)}">?</summary><p><strong>${escapeHtml(term)}.</strong> ${escapeHtml(text)}</p></details>`; }
 function renderCard(entity) {
-  const fr = entity.fundraising_expenditure;
-  const taxonomyHtml = [...classificationsByTaxonomy(entity).entries()]
-    .map(([taxonomy, terms]) => `
-      <div class="taxonomy-block">
-        <h4>${escapeHtml(taxonomyHeading(taxonomy))}</h4>
-        <ul>${terms.map(t => `<li>${escapeHtml(t.term_label)} <code>${escapeHtml(t.term_id)}</code></li>`).join("")}</ul>
-      </div>
-    `).join("");
-
-  const evidenceHtml = (entity.evidence ?? []).map(e => `
-    <li>
-      <strong>${escapeHtml(e.title)}</strong>
-      <span>${escapeHtml(e.source_type)} · observed ${escapeHtml(e.observed_at)}${e.page ? ` · p. ${e.page}` : ""}</span>
-      ${e.url ? `<a href="${escapeHtml(e.url)}" target="_blank" rel="noreferrer">source</a>` : ""}
-    </li>
-  `).join("");
-
-  const neighboursHtml = semanticNeighbours(entity.causebase_id).map(row => `
-    <li>
-      <button class="link-button" data-entity="${escapeHtml(row.entity.causebase_id)}">
-        ${escapeHtml(row.entity.display_name)}
-      </button>
-      <span>semantic score ${row.score.toFixed(3)}</span>
-    </li>
-  `).join("");
-
+  const taxonomyHtml = [...classificationsByTaxonomy(entity).entries()].map(([taxonomy, terms]) => `<div class="taxonomy-block"><h3>${escapeHtml(taxonomyHeading(taxonomy))}</h3><ul>${terms.map(t => `<li><button class="link-button taxonomy-link" data-taxonomy="${escapeHtml(`${t.taxonomy_id}:${t.term_id}`)}">${escapeHtml(t.term_label)}</button> <code>${escapeHtml(t.term_id)}</code>${citation(entity, t.evidence_ids)}</li>`).join("")}</ul></div>`).join("");
+  const evidenceHtml = (entity.evidence ?? []).map(e => `<li><strong>${escapeHtml(e.title)}</strong> <span>${escapeHtml(e.source_type)} · observed ${escapeHtml(e.observed_at)}${e.page ? ` · p. ${e.page}` : ""}</span>${e.url ? ` <a href="${escapeHtml(e.url)}" target="_blank" rel="noreferrer">evidence</a>` : ""}</li>`).join("");
+  const fundingHtml = (entity.funding_sources ?? []).map(item => `<li><strong>${escapeHtml(fundingSourceLabel(item.source_type))}</strong>${item.amount ? `: ${escapeHtml(new Intl.NumberFormat("en-AU", { style: "currency", currency: item.amount.normalised_currency, maximumFractionDigits: 0 }).format(item.amount.normalised_amount))}` : ""}${item.period_label ? ` · ${escapeHtml(item.period_label)}` : ""}${citation(entity, item.evidence_ids)}</li>`).join("");
+  const methodsHtml = (entity.fundraising_methods ?? []).map(item => `<li>${escapeHtml(item.method.replaceAll("_", " "))} · ${escapeHtml(item.status)}${citation(entity, item.evidence_ids)}</li>`).join("");
+  const nativeHtml = (entity.source_native_records ?? []).map(record => `<li><a href="${sourceRecordLocator(record)}">${escapeHtml(record.source_family)} record</a> · ${escapeHtml(record.dataset_version)} · observed ${escapeHtml(record.observed_at ?? "not stated")}</li>`).join("");
+  const historyHtml = [`<li>Current CauseBase release: ${escapeHtml(entity.dataset_version)}</li>`, ...(entity.financial_records ?? []).map(record => `<li>Financial observation: ${escapeHtml(record.period.label ?? record.financial_record_id)} · ${escapeHtml(record.reporting_scope)}</li>`), ...(entity.derivative_assessments ?? []).map(item => `<li>${escapeHtml(item.derivative)} ${escapeHtml(item.disposition)} · ${escapeHtml(item.reason)}</li>`)].join("");
+  const neighboursHtml = semanticNeighbours(entity.causebase_id).map(row => `<li><button class="link-button" data-entity="${escapeHtml(row.entity.causebase_id)}">${escapeHtml(row.entity.display_name)}</button> <span>semantic proximity ${row.score.toFixed(3)}</span></li>`).join("");
+  const financeEvidence = (entity.financial_records ?? []).flatMap(record => record.evidence_ids ?? []);
   els.card.innerHTML = `
-    <header class="card-header">
-      <div>
-        <p class="eyebrow">CauseBase Card</p>
-        <h1>${escapeHtml(entity.display_name)}</h1>
-        <p>${escapeHtml(entity.legal_name)} · ${escapeHtml(externalIdentifiers(entity))}</p>
-      </div>
-    </header>
-
-    <section>
-      <div class="section-title">
-        <h2>CauseBase summary</h2>
-        <a class="edit-link" href="${correctionUrl(entity, "causebase_summary", entity.causebase_summary, location.href)}">Suggest correction</a>
-      </div>
-      <p class="summary">${escapeHtml(entity.causebase_summary)}</p>
-    </section>
-
-    ${entity.organisation_self_description ? `
-    <section>
-      <h2>Organisation's own description</h2>
-      <blockquote>${escapeHtml(entity.organisation_self_description)}</blockquote>
-    </section>` : ""}
-
-    <section class="columns">
-      <div>
-        <h2>Activities</h2>
-        <ul>${(entity.activities ?? []).map(x => `<li>${escapeHtml(x)}</li>`).join("")}</ul>
-      </div>
-      <div>
-        <h2>Beneficiaries</h2>
-        <ul>${(entity.beneficiaries ?? []).map(x => `<li>${escapeHtml(x)}</li>`).join("")}</ul>
-      </div>
-      <div>
-        <h2>Participation</h2>
-        <ul>${(entity.participation_modes ?? []).map(x => `<li>${escapeHtml(x)}</li>`).join("")}</ul>
-      </div>
-    </section>
-
-    <section>
-      <h2>Financials</h2>
-      <dl class="facts">
-        <div><dt>Revenue</dt><dd>${escapeHtml(financialMetricDisplay(entity, "revenue"))}</dd></div>
-        <div><dt>Total expenses</dt><dd>${escapeHtml(financialMetricDisplay(entity, "total_expenses"))}</dd></div>
-        <div><dt>Fundraising expenditure</dt><dd>${escapeHtml(fundraisingDisplay(entity))}</dd></div>
-      </dl>
-      ${fr ? `<div class="estimate-note">` : `<p class="muted">Not available from selected evidence.</p>`}
-      ${fr ? `
-        <strong>${escapeHtml(fr.method)}</strong> · ${escapeHtml(fr.confidence)} confidence
-        ${fr.rule_id ? ` · rule <code>${escapeHtml(fr.rule_id)}</code>` : ""}
-        ${fr.note ? `<p>${escapeHtml(fr.note)}</p>` : ""}
-      </div>` : ""}
-    </section>
-
-    <section>
-      <h2>Coverage and freshness</h2>
-      <ul>${(entity.coverage ?? []).map(item => `<li><strong>${escapeHtml(item.capability)}</strong>: ${escapeHtml(item.status)}${item.observed_at ? ` · observed ${escapeHtml(item.observed_at)}` : ""}${item.freshness_note ? ` · ${escapeHtml(item.freshness_note)}` : ""}</li>`).join("") || "<li>None recorded</li>"}</ul>
-    </section>
-
-    <section>
-      <h2>Classifications</h2>
-      ${taxonomyHtml}
-    </section>
-
-    <section>
-      <h2>Evidence</h2>
-      <ul class="evidence-list">${evidenceHtml}</ul>
-    </section>
-
-    ${state.semanticAvailable ? `
-    <section>
-      <h2>Similar organisations</h2>
-      <p class="muted">Semantic neighbours are descriptive, not recommendations.</p>
-      <ul class="neighbour-list">${neighboursHtml || "<li>None available</li>"}</ul>
-    </section>` : ""}
-
-    <footer>
-      CauseBase ${escapeHtml(entity.dataset_version)} ·
-      card schema ${escapeHtml(entity.card_schema_version)} ·
-      editorial policy ${escapeHtml(entity.editorial_policy_version)}
-    </footer>
-  `;
-
-  els.card.querySelectorAll("[data-entity]").forEach(button => {
-    button.addEventListener("click", () => selectEntity(button.dataset.entity));
-  });
+    <header class="card-header"><div><p class="eyebrow">CauseBase Card</p><h1>${escapeHtml(entity.display_name)}</h1><p>${escapeHtml(entity.legal_name)} · ${escapeHtml(externalIdentifiers(entity))}</p></div><div class="header-links">${externalLinks(entity)}</div></header>
+    <section><div class="section-title"><h2>What it does</h2><a class="edit-link" href="${correctionUrl(entity, "causebase_summary", entity.causebase_summary, location.href)}">Suggest correction</a></div><p class="summary">${escapeHtml(entity.causebase_summary)}</p>${citation(entity, (entity.evidence ?? []).map(e => e.evidence_id))}</section>
+    ${entity.organisation_self_description ? `<section><h2>Organisation's own description</h2><blockquote>${escapeHtml(entity.organisation_self_description)}</blockquote></section>` : ""}
+    <section class="columns"><div><h2>Activities</h2><ul>${(entity.activities ?? []).map(x => `<li>${escapeHtml(x)}</li>`).join("") || "<li>None recorded</li>"}</ul></div><div><h2>Beneficiaries</h2><ul>${(entity.beneficiaries ?? []).map(x => `<li>${escapeHtml(x)}</li>`).join("") || "<li>None recorded</li>"}</ul></div><div><h2>Geography</h2><ul>${(entity.geography ?? []).map(x => `<li>${escapeHtml(x)}</li>`).join("") || "<li>None recorded</li>"}</ul></div></section>
+    <section><h2>Financials ${help("Reporting scope", "Financial observations are attached to the reported subject or group scope; group totals are not duplicated onto constituents.")}</h2><dl class="facts"><div><dt>Revenue</dt><dd>${escapeHtml(financialMetricDisplay(entity, "revenue"))}${citation(entity, financeEvidence)}</dd></div><div><dt>Total expenses</dt><dd>${escapeHtml(financialMetricDisplay(entity, "total_expenses"))}${citation(entity, financeEvidence)}</dd></div><div><dt>Fundraising expenditure ${help("Fundraising expenditure", "CauseBase distinguishes direct observations from estimates and shows the method and limitations.")}</dt><dd>${escapeHtml(fundraisingDisplay(entity))}</dd></div></dl>${entity.fundraising_expenditure ? `<div class="estimate-note"><strong>${escapeHtml(entity.fundraising_expenditure.method)}</strong> · ${escapeHtml(entity.fundraising_expenditure.confidence)} confidence${entity.fundraising_expenditure.note ? `<p>${escapeHtml(entity.fundraising_expenditure.note)}</p>` : ""}</div>` : ""}</section>
+    ${(fundingHtml || methodsHtml) ? `<section><h2>Funding & fundraising</h2>${fundingHtml ? `<h3>Funding sources</h3><ul>${fundingHtml}</ul>` : ""}${methodsHtml ? `<h3>Fundraising methods</h3><ul>${methodsHtml}</ul>` : ""}<p class="muted">Funding observations are descriptive, not ratings or recommendations.</p></section>` : ""}
+    <section><h2>Classifications ${help("CauseBase classification", "A governed navigation vocabulary. It is not a quality score or universal worldview.")}</h2>${taxonomyHtml || "<p class=\"muted\">None recorded</p>"}</section>
+    <section><h2>Coverage & freshness</h2><ul>${(entity.coverage ?? []).map(item => `<li><strong>${escapeHtml(item.capability)}</strong>: ${escapeHtml(item.status)}${item.observed_at ? ` · observed ${escapeHtml(item.observed_at)}` : ""}${item.freshness_note ? ` · ${escapeHtml(item.freshness_note)}` : ""}${citation(entity, item.evidence_ids)}</li>`).join("") || "<li>None recorded</li>"}</ul></section>
+    <section><h2>Sources</h2><ul class="evidence-list">${evidenceHtml}</ul></section>
+    ${(nativeHtml) ? `<section><h2>Source data</h2><p class="muted">Source-native fields retain their source semantics and are separate from CauseBase canonical fields.</p><ul>${nativeHtml}</ul></section>` : ""}
+    <section><h2>History</h2><ul>${historyHtml}</ul></section>
+    ${state.semanticAvailable ? `<section><h2>Similar organisations</h2><p class="muted">Semantic neighbours are descriptive, not recommendations.</p><ul class="neighbour-list">${neighboursHtml || "<li>None available</li>"}</ul></section>` : ""}
+    <section><h2>External links & developer data</h2>${externalLinks(entity)}<p class="muted">Convenience links are not automatically CauseBase evidence.</p></section>
+    <footer>CauseBase ${escapeHtml(entity.dataset_version)} · card schema ${escapeHtml(entity.card_schema_version)} · editorial policy ${escapeHtml(entity.editorial_policy_version)}</footer>`;
+  els.card.querySelectorAll("[data-entity]").forEach(button => button.addEventListener("click", () => selectEntity(button.dataset.entity)));
+  els.card.querySelectorAll(".taxonomy-link").forEach(button => { button.addEventListener("click", () => { state.facets.taxonomy = [button.dataset.taxonomy]; applySearch(); }); });
 }
-
-function selectEntity(entityId) {
-  const entity = state.entities.find(e => e.causebase_id === entityId);
-  if (!entity) return;
-  state.selectedId = entityId;
-  history.replaceState(null, "", `#${encodeURIComponent(entityId)}`);
-  renderResults();
-  renderCard(entity);
-}
-
-function applySearch() {
-  state.filtered = filterEntities(state.entities, els.search.value);
-  if (!state.filtered.some(e => e.causebase_id === state.selectedId)) {
-    state.selectedId = state.filtered[0]?.causebase_id ?? null;
-  }
-  renderResults();
-  if (state.selectedId) {
-    renderCard(state.entities.find(e => e.causebase_id === state.selectedId));
-  } else {
-    els.card.innerHTML = `<div class="empty"><strong>No organisations match this search in the early test release.</strong><p>This 120-subject test corpus is not the complete national CauseBase corpus. A missing organisation is not evidence that it is unregistered or absent from the national source backbone.</p></div>`;
-  }
-}
-
-async function init() {
-  try {
-    const [data, manifest, similarities] = await Promise.all([
-      loadJson("./public/data/causebase.json"),
-      loadJson("./public/data/manifest.json"),
-      loadJson("./public/data/similarities.json").catch(() => []),
-    ]);
-    state.entities = data.entities;
-    state.similarities = similarities;
-    state.semanticAvailable = !manifest.embedding?.model_id?.includes("demo");
-    state.filtered = state.entities;
-    els.feedback.href = correctionUrl(null, "general_feedback", "", location.href);
-
-    const hashId = decodeURIComponent(location.hash.replace(/^#/, ""));
-    state.selectedId =
-      state.entities.find(e => e.causebase_id === hashId)?.causebase_id ??
-      state.entities[0]?.causebase_id ??
-      null;
-
-    els.search.addEventListener("input", applySearch);
-    renderResults();
-    if (state.selectedId) selectEntity(state.selectedId);
-  } catch (error) {
-    console.error(error);
-    els.card.innerHTML = `
-      <div class="empty">
-        <strong>CauseBase data could not be loaded.</strong>
-        <p>${escapeHtml(error.message)}</p>
-      </div>`;
-  }
-}
-
+function selectEntity(entityId, push = true) { const entity = state.entities.find(e => e.causebase_id === entityId); if (!entity) return; state.selectedId = entityId; if (push) history.pushState({ entityId }, "", `#${encodeURIComponent(entityId)}`); renderResults(); renderCard(entity); }
+function toggleFacet(group, value) { const selected = state.facets[group]; state.facets[group] = selected.includes(value) ? selected.filter(item => item !== value) : [...selected, value]; applySearch(); }
+function applySearch() { state.filtered = filterWithFacets(state.entities, els.search.value, state.facets); if (!state.filtered.some(e => e.causebase_id === state.selectedId)) state.selectedId = state.filtered[0]?.causebase_id ?? null; renderFacets(); renderResults(); if (state.selectedId) renderCard(state.entities.find(e => e.causebase_id === state.selectedId)); else els.card.innerHTML = `<div class="empty"><strong>No organisations match this search in the early test release.</strong><p>This 120-subject test corpus is not the complete national CauseBase corpus. A missing organisation is not evidence that it is unregistered or absent from the national source backbone.</p></div>`; }
+async function init() { try { const [data, manifest, similarities] = await Promise.all([loadJson("./public/data/causebase.json"), loadJson("./public/data/manifest.json"), loadJson("./public/data/similarities.json").catch(() => [])]); state.entities = data.entities; state.similarities = similarities; state.semanticAvailable = !manifest.embedding?.model_id?.includes("demo"); state.filtered = state.entities; els.feedback.href = correctionUrl(null, "general_feedback", "", location.href); const hashId = decodeURIComponent(location.hash.replace(/^#/, "")); state.selectedId = state.entities.find(e => e.causebase_id === hashId)?.causebase_id ?? state.entities[0]?.causebase_id ?? null; els.search.addEventListener("input", applySearch); window.addEventListener("popstate", () => { const id = decodeURIComponent(location.hash.replace(/^#/, "")); if (state.entities.some(e => e.causebase_id === id)) { state.selectedId = id; renderResults(); renderCard(state.entities.find(e => e.causebase_id === id)); } }); renderFacets(); renderResults(); if (state.selectedId) renderCard(state.entities.find(e => e.causebase_id === state.selectedId)); } catch (error) { console.error(error); els.card.innerHTML = `<div class="empty"><strong>CauseBase data could not be loaded.</strong><p>${escapeHtml(error.message)}</p></div>`; } }
 init();

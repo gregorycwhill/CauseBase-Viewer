@@ -52,6 +52,12 @@ a { color: inherit; }
   font-size: 1rem;
   background: white;
 }
+.facets { margin-top: 12px; display: grid; gap: 6px; }
+.facet-group { border: 1px solid #ddd; border-radius: 6px; background: #fff; padding: 6px 8px; }
+.facet-group summary { cursor: pointer; font-size: .88rem; text-transform: capitalize; }
+.facet-group > div { margin-top: 7px; display: flex; flex-wrap: wrap; gap: 5px; }
+.facet { border: 1px solid #c8c8c2; background: #fff; border-radius: 999px; padding: 3px 7px; cursor: pointer; font-size: .78rem; text-transform: capitalize; }
+.facet.active { background: #202124; color: #fff; border-color: #202124; }
 
 .results {
   margin-top: 12px;
@@ -88,6 +94,8 @@ a { color: inherit; }
   padding-bottom: 18px;
 }
 .card-header h1 { margin: 4px 0; font-size: 2rem; }
+.header-links { min-width: 160px; font-size: .86rem; }
+.link-list { margin: 0; padding-left: 18px; }
 .eyebrow {
   text-transform: uppercase;
   letter-spacing: .08em;
@@ -148,6 +156,12 @@ ul { padding-left: 20px; }
   padding: 12px;
 }
 .taxonomy-block code { color: #666; }
+.citations { white-space: nowrap; font-size: .82rem; margin-left: 4px; }
+.citations a { text-decoration: none; }
+.help { display: inline-block; position: relative; margin-left: 4px; font-size: .8rem; }
+.help summary { cursor: pointer; display: inline-block; border: 1px solid #777; border-radius: 50%; width: 1.2em; height: 1.2em; text-align: center; list-style: none; }
+.help summary::-webkit-details-marker { display: none; }
+.help p { position: absolute; z-index: 2; width: 250px; right: 0; background: #fff; border: 1px solid #bbb; border-radius: 6px; padding: 9px; font-weight: 400; line-height: 1.35; box-shadow: 0 2px 9px #0002; }
 .evidence-list li, .neighbour-list li { margin-bottom: 8px; }
 .evidence-list span { color: #666; margin-left: 6px; }
 .link-button {
@@ -184,4 +198,6 @@ footer {
   .columns, .facts { grid-template-columns: 1fr; }
   .site-header span { display: none; }
   .test-marker { display: none; }
+  .card-header { display: block; }
+  .header-links { margin-top: 12px; }
 }

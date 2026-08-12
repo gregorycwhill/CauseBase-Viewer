@@ -85,6 +85,10 @@ The private intake must collect, in addition to the prefilled values:
 
 The receiver must return or display a private acknowledgement identifier. It must not publish raw submissions, contact details, or an unmoderated proposal ledger.
 
+### Long-value safeguard
+
+The Viewer prefills `current_value` only when it is short enough for a reliable browser URL. If it is longer, it leaves that optional field blank while still sending `causebase_id`, `dataset_version`, `field` and `viewer_url`. This preserves the correction-identification contract without promising fragile long-query prefills.
+
 ## 10. Avoid adversarial framing
 
 Suitable language:

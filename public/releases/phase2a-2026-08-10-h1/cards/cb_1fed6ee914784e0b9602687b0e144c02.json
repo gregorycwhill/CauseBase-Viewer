@@ -1,0 +1,271 @@
+{
+  "causebase_id": "cb_1fed6ee914784e0b9602687b0e144c02",
+  "subject_kind": "unknown",
+  "external_identifiers": [
+    {
+      "scheme": "abn",
+      "value": "54212670988",
+      "source_evidence_id": "ev:acnc:54212670988"
+    }
+  ],
+  "registrations": [
+    {
+      "regulator": "ACNC",
+      "registration_id": null,
+      "status": "registered",
+      "evidence_ids": [
+        "ev:acnc:54212670988"
+      ]
+    }
+  ],
+  "tax_statuses": [],
+  "relationships": [],
+  "source_resolutions": [
+    {
+      "source_record_id": "src:acnc-register:93fa4f23-50b2-5b59-b5d8-e3879a3654f9",
+      "resolution_status": "resolved",
+      "resolution_basis": "automated authoritative ACNC promotion under acnc-authoritative-v1",
+      "confidence": "high",
+      "supporting_signals": [
+        "ABN:54212670988",
+        "ACNC Register"
+      ],
+      "conflicting_signals": [],
+      "review_status": "not_required"
+    }
+  ],
+  "legal_name": "Martu Charitable Trust",
+  "display_name": "Martu Charitable Trust",
+  "entity_status": "registered",
+  "coverage": [
+    {
+      "capability": "regulatory",
+      "status": "observed",
+      "source_record_id": null,
+      "evidence_ids": [
+        "ev:acnc:54212670988"
+      ],
+      "observed_at": "2026-08-10",
+      "freshness_note": null
+    },
+    {
+      "capability": "annual_report",
+      "status": "not_yet_processed",
+      "source_record_id": null,
+      "evidence_ids": [],
+      "observed_at": "2026-08-10",
+      "freshness_note": null
+    },
+    {
+      "capability": "website",
+      "status": "not_available_from_source",
+      "source_record_id": null,
+      "evidence_ids": [],
+      "observed_at": "2026-08-10",
+      "freshness_note": null
+    },
+    {
+      "capability": "fundraising_expenditure",
+      "status": "not_available_from_source",
+      "source_record_id": null,
+      "evidence_ids": [],
+      "observed_at": "2026-08-10",
+      "freshness_note": "No direct or defensible derived fundraising expenditure was found in selected Phase 2A evidence."
+    },
+    {
+      "capability": "financials",
+      "status": "observed",
+      "source_record_id": null,
+      "evidence_ids": [
+        "ev:ais:54212670988:2023"
+      ],
+      "observed_at": "2026-08-10",
+      "freshness_note": null
+    }
+  ],
+  "enrichment_level": "enriched",
+  "website": null,
+  "geography": [
+    "Australia"
+  ],
+  "causebase_summary": "Martu Charitable Trust is recorded on the Australian Charities and Not‑for‑profits Commission (ACNC) register. The organisation’s 2023 Annual Information Statement (AIS) covers the period 01/07/2022 to 30/06/2023 and is reported as a subject filing (not consolidated). For that period the AIS lists revenue of AUD 4,480,557 and total expenses of AUD 4,995,071. The ACNC/AIS records available in the evidence pack do not include a public website, a mission statement, descriptions of programs, lists of beneficiaries, or geographic operating locations. Other registry fields in the supplied extracts (for example governance or specific program activity) were not provided in the evidence. The available documents are the ACNC register extract and the AIS 2023 extract; no further organisational materials were included in the supplied evidence.",
+  "organisation_self_description": null,
+  "activities": [],
+  "beneficiaries": [],
+  "participation_modes": [],
+  "opportunities": [],
+  "financial_records": [
+    {
+      "financial_record_id": "fr:ais:cb_1fed6ee914784e0b9602687b0e144c02:2023",
+      "period": {
+        "period_start": "2022-07-01",
+        "period_end": "2023-06-30",
+        "period_length_days": 365,
+        "label": "01/07/2022 to 30/06/2023",
+        "is_transitional_or_nonstandard": false
+      },
+      "reporting_scope": "subject",
+      "reporting_subject_causebase_id": "cb_1fed6ee914784e0b9602687b0e144c02",
+      "covered_subjects": [
+        "cb_1fed6ee914784e0b9602687b0e144c02"
+      ],
+      "consolidated": "false",
+      "attribution_method": "direct_subject_report",
+      "evidence_ids": [
+        "ev:ais:54212670988:2023"
+      ],
+      "revenue": {
+        "source_amount": "4480557",
+        "source_currency": "AUD",
+        "source_unit_scale": "1",
+        "normalised_amount": "4480557",
+        "normalised_currency": "AUD",
+        "source_unit_label": null,
+        "source_raw_value": "4480557",
+        "source_precision": null
+      },
+      "donations": null,
+      "government_grants": null,
+      "employee_costs": null,
+      "total_expenses": {
+        "source_amount": "4995071",
+        "source_currency": "AUD",
+        "source_unit_scale": "1",
+        "normalised_amount": "4995071",
+        "normalised_currency": "AUD",
+        "source_unit_label": null,
+        "source_raw_value": "4995071",
+        "source_precision": null
+      },
+      "assets": null,
+      "liabilities": null
+    }
+  ],
+  "financial_metrics": [
+    {
+      "metric": "revenue",
+      "observations": [
+        {
+          "financial_record_id": "fr:ais:cb_1fed6ee914784e0b9602687b0e144c02:2023",
+          "amount": {
+            "source_amount": "4480557",
+            "source_currency": "AUD",
+            "source_unit_scale": "1",
+            "normalised_amount": "4480557",
+            "normalised_currency": "AUD",
+            "source_unit_label": null,
+            "source_raw_value": "4480557",
+            "source_precision": null
+          },
+          "metric_source_label": null,
+          "evidence_ids": [
+            "ev:ais:54212670988:2023"
+          ]
+        }
+      ],
+      "reconciliation_status": "single_observation",
+      "reconciliation_notes": null
+    },
+    {
+      "metric": "total_expenses",
+      "observations": [
+        {
+          "financial_record_id": "fr:ais:cb_1fed6ee914784e0b9602687b0e144c02:2023",
+          "amount": {
+            "source_amount": "4995071",
+            "source_currency": "AUD",
+            "source_unit_scale": "1",
+            "normalised_amount": "4995071",
+            "normalised_currency": "AUD",
+            "source_unit_label": null,
+            "source_raw_value": "4995071",
+            "source_precision": null
+          },
+          "metric_source_label": null,
+          "evidence_ids": [
+            "ev:ais:54212670988:2023"
+          ]
+        }
+      ],
+      "reconciliation_status": "single_observation",
+      "reconciliation_notes": null
+    }
+  ],
+  "fundraising_expenditure": null,
+  "classifications": [
+    {
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "purpose.health",
+      "term_label": "health",
+      "assignment_method": "source_native",
+      "confidence": "high",
+      "evidence_ids": [
+        "ev:acnc:54212670988"
+      ]
+    },
+    {
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "beneficiary.regional_remote",
+      "term_label": "regional remote",
+      "assignment_method": "source_native",
+      "confidence": "high",
+      "evidence_ids": [
+        "ev:acnc:54212670988"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "ev:acnc:54212670988",
+      "source_type": "regulatory",
+      "title": "ACNC Register extract",
+      "publisher": "Australian Charities and Not-for-profits Commission",
+      "url": null,
+      "observed_at": "2026-08-10",
+      "reporting_period": null,
+      "page": null,
+      "section": null,
+      "content_hash": null
+    },
+    {
+      "evidence_id": "ev:ais:54212670988:2023",
+      "source_type": "regulatory",
+      "title": "ACNC AIS 2023 extract",
+      "publisher": "Australian Charities and Not-for-profits Commission",
+      "url": null,
+      "observed_at": "2026-08-10",
+      "reporting_period": "01/07/2022 to 30/06/2023",
+      "page": null,
+      "section": null,
+      "content_hash": null
+    }
+  ],
+  "embedding": {
+    "embedding_id": "cb_1fed6ee914784e0b9602687b0e144c02:entity:text-embedding-3-small",
+    "embedding_type": "entity",
+    "model_id": "text-embedding-3-small",
+    "model_version": "text-embedding-3-small",
+    "dimensions": 1536,
+    "source_text_hash": "54c234b5cbdc007448b3977a7a7ae73cfb3c2001c2596915eb78376c3afb44f6",
+    "generated_at": "2026-08-10T13:53:24.458036Z",
+    "vector_ref": "embeddings.parquet#cb_1fed6ee914784e0b9602687b0e144c02"
+  },
+  "synthesis": {
+    "model_id": "gpt-5-mini-2025-08-07",
+    "prompt_version": "phase2a-0.4",
+    "parameters": {
+      "max_output_tokens": 3000,
+      "structured_output": true
+    },
+    "evidence_input_hash": "c58fc052e8e5c3842dee7b1a00a2b585cb97e7f05ff538df9560465040566c41",
+    "generated_at": "2026-08-10T13:00:15.404851Z",
+    "editorial_policy_version": "0.1"
+  },
+  "dataset_version": "phase2a-2026-08-10-h1",
+  "card_schema_version": "0.1",
+  "editorial_policy_version": "0.1",
+  "generator_version": "0.1.0",
+  "built_at": "2026-08-10T13:51:56.718389Z"
+}

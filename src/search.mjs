@@ -30,3 +30,24 @@ export function matchesQuery(entity, query) {
 export function filterEntities(entities, query) {
   return entities.filter(entity => matchesQuery(entity, query));
 }
+
+export function facetValues(entities) {
+  const values = { geography: new Set(), taxonomy: new Set(), funding: new Set() };
+  for (const entity of entities) {
+    for (const item of entity.geography ?? []) values.geography.add(item);
+    for (const item of entity.classifications ?? []) values.taxonomy.add(`${item.taxonomy_id}:${item.term_id}`);
+    for (const item of entity.funding_sources ?? []) values.funding.add(item.source_type);
+  }
+  return Object.fromEntries(Object.entries(values).map(([key, value]) => [key, [...value].sort()]));
+}
+
+export function filterWithFacets(entities, query, facets = {}) {
+  return filterEntities(entities, query).filter(entity => {
+    if (facets.geography?.length && !facets.geography.some(value => (entity.geography ?? []).includes(value))) return false;
+    if (facets.taxonomy?.length && !facets.taxonomy.some(value =>
+      (entity.classifications ?? []).some(item => `${item.taxonomy_id}:${item.term_id}` === value))) return false;
+    if (facets.funding?.length && !facets.funding.some(value =>
+      (entity.funding_sources ?? []).some(item => item.source_type === value))) return false;
+    return true;
+  });
+}

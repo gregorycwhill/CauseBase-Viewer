@@ -13,6 +13,12 @@ It exists to help people discover charities, search/filter, explore semantic nei
 
 Viewer does not recommend charities and does not own CauseBase's underlying data.
 
+## Phase 2B browser surfaces
+
+The Viewer supports free-text retrieval plus combinable geography, taxonomy and funding facets; taxonomy terms are navigation links, never quality labels. Stable card hash URLs work with browser back/forward. Each card separates evidence links from convenience links, exposes JSON/Markdown and source-native record sidecars, shows longitudinal financial/release history and derivative reuse metadata, and renders funding/fundraising only where data is supported.
+
+The current release remains an explicit 120-subject early test corpus, not a claim of national enriched coverage.
+
 ## Product boundary
 
 CauseBase Viewer is an epistemic interface.

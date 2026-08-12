@@ -9,7 +9,7 @@ const required = [
   "causebase.json", "causebase.jsonl", "causebase.csv", "causebase.parquet",
   "embeddings.json", "embeddings.parquet", "similarities.json", "similarities.parquet",
   "manifest.json", "coverage.json", "agent-guide.md", "schema/card.schema.json",
-  "taxonomy/causebase-v0.json",
+  "taxonomy/causebase-v0.json", "source-inventory.json", "release-history.json",
 ];
 const forbidden = /(^|[/\\])(archive|cache|runtime|state)([/\\]|$)|\.(pdf|warc|env|sqlite|db)$/i;
 
@@ -23,7 +23,7 @@ for (const relative of required) {
 
 await rm(output, { recursive: true, force: true });
 await mkdir(output, { recursive: true });
-for (const file of ["index.html", "styles.css", "correction.html", "robots.txt", ".nojekyll"]) {
+for (const file of ["index.html", "styles.css", "correction.html", "commitments.html", "robots.txt", ".nojekyll"]) {
   await cp(resolve(root, file), resolve(output, file));
 }
 await cp(resolve(root, "src"), resolve(output, "src"), { recursive: true });

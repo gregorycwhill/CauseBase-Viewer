@@ -1,7 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 
-import { filterEntities, matchesQuery } from "../src/search.mjs";
+import { filterEntities, filterWithFacets, matchesQuery } from "../src/search.mjs";
 
 const entities = [
   {
@@ -45,4 +45,11 @@ test("does not imply recommendation ordering", () => {
     filterEntities(entities, ""),
     entities
   );
+});
+
+test("combines free text with multiple descriptive facets", () => {
+  const withFunding = { ...entities[0], funding_sources: [{ source_type: "government_grants_or_contracts" }] };
+  assert.equal(filterWithFacets([withFunding, entities[1]], "creek", {
+    geography: ["Coburg"], taxonomy: ["causebase:cause.environment.waterways"], funding: ["government_grants_or_contracts"],
+  }).length, 1);
 });
