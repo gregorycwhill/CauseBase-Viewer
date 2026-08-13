@@ -72,16 +72,6 @@
       "freshness_note": null
     },
     {
-      "capability": "website",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:web:12086262816:2026-08-10"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
       "capability": "fundraising_expenditure",
       "status": "not_available_from_source",
       "source_record_id": null,
@@ -102,12 +92,20 @@
     {
       "capability": "latest_acnc_ais",
       "status": "observed",
-      "source_record_id": null,
+      "source_record_id": "src:acnc-ais-detail:12086262816:072cab13-8fa1-f011-bbd2-7c1e528a8d67:cb_25f9e189a09a47e0aea65cf98437dc31",
       "evidence_ids": [
-        "ev:acnc:ais:12086262816:2025"
+        "ev:acnc:ais:12086262816:072cab13-8fa1-f011-bbd2-7c1e528a8d67"
       ],
       "observed_at": "2025-10-05",
-      "freshness_note": "Latest submitted ACNC AIS in the 2026-08-13 public-profile acquisition: 2025."
+      "freshness_note": "Latest submitted AIS detail acquired from the public ACNC entity endpoint."
+    },
+    {
+      "capability": "website",
+      "status": "observed",
+      "source_record_id": null,
+      "evidence_ids": [],
+      "observed_at": "2026-08-13",
+      "freshness_note": "Public website locator acquired from the ACNC profile."
     }
   ],
   "enrichment_level": "enriched",
@@ -117,30 +115,29 @@
     "Western Australia (WA)",
     "Australia"
   ],
-  "navigation_geography": [
+  "geography_observations": [
     {
-      "level": "country",
-      "code": "AU",
-      "label": "Australia",
-      "evidence_ids": [
-        "ev:acnc:12086262816"
-      ]
+      "value": "Jandakot, Western Australia",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
     },
     {
-      "level": "state_territory",
-      "code": "AU-WA",
-      "label": "Western Australia",
-      "evidence_ids": [
-        "ev:acnc:12086262816"
-      ]
+      "value": "Western Australia (WA)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Australia",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
     }
   ],
-  "causebase_summary": "Mighty Livingwaters - Life Fellowship, trading as Good Success Church, is a Christian church based in Jandakot, Western Australia. It holds weekly public worship services on Sundays at 10:00am and 6:30pm at its Jandakot location and offers a livestream of services. The church runs age‑based ministries and fellowships including Men’s Ministry, Daughters of the King, Impact (18+), Step In (13–17), Children’s Church, Home Altar and Connect Groups, and publishes a fortnightly podcast. Services involve praise, worship and teaching, and the congregation meets for social interaction such as morning tea. Evidence indicates these activities are delivered in person in Jandakot and online via livestream and podcast.",
-  "summary_evidence_ids": [
-    "ev:web:12086262816:2026-08-10",
-    "ev:ais:12086262816:2023",
-    "ev:acnc:12086262816"
-  ],
+  "navigation_geography": [],
+  "causebase_summary": "Mighty Livingwaters - Life Fellowship (trading as Good Success Church) is presented on its website as a Christian church based in Jandakot, Western Australia. According to the organisation's website, it holds weekly public worship services in Jandakot on Sundays at 10:00am and 6:30pm (with a livestream option) and runs a range of ministries described as Men’s Ministry, Daughters of the King, Impact (18+ years), Step In (13–17 years), Home Altar, Connect Groups and Children’s Church. The website also describes fortnightly podcast episodes and social interaction around morning tea and coffee after services. The ACNC information included in the AIS for 01/07/2022–30/06/2023 reports revenue of AUD 1,098,206 and total expenses of AUD 833,466 for that period. The ACNC register extract is available for the organisation. The material here combines the organisation’s published schedule and ministry list with the AIS financial figures; program reach beyond Jandakot and details of staffing or volunteer arrangements are not provided in the supplied evidence.",
+  "summary_evidence_ids": [],
   "organisation_self_description": null,
   "activities": [
     "Weekly public worship services (Sundays, 10:00am and 6:30pm, Jandakot)",
@@ -154,13 +151,113 @@
     "Children’s Church",
     "Fortnightly podcast episodes"
   ],
+  "activity_observations": [
+    {
+      "value": "Weekly public worship services (Sundays, 10:00am and 6:30pm, Jandakot)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Livestreamed services",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Men’s Ministry",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Daughters of the King ministry",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Impact (adult ministry, 18+ years)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Step In (youth ministry, 13–17 years)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Home Altar",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Connect Groups",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Children’s Church",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Fortnightly podcast episodes",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    }
+  ],
   "beneficiaries": [
     "Church attendees",
     "Children (Children’s Church)",
     "Teenagers (Step In, 13–17 years)",
     "Adults (Impact, 18+ years)",
     "Families",
-    "People of all ages, cultures and backgrounds (as claimed on the organisation website)"
+    "People of all ages, cultures and backgrounds"
+  ],
+  "beneficiary_observations": [
+    {
+      "value": "Church attendees",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Children (Children’s Church)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Teenagers (Step In, 13–17 years)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Adults (Impact, 18+ years)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Families",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "People of all ages, cultures and backgrounds",
+      "source_role": "legacy_source_qualifier",
+      "provenance_note": "as claimed on the organisation website",
+      "evidence_ids": []
+    }
   ],
   "participation_modes": [
     "Public worship services",
@@ -185,82 +282,23 @@
       "reporting_period": "2025",
       "source_url": "https://www.acnc.gov.au/charity/charities/90181751-39af-e811-a963-000d3ad244fd/documents/072cab13-8fa1-f011-bbd2-7c1e528a8d67",
       "evidence_ids": [
-        "ev:acnc:ais:12086262816:2025"
+        "ev:acnc:ais:12086262816:072cab13-8fa1-f011-bbd2-7c1e528a8d67"
       ]
     }
   ],
   "source_native_records": [
     {
-      "source_record_id": "src:acnc-register:ce2b0c8b-654b-50a3-909e-cb20b5ad73bf",
-      "source_family": "acnc-register",
-      "dataset_version": "2026-08-10",
-      "source_url": "https://www.acnc.gov.au/charity/charities?search=12086262816",
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "ABN": "12086262816",
-        "Legal Name": "Mighty Livingwaters - Life Fellowship",
-        "Registration Status": "registered",
-        "ACNC classifications": "religion; other beneficiary",
-        "Website": "www.goodsuccess.church",
-        "ACNC registration ID": null,
-        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "ABN": "external_identifiers",
-        "Legal Name": "legal_name",
-        "Registration Status": "registrations"
-      },
-      "evidence_ids": [
-        "ev:acnc:12086262816"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-ais:fr:ais:cb_25f9e189a09a47e0aea65cf98437dc31:2023",
-      "source_family": "acnc-ais",
-      "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": "2022-07-01",
-      "effective_to": "2023-06-30",
-      "source_fields": {
-        "Reporting period": "01/07/2022 to 30/06/2023",
-        "Reporting scope": "subject",
-        "Consolidated": "false",
-        "Revenue": "1098206",
-        "Donations and bequests": null,
-        "Government grants": null,
-        "Total expenses": "833466",
-        "Assets": null,
-        "Liabilities": null
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "Revenue": "financial_records[].revenue",
-        "Total expenses": "financial_records[].total_expenses"
-      },
-      "evidence_ids": [
-        "ev:ais:12086262816:2023"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-public-profile:12086262816:cb_25f9e189a09a47e0aea65cf98437dc31:2026-08-13",
+      "source_record_id": "src:acnc-public-profile:12086262816:90181751-39af-e811-a963-000d3ad244fd:cb_25f9e189a09a47e0aea65cf98437dc31",
       "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-13-public-api",
+      "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/90181751-39af-e811-a963-000d3ad244fd/profile",
-      "retrieved_at": "2026-08-13T05:50:58.991012Z",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
       "observed_at": "2025-10-05",
       "effective_from": null,
       "effective_to": null,
       "source_fields": {
         "uuid": "90181751-39af-e811-a963-000d3ad244fd",
-        "abn": "12086262816",
-        "latest_ais_year": "2025",
-        "latest_ais_uuid": "072cab13-8fa1-f011-bbd2-7c1e528a8d67"
+        "abn": "12086262816"
       },
       "source_payload": {
         "data": {
@@ -879,13 +917,295 @@
         "uuid": "90181751-39af-e811-a963-000d3ad244fd"
       },
       "canonical_field_mappings": {
-        "data.Name": "display_name",
         "data.OtherNames": "operating_names",
-        "data.AnnualReports": "acnc_ais_url",
-        "data.Programs": "programs"
+        "data.AddressStateOrProvince": "principal_location"
+      },
+      "evidence_ids": []
+    },
+    {
+      "source_record_id": "src:acnc-ais-detail:12086262816:072cab13-8fa1-f011-bbd2-7c1e528a8d67:cb_25f9e189a09a47e0aea65cf98437dc31",
+      "source_family": "acnc-ais-detail",
+      "dataset_version": "2026-08-14-public-api",
+      "source_url": "https://www.acnc.gov.au/charity/charities/90181751-39af-e811-a963-000d3ad244fd/documents/072cab13-8fa1-f011-bbd2-7c1e528a8d67",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
+      "observed_at": "2025-10-05",
+      "effective_from": null,
+      "effective_to": null,
+      "source_fields": {
+        "abn": "12086262816",
+        "ais_uuid": "072cab13-8fa1-f011-bbd2-7c1e528a8d67",
+        "year": "2025",
+        "date_received": "2025-10-05T02:00:45.0000000Z"
+      },
+      "source_payload": {
+        "data": {
+          "Abn": "12086262816",
+          "ActivityAdvocacyNCivic": false,
+          "ActivityAgedCare": false,
+          "ActivityAnimalProtection": false,
+          "ActivityCultureAndArt": false,
+          "ActivityEconomicSocialCommunity": false,
+          "ActivityEmergencyNRelief": false,
+          "ActivityEmploymentNTraining": false,
+          "ActivityEnvironmental": false,
+          "ActivityGrantMaking": false,
+          "ActivityHealthRehabilitation": false,
+          "ActivityHigherEducation": false,
+          "ActivityHousing": false,
+          "ActivityIncomeSupportNMaintenance": false,
+          "ActivityInternational": false,
+          "ActivityInternationalDescription": null,
+          "ActivityInternationalOther": false,
+          "ActivityInternationalOtherDescription": null,
+          "ActivityLawNLegalServices": false,
+          "ActivityMain": null,
+          "ActivityMentalHealthCrisisIntervention": false,
+          "ActivityNdisSupported": null,
+          "ActivityNdisSupportedNext": null,
+          "ActivityOperating": true,
+          "ActivityOperatingOverseas": false,
+          "ActivityOther": false,
+          "ActivityOtherDescription": null,
+          "ActivityOtherEducation": false,
+          "ActivityOtherHealthServices": false,
+          "ActivityPersuitPurposesDescription": "We provided a place of worship for our followers. We provided mission work in other parts of the world",
+          "ActivityPhilanthropicPromotion": false,
+          "ActivityPolitical": false,
+          "ActivityPrimarySecondaryEducation": false,
+          "ActivityPurposeChange": null,
+          "ActivityPurposeChangeDescription": null,
+          "ActivityRecreationSocialClub": false,
+          "ActivityReligious": false,
+          "ActivityResearch": false,
+          "ActivitySocialServices": false,
+          "ActivitySports": false,
+          "ActivityTransferringFundsGoods": false,
+          "AdvancementOfEducation": false,
+          "AdvancementOfReligion": false,
+          "AssetsandLiabilitiesDescription": null,
+          "BasicReligiousCharity": false,
+          "BeneficiaryAboriginalTorres": false,
+          "BeneficiaryAdults": false,
+          "BeneficiaryAllAges": false,
+          "BeneficiaryChildren": false,
+          "BeneficiaryChronicIllness": false,
+          "BeneficiaryCrimeVictims": false,
+          "BeneficiaryDisasterVictims": false,
+          "BeneficiaryEarlyChildhood": false,
+          "BeneficiaryEthnic": false,
+          "BeneficiaryFamilies": false,
+          "BeneficiaryFinanciallyDisadvantaged": false,
+          "BeneficiaryGeneral": false,
+          "BeneficiaryHomelessnessRisk": false,
+          "BeneficiaryLGBT": false,
+          "BeneficiaryMain": null,
+          "BeneficiaryMen": false,
+          "BeneficiaryMigrantsRefugees": false,
+          "BeneficiaryOffenderFamilies": false,
+          "BeneficiaryOther": false,
+          "BeneficiaryOtherCharities": false,
+          "BeneficiaryOtherDescription": null,
+          "BeneficiaryOverseas": false,
+          "BeneficiaryPeopleWithDisability": false,
+          "BeneficiaryRuralRegionalRemote": false,
+          "BeneficiarySeniors": false,
+          "BeneficiaryUnemployed": false,
+          "BeneficiaryVeteranFamilies": false,
+          "BeneficiaryWomen": false,
+          "BeneficiaryYouth": false,
+          "CharityAddressCountry": "Australia",
+          "CharityAddressLine1": "6 Avior Ave",
+          "CharityAddressLine2": null,
+          "CharityAddressPostalCode": "6164",
+          "CharityAddressStateOrProvince": "WA",
+          "CharityAddressSuburb": "Jandakot",
+          "CharityEmail": "peoplerajan@gmail.com",
+          "CharitySize": "Medium",
+          "CharityUuid": "90181751-39af-e811-a963-000d3ad244fd",
+          "ChildCareServices": false,
+          "ExpenseEmployees": "458005.0000",
+          "ExpenseGrantDonationsInAustralia": "44490.0000",
+          "ExpenseGrantDonationsOutsideAustralia": "0.0000",
+          "ExpenseTotal": "906947.0000",
+          "ExpensesOther": "404452.0000",
+          "FinAccrualAccounting": null,
+          "FinConsolidatedReportFromMiltiple": "No",
+          "FinDocumentedPoliciesRelatedPartyTransactions": null,
+          "FinFyeJune": false,
+          "FinProvideVoluntarily": null,
+          "FinRelatedPartyTransactions": "No",
+          "FinReportACT": false,
+          "FinReportFrom": "2024-07-01T00:00:00.0000000Z",
+          "FinReportNSW": false,
+          "FinReportNT": false,
+          "FinReportQLD": false,
+          "FinReportSA": false,
+          "FinReportTAS": false,
+          "FinReportTo": "2025-06-30T00:00:00.0000000Z",
+          "FinReportVIC": false,
+          "FinReportWA": false,
+          "FinReportingType": "Special purpose financial statements",
+          "FinSapDate": null,
+          "FundRaisingNumberACT": null,
+          "FundRaisingNumberNSW": null,
+          "FundRaisingNumberQLD": null,
+          "FundRaisingNumberSA": null,
+          "FundRaisingNumberTAS": null,
+          "FundRaisingNumberVIC": null,
+          "FundRaisingNumberWA": null,
+          "GovDocAccurate": null,
+          "GrantCapacityBuildingPct": null,
+          "GrantMultiYearPct": null,
+          "GrantPublicOpenApplicationPct": null,
+          "GrantRuralRegionPct": null,
+          "HasSubmittedToRegulator": false,
+          "HoursPaid": null,
+          "HoursTotal": null,
+          "HoursVolunteer": null,
+          "HrCasualEmployees": "0",
+          "HrFteStaff": "0.0000000000",
+          "HrFullTimeEmployees": "0",
+          "HrPartTimeEmployees": "7",
+          "HrUnpainVolunteers": "22",
+          "IncomeDonationsBequests": "938994.0000",
+          "IncomeGovernmentGrants": "0.0000",
+          "IncomeOther": "0.0000",
+          "IncomeOtherComprehinsive": "0.0000",
+          "IncomeOtherNeg": null,
+          "IncomeOtherReceipts": "127587.0000",
+          "IncomeTotalComprehensive": "215271.0000",
+          "IncomeTotalReceipts": "1122218.0000",
+          "IncorporationStatus": null,
+          "InterestExpense": "0.0000",
+          "IsIncorporatedAssociation": false,
+          "KeyManagementPersonnel": false,
+          "LegalName": "Mighty Livingwaters - Life Fellowship",
+          "NetAssetsLiabilities": "5553384.0000",
+          "NetSurplusDeficit": "215271.0000",
+          "NonCurrentLoansPayable": "0.0000",
+          "NumberOfKeyManagementPersonnel": "0",
+          "OperatingCountries": null,
+          "OperatingInACT": false,
+          "OperatingInNSW": false,
+          "OperatingInNT": false,
+          "OperatingInQLD": false,
+          "OperatingInSA": false,
+          "OperatingInTAS": false,
+          "OperatingInVIC": false,
+          "OperatingInWA": false,
+          "OperatingOverseas": false,
+          "OtherNames": [],
+          "OtherNonCurrentAssets": "0.0000",
+          "OtherNonCurrentLiabilities": "0.0000",
+          "OtherPurposeDescription": null,
+          "OtherPurposes": "False",
+          "Programs": [
+            {
+              "AisUuid": "072cab13-8fa1-f011-bbd2-7c1e528a8d67",
+              "Name": "Church Services",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Families"
+              ],
+              "ProgramClassification": "Christianity",
+              "ProgramClassificationID": "741",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "6 Avior Avenue, Jandakot WA, Australia",
+                  "FormattedAddress": "6 Avior Ave, Jandakot WA 6164, Australia",
+                  "Marker": {
+                    "Latitude": -32.1257528,
+                    "Longitude": 115.8662677
+                  },
+                  "Name": "6 Avior Ave",
+                  "uuid": "3b2cab13-8fa1-f011-bbd2-7c1e528a8d67"
+                }
+              ],
+              "ProgramWeblink": null,
+              "uuid": "352cab13-8fa1-f011-bbd2-7c1e528a8d67"
+            }
+          ],
+          "RegulatedACT": false,
+          "RegulatedNSW": false,
+          "RegulatedNT": false,
+          "RegulatedQLD": false,
+          "RegulatedSA": false,
+          "RegulatedTAS": false,
+          "RegulatedVIC": false,
+          "RegulatedWA": false,
+          "Regulator": null,
+          "RegulatorAGMDateACT": null,
+          "RegulatorAGMDateNT": null,
+          "RegulatorAGMDateVIC": null,
+          "RegulatorAGMDateWA": null,
+          "RegulatorFundRaising": "No",
+          "RegulatorFundRaisingACT": false,
+          "RegulatorFundRaisingNSW": false,
+          "RegulatorFundRaisingNT": false,
+          "RegulatorFundRaisingOnline": false,
+          "RegulatorFundRaisingQLD": false,
+          "RegulatorFundRaisingSA": false,
+          "RegulatorFundRaisingTAS": false,
+          "RegulatorFundRaisingVIC": false,
+          "RegulatorFundRaisingWA": false,
+          "RegulatorIncorporatedAssociationACT": false,
+          "RegulatorIncorporatedAssociationNSW": false,
+          "RegulatorIncorporatedAssociationNT": false,
+          "RegulatorIncorporatedAssociationNumberACT": null,
+          "RegulatorIncorporatedAssociationNumberNSW": null,
+          "RegulatorIncorporatedAssociationNumberNT": null,
+          "RegulatorIncorporatedAssociationNumberQLD": null,
+          "RegulatorIncorporatedAssociationNumberSA": null,
+          "RegulatorIncorporatedAssociationNumberTAS": null,
+          "RegulatorIncorporatedAssociationNumberVIC": null,
+          "RegulatorIncorporatedAssociationNumberWA": null,
+          "RegulatorIncorporatedAssociationQLD": false,
+          "RegulatorIncorporatedAssociationSA": false,
+          "RegulatorIncorporatedAssociationTAS": false,
+          "RegulatorIncorporatedAssociationVIC": false,
+          "RegulatorIncorporatedAssociationWA": false,
+          "RegulatorMetRequirementACT": false,
+          "RegulatorMetRequirementWA": null,
+          "RegulatorOtherDetails": null,
+          "RegulatorPrograms": null,
+          "RegulatorStates": false,
+          "RelatedPartyDetails": null,
+          "RelatedPartyTransactions": [],
+          "ReliefOfPoverty": false,
+          "ReportingGroupFlag": false,
+          "ResponsiblePersonAccurate": null,
+          "RevenueGoodsServices": "28558.0000",
+          "RevenueInvestments": "27079.0000",
+          "RevenueTotal": "1122218.0000",
+          "StatementYear": "2025",
+          "SubTypesAccurate": null,
+          "TotalAssets": "5753249.0000",
+          "TotalCurrentAssets": "602340.0000",
+          "TotalCurrentLiabilities": "199865.0000",
+          "TotalLiabilities": "199865.0000",
+          "TotalNonCurrentAssets": "5150909.0000",
+          "TotalNonCurrentLiabilities": "0.0000",
+          "TotalNonCurrentLoansReceivable": "0.0000",
+          "TotalPaidKMP": "$0.00",
+          "Website": "www.goodsuccess.church",
+          "__normalized": true,
+          "entityTypeVersion": "",
+          "entityVersion": "1768081264",
+          "timeStamp": "2025-10-05T02:00:41.0000000Z",
+          "type": "annual_information_statement",
+          "uuid": "072cab13-8fa1-f011-bbd2-7c1e528a8d67"
+        },
+        "type": "annual_information_statement",
+        "uuid": "072cab13-8fa1-f011-bbd2-7c1e528a8d67"
+      },
+      "canonical_field_mappings": {
+        "data.Programs": "programs",
+        "data.TotalRevenue": "financial_records[].revenue",
+        "data.TotalExpenses": "financial_records[].total_expenses"
       },
       "evidence_ids": [
-        "ev:acnc:ais:12086262816:2025"
+        "ev:acnc:ais:12086262816:072cab13-8fa1-f011-bbd2-7c1e528a8d67"
       ]
     }
   ],
@@ -934,9 +1254,12 @@
       },
       "assets": null,
       "liabilities": null,
+      "net_assets": null,
       "income_breakdown": [],
       "expense_breakdown": [],
-      "balance_sheet_breakdown": []
+      "balance_sheet_breakdown": [],
+      "source_ordered_line_items": [],
+      "statements": []
     }
   ],
   "financial_metrics": [
@@ -1126,24 +1449,24 @@
       "content_hash": null
     },
     {
+      "evidence_id": "ev:acnc:ais:12086262816:072cab13-8fa1-f011-bbd2-7c1e528a8d67",
+      "source_type": "regulatory",
+      "title": "ACNC Annual Information Statement 2025",
+      "publisher": "Australian Charities and Not-for-profits Commission",
+      "url": "https://www.acnc.gov.au/charity/charities/90181751-39af-e811-a963-000d3ad244fd/documents/072cab13-8fa1-f011-bbd2-7c1e528a8d67",
+      "observed_at": "2025-10-05",
+      "reporting_period": "2025",
+      "page": null,
+      "section": null,
+      "content_hash": null
+    },
+    {
       "evidence_id": "ev:abr-dgr:12086262816:20260805",
       "source_type": "regulatory",
       "title": "ABR DGR bulk observation",
       "publisher": "Australian Business Register / Australian Taxation Office",
       "url": "https://abr.business.gov.au/Tools/BulkExtract",
       "observed_at": "2026-08-05",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
-    },
-    {
-      "evidence_id": "ev:acnc:ais:12086262816:2025",
-      "source_type": "regulatory",
-      "title": "Mighty Livingwaters - Life Fellowship Annual Information Statement 2025",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": "https://www.acnc.gov.au/charity/charities/90181751-39af-e811-a963-000d3ad244fd/documents/072cab13-8fa1-f011-bbd2-7c1e528a8d67",
-      "observed_at": "2025-10-05",
       "reporting_period": null,
       "page": null,
       "section": null,
@@ -1156,81 +1479,25 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "7f7a0fa5bc2ef6c8437135ac5faec35db31bbe83b8b76e91594bd7f160ce90d4",
-    "generated_at": "2026-08-13T05:51:03.019111Z",
+    "source_text_hash": "e8515d2f90d195fac76a3c223af79c3d9a0ab0a0e79f5ef02d6b4d68031be19d",
+    "generated_at": "2026-08-10T13:53:24.458230Z",
     "vector_ref": "embeddings.parquet#cb_25f9e189a09a47e0aea65cf98437dc31"
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
+    "prompt_version": "phase2a-0.4",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "db8ee42cc853ef8b30293ca1a378fb18d85198c10697a3b06f002560f421eb30",
-    "generated_at": "2026-08-12T14:20:27.593886Z",
+    "evidence_input_hash": "45f41d15aec6a186582b3032eb3b49db08e2b2bc98a00b21bf5b602eb822a3a7",
+    "generated_at": "2026-08-10T13:02:12.881463Z",
     "editorial_policy_version": "0.1"
   },
-  "derivative_assessments": [
-    {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T14:20:27.593886Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-rc2-editorial-migration",
-      "input_hash": "db8ee42cc853ef8b30293ca1a378fb18d85198c10697a3b06f002560f421eb30",
-      "disposition": "refreshed",
-      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "taxonomy",
-      "generated_at": "2026-08-12T14:20:27.593886Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "db8ee42cc853ef8b30293ca1a378fb18d85198c10697a3b06f002560f421eb30",
-      "disposition": "reused",
-      "reason": "No new supported canonical classification facts.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "fundraising",
-      "generated_at": null,
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "db8ee42cc853ef8b30293ca1a378fb18d85198c10697a3b06f002560f421eb30",
-      "disposition": "reused",
-      "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "embedding",
-      "generated_at": "2026-08-10T13:53:24.458230Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "e8515d2f90d195fac76a3c223af79c3d9a0ab0a0e79f5ef02d6b4d68031be19d",
-      "disposition": "reused",
-      "reason": "Semantic source text unchanged.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "similarities",
-      "generated_at": "2026-08-10T13:53:24.458230Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "e8515d2f90d195fac76a3c223af79c3d9a0ab0a0e79f5ef02d6b4d68031be19d",
-      "disposition": "reused",
-      "reason": "Embedding reused; semantic neighbours retained.",
-      "affected_dimensions": []
-    }
-  ],
-  "dataset_version": "phase2b-2026-08-13-rc3",
+  "derivative_assessments": [],
+  "dataset_version": "phase2b-2026-08-14-rc4",
   "card_schema_version": "0.4",
-  "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T05:50:58.991012Z"
+  "editorial_policy_version": "0.4-rc4",
+  "generator_version": "0.5.0-rc4",
+  "built_at": "2026-08-13T10:52:47.483880Z"
 }

@@ -72,16 +72,6 @@
       "freshness_note": null
     },
     {
-      "capability": "website",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:web:51616914268:2026-08-10"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
       "capability": "fundraising_expenditure",
       "status": "not_available_from_source",
       "source_record_id": null,
@@ -102,12 +92,20 @@
     {
       "capability": "latest_acnc_ais",
       "status": "observed",
-      "source_record_id": null,
+      "source_record_id": "src:acnc-ais-detail:51616914268:550c12e7-f6fb-f011-8406-00224891bae2:cb_6610c4efd77042ae8ce10065c1060c2e",
       "evidence_ids": [
-        "ev:acnc:ais:51616914268:2025"
+        "ev:acnc:ais:51616914268:550c12e7-f6fb-f011-8406-00224891bae2"
       ],
       "observed_at": "2026-01-28",
-      "freshness_note": "Latest submitted ACNC AIS in the 2026-08-13 public-profile acquisition: 2025."
+      "freshness_note": "Latest submitted AIS detail acquired from the public ACNC entity endpoint."
+    },
+    {
+      "capability": "website",
+      "status": "observed",
+      "source_record_id": null,
+      "evidence_ids": [],
+      "observed_at": "2026-08-13",
+      "freshness_note": "Public website locator acquired from the ACNC profile."
     }
   ],
   "enrichment_level": "enriched",
@@ -115,30 +113,17 @@
   "geography": [
     "Great Barrier Reef, Queensland (Australia)"
   ],
-  "navigation_geography": [
+  "geography_observations": [
     {
-      "level": "country",
-      "code": "AU",
-      "label": "Australia",
-      "evidence_ids": [
-        "ev:acnc:51616914268"
-      ]
-    },
-    {
-      "level": "state_territory",
-      "code": "AU-QLD",
-      "label": "Queensland",
-      "evidence_ids": [
-        "ev:acnc:51616914268"
-      ]
+      "value": "Great Barrier Reef, Queensland (Australia)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
     }
   ],
-  "causebase_summary": "Biopixel Oceans Foundation Limited is an Australian marine research and education organisation operating on the Great Barrier Reef, Queensland. It tags and tracks marine animals in real time using the BioTracker platform, undertakes applied research on marine megafauna (including shark behaviour) and provides ecological information for fisheries management. The foundation maintains Oceanpedia, a multimedia library of short Great Barrier Reef video clips, produces videos and participates in streamed documentaries and media partnerships, and publishes journal articles and research collaborations. It also offers naming/sponsorship opportunities for individually tagged animals and reports tracking more than 1,000 animals currently being followed.",
-  "summary_evidence_ids": [
-    "ev:web:51616914268:2026-08-10",
-    "ev:ais:51616914268:2023",
-    "ev:acnc:51616914268"
-  ],
+  "navigation_geography": [],
+  "causebase_summary": "Biopixel Oceans Foundation Limited (registered in Queensland) describes a program of marine research, animal tagging and public multimedia activity. The organisation’s website highlights a realtime tracking system called BioTracker and a public multimedia library called Oceanpedia, and it advertises a “Name, Tag & Track” sponsorship option that allows a one‑time sponsorship to follow an individual shark. Website material states the foundation focuses on applied research into marine megafauna, developing or combining technologies, shark behaviour, and providing ecological information to assist fisheries management. The site also cites outputs including thousands of short videos and peer‑reviewed publications; however counts on the site are inconsistent (for example, pages list both “1,325” and “1,057” animals tagged and both “97” and “58” published journal articles). The organisation lists media partnerships and featuring on streamed documentaries. ACNC annual information for 2022–23 shows revenue A$187,807 and total expenses A$590,064. The website identifies the foundation as an initiative of the Slattery Family Trust.",
+  "summary_evidence_ids": [],
   "organisation_self_description": null,
   "activities": [
     "Tagging and real‑time tracking of marine animals via BioTracker",
@@ -148,10 +133,68 @@
     "Offering naming/sponsorship opportunities for individual tagged animals",
     "Publishing journal articles and research collaborations"
   ],
+  "activity_observations": [
+    {
+      "value": "Tagging and real‑time tracking of marine animals via BioTracker",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Applied research on marine megafauna, shark behaviour and fisheries management",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Maintaining Oceanpedia multimedia library of Great Barrier Reef video clips",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Producing videos and participating in streamed documentaries and media partnerships",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Offering naming/sponsorship opportunities for individual tagged animals",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Publishing journal articles and research collaborations",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    }
+  ],
   "beneficiaries": [
     "Marine animals (tagged and tracked)",
     "Researchers and fisheries managers (recipients of ecological information)",
     "General public and media audiences (users of Oceanpedia and video content)"
+  ],
+  "beneficiary_observations": [
+    {
+      "value": "Marine animals (tagged and tracked)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Researchers and fisheries managers (recipients of ecological information)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "General public and media audiences (users of Oceanpedia and video content)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    }
   ],
   "participation_modes": [
     "Viewing live animal locations via BioTracker",
@@ -182,7 +225,7 @@
       "reporting_period": "2025",
       "source_url": "https://www.acnc.gov.au/charity/charities/616d92b3-3aaf-e811-a962-000d3ad24a0d/documents/550c12e7-f6fb-f011-8406-00224891bae2",
       "evidence_ids": [
-        "ev:acnc:ais:51616914268:2025"
+        "ev:acnc:ais:51616914268:550c12e7-f6fb-f011-8406-00224891bae2"
       ]
     },
     {
@@ -203,7 +246,7 @@
       "reporting_period": "2025",
       "source_url": "https://www.acnc.gov.au/charity/charities/616d92b3-3aaf-e811-a962-000d3ad24a0d/documents/550c12e7-f6fb-f011-8406-00224891bae2",
       "evidence_ids": [
-        "ev:acnc:ais:51616914268:2025"
+        "ev:acnc:ais:51616914268:550c12e7-f6fb-f011-8406-00224891bae2"
       ]
     },
     {
@@ -223,7 +266,7 @@
       "reporting_period": "2025",
       "source_url": "https://www.acnc.gov.au/charity/charities/616d92b3-3aaf-e811-a962-000d3ad24a0d/documents/550c12e7-f6fb-f011-8406-00224891bae2",
       "evidence_ids": [
-        "ev:acnc:ais:51616914268:2025"
+        "ev:acnc:ais:51616914268:550c12e7-f6fb-f011-8406-00224891bae2"
       ]
     },
     {
@@ -246,7 +289,7 @@
       "reporting_period": "2025",
       "source_url": "https://www.acnc.gov.au/charity/charities/616d92b3-3aaf-e811-a962-000d3ad24a0d/documents/550c12e7-f6fb-f011-8406-00224891bae2",
       "evidence_ids": [
-        "ev:acnc:ais:51616914268:2025"
+        "ev:acnc:ais:51616914268:550c12e7-f6fb-f011-8406-00224891bae2"
       ]
     },
     {
@@ -265,7 +308,7 @@
       "reporting_period": "2025",
       "source_url": "https://www.acnc.gov.au/charity/charities/616d92b3-3aaf-e811-a962-000d3ad24a0d/documents/550c12e7-f6fb-f011-8406-00224891bae2",
       "evidence_ids": [
-        "ev:acnc:ais:51616914268:2025"
+        "ev:acnc:ais:51616914268:550c12e7-f6fb-f011-8406-00224891bae2"
       ]
     },
     {
@@ -285,7 +328,7 @@
       "reporting_period": "2025",
       "source_url": "https://www.acnc.gov.au/charity/charities/616d92b3-3aaf-e811-a962-000d3ad24a0d/documents/550c12e7-f6fb-f011-8406-00224891bae2",
       "evidence_ids": [
-        "ev:acnc:ais:51616914268:2025"
+        "ev:acnc:ais:51616914268:550c12e7-f6fb-f011-8406-00224891bae2"
       ]
     },
     {
@@ -305,7 +348,7 @@
       "reporting_period": "2025",
       "source_url": "https://www.acnc.gov.au/charity/charities/616d92b3-3aaf-e811-a962-000d3ad24a0d/documents/550c12e7-f6fb-f011-8406-00224891bae2",
       "evidence_ids": [
-        "ev:acnc:ais:51616914268:2025"
+        "ev:acnc:ais:51616914268:550c12e7-f6fb-f011-8406-00224891bae2"
       ]
     },
     {
@@ -325,7 +368,7 @@
       "reporting_period": "2025",
       "source_url": "https://www.acnc.gov.au/charity/charities/616d92b3-3aaf-e811-a962-000d3ad24a0d/documents/550c12e7-f6fb-f011-8406-00224891bae2",
       "evidence_ids": [
-        "ev:acnc:ais:51616914268:2025"
+        "ev:acnc:ais:51616914268:550c12e7-f6fb-f011-8406-00224891bae2"
       ]
     },
     {
@@ -346,82 +389,23 @@
       "reporting_period": "2025",
       "source_url": "https://www.acnc.gov.au/charity/charities/616d92b3-3aaf-e811-a962-000d3ad24a0d/documents/550c12e7-f6fb-f011-8406-00224891bae2",
       "evidence_ids": [
-        "ev:acnc:ais:51616914268:2025"
+        "ev:acnc:ais:51616914268:550c12e7-f6fb-f011-8406-00224891bae2"
       ]
     }
   ],
   "source_native_records": [
     {
-      "source_record_id": "src:acnc-register:44f2ded4-c2d3-5bac-820b-46f1e71ae3da",
-      "source_family": "acnc-register",
-      "dataset_version": "2026-08-10",
-      "source_url": "https://www.acnc.gov.au/charity/charities?search=51616914268",
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "ABN": "51616914268",
-        "Legal Name": "Biopixel Oceans Foundation Limited",
-        "Registration Status": "registered",
-        "ACNC classifications": "environment; general community",
-        "Website": "https://biopixeloceans.org/",
-        "ACNC registration ID": null,
-        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "ABN": "external_identifiers",
-        "Legal Name": "legal_name",
-        "Registration Status": "registrations"
-      },
-      "evidence_ids": [
-        "ev:acnc:51616914268"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-ais:fr:ais:cb_6610c4efd77042ae8ce10065c1060c2e:2023",
-      "source_family": "acnc-ais",
-      "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": "2022-07-01",
-      "effective_to": "2023-06-30",
-      "source_fields": {
-        "Reporting period": "01/07/2022 to 30/06/2023",
-        "Reporting scope": "subject",
-        "Consolidated": "unknown",
-        "Revenue": "187807",
-        "Donations and bequests": null,
-        "Government grants": null,
-        "Total expenses": "590064",
-        "Assets": null,
-        "Liabilities": null
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "Revenue": "financial_records[].revenue",
-        "Total expenses": "financial_records[].total_expenses"
-      },
-      "evidence_ids": [
-        "ev:ais:51616914268:2023"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-public-profile:51616914268:cb_6610c4efd77042ae8ce10065c1060c2e:2026-08-13",
+      "source_record_id": "src:acnc-public-profile:51616914268:616d92b3-3aaf-e811-a962-000d3ad24a0d:cb_6610c4efd77042ae8ce10065c1060c2e",
       "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-13-public-api",
+      "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/616d92b3-3aaf-e811-a962-000d3ad24a0d/profile",
-      "retrieved_at": "2026-08-13T05:50:58.991012Z",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
       "observed_at": "2026-01-28",
       "effective_from": null,
       "effective_to": null,
       "source_fields": {
         "uuid": "616d92b3-3aaf-e811-a962-000d3ad24a0d",
-        "abn": "51616914268",
-        "latest_ais_year": "2025",
-        "latest_ais_uuid": "550c12e7-f6fb-f011-8406-00224891bae2"
+        "abn": "51616914268"
       },
       "source_payload": {
         "data": {
@@ -1450,13 +1434,574 @@
         "uuid": "616d92b3-3aaf-e811-a962-000d3ad24a0d"
       },
       "canonical_field_mappings": {
-        "data.Name": "display_name",
         "data.OtherNames": "operating_names",
-        "data.AnnualReports": "acnc_ais_url",
-        "data.Programs": "programs"
+        "data.AddressStateOrProvince": "principal_location"
+      },
+      "evidence_ids": []
+    },
+    {
+      "source_record_id": "src:acnc-ais-detail:51616914268:550c12e7-f6fb-f011-8406-00224891bae2:cb_6610c4efd77042ae8ce10065c1060c2e",
+      "source_family": "acnc-ais-detail",
+      "dataset_version": "2026-08-14-public-api",
+      "source_url": "https://www.acnc.gov.au/charity/charities/616d92b3-3aaf-e811-a962-000d3ad24a0d/documents/550c12e7-f6fb-f011-8406-00224891bae2",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
+      "observed_at": "2026-01-28",
+      "effective_from": null,
+      "effective_to": null,
+      "source_fields": {
+        "abn": "51616914268",
+        "ais_uuid": "550c12e7-f6fb-f011-8406-00224891bae2",
+        "year": "2025",
+        "date_received": "2026-01-28T03:10:45.0000000Z"
+      },
+      "source_payload": {
+        "data": {
+          "Abn": "51616914268",
+          "ActivityAdvocacyNCivic": false,
+          "ActivityAgedCare": false,
+          "ActivityAnimalProtection": false,
+          "ActivityCultureAndArt": false,
+          "ActivityEconomicSocialCommunity": false,
+          "ActivityEmergencyNRelief": false,
+          "ActivityEmploymentNTraining": false,
+          "ActivityEnvironmental": false,
+          "ActivityGrantMaking": false,
+          "ActivityHealthRehabilitation": false,
+          "ActivityHigherEducation": false,
+          "ActivityHousing": false,
+          "ActivityIncomeSupportNMaintenance": false,
+          "ActivityInternational": false,
+          "ActivityInternationalDescription": null,
+          "ActivityInternationalOther": false,
+          "ActivityInternationalOtherDescription": null,
+          "ActivityLawNLegalServices": false,
+          "ActivityMain": null,
+          "ActivityMentalHealthCrisisIntervention": false,
+          "ActivityNdisSupported": null,
+          "ActivityNdisSupportedNext": null,
+          "ActivityOperating": true,
+          "ActivityOperatingOverseas": false,
+          "ActivityOther": false,
+          "ActivityOtherDescription": null,
+          "ActivityOtherEducation": false,
+          "ActivityOtherHealthServices": false,
+          "ActivityPersuitPurposesDescription": "Biopixel Oceans Foundation continued conducting shark research around general movements and the impact of human and shark interaction for shark conservation and public safety. The program has been running since 2018 in the Whitsundays and 2021 at Northwest Island Capricorn Bunker group. Knowledge has been used to inform water users of shark behaviour (e.g. complementing Fisheries Queensland Shark Smart program) so they can make informed choices of when/how they undertake marine activities. BOF consolidated the previous 4 years of filed work on whale shark aggregation on the east coast of Australia. Producing a report for the QLD government threatened species department, and 4 scientific papers (resulting in 7 papers to date). Aa an extension, we discovered the first manta ray parturition site in Australia, located off Weipa in the Gulf of Carpentaria. Population studies of bull and tiger sharks on Australia s east coast continued. Under our lifeboat species banner, research assessing the health of species threatened internationally and believed to be healthy populations in Australia was conducted. This includes collecting data on population status and essential habitats for 20 species of shark and rays. Through the large-scale animal movement program BOF have electronically tagged >1300 animals and manage the largest QLD array ever deployed in QLD. BOF has worked with ReShark (ReWild) on the STAR project, collecting data and semen samples in Australia for breeding and restocking of leopard sharks in Indonesia https://www.reshark.org/star-project. We also facilitated the first expedition for ReShark to find and study Shark Rays, a highly threatened species that is the next candidate for the Rewilding program. BOF is also partnering with Queensland Fisheries, the University of Central Queensland, University of Sunshine Coast and game fishing clubs providing research to manage key commercial fishery species, such as black jewfish Protonibea diacanthaus and mud crabs and recreational fished species e.g. sailfish and dolphinfish. Three publications were produced in 2025. These activities helped BOF achieve its aim of supporting the protection and enhancement of our oceans through fostering a better understanding of shark behaviour and providing a data driven basis for determining shark policy. The continued whale shark and Omuras whale shark work continue to provide key findings for management in Australia and internationally. The Foundation shares live movement information of sharks to our public available biotracker https://biotracker.tv/. Biopixel work with Traditional owner groups, training them in scientific methods for understanding food web ecology and tracking totem species. In the last 2 years, seven post graduate students BOF staff have supervised or helped supervise have graduated. These public outputs support the Foundation's aim to foster education and a better understanding of the need for environmental protection and preservation.",
+          "ActivityPhilanthropicPromotion": false,
+          "ActivityPolitical": false,
+          "ActivityPrimarySecondaryEducation": false,
+          "ActivityPurposeChange": null,
+          "ActivityPurposeChangeDescription": null,
+          "ActivityRecreationSocialClub": false,
+          "ActivityReligious": false,
+          "ActivityResearch": false,
+          "ActivitySocialServices": false,
+          "ActivitySports": false,
+          "ActivityTransferringFundsGoods": false,
+          "AdvancementOfEducation": false,
+          "AdvancementOfReligion": false,
+          "AssetsandLiabilitiesDescription": null,
+          "BasicReligiousCharity": false,
+          "BeneficiaryAboriginalTorres": false,
+          "BeneficiaryAdults": false,
+          "BeneficiaryAllAges": false,
+          "BeneficiaryChildren": false,
+          "BeneficiaryChronicIllness": false,
+          "BeneficiaryCrimeVictims": false,
+          "BeneficiaryDisasterVictims": false,
+          "BeneficiaryEarlyChildhood": false,
+          "BeneficiaryEthnic": false,
+          "BeneficiaryFamilies": false,
+          "BeneficiaryFinanciallyDisadvantaged": false,
+          "BeneficiaryGeneral": false,
+          "BeneficiaryHomelessnessRisk": false,
+          "BeneficiaryLGBT": false,
+          "BeneficiaryMain": null,
+          "BeneficiaryMen": false,
+          "BeneficiaryMigrantsRefugees": false,
+          "BeneficiaryOffenderFamilies": false,
+          "BeneficiaryOther": false,
+          "BeneficiaryOtherCharities": false,
+          "BeneficiaryOtherDescription": null,
+          "BeneficiaryOverseas": false,
+          "BeneficiaryPeopleWithDisability": false,
+          "BeneficiaryRuralRegionalRemote": false,
+          "BeneficiarySeniors": false,
+          "BeneficiaryUnemployed": false,
+          "BeneficiaryVeteranFamilies": false,
+          "BeneficiaryWomen": false,
+          "BeneficiaryYouth": false,
+          "CharityAddressCountry": "Australia",
+          "CharityAddressLine1": "14 Church St",
+          "CharityAddressLine2": null,
+          "CharityAddressPostalCode": "4006",
+          "CharityAddressStateOrProvince": "QLD",
+          "CharityAddressSuburb": "Fortitude Valley",
+          "CharityEmail": "notices@biopixeloceans.org",
+          "CharitySize": "Medium",
+          "CharityUuid": "616d92b3-3aaf-e811-a962-000d3ad24a0d",
+          "ChildCareServices": false,
+          "ExpenseEmployees": "327156.0000",
+          "ExpenseGrantDonationsInAustralia": "0.0000",
+          "ExpenseGrantDonationsOutsideAustralia": "0.0000",
+          "ExpenseTotal": "866397.0000",
+          "ExpensesOther": "539241.0000",
+          "FinAccrualAccounting": null,
+          "FinConsolidatedReportFromMiltiple": "No",
+          "FinDocumentedPoliciesRelatedPartyTransactions": null,
+          "FinFyeJune": false,
+          "FinProvideVoluntarily": null,
+          "FinRelatedPartyTransactions": "No",
+          "FinReportACT": false,
+          "FinReportFrom": "2024-07-01T00:00:00.0000000Z",
+          "FinReportNSW": false,
+          "FinReportNT": false,
+          "FinReportQLD": false,
+          "FinReportSA": false,
+          "FinReportTAS": false,
+          "FinReportTo": "2025-06-30T00:00:00.0000000Z",
+          "FinReportVIC": false,
+          "FinReportWA": false,
+          "FinReportingType": "Special purpose financial statements",
+          "FinSapDate": null,
+          "FundRaisingNumberACT": null,
+          "FundRaisingNumberNSW": null,
+          "FundRaisingNumberQLD": null,
+          "FundRaisingNumberSA": null,
+          "FundRaisingNumberTAS": null,
+          "FundRaisingNumberVIC": null,
+          "FundRaisingNumberWA": null,
+          "GovDocAccurate": null,
+          "GrantCapacityBuildingPct": null,
+          "GrantMultiYearPct": null,
+          "GrantPublicOpenApplicationPct": null,
+          "GrantRuralRegionPct": null,
+          "HasSubmittedToRegulator": false,
+          "HoursPaid": null,
+          "HoursTotal": null,
+          "HoursVolunteer": null,
+          "HrCasualEmployees": "3",
+          "HrFteStaff": "3.6800000000",
+          "HrFullTimeEmployees": "2",
+          "HrPartTimeEmployees": "4",
+          "HrUnpainVolunteers": "5",
+          "IncomeDonationsBequests": "110.0000",
+          "IncomeGovernmentGrants": "411909.0000",
+          "IncomeOther": "0.0000",
+          "IncomeOtherComprehinsive": "0.0000",
+          "IncomeOtherNeg": null,
+          "IncomeOtherReceipts": "0.0000",
+          "IncomeTotalComprehensive": "-200364.0000",
+          "IncomeTotalReceipts": "666033.0000",
+          "IncorporationStatus": null,
+          "InterestExpense": "0.0000",
+          "IsIncorporatedAssociation": false,
+          "KeyManagementPersonnel": false,
+          "LegalName": "Biopixel Oceans Foundation Limited",
+          "NetAssetsLiabilities": "553225.0000",
+          "NetSurplusDeficit": "-200364.0000",
+          "NonCurrentLoansPayable": "0.0000",
+          "NumberOfKeyManagementPersonnel": "0",
+          "OperatingCountries": null,
+          "OperatingInACT": false,
+          "OperatingInNSW": false,
+          "OperatingInNT": false,
+          "OperatingInQLD": false,
+          "OperatingInSA": false,
+          "OperatingInTAS": false,
+          "OperatingInVIC": false,
+          "OperatingInWA": false,
+          "OperatingOverseas": false,
+          "OtherNames": [],
+          "OtherNonCurrentAssets": "0.0000",
+          "OtherNonCurrentLiabilities": "0.0000",
+          "OtherPurposeDescription": null,
+          "OtherPurposes": "False",
+          "Programs": [
+            {
+              "AisUuid": "550c12e7-f6fb-f011-8406-00224891bae2",
+              "Name": "Predator-human interactions",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "General community in Australia",
+                "Environment",
+                "Animals",
+                "Other - shark control programs, life savers, people undertaking water activities"
+              ],
+              "ProgramClassification": "Research and development",
+              "ProgramClassificationID": "164",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Whitsundays QLD, Australia",
+                  "FormattedAddress": "Whitsundays QLD 4802, Australia",
+                  "Marker": {
+                    "Latitude": -20.059701,
+                    "Longitude": 148.8809662
+                  },
+                  "Name": "Whitsundays",
+                  "uuid": "92480fed-f6fb-f011-8406-00224891bae2"
+                },
+                {
+                  "DisplayName": "North West Island, Queensland, Australia",
+                  "FormattedAddress": "North West Island, Queensland, Australia",
+                  "Marker": {
+                    "Latitude": -23.2950882,
+                    "Longitude": 151.7078724
+                  },
+                  "Name": "North West Island",
+                  "uuid": "a2480fed-f6fb-f011-8406-00224891bae2"
+                },
+                {
+                  "DisplayName": "Queensland, Australia",
+                  "FormattedAddress": "Queensland, Australia",
+                  "Marker": {
+                    "Latitude": -22.575197,
+                    "Longitude": 144.0847926
+                  },
+                  "Name": "Queensland",
+                  "uuid": "aa480fed-f6fb-f011-8406-00224891bae2"
+                },
+                {
+                  "DisplayName": "Norfolk Island National Park, New South Wales, Australia",
+                  "FormattedAddress": "Mount Pitt Road Norfolk Island, 2899, Australia",
+                  "Marker": {
+                    "Latitude": -29.040835,
+                    "Longitude": 167.954712
+                  },
+                  "Name": "Norfolk Island National Park",
+                  "uuid": "ac480fed-f6fb-f011-8406-00224891bae2"
+                }
+              ],
+              "ProgramWeblink": null,
+              "uuid": "67480fed-f6fb-f011-8406-00224891bae2"
+            },
+            {
+              "AisUuid": "550c12e7-f6fb-f011-8406-00224891bae2",
+              "Name": "Megamouths of the Great Barrier Reef and Coral Sea",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Animals",
+                "Environment",
+                "General community in Australia",
+                "Other - Management agencies in Australia (eg. Great Barrier Reef Marine Park Authority and Parks Australia). In relation to whale sharks and Omura's whales, the Global research community and conservation agencies."
+              ],
+              "ProgramClassification": "Research and development",
+              "ProgramClassificationID": "164",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Queensland, Australia",
+                  "FormattedAddress": "Queensland, Australia",
+                  "Marker": {
+                    "Latitude": -22.575197,
+                    "Longitude": 144.0847926
+                  },
+                  "Name": "Queensland",
+                  "uuid": "e6480fed-f6fb-f011-8406-00224891bae2"
+                },
+                {
+                  "DisplayName": "Australia",
+                  "FormattedAddress": "Australia",
+                  "Marker": {
+                    "Latitude": -25.274398,
+                    "Longitude": 133.775136
+                  },
+                  "Name": "Australia",
+                  "uuid": "f0480fed-f6fb-f011-8406-00224891bae2"
+                }
+              ],
+              "ProgramWeblink": null,
+              "uuid": "b0480fed-f6fb-f011-8406-00224891bae2"
+            },
+            {
+              "AisUuid": "550c12e7-f6fb-f011-8406-00224891bae2",
+              "Name": "Population structure of tiger and bull sharks in Queensland",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Animals",
+                "Environment",
+                "General community in Australia",
+                "Other - Management agencies in Queensland and New South Wales"
+              ],
+              "ProgramClassification": "Research and development",
+              "ProgramClassificationID": "164",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Queensland, Australia",
+                  "FormattedAddress": "Queensland, Australia",
+                  "Marker": {
+                    "Latitude": -22.575197,
+                    "Longitude": 144.0847926
+                  },
+                  "Name": "Queensland",
+                  "uuid": "7beb07f3-f6fb-f011-8406-00224891bae2"
+                }
+              ],
+              "ProgramWeblink": null,
+              "uuid": "fa480fed-f6fb-f011-8406-00224891bae2"
+            },
+            {
+              "AisUuid": "550c12e7-f6fb-f011-8406-00224891bae2",
+              "Name": "Lifeboat species",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Animals",
+                "Environment",
+                "Other charities",
+                "Overseas communities or charities",
+                "General community in Australia",
+                "Other - IUCN redlist. Conservation groups"
+              ],
+              "ProgramClassification": "Wildlife biodiversity",
+              "ProgramClassificationID": "225",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Queensland, Australia",
+                  "FormattedAddress": "Queensland, Australia",
+                  "Marker": {
+                    "Latitude": -22.575197,
+                    "Longitude": 144.0847926
+                  },
+                  "Name": "Queensland",
+                  "uuid": "e0eb07f3-f6fb-f011-8406-00224891bae2"
+                },
+                {
+                  "DisplayName": "Australia",
+                  "FormattedAddress": "Australia",
+                  "Marker": {
+                    "Latitude": -25.274398,
+                    "Longitude": 133.775136
+                  },
+                  "Name": "Australia",
+                  "uuid": "edeb07f3-f6fb-f011-8406-00224891bae2"
+                }
+              ],
+              "ProgramWeblink": null,
+              "uuid": "83eb07f3-f6fb-f011-8406-00224891bae2"
+            },
+            {
+              "AisUuid": "550c12e7-f6fb-f011-8406-00224891bae2",
+              "Name": "Animal movement",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Animals",
+                "Environment",
+                "General community in Australia"
+              ],
+              "ProgramClassification": "Biodiversity",
+              "ProgramClassificationID": "217",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Australia",
+                  "FormattedAddress": "Australia",
+                  "Marker": {
+                    "Latitude": -25.274398,
+                    "Longitude": 133.775136
+                  },
+                  "Name": "Australia",
+                  "uuid": "33ec07f3-f6fb-f011-8406-00224891bae2"
+                }
+              ],
+              "ProgramWeblink": null,
+              "uuid": "f2eb07f3-f6fb-f011-8406-00224891bae2"
+            },
+            {
+              "AisUuid": "550c12e7-f6fb-f011-8406-00224891bae2",
+              "Name": "Essential habitats",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Animals",
+                "Environment",
+                "Overseas communities or charities",
+                "General community in Australia"
+              ],
+              "ProgramClassification": "Wildlife biodiversity",
+              "ProgramClassificationID": "225",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Australia",
+                  "FormattedAddress": "Australia",
+                  "Marker": {
+                    "Latitude": -25.274398,
+                    "Longitude": 133.775136
+                  },
+                  "Name": "Australia",
+                  "uuid": "34160af9-f6fb-f011-8406-00224891bae2"
+                }
+              ],
+              "ProgramWeblink": null,
+              "uuid": "48ec07f3-f6fb-f011-8406-00224891bae2"
+            },
+            {
+              "AisUuid": "550c12e7-f6fb-f011-8406-00224891bae2",
+              "Name": "Stock structure and habitat use of pelagic fish species",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Animals",
+                "Environment",
+                "General community in Australia",
+                "Other - Fisheries managers and Fishing Industry, Game fishing club"
+              ],
+              "ProgramClassification": "Fishing and aquaculture",
+              "ProgramClassificationID": "11",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Queensland, Australia",
+                  "FormattedAddress": "Queensland, Australia",
+                  "Marker": {
+                    "Latitude": -22.575197,
+                    "Longitude": 144.0847926
+                  },
+                  "Name": "Queensland",
+                  "uuid": "1d9302ff-f6fb-f011-8406-00224891bae2"
+                }
+              ],
+              "ProgramWeblink": null,
+              "uuid": "3e160af9-f6fb-f011-8406-00224891bae2"
+            },
+            {
+              "AisUuid": "550c12e7-f6fb-f011-8406-00224891bae2",
+              "Name": "Mud crab connectivity and habitat use",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Animals",
+                "Environment",
+                "General community in Australia",
+                "Other - Fisheries managers and Fishing Industry, recreational fishers"
+              ],
+              "ProgramClassification": "Fishing and aquaculture",
+              "ProgramClassificationID": "11",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Queensland, Australia",
+                  "FormattedAddress": "Queensland, Australia",
+                  "Marker": {
+                    "Latitude": -22.575197,
+                    "Longitude": 144.0847926
+                  },
+                  "Name": "Queensland",
+                  "uuid": "ae9302ff-f6fb-f011-8406-00224891bae2"
+                }
+              ],
+              "ProgramWeblink": null,
+              "uuid": "249302ff-f6fb-f011-8406-00224891bae2"
+            },
+            {
+              "AisUuid": "550c12e7-f6fb-f011-8406-00224891bae2",
+              "Name": "Coral Sea Connectivity",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Animals",
+                "Environment",
+                "Overseas communities or charities",
+                "General community in Australia",
+                "Other - Federal Government, Parks Australia"
+              ],
+              "ProgramClassification": "Wildlife biodiversity",
+              "ProgramClassificationID": "225",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Australia",
+                  "FormattedAddress": "Australia",
+                  "Marker": {
+                    "Latitude": -25.274398,
+                    "Longitude": 133.775136
+                  },
+                  "Name": "Australia",
+                  "uuid": "9e250005-f7fb-f011-8406-00224891bae2"
+                }
+              ],
+              "ProgramWeblink": null,
+              "uuid": "b29302ff-f6fb-f011-8406-00224891bae2"
+            }
+          ],
+          "RegulatedACT": false,
+          "RegulatedNSW": false,
+          "RegulatedNT": false,
+          "RegulatedQLD": false,
+          "RegulatedSA": false,
+          "RegulatedTAS": false,
+          "RegulatedVIC": false,
+          "RegulatedWA": false,
+          "Regulator": null,
+          "RegulatorAGMDateACT": null,
+          "RegulatorAGMDateNT": null,
+          "RegulatorAGMDateVIC": null,
+          "RegulatorAGMDateWA": null,
+          "RegulatorFundRaising": "Yes",
+          "RegulatorFundRaisingACT": false,
+          "RegulatorFundRaisingNSW": false,
+          "RegulatorFundRaisingNT": false,
+          "RegulatorFundRaisingOnline": false,
+          "RegulatorFundRaisingQLD": false,
+          "RegulatorFundRaisingSA": false,
+          "RegulatorFundRaisingTAS": false,
+          "RegulatorFundRaisingVIC": false,
+          "RegulatorFundRaisingWA": false,
+          "RegulatorIncorporatedAssociationACT": false,
+          "RegulatorIncorporatedAssociationNSW": false,
+          "RegulatorIncorporatedAssociationNT": false,
+          "RegulatorIncorporatedAssociationNumberACT": null,
+          "RegulatorIncorporatedAssociationNumberNSW": null,
+          "RegulatorIncorporatedAssociationNumberNT": null,
+          "RegulatorIncorporatedAssociationNumberQLD": null,
+          "RegulatorIncorporatedAssociationNumberSA": null,
+          "RegulatorIncorporatedAssociationNumberTAS": null,
+          "RegulatorIncorporatedAssociationNumberVIC": null,
+          "RegulatorIncorporatedAssociationNumberWA": null,
+          "RegulatorIncorporatedAssociationQLD": false,
+          "RegulatorIncorporatedAssociationSA": false,
+          "RegulatorIncorporatedAssociationTAS": false,
+          "RegulatorIncorporatedAssociationVIC": false,
+          "RegulatorIncorporatedAssociationWA": false,
+          "RegulatorMetRequirementACT": false,
+          "RegulatorMetRequirementWA": null,
+          "RegulatorOtherDetails": null,
+          "RegulatorPrograms": null,
+          "RegulatorStates": false,
+          "RelatedPartyDetails": null,
+          "RelatedPartyTransactions": [],
+          "ReliefOfPoverty": false,
+          "ReportingGroupFlag": false,
+          "ResponsiblePersonAccurate": null,
+          "RevenueGoodsServices": "254014.0000",
+          "RevenueInvestments": "0.0000",
+          "RevenueTotal": "666033.0000",
+          "StatementYear": "2025",
+          "SubTypesAccurate": null,
+          "TotalAssets": "664821.0000",
+          "TotalCurrentAssets": "599821.0000",
+          "TotalCurrentLiabilities": "111596.0000",
+          "TotalLiabilities": "111596.0000",
+          "TotalNonCurrentAssets": "65000.0000",
+          "TotalNonCurrentLiabilities": "0.0000",
+          "TotalNonCurrentLoansReceivable": "0.0000",
+          "TotalPaidKMP": "$0.00",
+          "Website": "https://biopixeloceans.org/",
+          "__normalized": true,
+          "entityTypeVersion": "",
+          "entityVersion": "1839561566",
+          "timeStamp": "2026-01-28T03:10:40.0000000Z",
+          "type": "annual_information_statement",
+          "uuid": "550c12e7-f6fb-f011-8406-00224891bae2"
+        },
+        "type": "annual_information_statement",
+        "uuid": "550c12e7-f6fb-f011-8406-00224891bae2"
+      },
+      "canonical_field_mappings": {
+        "data.Programs": "programs",
+        "data.TotalRevenue": "financial_records[].revenue",
+        "data.TotalExpenses": "financial_records[].total_expenses"
       },
       "evidence_ids": [
-        "ev:acnc:ais:51616914268:2025"
+        "ev:acnc:ais:51616914268:550c12e7-f6fb-f011-8406-00224891bae2"
       ]
     }
   ],
@@ -1505,9 +2050,12 @@
       },
       "assets": null,
       "liabilities": null,
+      "net_assets": null,
       "income_breakdown": [],
       "expense_breakdown": [],
-      "balance_sheet_breakdown": []
+      "balance_sheet_breakdown": [],
+      "source_ordered_line_items": [],
+      "statements": []
     }
   ],
   "financial_metrics": [
@@ -1679,24 +2227,24 @@
       "content_hash": null
     },
     {
+      "evidence_id": "ev:acnc:ais:51616914268:550c12e7-f6fb-f011-8406-00224891bae2",
+      "source_type": "regulatory",
+      "title": "ACNC Annual Information Statement 2025",
+      "publisher": "Australian Charities and Not-for-profits Commission",
+      "url": "https://www.acnc.gov.au/charity/charities/616d92b3-3aaf-e811-a962-000d3ad24a0d/documents/550c12e7-f6fb-f011-8406-00224891bae2",
+      "observed_at": "2026-01-28",
+      "reporting_period": "2025",
+      "page": null,
+      "section": null,
+      "content_hash": null
+    },
+    {
       "evidence_id": "ev:abr-dgr:51616914268:20260805",
       "source_type": "regulatory",
       "title": "ABR DGR bulk observation",
       "publisher": "Australian Business Register / Australian Taxation Office",
       "url": "https://abr.business.gov.au/Tools/BulkExtract",
       "observed_at": "2026-08-05",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
-    },
-    {
-      "evidence_id": "ev:acnc:ais:51616914268:2025",
-      "source_type": "regulatory",
-      "title": "Biopixel Oceans Foundation Limited Annual Information Statement 2025",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": "https://www.acnc.gov.au/charity/charities/616d92b3-3aaf-e811-a962-000d3ad24a0d/documents/550c12e7-f6fb-f011-8406-00224891bae2",
-      "observed_at": "2026-01-28",
       "reporting_period": null,
       "page": null,
       "section": null,
@@ -1709,81 +2257,25 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "85c8f68c5d5efa02ab27a9438762972e9f3f24c7cc57dacd250fd5f2dc5dcbbf",
-    "generated_at": "2026-08-13T05:51:03.015634Z",
+    "source_text_hash": "98906f14bfc6f5c63b2d94fdb87525c77640d54fe6179c71f0a15f67ac3018d3",
+    "generated_at": "2026-08-10T13:53:24.456656Z",
     "vector_ref": "embeddings.parquet#cb_6610c4efd77042ae8ce10065c1060c2e"
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
+    "prompt_version": "phase2a-0.4",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "2e4c3b070365b29aa82591a318de6ec8af600a2156c4d9b071f9b01739c41a56",
-    "generated_at": "2026-08-12T13:54:54.454041Z",
+    "evidence_input_hash": "c3f787c106f46c3f9ec6eaa60bd0aa1c42d4d67f6b561d52c76fb63961b47511",
+    "generated_at": "2026-08-10T12:53:49.528176Z",
     "editorial_policy_version": "0.1"
   },
-  "derivative_assessments": [
-    {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T13:54:54.454041Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-rc2-editorial-migration",
-      "input_hash": "2e4c3b070365b29aa82591a318de6ec8af600a2156c4d9b071f9b01739c41a56",
-      "disposition": "refreshed",
-      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "taxonomy",
-      "generated_at": "2026-08-12T13:54:54.454041Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "2e4c3b070365b29aa82591a318de6ec8af600a2156c4d9b071f9b01739c41a56",
-      "disposition": "reused",
-      "reason": "No new supported canonical classification facts.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "fundraising",
-      "generated_at": null,
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "2e4c3b070365b29aa82591a318de6ec8af600a2156c4d9b071f9b01739c41a56",
-      "disposition": "reused",
-      "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "embedding",
-      "generated_at": "2026-08-10T13:53:24.456656Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "98906f14bfc6f5c63b2d94fdb87525c77640d54fe6179c71f0a15f67ac3018d3",
-      "disposition": "reused",
-      "reason": "Semantic source text unchanged.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "similarities",
-      "generated_at": "2026-08-10T13:53:24.456656Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "98906f14bfc6f5c63b2d94fdb87525c77640d54fe6179c71f0a15f67ac3018d3",
-      "disposition": "reused",
-      "reason": "Embedding reused; semantic neighbours retained.",
-      "affected_dimensions": []
-    }
-  ],
-  "dataset_version": "phase2b-2026-08-13-rc3",
+  "derivative_assessments": [],
+  "dataset_version": "phase2b-2026-08-14-rc4",
   "card_schema_version": "0.4",
-  "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T05:50:58.991012Z"
+  "editorial_policy_version": "0.4-rc4",
+  "generator_version": "0.5.0-rc4",
+  "built_at": "2026-08-13T10:52:47.483880Z"
 }

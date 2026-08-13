@@ -2,11 +2,11 @@
 
 **CauseBase subject:** `cb_ad96c6cc41e54daf8fd0a0aa3afde6b3`
 **Subject kind:** unknown
-**Coverage:** `[{"capability": "regulatory", "evidence_ids": ["ev:acnc:54001276599"], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "observed"}, {"capability": "annual_report", "evidence_ids": [], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "not_yet_processed"}, {"capability": "website", "evidence_ids": ["ev:web:54001276599:2026-08-10"], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "observed"}, {"capability": "fundraising_expenditure", "evidence_ids": [], "freshness_note": "No direct or defensible derived fundraising expenditure was found in selected Phase 2A evidence.", "observed_at": "2026-08-10", "source_record_id": null, "status": "not_available_from_source"}, {"capability": "financials", "evidence_ids": ["ev:ais:54001276599:2023"], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "observed"}, {"capability": "latest_acnc_ais", "evidence_ids": ["ev:acnc:ais:54001276599:2025"], "freshness_note": "Latest submitted ACNC AIS in the 2026-08-13 public-profile acquisition: 2025.", "observed_at": "2025-11-03", "source_record_id": null, "status": "observed"}]`
+**Coverage:** `[{"capability": "regulatory", "evidence_ids": ["ev:acnc:54001276599"], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "observed"}, {"capability": "annual_report", "evidence_ids": [], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "not_yet_processed"}, {"capability": "fundraising_expenditure", "evidence_ids": [], "freshness_note": "No direct or defensible derived fundraising expenditure was found in selected Phase 2A evidence.", "observed_at": "2026-08-10", "source_record_id": null, "status": "not_available_from_source"}, {"capability": "financials", "evidence_ids": ["ev:ais:54001276599:2023"], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "observed"}, {"capability": "latest_acnc_ais", "evidence_ids": ["ev:acnc:ais:54001276599:47eabc57-71b8-f011-bbd3-6045bde67d52"], "freshness_note": "Latest submitted AIS detail acquired from the public ACNC entity endpoint.", "observed_at": "2025-11-03", "source_record_id": "src:acnc-ais-detail:54001276599:47eabc57-71b8-f011-bbd3-6045bde67d52:cb_ad96c6cc41e54daf8fd0a0aa3afde6b3", "status": "observed"}, {"capability": "website", "evidence_ids": [], "freshness_note": "Public website locator acquired from the ACNC profile.", "observed_at": "2026-08-13", "source_record_id": null, "status": "observed"}]`
 
 ## CauseBase summary
 
-Christian Community Services is an Australian provider of retirement living and residential aged care. As of the available records it operates three retirement villages and residential care communities, with Carinya House referenced by name. The organisation employs on‑site carers to support residents and runs social activities for residents, for example organised bus outings. Prospective residents can book tours and view online video information about the villages. Christian Community Services states that its approach is shaped by long‑held Christian values and emphasises building personal relationships with residents and families.
+Christian Community Services (CCS) is described on its website as operating three retirement communities and residential care communities. The site names specific villages (Lynden Grove, Elouera Gardens, Glenhaven Gardens) and refers to Carinya House in the context of residential aged care. The website states CCS places "building personal relationships with our residents and families" at the heart of its model of care and describes a "team of carers" who aim to support residents to maintain independence. The site advertises features such as on-site services, safety and accessibility design, bus outings and opportunities to "book a tour" or "view video." Resident testimonials about community, staff and organised outings appear on the homepage. CCS’s ACNC Annual Information Statement for 2022–23 is included in the evidence pack and records revenue of AUD 30,276,283 and total expenses of AUD 29,505,018 for the year ended 30 June 2023. The website also presents CCS’s activities in a faith context, stating Christian values shape its purpose; this is presented as the organisation’s account rather than independently verified description.
 
 ## Activities
 
@@ -56,19 +56,19 @@ Christian Community Services is an Australian provider of retirement living and 
 - ACNC Register extract — regulatory, observed 2026-08-10
 - Organisation website homepage — organisation_self_report, observed 2026-08-10 — https://ccs.com.au/
 - ACNC AIS 2023 extract — regulatory, observed 2026-08-10
+- ACNC Annual Information Statement 2025 — regulatory, observed 2025-11-03 — https://www.acnc.gov.au/charity/charities/319e2dd7-2daf-e811-a960-000d3ad24282/documents/47eabc57-71b8-f011-bbd3-6045bde67d52
 - ABR DGR bulk observation — regulatory, observed 2026-08-05 — https://abr.business.gov.au/Tools/BulkExtract
-- Christian Community Services Annual Information Statement 2025 — regulatory, observed 2025-11-03 — https://www.acnc.gov.au/charity/charities/319e2dd7-2daf-e811-a960-000d3ad24282/documents/47eabc57-71b8-f011-bbd3-6045bde67d52
 
 ## Machine representation
 
 - Embedding: `cb_ad96c6cc41e54daf8fd0a0aa3afde6b3:entity:text-embedding-3-small`
 - Embedding model: `text-embedding-3-small`
 - Synthesis model: `gpt-5-mini-2025-08-07`
-- Synthesis evidence hash: `7c6a66807a3dd777a459baad940284e0d0c5d7bfe4938d07945396967922ec3f`
+- Synthesis evidence hash: `1b11325aeb666491f129652ea236a4187141bc8a33303418cc1a6a5b8d8ffec8`
 
 ## Build
 
-- Dataset version: `phase2b-2026-08-13-rc3`
+- Dataset version: `phase2b-2026-08-14-rc4`
 - Card schema: `0.4`
-- Editorial policy: `0.3-rc2`
-- Built: 2026-08-13T05:50:58.991012+00:00
+- Editorial policy: `0.4-rc4`
+- Built: 2026-08-13T10:52:47.483880+00:00

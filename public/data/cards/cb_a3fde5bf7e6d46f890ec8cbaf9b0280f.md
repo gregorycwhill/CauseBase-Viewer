@@ -2,11 +2,11 @@
 
 **CauseBase subject:** `cb_a3fde5bf7e6d46f890ec8cbaf9b0280f`
 **Subject kind:** unknown
-**Coverage:** `[{"capability": "regulatory", "evidence_ids": ["ev:acnc:47683036106"], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "observed"}, {"capability": "annual_report", "evidence_ids": [], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "not_yet_processed"}, {"capability": "website", "evidence_ids": ["ev:web:47683036106:2026-08-10"], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "observed"}, {"capability": "fundraising_expenditure", "evidence_ids": [], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "not_yet_processed"}, {"capability": "financials", "evidence_ids": [], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "not_found_in_source"}, {"capability": "latest_acnc_ais", "evidence_ids": [], "freshness_note": "No submitted AIS appears in the 2026-08-13 public ACNC profile acquisition.", "observed_at": "2026-08-13", "source_record_id": null, "status": "not_available_from_source"}]`
+**Coverage:** `[{"capability": "regulatory", "evidence_ids": ["ev:acnc:47683036106"], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "observed"}, {"capability": "annual_report", "evidence_ids": [], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "not_yet_processed"}, {"capability": "fundraising_expenditure", "evidence_ids": [], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "not_yet_processed"}, {"capability": "financials", "evidence_ids": [], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "not_found_in_source"}, {"capability": "latest_acnc_ais", "evidence_ids": [], "freshness_note": "No submitted AIS was returned by the public ACNC profile endpoint.", "observed_at": "2026-08-13", "source_record_id": "src:acnc-public-profile:47683036106:2ceb9578-032a-f011-8c4d-0022489511f7:cb_a3fde5bf7e6d46f890ec8cbaf9b0280f", "status": "not_available_from_source"}, {"capability": "website", "evidence_ids": [], "freshness_note": "Public website locator acquired from the ACNC profile.", "observed_at": "2026-08-13", "source_record_id": null, "status": "observed"}]`
 
 ## CauseBase summary
 
-Adelaide Mosque Islamic Society Ltd operates the Adelaide City Mosque in Adelaide, South Australia. Described on its website as Australia’s oldest functioning mosque (built 1886–88), the society offers five daily prayers and Friday (Juma) services, funeral services and halal certification. It runs religious programmes and events (including Ramadan, Mawlid‑un‑Nabi and Shab e Miraj) and community activities such as a children’s school and a Sister’s Morning Tea. The organisation maintains membership (AMISSA) and accepts donations via PayPal, card and direct deposit to support mosque and wider community activities. Services are presented as directed to the Muslim community in Adelaide and to the wider community.
+Adelaide City Mosque (listed on the ACNC as ADELAIDE MOSQUE ISLAMIC SOCIETY LTD and also referred to on its website as Adelaide Mosque Islamic Society of SA Inc) is a mosque in Adelaide, South Australia. The website describes the building as the oldest functioning mosque in Australia, built in 1886–88 by migrant cameleers from Afghanistan, north‑west India (now Pakistan) and Balochistan. The organisation publishes daily prayer times and a Friday Juma time and says it offers five daily prayers and other facilities. Named services and activities on the website include Prayers/Salah services, funeral services, and halal certification. It lists religious programs and events such as Ramadan, Mawlid‑un‑Nabi and Shab e Miraj, and community activities including a children’s school and a “Sister’s Morning Tea.” The site invites community membership, accepts donations (PayPal, debit/credit card and direct deposit) for general mosque support and specific purposes (iftar, zakat, sadqa, mawlid), and notes website support from the Department of Premier and Cabinet – Multicultural Affairs. The ACNC entry for the legal entity was observed; detailed financial statements and published information on program scale are not included in the supplied evidence.
 
 ## Activities
 
@@ -17,14 +17,14 @@ Adelaide Mosque Islamic Society Ltd operates the Adelaide City Mosque in Adelaid
 - Running religious programs and events (Ramadan, Mawlid‑un‑Nabi, Shab e Miraj)
 - Operating community programs (children’s school, Sister’s Morning Tea)
 - Fundraising and accepting donations via PayPal, card and direct deposit
-- Maintaining membership (AMISSA mentioned on site)
+- Maintaining membership
 
 ## Beneficiaries
 
-- Muslim community in Adelaide (described on the website)
+- Muslim community in Adelaide
 - Children who attend the mosque’s children’s school
 - Women who attend the Sister’s Morning Tea
-- Wider community (described on the website)
+- Wider community
 
 ## Participation
 
@@ -68,11 +68,11 @@ Adelaide Mosque Islamic Society Ltd operates the Adelaide City Mosque in Adelaid
 - Embedding: `cb_a3fde5bf7e6d46f890ec8cbaf9b0280f:entity:text-embedding-3-small`
 - Embedding model: `text-embedding-3-small`
 - Synthesis model: `gpt-5-mini-2025-08-07`
-- Synthesis evidence hash: `98343e3684acea613ebbc5dea080ef1b5a09a0d4bc258d815de3aa8aee1eff49`
+- Synthesis evidence hash: `2cd42036d5ce9421edd105a425e96db079648584c2583baf9ef42a3207b095ef`
 
 ## Build
 
-- Dataset version: `phase2b-2026-08-13-rc3`
+- Dataset version: `phase2b-2026-08-14-rc4`
 - Card schema: `0.4`
-- Editorial policy: `0.3-rc2`
-- Built: 2026-08-13T05:50:58.991012+00:00
+- Editorial policy: `0.4-rc4`
+- Built: 2026-08-13T10:52:47.483880+00:00

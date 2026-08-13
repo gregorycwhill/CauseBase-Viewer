@@ -98,10 +98,10 @@
     {
       "capability": "latest_acnc_ais",
       "status": "not_available_from_source",
-      "source_record_id": null,
+      "source_record_id": "src:acnc-public-profile:93624893443:6f0c96a0-3aaf-e811-a961-000d3ad24182:cb_2e7af789b25143d8bd5de1f893148566",
       "evidence_ids": [],
       "observed_at": "2026-08-13",
-      "freshness_note": "No submitted AIS appears in the 2026-08-13 public ACNC profile acquisition."
+      "freshness_note": "No submitted AIS was returned by the public ACNC profile endpoint."
     }
   ],
   "enrichment_level": "enriched",
@@ -109,78 +109,39 @@
   "geography": [
     "Queensland (QLD)"
   ],
-  "navigation_geography": [
+  "geography_observations": [
     {
-      "level": "country",
-      "code": "AU",
-      "label": "Australia",
-      "evidence_ids": [
-        "ev:acnc:93624893443"
-      ]
-    },
-    {
-      "level": "state_territory",
-      "code": "AU-QLD",
-      "label": "Queensland",
-      "evidence_ids": [
-        "ev:acnc:93624893443"
-      ]
+      "value": "Queensland (QLD)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
     }
   ],
-  "causebase_summary": "Darumbal People Aboriginal Corporation RNTBC is an Aboriginal corporation whose legal name includes the RNTBC designation and is recorded as located in Queensland, Australia. CauseBase does not have sufficient descriptive evidence in this release to independently identify the corporation’s specific activities, programs or beneficiary groups. The single recorded source for this release is an ACNC Register extract (ev:acnc:93624893443); no organisational website text or descriptive reports were supplied here to describe services, projects or participation modes.",
-  "summary_evidence_ids": [
-    "ev:acnc:93624893443"
-  ],
+  "navigation_geography": [],
+  "causebase_summary": "Darumbal People Aboriginal Corporation RNTBC appears on the ACNC Register and is recorded in this release with structured geography of Queensland (QLD). This CauseBase release includes an ACNC Register extract for the legal entity but does not include a website, a public self-description, statements of activities or programs, beneficiary listings, or financial reports. The organisation's legal name in the register contains the letters “RNTBC”; CauseBase records that as part of the legal name and does not infer functions or services from the name. CauseBase does not have sufficient descriptive evidence in this release to independently identify specific activities, programs, beneficiaries, participation modes, or financial details for this organisation.",
+  "summary_evidence_ids": [],
   "organisation_self_description": null,
   "activities": [],
+  "activity_observations": [],
   "beneficiaries": [],
+  "beneficiary_observations": [],
   "participation_modes": [],
   "participation_observations": [],
   "opportunities": [],
   "programs": [],
   "source_native_records": [
     {
-      "source_record_id": "src:acnc-register:6b35f5bd-161b-579e-b588-aa92447b87be",
-      "source_family": "acnc-register",
-      "dataset_version": "2026-08-10",
-      "source_url": "https://www.acnc.gov.au/charity/charities?search=93624893443",
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "ABN": "93624893443",
-        "Legal Name": "Darumbal People Aboriginal Corporation RNTBC",
-        "Registration Status": "registered",
-        "ACNC classifications": "health; regional remote",
-        "Website": null,
-        "ACNC registration ID": null,
-        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "ABN": "external_identifiers",
-        "Legal Name": "legal_name",
-        "Registration Status": "registrations"
-      },
-      "evidence_ids": [
-        "ev:acnc:93624893443"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-public-profile:93624893443:cb_2e7af789b25143d8bd5de1f893148566:2026-08-13",
+      "source_record_id": "src:acnc-public-profile:93624893443:6f0c96a0-3aaf-e811-a961-000d3ad24182:cb_2e7af789b25143d8bd5de1f893148566",
       "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-13-public-api",
+      "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/6f0c96a0-3aaf-e811-a961-000d3ad24182/profile",
-      "retrieved_at": "2026-08-13T05:50:58.991012Z",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
       "observed_at": "2026-08-13",
       "effective_from": null,
       "effective_to": null,
       "source_fields": {
         "uuid": "6f0c96a0-3aaf-e811-a961-000d3ad24182",
-        "abn": "93624893443",
-        "latest_ais_year": null,
-        "latest_ais_uuid": null
+        "abn": "93624893443"
       },
       "source_payload": {
         "data": {
@@ -695,10 +656,8 @@
         "uuid": "6f0c96a0-3aaf-e811-a961-000d3ad24182"
       },
       "canonical_field_mappings": {
-        "data.Name": "display_name",
         "data.OtherNames": "operating_names",
-        "data.AnnualReports": "acnc_ais_url",
-        "data.Programs": "programs"
+        "data.AddressStateOrProvince": "principal_location"
       },
       "evidence_ids": []
     }
@@ -773,81 +732,25 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "9d10dceedb08120625f0d1a3cdcc4d76c61ec55085e7402111d863665cbdf098",
-    "generated_at": "2026-08-13T05:51:03.014422Z",
+    "source_text_hash": "cb16f501c619f0040bd8a8fc830613b2b03419a3902bbf1331cb882c36174ae2",
+    "generated_at": "2026-08-10T13:53:24.455798Z",
     "vector_ref": "embeddings.parquet#cb_2e7af789b25143d8bd5de1f893148566"
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
+    "prompt_version": "phase2a-0.5",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "a65f4f2abbd8dd7d32ce7ff77bffad6354d6830bf45e67baac38799010beea9d",
-    "generated_at": "2026-08-12T13:42:23.031141Z",
+    "evidence_input_hash": "0cf5403e1dd05375944685693b4644ddc41deb408739984853517493ac205566",
+    "generated_at": "2026-08-10T13:50:57.142444Z",
     "editorial_policy_version": "0.1"
   },
-  "derivative_assessments": [
-    {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T13:42:23.031141Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-rc2-editorial-migration",
-      "input_hash": "a65f4f2abbd8dd7d32ce7ff77bffad6354d6830bf45e67baac38799010beea9d",
-      "disposition": "refreshed",
-      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "taxonomy",
-      "generated_at": "2026-08-12T13:42:23.031141Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "a65f4f2abbd8dd7d32ce7ff77bffad6354d6830bf45e67baac38799010beea9d",
-      "disposition": "reused",
-      "reason": "No new supported canonical classification facts.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "fundraising",
-      "generated_at": null,
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "a65f4f2abbd8dd7d32ce7ff77bffad6354d6830bf45e67baac38799010beea9d",
-      "disposition": "reused",
-      "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "embedding",
-      "generated_at": "2026-08-10T13:53:24.455798Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "cb16f501c619f0040bd8a8fc830613b2b03419a3902bbf1331cb882c36174ae2",
-      "disposition": "reused",
-      "reason": "Semantic source text unchanged.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "similarities",
-      "generated_at": "2026-08-10T13:53:24.455798Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "cb16f501c619f0040bd8a8fc830613b2b03419a3902bbf1331cb882c36174ae2",
-      "disposition": "reused",
-      "reason": "Embedding reused; semantic neighbours retained.",
-      "affected_dimensions": []
-    }
-  ],
-  "dataset_version": "phase2b-2026-08-13-rc3",
+  "derivative_assessments": [],
+  "dataset_version": "phase2b-2026-08-14-rc4",
   "card_schema_version": "0.4",
-  "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T05:50:58.991012Z"
+  "editorial_policy_version": "0.4-rc4",
+  "generator_version": "0.5.0-rc4",
+  "built_at": "2026-08-13T10:52:47.483880Z"
 }

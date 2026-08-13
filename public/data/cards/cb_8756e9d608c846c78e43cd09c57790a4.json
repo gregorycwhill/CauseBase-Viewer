@@ -72,16 +72,6 @@
       "freshness_note": null
     },
     {
-      "capability": "website",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:web:94710251744:2026-08-10"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
       "capability": "fundraising_expenditure",
       "status": "not_available_from_source",
       "source_record_id": null,
@@ -102,12 +92,20 @@
     {
       "capability": "latest_acnc_ais",
       "status": "observed",
-      "source_record_id": null,
+      "source_record_id": "src:acnc-ais-detail:94710251744:b4463a81-de62-f111-a826-7ced8d33fdea:cb_8756e9d608c846c78e43cd09c57790a4",
       "evidence_ids": [
-        "ev:acnc:ais:94710251744:2025"
+        "ev:acnc:ais:94710251744:b4463a81-de62-f111-a826-7ced8d33fdea"
       ],
       "observed_at": "2026-06-08",
-      "freshness_note": "Latest submitted ACNC AIS in the 2026-08-13 public-profile acquisition: 2025."
+      "freshness_note": "Latest submitted AIS detail acquired from the public ACNC entity endpoint."
+    },
+    {
+      "capability": "website",
+      "status": "observed",
+      "source_record_id": null,
+      "evidence_ids": [],
+      "observed_at": "2026-08-13",
+      "freshness_note": "Public website locator acquired from the ACNC profile."
     }
   ],
   "enrichment_level": "enriched",
@@ -117,37 +115,65 @@
     "Brisbane, Queensland",
     "Aubigny, Queensland"
   ],
-  "navigation_geography": [
+  "geography_observations": [
     {
-      "level": "country",
-      "code": "AU",
-      "label": "Australia",
-      "evidence_ids": [
-        "ev:acnc:94710251744"
-      ]
+      "value": "Queensland",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
     },
     {
-      "level": "state_territory",
-      "code": "AU-QLD",
-      "label": "Queensland",
-      "evidence_ids": [
-        "ev:acnc:94710251744"
-      ]
+      "value": "Brisbane, Queensland",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Aubigny, Queensland",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
     }
   ],
-  "causebase_summary": "The Corporation Of The Trustees Of The Order Of The Sisters Of Mercy In Queensland is the corporate entity for the Sisters of Mercy, Brisbane Congregation. It operates in Queensland, with activity linked to Brisbane and Aubigny. When supported, the organisation publishes news and announcements on its website and organises commemorative gatherings, farewell events and anniversary celebrations for congregation members. Examples recorded include a 70‑year jubilee for Sister Catharine Courtney (Sister Mary Benedict), a farewell to Robyn Rodwell and a 130‑year service commemoration. Recorded modes of participation include attending public gatherings and reading website news. CauseBase does not have sufficient descriptive evidence in this release to identify other service programs, beneficiaries beyond congregation members, or operational details such as staffing or finances.",
-  "summary_evidence_ids": [
-    "ev:web:94710251744:2026-08-10",
-    "ev:acnc:94710251744"
-  ],
+  "navigation_geography": [],
+  "causebase_summary": "The Corporation Of The Trustees Of The Order Of The Sisters Of Mercy In Queensland appears in the ACNC register and publishes a website (brisbanemercy.org.au) with news items about congregation life and milestone events. Website excerpts record a 70‑year anniversary for Sister Catharine Courtney (Sister Mary Benedict) on 8 November 2022, a gathering in Aubigny at ‘Mater’ on 27 November 2019, a farewell to Robyn Rodwell published 15 November 2019, and a page titled “Celebrating 130 Years of Service Excellence.” One excerpt states “The Sisters of Mercy, Brisbane Congregation, recently joined with Board and staff members from Holy …” (excerpt truncated). The ACNC AIS extract for 2023 included in the evidence pack shows reported revenue of 0 AUD and total expenses of 0 AUD for the subject entity. Recorded material therefore documents a sequence of commemorative and organisational events involving Sisters of Mercy and associated board and staff, and the organisation’s public website activity; it does not provide program descriptions, service delivery details, staffing numbers, or confirmed beneficiaries beyond congregation members mentioned in the excerpts.",
+  "summary_evidence_ids": [],
   "organisation_self_description": null,
   "activities": [
     "Publishing news items on the organisation website",
     "Hosting and recording commemorative gatherings and farewell events (examples: Aubigny at Mater; farewell to Robyn Rodwell)",
     "Commemorating milestones (examples: 70‑year anniversary; 130 years of service)"
   ],
+  "activity_observations": [
+    {
+      "value": "Publishing news items on the organisation website",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Hosting and recording commemorative gatherings and farewell events (examples: Aubigny at Mater; farewell to Robyn Rodwell)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Commemorating milestones (examples: 70‑year anniversary; 130 years of service)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    }
+  ],
   "beneficiaries": [
     "Members of the Sisters of Mercy, Brisbane Congregation"
+  ],
+  "beneficiary_observations": [
+    {
+      "value": "Members of the Sisters of Mercy, Brisbane Congregation",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    }
   ],
   "participation_modes": [
     "Attendance at commemorative gatherings and events",
@@ -170,82 +196,23 @@
       "reporting_period": "2025",
       "source_url": "https://www.acnc.gov.au/charity/charities/2e3cab38-38af-e811-a960-000d3ad24282/documents/b4463a81-de62-f111-a826-7ced8d33fdea",
       "evidence_ids": [
-        "ev:acnc:ais:94710251744:2025"
+        "ev:acnc:ais:94710251744:b4463a81-de62-f111-a826-7ced8d33fdea"
       ]
     }
   ],
   "source_native_records": [
     {
-      "source_record_id": "src:acnc-register:4adb4a52-14e7-5864-9314-a0acbb73b3cd",
-      "source_family": "acnc-register",
-      "dataset_version": "2026-08-10",
-      "source_url": "https://www.acnc.gov.au/charity/charities?search=94710251744",
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "ABN": "94710251744",
-        "Legal Name": "The Corporation Of The Trustees Of The Order Of The Sisters Of Mercy In Queensland",
-        "Registration Status": "registered",
-        "ACNC classifications": "religion; older people",
-        "Website": "www.brisbanemercy.org.au",
-        "ACNC registration ID": null,
-        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "ABN": "external_identifiers",
-        "Legal Name": "legal_name",
-        "Registration Status": "registrations"
-      },
-      "evidence_ids": [
-        "ev:acnc:94710251744"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-ais:fr:ais:cb_8756e9d608c846c78e43cd09c57790a4:2023",
-      "source_family": "acnc-ais",
-      "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "Reporting period": null,
-        "Reporting scope": "subject",
-        "Consolidated": "unknown",
-        "Revenue": "0",
-        "Donations and bequests": null,
-        "Government grants": null,
-        "Total expenses": "0",
-        "Assets": null,
-        "Liabilities": null
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "Revenue": "financial_records[].revenue",
-        "Total expenses": "financial_records[].total_expenses"
-      },
-      "evidence_ids": [
-        "ev:ais:94710251744:2023"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-public-profile:94710251744:cb_8756e9d608c846c78e43cd09c57790a4:2026-08-13",
+      "source_record_id": "src:acnc-public-profile:94710251744:2e3cab38-38af-e811-a960-000d3ad24282:cb_8756e9d608c846c78e43cd09c57790a4",
       "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-13-public-api",
+      "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/2e3cab38-38af-e811-a960-000d3ad24282/profile",
-      "retrieved_at": "2026-08-13T05:50:58.991012Z",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
       "observed_at": "2026-06-08",
       "effective_from": null,
       "effective_to": null,
       "source_fields": {
         "uuid": "2e3cab38-38af-e811-a960-000d3ad24282",
-        "abn": "94710251744",
-        "latest_ais_year": "2025",
-        "latest_ais_uuid": "b4463a81-de62-f111-a826-7ced8d33fdea"
+        "abn": "94710251744"
       },
       "source_payload": {
         "data": {
@@ -777,13 +744,295 @@
         "uuid": "2e3cab38-38af-e811-a960-000d3ad24282"
       },
       "canonical_field_mappings": {
-        "data.Name": "display_name",
         "data.OtherNames": "operating_names",
-        "data.AnnualReports": "acnc_ais_url",
-        "data.Programs": "programs"
+        "data.AddressStateOrProvince": "principal_location"
+      },
+      "evidence_ids": []
+    },
+    {
+      "source_record_id": "src:acnc-ais-detail:94710251744:b4463a81-de62-f111-a826-7ced8d33fdea:cb_8756e9d608c846c78e43cd09c57790a4",
+      "source_family": "acnc-ais-detail",
+      "dataset_version": "2026-08-14-public-api",
+      "source_url": "https://www.acnc.gov.au/charity/charities/2e3cab38-38af-e811-a960-000d3ad24282/documents/b4463a81-de62-f111-a826-7ced8d33fdea",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
+      "observed_at": "2026-06-08",
+      "effective_from": null,
+      "effective_to": null,
+      "source_fields": {
+        "abn": "94710251744",
+        "ais_uuid": "b4463a81-de62-f111-a826-7ced8d33fdea",
+        "year": "2025",
+        "date_received": "2026-06-08T02:05:31.0000000Z"
+      },
+      "source_payload": {
+        "data": {
+          "Abn": "94710251744",
+          "ActivityAdvocacyNCivic": false,
+          "ActivityAgedCare": false,
+          "ActivityAnimalProtection": false,
+          "ActivityCultureAndArt": false,
+          "ActivityEconomicSocialCommunity": false,
+          "ActivityEmergencyNRelief": false,
+          "ActivityEmploymentNTraining": false,
+          "ActivityEnvironmental": false,
+          "ActivityGrantMaking": false,
+          "ActivityHealthRehabilitation": false,
+          "ActivityHigherEducation": false,
+          "ActivityHousing": false,
+          "ActivityIncomeSupportNMaintenance": false,
+          "ActivityInternational": false,
+          "ActivityInternationalDescription": null,
+          "ActivityInternationalOther": false,
+          "ActivityInternationalOtherDescription": null,
+          "ActivityLawNLegalServices": false,
+          "ActivityMain": null,
+          "ActivityMentalHealthCrisisIntervention": false,
+          "ActivityNdisSupported": null,
+          "ActivityNdisSupportedNext": null,
+          "ActivityOperating": true,
+          "ActivityOperatingOverseas": false,
+          "ActivityOther": false,
+          "ActivityOtherDescription": null,
+          "ActivityOtherEducation": false,
+          "ActivityOtherHealthServices": false,
+          "ActivityPersuitPurposesDescription": "The Corporation coordinates the resources required to provide the support to the Congregation of the Sisters of Mercy to enable them to fulfill their mission.",
+          "ActivityPhilanthropicPromotion": false,
+          "ActivityPolitical": false,
+          "ActivityPrimarySecondaryEducation": false,
+          "ActivityPurposeChange": null,
+          "ActivityPurposeChangeDescription": null,
+          "ActivityRecreationSocialClub": false,
+          "ActivityReligious": false,
+          "ActivityResearch": false,
+          "ActivitySocialServices": false,
+          "ActivitySports": false,
+          "ActivityTransferringFundsGoods": false,
+          "AdvancementOfEducation": false,
+          "AdvancementOfReligion": false,
+          "AssetsandLiabilitiesDescription": null,
+          "BasicReligiousCharity": true,
+          "BeneficiaryAboriginalTorres": false,
+          "BeneficiaryAdults": false,
+          "BeneficiaryAllAges": false,
+          "BeneficiaryChildren": false,
+          "BeneficiaryChronicIllness": false,
+          "BeneficiaryCrimeVictims": false,
+          "BeneficiaryDisasterVictims": false,
+          "BeneficiaryEarlyChildhood": false,
+          "BeneficiaryEthnic": false,
+          "BeneficiaryFamilies": false,
+          "BeneficiaryFinanciallyDisadvantaged": false,
+          "BeneficiaryGeneral": false,
+          "BeneficiaryHomelessnessRisk": false,
+          "BeneficiaryLGBT": false,
+          "BeneficiaryMain": null,
+          "BeneficiaryMen": false,
+          "BeneficiaryMigrantsRefugees": false,
+          "BeneficiaryOffenderFamilies": false,
+          "BeneficiaryOther": false,
+          "BeneficiaryOtherCharities": false,
+          "BeneficiaryOtherDescription": null,
+          "BeneficiaryOverseas": false,
+          "BeneficiaryPeopleWithDisability": false,
+          "BeneficiaryRuralRegionalRemote": false,
+          "BeneficiarySeniors": false,
+          "BeneficiaryUnemployed": false,
+          "BeneficiaryVeteranFamilies": false,
+          "BeneficiaryWomen": false,
+          "BeneficiaryYouth": false,
+          "CharityAddressCountry": "Australia",
+          "CharityAddressLine1": "Congregation Office",
+          "CharityAddressLine2": "131 Queens Road",
+          "CharityAddressPostalCode": "4014",
+          "CharityAddressStateOrProvince": "QLD",
+          "CharityAddressSuburb": "Brisbane",
+          "CharityEmail": "desiree.tomas@mercybrisbane.org",
+          "CharitySize": "Large",
+          "CharityUuid": "2e3cab38-38af-e811-a960-000d3ad24282",
+          "ChildCareServices": false,
+          "ExpenseEmployees": "0.0000",
+          "ExpenseGrantDonationsInAustralia": "0.0000",
+          "ExpenseGrantDonationsOutsideAustralia": "0.0000",
+          "ExpenseTotal": "0.0000",
+          "ExpensesOther": "0.0000",
+          "FinAccrualAccounting": null,
+          "FinConsolidatedReportFromMiltiple": null,
+          "FinDocumentedPoliciesRelatedPartyTransactions": null,
+          "FinFyeJune": false,
+          "FinProvideVoluntarily": "No",
+          "FinRelatedPartyTransactions": null,
+          "FinReportACT": false,
+          "FinReportFrom": null,
+          "FinReportNSW": false,
+          "FinReportNT": false,
+          "FinReportQLD": false,
+          "FinReportSA": false,
+          "FinReportTAS": false,
+          "FinReportTo": null,
+          "FinReportVIC": false,
+          "FinReportWA": false,
+          "FinReportingType": null,
+          "FinSapDate": null,
+          "FundRaisingNumberACT": null,
+          "FundRaisingNumberNSW": null,
+          "FundRaisingNumberQLD": null,
+          "FundRaisingNumberSA": null,
+          "FundRaisingNumberTAS": null,
+          "FundRaisingNumberVIC": null,
+          "FundRaisingNumberWA": null,
+          "GovDocAccurate": null,
+          "GrantCapacityBuildingPct": null,
+          "GrantMultiYearPct": null,
+          "GrantPublicOpenApplicationPct": null,
+          "GrantRuralRegionPct": null,
+          "HasSubmittedToRegulator": false,
+          "HoursPaid": null,
+          "HoursTotal": null,
+          "HoursVolunteer": null,
+          "HrCasualEmployees": "5",
+          "HrFteStaff": "16.0500000000",
+          "HrFullTimeEmployees": "10",
+          "HrPartTimeEmployees": "7",
+          "HrUnpainVolunteers": "0",
+          "IncomeDonationsBequests": "0.0000",
+          "IncomeGovernmentGrants": "0.0000",
+          "IncomeOther": "0.0000",
+          "IncomeOtherComprehinsive": "0.0000",
+          "IncomeOtherNeg": null,
+          "IncomeOtherReceipts": "0.0000",
+          "IncomeTotalComprehensive": "0.0000",
+          "IncomeTotalReceipts": "0.0000",
+          "IncorporationStatus": null,
+          "InterestExpense": "0.0000",
+          "IsIncorporatedAssociation": false,
+          "KeyManagementPersonnel": false,
+          "LegalName": "The Corporation Of The Trustees Of The Order Of The Sisters Of Mercy In Queensland",
+          "NetAssetsLiabilities": "0.0000",
+          "NetSurplusDeficit": "0.0000",
+          "NonCurrentLoansPayable": "0.0000",
+          "NumberOfKeyManagementPersonnel": "0",
+          "OperatingCountries": null,
+          "OperatingInACT": false,
+          "OperatingInNSW": false,
+          "OperatingInNT": false,
+          "OperatingInQLD": false,
+          "OperatingInSA": false,
+          "OperatingInTAS": false,
+          "OperatingInVIC": false,
+          "OperatingInWA": false,
+          "OperatingOverseas": false,
+          "OtherNames": [],
+          "OtherNonCurrentAssets": "0.0000",
+          "OtherNonCurrentLiabilities": "0.0000",
+          "OtherPurposeDescription": null,
+          "OtherPurposes": "False",
+          "Programs": [
+            {
+              "AisUuid": "b4463a81-de62-f111-a826-7ced8d33fdea",
+              "Name": "Providing support to the Congregation to meet its objectives",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Adults - aged 65 and over"
+              ],
+              "ProgramClassification": "Catholicism",
+              "ProgramClassificationID": "742",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Queensland, Australia",
+                  "FormattedAddress": "Queensland, Australia",
+                  "Marker": {
+                    "Latitude": -22.575197,
+                    "Longitude": 144.0847926
+                  },
+                  "Name": "Queensland",
+                  "uuid": "9f123887-de62-f111-a826-7ced8d33fdea"
+                }
+              ],
+              "ProgramWeblink": null,
+              "uuid": "04473a81-de62-f111-a826-7ced8d33fdea"
+            }
+          ],
+          "RegulatedACT": false,
+          "RegulatedNSW": false,
+          "RegulatedNT": false,
+          "RegulatedQLD": false,
+          "RegulatedSA": false,
+          "RegulatedTAS": false,
+          "RegulatedVIC": false,
+          "RegulatedWA": false,
+          "Regulator": null,
+          "RegulatorAGMDateACT": null,
+          "RegulatorAGMDateNT": null,
+          "RegulatorAGMDateVIC": null,
+          "RegulatorAGMDateWA": null,
+          "RegulatorFundRaising": "No",
+          "RegulatorFundRaisingACT": false,
+          "RegulatorFundRaisingNSW": false,
+          "RegulatorFundRaisingNT": false,
+          "RegulatorFundRaisingOnline": false,
+          "RegulatorFundRaisingQLD": false,
+          "RegulatorFundRaisingSA": false,
+          "RegulatorFundRaisingTAS": false,
+          "RegulatorFundRaisingVIC": false,
+          "RegulatorFundRaisingWA": false,
+          "RegulatorIncorporatedAssociationACT": false,
+          "RegulatorIncorporatedAssociationNSW": false,
+          "RegulatorIncorporatedAssociationNT": false,
+          "RegulatorIncorporatedAssociationNumberACT": null,
+          "RegulatorIncorporatedAssociationNumberNSW": null,
+          "RegulatorIncorporatedAssociationNumberNT": null,
+          "RegulatorIncorporatedAssociationNumberQLD": null,
+          "RegulatorIncorporatedAssociationNumberSA": null,
+          "RegulatorIncorporatedAssociationNumberTAS": null,
+          "RegulatorIncorporatedAssociationNumberVIC": null,
+          "RegulatorIncorporatedAssociationNumberWA": null,
+          "RegulatorIncorporatedAssociationQLD": false,
+          "RegulatorIncorporatedAssociationSA": false,
+          "RegulatorIncorporatedAssociationTAS": false,
+          "RegulatorIncorporatedAssociationVIC": false,
+          "RegulatorIncorporatedAssociationWA": false,
+          "RegulatorMetRequirementACT": false,
+          "RegulatorMetRequirementWA": null,
+          "RegulatorOtherDetails": null,
+          "RegulatorPrograms": null,
+          "RegulatorStates": false,
+          "RelatedPartyDetails": null,
+          "RelatedPartyTransactions": [],
+          "ReliefOfPoverty": false,
+          "ReportingGroupFlag": false,
+          "ResponsiblePersonAccurate": null,
+          "RevenueGoodsServices": "0.0000",
+          "RevenueInvestments": "0.0000",
+          "RevenueTotal": "0.0000",
+          "StatementYear": "2025",
+          "SubTypesAccurate": null,
+          "TotalAssets": "0.0000",
+          "TotalCurrentAssets": "0.0000",
+          "TotalCurrentLiabilities": "0.0000",
+          "TotalLiabilities": "0.0000",
+          "TotalNonCurrentAssets": "0.0000",
+          "TotalNonCurrentLiabilities": "0.0000",
+          "TotalNonCurrentLoansReceivable": "0.0000",
+          "TotalPaidKMP": "$0.00",
+          "Website": "www.brisbanemercy.org.au",
+          "__normalized": true,
+          "entityTypeVersion": "",
+          "entityVersion": "1942545842",
+          "timeStamp": "2026-06-08T02:05:30.0000000Z",
+          "type": "annual_information_statement",
+          "uuid": "b4463a81-de62-f111-a826-7ced8d33fdea"
+        },
+        "type": "annual_information_statement",
+        "uuid": "b4463a81-de62-f111-a826-7ced8d33fdea"
+      },
+      "canonical_field_mappings": {
+        "data.Programs": "programs",
+        "data.TotalRevenue": "financial_records[].revenue",
+        "data.TotalExpenses": "financial_records[].total_expenses"
       },
       "evidence_ids": [
-        "ev:acnc:ais:94710251744:2025"
+        "ev:acnc:ais:94710251744:b4463a81-de62-f111-a826-7ced8d33fdea"
       ]
     }
   ],
@@ -832,9 +1081,12 @@
       },
       "assets": null,
       "liabilities": null,
+      "net_assets": null,
       "income_breakdown": [],
       "expense_breakdown": [],
-      "balance_sheet_breakdown": []
+      "balance_sheet_breakdown": [],
+      "source_ordered_line_items": [],
+      "statements": []
     }
   ],
   "financial_metrics": [
@@ -997,24 +1249,24 @@
       "content_hash": null
     },
     {
+      "evidence_id": "ev:acnc:ais:94710251744:b4463a81-de62-f111-a826-7ced8d33fdea",
+      "source_type": "regulatory",
+      "title": "ACNC Annual Information Statement 2025",
+      "publisher": "Australian Charities and Not-for-profits Commission",
+      "url": "https://www.acnc.gov.au/charity/charities/2e3cab38-38af-e811-a960-000d3ad24282/documents/b4463a81-de62-f111-a826-7ced8d33fdea",
+      "observed_at": "2026-06-08",
+      "reporting_period": "2025",
+      "page": null,
+      "section": null,
+      "content_hash": null
+    },
+    {
       "evidence_id": "ev:abr-dgr:94710251744:20260805",
       "source_type": "regulatory",
       "title": "ABR DGR bulk observation",
       "publisher": "Australian Business Register / Australian Taxation Office",
       "url": "https://abr.business.gov.au/Tools/BulkExtract",
       "observed_at": "2026-08-05",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
-    },
-    {
-      "evidence_id": "ev:acnc:ais:94710251744:2025",
-      "source_type": "regulatory",
-      "title": "The Corporation Of The Trustees Of The Order Of The Sisters Of Mercy In Queensland Annual Information Statement 2025",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": "https://www.acnc.gov.au/charity/charities/2e3cab38-38af-e811-a960-000d3ad24282/documents/b4463a81-de62-f111-a826-7ced8d33fdea",
-      "observed_at": "2026-06-08",
       "reporting_period": null,
       "page": null,
       "section": null,
@@ -1027,81 +1279,25 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "7d2b8661f113dc44fd44baf3a952c3b696e9d3530a017016cf1eb9c6bd42297a",
-    "generated_at": "2026-08-13T05:51:03.015842Z",
+    "source_text_hash": "42da86bae9b7a6ac2de22f46c0747f4929fdc6d9a70de03bcd6adfaacec02ac1",
+    "generated_at": "2026-08-10T13:53:24.456814Z",
     "vector_ref": "embeddings.parquet#cb_8756e9d608c846c78e43cd09c57790a4"
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
+    "prompt_version": "phase2a-0.4",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "51277e4c131a095ca4cd49db19bcb2069c76b6d460c96a9c0df8d413d029231f",
-    "generated_at": "2026-08-12T13:57:56.604775Z",
+    "evidence_input_hash": "478c522de0612f557f7ff028aa1680b0fcb271f02f649b787d8bbfe14e7daa11",
+    "generated_at": "2026-08-10T12:54:19.147242Z",
     "editorial_policy_version": "0.1"
   },
-  "derivative_assessments": [
-    {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T13:57:56.604775Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-rc2-editorial-migration",
-      "input_hash": "51277e4c131a095ca4cd49db19bcb2069c76b6d460c96a9c0df8d413d029231f",
-      "disposition": "refreshed",
-      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "taxonomy",
-      "generated_at": "2026-08-12T13:57:56.604775Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "51277e4c131a095ca4cd49db19bcb2069c76b6d460c96a9c0df8d413d029231f",
-      "disposition": "reused",
-      "reason": "No new supported canonical classification facts.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "fundraising",
-      "generated_at": null,
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "51277e4c131a095ca4cd49db19bcb2069c76b6d460c96a9c0df8d413d029231f",
-      "disposition": "reused",
-      "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "embedding",
-      "generated_at": "2026-08-10T13:53:24.456814Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "42da86bae9b7a6ac2de22f46c0747f4929fdc6d9a70de03bcd6adfaacec02ac1",
-      "disposition": "reused",
-      "reason": "Semantic source text unchanged.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "similarities",
-      "generated_at": "2026-08-10T13:53:24.456814Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "42da86bae9b7a6ac2de22f46c0747f4929fdc6d9a70de03bcd6adfaacec02ac1",
-      "disposition": "reused",
-      "reason": "Embedding reused; semantic neighbours retained.",
-      "affected_dimensions": []
-    }
-  ],
-  "dataset_version": "phase2b-2026-08-13-rc3",
+  "derivative_assessments": [],
+  "dataset_version": "phase2b-2026-08-14-rc4",
   "card_schema_version": "0.4",
-  "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T05:50:58.991012Z"
+  "editorial_policy_version": "0.4-rc4",
+  "generator_version": "0.5.0-rc4",
+  "built_at": "2026-08-13T10:52:47.483880Z"
 }

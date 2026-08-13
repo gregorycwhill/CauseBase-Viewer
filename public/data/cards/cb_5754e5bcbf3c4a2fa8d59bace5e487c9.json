@@ -74,14 +74,6 @@
       "freshness_note": null
     },
     {
-      "capability": "website",
-      "status": "retrieval_failed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
       "capability": "fundraising_expenditure",
       "status": "not_available_from_source",
       "source_record_id": null,
@@ -102,12 +94,20 @@
     {
       "capability": "latest_acnc_ais",
       "status": "observed",
-      "source_record_id": null,
+      "source_record_id": "src:acnc-ais-detail:49008643927:be2e8fda-7a4a-f111-bec7-7ced8d33fe37:cb_5754e5bcbf3c4a2fa8d59bace5e487c9",
       "evidence_ids": [
-        "ev:acnc:ais:49008643927:2025"
+        "ev:acnc:ais:49008643927:be2e8fda-7a4a-f111-bec7-7ced8d33fe37"
       ],
       "observed_at": "2025-11-27",
-      "freshness_note": "Latest submitted ACNC AIS in the 2026-08-13 public-profile acquisition: 2025."
+      "freshness_note": "Latest submitted AIS detail acquired from the public ACNC entity endpoint."
+    },
+    {
+      "capability": "website",
+      "status": "observed",
+      "source_record_id": null,
+      "evidence_ids": [],
+      "observed_at": "2026-08-13",
+      "freshness_note": "Public website locator acquired from the ACNC profile."
     }
   ],
   "enrichment_level": "enriched",
@@ -116,32 +116,28 @@
     "Australian Capital Territory (ACT)",
     "Australia"
   ],
-  "navigation_geography": [
+  "geography_observations": [
     {
-      "level": "country",
-      "code": "AU",
-      "label": "Australia",
-      "evidence_ids": [
-        "ev:acnc:49008643927"
-      ]
+      "value": "Australian Capital Territory (ACT)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
     },
     {
-      "level": "state_territory",
-      "code": "AU-ACT",
-      "label": "Australian Capital Territory",
-      "evidence_ids": [
-        "ev:acnc:49008643927"
-      ]
+      "value": "Australia",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
     }
   ],
-  "causebase_summary": "National Gallery Of Australia Foundation is a registered foundation based in the Australian Capital Territory, Australia. CauseBase does not have sufficient descriptive evidence in this release to independently identify the Foundation’s specific activities, beneficiaries or programmatic work. The available ACNC register entry and the 2022–23 AIS extract are recorded as source documents for this profile.",
-  "summary_evidence_ids": [
-    "ev:acnc:49008643927",
-    "ev:ais:49008643927:2023"
-  ],
+  "navigation_geography": [],
+  "causebase_summary": "The National Gallery Of Australia Foundation is recorded on the ACNC register with a structured geography of the Australian Capital Territory (ACT). The available regulatory extract includes the organisation’s ACNC information and an ACNC AIS entry covering 01/07/2022 to 30/06/2023. For that reporting year the AIS lists revenue of AUD 5,428,187 and total expenses of AUD 5,355,927. The AIS entry in the evidence set is labelled as a direct subject report and is not consolidated. The source material provided does not include descriptive text about the foundation’s activities, services, beneficiaries or programs. Retrieval of the organisation’s website and other documents was not successful in this evidence pack and an annual report was not processed, so no further operational detail is available here.",
+  "summary_evidence_ids": [],
   "organisation_self_description": null,
   "activities": [],
+  "activity_observations": [],
   "beneficiaries": [],
+  "beneficiary_observations": [],
   "participation_modes": [],
   "participation_observations": [],
   "opportunities": [],
@@ -160,82 +156,23 @@
       "reporting_period": "2025",
       "source_url": "https://www.acnc.gov.au/charity/charities/51e826e3-2daf-e811-a963-000d3ad24077/documents/be2e8fda-7a4a-f111-bec7-7ced8d33fe37",
       "evidence_ids": [
-        "ev:acnc:ais:49008643927:2025"
+        "ev:acnc:ais:49008643927:be2e8fda-7a4a-f111-bec7-7ced8d33fe37"
       ]
     }
   ],
   "source_native_records": [
     {
-      "source_record_id": "src:acnc-register:5e8a9934-2eb9-53c7-8ecc-781eb8f5bea6",
-      "source_family": "acnc-register",
-      "dataset_version": "2026-08-10",
-      "source_url": "https://www.acnc.gov.au/charity/charities?search=49008643927",
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "ABN": "49008643927",
-        "Legal Name": "National Gallery Of Australia Foundation",
-        "Registration Status": "registered",
-        "ACNC classifications": "other purpose; general community",
-        "Website": "https://www.nga.gov.au",
-        "ACNC registration ID": null,
-        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "ABN": "external_identifiers",
-        "Legal Name": "legal_name",
-        "Registration Status": "registrations"
-      },
-      "evidence_ids": [
-        "ev:acnc:49008643927"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-ais:fr:ais:cb_5754e5bcbf3c4a2fa8d59bace5e487c9:2023",
-      "source_family": "acnc-ais",
-      "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": "2022-07-01",
-      "effective_to": "2023-06-30",
-      "source_fields": {
-        "Reporting period": "01/07/2022 to 30/06/2023",
-        "Reporting scope": "subject",
-        "Consolidated": "false",
-        "Revenue": "5428187",
-        "Donations and bequests": null,
-        "Government grants": null,
-        "Total expenses": "5355927",
-        "Assets": null,
-        "Liabilities": null
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "Revenue": "financial_records[].revenue",
-        "Total expenses": "financial_records[].total_expenses"
-      },
-      "evidence_ids": [
-        "ev:ais:49008643927:2023"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-public-profile:49008643927:cb_5754e5bcbf3c4a2fa8d59bace5e487c9:2026-08-13",
+      "source_record_id": "src:acnc-public-profile:49008643927:51e826e3-2daf-e811-a963-000d3ad24077:cb_5754e5bcbf3c4a2fa8d59bace5e487c9",
       "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-13-public-api",
+      "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/51e826e3-2daf-e811-a963-000d3ad24077/profile",
-      "retrieved_at": "2026-08-13T05:50:58.991012Z",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
       "observed_at": "2025-11-27",
       "effective_from": null,
       "effective_to": null,
       "source_fields": {
         "uuid": "51e826e3-2daf-e811-a963-000d3ad24077",
-        "abn": "49008643927",
-        "latest_ais_year": "2025",
-        "latest_ais_uuid": "be2e8fda-7a4a-f111-bec7-7ced8d33fe37"
+        "abn": "49008643927"
       },
       "source_payload": {
         "data": {
@@ -1028,13 +965,295 @@
         "uuid": "51e826e3-2daf-e811-a963-000d3ad24077"
       },
       "canonical_field_mappings": {
-        "data.Name": "display_name",
         "data.OtherNames": "operating_names",
-        "data.AnnualReports": "acnc_ais_url",
-        "data.Programs": "programs"
+        "data.AddressStateOrProvince": "principal_location"
+      },
+      "evidence_ids": []
+    },
+    {
+      "source_record_id": "src:acnc-ais-detail:49008643927:be2e8fda-7a4a-f111-bec7-7ced8d33fe37:cb_5754e5bcbf3c4a2fa8d59bace5e487c9",
+      "source_family": "acnc-ais-detail",
+      "dataset_version": "2026-08-14-public-api",
+      "source_url": "https://www.acnc.gov.au/charity/charities/51e826e3-2daf-e811-a963-000d3ad24077/documents/be2e8fda-7a4a-f111-bec7-7ced8d33fe37",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
+      "observed_at": "2025-11-27",
+      "effective_from": null,
+      "effective_to": null,
+      "source_fields": {
+        "abn": "49008643927",
+        "ais_uuid": "be2e8fda-7a4a-f111-bec7-7ced8d33fe37",
+        "year": "2025",
+        "date_received": "2025-11-27T23:20:52.0000000Z"
+      },
+      "source_payload": {
+        "data": {
+          "Abn": "49008643927",
+          "ActivityAdvocacyNCivic": false,
+          "ActivityAgedCare": false,
+          "ActivityAnimalProtection": false,
+          "ActivityCultureAndArt": false,
+          "ActivityEconomicSocialCommunity": false,
+          "ActivityEmergencyNRelief": false,
+          "ActivityEmploymentNTraining": false,
+          "ActivityEnvironmental": false,
+          "ActivityGrantMaking": false,
+          "ActivityHealthRehabilitation": false,
+          "ActivityHigherEducation": false,
+          "ActivityHousing": false,
+          "ActivityIncomeSupportNMaintenance": false,
+          "ActivityInternational": false,
+          "ActivityInternationalDescription": null,
+          "ActivityInternationalOther": false,
+          "ActivityInternationalOtherDescription": null,
+          "ActivityLawNLegalServices": false,
+          "ActivityMain": null,
+          "ActivityMentalHealthCrisisIntervention": false,
+          "ActivityNdisSupported": null,
+          "ActivityNdisSupportedNext": null,
+          "ActivityOperating": true,
+          "ActivityOperatingOverseas": false,
+          "ActivityOther": false,
+          "ActivityOtherDescription": null,
+          "ActivityOtherEducation": false,
+          "ActivityOtherHealthServices": false,
+          "ActivityPersuitPurposesDescription": "We supported the purpose and objectives of the National Gallery of Australia, to build the national collection of art and share it as widely as possible with all Australians, no matter where they live. Through active stewardship and fundraising activities, we secured donated funds to support priority projects including the National Sculpture Garden and major exhibitions such as 'Cezanne to Giacometti' and the 5th National Indigenous Art Triennial 'After the Rain'.",
+          "ActivityPhilanthropicPromotion": false,
+          "ActivityPolitical": false,
+          "ActivityPrimarySecondaryEducation": false,
+          "ActivityPurposeChange": null,
+          "ActivityPurposeChangeDescription": null,
+          "ActivityRecreationSocialClub": false,
+          "ActivityReligious": false,
+          "ActivityResearch": false,
+          "ActivitySocialServices": false,
+          "ActivitySports": false,
+          "ActivityTransferringFundsGoods": false,
+          "AdvancementOfEducation": false,
+          "AdvancementOfReligion": false,
+          "AssetsandLiabilitiesDescription": null,
+          "BasicReligiousCharity": false,
+          "BeneficiaryAboriginalTorres": false,
+          "BeneficiaryAdults": false,
+          "BeneficiaryAllAges": false,
+          "BeneficiaryChildren": false,
+          "BeneficiaryChronicIllness": false,
+          "BeneficiaryCrimeVictims": false,
+          "BeneficiaryDisasterVictims": false,
+          "BeneficiaryEarlyChildhood": false,
+          "BeneficiaryEthnic": false,
+          "BeneficiaryFamilies": false,
+          "BeneficiaryFinanciallyDisadvantaged": false,
+          "BeneficiaryGeneral": false,
+          "BeneficiaryHomelessnessRisk": false,
+          "BeneficiaryLGBT": false,
+          "BeneficiaryMain": null,
+          "BeneficiaryMen": false,
+          "BeneficiaryMigrantsRefugees": false,
+          "BeneficiaryOffenderFamilies": false,
+          "BeneficiaryOther": false,
+          "BeneficiaryOtherCharities": false,
+          "BeneficiaryOtherDescription": null,
+          "BeneficiaryOverseas": false,
+          "BeneficiaryPeopleWithDisability": false,
+          "BeneficiaryRuralRegionalRemote": false,
+          "BeneficiarySeniors": false,
+          "BeneficiaryUnemployed": false,
+          "BeneficiaryVeteranFamilies": false,
+          "BeneficiaryWomen": false,
+          "BeneficiaryYouth": false,
+          "CharityAddressCountry": "Australia",
+          "CharityAddressLine1": "National Gallery Of Australia",
+          "CharityAddressLine2": null,
+          "CharityAddressPostalCode": "2600",
+          "CharityAddressStateOrProvince": "ACT",
+          "CharityAddressSuburb": "Parkes",
+          "CharityEmail": "foundation@nga.gov.au",
+          "CharitySize": "Large",
+          "CharityUuid": "51e826e3-2daf-e811-a963-000d3ad24077",
+          "ChildCareServices": false,
+          "ExpenseEmployees": "568595.0000",
+          "ExpenseGrantDonationsInAustralia": "15810719.0000",
+          "ExpenseGrantDonationsOutsideAustralia": "0.0000",
+          "ExpenseTotal": "17027803.0000",
+          "ExpensesOther": "648489.0000",
+          "FinAccrualAccounting": null,
+          "FinConsolidatedReportFromMiltiple": "No",
+          "FinDocumentedPoliciesRelatedPartyTransactions": null,
+          "FinFyeJune": false,
+          "FinProvideVoluntarily": null,
+          "FinRelatedPartyTransactions": "No",
+          "FinReportACT": false,
+          "FinReportFrom": "2024-07-01T00:00:00.0000000Z",
+          "FinReportNSW": false,
+          "FinReportNT": false,
+          "FinReportQLD": false,
+          "FinReportSA": false,
+          "FinReportTAS": false,
+          "FinReportTo": "2025-06-30T00:00:00.0000000Z",
+          "FinReportVIC": false,
+          "FinReportWA": false,
+          "FinReportingType": "General purpose financial statements",
+          "FinSapDate": null,
+          "FundRaisingNumberACT": null,
+          "FundRaisingNumberNSW": "CFN/25969",
+          "FundRaisingNumberQLD": "CH4538412",
+          "FundRaisingNumberSA": null,
+          "FundRaisingNumberTAS": "C/11000",
+          "FundRaisingNumberVIC": null,
+          "FundRaisingNumberWA": null,
+          "GovDocAccurate": null,
+          "GrantCapacityBuildingPct": null,
+          "GrantMultiYearPct": null,
+          "GrantPublicOpenApplicationPct": null,
+          "GrantRuralRegionPct": null,
+          "HasSubmittedToRegulator": false,
+          "HoursPaid": null,
+          "HoursTotal": null,
+          "HoursVolunteer": null,
+          "HrCasualEmployees": "0",
+          "HrFteStaff": "4.0000000000",
+          "HrFullTimeEmployees": "4",
+          "HrPartTimeEmployees": "0",
+          "HrUnpainVolunteers": "0",
+          "IncomeDonationsBequests": "9696052.0000",
+          "IncomeGovernmentGrants": "1212805.0000",
+          "IncomeOther": "0.0000",
+          "IncomeOtherComprehinsive": "0.0000",
+          "IncomeOtherNeg": null,
+          "IncomeOtherReceipts": "0.0000",
+          "IncomeTotalComprehensive": "-4693538.0000",
+          "IncomeTotalReceipts": "12334265.0000",
+          "IncorporationStatus": null,
+          "InterestExpense": "0.0000",
+          "IsIncorporatedAssociation": false,
+          "KeyManagementPersonnel": false,
+          "LegalName": "National Gallery Of Australia Foundation",
+          "NetAssetsLiabilities": "22456391.0000",
+          "NetSurplusDeficit": "-4693538.0000",
+          "NonCurrentLoansPayable": "0.0000",
+          "NumberOfKeyManagementPersonnel": "0",
+          "OperatingCountries": null,
+          "OperatingInACT": false,
+          "OperatingInNSW": false,
+          "OperatingInNT": false,
+          "OperatingInQLD": false,
+          "OperatingInSA": false,
+          "OperatingInTAS": false,
+          "OperatingInVIC": false,
+          "OperatingInWA": false,
+          "OperatingOverseas": false,
+          "OtherNames": [],
+          "OtherNonCurrentAssets": "0.0000",
+          "OtherNonCurrentLiabilities": "0.0000",
+          "OtherPurposeDescription": null,
+          "OtherPurposes": "False",
+          "Programs": [
+            {
+              "AisUuid": "be2e8fda-7a4a-f111-bec7-7ced8d33fe37",
+              "Name": "Culture and arts",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "General community in Australia"
+              ],
+              "ProgramClassification": "Visual arts",
+              "ProgramClassificationID": "104",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Australia",
+                  "FormattedAddress": "Australia",
+                  "Marker": {
+                    "Latitude": -25.274398,
+                    "Longitude": 133.775136
+                  },
+                  "Name": "Australia",
+                  "uuid": "e72e8fda-7a4a-f111-bec7-7ced8d33fe37"
+                }
+              ],
+              "ProgramWeblink": null,
+              "uuid": "e22e8fda-7a4a-f111-bec7-7ced8d33fe37"
+            }
+          ],
+          "RegulatedACT": false,
+          "RegulatedNSW": false,
+          "RegulatedNT": false,
+          "RegulatedQLD": false,
+          "RegulatedSA": false,
+          "RegulatedTAS": false,
+          "RegulatedVIC": false,
+          "RegulatedWA": false,
+          "Regulator": null,
+          "RegulatorAGMDateACT": null,
+          "RegulatorAGMDateNT": null,
+          "RegulatorAGMDateVIC": null,
+          "RegulatorAGMDateWA": null,
+          "RegulatorFundRaising": "Yes",
+          "RegulatorFundRaisingACT": false,
+          "RegulatorFundRaisingNSW": true,
+          "RegulatorFundRaisingNT": false,
+          "RegulatorFundRaisingOnline": true,
+          "RegulatorFundRaisingQLD": true,
+          "RegulatorFundRaisingSA": false,
+          "RegulatorFundRaisingTAS": true,
+          "RegulatorFundRaisingVIC": false,
+          "RegulatorFundRaisingWA": false,
+          "RegulatorIncorporatedAssociationACT": false,
+          "RegulatorIncorporatedAssociationNSW": false,
+          "RegulatorIncorporatedAssociationNT": false,
+          "RegulatorIncorporatedAssociationNumberACT": null,
+          "RegulatorIncorporatedAssociationNumberNSW": null,
+          "RegulatorIncorporatedAssociationNumberNT": null,
+          "RegulatorIncorporatedAssociationNumberQLD": null,
+          "RegulatorIncorporatedAssociationNumberSA": null,
+          "RegulatorIncorporatedAssociationNumberTAS": null,
+          "RegulatorIncorporatedAssociationNumberVIC": null,
+          "RegulatorIncorporatedAssociationNumberWA": null,
+          "RegulatorIncorporatedAssociationQLD": false,
+          "RegulatorIncorporatedAssociationSA": false,
+          "RegulatorIncorporatedAssociationTAS": false,
+          "RegulatorIncorporatedAssociationVIC": false,
+          "RegulatorIncorporatedAssociationWA": false,
+          "RegulatorMetRequirementACT": false,
+          "RegulatorMetRequirementWA": null,
+          "RegulatorOtherDetails": null,
+          "RegulatorPrograms": null,
+          "RegulatorStates": false,
+          "RelatedPartyDetails": null,
+          "RelatedPartyTransactions": [],
+          "ReliefOfPoverty": false,
+          "ReportingGroupFlag": false,
+          "ResponsiblePersonAccurate": null,
+          "RevenueGoodsServices": "79500.0000",
+          "RevenueInvestments": "1345908.0000",
+          "RevenueTotal": "12334265.0000",
+          "StatementYear": "2025",
+          "SubTypesAccurate": null,
+          "TotalAssets": "22456391.0000",
+          "TotalCurrentAssets": "22456391.0000",
+          "TotalCurrentLiabilities": "0.0000",
+          "TotalLiabilities": "0.0000",
+          "TotalNonCurrentAssets": "0.0000",
+          "TotalNonCurrentLiabilities": "0.0000",
+          "TotalNonCurrentLoansReceivable": "0.0000",
+          "TotalPaidKMP": "$0.00",
+          "Website": "https://www.nga.gov.au",
+          "__normalized": true,
+          "entityTypeVersion": "",
+          "entityVersion": "1925232243",
+          "timeStamp": "2026-05-08T01:11:39.0000000Z",
+          "type": "annual_information_statement",
+          "uuid": "be2e8fda-7a4a-f111-bec7-7ced8d33fe37"
+        },
+        "type": "annual_information_statement",
+        "uuid": "be2e8fda-7a4a-f111-bec7-7ced8d33fe37"
+      },
+      "canonical_field_mappings": {
+        "data.Programs": "programs",
+        "data.TotalRevenue": "financial_records[].revenue",
+        "data.TotalExpenses": "financial_records[].total_expenses"
       },
       "evidence_ids": [
-        "ev:acnc:ais:49008643927:2025"
+        "ev:acnc:ais:49008643927:be2e8fda-7a4a-f111-bec7-7ced8d33fe37"
       ]
     }
   ],
@@ -1083,9 +1302,12 @@
       },
       "assets": null,
       "liabilities": null,
+      "net_assets": null,
       "income_breakdown": [],
       "expense_breakdown": [],
-      "balance_sheet_breakdown": []
+      "balance_sheet_breakdown": [],
+      "source_ordered_line_items": [],
+      "statements": []
     }
   ],
   "financial_metrics": [
@@ -1218,24 +1440,24 @@
       "content_hash": null
     },
     {
+      "evidence_id": "ev:acnc:ais:49008643927:be2e8fda-7a4a-f111-bec7-7ced8d33fe37",
+      "source_type": "regulatory",
+      "title": "ACNC Annual Information Statement 2025",
+      "publisher": "Australian Charities and Not-for-profits Commission",
+      "url": "https://www.acnc.gov.au/charity/charities/51e826e3-2daf-e811-a963-000d3ad24077/documents/be2e8fda-7a4a-f111-bec7-7ced8d33fe37",
+      "observed_at": "2025-11-27",
+      "reporting_period": "2025",
+      "page": null,
+      "section": null,
+      "content_hash": null
+    },
+    {
       "evidence_id": "ev:abr-dgr:49008643927:20260805",
       "source_type": "regulatory",
       "title": "ABR DGR bulk observation",
       "publisher": "Australian Business Register / Australian Taxation Office",
       "url": "https://abr.business.gov.au/Tools/BulkExtract",
       "observed_at": "2026-08-05",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
-    },
-    {
-      "evidence_id": "ev:acnc:ais:49008643927:2025",
-      "source_type": "regulatory",
-      "title": "National Gallery Of Australia Foundation Annual Information Statement 2025",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": "https://www.acnc.gov.au/charity/charities/51e826e3-2daf-e811-a963-000d3ad24077/documents/be2e8fda-7a4a-f111-bec7-7ced8d33fe37",
-      "observed_at": "2025-11-27",
       "reporting_period": null,
       "page": null,
       "section": null,
@@ -1248,81 +1470,25 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "533258f6d96c344149e5e7d3992411720cb4da38c8b2b10ebd7597dbc34c5230",
-    "generated_at": "2026-08-13T05:51:03.015057Z",
+    "source_text_hash": "bb7fd44759e6ac175ed542406c9dc3a76ab7e0ed527a0d0baeb37a8a3fd4af9d",
+    "generated_at": "2026-08-10T13:53:24.456233Z",
     "vector_ref": "embeddings.parquet#cb_5754e5bcbf3c4a2fa8d59bace5e487c9"
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
+    "prompt_version": "phase2a-0.4",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "bfd3f44e5994209535c5bbf63de29118dadbdeee127b85bb6925d9a6f5bdb8f1",
-    "generated_at": "2026-08-12T13:48:45.310782Z",
+    "evidence_input_hash": "51c91285b54b474544fabaaa6ef2eb027ee57d58e4b66341b88f644630429682",
+    "generated_at": "2026-08-10T12:50:13.890570Z",
     "editorial_policy_version": "0.1"
   },
-  "derivative_assessments": [
-    {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T13:48:45.310782Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-rc2-editorial-migration",
-      "input_hash": "bfd3f44e5994209535c5bbf63de29118dadbdeee127b85bb6925d9a6f5bdb8f1",
-      "disposition": "refreshed",
-      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "taxonomy",
-      "generated_at": "2026-08-12T13:48:45.310782Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "bfd3f44e5994209535c5bbf63de29118dadbdeee127b85bb6925d9a6f5bdb8f1",
-      "disposition": "reused",
-      "reason": "No new supported canonical classification facts.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "fundraising",
-      "generated_at": null,
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "bfd3f44e5994209535c5bbf63de29118dadbdeee127b85bb6925d9a6f5bdb8f1",
-      "disposition": "reused",
-      "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "embedding",
-      "generated_at": "2026-08-10T13:53:24.456233Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "bb7fd44759e6ac175ed542406c9dc3a76ab7e0ed527a0d0baeb37a8a3fd4af9d",
-      "disposition": "reused",
-      "reason": "Semantic source text unchanged.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "similarities",
-      "generated_at": "2026-08-10T13:53:24.456233Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "bb7fd44759e6ac175ed542406c9dc3a76ab7e0ed527a0d0baeb37a8a3fd4af9d",
-      "disposition": "reused",
-      "reason": "Embedding reused; semantic neighbours retained.",
-      "affected_dimensions": []
-    }
-  ],
-  "dataset_version": "phase2b-2026-08-13-rc3",
+  "derivative_assessments": [],
+  "dataset_version": "phase2b-2026-08-14-rc4",
   "card_schema_version": "0.4",
-  "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T05:50:58.991012Z"
+  "editorial_policy_version": "0.4-rc4",
+  "generator_version": "0.5.0-rc4",
+  "built_at": "2026-08-13T10:52:47.483880Z"
 }

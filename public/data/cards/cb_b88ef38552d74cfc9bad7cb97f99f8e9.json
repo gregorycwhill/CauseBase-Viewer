@@ -89,12 +89,12 @@
     {
       "capability": "latest_acnc_ais",
       "status": "observed",
-      "source_record_id": null,
+      "source_record_id": "src:acnc-ais-detail:92259617291:337214ff-8fc6-f011-bbd3-000d3ad10b92:cb_b88ef38552d74cfc9bad7cb97f99f8e9",
       "evidence_ids": [
-        "ev:acnc:ais:92259617291:2025"
+        "ev:acnc:ais:92259617291:337214ff-8fc6-f011-bbd3-000d3ad10b92"
       ],
       "observed_at": "2025-11-21",
-      "freshness_note": "Latest submitted ACNC AIS in the 2026-08-13 public-profile acquisition: 2025."
+      "freshness_note": "Latest submitted AIS detail acquired from the public ACNC entity endpoint."
     }
   ],
   "enrichment_level": "enriched",
@@ -102,31 +102,22 @@
   "geography": [
     "Western Australia"
   ],
-  "navigation_geography": [
+  "geography_observations": [
     {
-      "level": "country",
-      "code": "AU",
-      "label": "Australia",
-      "evidence_ids": [
-        "ev:acnc:92259617291"
-      ]
-    },
-    {
-      "level": "state_territory",
-      "code": "AU-WA",
-      "label": "Western Australia",
-      "evidence_ids": [
-        "ev:acnc:92259617291"
-      ]
+      "value": "Western Australia",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
     }
   ],
-  "causebase_summary": "Greenbushes Community Shed is a charity registered on the Australian Charities and Not‑for‑profits Commission and is recorded as operating in Western Australia. CauseBase does not have sufficient descriptive evidence in this release to independently identify the shed’s specific activities, services, participation modes or intended beneficiaries. No website, annual report or activity descriptions were supplied in the available record; the only cited source for this card is the ACNC Register extract (ev:acnc:92259617291).",
-  "summary_evidence_ids": [
-    "ev:acnc:92259617291"
-  ],
+  "navigation_geography": [],
+  "causebase_summary": "Greenbushes Community Shed is a registered entity on the Australian Charities and Not-for-profits Commission (ACNC) register with its recorded location in Western Australia. CauseBase has not located a website, public self-description, annual report text, or financial statements in the supplied sources, and the ACNC extract in this release does not provide further descriptive detail about the group’s activities, services, beneficiaries or participation methods. No organisation-authored program descriptions or activity lists were available in the provided evidence. The name and registration entry are recorded facts from the regulatory extract; any additional statements about purpose, programmes or operations were not included in the supplied material and therefore are not represented here.",
+  "summary_evidence_ids": [],
   "organisation_self_description": null,
   "activities": [],
+  "activity_observations": [],
   "beneficiaries": [],
+  "beneficiary_observations": [],
   "participation_modes": [],
   "participation_observations": [],
   "opportunities": [],
@@ -154,53 +145,23 @@
       "reporting_period": "2025",
       "source_url": "https://www.acnc.gov.au/charity/charities/01f41616-8003-ee11-8f6e-00224893b304/documents/337214ff-8fc6-f011-bbd3-000d3ad10b92",
       "evidence_ids": [
-        "ev:acnc:ais:92259617291:2025"
+        "ev:acnc:ais:92259617291:337214ff-8fc6-f011-bbd3-000d3ad10b92"
       ]
     }
   ],
   "source_native_records": [
     {
-      "source_record_id": "src:acnc-register:d5268ffb-f1ef-5704-b7c1-bab67c6d8357",
-      "source_family": "acnc-register",
-      "dataset_version": "2026-08-10",
-      "source_url": "https://www.acnc.gov.au/charity/charities?search=92259617291",
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "ABN": "92259617291",
-        "Legal Name": "Greenbushes Community Shed",
-        "Registration Status": "registered",
-        "ACNC classifications": "social welfare; people with disability",
-        "Website": null,
-        "ACNC registration ID": null,
-        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "ABN": "external_identifiers",
-        "Legal Name": "legal_name",
-        "Registration Status": "registrations"
-      },
-      "evidence_ids": [
-        "ev:acnc:92259617291"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-public-profile:92259617291:cb_b88ef38552d74cfc9bad7cb97f99f8e9:2026-08-13",
+      "source_record_id": "src:acnc-public-profile:92259617291:01f41616-8003-ee11-8f6e-00224893b304:cb_b88ef38552d74cfc9bad7cb97f99f8e9",
       "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-13-public-api",
+      "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/01f41616-8003-ee11-8f6e-00224893b304/profile",
-      "retrieved_at": "2026-08-13T05:50:58.991012Z",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
       "observed_at": "2025-11-21",
       "effective_from": null,
       "effective_to": null,
       "source_fields": {
         "uuid": "01f41616-8003-ee11-8f6e-00224893b304",
-        "abn": "92259617291",
-        "latest_ais_year": "2025",
-        "latest_ais_uuid": "337214ff-8fc6-f011-bbd3-000d3ad10b92"
+        "abn": "92259617291"
       },
       "source_payload": {
         "data": {
@@ -550,13 +511,322 @@
         "uuid": "01f41616-8003-ee11-8f6e-00224893b304"
       },
       "canonical_field_mappings": {
-        "data.Name": "display_name",
         "data.OtherNames": "operating_names",
-        "data.AnnualReports": "acnc_ais_url",
-        "data.Programs": "programs"
+        "data.AddressStateOrProvince": "principal_location"
+      },
+      "evidence_ids": []
+    },
+    {
+      "source_record_id": "src:acnc-ais-detail:92259617291:337214ff-8fc6-f011-bbd3-000d3ad10b92:cb_b88ef38552d74cfc9bad7cb97f99f8e9",
+      "source_family": "acnc-ais-detail",
+      "dataset_version": "2026-08-14-public-api",
+      "source_url": "https://www.acnc.gov.au/charity/charities/01f41616-8003-ee11-8f6e-00224893b304/documents/337214ff-8fc6-f011-bbd3-000d3ad10b92",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
+      "observed_at": "2025-11-21",
+      "effective_from": null,
+      "effective_to": null,
+      "source_fields": {
+        "abn": "92259617291",
+        "ais_uuid": "337214ff-8fc6-f011-bbd3-000d3ad10b92",
+        "year": "2025",
+        "date_received": "2025-11-21T04:10:46.0000000Z"
+      },
+      "source_payload": {
+        "data": {
+          "Abn": "92259617291",
+          "ActivityAdvocacyNCivic": false,
+          "ActivityAgedCare": false,
+          "ActivityAnimalProtection": false,
+          "ActivityCultureAndArt": false,
+          "ActivityEconomicSocialCommunity": false,
+          "ActivityEmergencyNRelief": false,
+          "ActivityEmploymentNTraining": false,
+          "ActivityEnvironmental": false,
+          "ActivityGrantMaking": false,
+          "ActivityHealthRehabilitation": false,
+          "ActivityHigherEducation": false,
+          "ActivityHousing": false,
+          "ActivityIncomeSupportNMaintenance": false,
+          "ActivityInternational": false,
+          "ActivityInternationalDescription": null,
+          "ActivityInternationalOther": false,
+          "ActivityInternationalOtherDescription": null,
+          "ActivityLawNLegalServices": false,
+          "ActivityMain": null,
+          "ActivityMentalHealthCrisisIntervention": false,
+          "ActivityNdisSupported": null,
+          "ActivityNdisSupportedNext": null,
+          "ActivityOperating": true,
+          "ActivityOperatingOverseas": false,
+          "ActivityOther": false,
+          "ActivityOtherDescription": null,
+          "ActivityOtherEducation": false,
+          "ActivityOtherHealthServices": false,
+          "ActivityPersuitPurposesDescription": "We continued to provide a safe space for men and women to learn new skills, provided mentorship and taught skills to local community members. Provided connection within the community through membership and sharing skills",
+          "ActivityPhilanthropicPromotion": false,
+          "ActivityPolitical": false,
+          "ActivityPrimarySecondaryEducation": false,
+          "ActivityPurposeChange": null,
+          "ActivityPurposeChangeDescription": null,
+          "ActivityRecreationSocialClub": false,
+          "ActivityReligious": false,
+          "ActivityResearch": false,
+          "ActivitySocialServices": false,
+          "ActivitySports": false,
+          "ActivityTransferringFundsGoods": false,
+          "AdvancementOfEducation": false,
+          "AdvancementOfReligion": false,
+          "AssetsandLiabilitiesDescription": "Assets include all equipment and sundry items in the shed at replacement cost price inclusive of GST",
+          "BasicReligiousCharity": false,
+          "BeneficiaryAboriginalTorres": false,
+          "BeneficiaryAdults": false,
+          "BeneficiaryAllAges": false,
+          "BeneficiaryChildren": false,
+          "BeneficiaryChronicIllness": false,
+          "BeneficiaryCrimeVictims": false,
+          "BeneficiaryDisasterVictims": false,
+          "BeneficiaryEarlyChildhood": false,
+          "BeneficiaryEthnic": false,
+          "BeneficiaryFamilies": false,
+          "BeneficiaryFinanciallyDisadvantaged": false,
+          "BeneficiaryGeneral": false,
+          "BeneficiaryHomelessnessRisk": false,
+          "BeneficiaryLGBT": false,
+          "BeneficiaryMain": null,
+          "BeneficiaryMen": false,
+          "BeneficiaryMigrantsRefugees": false,
+          "BeneficiaryOffenderFamilies": false,
+          "BeneficiaryOther": false,
+          "BeneficiaryOtherCharities": false,
+          "BeneficiaryOtherDescription": null,
+          "BeneficiaryOverseas": false,
+          "BeneficiaryPeopleWithDisability": false,
+          "BeneficiaryRuralRegionalRemote": false,
+          "BeneficiarySeniors": false,
+          "BeneficiaryUnemployed": false,
+          "BeneficiaryVeteranFamilies": false,
+          "BeneficiaryWomen": false,
+          "BeneficiaryYouth": false,
+          "CharityAddressCountry": "Australia",
+          "CharityAddressLine1": "46 Blackwood Rd",
+          "CharityAddressLine2": null,
+          "CharityAddressPostalCode": "6254",
+          "CharityAddressStateOrProvince": "WA",
+          "CharityAddressSuburb": "Greenbushes",
+          "CharityEmail": "greenbushes.cs@mail.com",
+          "CharitySize": "Small",
+          "CharityUuid": "01f41616-8003-ee11-8f6e-00224893b304",
+          "ChildCareServices": false,
+          "ExpenseEmployees": "0.0000",
+          "ExpenseGrantDonationsInAustralia": "0.0000",
+          "ExpenseGrantDonationsOutsideAustralia": "0.0000",
+          "ExpenseTotal": "7801.0000",
+          "ExpensesOther": "7801.0000",
+          "FinAccrualAccounting": "Cash",
+          "FinConsolidatedReportFromMiltiple": null,
+          "FinDocumentedPoliciesRelatedPartyTransactions": null,
+          "FinFyeJune": false,
+          "FinProvideVoluntarily": null,
+          "FinRelatedPartyTransactions": "No",
+          "FinReportACT": false,
+          "FinReportFrom": "2024-07-01T00:00:00.0000000Z",
+          "FinReportNSW": false,
+          "FinReportNT": false,
+          "FinReportQLD": false,
+          "FinReportSA": false,
+          "FinReportTAS": false,
+          "FinReportTo": "2025-06-30T00:00:00.0000000Z",
+          "FinReportVIC": false,
+          "FinReportWA": false,
+          "FinReportingType": null,
+          "FinSapDate": null,
+          "FundRaisingNumberACT": null,
+          "FundRaisingNumberNSW": null,
+          "FundRaisingNumberQLD": null,
+          "FundRaisingNumberSA": null,
+          "FundRaisingNumberTAS": null,
+          "FundRaisingNumberVIC": null,
+          "FundRaisingNumberWA": null,
+          "GovDocAccurate": null,
+          "GrantCapacityBuildingPct": null,
+          "GrantMultiYearPct": null,
+          "GrantPublicOpenApplicationPct": null,
+          "GrantRuralRegionPct": null,
+          "HasSubmittedToRegulator": false,
+          "HoursPaid": null,
+          "HoursTotal": null,
+          "HoursVolunteer": null,
+          "HrCasualEmployees": "0",
+          "HrFteStaff": "0.0000000000",
+          "HrFullTimeEmployees": "0",
+          "HrPartTimeEmployees": "0",
+          "HrUnpainVolunteers": "9",
+          "IncomeDonationsBequests": "420.0000",
+          "IncomeGovernmentGrants": "0.0000",
+          "IncomeOther": "850.0000",
+          "IncomeOtherComprehinsive": "0.0000",
+          "IncomeOtherNeg": null,
+          "IncomeOtherReceipts": "1746.0000",
+          "IncomeTotalComprehensive": "0.0000",
+          "IncomeTotalReceipts": "4516.0000",
+          "IncorporationStatus": null,
+          "InterestExpense": "0.0000",
+          "IsIncorporatedAssociation": true,
+          "KeyManagementPersonnel": false,
+          "LegalName": "Greenbushes Community Shed",
+          "NetAssetsLiabilities": "82356.0000",
+          "NetSurplusDeficit": "-3285.0000",
+          "NonCurrentLoansPayable": "0.0000",
+          "NumberOfKeyManagementPersonnel": "0",
+          "OperatingCountries": null,
+          "OperatingInACT": false,
+          "OperatingInNSW": false,
+          "OperatingInNT": false,
+          "OperatingInQLD": false,
+          "OperatingInSA": false,
+          "OperatingInTAS": false,
+          "OperatingInVIC": false,
+          "OperatingInWA": false,
+          "OperatingOverseas": false,
+          "OtherNames": [],
+          "OtherNonCurrentAssets": "0.0000",
+          "OtherNonCurrentLiabilities": "0.0000",
+          "OtherPurposeDescription": null,
+          "OtherPurposes": "False",
+          "Programs": [
+            {
+              "AisUuid": "337214ff-8fc6-f011-bbd3-000d3ad10b92",
+              "Name": "Men's Shed Movement",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "People in rural/regional/remote communities",
+                "Financially disadvantaged people",
+                "People with chronic illness (including terminal illness)",
+                "People with disabilities",
+                "Veterans and/or their families",
+                "Females",
+                "Males",
+                "General community in Australia"
+              ],
+              "ProgramClassification": "Community service organisations",
+              "ProgramClassificationID": "125",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Greenbushes WA, Australia",
+                  "FormattedAddress": "Greenbushes WA 6254, Australia",
+                  "Marker": {
+                    "Latitude": -33.8487699,
+                    "Longitude": 116.0588376
+                  },
+                  "Name": "Greenbushes",
+                  "uuid": "547214ff-8fc6-f011-bbd3-000d3ad10b92"
+                },
+                {
+                  "DisplayName": "Bridgetown WA, Australia",
+                  "FormattedAddress": "Bridgetown WA 6255, Australia",
+                  "Marker": {
+                    "Latitude": -33.9580163,
+                    "Longitude": 116.1372217
+                  },
+                  "Name": "Bridgetown",
+                  "uuid": "577214ff-8fc6-f011-bbd3-000d3ad10b92"
+                },
+                {
+                  "DisplayName": "Balingup WA, Australia",
+                  "FormattedAddress": "Balingup WA 6253, Australia",
+                  "Marker": {
+                    "Latitude": -33.7865988,
+                    "Longitude": 115.9842778
+                  },
+                  "Name": "Balingup",
+                  "uuid": "597214ff-8fc6-f011-bbd3-000d3ad10b92"
+                }
+              ],
+              "ProgramWeblink": null,
+              "uuid": "447214ff-8fc6-f011-bbd3-000d3ad10b92"
+            }
+          ],
+          "RegulatedACT": false,
+          "RegulatedNSW": false,
+          "RegulatedNT": false,
+          "RegulatedQLD": false,
+          "RegulatedSA": false,
+          "RegulatedTAS": false,
+          "RegulatedVIC": false,
+          "RegulatedWA": false,
+          "Regulator": null,
+          "RegulatorAGMDateACT": null,
+          "RegulatorAGMDateNT": null,
+          "RegulatorAGMDateVIC": null,
+          "RegulatorAGMDateWA": "2025-11-12T00:00:00.0000000",
+          "RegulatorFundRaising": "No",
+          "RegulatorFundRaisingACT": false,
+          "RegulatorFundRaisingNSW": false,
+          "RegulatorFundRaisingNT": false,
+          "RegulatorFundRaisingOnline": false,
+          "RegulatorFundRaisingQLD": false,
+          "RegulatorFundRaisingSA": false,
+          "RegulatorFundRaisingTAS": false,
+          "RegulatorFundRaisingVIC": false,
+          "RegulatorFundRaisingWA": false,
+          "RegulatorIncorporatedAssociationACT": false,
+          "RegulatorIncorporatedAssociationNSW": false,
+          "RegulatorIncorporatedAssociationNT": false,
+          "RegulatorIncorporatedAssociationNumberACT": null,
+          "RegulatorIncorporatedAssociationNumberNSW": null,
+          "RegulatorIncorporatedAssociationNumberNT": null,
+          "RegulatorIncorporatedAssociationNumberQLD": null,
+          "RegulatorIncorporatedAssociationNumberSA": null,
+          "RegulatorIncorporatedAssociationNumberTAS": null,
+          "RegulatorIncorporatedAssociationNumberVIC": null,
+          "RegulatorIncorporatedAssociationNumberWA": "A1022533D",
+          "RegulatorIncorporatedAssociationQLD": false,
+          "RegulatorIncorporatedAssociationSA": false,
+          "RegulatorIncorporatedAssociationTAS": false,
+          "RegulatorIncorporatedAssociationVIC": false,
+          "RegulatorIncorporatedAssociationWA": true,
+          "RegulatorMetRequirementACT": false,
+          "RegulatorMetRequirementWA": "Yes",
+          "RegulatorOtherDetails": null,
+          "RegulatorPrograms": null,
+          "RegulatorStates": false,
+          "RelatedPartyDetails": null,
+          "RelatedPartyTransactions": [],
+          "ReliefOfPoverty": false,
+          "ReportingGroupFlag": false,
+          "ResponsiblePersonAccurate": null,
+          "RevenueGoodsServices": "1500.0000",
+          "RevenueInvestments": "0.0000",
+          "RevenueTotal": "3666.0000",
+          "StatementYear": "2025",
+          "SubTypesAccurate": null,
+          "TotalAssets": "82356.0000",
+          "TotalCurrentAssets": "0.0000",
+          "TotalCurrentLiabilities": "0.0000",
+          "TotalLiabilities": "0.0000",
+          "TotalNonCurrentAssets": null,
+          "TotalNonCurrentLiabilities": "0.0000",
+          "TotalNonCurrentLoansReceivable": "0.0000",
+          "TotalPaidKMP": "$0.00",
+          "Website": null,
+          "__normalized": true,
+          "entityTypeVersion": "",
+          "entityVersion": "1794540709",
+          "timeStamp": "2025-11-21T04:10:30.0000000Z",
+          "type": "annual_information_statement",
+          "uuid": "337214ff-8fc6-f011-bbd3-000d3ad10b92"
+        },
+        "type": "annual_information_statement",
+        "uuid": "337214ff-8fc6-f011-bbd3-000d3ad10b92"
+      },
+      "canonical_field_mappings": {
+        "data.Programs": "programs",
+        "data.TotalRevenue": "financial_records[].revenue",
+        "data.TotalExpenses": "financial_records[].total_expenses"
       },
       "evidence_ids": [
-        "ev:acnc:ais:92259617291:2025"
+        "ev:acnc:ais:92259617291:337214ff-8fc6-f011-bbd3-000d3ad10b92"
       ]
     }
   ],
@@ -621,13 +891,13 @@
       "content_hash": null
     },
     {
-      "evidence_id": "ev:acnc:ais:92259617291:2025",
+      "evidence_id": "ev:acnc:ais:92259617291:337214ff-8fc6-f011-bbd3-000d3ad10b92",
       "source_type": "regulatory",
-      "title": "Greenbushes Community Shed Annual Information Statement 2025",
+      "title": "ACNC Annual Information Statement 2025",
       "publisher": "Australian Charities and Not-for-profits Commission",
       "url": "https://www.acnc.gov.au/charity/charities/01f41616-8003-ee11-8f6e-00224893b304/documents/337214ff-8fc6-f011-bbd3-000d3ad10b92",
       "observed_at": "2025-11-21",
-      "reporting_period": null,
+      "reporting_period": "2025",
       "page": null,
       "section": null,
       "content_hash": null
@@ -639,81 +909,25 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "911532db00241c89eb774ac0094cdf35c20b65ca36bde2a827e648bc9c2f3d28",
-    "generated_at": "2026-08-13T05:51:03.015277Z",
+    "source_text_hash": "7fcefd64c31cf4e12521329d248b16bd38351d4c259b8df85412e2fd53e7735e",
+    "generated_at": "2026-08-10T13:53:24.456400Z",
     "vector_ref": "embeddings.parquet#cb_b88ef38552d74cfc9bad7cb97f99f8e9"
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
+    "prompt_version": "phase2a-0.5",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "cc7dcfc946f8d5ad66f0a79bdec39e6aed792dc557b2931e65d9ebff52a672e5",
-    "generated_at": "2026-08-12T13:51:00.596354Z",
+    "evidence_input_hash": "93051e064a45e866055cfc87407287da243d625681858a061a9d2ecee28596e1",
+    "generated_at": "2026-08-10T13:50:50.710041Z",
     "editorial_policy_version": "0.1"
   },
-  "derivative_assessments": [
-    {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T13:51:00.596354Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-rc2-editorial-migration",
-      "input_hash": "cc7dcfc946f8d5ad66f0a79bdec39e6aed792dc557b2931e65d9ebff52a672e5",
-      "disposition": "refreshed",
-      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "taxonomy",
-      "generated_at": "2026-08-12T13:51:00.596354Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "cc7dcfc946f8d5ad66f0a79bdec39e6aed792dc557b2931e65d9ebff52a672e5",
-      "disposition": "reused",
-      "reason": "No new supported canonical classification facts.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "fundraising",
-      "generated_at": null,
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "cc7dcfc946f8d5ad66f0a79bdec39e6aed792dc557b2931e65d9ebff52a672e5",
-      "disposition": "reused",
-      "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "embedding",
-      "generated_at": "2026-08-10T13:53:24.456400Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "7fcefd64c31cf4e12521329d248b16bd38351d4c259b8df85412e2fd53e7735e",
-      "disposition": "reused",
-      "reason": "Semantic source text unchanged.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "similarities",
-      "generated_at": "2026-08-10T13:53:24.456400Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "7fcefd64c31cf4e12521329d248b16bd38351d4c259b8df85412e2fd53e7735e",
-      "disposition": "reused",
-      "reason": "Embedding reused; semantic neighbours retained.",
-      "affected_dimensions": []
-    }
-  ],
-  "dataset_version": "phase2b-2026-08-13-rc3",
+  "derivative_assessments": [],
+  "dataset_version": "phase2b-2026-08-14-rc4",
   "card_schema_version": "0.4",
-  "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T05:50:58.991012Z"
+  "editorial_policy_version": "0.4-rc4",
+  "generator_version": "0.5.0-rc4",
+  "built_at": "2026-08-13T10:52:47.483880Z"
 }

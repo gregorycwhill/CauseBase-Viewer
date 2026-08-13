@@ -102,12 +102,12 @@
     {
       "capability": "latest_acnc_ais",
       "status": "observed",
-      "source_record_id": null,
+      "source_record_id": "src:acnc-ais-detail:24654346693:9528d62f-5058-ef11-bfe3-002248107d0b:cb_14a282ecac4e4ba1a241ceac202aaf5f",
       "evidence_ids": [
-        "ev:acnc:ais:24654346693:2023"
+        "ev:acnc:ais:24654346693:9528d62f-5058-ef11-bfe3-002248107d0b"
       ],
       "observed_at": "2024-08-12",
-      "freshness_note": "Latest submitted ACNC AIS in the 2026-08-13 public-profile acquisition: 2023."
+      "freshness_note": "Latest submitted AIS detail acquired from the public ACNC entity endpoint."
     }
   ],
   "enrichment_level": "enriched",
@@ -115,32 +115,22 @@
   "geography": [
     "Northern Territory (NT)"
   ],
-  "navigation_geography": [
+  "geography_observations": [
     {
-      "level": "country",
-      "code": "AU",
-      "label": "Australia",
-      "evidence_ids": [
-        "ev:acnc:24654346693"
-      ]
-    },
-    {
-      "level": "state_territory",
-      "code": "AU-NT",
-      "label": "Northern Territory",
-      "evidence_ids": [
-        "ev:acnc:24654346693"
-      ]
+      "value": "Northern Territory (NT)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
     }
   ],
-  "causebase_summary": "Brother to Another Ltd is an Australian not‑for‑profit company registered with the Australian Charities and Not‑for‑profits Commission and recorded as operating in the Northern Territory. It submitted an Annual Information Statement covering the 2022–23 reporting year to the ACNC. The supplied records include ACNC registration and AIS reporting but do not include a public website, descriptive materials or program-level documentation in this release. CauseBase does not have sufficient descriptive evidence here to independently identify the organisation's specific activities, services, target beneficiaries or modes of participation.",
-  "summary_evidence_ids": [
-    "ev:acnc:24654346693",
-    "ev:ais:24654346693:2023"
-  ],
+  "navigation_geography": [],
+  "causebase_summary": "BROTHER TO ANOTHER LTD is recorded on the ACNC register with its structured geography listed as the Northern Territory (NT). The supplied regulatory documents comprise an ACNC register extract and the organisation’s Annual Information Statement (AIS) for the reporting period 01/07/2022 to 30/06/2023. The AIS records revenue of AUD 660,000 and total expenses of AUD 627,000 for that year; the financial submission is presented as consolidated and attributed to the organisation’s own report. No website, program descriptions, annual report text, service locations within the NT, named beneficiary groups, staff or volunteer numbers, or descriptions of specific activities or projects are included in the provided evidence. The legal and display name in the extracts is BROTHER TO ANOTHER LTD. The evidence supplied is limited to the ACNC extracts and the 2022–23 AIS financial figures; it does not describe programs, beneficiaries, modes of participation or operational details beyond the jurisdiction and financial totals.",
+  "summary_evidence_ids": [],
   "organisation_self_description": null,
   "activities": [],
+  "activity_observations": [],
   "beneficiaries": [],
+  "beneficiary_observations": [],
   "participation_modes": [],
   "participation_observations": [],
   "opportunities": [],
@@ -166,82 +156,23 @@
       "reporting_period": "2023",
       "source_url": "https://www.acnc.gov.au/charity/charities/a7336f17-4d90-ec11-8d20-002248923e71/documents/9528d62f-5058-ef11-bfe3-002248107d0b",
       "evidence_ids": [
-        "ev:acnc:ais:24654346693:2023"
+        "ev:acnc:ais:24654346693:9528d62f-5058-ef11-bfe3-002248107d0b"
       ]
     }
   ],
   "source_native_records": [
     {
-      "source_record_id": "src:acnc-register:b9cfd4ce-caf6-5bbe-810e-11c0327ad390",
-      "source_family": "acnc-register",
-      "dataset_version": "2026-08-10",
-      "source_url": "https://www.acnc.gov.au/charity/charities?search=24654346693",
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "ABN": "24654346693",
-        "Legal Name": "BROTHER TO ANOTHER LTD",
-        "Registration Status": "registered",
-        "ACNC classifications": "social welfare; children",
-        "Website": null,
-        "ACNC registration ID": null,
-        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "ABN": "external_identifiers",
-        "Legal Name": "legal_name",
-        "Registration Status": "registrations"
-      },
-      "evidence_ids": [
-        "ev:acnc:24654346693"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-ais:fr:ais:cb_14a282ecac4e4ba1a241ceac202aaf5f:2023",
-      "source_family": "acnc-ais",
-      "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": "2022-07-01",
-      "effective_to": "2023-06-30",
-      "source_fields": {
-        "Reporting period": "01/07/2022 to 30/06/2023",
-        "Reporting scope": "subject",
-        "Consolidated": "true",
-        "Revenue": "660000",
-        "Donations and bequests": null,
-        "Government grants": null,
-        "Total expenses": "627000",
-        "Assets": null,
-        "Liabilities": null
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "Revenue": "financial_records[].revenue",
-        "Total expenses": "financial_records[].total_expenses"
-      },
-      "evidence_ids": [
-        "ev:ais:24654346693:2023"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-public-profile:24654346693:cb_14a282ecac4e4ba1a241ceac202aaf5f:2026-08-13",
+      "source_record_id": "src:acnc-public-profile:24654346693:a7336f17-4d90-ec11-8d20-002248923e71:cb_14a282ecac4e4ba1a241ceac202aaf5f",
       "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-13-public-api",
+      "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/a7336f17-4d90-ec11-8d20-002248923e71/profile",
-      "retrieved_at": "2026-08-13T05:50:58.991012Z",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
       "observed_at": "2024-08-12",
       "effective_from": null,
       "effective_to": null,
       "source_fields": {
         "uuid": "a7336f17-4d90-ec11-8d20-002248923e71",
-        "abn": "24654346693",
-        "latest_ais_year": "2023",
-        "latest_ais_uuid": "9528d62f-5058-ef11-bfe3-002248107d0b"
+        "abn": "24654346693"
       },
       "source_payload": {
         "data": {
@@ -624,13 +555,302 @@
         "uuid": "a7336f17-4d90-ec11-8d20-002248923e71"
       },
       "canonical_field_mappings": {
-        "data.Name": "display_name",
         "data.OtherNames": "operating_names",
-        "data.AnnualReports": "acnc_ais_url",
-        "data.Programs": "programs"
+        "data.AddressStateOrProvince": "principal_location"
+      },
+      "evidence_ids": []
+    },
+    {
+      "source_record_id": "src:acnc-ais-detail:24654346693:9528d62f-5058-ef11-bfe3-002248107d0b:cb_14a282ecac4e4ba1a241ceac202aaf5f",
+      "source_family": "acnc-ais-detail",
+      "dataset_version": "2026-08-14-public-api",
+      "source_url": "https://www.acnc.gov.au/charity/charities/a7336f17-4d90-ec11-8d20-002248923e71/documents/9528d62f-5058-ef11-bfe3-002248107d0b",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
+      "observed_at": "2024-08-12",
+      "effective_from": null,
+      "effective_to": null,
+      "source_fields": {
+        "abn": "24654346693",
+        "ais_uuid": "9528d62f-5058-ef11-bfe3-002248107d0b",
+        "year": "2023",
+        "date_received": "2024-08-12T02:11:41.0000000Z"
+      },
+      "source_payload": {
+        "data": {
+          "Abn": "24654346693",
+          "ActivityAdvocacyNCivic": false,
+          "ActivityAgedCare": false,
+          "ActivityAnimalProtection": false,
+          "ActivityCultureAndArt": false,
+          "ActivityEconomicSocialCommunity": false,
+          "ActivityEmergencyNRelief": false,
+          "ActivityEmploymentNTraining": false,
+          "ActivityEnvironmental": false,
+          "ActivityGrantMaking": false,
+          "ActivityHealthRehabilitation": false,
+          "ActivityHigherEducation": false,
+          "ActivityHousing": false,
+          "ActivityIncomeSupportNMaintenance": false,
+          "ActivityInternational": false,
+          "ActivityInternationalDescription": null,
+          "ActivityInternationalOther": false,
+          "ActivityInternationalOtherDescription": null,
+          "ActivityLawNLegalServices": false,
+          "ActivityMain": null,
+          "ActivityMentalHealthCrisisIntervention": false,
+          "ActivityNdisSupported": null,
+          "ActivityNdisSupportedNext": null,
+          "ActivityOperating": true,
+          "ActivityOperatingOverseas": false,
+          "ActivityOther": false,
+          "ActivityOtherDescription": null,
+          "ActivityOtherEducation": false,
+          "ActivityOtherHealthServices": false,
+          "ActivityPersuitPurposesDescription": "We provided wraparound case management, mentoring, strategic supports to families at risk or experiencing the NT Youth Justice System.",
+          "ActivityPhilanthropicPromotion": false,
+          "ActivityPolitical": false,
+          "ActivityPrimarySecondaryEducation": false,
+          "ActivityPurposeChange": null,
+          "ActivityPurposeChangeDescription": null,
+          "ActivityRecreationSocialClub": false,
+          "ActivityReligious": false,
+          "ActivityResearch": false,
+          "ActivitySocialServices": false,
+          "ActivitySports": false,
+          "ActivityTransferringFundsGoods": false,
+          "AdvancementOfEducation": false,
+          "AdvancementOfReligion": false,
+          "AssetsandLiabilitiesDescription": null,
+          "BasicReligiousCharity": false,
+          "BeneficiaryAboriginalTorres": false,
+          "BeneficiaryAdults": false,
+          "BeneficiaryAllAges": false,
+          "BeneficiaryChildren": false,
+          "BeneficiaryChronicIllness": false,
+          "BeneficiaryCrimeVictims": false,
+          "BeneficiaryDisasterVictims": false,
+          "BeneficiaryEarlyChildhood": false,
+          "BeneficiaryEthnic": false,
+          "BeneficiaryFamilies": false,
+          "BeneficiaryFinanciallyDisadvantaged": false,
+          "BeneficiaryGeneral": false,
+          "BeneficiaryHomelessnessRisk": false,
+          "BeneficiaryLGBT": false,
+          "BeneficiaryMain": null,
+          "BeneficiaryMen": false,
+          "BeneficiaryMigrantsRefugees": false,
+          "BeneficiaryOffenderFamilies": false,
+          "BeneficiaryOther": false,
+          "BeneficiaryOtherCharities": false,
+          "BeneficiaryOtherDescription": null,
+          "BeneficiaryOverseas": false,
+          "BeneficiaryPeopleWithDisability": false,
+          "BeneficiaryRuralRegionalRemote": false,
+          "BeneficiarySeniors": false,
+          "BeneficiaryUnemployed": false,
+          "BeneficiaryVeteranFamilies": false,
+          "BeneficiaryWomen": false,
+          "BeneficiaryYouth": false,
+          "CharityAddressCountry": "Australia",
+          "CharityAddressLine1": "Winnellie",
+          "CharityAddressLine2": null,
+          "CharityAddressPostalCode": "0810",
+          "CharityAddressStateOrProvince": "NT",
+          "CharityAddressSuburb": "Darwin",
+          "CharityEmail": "info@brothertoanother.org.au",
+          "CharitySize": "Medium",
+          "CharityUuid": "a7336f17-4d90-ec11-8d20-002248923e71",
+          "ChildCareServices": false,
+          "ExpenseEmployees": "394000.0000",
+          "ExpenseGrantDonationsInAustralia": "0.0000",
+          "ExpenseGrantDonationsOutsideAustralia": "0.0000",
+          "ExpenseTotal": "627000.0000",
+          "ExpensesOther": "233000.0000",
+          "FinAccrualAccounting": null,
+          "FinConsolidatedReportFromMiltiple": "Yes",
+          "FinDocumentedPoliciesRelatedPartyTransactions": null,
+          "FinFyeJune": false,
+          "FinProvideVoluntarily": null,
+          "FinRelatedPartyTransactions": "No",
+          "FinReportACT": false,
+          "FinReportFrom": "2022-07-01T00:00:00.0000000Z",
+          "FinReportNSW": false,
+          "FinReportNT": false,
+          "FinReportQLD": false,
+          "FinReportSA": false,
+          "FinReportTAS": false,
+          "FinReportTo": "2023-06-30T00:00:00.0000000Z",
+          "FinReportVIC": false,
+          "FinReportWA": false,
+          "FinReportingType": "General purpose financial statements",
+          "FinSapDate": null,
+          "FundRaisingNumberACT": null,
+          "FundRaisingNumberNSW": null,
+          "FundRaisingNumberQLD": null,
+          "FundRaisingNumberSA": null,
+          "FundRaisingNumberTAS": null,
+          "FundRaisingNumberVIC": null,
+          "FundRaisingNumberWA": null,
+          "GovDocAccurate": null,
+          "GrantCapacityBuildingPct": null,
+          "GrantMultiYearPct": null,
+          "GrantPublicOpenApplicationPct": null,
+          "GrantRuralRegionPct": null,
+          "HasSubmittedToRegulator": false,
+          "HoursPaid": null,
+          "HoursTotal": null,
+          "HoursVolunteer": null,
+          "HrCasualEmployees": "0",
+          "HrFteStaff": "4.5000000000",
+          "HrFullTimeEmployees": "4",
+          "HrPartTimeEmployees": "5",
+          "HrUnpainVolunteers": "0",
+          "IncomeDonationsBequests": "569000.0000",
+          "IncomeGovernmentGrants": "91000.0000",
+          "IncomeOther": "0.0000",
+          "IncomeOtherComprehinsive": "0.0000",
+          "IncomeOtherNeg": null,
+          "IncomeOtherReceipts": "0.0000",
+          "IncomeTotalComprehensive": "33000.0000",
+          "IncomeTotalReceipts": "660000.0000",
+          "IncorporationStatus": null,
+          "InterestExpense": "0.0000",
+          "IsIncorporatedAssociation": false,
+          "KeyManagementPersonnel": false,
+          "LegalName": "BROTHER TO ANOTHER LTD",
+          "NetAssetsLiabilities": "-229236.0000",
+          "NetSurplusDeficit": "33000.0000",
+          "NonCurrentLoansPayable": "0.0000",
+          "NumberOfKeyManagementPersonnel": "0",
+          "OperatingCountries": null,
+          "OperatingInACT": false,
+          "OperatingInNSW": false,
+          "OperatingInNT": false,
+          "OperatingInQLD": false,
+          "OperatingInSA": false,
+          "OperatingInTAS": false,
+          "OperatingInVIC": false,
+          "OperatingInWA": false,
+          "OperatingOverseas": false,
+          "OtherNames": [],
+          "OtherNonCurrentAssets": "0.0000",
+          "OtherNonCurrentLiabilities": "0.0000",
+          "OtherPurposeDescription": null,
+          "OtherPurposes": "False",
+          "Programs": [
+            {
+              "AisUuid": "9528d62f-5058-ef11-bfe3-002248107d0b",
+              "Name": "Brother to Another",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Children - aged 6 to under 15",
+                "Youth - 15 to under 25",
+                "Families",
+                "Aboriginal and Torres Strait Islander people",
+                "People at risk of homelessness/ people experiencing homelessness",
+                "People with disabilities",
+                "Pre/post release offenders and/or their families",
+                "Victims of crime (including family violence)"
+              ],
+              "ProgramClassification": "Youth mentoring",
+              "ProgramClassificationID": "563",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Darwin NT, Australia",
+                  "FormattedAddress": "Darwin NT, Australia",
+                  "Marker": {
+                    "Latitude": -12.4637333,
+                    "Longitude": 130.8444446
+                  },
+                  "Name": "Darwin",
+                  "uuid": "c659da35-5058-ef11-bfe3-002248107d0b"
+                }
+              ],
+              "ProgramWeblink": null,
+              "uuid": "a659da35-5058-ef11-bfe3-002248107d0b"
+            }
+          ],
+          "RegulatedACT": false,
+          "RegulatedNSW": false,
+          "RegulatedNT": false,
+          "RegulatedQLD": false,
+          "RegulatedSA": false,
+          "RegulatedTAS": false,
+          "RegulatedVIC": false,
+          "RegulatedWA": false,
+          "Regulator": null,
+          "RegulatorAGMDateACT": null,
+          "RegulatorAGMDateNT": null,
+          "RegulatorAGMDateVIC": null,
+          "RegulatorAGMDateWA": null,
+          "RegulatorFundRaising": "Yes",
+          "RegulatorFundRaisingACT": false,
+          "RegulatorFundRaisingNSW": false,
+          "RegulatorFundRaisingNT": true,
+          "RegulatorFundRaisingOnline": false,
+          "RegulatorFundRaisingQLD": false,
+          "RegulatorFundRaisingSA": false,
+          "RegulatorFundRaisingTAS": false,
+          "RegulatorFundRaisingVIC": false,
+          "RegulatorFundRaisingWA": false,
+          "RegulatorIncorporatedAssociationACT": false,
+          "RegulatorIncorporatedAssociationNSW": false,
+          "RegulatorIncorporatedAssociationNT": false,
+          "RegulatorIncorporatedAssociationNumberACT": null,
+          "RegulatorIncorporatedAssociationNumberNSW": null,
+          "RegulatorIncorporatedAssociationNumberNT": null,
+          "RegulatorIncorporatedAssociationNumberQLD": null,
+          "RegulatorIncorporatedAssociationNumberSA": null,
+          "RegulatorIncorporatedAssociationNumberTAS": null,
+          "RegulatorIncorporatedAssociationNumberVIC": null,
+          "RegulatorIncorporatedAssociationNumberWA": null,
+          "RegulatorIncorporatedAssociationQLD": false,
+          "RegulatorIncorporatedAssociationSA": false,
+          "RegulatorIncorporatedAssociationTAS": false,
+          "RegulatorIncorporatedAssociationVIC": false,
+          "RegulatorIncorporatedAssociationWA": false,
+          "RegulatorMetRequirementACT": false,
+          "RegulatorMetRequirementWA": null,
+          "RegulatorOtherDetails": null,
+          "RegulatorPrograms": null,
+          "RegulatorStates": false,
+          "RelatedPartyDetails": null,
+          "RelatedPartyTransactions": [],
+          "ReliefOfPoverty": false,
+          "ReportingGroupFlag": false,
+          "ResponsiblePersonAccurate": null,
+          "RevenueGoodsServices": "0.0000",
+          "RevenueInvestments": "0.0000",
+          "RevenueTotal": "660000.0000",
+          "StatementYear": "2023",
+          "SubTypesAccurate": null,
+          "TotalAssets": "0.0000",
+          "TotalCurrentAssets": "0.0000",
+          "TotalCurrentLiabilities": "109236.0000",
+          "TotalLiabilities": "229236.0000",
+          "TotalNonCurrentAssets": "0.0000",
+          "TotalNonCurrentLiabilities": "120000.0000",
+          "TotalNonCurrentLoansReceivable": "0.0000",
+          "TotalPaidKMP": "$0.00",
+          "Website": null,
+          "__normalized": true,
+          "entityTypeVersion": "",
+          "entityVersion": "1419352271",
+          "timeStamp": "2024-08-12T02:11:39.0000000Z",
+          "type": "annual_information_statement",
+          "uuid": "9528d62f-5058-ef11-bfe3-002248107d0b"
+        },
+        "type": "annual_information_statement",
+        "uuid": "9528d62f-5058-ef11-bfe3-002248107d0b"
+      },
+      "canonical_field_mappings": {
+        "data.Programs": "programs",
+        "data.TotalRevenue": "financial_records[].revenue",
+        "data.TotalExpenses": "financial_records[].total_expenses"
       },
       "evidence_ids": [
-        "ev:acnc:ais:24654346693:2023"
+        "ev:acnc:ais:24654346693:9528d62f-5058-ef11-bfe3-002248107d0b"
       ]
     }
   ],
@@ -679,9 +899,12 @@
       },
       "assets": null,
       "liabilities": null,
+      "net_assets": null,
       "income_breakdown": [],
       "expense_breakdown": [],
-      "balance_sheet_breakdown": []
+      "balance_sheet_breakdown": [],
+      "source_ordered_line_items": [],
+      "statements": []
     }
   ],
   "financial_metrics": [
@@ -805,24 +1028,24 @@
       "content_hash": null
     },
     {
+      "evidence_id": "ev:acnc:ais:24654346693:9528d62f-5058-ef11-bfe3-002248107d0b",
+      "source_type": "regulatory",
+      "title": "ACNC Annual Information Statement 2023",
+      "publisher": "Australian Charities and Not-for-profits Commission",
+      "url": "https://www.acnc.gov.au/charity/charities/a7336f17-4d90-ec11-8d20-002248923e71/documents/9528d62f-5058-ef11-bfe3-002248107d0b",
+      "observed_at": "2024-08-12",
+      "reporting_period": "2023",
+      "page": null,
+      "section": null,
+      "content_hash": null
+    },
+    {
       "evidence_id": "ev:abr-dgr:24654346693:20260805",
       "source_type": "regulatory",
       "title": "ABR DGR bulk observation",
       "publisher": "Australian Business Register / Australian Taxation Office",
       "url": "https://abr.business.gov.au/Tools/BulkExtract",
       "observed_at": "2026-08-05",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
-    },
-    {
-      "evidence_id": "ev:acnc:ais:24654346693:2023",
-      "source_type": "regulatory",
-      "title": "BROTHER TO ANOTHER LTD Annual Information Statement 2023",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": "https://www.acnc.gov.au/charity/charities/a7336f17-4d90-ec11-8d20-002248923e71/documents/9528d62f-5058-ef11-bfe3-002248107d0b",
-      "observed_at": "2024-08-12",
       "reporting_period": null,
       "page": null,
       "section": null,
@@ -835,81 +1058,25 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "44089ca09a341f9ffa5f5a661a282f57e6015d231cf324af57128fea5811c6aa",
-    "generated_at": "2026-08-13T05:51:03.015179Z",
+    "source_text_hash": "fc674fd416b986be81ed7c590c117a0afc9b0fd15ba351af5858265fe161cb76",
+    "generated_at": "2026-08-10T13:53:24.456332Z",
     "vector_ref": "embeddings.parquet#cb_14a282ecac4e4ba1a241ceac202aaf5f"
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
+    "prompt_version": "phase2a-0.4",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "8fc80f400f4439a99e10387b63941214d5e38dcf9edda2a16e64528e287cf5ac",
-    "generated_at": "2026-08-12T13:50:06.149552Z",
+    "evidence_input_hash": "f25240f22c53ef0c3229972ea6fd5b92b190956b0b8b15aa3944e2f4fd422143",
+    "generated_at": "2026-08-10T12:50:44.265845Z",
     "editorial_policy_version": "0.1"
   },
-  "derivative_assessments": [
-    {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T13:50:06.149552Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-rc2-editorial-migration",
-      "input_hash": "8fc80f400f4439a99e10387b63941214d5e38dcf9edda2a16e64528e287cf5ac",
-      "disposition": "refreshed",
-      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "taxonomy",
-      "generated_at": "2026-08-12T13:50:06.149552Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "8fc80f400f4439a99e10387b63941214d5e38dcf9edda2a16e64528e287cf5ac",
-      "disposition": "reused",
-      "reason": "No new supported canonical classification facts.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "fundraising",
-      "generated_at": null,
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "8fc80f400f4439a99e10387b63941214d5e38dcf9edda2a16e64528e287cf5ac",
-      "disposition": "reused",
-      "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "embedding",
-      "generated_at": "2026-08-10T13:53:24.456332Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "fc674fd416b986be81ed7c590c117a0afc9b0fd15ba351af5858265fe161cb76",
-      "disposition": "reused",
-      "reason": "Semantic source text unchanged.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "similarities",
-      "generated_at": "2026-08-10T13:53:24.456332Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "fc674fd416b986be81ed7c590c117a0afc9b0fd15ba351af5858265fe161cb76",
-      "disposition": "reused",
-      "reason": "Embedding reused; semantic neighbours retained.",
-      "affected_dimensions": []
-    }
-  ],
-  "dataset_version": "phase2b-2026-08-13-rc3",
+  "derivative_assessments": [],
+  "dataset_version": "phase2b-2026-08-14-rc4",
   "card_schema_version": "0.4",
-  "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T05:50:58.991012Z"
+  "editorial_policy_version": "0.4-rc4",
+  "generator_version": "0.5.0-rc4",
+  "built_at": "2026-08-13T10:52:47.483880Z"
 }

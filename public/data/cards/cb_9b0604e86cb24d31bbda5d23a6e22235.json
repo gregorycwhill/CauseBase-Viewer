@@ -63,16 +63,6 @@
       "freshness_note": null
     },
     {
-      "capability": "website",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:web:39410139423:2026-08-10"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
       "capability": "fundraising_expenditure",
       "status": "not_available_from_source",
       "source_record_id": null,
@@ -93,12 +83,20 @@
     {
       "capability": "latest_acnc_ais",
       "status": "observed",
-      "source_record_id": null,
+      "source_record_id": "src:acnc-ais-detail:39410139423:cbdf4869-d175-f111-ab0e-7ced8da2764f:cb_9b0604e86cb24d31bbda5d23a6e22235",
       "evidence_ids": [
-        "ev:acnc:ais:39410139423:2025"
+        "ev:acnc:ais:39410139423:cbdf4869-d175-f111-ab0e-7ced8da2764f"
       ],
       "observed_at": "2026-06-29",
-      "freshness_note": "Latest submitted ACNC AIS in the 2026-08-13 public-profile acquisition: 2025."
+      "freshness_note": "Latest submitted AIS detail acquired from the public ACNC entity endpoint."
+    },
+    {
+      "capability": "website",
+      "status": "observed",
+      "source_record_id": null,
+      "evidence_ids": [],
+      "observed_at": "2026-08-13",
+      "freshness_note": "Public website locator acquired from the ACNC profile."
     }
   ],
   "enrichment_level": "enriched",
@@ -106,33 +104,20 @@
   "geography": [
     "Queensland (Australia)"
   ],
-  "navigation_geography": [
+  "geography_observations": [
     {
-      "level": "country",
-      "code": "AU",
-      "label": "Australia",
-      "evidence_ids": [
-        "ev:acnc:39410139423"
-      ]
-    },
-    {
-      "level": "state_territory",
-      "code": "AU-QLD",
-      "label": "Queensland",
-      "evidence_ids": [
-        "ev:acnc:39410139423"
-      ]
+      "value": "Queensland (Australia)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
     }
   ],
-  "causebase_summary": "Ann Street Presbyterian Church is a Presbyterian congregation in Queensland, Australia. Materials associated with the Presbyterian Church of Queensland indicate congregations in the state are supported through Christian education programming, hospital chaplaincy, ministry resourcing for individual congregations, women’s ministries, youth and children’s ministry, the PIM Gap Year programme, and PCQ events and public programming. The congregation has pathways for people to attend PCQ events, enrol in ministry programmes and access congregational resources and training materials.",
-  "summary_evidence_ids": [
-    "ev:web:39410139423:2026-08-10",
-    "ev:acnc:39410139423",
-    "ev:ais:39410139423:2023"
-  ],
+  "navigation_geography": [],
+  "causebase_summary": "Ann Street Presbyterian Church is listed with Queensland as its structured location, and the website content available for the Presbyterian Church of Queensland (PCQ) describes state-level activity that the congregation is associated with. The PCQ website states it “encourag(es) and support(s) individual churches to grow” and lists concrete programmes and resources: Christian education, hospital chaplains, ministry resourcing, women’s ministries, youth and children’s ministry, a PIM Gap Year placement, a “Find a Church” directory, PCQ events, and congregational policies and forms. The website frames these items as ways the Presbyterian Church of Queensland pursues its stated aim of “making known the good news of Jesus Christ,” language presented as organisation-authored claim. The ACNC AIS extract for the 2023 reporting year included in the evidence package records zero revenue and zero total expenses for the reporting subject for 01/01/2023–31/12/2023. Publicly available excerpts provide programme names and administrative resources, but do not include detailed service volumes, staffing or separate financials for the named congregation in the selected documents.",
+  "summary_evidence_ids": [],
   "organisation_self_description": null,
   "activities": [
-    "Christian education programming (as listed on PCQ site)",
+    "Christian education programming",
     "Hospital chaplaincy (listed as a ministry)",
     "Ministry resourcing and support for individual congregations",
     "Women’s ministries",
@@ -140,12 +125,88 @@
     "PIM Gap Year programme",
     "PCQ events and public programming"
   ],
+  "activity_observations": [
+    {
+      "value": "Christian education programming",
+      "source_role": "legacy_source_qualifier",
+      "provenance_note": "as listed on PCQ site",
+      "evidence_ids": []
+    },
+    {
+      "value": "Hospital chaplaincy (listed as a ministry)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Ministry resourcing and support for individual congregations",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Women’s ministries",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Youth and children’s ministry",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "PIM Gap Year programme",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "PCQ events and public programming",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    }
+  ],
   "beneficiaries": [
     "Individual congregations and churches in Queensland",
     "Church members and participants",
     "Children and youth involved in youth and children’s ministry",
     "Women involved in women’s ministries",
     "People who receive hospital chaplaincy services"
+  ],
+  "beneficiary_observations": [
+    {
+      "value": "Individual congregations and churches in Queensland",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Church members and participants",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Children and youth involved in youth and children’s ministry",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Women involved in women’s ministries",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "People who receive hospital chaplaincy services",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    }
   ],
   "participation_modes": [
     "Attending PCQ events and public programming",
@@ -171,82 +232,23 @@
       "reporting_period": "2025",
       "source_url": "https://www.acnc.gov.au/charity/charities/24ecc571-38af-e811-a963-000d3ad244fd/documents/cbdf4869-d175-f111-ab0e-7ced8da2764f",
       "evidence_ids": [
-        "ev:acnc:ais:39410139423:2025"
+        "ev:acnc:ais:39410139423:cbdf4869-d175-f111-ab0e-7ced8da2764f"
       ]
     }
   ],
   "source_native_records": [
     {
-      "source_record_id": "src:acnc-register:0d78896f-9d7d-5c22-8fe6-93d6cb261552",
-      "source_family": "acnc-register",
-      "dataset_version": "2026-08-10",
-      "source_url": "https://www.acnc.gov.au/charity/charities?search=39410139423",
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "ABN": "39410139423",
-        "Legal Name": "Ann Street Presbyterian Church",
-        "Registration Status": "registered",
-        "ACNC classifications": "religion; general community",
-        "Website": "www.pcq.org.au",
-        "ACNC registration ID": null,
-        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "ABN": "external_identifiers",
-        "Legal Name": "legal_name",
-        "Registration Status": "registrations"
-      },
-      "evidence_ids": [
-        "ev:acnc:39410139423"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-ais:fr:ais:cb_9b0604e86cb24d31bbda5d23a6e22235:2023",
-      "source_family": "acnc-ais",
-      "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": "2023-01-01",
-      "effective_to": "2023-12-31",
-      "source_fields": {
-        "Reporting period": "01/01/2023 to 31/12/2023",
-        "Reporting scope": "subject",
-        "Consolidated": "unknown",
-        "Revenue": "0",
-        "Donations and bequests": null,
-        "Government grants": null,
-        "Total expenses": "0",
-        "Assets": null,
-        "Liabilities": null
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "Revenue": "financial_records[].revenue",
-        "Total expenses": "financial_records[].total_expenses"
-      },
-      "evidence_ids": [
-        "ev:ais:39410139423:2023"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-public-profile:39410139423:cb_9b0604e86cb24d31bbda5d23a6e22235:2026-08-13",
+      "source_record_id": "src:acnc-public-profile:39410139423:24ecc571-38af-e811-a963-000d3ad244fd:cb_9b0604e86cb24d31bbda5d23a6e22235",
       "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-13-public-api",
+      "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/24ecc571-38af-e811-a963-000d3ad244fd/profile",
-      "retrieved_at": "2026-08-13T05:50:58.991012Z",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
       "observed_at": "2026-06-29",
       "effective_from": null,
       "effective_to": null,
       "source_fields": {
         "uuid": "24ecc571-38af-e811-a963-000d3ad244fd",
-        "abn": "39410139423",
-        "latest_ais_year": "2025",
-        "latest_ais_uuid": "cbdf4869-d175-f111-ab0e-7ced8da2764f"
+        "abn": "39410139423"
       },
       "source_payload": {
         "data": {
@@ -744,13 +746,297 @@
         "uuid": "24ecc571-38af-e811-a963-000d3ad244fd"
       },
       "canonical_field_mappings": {
-        "data.Name": "display_name",
         "data.OtherNames": "operating_names",
-        "data.AnnualReports": "acnc_ais_url",
-        "data.Programs": "programs"
+        "data.AddressStateOrProvince": "principal_location"
+      },
+      "evidence_ids": []
+    },
+    {
+      "source_record_id": "src:acnc-ais-detail:39410139423:cbdf4869-d175-f111-ab0e-7ced8da2764f:cb_9b0604e86cb24d31bbda5d23a6e22235",
+      "source_family": "acnc-ais-detail",
+      "dataset_version": "2026-08-14-public-api",
+      "source_url": "https://www.acnc.gov.au/charity/charities/24ecc571-38af-e811-a963-000d3ad244fd/documents/cbdf4869-d175-f111-ab0e-7ced8da2764f",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
+      "observed_at": "2026-06-29",
+      "effective_from": null,
+      "effective_to": null,
+      "source_fields": {
+        "abn": "39410139423",
+        "ais_uuid": "cbdf4869-d175-f111-ab0e-7ced8da2764f",
+        "year": "2025",
+        "date_received": "2026-06-29T14:00:00.0000000Z"
+      },
+      "source_payload": {
+        "data": {
+          "Abn": "39410139423",
+          "ActivityAdvocacyNCivic": false,
+          "ActivityAgedCare": false,
+          "ActivityAnimalProtection": false,
+          "ActivityCultureAndArt": false,
+          "ActivityEconomicSocialCommunity": false,
+          "ActivityEmergencyNRelief": false,
+          "ActivityEmploymentNTraining": false,
+          "ActivityEnvironmental": false,
+          "ActivityGrantMaking": false,
+          "ActivityHealthRehabilitation": false,
+          "ActivityHigherEducation": false,
+          "ActivityHousing": false,
+          "ActivityIncomeSupportNMaintenance": false,
+          "ActivityInternational": false,
+          "ActivityInternationalDescription": null,
+          "ActivityInternationalOther": false,
+          "ActivityInternationalOtherDescription": null,
+          "ActivityLawNLegalServices": false,
+          "ActivityMain": null,
+          "ActivityMentalHealthCrisisIntervention": false,
+          "ActivityNdisSupported": null,
+          "ActivityNdisSupportedNext": null,
+          "ActivityOperating": true,
+          "ActivityOperatingOverseas": false,
+          "ActivityOther": false,
+          "ActivityOtherDescription": null,
+          "ActivityOtherEducation": false,
+          "ActivityOtherHealthServices": false,
+          "ActivityPersuitPurposesDescription": "Preaching, teaching and pastoral care to members of the congregation and wider community. ",
+          "ActivityPhilanthropicPromotion": false,
+          "ActivityPolitical": false,
+          "ActivityPrimarySecondaryEducation": false,
+          "ActivityPurposeChange": null,
+          "ActivityPurposeChangeDescription": null,
+          "ActivityRecreationSocialClub": false,
+          "ActivityReligious": false,
+          "ActivityResearch": false,
+          "ActivitySocialServices": false,
+          "ActivitySports": false,
+          "ActivityTransferringFundsGoods": false,
+          "AdvancementOfEducation": false,
+          "AdvancementOfReligion": false,
+          "AssetsandLiabilitiesDescription": null,
+          "BasicReligiousCharity": true,
+          "BeneficiaryAboriginalTorres": false,
+          "BeneficiaryAdults": false,
+          "BeneficiaryAllAges": false,
+          "BeneficiaryChildren": false,
+          "BeneficiaryChronicIllness": false,
+          "BeneficiaryCrimeVictims": false,
+          "BeneficiaryDisasterVictims": false,
+          "BeneficiaryEarlyChildhood": false,
+          "BeneficiaryEthnic": false,
+          "BeneficiaryFamilies": false,
+          "BeneficiaryFinanciallyDisadvantaged": false,
+          "BeneficiaryGeneral": false,
+          "BeneficiaryHomelessnessRisk": false,
+          "BeneficiaryLGBT": false,
+          "BeneficiaryMain": null,
+          "BeneficiaryMen": false,
+          "BeneficiaryMigrantsRefugees": false,
+          "BeneficiaryOffenderFamilies": false,
+          "BeneficiaryOther": false,
+          "BeneficiaryOtherCharities": false,
+          "BeneficiaryOtherDescription": null,
+          "BeneficiaryOverseas": false,
+          "BeneficiaryPeopleWithDisability": false,
+          "BeneficiaryRuralRegionalRemote": false,
+          "BeneficiarySeniors": false,
+          "BeneficiaryUnemployed": false,
+          "BeneficiaryVeteranFamilies": false,
+          "BeneficiaryWomen": false,
+          "BeneficiaryYouth": false,
+          "CharityAddressCountry": null,
+          "CharityAddressLine1": "PO Box 510",
+          "CharityAddressLine2": null,
+          "CharityAddressPostalCode": "4004",
+          "CharityAddressStateOrProvince": "QLD",
+          "CharityAddressSuburb": "Spring Hill",
+          "CharityEmail": "lesleigh.hall@pcq.org.au",
+          "CharitySize": "Medium",
+          "CharityUuid": "24ecc571-38af-e811-a963-000d3ad244fd",
+          "ChildCareServices": false,
+          "ExpenseEmployees": "0.0000",
+          "ExpenseGrantDonationsInAustralia": "0.0000",
+          "ExpenseGrantDonationsOutsideAustralia": "0.0000",
+          "ExpenseTotal": "0.0000",
+          "ExpensesOther": "0.0000",
+          "FinAccrualAccounting": null,
+          "FinConsolidatedReportFromMiltiple": null,
+          "FinDocumentedPoliciesRelatedPartyTransactions": null,
+          "FinFyeJune": false,
+          "FinProvideVoluntarily": "No",
+          "FinRelatedPartyTransactions": null,
+          "FinReportACT": false,
+          "FinReportFrom": null,
+          "FinReportNSW": false,
+          "FinReportNT": false,
+          "FinReportQLD": false,
+          "FinReportSA": false,
+          "FinReportTAS": false,
+          "FinReportTo": null,
+          "FinReportVIC": false,
+          "FinReportWA": false,
+          "FinReportingType": null,
+          "FinSapDate": null,
+          "FundRaisingNumberACT": null,
+          "FundRaisingNumberNSW": null,
+          "FundRaisingNumberQLD": null,
+          "FundRaisingNumberSA": null,
+          "FundRaisingNumberTAS": null,
+          "FundRaisingNumberVIC": null,
+          "FundRaisingNumberWA": null,
+          "GovDocAccurate": null,
+          "GrantCapacityBuildingPct": null,
+          "GrantMultiYearPct": null,
+          "GrantPublicOpenApplicationPct": null,
+          "GrantRuralRegionPct": null,
+          "HasSubmittedToRegulator": false,
+          "HoursPaid": null,
+          "HoursTotal": null,
+          "HoursVolunteer": null,
+          "HrCasualEmployees": "0",
+          "HrFteStaff": "5.0000000000",
+          "HrFullTimeEmployees": "4",
+          "HrPartTimeEmployees": "2",
+          "HrUnpainVolunteers": "270",
+          "IncomeDonationsBequests": "0.0000",
+          "IncomeGovernmentGrants": "0.0000",
+          "IncomeOther": "0.0000",
+          "IncomeOtherComprehinsive": "0.0000",
+          "IncomeOtherNeg": null,
+          "IncomeOtherReceipts": "0.0000",
+          "IncomeTotalComprehensive": "0.0000",
+          "IncomeTotalReceipts": "0.0000",
+          "IncorporationStatus": null,
+          "InterestExpense": "0.0000",
+          "IsIncorporatedAssociation": false,
+          "KeyManagementPersonnel": false,
+          "LegalName": "Ann Street Presbyterian Church",
+          "NetAssetsLiabilities": "0.0000",
+          "NetSurplusDeficit": "0.0000",
+          "NonCurrentLoansPayable": "0.0000",
+          "NumberOfKeyManagementPersonnel": "0",
+          "OperatingCountries": null,
+          "OperatingInACT": false,
+          "OperatingInNSW": false,
+          "OperatingInNT": false,
+          "OperatingInQLD": false,
+          "OperatingInSA": false,
+          "OperatingInTAS": false,
+          "OperatingInVIC": false,
+          "OperatingInWA": false,
+          "OperatingOverseas": false,
+          "OtherNames": [],
+          "OtherNonCurrentAssets": "0.0000",
+          "OtherNonCurrentLiabilities": "0.0000",
+          "OtherPurposeDescription": null,
+          "OtherPurposes": "False",
+          "Programs": [
+            {
+              "AisUuid": "cbdf4869-d175-f111-ab0e-7ced8da2764f",
+              "Name": "Advancing Religion",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Females",
+                "Males",
+                "General community in Australia"
+              ],
+              "ProgramClassification": "Religion and faith-based spirituality",
+              "ProgramClassificationID": "738",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Queensland, Australia",
+                  "FormattedAddress": "Queensland, Australia",
+                  "Marker": {
+                    "Latitude": -22.575197,
+                    "Longitude": 144.0847926
+                  },
+                  "Name": null,
+                  "uuid": "7473416f-d175-f111-ab0e-7ced8da2764f"
+                }
+              ],
+              "ProgramWeblink": null,
+              "uuid": "f8df4869-d175-f111-ab0e-7ced8da2764f"
+            }
+          ],
+          "RegulatedACT": false,
+          "RegulatedNSW": false,
+          "RegulatedNT": false,
+          "RegulatedQLD": false,
+          "RegulatedSA": false,
+          "RegulatedTAS": false,
+          "RegulatedVIC": false,
+          "RegulatedWA": false,
+          "Regulator": null,
+          "RegulatorAGMDateACT": null,
+          "RegulatorAGMDateNT": null,
+          "RegulatorAGMDateVIC": null,
+          "RegulatorAGMDateWA": null,
+          "RegulatorFundRaising": "No",
+          "RegulatorFundRaisingACT": false,
+          "RegulatorFundRaisingNSW": false,
+          "RegulatorFundRaisingNT": false,
+          "RegulatorFundRaisingOnline": false,
+          "RegulatorFundRaisingQLD": false,
+          "RegulatorFundRaisingSA": false,
+          "RegulatorFundRaisingTAS": false,
+          "RegulatorFundRaisingVIC": false,
+          "RegulatorFundRaisingWA": false,
+          "RegulatorIncorporatedAssociationACT": false,
+          "RegulatorIncorporatedAssociationNSW": false,
+          "RegulatorIncorporatedAssociationNT": false,
+          "RegulatorIncorporatedAssociationNumberACT": null,
+          "RegulatorIncorporatedAssociationNumberNSW": null,
+          "RegulatorIncorporatedAssociationNumberNT": null,
+          "RegulatorIncorporatedAssociationNumberQLD": null,
+          "RegulatorIncorporatedAssociationNumberSA": null,
+          "RegulatorIncorporatedAssociationNumberTAS": null,
+          "RegulatorIncorporatedAssociationNumberVIC": null,
+          "RegulatorIncorporatedAssociationNumberWA": null,
+          "RegulatorIncorporatedAssociationQLD": false,
+          "RegulatorIncorporatedAssociationSA": false,
+          "RegulatorIncorporatedAssociationTAS": false,
+          "RegulatorIncorporatedAssociationVIC": false,
+          "RegulatorIncorporatedAssociationWA": false,
+          "RegulatorMetRequirementACT": false,
+          "RegulatorMetRequirementWA": null,
+          "RegulatorOtherDetails": null,
+          "RegulatorPrograms": null,
+          "RegulatorStates": false,
+          "RelatedPartyDetails": null,
+          "RelatedPartyTransactions": [],
+          "ReliefOfPoverty": false,
+          "ReportingGroupFlag": false,
+          "ResponsiblePersonAccurate": null,
+          "RevenueGoodsServices": "0.0000",
+          "RevenueInvestments": "0.0000",
+          "RevenueTotal": "0.0000",
+          "StatementYear": "2025",
+          "SubTypesAccurate": null,
+          "TotalAssets": "0.0000",
+          "TotalCurrentAssets": "0.0000",
+          "TotalCurrentLiabilities": "0.0000",
+          "TotalLiabilities": "0.0000",
+          "TotalNonCurrentAssets": "0.0000",
+          "TotalNonCurrentLiabilities": "0.0000",
+          "TotalNonCurrentLoansReceivable": "0.0000",
+          "TotalPaidKMP": "$0.00",
+          "Website": "www.pcq.org.au",
+          "__normalized": true,
+          "entityTypeVersion": "",
+          "entityVersion": "1967031631",
+          "timeStamp": "2026-07-02T04:49:38.0000000Z",
+          "type": "annual_information_statement",
+          "uuid": "cbdf4869-d175-f111-ab0e-7ced8da2764f"
+        },
+        "type": "annual_information_statement",
+        "uuid": "cbdf4869-d175-f111-ab0e-7ced8da2764f"
+      },
+      "canonical_field_mappings": {
+        "data.Programs": "programs",
+        "data.TotalRevenue": "financial_records[].revenue",
+        "data.TotalExpenses": "financial_records[].total_expenses"
       },
       "evidence_ids": [
-        "ev:acnc:ais:39410139423:2025"
+        "ev:acnc:ais:39410139423:cbdf4869-d175-f111-ab0e-7ced8da2764f"
       ]
     }
   ],
@@ -799,9 +1085,12 @@
       },
       "assets": null,
       "liabilities": null,
+      "net_assets": null,
       "income_breakdown": [],
       "expense_breakdown": [],
-      "balance_sheet_breakdown": []
+      "balance_sheet_breakdown": [],
+      "source_ordered_line_items": [],
+      "statements": []
     }
   ],
   "financial_metrics": [
@@ -982,13 +1271,13 @@
       "content_hash": null
     },
     {
-      "evidence_id": "ev:acnc:ais:39410139423:2025",
+      "evidence_id": "ev:acnc:ais:39410139423:cbdf4869-d175-f111-ab0e-7ced8da2764f",
       "source_type": "regulatory",
-      "title": "Ann Street Presbyterian Church Annual Information Statement 2025",
+      "title": "ACNC Annual Information Statement 2025",
       "publisher": "Australian Charities and Not-for-profits Commission",
       "url": "https://www.acnc.gov.au/charity/charities/24ecc571-38af-e811-a963-000d3ad244fd/documents/cbdf4869-d175-f111-ab0e-7ced8da2764f",
       "observed_at": "2026-06-29",
-      "reporting_period": null,
+      "reporting_period": "2025",
       "page": null,
       "section": null,
       "content_hash": null
@@ -1000,81 +1289,25 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "0916195b72f574bcb8e6923e2056ba0c954004b7c398d5070c02977fb4dec1af",
-    "generated_at": "2026-08-13T05:51:03.017811Z",
+    "source_text_hash": "d567739ae922ea8d3dfdde4344838a417a4a404925ec5f99b09242f3f4068a78",
+    "generated_at": "2026-08-10T13:53:24.457430Z",
     "vector_ref": "embeddings.parquet#cb_9b0604e86cb24d31bbda5d23a6e22235"
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
+    "prompt_version": "phase2a-0.4",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "987a187d82d009bb7e6a280331adbbda595d6829f3c1ea2e2515b1abd6368128",
-    "generated_at": "2026-08-12T14:07:14.663617Z",
+    "evidence_input_hash": "7340639a0a8785e09a4b5b0e00c399f2a017944008bd8af7450f1a0039271de4",
+    "generated_at": "2026-08-10T12:57:12.004893Z",
     "editorial_policy_version": "0.1"
   },
-  "derivative_assessments": [
-    {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T14:07:14.663617Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-rc2-editorial-migration",
-      "input_hash": "987a187d82d009bb7e6a280331adbbda595d6829f3c1ea2e2515b1abd6368128",
-      "disposition": "refreshed",
-      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "taxonomy",
-      "generated_at": "2026-08-12T14:07:14.663617Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "987a187d82d009bb7e6a280331adbbda595d6829f3c1ea2e2515b1abd6368128",
-      "disposition": "reused",
-      "reason": "No new supported canonical classification facts.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "fundraising",
-      "generated_at": null,
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "987a187d82d009bb7e6a280331adbbda595d6829f3c1ea2e2515b1abd6368128",
-      "disposition": "reused",
-      "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "embedding",
-      "generated_at": "2026-08-10T13:53:24.457430Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "d567739ae922ea8d3dfdde4344838a417a4a404925ec5f99b09242f3f4068a78",
-      "disposition": "reused",
-      "reason": "Semantic source text unchanged.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "similarities",
-      "generated_at": "2026-08-10T13:53:24.457430Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "d567739ae922ea8d3dfdde4344838a417a4a404925ec5f99b09242f3f4068a78",
-      "disposition": "reused",
-      "reason": "Embedding reused; semantic neighbours retained.",
-      "affected_dimensions": []
-    }
-  ],
-  "dataset_version": "phase2b-2026-08-13-rc3",
+  "derivative_assessments": [],
+  "dataset_version": "phase2b-2026-08-14-rc4",
   "card_schema_version": "0.4",
-  "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T05:50:58.991012Z"
+  "editorial_policy_version": "0.4-rc4",
+  "generator_version": "0.5.0-rc4",
+  "built_at": "2026-08-13T10:52:47.483880Z"
 }

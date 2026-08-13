@@ -72,16 +72,6 @@
       "freshness_note": null
     },
     {
-      "capability": "website",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:web:60094500985:2026-08-10"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
       "capability": "fundraising_expenditure",
       "status": "not_available_from_source",
       "source_record_id": null,
@@ -102,12 +92,20 @@
     {
       "capability": "latest_acnc_ais",
       "status": "observed",
-      "source_record_id": null,
+      "source_record_id": "src:acnc-ais-detail:60094500985:0fb9a958-1f1c-f111-8341-7ced8d33fdea:cb_2bb1b827064a43ec9737b9d6f68297ef",
       "evidence_ids": [
-        "ev:acnc:ais:60094500985:2025"
+        "ev:acnc:ais:60094500985:0fb9a958-1f1c-f111-8341-7ced8d33fdea"
       ],
       "observed_at": "2026-03-10",
-      "freshness_note": "Latest submitted ACNC AIS in the 2026-08-13 public-profile acquisition: 2025."
+      "freshness_note": "Latest submitted AIS detail acquired from the public ACNC entity endpoint."
+    },
+    {
+      "capability": "website",
+      "status": "observed",
+      "source_record_id": null,
+      "evidence_ids": [],
+      "observed_at": "2026-08-13",
+      "freshness_note": "Public website locator acquired from the ACNC profile."
     }
   ],
   "enrichment_level": "enriched",
@@ -115,30 +113,17 @@
   "geography": [
     "Newmarket, Queensland (on the grounds of Newmarket State School; visits to nearby Banks Street Reserve)"
   ],
-  "navigation_geography": [
+  "geography_observations": [
     {
-      "level": "country",
-      "code": "AU",
-      "label": "Australia",
-      "evidence_ids": [
-        "ev:acnc:60094500985"
-      ]
-    },
-    {
-      "level": "state_territory",
-      "code": "AU-QLD",
-      "label": "Queensland",
-      "evidence_ids": [
-        "ev:acnc:60094500985"
-      ]
+      "value": "Newmarket, Queensland (on the grounds of Newmarket State School; visits to nearby Banks Street Reserve)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
     }
   ],
-  "causebase_summary": "Banks Street Newmarket Community Preschooling Centre Inc (Banks Street Kindy) is a not-for-profit community kindergarten operating on the grounds of Newmarket State School in Newmarket, Queensland. As of 2026 it runs community kindergarten sessions with daily outdoor play and nature-based programming, including regular Bush Kindy visits to nearby Banks Street Reserve. The kindergarten runs an arts program and an annual art show, maintains gardens and chickens, and organises family-facing events. A volunteer kindy management committee runs governance and fundraising activities. The centre maintains links with Newmarket State School for shared activities and transitions, and includes acknowledgements and learning about First Nations culture in its program.",
-  "summary_evidence_ids": [
-    "ev:web:60094500985:2026-08-10",
-    "ev:ais:60094500985:2023",
-    "ev:acnc:60094500985"
-  ],
+  "navigation_geography": [],
+  "causebase_summary": "According to the organisation's website and its ACNC reporting, Banks Street Newmarket Community Preschooling Centre Inc (Banks Street Kindy) is a small not‑for‑profit community kindergarten located on the grounds of Newmarket State School in Newmarket, Queensland. The website describes educator‑led early childhood learning with daily outdoor play across multiple outdoor areas (sandpit, mud kitchen, fairy garden), regular visits to the neighbouring Banks Street Reserve (described as a “Bush Kindy” day), and on‑site chickens named Rainbow and Lamington. The site names a Kindy Director, Sharon Kemp, and an art teacher, Kath, and says the kindergarten holds an annual art show for families. The website describes a volunteer kindy management committee, fundraising activity, and connections with Newmarket State School (library visits and participation in school events). The site also describes a daily acknowledgement of Country, a Welcome to Country song, and visits from Aunty Sharron and Uncle Bruce to teach about First Nations culture. The ACNC AIS 2023 extract in the supplied evidence lists revenue of AUD 437,441 and total expenses of AUD 385,269 for the 2023 year.",
+  "summary_evidence_ids": [],
   "organisation_self_description": null,
   "activities": [
     "Early childhood education and care (community kindergarten sessions)",
@@ -147,9 +132,55 @@
     "Volunteer-run kindy management committee and fundraising activities",
     "Joint activities and visits with Newmarket State School"
   ],
+  "activity_observations": [
+    {
+      "value": "Early childhood education and care (community kindergarten sessions)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Outdoor and nature-based activities including Bush Kindy visits to Banks Street Reserve",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Arts program and an annual art show",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Volunteer-run kindy management committee and fundraising activities",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Joint activities and visits with Newmarket State School",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    }
+  ],
   "beneficiaries": [
     "Preschool children attending the kindergarten",
     "Families and carers of enrolled children"
+  ],
+  "beneficiary_observations": [
+    {
+      "value": "Preschool children attending the kindergarten",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Families and carers of enrolled children",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    }
   ],
   "participation_modes": [
     "Volunteering (volunteer kindy management committee)",
@@ -174,82 +205,23 @@
       "reporting_period": "2025",
       "source_url": "www.banksstkindy.org",
       "evidence_ids": [
-        "ev:acnc:ais:60094500985:2025"
+        "ev:acnc:ais:60094500985:0fb9a958-1f1c-f111-8341-7ced8d33fdea"
       ]
     }
   ],
   "source_native_records": [
     {
-      "source_record_id": "src:acnc-register:e06f8aa2-9ad6-5a43-9e01-7345ffdc6809",
-      "source_family": "acnc-register",
-      "dataset_version": "2026-08-10",
-      "source_url": "https://www.acnc.gov.au/charity/charities?search=60094500985",
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "ABN": "60094500985",
-        "Legal Name": "Banks Street Newmarket Community Preschooling Centre Inc",
-        "Registration Status": "registered",
-        "ACNC classifications": "education; other beneficiary",
-        "Website": "www.banksstkindy.org",
-        "ACNC registration ID": null,
-        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "ABN": "external_identifiers",
-        "Legal Name": "legal_name",
-        "Registration Status": "registrations"
-      },
-      "evidence_ids": [
-        "ev:acnc:60094500985"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-ais:fr:ais:cb_2bb1b827064a43ec9737b9d6f68297ef:2023",
-      "source_family": "acnc-ais",
-      "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": "2023-01-01",
-      "effective_to": "2023-12-31",
-      "source_fields": {
-        "Reporting period": "01/01/2023 to 31/12/2023",
-        "Reporting scope": "subject",
-        "Consolidated": "unknown",
-        "Revenue": "437441",
-        "Donations and bequests": null,
-        "Government grants": null,
-        "Total expenses": "385269",
-        "Assets": null,
-        "Liabilities": null
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "Revenue": "financial_records[].revenue",
-        "Total expenses": "financial_records[].total_expenses"
-      },
-      "evidence_ids": [
-        "ev:ais:60094500985:2023"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-public-profile:60094500985:cb_2bb1b827064a43ec9737b9d6f68297ef:2026-08-13",
+      "source_record_id": "src:acnc-public-profile:60094500985:413ef050-38af-e811-a95e-000d3ad24c60:cb_2bb1b827064a43ec9737b9d6f68297ef",
       "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-13-public-api",
+      "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/413ef050-38af-e811-a95e-000d3ad24c60/profile",
-      "retrieved_at": "2026-08-13T05:50:58.991012Z",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
       "observed_at": "2026-03-10",
       "effective_from": null,
       "effective_to": null,
       "source_fields": {
         "uuid": "413ef050-38af-e811-a95e-000d3ad24c60",
-        "abn": "60094500985",
-        "latest_ais_year": "2025",
-        "latest_ais_uuid": "0fb9a958-1f1c-f111-8341-7ced8d33fdea"
+        "abn": "60094500985"
       },
       "source_payload": {
         "data": {
@@ -886,13 +858,296 @@
         "uuid": "413ef050-38af-e811-a95e-000d3ad24c60"
       },
       "canonical_field_mappings": {
-        "data.Name": "display_name",
         "data.OtherNames": "operating_names",
-        "data.AnnualReports": "acnc_ais_url",
-        "data.Programs": "programs"
+        "data.AddressStateOrProvince": "principal_location"
+      },
+      "evidence_ids": []
+    },
+    {
+      "source_record_id": "src:acnc-ais-detail:60094500985:0fb9a958-1f1c-f111-8341-7ced8d33fdea:cb_2bb1b827064a43ec9737b9d6f68297ef",
+      "source_family": "acnc-ais-detail",
+      "dataset_version": "2026-08-14-public-api",
+      "source_url": "https://www.acnc.gov.au/charity/charities/413ef050-38af-e811-a95e-000d3ad24c60/documents/0fb9a958-1f1c-f111-8341-7ced8d33fdea",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
+      "observed_at": "2026-03-10",
+      "effective_from": null,
+      "effective_to": null,
+      "source_fields": {
+        "abn": "60094500985",
+        "ais_uuid": "0fb9a958-1f1c-f111-8341-7ced8d33fdea",
+        "year": "2025",
+        "date_received": "2026-03-10T01:21:29.0000000Z"
+      },
+      "source_payload": {
+        "data": {
+          "Abn": "60094500985",
+          "ActivityAdvocacyNCivic": false,
+          "ActivityAgedCare": false,
+          "ActivityAnimalProtection": false,
+          "ActivityCultureAndArt": false,
+          "ActivityEconomicSocialCommunity": false,
+          "ActivityEmergencyNRelief": false,
+          "ActivityEmploymentNTraining": false,
+          "ActivityEnvironmental": false,
+          "ActivityGrantMaking": false,
+          "ActivityHealthRehabilitation": false,
+          "ActivityHigherEducation": false,
+          "ActivityHousing": false,
+          "ActivityIncomeSupportNMaintenance": false,
+          "ActivityInternational": false,
+          "ActivityInternationalDescription": null,
+          "ActivityInternationalOther": false,
+          "ActivityInternationalOtherDescription": null,
+          "ActivityLawNLegalServices": false,
+          "ActivityMain": null,
+          "ActivityMentalHealthCrisisIntervention": false,
+          "ActivityNdisSupported": null,
+          "ActivityNdisSupportedNext": null,
+          "ActivityOperating": true,
+          "ActivityOperatingOverseas": false,
+          "ActivityOther": false,
+          "ActivityOtherDescription": null,
+          "ActivityOtherEducation": false,
+          "ActivityOtherHealthServices": false,
+          "ActivityPersuitPurposesDescription": "To provide all children a well grounded kindergarten education to ensure that when they move onto Prep/school they are as ready as they can be.",
+          "ActivityPhilanthropicPromotion": false,
+          "ActivityPolitical": false,
+          "ActivityPrimarySecondaryEducation": false,
+          "ActivityPurposeChange": null,
+          "ActivityPurposeChangeDescription": null,
+          "ActivityRecreationSocialClub": false,
+          "ActivityReligious": false,
+          "ActivityResearch": false,
+          "ActivitySocialServices": false,
+          "ActivitySports": false,
+          "ActivityTransferringFundsGoods": false,
+          "AdvancementOfEducation": false,
+          "AdvancementOfReligion": false,
+          "AssetsandLiabilitiesDescription": "After years of saving we were able to spend money on an outside garden/play area, paint the inside of the kindy, purchase new furniture and celebrate 30ys of operating.",
+          "BasicReligiousCharity": false,
+          "BeneficiaryAboriginalTorres": false,
+          "BeneficiaryAdults": false,
+          "BeneficiaryAllAges": false,
+          "BeneficiaryChildren": false,
+          "BeneficiaryChronicIllness": false,
+          "BeneficiaryCrimeVictims": false,
+          "BeneficiaryDisasterVictims": false,
+          "BeneficiaryEarlyChildhood": false,
+          "BeneficiaryEthnic": false,
+          "BeneficiaryFamilies": false,
+          "BeneficiaryFinanciallyDisadvantaged": false,
+          "BeneficiaryGeneral": false,
+          "BeneficiaryHomelessnessRisk": false,
+          "BeneficiaryLGBT": false,
+          "BeneficiaryMain": null,
+          "BeneficiaryMen": false,
+          "BeneficiaryMigrantsRefugees": false,
+          "BeneficiaryOffenderFamilies": false,
+          "BeneficiaryOther": false,
+          "BeneficiaryOtherCharities": false,
+          "BeneficiaryOtherDescription": null,
+          "BeneficiaryOverseas": false,
+          "BeneficiaryPeopleWithDisability": false,
+          "BeneficiaryRuralRegionalRemote": false,
+          "BeneficiarySeniors": false,
+          "BeneficiaryUnemployed": false,
+          "BeneficiaryVeteranFamilies": false,
+          "BeneficiaryWomen": false,
+          "BeneficiaryYouth": false,
+          "CharityAddressCountry": "Australia",
+          "CharityAddressLine1": "15 Banks St",
+          "CharityAddressLine2": null,
+          "CharityAddressPostalCode": "4051",
+          "CharityAddressStateOrProvince": "QLD",
+          "CharityAddressSuburb": "Newmarket",
+          "CharityEmail": "admin@banksstkindy.org",
+          "CharitySize": "Small",
+          "CharityUuid": "413ef050-38af-e811-a95e-000d3ad24c60",
+          "ChildCareServices": false,
+          "ExpenseEmployees": "379848.0000",
+          "ExpenseGrantDonationsInAustralia": "0.0000",
+          "ExpenseGrantDonationsOutsideAustralia": "0.0000",
+          "ExpenseTotal": "531524.0000",
+          "ExpensesOther": "151676.0000",
+          "FinAccrualAccounting": "Cash",
+          "FinConsolidatedReportFromMiltiple": null,
+          "FinDocumentedPoliciesRelatedPartyTransactions": null,
+          "FinFyeJune": false,
+          "FinProvideVoluntarily": null,
+          "FinRelatedPartyTransactions": "No",
+          "FinReportACT": false,
+          "FinReportFrom": "2024-12-31T13:00:00.0000000Z",
+          "FinReportNSW": false,
+          "FinReportNT": false,
+          "FinReportQLD": false,
+          "FinReportSA": false,
+          "FinReportTAS": false,
+          "FinReportTo": "2025-12-30T13:00:00.0000000Z",
+          "FinReportVIC": false,
+          "FinReportWA": false,
+          "FinReportingType": null,
+          "FinSapDate": null,
+          "FundRaisingNumberACT": null,
+          "FundRaisingNumberNSW": null,
+          "FundRaisingNumberQLD": "CP4310",
+          "FundRaisingNumberSA": null,
+          "FundRaisingNumberTAS": null,
+          "FundRaisingNumberVIC": null,
+          "FundRaisingNumberWA": null,
+          "GovDocAccurate": null,
+          "GrantCapacityBuildingPct": null,
+          "GrantMultiYearPct": null,
+          "GrantPublicOpenApplicationPct": null,
+          "GrantRuralRegionPct": null,
+          "HasSubmittedToRegulator": false,
+          "HoursPaid": null,
+          "HoursTotal": null,
+          "HoursVolunteer": null,
+          "HrCasualEmployees": "2",
+          "HrFteStaff": "4.3500000000",
+          "HrFullTimeEmployees": "1",
+          "HrPartTimeEmployees": "4",
+          "HrUnpainVolunteers": "25",
+          "IncomeDonationsBequests": "17185.0000",
+          "IncomeGovernmentGrants": "392212.0000",
+          "IncomeOther": "0.0000",
+          "IncomeOtherComprehinsive": "0.0000",
+          "IncomeOtherNeg": null,
+          "IncomeOtherReceipts": "296.0000",
+          "IncomeTotalComprehensive": "0.0000",
+          "IncomeTotalReceipts": "475808.0000",
+          "IncorporationStatus": null,
+          "InterestExpense": "0.0000",
+          "IsIncorporatedAssociation": true,
+          "KeyManagementPersonnel": false,
+          "LegalName": "Banks Street Newmarket Community Preschooling Centre Inc",
+          "NetAssetsLiabilities": "303938.0000",
+          "NetSurplusDeficit": "-55716.0000",
+          "NonCurrentLoansPayable": "0.0000",
+          "NumberOfKeyManagementPersonnel": "0",
+          "OperatingCountries": null,
+          "OperatingInACT": false,
+          "OperatingInNSW": false,
+          "OperatingInNT": false,
+          "OperatingInQLD": false,
+          "OperatingInSA": false,
+          "OperatingInTAS": false,
+          "OperatingInVIC": false,
+          "OperatingInWA": false,
+          "OperatingOverseas": false,
+          "OtherNames": [],
+          "OtherNonCurrentAssets": "0.0000",
+          "OtherNonCurrentLiabilities": "0.0000",
+          "OtherPurposeDescription": null,
+          "OtherPurposes": "False",
+          "Programs": [
+            {
+              "AisUuid": "0fb9a958-1f1c-f111-8341-7ced8d33fdea",
+              "Name": "Banks St Kindy",
+              "OperatesOnline": true,
+              "ProgramBeneficiaries": [
+                "Early childhood - aged under 6",
+                "Families"
+              ],
+              "ProgramClassification": "Education",
+              "ProgramClassificationID": "170",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Newmarket QLD, Australia",
+                  "FormattedAddress": "Newmarket QLD 4051, Australia",
+                  "Marker": {
+                    "Latitude": -27.435,
+                    "Longitude": 153.009
+                  },
+                  "Name": "Newmarket",
+                  "uuid": "5eb9a958-1f1c-f111-8341-7ced8d33fdea"
+                }
+              ],
+              "ProgramWeblink": "www.banksstkindy.org",
+              "uuid": "56b9a958-1f1c-f111-8341-7ced8d33fdea"
+            }
+          ],
+          "RegulatedACT": false,
+          "RegulatedNSW": false,
+          "RegulatedNT": false,
+          "RegulatedQLD": false,
+          "RegulatedSA": false,
+          "RegulatedTAS": false,
+          "RegulatedVIC": false,
+          "RegulatedWA": false,
+          "Regulator": null,
+          "RegulatorAGMDateACT": null,
+          "RegulatorAGMDateNT": null,
+          "RegulatorAGMDateVIC": null,
+          "RegulatorAGMDateWA": null,
+          "RegulatorFundRaising": "Yes",
+          "RegulatorFundRaisingACT": false,
+          "RegulatorFundRaisingNSW": false,
+          "RegulatorFundRaisingNT": false,
+          "RegulatorFundRaisingOnline": false,
+          "RegulatorFundRaisingQLD": true,
+          "RegulatorFundRaisingSA": false,
+          "RegulatorFundRaisingTAS": false,
+          "RegulatorFundRaisingVIC": false,
+          "RegulatorFundRaisingWA": false,
+          "RegulatorIncorporatedAssociationACT": false,
+          "RegulatorIncorporatedAssociationNSW": false,
+          "RegulatorIncorporatedAssociationNT": false,
+          "RegulatorIncorporatedAssociationNumberACT": null,
+          "RegulatorIncorporatedAssociationNumberNSW": null,
+          "RegulatorIncorporatedAssociationNumberNT": null,
+          "RegulatorIncorporatedAssociationNumberQLD": "IA13735",
+          "RegulatorIncorporatedAssociationNumberSA": null,
+          "RegulatorIncorporatedAssociationNumberTAS": null,
+          "RegulatorIncorporatedAssociationNumberVIC": null,
+          "RegulatorIncorporatedAssociationNumberWA": null,
+          "RegulatorIncorporatedAssociationQLD": true,
+          "RegulatorIncorporatedAssociationSA": false,
+          "RegulatorIncorporatedAssociationTAS": false,
+          "RegulatorIncorporatedAssociationVIC": false,
+          "RegulatorIncorporatedAssociationWA": false,
+          "RegulatorMetRequirementACT": false,
+          "RegulatorMetRequirementWA": null,
+          "RegulatorOtherDetails": null,
+          "RegulatorPrograms": null,
+          "RegulatorStates": false,
+          "RelatedPartyDetails": null,
+          "RelatedPartyTransactions": [],
+          "ReliefOfPoverty": false,
+          "ReportingGroupFlag": false,
+          "ResponsiblePersonAccurate": null,
+          "RevenueGoodsServices": "63667.0000",
+          "RevenueInvestments": "2448.0000",
+          "RevenueTotal": "475808.0000",
+          "StatementYear": "2025",
+          "SubTypesAccurate": null,
+          "TotalAssets": "333536.0000",
+          "TotalCurrentAssets": "0.0000",
+          "TotalCurrentLiabilities": "0.0000",
+          "TotalLiabilities": "29598.0000",
+          "TotalNonCurrentAssets": null,
+          "TotalNonCurrentLiabilities": "0.0000",
+          "TotalNonCurrentLoansReceivable": "0.0000",
+          "TotalPaidKMP": "$0.00",
+          "Website": "www.banksstkindy.org",
+          "__normalized": true,
+          "entityTypeVersion": "",
+          "entityVersion": "1924917866",
+          "timeStamp": "2026-05-07T06:34:51.0000000Z",
+          "type": "annual_information_statement",
+          "uuid": "0fb9a958-1f1c-f111-8341-7ced8d33fdea"
+        },
+        "type": "annual_information_statement",
+        "uuid": "0fb9a958-1f1c-f111-8341-7ced8d33fdea"
+      },
+      "canonical_field_mappings": {
+        "data.Programs": "programs",
+        "data.TotalRevenue": "financial_records[].revenue",
+        "data.TotalExpenses": "financial_records[].total_expenses"
       },
       "evidence_ids": [
-        "ev:acnc:ais:60094500985:2025"
+        "ev:acnc:ais:60094500985:0fb9a958-1f1c-f111-8341-7ced8d33fdea"
       ]
     }
   ],
@@ -941,9 +1196,12 @@
       },
       "assets": null,
       "liabilities": null,
+      "net_assets": null,
       "income_breakdown": [],
       "expense_breakdown": [],
-      "balance_sheet_breakdown": []
+      "balance_sheet_breakdown": [],
+      "source_ordered_line_items": [],
+      "statements": []
     }
   ],
   "financial_metrics": [
@@ -1133,24 +1391,24 @@
       "content_hash": null
     },
     {
+      "evidence_id": "ev:acnc:ais:60094500985:0fb9a958-1f1c-f111-8341-7ced8d33fdea",
+      "source_type": "regulatory",
+      "title": "ACNC Annual Information Statement 2025",
+      "publisher": "Australian Charities and Not-for-profits Commission",
+      "url": "https://www.acnc.gov.au/charity/charities/413ef050-38af-e811-a95e-000d3ad24c60/documents/0fb9a958-1f1c-f111-8341-7ced8d33fdea",
+      "observed_at": "2026-03-10",
+      "reporting_period": "2025",
+      "page": null,
+      "section": null,
+      "content_hash": null
+    },
+    {
       "evidence_id": "ev:abr-dgr:60094500985:20260805",
       "source_type": "regulatory",
       "title": "ABR DGR bulk observation",
       "publisher": "Australian Business Register / Australian Taxation Office",
       "url": "https://abr.business.gov.au/Tools/BulkExtract",
       "observed_at": "2026-08-05",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
-    },
-    {
-      "evidence_id": "ev:acnc:ais:60094500985:2025",
-      "source_type": "regulatory",
-      "title": "Banks Street Newmarket Community Preschooling Centre Inc Annual Information Statement 2025",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": "https://www.acnc.gov.au/charity/charities/413ef050-38af-e811-a95e-000d3ad24c60/documents/0fb9a958-1f1c-f111-8341-7ced8d33fdea",
-      "observed_at": "2026-03-10",
       "reporting_period": null,
       "page": null,
       "section": null,
@@ -1163,81 +1421,25 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "45b53818a658ebe541a89a8f915921347c622765f05a04b9fb5e0b8257174bea",
-    "generated_at": "2026-08-13T05:51:03.014157Z",
+    "source_text_hash": "dfc5c384a13e21bdc394d20f5a8d0dd1b265d625ac37b9110a432c53cac7c507",
+    "generated_at": "2026-08-10T13:53:24.455569Z",
     "vector_ref": "embeddings.parquet#cb_2bb1b827064a43ec9737b9d6f68297ef"
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
+    "prompt_version": "phase2a-0.4",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "b760b74226203b30013cdab669c5954b5feb47471499c92de00976fd20ca54c1",
-    "generated_at": "2026-08-12T13:38:51.990603Z",
+    "evidence_input_hash": "e84aa965ec815fb695606bda50b86f5468ba0e7f2e5edebfb8ff4414d2d233c1",
+    "generated_at": "2026-08-10T12:46:40.095926Z",
     "editorial_policy_version": "0.1"
   },
-  "derivative_assessments": [
-    {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T13:38:51.990603Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-rc2-editorial-migration",
-      "input_hash": "b760b74226203b30013cdab669c5954b5feb47471499c92de00976fd20ca54c1",
-      "disposition": "refreshed",
-      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "taxonomy",
-      "generated_at": "2026-08-12T13:38:51.990603Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "b760b74226203b30013cdab669c5954b5feb47471499c92de00976fd20ca54c1",
-      "disposition": "reused",
-      "reason": "No new supported canonical classification facts.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "fundraising",
-      "generated_at": null,
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "b760b74226203b30013cdab669c5954b5feb47471499c92de00976fd20ca54c1",
-      "disposition": "reused",
-      "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "embedding",
-      "generated_at": "2026-08-10T13:53:24.455569Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "dfc5c384a13e21bdc394d20f5a8d0dd1b265d625ac37b9110a432c53cac7c507",
-      "disposition": "reused",
-      "reason": "Semantic source text unchanged.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "similarities",
-      "generated_at": "2026-08-10T13:53:24.455569Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "dfc5c384a13e21bdc394d20f5a8d0dd1b265d625ac37b9110a432c53cac7c507",
-      "disposition": "reused",
-      "reason": "Embedding reused; semantic neighbours retained.",
-      "affected_dimensions": []
-    }
-  ],
-  "dataset_version": "phase2b-2026-08-13-rc3",
+  "derivative_assessments": [],
+  "dataset_version": "phase2b-2026-08-14-rc4",
   "card_schema_version": "0.4",
-  "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T05:50:58.991012Z"
+  "editorial_policy_version": "0.4-rc4",
+  "generator_version": "0.5.0-rc4",
+  "built_at": "2026-08-13T10:52:47.483880Z"
 }

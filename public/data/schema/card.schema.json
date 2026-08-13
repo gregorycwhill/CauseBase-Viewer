@@ -64,6 +64,35 @@
       "title": "Classification",
       "type": "object"
     },
+    "ComparativePeriodAmount": {
+      "properties": {
+        "label": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Label"
+        },
+        "amount": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/MoneyObservation"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        }
+      },
+      "title": "ComparativePeriodAmount",
+      "type": "object"
+    },
     "CoverageObservation": {
       "description": "Machine-readable source/capability status; absence never becomes a negative claim.",
       "properties": {
@@ -450,6 +479,57 @@
           ],
           "default": null,
           "title": "Note"
+        },
+        "comparative_amount": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/MoneyObservation"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "source_statement": {
+          "default": "other",
+          "enum": [
+            "income_statement",
+            "financial_position",
+            "other"
+          ],
+          "title": "Source Statement",
+          "type": "string"
+        },
+        "source_order": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Source Order"
+        },
+        "canonical_metrics": {
+          "items": {
+            "enum": [
+              "revenue",
+              "donations",
+              "government_grants",
+              "employee_costs",
+              "total_expenses",
+              "assets",
+              "liabilities",
+              "net_assets"
+            ],
+            "type": "string"
+          },
+          "title": "Canonical Metrics",
+          "type": "array"
         }
       },
       "required": [
@@ -506,7 +586,8 @@
             "employee_costs",
             "total_expenses",
             "assets",
-            "liabilities"
+            "liabilities",
+            "net_assets"
           ],
           "title": "Metric",
           "type": "string"
@@ -612,6 +693,232 @@
         }
       },
       "title": "FinancialPeriod",
+      "type": "object"
+    },
+    "FinancialStatementObservation": {
+      "description": "A source-faithful financial statement, separate from headline metrics.",
+      "properties": {
+        "statement_type": {
+          "enum": [
+            "profit_and_loss",
+            "financial_position",
+            "cash_flow",
+            "changes_in_equity"
+          ],
+          "title": "Statement Type",
+          "type": "string"
+        },
+        "statement_title": {
+          "title": "Statement Title",
+          "type": "string"
+        },
+        "source_document_evidence_id": {
+          "title": "Source Document Evidence Id",
+          "type": "string"
+        },
+        "reporting_scope": {
+          "default": "unknown",
+          "enum": [
+            "subject",
+            "organisation_group",
+            "consolidated_group",
+            "unknown"
+          ],
+          "title": "Reporting Scope",
+          "type": "string"
+        },
+        "period": {
+          "$ref": "#/$defs/FinancialPeriod"
+        },
+        "currency": {
+          "default": "AUD",
+          "title": "Currency",
+          "type": "string"
+        },
+        "source_unit_scale": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+              "type": "string"
+            }
+          ],
+          "default": "1",
+          "title": "Source Unit Scale"
+        },
+        "source_unit_label": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Source Unit Label"
+        },
+        "rows": {
+          "items": {
+            "$ref": "#/$defs/FinancialStatementRow"
+          },
+          "title": "Rows",
+          "type": "array"
+        }
+      },
+      "required": [
+        "statement_type",
+        "statement_title",
+        "source_document_evidence_id",
+        "period"
+      ],
+      "title": "FinancialStatementObservation",
+      "type": "object"
+    },
+    "FinancialStatementRow": {
+      "description": "A printed statement row retained before optional canonical projection.",
+      "properties": {
+        "source_label": {
+          "title": "Source Label",
+          "type": "string"
+        },
+        "source_order": {
+          "minimum": 0,
+          "title": "Source Order",
+          "type": "integer"
+        },
+        "row_type": {
+          "enum": [
+            "heading",
+            "line_item",
+            "subtotal",
+            "total"
+          ],
+          "title": "Row Type",
+          "type": "string"
+        },
+        "hierarchy_indent": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Hierarchy Indent"
+        },
+        "current_period_label": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Current Period Label"
+        },
+        "current_amount": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/MoneyObservation"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "comparative_periods": {
+          "items": {
+            "$ref": "#/$defs/ComparativePeriodAmount"
+          },
+          "title": "Comparative Periods",
+          "type": "array"
+        },
+        "page": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Page"
+        },
+        "source_location": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Source Location"
+        },
+        "extraction_method": {
+          "title": "Extraction Method",
+          "type": "string"
+        },
+        "extraction_confidence": {
+          "default": "medium",
+          "enum": [
+            "high",
+            "medium",
+            "low"
+          ],
+          "title": "Extraction Confidence",
+          "type": "string"
+        },
+        "extraction_warnings": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Extraction Warnings",
+          "type": "array"
+        },
+        "evidence_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Evidence Ids",
+          "type": "array"
+        },
+        "canonical_metrics": {
+          "items": {
+            "enum": [
+              "revenue",
+              "donations",
+              "government_grants",
+              "employee_costs",
+              "total_expenses",
+              "assets",
+              "liabilities",
+              "net_assets"
+            ],
+            "type": "string"
+          },
+          "title": "Canonical Metrics",
+          "type": "array"
+        }
+      },
+      "required": [
+        "source_label",
+        "source_order",
+        "row_type",
+        "extraction_method"
+      ],
+      "title": "FinancialStatementRow",
       "type": "object"
     },
     "Financials": {
@@ -757,6 +1064,17 @@
           ],
           "default": null
         },
+        "net_assets": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/MoneyObservation"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
         "income_breakdown": {
           "items": {
             "$ref": "#/$defs/FinancialLineItem"
@@ -776,6 +1094,20 @@
             "$ref": "#/$defs/FinancialLineItem"
           },
           "title": "Balance Sheet Breakdown",
+          "type": "array"
+        },
+        "source_ordered_line_items": {
+          "items": {
+            "$ref": "#/$defs/FinancialLineItem"
+          },
+          "title": "Source Ordered Line Items",
+          "type": "array"
+        },
+        "statements": {
+          "items": {
+            "$ref": "#/$defs/FinancialStatementObservation"
+          },
+          "title": "Statements",
           "type": "array"
         }
       },
@@ -1788,6 +2120,50 @@
       "title": "SourceResolution",
       "type": "object"
     },
+    "StructuredValueObservation": {
+      "description": "A display/navigation value with provenance separate from its wording.",
+      "properties": {
+        "value": {
+          "title": "Value",
+          "type": "string"
+        },
+        "source_role": {
+          "default": "unknown",
+          "enum": [
+            "source_native",
+            "organisation_self_description",
+            "legacy_source_qualifier",
+            "unknown"
+          ],
+          "title": "Source Role",
+          "type": "string"
+        },
+        "provenance_note": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Provenance Note"
+        },
+        "evidence_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Evidence Ids",
+          "type": "array"
+        }
+      },
+      "required": [
+        "value"
+      ],
+      "title": "StructuredValueObservation",
+      "type": "object"
+    },
     "SubjectRelationship": {
       "properties": {
         "relationship_type": {
@@ -2253,6 +2629,13 @@
       "title": "Geography",
       "type": "array"
     },
+    "geography_observations": {
+      "items": {
+        "$ref": "#/$defs/StructuredValueObservation"
+      },
+      "title": "Geography Observations",
+      "type": "array"
+    },
     "navigation_geography": {
       "items": {
         "$ref": "#/$defs/NavigationGeography"
@@ -2290,11 +2673,25 @@
       "title": "Activities",
       "type": "array"
     },
+    "activity_observations": {
+      "items": {
+        "$ref": "#/$defs/StructuredValueObservation"
+      },
+      "title": "Activity Observations",
+      "type": "array"
+    },
     "beneficiaries": {
       "items": {
         "type": "string"
       },
       "title": "Beneficiaries",
+      "type": "array"
+    },
+    "beneficiary_observations": {
+      "items": {
+        "$ref": "#/$defs/StructuredValueObservation"
+      },
+      "title": "Beneficiary Observations",
       "type": "array"
     },
     "participation_modes": {

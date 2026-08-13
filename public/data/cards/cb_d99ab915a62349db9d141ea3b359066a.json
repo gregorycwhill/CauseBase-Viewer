@@ -74,16 +74,6 @@
       "freshness_note": null
     },
     {
-      "capability": "website",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:web:87684571829:2026-08-10"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
       "capability": "fundraising_expenditure",
       "status": "not_yet_processed",
       "source_record_id": null,
@@ -102,54 +92,102 @@
     {
       "capability": "latest_acnc_ais",
       "status": "observed",
-      "source_record_id": null,
+      "source_record_id": "src:acnc-ais-detail:87684571829:48fa88dd-6d00-f111-8406-7ced8d33fdea:cb_d99ab915a62349db9d141ea3b359066a",
       "evidence_ids": [
-        "ev:acnc:ais:87684571829:2025"
+        "ev:acnc:ais:87684571829:48fa88dd-6d00-f111-8406-7ced8d33fdea"
       ],
       "observed_at": "2026-01-30",
-      "freshness_note": "Latest submitted ACNC AIS in the 2026-08-13 public-profile acquisition: 2025."
+      "freshness_note": "Latest submitted AIS detail acquired from the public ACNC entity endpoint."
+    },
+    {
+      "capability": "website",
+      "status": "observed",
+      "source_record_id": null,
+      "evidence_ids": [],
+      "observed_at": "2026-08-13",
+      "freshness_note": "Public website locator acquired from the ACNC profile."
     }
   ],
   "enrichment_level": "enriched",
   "website": "www.thebreak.org.au",
   "geography": [
     "Caulfield, Melbourne; Victoria (head office listed)",
-    "Origin in St Kilda East, Victoria (organisation-stated)"
+    "Origin in St Kilda East, Victoria"
   ],
-  "navigation_geography": [
+  "geography_observations": [
     {
-      "level": "country",
-      "code": "AU",
-      "label": "Australia",
-      "evidence_ids": [
-        "ev:acnc:87684571829"
-      ]
+      "value": "Caulfield, Melbourne; Victoria (head office listed)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
     },
     {
-      "level": "state_territory",
-      "code": "AU-VIC",
-      "label": "Victoria",
-      "evidence_ids": [
-        "ev:acnc:87684571829"
-      ]
+      "value": "Origin in St Kilda East, Victoria",
+      "source_role": "legacy_source_qualifier",
+      "provenance_note": "organisation-stated",
+      "evidence_ids": []
     }
   ],
-  "causebase_summary": "Accelerated Evolution - The Break Inc. is a volunteer-run not-for-profit based in Caulfield, Melbourne, Victoria, that provides mental health and wellbeing recovery programs. It runs small-group programs such as mindfulness, anger management and relapse prevention, with groups limited to 16 participants and an intended staffing ratio of about one staff member per four participants as funding allows. The Break delivers an accredited Work & Development Permit program and facilitates Work for the Dole arrangements for people over 55. It accepts course placements and offers program participation for people experiencing homelessness, unemployment, substance recovery, trauma, psychosomatic or psychological disorders, disability, isolation and loneliness. The organisation evolved from a clinic established in St Kilda East and lists a Caulfield head office.",
-  "summary_evidence_ids": [
-    "ev:web:87684571829:2026-08-10",
-    "ev:acnc:87684571829"
-  ],
+  "navigation_geography": [],
+  "causebase_summary": "The organisation’s website describes Accelerated Evolution - The Break Inc. as a volunteer-run, not-for-profit mental health and wellbeing recovery provider based in Victoria. The site states it runs small-group programs (limited to 16 participants) such as Mindfulness, Anger Management and Men’s and Women’s Relapse Prevention, and that it aims for a staff-to-participant ratio of about 1:4 “as funding allows.” The Break says its programs target recovery, reintegration and “full participation in society” for people of all backgrounds and lists specific issues it supports, including homelessness, unemployment, substance recovery, trauma, psychosomatic and psychological disorders, disability, physical ailments, isolation and loneliness. The website also describes delivery of an accredited government work-credit pathway: the Work & Development Permit scheme and arrangements to complete Work for the Dole for people over 55. The site includes participant testimonials, an invitation to apply for course placements, a Caulfield head office address (312–314 Hawthorn Road) and a contact number, and an acknowledgement of Traditional Custodians. The organisation states it evolved from a 2002 clinic in St Kilda East and gained charity status and accreditation in 2018.",
+  "summary_evidence_ids": [],
   "organisation_self_description": null,
   "activities": [
     "Runs small-group mental health and wellbeing recovery programs (Mindfulness; Anger Management; Relapse Prevention)",
     "Delivers an accredited government work-credit program (Work & Development Permit) and facilitates Work for the Dole arrangements for people over 55",
     "Offers course placements and accepts program participants"
   ],
+  "activity_observations": [
+    {
+      "value": "Runs small-group mental health and wellbeing recovery programs (Mindfulness; Anger Management; Relapse Prevention)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Delivers an accredited government work-credit program (Work & Development Permit) and facilitates Work for the Dole arrangements for people over 55",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Offers course placements and accepts program participants",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    }
+  ],
   "beneficiaries": [
     "People experiencing homelessness, unemployment and substance recovery",
     "People experiencing trauma, psychosomatic or psychological disorders, disability or physical ailments",
     "People experiencing isolation and loneliness",
-    "People of all backgrounds regardless of circumstance (organisation-stated)"
+    "People of all backgrounds regardless of circumstance"
+  ],
+  "beneficiary_observations": [
+    {
+      "value": "People experiencing homelessness, unemployment and substance recovery",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "People experiencing trauma, psychosomatic or psychological disorders, disability or physical ailments",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "People experiencing isolation and loneliness",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "People of all backgrounds regardless of circumstance",
+      "source_role": "legacy_source_qualifier",
+      "provenance_note": "organisation-stated",
+      "evidence_ids": []
+    }
   ],
   "participation_modes": [
     "Volunteering (organisation-stated: run by volunteers)",
@@ -196,7 +234,7 @@
       "reporting_period": "2025",
       "source_url": "https://thebreak.org.au/our-programs/kayaking/",
       "evidence_ids": [
-        "ev:acnc:ais:87684571829:2025"
+        "ev:acnc:ais:87684571829:48fa88dd-6d00-f111-8406-7ced8d33fdea"
       ]
     },
     {
@@ -229,7 +267,7 @@
       "reporting_period": "2025",
       "source_url": "https://thebreak.org.au/our-programs/courses-and-topics-groups/",
       "evidence_ids": [
-        "ev:acnc:ais:87684571829:2025"
+        "ev:acnc:ais:87684571829:48fa88dd-6d00-f111-8406-7ced8d33fdea"
       ]
     },
     {
@@ -260,7 +298,7 @@
       "reporting_period": "2025",
       "source_url": "https://thebreak.org.au/our-programs/memoir-project/",
       "evidence_ids": [
-        "ev:acnc:ais:87684571829:2025"
+        "ev:acnc:ais:87684571829:48fa88dd-6d00-f111-8406-7ced8d33fdea"
       ]
     },
     {
@@ -291,7 +329,7 @@
       "reporting_period": "2025",
       "source_url": "https://thebreak.org.au/our-programs/role-playing-games/",
       "evidence_ids": [
-        "ev:acnc:ais:87684571829:2025"
+        "ev:acnc:ais:87684571829:48fa88dd-6d00-f111-8406-7ced8d33fdea"
       ]
     },
     {
@@ -328,7 +366,7 @@
       "reporting_period": "2025",
       "source_url": "https://thebreak.org.au/our-programs/mhrp-and-win/",
       "evidence_ids": [
-        "ev:acnc:ais:87684571829:2025"
+        "ev:acnc:ais:87684571829:48fa88dd-6d00-f111-8406-7ced8d33fdea"
       ]
     },
     {
@@ -363,7 +401,7 @@
       "reporting_period": "2025",
       "source_url": "https://thebreak.org.au/our-programs/therapeutic-arts/",
       "evidence_ids": [
-        "ev:acnc:ais:87684571829:2025"
+        "ev:acnc:ais:87684571829:48fa88dd-6d00-f111-8406-7ced8d33fdea"
       ]
     },
     {
@@ -393,7 +431,7 @@
       "reporting_period": "2025",
       "source_url": "https://www.acnc.gov.au/charity/charities/e0f09bad-3aaf-e811-a960-000d3ad24282/documents/48fa88dd-6d00-f111-8406-7ced8d33fdea",
       "evidence_ids": [
-        "ev:acnc:ais:87684571829:2025"
+        "ev:acnc:ais:87684571829:48fa88dd-6d00-f111-8406-7ced8d33fdea"
       ]
     },
     {
@@ -428,7 +466,7 @@
       "reporting_period": "2025",
       "source_url": "thebreak.org.au",
       "evidence_ids": [
-        "ev:acnc:ais:87684571829:2025"
+        "ev:acnc:ais:87684571829:48fa88dd-6d00-f111-8406-7ced8d33fdea"
       ]
     },
     {
@@ -453,7 +491,7 @@
       "reporting_period": "2025",
       "source_url": "https://www.acnc.gov.au/charity/charities/e0f09bad-3aaf-e811-a960-000d3ad24282/documents/48fa88dd-6d00-f111-8406-7ced8d33fdea",
       "evidence_ids": [
-        "ev:acnc:ais:87684571829:2025"
+        "ev:acnc:ais:87684571829:48fa88dd-6d00-f111-8406-7ced8d33fdea"
       ]
     },
     {
@@ -488,53 +526,23 @@
       "reporting_period": "2025",
       "source_url": "https://www.acnc.gov.au/charity/charities/e0f09bad-3aaf-e811-a960-000d3ad24282/documents/48fa88dd-6d00-f111-8406-7ced8d33fdea",
       "evidence_ids": [
-        "ev:acnc:ais:87684571829:2025"
+        "ev:acnc:ais:87684571829:48fa88dd-6d00-f111-8406-7ced8d33fdea"
       ]
     }
   ],
   "source_native_records": [
     {
-      "source_record_id": "src:acnc-register:eced77f6-cdf4-5b97-bfd4-794e2cb42b40",
-      "source_family": "acnc-register",
-      "dataset_version": "2026-08-10",
-      "source_url": "https://www.acnc.gov.au/charity/charities?search=87684571829",
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "ABN": "87684571829",
-        "Legal Name": "Accelerated Evolution - The Break Inc.",
-        "Registration Status": "registered",
-        "ACNC classifications": "health; children",
-        "Website": "www.thebreak.org.au",
-        "ACNC registration ID": null,
-        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "ABN": "external_identifiers",
-        "Legal Name": "legal_name",
-        "Registration Status": "registrations"
-      },
-      "evidence_ids": [
-        "ev:acnc:87684571829"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-public-profile:87684571829:cb_d99ab915a62349db9d141ea3b359066a:2026-08-13",
+      "source_record_id": "src:acnc-public-profile:87684571829:e0f09bad-3aaf-e811-a960-000d3ad24282:cb_d99ab915a62349db9d141ea3b359066a",
       "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-13-public-api",
+      "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/e0f09bad-3aaf-e811-a960-000d3ad24282/profile",
-      "retrieved_at": "2026-08-13T05:50:58.991012Z",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
       "observed_at": "2026-01-30",
       "effective_from": null,
       "effective_to": null,
       "source_fields": {
         "uuid": "e0f09bad-3aaf-e811-a960-000d3ad24282",
-        "abn": "87684571829",
-        "latest_ais_year": "2025",
-        "latest_ais_uuid": "48fa88dd-6d00-f111-8406-7ced8d33fdea"
+        "abn": "87684571829"
       },
       "source_payload": {
         "data": {
@@ -1902,13 +1910,772 @@
         "uuid": "e0f09bad-3aaf-e811-a960-000d3ad24282"
       },
       "canonical_field_mappings": {
-        "data.Name": "display_name",
         "data.OtherNames": "operating_names",
-        "data.AnnualReports": "acnc_ais_url",
-        "data.Programs": "programs"
+        "data.AddressStateOrProvince": "principal_location"
+      },
+      "evidence_ids": []
+    },
+    {
+      "source_record_id": "src:acnc-ais-detail:87684571829:48fa88dd-6d00-f111-8406-7ced8d33fdea:cb_d99ab915a62349db9d141ea3b359066a",
+      "source_family": "acnc-ais-detail",
+      "dataset_version": "2026-08-14-public-api",
+      "source_url": "https://www.acnc.gov.au/charity/charities/e0f09bad-3aaf-e811-a960-000d3ad24282/documents/48fa88dd-6d00-f111-8406-7ced8d33fdea",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
+      "observed_at": "2026-01-30",
+      "effective_from": null,
+      "effective_to": null,
+      "source_fields": {
+        "abn": "87684571829",
+        "ais_uuid": "48fa88dd-6d00-f111-8406-7ced8d33fdea",
+        "year": "2025",
+        "date_received": "2026-01-30T03:25:57.0000000Z"
+      },
+      "source_payload": {
+        "data": {
+          "Abn": "87684571829",
+          "ActivityAdvocacyNCivic": false,
+          "ActivityAgedCare": false,
+          "ActivityAnimalProtection": false,
+          "ActivityCultureAndArt": false,
+          "ActivityEconomicSocialCommunity": false,
+          "ActivityEmergencyNRelief": false,
+          "ActivityEmploymentNTraining": false,
+          "ActivityEnvironmental": false,
+          "ActivityGrantMaking": false,
+          "ActivityHealthRehabilitation": false,
+          "ActivityHigherEducation": false,
+          "ActivityHousing": false,
+          "ActivityIncomeSupportNMaintenance": false,
+          "ActivityInternational": false,
+          "ActivityInternationalDescription": null,
+          "ActivityInternationalOther": false,
+          "ActivityInternationalOtherDescription": null,
+          "ActivityLawNLegalServices": false,
+          "ActivityMain": null,
+          "ActivityMentalHealthCrisisIntervention": false,
+          "ActivityNdisSupported": null,
+          "ActivityNdisSupportedNext": null,
+          "ActivityOperating": true,
+          "ActivityOperatingOverseas": false,
+          "ActivityOther": false,
+          "ActivityOtherDescription": null,
+          "ActivityOtherEducation": false,
+          "ActivityOtherHealthServices": false,
+          "ActivityPersuitPurposesDescription": "The Break seeks to plug gaps lacking in other social services. We address these through innovative approaches combining evidence based research and world best practice approaches to attempt to provide as close to ideal levels of support as our funding and labour can provide.",
+          "ActivityPhilanthropicPromotion": false,
+          "ActivityPolitical": false,
+          "ActivityPrimarySecondaryEducation": false,
+          "ActivityPurposeChange": null,
+          "ActivityPurposeChangeDescription": null,
+          "ActivityRecreationSocialClub": false,
+          "ActivityReligious": false,
+          "ActivityResearch": false,
+          "ActivitySocialServices": false,
+          "ActivitySports": false,
+          "ActivityTransferringFundsGoods": false,
+          "AdvancementOfEducation": false,
+          "AdvancementOfReligion": false,
+          "AssetsandLiabilitiesDescription": "The organisation s Assets are mostly made up of cash and cash equivalents ($353,308.37), Accounts Receivables and PPE (combined $31,924.89).   The organisation s Liabilities are mostly made up of PAYG, Superannuation and GST payable ($65,684.47) and Accounts payable ($751.92)",
+          "BasicReligiousCharity": false,
+          "BeneficiaryAboriginalTorres": false,
+          "BeneficiaryAdults": false,
+          "BeneficiaryAllAges": false,
+          "BeneficiaryChildren": false,
+          "BeneficiaryChronicIllness": false,
+          "BeneficiaryCrimeVictims": false,
+          "BeneficiaryDisasterVictims": false,
+          "BeneficiaryEarlyChildhood": false,
+          "BeneficiaryEthnic": false,
+          "BeneficiaryFamilies": false,
+          "BeneficiaryFinanciallyDisadvantaged": false,
+          "BeneficiaryGeneral": false,
+          "BeneficiaryHomelessnessRisk": false,
+          "BeneficiaryLGBT": false,
+          "BeneficiaryMain": null,
+          "BeneficiaryMen": false,
+          "BeneficiaryMigrantsRefugees": false,
+          "BeneficiaryOffenderFamilies": false,
+          "BeneficiaryOther": false,
+          "BeneficiaryOtherCharities": false,
+          "BeneficiaryOtherDescription": null,
+          "BeneficiaryOverseas": false,
+          "BeneficiaryPeopleWithDisability": false,
+          "BeneficiaryRuralRegionalRemote": false,
+          "BeneficiarySeniors": false,
+          "BeneficiaryUnemployed": false,
+          "BeneficiaryVeteranFamilies": false,
+          "BeneficiaryWomen": false,
+          "BeneficiaryYouth": false,
+          "CharityAddressCountry": "Australia",
+          "CharityAddressLine1": "312-314 Hawthorn Rd,",
+          "CharityAddressLine2": null,
+          "CharityAddressPostalCode": "3162",
+          "CharityAddressStateOrProvince": "VIC",
+          "CharityAddressSuburb": "Caulfield",
+          "CharityEmail": "info@thebreak.org.au",
+          "CharitySize": "Small",
+          "CharityUuid": "e0f09bad-3aaf-e811-a960-000d3ad24282",
+          "ChildCareServices": false,
+          "ExpenseEmployees": "0.0000",
+          "ExpenseGrantDonationsInAustralia": "0.0000",
+          "ExpenseGrantDonationsOutsideAustralia": "0.0000",
+          "ExpenseTotal": "0.0000",
+          "ExpensesOther": "0.0000",
+          "FinAccrualAccounting": "Cash",
+          "FinConsolidatedReportFromMiltiple": null,
+          "FinDocumentedPoliciesRelatedPartyTransactions": null,
+          "FinFyeJune": false,
+          "FinProvideVoluntarily": null,
+          "FinRelatedPartyTransactions": "No",
+          "FinReportACT": false,
+          "FinReportFrom": "2024-07-01T00:00:00.0000000Z",
+          "FinReportNSW": false,
+          "FinReportNT": false,
+          "FinReportQLD": false,
+          "FinReportSA": false,
+          "FinReportTAS": false,
+          "FinReportTo": "2025-06-30T00:00:00.0000000Z",
+          "FinReportVIC": false,
+          "FinReportWA": false,
+          "FinReportingType": null,
+          "FinSapDate": null,
+          "FundRaisingNumberACT": null,
+          "FundRaisingNumberNSW": null,
+          "FundRaisingNumberQLD": null,
+          "FundRaisingNumberSA": null,
+          "FundRaisingNumberTAS": null,
+          "FundRaisingNumberVIC": "FR0016001",
+          "FundRaisingNumberWA": null,
+          "GovDocAccurate": null,
+          "GrantCapacityBuildingPct": null,
+          "GrantMultiYearPct": null,
+          "GrantPublicOpenApplicationPct": null,
+          "GrantRuralRegionPct": null,
+          "HasSubmittedToRegulator": false,
+          "HoursPaid": null,
+          "HoursTotal": null,
+          "HoursVolunteer": null,
+          "HrCasualEmployees": "1",
+          "HrFteStaff": "1.7000000000",
+          "HrFullTimeEmployees": "1",
+          "HrPartTimeEmployees": "0",
+          "HrUnpainVolunteers": "300",
+          "IncomeDonationsBequests": "0.0000",
+          "IncomeGovernmentGrants": "0.0000",
+          "IncomeOther": "0.0000",
+          "IncomeOtherComprehinsive": "0.0000",
+          "IncomeOtherNeg": null,
+          "IncomeOtherReceipts": "0.0000",
+          "IncomeTotalComprehensive": "0.0000",
+          "IncomeTotalReceipts": "0.0000",
+          "IncorporationStatus": null,
+          "InterestExpense": "0.0000",
+          "IsIncorporatedAssociation": true,
+          "KeyManagementPersonnel": false,
+          "LegalName": "Accelerated Evolution - The Break Inc.",
+          "NetAssetsLiabilities": "318797.0000",
+          "NetSurplusDeficit": "0.0000",
+          "NonCurrentLoansPayable": "0.0000",
+          "NumberOfKeyManagementPersonnel": "0",
+          "OperatingCountries": null,
+          "OperatingInACT": false,
+          "OperatingInNSW": false,
+          "OperatingInNT": false,
+          "OperatingInQLD": false,
+          "OperatingInSA": false,
+          "OperatingInTAS": false,
+          "OperatingInVIC": false,
+          "OperatingInWA": false,
+          "OperatingOverseas": false,
+          "OtherNames": [],
+          "OtherNonCurrentAssets": "0.0000",
+          "OtherNonCurrentLiabilities": "0.0000",
+          "OtherPurposeDescription": null,
+          "OtherPurposes": "False",
+          "Programs": [
+            {
+              "AisUuid": "48fa88dd-6d00-f111-8406-7ced8d33fdea",
+              "Name": "Kayaking",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Children - aged 6 to under 15",
+                "Youth - 15 to under 25",
+                "Adults - aged 25 to under 65",
+                "Adults - aged 65 and over",
+                "Families",
+                "Aboriginal and Torres Strait Islander people",
+                "People from a culturally and linguistically diverse background",
+                "Financially disadvantaged people",
+                "People at risk of homelessness/ people experiencing homelessness",
+                "People with chronic illness (including terminal illness)",
+                "People with disabilities",
+                "Pre/post release offenders and/or their families",
+                "Unemployed persons",
+                "Veterans and/or their families",
+                "Victims of crime (including family violence)",
+                "Victims of disaster",
+                "Females",
+                "Males",
+                "Environment"
+              ],
+              "ProgramClassification": "Exercise",
+              "ProgramClassificationID": "425",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Yarra River, Victoria, Australia",
+                  "FormattedAddress": "Yarra River, Victoria, Australia",
+                  "Marker": {
+                    "Latitude": -37.7550316,
+                    "Longitude": 145.5215238
+                  },
+                  "Name": "Yarra River",
+                  "uuid": "91fa88dd-6d00-f111-8406-7ced8d33fdea"
+                },
+                {
+                  "DisplayName": "Port Phillip Bay, Victoria, Australia",
+                  "FormattedAddress": "Port Phillip Bay, Victoria, Australia",
+                  "Marker": {
+                    "Latitude": -38.173206,
+                    "Longitude": 144.8731219
+                  },
+                  "Name": "Port Phillip Bay",
+                  "uuid": "93fa88dd-6d00-f111-8406-7ced8d33fdea"
+                },
+                {
+                  "DisplayName": "Maribyrnong River, Victoria, Australia",
+                  "FormattedAddress": "Maribyrnong River, Victoria, Australia",
+                  "Marker": {
+                    "Latitude": -37.7797145,
+                    "Longitude": 144.8969406
+                  },
+                  "Name": "Maribyrnong River",
+                  "uuid": "96fa88dd-6d00-f111-8406-7ced8d33fdea"
+                },
+                {
+                  "DisplayName": "Lysterfield Lake, Victoria, Australia",
+                  "FormattedAddress": "Lysterfield Lake, Victoria, Australia",
+                  "Marker": {
+                    "Latitude": -37.9660325,
+                    "Longitude": 145.2963797
+                  },
+                  "Name": "Lysterfield Lake",
+                  "uuid": "98fa88dd-6d00-f111-8406-7ced8d33fdea"
+                },
+                {
+                  "DisplayName": "Werribee River, Victoria, Australia",
+                  "FormattedAddress": "Werribee River, Victoria, Australia",
+                  "Marker": {
+                    "Latitude": -37.6805487,
+                    "Longitude": 144.4204191
+                  },
+                  "Name": "Werribee River",
+                  "uuid": "9afa88dd-6d00-f111-8406-7ced8d33fdea"
+                },
+                {
+                  "DisplayName": "Albert Park Lake, Albert Park VIC, Australia",
+                  "FormattedAddress": "Albert Park Lake, Albert Park VIC 3206, Australia",
+                  "Marker": {
+                    "Latitude": -37.8442814,
+                    "Longitude": 144.9687557
+                  },
+                  "Name": "Albert Park Lake",
+                  "uuid": "9cfa88dd-6d00-f111-8406-7ced8d33fdea"
+                }
+              ],
+              "ProgramWeblink": "https://thebreak.org.au/our-programs/kayaking/",
+              "uuid": "76fa88dd-6d00-f111-8406-7ced8d33fdea"
+            },
+            {
+              "AisUuid": "48fa88dd-6d00-f111-8406-7ced8d33fdea",
+              "Name": "Courses and Topics Groups",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Youth - 15 to under 25",
+                "Adults - aged 25 to under 65",
+                "Adults - aged 65 and over",
+                "Aboriginal and Torres Strait Islander people",
+                "People from a culturally and linguistically diverse background",
+                "People in rural/regional/remote communities",
+                "Financially disadvantaged people",
+                "People at risk of homelessness/ people experiencing homelessness",
+                "People with chronic illness (including terminal illness)",
+                "People with disabilities",
+                "Pre/post release offenders and/or their families",
+                "Unemployed persons",
+                "Veterans and/or their families",
+                "Victims of crime (including family violence)",
+                "Victims of disaster",
+                "Females",
+                "Males"
+              ],
+              "ProgramClassification": "Basic and remedial instruction",
+              "ProgramClassificationID": "172",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "312-314 Hawthorn Road, Caulfield VIC, Australia",
+                  "FormattedAddress": "312-314 Hawthorn Rd, Caulfield VIC 3162, Australia",
+                  "Marker": {
+                    "Latitude": -37.885373,
+                    "Longitude": 145.022026
+                  },
+                  "Name": "312-314 Hawthorn Rd",
+                  "uuid": "b3fa88dd-6d00-f111-8406-7ced8d33fdea"
+                }
+              ],
+              "ProgramWeblink": "https://thebreak.org.au/our-programs/courses-and-topics-groups/",
+              "uuid": "9efa88dd-6d00-f111-8406-7ced8d33fdea"
+            },
+            {
+              "AisUuid": "48fa88dd-6d00-f111-8406-7ced8d33fdea",
+              "Name": "Memoir Project",
+              "OperatesOnline": true,
+              "ProgramBeneficiaries": [
+                "Youth - 15 to under 25",
+                "Adults - aged 25 to under 65",
+                "Adults - aged 65 and over",
+                "Aboriginal and Torres Strait Islander people",
+                "People from a culturally and linguistically diverse background",
+                "People in rural/regional/remote communities",
+                "Financially disadvantaged people",
+                "People at risk of homelessness/ people experiencing homelessness",
+                "People with chronic illness (including terminal illness)",
+                "People with disabilities",
+                "Victims of disaster",
+                "Victims of crime (including family violence)",
+                "Veterans and/or their families",
+                "Unemployed persons",
+                "Pre/post release offenders and/or their families"
+              ],
+              "ProgramClassification": "Literature and writing",
+              "ProgramClassificationID": "65",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "312-314 Hawthorn Road, Caulfield VIC, Australia",
+                  "FormattedAddress": "312-314 Hawthorn Rd, Caulfield VIC 3162, Australia",
+                  "Marker": {
+                    "Latitude": -37.885373,
+                    "Longitude": 145.022026
+                  },
+                  "Name": "312-314 Hawthorn Rd",
+                  "uuid": "c9fa88dd-6d00-f111-8406-7ced8d33fdea"
+                }
+              ],
+              "ProgramWeblink": "https://thebreak.org.au/our-programs/memoir-project/",
+              "uuid": "b5fa88dd-6d00-f111-8406-7ced8d33fdea"
+            },
+            {
+              "AisUuid": "48fa88dd-6d00-f111-8406-7ced8d33fdea",
+              "Name": "Dungeons & Dragons",
+              "OperatesOnline": true,
+              "ProgramBeneficiaries": [
+                "Children - aged 6 to under 15",
+                "Youth - 15 to under 25",
+                "Adults - aged 25 to under 65",
+                "Aboriginal and Torres Strait Islander people",
+                "People from a culturally and linguistically diverse background",
+                "People in rural/regional/remote communities",
+                "Financially disadvantaged people",
+                "People at risk of homelessness/ people experiencing homelessness",
+                "People with chronic illness (including terminal illness)",
+                "People with disabilities",
+                "Males",
+                "Females",
+                "Victims of disaster",
+                "Victims of crime (including family violence)",
+                "Veterans and/or their families",
+                "Unemployed persons",
+                "Pre/post release offenders and/or their families"
+              ],
+              "ProgramClassification": "Youth development",
+              "ProgramClassificationID": "554",
+              "ProgramCountries": [],
+              "ProgramLocations": [],
+              "ProgramWeblink": "https://thebreak.org.au/our-programs/role-playing-games/",
+              "uuid": "cbfa88dd-6d00-f111-8406-7ced8d33fdea"
+            },
+            {
+              "AisUuid": "48fa88dd-6d00-f111-8406-7ced8d33fdea",
+              "Name": "Wellbeing Walks",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Children - aged 6 to under 15",
+                "Youth - 15 to under 25",
+                "Adults - aged 25 to under 65",
+                "Adults - aged 65 and over",
+                "Families",
+                "Aboriginal and Torres Strait Islander people",
+                "People from a culturally and linguistically diverse background",
+                "People in rural/regional/remote communities",
+                "Financially disadvantaged people",
+                "People at risk of homelessness/ people experiencing homelessness",
+                "People with chronic illness (including terminal illness)",
+                "People with disabilities",
+                "Pre/post release offenders and/or their families",
+                "Unemployed persons",
+                "Veterans and/or their families",
+                "Victims of crime (including family violence)",
+                "Females",
+                "Males",
+                "Victims of disaster"
+              ],
+              "ProgramClassification": "Public health",
+              "ProgramClassificationID": "418",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Royal Park, Flemington Road, Parkville VIC, Australia",
+                  "FormattedAddress": "Lot 1 Flemington Rd, Parkville VIC 3052, Australia",
+                  "Marker": {
+                    "Latitude": -37.7892568,
+                    "Longitude": 144.9506406
+                  },
+                  "Name": "Royal Park",
+                  "uuid": "048686e3-6d00-f111-8406-7ced8d33fdea"
+                },
+                {
+                  "DisplayName": "Royal Botanic Gardens Victoria - Melbourne Gardens, Melbourne VIC, Australia",
+                  "FormattedAddress": "Melbourne VIC 3004, Australia",
+                  "Marker": {
+                    "Latitude": -37.8303689,
+                    "Longitude": 144.9796056
+                  },
+                  "Name": "Royal Botanic Gardens Victoria - Melbourne Gardens",
+                  "uuid": "068686e3-6d00-f111-8406-7ced8d33fdea"
+                },
+                {
+                  "DisplayName": "St Kilda Botanical Gardens, Herbert Street, St Kilda VIC, Australia",
+                  "FormattedAddress": "11 Herbert St, St Kilda VIC 3182, Australia",
+                  "Marker": {
+                    "Latitude": -37.8708601,
+                    "Longitude": 144.983954
+                  },
+                  "Name": "St Kilda Botanical Gardens",
+                  "uuid": "088686e3-6d00-f111-8406-7ced8d33fdea"
+                }
+              ],
+              "ProgramWeblink": "https://thebreak.org.au/our-programs/mhrp-and-win/",
+              "uuid": "e4fa88dd-6d00-f111-8406-7ced8d33fdea"
+            },
+            {
+              "AisUuid": "48fa88dd-6d00-f111-8406-7ced8d33fdea",
+              "Name": "Therapeutic Art",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Children - aged 6 to under 15",
+                "Youth - 15 to under 25",
+                "Adults - aged 25 to under 65",
+                "Adults - aged 65 and over",
+                "Families",
+                "Aboriginal and Torres Strait Islander people",
+                "People from a culturally and linguistically diverse background",
+                "People in rural/regional/remote communities",
+                "Financially disadvantaged people",
+                "People at risk of homelessness/ people experiencing homelessness",
+                "People with chronic illness (including terminal illness)",
+                "People with disabilities",
+                "Pre/post release offenders and/or their families",
+                "Unemployed persons",
+                "Veterans and/or their families",
+                "Victims of crime (including family violence)",
+                "Victims of disaster",
+                "Females",
+                "Males"
+              ],
+              "ProgramClassification": "Arts exchange",
+              "ProgramClassificationID": "47",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "312-314 Hawthorn Road, Caulfield VIC, Australia",
+                  "FormattedAddress": "312-314 Hawthorn Rd, Caulfield VIC 3162, Australia",
+                  "Marker": {
+                    "Latitude": -37.885373,
+                    "Longitude": 145.022026
+                  },
+                  "Name": "312-314 Hawthorn Rd",
+                  "uuid": "238686e3-6d00-f111-8406-7ced8d33fdea"
+                }
+              ],
+              "ProgramWeblink": "https://thebreak.org.au/our-programs/therapeutic-arts/",
+              "uuid": "0a8686e3-6d00-f111-8406-7ced8d33fdea"
+            },
+            {
+              "AisUuid": "48fa88dd-6d00-f111-8406-7ced8d33fdea",
+              "Name": "Social support, food aid & personal development",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Youth - 15 to under 25",
+                "Adults - aged 25 to under 65",
+                "Adults - aged 65 and over",
+                "People from a culturally and linguistically diverse background",
+                "Financially disadvantaged people",
+                "People at risk of homelessness/ people experiencing homelessness",
+                "People with chronic illness (including terminal illness)",
+                "People with disabilities",
+                "Pre/post release offenders and/or their families",
+                "Unemployed persons",
+                "Veterans and/or their families",
+                "Females",
+                "Males"
+              ],
+              "ProgramClassification": "Food aid",
+              "ProgramClassificationID": "487",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Vasey RSL Care Ex-Service Accommodation Cheltenham, Centre Dandenong Road, Cheltenham VIC, Australia",
+                  "FormattedAddress": "58-72 Centre Dandenong Rd, Cheltenham VIC 3192, Australia",
+                  "Marker": {
+                    "Latitude": -37.9680678,
+                    "Longitude": 145.0655473
+                  },
+                  "Name": "Vasey RSL Care Ex-Service Accommodation Cheltenham",
+                  "uuid": "368686e3-6d00-f111-8406-7ced8d33fdea"
+                },
+                {
+                  "DisplayName": "Sunnyhurst Gardens, Union Street, Brighton East VIC, Australia",
+                  "FormattedAddress": "29 Union St, Brighton East VIC 3187, Australia",
+                  "Marker": {
+                    "Latitude": -37.907767,
+                    "Longitude": 145.0115686
+                  },
+                  "Name": "Sunnyhurst Gardens",
+                  "uuid": "388686e3-6d00-f111-8406-7ced8d33fdea"
+                }
+              ],
+              "ProgramWeblink": null,
+              "uuid": "258686e3-6d00-f111-8406-7ced8d33fdea"
+            },
+            {
+              "AisUuid": "48fa88dd-6d00-f111-8406-7ced8d33fdea",
+              "Name": "Counselling",
+              "OperatesOnline": true,
+              "ProgramBeneficiaries": [
+                "Children - aged 6 to under 15",
+                "Youth - 15 to under 25",
+                "Adults - aged 25 to under 65",
+                "Adults - aged 65 and over",
+                "Aboriginal and Torres Strait Islander people",
+                "LGBTIQA+",
+                "People from a culturally and linguistically diverse background",
+                "People in rural/regional/remote communities",
+                "Financially disadvantaged people",
+                "People at risk of homelessness/ people experiencing homelessness",
+                "People with chronic illness (including terminal illness)",
+                "People with disabilities",
+                "Pre/post release offenders and/or their families",
+                "Unemployed persons",
+                "Veterans and/or their families",
+                "Victims of crime (including family violence)",
+                "Females",
+                "Males",
+                "Other gender identities"
+              ],
+              "ProgramClassification": "Family counselling",
+              "ProgramClassificationID": "504",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "312-314 Hawthorn Road, Caulfield VIC, Australia",
+                  "FormattedAddress": "312-314 Hawthorn Rd, Caulfield VIC 3162, Australia",
+                  "Marker": {
+                    "Latitude": -37.885373,
+                    "Longitude": 145.022026
+                  },
+                  "Name": "312-314 Hawthorn Rd",
+                  "uuid": "528686e3-6d00-f111-8406-7ced8d33fdea"
+                }
+              ],
+              "ProgramWeblink": "thebreak.org.au",
+              "uuid": "3a8686e3-6d00-f111-8406-7ced8d33fdea"
+            },
+            {
+              "AisUuid": "48fa88dd-6d00-f111-8406-7ced8d33fdea",
+              "Name": "Outreach visits",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "People from a culturally and linguistically diverse background",
+                "Financially disadvantaged people",
+                "People with chronic illness (including terminal illness)",
+                "People with disabilities",
+                "Veterans and/or their families",
+                "Females",
+                "Males"
+              ],
+              "ProgramClassification": "Disability services",
+              "ProgramClassificationID": "548",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Cheltenham VIC, Australia",
+                  "FormattedAddress": "Cheltenham VIC 3192, Australia",
+                  "Marker": {
+                    "Latitude": -37.9656436,
+                    "Longitude": 145.0578515
+                  },
+                  "Name": "Cheltenham",
+                  "uuid": "628686e3-6d00-f111-8406-7ced8d33fdea"
+                },
+                {
+                  "DisplayName": "Camberwell VIC, Australia",
+                  "FormattedAddress": "Camberwell VIC 3124, Australia",
+                  "Marker": {
+                    "Latitude": -37.8326655,
+                    "Longitude": 145.0681032
+                  },
+                  "Name": "Camberwell",
+                  "uuid": "658686e3-6d00-f111-8406-7ced8d33fdea"
+                },
+                {
+                  "DisplayName": "Brighton East VIC, Australia",
+                  "FormattedAddress": "Brighton East VIC 3187, Australia",
+                  "Marker": {
+                    "Latitude": -37.9156746,
+                    "Longitude": 145.0159759
+                  },
+                  "Name": "Brighton East",
+                  "uuid": "688686e3-6d00-f111-8406-7ced8d33fdea"
+                }
+              ],
+              "ProgramWeblink": null,
+              "uuid": "548686e3-6d00-f111-8406-7ced8d33fdea"
+            },
+            {
+              "AisUuid": "48fa88dd-6d00-f111-8406-7ced8d33fdea",
+              "Name": "Food relief",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Adults - aged 25 to under 65",
+                "Adults - aged 65 and over",
+                "Families",
+                "Aboriginal and Torres Strait Islander people",
+                "LGBTIQA+",
+                "Migrants, refugees or asylum seekers",
+                "People from a culturally and linguistically diverse background",
+                "Financially disadvantaged people",
+                "People at risk of homelessness/ people experiencing homelessness",
+                "People with chronic illness (including terminal illness)",
+                "People with disabilities",
+                "Pre/post release offenders and/or their families",
+                "Unemployed persons",
+                "Veterans and/or their families",
+                "Victims of crime (including family violence)",
+                "Females",
+                "Males",
+                "Other gender identities"
+              ],
+              "ProgramClassification": "Food aid",
+              "ProgramClassificationID": "487",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Cheltenham VIC, Australia",
+                  "FormattedAddress": "Cheltenham VIC 3192, Australia",
+                  "Marker": {
+                    "Latitude": -37.9656436,
+                    "Longitude": 145.0578515
+                  },
+                  "Name": "Cheltenham",
+                  "uuid": "848686e3-6d00-f111-8406-7ced8d33fdea"
+                },
+                {
+                  "DisplayName": "Caulfield VIC, Australia",
+                  "FormattedAddress": "Caulfield VIC 3162, Australia",
+                  "Marker": {
+                    "Latitude": -37.8831621,
+                    "Longitude": 145.0295877
+                  },
+                  "Name": "Caulfield",
+                  "uuid": "878686e3-6d00-f111-8406-7ced8d33fdea"
+                }
+              ],
+              "ProgramWeblink": null,
+              "uuid": "6a8686e3-6d00-f111-8406-7ced8d33fdea"
+            }
+          ],
+          "RegulatedACT": false,
+          "RegulatedNSW": false,
+          "RegulatedNT": false,
+          "RegulatedQLD": false,
+          "RegulatedSA": false,
+          "RegulatedTAS": false,
+          "RegulatedVIC": false,
+          "RegulatedWA": false,
+          "Regulator": null,
+          "RegulatorAGMDateACT": null,
+          "RegulatorAGMDateNT": null,
+          "RegulatorAGMDateVIC": "2025-11-07T00:00:00.0000000",
+          "RegulatorAGMDateWA": null,
+          "RegulatorFundRaising": "Yes",
+          "RegulatorFundRaisingACT": false,
+          "RegulatorFundRaisingNSW": false,
+          "RegulatorFundRaisingNT": false,
+          "RegulatorFundRaisingOnline": true,
+          "RegulatorFundRaisingQLD": false,
+          "RegulatorFundRaisingSA": false,
+          "RegulatorFundRaisingTAS": false,
+          "RegulatorFundRaisingVIC": true,
+          "RegulatorFundRaisingWA": false,
+          "RegulatorIncorporatedAssociationACT": false,
+          "RegulatorIncorporatedAssociationNSW": false,
+          "RegulatorIncorporatedAssociationNT": false,
+          "RegulatorIncorporatedAssociationNumberACT": null,
+          "RegulatorIncorporatedAssociationNumberNSW": null,
+          "RegulatorIncorporatedAssociationNumberNT": null,
+          "RegulatorIncorporatedAssociationNumberQLD": null,
+          "RegulatorIncorporatedAssociationNumberSA": null,
+          "RegulatorIncorporatedAssociationNumberTAS": null,
+          "RegulatorIncorporatedAssociationNumberVIC": "A0102001H",
+          "RegulatorIncorporatedAssociationNumberWA": null,
+          "RegulatorIncorporatedAssociationQLD": false,
+          "RegulatorIncorporatedAssociationSA": false,
+          "RegulatorIncorporatedAssociationTAS": false,
+          "RegulatorIncorporatedAssociationVIC": true,
+          "RegulatorIncorporatedAssociationWA": false,
+          "RegulatorMetRequirementACT": false,
+          "RegulatorMetRequirementWA": null,
+          "RegulatorOtherDetails": null,
+          "RegulatorPrograms": null,
+          "RegulatorStates": false,
+          "RelatedPartyDetails": null,
+          "RelatedPartyTransactions": [],
+          "ReliefOfPoverty": false,
+          "ReportingGroupFlag": false,
+          "ResponsiblePersonAccurate": null,
+          "RevenueGoodsServices": "0.0000",
+          "RevenueInvestments": "0.0000",
+          "RevenueTotal": "0.0000",
+          "StatementYear": "2025",
+          "SubTypesAccurate": null,
+          "TotalAssets": "385233.0000",
+          "TotalCurrentAssets": "0.0000",
+          "TotalCurrentLiabilities": "0.0000",
+          "TotalLiabilities": "66436.0000",
+          "TotalNonCurrentAssets": null,
+          "TotalNonCurrentLiabilities": "0.0000",
+          "TotalNonCurrentLoansReceivable": "0.0000",
+          "TotalPaidKMP": "$0.00",
+          "Website": "www.thebreak.org.au",
+          "__normalized": true,
+          "entityTypeVersion": "",
+          "entityVersion": "1856659164",
+          "timeStamp": "2026-02-02T19:32:11.0000000Z",
+          "type": "annual_information_statement",
+          "uuid": "48fa88dd-6d00-f111-8406-7ced8d33fdea"
+        },
+        "type": "annual_information_statement",
+        "uuid": "48fa88dd-6d00-f111-8406-7ced8d33fdea"
+      },
+      "canonical_field_mappings": {
+        "data.Programs": "programs",
+        "data.TotalRevenue": "financial_records[].revenue",
+        "data.TotalExpenses": "financial_records[].total_expenses"
       },
       "evidence_ids": [
-        "ev:acnc:ais:87684571829:2025"
+        "ev:acnc:ais:87684571829:48fa88dd-6d00-f111-8406-7ced8d33fdea"
       ]
     }
   ],
@@ -2039,24 +2806,24 @@
       "content_hash": null
     },
     {
+      "evidence_id": "ev:acnc:ais:87684571829:48fa88dd-6d00-f111-8406-7ced8d33fdea",
+      "source_type": "regulatory",
+      "title": "ACNC Annual Information Statement 2025",
+      "publisher": "Australian Charities and Not-for-profits Commission",
+      "url": "https://www.acnc.gov.au/charity/charities/e0f09bad-3aaf-e811-a960-000d3ad24282/documents/48fa88dd-6d00-f111-8406-7ced8d33fdea",
+      "observed_at": "2026-01-30",
+      "reporting_period": "2025",
+      "page": null,
+      "section": null,
+      "content_hash": null
+    },
+    {
       "evidence_id": "ev:abr-dgr:87684571829:20260805",
       "source_type": "regulatory",
       "title": "ABR DGR bulk observation",
       "publisher": "Australian Business Register / Australian Taxation Office",
       "url": "https://abr.business.gov.au/Tools/BulkExtract",
       "observed_at": "2026-08-05",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
-    },
-    {
-      "evidence_id": "ev:acnc:ais:87684571829:2025",
-      "source_type": "regulatory",
-      "title": "Accelerated Evolution - The Break Inc. Annual Information Statement 2025",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": "https://www.acnc.gov.au/charity/charities/e0f09bad-3aaf-e811-a960-000d3ad24282/documents/48fa88dd-6d00-f111-8406-7ced8d33fdea",
-      "observed_at": "2026-01-30",
       "reporting_period": null,
       "page": null,
       "section": null,
@@ -2069,81 +2836,25 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "83ddce0885650d85c1968e0793902e8d6822c83f5165c417c19d036930882919",
-    "generated_at": "2026-08-13T05:51:03.014228Z",
+    "source_text_hash": "bc92eb93fc9fd836cc773bcfb2ec44bc21a42345fd5aab8079dda8dfcbd4bbc4",
+    "generated_at": "2026-08-10T13:53:24.455633Z",
     "vector_ref": "embeddings.parquet#cb_d99ab915a62349db9d141ea3b359066a"
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
+    "prompt_version": "phase2a-0.4",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "8fc9e40ba6f6a283f55286b71166276b196f8fc353c76f251f1bf1bef3544994",
-    "generated_at": "2026-08-12T13:40:07.024347Z",
+    "evidence_input_hash": "0637488a4a8857d5ceee297a344ae10ab5ed97b556b0d021f6aa2422c05db11a",
+    "generated_at": "2026-08-10T12:46:55.776940Z",
     "editorial_policy_version": "0.1"
   },
-  "derivative_assessments": [
-    {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T13:40:07.024347Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-rc2-editorial-migration",
-      "input_hash": "8fc9e40ba6f6a283f55286b71166276b196f8fc353c76f251f1bf1bef3544994",
-      "disposition": "refreshed",
-      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "taxonomy",
-      "generated_at": "2026-08-12T13:40:07.024347Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "8fc9e40ba6f6a283f55286b71166276b196f8fc353c76f251f1bf1bef3544994",
-      "disposition": "reused",
-      "reason": "No new supported canonical classification facts.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "fundraising",
-      "generated_at": null,
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "8fc9e40ba6f6a283f55286b71166276b196f8fc353c76f251f1bf1bef3544994",
-      "disposition": "reused",
-      "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "embedding",
-      "generated_at": "2026-08-10T13:53:24.455633Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "bc92eb93fc9fd836cc773bcfb2ec44bc21a42345fd5aab8079dda8dfcbd4bbc4",
-      "disposition": "reused",
-      "reason": "Semantic source text unchanged.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "similarities",
-      "generated_at": "2026-08-10T13:53:24.455633Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "bc92eb93fc9fd836cc773bcfb2ec44bc21a42345fd5aab8079dda8dfcbd4bbc4",
-      "disposition": "reused",
-      "reason": "Embedding reused; semantic neighbours retained.",
-      "affected_dimensions": []
-    }
-  ],
-  "dataset_version": "phase2b-2026-08-13-rc3",
+  "derivative_assessments": [],
+  "dataset_version": "phase2b-2026-08-14-rc4",
   "card_schema_version": "0.4",
-  "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T05:50:58.991012Z"
+  "editorial_policy_version": "0.4-rc4",
+  "generator_version": "0.5.0-rc4",
+  "built_at": "2026-08-13T10:52:47.483880Z"
 }

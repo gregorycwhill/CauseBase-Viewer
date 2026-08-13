@@ -2,24 +2,24 @@
 
 **CauseBase subject:** `cb_065dfdefae8b4f7ea2b964dd2b60d800`
 **Subject kind:** unknown
-**Coverage:** `[{"capability": "regulatory", "evidence_ids": ["ev:acnc:44552934060"], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "observed"}, {"capability": "annual_report", "evidence_ids": [], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "not_yet_processed"}, {"capability": "website", "evidence_ids": ["ev:web:44552934060:2026-08-10"], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "observed"}, {"capability": "fundraising_expenditure", "evidence_ids": [], "freshness_note": "No direct or defensible derived fundraising expenditure was found in selected Phase 2A evidence.", "observed_at": "2026-08-10", "source_record_id": null, "status": "not_available_from_source"}, {"capability": "financials", "evidence_ids": ["ev:ais:44552934060:2023"], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "observed"}, {"capability": "latest_acnc_ais", "evidence_ids": ["ev:acnc:ais:44552934060:2025"], "freshness_note": "Latest submitted ACNC AIS in the 2026-08-13 public-profile acquisition: 2025.", "observed_at": "2026-01-27", "source_record_id": null, "status": "observed"}]`
+**Coverage:** `[{"capability": "regulatory", "evidence_ids": ["ev:acnc:44552934060"], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "observed"}, {"capability": "annual_report", "evidence_ids": [], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "not_yet_processed"}, {"capability": "fundraising_expenditure", "evidence_ids": [], "freshness_note": "No direct or defensible derived fundraising expenditure was found in selected Phase 2A evidence.", "observed_at": "2026-08-10", "source_record_id": null, "status": "not_available_from_source"}, {"capability": "financials", "evidence_ids": ["ev:ais:44552934060:2023"], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "observed"}, {"capability": "latest_acnc_ais", "evidence_ids": ["ev:acnc:ais:44552934060:77bc3224-4bfb-f011-8406-6045bdc47a8f"], "freshness_note": "Latest submitted AIS detail acquired from the public ACNC entity endpoint.", "observed_at": "2026-01-27", "source_record_id": "src:acnc-ais-detail:44552934060:77bc3224-4bfb-f011-8406-6045bdc47a8f:cb_065dfdefae8b4f7ea2b964dd2b60d800", "status": "observed"}, {"capability": "website", "evidence_ids": [], "freshness_note": "Public website locator acquired from the ACNC profile.", "observed_at": "2026-08-13", "source_record_id": null, "status": "observed"}]`
 
 ## CauseBase summary
 
-Araluen Botanic Park Foundation Inc manages Araluen Botanic Park in Roleystone in the Perth Hills, Western Australia. As of August 2026 it maintains 14 hectares of cultivated botanical gardens set within 59 hectares of native West Australian bushland, and manages a significant tree collection and remnant native forest on site. The park hosts public programming including a Tulip Festival, concerts and workshops, operates venue hire for weddings and other events and runs an on‑site café. It recruits and hosts volunteer activities such as a large bulb‑planting day (250,000 bulbs cited) and advertises regular opportunities for visitors to participate. The park is described as open to visitors and supports on‑site wildlife associated with the native bushland.
+According to its website, Araluen Botanic Park Foundation Inc operates Araluen Botanic Park in Roleystone in the Perth Hills, about 40 minutes from Perth. The site describes 14 hectares of cultivated botanical gardens set within 59 hectares of native West Australian bushland and highlights a tree collection developed through “decades of intentional planting, ecological succession, and preservation of native forest.” The park publishes a calendar of public events and programs including a Tulip Festival, live concerts, seasonal festivals, a Flower Crown workshop and a Remembrance Day event. The website advertises venue hire for weddings, an on-site café, membership and volunteer opportunities; one advertised volunteer activity is a scheduled bulb‑planting day that the website says will plant 250,000 bulbs to prepare for spring. The organisation’s ACNC AIS return for 2022–23 reports revenue of AUD 3,029,307 and total expenses of AUD 2,215,004. Contact details and an address in Roleystone are listed on the website.
 
 ## Activities
 
-- Maintain 14 hectares of cultivated botanical gardens within 59 hectares of native bushland (as described on the organisation's website)
+- Maintain 14 hectares of cultivated botanical gardens within 59 hectares of native bushland
 - Host public events and seasonal festivals including a Tulip Festival, concerts and workshops
-- Operate venue hire for weddings and events and an on‑site café (as advertised)
+- Operate venue hire for weddings and events and an on‑site café
 - Recruit and host volunteer activities such as an advertised bulb‑planting day (250,000 bulbs mentioned)
-- Describe management and preservation of a tree collection and native forest on site (website statement)
+- Describe management and preservation of a tree collection and native forest on site
 
 ## Beneficiaries
 
-- Park visitors and members of the public (website describes visitor services and events)
-- Wildlife associated with on‑site native West Australian bushland (website refers to birds and native forest)
+- Park visitors and members of the public
+- Wildlife associated with on‑site native West Australian bushland
 
 ## Participation
 
@@ -58,19 +58,19 @@ Araluen Botanic Park Foundation Inc manages Araluen Botanic Park in Roleystone i
 - ACNC Register extract — regulatory, observed 2026-08-10
 - Organisation website homepage — organisation_self_report, observed 2026-08-10 — https://araluenbotanicpark.com.au/
 - ACNC AIS 2023 extract — regulatory, observed 2026-08-10
+- ACNC Annual Information Statement 2025 — regulatory, observed 2026-01-27 — https://www.acnc.gov.au/charity/charities/6d50023d-38af-e811-a963-000d3ad24077/documents/77bc3224-4bfb-f011-8406-6045bdc47a8f
 - ABR DGR bulk observation — regulatory, observed 2026-08-05 — https://abr.business.gov.au/Tools/BulkExtract
-- Araluen Botanic Park Foundation Inc Annual Information Statement 2025 — regulatory, observed 2026-01-27 — https://www.acnc.gov.au/charity/charities/6d50023d-38af-e811-a963-000d3ad24077/documents/77bc3224-4bfb-f011-8406-6045bdc47a8f
 
 ## Machine representation
 
 - Embedding: `cb_065dfdefae8b4f7ea2b964dd2b60d800:entity:text-embedding-3-small`
 - Embedding model: `text-embedding-3-small`
 - Synthesis model: `gpt-5-mini-2025-08-07`
-- Synthesis evidence hash: `bce16e04950effb37825e595af69998294328d06ccaae1a667055fefd67ffcb0`
+- Synthesis evidence hash: `f9e1240f610ab639ad1e056c1a793aa545b10528109c236068f3016e1013d888`
 
 ## Build
 
-- Dataset version: `phase2b-2026-08-13-rc3`
+- Dataset version: `phase2b-2026-08-14-rc4`
 - Card schema: `0.4`
-- Editorial policy: `0.3-rc2`
-- Built: 2026-08-13T05:50:58.991012+00:00
+- Editorial policy: `0.4-rc4`
+- Built: 2026-08-13T10:52:47.483880+00:00

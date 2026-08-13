@@ -91,12 +91,12 @@
     {
       "capability": "latest_acnc_ais",
       "status": "observed",
-      "source_record_id": null,
+      "source_record_id": "src:acnc-ais-detail:34204136113:c5e4a42e-2753-f111-bec7-002248111f49:cb_15bd5a8d5281481fb7bee938cde4fc4c",
       "evidence_ids": [
-        "ev:acnc:ais:34204136113:2025"
+        "ev:acnc:ais:34204136113:c5e4a42e-2753-f111-bec7-002248111f49"
       ],
       "observed_at": "2026-05-19",
-      "freshness_note": "Latest submitted ACNC AIS in the 2026-08-13 public-profile acquisition: 2025."
+      "freshness_note": "Latest submitted AIS detail acquired from the public ACNC entity endpoint."
     }
   ],
   "enrichment_level": "enriched",
@@ -105,32 +105,28 @@
     "Northern Territory",
     "Australia"
   ],
-  "navigation_geography": [
+  "geography_observations": [
     {
-      "level": "country",
-      "code": "AU",
-      "label": "Australia",
-      "evidence_ids": [
-        "ev:acnc:34204136113"
-      ]
+      "value": "Northern Territory",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
     },
     {
-      "level": "state_territory",
-      "code": "AU-NT",
-      "label": "Northern Territory",
-      "evidence_ids": [
-        "ev:acnc:34204136113"
-      ]
+      "value": "Australia",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
     }
   ],
-  "causebase_summary": "Alice Springs Child Centre Inc is a registered charitable entity operating in the Northern Territory, Australia. CauseBase holds its ACNC registration record and an Annual Information Statement covering 1 July 2022 to 30 June 2023. This release does not include a website, a self-description of purpose, or documents that describe specific programs, services or target groups. CauseBase does not have sufficient descriptive evidence in this release to independently identify specific activities or beneficiaries for Alice Springs Child Centre Inc. Financial reporting items are present in the 2022–23 AIS record but are not summarised here. Additional descriptive sources would be required to state what services the organisation delivers, who they serve, or how people can participate.",
-  "summary_evidence_ids": [
-    "ev:acnc:34204136113",
-    "ev:ais:34204136113:2023"
-  ],
+  "navigation_geography": [],
+  "causebase_summary": "Alice Springs Child Centre Inc is recorded on the Australian Charities and Not-for-profits Commission (ACNC) register. The organisation’s ACNC Annual Information Statement for the year 01/07/2022 to 30/06/2023 was provided as the financial source. That report shows revenue of AUD 1,042,528 and total expenses of AUD 1,066,873 for the reporting year; the AIS entry is attributed as a direct subject report and not consolidated. The ACNC extract and the AIS are the only supplied sources; no website, program descriptions, stated beneficiaries or activities were provided in the supplied evidence. The record lists the organisation’s structured geography as Northern Territory. Other operational or programmatic details, including staff, volunteers, service types or locations within the Territory, are not available in the provided extracts.",
+  "summary_evidence_ids": [],
   "organisation_self_description": null,
   "activities": [],
+  "activity_observations": [],
   "beneficiaries": [],
+  "beneficiary_observations": [],
   "participation_modes": [],
   "participation_observations": [],
   "opportunities": [],
@@ -150,82 +146,23 @@
       "reporting_period": "2025",
       "source_url": "https://www.acnc.gov.au/charity/charities/302f88a1-38af-e811-a960-000d3ad24282/documents/c5e4a42e-2753-f111-bec7-002248111f49",
       "evidence_ids": [
-        "ev:acnc:ais:34204136113:2025"
+        "ev:acnc:ais:34204136113:c5e4a42e-2753-f111-bec7-002248111f49"
       ]
     }
   ],
   "source_native_records": [
     {
-      "source_record_id": "src:acnc-register:f1256e2d-87d6-5a08-8340-116ca4fa78aa",
-      "source_family": "acnc-register",
-      "dataset_version": "2026-08-10",
-      "source_url": "https://www.acnc.gov.au/charity/charities?search=34204136113",
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "ABN": "34204136113",
-        "Legal Name": "Alice Springs Child Centre Inc",
-        "Registration Status": "registered",
-        "ACNC classifications": "education; regional remote",
-        "Website": null,
-        "ACNC registration ID": null,
-        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "ABN": "external_identifiers",
-        "Legal Name": "legal_name",
-        "Registration Status": "registrations"
-      },
-      "evidence_ids": [
-        "ev:acnc:34204136113"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-ais:fr:ais:cb_15bd5a8d5281481fb7bee938cde4fc4c:2023",
-      "source_family": "acnc-ais",
-      "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": "2022-07-01",
-      "effective_to": "2023-06-30",
-      "source_fields": {
-        "Reporting period": "01/07/2022 to 30/06/2023",
-        "Reporting scope": "subject",
-        "Consolidated": "false",
-        "Revenue": "1042528",
-        "Donations and bequests": null,
-        "Government grants": null,
-        "Total expenses": "1066873",
-        "Assets": null,
-        "Liabilities": null
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "Revenue": "financial_records[].revenue",
-        "Total expenses": "financial_records[].total_expenses"
-      },
-      "evidence_ids": [
-        "ev:ais:34204136113:2023"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-public-profile:34204136113:cb_15bd5a8d5281481fb7bee938cde4fc4c:2026-08-13",
+      "source_record_id": "src:acnc-public-profile:34204136113:302f88a1-38af-e811-a960-000d3ad24282:cb_15bd5a8d5281481fb7bee938cde4fc4c",
       "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-13-public-api",
+      "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/302f88a1-38af-e811-a960-000d3ad24282/profile",
-      "retrieved_at": "2026-08-13T05:50:58.991012Z",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
       "observed_at": "2026-05-19",
       "effective_from": null,
       "effective_to": null,
       "source_fields": {
         "uuid": "302f88a1-38af-e811-a960-000d3ad24282",
-        "abn": "34204136113",
-        "latest_ais_year": "2025",
-        "latest_ais_uuid": "c5e4a42e-2753-f111-bec7-002248111f49"
+        "abn": "34204136113"
       },
       "source_payload": {
         "data": {
@@ -868,13 +805,296 @@
         "uuid": "302f88a1-38af-e811-a960-000d3ad24282"
       },
       "canonical_field_mappings": {
-        "data.Name": "display_name",
         "data.OtherNames": "operating_names",
-        "data.AnnualReports": "acnc_ais_url",
-        "data.Programs": "programs"
+        "data.AddressStateOrProvince": "principal_location"
+      },
+      "evidence_ids": []
+    },
+    {
+      "source_record_id": "src:acnc-ais-detail:34204136113:c5e4a42e-2753-f111-bec7-002248111f49:cb_15bd5a8d5281481fb7bee938cde4fc4c",
+      "source_family": "acnc-ais-detail",
+      "dataset_version": "2026-08-14-public-api",
+      "source_url": "https://www.acnc.gov.au/charity/charities/302f88a1-38af-e811-a960-000d3ad24282/documents/c5e4a42e-2753-f111-bec7-002248111f49",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
+      "observed_at": "2026-05-19",
+      "effective_from": null,
+      "effective_to": null,
+      "source_fields": {
+        "abn": "34204136113",
+        "ais_uuid": "c5e4a42e-2753-f111-bec7-002248111f49",
+        "year": "2025",
+        "date_received": "2026-05-19T02:05:25.0000000Z"
+      },
+      "source_payload": {
+        "data": {
+          "Abn": "34204136113",
+          "ActivityAdvocacyNCivic": false,
+          "ActivityAgedCare": false,
+          "ActivityAnimalProtection": false,
+          "ActivityCultureAndArt": false,
+          "ActivityEconomicSocialCommunity": false,
+          "ActivityEmergencyNRelief": false,
+          "ActivityEmploymentNTraining": false,
+          "ActivityEnvironmental": false,
+          "ActivityGrantMaking": false,
+          "ActivityHealthRehabilitation": false,
+          "ActivityHigherEducation": false,
+          "ActivityHousing": false,
+          "ActivityIncomeSupportNMaintenance": false,
+          "ActivityInternational": false,
+          "ActivityInternationalDescription": null,
+          "ActivityInternationalOther": false,
+          "ActivityInternationalOtherDescription": null,
+          "ActivityLawNLegalServices": false,
+          "ActivityMain": null,
+          "ActivityMentalHealthCrisisIntervention": false,
+          "ActivityNdisSupported": null,
+          "ActivityNdisSupportedNext": null,
+          "ActivityOperating": true,
+          "ActivityOperatingOverseas": false,
+          "ActivityOther": false,
+          "ActivityOtherDescription": null,
+          "ActivityOtherEducation": false,
+          "ActivityOtherHealthServices": false,
+          "ActivityPersuitPurposesDescription": "We operated a not for profit childcare centre in Alice Springs.",
+          "ActivityPhilanthropicPromotion": false,
+          "ActivityPolitical": false,
+          "ActivityPrimarySecondaryEducation": false,
+          "ActivityPurposeChange": null,
+          "ActivityPurposeChangeDescription": null,
+          "ActivityRecreationSocialClub": false,
+          "ActivityReligious": false,
+          "ActivityResearch": false,
+          "ActivitySocialServices": false,
+          "ActivitySports": false,
+          "ActivityTransferringFundsGoods": false,
+          "AdvancementOfEducation": false,
+          "AdvancementOfReligion": false,
+          "AssetsandLiabilitiesDescription": null,
+          "BasicReligiousCharity": false,
+          "BeneficiaryAboriginalTorres": false,
+          "BeneficiaryAdults": false,
+          "BeneficiaryAllAges": false,
+          "BeneficiaryChildren": false,
+          "BeneficiaryChronicIllness": false,
+          "BeneficiaryCrimeVictims": false,
+          "BeneficiaryDisasterVictims": false,
+          "BeneficiaryEarlyChildhood": false,
+          "BeneficiaryEthnic": false,
+          "BeneficiaryFamilies": false,
+          "BeneficiaryFinanciallyDisadvantaged": false,
+          "BeneficiaryGeneral": false,
+          "BeneficiaryHomelessnessRisk": false,
+          "BeneficiaryLGBT": false,
+          "BeneficiaryMain": null,
+          "BeneficiaryMen": false,
+          "BeneficiaryMigrantsRefugees": false,
+          "BeneficiaryOffenderFamilies": false,
+          "BeneficiaryOther": false,
+          "BeneficiaryOtherCharities": false,
+          "BeneficiaryOtherDescription": null,
+          "BeneficiaryOverseas": false,
+          "BeneficiaryPeopleWithDisability": false,
+          "BeneficiaryRuralRegionalRemote": false,
+          "BeneficiarySeniors": false,
+          "BeneficiaryUnemployed": false,
+          "BeneficiaryVeteranFamilies": false,
+          "BeneficiaryWomen": false,
+          "BeneficiaryYouth": false,
+          "CharityAddressCountry": "Australia",
+          "CharityAddressLine1": "Alice Springs Child Care Ctr",
+          "CharityAddressLine2": null,
+          "CharityAddressPostalCode": "0870",
+          "CharityAddressStateOrProvince": "NT",
+          "CharityAddressSuburb": "Alice Springs",
+          "CharityEmail": "director@asccc.com.au",
+          "CharitySize": "Medium",
+          "CharityUuid": "302f88a1-38af-e811-a960-000d3ad24282",
+          "ChildCareServices": false,
+          "ExpenseEmployees": "887701.0000",
+          "ExpenseGrantDonationsInAustralia": "0.0000",
+          "ExpenseGrantDonationsOutsideAustralia": "0.0000",
+          "ExpenseTotal": "1129940.0000",
+          "ExpensesOther": "242239.0000",
+          "FinAccrualAccounting": null,
+          "FinConsolidatedReportFromMiltiple": "No",
+          "FinDocumentedPoliciesRelatedPartyTransactions": null,
+          "FinFyeJune": false,
+          "FinProvideVoluntarily": null,
+          "FinRelatedPartyTransactions": "No",
+          "FinReportACT": false,
+          "FinReportFrom": "2024-07-01T00:00:00.0000000Z",
+          "FinReportNSW": false,
+          "FinReportNT": false,
+          "FinReportQLD": false,
+          "FinReportSA": false,
+          "FinReportTAS": false,
+          "FinReportTo": "2025-06-30T00:00:00.0000000Z",
+          "FinReportVIC": false,
+          "FinReportWA": false,
+          "FinReportingType": "General purpose financial statements",
+          "FinSapDate": null,
+          "FundRaisingNumberACT": null,
+          "FundRaisingNumberNSW": null,
+          "FundRaisingNumberQLD": null,
+          "FundRaisingNumberSA": null,
+          "FundRaisingNumberTAS": null,
+          "FundRaisingNumberVIC": null,
+          "FundRaisingNumberWA": null,
+          "GovDocAccurate": null,
+          "GrantCapacityBuildingPct": null,
+          "GrantMultiYearPct": null,
+          "GrantPublicOpenApplicationPct": null,
+          "GrantRuralRegionPct": null,
+          "HasSubmittedToRegulator": false,
+          "HoursPaid": null,
+          "HoursTotal": null,
+          "HoursVolunteer": null,
+          "HrCasualEmployees": "2",
+          "HrFteStaff": "48.8600000000",
+          "HrFullTimeEmployees": "9",
+          "HrPartTimeEmployees": "1",
+          "HrUnpainVolunteers": "0",
+          "IncomeDonationsBequests": "0.0000",
+          "IncomeGovernmentGrants": "15732.0000",
+          "IncomeOther": "0.0000",
+          "IncomeOtherComprehinsive": "0.0000",
+          "IncomeOtherNeg": null,
+          "IncomeOtherReceipts": "0.0000",
+          "IncomeTotalComprehensive": "-15318.0000",
+          "IncomeTotalReceipts": "1114622.0000",
+          "IncorporationStatus": null,
+          "InterestExpense": "0.0000",
+          "IsIncorporatedAssociation": true,
+          "KeyManagementPersonnel": false,
+          "LegalName": "Alice Springs Child Centre Inc",
+          "NetAssetsLiabilities": "630273.0000",
+          "NetSurplusDeficit": "-15318.0000",
+          "NonCurrentLoansPayable": "0.0000",
+          "NumberOfKeyManagementPersonnel": "0",
+          "OperatingCountries": null,
+          "OperatingInACT": false,
+          "OperatingInNSW": false,
+          "OperatingInNT": false,
+          "OperatingInQLD": false,
+          "OperatingInSA": false,
+          "OperatingInTAS": false,
+          "OperatingInVIC": false,
+          "OperatingInWA": false,
+          "OperatingOverseas": false,
+          "OtherNames": [],
+          "OtherNonCurrentAssets": "0.0000",
+          "OtherNonCurrentLiabilities": "0.0000",
+          "OtherPurposeDescription": null,
+          "OtherPurposes": "False",
+          "Programs": [
+            {
+              "AisUuid": "c5e4a42e-2753-f111-bec7-002248111f49",
+              "Name": "Alice Springs Child Care Centre Inc.",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Early childhood - aged under 6",
+                "People in rural/regional/remote communities"
+              ],
+              "ProgramClassification": "Early childhood education",
+              "ProgramClassificationID": "201",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Alice Springs NT, Australia",
+                  "FormattedAddress": "Alice Springs NT, Australia",
+                  "Marker": {
+                    "Latitude": -23.698042,
+                    "Longitude": 133.8807471
+                  },
+                  "Name": "Alice Springs",
+                  "uuid": "e3e4a42e-2753-f111-bec7-002248111f49"
+                }
+              ],
+              "ProgramWeblink": null,
+              "uuid": "dde4a42e-2753-f111-bec7-002248111f49"
+            }
+          ],
+          "RegulatedACT": false,
+          "RegulatedNSW": false,
+          "RegulatedNT": false,
+          "RegulatedQLD": false,
+          "RegulatedSA": false,
+          "RegulatedTAS": false,
+          "RegulatedVIC": false,
+          "RegulatedWA": false,
+          "Regulator": null,
+          "RegulatorAGMDateACT": null,
+          "RegulatorAGMDateNT": "2025-11-20T00:00:00.0000000",
+          "RegulatorAGMDateVIC": null,
+          "RegulatorAGMDateWA": null,
+          "RegulatorFundRaising": "Yes",
+          "RegulatorFundRaisingACT": false,
+          "RegulatorFundRaisingNSW": false,
+          "RegulatorFundRaisingNT": true,
+          "RegulatorFundRaisingOnline": false,
+          "RegulatorFundRaisingQLD": false,
+          "RegulatorFundRaisingSA": false,
+          "RegulatorFundRaisingTAS": false,
+          "RegulatorFundRaisingVIC": false,
+          "RegulatorFundRaisingWA": false,
+          "RegulatorIncorporatedAssociationACT": false,
+          "RegulatorIncorporatedAssociationNSW": false,
+          "RegulatorIncorporatedAssociationNT": true,
+          "RegulatorIncorporatedAssociationNumberACT": null,
+          "RegulatorIncorporatedAssociationNumberNSW": null,
+          "RegulatorIncorporatedAssociationNumberNT": "00512C/IA",
+          "RegulatorIncorporatedAssociationNumberQLD": null,
+          "RegulatorIncorporatedAssociationNumberSA": null,
+          "RegulatorIncorporatedAssociationNumberTAS": null,
+          "RegulatorIncorporatedAssociationNumberVIC": null,
+          "RegulatorIncorporatedAssociationNumberWA": null,
+          "RegulatorIncorporatedAssociationQLD": false,
+          "RegulatorIncorporatedAssociationSA": false,
+          "RegulatorIncorporatedAssociationTAS": false,
+          "RegulatorIncorporatedAssociationVIC": false,
+          "RegulatorIncorporatedAssociationWA": false,
+          "RegulatorMetRequirementACT": false,
+          "RegulatorMetRequirementWA": null,
+          "RegulatorOtherDetails": null,
+          "RegulatorPrograms": null,
+          "RegulatorStates": false,
+          "RelatedPartyDetails": null,
+          "RelatedPartyTransactions": [],
+          "ReliefOfPoverty": false,
+          "ReportingGroupFlag": false,
+          "ResponsiblePersonAccurate": null,
+          "RevenueGoodsServices": "1078399.0000",
+          "RevenueInvestments": "20491.0000",
+          "RevenueTotal": "1114622.0000",
+          "StatementYear": "2025",
+          "SubTypesAccurate": null,
+          "TotalAssets": "780896.0000",
+          "TotalCurrentAssets": "616652.0000",
+          "TotalCurrentLiabilities": "39715.0000",
+          "TotalLiabilities": "150623.0000",
+          "TotalNonCurrentAssets": "164244.0000",
+          "TotalNonCurrentLiabilities": "110908.0000",
+          "TotalNonCurrentLoansReceivable": "0.0000",
+          "TotalPaidKMP": "$0.00",
+          "Website": null,
+          "__normalized": true,
+          "entityTypeVersion": "",
+          "entityVersion": "1932000162",
+          "timeStamp": "2026-05-19T02:05:23.0000000Z",
+          "type": "annual_information_statement",
+          "uuid": "c5e4a42e-2753-f111-bec7-002248111f49"
+        },
+        "type": "annual_information_statement",
+        "uuid": "c5e4a42e-2753-f111-bec7-002248111f49"
+      },
+      "canonical_field_mappings": {
+        "data.Programs": "programs",
+        "data.TotalRevenue": "financial_records[].revenue",
+        "data.TotalExpenses": "financial_records[].total_expenses"
       },
       "evidence_ids": [
-        "ev:acnc:ais:34204136113:2025"
+        "ev:acnc:ais:34204136113:c5e4a42e-2753-f111-bec7-002248111f49"
       ]
     }
   ],
@@ -923,9 +1143,12 @@
       },
       "assets": null,
       "liabilities": null,
+      "net_assets": null,
       "income_breakdown": [],
       "expense_breakdown": [],
-      "balance_sheet_breakdown": []
+      "balance_sheet_breakdown": [],
+      "source_ordered_line_items": [],
+      "statements": []
     }
   ],
   "financial_metrics": [
@@ -1049,13 +1272,13 @@
       "content_hash": null
     },
     {
-      "evidence_id": "ev:acnc:ais:34204136113:2025",
+      "evidence_id": "ev:acnc:ais:34204136113:c5e4a42e-2753-f111-bec7-002248111f49",
       "source_type": "regulatory",
-      "title": "Alice Springs Child Centre Inc Annual Information Statement 2025",
+      "title": "ACNC Annual Information Statement 2025",
       "publisher": "Australian Charities and Not-for-profits Commission",
       "url": "https://www.acnc.gov.au/charity/charities/302f88a1-38af-e811-a960-000d3ad24282/documents/c5e4a42e-2753-f111-bec7-002248111f49",
       "observed_at": "2026-05-19",
-      "reporting_period": null,
+      "reporting_period": "2025",
       "page": null,
       "section": null,
       "content_hash": null
@@ -1067,81 +1290,25 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "e5e7749066e3eae98b2db081edf03930977e4581441f28cb09083b43a516da66",
-    "generated_at": "2026-08-13T05:51:03.018006Z",
+    "source_text_hash": "0adb70ab9460dc6c9d2cbd4f32dc1e9e96cbcfef4991463febb700a48d09238e",
+    "generated_at": "2026-08-10T13:53:24.457571Z",
     "vector_ref": "embeddings.parquet#cb_15bd5a8d5281481fb7bee938cde4fc4c"
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
+    "prompt_version": "phase2a-0.4",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "cbbae9688f59dd8c4deb28a09720ce4bc213d1cad499ef31bb9de45bec74a72f",
-    "generated_at": "2026-08-12T14:09:35.282887Z",
+    "evidence_input_hash": "3f2cd4f74288aa34f3dddaa4b41ef40cf8c980aba292b199afce199aa763ff36",
+    "generated_at": "2026-08-10T12:57:31.608871Z",
     "editorial_policy_version": "0.1"
   },
-  "derivative_assessments": [
-    {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T14:09:35.282887Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-rc2-editorial-migration",
-      "input_hash": "cbbae9688f59dd8c4deb28a09720ce4bc213d1cad499ef31bb9de45bec74a72f",
-      "disposition": "refreshed",
-      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "taxonomy",
-      "generated_at": "2026-08-12T14:09:35.282887Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "cbbae9688f59dd8c4deb28a09720ce4bc213d1cad499ef31bb9de45bec74a72f",
-      "disposition": "reused",
-      "reason": "No new supported canonical classification facts.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "fundraising",
-      "generated_at": null,
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "cbbae9688f59dd8c4deb28a09720ce4bc213d1cad499ef31bb9de45bec74a72f",
-      "disposition": "reused",
-      "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "embedding",
-      "generated_at": "2026-08-10T13:53:24.457571Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "0adb70ab9460dc6c9d2cbd4f32dc1e9e96cbcfef4991463febb700a48d09238e",
-      "disposition": "reused",
-      "reason": "Semantic source text unchanged.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "similarities",
-      "generated_at": "2026-08-10T13:53:24.457571Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "0adb70ab9460dc6c9d2cbd4f32dc1e9e96cbcfef4991463febb700a48d09238e",
-      "disposition": "reused",
-      "reason": "Embedding reused; semantic neighbours retained.",
-      "affected_dimensions": []
-    }
-  ],
-  "dataset_version": "phase2b-2026-08-13-rc3",
+  "derivative_assessments": [],
+  "dataset_version": "phase2b-2026-08-14-rc4",
   "card_schema_version": "0.4",
-  "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T05:50:58.991012Z"
+  "editorial_policy_version": "0.4-rc4",
+  "generator_version": "0.5.0-rc4",
+  "built_at": "2026-08-13T10:52:47.483880Z"
 }

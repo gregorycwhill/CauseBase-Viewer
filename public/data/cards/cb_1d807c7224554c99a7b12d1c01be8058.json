@@ -63,14 +63,6 @@
       "freshness_note": null
     },
     {
-      "capability": "website",
-      "status": "retrieval_failed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
       "capability": "fundraising_expenditure",
       "status": "not_available_from_source",
       "source_record_id": null,
@@ -91,12 +83,20 @@
     {
       "capability": "latest_acnc_ais",
       "status": "observed",
-      "source_record_id": null,
+      "source_record_id": "src:acnc-ais-detail:50798979881:4cafc6dc-614f-f011-877b-6045bdc235e4:cb_1d807c7224554c99a7b12d1c01be8058",
       "evidence_ids": [
-        "ev:acnc:ais:50798979881:2024"
+        "ev:acnc:ais:50798979881:4cafc6dc-614f-f011-877b-6045bdc235e4"
       ],
       "observed_at": "2025-06-22",
-      "freshness_note": "Latest submitted ACNC AIS in the 2026-08-13 public-profile acquisition: 2024."
+      "freshness_note": "Latest submitted AIS detail acquired from the public ACNC entity endpoint."
+    },
+    {
+      "capability": "website",
+      "status": "observed",
+      "source_record_id": null,
+      "evidence_ids": [],
+      "observed_at": "2026-08-13",
+      "freshness_note": "Public website locator acquired from the ACNC profile."
     }
   ],
   "enrichment_level": "enriched",
@@ -104,32 +104,22 @@
   "geography": [
     "Australian Capital Territory (ACT)"
   ],
-  "navigation_geography": [
+  "geography_observations": [
     {
-      "level": "country",
-      "code": "AU",
-      "label": "Australia",
-      "evidence_ids": [
-        "ev:acnc:50798979881"
-      ]
-    },
-    {
-      "level": "state_territory",
-      "code": "AU-ACT",
-      "label": "Australian Capital Territory",
-      "evidence_ids": [
-        "ev:acnc:50798979881"
-      ]
+      "value": "Australian Capital Territory (ACT)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
     }
   ],
-  "causebase_summary": "Backyard Ministries Incorporated is a registered charity located in the Australian Capital Territory. The organisation appears on the Australian Charities and Not‑for‑profits Commission register and lodged an Annual Information Statement covering the year 1 July 2022 to 30 June 2023. CauseBase does not have sufficient descriptive evidence in this release to independently identify the organisation's specific activities, programs or intended beneficiaries. Additional public materials (for example a website, published annual report or program descriptions) would be needed to describe the concrete work Backyard Ministries undertakes and who it serves.",
-  "summary_evidence_ids": [
-    "ev:acnc:50798979881",
-    "ev:ais:50798979881:2023"
-  ],
+  "navigation_geography": [],
+  "causebase_summary": "Backyard Ministries Incorporated is registered with the Australian Charities and Not-for-profits Commission under the legal and display name Backyard Ministries Incorporated and is recorded as operating in the Australian Capital Territory (ACT). The available ACNC Annual Information Statement for the reporting year 01/07/2022 to 30/06/2023 shows total revenue of AUD 129,198 and total expenses of AUD 103,761 for that period. The AIS extract and ACNC register entry provide these financial figures but do not describe programs, services, specific activities, or beneficiary groups. The organisation’s website retrieval was recorded as failed in the evidence pack, and no annual report or other descriptive material was processed. The AIS extract does not indicate whether the financial figures are consolidated with other entities. The public regulatory records in the evidence pack therefore identify the organisation’s name, location (ACT) and high-level financials for 2022–23 but do not supply concrete information about what the organisation does, who it serves, or how people can take part in its work.",
+  "summary_evidence_ids": [],
   "organisation_self_description": null,
   "activities": [],
+  "activity_observations": [],
   "beneficiaries": [],
+  "beneficiary_observations": [],
   "participation_modes": [],
   "participation_observations": [],
   "opportunities": [],
@@ -157,7 +147,7 @@
       "reporting_period": "2024",
       "source_url": "www.zoom/us.com",
       "evidence_ids": [
-        "ev:acnc:ais:50798979881:2024"
+        "ev:acnc:ais:50798979881:4cafc6dc-614f-f011-877b-6045bdc235e4"
       ]
     },
     {
@@ -181,82 +171,23 @@
       "reporting_period": "2024",
       "source_url": "https://www.acnc.gov.au/charity/charities/167fe4a8-38af-e811-a962-000d3ad24a0d/documents/4cafc6dc-614f-f011-877b-6045bdc235e4",
       "evidence_ids": [
-        "ev:acnc:ais:50798979881:2024"
+        "ev:acnc:ais:50798979881:4cafc6dc-614f-f011-877b-6045bdc235e4"
       ]
     }
   ],
   "source_native_records": [
     {
-      "source_record_id": "src:acnc-register:b59420a9-d175-5a00-b49a-1eb31cd8ab1e",
-      "source_family": "acnc-register",
-      "dataset_version": "2026-08-10",
-      "source_url": "https://www.acnc.gov.au/charity/charities?search=50798979881",
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "ABN": "50798979881",
-        "Legal Name": "Backyard Ministries Incorporated",
-        "Registration Status": "registered",
-        "ACNC classifications": "religion; older people",
-        "Website": "www.zoom/us.com",
-        "ACNC registration ID": null,
-        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "ABN": "external_identifiers",
-        "Legal Name": "legal_name",
-        "Registration Status": "registrations"
-      },
-      "evidence_ids": [
-        "ev:acnc:50798979881"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-ais:fr:ais:cb_1d807c7224554c99a7b12d1c01be8058:2023",
-      "source_family": "acnc-ais",
-      "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": "2022-07-01",
-      "effective_to": "2023-06-30",
-      "source_fields": {
-        "Reporting period": "01/07/2022 to 30/06/2023",
-        "Reporting scope": "subject",
-        "Consolidated": "unknown",
-        "Revenue": "129198",
-        "Donations and bequests": null,
-        "Government grants": null,
-        "Total expenses": "103761",
-        "Assets": null,
-        "Liabilities": null
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "Revenue": "financial_records[].revenue",
-        "Total expenses": "financial_records[].total_expenses"
-      },
-      "evidence_ids": [
-        "ev:ais:50798979881:2023"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-public-profile:50798979881:cb_1d807c7224554c99a7b12d1c01be8058:2026-08-13",
+      "source_record_id": "src:acnc-public-profile:50798979881:167fe4a8-38af-e811-a962-000d3ad24a0d:cb_1d807c7224554c99a7b12d1c01be8058",
       "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-13-public-api",
+      "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/167fe4a8-38af-e811-a962-000d3ad24a0d/profile",
-      "retrieved_at": "2026-08-13T05:50:58.991012Z",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
       "observed_at": "2025-06-22",
       "effective_from": null,
       "effective_to": null,
       "source_fields": {
         "uuid": "167fe4a8-38af-e811-a962-000d3ad24a0d",
-        "abn": "50798979881",
-        "latest_ais_year": "2024",
-        "latest_ais_uuid": "4cafc6dc-614f-f011-877b-6045bdc235e4"
+        "abn": "50798979881"
       },
       "source_payload": {
         "data": {
@@ -1016,13 +947,373 @@
         "uuid": "167fe4a8-38af-e811-a962-000d3ad24a0d"
       },
       "canonical_field_mappings": {
-        "data.Name": "display_name",
         "data.OtherNames": "operating_names",
-        "data.AnnualReports": "acnc_ais_url",
-        "data.Programs": "programs"
+        "data.AddressStateOrProvince": "principal_location"
+      },
+      "evidence_ids": []
+    },
+    {
+      "source_record_id": "src:acnc-ais-detail:50798979881:4cafc6dc-614f-f011-877b-6045bdc235e4:cb_1d807c7224554c99a7b12d1c01be8058",
+      "source_family": "acnc-ais-detail",
+      "dataset_version": "2026-08-14-public-api",
+      "source_url": "https://www.acnc.gov.au/charity/charities/167fe4a8-38af-e811-a962-000d3ad24a0d/documents/4cafc6dc-614f-f011-877b-6045bdc235e4",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
+      "observed_at": "2025-06-22",
+      "effective_from": null,
+      "effective_to": null,
+      "source_fields": {
+        "abn": "50798979881",
+        "ais_uuid": "4cafc6dc-614f-f011-877b-6045bdc235e4",
+        "year": "2024",
+        "date_received": "2025-06-22T12:10:25.0000000Z"
+      },
+      "source_payload": {
+        "data": {
+          "Abn": "50798979881",
+          "ActivityAdvocacyNCivic": false,
+          "ActivityAgedCare": false,
+          "ActivityAnimalProtection": false,
+          "ActivityCultureAndArt": false,
+          "ActivityEconomicSocialCommunity": false,
+          "ActivityEmergencyNRelief": false,
+          "ActivityEmploymentNTraining": false,
+          "ActivityEnvironmental": false,
+          "ActivityGrantMaking": false,
+          "ActivityHealthRehabilitation": false,
+          "ActivityHigherEducation": false,
+          "ActivityHousing": false,
+          "ActivityIncomeSupportNMaintenance": false,
+          "ActivityInternational": false,
+          "ActivityInternationalDescription": "Meeting/Networking to support individual leaders and groups of leaders in their work. Conducting information meetings and prayer and worship meetings.",
+          "ActivityInternationalOther": false,
+          "ActivityInternationalOtherDescription": null,
+          "ActivityLawNLegalServices": false,
+          "ActivityMain": null,
+          "ActivityMentalHealthCrisisIntervention": false,
+          "ActivityNdisSupported": null,
+          "ActivityNdisSupportedNext": null,
+          "ActivityOperating": true,
+          "ActivityOperatingOverseas": true,
+          "ActivityOther": false,
+          "ActivityOtherDescription": null,
+          "ActivityOtherEducation": false,
+          "ActivityOtherHealthServices": false,
+          "ActivityPersuitPurposesDescription": "We provide Christian networking and encouragement services to a wide range of Christian individuals, groups and organizations.  We provide Christian pastoral support to churches and Christian organizations, as well as worship leading, facilitating and coaching.  Provide home church structure and meetings. Preaching",
+          "ActivityPhilanthropicPromotion": false,
+          "ActivityPolitical": false,
+          "ActivityPrimarySecondaryEducation": false,
+          "ActivityPurposeChange": null,
+          "ActivityPurposeChangeDescription": null,
+          "ActivityRecreationSocialClub": false,
+          "ActivityReligious": false,
+          "ActivityResearch": false,
+          "ActivitySocialServices": false,
+          "ActivitySports": false,
+          "ActivityTransferringFundsGoods": false,
+          "AdvancementOfEducation": false,
+          "AdvancementOfReligion": false,
+          "AssetsandLiabilitiesDescription": null,
+          "BasicReligiousCharity": false,
+          "BeneficiaryAboriginalTorres": false,
+          "BeneficiaryAdults": false,
+          "BeneficiaryAllAges": false,
+          "BeneficiaryChildren": false,
+          "BeneficiaryChronicIllness": false,
+          "BeneficiaryCrimeVictims": false,
+          "BeneficiaryDisasterVictims": false,
+          "BeneficiaryEarlyChildhood": false,
+          "BeneficiaryEthnic": false,
+          "BeneficiaryFamilies": false,
+          "BeneficiaryFinanciallyDisadvantaged": false,
+          "BeneficiaryGeneral": false,
+          "BeneficiaryHomelessnessRisk": false,
+          "BeneficiaryLGBT": false,
+          "BeneficiaryMain": null,
+          "BeneficiaryMen": false,
+          "BeneficiaryMigrantsRefugees": false,
+          "BeneficiaryOffenderFamilies": false,
+          "BeneficiaryOther": false,
+          "BeneficiaryOtherCharities": false,
+          "BeneficiaryOtherDescription": null,
+          "BeneficiaryOverseas": false,
+          "BeneficiaryPeopleWithDisability": false,
+          "BeneficiaryRuralRegionalRemote": false,
+          "BeneficiarySeniors": false,
+          "BeneficiaryUnemployed": false,
+          "BeneficiaryVeteranFamilies": false,
+          "BeneficiaryWomen": false,
+          "BeneficiaryYouth": false,
+          "CharityAddressCountry": "Australia",
+          "CharityAddressLine1": "145 Paul Coe Cres",
+          "CharityAddressLine2": null,
+          "CharityAddressPostalCode": "2913",
+          "CharityAddressStateOrProvince": "ACT",
+          "CharityAddressSuburb": "Ngunnawal",
+          "CharityEmail": "53mickbrown@gmail.org",
+          "CharitySize": "Small",
+          "CharityUuid": "167fe4a8-38af-e811-a962-000d3ad24a0d",
+          "ChildCareServices": false,
+          "ExpenseEmployees": "0.0000",
+          "ExpenseGrantDonationsInAustralia": "8300.0000",
+          "ExpenseGrantDonationsOutsideAustralia": "1404.0000",
+          "ExpenseTotal": "59639.0000",
+          "ExpensesOther": "49935.0000",
+          "FinAccrualAccounting": "Cash",
+          "FinConsolidatedReportFromMiltiple": null,
+          "FinDocumentedPoliciesRelatedPartyTransactions": null,
+          "FinFyeJune": false,
+          "FinProvideVoluntarily": null,
+          "FinRelatedPartyTransactions": "No",
+          "FinReportACT": false,
+          "FinReportFrom": "2023-07-01T00:00:00.0000000Z",
+          "FinReportNSW": false,
+          "FinReportNT": false,
+          "FinReportQLD": false,
+          "FinReportSA": false,
+          "FinReportTAS": false,
+          "FinReportTo": "2024-06-30T00:00:00.0000000Z",
+          "FinReportVIC": false,
+          "FinReportWA": false,
+          "FinReportingType": null,
+          "FinSapDate": null,
+          "FundRaisingNumberACT": null,
+          "FundRaisingNumberNSW": null,
+          "FundRaisingNumberQLD": null,
+          "FundRaisingNumberSA": null,
+          "FundRaisingNumberTAS": null,
+          "FundRaisingNumberVIC": null,
+          "FundRaisingNumberWA": null,
+          "GovDocAccurate": null,
+          "GrantCapacityBuildingPct": null,
+          "GrantMultiYearPct": null,
+          "GrantPublicOpenApplicationPct": null,
+          "GrantRuralRegionPct": null,
+          "HasSubmittedToRegulator": false,
+          "HoursPaid": null,
+          "HoursTotal": null,
+          "HoursVolunteer": null,
+          "HrCasualEmployees": "0",
+          "HrFteStaff": "0.0000000000",
+          "HrFullTimeEmployees": "0",
+          "HrPartTimeEmployees": "0",
+          "HrUnpainVolunteers": "4",
+          "IncomeDonationsBequests": "20181.0000",
+          "IncomeGovernmentGrants": "0.0000",
+          "IncomeOther": "0.0000",
+          "IncomeOtherComprehinsive": "0.0000",
+          "IncomeOtherNeg": null,
+          "IncomeOtherReceipts": "0.0000",
+          "IncomeTotalComprehensive": "0.0000",
+          "IncomeTotalReceipts": "31530.0000",
+          "IncorporationStatus": null,
+          "InterestExpense": "0.0000",
+          "IsIncorporatedAssociation": true,
+          "KeyManagementPersonnel": false,
+          "LegalName": "Backyard Ministries Incorporated",
+          "NetAssetsLiabilities": "29862.0000",
+          "NetSurplusDeficit": "-28109.0000",
+          "NonCurrentLoansPayable": "0.0000",
+          "NumberOfKeyManagementPersonnel": "0",
+          "OperatingCountries": null,
+          "OperatingInACT": false,
+          "OperatingInNSW": false,
+          "OperatingInNT": false,
+          "OperatingInQLD": false,
+          "OperatingInSA": false,
+          "OperatingInTAS": false,
+          "OperatingInVIC": false,
+          "OperatingInWA": false,
+          "OperatingOverseas": false,
+          "OtherNames": [],
+          "OtherNonCurrentAssets": "0.0000",
+          "OtherNonCurrentLiabilities": "0.0000",
+          "OtherPurposeDescription": null,
+          "OtherPurposes": "False",
+          "Programs": [
+            {
+              "AisUuid": "4cafc6dc-614f-f011-877b-6045bdc235e4",
+              "Name": "Prayer Meetings",
+              "OperatesOnline": true,
+              "ProgramBeneficiaries": [
+                "Adults - aged 25 to under 65",
+                "Families",
+                "Aboriginal and Torres Strait Islander people",
+                "People from a culturally and linguistically diverse background",
+                "People in rural/regional/remote communities",
+                "Overseas communities or charities",
+                "General community in Australia"
+              ],
+              "ProgramClassification": "Christianity",
+              "ProgramClassificationID": "741",
+              "ProgramCountries": [
+                "Fiji",
+                "Malawi",
+                "Singapore",
+                "United States of America"
+              ],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Queensland, Australia",
+                  "FormattedAddress": "Queensland, Australia",
+                  "Marker": {
+                    "Latitude": -22.575197,
+                    "Longitude": 144.0847926
+                  },
+                  "Name": "Queensland",
+                  "uuid": "76afc6dc-614f-f011-877b-6045bdc235e4"
+                },
+                {
+                  "DisplayName": "Victoria, Australia",
+                  "FormattedAddress": "Victoria, Australia",
+                  "Marker": {
+                    "Latitude": -36.9847807,
+                    "Longitude": 143.3906074
+                  },
+                  "Name": "Victoria",
+                  "uuid": "78afc6dc-614f-f011-877b-6045bdc235e4"
+                },
+                {
+                  "DisplayName": "Australian Capital Territory, Australia",
+                  "FormattedAddress": "Australian Capital Territory, Australia",
+                  "Marker": {
+                    "Latitude": -35.4734679,
+                    "Longitude": 149.0123679
+                  },
+                  "Name": "Australian Capital Territory",
+                  "uuid": "7aafc6dc-614f-f011-877b-6045bdc235e4"
+                },
+                {
+                  "DisplayName": "New South Wales, Australia",
+                  "FormattedAddress": "New South Wales, Australia",
+                  "Marker": {
+                    "Latitude": -31.2532183,
+                    "Longitude": 146.921099
+                  },
+                  "Name": "New South Wales",
+                  "uuid": "7cafc6dc-614f-f011-877b-6045bdc235e4"
+                }
+              ],
+              "ProgramWeblink": "www.zoom/us.com",
+              "uuid": "6bafc6dc-614f-f011-877b-6045bdc235e4"
+            },
+            {
+              "AisUuid": "4cafc6dc-614f-f011-877b-6045bdc235e4",
+              "Name": "Christian Leader Mentoring and Support",
+              "OperatesOnline": true,
+              "ProgramBeneficiaries": [
+                "Adults - aged 25 to under 65",
+                "Adults - aged 65 and over",
+                "Families",
+                "Aboriginal and Torres Strait Islander people",
+                "People from a culturally and linguistically diverse background",
+                "People in rural/regional/remote communities",
+                "Overseas communities or charities",
+                "General community in Australia"
+              ],
+              "ProgramClassification": "Christianity",
+              "ProgramClassificationID": "741",
+              "ProgramCountries": [
+                "Fiji",
+                "Malawi",
+                "Singapore",
+                "United States of America"
+              ],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Australia",
+                  "FormattedAddress": null,
+                  "Marker": {
+                    "Latitude": 0,
+                    "Longitude": 0
+                  },
+                  "Name": null,
+                  "uuid": "8aafc6dc-614f-f011-877b-6045bdc235e4"
+                }
+              ],
+              "ProgramWeblink": null,
+              "uuid": "7eafc6dc-614f-f011-877b-6045bdc235e4"
+            }
+          ],
+          "RegulatedACT": false,
+          "RegulatedNSW": false,
+          "RegulatedNT": false,
+          "RegulatedQLD": false,
+          "RegulatedSA": false,
+          "RegulatedTAS": false,
+          "RegulatedVIC": false,
+          "RegulatedWA": false,
+          "Regulator": null,
+          "RegulatorAGMDateACT": "2024-12-19T00:00:00.0000000Z",
+          "RegulatorAGMDateNT": null,
+          "RegulatorAGMDateVIC": null,
+          "RegulatorAGMDateWA": null,
+          "RegulatorFundRaising": "No",
+          "RegulatorFundRaisingACT": false,
+          "RegulatorFundRaisingNSW": false,
+          "RegulatorFundRaisingNT": false,
+          "RegulatorFundRaisingOnline": false,
+          "RegulatorFundRaisingQLD": false,
+          "RegulatorFundRaisingSA": false,
+          "RegulatorFundRaisingTAS": false,
+          "RegulatorFundRaisingVIC": false,
+          "RegulatorFundRaisingWA": false,
+          "RegulatorIncorporatedAssociationACT": true,
+          "RegulatorIncorporatedAssociationNSW": false,
+          "RegulatorIncorporatedAssociationNT": false,
+          "RegulatorIncorporatedAssociationNumberACT": "A04499",
+          "RegulatorIncorporatedAssociationNumberNSW": null,
+          "RegulatorIncorporatedAssociationNumberNT": null,
+          "RegulatorIncorporatedAssociationNumberQLD": null,
+          "RegulatorIncorporatedAssociationNumberSA": null,
+          "RegulatorIncorporatedAssociationNumberTAS": null,
+          "RegulatorIncorporatedAssociationNumberVIC": null,
+          "RegulatorIncorporatedAssociationNumberWA": null,
+          "RegulatorIncorporatedAssociationQLD": false,
+          "RegulatorIncorporatedAssociationSA": false,
+          "RegulatorIncorporatedAssociationTAS": false,
+          "RegulatorIncorporatedAssociationVIC": false,
+          "RegulatorIncorporatedAssociationWA": false,
+          "RegulatorMetRequirementACT": true,
+          "RegulatorMetRequirementWA": null,
+          "RegulatorOtherDetails": null,
+          "RegulatorPrograms": null,
+          "RegulatorStates": false,
+          "RelatedPartyDetails": null,
+          "RelatedPartyTransactions": [],
+          "ReliefOfPoverty": false,
+          "ReportingGroupFlag": false,
+          "ResponsiblePersonAccurate": null,
+          "RevenueGoodsServices": "11349.0000",
+          "RevenueInvestments": "0.0000",
+          "RevenueTotal": "31530.0000",
+          "StatementYear": "2024",
+          "SubTypesAccurate": null,
+          "TotalAssets": "29862.0000",
+          "TotalCurrentAssets": "0.0000",
+          "TotalCurrentLiabilities": "0.0000",
+          "TotalLiabilities": "0.0000",
+          "TotalNonCurrentAssets": null,
+          "TotalNonCurrentLiabilities": "0.0000",
+          "TotalNonCurrentLoansReceivable": "0.0000",
+          "TotalPaidKMP": "$0.00",
+          "Website": "www.zoom/us.com",
+          "__normalized": true,
+          "entityTypeVersion": "",
+          "entityVersion": "1644296587",
+          "timeStamp": "2025-06-22T12:10:21.0000000Z",
+          "type": "annual_information_statement",
+          "uuid": "4cafc6dc-614f-f011-877b-6045bdc235e4"
+        },
+        "type": "annual_information_statement",
+        "uuid": "4cafc6dc-614f-f011-877b-6045bdc235e4"
+      },
+      "canonical_field_mappings": {
+        "data.Programs": "programs",
+        "data.TotalRevenue": "financial_records[].revenue",
+        "data.TotalExpenses": "financial_records[].total_expenses"
       },
       "evidence_ids": [
-        "ev:acnc:ais:50798979881:2024"
+        "ev:acnc:ais:50798979881:4cafc6dc-614f-f011-877b-6045bdc235e4"
       ]
     }
   ],
@@ -1071,9 +1362,12 @@
       },
       "assets": null,
       "liabilities": null,
+      "net_assets": null,
       "income_breakdown": [],
       "expense_breakdown": [],
-      "balance_sheet_breakdown": []
+      "balance_sheet_breakdown": [],
+      "source_ordered_line_items": [],
+      "statements": []
     }
   ],
   "financial_metrics": [
@@ -1206,13 +1500,13 @@
       "content_hash": null
     },
     {
-      "evidence_id": "ev:acnc:ais:50798979881:2024",
+      "evidence_id": "ev:acnc:ais:50798979881:4cafc6dc-614f-f011-877b-6045bdc235e4",
       "source_type": "regulatory",
-      "title": "Backyard Ministries Incorporated Annual Information Statement 2024",
+      "title": "ACNC Annual Information Statement 2024",
       "publisher": "Australian Charities and Not-for-profits Commission",
       "url": "https://www.acnc.gov.au/charity/charities/167fe4a8-38af-e811-a962-000d3ad24a0d/documents/4cafc6dc-614f-f011-877b-6045bdc235e4",
       "observed_at": "2025-06-22",
-      "reporting_period": null,
+      "reporting_period": "2024",
       "page": null,
       "section": null,
       "content_hash": null
@@ -1224,81 +1518,25 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "56fe91bd7f9e3df2f75b7167b071884aa601977a88a5a0f3fd88a7df35cd49b9",
-    "generated_at": "2026-08-13T05:51:03.014632Z",
+    "source_text_hash": "0a13f8faefcc3d74e5dc155ae87d68cdb01910043d1f514d0df819988c73ad7c",
+    "generated_at": "2026-08-10T13:53:24.455957Z",
     "vector_ref": "embeddings.parquet#cb_1d807c7224554c99a7b12d1c01be8058"
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
+    "prompt_version": "phase2a-0.4",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "04529a1b3da40ed4525892e7b0795f01ba895d12ec2daebe23daed52088ec76f",
-    "generated_at": "2026-08-12T13:44:48.624568Z",
+    "evidence_input_hash": "0664b9ab7263f60016f42b9b5525e28c24392202947bf46db15cf2aac058a29a",
+    "generated_at": "2026-08-10T12:48:47.016262Z",
     "editorial_policy_version": "0.1"
   },
-  "derivative_assessments": [
-    {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T13:44:48.624568Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-rc2-editorial-migration",
-      "input_hash": "04529a1b3da40ed4525892e7b0795f01ba895d12ec2daebe23daed52088ec76f",
-      "disposition": "refreshed",
-      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "taxonomy",
-      "generated_at": "2026-08-12T13:44:48.624568Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "04529a1b3da40ed4525892e7b0795f01ba895d12ec2daebe23daed52088ec76f",
-      "disposition": "reused",
-      "reason": "No new supported canonical classification facts.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "fundraising",
-      "generated_at": null,
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "04529a1b3da40ed4525892e7b0795f01ba895d12ec2daebe23daed52088ec76f",
-      "disposition": "reused",
-      "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "embedding",
-      "generated_at": "2026-08-10T13:53:24.455957Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "0a13f8faefcc3d74e5dc155ae87d68cdb01910043d1f514d0df819988c73ad7c",
-      "disposition": "reused",
-      "reason": "Semantic source text unchanged.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "similarities",
-      "generated_at": "2026-08-10T13:53:24.455957Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "0a13f8faefcc3d74e5dc155ae87d68cdb01910043d1f514d0df819988c73ad7c",
-      "disposition": "reused",
-      "reason": "Embedding reused; semantic neighbours retained.",
-      "affected_dimensions": []
-    }
-  ],
-  "dataset_version": "phase2b-2026-08-13-rc3",
+  "derivative_assessments": [],
+  "dataset_version": "phase2b-2026-08-14-rc4",
   "card_schema_version": "0.4",
-  "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T05:50:58.991012Z"
+  "editorial_policy_version": "0.4-rc4",
+  "generator_version": "0.5.0-rc4",
+  "built_at": "2026-08-13T10:52:47.483880Z"
 }

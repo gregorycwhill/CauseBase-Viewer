@@ -72,14 +72,6 @@
       "freshness_note": null
     },
     {
-      "capability": "website",
-      "status": "retrieval_failed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
       "capability": "fundraising_expenditure",
       "status": "not_available_from_source",
       "source_record_id": null,
@@ -100,35 +92,34 @@
     {
       "capability": "latest_acnc_ais",
       "status": "observed",
-      "source_record_id": null,
+      "source_record_id": "src:acnc-ais-detail:20151472221:57919566-74d9-f011-8544-6045bde61b96:cb_7e95b7d2c01d4908bec99f30b02c119e",
       "evidence_ids": [
-        "ev:acnc:ais:20151472221:2025"
+        "ev:acnc:ais:20151472221:57919566-74d9-f011-8544-6045bde61b96"
       ],
       "observed_at": "2025-12-15",
-      "freshness_note": "Latest submitted ACNC AIS in the 2026-08-13 public-profile acquisition: 2025."
+      "freshness_note": "Latest submitted AIS detail acquired from the public ACNC entity endpoint."
+    },
+    {
+      "capability": "website",
+      "status": "observed",
+      "source_record_id": null,
+      "evidence_ids": [],
+      "observed_at": "2026-08-13",
+      "freshness_note": "Public website locator acquired from the ACNC profile."
     }
   ],
   "enrichment_level": "enriched",
   "website": "https://www.stepsstaffingsolutions.com.au",
   "geography": [],
-  "navigation_geography": [
-    {
-      "level": "country",
-      "code": "AU",
-      "label": "Australia",
-      "evidence_ids": [
-        "ev:acnc:20151472221"
-      ]
-    }
-  ],
-  "causebase_summary": "Steps Staffing Solutions Ltd is an Australian entity registered with the Australian Charities and Not-for-profits Commission. The organisation lodged an ACNC Annual Information Statement covering 1 July 2022 to 30 June 2023. CauseBase does not have sufficient descriptive evidence in this release to independently identify the organisation’s specific activities, services or intended beneficiaries.",
-  "summary_evidence_ids": [
-    "ev:acnc:20151472221",
-    "ev:ais:20151472221:2023"
-  ],
+  "geography_observations": [],
+  "navigation_geography": [],
+  "causebase_summary": "Steps Staffing Solutions Ltd is recorded under an ACNC Register extract and provided an ACNC Annual Information Statement for the year 01/07/2022 to 30/06/2023. The AIS financial data for that period reports total revenue of AUD 5,176,925 and total expenses of AUD 5,027,845. The organisation’s website URL is listed as https://www.stepsstaffingsolutions.com.au, but website retrieval failed in the supplied evidence. The supplied documents in this evidence pack do not include a description of the organisation’s activities, the people or groups it serves, geographic areas of operation, or modes of public participation. No externally sourced programme descriptions or beneficiary lists are present in the provided material.",
+  "summary_evidence_ids": [],
   "organisation_self_description": null,
   "activities": [],
+  "activity_observations": [],
   "beneficiaries": [],
+  "beneficiary_observations": [],
   "participation_modes": [],
   "participation_observations": [],
   "opportunities": [],
@@ -150,82 +141,23 @@
       "reporting_period": "2025",
       "source_url": "https://www.acnc.gov.au/charity/charities/734a2bdd-2daf-e811-a960-000d3ad24282/documents/57919566-74d9-f011-8544-6045bde61b96",
       "evidence_ids": [
-        "ev:acnc:ais:20151472221:2025"
+        "ev:acnc:ais:20151472221:57919566-74d9-f011-8544-6045bde61b96"
       ]
     }
   ],
   "source_native_records": [
     {
-      "source_record_id": "src:acnc-register:234e2f90-74f8-5177-8dcb-ea17c66a463c",
-      "source_family": "acnc-register",
-      "dataset_version": "2026-08-10",
-      "source_url": "https://www.acnc.gov.au/charity/charities?search=20151472221",
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "ABN": "20151472221",
-        "Legal Name": "Steps Staffing Solutions Ltd",
-        "Registration Status": "registered",
-        "ACNC classifications": "other purpose; people with disability",
-        "Website": "https://www.stepsstaffingsolutions.com.au",
-        "ACNC registration ID": null,
-        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "ABN": "external_identifiers",
-        "Legal Name": "legal_name",
-        "Registration Status": "registrations"
-      },
-      "evidence_ids": [
-        "ev:acnc:20151472221"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-ais:fr:ais:cb_7e95b7d2c01d4908bec99f30b02c119e:2023",
-      "source_family": "acnc-ais",
-      "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": "2022-07-01",
-      "effective_to": "2023-06-30",
-      "source_fields": {
-        "Reporting period": "01/07/2022 to 30/06/2023",
-        "Reporting scope": "subject",
-        "Consolidated": "false",
-        "Revenue": "5176925",
-        "Donations and bequests": null,
-        "Government grants": null,
-        "Total expenses": "5027845",
-        "Assets": null,
-        "Liabilities": null
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "Revenue": "financial_records[].revenue",
-        "Total expenses": "financial_records[].total_expenses"
-      },
-      "evidence_ids": [
-        "ev:ais:20151472221:2023"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-public-profile:20151472221:cb_7e95b7d2c01d4908bec99f30b02c119e:2026-08-13",
+      "source_record_id": "src:acnc-public-profile:20151472221:734a2bdd-2daf-e811-a960-000d3ad24282:cb_7e95b7d2c01d4908bec99f30b02c119e",
       "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-13-public-api",
+      "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/734a2bdd-2daf-e811-a960-000d3ad24282/profile",
-      "retrieved_at": "2026-08-13T05:50:58.991012Z",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
       "observed_at": "2025-12-15",
       "effective_from": null,
       "effective_to": null,
       "source_fields": {
         "uuid": "734a2bdd-2daf-e811-a960-000d3ad24282",
-        "abn": "20151472221",
-        "latest_ais_year": "2025",
-        "latest_ais_uuid": "57919566-74d9-f011-8544-6045bde61b96"
+        "abn": "20151472221"
       },
       "source_payload": {
         "data": {
@@ -861,13 +793,336 @@
         "uuid": "734a2bdd-2daf-e811-a960-000d3ad24282"
       },
       "canonical_field_mappings": {
-        "data.Name": "display_name",
         "data.OtherNames": "operating_names",
-        "data.AnnualReports": "acnc_ais_url",
-        "data.Programs": "programs"
+        "data.AddressStateOrProvince": "principal_location"
+      },
+      "evidence_ids": []
+    },
+    {
+      "source_record_id": "src:acnc-ais-detail:20151472221:57919566-74d9-f011-8544-6045bde61b96:cb_7e95b7d2c01d4908bec99f30b02c119e",
+      "source_family": "acnc-ais-detail",
+      "dataset_version": "2026-08-14-public-api",
+      "source_url": "https://www.acnc.gov.au/charity/charities/734a2bdd-2daf-e811-a960-000d3ad24282/documents/57919566-74d9-f011-8544-6045bde61b96",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
+      "observed_at": "2025-12-15",
+      "effective_from": null,
+      "effective_to": null,
+      "source_fields": {
+        "abn": "20151472221",
+        "ais_uuid": "57919566-74d9-f011-8544-6045bde61b96",
+        "year": "2025",
+        "date_received": "2025-12-15T05:10:51.0000000Z"
+      },
+      "source_payload": {
+        "data": {
+          "Abn": "20151472221",
+          "ActivityAdvocacyNCivic": false,
+          "ActivityAgedCare": false,
+          "ActivityAnimalProtection": false,
+          "ActivityCultureAndArt": false,
+          "ActivityEconomicSocialCommunity": false,
+          "ActivityEmergencyNRelief": false,
+          "ActivityEmploymentNTraining": false,
+          "ActivityEnvironmental": false,
+          "ActivityGrantMaking": false,
+          "ActivityHealthRehabilitation": false,
+          "ActivityHigherEducation": false,
+          "ActivityHousing": false,
+          "ActivityIncomeSupportNMaintenance": false,
+          "ActivityInternational": false,
+          "ActivityInternationalDescription": null,
+          "ActivityInternationalOther": false,
+          "ActivityInternationalOtherDescription": null,
+          "ActivityLawNLegalServices": false,
+          "ActivityMain": null,
+          "ActivityMentalHealthCrisisIntervention": false,
+          "ActivityNdisSupported": null,
+          "ActivityNdisSupportedNext": null,
+          "ActivityOperating": true,
+          "ActivityOperatingOverseas": false,
+          "ActivityOther": false,
+          "ActivityOtherDescription": null,
+          "ActivityOtherEducation": false,
+          "ActivityOtherHealthServices": false,
+          "ActivityPersuitPurposesDescription": "Providing labour hire and recruitment services in the social and community sector. Any proceeds are then distributed to STEPS Pathways Charity which enables people with a disability to live independently.",
+          "ActivityPhilanthropicPromotion": false,
+          "ActivityPolitical": false,
+          "ActivityPrimarySecondaryEducation": false,
+          "ActivityPurposeChange": null,
+          "ActivityPurposeChangeDescription": null,
+          "ActivityRecreationSocialClub": false,
+          "ActivityReligious": false,
+          "ActivityResearch": false,
+          "ActivitySocialServices": false,
+          "ActivitySports": false,
+          "ActivityTransferringFundsGoods": false,
+          "AdvancementOfEducation": false,
+          "AdvancementOfReligion": false,
+          "AssetsandLiabilitiesDescription": null,
+          "BasicReligiousCharity": false,
+          "BeneficiaryAboriginalTorres": false,
+          "BeneficiaryAdults": false,
+          "BeneficiaryAllAges": false,
+          "BeneficiaryChildren": false,
+          "BeneficiaryChronicIllness": false,
+          "BeneficiaryCrimeVictims": false,
+          "BeneficiaryDisasterVictims": false,
+          "BeneficiaryEarlyChildhood": false,
+          "BeneficiaryEthnic": false,
+          "BeneficiaryFamilies": false,
+          "BeneficiaryFinanciallyDisadvantaged": false,
+          "BeneficiaryGeneral": false,
+          "BeneficiaryHomelessnessRisk": false,
+          "BeneficiaryLGBT": false,
+          "BeneficiaryMain": null,
+          "BeneficiaryMen": false,
+          "BeneficiaryMigrantsRefugees": false,
+          "BeneficiaryOffenderFamilies": false,
+          "BeneficiaryOther": false,
+          "BeneficiaryOtherCharities": false,
+          "BeneficiaryOtherDescription": null,
+          "BeneficiaryOverseas": false,
+          "BeneficiaryPeopleWithDisability": false,
+          "BeneficiaryRuralRegionalRemote": false,
+          "BeneficiarySeniors": false,
+          "BeneficiaryUnemployed": false,
+          "BeneficiaryVeteranFamilies": false,
+          "BeneficiaryWomen": false,
+          "BeneficiaryYouth": false,
+          "CharityAddressCountry": "Australia",
+          "CharityAddressLine1": null,
+          "CharityAddressLine2": null,
+          "CharityAddressPostalCode": null,
+          "CharityAddressStateOrProvince": null,
+          "CharityAddressSuburb": null,
+          "CharityEmail": "info@stepsstaffingsolutions.com.au",
+          "CharitySize": "Large",
+          "CharityUuid": "734a2bdd-2daf-e811-a960-000d3ad24282",
+          "ChildCareServices": false,
+          "ExpenseEmployees": "3400140.0000",
+          "ExpenseGrantDonationsInAustralia": "150000.0000",
+          "ExpenseGrantDonationsOutsideAustralia": "0.0000",
+          "ExpenseTotal": "4150075.0000",
+          "ExpensesOther": "599935.0000",
+          "FinAccrualAccounting": null,
+          "FinConsolidatedReportFromMiltiple": "No",
+          "FinDocumentedPoliciesRelatedPartyTransactions": null,
+          "FinFyeJune": false,
+          "FinProvideVoluntarily": null,
+          "FinRelatedPartyTransactions": "Yes",
+          "FinReportACT": false,
+          "FinReportFrom": "2024-07-01T00:00:00.0000000Z",
+          "FinReportNSW": false,
+          "FinReportNT": false,
+          "FinReportQLD": false,
+          "FinReportSA": false,
+          "FinReportTAS": false,
+          "FinReportTo": "2025-06-30T00:00:00.0000000Z",
+          "FinReportVIC": false,
+          "FinReportWA": false,
+          "FinReportingType": "General purpose financial statements   simplified disclosure",
+          "FinSapDate": null,
+          "FundRaisingNumberACT": null,
+          "FundRaisingNumberNSW": null,
+          "FundRaisingNumberQLD": null,
+          "FundRaisingNumberSA": null,
+          "FundRaisingNumberTAS": null,
+          "FundRaisingNumberVIC": null,
+          "FundRaisingNumberWA": null,
+          "GovDocAccurate": null,
+          "GrantCapacityBuildingPct": null,
+          "GrantMultiYearPct": null,
+          "GrantPublicOpenApplicationPct": null,
+          "GrantRuralRegionPct": null,
+          "HasSubmittedToRegulator": false,
+          "HoursPaid": null,
+          "HoursTotal": null,
+          "HoursVolunteer": null,
+          "HrCasualEmployees": "0",
+          "HrFteStaff": "5.0000000000",
+          "HrFullTimeEmployees": "5",
+          "HrPartTimeEmployees": "0",
+          "HrUnpainVolunteers": "0",
+          "IncomeDonationsBequests": "0.0000",
+          "IncomeGovernmentGrants": "0.0000",
+          "IncomeOther": "0.0000",
+          "IncomeOtherComprehinsive": "0.0000",
+          "IncomeOtherNeg": null,
+          "IncomeOtherReceipts": "0.0000",
+          "IncomeTotalComprehensive": "9304.0000",
+          "IncomeTotalReceipts": "4159379.0000",
+          "IncorporationStatus": null,
+          "InterestExpense": "0.0000",
+          "IsIncorporatedAssociation": false,
+          "KeyManagementPersonnel": true,
+          "LegalName": "Steps Staffing Solutions Ltd",
+          "NetAssetsLiabilities": "448823.0000",
+          "NetSurplusDeficit": "9304.0000",
+          "NonCurrentLoansPayable": "0.0000",
+          "NumberOfKeyManagementPersonnel": "8",
+          "OperatingCountries": null,
+          "OperatingInACT": false,
+          "OperatingInNSW": false,
+          "OperatingInNT": false,
+          "OperatingInQLD": false,
+          "OperatingInSA": false,
+          "OperatingInTAS": false,
+          "OperatingInVIC": false,
+          "OperatingInWA": false,
+          "OperatingOverseas": false,
+          "OtherNames": [],
+          "OtherNonCurrentAssets": "363667.0000",
+          "OtherNonCurrentLiabilities": "281070.0000",
+          "OtherPurposeDescription": null,
+          "OtherPurposes": "False",
+          "Programs": [
+            {
+              "AisUuid": "57919566-74d9-f011-8544-6045bde61b96",
+              "Name": "Labour Hire and Employment Services",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "People with disabilities"
+              ],
+              "ProgramClassification": "Employment",
+              "ProgramClassificationID": "134",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Sunshine Coast QLD, Australia",
+                  "FormattedAddress": "Sunshine Coast QLD, Australia",
+                  "Marker": {
+                    "Latitude": -26.65,
+                    "Longitude": 153.066667
+                  },
+                  "Name": "Sunshine Coast",
+                  "uuid": "b7919566-74d9-f011-8544-6045bde61b96"
+                },
+                {
+                  "DisplayName": "Bundaberg QLD, Australia",
+                  "FormattedAddress": "Bundaberg QLD 4670, Australia",
+                  "Marker": {
+                    "Latitude": -24.8660809,
+                    "Longitude": 152.3488645
+                  },
+                  "Name": "Bundaberg",
+                  "uuid": "ba919566-74d9-f011-8544-6045bde61b96"
+                },
+                {
+                  "DisplayName": "Hobart TAS, Australia",
+                  "FormattedAddress": "Hobart TAS, Australia",
+                  "Marker": {
+                    "Latitude": -42.8821377,
+                    "Longitude": 147.3271949
+                  },
+                  "Name": "Hobart",
+                  "uuid": "c1919566-74d9-f011-8544-6045bde61b96"
+                },
+                {
+                  "DisplayName": "Northern Territory, Australia",
+                  "FormattedAddress": "Northern Territory, Australia",
+                  "Marker": {
+                    "Latitude": -19.4914108,
+                    "Longitude": 132.5509603
+                  },
+                  "Name": "Northern Territory",
+                  "uuid": "c3919566-74d9-f011-8544-6045bde61b96"
+                }
+              ],
+              "ProgramWeblink": null,
+              "uuid": "a2919566-74d9-f011-8544-6045bde61b96"
+            }
+          ],
+          "RegulatedACT": false,
+          "RegulatedNSW": false,
+          "RegulatedNT": false,
+          "RegulatedQLD": false,
+          "RegulatedSA": false,
+          "RegulatedTAS": false,
+          "RegulatedVIC": false,
+          "RegulatedWA": false,
+          "Regulator": null,
+          "RegulatorAGMDateACT": null,
+          "RegulatorAGMDateNT": null,
+          "RegulatorAGMDateVIC": null,
+          "RegulatorAGMDateWA": null,
+          "RegulatorFundRaising": "No",
+          "RegulatorFundRaisingACT": false,
+          "RegulatorFundRaisingNSW": false,
+          "RegulatorFundRaisingNT": false,
+          "RegulatorFundRaisingOnline": false,
+          "RegulatorFundRaisingQLD": false,
+          "RegulatorFundRaisingSA": false,
+          "RegulatorFundRaisingTAS": false,
+          "RegulatorFundRaisingVIC": false,
+          "RegulatorFundRaisingWA": false,
+          "RegulatorIncorporatedAssociationACT": false,
+          "RegulatorIncorporatedAssociationNSW": false,
+          "RegulatorIncorporatedAssociationNT": false,
+          "RegulatorIncorporatedAssociationNumberACT": null,
+          "RegulatorIncorporatedAssociationNumberNSW": null,
+          "RegulatorIncorporatedAssociationNumberNT": null,
+          "RegulatorIncorporatedAssociationNumberQLD": null,
+          "RegulatorIncorporatedAssociationNumberSA": null,
+          "RegulatorIncorporatedAssociationNumberTAS": null,
+          "RegulatorIncorporatedAssociationNumberVIC": null,
+          "RegulatorIncorporatedAssociationNumberWA": null,
+          "RegulatorIncorporatedAssociationQLD": false,
+          "RegulatorIncorporatedAssociationSA": false,
+          "RegulatorIncorporatedAssociationTAS": false,
+          "RegulatorIncorporatedAssociationVIC": false,
+          "RegulatorIncorporatedAssociationWA": false,
+          "RegulatorMetRequirementACT": false,
+          "RegulatorMetRequirementWA": null,
+          "RegulatorOtherDetails": null,
+          "RegulatorPrograms": null,
+          "RegulatorStates": false,
+          "RelatedPartyDetails": "page 15",
+          "RelatedPartyTransactions": [
+            {
+              "Description": "",
+              "Transaction": "Fees paid to a related party for providing goods or services to the charity",
+              "uuid": "67919566-74d9-f011-8544-6045bde61b96"
+            },
+            {
+              "Description": "",
+              "Transaction": "Loans from/to a related party",
+              "uuid": "6c919566-74d9-f011-8544-6045bde61b96"
+            }
+          ],
+          "ReliefOfPoverty": false,
+          "ReportingGroupFlag": false,
+          "ResponsiblePersonAccurate": null,
+          "RevenueGoodsServices": "4159379.0000",
+          "RevenueInvestments": "0.0000",
+          "RevenueTotal": "4159379.0000",
+          "StatementYear": "2025",
+          "SubTypesAccurate": null,
+          "TotalAssets": "1134284.0000",
+          "TotalCurrentAssets": "770617.0000",
+          "TotalCurrentLiabilities": "404391.0000",
+          "TotalLiabilities": "685461.0000",
+          "TotalNonCurrentAssets": "363667.0000",
+          "TotalNonCurrentLiabilities": "281070.0000",
+          "TotalNonCurrentLoansReceivable": "0.0000",
+          "TotalPaidKMP": "$195,498.00",
+          "Website": "https://www.stepsstaffingsolutions.com.au",
+          "__normalized": true,
+          "entityTypeVersion": "",
+          "entityVersion": "1809319371",
+          "timeStamp": "2025-12-15T05:10:45.0000000Z",
+          "type": "annual_information_statement",
+          "uuid": "57919566-74d9-f011-8544-6045bde61b96"
+        },
+        "type": "annual_information_statement",
+        "uuid": "57919566-74d9-f011-8544-6045bde61b96"
+      },
+      "canonical_field_mappings": {
+        "data.Programs": "programs",
+        "data.TotalRevenue": "financial_records[].revenue",
+        "data.TotalExpenses": "financial_records[].total_expenses"
       },
       "evidence_ids": [
-        "ev:acnc:ais:20151472221:2025"
+        "ev:acnc:ais:20151472221:57919566-74d9-f011-8544-6045bde61b96"
       ]
     }
   ],
@@ -916,9 +1171,12 @@
       },
       "assets": null,
       "liabilities": null,
+      "net_assets": null,
       "income_breakdown": [],
       "expense_breakdown": [],
-      "balance_sheet_breakdown": []
+      "balance_sheet_breakdown": [],
+      "source_ordered_line_items": [],
+      "statements": []
     }
   ],
   "financial_metrics": [
@@ -1024,24 +1282,24 @@
       "content_hash": null
     },
     {
+      "evidence_id": "ev:acnc:ais:20151472221:57919566-74d9-f011-8544-6045bde61b96",
+      "source_type": "regulatory",
+      "title": "ACNC Annual Information Statement 2025",
+      "publisher": "Australian Charities and Not-for-profits Commission",
+      "url": "https://www.acnc.gov.au/charity/charities/734a2bdd-2daf-e811-a960-000d3ad24282/documents/57919566-74d9-f011-8544-6045bde61b96",
+      "observed_at": "2025-12-15",
+      "reporting_period": "2025",
+      "page": null,
+      "section": null,
+      "content_hash": null
+    },
+    {
       "evidence_id": "ev:abr-dgr:20151472221:20260805",
       "source_type": "regulatory",
       "title": "ABR DGR bulk observation",
       "publisher": "Australian Business Register / Australian Taxation Office",
       "url": "https://abr.business.gov.au/Tools/BulkExtract",
       "observed_at": "2026-08-05",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
-    },
-    {
-      "evidence_id": "ev:acnc:ais:20151472221:2025",
-      "source_type": "regulatory",
-      "title": "Steps Staffing Solutions Ltd Annual Information Statement 2025",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": "https://www.acnc.gov.au/charity/charities/734a2bdd-2daf-e811-a960-000d3ad24282/documents/57919566-74d9-f011-8544-6045bde61b96",
-      "observed_at": "2025-12-15",
       "reporting_period": null,
       "page": null,
       "section": null,
@@ -1054,81 +1312,25 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "7fc1b177eb3f2824eac66d1d7e749e3c6a81692ff33110424a5be9c33b3b372e",
-    "generated_at": "2026-08-13T05:51:03.017631Z",
+    "source_text_hash": "c957c4cbd4159ceaa41d87727cfdadb4873df462aea0640f65f62ace6a473783",
+    "generated_at": "2026-08-10T13:53:24.457303Z",
     "vector_ref": "embeddings.parquet#cb_7e95b7d2c01d4908bec99f30b02c119e"
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
+    "prompt_version": "phase2a-0.4",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "d0e193083ceb8ef7fb791765fa1513df6526ef7193901caf7bc2d0d425d54005",
-    "generated_at": "2026-08-12T14:05:10.745105Z",
+    "evidence_input_hash": "8747f4873e34e3e24ed5238e6ccde7ac9847ecc18f863266183aca6c3a3c664f",
+    "generated_at": "2026-08-10T12:56:22.360181Z",
     "editorial_policy_version": "0.1"
   },
-  "derivative_assessments": [
-    {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T14:05:10.745105Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-rc2-editorial-migration",
-      "input_hash": "d0e193083ceb8ef7fb791765fa1513df6526ef7193901caf7bc2d0d425d54005",
-      "disposition": "refreshed",
-      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "taxonomy",
-      "generated_at": "2026-08-12T14:05:10.745105Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "d0e193083ceb8ef7fb791765fa1513df6526ef7193901caf7bc2d0d425d54005",
-      "disposition": "reused",
-      "reason": "No new supported canonical classification facts.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "fundraising",
-      "generated_at": null,
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "d0e193083ceb8ef7fb791765fa1513df6526ef7193901caf7bc2d0d425d54005",
-      "disposition": "reused",
-      "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "embedding",
-      "generated_at": "2026-08-10T13:53:24.457303Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "c957c4cbd4159ceaa41d87727cfdadb4873df462aea0640f65f62ace6a473783",
-      "disposition": "reused",
-      "reason": "Semantic source text unchanged.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "similarities",
-      "generated_at": "2026-08-10T13:53:24.457303Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "c957c4cbd4159ceaa41d87727cfdadb4873df462aea0640f65f62ace6a473783",
-      "disposition": "reused",
-      "reason": "Embedding reused; semantic neighbours retained.",
-      "affected_dimensions": []
-    }
-  ],
-  "dataset_version": "phase2b-2026-08-13-rc3",
+  "derivative_assessments": [],
+  "dataset_version": "phase2b-2026-08-14-rc4",
   "card_schema_version": "0.4",
-  "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T05:50:58.991012Z"
+  "editorial_policy_version": "0.4-rc4",
+  "generator_version": "0.5.0-rc4",
+  "built_at": "2026-08-13T10:52:47.483880Z"
 }

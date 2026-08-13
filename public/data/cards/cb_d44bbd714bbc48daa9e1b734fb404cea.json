@@ -63,16 +63,6 @@
       "freshness_note": null
     },
     {
-      "capability": "website",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:web:13103345213:2026-08-10"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
       "capability": "fundraising_expenditure",
       "status": "not_available_from_source",
       "source_record_id": null,
@@ -93,50 +83,73 @@
     {
       "capability": "latest_acnc_ais",
       "status": "observed",
-      "source_record_id": null,
+      "source_record_id": "src:acnc-ais-detail:13103345213:0c391b90-d0fb-f011-8406-7ced8d33fdea:cb_d44bbd714bbc48daa9e1b734fb404cea",
       "evidence_ids": [
-        "ev:acnc:ais:13103345213:2025"
+        "ev:acnc:ais:13103345213:0c391b90-d0fb-f011-8406-7ced8d33fdea"
       ],
       "observed_at": "2026-01-27",
-      "freshness_note": "Latest submitted ACNC AIS in the 2026-08-13 public-profile acquisition: 2025."
+      "freshness_note": "Latest submitted AIS detail acquired from the public ACNC entity endpoint."
+    },
+    {
+      "capability": "website",
+      "status": "observed",
+      "source_record_id": null,
+      "evidence_ids": [],
+      "observed_at": "2026-08-13",
+      "freshness_note": "Public website locator acquired from the ACNC profile."
     }
   ],
   "enrichment_level": "enriched",
   "website": "russianimperialorder.com",
   "geography": [
-    "Australia (Australian Division, per website)",
+    "Australia",
     "Victoria (registered location on ACNC extract)"
   ],
-  "navigation_geography": [
+  "geography_observations": [
     {
-      "level": "country",
-      "code": "AU",
-      "label": "Australia",
-      "evidence_ids": [
-        "ev:acnc:13103345213"
-      ]
+      "value": "Australia",
+      "source_role": "legacy_source_qualifier",
+      "provenance_note": "Australian Division, per website",
+      "evidence_ids": []
     },
     {
-      "level": "state_territory",
-      "code": "AU-VIC",
-      "label": "Victoria",
-      "evidence_ids": [
-        "ev:acnc:13103345213"
-      ]
+      "value": "Victoria (registered location on ACNC extract)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
     }
   ],
-  "causebase_summary": "The Russian Imperial Order of Saint Michael Archangel is a dynastic order that operates an Australian Division with a registered location in Victoria. It collects membership contributions—identified on its site as a Foundation Contribution, an Annual Oblation and branch collections—to fund the Order's running costs and to support ‘humanitarian activities’ and charitable works designated by Her Imperial Highness through the Australian Division Office. Branches may keep funds for local operating expenses and local charity support, with 25% of branch collections remitted to the Australian Division Office. The organisation maintains governance documents and an Australian Division office, and holds investiture ceremonies that include an Orthodox moleben (liturgical service). It offers membership sign-up and public investiture services.",
-  "summary_evidence_ids": [
-    "ev:web:13103345213:2026-08-10",
-    "ev:acnc:13103345213"
-  ],
+  "navigation_geography": [],
+  "causebase_summary": "The organisation’s website identifies itself as the Russian Imperial Order of St Michael the Archangel and describes an Australian Division of a dynastic Order of knighthood “instituted in 1988.” The website presents governance material (a constitution and a 2012 statute), a “Join now” membership prompt, a photo gallery and a contact/enquiry form. The site states that a “Foundation Contribution” is applied to running the Order and to “humanitarian activities,” and that an “Annual Oblation” supports charitable works designated by “Her Imperial Highness” through the Australian Division Office. The website says monies collected by branches will be retained by the branch for operating expenses and local charity support approved by the Grand Council, with 25% of branch collections remitted to the Australian Division Office. The site also includes liturgical text for a moleben used at investiture ceremonies. An ACNC extract and the organisation’s AIS for 2022–23 are recorded in the evidence pack; the AIS extract shows reported revenue and expenses of AUD 0 for 01/07/2022–30/06/2023. The material in the evidence pack is primarily drawn from the organisation’s own website and ACNC filings.",
+  "summary_evidence_ids": [],
   "organisation_self_description": null,
   "activities": [
-    "Collecting membership contributions and branch collections to support ‘humanitarian activities’ and designated charitable works (per website)",
+    "Collecting membership contributions and branch collections to support ‘humanitarian activities’ and designated charitable works",
     "Holding investiture ceremonies with an Orthodox moleben (liturgical service)",
     "Maintaining governance documents (constitution, statute) and an Australian Division office"
   ],
+  "activity_observations": [
+    {
+      "value": "Collecting membership contributions and branch collections to support ‘humanitarian activities’ and designated charitable works",
+      "source_role": "legacy_source_qualifier",
+      "provenance_note": "per website",
+      "evidence_ids": []
+    },
+    {
+      "value": "Holding investiture ceremonies with an Orthodox moleben (liturgical service)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Maintaining governance documents (constitution, statute) and an Australian Division office",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    }
+  ],
   "beneficiaries": [],
+  "beneficiary_observations": [],
   "participation_modes": [
     "Membership sign-up (Join now, per website)",
     "Public investiture services / ceremonies (moleben text on website)"
@@ -160,7 +173,7 @@
       "reporting_period": "2025",
       "source_url": "https://www.acnc.gov.au/charity/charities/5e7cbb9d-39af-e811-a962-000d3ad24a0d/documents/0c391b90-d0fb-f011-8406-7ced8d33fdea",
       "evidence_ids": [
-        "ev:acnc:ais:13103345213:2025"
+        "ev:acnc:ais:13103345213:0c391b90-d0fb-f011-8406-7ced8d33fdea"
       ]
     },
     {
@@ -177,82 +190,23 @@
       "reporting_period": "2025",
       "source_url": "www.ruscare.com.au",
       "evidence_ids": [
-        "ev:acnc:ais:13103345213:2025"
+        "ev:acnc:ais:13103345213:0c391b90-d0fb-f011-8406-7ced8d33fdea"
       ]
     }
   ],
   "source_native_records": [
     {
-      "source_record_id": "src:acnc-register:ae8f2b5b-4ac8-5143-9654-afbbac5e3632",
-      "source_family": "acnc-register",
-      "dataset_version": "2026-08-10",
-      "source_url": "https://www.acnc.gov.au/charity/charities?search=13103345213",
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "ABN": "13103345213",
-        "Legal Name": "The Russian Imperial Order of Saint Michael Archangel",
-        "Registration Status": "registered",
-        "ACNC classifications": "other purpose; migrants refugees",
-        "Website": "russianimperialorder.com",
-        "ACNC registration ID": null,
-        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "ABN": "external_identifiers",
-        "Legal Name": "legal_name",
-        "Registration Status": "registrations"
-      },
-      "evidence_ids": [
-        "ev:acnc:13103345213"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-ais:fr:ais:cb_d44bbd714bbc48daa9e1b734fb404cea:2023",
-      "source_family": "acnc-ais",
-      "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": "2022-07-01",
-      "effective_to": "2023-06-30",
-      "source_fields": {
-        "Reporting period": "01/07/2022 to 30/06/2023",
-        "Reporting scope": "subject",
-        "Consolidated": "unknown",
-        "Revenue": "0",
-        "Donations and bequests": null,
-        "Government grants": null,
-        "Total expenses": "0",
-        "Assets": null,
-        "Liabilities": null
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "Revenue": "financial_records[].revenue",
-        "Total expenses": "financial_records[].total_expenses"
-      },
-      "evidence_ids": [
-        "ev:ais:13103345213:2023"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-public-profile:13103345213:cb_d44bbd714bbc48daa9e1b734fb404cea:2026-08-13",
+      "source_record_id": "src:acnc-public-profile:13103345213:5e7cbb9d-39af-e811-a962-000d3ad24a0d:cb_d44bbd714bbc48daa9e1b734fb404cea",
       "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-13-public-api",
+      "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/5e7cbb9d-39af-e811-a962-000d3ad24a0d/profile",
-      "retrieved_at": "2026-08-13T05:50:58.991012Z",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
       "observed_at": "2026-01-27",
       "effective_from": null,
       "effective_to": null,
       "source_fields": {
         "uuid": "5e7cbb9d-39af-e811-a962-000d3ad24a0d",
-        "abn": "13103345213",
-        "latest_ais_year": "2025",
-        "latest_ais_uuid": "0c391b90-d0fb-f011-8406-7ced8d33fdea"
+        "abn": "13103345213"
       },
       "source_payload": {
         "data": {
@@ -919,13 +873,322 @@
         "uuid": "5e7cbb9d-39af-e811-a962-000d3ad24a0d"
       },
       "canonical_field_mappings": {
-        "data.Name": "display_name",
         "data.OtherNames": "operating_names",
-        "data.AnnualReports": "acnc_ais_url",
-        "data.Programs": "programs"
+        "data.AddressStateOrProvince": "principal_location"
+      },
+      "evidence_ids": []
+    },
+    {
+      "source_record_id": "src:acnc-ais-detail:13103345213:0c391b90-d0fb-f011-8406-7ced8d33fdea:cb_d44bbd714bbc48daa9e1b734fb404cea",
+      "source_family": "acnc-ais-detail",
+      "dataset_version": "2026-08-14-public-api",
+      "source_url": "https://www.acnc.gov.au/charity/charities/5e7cbb9d-39af-e811-a962-000d3ad24a0d/documents/0c391b90-d0fb-f011-8406-7ced8d33fdea",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
+      "observed_at": "2026-01-27",
+      "effective_from": null,
+      "effective_to": null,
+      "source_fields": {
+        "abn": "13103345213",
+        "ais_uuid": "0c391b90-d0fb-f011-8406-7ced8d33fdea",
+        "year": "2025",
+        "date_received": "2026-01-27T22:36:17.0000000Z"
+      },
+      "source_payload": {
+        "data": {
+          "Abn": "13103345213",
+          "ActivityAdvocacyNCivic": false,
+          "ActivityAgedCare": false,
+          "ActivityAnimalProtection": false,
+          "ActivityCultureAndArt": false,
+          "ActivityEconomicSocialCommunity": false,
+          "ActivityEmergencyNRelief": false,
+          "ActivityEmploymentNTraining": false,
+          "ActivityEnvironmental": false,
+          "ActivityGrantMaking": false,
+          "ActivityHealthRehabilitation": false,
+          "ActivityHigherEducation": false,
+          "ActivityHousing": false,
+          "ActivityIncomeSupportNMaintenance": false,
+          "ActivityInternational": false,
+          "ActivityInternationalDescription": null,
+          "ActivityInternationalOther": false,
+          "ActivityInternationalOtherDescription": null,
+          "ActivityLawNLegalServices": false,
+          "ActivityMain": null,
+          "ActivityMentalHealthCrisisIntervention": false,
+          "ActivityNdisSupported": null,
+          "ActivityNdisSupportedNext": null,
+          "ActivityOperating": true,
+          "ActivityOperatingOverseas": false,
+          "ActivityOther": false,
+          "ActivityOtherDescription": null,
+          "ActivityOtherEducation": false,
+          "ActivityOtherHealthServices": false,
+          "ActivityPersuitPurposesDescription": "We are committed to providing assistance to flood victims and will promptly initiate support for fire victims.",
+          "ActivityPhilanthropicPromotion": false,
+          "ActivityPolitical": false,
+          "ActivityPrimarySecondaryEducation": false,
+          "ActivityPurposeChange": null,
+          "ActivityPurposeChangeDescription": null,
+          "ActivityRecreationSocialClub": false,
+          "ActivityReligious": false,
+          "ActivityResearch": false,
+          "ActivitySocialServices": false,
+          "ActivitySports": false,
+          "ActivityTransferringFundsGoods": false,
+          "AdvancementOfEducation": false,
+          "AdvancementOfReligion": false,
+          "AssetsandLiabilitiesDescription": "Cash in bank $36,043",
+          "BasicReligiousCharity": false,
+          "BeneficiaryAboriginalTorres": false,
+          "BeneficiaryAdults": false,
+          "BeneficiaryAllAges": false,
+          "BeneficiaryChildren": false,
+          "BeneficiaryChronicIllness": false,
+          "BeneficiaryCrimeVictims": false,
+          "BeneficiaryDisasterVictims": false,
+          "BeneficiaryEarlyChildhood": false,
+          "BeneficiaryEthnic": false,
+          "BeneficiaryFamilies": false,
+          "BeneficiaryFinanciallyDisadvantaged": false,
+          "BeneficiaryGeneral": false,
+          "BeneficiaryHomelessnessRisk": false,
+          "BeneficiaryLGBT": false,
+          "BeneficiaryMain": null,
+          "BeneficiaryMen": false,
+          "BeneficiaryMigrantsRefugees": false,
+          "BeneficiaryOffenderFamilies": false,
+          "BeneficiaryOther": false,
+          "BeneficiaryOtherCharities": false,
+          "BeneficiaryOtherDescription": null,
+          "BeneficiaryOverseas": false,
+          "BeneficiaryPeopleWithDisability": false,
+          "BeneficiaryRuralRegionalRemote": false,
+          "BeneficiarySeniors": false,
+          "BeneficiaryUnemployed": false,
+          "BeneficiaryVeteranFamilies": false,
+          "BeneficiaryWomen": false,
+          "BeneficiaryYouth": false,
+          "CharityAddressCountry": "Australia",
+          "CharityAddressLine1": "52 Fenton Ct",
+          "CharityAddressLine2": null,
+          "CharityAddressPostalCode": "3173",
+          "CharityAddressStateOrProvince": "VIC",
+          "CharityAddressSuburb": "Keysborough",
+          "CharityEmail": "fr.michael@ruscare.com.au",
+          "CharitySize": "Small",
+          "CharityUuid": "5e7cbb9d-39af-e811-a962-000d3ad24a0d",
+          "ChildCareServices": false,
+          "ExpenseEmployees": "0.0000",
+          "ExpenseGrantDonationsInAustralia": "121.0000",
+          "ExpenseGrantDonationsOutsideAustralia": "0.0000",
+          "ExpenseTotal": "121.0000",
+          "ExpensesOther": "0.0000",
+          "FinAccrualAccounting": "Cash",
+          "FinConsolidatedReportFromMiltiple": null,
+          "FinDocumentedPoliciesRelatedPartyTransactions": null,
+          "FinFyeJune": false,
+          "FinProvideVoluntarily": null,
+          "FinRelatedPartyTransactions": "No",
+          "FinReportACT": false,
+          "FinReportFrom": "2024-07-01T00:00:00.0000000Z",
+          "FinReportNSW": false,
+          "FinReportNT": false,
+          "FinReportQLD": false,
+          "FinReportSA": false,
+          "FinReportTAS": false,
+          "FinReportTo": "2025-06-30T00:00:00.0000000Z",
+          "FinReportVIC": false,
+          "FinReportWA": false,
+          "FinReportingType": null,
+          "FinSapDate": null,
+          "FundRaisingNumberACT": null,
+          "FundRaisingNumberNSW": null,
+          "FundRaisingNumberQLD": null,
+          "FundRaisingNumberSA": null,
+          "FundRaisingNumberTAS": null,
+          "FundRaisingNumberVIC": null,
+          "FundRaisingNumberWA": null,
+          "GovDocAccurate": null,
+          "GrantCapacityBuildingPct": null,
+          "GrantMultiYearPct": null,
+          "GrantPublicOpenApplicationPct": null,
+          "GrantRuralRegionPct": null,
+          "HasSubmittedToRegulator": false,
+          "HoursPaid": null,
+          "HoursTotal": null,
+          "HoursVolunteer": null,
+          "HrCasualEmployees": "0",
+          "HrFteStaff": "0.0000000000",
+          "HrFullTimeEmployees": "0",
+          "HrPartTimeEmployees": "0",
+          "HrUnpainVolunteers": "39",
+          "IncomeDonationsBequests": "0.0000",
+          "IncomeGovernmentGrants": "0.0000",
+          "IncomeOther": "-5.0000",
+          "IncomeOtherComprehinsive": "0.0000",
+          "IncomeOtherNeg": null,
+          "IncomeOtherReceipts": "0.0000",
+          "IncomeTotalComprehensive": "0.0000",
+          "IncomeTotalReceipts": "-5.0000",
+          "IncorporationStatus": null,
+          "InterestExpense": "0.0000",
+          "IsIncorporatedAssociation": true,
+          "KeyManagementPersonnel": false,
+          "LegalName": "The Russian Imperial Order of Saint Michael Archangel",
+          "NetAssetsLiabilities": "36043.0000",
+          "NetSurplusDeficit": "-126.0000",
+          "NonCurrentLoansPayable": "0.0000",
+          "NumberOfKeyManagementPersonnel": "0",
+          "OperatingCountries": null,
+          "OperatingInACT": false,
+          "OperatingInNSW": false,
+          "OperatingInNT": false,
+          "OperatingInQLD": false,
+          "OperatingInSA": false,
+          "OperatingInTAS": false,
+          "OperatingInVIC": false,
+          "OperatingInWA": false,
+          "OperatingOverseas": false,
+          "OtherNames": [],
+          "OtherNonCurrentAssets": "0.0000",
+          "OtherNonCurrentLiabilities": "0.0000",
+          "OtherPurposeDescription": null,
+          "OtherPurposes": "False",
+          "Programs": [
+            {
+              "AisUuid": "0c391b90-d0fb-f011-8406-7ced8d33fdea",
+              "Name": "Disaster relief",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Families",
+                "Victims of disaster",
+                "People at risk of homelessness/ people experiencing homelessness"
+              ],
+              "ProgramClassification": "Welfare",
+              "ProgramClassificationID": "656",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Dandenong VIC, Australia",
+                  "FormattedAddress": "Dandenong VIC 3175, Australia",
+                  "Marker": {
+                    "Latitude": -37.9847811,
+                    "Longitude": 145.2139907
+                  },
+                  "Name": "Dandenong",
+                  "uuid": "9f371d96-d0fb-f011-8406-7ced8d33fdea"
+                }
+              ],
+              "ProgramWeblink": null,
+              "uuid": "3a371d96-d0fb-f011-8406-7ced8d33fdea"
+            },
+            {
+              "AisUuid": "0c391b90-d0fb-f011-8406-7ced8d33fdea",
+              "Name": "Migrant Assistance",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Migrants, refugees or asylum seekers"
+              ],
+              "ProgramClassification": "Community service organisations",
+              "ProgramClassificationID": "125",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Dandenong VIC, Australia",
+                  "FormattedAddress": "Dandenong VIC 3175, Australia",
+                  "Marker": {
+                    "Latitude": -37.9847811,
+                    "Longitude": 145.2139907
+                  },
+                  "Name": "Dandenong",
+                  "uuid": "e6371d96-d0fb-f011-8406-7ced8d33fdea"
+                }
+              ],
+              "ProgramWeblink": "www.ruscare.com.au",
+              "uuid": "aa371d96-d0fb-f011-8406-7ced8d33fdea"
+            }
+          ],
+          "RegulatedACT": false,
+          "RegulatedNSW": false,
+          "RegulatedNT": false,
+          "RegulatedQLD": false,
+          "RegulatedSA": false,
+          "RegulatedTAS": false,
+          "RegulatedVIC": false,
+          "RegulatedWA": false,
+          "Regulator": null,
+          "RegulatorAGMDateACT": null,
+          "RegulatorAGMDateNT": null,
+          "RegulatorAGMDateVIC": "2025-12-30T00:00:00.0000000",
+          "RegulatorAGMDateWA": null,
+          "RegulatorFundRaising": "Yes",
+          "RegulatorFundRaisingACT": false,
+          "RegulatorFundRaisingNSW": false,
+          "RegulatorFundRaisingNT": false,
+          "RegulatorFundRaisingOnline": false,
+          "RegulatorFundRaisingQLD": false,
+          "RegulatorFundRaisingSA": false,
+          "RegulatorFundRaisingTAS": false,
+          "RegulatorFundRaisingVIC": true,
+          "RegulatorFundRaisingWA": false,
+          "RegulatorIncorporatedAssociationACT": false,
+          "RegulatorIncorporatedAssociationNSW": false,
+          "RegulatorIncorporatedAssociationNT": false,
+          "RegulatorIncorporatedAssociationNumberACT": null,
+          "RegulatorIncorporatedAssociationNumberNSW": null,
+          "RegulatorIncorporatedAssociationNumberNT": null,
+          "RegulatorIncorporatedAssociationNumberQLD": null,
+          "RegulatorIncorporatedAssociationNumberSA": null,
+          "RegulatorIncorporatedAssociationNumberTAS": null,
+          "RegulatorIncorporatedAssociationNumberVIC": null,
+          "RegulatorIncorporatedAssociationNumberWA": null,
+          "RegulatorIncorporatedAssociationQLD": false,
+          "RegulatorIncorporatedAssociationSA": false,
+          "RegulatorIncorporatedAssociationTAS": false,
+          "RegulatorIncorporatedAssociationVIC": true,
+          "RegulatorIncorporatedAssociationWA": false,
+          "RegulatorMetRequirementACT": false,
+          "RegulatorMetRequirementWA": null,
+          "RegulatorOtherDetails": null,
+          "RegulatorPrograms": null,
+          "RegulatorStates": false,
+          "RelatedPartyDetails": null,
+          "RelatedPartyTransactions": [],
+          "ReliefOfPoverty": false,
+          "ReportingGroupFlag": false,
+          "ResponsiblePersonAccurate": null,
+          "RevenueGoodsServices": "0.0000",
+          "RevenueInvestments": "0.0000",
+          "RevenueTotal": "0.0000",
+          "StatementYear": "2025",
+          "SubTypesAccurate": null,
+          "TotalAssets": "36043.0000",
+          "TotalCurrentAssets": "0.0000",
+          "TotalCurrentLiabilities": "0.0000",
+          "TotalLiabilities": "0.0000",
+          "TotalNonCurrentAssets": null,
+          "TotalNonCurrentLiabilities": "0.0000",
+          "TotalNonCurrentLoansReceivable": "0.0000",
+          "TotalPaidKMP": "$0.00",
+          "Website": "russianimperialorder.com",
+          "__normalized": true,
+          "entityTypeVersion": "",
+          "entityVersion": "1838947645",
+          "timeStamp": "2026-01-27T22:36:06.0000000Z",
+          "type": "annual_information_statement",
+          "uuid": "0c391b90-d0fb-f011-8406-7ced8d33fdea"
+        },
+        "type": "annual_information_statement",
+        "uuid": "0c391b90-d0fb-f011-8406-7ced8d33fdea"
+      },
+      "canonical_field_mappings": {
+        "data.Programs": "programs",
+        "data.TotalRevenue": "financial_records[].revenue",
+        "data.TotalExpenses": "financial_records[].total_expenses"
       },
       "evidence_ids": [
-        "ev:acnc:ais:13103345213:2025"
+        "ev:acnc:ais:13103345213:0c391b90-d0fb-f011-8406-7ced8d33fdea"
       ]
     }
   ],
@@ -974,9 +1237,12 @@
       },
       "assets": null,
       "liabilities": null,
+      "net_assets": null,
       "income_breakdown": [],
       "expense_breakdown": [],
-      "balance_sheet_breakdown": []
+      "balance_sheet_breakdown": [],
+      "source_ordered_line_items": [],
+      "statements": []
     }
   ],
   "financial_metrics": [
@@ -1139,13 +1405,13 @@
       "content_hash": null
     },
     {
-      "evidence_id": "ev:acnc:ais:13103345213:2025",
+      "evidence_id": "ev:acnc:ais:13103345213:0c391b90-d0fb-f011-8406-7ced8d33fdea",
       "source_type": "regulatory",
-      "title": "The Russian Imperial Order of Saint Michael Archangel Annual Information Statement 2025",
+      "title": "ACNC Annual Information Statement 2025",
       "publisher": "Australian Charities and Not-for-profits Commission",
       "url": "https://www.acnc.gov.au/charity/charities/5e7cbb9d-39af-e811-a962-000d3ad24a0d/documents/0c391b90-d0fb-f011-8406-7ced8d33fdea",
       "observed_at": "2026-01-27",
-      "reporting_period": null,
+      "reporting_period": "2025",
       "page": null,
       "section": null,
       "content_hash": null
@@ -1157,81 +1423,25 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "15d6330c1ce46b8b181c8c1fda06b7d03807bec24742ee13f61f1d20fb35b741",
-    "generated_at": "2026-08-13T05:51:03.017879Z",
+    "source_text_hash": "bf4471e2d3a176c98c0cd7df6f76884bd8334b001084ee9e63957d0f31390e2e",
+    "generated_at": "2026-08-10T13:53:24.457480Z",
     "vector_ref": "embeddings.parquet#cb_d44bbd714bbc48daa9e1b734fb404cea"
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
+    "prompt_version": "phase2a-0.4",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "15e59ca0c2dec8dfbe431055bf7bb2f8d1ff8161c095b30d1870abb0495270da",
-    "generated_at": "2026-08-12T14:08:08.405995Z",
+    "evidence_input_hash": "37a5e0f9acd388f4763236a577c2ad4118157c4d85ec12485c6bf40e063e2c99",
+    "generated_at": "2026-08-10T12:57:14.399312Z",
     "editorial_policy_version": "0.1"
   },
-  "derivative_assessments": [
-    {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T14:08:08.405995Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-rc2-editorial-migration",
-      "input_hash": "15e59ca0c2dec8dfbe431055bf7bb2f8d1ff8161c095b30d1870abb0495270da",
-      "disposition": "refreshed",
-      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "taxonomy",
-      "generated_at": "2026-08-12T14:08:08.405995Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "15e59ca0c2dec8dfbe431055bf7bb2f8d1ff8161c095b30d1870abb0495270da",
-      "disposition": "reused",
-      "reason": "No new supported canonical classification facts.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "fundraising",
-      "generated_at": null,
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "15e59ca0c2dec8dfbe431055bf7bb2f8d1ff8161c095b30d1870abb0495270da",
-      "disposition": "reused",
-      "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "embedding",
-      "generated_at": "2026-08-10T13:53:24.457480Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "bf4471e2d3a176c98c0cd7df6f76884bd8334b001084ee9e63957d0f31390e2e",
-      "disposition": "reused",
-      "reason": "Semantic source text unchanged.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "similarities",
-      "generated_at": "2026-08-10T13:53:24.457480Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "bf4471e2d3a176c98c0cd7df6f76884bd8334b001084ee9e63957d0f31390e2e",
-      "disposition": "reused",
-      "reason": "Embedding reused; semantic neighbours retained.",
-      "affected_dimensions": []
-    }
-  ],
-  "dataset_version": "phase2b-2026-08-13-rc3",
+  "derivative_assessments": [],
+  "dataset_version": "phase2b-2026-08-14-rc4",
   "card_schema_version": "0.4",
-  "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T05:50:58.991012Z"
+  "editorial_policy_version": "0.4-rc4",
+  "generator_version": "0.5.0-rc4",
+  "built_at": "2026-08-13T10:52:47.483880Z"
 }

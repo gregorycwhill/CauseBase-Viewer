@@ -72,14 +72,6 @@
       "freshness_note": null
     },
     {
-      "capability": "website",
-      "status": "retrieval_failed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
       "capability": "fundraising_expenditure",
       "status": "not_available_from_source",
       "source_record_id": null,
@@ -100,12 +92,20 @@
     {
       "capability": "latest_acnc_ais",
       "status": "observed",
-      "source_record_id": null,
+      "source_record_id": "src:acnc-ais-detail:17855693573:375b325c-f420-f111-8341-6045bde5b22a:cb_1e178c334fd34e86a145aec2e6f2d33e",
       "evidence_ids": [
-        "ev:acnc:ais:17855693573:2025"
+        "ev:acnc:ais:17855693573:375b325c-f420-f111-8341-6045bde5b22a"
       ],
       "observed_at": "2026-03-16",
-      "freshness_note": "Latest submitted ACNC AIS in the 2026-08-13 public-profile acquisition: 2025."
+      "freshness_note": "Latest submitted AIS detail acquired from the public ACNC entity endpoint."
+    },
+    {
+      "capability": "website",
+      "status": "observed",
+      "source_record_id": null,
+      "evidence_ids": [],
+      "observed_at": "2026-08-13",
+      "freshness_note": "Public website locator acquired from the ACNC profile."
     }
   ],
   "enrichment_level": "enriched",
@@ -113,32 +113,22 @@
   "geography": [
     "Victoria (VIC), Australia"
   ],
-  "navigation_geography": [
+  "geography_observations": [
     {
-      "level": "country",
-      "code": "AU",
-      "label": "Australia",
-      "evidence_ids": [
-        "ev:acnc:17855693573"
-      ]
-    },
-    {
-      "level": "state_territory",
-      "code": "AU-VIC",
-      "label": "Victoria",
-      "evidence_ids": [
-        "ev:acnc:17855693573"
-      ]
+      "value": "Victoria (VIC), Australia",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
     }
   ],
-  "causebase_summary": "Australia Chung Tai Buddhist Foundation Inc is a registered charity based in Victoria, Australia. It filed an Annual Information Statement covering the year 1 July 2022 to 30 June 2023 with the ACNC. CauseBase does not have descriptive material in this release that identifies the foundation’s specific programs, activities or the people or groups it serves.",
-  "summary_evidence_ids": [
-    "ev:acnc:17855693573",
-    "ev:ais:17855693573:2023"
-  ],
+  "navigation_geography": [],
+  "causebase_summary": "Australia Chung Tai Buddhist Foundation Inc is recorded on the ACNC register with a structured geography of VIC. The available regulatory evidence for 01/07/2022 to 30/06/2023 is an ACNC Annual Information Statement entry reporting revenue of AUD 207,407 and total expenses of AUD 201,787. CauseBase has an ACNC register extract and the AIS 2023 extract as the sources for this record. No organisational self-description or website content was retrieved in this release and the supplied evidence does not describe specific programs, services or beneficiary groups. CauseBase does not have sufficient descriptive evidence in this release to independently identify specific activities or beneficiaries.",
+  "summary_evidence_ids": [],
   "organisation_self_description": null,
   "activities": [],
+  "activity_observations": [],
   "beneficiaries": [],
+  "beneficiary_observations": [],
   "participation_modes": [],
   "participation_observations": [],
   "opportunities": [],
@@ -160,82 +150,23 @@
       "reporting_period": "2025",
       "source_url": "https://chungtai.org.au/en/",
       "evidence_ids": [
-        "ev:acnc:ais:17855693573:2025"
+        "ev:acnc:ais:17855693573:375b325c-f420-f111-8341-6045bde5b22a"
       ]
     }
   ],
   "source_native_records": [
     {
-      "source_record_id": "src:acnc-register:6bf7d3bd-e760-53ec-96be-e49a9b9e09ee",
-      "source_family": "acnc-register",
-      "dataset_version": "2026-08-10",
-      "source_url": "https://www.acnc.gov.au/charity/charities?search=17855693573",
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "ABN": "17855693573",
-        "Legal Name": "Australia Chung Tai Buddhist Foundation Inc",
-        "Registration Status": "registered",
-        "ACNC classifications": "religion; children",
-        "Website": "https://chungtai.org.au/en/",
-        "ACNC registration ID": null,
-        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "ABN": "external_identifiers",
-        "Legal Name": "legal_name",
-        "Registration Status": "registrations"
-      },
-      "evidence_ids": [
-        "ev:acnc:17855693573"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-ais:fr:ais:cb_1e178c334fd34e86a145aec2e6f2d33e:2023",
-      "source_family": "acnc-ais",
-      "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": "2022-07-01",
-      "effective_to": "2023-06-30",
-      "source_fields": {
-        "Reporting period": "01/07/2022 to 30/06/2023",
-        "Reporting scope": "subject",
-        "Consolidated": "unknown",
-        "Revenue": "207407",
-        "Donations and bequests": null,
-        "Government grants": null,
-        "Total expenses": "201787",
-        "Assets": null,
-        "Liabilities": null
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "Revenue": "financial_records[].revenue",
-        "Total expenses": "financial_records[].total_expenses"
-      },
-      "evidence_ids": [
-        "ev:ais:17855693573:2023"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-public-profile:17855693573:cb_1e178c334fd34e86a145aec2e6f2d33e:2026-08-13",
+      "source_record_id": "src:acnc-public-profile:17855693573:0186f520-39af-e811-a95e-000d3ad24c60:cb_1e178c334fd34e86a145aec2e6f2d33e",
       "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-13-public-api",
+      "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/0186f520-39af-e811-a95e-000d3ad24c60/profile",
-      "retrieved_at": "2026-08-13T05:50:58.991012Z",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
       "observed_at": "2026-03-16",
       "effective_from": null,
       "effective_to": null,
       "source_fields": {
         "uuid": "0186f520-39af-e811-a95e-000d3ad24c60",
-        "abn": "17855693573",
-        "latest_ais_year": "2025",
-        "latest_ais_uuid": "375b325c-f420-f111-8341-6045bde5b22a"
+        "abn": "17855693573"
       },
       "source_payload": {
         "data": {
@@ -905,13 +836,298 @@
         "uuid": "0186f520-39af-e811-a95e-000d3ad24c60"
       },
       "canonical_field_mappings": {
-        "data.Name": "display_name",
         "data.OtherNames": "operating_names",
-        "data.AnnualReports": "acnc_ais_url",
-        "data.Programs": "programs"
+        "data.AddressStateOrProvince": "principal_location"
+      },
+      "evidence_ids": []
+    },
+    {
+      "source_record_id": "src:acnc-ais-detail:17855693573:375b325c-f420-f111-8341-6045bde5b22a:cb_1e178c334fd34e86a145aec2e6f2d33e",
+      "source_family": "acnc-ais-detail",
+      "dataset_version": "2026-08-14-public-api",
+      "source_url": "https://www.acnc.gov.au/charity/charities/0186f520-39af-e811-a95e-000d3ad24c60/documents/375b325c-f420-f111-8341-6045bde5b22a",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
+      "observed_at": "2026-03-16",
+      "effective_from": null,
+      "effective_to": null,
+      "source_fields": {
+        "abn": "17855693573",
+        "ais_uuid": "375b325c-f420-f111-8341-6045bde5b22a",
+        "year": "2025",
+        "date_received": "2026-03-16T04:55:56.0000000Z"
+      },
+      "source_payload": {
+        "data": {
+          "Abn": "17855693573",
+          "ActivityAdvocacyNCivic": false,
+          "ActivityAgedCare": false,
+          "ActivityAnimalProtection": false,
+          "ActivityCultureAndArt": false,
+          "ActivityEconomicSocialCommunity": false,
+          "ActivityEmergencyNRelief": false,
+          "ActivityEmploymentNTraining": false,
+          "ActivityEnvironmental": false,
+          "ActivityGrantMaking": false,
+          "ActivityHealthRehabilitation": false,
+          "ActivityHigherEducation": false,
+          "ActivityHousing": false,
+          "ActivityIncomeSupportNMaintenance": false,
+          "ActivityInternational": false,
+          "ActivityInternationalDescription": null,
+          "ActivityInternationalOther": false,
+          "ActivityInternationalOtherDescription": null,
+          "ActivityLawNLegalServices": false,
+          "ActivityMain": null,
+          "ActivityMentalHealthCrisisIntervention": false,
+          "ActivityNdisSupported": null,
+          "ActivityNdisSupportedNext": null,
+          "ActivityOperating": true,
+          "ActivityOperatingOverseas": false,
+          "ActivityOther": false,
+          "ActivityOtherDescription": null,
+          "ActivityOtherEducation": false,
+          "ActivityOtherHealthServices": false,
+          "ActivityPersuitPurposesDescription": "We are a Buddhist organization focus on spreading the teachings of the Dharma. This  include offering free courses or retreats aimed at cultivating new generations of  Buddhist practitioners and leaders.",
+          "ActivityPhilanthropicPromotion": false,
+          "ActivityPolitical": false,
+          "ActivityPrimarySecondaryEducation": false,
+          "ActivityPurposeChange": null,
+          "ActivityPurposeChangeDescription": null,
+          "ActivityRecreationSocialClub": false,
+          "ActivityReligious": false,
+          "ActivityResearch": false,
+          "ActivitySocialServices": false,
+          "ActivitySports": false,
+          "ActivityTransferringFundsGoods": false,
+          "AdvancementOfEducation": false,
+          "AdvancementOfReligion": false,
+          "AssetsandLiabilitiesDescription": null,
+          "BasicReligiousCharity": false,
+          "BeneficiaryAboriginalTorres": false,
+          "BeneficiaryAdults": false,
+          "BeneficiaryAllAges": false,
+          "BeneficiaryChildren": false,
+          "BeneficiaryChronicIllness": false,
+          "BeneficiaryCrimeVictims": false,
+          "BeneficiaryDisasterVictims": false,
+          "BeneficiaryEarlyChildhood": false,
+          "BeneficiaryEthnic": false,
+          "BeneficiaryFamilies": false,
+          "BeneficiaryFinanciallyDisadvantaged": false,
+          "BeneficiaryGeneral": false,
+          "BeneficiaryHomelessnessRisk": false,
+          "BeneficiaryLGBT": false,
+          "BeneficiaryMain": null,
+          "BeneficiaryMen": false,
+          "BeneficiaryMigrantsRefugees": false,
+          "BeneficiaryOffenderFamilies": false,
+          "BeneficiaryOther": false,
+          "BeneficiaryOtherCharities": false,
+          "BeneficiaryOtherDescription": null,
+          "BeneficiaryOverseas": false,
+          "BeneficiaryPeopleWithDisability": false,
+          "BeneficiaryRuralRegionalRemote": false,
+          "BeneficiarySeniors": false,
+          "BeneficiaryUnemployed": false,
+          "BeneficiaryVeteranFamilies": false,
+          "BeneficiaryWomen": false,
+          "BeneficiaryYouth": false,
+          "CharityAddressCountry": "Australia",
+          "CharityAddressLine1": "94a High St",
+          "CharityAddressLine2": null,
+          "CharityAddressPostalCode": "3146",
+          "CharityAddressStateOrProvince": "VIC",
+          "CharityAddressSuburb": "Glen Iris",
+          "CharityEmail": "baolin@chungtai.org.au",
+          "CharitySize": "Medium",
+          "CharityUuid": "0186f520-39af-e811-a95e-000d3ad24c60",
+          "ChildCareServices": false,
+          "ExpenseEmployees": "36199.0000",
+          "ExpenseGrantDonationsInAustralia": "0.0000",
+          "ExpenseGrantDonationsOutsideAustralia": "0.0000",
+          "ExpenseTotal": "389913.0000",
+          "ExpensesOther": "353714.0000",
+          "FinAccrualAccounting": null,
+          "FinConsolidatedReportFromMiltiple": "No",
+          "FinDocumentedPoliciesRelatedPartyTransactions": null,
+          "FinFyeJune": false,
+          "FinProvideVoluntarily": null,
+          "FinRelatedPartyTransactions": "No",
+          "FinReportACT": false,
+          "FinReportFrom": "2024-07-01T00:00:00.0000000Z",
+          "FinReportNSW": false,
+          "FinReportNT": false,
+          "FinReportQLD": false,
+          "FinReportSA": false,
+          "FinReportTAS": false,
+          "FinReportTo": "2025-06-30T00:00:00.0000000Z",
+          "FinReportVIC": false,
+          "FinReportWA": false,
+          "FinReportingType": "General purpose financial statements",
+          "FinSapDate": null,
+          "FundRaisingNumberACT": null,
+          "FundRaisingNumberNSW": null,
+          "FundRaisingNumberQLD": null,
+          "FundRaisingNumberSA": null,
+          "FundRaisingNumberTAS": null,
+          "FundRaisingNumberVIC": null,
+          "FundRaisingNumberWA": null,
+          "GovDocAccurate": null,
+          "GrantCapacityBuildingPct": null,
+          "GrantMultiYearPct": null,
+          "GrantPublicOpenApplicationPct": null,
+          "GrantRuralRegionPct": null,
+          "HasSubmittedToRegulator": false,
+          "HoursPaid": null,
+          "HoursTotal": null,
+          "HoursVolunteer": null,
+          "HrCasualEmployees": "0",
+          "HrFteStaff": "1.0000000000",
+          "HrFullTimeEmployees": "1",
+          "HrPartTimeEmployees": "0",
+          "HrUnpainVolunteers": "52",
+          "IncomeDonationsBequests": "768721.0000",
+          "IncomeGovernmentGrants": "0.0000",
+          "IncomeOther": "0.0000",
+          "IncomeOtherComprehinsive": "0.0000",
+          "IncomeOtherNeg": null,
+          "IncomeOtherReceipts": "0.0000",
+          "IncomeTotalComprehensive": "515390.0000",
+          "IncomeTotalReceipts": "905303.0000",
+          "IncorporationStatus": null,
+          "InterestExpense": "0.0000",
+          "IsIncorporatedAssociation": true,
+          "KeyManagementPersonnel": false,
+          "LegalName": "Australia Chung Tai Buddhist Foundation Inc",
+          "NetAssetsLiabilities": "9037200.0000",
+          "NetSurplusDeficit": "515390.0000",
+          "NonCurrentLoansPayable": "0.0000",
+          "NumberOfKeyManagementPersonnel": "0",
+          "OperatingCountries": null,
+          "OperatingInACT": false,
+          "OperatingInNSW": false,
+          "OperatingInNT": false,
+          "OperatingInQLD": false,
+          "OperatingInSA": false,
+          "OperatingInTAS": false,
+          "OperatingInVIC": false,
+          "OperatingInWA": false,
+          "OperatingOverseas": false,
+          "OtherNames": [],
+          "OtherNonCurrentAssets": "0.0000",
+          "OtherNonCurrentLiabilities": "0.0000",
+          "OtherPurposeDescription": null,
+          "OtherPurposes": "False",
+          "Programs": [
+            {
+              "AisUuid": "375b325c-f420-f111-8341-6045bde5b22a",
+              "Name": "Meditation Classes",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Children - aged 6 to under 15",
+                "Youth - 15 to under 25",
+                "Adults - aged 25 to under 65",
+                "Adults - aged 65 and over"
+              ],
+              "ProgramClassification": "Buddhism",
+              "ProgramClassificationID": "740",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Glen Iris VIC, Australia",
+                  "FormattedAddress": "Glen Iris VIC 3146, Australia",
+                  "Marker": {
+                    "Latitude": -37.8600246,
+                    "Longitude": 145.0593297
+                  },
+                  "Name": "Glen Iris",
+                  "uuid": "edef2a62-f420-f111-8341-6045bde5b22a"
+                }
+              ],
+              "ProgramWeblink": "https://chungtai.org.au/en/",
+              "uuid": "a05b325c-f420-f111-8341-6045bde5b22a"
+            }
+          ],
+          "RegulatedACT": false,
+          "RegulatedNSW": false,
+          "RegulatedNT": false,
+          "RegulatedQLD": false,
+          "RegulatedSA": false,
+          "RegulatedTAS": false,
+          "RegulatedVIC": false,
+          "RegulatedWA": false,
+          "Regulator": null,
+          "RegulatorAGMDateACT": null,
+          "RegulatorAGMDateNT": null,
+          "RegulatorAGMDateVIC": "2025-10-20T00:00:00.0000000",
+          "RegulatorAGMDateWA": null,
+          "RegulatorFundRaising": "No",
+          "RegulatorFundRaisingACT": false,
+          "RegulatorFundRaisingNSW": false,
+          "RegulatorFundRaisingNT": false,
+          "RegulatorFundRaisingOnline": false,
+          "RegulatorFundRaisingQLD": false,
+          "RegulatorFundRaisingSA": false,
+          "RegulatorFundRaisingTAS": false,
+          "RegulatorFundRaisingVIC": false,
+          "RegulatorFundRaisingWA": false,
+          "RegulatorIncorporatedAssociationACT": false,
+          "RegulatorIncorporatedAssociationNSW": false,
+          "RegulatorIncorporatedAssociationNT": false,
+          "RegulatorIncorporatedAssociationNumberACT": null,
+          "RegulatorIncorporatedAssociationNumberNSW": null,
+          "RegulatorIncorporatedAssociationNumberNT": null,
+          "RegulatorIncorporatedAssociationNumberQLD": null,
+          "RegulatorIncorporatedAssociationNumberSA": null,
+          "RegulatorIncorporatedAssociationNumberTAS": null,
+          "RegulatorIncorporatedAssociationNumberVIC": "A0048628R",
+          "RegulatorIncorporatedAssociationNumberWA": null,
+          "RegulatorIncorporatedAssociationQLD": false,
+          "RegulatorIncorporatedAssociationSA": false,
+          "RegulatorIncorporatedAssociationTAS": false,
+          "RegulatorIncorporatedAssociationVIC": true,
+          "RegulatorIncorporatedAssociationWA": false,
+          "RegulatorMetRequirementACT": false,
+          "RegulatorMetRequirementWA": null,
+          "RegulatorOtherDetails": null,
+          "RegulatorPrograms": null,
+          "RegulatorStates": false,
+          "RelatedPartyDetails": null,
+          "RelatedPartyTransactions": [],
+          "ReliefOfPoverty": false,
+          "ReportingGroupFlag": false,
+          "ResponsiblePersonAccurate": null,
+          "RevenueGoodsServices": "0.0000",
+          "RevenueInvestments": "136582.0000",
+          "RevenueTotal": "905303.0000",
+          "StatementYear": "2025",
+          "SubTypesAccurate": null,
+          "TotalAssets": "9042779.0000",
+          "TotalCurrentAssets": "1993719.0000",
+          "TotalCurrentLiabilities": "5579.0000",
+          "TotalLiabilities": "5579.0000",
+          "TotalNonCurrentAssets": "7049060.0000",
+          "TotalNonCurrentLiabilities": "0.0000",
+          "TotalNonCurrentLoansReceivable": "0.0000",
+          "TotalPaidKMP": "$0.00",
+          "Website": "https://chungtai.org.au/en/",
+          "__normalized": true,
+          "entityTypeVersion": "",
+          "entityVersion": "1890308581",
+          "timeStamp": "2026-03-16T04:55:38.0000000Z",
+          "type": "annual_information_statement",
+          "uuid": "375b325c-f420-f111-8341-6045bde5b22a"
+        },
+        "type": "annual_information_statement",
+        "uuid": "375b325c-f420-f111-8341-6045bde5b22a"
+      },
+      "canonical_field_mappings": {
+        "data.Programs": "programs",
+        "data.TotalRevenue": "financial_records[].revenue",
+        "data.TotalExpenses": "financial_records[].total_expenses"
       },
       "evidence_ids": [
-        "ev:acnc:ais:17855693573:2025"
+        "ev:acnc:ais:17855693573:375b325c-f420-f111-8341-6045bde5b22a"
       ]
     }
   ],
@@ -960,9 +1176,12 @@
       },
       "assets": null,
       "liabilities": null,
+      "net_assets": null,
       "income_breakdown": [],
       "expense_breakdown": [],
-      "balance_sheet_breakdown": []
+      "balance_sheet_breakdown": [],
+      "source_ordered_line_items": [],
+      "statements": []
     }
   ],
   "financial_metrics": [
@@ -1068,24 +1287,24 @@
       "content_hash": null
     },
     {
+      "evidence_id": "ev:acnc:ais:17855693573:375b325c-f420-f111-8341-6045bde5b22a",
+      "source_type": "regulatory",
+      "title": "ACNC Annual Information Statement 2025",
+      "publisher": "Australian Charities and Not-for-profits Commission",
+      "url": "https://www.acnc.gov.au/charity/charities/0186f520-39af-e811-a95e-000d3ad24c60/documents/375b325c-f420-f111-8341-6045bde5b22a",
+      "observed_at": "2026-03-16",
+      "reporting_period": "2025",
+      "page": null,
+      "section": null,
+      "content_hash": null
+    },
+    {
       "evidence_id": "ev:abr-dgr:17855693573:20260805",
       "source_type": "regulatory",
       "title": "ABR DGR bulk observation",
       "publisher": "Australian Business Register / Australian Taxation Office",
       "url": "https://abr.business.gov.au/Tools/BulkExtract",
       "observed_at": "2026-08-05",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
-    },
-    {
-      "evidence_id": "ev:acnc:ais:17855693573:2025",
-      "source_type": "regulatory",
-      "title": "Australia Chung Tai Buddhist Foundation Inc Annual Information Statement 2025",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": "https://www.acnc.gov.au/charity/charities/0186f520-39af-e811-a95e-000d3ad24c60/documents/375b325c-f420-f111-8341-6045bde5b22a",
-      "observed_at": "2026-03-16",
       "reporting_period": null,
       "page": null,
       "section": null,
@@ -1098,81 +1317,25 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "c005455c117ab18f3bee4a65ac1089840165c1ccfab1913b170c613174044993",
-    "generated_at": "2026-08-13T05:51:03.013939Z",
+    "source_text_hash": "88b00b0e122f3b1b27670bd3eef523383ef292e2874631b9a4432797ad3d8571",
+    "generated_at": "2026-08-10T13:53:24.455395Z",
     "vector_ref": "embeddings.parquet#cb_1e178c334fd34e86a145aec2e6f2d33e"
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
+    "prompt_version": "phase2a-0.5",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "b4f9ee3a544efbbdf89d1ea910a4f25f7beb12df0744aa060f80d0d00ea1b03a",
-    "generated_at": "2026-08-12T13:37:07.643668Z",
+    "evidence_input_hash": "39bc513e4d0e9b4c73be3a6b100c0d80df0fb9a1b5eebecef44180d2aee80da0",
+    "generated_at": "2026-08-10T13:50:51.389102Z",
     "editorial_policy_version": "0.1"
   },
-  "derivative_assessments": [
-    {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T13:37:07.643668Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-rc2-editorial-migration",
-      "input_hash": "b4f9ee3a544efbbdf89d1ea910a4f25f7beb12df0744aa060f80d0d00ea1b03a",
-      "disposition": "refreshed",
-      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "taxonomy",
-      "generated_at": "2026-08-12T13:37:07.643668Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "b4f9ee3a544efbbdf89d1ea910a4f25f7beb12df0744aa060f80d0d00ea1b03a",
-      "disposition": "reused",
-      "reason": "No new supported canonical classification facts.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "fundraising",
-      "generated_at": null,
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "b4f9ee3a544efbbdf89d1ea910a4f25f7beb12df0744aa060f80d0d00ea1b03a",
-      "disposition": "reused",
-      "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "embedding",
-      "generated_at": "2026-08-10T13:53:24.455395Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "88b00b0e122f3b1b27670bd3eef523383ef292e2874631b9a4432797ad3d8571",
-      "disposition": "reused",
-      "reason": "Semantic source text unchanged.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "similarities",
-      "generated_at": "2026-08-10T13:53:24.455395Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "88b00b0e122f3b1b27670bd3eef523383ef292e2874631b9a4432797ad3d8571",
-      "disposition": "reused",
-      "reason": "Embedding reused; semantic neighbours retained.",
-      "affected_dimensions": []
-    }
-  ],
-  "dataset_version": "phase2b-2026-08-13-rc3",
+  "derivative_assessments": [],
+  "dataset_version": "phase2b-2026-08-14-rc4",
   "card_schema_version": "0.4",
-  "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T05:50:58.991012Z"
+  "editorial_policy_version": "0.4-rc4",
+  "generator_version": "0.5.0-rc4",
+  "built_at": "2026-08-13T10:52:47.483880Z"
 }

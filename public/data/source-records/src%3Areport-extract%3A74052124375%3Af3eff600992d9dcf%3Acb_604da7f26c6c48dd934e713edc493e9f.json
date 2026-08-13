@@ -1,0 +1,31 @@
+{
+  "source_record_id": "src:report-extract:74052124375:f3eff600992d9dcf:cb_604da7f26c6c48dd934e713edc493e9f",
+  "source_family": "organisation-report-extract",
+  "dataset_version": "2026-08-14-private-extraction",
+  "source_url": "https://envirojustice.org.au/publication/annual-reports/",
+  "retrieved_at": "2026-08-13T10:52:47.483880Z",
+  "observed_at": "2026-08-13",
+  "effective_from": null,
+  "effective_to": null,
+  "source_fields": {
+    "filename": "EJA-Annual-Report-2024-25.pdf",
+    "source_sha256": "f3eff600992d9dcf7ecea509e370b819f2ffa17ffd63391652f0e931642f51ae",
+    "page_count": 32,
+    "discovery_basis": "ACNC public profile Documents field"
+  },
+  "source_payload": {
+    "rows": [],
+    "diagnostics": {
+      "native_text_pages": 32,
+      "low_text_pages": [],
+      "ocr_attempted_pages": []
+    }
+  },
+  "canonical_field_mappings": {
+    "rows[].label": "financial_records[].*_breakdown",
+    "rows[].current": "financial_records[].*_breakdown[].amount"
+  },
+  "evidence_ids": [
+    "ev:report:74052124375:f3eff600992d9dcf"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "source_record_id": "src:report-extract:32590616129:3a9518409a8d9937:cb_e0f83d5305ed4544a95e72a97c8c424a",
+  "source_family": "organisation-report-extract",
+  "dataset_version": "2026-08-14-private-extraction",
+  "source_url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/5ea57b44-3aaf-e811-a961-000d3ad24182-ff06b113-fed2-404f-953c-da0e57e613d8-Annual%20Report-690f69ba-6ba2-f011-bbd2-6045bdc40aa5-Annual_Report_2025_Final_Sept_1st.docx",
+  "retrieved_at": "2026-08-13T10:52:47.483880Z",
+  "observed_at": "2026-08-13",
+  "effective_from": null,
+  "effective_to": null,
+  "source_fields": {
+    "filename": "3a9518409a8d9937e742ce0b5f38bfad89ae23b8da3e33b3ee284c6bfe16832e.pdf",
+    "source_sha256": "3a9518409a8d9937e742ce0b5f38bfad89ae23b8da3e33b3ee284c6bfe16832e",
+    "page_count": 21,
+    "discovery_basis": "ACNC public profile Documents field"
+  },
+  "source_payload": {
+    "rows": [],
+    "diagnostics": {
+      "native_text_pages": 11,
+      "low_text_pages": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "ocr_attempted_pages": []
+    }
+  },
+  "canonical_field_mappings": {
+    "rows[].label": "financial_records[].*_breakdown",
+    "rows[].current": "financial_records[].*_breakdown[].amount"
+  },
+  "evidence_ids": [
+    "ev:report:32590616129:3a9518409a8d9937"
+  ]
+}

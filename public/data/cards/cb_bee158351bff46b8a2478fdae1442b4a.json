@@ -91,12 +91,12 @@
     {
       "capability": "latest_acnc_ais",
       "status": "observed",
-      "source_record_id": null,
+      "source_record_id": "src:acnc-ais-detail:91765078109:1dc3859b-ecfb-f011-8406-002248111f49:cb_bee158351bff46b8a2478fdae1442b4a",
       "evidence_ids": [
-        "ev:acnc:ais:91765078109:2025"
+        "ev:acnc:ais:91765078109:1dc3859b-ecfb-f011-8406-002248111f49"
       ],
       "observed_at": "2026-01-28",
-      "freshness_note": "Latest submitted ACNC AIS in the 2026-08-13 public-profile acquisition: 2025."
+      "freshness_note": "Latest submitted AIS detail acquired from the public ACNC entity endpoint."
     }
   ],
   "enrichment_level": "enriched",
@@ -105,32 +105,28 @@
     "South Australia",
     "Australia"
   ],
-  "navigation_geography": [
+  "geography_observations": [
     {
-      "level": "country",
-      "code": "AU",
-      "label": "Australia",
-      "evidence_ids": [
-        "ev:acnc:91765078109"
-      ]
+      "value": "South Australia",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
     },
     {
-      "level": "state_territory",
-      "code": "AU-SA",
-      "label": "South Australia",
-      "evidence_ids": [
-        "ev:acnc:91765078109"
-      ]
+      "value": "Australia",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
     }
   ],
-  "causebase_summary": "Aboriginal Foundation Of South Australia Incorporated is a registered charity located in South Australia, Australia. CauseBase does not have sufficient descriptive evidence in this release to independently identify the organisation’s specific activities, programs or primary beneficiaries. The records available for this release are an ACNC register extract and the organisation’s 2023 Annual Information Statement, covering the reporting period 1 July 2022 to 30 June 2023; no website or organisational self-description was supplied in the selected evidence.",
-  "summary_evidence_ids": [
-    "ev:acnc:91765078109",
-    "ev:ais:91765078109:2023"
-  ],
+  "navigation_geography": [],
+  "causebase_summary": "Aboriginal Foundation Of South Australia Incorporated is an entity recorded on the Australian Charities and Not-for-profits Commission (ACNC) register. The available ACNC Annual Information Statement (AIS) for the reporting period 01/07/2022 to 30/06/2023 is the primary source of public information for this period. That AIS reports total revenue of AUD 74 and total expenses of AUD 3,861 for the period; the AIS data are attributed to the organisation’s own AIS filing and the AIS extract lists the subject’s consolidated status as unknown. The ACNC extract and AIS entries were observed on 10 August 2026. The organisation’s structured geography is recorded as South Australia. No website was available in the supplied evidence, and the evidence bundle does not include descriptions of services, programs, beneficiary groups, participation modes or detailed annual reports. Several coverage flags in the evidence note that annual reports and fundraising-expenditure details were not processed or not available from the sources supplied.",
+  "summary_evidence_ids": [],
   "organisation_self_description": null,
   "activities": [],
+  "activity_observations": [],
   "beneficiaries": [],
+  "beneficiary_observations": [],
   "participation_modes": [],
   "participation_observations": [],
   "opportunities": [],
@@ -150,82 +146,23 @@
       "reporting_period": "2025",
       "source_url": "https://www.acnc.gov.au/charity/charities/aae68eaf-38af-e811-a962-000d3ad24a0d/documents/1dc3859b-ecfb-f011-8406-002248111f49",
       "evidence_ids": [
-        "ev:acnc:ais:91765078109:2025"
+        "ev:acnc:ais:91765078109:1dc3859b-ecfb-f011-8406-002248111f49"
       ]
     }
   ],
   "source_native_records": [
     {
-      "source_record_id": "src:acnc-register:c44234bc-0dc5-5091-b133-6fc8ca8e24b2",
-      "source_family": "acnc-register",
-      "dataset_version": "2026-08-10",
-      "source_url": "https://www.acnc.gov.au/charity/charities?search=91765078109",
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "ABN": "91765078109",
-        "Legal Name": "Aboriginal Foundation Of South Australia Incorporated",
-        "Registration Status": "registered",
-        "ACNC classifications": "other purpose; young people",
-        "Website": null,
-        "ACNC registration ID": null,
-        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "ABN": "external_identifiers",
-        "Legal Name": "legal_name",
-        "Registration Status": "registrations"
-      },
-      "evidence_ids": [
-        "ev:acnc:91765078109"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-ais:fr:ais:cb_bee158351bff46b8a2478fdae1442b4a:2023",
-      "source_family": "acnc-ais",
-      "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": "2022-07-01",
-      "effective_to": "2023-06-30",
-      "source_fields": {
-        "Reporting period": "01/07/2022 to 30/06/2023",
-        "Reporting scope": "subject",
-        "Consolidated": "unknown",
-        "Revenue": "74",
-        "Donations and bequests": null,
-        "Government grants": null,
-        "Total expenses": "3861",
-        "Assets": null,
-        "Liabilities": null
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "Revenue": "financial_records[].revenue",
-        "Total expenses": "financial_records[].total_expenses"
-      },
-      "evidence_ids": [
-        "ev:ais:91765078109:2023"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-public-profile:91765078109:cb_bee158351bff46b8a2478fdae1442b4a:2026-08-13",
+      "source_record_id": "src:acnc-public-profile:91765078109:aae68eaf-38af-e811-a962-000d3ad24a0d:cb_bee158351bff46b8a2478fdae1442b4a",
       "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-13-public-api",
+      "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/aae68eaf-38af-e811-a962-000d3ad24a0d/profile",
-      "retrieved_at": "2026-08-13T05:50:58.991012Z",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
       "observed_at": "2026-01-28",
       "effective_from": null,
       "effective_to": null,
       "source_fields": {
         "uuid": "aae68eaf-38af-e811-a962-000d3ad24a0d",
-        "abn": "91765078109",
-        "latest_ais_year": "2025",
-        "latest_ais_uuid": "1dc3859b-ecfb-f011-8406-002248111f49"
+        "abn": "91765078109"
       },
       "source_payload": {
         "data": {
@@ -810,13 +747,296 @@
         "uuid": "aae68eaf-38af-e811-a962-000d3ad24a0d"
       },
       "canonical_field_mappings": {
-        "data.Name": "display_name",
         "data.OtherNames": "operating_names",
-        "data.AnnualReports": "acnc_ais_url",
-        "data.Programs": "programs"
+        "data.AddressStateOrProvince": "principal_location"
+      },
+      "evidence_ids": []
+    },
+    {
+      "source_record_id": "src:acnc-ais-detail:91765078109:1dc3859b-ecfb-f011-8406-002248111f49:cb_bee158351bff46b8a2478fdae1442b4a",
+      "source_family": "acnc-ais-detail",
+      "dataset_version": "2026-08-14-public-api",
+      "source_url": "https://www.acnc.gov.au/charity/charities/aae68eaf-38af-e811-a962-000d3ad24a0d/documents/1dc3859b-ecfb-f011-8406-002248111f49",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
+      "observed_at": "2026-01-28",
+      "effective_from": null,
+      "effective_to": null,
+      "source_fields": {
+        "abn": "91765078109",
+        "ais_uuid": "1dc3859b-ecfb-f011-8406-002248111f49",
+        "year": "2025",
+        "date_received": "2026-01-28T01:57:02.0000000Z"
+      },
+      "source_payload": {
+        "data": {
+          "Abn": "91765078109",
+          "ActivityAdvocacyNCivic": false,
+          "ActivityAgedCare": false,
+          "ActivityAnimalProtection": false,
+          "ActivityCultureAndArt": false,
+          "ActivityEconomicSocialCommunity": false,
+          "ActivityEmergencyNRelief": false,
+          "ActivityEmploymentNTraining": false,
+          "ActivityEnvironmental": false,
+          "ActivityGrantMaking": false,
+          "ActivityHealthRehabilitation": false,
+          "ActivityHigherEducation": false,
+          "ActivityHousing": false,
+          "ActivityIncomeSupportNMaintenance": false,
+          "ActivityInternational": false,
+          "ActivityInternationalDescription": null,
+          "ActivityInternationalOther": false,
+          "ActivityInternationalOtherDescription": null,
+          "ActivityLawNLegalServices": false,
+          "ActivityMain": null,
+          "ActivityMentalHealthCrisisIntervention": false,
+          "ActivityNdisSupported": null,
+          "ActivityNdisSupportedNext": null,
+          "ActivityOperating": true,
+          "ActivityOperatingOverseas": false,
+          "ActivityOther": false,
+          "ActivityOtherDescription": null,
+          "ActivityOtherEducation": false,
+          "ActivityOtherHealthServices": false,
+          "ActivityPersuitPurposesDescription": "Harness relationships and opportunities on behalf of the aboriginal community",
+          "ActivityPhilanthropicPromotion": false,
+          "ActivityPolitical": false,
+          "ActivityPrimarySecondaryEducation": false,
+          "ActivityPurposeChange": null,
+          "ActivityPurposeChangeDescription": null,
+          "ActivityRecreationSocialClub": false,
+          "ActivityReligious": false,
+          "ActivityResearch": false,
+          "ActivitySocialServices": false,
+          "ActivitySports": false,
+          "ActivityTransferringFundsGoods": false,
+          "AdvancementOfEducation": false,
+          "AdvancementOfReligion": false,
+          "AssetsandLiabilitiesDescription": null,
+          "BasicReligiousCharity": false,
+          "BeneficiaryAboriginalTorres": false,
+          "BeneficiaryAdults": false,
+          "BeneficiaryAllAges": false,
+          "BeneficiaryChildren": false,
+          "BeneficiaryChronicIllness": false,
+          "BeneficiaryCrimeVictims": false,
+          "BeneficiaryDisasterVictims": false,
+          "BeneficiaryEarlyChildhood": false,
+          "BeneficiaryEthnic": false,
+          "BeneficiaryFamilies": false,
+          "BeneficiaryFinanciallyDisadvantaged": false,
+          "BeneficiaryGeneral": false,
+          "BeneficiaryHomelessnessRisk": false,
+          "BeneficiaryLGBT": false,
+          "BeneficiaryMain": null,
+          "BeneficiaryMen": false,
+          "BeneficiaryMigrantsRefugees": false,
+          "BeneficiaryOffenderFamilies": false,
+          "BeneficiaryOther": false,
+          "BeneficiaryOtherCharities": false,
+          "BeneficiaryOtherDescription": null,
+          "BeneficiaryOverseas": false,
+          "BeneficiaryPeopleWithDisability": false,
+          "BeneficiaryRuralRegionalRemote": false,
+          "BeneficiarySeniors": false,
+          "BeneficiaryUnemployed": false,
+          "BeneficiaryVeteranFamilies": false,
+          "BeneficiaryWomen": false,
+          "BeneficiaryYouth": false,
+          "CharityAddressCountry": "Australia",
+          "CharityAddressLine1": "L 1 60 Hindmarsh Sq",
+          "CharityAddressLine2": null,
+          "CharityAddressPostalCode": "5000",
+          "CharityAddressStateOrProvince": "SA",
+          "CharityAddressSuburb": "Adelaide",
+          "CharityEmail": "grahame5@me.com",
+          "CharitySize": "Small",
+          "CharityUuid": "aae68eaf-38af-e811-a962-000d3ad24a0d",
+          "ChildCareServices": false,
+          "ExpenseEmployees": "0.0000",
+          "ExpenseGrantDonationsInAustralia": "0.0000",
+          "ExpenseGrantDonationsOutsideAustralia": "0.0000",
+          "ExpenseTotal": "7751.0000",
+          "ExpensesOther": "7751.0000",
+          "FinAccrualAccounting": "Cash",
+          "FinConsolidatedReportFromMiltiple": null,
+          "FinDocumentedPoliciesRelatedPartyTransactions": null,
+          "FinFyeJune": false,
+          "FinProvideVoluntarily": null,
+          "FinRelatedPartyTransactions": "No",
+          "FinReportACT": false,
+          "FinReportFrom": "2024-07-01T00:00:00.0000000Z",
+          "FinReportNSW": false,
+          "FinReportNT": false,
+          "FinReportQLD": false,
+          "FinReportSA": false,
+          "FinReportTAS": false,
+          "FinReportTo": "2025-06-30T00:00:00.0000000Z",
+          "FinReportVIC": false,
+          "FinReportWA": false,
+          "FinReportingType": null,
+          "FinSapDate": null,
+          "FundRaisingNumberACT": null,
+          "FundRaisingNumberNSW": null,
+          "FundRaisingNumberQLD": null,
+          "FundRaisingNumberSA": null,
+          "FundRaisingNumberTAS": null,
+          "FundRaisingNumberVIC": null,
+          "FundRaisingNumberWA": null,
+          "GovDocAccurate": null,
+          "GrantCapacityBuildingPct": null,
+          "GrantMultiYearPct": null,
+          "GrantPublicOpenApplicationPct": null,
+          "GrantRuralRegionPct": null,
+          "HasSubmittedToRegulator": false,
+          "HoursPaid": null,
+          "HoursTotal": null,
+          "HoursVolunteer": null,
+          "HrCasualEmployees": "0",
+          "HrFteStaff": "",
+          "HrFullTimeEmployees": "0",
+          "HrPartTimeEmployees": "0",
+          "HrUnpainVolunteers": "5",
+          "IncomeDonationsBequests": "0.0000",
+          "IncomeGovernmentGrants": "0.0000",
+          "IncomeOther": "0.0000",
+          "IncomeOtherComprehinsive": "0.0000",
+          "IncomeOtherNeg": null,
+          "IncomeOtherReceipts": "0.0000",
+          "IncomeTotalComprehensive": "0.0000",
+          "IncomeTotalReceipts": "134.0000",
+          "IncorporationStatus": null,
+          "InterestExpense": "0.0000",
+          "IsIncorporatedAssociation": true,
+          "KeyManagementPersonnel": false,
+          "LegalName": "Aboriginal Foundation Of South Australia Incorporated",
+          "NetAssetsLiabilities": "17566.0000",
+          "NetSurplusDeficit": "-7617.0000",
+          "NonCurrentLoansPayable": "0.0000",
+          "NumberOfKeyManagementPersonnel": "0",
+          "OperatingCountries": null,
+          "OperatingInACT": false,
+          "OperatingInNSW": false,
+          "OperatingInNT": false,
+          "OperatingInQLD": false,
+          "OperatingInSA": false,
+          "OperatingInTAS": false,
+          "OperatingInVIC": false,
+          "OperatingInWA": false,
+          "OperatingOverseas": false,
+          "OtherNames": [],
+          "OtherNonCurrentAssets": "0.0000",
+          "OtherNonCurrentLiabilities": "0.0000",
+          "OtherPurposeDescription": null,
+          "OtherPurposes": "False",
+          "Programs": [
+            {
+              "AisUuid": "1dc3859b-ecfb-f011-8406-002248111f49",
+              "Name": "Aboriginal economic and business opportunities",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Youth - 15 to under 25",
+                "Aboriginal and Torres Strait Islander people"
+              ],
+              "ProgramClassification": "Business and industry",
+              "ProgramClassificationID": "157",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Adelaide SA, Australia",
+                  "FormattedAddress": "Adelaide SA, Australia",
+                  "Marker": {
+                    "Latitude": -34.9284989,
+                    "Longitude": 138.6007456
+                  },
+                  "Name": "Adelaide",
+                  "uuid": "36c3859b-ecfb-f011-8406-002248111f49"
+                }
+              ],
+              "ProgramWeblink": null,
+              "uuid": "30c3859b-ecfb-f011-8406-002248111f49"
+            }
+          ],
+          "RegulatedACT": false,
+          "RegulatedNSW": false,
+          "RegulatedNT": false,
+          "RegulatedQLD": false,
+          "RegulatedSA": false,
+          "RegulatedTAS": false,
+          "RegulatedVIC": false,
+          "RegulatedWA": false,
+          "Regulator": null,
+          "RegulatorAGMDateACT": null,
+          "RegulatorAGMDateNT": null,
+          "RegulatorAGMDateVIC": null,
+          "RegulatorAGMDateWA": null,
+          "RegulatorFundRaising": "No",
+          "RegulatorFundRaisingACT": false,
+          "RegulatorFundRaisingNSW": false,
+          "RegulatorFundRaisingNT": false,
+          "RegulatorFundRaisingOnline": false,
+          "RegulatorFundRaisingQLD": false,
+          "RegulatorFundRaisingSA": false,
+          "RegulatorFundRaisingTAS": false,
+          "RegulatorFundRaisingVIC": false,
+          "RegulatorFundRaisingWA": false,
+          "RegulatorIncorporatedAssociationACT": false,
+          "RegulatorIncorporatedAssociationNSW": false,
+          "RegulatorIncorporatedAssociationNT": false,
+          "RegulatorIncorporatedAssociationNumberACT": null,
+          "RegulatorIncorporatedAssociationNumberNSW": null,
+          "RegulatorIncorporatedAssociationNumberNT": null,
+          "RegulatorIncorporatedAssociationNumberQLD": null,
+          "RegulatorIncorporatedAssociationNumberSA": null,
+          "RegulatorIncorporatedAssociationNumberTAS": null,
+          "RegulatorIncorporatedAssociationNumberVIC": null,
+          "RegulatorIncorporatedAssociationNumberWA": null,
+          "RegulatorIncorporatedAssociationQLD": false,
+          "RegulatorIncorporatedAssociationSA": true,
+          "RegulatorIncorporatedAssociationTAS": false,
+          "RegulatorIncorporatedAssociationVIC": false,
+          "RegulatorIncorporatedAssociationWA": false,
+          "RegulatorMetRequirementACT": false,
+          "RegulatorMetRequirementWA": null,
+          "RegulatorOtherDetails": null,
+          "RegulatorPrograms": null,
+          "RegulatorStates": false,
+          "RelatedPartyDetails": null,
+          "RelatedPartyTransactions": [],
+          "ReliefOfPoverty": false,
+          "ReportingGroupFlag": false,
+          "ResponsiblePersonAccurate": null,
+          "RevenueGoodsServices": "0.0000",
+          "RevenueInvestments": "134.0000",
+          "RevenueTotal": "134.0000",
+          "StatementYear": "2025",
+          "SubTypesAccurate": null,
+          "TotalAssets": "17566.0000",
+          "TotalCurrentAssets": "0.0000",
+          "TotalCurrentLiabilities": "0.0000",
+          "TotalLiabilities": "0.0000",
+          "TotalNonCurrentAssets": null,
+          "TotalNonCurrentLiabilities": "0.0000",
+          "TotalNonCurrentLoansReceivable": "0.0000",
+          "TotalPaidKMP": "$0.00",
+          "Website": null,
+          "__normalized": true,
+          "entityTypeVersion": "",
+          "entityVersion": "1839355952",
+          "timeStamp": "2026-01-28T01:56:50.0000000Z",
+          "type": "annual_information_statement",
+          "uuid": "1dc3859b-ecfb-f011-8406-002248111f49"
+        },
+        "type": "annual_information_statement",
+        "uuid": "1dc3859b-ecfb-f011-8406-002248111f49"
+      },
+      "canonical_field_mappings": {
+        "data.Programs": "programs",
+        "data.TotalRevenue": "financial_records[].revenue",
+        "data.TotalExpenses": "financial_records[].total_expenses"
       },
       "evidence_ids": [
-        "ev:acnc:ais:91765078109:2025"
+        "ev:acnc:ais:91765078109:1dc3859b-ecfb-f011-8406-002248111f49"
       ]
     }
   ],
@@ -865,9 +1085,12 @@
       },
       "assets": null,
       "liabilities": null,
+      "net_assets": null,
       "income_breakdown": [],
       "expense_breakdown": [],
-      "balance_sheet_breakdown": []
+      "balance_sheet_breakdown": [],
+      "source_ordered_line_items": [],
+      "statements": []
     }
   ],
   "financial_metrics": [
@@ -991,13 +1214,13 @@
       "content_hash": null
     },
     {
-      "evidence_id": "ev:acnc:ais:91765078109:2025",
+      "evidence_id": "ev:acnc:ais:91765078109:1dc3859b-ecfb-f011-8406-002248111f49",
       "source_type": "regulatory",
-      "title": "Aboriginal Foundation Of South Australia Incorporated Annual Information Statement 2025",
+      "title": "ACNC Annual Information Statement 2025",
       "publisher": "Australian Charities and Not-for-profits Commission",
       "url": "https://www.acnc.gov.au/charity/charities/aae68eaf-38af-e811-a962-000d3ad24a0d/documents/1dc3859b-ecfb-f011-8406-002248111f49",
       "observed_at": "2026-01-28",
-      "reporting_period": null,
+      "reporting_period": "2025",
       "page": null,
       "section": null,
       "content_hash": null
@@ -1009,81 +1232,25 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "ed7ac5703ef2e184823a49117024ead8873e49f963cd737e68e34f4aff878502",
-    "generated_at": "2026-08-13T05:51:03.014358Z",
+    "source_text_hash": "7a60e48892f0be739e83e2ebe5d668cc6d1ff5da12e706a3cbb14fa3387dcb6e",
+    "generated_at": "2026-08-10T13:53:24.455748Z",
     "vector_ref": "embeddings.parquet#cb_bee158351bff46b8a2478fdae1442b4a"
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
+    "prompt_version": "phase2a-0.4",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "85cc9d7843bea21b94b2e631d02e881a37001ba543c81098e3f65e19d268c431",
-    "generated_at": "2026-08-12T13:41:43.935047Z",
+    "evidence_input_hash": "a73697c75cb1b11ae72fb6deb3b0e7290f7891aade690fc1aac45781d57b67f3",
+    "generated_at": "2026-08-10T12:47:02.058847Z",
     "editorial_policy_version": "0.1"
   },
-  "derivative_assessments": [
-    {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T13:41:43.935047Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-rc2-editorial-migration",
-      "input_hash": "85cc9d7843bea21b94b2e631d02e881a37001ba543c81098e3f65e19d268c431",
-      "disposition": "refreshed",
-      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "taxonomy",
-      "generated_at": "2026-08-12T13:41:43.935047Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "85cc9d7843bea21b94b2e631d02e881a37001ba543c81098e3f65e19d268c431",
-      "disposition": "reused",
-      "reason": "No new supported canonical classification facts.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "fundraising",
-      "generated_at": null,
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "85cc9d7843bea21b94b2e631d02e881a37001ba543c81098e3f65e19d268c431",
-      "disposition": "reused",
-      "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "embedding",
-      "generated_at": "2026-08-10T13:53:24.455748Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "7a60e48892f0be739e83e2ebe5d668cc6d1ff5da12e706a3cbb14fa3387dcb6e",
-      "disposition": "reused",
-      "reason": "Semantic source text unchanged.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "similarities",
-      "generated_at": "2026-08-10T13:53:24.455748Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "7a60e48892f0be739e83e2ebe5d668cc6d1ff5da12e706a3cbb14fa3387dcb6e",
-      "disposition": "reused",
-      "reason": "Embedding reused; semantic neighbours retained.",
-      "affected_dimensions": []
-    }
-  ],
-  "dataset_version": "phase2b-2026-08-13-rc3",
+  "derivative_assessments": [],
+  "dataset_version": "phase2b-2026-08-14-rc4",
   "card_schema_version": "0.4",
-  "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T05:50:58.991012Z"
+  "editorial_policy_version": "0.4-rc4",
+  "generator_version": "0.5.0-rc4",
+  "built_at": "2026-08-13T10:52:47.483880Z"
 }

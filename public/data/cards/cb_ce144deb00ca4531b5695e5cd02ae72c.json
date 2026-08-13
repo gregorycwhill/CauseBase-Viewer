@@ -91,12 +91,12 @@
     {
       "capability": "latest_acnc_ais",
       "status": "observed",
-      "source_record_id": null,
+      "source_record_id": "src:acnc-ais-detail:29041947678:e1477300-0707-f111-8406-6045bde5be38:cb_ce144deb00ca4531b5695e5cd02ae72c",
       "evidence_ids": [
-        "ev:acnc:ais:29041947678:2025"
+        "ev:acnc:ais:29041947678:e1477300-0707-f111-8406-6045bde5be38"
       ],
       "observed_at": "2026-01-29",
-      "freshness_note": "Latest submitted ACNC AIS in the 2026-08-13 public-profile acquisition: 2025."
+      "freshness_note": "Latest submitted AIS detail acquired from the public ACNC entity endpoint."
     }
   ],
   "enrichment_level": "enriched",
@@ -104,32 +104,22 @@
   "geography": [
     "Victoria, Australia"
   ],
-  "navigation_geography": [
+  "geography_observations": [
     {
-      "level": "country",
-      "code": "AU",
-      "label": "Australia",
-      "evidence_ids": [
-        "ev:acnc:29041947678"
-      ]
-    },
-    {
-      "level": "state_territory",
-      "code": "AU-VIC",
-      "label": "Victoria",
-      "evidence_ids": [
-        "ev:acnc:29041947678"
-      ]
+      "value": "Victoria, Australia",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
     }
   ],
-  "causebase_summary": "A F E Common Equity Rental Housing Co-operative Limited is an incorporated co-operative located in Victoria, Australia. The record includes regulatory filings for the 2022–23 reporting year (ACNC AIS for 01/07/2022–30/06/2023). CauseBase does not have sufficient descriptive evidence in this release to independently identify the co-operative’s specific activities, services or intended beneficiaries.",
-  "summary_evidence_ids": [
-    "ev:acnc:29041947678",
-    "ev:ais:29041947678:2023"
-  ],
+  "navigation_geography": [],
+  "causebase_summary": "A F E Common Equity Rental Housing Co-operative Limited appears on the Australian Charities and Not-for-profits Commission (ACNC) register under that legal name. The available ACNC Annual Information Statement (AIS) for the year 01/07/2022 to 30/06/2023 reports the entity’s financials: total revenue of AUD 176,523 and total expenses of AUD 171,661 for that period. The AIS record included in the evidence lists the reporting scope as the subject, notes the entity itself as the covered subject, and records the attribution method as a direct subject report; the AIS extract indicates the consolidated reporting status as unknown. The supplied coverage metadata shows ACNC/regulatory information was observed and that no website content was available to the data source. The evidence package does not include a separate annual report, program descriptions, beneficiary lists, or descriptions of activities or modes of participation. No public website or other organisational publications were provided in the evidence set.",
+  "summary_evidence_ids": [],
   "organisation_self_description": null,
   "activities": [],
+  "activity_observations": [],
   "beneficiaries": [],
+  "beneficiary_observations": [],
   "participation_modes": [],
   "participation_observations": [],
   "opportunities": [],
@@ -148,82 +138,23 @@
       "reporting_period": "2025",
       "source_url": "https://www.acnc.gov.au/charity/charities/a74e1e89-3aaf-e811-a962-000d3ad24a0d/documents/e1477300-0707-f111-8406-6045bde5be38",
       "evidence_ids": [
-        "ev:acnc:ais:29041947678:2025"
+        "ev:acnc:ais:29041947678:e1477300-0707-f111-8406-6045bde5be38"
       ]
     }
   ],
   "source_native_records": [
     {
-      "source_record_id": "src:acnc-register:bdc889e4-bae6-54ba-b527-cbad388de502",
-      "source_family": "acnc-register",
-      "dataset_version": "2026-08-10",
-      "source_url": "https://www.acnc.gov.au/charity/charities?search=29041947678",
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "ABN": "29041947678",
-        "Legal Name": "A F E Common Equity Rental Housing Co-operative Limited",
-        "Registration Status": "registered",
-        "ACNC classifications": "social welfare; general community",
-        "Website": null,
-        "ACNC registration ID": null,
-        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "ABN": "external_identifiers",
-        "Legal Name": "legal_name",
-        "Registration Status": "registrations"
-      },
-      "evidence_ids": [
-        "ev:acnc:29041947678"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-ais:fr:ais:cb_ce144deb00ca4531b5695e5cd02ae72c:2023",
-      "source_family": "acnc-ais",
-      "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": "2022-07-01",
-      "effective_to": "2023-06-30",
-      "source_fields": {
-        "Reporting period": "01/07/2022 to 30/06/2023",
-        "Reporting scope": "subject",
-        "Consolidated": "unknown",
-        "Revenue": "176523",
-        "Donations and bequests": null,
-        "Government grants": null,
-        "Total expenses": "171661",
-        "Assets": null,
-        "Liabilities": null
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "Revenue": "financial_records[].revenue",
-        "Total expenses": "financial_records[].total_expenses"
-      },
-      "evidence_ids": [
-        "ev:ais:29041947678:2023"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-public-profile:29041947678:cb_ce144deb00ca4531b5695e5cd02ae72c:2026-08-13",
+      "source_record_id": "src:acnc-public-profile:29041947678:a74e1e89-3aaf-e811-a962-000d3ad24a0d:cb_ce144deb00ca4531b5695e5cd02ae72c",
       "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-13-public-api",
+      "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/a74e1e89-3aaf-e811-a962-000d3ad24a0d/profile",
-      "retrieved_at": "2026-08-13T05:50:58.991012Z",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
       "observed_at": "2026-01-29",
       "effective_from": null,
       "effective_to": null,
       "source_fields": {
         "uuid": "a74e1e89-3aaf-e811-a962-000d3ad24a0d",
-        "abn": "29041947678",
-        "latest_ais_year": "2025",
-        "latest_ais_uuid": "e1477300-0707-f111-8406-6045bde5be38"
+        "abn": "29041947678"
       },
       "source_payload": {
         "data": {
@@ -734,13 +665,295 @@
         "uuid": "a74e1e89-3aaf-e811-a962-000d3ad24a0d"
       },
       "canonical_field_mappings": {
-        "data.Name": "display_name",
         "data.OtherNames": "operating_names",
-        "data.AnnualReports": "acnc_ais_url",
-        "data.Programs": "programs"
+        "data.AddressStateOrProvince": "principal_location"
+      },
+      "evidence_ids": []
+    },
+    {
+      "source_record_id": "src:acnc-ais-detail:29041947678:e1477300-0707-f111-8406-6045bde5be38:cb_ce144deb00ca4531b5695e5cd02ae72c",
+      "source_family": "acnc-ais-detail",
+      "dataset_version": "2026-08-14-public-api",
+      "source_url": "https://www.acnc.gov.au/charity/charities/a74e1e89-3aaf-e811-a962-000d3ad24a0d/documents/e1477300-0707-f111-8406-6045bde5be38",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
+      "observed_at": "2026-01-29",
+      "effective_from": null,
+      "effective_to": null,
+      "source_fields": {
+        "abn": "29041947678",
+        "ais_uuid": "e1477300-0707-f111-8406-6045bde5be38",
+        "year": "2025",
+        "date_received": "2026-01-29T13:00:00.0000000Z"
+      },
+      "source_payload": {
+        "data": {
+          "Abn": "29041947678",
+          "ActivityAdvocacyNCivic": false,
+          "ActivityAgedCare": false,
+          "ActivityAnimalProtection": false,
+          "ActivityCultureAndArt": false,
+          "ActivityEconomicSocialCommunity": false,
+          "ActivityEmergencyNRelief": false,
+          "ActivityEmploymentNTraining": false,
+          "ActivityEnvironmental": false,
+          "ActivityGrantMaking": false,
+          "ActivityHealthRehabilitation": false,
+          "ActivityHigherEducation": false,
+          "ActivityHousing": false,
+          "ActivityIncomeSupportNMaintenance": false,
+          "ActivityInternational": false,
+          "ActivityInternationalDescription": null,
+          "ActivityInternationalOther": false,
+          "ActivityInternationalOtherDescription": null,
+          "ActivityLawNLegalServices": false,
+          "ActivityMain": null,
+          "ActivityMentalHealthCrisisIntervention": false,
+          "ActivityNdisSupported": null,
+          "ActivityNdisSupportedNext": null,
+          "ActivityOperating": true,
+          "ActivityOperatingOverseas": false,
+          "ActivityOther": false,
+          "ActivityOtherDescription": null,
+          "ActivityOtherEducation": false,
+          "ActivityOtherHealthServices": false,
+          "ActivityPersuitPurposesDescription": "PROVIDED LOW COST HOUSING",
+          "ActivityPhilanthropicPromotion": false,
+          "ActivityPolitical": false,
+          "ActivityPrimarySecondaryEducation": false,
+          "ActivityPurposeChange": null,
+          "ActivityPurposeChangeDescription": null,
+          "ActivityRecreationSocialClub": false,
+          "ActivityReligious": false,
+          "ActivityResearch": false,
+          "ActivitySocialServices": false,
+          "ActivitySports": false,
+          "ActivityTransferringFundsGoods": false,
+          "AdvancementOfEducation": false,
+          "AdvancementOfReligion": false,
+          "AssetsandLiabilitiesDescription": null,
+          "BasicReligiousCharity": false,
+          "BeneficiaryAboriginalTorres": false,
+          "BeneficiaryAdults": false,
+          "BeneficiaryAllAges": false,
+          "BeneficiaryChildren": false,
+          "BeneficiaryChronicIllness": false,
+          "BeneficiaryCrimeVictims": false,
+          "BeneficiaryDisasterVictims": false,
+          "BeneficiaryEarlyChildhood": false,
+          "BeneficiaryEthnic": false,
+          "BeneficiaryFamilies": false,
+          "BeneficiaryFinanciallyDisadvantaged": false,
+          "BeneficiaryGeneral": false,
+          "BeneficiaryHomelessnessRisk": false,
+          "BeneficiaryLGBT": false,
+          "BeneficiaryMain": null,
+          "BeneficiaryMen": false,
+          "BeneficiaryMigrantsRefugees": false,
+          "BeneficiaryOffenderFamilies": false,
+          "BeneficiaryOther": false,
+          "BeneficiaryOtherCharities": false,
+          "BeneficiaryOtherDescription": null,
+          "BeneficiaryOverseas": false,
+          "BeneficiaryPeopleWithDisability": false,
+          "BeneficiaryRuralRegionalRemote": false,
+          "BeneficiarySeniors": false,
+          "BeneficiaryUnemployed": false,
+          "BeneficiaryVeteranFamilies": false,
+          "BeneficiaryWomen": false,
+          "BeneficiaryYouth": false,
+          "CharityAddressCountry": "AUSTRALIA",
+          "CharityAddressLine1": "4 Dion Street",
+          "CharityAddressLine2": null,
+          "CharityAddressPostalCode": "3156",
+          "CharityAddressStateOrProvince": "VIC",
+          "CharityAddressSuburb": "Ferntree Gully",
+          "CharityEmail": "afecerc@gmail.com",
+          "CharitySize": "Small",
+          "CharityUuid": "a74e1e89-3aaf-e811-a962-000d3ad24a0d",
+          "ChildCareServices": false,
+          "ExpenseEmployees": "0.0000",
+          "ExpenseGrantDonationsInAustralia": "0.0000",
+          "ExpenseGrantDonationsOutsideAustralia": "0.0000",
+          "ExpenseTotal": "159597.0000",
+          "ExpensesOther": "159597.0000",
+          "FinAccrualAccounting": "Accrual",
+          "FinConsolidatedReportFromMiltiple": null,
+          "FinDocumentedPoliciesRelatedPartyTransactions": null,
+          "FinFyeJune": false,
+          "FinProvideVoluntarily": null,
+          "FinRelatedPartyTransactions": "No",
+          "FinReportACT": false,
+          "FinReportFrom": "2024-07-01T00:00:00.0000000Z",
+          "FinReportNSW": false,
+          "FinReportNT": false,
+          "FinReportQLD": false,
+          "FinReportSA": false,
+          "FinReportTAS": false,
+          "FinReportTo": "2025-06-30T00:00:00.0000000Z",
+          "FinReportVIC": false,
+          "FinReportWA": false,
+          "FinReportingType": null,
+          "FinSapDate": null,
+          "FundRaisingNumberACT": null,
+          "FundRaisingNumberNSW": null,
+          "FundRaisingNumberQLD": null,
+          "FundRaisingNumberSA": null,
+          "FundRaisingNumberTAS": null,
+          "FundRaisingNumberVIC": null,
+          "FundRaisingNumberWA": null,
+          "GovDocAccurate": null,
+          "GrantCapacityBuildingPct": null,
+          "GrantMultiYearPct": null,
+          "GrantPublicOpenApplicationPct": null,
+          "GrantRuralRegionPct": null,
+          "HasSubmittedToRegulator": false,
+          "HoursPaid": null,
+          "HoursTotal": null,
+          "HoursVolunteer": null,
+          "HrCasualEmployees": "0",
+          "HrFteStaff": "",
+          "HrFullTimeEmployees": "0",
+          "HrPartTimeEmployees": "0",
+          "HrUnpainVolunteers": "4",
+          "IncomeDonationsBequests": "0.0000",
+          "IncomeGovernmentGrants": "0.0000",
+          "IncomeOther": "0.0000",
+          "IncomeOtherComprehinsive": "0.0000",
+          "IncomeOtherNeg": null,
+          "IncomeOtherReceipts": "162199.0000",
+          "IncomeTotalComprehensive": "2602.0000",
+          "IncomeTotalReceipts": "162199.0000",
+          "IncorporationStatus": null,
+          "InterestExpense": "0.0000",
+          "IsIncorporatedAssociation": false,
+          "KeyManagementPersonnel": false,
+          "LegalName": "A F E Common Equity Rental Housing Co-operative Limited",
+          "NetAssetsLiabilities": "234067.0000",
+          "NetSurplusDeficit": "2602.0000",
+          "NonCurrentLoansPayable": "0.0000",
+          "NumberOfKeyManagementPersonnel": "0",
+          "OperatingCountries": null,
+          "OperatingInACT": false,
+          "OperatingInNSW": false,
+          "OperatingInNT": false,
+          "OperatingInQLD": false,
+          "OperatingInSA": false,
+          "OperatingInTAS": false,
+          "OperatingInVIC": false,
+          "OperatingInWA": false,
+          "OperatingOverseas": false,
+          "OtherNames": [],
+          "OtherNonCurrentAssets": "0.0000",
+          "OtherNonCurrentLiabilities": "0.0000",
+          "OtherPurposeDescription": null,
+          "OtherPurposes": "False",
+          "Programs": [
+            {
+              "AisUuid": "e1477300-0707-f111-8406-6045bde5be38",
+              "Name": "Cooperative Housing",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "General community in Australia"
+              ],
+              "ProgramClassification": "Housing development",
+              "ProgramClassificationID": "168",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Victoria, Australia",
+                  "FormattedAddress": "Victoria, Australia",
+                  "Marker": {
+                    "Latitude": -36.9847807,
+                    "Longitude": 143.3906074
+                  },
+                  "Name": null,
+                  "uuid": "134a6e06-0707-f111-8406-6045bde5be38"
+                }
+              ],
+              "ProgramWeblink": null,
+              "uuid": "9c496e06-0707-f111-8406-6045bde5be38"
+            }
+          ],
+          "RegulatedACT": false,
+          "RegulatedNSW": false,
+          "RegulatedNT": false,
+          "RegulatedQLD": false,
+          "RegulatedSA": false,
+          "RegulatedTAS": false,
+          "RegulatedVIC": false,
+          "RegulatedWA": false,
+          "Regulator": null,
+          "RegulatorAGMDateACT": null,
+          "RegulatorAGMDateNT": null,
+          "RegulatorAGMDateVIC": null,
+          "RegulatorAGMDateWA": null,
+          "RegulatorFundRaising": "No",
+          "RegulatorFundRaisingACT": false,
+          "RegulatorFundRaisingNSW": false,
+          "RegulatorFundRaisingNT": false,
+          "RegulatorFundRaisingOnline": false,
+          "RegulatorFundRaisingQLD": false,
+          "RegulatorFundRaisingSA": false,
+          "RegulatorFundRaisingTAS": false,
+          "RegulatorFundRaisingVIC": false,
+          "RegulatorFundRaisingWA": false,
+          "RegulatorIncorporatedAssociationACT": false,
+          "RegulatorIncorporatedAssociationNSW": false,
+          "RegulatorIncorporatedAssociationNT": false,
+          "RegulatorIncorporatedAssociationNumberACT": null,
+          "RegulatorIncorporatedAssociationNumberNSW": null,
+          "RegulatorIncorporatedAssociationNumberNT": null,
+          "RegulatorIncorporatedAssociationNumberQLD": null,
+          "RegulatorIncorporatedAssociationNumberSA": null,
+          "RegulatorIncorporatedAssociationNumberTAS": null,
+          "RegulatorIncorporatedAssociationNumberVIC": null,
+          "RegulatorIncorporatedAssociationNumberWA": null,
+          "RegulatorIncorporatedAssociationQLD": false,
+          "RegulatorIncorporatedAssociationSA": false,
+          "RegulatorIncorporatedAssociationTAS": false,
+          "RegulatorIncorporatedAssociationVIC": false,
+          "RegulatorIncorporatedAssociationWA": false,
+          "RegulatorMetRequirementACT": false,
+          "RegulatorMetRequirementWA": null,
+          "RegulatorOtherDetails": null,
+          "RegulatorPrograms": null,
+          "RegulatorStates": false,
+          "RelatedPartyDetails": null,
+          "RelatedPartyTransactions": [],
+          "ReliefOfPoverty": false,
+          "ReportingGroupFlag": false,
+          "ResponsiblePersonAccurate": null,
+          "RevenueGoodsServices": "0.0000",
+          "RevenueInvestments": "0.0000",
+          "RevenueTotal": "162199.0000",
+          "StatementYear": "2025",
+          "SubTypesAccurate": null,
+          "TotalAssets": "238705.0000",
+          "TotalCurrentAssets": "0.0000",
+          "TotalCurrentLiabilities": "0.0000",
+          "TotalLiabilities": "4638.0000",
+          "TotalNonCurrentAssets": "0.0000",
+          "TotalNonCurrentLiabilities": "0.0000",
+          "TotalNonCurrentLoansReceivable": "0.0000",
+          "TotalPaidKMP": "$0.00",
+          "Website": null,
+          "__normalized": true,
+          "entityTypeVersion": "",
+          "entityVersion": "1862628937",
+          "timeStamp": "2026-02-11T05:03:34.0000000Z",
+          "type": "annual_information_statement",
+          "uuid": "e1477300-0707-f111-8406-6045bde5be38"
+        },
+        "type": "annual_information_statement",
+        "uuid": "e1477300-0707-f111-8406-6045bde5be38"
+      },
+      "canonical_field_mappings": {
+        "data.Programs": "programs",
+        "data.TotalRevenue": "financial_records[].revenue",
+        "data.TotalExpenses": "financial_records[].total_expenses"
       },
       "evidence_ids": [
-        "ev:acnc:ais:29041947678:2025"
+        "ev:acnc:ais:29041947678:e1477300-0707-f111-8406-6045bde5be38"
       ]
     }
   ],
@@ -789,9 +1002,12 @@
       },
       "assets": null,
       "liabilities": null,
+      "net_assets": null,
       "income_breakdown": [],
       "expense_breakdown": [],
-      "balance_sheet_breakdown": []
+      "balance_sheet_breakdown": [],
+      "source_ordered_line_items": [],
+      "statements": []
     }
   ],
   "financial_metrics": [
@@ -897,13 +1113,13 @@
       "content_hash": null
     },
     {
-      "evidence_id": "ev:acnc:ais:29041947678:2025",
+      "evidence_id": "ev:acnc:ais:29041947678:e1477300-0707-f111-8406-6045bde5be38",
       "source_type": "regulatory",
-      "title": "A F E Common Equity Rental Housing Co-operative Limited Annual Information Statement 2025",
+      "title": "ACNC Annual Information Statement 2025",
       "publisher": "Australian Charities and Not-for-profits Commission",
       "url": "https://www.acnc.gov.au/charity/charities/a74e1e89-3aaf-e811-a962-000d3ad24a0d/documents/e1477300-0707-f111-8406-6045bde5be38",
       "observed_at": "2026-01-29",
-      "reporting_period": null,
+      "reporting_period": "2025",
       "page": null,
       "section": null,
       "content_hash": null
@@ -915,81 +1131,25 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "6c2ee7e9b90a2575d5114f2b5f5934974011e4eeb4b0ccb9dd985803f32045a8",
-    "generated_at": "2026-08-13T05:51:03.017655Z",
+    "source_text_hash": "fd8fdd53e28d7169b20cb2565893fe2b897b255f59c5715c03be78eacf3aa386",
+    "generated_at": "2026-08-10T13:53:24.457322Z",
     "vector_ref": "embeddings.parquet#cb_ce144deb00ca4531b5695e5cd02ae72c"
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
+    "prompt_version": "phase2a-0.4",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "85a8168096ff518e206335409056fd9b3de74830576a40b8055bd123630cdfae",
-    "generated_at": "2026-08-12T14:05:29.772608Z",
+    "evidence_input_hash": "21d6c9b43c8d19b353be1a52807dabdfc77b9c455387d39e499cfcf375be45c6",
+    "generated_at": "2026-08-10T12:56:43.670980Z",
     "editorial_policy_version": "0.1"
   },
-  "derivative_assessments": [
-    {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T14:05:29.772608Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-rc2-editorial-migration",
-      "input_hash": "85a8168096ff518e206335409056fd9b3de74830576a40b8055bd123630cdfae",
-      "disposition": "refreshed",
-      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "taxonomy",
-      "generated_at": "2026-08-12T14:05:29.772608Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "85a8168096ff518e206335409056fd9b3de74830576a40b8055bd123630cdfae",
-      "disposition": "reused",
-      "reason": "No new supported canonical classification facts.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "fundraising",
-      "generated_at": null,
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "85a8168096ff518e206335409056fd9b3de74830576a40b8055bd123630cdfae",
-      "disposition": "reused",
-      "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "embedding",
-      "generated_at": "2026-08-10T13:53:24.457322Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "fd8fdd53e28d7169b20cb2565893fe2b897b255f59c5715c03be78eacf3aa386",
-      "disposition": "reused",
-      "reason": "Semantic source text unchanged.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "similarities",
-      "generated_at": "2026-08-10T13:53:24.457322Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "fd8fdd53e28d7169b20cb2565893fe2b897b255f59c5715c03be78eacf3aa386",
-      "disposition": "reused",
-      "reason": "Embedding reused; semantic neighbours retained.",
-      "affected_dimensions": []
-    }
-  ],
-  "dataset_version": "phase2b-2026-08-13-rc3",
+  "derivative_assessments": [],
+  "dataset_version": "phase2b-2026-08-14-rc4",
   "card_schema_version": "0.4",
-  "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T05:50:58.991012Z"
+  "editorial_policy_version": "0.4-rc4",
+  "generator_version": "0.5.0-rc4",
+  "built_at": "2026-08-13T10:52:47.483880Z"
 }

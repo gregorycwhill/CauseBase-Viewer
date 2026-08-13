@@ -1,0 +1,47 @@
+{
+  "source_record_id": "src:report-extract:49079016738:5848f21901bd747f:cb_7e322821acc34c8b920c772f5b4e4c5c",
+  "source_family": "organisation-report-extract",
+  "dataset_version": "2026-08-14-private-extraction",
+  "source_url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/caaabce4-2daf-e811-a963-000d3ad244fd-7060f4b6-7974-4191-9638-c924bd74d001-Financial%20Report-94601086-3db0-e811-a963-000d3ad24077-ASO200415-annual-report-FINAL.pdf",
+  "retrieved_at": "2026-08-13T10:52:47.483880Z",
+  "observed_at": "2026-08-13",
+  "effective_from": null,
+  "effective_to": null,
+  "source_fields": {
+    "filename": "5848f21901bd747f35facb46fe653144e92a334b8047cb0b6592e54ed89c4d06.pdf",
+    "source_sha256": "5848f21901bd747f35facb46fe653144e92a334b8047cb0b6592e54ed89c4d06",
+    "page_count": 34,
+    "discovery_basis": "ACNC public profile Documents field"
+  },
+  "source_payload": {
+    "rows": [],
+    "diagnostics": {
+      "native_text_pages": 19,
+      "low_text_pages": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "ocr_attempted_pages": []
+    }
+  },
+  "canonical_field_mappings": {
+    "rows[].label": "financial_records[].*_breakdown",
+    "rows[].current": "financial_records[].*_breakdown[].amount"
+  },
+  "evidence_ids": [
+    "ev:report:49079016738:5848f21901bd747f"
+  ]
+}

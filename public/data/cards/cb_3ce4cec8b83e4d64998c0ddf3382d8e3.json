@@ -100,12 +100,12 @@
     {
       "capability": "latest_acnc_ais",
       "status": "observed",
-      "source_record_id": null,
+      "source_record_id": "src:acnc-ais-detail:31520352647:3d53de89-a4fd-f011-8406-7ced8db1969d:cb_3ce4cec8b83e4d64998c0ddf3382d8e3",
       "evidence_ids": [
-        "ev:acnc:ais:31520352647:2025"
+        "ev:acnc:ais:31520352647:3d53de89-a4fd-f011-8406-7ced8db1969d"
       ],
       "observed_at": "2026-01-30",
-      "freshness_note": "Latest submitted ACNC AIS in the 2026-08-13 public-profile acquisition: 2025."
+      "freshness_note": "Latest submitted AIS detail acquired from the public ACNC entity endpoint."
     }
   ],
   "enrichment_level": "enriched",
@@ -113,32 +113,22 @@
   "geography": [
     "Northern Territory (NT)"
   ],
-  "navigation_geography": [
+  "geography_observations": [
     {
-      "level": "country",
-      "code": "AU",
-      "label": "Australia",
-      "evidence_ids": [
-        "ev:acnc:31520352647"
-      ]
-    },
-    {
-      "level": "state_territory",
-      "code": "AU-NT",
-      "label": "Northern Territory",
-      "evidence_ids": [
-        "ev:acnc:31520352647"
-      ]
+      "value": "Northern Territory (NT)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
     }
   ],
-  "causebase_summary": "AIM Charitable Trust is a charitable trust recorded as operating in the Northern Territory (NT). CauseBase does not have sufficient descriptive evidence in this release to independently identify the trust’s specific activities, programmes, beneficiaries or modes of participation. The supplied records for this release do not include a website, public program descriptions or beneficiary detail, so no concrete service descriptions can be reported here.",
-  "summary_evidence_ids": [
-    "ev:acnc:31520352647",
-    "ev:ais:31520352647:2023"
-  ],
+  "navigation_geography": [],
+  "causebase_summary": "AIM Charitable Trust is recorded on the Australian Charities and Not-for-profits Commission (ACNC) register with structured geography noted as the Northern Territory (NT). The only detailed filing in this evidence pack is the ACNC Annual Information Statement (AIS) for the year 1 July 2022 to 30 June 2023, which reports revenue of AUD 81,776 and total expenses of AUD 75,215 for that reporting period. The evidence pack does not include a website, annual report text, program descriptions, or statements of beneficiaries or participation opportunities. Source documents in this pack are an ACNC register extract and the AIS 2023 extract; no other public-facing materials were provided.",
+  "summary_evidence_ids": [],
   "organisation_self_description": null,
   "activities": [],
+  "activity_observations": [],
   "beneficiaries": [],
+  "beneficiary_observations": [],
   "participation_modes": [],
   "participation_observations": [],
   "opportunities": [],
@@ -159,82 +149,23 @@
       "reporting_period": "2025",
       "source_url": "https://www.acnc.gov.au/charity/charities/5981bb9d-39af-e811-a962-000d3ad24a0d/documents/3d53de89-a4fd-f011-8406-7ced8db1969d",
       "evidence_ids": [
-        "ev:acnc:ais:31520352647:2025"
+        "ev:acnc:ais:31520352647:3d53de89-a4fd-f011-8406-7ced8db1969d"
       ]
     }
   ],
   "source_native_records": [
     {
-      "source_record_id": "src:acnc-register:0421a68f-d878-5b32-bac9-8a42037dc940",
-      "source_family": "acnc-register",
-      "dataset_version": "2026-08-10",
-      "source_url": "https://www.acnc.gov.au/charity/charities?search=31520352647",
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "ABN": "31520352647",
-        "Legal Name": "AIM Charitable Trust",
-        "Registration Status": "registered",
-        "ACNC classifications": "social welfare; regional remote",
-        "Website": null,
-        "ACNC registration ID": null,
-        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "ABN": "external_identifiers",
-        "Legal Name": "legal_name",
-        "Registration Status": "registrations"
-      },
-      "evidence_ids": [
-        "ev:acnc:31520352647"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-ais:fr:ais:cb_3ce4cec8b83e4d64998c0ddf3382d8e3:2023",
-      "source_family": "acnc-ais",
-      "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": "2022-07-01",
-      "effective_to": "2023-06-30",
-      "source_fields": {
-        "Reporting period": "01/07/2022 to 30/06/2023",
-        "Reporting scope": "subject",
-        "Consolidated": "unknown",
-        "Revenue": "81776",
-        "Donations and bequests": null,
-        "Government grants": null,
-        "Total expenses": "75215",
-        "Assets": null,
-        "Liabilities": null
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "Revenue": "financial_records[].revenue",
-        "Total expenses": "financial_records[].total_expenses"
-      },
-      "evidence_ids": [
-        "ev:ais:31520352647:2023"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-public-profile:31520352647:cb_3ce4cec8b83e4d64998c0ddf3382d8e3:2026-08-13",
+      "source_record_id": "src:acnc-public-profile:31520352647:5981bb9d-39af-e811-a962-000d3ad24a0d:cb_3ce4cec8b83e4d64998c0ddf3382d8e3",
       "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-13-public-api",
+      "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/5981bb9d-39af-e811-a962-000d3ad24a0d/profile",
-      "retrieved_at": "2026-08-13T05:50:58.991012Z",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
       "observed_at": "2026-01-30",
       "effective_from": null,
       "effective_to": null,
       "source_fields": {
         "uuid": "5981bb9d-39af-e811-a962-000d3ad24a0d",
-        "abn": "31520352647",
-        "latest_ais_year": "2025",
-        "latest_ais_uuid": "3d53de89-a4fd-f011-8406-7ced8db1969d"
+        "abn": "31520352647"
       },
       "source_payload": {
         "data": {
@@ -846,13 +777,303 @@
         "uuid": "5981bb9d-39af-e811-a962-000d3ad24a0d"
       },
       "canonical_field_mappings": {
-        "data.Name": "display_name",
         "data.OtherNames": "operating_names",
-        "data.AnnualReports": "acnc_ais_url",
-        "data.Programs": "programs"
+        "data.AddressStateOrProvince": "principal_location"
+      },
+      "evidence_ids": []
+    },
+    {
+      "source_record_id": "src:acnc-ais-detail:31520352647:3d53de89-a4fd-f011-8406-7ced8db1969d:cb_3ce4cec8b83e4d64998c0ddf3382d8e3",
+      "source_family": "acnc-ais-detail",
+      "dataset_version": "2026-08-14-public-api",
+      "source_url": "https://www.acnc.gov.au/charity/charities/5981bb9d-39af-e811-a962-000d3ad24a0d/documents/3d53de89-a4fd-f011-8406-7ced8db1969d",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
+      "observed_at": "2026-01-30",
+      "effective_from": null,
+      "effective_to": null,
+      "source_fields": {
+        "abn": "31520352647",
+        "ais_uuid": "3d53de89-a4fd-f011-8406-7ced8db1969d",
+        "year": "2025",
+        "date_received": "2026-01-30T06:26:04.0000000Z"
+      },
+      "source_payload": {
+        "data": {
+          "Abn": "31520352647",
+          "ActivityAdvocacyNCivic": false,
+          "ActivityAgedCare": false,
+          "ActivityAnimalProtection": false,
+          "ActivityCultureAndArt": false,
+          "ActivityEconomicSocialCommunity": false,
+          "ActivityEmergencyNRelief": false,
+          "ActivityEmploymentNTraining": false,
+          "ActivityEnvironmental": false,
+          "ActivityGrantMaking": false,
+          "ActivityHealthRehabilitation": false,
+          "ActivityHigherEducation": false,
+          "ActivityHousing": false,
+          "ActivityIncomeSupportNMaintenance": false,
+          "ActivityInternational": false,
+          "ActivityInternationalDescription": null,
+          "ActivityInternationalOther": false,
+          "ActivityInternationalOtherDescription": null,
+          "ActivityLawNLegalServices": false,
+          "ActivityMain": null,
+          "ActivityMentalHealthCrisisIntervention": false,
+          "ActivityNdisSupported": null,
+          "ActivityNdisSupportedNext": null,
+          "ActivityOperating": true,
+          "ActivityOperatingOverseas": false,
+          "ActivityOther": false,
+          "ActivityOtherDescription": null,
+          "ActivityOtherEducation": false,
+          "ActivityOtherHealthServices": false,
+          "ActivityPersuitPurposesDescription": "The Trust achieves its purposes by overseeing the direction and control of other related charities (including the methods through which they are to provide benevolent relief), and by strategically holding certain assets separate from those charities' operations.",
+          "ActivityPhilanthropicPromotion": false,
+          "ActivityPolitical": false,
+          "ActivityPrimarySecondaryEducation": false,
+          "ActivityPurposeChange": null,
+          "ActivityPurposeChangeDescription": null,
+          "ActivityRecreationSocialClub": false,
+          "ActivityReligious": false,
+          "ActivityResearch": false,
+          "ActivitySocialServices": false,
+          "ActivitySports": false,
+          "ActivityTransferringFundsGoods": false,
+          "AdvancementOfEducation": false,
+          "AdvancementOfReligion": false,
+          "AssetsandLiabilitiesDescription": null,
+          "BasicReligiousCharity": false,
+          "BeneficiaryAboriginalTorres": false,
+          "BeneficiaryAdults": false,
+          "BeneficiaryAllAges": false,
+          "BeneficiaryChildren": false,
+          "BeneficiaryChronicIllness": false,
+          "BeneficiaryCrimeVictims": false,
+          "BeneficiaryDisasterVictims": false,
+          "BeneficiaryEarlyChildhood": false,
+          "BeneficiaryEthnic": false,
+          "BeneficiaryFamilies": false,
+          "BeneficiaryFinanciallyDisadvantaged": false,
+          "BeneficiaryGeneral": false,
+          "BeneficiaryHomelessnessRisk": false,
+          "BeneficiaryLGBT": false,
+          "BeneficiaryMain": null,
+          "BeneficiaryMen": false,
+          "BeneficiaryMigrantsRefugees": false,
+          "BeneficiaryOffenderFamilies": false,
+          "BeneficiaryOther": false,
+          "BeneficiaryOtherCharities": false,
+          "BeneficiaryOtherDescription": null,
+          "BeneficiaryOverseas": false,
+          "BeneficiaryPeopleWithDisability": false,
+          "BeneficiaryRuralRegionalRemote": false,
+          "BeneficiarySeniors": false,
+          "BeneficiaryUnemployed": false,
+          "BeneficiaryVeteranFamilies": false,
+          "BeneficiaryWomen": false,
+          "BeneficiaryYouth": false,
+          "CharityAddressCountry": "Australia",
+          "CharityAddressLine1": "9/82 Todd Street",
+          "CharityAddressLine2": null,
+          "CharityAddressPostalCode": "0870",
+          "CharityAddressStateOrProvince": "NT",
+          "CharityAddressSuburb": "Alice Springs",
+          "CharityEmail": "management@laesupermarkets.com.au",
+          "CharitySize": "Small",
+          "CharityUuid": "5981bb9d-39af-e811-a962-000d3ad24a0d",
+          "ChildCareServices": false,
+          "ExpenseEmployees": "173388.0000",
+          "ExpenseGrantDonationsInAustralia": "0.0000",
+          "ExpenseGrantDonationsOutsideAustralia": "0.0000",
+          "ExpenseTotal": "264939.0000",
+          "ExpensesOther": "91551.0000",
+          "FinAccrualAccounting": "Accrual",
+          "FinConsolidatedReportFromMiltiple": null,
+          "FinDocumentedPoliciesRelatedPartyTransactions": null,
+          "FinFyeJune": false,
+          "FinProvideVoluntarily": null,
+          "FinRelatedPartyTransactions": "Yes",
+          "FinReportACT": false,
+          "FinReportFrom": "2024-07-01T00:00:00.0000000Z",
+          "FinReportNSW": false,
+          "FinReportNT": false,
+          "FinReportQLD": false,
+          "FinReportSA": false,
+          "FinReportTAS": false,
+          "FinReportTo": "2025-06-30T00:00:00.0000000Z",
+          "FinReportVIC": false,
+          "FinReportWA": false,
+          "FinReportingType": null,
+          "FinSapDate": null,
+          "FundRaisingNumberACT": null,
+          "FundRaisingNumberNSW": null,
+          "FundRaisingNumberQLD": null,
+          "FundRaisingNumberSA": null,
+          "FundRaisingNumberTAS": null,
+          "FundRaisingNumberVIC": null,
+          "FundRaisingNumberWA": null,
+          "GovDocAccurate": null,
+          "GrantCapacityBuildingPct": null,
+          "GrantMultiYearPct": null,
+          "GrantPublicOpenApplicationPct": null,
+          "GrantRuralRegionPct": null,
+          "HasSubmittedToRegulator": false,
+          "HoursPaid": null,
+          "HoursTotal": null,
+          "HoursVolunteer": null,
+          "HrCasualEmployees": "0",
+          "HrFteStaff": "1.0000000000",
+          "HrFullTimeEmployees": "1",
+          "HrPartTimeEmployees": "0",
+          "HrUnpainVolunteers": "0",
+          "IncomeDonationsBequests": "0.0000",
+          "IncomeGovernmentGrants": "0.0000",
+          "IncomeOther": "0.0000",
+          "IncomeOtherComprehinsive": "0.0000",
+          "IncomeOtherNeg": null,
+          "IncomeOtherReceipts": "0.0000",
+          "IncomeTotalComprehensive": "0.0000",
+          "IncomeTotalReceipts": "249731.0000",
+          "IncorporationStatus": null,
+          "InterestExpense": "0.0000",
+          "IsIncorporatedAssociation": false,
+          "KeyManagementPersonnel": false,
+          "LegalName": "AIM Charitable Trust",
+          "NetAssetsLiabilities": "568884.0000",
+          "NetSurplusDeficit": "-15208.0000",
+          "NonCurrentLoansPayable": "0.0000",
+          "NumberOfKeyManagementPersonnel": "0",
+          "OperatingCountries": null,
+          "OperatingInACT": false,
+          "OperatingInNSW": false,
+          "OperatingInNT": false,
+          "OperatingInQLD": false,
+          "OperatingInSA": false,
+          "OperatingInTAS": false,
+          "OperatingInVIC": false,
+          "OperatingInWA": false,
+          "OperatingOverseas": false,
+          "OtherNames": [],
+          "OtherNonCurrentAssets": "0.0000",
+          "OtherNonCurrentLiabilities": "0.0000",
+          "OtherPurposeDescription": null,
+          "OtherPurposes": "False",
+          "Programs": [
+            {
+              "AisUuid": "3d53de89-a4fd-f011-8406-7ced8db1969d",
+              "Name": "Management of Charitable Asset",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "People in rural/regional/remote communities",
+                "Aboriginal and Torres Strait Islander people",
+                "Financially disadvantaged people"
+              ],
+              "ProgramClassification": "Unknown or not classified",
+              "ProgramClassificationID": "842",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Alice Springs NT, Australia",
+                  "FormattedAddress": "Alice Springs NT, Australia",
+                  "Marker": {
+                    "Latitude": -23.698042,
+                    "Longitude": 133.8807471
+                  },
+                  "Name": "Alice Springs",
+                  "uuid": "8c53de89-a4fd-f011-8406-7ced8db1969d"
+                }
+              ],
+              "ProgramWeblink": null,
+              "uuid": "7f53de89-a4fd-f011-8406-7ced8db1969d"
+            }
+          ],
+          "RegulatedACT": false,
+          "RegulatedNSW": false,
+          "RegulatedNT": false,
+          "RegulatedQLD": false,
+          "RegulatedSA": false,
+          "RegulatedTAS": false,
+          "RegulatedVIC": false,
+          "RegulatedWA": false,
+          "Regulator": null,
+          "RegulatorAGMDateACT": null,
+          "RegulatorAGMDateNT": null,
+          "RegulatorAGMDateVIC": null,
+          "RegulatorAGMDateWA": null,
+          "RegulatorFundRaising": "Yes",
+          "RegulatorFundRaisingACT": false,
+          "RegulatorFundRaisingNSW": false,
+          "RegulatorFundRaisingNT": true,
+          "RegulatorFundRaisingOnline": false,
+          "RegulatorFundRaisingQLD": false,
+          "RegulatorFundRaisingSA": false,
+          "RegulatorFundRaisingTAS": false,
+          "RegulatorFundRaisingVIC": false,
+          "RegulatorFundRaisingWA": false,
+          "RegulatorIncorporatedAssociationACT": false,
+          "RegulatorIncorporatedAssociationNSW": false,
+          "RegulatorIncorporatedAssociationNT": false,
+          "RegulatorIncorporatedAssociationNumberACT": null,
+          "RegulatorIncorporatedAssociationNumberNSW": null,
+          "RegulatorIncorporatedAssociationNumberNT": null,
+          "RegulatorIncorporatedAssociationNumberQLD": null,
+          "RegulatorIncorporatedAssociationNumberSA": null,
+          "RegulatorIncorporatedAssociationNumberTAS": null,
+          "RegulatorIncorporatedAssociationNumberVIC": null,
+          "RegulatorIncorporatedAssociationNumberWA": null,
+          "RegulatorIncorporatedAssociationQLD": false,
+          "RegulatorIncorporatedAssociationSA": false,
+          "RegulatorIncorporatedAssociationTAS": false,
+          "RegulatorIncorporatedAssociationVIC": false,
+          "RegulatorIncorporatedAssociationWA": false,
+          "RegulatorMetRequirementACT": false,
+          "RegulatorMetRequirementWA": null,
+          "RegulatorOtherDetails": null,
+          "RegulatorPrograms": null,
+          "RegulatorStates": false,
+          "RelatedPartyDetails": null,
+          "RelatedPartyTransactions": [
+            {
+              "Description": "",
+              "Transaction": "Loans from/to a related party",
+              "uuid": "3f53de89-a4fd-f011-8406-7ced8db1969d"
+            }
+          ],
+          "ReliefOfPoverty": false,
+          "ReportingGroupFlag": false,
+          "ResponsiblePersonAccurate": null,
+          "RevenueGoodsServices": "249731.0000",
+          "RevenueInvestments": "0.0000",
+          "RevenueTotal": "249731.0000",
+          "StatementYear": "2025",
+          "SubTypesAccurate": null,
+          "TotalAssets": "594915.0000",
+          "TotalCurrentAssets": "0.0000",
+          "TotalCurrentLiabilities": "0.0000",
+          "TotalLiabilities": "26031.0000",
+          "TotalNonCurrentAssets": null,
+          "TotalNonCurrentLiabilities": "0.0000",
+          "TotalNonCurrentLoansReceivable": "0.0000",
+          "TotalPaidKMP": "$0.00",
+          "Website": null,
+          "__normalized": true,
+          "entityTypeVersion": "",
+          "entityVersion": "1845060044",
+          "timeStamp": "2026-01-30T06:26:00.0000000Z",
+          "type": "annual_information_statement",
+          "uuid": "3d53de89-a4fd-f011-8406-7ced8db1969d"
+        },
+        "type": "annual_information_statement",
+        "uuid": "3d53de89-a4fd-f011-8406-7ced8db1969d"
+      },
+      "canonical_field_mappings": {
+        "data.Programs": "programs",
+        "data.TotalRevenue": "financial_records[].revenue",
+        "data.TotalExpenses": "financial_records[].total_expenses"
       },
       "evidence_ids": [
-        "ev:acnc:ais:31520352647:2025"
+        "ev:acnc:ais:31520352647:3d53de89-a4fd-f011-8406-7ced8db1969d"
       ]
     }
   ],
@@ -901,9 +1122,12 @@
       },
       "assets": null,
       "liabilities": null,
+      "net_assets": null,
       "income_breakdown": [],
       "expense_breakdown": [],
-      "balance_sheet_breakdown": []
+      "balance_sheet_breakdown": [],
+      "source_ordered_line_items": [],
+      "statements": []
     }
   ],
   "financial_metrics": [
@@ -1009,24 +1233,24 @@
       "content_hash": null
     },
     {
+      "evidence_id": "ev:acnc:ais:31520352647:3d53de89-a4fd-f011-8406-7ced8db1969d",
+      "source_type": "regulatory",
+      "title": "ACNC Annual Information Statement 2025",
+      "publisher": "Australian Charities and Not-for-profits Commission",
+      "url": "https://www.acnc.gov.au/charity/charities/5981bb9d-39af-e811-a962-000d3ad24a0d/documents/3d53de89-a4fd-f011-8406-7ced8db1969d",
+      "observed_at": "2026-01-30",
+      "reporting_period": "2025",
+      "page": null,
+      "section": null,
+      "content_hash": null
+    },
+    {
       "evidence_id": "ev:abr-dgr:31520352647:20260805",
       "source_type": "regulatory",
       "title": "ABR DGR bulk observation",
       "publisher": "Australian Business Register / Australian Taxation Office",
       "url": "https://abr.business.gov.au/Tools/BulkExtract",
       "observed_at": "2026-08-05",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
-    },
-    {
-      "evidence_id": "ev:acnc:ais:31520352647:2025",
-      "source_type": "regulatory",
-      "title": "AIM Charitable Trust Annual Information Statement 2025",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": "https://www.acnc.gov.au/charity/charities/5981bb9d-39af-e811-a962-000d3ad24a0d/documents/3d53de89-a4fd-f011-8406-7ced8db1969d",
-      "observed_at": "2026-01-30",
       "reporting_period": null,
       "page": null,
       "section": null,
@@ -1039,81 +1263,25 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "e148e842fbb2ab330bea547846b7bdb9ab7132132c3490f0cd445d439c82c430",
-    "generated_at": "2026-08-13T05:51:03.014013Z",
+    "source_text_hash": "09e0cc719b68e3cdb411ee5b209c87a75e83246dcf176f128b652c4514dc0df3",
+    "generated_at": "2026-08-10T13:53:24.455457Z",
     "vector_ref": "embeddings.parquet#cb_3ce4cec8b83e4d64998c0ddf3382d8e3"
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
+    "prompt_version": "phase2a-0.4",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "b5f068498f8330f89e6cceeba03a8c324ab26f052106d0f051bcee85e03f59b7",
-    "generated_at": "2026-08-12T13:37:35.189236Z",
+    "evidence_input_hash": "5ed13a7604a317c047b71a2c4a8a762f21b5d733240854e26a6bb25de96f07f7",
+    "generated_at": "2026-08-10T12:45:57.271670Z",
     "editorial_policy_version": "0.1"
   },
-  "derivative_assessments": [
-    {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T13:37:35.189236Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-rc2-editorial-migration",
-      "input_hash": "b5f068498f8330f89e6cceeba03a8c324ab26f052106d0f051bcee85e03f59b7",
-      "disposition": "refreshed",
-      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "taxonomy",
-      "generated_at": "2026-08-12T13:37:35.189236Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "b5f068498f8330f89e6cceeba03a8c324ab26f052106d0f051bcee85e03f59b7",
-      "disposition": "reused",
-      "reason": "No new supported canonical classification facts.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "fundraising",
-      "generated_at": null,
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "b5f068498f8330f89e6cceeba03a8c324ab26f052106d0f051bcee85e03f59b7",
-      "disposition": "reused",
-      "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "embedding",
-      "generated_at": "2026-08-10T13:53:24.455457Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "09e0cc719b68e3cdb411ee5b209c87a75e83246dcf176f128b652c4514dc0df3",
-      "disposition": "reused",
-      "reason": "Semantic source text unchanged.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "similarities",
-      "generated_at": "2026-08-10T13:53:24.455457Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "09e0cc719b68e3cdb411ee5b209c87a75e83246dcf176f128b652c4514dc0df3",
-      "disposition": "reused",
-      "reason": "Embedding reused; semantic neighbours retained.",
-      "affected_dimensions": []
-    }
-  ],
-  "dataset_version": "phase2b-2026-08-13-rc3",
+  "derivative_assessments": [],
+  "dataset_version": "phase2b-2026-08-14-rc4",
   "card_schema_version": "0.4",
-  "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T05:50:58.991012Z"
+  "editorial_policy_version": "0.4-rc4",
+  "generator_version": "0.5.0-rc4",
+  "built_at": "2026-08-13T10:52:47.483880Z"
 }

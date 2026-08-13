@@ -63,14 +63,6 @@
       "freshness_note": null
     },
     {
-      "capability": "website",
-      "status": "retrieval_failed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
       "capability": "fundraising_expenditure",
       "status": "not_available_from_source",
       "source_record_id": null,
@@ -91,12 +83,20 @@
     {
       "capability": "latest_acnc_ais",
       "status": "observed",
-      "source_record_id": null,
+      "source_record_id": "src:acnc-ais-detail:39645963266:2ffba62c-390c-f111-8407-002248111f49:cb_d38c5da0434e4170aefe64d805d24ed3",
       "evidence_ids": [
-        "ev:acnc:ais:39645963266:2025"
+        "ev:acnc:ais:39645963266:2ffba62c-390c-f111-8407-002248111f49"
       ],
       "observed_at": "2026-02-17",
-      "freshness_note": "Latest submitted ACNC AIS in the 2026-08-13 public-profile acquisition: 2025."
+      "freshness_note": "Latest submitted AIS detail acquired from the public ACNC entity endpoint."
+    },
+    {
+      "capability": "website",
+      "status": "observed",
+      "source_record_id": null,
+      "evidence_ids": [],
+      "observed_at": "2026-08-13",
+      "freshness_note": "Public website locator acquired from the ACNC profile."
     }
   ],
   "enrichment_level": "enriched",
@@ -105,32 +105,28 @@
     "Australian Capital Territory (ACT)",
     "Australia"
   ],
-  "navigation_geography": [
+  "geography_observations": [
     {
-      "level": "country",
-      "code": "AU",
-      "label": "Australia",
-      "evidence_ids": [
-        "ev:acnc:39645963266"
-      ]
+      "value": "Australian Capital Territory (ACT)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
     },
     {
-      "level": "state_territory",
-      "code": "AU-ACT",
-      "label": "Australian Capital Territory",
-      "evidence_ids": [
-        "ev:acnc:39645963266"
-      ]
+      "value": "Australia",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
     }
   ],
-  "causebase_summary": "HOPEBOX AUSTRALIA LTD is a registered charity based in the Australian Capital Territory that operates in Australia. Registry records associated with the organisation list its legal name, a website address and the Australian Capital Territory as its location, and show it filed an Annual Information Statement covering the year to 31 January 2024. CauseBase does not have sufficient descriptive evidence in this release to independently identify specific activities, programs or beneficiary groups for this organisation. CauseBase could not retrieve content from the organisation’s listed website at the time of capture; the available regulatory extracts provide legal identity and location but do not describe services, target populations or modes of delivery.",
-  "summary_evidence_ids": [
-    "ev:acnc:39645963266",
-    "ev:ais:39645963266:2023"
-  ],
+  "navigation_geography": [],
+  "causebase_summary": "HOPEBOX AUSTRALIA LTD (display name HOPEBOX AUSTRALIA LTD) appears in the Australian Charities and Not-for-profits Commission (ACNC) register. The available regulatory extract and the organisation’s 2023 AIS cover the period 01/01/2023 to 31/01/2024. For that reporting period the AIS lists total revenue of AUD 8,328 and total expenses of AUD 0; the reporting scope is the subject organisation. The ACNC extract is the primary source cited; attempts to retrieve material from the organisation’s website were not successful. The supplied evidence does not describe any programs, services, beneficiaries or modes of participation, and does not specify whether the zero expenses figure reflects timing, accounting classification, or omitted transactions.",
+  "summary_evidence_ids": [],
   "organisation_self_description": null,
   "activities": [],
+  "activity_observations": [],
   "beneficiaries": [],
+  "beneficiary_observations": [],
   "participation_modes": [],
   "participation_observations": [],
   "opportunities": [],
@@ -155,82 +151,23 @@
       "reporting_period": "2025",
       "source_url": "https://www.acnc.gov.au/charity/charities/8e817979-3d65-eb11-b0b0-000d3a6b0983/documents/2ffba62c-390c-f111-8407-002248111f49",
       "evidence_ids": [
-        "ev:acnc:ais:39645963266:2025"
+        "ev:acnc:ais:39645963266:2ffba62c-390c-f111-8407-002248111f49"
       ]
     }
   ],
   "source_native_records": [
     {
-      "source_record_id": "src:acnc-register:0b8769d6-cd66-528f-a87e-fb97a3b40f29",
-      "source_family": "acnc-register",
-      "dataset_version": "2026-08-10",
-      "source_url": "https://www.acnc.gov.au/charity/charities?search=39645963266",
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "ABN": "39645963266",
-        "Legal Name": "HOPEBOX AUSTRALIA LTD",
-        "Registration Status": "registered",
-        "ACNC classifications": "social welfare; regional remote",
-        "Website": "www.hopeboxaustralia.com.au",
-        "ACNC registration ID": null,
-        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "ABN": "external_identifiers",
-        "Legal Name": "legal_name",
-        "Registration Status": "registrations"
-      },
-      "evidence_ids": [
-        "ev:acnc:39645963266"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-ais:fr:ais:cb_d38c5da0434e4170aefe64d805d24ed3:2023",
-      "source_family": "acnc-ais",
-      "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": "2023-01-01",
-      "effective_to": "2024-01-31",
-      "source_fields": {
-        "Reporting period": "01/01/2023 to 31/01/2024",
-        "Reporting scope": "subject",
-        "Consolidated": "unknown",
-        "Revenue": "8328",
-        "Donations and bequests": null,
-        "Government grants": null,
-        "Total expenses": "0",
-        "Assets": null,
-        "Liabilities": null
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "Revenue": "financial_records[].revenue",
-        "Total expenses": "financial_records[].total_expenses"
-      },
-      "evidence_ids": [
-        "ev:ais:39645963266:2023"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-public-profile:39645963266:cb_d38c5da0434e4170aefe64d805d24ed3:2026-08-13",
+      "source_record_id": "src:acnc-public-profile:39645963266:8e817979-3d65-eb11-b0b0-000d3a6b0983:cb_d38c5da0434e4170aefe64d805d24ed3",
       "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-13-public-api",
+      "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/8e817979-3d65-eb11-b0b0-000d3a6b0983/profile",
-      "retrieved_at": "2026-08-13T05:50:58.991012Z",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
       "observed_at": "2026-02-17",
       "effective_from": null,
       "effective_to": null,
       "source_fields": {
         "uuid": "8e817979-3d65-eb11-b0b0-000d3a6b0983",
-        "abn": "39645963266",
-        "latest_ais_year": "2025",
-        "latest_ais_uuid": "2ffba62c-390c-f111-8407-002248111f49"
+        "abn": "39645963266"
       },
       "source_payload": {
         "data": {
@@ -642,13 +579,303 @@
         "uuid": "8e817979-3d65-eb11-b0b0-000d3a6b0983"
       },
       "canonical_field_mappings": {
-        "data.Name": "display_name",
         "data.OtherNames": "operating_names",
-        "data.AnnualReports": "acnc_ais_url",
-        "data.Programs": "programs"
+        "data.AddressStateOrProvince": "principal_location"
+      },
+      "evidence_ids": []
+    },
+    {
+      "source_record_id": "src:acnc-ais-detail:39645963266:2ffba62c-390c-f111-8407-002248111f49:cb_d38c5da0434e4170aefe64d805d24ed3",
+      "source_family": "acnc-ais-detail",
+      "dataset_version": "2026-08-14-public-api",
+      "source_url": "https://www.acnc.gov.au/charity/charities/8e817979-3d65-eb11-b0b0-000d3a6b0983/documents/2ffba62c-390c-f111-8407-002248111f49",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
+      "observed_at": "2026-02-17",
+      "effective_from": null,
+      "effective_to": null,
+      "source_fields": {
+        "abn": "39645963266",
+        "ais_uuid": "2ffba62c-390c-f111-8407-002248111f49",
+        "year": "2025",
+        "date_received": "2026-02-17T19:45:34.0000000Z"
+      },
+      "source_payload": {
+        "data": {
+          "Abn": "39645963266",
+          "ActivityAdvocacyNCivic": false,
+          "ActivityAgedCare": false,
+          "ActivityAnimalProtection": false,
+          "ActivityCultureAndArt": false,
+          "ActivityEconomicSocialCommunity": false,
+          "ActivityEmergencyNRelief": false,
+          "ActivityEmploymentNTraining": false,
+          "ActivityEnvironmental": false,
+          "ActivityGrantMaking": false,
+          "ActivityHealthRehabilitation": false,
+          "ActivityHigherEducation": false,
+          "ActivityHousing": false,
+          "ActivityIncomeSupportNMaintenance": false,
+          "ActivityInternational": false,
+          "ActivityInternationalDescription": null,
+          "ActivityInternationalOther": false,
+          "ActivityInternationalOtherDescription": null,
+          "ActivityLawNLegalServices": false,
+          "ActivityMain": null,
+          "ActivityMentalHealthCrisisIntervention": false,
+          "ActivityNdisSupported": null,
+          "ActivityNdisSupportedNext": null,
+          "ActivityOperating": true,
+          "ActivityOperatingOverseas": false,
+          "ActivityOther": false,
+          "ActivityOtherDescription": null,
+          "ActivityOtherEducation": false,
+          "ActivityOtherHealthServices": false,
+          "ActivityPersuitPurposesDescription": "Small fund raising for women suffering domestic violence in Vietnam",
+          "ActivityPhilanthropicPromotion": false,
+          "ActivityPolitical": false,
+          "ActivityPrimarySecondaryEducation": false,
+          "ActivityPurposeChange": null,
+          "ActivityPurposeChangeDescription": null,
+          "ActivityRecreationSocialClub": false,
+          "ActivityReligious": false,
+          "ActivityResearch": false,
+          "ActivitySocialServices": false,
+          "ActivitySports": false,
+          "ActivityTransferringFundsGoods": true,
+          "AdvancementOfEducation": false,
+          "AdvancementOfReligion": false,
+          "AssetsandLiabilitiesDescription": null,
+          "BasicReligiousCharity": false,
+          "BeneficiaryAboriginalTorres": false,
+          "BeneficiaryAdults": false,
+          "BeneficiaryAllAges": false,
+          "BeneficiaryChildren": false,
+          "BeneficiaryChronicIllness": false,
+          "BeneficiaryCrimeVictims": false,
+          "BeneficiaryDisasterVictims": false,
+          "BeneficiaryEarlyChildhood": false,
+          "BeneficiaryEthnic": false,
+          "BeneficiaryFamilies": false,
+          "BeneficiaryFinanciallyDisadvantaged": false,
+          "BeneficiaryGeneral": false,
+          "BeneficiaryHomelessnessRisk": false,
+          "BeneficiaryLGBT": false,
+          "BeneficiaryMain": null,
+          "BeneficiaryMen": false,
+          "BeneficiaryMigrantsRefugees": false,
+          "BeneficiaryOffenderFamilies": false,
+          "BeneficiaryOther": false,
+          "BeneficiaryOtherCharities": false,
+          "BeneficiaryOtherDescription": null,
+          "BeneficiaryOverseas": false,
+          "BeneficiaryPeopleWithDisability": false,
+          "BeneficiaryRuralRegionalRemote": false,
+          "BeneficiarySeniors": false,
+          "BeneficiaryUnemployed": false,
+          "BeneficiaryVeteranFamilies": false,
+          "BeneficiaryWomen": false,
+          "BeneficiaryYouth": false,
+          "CharityAddressCountry": "Australia",
+          "CharityAddressLine1": "132 Monaro Cres",
+          "CharityAddressLine2": null,
+          "CharityAddressPostalCode": "2603",
+          "CharityAddressStateOrProvince": "ACT",
+          "CharityAddressSuburb": "Red Hill",
+          "CharityEmail": "gooster777@gmail.com",
+          "CharitySize": "Small",
+          "CharityUuid": "8e817979-3d65-eb11-b0b0-000d3a6b0983",
+          "ChildCareServices": false,
+          "ExpenseEmployees": "0.0000",
+          "ExpenseGrantDonationsInAustralia": "0.0000",
+          "ExpenseGrantDonationsOutsideAustralia": "2001.0000",
+          "ExpenseTotal": "2001.0000",
+          "ExpensesOther": "0.0000",
+          "FinAccrualAccounting": "Cash",
+          "FinConsolidatedReportFromMiltiple": null,
+          "FinDocumentedPoliciesRelatedPartyTransactions": null,
+          "FinFyeJune": false,
+          "FinProvideVoluntarily": null,
+          "FinRelatedPartyTransactions": "No",
+          "FinReportACT": false,
+          "FinReportFrom": "2024-07-01T00:00:00.0000000Z",
+          "FinReportNSW": false,
+          "FinReportNT": false,
+          "FinReportQLD": false,
+          "FinReportSA": false,
+          "FinReportTAS": false,
+          "FinReportTo": "2025-06-30T00:00:00.0000000Z",
+          "FinReportVIC": false,
+          "FinReportWA": false,
+          "FinReportingType": null,
+          "FinSapDate": null,
+          "FundRaisingNumberACT": null,
+          "FundRaisingNumberNSW": null,
+          "FundRaisingNumberQLD": null,
+          "FundRaisingNumberSA": null,
+          "FundRaisingNumberTAS": null,
+          "FundRaisingNumberVIC": null,
+          "FundRaisingNumberWA": null,
+          "GovDocAccurate": null,
+          "GrantCapacityBuildingPct": null,
+          "GrantMultiYearPct": null,
+          "GrantPublicOpenApplicationPct": null,
+          "GrantRuralRegionPct": null,
+          "HasSubmittedToRegulator": false,
+          "HoursPaid": null,
+          "HoursTotal": null,
+          "HoursVolunteer": null,
+          "HrCasualEmployees": "0",
+          "HrFteStaff": "0.0000000000",
+          "HrFullTimeEmployees": "0",
+          "HrPartTimeEmployees": "0",
+          "HrUnpainVolunteers": "0",
+          "IncomeDonationsBequests": "2867.0000",
+          "IncomeGovernmentGrants": "0.0000",
+          "IncomeOther": "0.0000",
+          "IncomeOtherComprehinsive": "0.0000",
+          "IncomeOtherNeg": null,
+          "IncomeOtherReceipts": "0.0000",
+          "IncomeTotalComprehensive": "0.0000",
+          "IncomeTotalReceipts": "2867.0000",
+          "IncorporationStatus": null,
+          "InterestExpense": "0.0000",
+          "IsIncorporatedAssociation": true,
+          "KeyManagementPersonnel": false,
+          "LegalName": "HOPEBOX AUSTRALIA LTD",
+          "NetAssetsLiabilities": "0.0000",
+          "NetSurplusDeficit": "866.0000",
+          "NonCurrentLoansPayable": "0.0000",
+          "NumberOfKeyManagementPersonnel": "0",
+          "OperatingCountries": null,
+          "OperatingInACT": false,
+          "OperatingInNSW": false,
+          "OperatingInNT": false,
+          "OperatingInQLD": false,
+          "OperatingInSA": false,
+          "OperatingInTAS": false,
+          "OperatingInVIC": false,
+          "OperatingInWA": false,
+          "OperatingOverseas": false,
+          "OtherNames": [],
+          "OtherNonCurrentAssets": "0.0000",
+          "OtherNonCurrentLiabilities": "0.0000",
+          "OtherPurposeDescription": null,
+          "OtherPurposes": "False",
+          "Programs": [
+            {
+              "AisUuid": "2ffba62c-390c-f111-8407-002248111f49",
+              "Name": "SEPR Support",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Adults - aged 25 to under 65",
+                "People in rural/regional/remote communities",
+                "Financially disadvantaged people",
+                "People at risk of homelessness/ people experiencing homelessness",
+                "Victims of crime (including family violence)",
+                "Females",
+                "Overseas communities or charities"
+              ],
+              "ProgramClassification": "Vocational rehabilitation",
+              "ProgramClassificationID": "515",
+              "ProgramCountries": [
+                "Viet Nam"
+              ],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Canberra ACT, Australia",
+                  "FormattedAddress": "Canberra ACT, Australia",
+                  "Marker": {
+                    "Latitude": -35.3075,
+                    "Longitude": 149.124417
+                  },
+                  "Name": "Canberra",
+                  "uuid": "5dfba62c-390c-f111-8407-002248111f49"
+                }
+              ],
+              "ProgramWeblink": null,
+              "uuid": "4ffba62c-390c-f111-8407-002248111f49"
+            }
+          ],
+          "RegulatedACT": false,
+          "RegulatedNSW": false,
+          "RegulatedNT": false,
+          "RegulatedQLD": false,
+          "RegulatedSA": false,
+          "RegulatedTAS": false,
+          "RegulatedVIC": false,
+          "RegulatedWA": false,
+          "Regulator": null,
+          "RegulatorAGMDateACT": "2026-01-21T00:00:00.0000000Z",
+          "RegulatorAGMDateNT": null,
+          "RegulatorAGMDateVIC": null,
+          "RegulatorAGMDateWA": null,
+          "RegulatorFundRaising": "Yes",
+          "RegulatorFundRaisingACT": true,
+          "RegulatorFundRaisingNSW": false,
+          "RegulatorFundRaisingNT": false,
+          "RegulatorFundRaisingOnline": false,
+          "RegulatorFundRaisingQLD": false,
+          "RegulatorFundRaisingSA": false,
+          "RegulatorFundRaisingTAS": false,
+          "RegulatorFundRaisingVIC": false,
+          "RegulatorFundRaisingWA": false,
+          "RegulatorIncorporatedAssociationACT": true,
+          "RegulatorIncorporatedAssociationNSW": false,
+          "RegulatorIncorporatedAssociationNT": false,
+          "RegulatorIncorporatedAssociationNumberACT": null,
+          "RegulatorIncorporatedAssociationNumberNSW": null,
+          "RegulatorIncorporatedAssociationNumberNT": null,
+          "RegulatorIncorporatedAssociationNumberQLD": null,
+          "RegulatorIncorporatedAssociationNumberSA": null,
+          "RegulatorIncorporatedAssociationNumberTAS": null,
+          "RegulatorIncorporatedAssociationNumberVIC": null,
+          "RegulatorIncorporatedAssociationNumberWA": null,
+          "RegulatorIncorporatedAssociationQLD": false,
+          "RegulatorIncorporatedAssociationSA": false,
+          "RegulatorIncorporatedAssociationTAS": false,
+          "RegulatorIncorporatedAssociationVIC": false,
+          "RegulatorIncorporatedAssociationWA": false,
+          "RegulatorMetRequirementACT": true,
+          "RegulatorMetRequirementWA": null,
+          "RegulatorOtherDetails": null,
+          "RegulatorPrograms": null,
+          "RegulatorStates": false,
+          "RelatedPartyDetails": null,
+          "RelatedPartyTransactions": [],
+          "ReliefOfPoverty": false,
+          "ReportingGroupFlag": false,
+          "ResponsiblePersonAccurate": null,
+          "RevenueGoodsServices": "0.0000",
+          "RevenueInvestments": "0.0000",
+          "RevenueTotal": "2867.0000",
+          "StatementYear": "2025",
+          "SubTypesAccurate": null,
+          "TotalAssets": "0.0000",
+          "TotalCurrentAssets": "0.0000",
+          "TotalCurrentLiabilities": "0.0000",
+          "TotalLiabilities": "0.0000",
+          "TotalNonCurrentAssets": null,
+          "TotalNonCurrentLiabilities": "0.0000",
+          "TotalNonCurrentLoansReceivable": "0.0000",
+          "TotalPaidKMP": "$0.00",
+          "Website": "www.hopeboxaustralia.com.au",
+          "__normalized": true,
+          "entityTypeVersion": "",
+          "entityVersion": "1867100068",
+          "timeStamp": "2026-02-17T19:45:21.0000000Z",
+          "type": "annual_information_statement",
+          "uuid": "2ffba62c-390c-f111-8407-002248111f49"
+        },
+        "type": "annual_information_statement",
+        "uuid": "2ffba62c-390c-f111-8407-002248111f49"
+      },
+      "canonical_field_mappings": {
+        "data.Programs": "programs",
+        "data.TotalRevenue": "financial_records[].revenue",
+        "data.TotalExpenses": "financial_records[].total_expenses"
       },
       "evidence_ids": [
-        "ev:acnc:ais:39645963266:2025"
+        "ev:acnc:ais:39645963266:2ffba62c-390c-f111-8407-002248111f49"
       ]
     }
   ],
@@ -697,9 +924,12 @@
       },
       "assets": null,
       "liabilities": null,
+      "net_assets": null,
       "income_breakdown": [],
       "expense_breakdown": [],
-      "balance_sheet_breakdown": []
+      "balance_sheet_breakdown": [],
+      "source_ordered_line_items": [],
+      "statements": []
     }
   ],
   "financial_metrics": [
@@ -832,13 +1062,13 @@
       "content_hash": null
     },
     {
-      "evidence_id": "ev:acnc:ais:39645963266:2025",
+      "evidence_id": "ev:acnc:ais:39645963266:2ffba62c-390c-f111-8407-002248111f49",
       "source_type": "regulatory",
-      "title": "HOPEBOX AUSTRALIA LTD Annual Information Statement 2025",
+      "title": "ACNC Annual Information Statement 2025",
       "publisher": "Australian Charities and Not-for-profits Commission",
       "url": "https://www.acnc.gov.au/charity/charities/8e817979-3d65-eb11-b0b0-000d3a6b0983/documents/2ffba62c-390c-f111-8407-002248111f49",
       "observed_at": "2026-02-17",
-      "reporting_period": null,
+      "reporting_period": "2025",
       "page": null,
       "section": null,
       "content_hash": null
@@ -850,81 +1080,25 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "726f7232f27a9abba00509cc18ecc3937635a8774a8ccef45fdedfd21a2460a4",
-    "generated_at": "2026-08-13T05:51:03.014805Z",
+    "source_text_hash": "3e3530a55107510abbbeb14c8f93d3e8ee0f640d2c5d570688781b380f72c95a",
+    "generated_at": "2026-08-10T13:53:24.456071Z",
     "vector_ref": "embeddings.parquet#cb_d38c5da0434e4170aefe64d805d24ed3"
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
+    "prompt_version": "phase2a-0.4",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "e4f9351a67cfbb36cce0e03520d48e6f8b3060c6f7727ee9a76d1db40de75b1d",
-    "generated_at": "2026-08-12T13:46:06.844356Z",
+    "evidence_input_hash": "ea93ec93fdd28a1aa817dba4432784ce699f34e6bef667495e9787f58486f860",
+    "generated_at": "2026-08-10T12:49:04.379796Z",
     "editorial_policy_version": "0.1"
   },
-  "derivative_assessments": [
-    {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T13:46:06.844356Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-rc2-editorial-migration",
-      "input_hash": "e4f9351a67cfbb36cce0e03520d48e6f8b3060c6f7727ee9a76d1db40de75b1d",
-      "disposition": "refreshed",
-      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "taxonomy",
-      "generated_at": "2026-08-12T13:46:06.844356Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "e4f9351a67cfbb36cce0e03520d48e6f8b3060c6f7727ee9a76d1db40de75b1d",
-      "disposition": "reused",
-      "reason": "No new supported canonical classification facts.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "fundraising",
-      "generated_at": null,
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "e4f9351a67cfbb36cce0e03520d48e6f8b3060c6f7727ee9a76d1db40de75b1d",
-      "disposition": "reused",
-      "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "embedding",
-      "generated_at": "2026-08-10T13:53:24.456071Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "3e3530a55107510abbbeb14c8f93d3e8ee0f640d2c5d570688781b380f72c95a",
-      "disposition": "reused",
-      "reason": "Semantic source text unchanged.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "similarities",
-      "generated_at": "2026-08-10T13:53:24.456071Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "3e3530a55107510abbbeb14c8f93d3e8ee0f640d2c5d570688781b380f72c95a",
-      "disposition": "reused",
-      "reason": "Embedding reused; semantic neighbours retained.",
-      "affected_dimensions": []
-    }
-  ],
-  "dataset_version": "phase2b-2026-08-13-rc3",
+  "derivative_assessments": [],
+  "dataset_version": "phase2b-2026-08-14-rc4",
   "card_schema_version": "0.4",
-  "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T05:50:58.991012Z"
+  "editorial_policy_version": "0.4-rc4",
+  "generator_version": "0.5.0-rc4",
+  "built_at": "2026-08-13T10:52:47.483880Z"
 }

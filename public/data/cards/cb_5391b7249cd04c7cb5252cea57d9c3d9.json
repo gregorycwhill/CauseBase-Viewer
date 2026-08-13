@@ -91,12 +91,12 @@
     {
       "capability": "latest_acnc_ais",
       "status": "observed",
-      "source_record_id": null,
+      "source_record_id": "src:acnc-ais-detail:86674411801:e6a5e8e9-bf28-f111-8342-6045bdc47a8f:cb_5391b7249cd04c7cb5252cea57d9c3d9",
       "evidence_ids": [
-        "ev:acnc:ais:86674411801:2025"
+        "ev:acnc:ais:86674411801:e6a5e8e9-bf28-f111-8342-6045bdc47a8f"
       ],
       "observed_at": "2026-03-26",
-      "freshness_note": "Latest submitted ACNC AIS in the 2026-08-13 public-profile acquisition: 2025."
+      "freshness_note": "Latest submitted AIS detail acquired from the public ACNC entity endpoint."
     }
   ],
   "enrichment_level": "enriched",
@@ -104,32 +104,22 @@
   "geography": [
     "Queensland (QLD), Australia"
   ],
-  "navigation_geography": [
+  "geography_observations": [
     {
-      "level": "country",
-      "code": "AU",
-      "label": "Australia",
-      "evidence_ids": [
-        "ev:acnc:86674411801"
-      ]
-    },
-    {
-      "level": "state_territory",
-      "code": "AU-QLD",
-      "label": "Queensland",
-      "evidence_ids": [
-        "ev:acnc:86674411801"
-      ]
+      "value": "Queensland (QLD), Australia",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
     }
   ],
-  "causebase_summary": "Animal Welfare Cairns Incorporated is an incorporated association based in Queensland, Australia, registered with the Australian Charities and Not-for-profits Commission. Financial reporting is available for the period 01/10/2022 to 30/09/2023. CauseBase does not have sufficient descriptive evidence in this release to independently identify the organisation’s specific activities, services or target beneficiaries.",
-  "summary_evidence_ids": [
-    "ev:acnc:86674411801",
-    "ev:ais:86674411801:2023"
-  ],
+  "navigation_geography": [],
+  "causebase_summary": "Animal Welfare Cairns Incorporated is recorded on the Australian Charities and Not-for-profits Commission (ACNC) register; the ACNC register extract and the organisation’s 2023 Annual Information Statement (AIS) are the only available sources in this evidence pack. The AIS covers the financial year 01/10/2022 to 30/09/2023 and reports revenue of AUD 498,644 and total expenses of AUD 332,217; the AIS entry identifies the reporting scope as the subject and the attribution method as a direct subject report, while consolidated reporting is marked unknown. The organisation is associated with Queensland (QLD) in the supplied structured geography. No website, program descriptions, lists of services, beneficiary groups, staffing or volunteer details, annual report text, or descriptions of participation modes appear in the provided extracts. Known coverage metadata notes the ACNC/regulatory extract and the AIS as observed items and indicates other capabilities (website, annual report content, fundraising expenditure) are not available or not yet processed. The available evidence therefore documents registration and headline financial figures for 2022–23 but does not describe activities, programs, locations of service delivery within Queensland, or intended beneficiaries.",
+  "summary_evidence_ids": [],
   "organisation_self_description": null,
   "activities": [],
+  "activity_observations": [],
   "beneficiaries": [],
+  "beneficiary_observations": [],
   "participation_modes": [],
   "participation_observations": [],
   "opportunities": [],
@@ -168,7 +158,7 @@
       "reporting_period": "2025",
       "source_url": "https://www.acnc.gov.au/charity/charities/e780cb30-38af-e811-a963-000d3ad24077/documents/e6a5e8e9-bf28-f111-8342-6045bdc47a8f",
       "evidence_ids": [
-        "ev:acnc:ais:86674411801:2025"
+        "ev:acnc:ais:86674411801:e6a5e8e9-bf28-f111-8342-6045bdc47a8f"
       ]
     },
     {
@@ -185,7 +175,7 @@
       "reporting_period": "2025",
       "source_url": "https://www.acnc.gov.au/charity/charities/e780cb30-38af-e811-a963-000d3ad24077/documents/e6a5e8e9-bf28-f111-8342-6045bdc47a8f",
       "evidence_ids": [
-        "ev:acnc:ais:86674411801:2025"
+        "ev:acnc:ais:86674411801:e6a5e8e9-bf28-f111-8342-6045bdc47a8f"
       ]
     },
     {
@@ -203,82 +193,23 @@
       "reporting_period": "2025",
       "source_url": "https://www.acnc.gov.au/charity/charities/e780cb30-38af-e811-a963-000d3ad24077/documents/e6a5e8e9-bf28-f111-8342-6045bdc47a8f",
       "evidence_ids": [
-        "ev:acnc:ais:86674411801:2025"
+        "ev:acnc:ais:86674411801:e6a5e8e9-bf28-f111-8342-6045bdc47a8f"
       ]
     }
   ],
   "source_native_records": [
     {
-      "source_record_id": "src:acnc-register:42242007-7e3f-5be2-9053-f92731abae13",
-      "source_family": "acnc-register",
-      "dataset_version": "2026-08-10",
-      "source_url": "https://www.acnc.gov.au/charity/charities?search=86674411801",
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "ABN": "86674411801",
-        "Legal Name": "Animal Welfare Cairns Incorporated",
-        "Registration Status": "registered",
-        "ACNC classifications": "other purpose; young people",
-        "Website": null,
-        "ACNC registration ID": null,
-        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "ABN": "external_identifiers",
-        "Legal Name": "legal_name",
-        "Registration Status": "registrations"
-      },
-      "evidence_ids": [
-        "ev:acnc:86674411801"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-ais:fr:ais:cb_5391b7249cd04c7cb5252cea57d9c3d9:2023",
-      "source_family": "acnc-ais",
-      "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": "2022-10-01",
-      "effective_to": "2023-09-30",
-      "source_fields": {
-        "Reporting period": "01/10/2022 to 30/09/2023",
-        "Reporting scope": "subject",
-        "Consolidated": "unknown",
-        "Revenue": "498644",
-        "Donations and bequests": null,
-        "Government grants": null,
-        "Total expenses": "332217",
-        "Assets": null,
-        "Liabilities": null
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "Revenue": "financial_records[].revenue",
-        "Total expenses": "financial_records[].total_expenses"
-      },
-      "evidence_ids": [
-        "ev:ais:86674411801:2023"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-public-profile:86674411801:cb_5391b7249cd04c7cb5252cea57d9c3d9:2026-08-13",
+      "source_record_id": "src:acnc-public-profile:86674411801:e780cb30-38af-e811-a963-000d3ad24077:cb_5391b7249cd04c7cb5252cea57d9c3d9",
       "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-13-public-api",
+      "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/e780cb30-38af-e811-a963-000d3ad24077/profile",
-      "retrieved_at": "2026-08-13T05:50:58.991012Z",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
       "observed_at": "2026-03-26",
       "effective_from": null,
       "effective_to": null,
       "source_fields": {
         "uuid": "e780cb30-38af-e811-a963-000d3ad24077",
-        "abn": "86674411801",
-        "latest_ais_year": "2025",
-        "latest_ais_uuid": "e6a5e8e9-bf28-f111-8342-6045bdc47a8f"
+        "abn": "86674411801"
       },
       "source_payload": {
         "data": {
@@ -1064,13 +995,366 @@
         "uuid": "e780cb30-38af-e811-a963-000d3ad24077"
       },
       "canonical_field_mappings": {
-        "data.Name": "display_name",
         "data.OtherNames": "operating_names",
-        "data.AnnualReports": "acnc_ais_url",
-        "data.Programs": "programs"
+        "data.AddressStateOrProvince": "principal_location"
+      },
+      "evidence_ids": []
+    },
+    {
+      "source_record_id": "src:acnc-ais-detail:86674411801:e6a5e8e9-bf28-f111-8342-6045bdc47a8f:cb_5391b7249cd04c7cb5252cea57d9c3d9",
+      "source_family": "acnc-ais-detail",
+      "dataset_version": "2026-08-14-public-api",
+      "source_url": "https://www.acnc.gov.au/charity/charities/e780cb30-38af-e811-a963-000d3ad24077/documents/e6a5e8e9-bf28-f111-8342-6045bdc47a8f",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
+      "observed_at": "2026-03-26",
+      "effective_from": null,
+      "effective_to": null,
+      "source_fields": {
+        "abn": "86674411801",
+        "ais_uuid": "e6a5e8e9-bf28-f111-8342-6045bdc47a8f",
+        "year": "2025",
+        "date_received": "2026-03-26T03:00:23.0000000Z"
+      },
+      "source_payload": {
+        "data": {
+          "Abn": "86674411801",
+          "ActivityAdvocacyNCivic": false,
+          "ActivityAgedCare": false,
+          "ActivityAnimalProtection": false,
+          "ActivityCultureAndArt": false,
+          "ActivityEconomicSocialCommunity": false,
+          "ActivityEmergencyNRelief": false,
+          "ActivityEmploymentNTraining": false,
+          "ActivityEnvironmental": false,
+          "ActivityGrantMaking": false,
+          "ActivityHealthRehabilitation": false,
+          "ActivityHigherEducation": false,
+          "ActivityHousing": false,
+          "ActivityIncomeSupportNMaintenance": false,
+          "ActivityInternational": false,
+          "ActivityInternationalDescription": null,
+          "ActivityInternationalOther": false,
+          "ActivityInternationalOtherDescription": null,
+          "ActivityLawNLegalServices": false,
+          "ActivityMain": null,
+          "ActivityMentalHealthCrisisIntervention": false,
+          "ActivityNdisSupported": null,
+          "ActivityNdisSupportedNext": null,
+          "ActivityOperating": true,
+          "ActivityOperatingOverseas": false,
+          "ActivityOther": false,
+          "ActivityOtherDescription": null,
+          "ActivityOtherEducation": false,
+          "ActivityOtherHealthServices": false,
+          "ActivityPersuitPurposesDescription": "raising money to desex rescued dogs & cats",
+          "ActivityPhilanthropicPromotion": false,
+          "ActivityPolitical": false,
+          "ActivityPrimarySecondaryEducation": false,
+          "ActivityPurposeChange": null,
+          "ActivityPurposeChangeDescription": null,
+          "ActivityRecreationSocialClub": false,
+          "ActivityReligious": false,
+          "ActivityResearch": false,
+          "ActivitySocialServices": false,
+          "ActivitySports": false,
+          "ActivityTransferringFundsGoods": false,
+          "AdvancementOfEducation": false,
+          "AdvancementOfReligion": false,
+          "AssetsandLiabilitiesDescription": null,
+          "BasicReligiousCharity": false,
+          "BeneficiaryAboriginalTorres": false,
+          "BeneficiaryAdults": false,
+          "BeneficiaryAllAges": false,
+          "BeneficiaryChildren": false,
+          "BeneficiaryChronicIllness": false,
+          "BeneficiaryCrimeVictims": false,
+          "BeneficiaryDisasterVictims": false,
+          "BeneficiaryEarlyChildhood": false,
+          "BeneficiaryEthnic": false,
+          "BeneficiaryFamilies": false,
+          "BeneficiaryFinanciallyDisadvantaged": false,
+          "BeneficiaryGeneral": false,
+          "BeneficiaryHomelessnessRisk": false,
+          "BeneficiaryLGBT": false,
+          "BeneficiaryMain": null,
+          "BeneficiaryMen": false,
+          "BeneficiaryMigrantsRefugees": false,
+          "BeneficiaryOffenderFamilies": false,
+          "BeneficiaryOther": false,
+          "BeneficiaryOtherCharities": false,
+          "BeneficiaryOtherDescription": null,
+          "BeneficiaryOverseas": false,
+          "BeneficiaryPeopleWithDisability": false,
+          "BeneficiaryRuralRegionalRemote": false,
+          "BeneficiarySeniors": false,
+          "BeneficiaryUnemployed": false,
+          "BeneficiaryVeteranFamilies": false,
+          "BeneficiaryWomen": false,
+          "BeneficiaryYouth": false,
+          "CharityAddressCountry": "Australia",
+          "CharityAddressLine1": "354 Draper St",
+          "CharityAddressLine2": null,
+          "CharityAddressPostalCode": "4870",
+          "CharityAddressStateOrProvince": "QLD",
+          "CharityAddressSuburb": "Manunda",
+          "CharityEmail": "shernkb@gmail.com",
+          "CharitySize": "Medium",
+          "CharityUuid": "e780cb30-38af-e811-a963-000d3ad24077",
+          "ChildCareServices": false,
+          "ExpenseEmployees": "313735.0000",
+          "ExpenseGrantDonationsInAustralia": "53268.0000",
+          "ExpenseGrantDonationsOutsideAustralia": "0.0000",
+          "ExpenseTotal": "652729.0000",
+          "ExpensesOther": "285726.0000",
+          "FinAccrualAccounting": null,
+          "FinConsolidatedReportFromMiltiple": "Yes",
+          "FinDocumentedPoliciesRelatedPartyTransactions": null,
+          "FinFyeJune": false,
+          "FinProvideVoluntarily": null,
+          "FinRelatedPartyTransactions": "No",
+          "FinReportACT": false,
+          "FinReportFrom": "2024-10-01T00:00:00.0000000Z",
+          "FinReportNSW": false,
+          "FinReportNT": false,
+          "FinReportQLD": false,
+          "FinReportSA": false,
+          "FinReportTAS": false,
+          "FinReportTo": "2025-09-30T00:00:00.0000000Z",
+          "FinReportVIC": false,
+          "FinReportWA": false,
+          "FinReportingType": "General purpose financial statements",
+          "FinSapDate": null,
+          "FundRaisingNumberACT": null,
+          "FundRaisingNumberNSW": null,
+          "FundRaisingNumberQLD": null,
+          "FundRaisingNumberSA": null,
+          "FundRaisingNumberTAS": null,
+          "FundRaisingNumberVIC": null,
+          "FundRaisingNumberWA": null,
+          "GovDocAccurate": null,
+          "GrantCapacityBuildingPct": null,
+          "GrantMultiYearPct": null,
+          "GrantPublicOpenApplicationPct": null,
+          "GrantRuralRegionPct": null,
+          "HasSubmittedToRegulator": false,
+          "HoursPaid": null,
+          "HoursTotal": null,
+          "HoursVolunteer": null,
+          "HrCasualEmployees": "0",
+          "HrFteStaff": "1.0000000000",
+          "HrFullTimeEmployees": "2",
+          "HrPartTimeEmployees": "0",
+          "HrUnpainVolunteers": "40",
+          "IncomeDonationsBequests": "3700.0000",
+          "IncomeGovernmentGrants": "0.0000",
+          "IncomeOther": "0.0000",
+          "IncomeOtherComprehinsive": "0.0000",
+          "IncomeOtherNeg": null,
+          "IncomeOtherReceipts": "852.0000",
+          "IncomeTotalComprehensive": "-106685.0000",
+          "IncomeTotalReceipts": "546044.0000",
+          "IncorporationStatus": null,
+          "InterestExpense": "0.0000",
+          "IsIncorporatedAssociation": true,
+          "KeyManagementPersonnel": false,
+          "LegalName": "Animal Welfare Cairns Incorporated",
+          "NetAssetsLiabilities": "1235804.0000",
+          "NetSurplusDeficit": "-106685.0000",
+          "NonCurrentLoansPayable": "0.0000",
+          "NumberOfKeyManagementPersonnel": "0",
+          "OperatingCountries": null,
+          "OperatingInACT": false,
+          "OperatingInNSW": false,
+          "OperatingInNT": false,
+          "OperatingInQLD": false,
+          "OperatingInSA": false,
+          "OperatingInTAS": false,
+          "OperatingInVIC": false,
+          "OperatingInWA": false,
+          "OperatingOverseas": false,
+          "OtherNames": [],
+          "OtherNonCurrentAssets": "0.0000",
+          "OtherNonCurrentLiabilities": "0.0000",
+          "OtherPurposeDescription": null,
+          "OtherPurposes": "False",
+          "Programs": [
+            {
+              "AisUuid": "e6a5e8e9-bf28-f111-8342-6045bdc47a8f",
+              "Name": "oportunity shop",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Families",
+                "Adults - aged 65 and over",
+                "Adults - aged 25 to under 65",
+                "Youth - 15 to under 25",
+                "People in rural/regional/remote communities",
+                "People from a culturally and linguistically diverse background",
+                "Aboriginal and Torres Strait Islander people",
+                "Males",
+                "Females",
+                "Victims of disaster",
+                "Victims of crime (including family violence)",
+                "Veterans and/or their families",
+                "Unemployed persons",
+                "Pre/post release offenders and/or their families",
+                "People with disabilities",
+                "People with chronic illness (including terminal illness)",
+                "People at risk of homelessness/ people experiencing homelessness",
+                "Financially disadvantaged people",
+                "General community in Australia",
+                "Other charities",
+                "Animals"
+              ],
+              "ProgramClassification": "Animal population control",
+              "ProgramClassificationID": "29",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Australia",
+                  "FormattedAddress": "Australia",
+                  "Marker": {
+                    "Latitude": -25.274398,
+                    "Longitude": 133.775136
+                  },
+                  "Name": "Australia",
+                  "uuid": "1ee210f0-bf28-f111-8342-6045bdc47a8f"
+                }
+              ],
+              "ProgramWeblink": null,
+              "uuid": "c1e110f0-bf28-f111-8342-6045bdc47a8f"
+            },
+            {
+              "AisUuid": "e6a5e8e9-bf28-f111-8342-6045bdc47a8f",
+              "Name": "animal consultation",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Animals"
+              ],
+              "ProgramClassification": "Animal welfare",
+              "ProgramClassificationID": "26",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "QLD, Australia",
+                  "FormattedAddress": "Queensland, Australia",
+                  "Marker": {
+                    "Latitude": -22.575197,
+                    "Longitude": 144.0847926
+                  },
+                  "Name": "Queensland",
+                  "uuid": "30e210f0-bf28-f111-8342-6045bdc47a8f"
+                }
+              ],
+              "ProgramWeblink": null,
+              "uuid": "21e210f0-bf28-f111-8342-6045bdc47a8f"
+            },
+            {
+              "AisUuid": "e6a5e8e9-bf28-f111-8342-6045bdc47a8f",
+              "Name": "help to privide food to rescued animals",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Financially disadvantaged people",
+                "Animals"
+              ],
+              "ProgramClassification": "Animal welfare",
+              "ProgramClassificationID": "26",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Cairns QLD, Australia",
+                  "FormattedAddress": "Cairns QLD, Australia",
+                  "Marker": {
+                    "Latitude": -16.9203476,
+                    "Longitude": 145.7709529
+                  },
+                  "Name": "Cairns",
+                  "uuid": "5be210f0-bf28-f111-8342-6045bdc47a8f"
+                }
+              ],
+              "ProgramWeblink": null,
+              "uuid": "3ae210f0-bf28-f111-8342-6045bdc47a8f"
+            }
+          ],
+          "RegulatedACT": false,
+          "RegulatedNSW": false,
+          "RegulatedNT": false,
+          "RegulatedQLD": false,
+          "RegulatedSA": false,
+          "RegulatedTAS": false,
+          "RegulatedVIC": false,
+          "RegulatedWA": false,
+          "Regulator": null,
+          "RegulatorAGMDateACT": null,
+          "RegulatorAGMDateNT": null,
+          "RegulatorAGMDateVIC": null,
+          "RegulatorAGMDateWA": null,
+          "RegulatorFundRaising": "No",
+          "RegulatorFundRaisingACT": false,
+          "RegulatorFundRaisingNSW": false,
+          "RegulatorFundRaisingNT": false,
+          "RegulatorFundRaisingOnline": false,
+          "RegulatorFundRaisingQLD": false,
+          "RegulatorFundRaisingSA": false,
+          "RegulatorFundRaisingTAS": false,
+          "RegulatorFundRaisingVIC": false,
+          "RegulatorFundRaisingWA": false,
+          "RegulatorIncorporatedAssociationACT": false,
+          "RegulatorIncorporatedAssociationNSW": false,
+          "RegulatorIncorporatedAssociationNT": false,
+          "RegulatorIncorporatedAssociationNumberACT": null,
+          "RegulatorIncorporatedAssociationNumberNSW": null,
+          "RegulatorIncorporatedAssociationNumberNT": null,
+          "RegulatorIncorporatedAssociationNumberQLD": "IA04989",
+          "RegulatorIncorporatedAssociationNumberSA": null,
+          "RegulatorIncorporatedAssociationNumberTAS": null,
+          "RegulatorIncorporatedAssociationNumberVIC": null,
+          "RegulatorIncorporatedAssociationNumberWA": null,
+          "RegulatorIncorporatedAssociationQLD": true,
+          "RegulatorIncorporatedAssociationSA": false,
+          "RegulatorIncorporatedAssociationTAS": false,
+          "RegulatorIncorporatedAssociationVIC": false,
+          "RegulatorIncorporatedAssociationWA": false,
+          "RegulatorMetRequirementACT": false,
+          "RegulatorMetRequirementWA": null,
+          "RegulatorOtherDetails": null,
+          "RegulatorPrograms": null,
+          "RegulatorStates": false,
+          "RelatedPartyDetails": null,
+          "RelatedPartyTransactions": [],
+          "ReliefOfPoverty": false,
+          "ReportingGroupFlag": false,
+          "ResponsiblePersonAccurate": null,
+          "RevenueGoodsServices": "517765.0000",
+          "RevenueInvestments": "23727.0000",
+          "RevenueTotal": "546044.0000",
+          "StatementYear": "2025",
+          "SubTypesAccurate": null,
+          "TotalAssets": "1251546.0000",
+          "TotalCurrentAssets": "596185.0000",
+          "TotalCurrentLiabilities": "15742.0000",
+          "TotalLiabilities": "15742.0000",
+          "TotalNonCurrentAssets": "655361.0000",
+          "TotalNonCurrentLiabilities": "0.0000",
+          "TotalNonCurrentLoansReceivable": "0.0000",
+          "TotalPaidKMP": "$0.00",
+          "Website": null,
+          "__normalized": true,
+          "entityTypeVersion": "",
+          "entityVersion": "1897711759",
+          "timeStamp": "2026-03-26T03:00:21.0000000Z",
+          "type": "annual_information_statement",
+          "uuid": "e6a5e8e9-bf28-f111-8342-6045bdc47a8f"
+        },
+        "type": "annual_information_statement",
+        "uuid": "e6a5e8e9-bf28-f111-8342-6045bdc47a8f"
+      },
+      "canonical_field_mappings": {
+        "data.Programs": "programs",
+        "data.TotalRevenue": "financial_records[].revenue",
+        "data.TotalExpenses": "financial_records[].total_expenses"
       },
       "evidence_ids": [
-        "ev:acnc:ais:86674411801:2025"
+        "ev:acnc:ais:86674411801:e6a5e8e9-bf28-f111-8342-6045bdc47a8f"
       ]
     }
   ],
@@ -1119,9 +1403,12 @@
       },
       "assets": null,
       "liabilities": null,
+      "net_assets": null,
       "income_breakdown": [],
       "expense_breakdown": [],
-      "balance_sheet_breakdown": []
+      "balance_sheet_breakdown": [],
+      "source_ordered_line_items": [],
+      "statements": []
     }
   ],
   "financial_metrics": [
@@ -1254,13 +1541,13 @@
       "content_hash": null
     },
     {
-      "evidence_id": "ev:acnc:ais:86674411801:2025",
+      "evidence_id": "ev:acnc:ais:86674411801:e6a5e8e9-bf28-f111-8342-6045bdc47a8f",
       "source_type": "regulatory",
-      "title": "Animal Welfare Cairns Incorporated Annual Information Statement 2025",
+      "title": "ACNC Annual Information Statement 2025",
       "publisher": "Australian Charities and Not-for-profits Commission",
       "url": "https://www.acnc.gov.au/charity/charities/e780cb30-38af-e811-a963-000d3ad24077/documents/e6a5e8e9-bf28-f111-8342-6045bdc47a8f",
       "observed_at": "2026-03-26",
-      "reporting_period": null,
+      "reporting_period": "2025",
       "page": null,
       "section": null,
       "content_hash": null
@@ -1272,81 +1559,25 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "078225484387f3b97517cbb5a2f6a072006f985d0290975f2b51d1ca919eb305",
-    "generated_at": "2026-08-13T05:51:03.014969Z",
+    "source_text_hash": "c9746773d16d9ee36afecfd9c8398ddba4aeb1f3914038f5d7e35757964b27f6",
+    "generated_at": "2026-08-10T13:53:24.456194Z",
     "vector_ref": "embeddings.parquet#cb_5391b7249cd04c7cb5252cea57d9c3d9"
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
+    "prompt_version": "phase2a-0.4",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "593b9e86d0b2ca483813a9839b0da41f056afc3093d7cfc7d0d87057a4723e3e",
-    "generated_at": "2026-08-12T13:48:12.794602Z",
+    "evidence_input_hash": "d8b9a4d5012ab19dd353ce683a0be1f0825fb4809b336e512e6b01b43a5653a4",
+    "generated_at": "2026-08-10T12:50:18.187480Z",
     "editorial_policy_version": "0.1"
   },
-  "derivative_assessments": [
-    {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T13:48:12.794602Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-rc2-editorial-migration",
-      "input_hash": "593b9e86d0b2ca483813a9839b0da41f056afc3093d7cfc7d0d87057a4723e3e",
-      "disposition": "refreshed",
-      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "taxonomy",
-      "generated_at": "2026-08-12T13:48:12.794602Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "593b9e86d0b2ca483813a9839b0da41f056afc3093d7cfc7d0d87057a4723e3e",
-      "disposition": "reused",
-      "reason": "No new supported canonical classification facts.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "fundraising",
-      "generated_at": null,
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "593b9e86d0b2ca483813a9839b0da41f056afc3093d7cfc7d0d87057a4723e3e",
-      "disposition": "reused",
-      "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "embedding",
-      "generated_at": "2026-08-10T13:53:24.456194Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "c9746773d16d9ee36afecfd9c8398ddba4aeb1f3914038f5d7e35757964b27f6",
-      "disposition": "reused",
-      "reason": "Semantic source text unchanged.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "similarities",
-      "generated_at": "2026-08-10T13:53:24.456194Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "c9746773d16d9ee36afecfd9c8398ddba4aeb1f3914038f5d7e35757964b27f6",
-      "disposition": "reused",
-      "reason": "Embedding reused; semantic neighbours retained.",
-      "affected_dimensions": []
-    }
-  ],
-  "dataset_version": "phase2b-2026-08-13-rc3",
+  "derivative_assessments": [],
+  "dataset_version": "phase2b-2026-08-14-rc4",
   "card_schema_version": "0.4",
-  "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T05:50:58.991012Z"
+  "editorial_policy_version": "0.4-rc4",
+  "generator_version": "0.5.0-rc4",
+  "built_at": "2026-08-13T10:52:47.483880Z"
 }

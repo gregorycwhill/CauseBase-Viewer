@@ -72,16 +72,6 @@
       "freshness_note": null
     },
     {
-      "capability": "website",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:web:36482379373:2026-08-10"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
       "capability": "fundraising_expenditure",
       "status": "not_yet_processed",
       "source_record_id": null,
@@ -100,42 +90,38 @@
     {
       "capability": "latest_acnc_ais",
       "status": "observed",
-      "source_record_id": null,
+      "source_record_id": "src:acnc-ais-detail:36482379373:4deceb66-f85e-f111-a826-00224812a1a7:cb_7660a90e8db444419adb1aa8bcc93387",
       "evidence_ids": [
-        "ev:acnc:ais:36482379373:2025"
+        "ev:acnc:ais:36482379373:4deceb66-f85e-f111-a826-00224812a1a7"
       ],
       "observed_at": "2026-06-03",
-      "freshness_note": "Latest submitted ACNC AIS in the 2026-08-13 public-profile acquisition: 2025."
+      "freshness_note": "Latest submitted AIS detail acquired from the public ACNC entity endpoint."
+    },
+    {
+      "capability": "website",
+      "status": "observed",
+      "source_record_id": null,
+      "evidence_ids": [],
+      "observed_at": "2026-08-13",
+      "freshness_note": "Public website locator acquired from the ACNC profile."
     }
   ],
   "enrichment_level": "enriched",
   "website": "http://www.aaperthwa.org",
   "geography": [
-    "Perth and multiple districts across Western Australia (districts named on the website)"
+    "Perth and multiple districts across Western Australia"
   ],
-  "navigation_geography": [
+  "geography_observations": [
     {
-      "level": "country",
-      "code": "AU",
-      "label": "Australia",
-      "evidence_ids": [
-        "ev:acnc:36482379373"
-      ]
-    },
-    {
-      "level": "state_territory",
-      "code": "AU-WA",
-      "label": "Western Australia",
-      "evidence_ids": [
-        "ev:acnc:36482379373"
-      ]
+      "value": "Perth and multiple districts across Western Australia",
+      "source_role": "legacy_source_qualifier",
+      "provenance_note": "districts named on the website",
+      "evidence_ids": []
     }
   ],
-  "causebase_summary": "Alcoholics Anonymous, Perth, Western Australia (Aa Service Council For Western Australia) is a local fellowship supporting people who identify a desire to stop drinking. It maintains a staffed office in East Perth with published opening hours (Monday–Friday, 9am–4.30pm) and operates a 24‑hour helpline. The group compiles and publishes meeting lists and a calendar of events (including open and online meetings), provides resources for new members (pamphlets, personal stories, talks and workshops), and publishes or links to AA literature and Serenity magazine. The organisation also maintains a safety policy, code of conduct and incident reporting forms. Open meetings are available to anyone interested in AA’s programme of recovery; the site includes specific contact options for fly‑in/fly‑out workers.",
-  "summary_evidence_ids": [
-    "ev:web:36482379373:2026-08-10",
-    "ev:acnc:36482379373"
-  ],
+  "navigation_geography": [],
+  "causebase_summary": "According to the organisation's website, Alcoholics Anonymous – Perth (Aa Service Council For Western Australia) runs a 24‑hour helpline (08 9325 3566 or 1300 22 22 22) and maintains an office at Claisebrook Lotteries House, 33 Moore Street, East Perth, with listed opening hours Monday–Friday 9.00am–4.30pm. The site publishes meeting lists and a calendar of events for Perth and multiple WA districts (Area A, B, C; Hills; Mid‑West; North‑West; Peel; Port; South West) and links to online and international meetings. The website describes open meetings that are available to anyone interested in AA’s programme, notes that non‑alcoholics may attend, and states the only requirement for membership is “a desire to stop drinking.” It offers resources for people new to AA (pamphlets, personal stories, illustrated talks and recovery workshops), a page for fly‑in/fly‑out workers with peer contacts, and a listing for “Serenity” magazine and other literature. The site also posts a safety policy, code of conduct, a safeguarding statement and an incident report form. Contact email AAPerthoffice@aaperthwa.org is given and links are provided to national AA resources and an international meetings app.",
+  "summary_evidence_ids": [],
   "organisation_self_description": null,
   "activities": [
     "Operates a 24‑hour helpline",
@@ -145,10 +131,68 @@
     "Maintains safety policy, code of conduct and incident reporting forms",
     "Publishes or links to 'Serenity' magazine and other AA literature"
   ],
+  "activity_observations": [
+    {
+      "value": "Operates a 24‑hour helpline",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Maintains a staffed office with published opening hours",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Compiles and publishes meeting lists and a calendar of events (including open and online meetings)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Provides resources for new members (pamphlets, personal stories, talks and workshops)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Maintains safety policy, code of conduct and incident reporting forms",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Publishes or links to 'Serenity' magazine and other AA literature",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    }
+  ],
   "beneficiaries": [
     "People who identify as having a desire to stop drinking or seeking recovery from alcoholism (per the group's wording)",
     "Members and visitors to open AA meetings",
     "Fly‑in/fly‑out workers seeking peer contact"
+  ],
+  "beneficiary_observations": [
+    {
+      "value": "People who identify as having a desire to stop drinking or seeking recovery from alcoholism (per the group's wording)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Members and visitors to open AA meetings",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Fly‑in/fly‑out workers seeking peer contact",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    }
   ],
   "participation_modes": [
     "Attending open meetings and online meetings",
@@ -192,53 +236,23 @@
       "reporting_period": "2025",
       "source_url": "https://aaperthwa.org",
       "evidence_ids": [
-        "ev:acnc:ais:36482379373:2025"
+        "ev:acnc:ais:36482379373:4deceb66-f85e-f111-a826-00224812a1a7"
       ]
     }
   ],
   "source_native_records": [
     {
-      "source_record_id": "src:acnc-register:8bb8e87f-8375-529f-844b-5b556e44a0eb",
-      "source_family": "acnc-register",
-      "dataset_version": "2026-08-10",
-      "source_url": "https://www.acnc.gov.au/charity/charities?search=36482379373",
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "ABN": "36482379373",
-        "Legal Name": "Aa Service Council For Western Australia",
-        "Registration Status": "registered",
-        "ACNC classifications": "other purpose; young people",
-        "Website": "http://www.aaperthwa.org",
-        "ACNC registration ID": null,
-        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "ABN": "external_identifiers",
-        "Legal Name": "legal_name",
-        "Registration Status": "registrations"
-      },
-      "evidence_ids": [
-        "ev:acnc:36482379373"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-public-profile:36482379373:cb_7660a90e8db444419adb1aa8bcc93387:2026-08-13",
+      "source_record_id": "src:acnc-public-profile:36482379373:cb09efe3-39af-e811-a963-000d3ad244fd:cb_7660a90e8db444419adb1aa8bcc93387",
       "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-13-public-api",
+      "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/cb09efe3-39af-e811-a963-000d3ad244fd/profile",
-      "retrieved_at": "2026-08-13T05:50:58.991012Z",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
       "observed_at": "2026-06-03",
       "effective_from": null,
       "effective_to": null,
       "source_fields": {
         "uuid": "cb09efe3-39af-e811-a963-000d3ad244fd",
-        "abn": "36482379373",
-        "latest_ais_year": "2025",
-        "latest_ais_uuid": "4deceb66-f85e-f111-a826-00224812a1a7"
+        "abn": "36482379373"
       },
       "source_payload": {
         "data": {
@@ -939,13 +953,315 @@
         "uuid": "cb09efe3-39af-e811-a963-000d3ad244fd"
       },
       "canonical_field_mappings": {
-        "data.Name": "display_name",
         "data.OtherNames": "operating_names",
-        "data.AnnualReports": "acnc_ais_url",
-        "data.Programs": "programs"
+        "data.AddressStateOrProvince": "principal_location"
+      },
+      "evidence_ids": []
+    },
+    {
+      "source_record_id": "src:acnc-ais-detail:36482379373:4deceb66-f85e-f111-a826-00224812a1a7:cb_7660a90e8db444419adb1aa8bcc93387",
+      "source_family": "acnc-ais-detail",
+      "dataset_version": "2026-08-14-public-api",
+      "source_url": "https://www.acnc.gov.au/charity/charities/cb09efe3-39af-e811-a963-000d3ad244fd/documents/4deceb66-f85e-f111-a826-00224812a1a7",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
+      "observed_at": "2026-06-03",
+      "effective_from": null,
+      "effective_to": null,
+      "source_fields": {
+        "abn": "36482379373",
+        "ais_uuid": "4deceb66-f85e-f111-a826-00224812a1a7",
+        "year": "2025",
+        "date_received": "2026-06-03T03:00:50.0000000Z"
+      },
+      "source_payload": {
+        "data": {
+          "Abn": "36482379373",
+          "ActivityAdvocacyNCivic": false,
+          "ActivityAgedCare": false,
+          "ActivityAnimalProtection": false,
+          "ActivityCultureAndArt": false,
+          "ActivityEconomicSocialCommunity": false,
+          "ActivityEmergencyNRelief": false,
+          "ActivityEmploymentNTraining": false,
+          "ActivityEnvironmental": false,
+          "ActivityGrantMaking": false,
+          "ActivityHealthRehabilitation": false,
+          "ActivityHigherEducation": false,
+          "ActivityHousing": false,
+          "ActivityIncomeSupportNMaintenance": false,
+          "ActivityInternational": false,
+          "ActivityInternationalDescription": null,
+          "ActivityInternationalOther": false,
+          "ActivityInternationalOtherDescription": null,
+          "ActivityLawNLegalServices": false,
+          "ActivityMain": null,
+          "ActivityMentalHealthCrisisIntervention": false,
+          "ActivityNdisSupported": null,
+          "ActivityNdisSupportedNext": null,
+          "ActivityOperating": true,
+          "ActivityOperatingOverseas": false,
+          "ActivityOther": false,
+          "ActivityOtherDescription": null,
+          "ActivityOtherEducation": false,
+          "ActivityOtherHealthServices": false,
+          "ActivityPersuitPurposesDescription": "We provide membership services to Alcoholics Anonymous and support people struggling with alcohol to get to an AA meeting and to get sober.   Alcoholics Anonymous is a fellowship of people who share their experience, strength and hope with each other that they may solve their common problem and help others to recover from alcoholism.  The only requirement for membership is a desire to stop drinking. There are no dues or fees for A.A. membership; we are self-supporting through our own contributions.  A.A. is not allied with any sect, denomination, politics, organisation or institution; does not wish to engage in any controversy; neither endorses nor opposes any causes. Our primary purpose is to stay sober and help other alcoholics to achieve sobriety.",
+          "ActivityPhilanthropicPromotion": false,
+          "ActivityPolitical": false,
+          "ActivityPrimarySecondaryEducation": false,
+          "ActivityPurposeChange": null,
+          "ActivityPurposeChangeDescription": null,
+          "ActivityRecreationSocialClub": false,
+          "ActivityReligious": false,
+          "ActivityResearch": false,
+          "ActivitySocialServices": false,
+          "ActivitySports": false,
+          "ActivityTransferringFundsGoods": false,
+          "AdvancementOfEducation": false,
+          "AdvancementOfReligion": false,
+          "AssetsandLiabilitiesDescription": null,
+          "BasicReligiousCharity": false,
+          "BeneficiaryAboriginalTorres": false,
+          "BeneficiaryAdults": false,
+          "BeneficiaryAllAges": false,
+          "BeneficiaryChildren": false,
+          "BeneficiaryChronicIllness": false,
+          "BeneficiaryCrimeVictims": false,
+          "BeneficiaryDisasterVictims": false,
+          "BeneficiaryEarlyChildhood": false,
+          "BeneficiaryEthnic": false,
+          "BeneficiaryFamilies": false,
+          "BeneficiaryFinanciallyDisadvantaged": false,
+          "BeneficiaryGeneral": false,
+          "BeneficiaryHomelessnessRisk": false,
+          "BeneficiaryLGBT": false,
+          "BeneficiaryMain": null,
+          "BeneficiaryMen": false,
+          "BeneficiaryMigrantsRefugees": false,
+          "BeneficiaryOffenderFamilies": false,
+          "BeneficiaryOther": false,
+          "BeneficiaryOtherCharities": false,
+          "BeneficiaryOtherDescription": null,
+          "BeneficiaryOverseas": false,
+          "BeneficiaryPeopleWithDisability": false,
+          "BeneficiaryRuralRegionalRemote": false,
+          "BeneficiarySeniors": false,
+          "BeneficiaryUnemployed": false,
+          "BeneficiaryVeteranFamilies": false,
+          "BeneficiaryWomen": false,
+          "BeneficiaryYouth": false,
+          "CharityAddressCountry": "Australia",
+          "CharityAddressLine1": "31-33 Moore St",
+          "CharityAddressLine2": null,
+          "CharityAddressPostalCode": "6004",
+          "CharityAddressStateOrProvince": "WA",
+          "CharityAddressSuburb": "East Perth",
+          "CharityEmail": "AAPerthoffice@aaperthwa.org",
+          "CharitySize": "Small",
+          "CharityUuid": "cb09efe3-39af-e811-a963-000d3ad244fd",
+          "ChildCareServices": false,
+          "ExpenseEmployees": "40745.0000",
+          "ExpenseGrantDonationsInAustralia": "0.0000",
+          "ExpenseGrantDonationsOutsideAustralia": "0.0000",
+          "ExpenseTotal": "157111.0000",
+          "ExpensesOther": "116366.0000",
+          "FinAccrualAccounting": "Accrual",
+          "FinConsolidatedReportFromMiltiple": null,
+          "FinDocumentedPoliciesRelatedPartyTransactions": null,
+          "FinFyeJune": false,
+          "FinProvideVoluntarily": null,
+          "FinRelatedPartyTransactions": "No",
+          "FinReportACT": false,
+          "FinReportFrom": "2025-01-01T00:00:00.0000000Z",
+          "FinReportNSW": false,
+          "FinReportNT": false,
+          "FinReportQLD": false,
+          "FinReportSA": false,
+          "FinReportTAS": false,
+          "FinReportTo": "2025-12-31T00:00:00.0000000Z",
+          "FinReportVIC": false,
+          "FinReportWA": false,
+          "FinReportingType": null,
+          "FinSapDate": null,
+          "FundRaisingNumberACT": null,
+          "FundRaisingNumberNSW": null,
+          "FundRaisingNumberQLD": null,
+          "FundRaisingNumberSA": null,
+          "FundRaisingNumberTAS": null,
+          "FundRaisingNumberVIC": null,
+          "FundRaisingNumberWA": null,
+          "GovDocAccurate": null,
+          "GrantCapacityBuildingPct": null,
+          "GrantMultiYearPct": null,
+          "GrantPublicOpenApplicationPct": null,
+          "GrantRuralRegionPct": null,
+          "HasSubmittedToRegulator": false,
+          "HoursPaid": null,
+          "HoursTotal": null,
+          "HoursVolunteer": null,
+          "HrCasualEmployees": "1",
+          "HrFteStaff": "0.6000000000",
+          "HrFullTimeEmployees": "0",
+          "HrPartTimeEmployees": "1",
+          "HrUnpainVolunteers": "3",
+          "IncomeDonationsBequests": "0.0000",
+          "IncomeGovernmentGrants": "0.0000",
+          "IncomeOther": "0.0000",
+          "IncomeOtherComprehinsive": "0.0000",
+          "IncomeOtherNeg": null,
+          "IncomeOtherReceipts": "100958.0000",
+          "IncomeTotalComprehensive": "0.0000",
+          "IncomeTotalReceipts": "161238.0000",
+          "IncorporationStatus": null,
+          "InterestExpense": "0.0000",
+          "IsIncorporatedAssociation": true,
+          "KeyManagementPersonnel": false,
+          "LegalName": "Aa Service Council For Western Australia",
+          "NetAssetsLiabilities": "199261.0000",
+          "NetSurplusDeficit": "4127.0000",
+          "NonCurrentLoansPayable": "0.0000",
+          "NumberOfKeyManagementPersonnel": "0",
+          "OperatingCountries": null,
+          "OperatingInACT": false,
+          "OperatingInNSW": false,
+          "OperatingInNT": false,
+          "OperatingInQLD": false,
+          "OperatingInSA": false,
+          "OperatingInTAS": false,
+          "OperatingInVIC": false,
+          "OperatingInWA": false,
+          "OperatingOverseas": false,
+          "OtherNames": [],
+          "OtherNonCurrentAssets": "0.0000",
+          "OtherNonCurrentLiabilities": "0.0000",
+          "OtherPurposeDescription": null,
+          "OtherPurposes": "False",
+          "Programs": [
+            {
+              "AisUuid": "4deceb66-f85e-f111-a826-00224812a1a7",
+              "Name": "Alcoholics Anonymous",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Youth - 15 to under 25",
+                "Adults - aged 25 to under 65",
+                "Adults - aged 65 and over",
+                "Families",
+                "Aboriginal and Torres Strait Islander people",
+                "LGBTIQA+",
+                "People from a culturally and linguistically diverse background",
+                "People in rural/regional/remote communities",
+                "Financially disadvantaged people",
+                "People at risk of homelessness/ people experiencing homelessness",
+                "People with chronic illness (including terminal illness)",
+                "People with disabilities",
+                "Pre/post release offenders and/or their families",
+                "Unemployed persons",
+                "Veterans and/or their families",
+                "Victims of crime (including family violence)",
+                "Victims of disaster",
+                "Females",
+                "Males",
+                "Other gender identities",
+                "General community in Australia"
+              ],
+              "ProgramClassification": "Alcoholism",
+              "ProgramClassificationID": "315",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "31-33 Moore Street, East Perth WA, Australia",
+                  "FormattedAddress": "31 Moore St, East Perth WA 6004, Australia",
+                  "Marker": {
+                    "Latitude": -31.9537945,
+                    "Longitude": 115.8685175
+                  },
+                  "Name": "31 Moore St",
+                  "uuid": "57ffe16c-f85e-f111-a826-00224812a1a7"
+                }
+              ],
+              "ProgramWeblink": "https://aaperthwa.org",
+              "uuid": "38ffe16c-f85e-f111-a826-00224812a1a7"
+            }
+          ],
+          "RegulatedACT": false,
+          "RegulatedNSW": false,
+          "RegulatedNT": false,
+          "RegulatedQLD": false,
+          "RegulatedSA": false,
+          "RegulatedTAS": false,
+          "RegulatedVIC": false,
+          "RegulatedWA": false,
+          "Regulator": null,
+          "RegulatorAGMDateACT": null,
+          "RegulatorAGMDateNT": null,
+          "RegulatorAGMDateVIC": null,
+          "RegulatorAGMDateWA": "2026-05-31T00:00:00.0000000",
+          "RegulatorFundRaising": "No",
+          "RegulatorFundRaisingACT": false,
+          "RegulatorFundRaisingNSW": false,
+          "RegulatorFundRaisingNT": false,
+          "RegulatorFundRaisingOnline": false,
+          "RegulatorFundRaisingQLD": false,
+          "RegulatorFundRaisingSA": false,
+          "RegulatorFundRaisingTAS": false,
+          "RegulatorFundRaisingVIC": false,
+          "RegulatorFundRaisingWA": false,
+          "RegulatorIncorporatedAssociationACT": false,
+          "RegulatorIncorporatedAssociationNSW": false,
+          "RegulatorIncorporatedAssociationNT": false,
+          "RegulatorIncorporatedAssociationNumberACT": null,
+          "RegulatorIncorporatedAssociationNumberNSW": null,
+          "RegulatorIncorporatedAssociationNumberNT": null,
+          "RegulatorIncorporatedAssociationNumberQLD": null,
+          "RegulatorIncorporatedAssociationNumberSA": null,
+          "RegulatorIncorporatedAssociationNumberTAS": null,
+          "RegulatorIncorporatedAssociationNumberVIC": null,
+          "RegulatorIncorporatedAssociationNumberWA": "A1015804Y",
+          "RegulatorIncorporatedAssociationQLD": false,
+          "RegulatorIncorporatedAssociationSA": false,
+          "RegulatorIncorporatedAssociationTAS": false,
+          "RegulatorIncorporatedAssociationVIC": false,
+          "RegulatorIncorporatedAssociationWA": true,
+          "RegulatorMetRequirementACT": false,
+          "RegulatorMetRequirementWA": "Yes",
+          "RegulatorOtherDetails": null,
+          "RegulatorPrograms": null,
+          "RegulatorStates": false,
+          "RelatedPartyDetails": null,
+          "RelatedPartyTransactions": [],
+          "ReliefOfPoverty": false,
+          "ReportingGroupFlag": false,
+          "ResponsiblePersonAccurate": null,
+          "RevenueGoodsServices": "53847.0000",
+          "RevenueInvestments": "6433.0000",
+          "RevenueTotal": "161238.0000",
+          "StatementYear": "2025",
+          "SubTypesAccurate": null,
+          "TotalAssets": "216962.0000",
+          "TotalCurrentAssets": "0.0000",
+          "TotalCurrentLiabilities": "0.0000",
+          "TotalLiabilities": "17701.0000",
+          "TotalNonCurrentAssets": null,
+          "TotalNonCurrentLiabilities": "0.0000",
+          "TotalNonCurrentLoansReceivable": "0.0000",
+          "TotalPaidKMP": "$0.00",
+          "Website": "http://www.aaperthwa.org",
+          "__normalized": true,
+          "entityTypeVersion": "",
+          "entityVersion": "1939706005",
+          "timeStamp": "2026-06-03T03:00:48.0000000Z",
+          "type": "annual_information_statement",
+          "uuid": "4deceb66-f85e-f111-a826-00224812a1a7"
+        },
+        "type": "annual_information_statement",
+        "uuid": "4deceb66-f85e-f111-a826-00224812a1a7"
+      },
+      "canonical_field_mappings": {
+        "data.Programs": "programs",
+        "data.TotalRevenue": "financial_records[].revenue",
+        "data.TotalExpenses": "financial_records[].total_expenses"
       },
       "evidence_ids": [
-        "ev:acnc:ais:36482379373:2025"
+        "ev:acnc:ais:36482379373:4deceb66-f85e-f111-a826-00224812a1a7"
       ]
     }
   ],
@@ -1058,24 +1374,24 @@
       "content_hash": null
     },
     {
+      "evidence_id": "ev:acnc:ais:36482379373:4deceb66-f85e-f111-a826-00224812a1a7",
+      "source_type": "regulatory",
+      "title": "ACNC Annual Information Statement 2025",
+      "publisher": "Australian Charities and Not-for-profits Commission",
+      "url": "https://www.acnc.gov.au/charity/charities/cb09efe3-39af-e811-a963-000d3ad244fd/documents/4deceb66-f85e-f111-a826-00224812a1a7",
+      "observed_at": "2026-06-03",
+      "reporting_period": "2025",
+      "page": null,
+      "section": null,
+      "content_hash": null
+    },
+    {
       "evidence_id": "ev:abr-dgr:36482379373:20260805",
       "source_type": "regulatory",
       "title": "ABR DGR bulk observation",
       "publisher": "Australian Business Register / Australian Taxation Office",
       "url": "https://abr.business.gov.au/Tools/BulkExtract",
       "observed_at": "2026-08-05",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
-    },
-    {
-      "evidence_id": "ev:acnc:ais:36482379373:2025",
-      "source_type": "regulatory",
-      "title": "Aa Service Council For Western Australia Annual Information Statement 2025",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": "https://www.acnc.gov.au/charity/charities/cb09efe3-39af-e811-a963-000d3ad244fd/documents/4deceb66-f85e-f111-a826-00224812a1a7",
-      "observed_at": "2026-06-03",
       "reporting_period": null,
       "page": null,
       "section": null,
@@ -1088,81 +1404,25 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "8c68af72bebd098f45a4c851aa5917e4ea2a10b8ea494f3e6e1c28ceb5e247e9",
-    "generated_at": "2026-08-13T05:51:03.018613Z",
+    "source_text_hash": "4c7e873d9ebdbe0ae25293d5c479621674b59cb8ee52be68fb24930e05958fe7",
+    "generated_at": "2026-08-10T13:53:24.457892Z",
     "vector_ref": "embeddings.parquet#cb_7660a90e8db444419adb1aa8bcc93387"
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
+    "prompt_version": "phase2a-0.4",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "7f4e0fa68a563919c71d3662e6aa1f12ac9021bb9909e8870161271a9e856f45",
-    "generated_at": "2026-08-12T14:14:35.969003Z",
+    "evidence_input_hash": "4cd62610e8e41b28fcd94ea2d318f06a4eaff5a7a96b7b577ece22431c35d9cc",
+    "generated_at": "2026-08-10T13:00:00.430760Z",
     "editorial_policy_version": "0.1"
   },
-  "derivative_assessments": [
-    {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T14:14:35.969003Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-rc2-editorial-migration",
-      "input_hash": "7f4e0fa68a563919c71d3662e6aa1f12ac9021bb9909e8870161271a9e856f45",
-      "disposition": "refreshed",
-      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "taxonomy",
-      "generated_at": "2026-08-12T14:14:35.969003Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "7f4e0fa68a563919c71d3662e6aa1f12ac9021bb9909e8870161271a9e856f45",
-      "disposition": "reused",
-      "reason": "No new supported canonical classification facts.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "fundraising",
-      "generated_at": null,
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "7f4e0fa68a563919c71d3662e6aa1f12ac9021bb9909e8870161271a9e856f45",
-      "disposition": "reused",
-      "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "embedding",
-      "generated_at": "2026-08-10T13:53:24.457892Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "4c7e873d9ebdbe0ae25293d5c479621674b59cb8ee52be68fb24930e05958fe7",
-      "disposition": "reused",
-      "reason": "Semantic source text unchanged.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "similarities",
-      "generated_at": "2026-08-10T13:53:24.457892Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "4c7e873d9ebdbe0ae25293d5c479621674b59cb8ee52be68fb24930e05958fe7",
-      "disposition": "reused",
-      "reason": "Embedding reused; semantic neighbours retained.",
-      "affected_dimensions": []
-    }
-  ],
-  "dataset_version": "phase2b-2026-08-13-rc3",
+  "derivative_assessments": [],
+  "dataset_version": "phase2b-2026-08-14-rc4",
   "card_schema_version": "0.4",
-  "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T05:50:58.991012Z"
+  "editorial_policy_version": "0.4-rc4",
+  "generator_version": "0.5.0-rc4",
+  "built_at": "2026-08-13T10:52:47.483880Z"
 }
