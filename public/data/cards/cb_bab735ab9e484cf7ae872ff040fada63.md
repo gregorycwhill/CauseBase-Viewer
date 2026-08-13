@@ -10,9 +10,8 @@ Settlement Council of Australia (SCoA) is a national peak body based in Australi
 
 ## Activities
 
-- Website invitation to join as a member of settlement agencies
-- Website presents the National Settlement Outcome Standards (described as articulating outcomes for refugees and migrants)
-- Website includes a Reconciliation Action Plan (RAP) section
+- Publishing National Settlement Outcome Standards for refugees and migrants
+- Maintaining a Reconciliation Action Plan
 
 ## Beneficiaries
 
@@ -22,7 +21,7 @@ Settlement Council of Australia (SCoA) is a national peak body based in Australi
 
 ## Participation
 
-- Membership of settlement agencies (website invitation)
+- Membership of settlement agencies
 
 ## Financials
 
@@ -64,7 +63,7 @@ Settlement Council of Australia (SCoA) is a national peak body based in Australi
 
 ## Build
 
-- Dataset version: `phase2b-2026-08-14-rc4-integration-repair-final`
+- Dataset version: `phase2b-2026-08-14-rc4-final-viewer-editorial-integration`
 - Card schema: `0.4`
 - Editorial policy: `0.4-rc4`
-- Built: 2026-08-13T12:20:41.979776+00:00
+- Built: 2026-08-13T13:15:13.611756+00:00

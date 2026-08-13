@@ -250,6 +250,103 @@
       "title": "DerivativeAssessment",
       "type": "object"
     },
+    "DerivedRevenueShare": {
+      "description": "A conservative analytic projection over retained report observations.\n\nThe printed revenue row remains the primary observation.  This records the\nnumerator, denominator and formula needed to show a share without narrowing\na mixed source label or treating the result as another source fact.",
+      "properties": {
+        "source_label": {
+          "title": "Source Label",
+          "type": "string"
+        },
+        "numerator_observation_labels": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Numerator Observation Labels",
+          "type": "array"
+        },
+        "numerator_amount": {
+          "$ref": "#/$defs/MoneyObservation"
+        },
+        "denominator_label": {
+          "title": "Denominator Label",
+          "type": "string"
+        },
+        "denominator_amount": {
+          "$ref": "#/$defs/MoneyObservation"
+        },
+        "formula": {
+          "const": "reported_revenue_line_divided_by_reported_total_income",
+          "title": "Formula",
+          "type": "string"
+        },
+        "reporting_period_label": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Reporting Period Label"
+        },
+        "reporting_scope": {
+          "default": "unknown",
+          "enum": [
+            "subject",
+            "organisation_group",
+            "consolidated_group",
+            "unknown"
+          ],
+          "title": "Reporting Scope",
+          "type": "string"
+        },
+        "result": {
+          "anyOf": [
+            {
+              "maximum": 1.0,
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+              "type": "string"
+            }
+          ],
+          "title": "Result"
+        },
+        "rounding_note": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Rounding Note"
+        },
+        "evidence_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Evidence Ids",
+          "type": "array"
+        }
+      },
+      "required": [
+        "source_label",
+        "numerator_amount",
+        "denominator_label",
+        "denominator_amount",
+        "formula",
+        "result"
+      ],
+      "title": "DerivedRevenueShare",
+      "type": "object"
+    },
     "EmbeddingMetadata": {
       "properties": {
         "embedding_id": {
@@ -1110,6 +1207,13 @@
           "title": "Statements",
           "type": "array"
         },
+        "revenue_shares": {
+          "items": {
+            "$ref": "#/$defs/DerivedRevenueShare"
+          },
+          "title": "Revenue Shares",
+          "type": "array"
+        },
         "functional_expense_allocations": {
           "items": {
             "$ref": "#/$defs/FunctionalExpenseAllocation"
@@ -1897,7 +2001,7 @@
           "title": "Label",
           "type": "string"
         },
-        "source_url": {
+        "action_url": {
           "anyOf": [
             {
               "type": "string"
@@ -1907,7 +2011,7 @@
             }
           ],
           "default": null,
-          "title": "Source Url"
+          "title": "Action Url"
         },
         "status": {
           "default": "unknown",

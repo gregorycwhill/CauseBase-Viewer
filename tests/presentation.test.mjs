@@ -1,7 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 
-import { financialMetricDisplay, fundraisingDisplay, fundingSourceLabel, functionalAllocationDisplay, sourceRecordLocator, taxonomyHeading } from "../src/presentation.mjs";
+import { financialMetricDisplay, fundraisingDisplay, fundingSourceLabel, functionalAllocationDisplay, revenueShareDisplay, sourceRecordLocator, taxonomyHeading, validActionUrl } from "../src/presentation.mjs";
 
 test("renders a missing fundraising estimate without placeholder metadata", () => {
   assert.equal(fundraisingDisplay({ fundraising_expenditure: null }), "Not available from selected evidence.");
@@ -41,5 +41,23 @@ test("keeps encoded source-native filenames routable through static hosting", ()
 test("renders functional allocations as direct shares with transparent derived amounts", () => {
   const display = functionalAllocationDisplay({ share: "0.1", direct_observation: true, derived_amount_approximate: true, derived_amount: { normalised_amount: "585279", normalised_currency: "AUD" } });
   assert.equal(display.share, "10% (direct reported)");
-  assert.match(display.derivedAmount, /^Approx\. \$585,279$/);
+  assert.equal(display.derivedAmount, "Approx. $585k");
+});
+
+test("accepts only an absolute public participation action URL", () => {
+  assert.equal(validActionUrl("https://organisation.org.au/volunteer/"), "https://organisation.org.au/volunteer/");
+  assert.equal(validActionUrl(null), null);
+  assert.equal(validActionUrl("/volunteer/"), null);
+  assert.equal(validActionUrl("organisation.org.au/volunteer/"), null);
+});
+
+test("never treats the CauseBase site or current card as a participation destination", () => {
+  assert.equal(validActionUrl("https://gregorycwhill.github.io/CauseBase-Viewer/"), null);
+  assert.equal(validActionUrl("https://gregorycwhill.github.io/CauseBase-Viewer/#cb_example"), null);
+});
+
+test("renders a source-labelled revenue share without narrowing a mixed category", () => {
+  const display = revenueShareDisplay({ source_label: "Donations, Fundraisings, Lectures", numerator_amount: { normalised_amount: "2051817", normalised_currency: "AUD" }, denominator_label: "Total income", result: "0.409" });
+  assert.match(display.amount, /2,051,817/);
+  assert.equal(display.percentage, "40.9% of Total income");
 });

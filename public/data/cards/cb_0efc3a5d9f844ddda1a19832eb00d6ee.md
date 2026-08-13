@@ -73,7 +73,7 @@ Seniors Rights Service is a community legal and advocacy organisation based in S
 
 ## Build
 
-- Dataset version: `phase2b-2026-08-14-rc4-integration-repair-final`
+- Dataset version: `phase2b-2026-08-14-rc4-final-viewer-editorial-integration`
 - Card schema: `0.4`
 - Editorial policy: `0.4-rc4`
-- Built: 2026-08-13T12:20:41.979776+00:00
+- Built: 2026-08-13T13:15:13.611756+00:00
