@@ -6,7 +6,7 @@
 
 ## CauseBase summary
 
-North East Men's Shed (Winnaleah) Inc. is recorded on the Australian Charities and Not‑for‑profits Commission register with a registered location in Tasmania. CauseBase has no organisation‑authored description, website content, annual report extracts or other source material in this evidence pack that describes the group’s concrete activities, programs, beneficiaries or participation formats. The only verified datum in this release is the registered name and the jurisdiction (Tasmania) from the ACNC register extract. CauseBase does not infer activities from the organisation’s name; therefore no specific services, event types, volunteer roles or beneficiary groups are identified here.
+North East Men's Shed (Winnaleah) Inc. is an incorporated not-for-profit organisation recorded as operating in Tasmania. CauseBase does not have sufficient descriptive evidence in this release to independently identify the organisation’s stated activities, programs or beneficiary groups. The supplied evidence set contains only a regulatory register extract and does not include a website, annual report or other descriptive materials, so CauseBase cannot describe participation modes, specific services or operating locations beyond the Tasmanian jurisdiction shown.
 
 ## Activities
 
@@ -46,11 +46,11 @@ North East Men's Shed (Winnaleah) Inc. is recorded on the Australian Charities a
 - Embedding: `cb_2669573b14e34eafa671c4d2bdcdedcd:entity:text-embedding-3-small`
 - Embedding model: `text-embedding-3-small`
 - Synthesis model: `gpt-5-mini-2025-08-07`
-- Synthesis evidence hash: `dee38edf118b493d272e419cce7d7a3b9b45dd98ceaadc3a1226234fece89970`
+- Synthesis evidence hash: `9b3adf26f5d5a58de997af1db59706c7a66d8bbf14cf8b59aa30c5b5d05f644e`
 
 ## Build
 
-- Dataset version: `phase2b-2026-08-14-rc4-visual-escalation-human-review`
+- Dataset version: `phase2b-2026-08-14-rc4-integration-repair-final`
 - Card schema: `0.4`
 - Editorial policy: `0.4-rc4`
-- Built: 2026-08-13T11:52:50.408301+00:00
+- Built: 2026-08-13T12:20:41.979776+00:00

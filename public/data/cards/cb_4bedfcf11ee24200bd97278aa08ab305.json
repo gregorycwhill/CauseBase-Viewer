@@ -141,8 +141,12 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "FORM Building a State of Creativity Limited (FORM) is an ACNC-registered organisation that, according to its website, “works across Western Australia to make creativity matter in communities and public spaces.” The website lists a range of activities the organisation says it delivers or supports: public art and public-space projects, arts and cultural consultancy, cultural tourism experiences, a public gallery (FORM Gallery), a studio (Spinifex Hill Studio), creative learning programmes and events. Recent website entries name a Pilbara Creatives expression-of-interest callout in Port Hedland and gallery exhibitions including “Unwavering” and “Deadly | 50 Years of NAIDOC.” The site gives a Perth office address and a phone number and includes an acknowledgement of Whadjuk Noongar and other Traditional Custodians. The ACNC information statement for 01/01/2023–30/06/2023 reports revenue of AUD 2,691,949 and expenses of AUD 2,876,757 for that reporting period; the AIS notes the period is transitional. The organisation’s web text frames its work as supporting “people and places” and a creative economy for Western Australian communities; the summary preserves those claims as organisation statements rather than independent findings.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "FORM Building a State of Creativity Limited (FORM) is an arts organisation based in Perth that works across Western Australia, including activity in Port Hedland (Pilbara). As of 2026 it undertakes public art and public-space projects, runs FORM Gallery exhibitions and Spinifex Hill Studio activities, delivers creative learning programmes and cultural tourism experiences, and offers arts and cultural consultancy. FORM also stages events, artist callouts and public exhibitions and describes partnerships with Aboriginal and Torres Strait Islander organisations. Its stated mission is to develop a vibrant creative economy for the benefit and wellbeing of Western Australian communities.",
+  "summary_evidence_ids": [
+    "ev:web:77967703375:2026-08-10",
+    "ev:ais:77967703375:2023",
+    "ev:acnc:77967703375"
+  ],
   "organisation_self_description": null,
   "activities": [
     "public art and public-space projects",
@@ -454,7 +458,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/886b8c49-3aaf-e811-a960-000d3ad24282/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2025-11-14",
       "effective_from": null,
       "effective_to": null,
@@ -1670,7 +1674,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/886b8c49-3aaf-e811-a960-000d3ad24282/documents/e0636fc8-2bc1-f011-bbd3-6045bde679a9",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2025-11-14",
       "effective_from": null,
       "effective_to": null,
@@ -2526,19 +2530,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "bb7cccd659115f7191a3a8cd581cf1801ad2281715ad4b26eb12d9e167bdc044",
-    "generated_at": "2026-08-10T12:59:23.329196Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "cdfa31bb1d1241d41c8433fdc7272f981923d5ef5bdf4993e61ada397b6692dc",
+    "generated_at": "2026-08-12T14:12:36.556769Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T14:12:36.556769Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "cdfa31bb1d1241d41c8433fdc7272f981923d5ef5bdf4993e61ada397b6692dc",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

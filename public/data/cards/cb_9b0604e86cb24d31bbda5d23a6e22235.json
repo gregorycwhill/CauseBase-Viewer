@@ -113,8 +113,12 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "Ann Street Presbyterian Church is listed with Queensland as its structured location, and the website content available for the Presbyterian Church of Queensland (PCQ) describes state-level activity that the congregation is associated with. The PCQ website states it “encourag(es) and support(s) individual churches to grow” and lists concrete programmes and resources: Christian education, hospital chaplains, ministry resourcing, women’s ministries, youth and children’s ministry, a PIM Gap Year placement, a “Find a Church” directory, PCQ events, and congregational policies and forms. The website frames these items as ways the Presbyterian Church of Queensland pursues its stated aim of “making known the good news of Jesus Christ,” language presented as organisation-authored claim. The ACNC AIS extract for the 2023 reporting year included in the evidence package records zero revenue and zero total expenses for the reporting subject for 01/01/2023–31/12/2023. Publicly available excerpts provide programme names and administrative resources, but do not include detailed service volumes, staffing or separate financials for the named congregation in the selected documents.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "Ann Street Presbyterian Church is a Presbyterian congregation in Queensland, Australia. Materials associated with the Presbyterian Church of Queensland indicate congregations in the state are supported through Christian education programming, hospital chaplaincy, ministry resourcing for individual congregations, women’s ministries, youth and children’s ministry, the PIM Gap Year programme, and PCQ events and public programming. The congregation has pathways for people to attend PCQ events, enrol in ministry programmes and access congregational resources and training materials.",
+  "summary_evidence_ids": [
+    "ev:web:39410139423:2026-08-10",
+    "ev:acnc:39410139423",
+    "ev:ais:39410139423:2023"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Christian education programming",
@@ -242,7 +246,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/24ecc571-38af-e811-a963-000d3ad244fd/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-06-29",
       "effective_from": null,
       "effective_to": null,
@@ -756,7 +760,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/24ecc571-38af-e811-a963-000d3ad244fd/documents/cbdf4869-d175-f111-ab0e-7ced8da2764f",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-06-29",
       "effective_from": null,
       "effective_to": null,
@@ -1296,19 +1300,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "7340639a0a8785e09a4b5b0e00c399f2a017944008bd8af7450f1a0039271de4",
-    "generated_at": "2026-08-10T12:57:12.004893Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "987a187d82d009bb7e6a280331adbbda595d6829f3c1ea2e2515b1abd6368128",
+    "generated_at": "2026-08-12T14:07:14.663617Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T14:07:14.663617Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "987a187d82d009bb7e6a280331adbbda595d6829f3c1ea2e2515b1abd6368128",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

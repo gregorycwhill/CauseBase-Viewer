@@ -122,8 +122,11 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "AIM Charitable Trust is recorded on the Australian Charities and Not-for-profits Commission (ACNC) register with structured geography noted as the Northern Territory (NT). The only detailed filing in this evidence pack is the ACNC Annual Information Statement (AIS) for the year 1 July 2022 to 30 June 2023, which reports revenue of AUD 81,776 and total expenses of AUD 75,215 for that reporting period. The evidence pack does not include a website, annual report text, program descriptions, or statements of beneficiaries or participation opportunities. Source documents in this pack are an ACNC register extract and the AIS 2023 extract; no other public-facing materials were provided.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "AIM Charitable Trust is a charitable trust recorded as operating in the Northern Territory (NT). CauseBase does not have sufficient descriptive evidence in this release to independently identify the trust’s specific activities, programmes, beneficiaries or modes of participation. The supplied records for this release do not include a website, public program descriptions or beneficiary detail, so no concrete service descriptions can be reported here.",
+  "summary_evidence_ids": [
+    "ev:acnc:31520352647",
+    "ev:ais:31520352647:2023"
+  ],
   "organisation_self_description": null,
   "activities": [],
   "activity_observations": [],
@@ -159,7 +162,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/5981bb9d-39af-e811-a962-000d3ad24a0d/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-01-30",
       "effective_from": null,
       "effective_to": null,
@@ -787,7 +790,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/5981bb9d-39af-e811-a962-000d3ad24a0d/documents/3d53de89-a4fd-f011-8406-7ced8db1969d",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-01-30",
       "effective_from": null,
       "effective_to": null,
@@ -1270,19 +1273,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "5ed13a7604a317c047b71a2c4a8a762f21b5d733240854e26a6bb25de96f07f7",
-    "generated_at": "2026-08-10T12:45:57.271670Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "b5f068498f8330f89e6cceeba03a8c324ab26f052106d0f051bcee85e03f59b7",
+    "generated_at": "2026-08-12T13:37:35.189236Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T13:37:35.189236Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "b5f068498f8330f89e6cceeba03a8c324ab26f052106d0f051bcee85e03f59b7",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

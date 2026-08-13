@@ -150,8 +150,12 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "Avon Youth Community And Family Services (website name Avon Community Services) presents itself as a not-for-profit provider of housing and youth services in the Wheatbelt region of Western Australia. According to its website, the organisation operates local centres and “Youth Centres” and invites people to “give us a call or drop in” for assistance. The site lists centre locations in Northam, Moora, Merredin and Narrogin. The organisation’s ACNC information and its 2023 Annual Information Statement are on record; the AIS for 01/07/2022–30/06/2023 reports revenue of AUD 1,479,627 and total expenses of AUD 1,351,056. Website language describes the organisation as delivering “Housing and Youth Services” and as assisting “the people we assist,” but provides limited detail on specific housing programs, eligibility rules, client numbers or staffing. Contact options on the website emphasise phone enquiries and drop-in attendance at centres.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "Avon Community Services (legal name Avon Youth Community And Family Services) is a not-for-profit organisation that provides housing assistance and youth services in the Wheatbelt region of Western Australia. As of August 2026 it operates local service centres and youth centres in Northam, Moora, Merredin and Narrogin. The organisation offers drop-in access at its centres and accepts phone enquiries; its stated service areas include housing support and operation of youth centres across the listed towns. The organisation’s public materials identify these town locations and the two primary service types but do not provide more detailed program descriptions in the supplied evidence.",
+  "summary_evidence_ids": [
+    "ev:web:58665094077:2026-08-10",
+    "ev:ais:58665094077:2023",
+    "ev:acnc:58665094077"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Housing services (housing assistance)",
@@ -258,7 +262,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/c81199a1-39af-e811-a960-000d3ad24282/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2025-12-31",
       "effective_from": null,
       "effective_to": null,
@@ -1024,7 +1028,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/c81199a1-39af-e811-a960-000d3ad24282/documents/3fcdf847-fbe5-f011-8544-6045bde73a73",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2025-12-31",
       "effective_from": null,
       "effective_to": null,
@@ -1613,19 +1617,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "09b7d4c65bf3c7db41ba394fa55631e3a360ae9667c32a1908559cfe6209d4b6",
-    "generated_at": "2026-08-10T13:02:29.951875Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "ed350b8c292d29cd46c24458d1e517ddb00b66d5d8c466f0e5b4a6b4b5d0ed3e",
+    "generated_at": "2026-08-12T14:22:10.442109Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T14:22:10.442109Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "ed350b8c292d29cd46c24458d1e517ddb00b66d5d8c466f0e5b4a6b4b5d0ed3e",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

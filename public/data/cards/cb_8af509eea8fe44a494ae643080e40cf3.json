@@ -127,8 +127,11 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "Legal name on regulatory records: Calvary Retirement Community Ryde Limited. The organisation’s public website is for Calvary Health Care and describes a group that provides a range of services including hospitals, residential aged care, retirement living and home care. The site states a mission to provide “quality, compassionate healthcare to the most vulnerable, including those reaching the end of their life,” notes a 140‑year heritage in Australia, and says it publishes annual clinical safety and quality data. The website also promotes volunteering, auxiliaries and local fundraising (for example a Calvary Mater Newcastle Auxiliary donation reported in news), lists upcoming events, and describes activity such as “Residential Aged Care Games.” Job and careers pages, location search pages and invitations to join community groups are visible. The available evidence is organisational‑level: it names service types and public engagement activities but does not provide detailed, site‑level descriptions or financial information specific to Calvary Retirement Community Ryde Limited.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "Calvary Retirement Community Ryde Limited is a Calvary Health Care provider based in Ryde, New South Wales (evidence current to 2026). It operates health and aged‑care services in the locality, including hospitals, residential aged care, retirement living and home care. The organisation publishes clinical safety and quality data and maintains careers and recruitment information. It supports volunteer programmes and auxiliaries and runs public events for residents, including the Calvary Residential Aged Care Games. Its stated mission includes providing healthcare to vulnerable people, including those reaching the end of life.",
+  "summary_evidence_ids": [
+    "ev:web:40105898173:2026-08-10",
+    "ev:acnc:40105898173"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Operates hospitals",
@@ -229,7 +232,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/d20f4d9b-38af-e811-a95e-000d3ad24c60/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2013-11-20",
       "effective_from": null,
       "effective_to": null,
@@ -758,7 +761,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/d20f4d9b-38af-e811-a95e-000d3ad24c60/documents/6a2ffd66-45c8-e811-a964-000d3ad24077",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2013-11-20",
       "effective_from": null,
       "effective_to": null,
@@ -1177,19 +1180,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "df2355ecc7d435d3447b46aeff3cbffe9609b674b136455a532a323d19752caa",
-    "generated_at": "2026-08-10T12:55:12.780492Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "2b95c7024988f3988a69cc2adb487f521f4e0eed6a74ace427465206b9d3823d",
+    "generated_at": "2026-08-12T14:01:03.342452Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T14:01:03.342452Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "2b95c7024988f3988a69cc2adb487f521f4e0eed6a74ace427465206b9d3823d",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

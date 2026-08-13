@@ -113,8 +113,11 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "ACC TAS MINISTRIES LTD (operating as Youth Alive Tas on its website) appears on the ACNC register and filed an ACNC Information Statement for 2023. The organisation’s website states, as an organisation-authored claim, that “Youth Alive exists so that every young person in Australia lives their full God purpose.” The observed website homepage includes a visible email subscription prompt (“Sign up with your email address to receive news and updates”) and a labelled section heading “OUR PARTNERS”; no partners were named in the captured excerpt. The ACNC AIS 2023 extract reported revenue of AUD 88,470 and total expenses of AUD 82,490 for the 2023 reporting year. The publicly available excerpts and the ACNC extract provide financial and basic identity information but do not describe specific programs, service delivery activities, staff or volunteer roles, beneficiary numbers, or geographic operating sites beyond the organisation-authored statement about young people in Australia.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "ACC TAS MINISTRIES LTD (operating as Youth Alive) is an Australian organisation that frames its purpose in religious language, saying it exists so that every young person in Australia “lives their full God purpose.” Its website offers an email sign-up for news and updates and includes a partners section. The organisation is described as operating in Australia. CauseBase does not have detailed descriptive evidence in this release of specific programs, direct service activities, or additional beneficiary groups beyond young people in Australia.",
+  "summary_evidence_ids": [
+    "ev:web:83624508961:2026-08-10",
+    "ev:acnc:83624508961"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Publishes news and updates via an email subscription form",
@@ -213,7 +216,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/cc3c72b3-3aaf-e811-a963-000d3ad244fd/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-08-05",
       "effective_from": null,
       "effective_to": null,
@@ -923,7 +926,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/cc3c72b3-3aaf-e811-a963-000d3ad244fd/documents/0930ef35-9790-f111-8076-70a8a5547601",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-08-05",
       "effective_from": null,
       "effective_to": null,
@@ -1506,19 +1509,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "93e8ed6b8221568c2406ddc1a355d1d1c0343fabc253868f070254876507d9e4",
-    "generated_at": "2026-08-10T12:49:15.685938Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "6b562e016f8687e8be6e07310816c91f6ac16c3dbe733d74eade32ad3ffe5f82",
+    "generated_at": "2026-08-12T13:46:37.526307Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T13:46:37.526307Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "6b562e016f8687e8be6e07310816c91f6ac16c3dbe733d74eade32ad3ffe5f82",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

@@ -122,8 +122,12 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "Agency Projects Limited (Agency) states on its website that it celebrates and promotes Aboriginal and Torres Strait Islander art, culture and people on a local, national and international scale. The site lists a range of concrete activities: First Nations‑led exhibitions of urban, regional and remote artists; art and built‑environment commissions; forums and public talks under the UNTOLD program; digital initiatives including the UPLANDS mapping resource, large‑scale art projections and artist video portraits; publications under Agency Editions; and a residencies program launched in 2023 called Agency AiR. Agency’s event programming examples on the site include a 2024 Rubbish on the Shore Conference on Country, Cultural Conversations at Garma, International NAIDOC Week programming with embassies, and curated projects and book launches in partnership with organisations such as Martumili Artists. The website also describes international project work with the Department of Foreign Affairs and Trade and overseas institutions. The site invites one‑off donations. The ACNC AIS extract for 2022–23 included in the file reports zero revenue and zero total expenses for the period 01/07/2022–30/06/2023.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "AGENCY PROJECTS LIMITED (Agency Projects) is a Victoria‑registered arts organisation that delivers First Nations‑led exhibitions, commissions and related public programming on local, national and international scales. Its work includes curating and staging exhibitions that centre Aboriginal and Torres Strait Islander artists, art and built‑environment commissions, forums and the UNTOLD talks series, digital initiatives such as the UPLANDS mapping resource and artist portraits, a residency program (Agency AiR) for First Nations participants, and publications under Agency Editions. Agency also runs events and conference programming (including NAIDOC and Garma partnerships) and says it partners with government and overseas institutions for international projects. Stated beneficiaries include Aboriginal and Torres Strait Islander artists, curators and cultural leaders, First Nations participants and communities, and audiences and collectors.",
+  "summary_evidence_ids": [
+    "ev:web:48637825668:2026-08-10",
+    "ev:acnc:48637825668",
+    "ev:ais:48637825668:2023"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Curating and staging First Nations‑led exhibitions",
@@ -225,7 +229,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/9622f9cc-b25f-eb11-89f5-000d3ad1f9f4/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-04-07",
       "effective_from": null,
       "effective_to": null,
@@ -553,7 +557,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/9622f9cc-b25f-eb11-89f5-000d3ad1f9f4/documents/b3333e33-cb32-f111-88b4-6045bde5be38",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-04-07",
       "effective_from": null,
       "effective_to": null,
@@ -1080,19 +1084,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "312ea879d8766cc3a531329ce24e673070b7a57c63eddfdc96bb6679cdf45c34",
-    "generated_at": "2026-08-10T12:46:15.329412Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "cbc151ea11b1b016a85a7bb47eae823c0844cb56c3d28bcd67e8e66a75229a98",
+    "generated_at": "2026-08-12T13:37:58.023875Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T13:37:58.023875Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "cbc151ea11b1b016a85a7bb47eae823c0844cb56c3d28bcd67e8e66a75229a98",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

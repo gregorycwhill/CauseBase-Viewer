@@ -120,8 +120,12 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "Katherine Isolated Children’s Service (KICS) describes Field Teams that run playgroups for children who are socially or geographically isolated across a large area of the Northern Territory. Each KICS Field Team is said to include a Playgroup Leader, a trained or experienced early childhood educator and a Playgroup Support Worker; teams “travel an area of 760,000 square kilometres” to deliver playgroups, according to the organisation website. The website also states that KICS is funded by the National Indigenous Australians Agency (NIAA) and private donations (organisation claim). KICS markets and sells EcoViva play mats as a fundraising item; the website lists the mats as 100% recycled plastic, reversible, foldable and easy to clean, priced at $110 each including GST with pickup at the KICS office or delivery by Field Teams. The ACNC reporting extract for 01/07/2022–30/06/2023 shows revenue of AUD 497,711 and total expenses of AUD 382,369 for the subject. Contact methods on the site include an office phone number and an order form for mats. The website text includes a direct fundraising appeal.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "Katherine Isolated Children's Service Inc (KICS) is a Northern Territory organisation that delivers playgroups for children who are socially or geographically isolated across a reported service area of about 760,000 square kilometres. Each KICS Field Team is composed of a playgroup leader, a trained or experienced early childhood educator and a playgroup support worker; teams travel to communities to run playgroups. KICS also maintains an office that handles orders and enquiries and sells EcoViva mats as a fundraising activity; mats are available for pickup at the office or can be delivered by Field Teams. The organisation reports funding from the National Indigenous Australians Agency and from private donations.",
+  "summary_evidence_ids": [
+    "ev:web:54811702709:2026-08-10",
+    "ev:ais:54811702709:2023",
+    "ev:acnc:54811702709"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Delivering playgroups via Field Teams that travel to communities",
@@ -228,7 +232,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/be395163-3aaf-e811-a962-000d3ad24a0d/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-02-03",
       "effective_from": null,
       "effective_to": null,
@@ -1101,7 +1105,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/be395163-3aaf-e811-a962-000d3ad24a0d/documents/16d4a412-b200-f111-8406-0022489549a2",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-02-03",
       "effective_from": null,
       "effective_to": null,
@@ -1756,19 +1760,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "48bc151a1ddfa9c8d2b718d735f588cf8d148a3a381ec63c5e21a9a82f149790",
-    "generated_at": "2026-08-10T13:01:57.059158Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "235008b887d27d700ecb9efd2d6fc59774da58d29c80753524cd8a794a96b1f5",
+    "generated_at": "2026-08-12T14:19:34.279413Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T14:19:34.279413Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "235008b887d27d700ecb9efd2d6fc59774da58d29c80753524cd8a794a96b1f5",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

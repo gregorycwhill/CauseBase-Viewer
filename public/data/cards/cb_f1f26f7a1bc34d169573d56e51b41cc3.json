@@ -122,8 +122,12 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "Young Voices Of Melbourne Inc (YVM) is a Melbourne-based choral organisation described on its website and in ACNC filings. Website posts from 2025–2026 document regular ensemble activity: named ensembles include a Senior Training Choir and a Performing Choir; the organisation ran a ‘‘Supercamp’’ rehearsal weekend from 27 February to 1 March 2026 at CYC Forest Edge for singers from both choirs. The site also records a change in artistic leadership (a new Artistic Director appointed in 2025) and the engagement of an internationally described conductor, Dr Michael Barrett, as an Associate Artist in April 2026. The ACNC AIS extract for 01/02/2023–31/01/2024 reports revenue of AUD 583,709 and total expenses of AUD 658,416 for the reporting subject. The organisation’s legal and public identity is Young Voices Of Melbourne Inc, with a website at yvm.com.au and structured geography listed as Victoria. Public materials on the website focus on rehearsals, weekend training events and artistic appointments; they do not provide detailed breakdowns of participant ages, the frequency or locations of public performances, or staffing and volunteer arrangements.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "Young Voices Of Melbourne Inc is a Melbourne-based youth choral organisation. As of 2026 it operates two ensembles, the Senior Training Choir and the Performing Choir, and enrolment is by membership of those named choirs. The group runs regular rehearsals and an annual rehearsal weekend (branded Supercamp; most recently held 27 Feb–1 Mar 2026), engages visiting and associate artists and choral clinicians (including the appointment of international conductor Dr Michael Barrett as Associate Artist in April 2026) and provides artistic leadership through an Artistic Director who began in 2025. Participation reported includes attendance at rehearsals, weekend training camps and specialist sessions led by visiting artists and artistic staff.",
+  "summary_evidence_ids": [
+    "ev:web:65175035512:2026-08-10",
+    "ev:acnc:65175035512",
+    "ev:ais:65175035512:2023"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Rehearsal weekends (Supercamp) for Senior Training Choir and Performing Choir",
@@ -205,7 +209,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/4f095b6a-38af-e811-a963-000d3ad24077/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-06-23",
       "effective_from": null,
       "effective_to": null,
@@ -906,7 +910,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/4f095b6a-38af-e811-a963-000d3ad24077/documents/a3595678-596f-f111-ab0d-6045bdc47b11",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-06-23",
       "effective_from": null,
       "effective_to": null,
@@ -1443,19 +1447,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "76ce7008d1a0331f18e4f5e6a301964803a518fc1d436868b80e6dea9b7ad299",
-    "generated_at": "2026-08-10T12:48:27.000412Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "efdab15dc8321c0401b370e16a57f514538e3534f24ce3ef8d6b1e6c977486c4",
+    "generated_at": "2026-08-12T13:42:43.622951Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T13:42:43.622951Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "efdab15dc8321c0401b370e16a57f514538e3534f24ce3ef8d6b1e6c977486c4",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

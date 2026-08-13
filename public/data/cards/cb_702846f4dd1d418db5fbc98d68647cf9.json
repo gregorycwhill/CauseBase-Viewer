@@ -124,8 +124,11 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "East Fremantle Child Development Centre Inc is listed on the Australian Charities and Not-for-profits Commission register (ACNC) with a recorded website address of http://www.steppingstonescdc.com.au. The available regulatory extracts include an ACNC register entry observed 10 August 2026 and an ACNC Information Statement / AIS entry covering 01/01/2023 to 31/12/2023. The AIS shows revenue of AUD 702,998 and total expenses of AUD 674,216 for that reporting year. Structured metadata attached to the subject lists its geography as WA (Western Australia). The organisation’s website retrieval and the annual report have not been processed in the provided evidence pack. The supplied sources do not include explicit descriptions of the centre’s activities, the populations it serves, or modes of participation.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "East Fremantle Child Development Centre Inc is a registered not-for-profit organisation based in Western Australia. CauseBase does not have sufficient descriptive evidence in this release to identify the centre's specific programs, services or beneficiary groups. The organisation is listed on the ACNC Register and lodged an Annual Information Statement covering 1 January–31 December 2023, which provides the primary documentary record for this entry.",
+  "summary_evidence_ids": [
+    "ev:acnc:40920336423",
+    "ev:ais:40920336423:2023"
+  ],
   "organisation_self_description": null,
   "activities": [],
   "activity_observations": [],
@@ -159,7 +162,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/c99bc2b2-3aaf-e811-a961-000d3ad24182/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-05-29",
       "effective_from": null,
       "effective_to": null,
@@ -790,7 +793,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/c99bc2b2-3aaf-e811-a961-000d3ad24182/documents/b865ea3e-305b-f111-bec7-6045bde5b710",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-05-29",
       "effective_from": null,
       "effective_to": null,
@@ -1283,19 +1286,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "bfc15493aa09c32584573ac0a6997481880e22447c265eff7d4ff5bb3e8360cf",
-    "generated_at": "2026-08-10T12:55:08.996088Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "c825544b2f838fd7eb4a9e64b0541ffbfa8466b0d8ea5c6e740616b05f48e2ac",
+    "generated_at": "2026-08-12T14:01:19.900210Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T14:01:19.900210Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "c825544b2f838fd7eb4a9e64b0541ffbfa8466b0d8ea5c6e740616b05f48e2ac",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

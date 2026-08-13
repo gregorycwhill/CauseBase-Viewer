@@ -120,8 +120,11 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "Beechford Residents and Property Owners Association Inc is listed on the Australian Charities and Not-for-profits Commission (ACNC) register. The available regulatory material comprises an ACNC register extract and the 2023 Annual Information Statement (AIS) covering 01/07/2022 to 30/06/2023. The AIS shows reported revenue of AUD 3,120 for that period and reported total expenses of AUD 0. The association is recorded with a structured geography of Tasmania. No website or public-facing organisational description was available in the supplied evidence. The ACNC extracts and AIS provided do not describe specific programs, services, beneficiaries, staff or volunteer roles, nor do they list participation modes such as meetings, events or working bees in the portions of filings supplied. The only concrete operational data in the supplied evidence are the legal name, registration on the ACNC register, the Tasmania location tag, and the single-year financial figures from the AIS.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "Beechford Residents and Property Owners Association Inc is an incorporated association linked with Tasmania, Australia. It appears on the ACNC register and submitted an Annual Information Statement covering 1 July 2022 to 30 June 2023. CauseBase does not have sufficient descriptive evidence in this release to independently identify the organisation’s specific activities, services or beneficiary groups. No website, program descriptions or activity listings were available in the supplied regulatory extracts to allow a more detailed operational summary.",
+  "summary_evidence_ids": [
+    "ev:acnc:94196952697",
+    "ev:ais:94196952697:2023"
+  ],
   "organisation_self_description": null,
   "activities": [],
   "activity_observations": [],
@@ -155,7 +158,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/15ae171b-38af-e811-a961-000d3ad24182/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2025-12-22",
       "effective_from": null,
       "effective_to": null,
@@ -718,7 +721,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/15ae171b-38af-e811-a961-000d3ad24182/documents/1e9b16ae-d3de-f011-8544-6045bde61b96",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2025-12-22",
       "effective_from": null,
       "effective_to": null,
@@ -1199,19 +1202,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "508689077691992582282d08e474ccdc9e1c2c8368f01c5e134d28b34665f761",
-    "generated_at": "2026-08-10T12:56:33.171812Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "7e55034e7f4c005cae002daffe4f1b0a523238f1f4bb9573fa409ba616ed744f",
+    "generated_at": "2026-08-12T14:04:58.406935Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T14:04:58.406935Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "7e55034e7f4c005cae002daffe4f1b0a523238f1f4bb9573fa409ba616ed744f",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

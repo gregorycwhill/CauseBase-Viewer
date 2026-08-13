@@ -122,8 +122,12 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "Settlement Council of Australia (SCoA) is presented on its website as a peak body for settlement agencies, with invites to \"become a member\" of \"Australia’s leading settlement agencies\". The site includes a Reconciliation Action Plan (labelled RAP) and a section titled \"National Settlement Outcome Standards\", described on the website as articulating outcomes for refugees and migrants to be considered \"settled\". The organisation’s online homepage uses the phrase \"Making Australia home\" and explicitly references migrants and refugees settling in Australia. An ACNC information extract and the organisation’s 2022–23 AIS are included in the available records; the AIS records total revenue of AUD 1,340,626 and total expenses of AUD 1,245,694 for the period 01/07/2022 to 30/06/2023. The evidence consists of the organisation’s website text and the ACNC AIS entry; the website text is presented here as the organisation’s own descriptions rather than independently verified operational facts.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "Settlement Council of Australia (SCoA) is a national peak body based in Australia (registered presence in the Australian Capital Territory). As of records observed on 10 August 2026, SCoA operates a membership programme for settlement agencies, publishes the National Settlement Outcome Standards that set out outcomes for refugees and migrants to be considered ‘settled’, and maintains a Reconciliation Action Plan. The organisation’s work is presented as supporting settlement agencies and the process of settlement for people arriving in Australia. Evidence cited for this summary includes the organisation’s website and regulatory filings/current information listed to 2023 and 2026.",
+  "summary_evidence_ids": [
+    "ev:web:27983821157:2026-08-10",
+    "ev:ais:27983821157:2023",
+    "ev:acnc:27983821157"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Website invitation to join as a member of settlement agencies",
@@ -244,7 +248,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/fdfa4b6d-3aaf-e811-a963-000d3ad244fd/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-01-30",
       "effective_from": null,
       "effective_to": null,
@@ -1024,7 +1028,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/fdfa4b6d-3aaf-e811-a963-000d3ad244fd/documents/0ed71dd2-b3fd-f011-8406-7ced8d33fe37",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-01-30",
       "effective_from": null,
       "effective_to": null,
@@ -1608,19 +1612,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "cffdbe7777efcee7731f5b1e8cace47cfc9773046d9022cab3e7646700e22307",
-    "generated_at": "2026-08-10T12:59:28.337495Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "ba9a4c4da807338d144e8ef25d1a2a65fe38a3e425b4b85eb7a559c9694a8cb6",
+    "generated_at": "2026-08-12T14:13:33.384804Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T14:13:33.384804Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "ba9a4c4da807338d144e8ef25d1a2a65fe38a3e425b4b85eb7a559c9694a8cb6",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

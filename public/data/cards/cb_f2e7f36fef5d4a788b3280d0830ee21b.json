@@ -122,8 +122,12 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "Project Underdog Rescue Inc is registered in Victoria and describes itself on its website as operating a specialised veterinary service and community outreach to support animals and their guardians. The organisation’s website states it runs Melbourne’s first “100% Fear Free” certified mobile veterinary clinic and that profits from that service help fund its animal rescue work. The website also says it delivers community outreach intended to keep animals with people by providing animal care services and supplies to vulnerable community members, and that it uses its platform for education and advocacy about responsible pet guardianship. The ACNC Information Statement for 01/07/2022 to 30/06/2023 records revenue of AUD 543,901 and total expenses of AUD 679,638 for that reporting period. The descriptions of programs, clinic certification and the funding model are taken from the organisation’s website; these are presented here as the organisation states them and are not independently verified against third‑party sources.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "Project Underdog Rescue Inc is a Melbourne-based animal welfare and rescue organisation. When supported by evidence observed 10 August 2026, it operates a 100% Fear Free certified mobile veterinary clinic in Melbourne that prioritises animals’ emotional wellbeing; provides community outreach that supplies animal care services and supplies to vulnerable pet owners to help keep animals with their families during hardship; undertakes animal rescue and life‑saving work; and delivers education and advocacy about responsible pet guardianship via its public platform and social media. The organisation states that profits from its Fear Free vet service help fund its rescue work.",
+  "summary_evidence_ids": [
+    "ev:web:82136720784:2026-08-10",
+    "ev:acnc:82136720784",
+    "ev:ais:82136720784:2023"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Runs a mobile veterinary clinic described on the website as 100% Fear Free certified in Melbourne",
@@ -248,7 +252,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/2b21c361-3aaf-e811-a95e-000d3ad24c60/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-01-30",
       "effective_from": null,
       "effective_to": null,
@@ -991,7 +995,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/2b21c361-3aaf-e811-a95e-000d3ad24c60/documents/c9e3c624-29fe-f011-8407-6045bdc47a8f",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-01-30",
       "effective_from": null,
       "effective_to": null,
@@ -1599,19 +1603,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "02cffe75ab86bfe0d97964abdde1384c5117c228cb706ca5437916d8396cd6a5",
-    "generated_at": "2026-08-10T12:48:36.443726Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "fff4172e436f73bbd7b4aa8b339f935730ba805fde5e67cb19bcc0ab51a7ab15",
+    "generated_at": "2026-08-12T13:43:46.930253Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T13:43:46.930253Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "fff4172e436f73bbd7b4aa8b339f935730ba805fde5e67cb19bcc0ab51a7ab15",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

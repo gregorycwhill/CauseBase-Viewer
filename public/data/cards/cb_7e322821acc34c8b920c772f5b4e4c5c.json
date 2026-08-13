@@ -127,8 +127,11 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "Adelaide Symphony Orchestra (ASO) presents a year-round programme of public concerts, regional touring, learning and community activity based in South Australia. The ASO’s 2022 annual report lists 53 performances across series including the Symphony Series (Adelaide Town Hall), Sanctuary Series (Grainger Studio), Chamber and Matinée series (Elder Hall), and special events at Festival Theatre. The company reports regional touring to mid‑north towns including Peterborough and Clare and collaborations with the Adelaide Festival, WOMADelaide, State Opera and The Australian Ballet. Education and participation work recorded in the reports includes school incursions, a commissioned children’s piece based on Alison Lester’s Are We There Yet?, community centre concerts in association with Community Centres SA, and a mini‑festival She Speaks with film, symposium, chamber events and premieres of works by women composers. The ASO also documents digital programming (a Virtual Concert Hall, online mini‑recitals and the Silos & Symphonies learning project) and an artist‑led inclusive project called Floods of Fire described as community‑building and addressing environment and climate themes. The ASO’s materials acknowledge Kaurna Country and note the role of volunteers, donors and supporters in company activity.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "Adelaide Symphony Orchestra Pty Ltd is a professional symphony orchestra based in Adelaide, South Australia. It presents a season of concerts at venues including Adelaide Town Hall, Elder Hall and the Festival Theatre, and undertakes regional touring and community concerts in South Australian towns such as Peterborough and Clare. The ASO runs learning and schools programmes and community projects (for example Floods of Fire), collaborates with festivals and other companies, and produces digital and broadcast programming including an online concert platform and mini‑recitals. Public participation opportunities include ticketed concerts, community workshops and participatory projects, and online attendance; the organisation also references volunteers and other supporter involvement.",
+  "summary_evidence_ids": [
+    "ev:web:49079016738:2026-08-10",
+    "ev:report:49079016738:5848f21901bd"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Symphony and concert series at Adelaide Town Hall, Elder Hall and Festival Theatre",
@@ -284,7 +287,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/caaabce4-2daf-e811-a963-000d3ad244fd/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2015-07-01",
       "effective_from": null,
       "effective_to": null,
@@ -859,7 +862,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/caaabce4-2daf-e811-a963-000d3ad244fd/documents/c96ba0c3-44c8-e811-a964-000d3ad24077",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2015-07-01",
       "effective_from": null,
       "effective_to": null,
@@ -1119,7 +1122,7 @@
       "source_family": "organisation-report-extract",
       "dataset_version": "2026-08-14-private-extraction",
       "source_url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/caaabce4-2daf-e811-a963-000d3ad244fd-7060f4b6-7974-4191-9638-c924bd74d001-Financial%20Report-94601086-3db0-e811-a963-000d3ad24077-ASO200415-annual-report-FINAL.pdf",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-08-13",
       "effective_from": null,
       "effective_to": null,
@@ -1166,7 +1169,7 @@
       "source_family": "organisation-report-extract",
       "dataset_version": "2026-08-14-private-extraction",
       "source_url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/caaabce4-2daf-e811-a963-000d3ad244fd-7060f4b6-7974-4191-9638-c924bd74d001-Financial%20Report-94601086-3db0-e811-a963-000d3ad24077-ASO200415-annual-report-FINAL.pdf",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-08-13",
       "effective_from": null,
       "effective_to": null,
@@ -1413,19 +1416,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "e7d69574be4a38148de19c4cfdc11320f31b51c92d2e66e674627d89b8e87218",
-    "generated_at": "2026-08-10T13:02:29.508857Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "4386595c4aa17ffe34c859042f5195742927f1b0c1d95fc30bd80aa027fcdb56",
+    "generated_at": "2026-08-12T14:21:24.393184Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T14:21:24.393184Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "4386595c4aa17ffe34c859042f5195742927f1b0c1d95fc30bd80aa027fcdb56",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

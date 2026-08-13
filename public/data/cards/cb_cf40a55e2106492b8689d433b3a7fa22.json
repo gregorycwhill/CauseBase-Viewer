@@ -122,8 +122,12 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "Generations in Jazz Inc is presented on its website as the organiser of a multi-day jazz event called Generations in Jazz, held across a weekend. A 2026 event page on the site lists “2026 Event Results” and pages for “Individual Results”, “SBA - Sectional Results”, “VEA - Sectional Results” and “Superbands”, and gives event dates of Friday 30 April to Sunday 2 May. The site text states the event brings together aspiring musicians to “learn from each other, study, and perform” and offers tickets for public sale; it also invites people to join a community mailing list and to follow the organisation on social media. Regulatory extracts in the evidence set show an ACNC register entry and an Australian Information Statement covering 01/10/2022–30/09/2023, for which the organisation reported revenue of AUD 1,755,970 and total expenses of AUD 1,591,204. The available sources are the organisation’s website snapshot and ACNC filings; programme details beyond the weekend event, operational staffing, geographic reach outside South Australia, and participant numbers are not provided in the supplied evidence.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "Generations in Jazz Inc organises an annual multi-day jazz event held in South Australia. The event weekend (listed for 30 April–2 May 2026) includes competitions for individuals, sectional groups and superbands, ticketed public performances and related event programming. The organisation publishes competition results for individual, sectional and superband categories and maintains an online community and social media updates to share event information. Activities centre on providing performance and competition opportunities for aspiring and student musicians and on presenting concerts and programming for jazz audiences and ticketed attendees.",
+  "summary_evidence_ids": [
+    "ev:web:51877284120:2026-08-10",
+    "ev:ais:51877284120:2023",
+    "ev:acnc:51877284120"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Organising a multi-day jazz event and competitions (Generations in Jazz weekend)",
@@ -214,7 +218,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/13914a9b-3aaf-e811-a962-000d3ad24a0d/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-03-08",
       "effective_from": null,
       "effective_to": null,
@@ -831,7 +835,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/13914a9b-3aaf-e811-a962-000d3ad24a0d/documents/feb300c9-b41a-f111-8342-6045bdc47a8f",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-03-08",
       "effective_from": null,
       "effective_to": null,
@@ -1378,19 +1382,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "ea2b4261179c2ef35a62d4d65a252643f09c16e37ca41b0f627d6f942faf8a2f",
-    "generated_at": "2026-08-10T12:59:59.983806Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "5d7d7097611657deaf1cf14c0f3d4ee2b3e8fd4b64609c342300bca4e514ce2c",
+    "generated_at": "2026-08-12T14:15:34.492278Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T14:15:34.492278Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "5d7d7097611657deaf1cf14c0f3d4ee2b3e8fd4b64609c342300bca4e514ce2c",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

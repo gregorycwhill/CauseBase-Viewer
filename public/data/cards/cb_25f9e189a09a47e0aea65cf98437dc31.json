@@ -136,8 +136,12 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "Mighty Livingwaters - Life Fellowship (trading as Good Success Church) is presented on its website as a Christian church based in Jandakot, Western Australia. According to the organisation's website, it holds weekly public worship services in Jandakot on Sundays at 10:00am and 6:30pm (with a livestream option) and runs a range of ministries described as Men’s Ministry, Daughters of the King, Impact (18+ years), Step In (13–17 years), Home Altar, Connect Groups and Children’s Church. The website also describes fortnightly podcast episodes and social interaction around morning tea and coffee after services. The ACNC information included in the AIS for 01/07/2022–30/06/2023 reports revenue of AUD 1,098,206 and total expenses of AUD 833,466 for that period. The ACNC register extract is available for the organisation. The material here combines the organisation’s published schedule and ministry list with the AIS financial figures; program reach beyond Jandakot and details of staffing or volunteer arrangements are not provided in the supplied evidence.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "Mighty Livingwaters - Life Fellowship, trading as Good Success Church, is a Christian church based in Jandakot, Western Australia. It holds weekly public worship services on Sundays at 10:00am and 6:30pm at its Jandakot location and offers a livestream of services. The church runs age‑based ministries and fellowships including Men’s Ministry, Daughters of the King, Impact (18+), Step In (13–17), Children’s Church, Home Altar and Connect Groups, and publishes a fortnightly podcast. Services involve praise, worship and teaching, and the congregation meets for social interaction such as morning tea. Evidence indicates these activities are delivered in person in Jandakot and online via livestream and podcast.",
+  "summary_evidence_ids": [
+    "ev:web:12086262816:2026-08-10",
+    "ev:ais:12086262816:2023",
+    "ev:acnc:12086262816"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Weekly public worship services (Sundays, 10:00am and 6:30pm, Jandakot)",
@@ -292,7 +296,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/90181751-39af-e811-a963-000d3ad244fd/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2025-10-05",
       "effective_from": null,
       "effective_to": null,
@@ -927,7 +931,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/90181751-39af-e811-a963-000d3ad244fd/documents/072cab13-8fa1-f011-bbd2-7c1e528a8d67",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2025-10-05",
       "effective_from": null,
       "effective_to": null,
@@ -1486,19 +1490,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "45f41d15aec6a186582b3032eb3b49db08e2b2bc98a00b21bf5b602eb822a3a7",
-    "generated_at": "2026-08-10T13:02:12.881463Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "db8ee42cc853ef8b30293ca1a378fb18d85198c10697a3b06f002560f421eb30",
+    "generated_at": "2026-08-12T14:20:27.593886Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T14:20:27.593886Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "db8ee42cc853ef8b30293ca1a378fb18d85198c10697a3b06f002560f421eb30",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

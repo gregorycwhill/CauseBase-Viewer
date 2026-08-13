@@ -122,8 +122,12 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "Landscape Recovery Foundation Ltd (LRF), registered in Tasmania, publishes research and runs conservation projects focused on Tasmanian biodiversity. The organisation’s website describes the release of a report titled “Swift Parrots Beating the Odds”, which LRF says summarises two years of multidisciplinary field research into swift parrot nesting that combined field surveys, passive acoustic monitoring, sugar glider capture, health and diet analysis and forensic veterinary investigation, and drew on two decades of longitudinal monitoring. The site states the Foundation runs named projects including Swift Parrot Conservation, East Coast Catchments Projects, Eucalypt Conservation and Saving Threatened Orchids; it also advertises events (a podcast interview with two researchers, a Women in Conservation conference presentation) and community activity such as the Great East Coast Clean Up. The website records the 2026 Melanie J. Kelly bursary recipients and prize amounts, notes that LRF obtained Deductible Gift Recipient status on 24 June 2025, and solicits donations. An ACNC Annual Information Statement extract for 1 July 2022–30 June 2023 reports revenue of $333,984 and expenses of $329,695. Many programme descriptions and findings are presented as organisation-authored on the website.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "Landscape Recovery Foundation Ltd. is a Tasmania‑based conservation foundation active as of 2026 that aims to translate scientific research into on‑ground actions to address biodiversity loss and land and sea degradation in Tasmania (including nipaluna/Hobart and the east coast). Its work includes multidisciplinary field research on swift parrot nesting (field surveys, passive acoustic monitoring, sugar glider capture, health and diet analysis and forensic veterinary investigation), publication and dissemination of research (for example the report ‘Swift Parrots Beating the Odds’), delivery of named conservation projects (Swift Parrot Conservation; East Coast Catchments; Eucalypt Conservation; Saving Threatened Orchids), administration of the Melanie J. Kelly bursary, community clean‑up events and partnerships with land managers, NGOs, government, corporations and communities. A 2026 foundation report is cited for findings on swift parrot nesting success.",
+  "summary_evidence_ids": [
+    "ev:web:67649417658:2026-08-10",
+    "ev:ais:67649417658:2023",
+    "ev:acnc:67649417658"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Multidisciplinary field research on swift parrot nesting (field surveys, passive acoustic monitoring, sugar glider capture, health and diet analysis, forensic veterinary investigation)",
@@ -301,7 +305,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/9ace519d-f06c-ec11-8f8e-00224891b8f8/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-01-22",
       "effective_from": null,
       "effective_to": null,
@@ -839,7 +843,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/9ace519d-f06c-ec11-8f8e-00224891b8f8/documents/6160a571-43f7-f011-8406-6045bde5be38",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-01-22",
       "effective_from": null,
       "effective_to": null,
@@ -1485,19 +1489,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "89658ce5e8d4d763bf5fb061f911616da8ee596e80e3ca3fc50a3e22c5b361df",
-    "generated_at": "2026-08-10T13:04:58.509754Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "b708a4e1649da461527096b7cbea67192098f3ba404bcd9ddec1034f09e68e7d",
+    "generated_at": "2026-08-12T14:18:04.712002Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T14:18:04.712002Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "b708a4e1649da461527096b7cbea67192098f3ba404bcd9ddec1034f09e68e7d",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

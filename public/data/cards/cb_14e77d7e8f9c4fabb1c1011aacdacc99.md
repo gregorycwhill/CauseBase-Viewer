@@ -6,7 +6,7 @@
 
 ## CauseBase summary
 
-Avon Youth Community And Family Services (website name Avon Community Services) presents itself as a not-for-profit provider of housing and youth services in the Wheatbelt region of Western Australia. According to its website, the organisation operates local centres and “Youth Centres” and invites people to “give us a call or drop in” for assistance. The site lists centre locations in Northam, Moora, Merredin and Narrogin. The organisation’s ACNC information and its 2023 Annual Information Statement are on record; the AIS for 01/07/2022–30/06/2023 reports revenue of AUD 1,479,627 and total expenses of AUD 1,351,056. Website language describes the organisation as delivering “Housing and Youth Services” and as assisting “the people we assist,” but provides limited detail on specific housing programs, eligibility rules, client numbers or staffing. Contact options on the website emphasise phone enquiries and drop-in attendance at centres.
+Avon Community Services (legal name Avon Youth Community And Family Services) is a not-for-profit organisation that provides housing assistance and youth services in the Wheatbelt region of Western Australia. As of August 2026 it operates local service centres and youth centres in Northam, Moora, Merredin and Narrogin. The organisation offers drop-in access at its centres and accepts phone enquiries; its stated service areas include housing support and operation of youth centres across the listed towns. The organisation’s public materials identify these town locations and the two primary service types but do not provide more detailed program descriptions in the supplied evidence.
 
 ## Activities
 
@@ -59,11 +59,11 @@ Avon Youth Community And Family Services (website name Avon Community Services) 
 - Embedding: `cb_14e77d7e8f9c4fabb1c1011aacdacc99:entity:text-embedding-3-small`
 - Embedding model: `text-embedding-3-small`
 - Synthesis model: `gpt-5-mini-2025-08-07`
-- Synthesis evidence hash: `09b7d4c65bf3c7db41ba394fa55631e3a360ae9667c32a1908559cfe6209d4b6`
+- Synthesis evidence hash: `ed350b8c292d29cd46c24458d1e517ddb00b66d5d8c466f0e5b4a6b4b5d0ed3e`
 
 ## Build
 
-- Dataset version: `phase2b-2026-08-14-rc4-visual-escalation-human-review`
+- Dataset version: `phase2b-2026-08-14-rc4-integration-repair-final`
 - Card schema: `0.4`
 - Editorial policy: `0.4-rc4`
-- Built: 2026-08-13T11:52:50.408301+00:00
+- Built: 2026-08-13T12:20:41.979776+00:00

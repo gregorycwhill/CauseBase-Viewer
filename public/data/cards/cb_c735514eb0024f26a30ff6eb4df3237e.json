@@ -125,8 +125,11 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "Australian Christian Channel Pty Ltd (operating a service called GOOD) is presented on its website (watchgood.com) as a streaming television and on‑demand service. The site states the GOOD app can be downloaded for mobile phones and tablets (iOS v12+ and Android v7+), and that GOOD is available on web, Apple TV, Smart TV, Foxtel, Fetch and Chromecast. The website publishes program listings and short articles under headings such as Faith and Culture, Entertainment & The Arts, Lifestyle, Families and Health and Wellness (examples dated 4–9 August 2026 are shown). The site invites users to sign up for a newsletter for program news and behind‑the‑scenes content. An ACNC Register extract for Australian Christian Channel Pty Ltd was observed in the evidence pack. The evidence is primarily the organisation’s website and the ACNC record; the website’s statements about device availability and content categories are reported here as claims from the organisation’s site.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "Australian Christian Channel Pty Ltd operates the streaming television and on‑demand service branded as GOOD from Queensland and online. GOOD provides a downloadable app for iOS and Android and is available via web and a range of connected TV platforms; the service publishes programme listings and short articles organised into categories such as Faith and Culture, Entertainment & The Arts, Lifestyle, Families and Health and Wellness. The organisation offers a newsletter sign‑up for programme updates and news. The primary user group is people who access or view the GOOD streaming service and its website content, including families identified as a content category.",
+  "summary_evidence_ids": [
+    "ev:web:18083027276:2026-08-10",
+    "ev:acnc:18083027276"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Operating and promoting a streaming television and on‑demand service called GOOD",
@@ -185,7 +188,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/0f33f233-39af-e811-a95e-000d3ad24c60/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-08-13",
       "effective_from": null,
       "effective_to": null,
@@ -795,19 +798,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "e6da29cc5930bddd2e5945e01c8ab5e5b64f4061da350099b4a80e53e72ddd34",
-    "generated_at": "2026-08-10T12:57:43.552744Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "4934afc696573b382a0d82df683b5e4e5276b7e9e737a248b71032fb4e35890d",
+    "generated_at": "2026-08-12T14:09:15.355407Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T14:09:15.355407Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "4934afc696573b382a0d82df683b5e4e5276b7e9e737a248b71032fb4e35890d",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

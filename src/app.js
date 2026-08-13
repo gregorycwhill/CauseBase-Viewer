@@ -1,5 +1,5 @@
 import { facetValues, filterWithFacets } from "./search.mjs";
-import { financialMetricDisplay, formatMoney, fundraisingDisplay, fundingSourceLabel, sourceRecordLocator, taxonomyHeading } from "./presentation.mjs";
+import { financialMetricDisplay, formatMoney, fundraisingDisplay, fundingSourceLabel, functionalAllocationDisplay, sourceRecordLocator, taxonomyHeading } from "./presentation.mjs";
 import { correctionUrl } from "./corrections.mjs";
 
 const state = { entities: [], similarities: [], filtered: [], selectedId: null, facets: {} };
@@ -37,7 +37,7 @@ function headlineMetric(entity, finance, metric) { const amount = finance?.[metr
 function functionalAllocations(finance, registry) {
   const rows = finance?.functional_expense_allocations ?? [];
   if (!rows.length) return "";
-  return `<section class="reported-statement"><h3>Reported functional expense allocation</h3><p class="muted">Reported shares are direct observations. Dollar figures are rounded mechanical estimates from the independently reported total expenses.</p><table><thead><tr><th>Reported allocation</th><th>Share</th><th>Derived amount</th></tr></thead><tbody>${rows.map(row => `<tr><th scope="row">${esc(row.source_label)}</th><td>${esc((Number(row.share) * 100).toFixed(0))}%</td><td>${row.derived_amount ? esc(formatMoney(row.derived_amount.normalised_amount, row.derived_amount.normalised_currency)) : ""} ${cite(row.evidence_ids, registry)}</td></tr>`).join("")}</tbody></table></section>`;
+  return `<section class="reported-statement"><h3>Use of expenditure</h3><p class="muted">This is a functional allocation by purpose, separate from statutory expenses by nature. Shares are directly reported; shown dollar figures are approximate mechanical calculations from total expenses.</p><table><thead><tr><th>Reported allocation</th><th>Direct reported share</th><th>Derived amount</th></tr></thead><tbody>${rows.map(row => { const display = functionalAllocationDisplay(row); return `<tr><th scope="row">${esc(row.source_label)}</th><td>${esc(display.share)}</td><td>${esc(display.derivedAmount)} ${cite(row.evidence_ids, registry)}</td></tr>`; }).join("")}</tbody></table></section>`;
 }
 function identityFacts(entity, registry) {
   const dgr = entity.tax_statuses?.find(item => item.scheme?.toLowerCase().includes("dgr"));

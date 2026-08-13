@@ -120,8 +120,11 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "HOPEBOX AUSTRALIA LTD (display name HOPEBOX AUSTRALIA LTD) appears in the Australian Charities and Not-for-profits Commission (ACNC) register. The available regulatory extract and the organisation’s 2023 AIS cover the period 01/01/2023 to 31/01/2024. For that reporting period the AIS lists total revenue of AUD 8,328 and total expenses of AUD 0; the reporting scope is the subject organisation. The ACNC extract is the primary source cited; attempts to retrieve material from the organisation’s website were not successful. The supplied evidence does not describe any programs, services, beneficiaries or modes of participation, and does not specify whether the zero expenses figure reflects timing, accounting classification, or omitted transactions.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "HOPEBOX AUSTRALIA LTD is a registered charity based in the Australian Capital Territory that operates in Australia. Registry records associated with the organisation list its legal name, a website address and the Australian Capital Territory as its location, and show it filed an Annual Information Statement covering the year to 31 January 2024. CauseBase does not have sufficient descriptive evidence in this release to independently identify specific activities, programs or beneficiary groups for this organisation. CauseBase could not retrieve content from the organisation’s listed website at the time of capture; the available regulatory extracts provide legal identity and location but do not describe services, target populations or modes of delivery.",
+  "summary_evidence_ids": [
+    "ev:acnc:39645963266",
+    "ev:ais:39645963266:2023"
+  ],
   "organisation_self_description": null,
   "activities": [],
   "activity_observations": [],
@@ -161,7 +164,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/8e817979-3d65-eb11-b0b0-000d3a6b0983/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-02-17",
       "effective_from": null,
       "effective_to": null,
@@ -589,7 +592,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/8e817979-3d65-eb11-b0b0-000d3a6b0983/documents/2ffba62c-390c-f111-8407-002248111f49",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-02-17",
       "effective_from": null,
       "effective_to": null,
@@ -1087,19 +1090,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "ea93ec93fdd28a1aa817dba4432784ce699f34e6bef667495e9787f58486f860",
-    "generated_at": "2026-08-10T12:49:04.379796Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "e4f9351a67cfbb36cce0e03520d48e6f8b3060c6f7727ee9a76d1db40de75b1d",
+    "generated_at": "2026-08-12T13:46:06.844356Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T13:46:06.844356Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "e4f9351a67cfbb36cce0e03520d48e6f8b3060c6f7727ee9a76d1db40de75b1d",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

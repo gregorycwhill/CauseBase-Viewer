@@ -131,8 +131,11 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "Habitat for Humanity Australia SA is recorded on the ACNC register under that legal name and is associated in the dataset with South Australia. The available regulatory filings for the period 01/07/2022 to 30/06/2023 are an ACNC Register extract and the organisation’s 2023 AIS. For that reporting year the subject-level AIS records revenue of AUD 509,336 and total expenses of AUD 424,031. The AIS entry included in this dataset is reported as a direct subject report, not consolidated with other entities, and covers only the organisation named. The dataset does not include a self-description, program listings, service activity descriptions, or named beneficiary groups for this entity. The organisation’s website could not be retrieved as part of this evidence pack. The available material in the pack is limited to the regulatory extract and the 2023 AIS financial summary; no further operational, programmatic or staffing details are present in the supplied evidence.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "Habitat for Humanity Australia SA is an ACNC-registered charity operating in South Australia. The supplied 2022–23 AIS filing (reporting period 1 July 2022 to 30 June 2023) and ACNC register extract identify the entity and its geographic coverage but do not describe specific programs, services, target beneficiaries or participation modes. CauseBase does not have sufficient descriptive evidence in this release to independently identify the concrete activities the organisation undertakes, the groups it serves, or how it engages volunteers or the public. Additional descriptive sources such as a current website, program descriptions or an annual report would be needed to summarise its work in more detail.",
+  "summary_evidence_ids": [
+    "ev:acnc:19242782512",
+    "ev:ais:19242782512:2023"
+  ],
   "organisation_self_description": null,
   "activities": [],
   "activity_observations": [],
@@ -204,7 +207,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/e76dc096-39af-e811-a962-000d3ad24a0d/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-01-30",
       "effective_from": null,
       "effective_to": null,
@@ -1003,7 +1006,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/e76dc096-39af-e811-a962-000d3ad24a0d/documents/b595ba00-8ffd-f011-8406-7ced8d33fe37",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-01-30",
       "effective_from": null,
       "effective_to": null,
@@ -1542,19 +1545,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "7669a50ed46e7a8aaed97befeabc52ac2a399ceb327d01d38bb2f3f601b15eab",
-    "generated_at": "2026-08-10T12:54:32.049804Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "3a16f9054805bd5f783e08182421e484965ab342ba2aebfaf31b0e9b349cb9b0",
+    "generated_at": "2026-08-12T13:59:23.075723Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T13:59:23.075723Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "3a16f9054805bd5f783e08182421e484965ab342ba2aebfaf31b0e9b349cb9b0",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

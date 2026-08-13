@@ -6,7 +6,7 @@
 
 ## CauseBase summary
 
-Adelaide City Mosque (listed on the ACNC as ADELAIDE MOSQUE ISLAMIC SOCIETY LTD and also referred to on its website as Adelaide Mosque Islamic Society of SA Inc) is a mosque in Adelaide, South Australia. The website describes the building as the oldest functioning mosque in Australia, built in 1886–88 by migrant cameleers from Afghanistan, north‑west India (now Pakistan) and Balochistan. The organisation publishes daily prayer times and a Friday Juma time and says it offers five daily prayers and other facilities. Named services and activities on the website include Prayers/Salah services, funeral services, and halal certification. It lists religious programs and events such as Ramadan, Mawlid‑un‑Nabi and Shab e Miraj, and community activities including a children’s school and a “Sister’s Morning Tea.” The site invites community membership, accepts donations (PayPal, debit/credit card and direct deposit) for general mosque support and specific purposes (iftar, zakat, sadqa, mawlid), and notes website support from the Department of Premier and Cabinet – Multicultural Affairs. The ACNC entry for the legal entity was observed; detailed financial statements and published information on program scale are not included in the supplied evidence.
+Adelaide Mosque Islamic Society Ltd operates the Adelaide City Mosque in Adelaide, South Australia. Described on its website as Australia’s oldest functioning mosque (built 1886–88), the society offers five daily prayers and Friday (Juma) services, funeral services and halal certification. It runs religious programmes and events (including Ramadan, Mawlid‑un‑Nabi and Shab e Miraj) and community activities such as a children’s school and a Sister’s Morning Tea. The organisation maintains membership (AMISSA) and accepts donations via PayPal, card and direct deposit to support mosque and wider community activities. Services are presented as directed to the Muslim community in Adelaide and to the wider community.
 
 ## Activities
 
@@ -68,11 +68,11 @@ Adelaide City Mosque (listed on the ACNC as ADELAIDE MOSQUE ISLAMIC SOCIETY LTD 
 - Embedding: `cb_a3fde5bf7e6d46f890ec8cbaf9b0280f:entity:text-embedding-3-small`
 - Embedding model: `text-embedding-3-small`
 - Synthesis model: `gpt-5-mini-2025-08-07`
-- Synthesis evidence hash: `2cd42036d5ce9421edd105a425e96db079648584c2583baf9ef42a3207b095ef`
+- Synthesis evidence hash: `98343e3684acea613ebbc5dea080ef1b5a09a0d4bc258d815de3aa8aee1eff49`
 
 ## Build
 
-- Dataset version: `phase2b-2026-08-14-rc4-visual-escalation-human-review`
+- Dataset version: `phase2b-2026-08-14-rc4-integration-repair-final`
 - Card schema: `0.4`
 - Editorial policy: `0.4-rc4`
-- Built: 2026-08-13T11:52:50.408301+00:00
+- Built: 2026-08-13T12:20:41.979776+00:00

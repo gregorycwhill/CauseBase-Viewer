@@ -163,8 +163,12 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "According to its website and ACNC filings, Celebrate Health Care Limited (Celebrate Health Care) operates aged care services in Tasmania. The website names two residential sites — Celebrate May Shaw on the East Coast (Swansea) and Celebrate Aminya in northeast Tasmania (Scottsdale) — and states these sites provide residential care and offer respite stays. The organisation also describes a team that delivers personalised aged care support in clients’ homes and says its packages use a Consumer Directed Care (CDC) approach. The website includes resident testimonials and references to activities and bus tours for residents. The ACNC/AIS extract for 01/07/2022–30/06/2023 records revenue of AUD 17,168,860 and total expenses of AUD 17,192,602 for the reporting entity. Geographic areas named on the website include Glamorgan Spring Bay, Dorset and Break O’Day regions. The material presented is largely organisation-authored: service models, site descriptions (for example, references to gardens and ocean views at May Shaw) and resident quotes appear on the website, while the AIS provides the financial totals for the 2022–23 year.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "Celebrate Health Care Limited is an aged care provider operating in rural northeast and east‑coast Tasmania, serving communities in the Glamorgan Spring Bay, Dorset and Break O’Day regions. It operates two residential aged care homes in Scottsdale and Swansea (branded May Shaw and Aminya) and offers short‑term respite stays at those sites. The organisation also delivers personalised in‑home aged care support and manages Consumer Directed Care (CDC) packages. Website material and client testimonials describe organised activities and bus tours for residents. These services are presented as local, community‑facing aged care and support across the named Tasmanian regions.",
+  "summary_evidence_ids": [
+    "ev:web:97442336082:2026-08-10",
+    "ev:acnc:97442336082",
+    "ev:ais:97442336082:2023"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Residential aged care at two sites (Scottsdale and Swansea)",
@@ -292,7 +296,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/5c8143db-39af-e811-a960-000d3ad24282/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2025-10-14",
       "effective_from": null,
       "effective_to": null,
@@ -1071,7 +1075,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/5c8143db-39af-e811-a960-000d3ad24282/documents/34af82b3-4aa9-f011-bbd2-000d3ad208e6",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2025-10-14",
       "effective_from": null,
       "effective_to": null,
@@ -1597,19 +1601,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "d3fb138beef9c13201d27028f26b6399ab9c782d3cd6b0619c08fe2911fda9bd",
-    "generated_at": "2026-08-10T12:55:00.587011Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "8c887d14082184a0de972a48f8b4240c20565fae492cfde1bfd7da2503225094",
+    "generated_at": "2026-08-12T14:00:37.303285Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T14:00:37.303285Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "8c887d14082184a0de972a48f8b4240c20565fae492cfde1bfd7da2503225094",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

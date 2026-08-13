@@ -156,8 +156,11 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "Anglican Camping Tasmania Commission (Anglican Camping Tasmania) is described on its website as a not-for-profit ministry of the Anglican Diocese of Tasmania that runs residential camping programs for children and young people. The organisation’s website lists multiple summer camps and year-round camps for school grades 3–12, with named programs including Burst (Grades 3–6), Banksia (Junior High, Grades 7–9), Derby (Senior High), Huon (Grades 10–12), Vibes (Grades 10–12), Mayfield, Spokes and Leaders in Training (LiT) for Grades 9–12; some sessions have specific dates and locations such as Port Sorell (Banksia, 2–6 Jan 2027) and Huon (3–8 Jan 2027). The website states the group has operated for over 30 years and describes a high leader-to-camper ratio, leaders who hold state government checks and “Safe Church Communities” training and endorsement. The site presents aims to provide opportunities to explore Christian faith, build friendships and offer activities not available daily; these are organisation-authored descriptions rather than independently verified facts. The ACNC register extract is recorded for the entity; no detailed financial records were provided in the supplied evidence.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "Anglican Camping Tasmania is a ministry of the Anglican Diocese of Tasmania that runs residential Christian camping programs for children and young people in grades 3–12. It operates summer and other seasonal camps at multiple sites around Tasmania, including Port Sorell, Huon, Derby, Blue Lagoon, Camp Banksia and Mayfield. The organisation runs scheduled summer camps (several listed for January 2027) and a Leaders in Training program for students in grades 9–12, including multiple LiT sessions noted for 2026. Camps combine supervised activities, community-building and leadership development and welcome campers from a variety of backgrounds and schools.",
+  "summary_evidence_ids": [
+    "ev:web:28287305180:2026-08-10",
+    "ev:acnc:28287305180"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Running residential camps for school-aged children and teenagers",
@@ -239,7 +242,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/141aa5d0-dc3f-ee11-bdf4-00224893b8c7/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-05-04",
       "effective_from": null,
       "effective_to": null,
@@ -582,7 +585,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/141aa5d0-dc3f-ee11-bdf4-00224893b8c7/documents/f72df1ea-5347-f111-bec7-6045bde5b920",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-05-04",
       "effective_from": null,
       "effective_to": null,
@@ -985,19 +988,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "edb0b5646676376c015d3e9eb76ea8267c752424ed9e6c88a2fe6d51f035c984",
-    "generated_at": "2026-08-10T12:48:31.908705Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "39c5e18c75a82560188652130f74be9698b1fa3ace761a4235fce136e6f6ab45",
+    "generated_at": "2026-08-12T13:44:12.615636Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T13:44:12.615636Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "39c5e18c75a82560188652130f74be9698b1fa3ace761a4235fce136e6f6ab45",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

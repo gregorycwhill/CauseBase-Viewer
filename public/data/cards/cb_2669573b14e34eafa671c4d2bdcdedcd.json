@@ -120,8 +120,10 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "North East Men's Shed (Winnaleah) Inc. is recorded on the Australian Charities and Not‑for‑profits Commission register with a registered location in Tasmania. CauseBase has no organisation‑authored description, website content, annual report extracts or other source material in this evidence pack that describes the group’s concrete activities, programs, beneficiaries or participation formats. The only verified datum in this release is the registered name and the jurisdiction (Tasmania) from the ACNC register extract. CauseBase does not infer activities from the organisation’s name; therefore no specific services, event types, volunteer roles or beneficiary groups are identified here.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "North East Men's Shed (Winnaleah) Inc. is an incorporated not-for-profit organisation recorded as operating in Tasmania. CauseBase does not have sufficient descriptive evidence in this release to independently identify the organisation’s stated activities, programs or beneficiary groups. The supplied evidence set contains only a regulatory register extract and does not include a website, annual report or other descriptive materials, so CauseBase cannot describe participation modes, specific services or operating locations beyond the Tasmanian jurisdiction shown.",
+  "summary_evidence_ids": [
+    "ev:acnc:32588253381"
+  ],
   "organisation_self_description": null,
   "activities": [],
   "activity_observations": [],
@@ -155,7 +157,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/34a380bc-73cd-ef11-a72f-000d3a6b41c8/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2025-11-25",
       "effective_from": null,
       "effective_to": null,
@@ -433,7 +435,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/34a380bc-73cd-ef11-a72f-000d3a6b41c8/documents/b5e30541-b3c9-f011-bbd3-6045bde73edb",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2025-11-25",
       "effective_from": null,
       "effective_to": null,
@@ -794,19 +796,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.5",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "dee38edf118b493d272e419cce7d7a3b9b45dd98ceaadc3a1226234fece89970",
-    "generated_at": "2026-08-10T13:51:14.533784Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "9b3adf26f5d5a58de997af1db59706c7a66d8bbf14cf8b59aa30c5b5d05f644e",
+    "generated_at": "2026-08-12T14:06:17.138936Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T14:06:17.138936Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "9b3adf26f5d5a58de997af1db59706c7a66d8bbf14cf8b59aa30c5b5d05f644e",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

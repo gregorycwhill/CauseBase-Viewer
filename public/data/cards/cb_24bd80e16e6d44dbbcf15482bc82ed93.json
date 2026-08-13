@@ -113,8 +113,11 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "Democracy in Colour Limited (registered in Victoria) presents itself online as an organisation running a mix of campaigns, training and youth programs addressing racism and climate justice. Website excerpts list a Climate Justice Program, anti‑racism training (including workplace training), a Thriving in Colour youth program described as building the power, knowledge and skills of POC youth to lead community campaigns, and a Racism Out This campaign (which began with Racism Out Of Politics and Racism Out Of Media). The site also includes media statements (an “Anti‑Muslim response” is visible in the snapshot) and a statement of theory of change that says the organisation aims to build movements, advocate for policy reform and work in partnership with values‑aligned civil society organisations. Regulatory records referenced include an ACNC extract and an ACNC AIS for 2022–23, which shows reported revenue of AUD 901,276 and total expenses of AUD 728,081 for the period 01/07/2022–30/06/2023. The evidence is organisation‑authored website text and the ACNC filings; independent evaluation or detailed delivery locations beyond Victoria are not provided in the selected evidence.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "Democracy in Colour Limited is an organisation based in Victoria that runs campaigns, training and youth programs focused on racial justice and related issues. Its work includes a Climate Justice Program, anti‑racism training (including workplace training), the Thriving in Colour youth leadership and campaigning program for People of Colour (POC) youth, and the Racism Out This campaign (started with Racism Out Of Politics and Racism Out Of Media). The organisation issues media statements and public communications and describes partnering with other civil society organisations. Its stated theory of change emphasises building movement power, advocating for policy reform and working in partnership to challenge discriminatory systems affecting Black, Indigenous and People of Colour (BIPOCs).",
+  "summary_evidence_ids": [
+    "ev:web:57623367117:2026-08-10",
+    "ev:acnc:57623367117"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Climate Justice Program",
@@ -295,7 +298,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/89245fd4-1b1c-ec11-b6e6-00224810be60/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-01-28",
       "effective_from": null,
       "effective_to": null,
@@ -1012,7 +1015,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/89245fd4-1b1c-ec11-b6e6-00224810be60/documents/522fd0d4-edfb-f011-8406-002248111f49",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-01-28",
       "effective_from": null,
       "effective_to": null,
@@ -1741,19 +1744,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "75e43a5876536e8ef1258c03e78957911eca70826120362ee7d1f67c2c71917f",
-    "generated_at": "2026-08-10T12:59:06.043603Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "740fc98bd97d1a7f3d3754b9eb71f5f71ef34ebaa023be53a7564231ff01bfa3",
+    "generated_at": "2026-08-12T14:12:10.969928Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T14:12:10.969928Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "740fc98bd97d1a7f3d3754b9eb71f5f71ef34ebaa023be53a7564231ff01bfa3",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

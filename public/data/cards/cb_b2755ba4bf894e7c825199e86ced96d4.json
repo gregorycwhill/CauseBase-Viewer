@@ -136,8 +136,12 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "According to its website and ACNC filings, Befriend Inc. is a Western Australian community organisation that describes its work as sparking connections and supporting people who want a greater sense of belonging. The website lists recurring activities including weekly community groups and gatherings (for example John’s WingSpan Group and Nat’s Art Circle), workshops and courses, guidance and mentoring, and a Possibility Fellowship program. It also describes locally‑focused projects such as the Swan Repair Café, Burns Beach Sunset Walk and Neil Hawkins BBQ, and a Resilient Together Wanneroo project in Perth’s northern corridor. Befriend publishes articles, podcasts and an annual Social Impact Report; the site notes a 2026 Inclusive Volunteering Award and various member stories. The organisation’s ACNC data and 2022–23 AIS show revenue of AUD 895,313 and expenses of AUD 976,329 for the year to 30 June 2023. The website refers repeatedly to hosts, volunteers and a Community Connector role that help run activities.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "Befriend Inc. is a community organisation operating in Greater Perth, Western Australia, including Wanneroo and Perth’s northern corridor. It describes its purpose as sparking connections and supporting people who want a greater sense of belonging. Befriend runs weekly community groups and gatherings (examples include John’s WingSpan Group and Nat’s Art Circle), delivers workshops and courses, provides guidance and mentoring and runs a multi‑week Possibility Fellowship programme. The organisation organises local projects and public events such as the Swan Repair Café, Burns Beach Sunset Walk and the Neil Hawkins BBQ, and publishes articles, podcasts and a Social Impact Report. Services and activities are presented for people seeking social connection and belonging, people with disability (examples cited include autism and expressive aphasia) and residents of Greater Perth.",
+  "summary_evidence_ids": [
+    "ev:web:36314845868:2026-08-10",
+    "ev:acnc:36314845868",
+    "ev:ais:36314845868:2023"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Runs weekly community groups and gatherings (e.g. John’s WingSpan Group, Nat’s Art Circle)",
@@ -269,7 +273,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/16066b44-39af-e811-a963-000d3ad244fd/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2025-12-01",
       "effective_from": null,
       "effective_to": null,
@@ -1052,7 +1056,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/16066b44-39af-e811-a963-000d3ad244fd/documents/2eae36ea-86ce-f011-bbd3-6045bdc2c88b",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2025-12-01",
       "effective_from": null,
       "effective_to": null,
@@ -1733,19 +1737,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "15afe08018aebc37414cfa1f956bd92b54f72055c51271aa49a670a6f22d9b0c",
-    "generated_at": "2026-08-10T12:51:22.363425Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "7651ed303e42323d1af04ef17d08f09b8adece8ee63c6074d87560154606435b",
+    "generated_at": "2026-08-12T13:51:53.784265Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T13:51:53.784265Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "7651ed303e42323d1af04ef17d08f09b8adece8ee63c6074d87560154606435b",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

@@ -113,8 +113,11 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "Martu Charitable Trust is recorded on the Australian Charities and Not‑for‑profits Commission (ACNC) register. The organisation’s 2023 Annual Information Statement (AIS) covers the period 01/07/2022 to 30/06/2023 and is reported as a subject filing (not consolidated). For that period the AIS lists revenue of AUD 4,480,557 and total expenses of AUD 4,995,071. The ACNC/AIS records available in the evidence pack do not include a public website, a mission statement, descriptions of programs, lists of beneficiaries, or geographic operating locations. Other registry fields in the supplied extracts (for example governance or specific program activity) were not provided in the evidence. The available documents are the ACNC register extract and the AIS 2023 extract; no further organisational materials were included in the supplied evidence.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "Martu Charitable Trust is a registered Australian charity listed on the ACNC register and has lodged an Annual Information Statement covering 01/07/2022 to 30/06/2023. The available ACNC register extract and 2023 AIS record do not describe the Trust’s operational activities, services or target beneficiary groups. CauseBase does not have sufficient descriptive evidence in this release to independently identify specific activities or beneficiaries for Martu Charitable Trust.",
+  "summary_evidence_ids": [
+    "ev:acnc:54212670988",
+    "ev:ais:54212670988:2023"
+  ],
   "organisation_self_description": null,
   "activities": [],
   "activity_observations": [],
@@ -150,7 +153,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/d90be587-3aaf-e811-a963-000d3ad24077/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-01-15",
       "effective_from": null,
       "effective_to": null,
@@ -791,7 +794,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/d90be587-3aaf-e811-a963-000d3ad24077/documents/d4b739a9-e2f1-f011-8407-6045bde67d52",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-01-15",
       "effective_from": null,
       "effective_to": null,
@@ -1262,19 +1265,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "c58fc052e8e5c3842dee7b1a00a2b585cb97e7f05ff538df9560465040566c41",
-    "generated_at": "2026-08-10T13:00:15.404851Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "e60d542cacf5e4479cffb17e5ec2f2128721af11b2a2cd356de6ed6fae1dfa83",
+    "generated_at": "2026-08-12T14:16:45.122612Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T14:16:45.122612Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "e60d542cacf5e4479cffb17e5ec2f2128721af11b2a2cd356de6ed6fae1dfa83",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

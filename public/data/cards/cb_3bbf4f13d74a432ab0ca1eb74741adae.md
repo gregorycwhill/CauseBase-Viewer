@@ -6,7 +6,7 @@
 
 ## CauseBase summary
 
-The organisation’s website describes Newman College as a co‑educational residential college located at 887 Swanston Street, Parkville, Victoria, affiliated with the University of Melbourne and accepting primarily University of Melbourne students with limited places for ACU, Monash and RMIT students. The website lists figures including about 280 community members, 220 scholarships and bursaries awarded, and about 90 tutorials delivered each week. The site lists activities such as residential accommodation, a tutorial programme and academic mentoring, an outreach programme, Scholar’s Presentations and guest speakers, and opportunities in sport, music, drama and art; it also refers to student engagements in community service and items of news such as a Camino retreat and inter‑collegiate swimming results. The ACNC AIS 2023 extract in the provided evidence reports revenue of AUD 282,179 and total expenses of AUD 193,332 for the 2023 reporting period. Contact details on the website include a Parkville street address, phone number and office email. The material presented here is taken from the organisation’s own website and from the ACNC AIS 2023 extract included in the evidence pack.
+Newman College is a co‑educational residential college affiliated with the University of Melbourne, located at 887 Swanston Street, Parkville, Victoria. It primarily accepts students enrolled at the University of Melbourne and holds limited places for students in select courses at ACU, Monash and RMIT. The College provides residential accommodation and runs an academic tutorial programme and mentoring (tutorials delivered weekly), administers scholarships and bursaries, and operates a student community service and outreach programme. It also supports sporting teams and inter‑collegiate competitions, music, drama and arts productions and concerts, guest speakers and Scholar’s Presentations, and student retreats (including Camino retreats). Published site metrics include counts for community membership, scholarships and weekly tutorials.
 
 ## Activities
 
@@ -71,11 +71,11 @@ The organisation’s website describes Newman College as a co‑educational resi
 - Embedding: `cb_3bbf4f13d74a432ab0ca1eb74741adae:entity:text-embedding-3-small`
 - Embedding model: `text-embedding-3-small`
 - Synthesis model: `gpt-5-mini-2025-08-07`
-- Synthesis evidence hash: `18cedb26b8413422a5651245600efec032e11bae69d230a2f7debc9b04bb0a84`
+- Synthesis evidence hash: `69bba02eb37f08692d980c71c423e12af8bd4b7d40960d661f02ca1e8d1ee940`
 
 ## Build
 
-- Dataset version: `phase2b-2026-08-14-rc4-visual-escalation-human-review`
+- Dataset version: `phase2b-2026-08-14-rc4-integration-repair-final`
 - Card schema: `0.4`
 - Editorial policy: `0.4-rc4`
-- Built: 2026-08-13T11:52:50.408301+00:00
+- Built: 2026-08-13T12:20:41.979776+00:00

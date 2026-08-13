@@ -106,8 +106,11 @@
   "geography": [],
   "geography_observations": [],
   "navigation_geography": [],
-  "causebase_summary": "Access Church Limited is recorded on the Australian Charities and Not-for-profits Commission (ACNC) register. The supplied extracts are an ACNC register entry and the organisation’s 2023 Annual Information Statement (AIS) covering 1 July 2022 to 30 June 2023. In that AIS the organisation reported total revenue of AUD 0 and total expenses of AUD 0. The provided evidence does not include a website, a public description of activities, listed beneficiaries, geographic coverage, or any participation or program details. The AIS is identified as reporting on the subject organisation, but no operational details (services, staff, volunteers, projects or locations) are present in the supplied records.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "Access Church Limited is an incorporated organisation registered with the Australian Charities and Not-for-profits Commission. CauseBase holds the ACNC register extract and the organisation’s 2023 Annual Information Statement covering 01/07/2022 to 30/06/2023. There is no website or self-description supplied in the available records, and the available filings do not describe the organisation’s programs, services or beneficiaries in descriptive terms. CauseBase does not have sufficient descriptive evidence in this release to independently identify specific activities or beneficiaries.",
+  "summary_evidence_ids": [
+    "ev:acnc:15602302867",
+    "ev:ais:15602302867:2023"
+  ],
   "organisation_self_description": null,
   "activities": [],
   "activity_observations": [],
@@ -145,7 +148,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/a5d2a650-3aaf-e811-a961-000d3ad24182/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-02-27",
       "effective_from": null,
       "effective_to": null,
@@ -756,7 +759,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/a5d2a650-3aaf-e811-a961-000d3ad24182/documents/c5454adb-ae13-f111-8407-6045bde523ce",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-02-27",
       "effective_from": null,
       "effective_to": null,
@@ -1226,19 +1229,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "619755418191e68ee310ea28939aa288f87656fd97ab78f63a0c2fb0b9e3b032",
-    "generated_at": "2026-08-10T12:45:54.257321Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "9b4e4521dcb6f78401bb02efc75147a54df70c483090fd4050cff84a27b77d70",
+    "generated_at": "2026-08-12T13:36:56.181976Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T13:36:56.181976Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "9b4e4521dcb6f78401bb02efc75147a54df70c483090fd4050cff84a27b77d70",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

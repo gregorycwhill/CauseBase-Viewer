@@ -120,8 +120,11 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "According to the organisation's website, Alcoholics Anonymous – Perth (Aa Service Council For Western Australia) runs a 24‑hour helpline (08 9325 3566 or 1300 22 22 22) and maintains an office at Claisebrook Lotteries House, 33 Moore Street, East Perth, with listed opening hours Monday–Friday 9.00am–4.30pm. The site publishes meeting lists and a calendar of events for Perth and multiple WA districts (Area A, B, C; Hills; Mid‑West; North‑West; Peel; Port; South West) and links to online and international meetings. The website describes open meetings that are available to anyone interested in AA’s programme, notes that non‑alcoholics may attend, and states the only requirement for membership is “a desire to stop drinking.” It offers resources for people new to AA (pamphlets, personal stories, illustrated talks and recovery workshops), a page for fly‑in/fly‑out workers with peer contacts, and a listing for “Serenity” magazine and other literature. The site also posts a safety policy, code of conduct, a safeguarding statement and an incident report form. Contact email AAPerthoffice@aaperthwa.org is given and links are provided to national AA resources and an international meetings app.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "Alcoholics Anonymous, Perth, Western Australia (Aa Service Council For Western Australia) is a local fellowship supporting people who identify a desire to stop drinking. It maintains a staffed office in East Perth with published opening hours (Monday–Friday, 9am–4.30pm) and operates a 24‑hour helpline. The group compiles and publishes meeting lists and a calendar of events (including open and online meetings), provides resources for new members (pamphlets, personal stories, talks and workshops), and publishes or links to AA literature and Serenity magazine. The organisation also maintains a safety policy, code of conduct and incident reporting forms. Open meetings are available to anyone interested in AA’s programme of recovery; the site includes specific contact options for fly‑in/fly‑out workers.",
+  "summary_evidence_ids": [
+    "ev:web:36482379373:2026-08-10",
+    "ev:acnc:36482379373"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Operates a 24‑hour helpline",
@@ -246,7 +249,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/cb09efe3-39af-e811-a963-000d3ad244fd/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-06-03",
       "effective_from": null,
       "effective_to": null,
@@ -963,7 +966,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/cb09efe3-39af-e811-a963-000d3ad244fd/documents/4deceb66-f85e-f111-a826-00224812a1a7",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-06-03",
       "effective_from": null,
       "effective_to": null,
@@ -1410,19 +1413,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "4cd62610e8e41b28fcd94ea2d318f06a4eaff5a7a96b7b577ece22431c35d9cc",
-    "generated_at": "2026-08-10T13:00:00.430760Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "7f4e0fa68a563919c71d3662e6aa1f12ac9021bb9909e8870161271a9e856f45",
+    "generated_at": "2026-08-12T14:14:35.969003Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T14:14:35.969003Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "7f4e0fa68a563919c71d3662e6aa1f12ac9021bb9909e8870161271a9e856f45",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

@@ -129,8 +129,11 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "4LIFESKILLS INC. is an organisation based in Western Australia whose website states it provides personalised support services for young people and adults living with disability. The site lists a range of goal areas the organisation says it helps with, including looking after yourself and your home, building social skills and relationships, finding a rewarding career, taking short breaks or holidays, pursuing hobbies, and staying healthy and active. Website items describe specific activities for participants: a pottery session for Rockingham participants, support for an artist named Lesley to share her work, and a feature called “A Day with Gina” about daily support for independence and connections. The website also promotes corporate sponsorship as a way to support its work. The organisation’s 2022–23 annual information statement reports revenue of AUD 6,957,588 and expenses of AUD 7,115,503. The available evidence is primarily the organisation’s website and its ACNC reporting extract; the website frames services as personalised and person-centred but does not provide detailed participant counts or independent verification of outcomes.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "4LIFESKILLS INC. is an Australian not-for-profit based in Rockingham, Western Australia that provides personalised support services for young people and adults living with disability. In the organisation’s 2022–23 reporting period it describes one-to-one and daily supports focused on building independence and social connections, creative and leisure activities such as pottery sessions in Rockingham, assistance to enable participants to exhibit or share artwork, and short-breaks or holiday support options. The organisation also engages with corporate sponsors. Services are described as goal‑focused and tailored to individual aims such as employment, independent living and social participation.",
+  "summary_evidence_ids": [
+    "ev:web:20140575274:2026-08-10",
+    "ev:ais:20140575274:2023"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Personalised disability support services described on the organisation website",
@@ -229,7 +232,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/293626dd-2daf-e811-a963-000d3ad24077/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2025-11-25",
       "effective_from": null,
       "effective_to": null,
@@ -1094,7 +1097,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/293626dd-2daf-e811-a963-000d3ad24077/documents/c126de51-cac9-f011-bbd3-000d3ad10b92",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2025-11-25",
       "effective_from": null,
       "effective_to": null,
@@ -1755,19 +1758,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "130d520024b418f437c9b9405e72d8243d0324fa320668a1ea04f688143e4fdf",
-    "generated_at": "2026-08-10T12:48:44.820063Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "fc835efcd59148a6c55a79bfaf641c9ff42f6e781c1244489b60fc2cc93d769a",
+    "generated_at": "2026-08-12T13:44:32.720709Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T13:44:32.720709Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "fc835efcd59148a6c55a79bfaf641c9ff42f6e781c1244489b60fc2cc93d769a",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

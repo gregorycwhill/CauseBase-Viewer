@@ -129,8 +129,11 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "The organisation’s website describes Accelerated Evolution - The Break Inc. as a volunteer-run, not-for-profit mental health and wellbeing recovery provider based in Victoria. The site states it runs small-group programs (limited to 16 participants) such as Mindfulness, Anger Management and Men’s and Women’s Relapse Prevention, and that it aims for a staff-to-participant ratio of about 1:4 “as funding allows.” The Break says its programs target recovery, reintegration and “full participation in society” for people of all backgrounds and lists specific issues it supports, including homelessness, unemployment, substance recovery, trauma, psychosomatic and psychological disorders, disability, physical ailments, isolation and loneliness. The website also describes delivery of an accredited government work-credit pathway: the Work & Development Permit scheme and arrangements to complete Work for the Dole for people over 55. The site includes participant testimonials, an invitation to apply for course placements, a Caulfield head office address (312–314 Hawthorn Road) and a contact number, and an acknowledgement of Traditional Custodians. The organisation states it evolved from a 2002 clinic in St Kilda East and gained charity status and accreditation in 2018.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "Accelerated Evolution - The Break Inc. is a volunteer-run not-for-profit based in Caulfield, Melbourne, Victoria, that provides mental health and wellbeing recovery programs. It runs small-group programs such as mindfulness, anger management and relapse prevention, with groups limited to 16 participants and an intended staffing ratio of about one staff member per four participants as funding allows. The Break delivers an accredited Work & Development Permit program and facilitates Work for the Dole arrangements for people over 55. It accepts course placements and offers program participation for people experiencing homelessness, unemployment, substance recovery, trauma, psychosomatic or psychological disorders, disability, isolation and loneliness. The organisation evolved from a clinic established in St Kilda East and lists a Caulfield head office.",
+  "summary_evidence_ids": [
+    "ev:web:87684571829:2026-08-10",
+    "ev:acnc:87684571829"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Runs small-group mental health and wellbeing recovery programs (Mindfulness; Anger Management; Relapse Prevention)",
@@ -536,7 +539,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/e0f09bad-3aaf-e811-a960-000d3ad24282/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-01-30",
       "effective_from": null,
       "effective_to": null,
@@ -1920,7 +1923,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/e0f09bad-3aaf-e811-a960-000d3ad24282/documents/48fa88dd-6d00-f111-8406-7ced8d33fdea",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-01-30",
       "effective_from": null,
       "effective_to": null,
@@ -2842,19 +2845,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "0637488a4a8857d5ceee297a344ae10ab5ed97b556b0d021f6aa2422c05db11a",
-    "generated_at": "2026-08-10T12:46:55.776940Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "8fc9e40ba6f6a283f55286b71166276b196f8fc353c76f251f1bf1bef3544994",
+    "generated_at": "2026-08-12T13:40:07.024347Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T13:40:07.024347Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "8fc9e40ba6f6a283f55286b71166276b196f8fc353c76f251f1bf1bef3544994",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

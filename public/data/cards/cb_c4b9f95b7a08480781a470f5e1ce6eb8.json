@@ -109,8 +109,11 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "Active Friends Limited (Active Friends) is an organisation listed on the ACNC Register and maintains a public website at activefriends.com.au. The homepage headline reads: \"Active Friends - Discover Connection, Confidence, and a Healthier You.\" CauseBase has no other descriptive material in this release (for example, programme descriptions, beneficiary lists, annual reports or detailed website content) that specifies the organisation’s concrete activities, service types, target beneficiary groups, participation modes or operating model. The only independently verifiable facts available to CauseBase in this release are the legal name, the website tagline and the organisation’s location in Western Australia.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "Active Friends Limited is an organisation registered in Western Australia. As of 10 August 2026 its website homepage displays the tagline “Active Friends - Discover Connection, Confidence, and a Healthier You.” CauseBase does not have sufficient descriptive evidence in this release to independently identify the organisation’s specific activities, service model or beneficiaries.",
+  "summary_evidence_ids": [
+    "ev:acnc:67679688638",
+    "ev:web:67679688638:2026-08-10"
+  ],
   "organisation_self_description": null,
   "activities": [],
   "activity_observations": [],
@@ -126,7 +129,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/2c0833b0-4c44-f011-877a-002248112f30/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-08-13",
       "effective_from": null,
       "effective_to": null,
@@ -396,19 +399,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.5",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "ae059184a864f145598a0fe8619af5b0c33efdb26bdecfe76c9ef40a1d28a5bf",
-    "generated_at": "2026-08-10T13:51:32.527786Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "fb2eba1adc2966f9b94da0f01fae17966bd5677d5167c49ea26ca7b04f874964",
+    "generated_at": "2026-08-12T14:09:59.846827Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T14:09:59.846827Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "fb2eba1adc2966f9b94da0f01fae17966bd5677d5167c49ea26ca7b04f874964",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

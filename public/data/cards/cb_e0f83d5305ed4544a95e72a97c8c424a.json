@@ -133,8 +133,11 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "Angel Gowns Australia Incorporated is a volunteer-run charity that repurposes donated wedding and evening-wear fabrics into garments and related items for bereaved families, hospitals and funeral homes. The organisation’s 2021 annual report states it had over 370 volunteers across all states and territories, organised seamstress, tutu-maker and de-constructor roles, and named a management committee and state coordinators. Program activity described in that report includes: handcrafting Angel Gown garments and micro-gowns; producing more than 60 tutus in the past 12 months using salvaged tulle (stock gifted to Ronald McDonald House Perth, Perth Children’s Hospital, Royal Children’s Hospital Melbourne and Women’s and Children’s Hospital Adelaide); creating an Early Loss Pouch for babies under 20 weeks; and fulfilling special requests (report lists specific gifts such as eight poem cards with crystals, multiple micro-gown/wrap packs and larger gowns). The report records the service being stocked by 211 hospitals and 102 funeral homes and notes logistics challenges during COVID (storage access, delivery delays with TOLL/AusPost). The organisation’s 2022–23 regulatory reporting shows revenue of AUD 14,107 and expenses of AUD 23,383.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "Angel Gowns Australia Incorporated is a volunteer-run Australian not-for-profit that handcrafts and distributes garments made from donated wedding dresses. It supplies Angel Gown garments and smaller micro-gowns, tutus made from salvaged tulle, and Early Loss Pouches to hospitals, funeral homes and directly to families. Volunteers act as seamstresses, tutu makers, de‑constructors and coordinators; the charity also manages logistics, storage, special garment requests and a database to coordinate supply. Angel Gowns Australia reports nationwide activity and volunteer membership, and its 2020–21 annual report states it was servicing 211 hospitals and 102 funeral homes across Australia.",
+  "summary_evidence_ids": [
+    "ev:report:32590616129:3a9518409a8d",
+    "ev:web:32590616129:2026-08-10"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Handcrafting Angel Gown garments and micro-gowns from donated wedding dresses and donating them to hospitals, funeral homes and families",
@@ -317,7 +320,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/5ea57b44-3aaf-e811-a961-000d3ad24182/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2025-10-06",
       "effective_from": null,
       "effective_to": null,
@@ -1313,7 +1316,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/5ea57b44-3aaf-e811-a961-000d3ad24182/documents/15636c5f-6aa2-f011-bbd2-7ced8d32de18",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2025-10-06",
       "effective_from": null,
       "effective_to": null,
@@ -1775,7 +1778,7 @@
       "source_family": "organisation-report-extract",
       "dataset_version": "2026-08-14-private-extraction",
       "source_url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/5ea57b44-3aaf-e811-a961-000d3ad24182-ff06b113-fed2-404f-953c-da0e57e613d8-Annual%20Report-690f69ba-6ba2-f011-bbd2-6045bdc40aa5-Annual_Report_2025_Final_Sept_1st.docx",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-08-13",
       "effective_from": null,
       "effective_to": null,
@@ -2125,19 +2128,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "898c871d1347e74d1fc00be81b7cc7126afd8017f93ad335a7c895d1f4d682e6",
-    "generated_at": "2026-08-10T12:56:52.060325Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "5db9e51223881d8add1e1f5a9705403406f8ec835664f0ab4809e4009c8263eb",
+    "generated_at": "2026-08-12T14:05:59.806552Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T14:05:59.806552Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "5db9e51223881d8add1e1f5a9705403406f8ec835664f0ab4809e4009c8263eb",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

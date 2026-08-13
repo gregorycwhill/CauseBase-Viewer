@@ -113,8 +113,11 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "Backyard Ministries Incorporated is registered with the Australian Charities and Not-for-profits Commission under the legal and display name Backyard Ministries Incorporated and is recorded as operating in the Australian Capital Territory (ACT). The available ACNC Annual Information Statement for the reporting year 01/07/2022 to 30/06/2023 shows total revenue of AUD 129,198 and total expenses of AUD 103,761 for that period. The AIS extract and ACNC register entry provide these financial figures but do not describe programs, services, specific activities, or beneficiary groups. The organisation’s website retrieval was recorded as failed in the evidence pack, and no annual report or other descriptive material was processed. The AIS extract does not indicate whether the financial figures are consolidated with other entities. The public regulatory records in the evidence pack therefore identify the organisation’s name, location (ACT) and high-level financials for 2022–23 but do not supply concrete information about what the organisation does, who it serves, or how people can take part in its work.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "Backyard Ministries Incorporated is a registered charity located in the Australian Capital Territory. The organisation appears on the Australian Charities and Not‑for‑profits Commission register and lodged an Annual Information Statement covering the year 1 July 2022 to 30 June 2023. CauseBase does not have sufficient descriptive evidence in this release to independently identify the organisation's specific activities, programs or intended beneficiaries. Additional public materials (for example a website, published annual report or program descriptions) would be needed to describe the concrete work Backyard Ministries undertakes and who it serves.",
+  "summary_evidence_ids": [
+    "ev:acnc:50798979881",
+    "ev:ais:50798979881:2023"
+  ],
   "organisation_self_description": null,
   "activities": [],
   "activity_observations": [],
@@ -181,7 +184,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/167fe4a8-38af-e811-a962-000d3ad24a0d/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2025-06-22",
       "effective_from": null,
       "effective_to": null,
@@ -957,7 +960,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/167fe4a8-38af-e811-a962-000d3ad24a0d/documents/4cafc6dc-614f-f011-877b-6045bdc235e4",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2025-06-22",
       "effective_from": null,
       "effective_to": null,
@@ -1525,19 +1528,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "0664b9ab7263f60016f42b9b5525e28c24392202947bf46db15cf2aac058a29a",
-    "generated_at": "2026-08-10T12:48:47.016262Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "04529a1b3da40ed4525892e7b0795f01ba895d12ec2daebe23daed52088ec76f",
+    "generated_at": "2026-08-12T13:44:48.624568Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T13:44:48.624568Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "04529a1b3da40ed4525892e7b0795f01ba895d12ec2daebe23daed52088ec76f",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

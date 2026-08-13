@@ -129,8 +129,11 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "Australian Philanthropic Services Limited (APS), registered in New South Wales, features website content and client-facing activity related to philanthropy and environmental topics. Website excerpts describe a “Marine Conservation client event” that explored opportunities and challenges facing oceans, research and conservation efforts, and “where philanthropy can make the greatest difference.” The site also includes a page titled “Should I set up a giving fund or donate directly to charity?” that presents questions about choosing a giving structure. APS published a governance note announcing the appointment of Lisa George to its board in July 2026. The ACNC AIS extract for the 2022–23 financial year (1 July 2022 to 30 June 2023) reports revenue of AUD 6,286,742 and total expenses of AUD 7,542,032. Publicly available evidence for APS in this package consists of brief website excerpts and the ACNC AIS financial figures; the material documents events, web content and a board appointment but does not provide detailed program descriptions, service delivery methods, or staff and volunteer numbers.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "Australian Philanthropic Services Limited is a philanthropic services organisation operating in New South Wales and Australia (information current to 2026). It runs client events that have included a Marine Conservation session exploring research, conservation efforts and philanthropic opportunities; it publishes website content aimed at donors and prospective donors comparing giving fund structures with direct giving; and it posts public governance announcements such as board appointments. The organisation’s public material presents donors and prospective donors as an audience for guidance on giving structures and notes marine wildlife as a topic of its conservation-focused event. CauseBase does not use these items to infer broader program delivery beyond these stated activities and communications.",
+  "summary_evidence_ids": [
+    "ev:web:99155905829:2026-08-10",
+    "ev:ais:99155905829:2023"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Runs client events on marine conservation and philanthropy",
@@ -211,7 +214,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/a86168b9-38af-e811-a95e-000d3ad24c60/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-01-28",
       "effective_from": null,
       "effective_to": null,
@@ -921,7 +924,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/a86168b9-38af-e811-a95e-000d3ad24c60/documents/40f21162-8c85-f111-ab0e-000d3ad27d82",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-01-28",
       "effective_from": null,
       "effective_to": null,
@@ -1513,19 +1516,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "7baf89abd93f23b3847ad80cfaae24f7d8185c8357a62306d60f37b1b33cc302",
-    "generated_at": "2026-08-10T12:50:38.708737Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "26e48c55a5989d785a8bfb061c9d6908d263e40f5caa2fa805c9effaef46c2e3",
+    "generated_at": "2026-08-12T13:49:29.744561Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T13:49:29.744561Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "26e48c55a5989d785a8bfb061c9d6908d263e40f5caa2fa805c9effaef46c2e3",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

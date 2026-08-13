@@ -113,8 +113,12 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "Catholic Missions (legal name) is recorded in the supplied regulatory extracts and is associated in the data with a mobile Facebook URL for a page titled ‘Holy Family Karama’. The structured geography field in the evidence package lists Northern Territory (NT). An ACNC/AIS extract from 2023 is included as a direct subject report and in that extract the reported revenue and total expenses are both AUD 0; the extract does not indicate consolidation status. A supplied snapshot of the organisation website URL shows a Facebook login/redirect and an error message saying Facebook is not available on the browser; the public content of the Facebook page was not accessible from the supplied link. The evidence package contains no organisation-authored descriptive text, no structured activity entries, no listed beneficiaries and no participation details. Known coverage metadata notes regulatory and financial evidence observed and that annual report and fundraising-expenditure coverage have not yet been processed. The publicly supplied materials do not describe concrete programs, locations of activity within NT, beneficiary groups, governance or staffing.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "Catholic Missions is recorded as a charitable organisation operating in the Northern Territory (NT), Australia. CauseBase does not have sufficient descriptive evidence in this release to independently identify the specific activities the organisation undertakes, the people or groups it serves, or how the public can participate. Available records for this release include an ACNC register extract, an ACNC information statement (AIS) for 2023, and a linked Facebook page that was not accessible in the captured snapshot.",
+  "summary_evidence_ids": [
+    "ev:acnc:30797398790",
+    "ev:web:30797398790:2026-08-10",
+    "ev:ais:30797398790:2023"
+  ],
   "organisation_self_description": null,
   "activities": [],
   "activity_observations": [],
@@ -149,7 +153,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/5306affc-39af-e811-a963-000d3ad244fd/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-01-30",
       "effective_from": null,
       "effective_to": null,
@@ -698,7 +702,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/5306affc-39af-e811-a963-000d3ad244fd/documents/6432baee-b5fd-f011-8406-0022489549a2",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-01-30",
       "effective_from": null,
       "effective_to": null,
@@ -1201,19 +1205,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "bebf5a6e64ccaacb0a7f8145f2536946ac556399397c0cdeb9490dea1c6229fa",
-    "generated_at": "2026-08-10T12:51:06.295952Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "03a2fa0e74b1ca35e26ac48d2700b15276acb78cf892cad2294daf21363d9fb7",
+    "generated_at": "2026-08-12T13:51:27.916582Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T13:51:27.916582Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "03a2fa0e74b1ca35e26ac48d2700b15276acb78cf892cad2294daf21363d9fb7",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

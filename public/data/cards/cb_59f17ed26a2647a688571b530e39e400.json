@@ -115,8 +115,11 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "Ariah Park Show Society Inc is listed on the Australian Charities and Not-for-profits Commission (ACNC) register with a structured location of New South Wales (NSW). The only detailed document provided in the evidence pack is the ACNC Annual Information Statement (AIS) extract for the reporting period 01/07/2022 to 30/06/2023. For that period the AIS records total revenue of AUD 18,799 and total expenses of AUD 44,870. Within the supplied extracts there are no program descriptions, lists of services, named beneficiaries or participation mechanisms. The material does not include a website or other public-facing communications in the evidence pack. The financial figures in the AIS show expenses exceeded revenue in the reported year by AUD 26,071. The ACNC register extract and the AIS are the sources for the statements above; the organisation’s own descriptions beyond those filings were not included in the provided evidence.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "Ariah Park Show Society Inc is an incorporated community organisation registered with the Australian Charities and Not-for-profits Commission and located in New South Wales (NSW). The organisation filed an Annual Information Statement covering 01/07/2022 to 30/06/2023. CauseBase does not have sufficient descriptive evidence in this release to independently identify the society's specific activities, programs, participation modes or intended beneficiaries.",
+  "summary_evidence_ids": [
+    "ev:acnc:36661209143",
+    "ev:ais:36661209143:2023"
+  ],
   "organisation_self_description": null,
   "activities": [],
   "activity_observations": [],
@@ -150,7 +153,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/f4fc8357-39af-e811-a960-000d3ad24282/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2025-11-01",
       "effective_from": null,
       "effective_to": null,
@@ -778,7 +781,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/f4fc8357-39af-e811-a960-000d3ad24282/documents/397b8f31-75b7-f011-bbd3-6045bde67d52",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2025-11-01",
       "effective_from": null,
       "effective_to": null,
@@ -1259,19 +1262,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "cf210bc191547080d8fa75dd8cacc6092007fbbce20fc12a06a44801607940ba",
-    "generated_at": "2026-08-10T12:56:28.812470Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "16bdf4a9a6c586b1b7ada155550d37915f89ccc5d3a70fe067c643844bf3fe3e",
+    "generated_at": "2026-08-12T14:04:32.011186Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T14:04:32.011186Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "16bdf4a9a6c586b1b7ada155550d37915f89ccc5d3a70fe067c643844bf3fe3e",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

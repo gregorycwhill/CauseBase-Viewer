@@ -129,8 +129,11 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "Australian Indigenous Governance Institute Limited (AIGI) is described on its website as an Indigenous‑led centre for governance knowledge and professional development. The site states AIGI “connects Indigenous Australians to world‑class governance practice, resources and professional development” and hosts an online library of practical resources for Indigenous organisations (examples dated 2012–2025). AIGI lists recurring professional development activities: public events and workshop series (examples titled “Leading from the Chair”, “Running Effective and Culturally Respectful meeting”, and “Plan and Prep for your meetings” with dates in 2026), the Indigenous Governance Awards, and tailored professional development designed with client organisations. The website also offers governance reviews described as “comprehensive and independent” advisory services. The organisation’s 2022–23 ACNC AIS report records revenue of AUD 1,599,914 and total expenses of AUD 1,534,271 for the year ending 30 June 2023. The website includes statements about supporting self‑determination and bringing Indigenous ways of thinking to mainstream governance; these are presented as the organisation’s claims.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "Australian Indigenous Governance Institute Limited (AIGI) is an Indigenous-led not-for-profit that supports governance among Indigenous peoples and organisations. Registered in Queensland, AIGI works with Indigenous Australians across the country. Its core activities include maintaining an extensive online library of practical governance resources, running public professional-development events (for example Leading from the Chair and Meeting Management series), designing and delivering tailored training with client organisations, conducting comprehensive governance reviews and advisory engagements, and administering the Indigenous Governance Awards. AIGI describes its approach as working alongside Indigenous peoples to align governance practice with cultural legitimacy and self-determination.",
+  "summary_evidence_ids": [
+    "ev:web:87158627386:2026-08-10",
+    "ev:ais:87158627386:2023"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Provision of online governance resources for Indigenous organisations",
@@ -230,7 +233,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/af4778db-39af-e811-a95e-000d3ad24c60/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-01-27",
       "effective_from": null,
       "effective_to": null,
@@ -1032,7 +1035,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/af4778db-39af-e811-a95e-000d3ad24c60/documents/6b1142a4-4efb-f011-8406-6045bdc47a8f",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-01-27",
       "effective_from": null,
       "effective_to": null,
@@ -1601,19 +1604,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "c9b473e153b5b8db5a69d76be6e3dedc06abf0e31e65ee79518c1e36ed2417cf",
-    "generated_at": "2026-08-10T12:53:48.977663Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "87c6fc473e07a191367898e69219758feb62b75b576d71326357cba1bf5265a4",
+    "generated_at": "2026-08-12T13:56:11.086751Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T13:56:11.086751Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "87c6fc473e07a191367898e69219758feb62b75b576d71326357cba1bf5265a4",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

@@ -109,8 +109,10 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "Boorhaman And District Landcare Group Inc is recorded by an ACNC Register extract (observed 2026-08-10) under the legal name Boorhaman And District Landcare Group Inc. The only geographic detail in the supplied records is Victoria (VIC). The evidence pack contains the ACNC regulatory entry but no website, no processed annual report, and no financial records available from the supplied sources. The ACNC extract as provided does not specify the group’s activities, who it serves, how it operates, or modes of participation. The supplied coverage notes list the ACNC entry as observed and other document types (annual report, website, financials) as not available or not yet processed.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "Boorhaman And District Landcare Group Inc is an incorporated community landcare group based in Victoria, Australia. The supplied ACNC register extract records the organisation name and Victoria as its location but includes no website, program descriptions or other descriptive material in this release. CauseBase does not have sufficient descriptive evidence in this release to independently identify specific activities, projects, beneficiaries or participation modes for this organisation. Where present, local landcare groups typically undertake activities such as on-ground environmental work, education and volunteer coordination, but those activities are not documented in the supplied evidence and are not attributed to this organisation in this summary.",
+  "summary_evidence_ids": [
+    "ev:acnc:58421528146"
+  ],
   "organisation_self_description": null,
   "activities": [],
   "activity_observations": [],
@@ -126,7 +128,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/2bd9e0c9-1761-f011-bec2-002248971dfc/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-08-13",
       "effective_from": null,
       "effective_to": null,
@@ -403,19 +405,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "5667c804cf95531d51f07d9d4b19fff39c3b4d53f225c2537bdd93fb20ab8530",
-    "generated_at": "2026-08-10T13:01:47.251356Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "958bc361592797d938c669c7307917996f947ee7c66d8f3d5511394cd9b97ce5",
+    "generated_at": "2026-08-12T14:18:04.678090Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T14:18:04.678090Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "958bc361592797d938c669c7307917996f947ee7c66d8f3d5511394cd9b97ce5",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }
