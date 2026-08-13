@@ -134,7 +134,44 @@
   "participation_modes": [],
   "participation_observations": [],
   "opportunities": [],
-  "programs": [],
+  "programs": [
+    {
+      "program_id": "prg:acnc:67575837755:2de457df-c7bc-ef11-a72f-000d3ad17a98",
+      "name": "Baptisms, Weddings, Funerals",
+      "description": "Christianity",
+      "beneficiaries": [
+        "Families",
+        "Veterans and/or their families"
+      ],
+      "geography": [
+        "RMC Chapel, Campbell ACT, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2024",
+      "source_url": "https://www.acnc.gov.au/charity/charities/1e7dff46-39af-e811-a961-000d3ad24182/documents/21e457df-c7bc-ef11-a72f-000d3ad17a98",
+      "evidence_ids": [
+        "ev:acnc:ais:67575837755:2024"
+      ]
+    },
+    {
+      "program_id": "prg:acnc:67575837755:36e457df-c7bc-ef11-a72f-000d3ad17a98",
+      "name": "Church Services",
+      "description": "Christianity",
+      "beneficiaries": [
+        "Families",
+        "Veterans and/or their families"
+      ],
+      "geography": [
+        "RMC Chapel, Campbell ACT, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2024",
+      "source_url": "https://www.acnc.gov.au/charity/charities/1e7dff46-39af-e811-a961-000d3ad24182/documents/21e457df-c7bc-ef11-a72f-000d3ad17a98",
+      "evidence_ids": [
+        "ev:acnc:ais:67575837755:2024"
+      ]
+    }
+  ],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:cd87d41d-202a-5cd2-addf-10ab12e3f715",
@@ -198,7 +235,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-13-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/1e7dff46-39af-e811-a961-000d3ad24182/profile",
-      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "retrieved_at": "2026-08-13T05:50:58.991012Z",
       "observed_at": "2024-12-17",
       "effective_from": null,
       "effective_to": null,
@@ -919,7 +956,7 @@
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
     "source_text_hash": "dc3c96879717e4c677092aae6f0f19a3b73163a6772d4139160305673ddae18e",
-    "generated_at": "2026-08-13T00:32:18.620701Z",
+    "generated_at": "2026-08-13T05:51:03.014253Z",
     "vector_ref": "embeddings.parquet#cb_6f5a9298e0474c4ebdfd55968fd61f0c"
   },
   "synthesis": {
@@ -994,5 +1031,5 @@
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
   "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T00:32:15.698599Z"
+  "built_at": "2026-08-13T05:50:58.991012Z"
 }

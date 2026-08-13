@@ -152,7 +152,31 @@
   ],
   "participation_observations": [],
   "opportunities": [],
-  "programs": [],
+  "programs": [
+    {
+      "program_id": "prg:acnc:28287305180:3b2ef1ea-5347-f111-bec7-6045bde5b920",
+      "name": "camps",
+      "description": "Christianity",
+      "beneficiaries": [
+        "Children - aged 6 to under 15",
+        "Youth - 15 to under 25",
+        "People in rural/regional/remote communities",
+        "Financially disadvantaged people",
+        "Females",
+        "Males",
+        "Other - Children in foster care"
+      ],
+      "geography": [
+        "Tasmania, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "https://www.acnc.gov.au/charity/charities/141aa5d0-dc3f-ee11-bdf4-00224893b8c7/documents/f72df1ea-5347-f111-bec7-6045bde5b920",
+      "evidence_ids": [
+        "ev:acnc:ais:28287305180:2025"
+      ]
+    }
+  ],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:8e60ccd8-bf94-5abf-92cc-b31058cf2d34",
@@ -187,7 +211,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-13-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/141aa5d0-dc3f-ee11-bdf4-00224893b8c7/profile",
-      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "retrieved_at": "2026-08-13T05:50:58.991012Z",
       "observed_at": "2026-05-04",
       "effective_from": null,
       "effective_to": null,
@@ -642,7 +666,7 @@
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
     "source_text_hash": "e968877965100ebff89285b470035c8a216b5e60229ade2f3ca6c0dd245dd6b5",
-    "generated_at": "2026-08-13T00:32:18.621042Z",
+    "generated_at": "2026-08-13T05:51:03.014561Z",
     "vector_ref": "embeddings.parquet#cb_73a3745783b14690b17f97c648789ee4"
   },
   "synthesis": {
@@ -717,5 +741,5 @@
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
   "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T00:32:15.698599Z"
+  "built_at": "2026-08-13T05:50:58.991012Z"
 }

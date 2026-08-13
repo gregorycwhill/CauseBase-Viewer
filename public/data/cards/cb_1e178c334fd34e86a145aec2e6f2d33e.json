@@ -142,7 +142,28 @@
   "participation_modes": [],
   "participation_observations": [],
   "opportunities": [],
-  "programs": [],
+  "programs": [
+    {
+      "program_id": "prg:acnc:17855693573:a05b325c-f420-f111-8341-6045bde5b22a",
+      "name": "Meditation Classes",
+      "description": "Buddhism",
+      "beneficiaries": [
+        "Children - aged 6 to under 15",
+        "Youth - 15 to under 25",
+        "Adults - aged 25 to under 65",
+        "Adults - aged 65 and over"
+      ],
+      "geography": [
+        "Glen Iris VIC, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "https://chungtai.org.au/en/",
+      "evidence_ids": [
+        "ev:acnc:ais:17855693573:2025"
+      ]
+    }
+  ],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:6bf7d3bd-e760-53ec-96be-e49a9b9e09ee",
@@ -206,7 +227,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-13-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/0186f520-39af-e811-a95e-000d3ad24c60/profile",
-      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "retrieved_at": "2026-08-13T05:50:58.991012Z",
       "observed_at": "2026-03-16",
       "effective_from": null,
       "effective_to": null,
@@ -1078,7 +1099,7 @@
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
     "source_text_hash": "c005455c117ab18f3bee4a65ac1089840165c1ccfab1913b170c613174044993",
-    "generated_at": "2026-08-13T00:32:18.620367Z",
+    "generated_at": "2026-08-13T05:51:03.013939Z",
     "vector_ref": "embeddings.parquet#cb_1e178c334fd34e86a145aec2e6f2d33e"
   },
   "synthesis": {
@@ -1153,5 +1174,5 @@
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
   "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T00:32:15.698599Z"
+  "built_at": "2026-08-13T05:50:58.991012Z"
 }

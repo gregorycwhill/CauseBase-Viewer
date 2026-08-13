@@ -157,7 +157,66 @@
   ],
   "participation_observations": [],
   "opportunities": [],
-  "programs": [],
+  "programs": [
+    {
+      "program_id": "prg:acnc:82136720784:eee3c624-29fe-f011-8407-6045bdc47a8f",
+      "name": "Foster Program",
+      "description": "Animal welfare",
+      "beneficiaries": [
+        "Animals"
+      ],
+      "geography": [
+        "Melbourne VIC, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "https://projectunderdogrescue.org.au/foster/",
+      "evidence_ids": [
+        "ev:acnc:ais:82136720784:2025"
+      ]
+    },
+    {
+      "program_id": "prg:acnc:82136720784:fce3c624-29fe-f011-8407-6045bdc47a8f",
+      "name": "Veterinary Care",
+      "description": "Veterinary medicine",
+      "beneficiaries": [
+        "Animals"
+      ],
+      "geography": [
+        "Melbourne VIC, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "https://www.acnc.gov.au/charity/charities/2b21c361-3aaf-e811-a95e-000d3ad24c60/documents/c9e3c624-29fe-f011-8407-6045bdc47a8f",
+      "evidence_ids": [
+        "ev:acnc:ais:82136720784:2025"
+      ]
+    },
+    {
+      "program_id": "prg:acnc:82136720784:03e4c624-29fe-f011-8407-6045bdc47a8f",
+      "name": "Outreach Programs",
+      "description": "Animal welfare",
+      "beneficiaries": [
+        "Financially disadvantaged people",
+        "People at risk of homelessness/ people experiencing homelessness",
+        "People with chronic illness (including terminal illness)",
+        "People with disabilities",
+        "Unemployed persons",
+        "Victims of crime (including family violence)",
+        "Victims of disaster",
+        "Animals"
+      ],
+      "geography": [
+        "Melbourne VIC, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "https://www.acnc.gov.au/charity/charities/2b21c361-3aaf-e811-a95e-000d3ad24c60/documents/c9e3c624-29fe-f011-8407-6045bdc47a8f",
+      "evidence_ids": [
+        "ev:acnc:ais:82136720784:2025"
+      ]
+    }
+  ],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:8a371ce3-f7ed-51c1-8760-37b01a816353",
@@ -221,7 +280,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-13-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/2b21c361-3aaf-e811-a95e-000d3ad24c60/profile",
-      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "retrieved_at": "2026-08-13T05:50:58.991012Z",
       "observed_at": "2026-01-30",
       "effective_from": null,
       "effective_to": null,
@@ -1216,7 +1275,7 @@
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
     "source_text_hash": "2aac0845fda989553fe8d1435106466b680d6f89e8092f1597ebf55ba4886d94",
-    "generated_at": "2026-08-13T00:32:18.621007Z",
+    "generated_at": "2026-08-13T05:51:03.014527Z",
     "vector_ref": "embeddings.parquet#cb_f2e7f36fef5d4a788b3280d0830ee21b"
   },
   "synthesis": {
@@ -1291,5 +1350,5 @@
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
   "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T00:32:15.698599Z"
+  "built_at": "2026-08-13T05:50:58.991012Z"
 }

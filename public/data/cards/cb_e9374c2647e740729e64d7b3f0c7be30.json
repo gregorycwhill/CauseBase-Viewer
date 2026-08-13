@@ -163,7 +163,131 @@
   ],
   "participation_observations": [],
   "opportunities": [],
-  "programs": [],
+  "programs": [
+    {
+      "program_id": "prg:acnc:34254826976:9e2d9790-398a-f111-ab0f-70a8a5547962",
+      "name": "TransMasc SA Binder Program",
+      "description": "Healthcare access",
+      "beneficiaries": [
+        "Youth - 15 to under 25",
+        "Financially disadvantaged people"
+      ],
+      "geography": [
+        "South Australia, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "https://www.saraa.org.au/community/binder-program/",
+      "evidence_ids": [
+        "ev:acnc:ais:34254826976:2025"
+      ]
+    },
+    {
+      "program_id": "prg:acnc:34254826976:b42d9790-398a-f111-ab0f-70a8a5547962",
+      "name": "Advocacy",
+      "description": "LGBTIQA+ rights",
+      "beneficiaries": [
+        "LGBTIQA+"
+      ],
+      "geography": [
+        "South Australia, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "https://www.saraa.org.au/advocacy/",
+      "evidence_ids": [
+        "ev:acnc:ais:34254826976:2025"
+      ]
+    },
+    {
+      "program_id": "prg:acnc:34254826976:c72d9790-398a-f111-ab0f-70a8a5547962",
+      "name": "Community capacity building",
+      "description": "Community development",
+      "beneficiaries": [
+        "LGBTIQA+"
+      ],
+      "geography": [
+        "South Australia, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "https://www.saraa.org.au/community/",
+      "evidence_ids": [
+        "ev:acnc:ais:34254826976:2025"
+      ]
+    },
+    {
+      "program_id": "prg:acnc:34254826976:e62d9790-398a-f111-ab0f-70a8a5547962",
+      "name": "Awareness & Inclusion",
+      "description": "Social inclusion",
+      "beneficiaries": [
+        "LGBTIQA+"
+      ],
+      "geography": [
+        "South Australia, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "https://www.saraa.org.au/awareness/",
+      "evidence_ids": [
+        "ev:acnc:ais:34254826976:2025"
+      ]
+    },
+    {
+      "program_id": "prg:acnc:34254826976:f72d9790-398a-f111-ab0f-70a8a5547962",
+      "name": "Representation",
+      "description": "Community celebration",
+      "beneficiaries": [
+        "LGBTIQA+"
+      ],
+      "geography": [
+        "South Australia, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "www.saraa.org.au",
+      "evidence_ids": [
+        "ev:acnc:ais:34254826976:2025"
+      ]
+    },
+    {
+      "program_id": "prg:acnc:34254826976:122e9790-398a-f111-ab0f-70a8a5547962",
+      "name": "LGBTIQA+ Youth Physical Activity",
+      "description": "Health promotion",
+      "beneficiaries": [
+        "Children - aged 6 to under 15",
+        "Youth - 15 to under 25",
+        "LGBTIQA+"
+      ],
+      "geography": [
+        "South Australia, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "https://www.saraa.org.au/rainbow-council-copy/",
+      "evidence_ids": [
+        "ev:acnc:ais:34254826976:2025"
+      ]
+    },
+    {
+      "program_id": "prg:acnc:34254826976:2c2e9790-398a-f111-ab0f-70a8a5547962",
+      "name": "Rainbow Council Network",
+      "description": "Health promotion",
+      "beneficiaries": [
+        "LGBTIQA+",
+        "People in rural/regional/remote communities"
+      ],
+      "geography": [
+        "South Australia, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "https://www.saraa.org.au/rainbow-council/",
+      "evidence_ids": [
+        "ev:acnc:ais:34254826976:2025"
+      ]
+    }
+  ],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:44bb8ed4-3e0f-5e74-a46a-7a216506ddd2",
@@ -227,7 +351,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-13-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/6be91704-bc0e-ec11-b6e5-00224810d203/profile",
-      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "retrieved_at": "2026-08-13T05:50:58.991012Z",
       "observed_at": "2026-01-30",
       "effective_from": null,
       "effective_to": null,
@@ -1145,7 +1269,7 @@
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
     "source_text_hash": "5db673da146df8140335202b6768c05a5d3e2aa0e44e067932f0336860c9e649",
-    "generated_at": "2026-08-13T00:32:18.620521Z",
+    "generated_at": "2026-08-13T05:51:03.014096Z",
     "vector_ref": "embeddings.parquet#cb_e9374c2647e740729e64d7b3f0c7be30"
   },
   "synthesis": {
@@ -1220,5 +1344,5 @@
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
   "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T00:32:15.698599Z"
+  "built_at": "2026-08-13T05:50:58.991012Z"
 }

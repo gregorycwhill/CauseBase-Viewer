@@ -170,7 +170,27 @@
   ],
   "participation_observations": [],
   "opportunities": [],
-  "programs": [],
+  "programs": [
+    {
+      "program_id": "prg:acnc:65152955667:d4771ede-4cf6-f011-8406-002248111f49",
+      "name": "Regional Australia Council",
+      "description": "Rural development",
+      "beneficiaries": [
+        "Families",
+        "People in rural/regional/remote communities",
+        "General community in Australia"
+      ],
+      "geography": [
+        "Canberra ACT, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "https://www.acnc.gov.au/charity/charities/34568a6a-38af-e811-a960-000d3ad24282/documents/a1771ede-4cf6-f011-8406-002248111f49",
+      "evidence_ids": [
+        "ev:acnc:ais:65152955667:2025"
+      ]
+    }
+  ],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:e2969f22-0fc4-593b-8e10-fb44584c303b",
@@ -234,7 +254,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-13-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/34568a6a-38af-e811-a960-000d3ad24282/profile",
-      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "retrieved_at": "2026-08-13T05:50:58.991012Z",
       "observed_at": "2026-01-20",
       "effective_from": null,
       "effective_to": null,
@@ -1195,7 +1215,7 @@
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
     "source_text_hash": "da57bc71217d56659e1db11663c08a7805dcbfeb00203d6541fe109fb7ce5939",
-    "generated_at": "2026-08-13T00:32:18.622537Z",
+    "generated_at": "2026-08-13T05:51:03.016016Z",
     "vector_ref": "embeddings.parquet#cb_a2d89c0e74cc496ab0070a9adbe7df19"
   },
   "synthesis": {
@@ -1270,5 +1290,5 @@
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
   "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T00:32:15.698599Z"
+  "built_at": "2026-08-13T05:50:58.991012Z"
 }

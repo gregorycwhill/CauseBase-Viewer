@@ -163,7 +163,30 @@
   ],
   "participation_observations": [],
   "opportunities": [],
-  "programs": [],
+  "programs": [
+    {
+      "program_id": "prg:acnc:49929713439:a0c04e7b-be3a-f111-88b5-002248111f49",
+      "name": "Public Welfare",
+      "description": "Public policy",
+      "beneficiaries": [
+        "Families",
+        "Adults - aged 65 and over",
+        "Adults - aged 25 to under 65",
+        "Males",
+        "Females",
+        "Veterans and/or their families"
+      ],
+      "geography": [
+        "Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "https://dfwa.org.au/",
+      "evidence_ids": [
+        "ev:acnc:ais:49929713439:2025"
+      ]
+    }
+  ],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:b7c90a65-7c58-58c3-b44b-b5d302dbf937",
@@ -227,7 +250,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-13-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/a46b8058-38af-e811-a963-000d3ad244fd/profile",
-      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "retrieved_at": "2026-08-13T05:50:58.991012Z",
       "observed_at": "2026-04-18",
       "effective_from": null,
       "effective_to": null,
@@ -1093,7 +1116,7 @@
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
     "source_text_hash": "7dcaab608e60bad47596df93f4f741b14ddc50e4736334c089be25307d1052da",
-    "generated_at": "2026-08-13T00:32:18.622026Z",
+    "generated_at": "2026-08-13T05:51:03.015565Z",
     "vector_ref": "embeddings.parquet#cb_408c113ff48c4b4f91c7697b00b211dd"
   },
   "synthesis": {
@@ -1168,5 +1191,5 @@
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
   "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T00:32:15.698599Z"
+  "built_at": "2026-08-13T05:50:58.991012Z"
 }

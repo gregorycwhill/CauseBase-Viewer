@@ -134,7 +134,26 @@
   "participation_modes": [],
   "participation_observations": [],
   "opportunities": [],
-  "programs": [],
+  "programs": [
+    {
+      "program_id": "prg:acnc:91765078109:30c3859b-ecfb-f011-8406-002248111f49",
+      "name": "Aboriginal economic and business opportunities",
+      "description": "Business and industry",
+      "beneficiaries": [
+        "Youth - 15 to under 25",
+        "Aboriginal and Torres Strait Islander people"
+      ],
+      "geography": [
+        "Adelaide SA, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "https://www.acnc.gov.au/charity/charities/aae68eaf-38af-e811-a962-000d3ad24a0d/documents/1dc3859b-ecfb-f011-8406-002248111f49",
+      "evidence_ids": [
+        "ev:acnc:ais:91765078109:2025"
+      ]
+    }
+  ],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:c44234bc-0dc5-5091-b133-6fc8ca8e24b2",
@@ -198,7 +217,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-13-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/aae68eaf-38af-e811-a962-000d3ad24a0d/profile",
-      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "retrieved_at": "2026-08-13T05:50:58.991012Z",
       "observed_at": "2026-01-28",
       "effective_from": null,
       "effective_to": null,
@@ -991,7 +1010,7 @@
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
     "source_text_hash": "ed7ac5703ef2e184823a49117024ead8873e49f963cd737e68e34f4aff878502",
-    "generated_at": "2026-08-13T00:32:18.620814Z",
+    "generated_at": "2026-08-13T05:51:03.014358Z",
     "vector_ref": "embeddings.parquet#cb_bee158351bff46b8a2478fdae1442b4a"
   },
   "synthesis": {
@@ -1066,5 +1085,5 @@
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
   "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T00:32:15.698599Z"
+  "built_at": "2026-08-13T05:50:58.991012Z"
 }

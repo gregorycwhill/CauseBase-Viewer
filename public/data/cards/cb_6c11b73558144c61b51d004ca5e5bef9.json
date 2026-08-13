@@ -150,7 +150,26 @@
   "participation_modes": [],
   "participation_observations": [],
   "opportunities": [],
-  "programs": [],
+  "programs": [
+    {
+      "program_id": "prg:acnc:55631266601:6cd53e48-1acf-f011-8543-6045bde71f7e",
+      "name": "Funding Cancer Treatment and Related Services",
+      "description": "Diseases and conditions",
+      "beneficiaries": [
+        "People with chronic illness (including terminal illness)",
+        "Financially disadvantaged people"
+      ],
+      "geography": [
+        "Western Australia, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "https://www.acnc.gov.au/charity/charities/94f38ec4-b638-e911-a97b-000d3ad05ad0/documents/9bc74342-1acf-f011-8543-6045bde71f7e",
+      "evidence_ids": [
+        "ev:acnc:ais:55631266601:2025"
+      ]
+    }
+  ],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:81331c5e-f912-549a-b2af-64c95d1caa57",
@@ -214,7 +233,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-13-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/94f38ec4-b638-e911-a97b-000d3ad05ad0/profile",
-      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "retrieved_at": "2026-08-13T05:50:58.991012Z",
       "observed_at": "2025-12-02",
       "effective_from": null,
       "effective_to": null,
@@ -886,7 +905,7 @@
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
     "source_text_hash": "0f118711c5d07eba2c93d1a16d0d9c4b3699d5bb559c45a13516f064ab450ed1",
-    "generated_at": "2026-08-13T00:32:18.622842Z",
+    "generated_at": "2026-08-13T05:51:03.017338Z",
     "vector_ref": "embeddings.parquet#cb_6c11b73558144c61b51d004ca5e5bef9"
   },
   "synthesis": {
@@ -961,5 +980,5 @@
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
   "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T00:32:15.698599Z"
+  "built_at": "2026-08-13T05:50:58.991012Z"
 }

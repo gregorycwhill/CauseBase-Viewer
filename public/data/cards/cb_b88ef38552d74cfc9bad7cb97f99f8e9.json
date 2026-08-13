@@ -130,7 +130,34 @@
   "participation_modes": [],
   "participation_observations": [],
   "opportunities": [],
-  "programs": [],
+  "programs": [
+    {
+      "program_id": "prg:acnc:92259617291:447214ff-8fc6-f011-bbd3-000d3ad10b92",
+      "name": "Men's Shed Movement",
+      "description": "Community service organisations",
+      "beneficiaries": [
+        "People in rural/regional/remote communities",
+        "Financially disadvantaged people",
+        "People with chronic illness (including terminal illness)",
+        "People with disabilities",
+        "Veterans and/or their families",
+        "Females",
+        "Males",
+        "General community in Australia"
+      ],
+      "geography": [
+        "Greenbushes WA, Australia",
+        "Bridgetown WA, Australia",
+        "Balingup WA, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "https://www.acnc.gov.au/charity/charities/01f41616-8003-ee11-8f6e-00224893b304/documents/337214ff-8fc6-f011-bbd3-000d3ad10b92",
+      "evidence_ids": [
+        "ev:acnc:ais:92259617291:2025"
+      ]
+    }
+  ],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:d5268ffb-f1ef-5704-b7c1-bab67c6d8357",
@@ -165,7 +192,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-13-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/01f41616-8003-ee11-8f6e-00224893b304/profile",
-      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "retrieved_at": "2026-08-13T05:50:58.991012Z",
       "observed_at": "2025-11-21",
       "effective_from": null,
       "effective_to": null,
@@ -613,7 +640,7 @@
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
     "source_text_hash": "911532db00241c89eb774ac0094cdf35c20b65ca36bde2a827e648bc9c2f3d28",
-    "generated_at": "2026-08-13T00:32:18.621719Z",
+    "generated_at": "2026-08-13T05:51:03.015277Z",
     "vector_ref": "embeddings.parquet#cb_b88ef38552d74cfc9bad7cb97f99f8e9"
   },
   "synthesis": {
@@ -688,5 +715,5 @@
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
   "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T00:32:15.698599Z"
+  "built_at": "2026-08-13T05:50:58.991012Z"
 }

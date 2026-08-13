@@ -160,7 +160,26 @@
   ],
   "participation_observations": [],
   "opportunities": [],
-  "programs": [],
+  "programs": [
+    {
+      "program_id": "prg:acnc:92140312385:4a90c454-fa11-f111-8406-0022489549a2",
+      "name": "Aboriginal and Torres Strait Islander People",
+      "description": "Community development",
+      "beneficiaries": [
+        "People in rural/regional/remote communities",
+        "Aboriginal and Torres Strait Islander people"
+      ],
+      "geography": [
+        "Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "https://www.acnc.gov.au/charity/charities/80dbf4ea-38af-e811-a95e-000d3ad24c60/documents/73fcc44e-fa11-f111-8406-0022489549a2",
+      "evidence_ids": [
+        "ev:acnc:ais:92140312385:2025"
+      ]
+    }
+  ],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:8829014f-8c10-5c40-a6cd-9174d5169d01",
@@ -224,7 +243,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-13-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/80dbf4ea-38af-e811-a95e-000d3ad24c60/profile",
-      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "retrieved_at": "2026-08-13T05:50:58.991012Z",
       "observed_at": "2026-01-30",
       "effective_from": null,
       "effective_to": null,
@@ -1240,7 +1259,7 @@
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
     "source_text_hash": "9c22f4ee7be98b8ba6846fe5c42c6dac4eed28eadfeab5e8a5281e34635a719f",
-    "generated_at": "2026-08-13T00:32:18.622402Z",
+    "generated_at": "2026-08-13T05:51:03.015908Z",
     "vector_ref": "embeddings.parquet#cb_d9b82b997407475d8d30e4535bb0375f"
   },
   "synthesis": {
@@ -1315,5 +1334,5 @@
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
   "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T00:32:15.698599Z"
+  "built_at": "2026-08-13T05:50:58.991012Z"
 }

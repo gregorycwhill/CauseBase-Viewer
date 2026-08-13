@@ -125,7 +125,29 @@
   "participation_modes": [],
   "participation_observations": [],
   "opportunities": [],
-  "programs": [],
+  "programs": [
+    {
+      "program_id": "prg:acnc:15602302867:eb454adb-ae13-f111-8407-6045bde523ce",
+      "name": "Religious / Humanitarian Activities",
+      "description": "Christianity",
+      "beneficiaries": [
+        "Families",
+        "People from a culturally and linguistically diverse background",
+        "People in rural/regional/remote communities",
+        "Financially disadvantaged people",
+        "Overseas communities or charities"
+      ],
+      "geography": [
+        "Burpengary QLD, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "https://www.acnc.gov.au/charity/charities/a5d2a650-3aaf-e811-a961-000d3ad24182/documents/c5454adb-ae13-f111-8407-6045bde523ce",
+      "evidence_ids": [
+        "ev:acnc:ais:15602302867:2025"
+      ]
+    }
+  ],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:78345d15-c83a-5c11-a0c4-9b92907e4889",
@@ -189,7 +211,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-13-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/a5d2a650-3aaf-e811-a961-000d3ad24182/profile",
-      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "retrieved_at": "2026-08-13T05:50:58.991012Z",
       "observed_at": "2026-02-27",
       "effective_from": null,
       "effective_to": null,
@@ -974,7 +996,7 @@
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
     "source_text_hash": "f8b352a2eba3b274698821d2d81ce6fafe50023f486702a46745763bccd7b865",
-    "generated_at": "2026-08-13T00:32:18.620257Z",
+    "generated_at": "2026-08-13T05:51:03.013825Z",
     "vector_ref": "embeddings.parquet#cb_9189b95844484dc0afb6cd57cd6e1507"
   },
   "synthesis": {
@@ -1049,5 +1071,5 @@
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
   "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T00:32:15.698599Z"
+  "built_at": "2026-08-13T05:50:58.991012Z"
 }

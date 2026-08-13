@@ -132,7 +132,26 @@
   "participation_modes": [],
   "participation_observations": [],
   "opportunities": [],
-  "programs": [],
+  "programs": [
+    {
+      "program_id": "prg:acnc:68180228511:fc8561c0-fb9c-f011-bbd2-6045bdc40aa5",
+      "name": "Wildlife welfare",
+      "description": "Wildlife welfare",
+      "beneficiaries": [
+        "Animals",
+        "Environment"
+      ],
+      "geography": [
+        "Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "https://www.acnc.gov.au/charity/charities/e2035a3b-3aaf-e811-a963-000d3ad244fd/documents/4c0d69ba-fb9c-f011-bbd2-6045bdc40aa5",
+      "evidence_ids": [
+        "ev:acnc:ais:68180228511:2025"
+      ]
+    }
+  ],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:e603f2e1-9903-5d8a-9c01-d03761b7c7d2",
@@ -196,7 +215,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-13-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/e2035a3b-3aaf-e811-a963-000d3ad244fd/profile",
-      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "retrieved_at": "2026-08-13T05:50:58.991012Z",
       "observed_at": "2025-09-29",
       "effective_from": null,
       "effective_to": null,
@@ -979,7 +998,7 @@
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
     "source_text_hash": "5780744c81b2aad0cf4e8fe8a2a8d6948c993e9456b8d58b7f235814f624bd2b",
-    "generated_at": "2026-08-13T00:32:18.624690Z",
+    "generated_at": "2026-08-13T05:51:03.018900Z",
     "vector_ref": "embeddings.parquet#cb_caea0e5566cc45bc810552f5483594ef"
   },
   "synthesis": {
@@ -1054,5 +1073,5 @@
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
   "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T00:32:15.698599Z"
+  "built_at": "2026-08-13T05:50:58.991012Z"
 }

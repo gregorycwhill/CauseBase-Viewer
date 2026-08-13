@@ -166,7 +166,79 @@
   ],
   "participation_observations": [],
   "opportunities": [],
-  "programs": [],
+  "programs": [
+    {
+      "program_id": "prg:acnc:16055396731:510c12e7-f6fb-f011-8406-00224891bae2",
+      "name": "Subsidised Desexing Program",
+      "description": "Animal population control",
+      "beneficiaries": [
+        "Aboriginal and Torres Strait Islander people",
+        "People in rural/regional/remote communities",
+        "Financially disadvantaged people",
+        "People at risk of homelessness/ people experiencing homelessness",
+        "People with chronic illness (including terminal illness)",
+        "Unemployed persons",
+        "Victims of crime (including family violence)",
+        "Victims of disaster"
+      ],
+      "geography": [
+        "Ballina NSW, Australia",
+        "Lismore NSW, Australia",
+        "Alstonville NSW, Australia",
+        "Casino NSW, Australia",
+        "Lennox Head NSW, Australia",
+        "Byron Bay NSW, Australia",
+        "Wardell NSW, Australia",
+        "Wollongbar NSW, Australia",
+        "Coraki NSW, Australia",
+        "Suffolk Park NSW, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "www.nras.org.au",
+      "evidence_ids": [
+        "ev:acnc:ais:16055396731:2025"
+      ]
+    },
+    {
+      "program_id": "prg:acnc:16055396731:6d480fed-f6fb-f011-8406-00224891bae2",
+      "name": "Adoption of animals",
+      "description": "Animal adoptions",
+      "beneficiaries": [
+        "Animals",
+        "General community in Australia"
+      ],
+      "geography": [
+        "Ballina NSW, Australia",
+        "Alstonville NSW, Australia",
+        "Lismore NSW, Australia",
+        "Casino NSW, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "https://www.acnc.gov.au/charity/charities/e4b4c3a1-38af-e811-a961-000d3ad24182/documents/640b12e7-f6fb-f011-8406-00224891bae2",
+      "evidence_ids": [
+        "ev:acnc:ais:16055396731:2025"
+      ]
+    },
+    {
+      "program_id": "prg:acnc:16055396731:a6480fed-f6fb-f011-8406-00224891bae2",
+      "name": "TAFE Outreach",
+      "description": "Education partnerships",
+      "beneficiaries": [
+        "Youth - 15 to under 25"
+      ],
+      "geography": [
+        "61 Piper Drive, Ballina NSW, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "https://www.acnc.gov.au/charity/charities/e4b4c3a1-38af-e811-a961-000d3ad24182/documents/640b12e7-f6fb-f011-8406-00224891bae2",
+      "evidence_ids": [
+        "ev:acnc:ais:16055396731:2025"
+      ]
+    }
+  ],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:490f9bda-7ab9-517b-9610-49cfca073ce5",
@@ -230,7 +302,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-13-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/e4b4c3a1-38af-e811-a961-000d3ad24182/profile",
-      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "retrieved_at": "2026-08-13T05:50:58.991012Z",
       "observed_at": "2026-01-28",
       "effective_from": null,
       "effective_to": null,
@@ -1392,7 +1464,7 @@
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
     "source_text_hash": "f454b847154fa409d672da043c8dec6de473cc891f679949ab0f69341d128fbf",
-    "generated_at": "2026-08-13T00:32:18.621383Z",
+    "generated_at": "2026-08-13T05:51:03.014908Z",
     "vector_ref": "embeddings.parquet#cb_5a2477c3be6941b485a66cf71c5cfb7f"
   },
   "synthesis": {
@@ -1467,5 +1539,5 @@
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
   "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T00:32:15.698599Z"
+  "built_at": "2026-08-13T05:50:58.991012Z"
 }

@@ -133,7 +133,29 @@
   "participation_modes": [],
   "participation_observations": [],
   "opportunities": [],
-  "programs": [],
+  "programs": [
+    {
+      "program_id": "prg:acnc:23103213929:10df2a95-dfde-ef11-a731-000d3a6af31d",
+      "name": "Education & Care",
+      "description": "Child care",
+      "beneficiaries": [
+        "Early childhood - aged under 6",
+        "Families",
+        "Aboriginal and Torres Strait Islander people",
+        "People in rural/regional/remote communities",
+        "General community in Australia"
+      ],
+      "geography": [
+        "Kununurra WA, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2024",
+      "source_url": "www.ewinelc.org.au",
+      "evidence_ids": [
+        "ev:acnc:ais:23103213929:2024"
+      ]
+    }
+  ],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:965eda6d-6be7-584c-8d26-e9716732a209",
@@ -197,7 +219,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-13-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/a7b2f7e3-38af-e811-a961-000d3ad24182/profile",
-      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "retrieved_at": "2026-08-13T05:50:58.991012Z",
       "observed_at": "2025-01-30",
       "effective_from": null,
       "effective_to": null,
@@ -1041,7 +1063,7 @@
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
     "source_text_hash": "9773d0a4287ab6696bb50b2e21794f5092895038b96160bbe01b70040b8714e2",
-    "generated_at": "2026-08-13T00:32:18.622480Z",
+    "generated_at": "2026-08-13T05:51:03.015986Z",
     "vector_ref": "embeddings.parquet#cb_e57f362b02e948eaabec081eeba40d83"
   },
   "synthesis": {
@@ -1116,5 +1138,5 @@
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
   "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T00:32:15.698599Z"
+  "built_at": "2026-08-13T05:50:58.991012Z"
 }

@@ -125,7 +125,27 @@
   "participation_modes": [],
   "participation_observations": [],
   "opportunities": [],
-  "programs": [],
+  "programs": [
+    {
+      "program_id": "prg:acnc:54212670988:d92d32af-e2f1-f011-8407-6045bde67d52",
+      "name": "Martu Charitable Trust",
+      "description": "Community development",
+      "beneficiaries": [
+        "People in rural/regional/remote communities",
+        "Aboriginal and Torres Strait Islander people",
+        "Financially disadvantaged people"
+      ],
+      "geography": [
+        "Western Australia, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "https://www.acnc.gov.au/charity/charities/d90be587-3aaf-e811-a963-000d3ad24077/documents/d4b739a9-e2f1-f011-8407-6045bde67d52",
+      "evidence_ids": [
+        "ev:acnc:ais:54212670988:2025"
+      ]
+    }
+  ],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:93fa4f23-50b2-5b59-b5d8-e3879a3654f9",
@@ -189,7 +209,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-13-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/d90be587-3aaf-e811-a963-000d3ad24077/profile",
-      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "retrieved_at": "2026-08-13T05:50:58.991012Z",
       "observed_at": "2026-01-15",
       "effective_from": null,
       "effective_to": null,
@@ -1004,7 +1024,7 @@
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
     "source_text_hash": "e1daefaef35674f8f580afe526fee22feee0a599475bc6710b68c2c48bb04c11",
-    "generated_at": "2026-08-13T00:32:18.624523Z",
+    "generated_at": "2026-08-13T05:51:03.018792Z",
     "vector_ref": "embeddings.parquet#cb_1fed6ee914784e0b9602687b0e144c02"
   },
   "synthesis": {
@@ -1079,5 +1099,5 @@
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
   "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T00:32:15.698599Z"
+  "built_at": "2026-08-13T05:50:58.991012Z"
 }

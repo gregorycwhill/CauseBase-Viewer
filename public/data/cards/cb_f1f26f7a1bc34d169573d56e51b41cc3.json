@@ -156,7 +156,30 @@
   ],
   "participation_observations": [],
   "opportunities": [],
-  "programs": [],
+  "programs": [
+    {
+      "program_id": "prg:acnc:65175035512:375a5678-596f-f111-ab0d-6045bdc47b11",
+      "name": "Rehearsal and music education program",
+      "description": "Music",
+      "beneficiaries": [
+        "Early childhood - aged under 6",
+        "Children - aged 6 to under 15",
+        "Youth - 15 to under 25",
+        "Adults - aged 25 to under 65",
+        "Females",
+        "Males"
+      ],
+      "geography": [
+        "Melbourne VIC, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "https://www.acnc.gov.au/charity/charities/4f095b6a-38af-e811-a963-000d3ad24077/documents/a3595678-596f-f111-ab0d-6045bdc47b11",
+      "evidence_ids": [
+        "ev:acnc:ais:65175035512:2025"
+      ]
+    }
+  ],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:1e38dc54-4559-5621-a035-acb4516fa7e6",
@@ -220,7 +243,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-13-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/4f095b6a-38af-e811-a963-000d3ad24077/profile",
-      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "retrieved_at": "2026-08-13T05:50:58.991012Z",
       "observed_at": "2026-06-23",
       "effective_from": null,
       "effective_to": null,
@@ -1164,7 +1187,7 @@
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
     "source_text_hash": "af3619fa6000b899a8476e36e84ed5497634ee2e3d47d33b80accdd391d98a37",
-    "generated_at": "2026-08-13T00:32:18.620914Z",
+    "generated_at": "2026-08-13T05:51:03.014454Z",
     "vector_ref": "embeddings.parquet#cb_f1f26f7a1bc34d169573d56e51b41cc3"
   },
   "synthesis": {
@@ -1239,5 +1262,5 @@
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
   "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T00:32:15.698599Z"
+  "built_at": "2026-08-13T05:50:58.991012Z"
 }

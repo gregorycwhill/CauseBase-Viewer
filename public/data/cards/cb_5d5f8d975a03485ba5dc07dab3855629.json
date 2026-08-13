@@ -162,7 +162,54 @@
   ],
   "participation_observations": [],
   "opportunities": [],
-  "programs": [],
+  "programs": [
+    {
+      "program_id": "prg:acnc:30913308861:5ee97a75-42c4-f011-bbd3-7ced8da2a128",
+      "name": "COMMONWEALTH HOME SUPPORT PROGRAM (CHSP)",
+      "description": "In-home aid and personal assistance",
+      "beneficiaries": [
+        "Adults - aged 65 and over",
+        "People in rural/regional/remote communities",
+        "People from a culturally and linguistically diverse background",
+        "Males",
+        "Females",
+        "People with disabilities",
+        "People with chronic illness (including terminal illness)"
+      ],
+      "geography": [
+        "Stanthorpe QLD, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "https://www.acnc.gov.au/charity/charities/7f6e2565-39af-e811-a95e-000d3ad24c60/documents/0fe97a75-42c4-f011-bbd3-7ced8da2a128",
+      "evidence_ids": [
+        "ev:acnc:ais:30913308861:2025"
+      ]
+    },
+    {
+      "program_id": "prg:acnc:30913308861:873f787b-42c4-f011-bbd3-7ced8da2a128",
+      "name": "HOME CARE PACKAGES",
+      "description": "Attendant care",
+      "beneficiaries": [
+        "Adults - aged 65 and over",
+        "People from a culturally and linguistically diverse background",
+        "People in rural/regional/remote communities",
+        "People with chronic illness (including terminal illness)",
+        "People with disabilities",
+        "Females",
+        "Males"
+      ],
+      "geography": [
+        "Stanthorpe QLD, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "https://www.acnc.gov.au/charity/charities/7f6e2565-39af-e811-a95e-000d3ad24c60/documents/0fe97a75-42c4-f011-bbd3-7ced8da2a128",
+      "evidence_ids": [
+        "ev:acnc:ais:30913308861:2025"
+      ]
+    }
+  ],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:5d6aad9c-63fe-5b9f-8226-fb74e0400df7",
@@ -226,7 +273,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-13-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/7f6e2565-39af-e811-a95e-000d3ad24c60/profile",
-      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "retrieved_at": "2026-08-13T05:50:58.991012Z",
       "observed_at": "2025-11-18",
       "effective_from": null,
       "effective_to": null,
@@ -1209,7 +1256,7 @@
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
     "source_text_hash": "992717c92b789560d0d10ee041d337a066697bd43fc4c185dbbbce39b038700a",
-    "generated_at": "2026-08-13T00:32:18.623520Z",
+    "generated_at": "2026-08-13T05:51:03.018099Z",
     "vector_ref": "embeddings.parquet#cb_5d5f8d975a03485ba5dc07dab3855629"
   },
   "synthesis": {
@@ -1284,5 +1331,5 @@
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
   "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T00:32:15.698599Z"
+  "built_at": "2026-08-13T05:50:58.991012Z"
 }

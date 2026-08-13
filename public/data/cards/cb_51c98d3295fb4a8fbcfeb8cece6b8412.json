@@ -142,7 +142,40 @@
   "participation_modes": [],
   "participation_observations": [],
   "opportunities": [],
-  "programs": [],
+  "programs": [
+    {
+      "program_id": "prg:acnc:21697650652:c5a6585e-46b1-f011-bbd3-7ced8d34ef5a",
+      "name": "Aussie Vets PTSD Group",
+      "description": "Community mental healthcare",
+      "beneficiaries": [
+        "Veterans and/or their families"
+      ],
+      "geography": [
+        "Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "https://www.acnc.gov.au/charity/charities/ba9a4a9b-3aaf-e811-a962-000d3ad24a0d/documents/3af25f58-46b1-f011-bbd3-7ced8d34ef5a",
+      "evidence_ids": [
+        "ev:acnc:ais:21697650652:2025"
+      ]
+    },
+    {
+      "program_id": "prg:acnc:21697650652:cda6585e-46b1-f011-bbd3-7ced8d34ef5a",
+      "name": "Aussie Vets PTSD Group",
+      "description": "Mental health counselling",
+      "beneficiaries": [
+        "Veterans and/or their families"
+      ],
+      "geography": [],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "https://www.facebook.com/groups/731881863902646",
+      "evidence_ids": [
+        "ev:acnc:ais:21697650652:2025"
+      ]
+    }
+  ],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:32d3d161-ff0a-553c-aad2-9409d09aff6c",
@@ -206,7 +239,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-13-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/ba9a4a9b-3aaf-e811-a962-000d3ad24a0d/profile",
-      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "retrieved_at": "2026-08-13T05:50:58.991012Z",
       "observed_at": "2025-10-25",
       "effective_from": null,
       "effective_to": null,
@@ -1079,7 +1112,7 @@
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
     "source_text_hash": "dc07f00214388d72d0d5b942cd400c0dd2b6f9ba3415451a559ae52df6845e1a",
-    "generated_at": "2026-08-13T00:32:18.622810Z",
+    "generated_at": "2026-08-13T05:51:03.017201Z",
     "vector_ref": "embeddings.parquet#cb_51c98d3295fb4a8fbcfeb8cece6b8412"
   },
   "synthesis": {
@@ -1154,5 +1187,5 @@
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
   "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T00:32:15.698599Z"
+  "built_at": "2026-08-13T05:50:58.991012Z"
 }

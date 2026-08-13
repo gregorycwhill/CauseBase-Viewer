@@ -134,7 +134,31 @@
   "participation_modes": [],
   "participation_observations": [],
   "opportunities": [],
-  "programs": [],
+  "programs": [
+    {
+      "program_id": "prg:acnc:39645963266:4ffba62c-390c-f111-8407-002248111f49",
+      "name": "SEPR Support",
+      "description": "Vocational rehabilitation",
+      "beneficiaries": [
+        "Adults - aged 25 to under 65",
+        "People in rural/regional/remote communities",
+        "Financially disadvantaged people",
+        "People at risk of homelessness/ people experiencing homelessness",
+        "Victims of crime (including family violence)",
+        "Females",
+        "Overseas communities or charities"
+      ],
+      "geography": [
+        "Canberra ACT, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "https://www.acnc.gov.au/charity/charities/8e817979-3d65-eb11-b0b0-000d3a6b0983/documents/2ffba62c-390c-f111-8407-002248111f49",
+      "evidence_ids": [
+        "ev:acnc:ais:39645963266:2025"
+      ]
+    }
+  ],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:0b8769d6-cd66-528f-a87e-fb97a3b40f29",
@@ -198,7 +222,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-13-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/8e817979-3d65-eb11-b0b0-000d3a6b0983/profile",
-      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "retrieved_at": "2026-08-13T05:50:58.991012Z",
       "observed_at": "2026-02-17",
       "effective_from": null,
       "effective_to": null,
@@ -827,7 +851,7 @@
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
     "source_text_hash": "726f7232f27a9abba00509cc18ecc3937635a8774a8ccef45fdedfd21a2460a4",
-    "generated_at": "2026-08-13T00:32:18.621281Z",
+    "generated_at": "2026-08-13T05:51:03.014805Z",
     "vector_ref": "embeddings.parquet#cb_d38c5da0434e4170aefe64d805d24ed3"
   },
   "synthesis": {
@@ -902,5 +926,5 @@
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
   "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T00:32:15.698599Z"
+  "built_at": "2026-08-13T05:50:58.991012Z"
 }

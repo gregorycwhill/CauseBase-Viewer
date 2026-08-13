@@ -134,7 +134,25 @@
   "participation_modes": [],
   "participation_observations": [],
   "opportunities": [],
-  "programs": [],
+  "programs": [
+    {
+      "program_id": "prg:acnc:94196952697:4f9b16ae-d3de-f011-8544-6045bde61b96",
+      "name": "Community conclusion",
+      "description": "Social inclusion",
+      "beneficiaries": [
+        "People in rural/regional/remote communities"
+      ],
+      "geography": [
+        "Beechford TAS, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "https://www.acnc.gov.au/charity/charities/15ae171b-38af-e811-a961-000d3ad24182/documents/1e9b16ae-d3de-f011-8544-6045bde61b96",
+      "evidence_ids": [
+        "ev:acnc:ais:94196952697:2025"
+      ]
+    }
+  ],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:5ca5ded8-6d21-550f-9f8f-1fd787568229",
@@ -198,7 +216,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-13-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/15ae171b-38af-e811-a961-000d3ad24182/profile",
-      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "retrieved_at": "2026-08-13T05:50:58.991012Z",
       "observed_at": "2025-12-22",
       "effective_from": null,
       "effective_to": null,
@@ -953,7 +971,7 @@
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
     "source_text_hash": "0b1da968967fe635c5c8e4a26ff8f06d1c2b1490179c3c2410e8136ddc2c1826",
-    "generated_at": "2026-08-13T00:32:18.623071Z",
+    "generated_at": "2026-08-13T05:51:03.017605Z",
     "vector_ref": "embeddings.parquet#cb_dce5af58ad1d4be6b0ef83cc20366184"
   },
   "synthesis": {
@@ -1028,5 +1046,5 @@
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
   "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T00:32:15.698599Z"
+  "built_at": "2026-08-13T05:50:58.991012Z"
 }

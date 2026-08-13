@@ -138,7 +138,25 @@
   "participation_modes": [],
   "participation_observations": [],
   "opportunities": [],
-  "programs": [],
+  "programs": [
+    {
+      "program_id": "prg:acnc:15969822381:2bfba02c-6966-f111-a826-6045bde523ce",
+      "name": "Neo-humanist Education",
+      "description": "Early childhood education",
+      "beneficiaries": [
+        "Early childhood - aged under 6"
+      ],
+      "geography": [
+        "199 Clauscen Street, Fitzroy North VIC, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "https://www.acnc.gov.au/charity/charities/e2b4c3a1-38af-e811-a961-000d3ad24182/documents/0efba02c-6966-f111-a826-6045bde523ce",
+      "evidence_ids": [
+        "ev:acnc:ais:15969822381:2025"
+      ]
+    }
+  ],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:37b9077b-577f-5b9a-a798-0f7b55e53c4b",
@@ -202,7 +220,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-13-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/e2b4c3a1-38af-e811-a961-000d3ad24182/profile",
-      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "retrieved_at": "2026-08-13T05:50:58.991012Z",
       "observed_at": "2026-06-12",
       "effective_from": null,
       "effective_to": null,
@@ -1086,7 +1104,7 @@
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
     "source_text_hash": "faf54540eb53e02a5569f109a0dca2c4cf8ff1a84abc34c699c6475166130c9c",
-    "generated_at": "2026-08-13T00:32:18.623547Z",
+    "generated_at": "2026-08-13T05:51:03.018133Z",
     "vector_ref": "embeddings.parquet#cb_e2cd8f20b7be45b6a9f44ca27eaa4c53"
   },
   "synthesis": {
@@ -1161,5 +1179,5 @@
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
   "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T00:32:15.698599Z"
+  "built_at": "2026-08-13T05:50:58.991012Z"
 }

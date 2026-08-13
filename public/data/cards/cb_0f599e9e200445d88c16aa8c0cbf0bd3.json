@@ -142,7 +142,25 @@
   "participation_modes": [],
   "participation_observations": [],
   "opportunities": [],
-  "programs": [],
+  "programs": [
+    {
+      "program_id": "prg:acnc:17527786900:60a9dc62-aec9-f011-bbd3-6045bde73edb",
+      "name": "Campbelltown Community Children's Centre",
+      "description": "Child care",
+      "beneficiaries": [
+        "Early childhood - aged under 6"
+      ],
+      "geography": [
+        "Newton South Australia, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "https://www.acnc.gov.au/charity/charities/f49ec95b-3aaf-e811-a95e-000d3ad24c60/documents/3aa9dc62-aec9-f011-bbd3-6045bde73edb",
+      "evidence_ids": [
+        "ev:acnc:ais:17527786900:2025"
+      ]
+    }
+  ],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:8ec40fa4-0450-50b3-ac89-1f07d46b686d",
@@ -206,7 +224,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-13-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/f49ec95b-3aaf-e811-a95e-000d3ad24c60/profile",
-      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "retrieved_at": "2026-08-13T05:50:58.991012Z",
       "observed_at": "2025-11-25",
       "effective_from": null,
       "effective_to": null,
@@ -1081,7 +1099,7 @@
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
     "source_text_hash": "87d2efef997f0c7533b1b9a103a3400cc694590651a59ab5cba82502ff1dc6f9",
-    "generated_at": "2026-08-13T00:32:18.622237Z",
+    "generated_at": "2026-08-13T05:51:03.015768Z",
     "vector_ref": "embeddings.parquet#cb_0f599e9e200445d88c16aa8c0cbf0bd3"
   },
   "synthesis": {
@@ -1156,5 +1174,5 @@
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
   "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T00:32:15.698599Z"
+  "built_at": "2026-08-13T05:50:58.991012Z"
 }

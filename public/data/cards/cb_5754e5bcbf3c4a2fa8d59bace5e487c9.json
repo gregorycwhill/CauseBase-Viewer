@@ -145,7 +145,25 @@
   "participation_modes": [],
   "participation_observations": [],
   "opportunities": [],
-  "programs": [],
+  "programs": [
+    {
+      "program_id": "prg:acnc:49008643927:e22e8fda-7a4a-f111-bec7-7ced8d33fe37",
+      "name": "Culture and arts",
+      "description": "Visual arts",
+      "beneficiaries": [
+        "General community in Australia"
+      ],
+      "geography": [
+        "Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "https://www.acnc.gov.au/charity/charities/51e826e3-2daf-e811-a963-000d3ad24077/documents/be2e8fda-7a4a-f111-bec7-7ced8d33fe37",
+      "evidence_ids": [
+        "ev:acnc:ais:49008643927:2025"
+      ]
+    }
+  ],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:5e8a9934-2eb9-53c7-8ecc-781eb8f5bea6",
@@ -209,7 +227,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-13-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/51e826e3-2daf-e811-a963-000d3ad24077/profile",
-      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "retrieved_at": "2026-08-13T05:50:58.991012Z",
       "observed_at": "2025-11-27",
       "effective_from": null,
       "effective_to": null,
@@ -1231,7 +1249,7 @@
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
     "source_text_hash": "533258f6d96c344149e5e7d3992411720cb4da38c8b2b10ebd7597dbc34c5230",
-    "generated_at": "2026-08-13T00:32:18.621511Z",
+    "generated_at": "2026-08-13T05:51:03.015057Z",
     "vector_ref": "embeddings.parquet#cb_5754e5bcbf3c4a2fa8d59bace5e487c9"
   },
   "synthesis": {
@@ -1306,5 +1324,5 @@
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
   "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T00:32:15.698599Z"
+  "built_at": "2026-08-13T05:50:58.991012Z"
 }

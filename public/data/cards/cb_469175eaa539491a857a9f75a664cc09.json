@@ -136,7 +136,26 @@
   "participation_modes": [],
   "participation_observations": [],
   "opportunities": [],
-  "programs": [],
+  "programs": [
+    {
+      "program_id": "prg:acnc:30797398790:8532baee-b5fd-f011-8406-0022489549a2",
+      "name": "Religious Activities",
+      "description": "Catholicism",
+      "beneficiaries": [
+        "Families",
+        "Aboriginal and Torres Strait Islander people"
+      ],
+      "geography": [
+        "Northern Territory, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "https://www.acnc.gov.au/charity/charities/5306affc-39af-e811-a963-000d3ad244fd/documents/6432baee-b5fd-f011-8406-0022489549a2",
+      "evidence_ids": [
+        "ev:acnc:ais:30797398790:2025"
+      ]
+    }
+  ],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:b3979562-7961-5515-a70f-b8e8eeaca327",
@@ -200,7 +219,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-13-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/5306affc-39af-e811-a963-000d3ad244fd/profile",
-      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "retrieved_at": "2026-08-13T05:50:58.991012Z",
       "observed_at": "2026-01-30",
       "effective_from": null,
       "effective_to": null,
@@ -962,7 +981,7 @@
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
     "source_text_hash": "a3322678bf6db5b0fb9602e0788ccf64d46d767d812562d5f2f9dacd268f94be",
-    "generated_at": "2026-08-13T00:32:18.621780Z",
+    "generated_at": "2026-08-13T05:51:03.015339Z",
     "vector_ref": "embeddings.parquet#cb_469175eaa539491a857a9f75a664cc09"
   },
   "synthesis": {
@@ -1037,5 +1056,5 @@
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
   "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T00:32:15.698599Z"
+  "built_at": "2026-08-13T05:50:58.991012Z"
 }
