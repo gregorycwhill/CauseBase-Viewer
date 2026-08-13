@@ -18,7 +18,16 @@
       ]
     }
   ],
-  "tax_statuses": [],
+  "tax_statuses": [
+    {
+      "scheme": "ABR DGR",
+      "status": "endorsed",
+      "detail": "Dated 2026-08-05 ABR bulk observation",
+      "evidence_ids": [
+        "ev:abr-dgr:65152955667:20260805"
+      ]
+    }
+  ],
   "relationships": [],
   "source_resolutions": [
     {
@@ -37,6 +46,12 @@
   "legal_name": "Regional Australia Institute Ltd",
   "display_name": "Regional Australia Institute Ltd",
   "entity_status": "registered",
+  "canonical_url": "https://gregorycwhill.github.io/CauseBase-Viewer/#cb_a2d89c0e74cc496ab0070a9adbe7df19",
+  "acnc_profile_url": "https://www.acnc.gov.au/charity/charities/34568a6a-38af-e811-a960-000d3ad24282/profile",
+  "acnc_ais_url": "https://www.acnc.gov.au/charity/charities/34568a6a-38af-e811-a960-000d3ad24282/documents/a1771ede-4cf6-f011-8406-002248111f49",
+  "operating_names": [],
+  "former_names": [],
+  "principal_location": "ACT, Australia",
   "coverage": [
     {
       "capability": "regulatory",
@@ -83,6 +98,16 @@
       ],
       "observed_at": "2026-08-10",
       "freshness_note": null
+    },
+    {
+      "capability": "latest_acnc_ais",
+      "status": "observed",
+      "source_record_id": null,
+      "evidence_ids": [
+        "ev:acnc:ais:65152955667:2025"
+      ],
+      "observed_at": "2026-01-20",
+      "freshness_note": "Latest submitted ACNC AIS in the 2026-08-13 public-profile acquisition: 2025."
     }
   ],
   "enrichment_level": "enriched",
@@ -143,7 +168,9 @@
     "Joining membership and member-only events",
     "Enrolling in Masterclass education programs"
   ],
+  "participation_observations": [],
   "opportunities": [],
+  "programs": [],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:e2969f22-0fc4-593b-8e10-fb44584c303b",
@@ -163,6 +190,7 @@
         "ACNC registration ID": null,
         "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
+      "source_payload": null,
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
         "Legal Name": "legal_name",
@@ -192,12 +220,710 @@
         "Assets": null,
         "Liabilities": null
       },
+      "source_payload": null,
       "canonical_field_mappings": {
         "Revenue": "financial_records[].revenue",
         "Total expenses": "financial_records[].total_expenses"
       },
       "evidence_ids": [
         "ev:ais:65152955667:2023"
+      ]
+    },
+    {
+      "source_record_id": "src:acnc-public-profile:65152955667:cb_a2d89c0e74cc496ab0070a9adbe7df19:2026-08-13",
+      "source_family": "acnc-public-profile",
+      "dataset_version": "2026-08-13-public-api",
+      "source_url": "https://www.acnc.gov.au/charity/charities/34568a6a-38af-e811-a960-000d3ad24282/profile",
+      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "observed_at": "2026-01-20",
+      "effective_from": null,
+      "effective_to": null,
+      "source_fields": {
+        "uuid": "34568a6a-38af-e811-a960-000d3ad24282",
+        "abn": "65152955667",
+        "latest_ais_year": "2025",
+        "latest_ais_uuid": "a1771ede-4cf6-f011-8406-002248111f49"
+      },
+      "source_payload": {
+        "data": {
+          "AFSAddressPostalCode": "2600",
+          "AFSEmail": "info@regionalaustralia.org.au",
+          "Abn": "65152955667",
+          "AddressCountry": "Australia",
+          "AddressLine1": "Se 2 53 Blackall St",
+          "AddressLine2": null,
+          "AddressLine3": null,
+          "AddressPostalCode": "2600",
+          "AddressStateOrProvince": "ACT",
+          "AddressSuburb": "Barton",
+          "AddressSuburbStatePostcode": "Barton ACT 2600",
+          "AnnualReports": [
+            {
+              "AISId": "aeb70a51-9855-ed11-9562-00224893bd39",
+              "DateReceived": "2022-10-27T01:40:35.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2023-01-31T00:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2022",
+              "type": "Annual Information Statement 2022",
+              "uuid": "ade52361-d063-eb11-b0b0-000d3acbaeea"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2022-10-27T01:40:24.0000000Z",
+              "DocumentUuid": "3e819247-9855-ed11-9562-00224893bf1c",
+              "DueDate": "2023-01-31T00:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2022",
+              "type": "Financial Report 2022",
+              "uuid": "c0e52361-d063-eb11-b0b0-000d3acbaeea"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2020-02-24T04:05:17.0000000Z",
+              "DocumentUuid": "7c5492d7-ba56-ea11-a811-000d3ad1cc03",
+              "DueDate": "2020-01-31T00:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2019",
+              "type": "Financial Report 2019",
+              "uuid": "8b5400d4-f825-e911-a979-000d3ad05ad0"
+            },
+            {
+              "AISId": "6d7553db-ba56-ea11-a811-000d3ad1cd99",
+              "DateReceived": "2020-02-24T04:05:25.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2020-01-31T00:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2019",
+              "type": "Annual Information Statement 2019",
+              "uuid": "b45400d4-f825-e911-a979-000d3ad05ad0"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2021-03-25T06:30:28.0000000Z",
+              "DocumentUuid": "91feb28a-338d-eb11-b1ac-000d3a6b21df",
+              "DueDate": "2021-01-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2020",
+              "type": "Financial Report 2020",
+              "uuid": "ef5400d4-f825-e911-a979-000d3ad05ad0"
+            },
+            {
+              "AISId": "d8e97192-338d-eb11-b1ac-000d3a6b24eb",
+              "DateReceived": "2021-03-25T06:30:30.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2021-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2020",
+              "type": "Annual Information Statement 2020",
+              "uuid": "1b5500d4-f825-e911-a979-000d3ad05ad0"
+            },
+            {
+              "AISId": "e83e8bdb-86fe-ec11-82e6-002248944f2b",
+              "DateReceived": "2022-07-08T06:26:32.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2022-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2021",
+              "type": "Annual Information Statement 2021",
+              "uuid": "d1a22412-9244-ea11-a813-000d3ad1ce4e"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2022-07-08T06:26:27.0000000Z",
+              "DocumentUuid": "7ffb92d5-86fe-ec11-82e6-002248944f2b",
+              "DueDate": "2022-01-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2021",
+              "type": "Financial Report 2021",
+              "uuid": "e7a22412-9244-ea11-a813-000d3ad1ce4e"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2017-01-05T13:00:00.0000000Z",
+              "DocumentUuid": "dde64998-43b0-e811-a961-000d3ad24182",
+              "DueDate": "2017-01-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2016",
+              "type": "Financial Report 2016",
+              "uuid": "3d3517d2-3dc8-e811-a961-000d3ad24282"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2017-12-20T13:00:00.0000000Z",
+              "DocumentUuid": "02e74998-43b0-e811-a961-000d3ad24182",
+              "DueDate": "2018-01-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2017",
+              "type": "Financial Report 2017",
+              "uuid": "413517d2-3dc8-e811-a961-000d3ad24282"
+            },
+            {
+              "AISId": "e9b90aa8-9e3f-e911-a97a-000d3ad06f2d",
+              "DateReceived": "2019-03-05T23:30:31.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2019-03-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2018",
+              "type": "Annual Information Statement 2018",
+              "uuid": "70669e69-3ac8-e811-a964-000d3ad244fd"
+            },
+            {
+              "AISId": "52878929-50c8-e811-a964-000d3ad244fd",
+              "DateReceived": "2014-06-29T14:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2014-03-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2013",
+              "type": "Annual Information Statement 2013",
+              "uuid": "14888929-50c8-e811-a964-000d3ad244fd"
+            },
+            {
+              "AISId": "5d878929-50c8-e811-a964-000d3ad244fd",
+              "DateReceived": "2014-12-16T13:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2015-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2014",
+              "type": "Annual Information Statement 2014",
+              "uuid": "1e888929-50c8-e811-a964-000d3ad244fd"
+            },
+            {
+              "AISId": "69878929-50c8-e811-a964-000d3ad244fd",
+              "DateReceived": "2015-12-14T13:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2016-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2015",
+              "type": "Annual Information Statement 2015",
+              "uuid": "2a888929-50c8-e811-a964-000d3ad244fd"
+            },
+            {
+              "AISId": "76878929-50c8-e811-a964-000d3ad244fd",
+              "DateReceived": "2017-01-05T13:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2017-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2016",
+              "type": "Annual Information Statement 2016",
+              "uuid": "32888929-50c8-e811-a964-000d3ad244fd"
+            },
+            {
+              "AISId": "7d878929-50c8-e811-a964-000d3ad244fd",
+              "DateReceived": "2017-12-20T13:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2018-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2017",
+              "type": "Annual Information Statement 2017",
+              "uuid": "3c888929-50c8-e811-a964-000d3ad244fd"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2015-12-14T13:00:00.0000000Z",
+              "DocumentUuid": "99e64998-43b0-e811-a961-000d3ad24182",
+              "DueDate": "2016-01-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2015",
+              "type": "Financial Report 2015",
+              "uuid": "12a666d5-3dc8-e811-a95f-000d3ad24c60"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2014-12-16T13:00:00.0000000Z",
+              "DocumentUuid": "4be64998-43b0-e811-a961-000d3ad24182",
+              "DueDate": "2015-01-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2014",
+              "type": "Financial Report 2014",
+              "uuid": "14a666d5-3dc8-e811-a95f-000d3ad24c60"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2019-03-05T23:30:29.0000000Z",
+              "DocumentUuid": "46580c9d-9e3f-e911-a96e-000d3ad24a0d",
+              "DueDate": "2019-03-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2018",
+              "type": "Financial Report 2018",
+              "uuid": "1ba666d5-3dc8-e811-a95f-000d3ad24c60"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Not required",
+              "Year": "2013",
+              "type": "Financial Report 2013",
+              "uuid": "26a666d5-3dc8-e811-a95f-000d3ad24c60"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2026-12-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Not yet submitted",
+              "Year": "2026",
+              "type": "Annual Information Statement 2026",
+              "uuid": "ab015d36-dcdf-ef11-a732-00224891e269"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2026-12-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Pending",
+              "Year": "2026",
+              "type": "Financial Report 2026",
+              "uuid": "df015d36-dcdf-ef11-a732-00224891e269"
+            },
+            {
+              "AISId": "4a05d9b4-e7ad-ee11-a569-002248110683",
+              "DateReceived": "2024-01-08T05:35:29.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2024-01-31T00:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2023",
+              "type": "Annual Information Statement 2023",
+              "uuid": "8939aaee-a082-ec11-8d20-0022489297f3"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2024-01-08T05:35:24.0000000Z",
+              "DocumentUuid": "347205b0-e7ad-ee11-a569-002248933d22",
+              "DueDate": "2024-01-31T00:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2023",
+              "type": "Financial Report 2023",
+              "uuid": "b639aaee-a082-ec11-8d20-0022489297f3"
+            },
+            {
+              "AISId": "7c8a1601-15da-ef11-a731-0022489899ef",
+              "DateReceived": "2025-01-24T05:35:25.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2025-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2024",
+              "type": "Annual Information Statement 2024",
+              "uuid": "b4c60574-c9a1-ed11-aad1-00224893b0ed"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2025-01-24T05:35:20.0000000Z",
+              "DocumentUuid": "e5424df6-14da-ef11-a731-6045bde6b86e",
+              "DueDate": "2025-01-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2024",
+              "type": "Financial Report 2024",
+              "uuid": "4603fe79-c9a1-ed11-aad1-00224893b0ed"
+            },
+            {
+              "AISId": "a1771ede-4cf6-f011-8406-002248111f49",
+              "DateReceived": "2026-01-20T22:10:51.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2026-01-31T00:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2025",
+              "type": "Annual Information Statement 2025",
+              "uuid": "f835f2e1-a1c0-ee11-907a-00224893bfad"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2026-01-20T22:10:31.0000000Z",
+              "DocumentUuid": "8cc9b6cb-4cf6-f011-8406-002248111f49",
+              "DueDate": "2026-01-31T00:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2025",
+              "type": "Financial Report 2025",
+              "uuid": "3936f2e1-a1c0-ee11-907a-00224893bfad"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2027-12-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Not yet submitted",
+              "Year": "2027",
+              "type": "Annual Information Statement 2027",
+              "uuid": "e39543a4-04ff-f011-8406-6045bdc3b801"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2027-12-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Pending",
+              "Year": "2027",
+              "type": "Financial Report 2027",
+              "uuid": "f29543a4-04ff-f011-8406-6045bdc3b801"
+            }
+          ],
+          "Beneficiaries": [
+            {
+              "Description": null,
+              "Name": "People in rural/regional/remote communities",
+              "uuid": "d2e816e4-4cf6-f011-8406-002248111f49"
+            },
+            {
+              "Description": null,
+              "Name": "General community in Australia",
+              "uuid": "fce816e4-4cf6-f011-8406-002248111f49"
+            },
+            {
+              "Description": null,
+              "Name": "Families",
+              "uuid": "ffe816e4-4cf6-f011-8406-002248111f49"
+            }
+          ],
+          "CharitySize": "Large",
+          "CharitySubtypeHistory": [
+            {
+              "EndDate": null,
+              "Purpose": "Advancing social or public welfare",
+              "StartDate": "2013-12-31T13:00:00.0000000Z",
+              "uuid": "9a6b1694-fcc6-e811-a964-000d3ad244fd"
+            },
+            {
+              "EndDate": null,
+              "Purpose": "Advancing public debate (promoting or opposing a change to any matter established by law, policy or practice in the Commonwealth, a state, territory or another country)",
+              "StartDate": "2013-12-31T13:00:00.0000000Z",
+              "uuid": "ab6b1694-fcc6-e811-a964-000d3ad244fd"
+            },
+            {
+              "EndDate": "2013-12-30T13:00:00.0000000Z",
+              "Purpose": "2012 Another purpose beneficial to the community",
+              "StartDate": "2012-12-02T13:00:00.0000000Z",
+              "uuid": "d3d85395-fcc6-e811-a95f-000d3ad24c60"
+            }
+          ],
+          "CharityVersion": "99",
+          "ChildMemberEndDate": null,
+          "ChildMemberStartDate": null,
+          "ChooseToProvideAis": null,
+          "Countries": [
+            {
+              "Name": "Australia",
+              "uuid": "f57b5602-9a4d-e811-a951-000d3ad06f2d"
+            }
+          ],
+          "DateEstablished": "2010-12-31T13:00:00.0000000Z",
+          "Documents": [
+            {
+              "Date": "2024-12-12T00:00:00.0000000",
+              "Title": "RAI - Constitution (approved at 2024 AGM).pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/34568a6a-38af-e811-a960-000d3ad24282-53bec651-4201-46e2-b23d-5247f256b0cc-Governing%20Document-c4fdfb67-2bb8-ef11-a72f-000d3acc14e5-RAI_-_Constitution_(approved_at_2024_AGM).pdf",
+              "Year": null,
+              "type": "Governing Document",
+              "uuid": "c4fdfb67-2bb8-ef11-a72f-000d3acc14e5"
+            },
+            {
+              "Date": "2020-12-03T00:00:00.0000000",
+              "Title": "RAI_AnnualReport_19-20_NoFinancials_FINAL_lores.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/34568a6a-38af-e811-a960-000d3ad24282-53bec651-4201-46e2-b23d-5247f256b0cc-Annual%20Report-3201428c-ec34-eb11-a813-000d3acae853-RAI_AnnualReport_19-20_NoFinancials_FINAL_lores.pdf",
+              "Year": null,
+              "type": "Annual Report",
+              "uuid": "3201428c-ec34-eb11-a813-000d3acae853"
+            },
+            {
+              "Date": "2020-12-03T00:00:00.0000000",
+              "Title": "RAI - Signed Financial Statements 2020.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/34568a6a-38af-e811-a960-000d3ad24282-53bec651-4201-46e2-b23d-5247f256b0cc-Annual%20Report-4001428c-ec34-eb11-a813-000d3acae853-RAI_-_Signed_Financial_Statements_2020.pdf",
+              "Year": "2020",
+              "type": "Annual Report",
+              "uuid": "4001428c-ec34-eb11-a813-000d3acae853"
+            },
+            {
+              "Date": "2020-02-24T00:00:00.0000000",
+              "Title": "Annual Report.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/34568a6a-38af-e811-a960-000d3ad24282-53bec651-4201-46e2-b23d-5247f256b0cc-Annual%20Report-6f5492d7-ba56-ea11-a811-000d3ad1cc03-Annual_Report.pdf",
+              "Year": "2019",
+              "type": "Annual Report",
+              "uuid": "6f5492d7-ba56-ea11-a811-000d3ad1cc03"
+            },
+            {
+              "Date": "2021-03-25T00:00:00.0000000",
+              "Title": "RAI - Signed Financial Statements 2020.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/34568a6a-38af-e811-a960-000d3ad24282-53bec651-4201-46e2-b23d-5247f256b0cc-Financial%20Report-91feb28a-338d-eb11-b1ac-000d3a6b21df-RAI_-_Signed_Financial_Statements_2020.pdf",
+              "Year": "2020",
+              "type": "Financial Report",
+              "uuid": "91feb28a-338d-eb11-b1ac-000d3a6b21df"
+            },
+            {
+              "Date": "2020-02-24T00:00:00.0000000",
+              "Title": "Final RAI financial statements 2019.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/34568a6a-38af-e811-a960-000d3ad24282-53bec651-4201-46e2-b23d-5247f256b0cc-Financial%20Report-7c5492d7-ba56-ea11-a811-000d3ad1cc03-Final_RAI_financial_statements_2019.pdf",
+              "Year": "2019",
+              "type": "Financial Report",
+              "uuid": "7c5492d7-ba56-ea11-a811-000d3ad1cc03"
+            },
+            {
+              "Date": "2014-12-17T00:00:00.0000000",
+              "Title": "FINAL signed financials RAI 30 6 2014 with audit letter.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/34568a6a-38af-e811-a960-000d3ad24282-53bec651-4201-46e2-b23d-5247f256b0cc-Financial%20Report-4be64998-43b0-e811-a961-000d3ad24182-FINAL_signed_financials_RAI_30_6_2014_with_audit_letter.pdf",
+              "Year": "2014",
+              "type": "Financial Report",
+              "uuid": "4be64998-43b0-e811-a961-000d3ad24182"
+            },
+            {
+              "Date": "2015-12-15T00:00:00.0000000",
+              "Title": "RAI Financial Statements 2014 - 2015 FINAL 20151012.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/34568a6a-38af-e811-a960-000d3ad24282-53bec651-4201-46e2-b23d-5247f256b0cc-Financial%20Report-99e64998-43b0-e811-a961-000d3ad24182-RAI_Financial_Statements_2014_-_2015_FINAL_20151012.pdf",
+              "Year": "2015",
+              "type": "Financial Report",
+              "uuid": "99e64998-43b0-e811-a961-000d3ad24182"
+            },
+            {
+              "Date": "2017-01-06T00:00:00.0000000",
+              "Title": "2016 RAI SIGNED Financial Statements.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/34568a6a-38af-e811-a960-000d3ad24282-53bec651-4201-46e2-b23d-5247f256b0cc-Financial%20Report-dde64998-43b0-e811-a961-000d3ad24182-2016_RAI_SIGNED_Financial_Statements.pdf",
+              "Year": "2016",
+              "type": "Financial Report",
+              "uuid": "dde64998-43b0-e811-a961-000d3ad24182"
+            },
+            {
+              "Date": "2017-12-21T00:00:00.0000000",
+              "Title": "2017 RAI Financial Statements signed and compiled.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/34568a6a-38af-e811-a960-000d3ad24282-53bec651-4201-46e2-b23d-5247f256b0cc-Financial%20Report-02e74998-43b0-e811-a961-000d3ad24182-2017_RAI_Financial_Statements_signed_and_compiled.pdf",
+              "Year": "2017",
+              "type": "Financial Report",
+              "uuid": "02e74998-43b0-e811-a961-000d3ad24182"
+            },
+            {
+              "Date": "2019-03-06T00:00:00.0000000",
+              "Title": "2018 RAI Financial Statements Signed and Compiled.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/34568a6a-38af-e811-a960-000d3ad24282-53bec651-4201-46e2-b23d-5247f256b0cc-Financial%20Report-46580c9d-9e3f-e911-a96e-000d3ad24a0d-2018_RAI_Financial_Statements_Signed_and_Compiled.pdf",
+              "Year": "2018",
+              "type": "Financial Report",
+              "uuid": "46580c9d-9e3f-e911-a96e-000d3ad24a0d"
+            },
+            {
+              "Date": "2026-01-21T00:00:00.0000000",
+              "Title": "2025 Financial Statements - RAI FINAL 8 Dec 2025.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/34568a6a-38af-e811-a960-000d3ad24282-53bec651-4201-46e2-b23d-5247f256b0cc-Financial%20Report-8cc9b6cb-4cf6-f011-8406-002248111f49-2025_Financial_Statements_-_RAI_FINAL_8_Dec_2025.pdf",
+              "Year": "2025",
+              "type": "Financial Report",
+              "uuid": "8cc9b6cb-4cf6-f011-8406-002248111f49"
+            },
+            {
+              "Date": "2024-01-08T00:00:00.0000000",
+              "Title": "RAI - FY23 Final Audit Accounts for AR.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/34568a6a-38af-e811-a960-000d3ad24282-53bec651-4201-46e2-b23d-5247f256b0cc-Financial%20Report-347205b0-e7ad-ee11-a569-002248933d22-RAI_-_FY23_Final_Audit_Accounts_for_AR.pdf",
+              "Year": "2023",
+              "type": "Financial Report",
+              "uuid": "347205b0-e7ad-ee11-a569-002248933d22"
+            },
+            {
+              "Date": "2022-10-27T00:00:00.0000000",
+              "Title": "2022-64807 REGIONAL AUSTRALIA INSTITUTE LTD - final 26_10.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/34568a6a-38af-e811-a960-000d3ad24282-53bec651-4201-46e2-b23d-5247f256b0cc-Financial%20Report-3e819247-9855-ed11-9562-00224893bf1c-2022-64807_REGIONAL_AUSTRALIA_INSTITUTE_LTD_-_final_26_10.pdf",
+              "Year": "2022",
+              "type": "Financial Report",
+              "uuid": "3e819247-9855-ed11-9562-00224893bf1c"
+            },
+            {
+              "Date": "2022-07-08T00:00:00.0000000",
+              "Title": "RAI_Financials_20-21.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/34568a6a-38af-e811-a960-000d3ad24282-53bec651-4201-46e2-b23d-5247f256b0cc-Financial%20Report-7ffb92d5-86fe-ec11-82e6-002248944f2b-RAI_Financials_20-21.pdf",
+              "Year": "2021",
+              "type": "Financial Report",
+              "uuid": "7ffb92d5-86fe-ec11-82e6-002248944f2b"
+            },
+            {
+              "Date": "2025-01-24T00:00:00.0000000",
+              "Title": "Complete Set Financial Statements - RAI 2024.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/34568a6a-38af-e811-a960-000d3ad24282-53bec651-4201-46e2-b23d-5247f256b0cc-Financial%20Report-e5424df6-14da-ef11-a731-6045bde6b86e-Complete_Set_Financial_Statements_-_RAI_2024.pdf",
+              "Year": "2024",
+              "type": "Financial Report",
+              "uuid": "e5424df6-14da-ef11-a731-6045bde6b86e"
+            }
+          ],
+          "Email": "INFO@REGIONALAUSTRALIA.ORG.AU",
+          "EnforcementOutcomes": [],
+          "FinancialYearEnd": "30/06",
+          "GovernmentAgencies": [
+            {
+              "Name": "Australian Securities and Investment Commission",
+              "ReferenceNumber": "152955667",
+              "uuid": "13e9bcbd-e6af-e811-a963-000d3ad24077"
+            }
+          ],
+          "GroupHeadFlag": false,
+          "LastReported": "2026-01-20T22:10:51.0000000Z",
+          "Name": "Regional Australia Institute Ltd",
+          "NextReportDue": "2026-12-31T12:30:00.0000000Z",
+          "OperatingInStates": [
+            {
+              "Name": "Australian Capital Territory",
+              "uuid": "db77d9b9-455e-e811-a95c-000d3ad1c715"
+            }
+          ],
+          "OtherDetails": null,
+          "OtherNames": [],
+          "ParentAccountAbn": null,
+          "ParentAccountId": null,
+          "Phone": "0262603733",
+          "Programs": [
+            {
+              "AisUuid": "a1771ede-4cf6-f011-8406-002248111f49",
+              "Name": "Regional Australia Council",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Families",
+                "People in rural/regional/remote communities",
+                "General community in Australia"
+              ],
+              "ProgramClassie": [
+                {
+                  "classie_id": "140",
+                  "label": "Rural development",
+                  "parent_id": "133",
+                  "selected": true
+                },
+                {
+                  "classie_id": "133",
+                  "label": "Economic development",
+                  "parent_id": null,
+                  "selected": false
+                }
+              ],
+              "ProgramClassification": "Rural development",
+              "ProgramClassificationID": "140",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Canberra ACT, Australia",
+                  "FormattedAddress": "Canberra ACT, Australia",
+                  "Marker": {
+                    "Latitude": -35.3075,
+                    "Longitude": 149.124417
+                  },
+                  "Name": "Canberra",
+                  "uuid": "17781ede-4cf6-f011-8406-002248111f49"
+                }
+              ],
+              "ProgramWeblink": null,
+              "uuid": "d4771ede-4cf6-f011-8406-002248111f49"
+            }
+          ],
+          "ReferendumReturnsUrl": null,
+          "RegistrationStatusHistory": [
+            {
+              "EffectiveDate": "2012-12-02T13:00:00.0000000Z",
+              "Status": "Registered",
+              "TransactionDate": "2012-12-02T13:00:00.0000000Z",
+              "uuid": "f8160675-06c6-e811-a964-000d3ad244fd"
+            }
+          ],
+          "RelatedPartyTransactions": null,
+          "RelevantTransactions": null,
+          "ReportingLate": "2027-06-30T12:30:00.0000000Z",
+          "ResponsiblePersons": [
+            {
+              "Name": "Elisabeth Ritchie",
+              "Role": "Secretary",
+              "uuid": "24ba0aa8-9e3f-e911-a97a-000d3ad06f2d"
+            },
+            {
+              "Name": "Christian Zahra",
+              "Role": "Board Member",
+              "uuid": "e4c08aa8-11bc-e811-a964-000d3ad244fd"
+            },
+            {
+              "Name": "Marnie Baker",
+              "Role": "Board Member",
+              "uuid": "82c3287a-3de6-ee11-904d-002248122b18"
+            },
+            {
+              "Name": "ROBERT KERIN",
+              "Role": "Board Member",
+              "uuid": "c8315e6d-02bc-e811-a964-000d3ad244fd"
+            },
+            {
+              "Name": "ANDRE CARSTENS",
+              "Role": "Board Member",
+              "uuid": "abb79ef2-2cbc-e811-a962-000d3ad24182"
+            },
+            {
+              "Name": "Mark Vaile",
+              "Role": "Board Member",
+              "uuid": "99f6bb34-c14a-ee11-be6f-002248122b18"
+            },
+            {
+              "Name": "Sandra Harding",
+              "Role": "Board Member",
+              "uuid": "04f7bb34-c14a-ee11-be6f-002248122b18"
+            },
+            {
+              "Name": "FIONA MCKENZIE",
+              "Role": "Board Member",
+              "uuid": "0df8bb34-c14a-ee11-be6f-002248122b18"
+            },
+            {
+              "Name": "Chris Fernandes",
+              "Role": "Secretary",
+              "uuid": "5fe18227-2ee0-ee11-904c-00224898daca"
+            }
+          ],
+          "Status": "Registered",
+          "SummaryOfActivities": "The Regional Australia Institute (RAI) is the only national, independent think-tank and research organisation dedicated to building robust economies and a better quality of life in regional towns and cities across Australia. The RAI is a non-partisan, not-for-profit organisation that undertakes research to stimulate and activate our regional and rural communities.",
+          "TotalExpensesEmployee": "2914371",
+          "TotalExpensesGrantsAndDonationsInAustralia": "0",
+          "TotalExpensesGrantsAndDonationsOutsideAustralia": "0",
+          "TotalExpensesInterest": "0",
+          "TotalExpensesOther": "2401585",
+          "TotalGrossIncomeDonationsAndRequests": "1000000",
+          "TotalGrossIncomeGoodsOrServices": "1441413",
+          "TotalGrossIncomeGovernmentGrants": "3230689",
+          "TotalGrossIncomeInvestments": "139405",
+          "TotalGrossIncomeOtherRevenues": "8214",
+          "TransparencyRegisterUrl": null,
+          "Website": "www.regionalaustralia.org.au",
+          "__normalized": true,
+          "type": "charity",
+          "uuid": "34568a6a-38af-e811-a960-000d3ad24282"
+        },
+        "type": "charity",
+        "uuid": "34568a6a-38af-e811-a960-000d3ad24282"
+      },
+      "canonical_field_mappings": {
+        "data.Name": "display_name",
+        "data.OtherNames": "operating_names",
+        "data.AnnualReports": "acnc_ais_url",
+        "data.Programs": "programs"
+      },
+      "evidence_ids": [
+        "ev:acnc:ais:65152955667:2025"
       ]
     }
   ],
@@ -245,7 +971,10 @@
         "source_precision": null
       },
       "assets": null,
-      "liabilities": null
+      "liabilities": null,
+      "income_breakdown": [],
+      "expense_breakdown": [],
+      "balance_sheet_breakdown": []
     }
   ],
   "financial_metrics": [
@@ -433,6 +1162,30 @@
       "page": null,
       "section": null,
       "content_hash": null
+    },
+    {
+      "evidence_id": "ev:abr-dgr:65152955667:20260805",
+      "source_type": "regulatory",
+      "title": "ABR DGR bulk observation",
+      "publisher": "Australian Business Register / Australian Taxation Office",
+      "url": "https://abr.business.gov.au/Tools/BulkExtract",
+      "observed_at": "2026-08-05",
+      "reporting_period": null,
+      "page": null,
+      "section": null,
+      "content_hash": null
+    },
+    {
+      "evidence_id": "ev:acnc:ais:65152955667:2025",
+      "source_type": "regulatory",
+      "title": "Regional Australia Institute Ltd Annual Information Statement 2025",
+      "publisher": "Australian Charities and Not-for-profits Commission",
+      "url": "https://www.acnc.gov.au/charity/charities/34568a6a-38af-e811-a960-000d3ad24282/documents/a1771ede-4cf6-f011-8406-002248111f49",
+      "observed_at": "2026-01-20",
+      "reporting_period": null,
+      "page": null,
+      "section": null,
+      "content_hash": null
     }
   ],
   "embedding": {
@@ -441,8 +1194,8 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "d8044de6c4d15924a018bcb43681615eb3ced4e24ecdae530d6d9b19ea74b7f3",
-    "generated_at": "2026-08-10T13:53:24.456955Z",
+    "source_text_hash": "da57bc71217d56659e1db11663c08a7805dcbfeb00203d6541fe109fb7ce5939",
+    "generated_at": "2026-08-13T00:32:18.622537Z",
     "vector_ref": "embeddings.parquet#cb_a2d89c0e74cc496ab0070a9adbe7df19"
   },
   "synthesis": {
@@ -513,9 +1266,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc2",
-  "card_schema_version": "0.3",
+  "dataset_version": "phase2b-2026-08-13-rc3",
+  "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.3.0-rc2",
-  "built_at": "2026-08-12T14:24:20.675968Z"
+  "generator_version": "0.4.0-rc3",
+  "built_at": "2026-08-13T00:32:15.698599Z"
 }

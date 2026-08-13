@@ -18,7 +18,16 @@
       ]
     }
   ],
-  "tax_statuses": [],
+  "tax_statuses": [
+    {
+      "scheme": "ABR DGR",
+      "status": "endorsed",
+      "detail": "Dated 2026-08-05 ABR bulk observation",
+      "evidence_ids": [
+        "ev:abr-dgr:32588253381:20260805"
+      ]
+    }
+  ],
   "relationships": [],
   "source_resolutions": [
     {
@@ -37,6 +46,12 @@
   "legal_name": "North East Men's Shed (Winnaleah) Inc.",
   "display_name": "North East Men's Shed (Winnaleah) Inc.",
   "entity_status": "registered",
+  "canonical_url": "https://gregorycwhill.github.io/CauseBase-Viewer/#cb_2669573b14e34eafa671c4d2bdcdedcd",
+  "acnc_profile_url": "https://www.acnc.gov.au/charity/charities/34a380bc-73cd-ef11-a72f-000d3a6b41c8/profile",
+  "acnc_ais_url": "https://www.acnc.gov.au/charity/charities/34a380bc-73cd-ef11-a72f-000d3a6b41c8/documents/b5e30541-b3c9-f011-bbd3-6045bde73edb",
+  "operating_names": [],
+  "former_names": [],
+  "principal_location": "TAS, Australia",
   "coverage": [
     {
       "capability": "regulatory",
@@ -79,6 +94,16 @@
       "evidence_ids": [],
       "observed_at": "2026-08-10",
       "freshness_note": null
+    },
+    {
+      "capability": "latest_acnc_ais",
+      "status": "observed",
+      "source_record_id": null,
+      "evidence_ids": [
+        "ev:acnc:ais:32588253381:2025"
+      ],
+      "observed_at": "2025-11-25",
+      "freshness_note": "Latest submitted ACNC AIS in the 2026-08-13 public-profile acquisition: 2025."
     }
   ],
   "enrichment_level": "enriched",
@@ -112,7 +137,9 @@
   "activities": [],
   "beneficiaries": [],
   "participation_modes": [],
+  "participation_observations": [],
   "opportunities": [],
+  "programs": [],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:a9a66e74-93f7-5e7b-9510-5629f29f8bf3",
@@ -132,6 +159,7 @@
         "ACNC registration ID": null,
         "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
+      "source_payload": null,
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
         "Legal Name": "legal_name",
@@ -139,6 +167,290 @@
       },
       "evidence_ids": [
         "ev:acnc:32588253381"
+      ]
+    },
+    {
+      "source_record_id": "src:acnc-public-profile:32588253381:cb_2669573b14e34eafa671c4d2bdcdedcd:2026-08-13",
+      "source_family": "acnc-public-profile",
+      "dataset_version": "2026-08-13-public-api",
+      "source_url": "https://www.acnc.gov.au/charity/charities/34a380bc-73cd-ef11-a72f-000d3a6b41c8/profile",
+      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "observed_at": "2025-11-25",
+      "effective_from": null,
+      "effective_to": null,
+      "source_fields": {
+        "uuid": "34a380bc-73cd-ef11-a72f-000d3a6b41c8",
+        "abn": "32588253381",
+        "latest_ais_year": "2025",
+        "latest_ais_uuid": "b5e30541-b3c9-f011-bbd3-6045bde73edb"
+      },
+      "source_payload": {
+        "data": {
+          "AFSAddressPostalCode": "7263",
+          "AFSEmail": "rchrdnale@gmail.com",
+          "Abn": "32588253381",
+          "AddressCountry": "Australia",
+          "AddressLine1": "8 Diprose St",
+          "AddressLine2": null,
+          "AddressLine3": null,
+          "AddressPostalCode": "7263",
+          "AddressStateOrProvince": "TAS",
+          "AddressSuburb": "Legerwood",
+          "AddressSuburbStatePostcode": "Legerwood TAS 7263",
+          "AnnualReports": [
+            {
+              "AISId": "b5e30541-b3c9-f011-bbd3-6045bde73edb",
+              "DateReceived": "2025-11-25T04:00:21.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2026-01-31T00:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2025",
+              "type": "Annual Information Statement 2025",
+              "uuid": "f205cd4c-bbd3-ef11-a730-00224892c683"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2026-12-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Not yet submitted",
+              "Year": "2026",
+              "type": "Annual Information Statement 2026",
+              "uuid": "1006cd4c-bbd3-ef11-a730-00224892c683"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2025-11-25T04:00:16.0000000Z",
+              "DocumentUuid": "2ba2993b-b3c9-f011-bbd2-002248925332",
+              "DueDate": "2026-01-31T00:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2025",
+              "type": "Financial Report 2025",
+              "uuid": "1f06cd4c-bbd3-ef11-a730-00224892c683"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2026-12-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Pending",
+              "Year": "2026",
+              "type": "Financial Report 2026",
+              "uuid": "3406cd4c-bbd3-ef11-a730-00224892c683"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2027-12-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Not yet submitted",
+              "Year": "2027",
+              "type": "Annual Information Statement 2027",
+              "uuid": "55ea9145-02ff-f011-8407-6045bdc4655a"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2027-12-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Pending",
+              "Year": "2027",
+              "type": "Financial Report 2027",
+              "uuid": "9fea9145-02ff-f011-8407-6045bdc4655a"
+            }
+          ],
+          "Beneficiaries": [
+            {
+              "Description": null,
+              "Name": "People in rural/regional/remote communities",
+              "uuid": "0be40541-b3c9-f011-bbd3-6045bde73edb"
+            }
+          ],
+          "CharitySize": "Small",
+          "CharitySubtypeHistory": [
+            {
+              "EndDate": null,
+              "Purpose": "Advancing health",
+              "StartDate": "2024-12-15T13:00:00.0000000Z",
+              "uuid": "223c0514-bbd3-ef11-a72f-0022489899ef"
+            }
+          ],
+          "CharityVersion": "43",
+          "ChildMemberEndDate": null,
+          "ChildMemberStartDate": null,
+          "ChooseToProvideAis": null,
+          "Countries": [
+            {
+              "Name": "Australia",
+              "uuid": "f57b5602-9a4d-e811-a951-000d3ad06f2d"
+            }
+          ],
+          "DateEstablished": "2024-12-16T00:00:00.0000000Z",
+          "Documents": [
+            {
+              "Date": "2025-01-08T00:00:00.0000000",
+              "Title": "Constitution for NEMS (winnaleah) January 19 2019.doc",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/34a380bc-73cd-ef11-a72f-000d3a6b41c8-d6001e08-fb5a-41fe-ad17-236c3e22c04d-Governing%20Document-6d76f913-7ccd-ef11-a72f-000d3a6af31d-Constitution_for_NEMS_(winnaleah)_January_19_2019.doc",
+              "Year": null,
+              "type": "Governing Document",
+              "uuid": "6d76f913-7ccd-ef11-a72f-000d3a6af31d"
+            },
+            {
+              "Date": "2025-11-25T00:00:00.0000000",
+              "Title": "2025 Fin Report for ACNC.doc",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/34a380bc-73cd-ef11-a72f-000d3a6b41c8-d6001e08-fb5a-41fe-ad17-236c3e22c04d-Financial%20Report-2ba2993b-b3c9-f011-bbd2-002248925332-2025_Fin_Report_for_ACNC.doc",
+              "Year": "2025",
+              "type": "Financial Report",
+              "uuid": "2ba2993b-b3c9-f011-bbd2-002248925332"
+            }
+          ],
+          "Email": "rchrdnale@gmail.com",
+          "EnforcementOutcomes": [],
+          "FinancialYearEnd": "30/06",
+          "GovernmentAgencies": [
+            {
+              "Name": "TAS - Incorporated Association",
+              "ReferenceNumber": "IA12343",
+              "uuid": "f6e30541-b3c9-f011-bbd3-6045bde73edb"
+            }
+          ],
+          "GroupHeadFlag": false,
+          "LastReported": "2025-11-25T04:00:21.0000000Z",
+          "Name": "North East Men's Shed (Winnaleah) Inc.",
+          "NextReportDue": "2026-12-31T12:30:00.0000000Z",
+          "OperatingInStates": [
+            {
+              "Name": "Tasmania",
+              "uuid": "4fa3219c-455e-e811-a95c-000d3ad1c715"
+            }
+          ],
+          "OtherDetails": null,
+          "OtherNames": [],
+          "ParentAccountAbn": null,
+          "ParentAccountId": null,
+          "Phone": "0414456234",
+          "Programs": [
+            {
+              "AisUuid": "b5e30541-b3c9-f011-bbd3-6045bde73edb",
+              "Name": "Men's Support",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "People in rural/regional/remote communities"
+              ],
+              "ProgramClassie": [
+                {
+                  "classie_id": "401",
+                  "label": "Support groups",
+                  "parent_id": "399",
+                  "selected": true
+                },
+                {
+                  "classie_id": "399",
+                  "label": "Mental health counselling",
+                  "parent_id": "390",
+                  "selected": false
+                },
+                {
+                  "classie_id": "390",
+                  "label": "Mental healthcare",
+                  "parent_id": "264",
+                  "selected": false
+                },
+                {
+                  "classie_id": "264",
+                  "label": "Health",
+                  "parent_id": null,
+                  "selected": false
+                }
+              ],
+              "ProgramClassification": "Support groups",
+              "ProgramClassificationID": "401",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "1 Winnaleah Road, Winnaleah Tasmania 7265, Australia",
+                  "FormattedAddress": "1 Winnaleah Rd, Winnaleah TAS 7265, Australia",
+                  "Marker": {
+                    "Latitude": -41.1028575,
+                    "Longitude": 147.8232471
+                  },
+                  "Name": "1 Winnaleah Rd",
+                  "uuid": "ffe30541-b3c9-f011-bbd3-6045bde73edb"
+                }
+              ],
+              "ProgramWeblink": null,
+              "uuid": "f9e30541-b3c9-f011-bbd3-6045bde73edb"
+            }
+          ],
+          "ReferendumReturnsUrl": null,
+          "RegistrationStatusHistory": [
+            {
+              "EffectiveDate": "2024-12-15T13:00:00.0000000Z",
+              "Status": "Registered",
+              "TransactionDate": "2025-01-16T03:38:11.0000000Z",
+              "uuid": "4b38e548-bbd3-ef11-a730-000d3ad0bafe"
+            }
+          ],
+          "RelatedPartyTransactions": null,
+          "RelevantTransactions": null,
+          "ReportingLate": "2027-06-30T12:30:00.0000000Z",
+          "ResponsiblePersons": [
+            {
+              "Name": "Gavin Steel",
+              "Role": "President",
+              "uuid": "8c737519-74cd-ef11-a72f-000d3a6b41c8"
+            },
+            {
+              "Name": "Dennis Hambrook",
+              "Role": "Secretary",
+              "uuid": "a6737519-74cd-ef11-a72f-000d3a6b41c8"
+            },
+            {
+              "Name": "Richard Nale",
+              "Role": "Treasurer",
+              "uuid": "57a5adca-6d96-ef11-8a68-6045bde6b861"
+            },
+            {
+              "Name": "Dennis Hambrook",
+              "Role": "Vice-president",
+              "uuid": "a6737519-74cd-ef11-a72f-000d3a6b41c8"
+            }
+          ],
+          "Status": "Registered",
+          "SummaryOfActivities": "We have provided a local location for the men of our community to gather and be socially active, find new friends and allow for new opportunities for activity and interaction in their lives.",
+          "TotalExpensesEmployee": "0",
+          "TotalExpensesGrantsAndDonationsInAustralia": "0",
+          "TotalExpensesGrantsAndDonationsOutsideAustralia": "0",
+          "TotalExpensesInterest": "0",
+          "TotalExpensesOther": "822",
+          "TotalGrossIncomeDonationsAndRequests": "0",
+          "TotalGrossIncomeGoodsOrServices": "2032",
+          "TotalGrossIncomeGovernmentGrants": "0",
+          "TotalGrossIncomeInvestments": "0",
+          "TotalGrossIncomeOtherRevenues": "0",
+          "TransparencyRegisterUrl": null,
+          "Website": null,
+          "__normalized": true,
+          "type": "charity",
+          "uuid": "34a380bc-73cd-ef11-a72f-000d3a6b41c8"
+        },
+        "type": "charity",
+        "uuid": "34a380bc-73cd-ef11-a72f-000d3a6b41c8"
+      },
+      "canonical_field_mappings": {
+        "data.Name": "display_name",
+        "data.OtherNames": "operating_names",
+        "data.AnnualReports": "acnc_ais_url",
+        "data.Programs": "programs"
+      },
+      "evidence_ids": [
+        "ev:acnc:ais:32588253381:2025"
       ]
     }
   ],
@@ -183,6 +495,30 @@
       "page": null,
       "section": null,
       "content_hash": null
+    },
+    {
+      "evidence_id": "ev:abr-dgr:32588253381:20260805",
+      "source_type": "regulatory",
+      "title": "ABR DGR bulk observation",
+      "publisher": "Australian Business Register / Australian Taxation Office",
+      "url": "https://abr.business.gov.au/Tools/BulkExtract",
+      "observed_at": "2026-08-05",
+      "reporting_period": null,
+      "page": null,
+      "section": null,
+      "content_hash": null
+    },
+    {
+      "evidence_id": "ev:acnc:ais:32588253381:2025",
+      "source_type": "regulatory",
+      "title": "North East Men's Shed (Winnaleah) Inc. Annual Information Statement 2025",
+      "publisher": "Australian Charities and Not-for-profits Commission",
+      "url": "https://www.acnc.gov.au/charity/charities/34a380bc-73cd-ef11-a72f-000d3a6b41c8/documents/b5e30541-b3c9-f011-bbd3-6045bde73edb",
+      "observed_at": "2025-11-25",
+      "reporting_period": null,
+      "page": null,
+      "section": null,
+      "content_hash": null
     }
   ],
   "embedding": {
@@ -191,8 +527,8 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "8fb22d15b56201ccb409ef878d25abedc75cd87956c7a76a2330107f72fc60b1",
-    "generated_at": "2026-08-10T13:53:24.457370Z",
+    "source_text_hash": "a0e059c0a6ecf606e7fe022ab8a3bd55296d2955a8ae4b6599814f166a111074",
+    "generated_at": "2026-08-13T00:32:18.623185Z",
     "vector_ref": "embeddings.parquet#cb_2669573b14e34eafa671c4d2bdcdedcd"
   },
   "synthesis": {
@@ -263,9 +599,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc2",
-  "card_schema_version": "0.3",
+  "dataset_version": "phase2b-2026-08-13-rc3",
+  "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.3.0-rc2",
-  "built_at": "2026-08-12T14:24:20.675968Z"
+  "generator_version": "0.4.0-rc3",
+  "built_at": "2026-08-13T00:32:15.698599Z"
 }

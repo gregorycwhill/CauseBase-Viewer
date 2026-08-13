@@ -18,7 +18,16 @@
       ]
     }
   ],
-  "tax_statuses": [],
+  "tax_statuses": [
+    {
+      "scheme": "ABR DGR",
+      "status": "endorsed",
+      "detail": "Dated 2026-08-05 ABR bulk observation",
+      "evidence_ids": [
+        "ev:abr-dgr:30091040649:20260805"
+      ]
+    }
+  ],
   "relationships": [],
   "source_resolutions": [
     {
@@ -37,6 +46,12 @@
   "legal_name": "International China Concern (Australia) Ltd",
   "display_name": "International China Concern (Australia) Ltd",
   "entity_status": "registered",
+  "canonical_url": "https://gregorycwhill.github.io/CauseBase-Viewer/#cb_6b2097060d424bdf8858dde71c901dbb",
+  "acnc_profile_url": "https://www.acnc.gov.au/charity/charities/6a6e5a24-39af-e811-a962-000d3ad24a0d/profile",
+  "acnc_ais_url": "https://www.acnc.gov.au/charity/charities/6a6e5a24-39af-e811-a962-000d3ad24a0d/documents/8b28b687-a12b-f011-8c4d-6045bdc24e13",
+  "operating_names": [],
+  "former_names": [],
+  "principal_location": "VIC, Australia",
   "coverage": [
     {
       "capability": "regulatory",
@@ -83,6 +98,16 @@
       ],
       "observed_at": "2026-08-10",
       "freshness_note": null
+    },
+    {
+      "capability": "latest_acnc_ais",
+      "status": "observed",
+      "source_record_id": null,
+      "evidence_ids": [
+        "ev:acnc:ais:30091040649:2024"
+      ],
+      "observed_at": "2025-05-08",
+      "freshness_note": "Latest submitted ACNC AIS in the 2026-08-13 public-profile acquisition: 2024."
     }
   ],
   "enrichment_level": "enriched",
@@ -120,7 +145,9 @@
   "participation_modes": [
     "Volunteering (mentioned in complaints policy as a stakeholder group)"
   ],
+  "participation_observations": [],
   "opportunities": [],
+  "programs": [],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:27b9f52e-9b0e-58ed-b6d5-9a281e4b3bfa",
@@ -140,6 +167,7 @@
         "ACNC registration ID": null,
         "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
+      "source_payload": null,
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
         "Legal Name": "legal_name",
@@ -169,12 +197,841 @@
         "Assets": null,
         "Liabilities": null
       },
+      "source_payload": null,
       "canonical_field_mappings": {
         "Revenue": "financial_records[].revenue",
         "Total expenses": "financial_records[].total_expenses"
       },
       "evidence_ids": [
         "ev:ais:30091040649:2023"
+      ]
+    },
+    {
+      "source_record_id": "src:acnc-public-profile:30091040649:cb_6b2097060d424bdf8858dde71c901dbb:2026-08-13",
+      "source_family": "acnc-public-profile",
+      "dataset_version": "2026-08-13-public-api",
+      "source_url": "https://www.acnc.gov.au/charity/charities/6a6e5a24-39af-e811-a962-000d3ad24a0d/profile",
+      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "observed_at": "2025-05-08",
+      "effective_from": null,
+      "effective_to": null,
+      "source_fields": {
+        "uuid": "6a6e5a24-39af-e811-a962-000d3ad24a0d",
+        "abn": "30091040649",
+        "latest_ais_year": "2024",
+        "latest_ais_uuid": "8b28b687-a12b-f011-8c4d-6045bdc24e13"
+      },
+      "source_payload": {
+        "data": {
+          "AFSAddressPostalCode": "3129",
+          "AFSEmail": "australia@chinaconcern.org",
+          "Abn": "30091040649",
+          "AddressCountry": "Australia",
+          "AddressLine1": "525",
+          "AddressLine2": "Middleborough Road",
+          "AddressLine3": null,
+          "AddressPostalCode": "3129",
+          "AddressStateOrProvince": "VIC",
+          "AddressSuburb": "Box Hill North",
+          "AddressSuburbStatePostcode": "Box Hill North VIC 3129",
+          "AnnualReports": [
+            {
+              "AISId": null,
+              "DateReceived": "2020-01-23T04:40:27.0000000Z",
+              "DocumentUuid": "9b852b2d-d702-eb11-a813-000d3ad1caaa",
+              "DueDate": "2020-01-31T00:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2019",
+              "type": "Financial Report 2019",
+              "uuid": "7f3965f1-f125-e911-a976-000d3ad05e15"
+            },
+            {
+              "AISId": "5a300e33-d702-eb11-a812-000d3ad1ce4e",
+              "DateReceived": "2020-01-23T04:40:31.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2020-01-31T00:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2019",
+              "type": "Annual Information Statement 2019",
+              "uuid": "a13965f1-f125-e911-a976-000d3ad05e15"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2020-12-10T04:36:32.0000000Z",
+              "DocumentUuid": "2dffcd89-df4f-eb11-a812-000d3ad1cc03",
+              "DueDate": "2021-01-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2020",
+              "type": "Financial Report 2020",
+              "uuid": "db3965f1-f125-e911-a976-000d3ad05e15"
+            },
+            {
+              "AISId": "2903e78f-df4f-eb11-bb23-000d3ad1f9f4",
+              "DateReceived": "2020-12-10T04:36:40.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2021-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2020",
+              "type": "Annual Information Statement 2020",
+              "uuid": "113a65f1-f125-e911-a976-000d3ad05e15"
+            },
+            {
+              "AISId": "48c40628-9c58-ec11-8f8f-002248106dd5",
+              "DateReceived": "2021-12-09T03:00:29.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2022-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2021",
+              "type": "Annual Information Statement 2021",
+              "uuid": "ca89bf1f-8f44-ea11-a813-000d3ad1f497"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2021-12-09T03:00:22.0000000Z",
+              "DocumentUuid": "d5060920-9c58-ec11-8f8f-000d3acb737b",
+              "DueDate": "2022-01-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2021",
+              "type": "Financial Report 2021",
+              "uuid": "e389bf1f-8f44-ea11-a813-000d3ad1f497"
+            },
+            {
+              "AISId": "14db302c-8116-ee11-9cbe-00224893cef4",
+              "DateReceived": "2023-06-29T13:31:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2023-06-29T14:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2022",
+              "type": "Annual Information Statement 2022",
+              "uuid": "1d65e4b3-d363-eb11-b0b0-000d3ad1f9f4"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2023-06-29T13:30:57.0000000Z",
+              "DocumentUuid": "e174761e-8116-ee11-9cbe-00224893cef4",
+              "DueDate": "2023-06-29T14:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2022",
+              "type": "Financial Report 2022",
+              "uuid": "5765e4b3-d363-eb11-b0b0-000d3ad1f9f4"
+            },
+            {
+              "AISId": "0369c242-51c8-e811-a963-000d3ad24a0d",
+              "DateReceived": "2015-01-14T13:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2014-03-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2013",
+              "type": "Annual Information Statement 2013",
+              "uuid": "c3960642-51c8-e811-a964-000d3ad24077"
+            },
+            {
+              "AISId": "86b19f04-c44e-e911-a97c-000d3ad06f2d",
+              "DateReceived": "2019-03-25T06:05:44.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2019-03-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2018",
+              "type": "Annual Information Statement 2018",
+              "uuid": "60f6dcca-3ac8-e811-a963-000d3ad24a0d"
+            },
+            {
+              "AISId": "0a69c242-51c8-e811-a963-000d3ad24a0d",
+              "DateReceived": "2015-02-02T13:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2015-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2014",
+              "type": "Annual Information Statement 2014",
+              "uuid": "2e69c242-51c8-e811-a963-000d3ad24a0d"
+            },
+            {
+              "AISId": "1269c242-51c8-e811-a963-000d3ad24a0d",
+              "DateReceived": "2015-11-26T13:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2016-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2015",
+              "type": "Annual Information Statement 2015",
+              "uuid": "3569c242-51c8-e811-a963-000d3ad24a0d"
+            },
+            {
+              "AISId": "1a69c242-51c8-e811-a963-000d3ad24a0d",
+              "DateReceived": "2016-11-04T13:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2017-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2016",
+              "type": "Annual Information Statement 2016",
+              "uuid": "3c69c242-51c8-e811-a963-000d3ad24a0d"
+            },
+            {
+              "AISId": "1f69c242-51c8-e811-a963-000d3ad24a0d",
+              "DateReceived": "2017-12-06T13:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2018-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2017",
+              "type": "Annual Information Statement 2017",
+              "uuid": "4569c242-51c8-e811-a963-000d3ad24a0d"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2015-02-02T13:00:00.0000000Z",
+              "DocumentUuid": "63133ede-47b0-e811-a963-000d3ad244fd",
+              "DueDate": "2015-01-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2014",
+              "type": "Financial Report 2014",
+              "uuid": "4db1231d-3fc8-e811-a95f-000d3ad24c60"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2015-11-26T13:00:00.0000000Z",
+              "DocumentUuid": "b8133ede-47b0-e811-a963-000d3ad244fd",
+              "DueDate": "2016-01-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2015",
+              "type": "Financial Report 2015",
+              "uuid": "56b1231d-3fc8-e811-a95f-000d3ad24c60"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2016-11-04T13:00:00.0000000Z",
+              "DocumentUuid": "d5133ede-47b0-e811-a963-000d3ad244fd",
+              "DueDate": "2017-01-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2016",
+              "type": "Financial Report 2016",
+              "uuid": "6ab1231d-3fc8-e811-a95f-000d3ad24c60"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2017-12-06T13:00:00.0000000Z",
+              "DocumentUuid": "08f2aedf-47b0-e811-a963-000d3ad24077",
+              "DueDate": "2018-01-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2017",
+              "type": "Financial Report 2017",
+              "uuid": "7fb1231d-3fc8-e811-a95f-000d3ad24c60"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2019-03-25T06:05:34.0000000Z",
+              "DocumentUuid": "ae2f42ff-c34e-e911-a970-000d3ad24c60",
+              "DueDate": "2019-03-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2018",
+              "type": "Financial Report 2018",
+              "uuid": "90b1231d-3fc8-e811-a95f-000d3ad24c60"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Not required",
+              "Year": "2013",
+              "type": "Financial Report 2013",
+              "uuid": "a1b1231d-3fc8-e811-a95f-000d3ad24c60"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2026-08-30T14:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Not yet submitted",
+              "Year": "2025",
+              "type": "Annual Information Statement 2025",
+              "uuid": "2c38c30c-ec36-ef11-a316-0022481034e5"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2026-08-30T14:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Pending",
+              "Year": "2025",
+              "type": "Financial Report 2025",
+              "uuid": "3638c30c-ec36-ef11-a316-0022481034e5"
+            },
+            {
+              "AISId": "8b28b687-a12b-f011-8c4d-6045bdc24e13",
+              "DateReceived": "2025-05-08T00:15:39.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2025-06-29T14:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2024",
+              "type": "Annual Information Statement 2024",
+              "uuid": "45062197-5317-ee11-8f6d-002248122b18"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2025-05-08T00:15:24.0000000Z",
+              "DocumentUuid": "ace26881-a12b-f011-8c4d-7c1e522ac44d",
+              "DueDate": "2025-06-29T14:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2024",
+              "type": "Financial Report 2024",
+              "uuid": "7b062197-5317-ee11-8f6d-002248122b18"
+            },
+            {
+              "AISId": "d5e2cbb5-1afa-ee11-9f8a-002248935564",
+              "DateReceived": "2024-04-14T04:51:59.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2024-06-29T14:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2023",
+              "type": "Annual Information Statement 2023",
+              "uuid": "9c6381fd-a282-ec11-8d20-00224892945b"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2024-04-14T04:51:11.0000000Z",
+              "DocumentUuid": "4c31cc8f-1afa-ee11-9f89-6045bde6634b",
+              "DueDate": "2024-06-29T14:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2023",
+              "type": "Financial Report 2023",
+              "uuid": "a66381fd-a282-ec11-8d20-00224892945b"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2027-06-29T14:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Not yet submitted",
+              "Year": "2026",
+              "type": "Annual Information Statement 2026",
+              "uuid": "244dfb07-bc55-f011-bec1-00224894d5bf"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2027-06-29T14:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Pending",
+              "Year": "2026",
+              "type": "Financial Report 2026",
+              "uuid": "344dfb07-bc55-f011-bec1-00224894d5bf"
+            }
+          ],
+          "Beneficiaries": [
+            {
+              "Description": null,
+              "Name": "Youth - 15 to under 25",
+              "uuid": "d0f5b78d-a12b-f011-8c4d-6045bdc24e13"
+            },
+            {
+              "Description": null,
+              "Name": "People with disabilities",
+              "uuid": "dcf5b78d-a12b-f011-8c4d-6045bdc24e13"
+            },
+            {
+              "Description": null,
+              "Name": "People in rural/regional/remote communities",
+              "uuid": "e1f5b78d-a12b-f011-8c4d-6045bdc24e13"
+            },
+            {
+              "Description": null,
+              "Name": "Overseas communities or charities",
+              "uuid": "e9f5b78d-a12b-f011-8c4d-6045bdc24e13"
+            },
+            {
+              "Description": null,
+              "Name": "Males",
+              "uuid": "edf5b78d-a12b-f011-8c4d-6045bdc24e13"
+            },
+            {
+              "Description": null,
+              "Name": "Financially disadvantaged people",
+              "uuid": "f1f5b78d-a12b-f011-8c4d-6045bdc24e13"
+            },
+            {
+              "Description": null,
+              "Name": "Females",
+              "uuid": "f5f5b78d-a12b-f011-8c4d-6045bdc24e13"
+            },
+            {
+              "Description": null,
+              "Name": "Families",
+              "uuid": "f9f5b78d-a12b-f011-8c4d-6045bdc24e13"
+            },
+            {
+              "Description": null,
+              "Name": "Early childhood - aged under 6",
+              "uuid": "fef5b78d-a12b-f011-8c4d-6045bdc24e13"
+            },
+            {
+              "Description": null,
+              "Name": "Children - aged 6 to under 15",
+              "uuid": "03f6b78d-a12b-f011-8c4d-6045bdc24e13"
+            },
+            {
+              "Description": null,
+              "Name": "Adults - aged 25 to under 65",
+              "uuid": "07f6b78d-a12b-f011-8c4d-6045bdc24e13"
+            }
+          ],
+          "CharitySize": "Medium",
+          "CharitySubtypeHistory": [
+            {
+              "EndDate": null,
+              "Purpose": "Public Benevolent Institution (PBI)",
+              "StartDate": "2017-08-12T14:00:00.0000000Z",
+              "uuid": "99054483-fdc6-e811-a964-000d3ad24077"
+            },
+            {
+              "EndDate": "2013-12-30T13:00:00.0000000Z",
+              "Purpose": "2012 Another purpose beneficial to the community",
+              "StartDate": "2012-12-02T13:00:00.0000000Z",
+              "uuid": "54965f7f-fdc6-e811-a961-000d3ad24282"
+            },
+            {
+              "EndDate": null,
+              "Purpose": "Advancing health",
+              "StartDate": "2013-12-31T13:00:00.0000000Z",
+              "uuid": "6e965f7f-fdc6-e811-a961-000d3ad24282"
+            },
+            {
+              "EndDate": null,
+              "Purpose": "Advancing social or public welfare",
+              "StartDate": "2013-12-31T13:00:00.0000000Z",
+              "uuid": "e1045a85-fdc6-e811-a961-000d3ad24282"
+            }
+          ],
+          "CharityVersion": "180",
+          "ChildMemberEndDate": null,
+          "ChildMemberStartDate": null,
+          "ChooseToProvideAis": null,
+          "Countries": [
+            {
+              "Name": "China",
+              "uuid": "317c5602-9a4d-e811-a951-000d3ad06f2d"
+            }
+          ],
+          "DateEstablished": "1998-12-31T13:00:00.0000000Z",
+          "Documents": [
+            {
+              "Date": "2022-11-04T00:00:00.0000000",
+              "Title": "Constitution of International China Concern (Australia) Ltd as amended on 14 August 2022.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/6a6e5a24-39af-e811-a962-000d3ad24a0d-25747c78-49d2-4573-8358-35f4f162f57d-Governing%20Document-6dd31c26-fc5b-ed11-9562-002248122447-Constitution_of_International_China_Concern_(Australia)_Ltd_as_amended_on_14_August_2022.pdf",
+              "Year": null,
+              "type": "Governing Document",
+              "uuid": "6dd31c26-fc5b-ed11-9562-002248122447"
+            },
+            {
+              "Date": "2025-05-08T00:00:00.0000000",
+              "Title": "FINAL_DIGITAL-ICC-AUS_single-pages_Annual_Report-024.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/6a6e5a24-39af-e811-a962-000d3ad24a0d-25747c78-49d2-4573-8358-35f4f162f57d-Annual%20Report-a2440acb-a72b-f011-8c4d-002248112f30-FINAL_DIGITAL-ICC-AUS_single-pages_Annual_Report-024.pdf",
+              "Year": "2024",
+              "type": "Annual Report",
+              "uuid": "a2440acb-a72b-f011-8c4d-002248112f30"
+            },
+            {
+              "Date": "2021-01-06T00:00:00.0000000",
+              "Title": "INT100A 2020-11-26 - International China Concern 2020 Financial Report.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/6a6e5a24-39af-e811-a962-000d3ad24a0d-25747c78-49d2-4573-8358-35f4f162f57d-Financial%20Report-2dffcd89-df4f-eb11-a812-000d3ad1cc03-INT100A_2020-11-26_-_International_China_Concern_2020_Financial_Report.pdf",
+              "Year": "2020",
+              "type": "Financial Report",
+              "uuid": "2dffcd89-df4f-eb11-a812-000d3ad1cc03"
+            },
+            {
+              "Date": "2021-12-09T00:00:00.0000000",
+              "Title": "INT100A - International China Concern 2021 Financial Report.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/6a6e5a24-39af-e811-a962-000d3ad24a0d-25747c78-49d2-4573-8358-35f4f162f57d-Financial%20Report-d5060920-9c58-ec11-8f8f-000d3acb737b-INT100A_-_International_China_Concern_2021_Financial_Report.pdf",
+              "Year": "2021",
+              "type": "Financial Report",
+              "uuid": "d5060920-9c58-ec11-8f8f-000d3acb737b"
+            },
+            {
+              "Date": "2020-09-30T00:00:00.0000000",
+              "Title": "ICC 2019 financial statement.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/6a6e5a24-39af-e811-a962-000d3ad24a0d-25747c78-49d2-4573-8358-35f4f162f57d-Financial%20Report-9b852b2d-d702-eb11-a813-000d3ad1caaa-ICC_2019_financial_statement.pdf",
+              "Year": "2019",
+              "type": "Financial Report",
+              "uuid": "9b852b2d-d702-eb11-a813-000d3ad1caaa"
+            },
+            {
+              "Date": "2017-12-07T00:00:00.0000000",
+              "Title": "2016- 2017_Signed ICC Australia Audit Report_r.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/6a6e5a24-39af-e811-a962-000d3ad24a0d-25747c78-49d2-4573-8358-35f4f162f57d-Financial%20Report-08f2aedf-47b0-e811-a963-000d3ad24077-2016-_2017_Signed_ICC_Australia_Audit_Report_r.pdf",
+              "Year": "2017",
+              "type": "Financial Report",
+              "uuid": "08f2aedf-47b0-e811-a963-000d3ad24077"
+            },
+            {
+              "Date": "2015-02-03T00:00:00.0000000",
+              "Title": "2014_Signed Financial Report for ICC Australia Ltd1.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/6a6e5a24-39af-e811-a962-000d3ad24a0d-25747c78-49d2-4573-8358-35f4f162f57d-Financial%20Report-63133ede-47b0-e811-a963-000d3ad244fd-2014_Signed_Financial_Report_for_ICC_Australia_Ltd1.pdf",
+              "Year": "2014",
+              "type": "Financial Report",
+              "uuid": "63133ede-47b0-e811-a963-000d3ad244fd"
+            },
+            {
+              "Date": "2015-11-27T00:00:00.0000000",
+              "Title": "2014-2015_ICC Australia_Signed Financial Report.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/6a6e5a24-39af-e811-a962-000d3ad24a0d-25747c78-49d2-4573-8358-35f4f162f57d-Financial%20Report-b8133ede-47b0-e811-a963-000d3ad244fd-2014-2015_ICC_Australia_Signed_Financial_Report.pdf",
+              "Year": "2015",
+              "type": "Financial Report",
+              "uuid": "b8133ede-47b0-e811-a963-000d3ad244fd"
+            },
+            {
+              "Date": "2016-11-05T00:00:00.0000000",
+              "Title": "1_2015-2016_ICC Australia Ltd_Audited and signed Financial Report.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/6a6e5a24-39af-e811-a962-000d3ad24a0d-25747c78-49d2-4573-8358-35f4f162f57d-Financial%20Report-d5133ede-47b0-e811-a963-000d3ad244fd-1_2015-2016_ICC_Australia_Ltd_Audited_and_signed_Financial_Report.pdf",
+              "Year": "2016",
+              "type": "Financial Report",
+              "uuid": "d5133ede-47b0-e811-a963-000d3ad244fd"
+            },
+            {
+              "Date": "2019-03-25T00:00:00.0000000",
+              "Title": "2018_Signed Financial Report for ICC Australia Ltd-compressed.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/6a6e5a24-39af-e811-a962-000d3ad24a0d-25747c78-49d2-4573-8358-35f4f162f57d-Financial%20Report-ae2f42ff-c34e-e911-a970-000d3ad24c60-2018_Signed_Financial_Report_for_ICC_Australia_Ltd-compressed.pdf",
+              "Year": "2018",
+              "type": "Financial Report",
+              "uuid": "ae2f42ff-c34e-e911-a970-000d3ad24c60"
+            },
+            {
+              "Date": "2023-06-29T00:00:00.0000000",
+              "Title": "INT100A 2023-03-01 - International China Concern (Australia) Ltd Transmittal (31 December 2022) signed REV 1.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/6a6e5a24-39af-e811-a962-000d3ad24a0d-25747c78-49d2-4573-8358-35f4f162f57d-Financial%20Report-e174761e-8116-ee11-9cbe-00224893cef4-INT100A_2023-03-01_-_International_China_Concern_(Australia)_Ltd_Transmittal_(31_December_2022)_signed_REV_1.pdf",
+              "Year": "2022",
+              "type": "Financial Report",
+              "uuid": "e174761e-8116-ee11-9cbe-00224893cef4"
+            },
+            {
+              "Date": "2024-04-14T00:00:00.0000000",
+              "Title": "23_001.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/6a6e5a24-39af-e811-a962-000d3ad24a0d-25747c78-49d2-4573-8358-35f4f162f57d-Financial%20Report-4c31cc8f-1afa-ee11-9f89-6045bde6634b-23_001.pdf",
+              "Year": "2023",
+              "type": "Financial Report",
+              "uuid": "4c31cc8f-1afa-ee11-9f89-6045bde6634b"
+            },
+            {
+              "Date": "2025-05-08T00:00:00.0000000",
+              "Title": "ICC Australia Ltd 2024 Financial Report.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/6a6e5a24-39af-e811-a962-000d3ad24a0d-25747c78-49d2-4573-8358-35f4f162f57d-Financial%20Report-ace26881-a12b-f011-8c4d-7c1e522ac44d-ICC_Australia_Ltd_2024_Financial_Report.pdf",
+              "Year": "2024",
+              "type": "Financial Report",
+              "uuid": "ace26881-a12b-f011-8c4d-7c1e522ac44d"
+            }
+          ],
+          "Email": "australia@chinaconcern.org",
+          "EnforcementOutcomes": [],
+          "FinancialYearEnd": "31/12",
+          "GovernmentAgencies": [
+            {
+              "Name": "Online fundraising",
+              "ReferenceNumber": null,
+              "uuid": "a930c87c-9a3d-ea11-a813-000d3ad1cd99"
+            },
+            {
+              "Name": "Online fundraising",
+              "ReferenceNumber": null,
+              "uuid": "eac57d48-a13a-eb11-bf72-000d3ad1cd99"
+            },
+            {
+              "Name": "Online fundraising",
+              "ReferenceNumber": null,
+              "uuid": "a8730639-d702-eb11-a812-000d3ad1ce4e"
+            },
+            {
+              "Name": "Online fundraising",
+              "ReferenceNumber": null,
+              "uuid": "7104e78f-df4f-eb11-bb23-000d3ad1f9f4"
+            },
+            {
+              "Name": "Australian Securities and Investment Commission",
+              "ReferenceNumber": "91040649",
+              "uuid": "89cb8eb9-e6af-e811-a962-000d3ad24a0d"
+            },
+            {
+              "Name": "Online fundraising",
+              "ReferenceNumber": null,
+              "uuid": "7cc50628-9c58-ec11-8f8f-002248106dd5"
+            },
+            {
+              "Name": "Online fundraising",
+              "ReferenceNumber": null,
+              "uuid": "407a3732-8116-ee11-9cbe-00224893cef4"
+            },
+            {
+              "Name": "NSW - Fundraising",
+              "ReferenceNumber": "CFN/24454",
+              "uuid": "a328b687-a12b-f011-8c4d-6045bdc24e13"
+            },
+            {
+              "Name": "QLD - Fundraising",
+              "ReferenceNumber": "CH1831",
+              "uuid": "a728b687-a12b-f011-8c4d-6045bdc24e13"
+            },
+            {
+              "Name": "SA - Fundraising",
+              "ReferenceNumber": "CCP3028",
+              "uuid": "aa28b687-a12b-f011-8c4d-6045bdc24e13"
+            },
+            {
+              "Name": "TAS - Fundraising",
+              "ReferenceNumber": "C/10470",
+              "uuid": "ad28b687-a12b-f011-8c4d-6045bdc24e13"
+            },
+            {
+              "Name": "VIC - Fundraising",
+              "ReferenceNumber": "14487",
+              "uuid": "b028b687-a12b-f011-8c4d-6045bdc24e13"
+            },
+            {
+              "Name": "WA - Fundraising",
+              "ReferenceNumber": "CC22187",
+              "uuid": "b428b687-a12b-f011-8c4d-6045bdc24e13"
+            },
+            {
+              "Name": "Online fundraising",
+              "ReferenceNumber": null,
+              "uuid": "b728b687-a12b-f011-8c4d-6045bdc24e13"
+            }
+          ],
+          "GroupHeadFlag": false,
+          "LastReported": "2025-05-08T00:15:39.0000000Z",
+          "Name": "International China Concern (Australia) Ltd",
+          "NextReportDue": "2026-08-31T13:30:00.0000000Z",
+          "OperatingInStates": [],
+          "OtherDetails": null,
+          "OtherNames": [],
+          "ParentAccountAbn": null,
+          "ParentAccountId": null,
+          "Phone": "1 300 951 680",
+          "Programs": [
+            {
+              "AisUuid": "8b28b687-a12b-f011-8c4d-6045bdc24e13",
+              "Name": "Family Partners Program",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Early childhood - aged under 6",
+                "Children - aged 6 to under 15",
+                "Youth - 15 to under 25",
+                "Families",
+                "People in rural/regional/remote communities",
+                "Financially disadvantaged people",
+                "People with disabilities",
+                "Females",
+                "Males",
+                "Overseas communities or charities"
+              ],
+              "ProgramClassie": [
+                {
+                  "classie_id": "505",
+                  "label": "Family disability resources",
+                  "parent_id": "496",
+                  "selected": true
+                },
+                {
+                  "classie_id": "496",
+                  "label": "Family services",
+                  "parent_id": "485",
+                  "selected": false
+                },
+                {
+                  "classie_id": "485",
+                  "label": "Human services",
+                  "parent_id": null,
+                  "selected": false
+                }
+              ],
+              "ProgramClassification": "Family disability resources",
+              "ProgramClassificationID": "505",
+              "ProgramCountries": [
+                "China"
+              ],
+              "ProgramLocations": [],
+              "ProgramWeblink": "https://chinaconcern.org/restoring-families/",
+              "uuid": "7af5b78d-a12b-f011-8c4d-6045bdc24e13"
+            },
+            {
+              "AisUuid": "8b28b687-a12b-f011-8c4d-6045bdc24e13",
+              "Name": "Family-style Care Centres",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Early childhood - aged under 6",
+                "Children - aged 6 to under 15",
+                "Youth - 15 to under 25",
+                "People with disabilities",
+                "Females",
+                "Males",
+                "Overseas communities or charities"
+              ],
+              "ProgramClassie": [
+                {
+                  "classie_id": "502",
+                  "label": "Out-of-home care",
+                  "parent_id": "498",
+                  "selected": true
+                },
+                {
+                  "classie_id": "498",
+                  "label": "Child welfare",
+                  "parent_id": "496",
+                  "selected": false
+                },
+                {
+                  "classie_id": "496",
+                  "label": "Family services",
+                  "parent_id": "485",
+                  "selected": false
+                },
+                {
+                  "classie_id": "485",
+                  "label": "Human services",
+                  "parent_id": null,
+                  "selected": false
+                }
+              ],
+              "ProgramClassification": "Out-of-home care",
+              "ProgramClassificationID": "502",
+              "ProgramCountries": [
+                "China"
+              ],
+              "ProgramLocations": [],
+              "ProgramWeblink": "https://chinaconcern.org/serving-children-without-families/",
+              "uuid": "8ef5b78d-a12b-f011-8c4d-6045bdc24e13"
+            },
+            {
+              "AisUuid": "8b28b687-a12b-f011-8c4d-6045bdc24e13",
+              "Name": "Pathways Vocational Training",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Youth - 15 to under 25",
+                "Adults - aged 25 to under 65",
+                "Families",
+                "People in rural/regional/remote communities",
+                "Financially disadvantaged people",
+                "People with disabilities",
+                "Females",
+                "Males",
+                "Overseas communities or charities"
+              ],
+              "ProgramClassie": [
+                {
+                  "classie_id": "515",
+                  "label": "Vocational rehabilitation",
+                  "parent_id": "512",
+                  "selected": true
+                },
+                {
+                  "classie_id": "512",
+                  "label": "Job services",
+                  "parent_id": "485",
+                  "selected": false
+                },
+                {
+                  "classie_id": "485",
+                  "label": "Human services",
+                  "parent_id": null,
+                  "selected": false
+                }
+              ],
+              "ProgramClassification": "Vocational rehabilitation",
+              "ProgramClassificationID": "515",
+              "ProgramCountries": [
+                "China"
+              ],
+              "ProgramLocations": [],
+              "ProgramWeblink": "https://chinaconcern.org/equipping-young-adults/",
+              "uuid": "9ef5b78d-a12b-f011-8c4d-6045bdc24e13"
+            }
+          ],
+          "ReferendumReturnsUrl": null,
+          "RegistrationStatusHistory": [
+            {
+              "EffectiveDate": "2012-12-02T13:00:00.0000000Z",
+              "Status": "Registered",
+              "TransactionDate": "2012-12-02T13:00:00.0000000Z",
+              "uuid": "11a012ac-06c6-e811-a962-000d3ad24182"
+            }
+          ],
+          "RelatedPartyTransactions": null,
+          "RelevantTransactions": null,
+          "ReportingLate": "2027-02-28T13:30:00.0000000Z",
+          "ResponsiblePersons": [
+            {
+              "Name": "Graham Dangerfield",
+              "Role": "Board Member",
+              "uuid": "dae2cbb5-1afa-ee11-9f8a-002248935564"
+            },
+            {
+              "Name": "Janet Conroy",
+              "Role": "Board Member",
+              "uuid": "5c6ca862-66ae-ec11-9840-0022489361c5"
+            },
+            {
+              "Name": "Peter Luu",
+              "Role": "Secretary",
+              "uuid": "9917f047-21e7-ee11-904d-000d3acb6ca3"
+            },
+            {
+              "Name": "Ashleigh Khoo",
+              "Role": "Chairperson",
+              "uuid": "afba0b56-8c79-f111-ab0e-70a8a5552ae3"
+            }
+          ],
+          "Status": "Registered",
+          "SummaryOfActivities": "Fundraising provided for the needs of abandoned children who are disabled and families with a child who has disabilities.  The needs include medical, therapy and education, nutrition and living accommodation and life skills training.",
+          "TotalExpensesEmployee": "165800",
+          "TotalExpensesGrantsAndDonationsInAustralia": "0",
+          "TotalExpensesGrantsAndDonationsOutsideAustralia": "702755",
+          "TotalExpensesInterest": "0",
+          "TotalExpensesOther": "90504",
+          "TotalGrossIncomeDonationsAndRequests": "642440",
+          "TotalGrossIncomeGoodsOrServices": "0",
+          "TotalGrossIncomeGovernmentGrants": "0",
+          "TotalGrossIncomeInvestments": "0",
+          "TotalGrossIncomeOtherRevenues": "338888",
+          "TransparencyRegisterUrl": null,
+          "Website": "chinaconcern.org",
+          "__normalized": true,
+          "type": "charity",
+          "uuid": "6a6e5a24-39af-e811-a962-000d3ad24a0d"
+        },
+        "type": "charity",
+        "uuid": "6a6e5a24-39af-e811-a962-000d3ad24a0d"
+      },
+      "canonical_field_mappings": {
+        "data.Name": "display_name",
+        "data.OtherNames": "operating_names",
+        "data.AnnualReports": "acnc_ais_url",
+        "data.Programs": "programs"
+      },
+      "evidence_ids": [
+        "ev:acnc:ais:30091040649:2024"
       ]
     }
   ],
@@ -222,7 +1079,10 @@
         "source_precision": null
       },
       "assets": null,
-      "liabilities": null
+      "liabilities": null,
+      "income_breakdown": [],
+      "expense_breakdown": [],
+      "balance_sheet_breakdown": []
     }
   ],
   "financial_metrics": [
@@ -365,6 +1225,30 @@
       "page": null,
       "section": null,
       "content_hash": null
+    },
+    {
+      "evidence_id": "ev:abr-dgr:30091040649:20260805",
+      "source_type": "regulatory",
+      "title": "ABR DGR bulk observation",
+      "publisher": "Australian Business Register / Australian Taxation Office",
+      "url": "https://abr.business.gov.au/Tools/BulkExtract",
+      "observed_at": "2026-08-05",
+      "reporting_period": null,
+      "page": null,
+      "section": null,
+      "content_hash": null
+    },
+    {
+      "evidence_id": "ev:acnc:ais:30091040649:2024",
+      "source_type": "regulatory",
+      "title": "International China Concern (Australia) Ltd Annual Information Statement 2024",
+      "publisher": "Australian Charities and Not-for-profits Commission",
+      "url": "https://www.acnc.gov.au/charity/charities/6a6e5a24-39af-e811-a962-000d3ad24a0d/documents/8b28b687-a12b-f011-8c4d-6045bdc24e13",
+      "observed_at": "2025-05-08",
+      "reporting_period": null,
+      "page": null,
+      "section": null,
+      "content_hash": null
     }
   ],
   "embedding": {
@@ -373,8 +1257,8 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "f3a714808327b2f3c98367b8e2da9e9e87f2f0f24f6155fed578495afca05538",
-    "generated_at": "2026-08-10T13:53:24.456116Z",
+    "source_text_hash": "6960585674d801dacda0a1798d6c8d4cb3edd4512cb03ab82653938809b4f0bf",
+    "generated_at": "2026-08-13T00:32:18.621342Z",
     "vector_ref": "embeddings.parquet#cb_6b2097060d424bdf8858dde71c901dbb"
   },
   "synthesis": {
@@ -445,9 +1329,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc2",
-  "card_schema_version": "0.3",
+  "dataset_version": "phase2b-2026-08-13-rc3",
+  "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.3.0-rc2",
-  "built_at": "2026-08-12T14:24:20.675968Z"
+  "generator_version": "0.4.0-rc3",
+  "built_at": "2026-08-13T00:32:15.698599Z"
 }

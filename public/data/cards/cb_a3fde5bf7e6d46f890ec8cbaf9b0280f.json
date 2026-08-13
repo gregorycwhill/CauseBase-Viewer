@@ -18,7 +18,16 @@
       ]
     }
   ],
-  "tax_statuses": [],
+  "tax_statuses": [
+    {
+      "scheme": "ABR DGR",
+      "status": "endorsed",
+      "detail": "Dated 2026-08-05 ABR bulk observation",
+      "evidence_ids": [
+        "ev:abr-dgr:47683036106:20260805"
+      ]
+    }
+  ],
   "relationships": [],
   "source_resolutions": [
     {
@@ -37,6 +46,12 @@
   "legal_name": "ADELAIDE MOSQUE ISLAMIC SOCIETY LTD",
   "display_name": "ADELAIDE MOSQUE ISLAMIC SOCIETY LTD",
   "entity_status": "registered",
+  "canonical_url": "https://gregorycwhill.github.io/CauseBase-Viewer/#cb_a3fde5bf7e6d46f890ec8cbaf9b0280f",
+  "acnc_profile_url": "https://www.acnc.gov.au/charity/charities/2ceb9578-032a-f011-8c4d-0022489511f7/profile",
+  "acnc_ais_url": null,
+  "operating_names": [],
+  "former_names": [],
+  "principal_location": null,
   "coverage": [
     {
       "capability": "regulatory",
@@ -81,6 +96,14 @@
       "evidence_ids": [],
       "observed_at": "2026-08-10",
       "freshness_note": null
+    },
+    {
+      "capability": "latest_acnc_ais",
+      "status": "not_available_from_source",
+      "source_record_id": null,
+      "evidence_ids": [],
+      "observed_at": "2026-08-13",
+      "freshness_note": "No submitted AIS appears in the 2026-08-13 public ACNC profile acquisition."
     }
   ],
   "enrichment_level": "enriched",
@@ -135,7 +158,9 @@
     "Participation in community programs (children’s school, Sister’s Morning Tea)",
     "Making donations via PayPal, debit/credit card or direct deposit"
   ],
+  "participation_observations": [],
   "opportunities": [],
+  "programs": [],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:7ed139f7-fa0d-58e1-bfce-d43343a3d26b",
@@ -155,6 +180,7 @@
         "ACNC registration ID": null,
         "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
+      "source_payload": null,
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
         "Legal Name": "legal_name",
@@ -272,6 +298,18 @@
       "page": null,
       "section": null,
       "content_hash": null
+    },
+    {
+      "evidence_id": "ev:abr-dgr:47683036106:20260805",
+      "source_type": "regulatory",
+      "title": "ABR DGR bulk observation",
+      "publisher": "Australian Business Register / Australian Taxation Office",
+      "url": "https://abr.business.gov.au/Tools/BulkExtract",
+      "observed_at": "2026-08-05",
+      "reporting_period": null,
+      "page": null,
+      "section": null,
+      "content_hash": null
     }
   ],
   "embedding": {
@@ -280,8 +318,8 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "56bbe05bc78e2ca499bdf44a46f3dfd1fd7f46c69a7b832c9f8556be894fdf7f",
-    "generated_at": "2026-08-10T13:53:24.457866Z",
+    "source_text_hash": "9b386f23508b6364a8dfe9a3885fc0ecebe5d898eea5398d01d492e2b7784c5c",
+    "generated_at": "2026-08-13T00:32:18.623792Z",
     "vector_ref": "embeddings.parquet#cb_a3fde5bf7e6d46f890ec8cbaf9b0280f"
   },
   "synthesis": {
@@ -352,9 +390,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc2",
-  "card_schema_version": "0.3",
+  "dataset_version": "phase2b-2026-08-13-rc3",
+  "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.3.0-rc2",
-  "built_at": "2026-08-12T14:24:20.675968Z"
+  "generator_version": "0.4.0-rc3",
+  "built_at": "2026-08-13T00:32:15.698599Z"
 }

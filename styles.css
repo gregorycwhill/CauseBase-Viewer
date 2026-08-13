@@ -38,7 +38,7 @@ a { color: inherit; }
 .index-pane {
   border-right: 1px solid #d9d9d5;
   background: #fbfbf9;
-  padding: 18px;
+  padding: 12px;
   min-width: 0;
   display: flex;
   flex-direction: column;
@@ -57,7 +57,7 @@ a { color: inherit; }
   font-size: 1rem;
   background: white;
 }
-.facets { margin-top: 12px; display: grid; gap: 6px; }
+.facets { margin-top: 8px; display: grid; gap: 4px; }
 .facet-group { border: 1px solid #ddd; border-radius: 6px; background: #fff; padding: 6px 8px; }
 .facet-group summary { cursor: pointer; font-size: .88rem; text-transform: capitalize; }
 .facet-group > div { margin-top: 7px; display: flex; flex-wrap: wrap; gap: 5px; }
@@ -76,7 +76,7 @@ a { color: inherit; }
   text-align: left;
   border: 1px solid transparent;
   background: transparent;
-  padding: 10px;
+  padding: 7px 9px;
   border-radius: 6px;
   cursor: pointer;
 }
@@ -89,6 +89,9 @@ a { color: inherit; }
 }
 .result span { color: #555; margin-top: 3px; }
 .result small { color: #777; margin-top: 4px; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { border: 1px solid #c8c8c2; background: #fff; border-radius: 999px; padding: 4px 9px; cursor: pointer; font: inherit; font-size: .86rem; }
+.source-details { padding: 18px 0; border-bottom: 1px solid #e0e0dc; }
 
 .card-pane {
   padding: 28px clamp(20px, 4vw, 60px);

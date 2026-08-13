@@ -18,7 +18,16 @@
       ]
     }
   ],
-  "tax_statuses": [],
+  "tax_statuses": [
+    {
+      "scheme": "ABR DGR",
+      "status": "endorsed",
+      "detail": "Dated 2026-08-05 ABR bulk observation",
+      "evidence_ids": [
+        "ev:abr-dgr:77967703375:20260805"
+      ]
+    }
+  ],
   "relationships": [],
   "source_resolutions": [
     {
@@ -37,6 +46,17 @@
   "legal_name": "FORM Building a State of Creativity Limited",
   "display_name": "FORM Building a State of Creativity Limited",
   "entity_status": "registered",
+  "canonical_url": "https://gregorycwhill.github.io/CauseBase-Viewer/#cb_4bedfcf11ee24200bd97278aa08ab305",
+  "acnc_profile_url": "https://www.acnc.gov.au/charity/charities/886b8c49-3aaf-e811-a960-000d3ad24282/profile",
+  "acnc_ais_url": "https://www.acnc.gov.au/charity/charities/886b8c49-3aaf-e811-a960-000d3ad24282/documents/e0636fc8-2bc1-f011-bbd3-6045bde679a9",
+  "operating_names": [
+    "Previously known as FORM building a state of creativity Inc.",
+    "Spinifex Hill Studio",
+    "Scribblers Festival",
+    "FORM Gallery & Cafe"
+  ],
+  "former_names": [],
+  "principal_location": "WA, Australia",
   "coverage": [
     {
       "capability": "regulatory",
@@ -83,6 +103,16 @@
       ],
       "observed_at": "2026-08-10",
       "freshness_note": null
+    },
+    {
+      "capability": "latest_acnc_ais",
+      "status": "observed",
+      "source_record_id": null,
+      "evidence_ids": [
+        "ev:acnc:ais:77967703375:2025"
+      ],
+      "observed_at": "2025-11-14",
+      "freshness_note": "Latest submitted ACNC AIS in the 2026-08-13 public-profile acquisition: 2025."
     }
   ],
   "enrichment_level": "enriched",
@@ -136,7 +166,9 @@
     "public events and exhibitions",
     "artist callouts / expressions of interest"
   ],
+  "participation_observations": [],
   "opportunities": [],
+  "programs": [],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:7389e165-e35f-5733-9281-adf8ca988a4c",
@@ -156,6 +188,7 @@
         "ACNC registration ID": null,
         "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
+      "source_payload": null,
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
         "Legal Name": "legal_name",
@@ -185,12 +218,1235 @@
         "Assets": null,
         "Liabilities": null
       },
+      "source_payload": null,
       "canonical_field_mappings": {
         "Revenue": "financial_records[].revenue",
         "Total expenses": "financial_records[].total_expenses"
       },
       "evidence_ids": [
         "ev:ais:77967703375:2023"
+      ]
+    },
+    {
+      "source_record_id": "src:acnc-public-profile:77967703375:cb_4bedfcf11ee24200bd97278aa08ab305:2026-08-13",
+      "source_family": "acnc-public-profile",
+      "dataset_version": "2026-08-13-public-api",
+      "source_url": "https://www.acnc.gov.au/charity/charities/886b8c49-3aaf-e811-a960-000d3ad24282/profile",
+      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "observed_at": "2025-11-14",
+      "effective_from": null,
+      "effective_to": null,
+      "source_fields": {
+        "uuid": "886b8c49-3aaf-e811-a960-000d3ad24282",
+        "abn": "77967703375",
+        "latest_ais_year": "2025",
+        "latest_ais_uuid": "e0636fc8-2bc1-f011-bbd3-6045bde679a9"
+      },
+      "source_payload": {
+        "data": {
+          "AFSAddressPostalCode": "6000",
+          "AFSEmail": "mail@form.net.au",
+          "Abn": "77967703375",
+          "AddressCountry": "Australia",
+          "AddressLine1": "Level 4, 99 St Georges Tce",
+          "AddressLine2": null,
+          "AddressLine3": null,
+          "AddressPostalCode": "6000",
+          "AddressStateOrProvince": "WA",
+          "AddressSuburb": "Perth",
+          "AddressSuburbStatePostcode": "Perth WA 6000",
+          "AnnualReports": [
+            {
+              "AISId": null,
+              "DateReceived": "2020-08-31T04:40:34.0000000Z",
+              "DocumentUuid": "69e02e16-44eb-ea11-a815-000d3ad1ce3a",
+              "DueDate": "2020-08-30T14:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2019",
+              "type": "Financial Report 2019",
+              "uuid": "f4c9ff0c-ef25-e911-a976-000d3ad05e15"
+            },
+            {
+              "AISId": "3404271c-44eb-ea11-a815-000d3ad1f9f4",
+              "DateReceived": "2020-08-31T04:40:38.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2020-08-30T14:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2019",
+              "type": "Annual Information Statement 2019",
+              "uuid": "25caff0c-ef25-e911-a976-000d3ad05e15"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2021-07-19T01:50:26.0000000Z",
+              "DocumentUuid": "7450e8a6-33e8-eb11-bacb-000d3acc5692",
+              "DueDate": "2021-06-29T14:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2020",
+              "type": "Financial Report 2020",
+              "uuid": "5fcaff0c-ef25-e911-a976-000d3ad05e15"
+            },
+            {
+              "AISId": "83c1f1b2-33e8-eb11-bacb-000d3acc558d",
+              "DateReceived": "2021-07-19T01:50:36.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2021-06-29T14:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2020",
+              "type": "Annual Information Statement 2020",
+              "uuid": "90caff0c-ef25-e911-a976-000d3ad05e15"
+            },
+            {
+              "AISId": "be0d24d7-c813-ed11-b83d-00224812b54e",
+              "DateReceived": "2022-08-04T07:41:36.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2022-06-29T14:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2021",
+              "type": "Annual Information Statement 2021",
+              "uuid": "d45984d3-9aeb-ea11-a815-000d3ad1cd99"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2022-08-04T07:41:10.0000000Z",
+              "DocumentUuid": "31e740c8-c813-ed11-b83d-00224812bcad",
+              "DueDate": "2022-06-29T14:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2021",
+              "type": "Financial Report 2021",
+              "uuid": "dd5984d3-9aeb-ea11-a815-000d3ad1cd99"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": true,
+              "Status": "Not required",
+              "Year": "2013",
+              "type": "Annual Information Statement 2013",
+              "uuid": "e78d9884-3bc8-e811-a964-000d3ad24077"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": true,
+              "Status": "Not required",
+              "Year": "2014",
+              "type": "Annual Information Statement 2014",
+              "uuid": "f98d9884-3bc8-e811-a964-000d3ad24077"
+            },
+            {
+              "AISId": "b32b2025-9782-e911-a97e-000d3ad0574c",
+              "DateReceived": "2019-05-30T04:55:31.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2019-06-29T14:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2018",
+              "type": "Annual Information Statement 2018",
+              "uuid": "0e8e9884-3bc8-e811-a964-000d3ad24077"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Not required",
+              "Year": "2013",
+              "type": "Financial Report 2013",
+              "uuid": "832db98e-40c8-e811-a962-000d3ad24182"
+            },
+            {
+              "AISId": "7a0d8b2c-47c8-e811-a95f-000d3ad24c60",
+              "DateReceived": "2016-10-11T13:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2016-06-29T14:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2015",
+              "type": "Annual Information Statement 2015",
+              "uuid": "67623f2c-47c8-e811-a961-000d3ad24282"
+            },
+            {
+              "AISId": "820d8b2c-47c8-e811-a95f-000d3ad24c60",
+              "DateReceived": "2017-06-28T14:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2017-06-29T14:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2016",
+              "type": "Annual Information Statement 2016",
+              "uuid": "70623f2c-47c8-e811-a961-000d3ad24282"
+            },
+            {
+              "AISId": "890d8b2c-47c8-e811-a95f-000d3ad24c60",
+              "DateReceived": "2018-07-01T14:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2018-06-29T14:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2017",
+              "type": "Annual Information Statement 2017",
+              "uuid": "79623f2c-47c8-e811-a961-000d3ad24282"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2017-06-28T14:00:00.0000000Z",
+              "DocumentUuid": "9e15373f-4fb0-e811-a961-000d3ad24182",
+              "DueDate": "2017-06-29T14:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2016",
+              "type": "Financial Report 2016",
+              "uuid": "ba6bcf90-40c8-e811-a964-000d3ad244fd"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2018-07-01T14:00:00.0000000Z",
+              "DocumentUuid": "e415373f-4fb0-e811-a961-000d3ad24182",
+              "DueDate": "2018-06-29T14:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2017",
+              "type": "Financial Report 2017",
+              "uuid": "c66bcf90-40c8-e811-a964-000d3ad244fd"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2019-05-30T04:55:23.0000000Z",
+              "DocumentUuid": "9a284b1c-9782-e911-a96f-000d3ad244fd",
+              "DueDate": "2019-06-29T14:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2018",
+              "type": "Financial Report 2018",
+              "uuid": "d86bcf90-40c8-e811-a964-000d3ad244fd"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2016-10-11T13:00:00.0000000Z",
+              "DocumentUuid": "8615373f-4fb0-e811-a961-000d3ad24182",
+              "DueDate": "2016-06-29T14:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2015",
+              "type": "Financial Report 2015",
+              "uuid": "ee6bcf90-40c8-e811-a964-000d3ad244fd"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Not required",
+              "Year": "2014",
+              "type": "Financial Report 2014",
+              "uuid": "086ccf90-40c8-e811-a964-000d3ad244fd"
+            },
+            {
+              "AISId": "92a2740a-9d95-ee11-be37-00224893d32a",
+              "DateReceived": "2023-06-29T06:20:39.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2023-06-29T14:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2022",
+              "type": "Annual Information Statement 2022",
+              "uuid": "86a75518-bed9-eb11-bacb-002248107110"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2023-06-29T06:20:27.0000000Z",
+              "DocumentUuid": "336d2303-9d95-ee11-be37-002248122521",
+              "DueDate": "2023-06-29T14:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2022",
+              "type": "Financial Report 2022",
+              "uuid": "b0a75518-bed9-eb11-bacb-002248107110"
+            },
+            {
+              "AISId": "d24bfe20-aeae-ee11-a569-00224893b261",
+              "DateReceived": "2024-01-09T05:10:48.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2024-01-31T00:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2023",
+              "type": "Annual Information Statement 2023",
+              "uuid": "f81ed342-8ff8-ec11-82e6-00224811654f"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2024-01-09T05:10:25.0000000Z",
+              "DocumentUuid": "684d3c5c-adae-ee11-a569-00224893d32a",
+              "DueDate": "2024-01-31T00:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2023",
+              "type": "Financial Report 2023",
+              "uuid": "051fd342-8ff8-ec11-82e6-00224811654f"
+            },
+            {
+              "AISId": "5a9b6c3f-d495-ef11-8a68-6045bdc250b4",
+              "DateReceived": "2024-10-29T09:00:46.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2025-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2024",
+              "type": "Annual Information Statement 2024",
+              "uuid": "8278f9af-5317-ee11-8f6d-00224893b0ed"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2024-10-29T09:00:39.0000000Z",
+              "DocumentUuid": "c3229530-d495-ef11-8a68-000d3ad249d6",
+              "DueDate": "2025-01-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2024",
+              "type": "Financial Report 2024",
+              "uuid": "b478f9af-5317-ee11-8f6d-00224893b0ed"
+            },
+            {
+              "AISId": "e0636fc8-2bc1-f011-bbd3-6045bde679a9",
+              "DateReceived": "2025-11-14T07:30:41.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2026-01-31T00:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2025",
+              "type": "Annual Information Statement 2025",
+              "uuid": "4f4a853a-96c0-ee11-907a-00224893b8c7"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2025-11-14T07:30:35.0000000Z",
+              "DocumentUuid": "585f6bbc-2bc1-f011-bbd3-6045bde679a9",
+              "DueDate": "2026-01-31T00:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2025",
+              "type": "Financial Report 2025",
+              "uuid": "654a853a-96c0-ee11-907a-00224893b8c7"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2027-12-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Not yet submitted",
+              "Year": "2027",
+              "type": "Annual Information Statement 2027",
+              "uuid": "7df2c8f2-0aff-f011-8407-6045bdc4655a"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2027-12-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Pending",
+              "Year": "2027",
+              "type": "Financial Report 2027",
+              "uuid": "95f2c8f2-0aff-f011-8407-6045bdc4655a"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2026-12-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Not yet submitted",
+              "Year": "2026",
+              "type": "Annual Information Statement 2026",
+              "uuid": "74cbac4a-dcdf-ef11-a731-7c1e522ad709"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2026-12-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Pending",
+              "Year": "2026",
+              "type": "Financial Report 2026",
+              "uuid": "c00fa550-dcdf-ef11-a731-7c1e522ad709"
+            }
+          ],
+          "Beneficiaries": [
+            {
+              "Description": null,
+              "Name": "Youth - 15 to under 25",
+              "uuid": "23aa6ace-2bc1-f011-bbd3-6045bde679a9"
+            },
+            {
+              "Description": null,
+              "Name": "Victims of disaster",
+              "uuid": "26aa6ace-2bc1-f011-bbd3-6045bde679a9"
+            },
+            {
+              "Description": null,
+              "Name": "Victims of crime (including family violence)",
+              "uuid": "29aa6ace-2bc1-f011-bbd3-6045bde679a9"
+            },
+            {
+              "Description": null,
+              "Name": "Veterans and/or their families",
+              "uuid": "2faa6ace-2bc1-f011-bbd3-6045bde679a9"
+            },
+            {
+              "Description": null,
+              "Name": "Unemployed persons",
+              "uuid": "35aa6ace-2bc1-f011-bbd3-6045bde679a9"
+            },
+            {
+              "Description": null,
+              "Name": "Pre/post release offenders and/or their families",
+              "uuid": "39aa6ace-2bc1-f011-bbd3-6045bde679a9"
+            },
+            {
+              "Description": null,
+              "Name": "People with disabilities",
+              "uuid": "3daa6ace-2bc1-f011-bbd3-6045bde679a9"
+            },
+            {
+              "Description": null,
+              "Name": "People with chronic illness (including terminal illness)",
+              "uuid": "1a5c65d4-2bc1-f011-bbd3-6045bde679a9"
+            },
+            {
+              "Description": null,
+              "Name": "People in rural/regional/remote communities",
+              "uuid": "1d5c65d4-2bc1-f011-bbd3-6045bde679a9"
+            },
+            {
+              "Description": null,
+              "Name": "People from a culturally and linguistically diverse background",
+              "uuid": "215c65d4-2bc1-f011-bbd3-6045bde679a9"
+            },
+            {
+              "Description": null,
+              "Name": "People at risk of homelessness/ people experiencing homelessness",
+              "uuid": "255c65d4-2bc1-f011-bbd3-6045bde679a9"
+            },
+            {
+              "Description": null,
+              "Name": "Overseas communities or charities",
+              "uuid": "285c65d4-2bc1-f011-bbd3-6045bde679a9"
+            },
+            {
+              "Description": null,
+              "Name": "Other gender identities",
+              "uuid": "2b5c65d4-2bc1-f011-bbd3-6045bde679a9"
+            },
+            {
+              "Description": null,
+              "Name": "Other charities",
+              "uuid": "2f5c65d4-2bc1-f011-bbd3-6045bde679a9"
+            },
+            {
+              "Description": null,
+              "Name": "Migrants, refugees or asylum seekers",
+              "uuid": "325c65d4-2bc1-f011-bbd3-6045bde679a9"
+            },
+            {
+              "Description": null,
+              "Name": "Males",
+              "uuid": "355c65d4-2bc1-f011-bbd3-6045bde679a9"
+            },
+            {
+              "Description": null,
+              "Name": "LGBTIQA+",
+              "uuid": "385c65d4-2bc1-f011-bbd3-6045bde679a9"
+            },
+            {
+              "Description": null,
+              "Name": "General community in Australia",
+              "uuid": "3c5c65d4-2bc1-f011-bbd3-6045bde679a9"
+            },
+            {
+              "Description": null,
+              "Name": "Financially disadvantaged people",
+              "uuid": "3f5c65d4-2bc1-f011-bbd3-6045bde679a9"
+            },
+            {
+              "Description": null,
+              "Name": "Females",
+              "uuid": "445c65d4-2bc1-f011-bbd3-6045bde679a9"
+            },
+            {
+              "Description": null,
+              "Name": "Families",
+              "uuid": "475c65d4-2bc1-f011-bbd3-6045bde679a9"
+            },
+            {
+              "Description": null,
+              "Name": "Environment",
+              "uuid": "4a5c65d4-2bc1-f011-bbd3-6045bde679a9"
+            },
+            {
+              "Description": null,
+              "Name": "Early childhood - aged under 6",
+              "uuid": "4d5c65d4-2bc1-f011-bbd3-6045bde679a9"
+            },
+            {
+              "Description": null,
+              "Name": "Children - aged 6 to under 15",
+              "uuid": "505c65d4-2bc1-f011-bbd3-6045bde679a9"
+            },
+            {
+              "Description": null,
+              "Name": "Adults - aged 65 and over",
+              "uuid": "535c65d4-2bc1-f011-bbd3-6045bde679a9"
+            },
+            {
+              "Description": null,
+              "Name": "Adults - aged 25 to under 65",
+              "uuid": "565c65d4-2bc1-f011-bbd3-6045bde679a9"
+            },
+            {
+              "Description": null,
+              "Name": "Aboriginal and Torres Strait Islander people",
+              "uuid": "595c65d4-2bc1-f011-bbd3-6045bde679a9"
+            }
+          ],
+          "CharitySize": "Large",
+          "CharitySubtypeHistory": [
+            {
+              "EndDate": null,
+              "Purpose": "Advancing culture",
+              "StartDate": "2015-03-10T13:00:00.0000000Z",
+              "uuid": "dddb5ba5-fec6-e811-a962-000d3ad24182"
+            }
+          ],
+          "CharityVersion": "171",
+          "ChildMemberEndDate": null,
+          "ChildMemberStartDate": null,
+          "ChooseToProvideAis": null,
+          "Countries": [
+            {
+              "Name": "Australia",
+              "uuid": "f57b5602-9a4d-e811-a951-000d3ad06f2d"
+            }
+          ],
+          "DateEstablished": "1967-12-31T13:00:00.0000000Z",
+          "Documents": [
+            {
+              "Date": "2024-02-08T00:00:00.0000000",
+              "Title": "77967703375_Gov",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/886b8c49-3aaf-e811-a960-000d3ad24282-4dde2581-2b47-4875-8a95-0fd51105f344-Governing%20Document-f9a5dbcb-17c6-ee11-9079-002248110683-77967703375_Gov.pdf",
+              "Year": null,
+              "type": "Governing Document",
+              "uuid": "f9a5dbcb-17c6-ee11-9079-002248110683"
+            },
+            {
+              "Date": "2020-08-31T00:00:00.0000000",
+              "Title": "AR_2019_web.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/886b8c49-3aaf-e811-a960-000d3ad24282-4dde2581-2b47-4875-8a95-0fd51105f344-Annual%20Report-56e02e16-44eb-ea11-a815-000d3ad1ce3a-AR_2019_web.pdf",
+              "Year": "2019",
+              "type": "Annual Report",
+              "uuid": "56e02e16-44eb-ea11-a815-000d3ad1ce3a"
+            },
+            {
+              "Date": "2014-08-14T00:00:00.0000000",
+              "Title": "FORM_Annual_Report_2013-web.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/886b8c49-3aaf-e811-a960-000d3ad24282-4dde2581-2b47-4875-8a95-0fd51105f344-Annual%20Report-b115373f-4fb0-e811-a961-000d3ad24182-FORM_Annual_Report_2013-web.pdf",
+              "Year": null,
+              "type": "Annual Report",
+              "uuid": "b115373f-4fb0-e811-a961-000d3ad24182"
+            },
+            {
+              "Date": "2018-07-02T00:00:00.0000000",
+              "Title": "AR_2017_final_WEB.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/886b8c49-3aaf-e811-a960-000d3ad24282-4dde2581-2b47-4875-8a95-0fd51105f344-Annual%20Report-cf15373f-4fb0-e811-a961-000d3ad24182-AR_2017_final_WEB.pdf",
+              "Year": "2017",
+              "type": "Annual Report",
+              "uuid": "cf15373f-4fb0-e811-a961-000d3ad24182"
+            },
+            {
+              "Date": "2019-05-30T00:00:00.0000000",
+              "Title": "AR_2018_web.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/886b8c49-3aaf-e811-a960-000d3ad24282-4dde2581-2b47-4875-8a95-0fd51105f344-Annual%20Report-86284b1c-9782-e911-a96f-000d3ad244fd-AR_2018_web.pdf",
+              "Year": "2018",
+              "type": "Annual Report",
+              "uuid": "86284b1c-9782-e911-a96f-000d3ad244fd"
+            },
+            {
+              "Date": "2021-07-19T00:00:00.0000000",
+              "Title": "FINANCIAL REPORT 2020.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/886b8c49-3aaf-e811-a960-000d3ad24282-4dde2581-2b47-4875-8a95-0fd51105f344-Financial%20Report-7450e8a6-33e8-eb11-bacb-000d3acc5692-FINANCIAL_REPORT_2020.pdf",
+              "Year": "2020",
+              "type": "Financial Report",
+              "uuid": "7450e8a6-33e8-eb11-bacb-000d3acc5692"
+            },
+            {
+              "Date": "2020-08-31T00:00:00.0000000",
+              "Title": "FR_2019.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/886b8c49-3aaf-e811-a960-000d3ad24282-4dde2581-2b47-4875-8a95-0fd51105f344-Financial%20Report-69e02e16-44eb-ea11-a815-000d3ad1ce3a-FR_2019.pdf",
+              "Year": "2019",
+              "type": "Financial Report",
+              "uuid": "69e02e16-44eb-ea11-a815-000d3ad1ce3a"
+            },
+            {
+              "Date": "2016-10-12T00:00:00.0000000",
+              "Title": "2015 - Annual Financial Statements FULL Version - to email.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/886b8c49-3aaf-e811-a960-000d3ad24282-4dde2581-2b47-4875-8a95-0fd51105f344-Financial%20Report-8615373f-4fb0-e811-a961-000d3ad24182-2015_-_Annual_Financial_Statements_FULL_Version_-_to_email.pdf",
+              "Year": "2015",
+              "type": "Financial Report",
+              "uuid": "8615373f-4fb0-e811-a961-000d3ad24182"
+            },
+            {
+              "Date": "2017-06-29T00:00:00.0000000",
+              "Title": "FORM-Financial_Report-2016-web.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/886b8c49-3aaf-e811-a960-000d3ad24282-4dde2581-2b47-4875-8a95-0fd51105f344-Financial%20Report-9e15373f-4fb0-e811-a961-000d3ad24182-FORM-Financial_Report-2016-web.pdf",
+              "Year": "2016",
+              "type": "Financial Report",
+              "uuid": "9e15373f-4fb0-e811-a961-000d3ad24182"
+            },
+            {
+              "Date": "2018-07-02T00:00:00.0000000",
+              "Title": "FR_2017.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/886b8c49-3aaf-e811-a960-000d3ad24282-4dde2581-2b47-4875-8a95-0fd51105f344-Financial%20Report-e415373f-4fb0-e811-a961-000d3ad24182-FR_2017.pdf",
+              "Year": "2017",
+              "type": "Financial Report",
+              "uuid": "e415373f-4fb0-e811-a961-000d3ad24182"
+            },
+            {
+              "Date": "2019-05-30T00:00:00.0000000",
+              "Title": "FR_2018_CURRENT.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/886b8c49-3aaf-e811-a960-000d3ad24282-4dde2581-2b47-4875-8a95-0fd51105f344-Financial%20Report-9a284b1c-9782-e911-a96f-000d3ad244fd-FR_2018_CURRENT.pdf",
+              "Year": "2018",
+              "type": "Financial Report",
+              "uuid": "9a284b1c-9782-e911-a96f-000d3ad244fd"
+            },
+            {
+              "Date": "2024-10-29T00:00:00.0000000",
+              "Title": "Form Audited Financial Statements 2023-2024.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/886b8c49-3aaf-e811-a960-000d3ad24282-4dde2581-2b47-4875-8a95-0fd51105f344-Financial%20Report-c3229530-d495-ef11-8a68-000d3ad249d6-Form_Audited_Financial_Statements_2023-2024.pdf",
+              "Year": "2024",
+              "type": "Financial Report",
+              "uuid": "c3229530-d495-ef11-8a68-000d3ad249d6"
+            },
+            {
+              "Date": "2023-12-08T00:00:00.0000000",
+              "Title": "FR_2022.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/886b8c49-3aaf-e811-a960-000d3ad24282-4dde2581-2b47-4875-8a95-0fd51105f344-Financial%20Report-336d2303-9d95-ee11-be37-002248122521-FR_2022.pdf",
+              "Year": "2022",
+              "type": "Financial Report",
+              "uuid": "336d2303-9d95-ee11-be37-002248122521"
+            },
+            {
+              "Date": "2022-08-04T00:00:00.0000000",
+              "Title": "FR_2021.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/886b8c49-3aaf-e811-a960-000d3ad24282-4dde2581-2b47-4875-8a95-0fd51105f344-Financial%20Report-31e740c8-c813-ed11-b83d-00224812bcad-FR_2021.pdf",
+              "Year": "2021",
+              "type": "Financial Report",
+              "uuid": "31e740c8-c813-ed11-b83d-00224812bcad"
+            },
+            {
+              "Date": "2024-01-09T00:00:00.0000000",
+              "Title": "FR_2023 6 mths.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/886b8c49-3aaf-e811-a960-000d3ad24282-4dde2581-2b47-4875-8a95-0fd51105f344-Financial%20Report-684d3c5c-adae-ee11-a569-00224893d32a-FR_2023_6_mths.pdf",
+              "Year": "2023",
+              "type": "Financial Report",
+              "uuid": "684d3c5c-adae-ee11-a569-00224893d32a"
+            },
+            {
+              "Date": "2025-11-14T00:00:00.0000000",
+              "Title": "Financial Report_2024-2025.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/886b8c49-3aaf-e811-a960-000d3ad24282-4dde2581-2b47-4875-8a95-0fd51105f344-Financial%20Report-585f6bbc-2bc1-f011-bbd3-6045bde679a9-Financial_Report_2024-2025.pdf",
+              "Year": "2025",
+              "type": "Financial Report",
+              "uuid": "585f6bbc-2bc1-f011-bbd3-6045bde679a9"
+            }
+          ],
+          "Email": "mail@form.net.au",
+          "EnforcementOutcomes": [],
+          "FinancialYearEnd": "30/06",
+          "GovernmentAgencies": [
+            {
+              "Name": "Australian Securities and Investment Commission",
+              "ReferenceNumber": "671906719",
+              "uuid": "29021efd-17c6-ee11-9079-002248110683"
+            },
+            {
+              "Name": "Online fundraising",
+              "ReferenceNumber": null,
+              "uuid": "8c31f12c-aeae-ee11-a569-00224893b261"
+            },
+            {
+              "Name": "Online fundraising",
+              "ReferenceNumber": null,
+              "uuid": "9f9b6c3f-d495-ef11-8a68-6045bdc250b4"
+            }
+          ],
+          "GroupHeadFlag": false,
+          "LastReported": "2025-11-14T07:30:41.0000000Z",
+          "Name": "FORM Building a State of Creativity Limited",
+          "NextReportDue": "2026-12-31T12:30:00.0000000Z",
+          "OperatingInStates": [
+            {
+              "Name": "Western Australia",
+              "uuid": "dc2782ae-455e-e811-a95c-000d3ad1c715"
+            }
+          ],
+          "OtherDetails": null,
+          "OtherNames": [
+            {
+              "Name": "Previously known as FORM building a state of creativity Inc.",
+              "uuid": "6f7517e4-17c6-ee11-9079-002248110683"
+            },
+            {
+              "Name": "Spinifex Hill Studio",
+              "uuid": "177f8c22-18c6-ee11-9079-002248110683"
+            },
+            {
+              "Name": "Scribblers Festival",
+              "uuid": "f1bacb2e-18c6-ee11-9079-002248110683"
+            },
+            {
+              "Name": "FORM Gallery & Cafe",
+              "uuid": "11bdd434-18c6-ee11-9079-002248110683"
+            }
+          ],
+          "ParentAccountAbn": null,
+          "ParentAccountId": null,
+          "Phone": "0893852200",
+          "Programs": [
+            {
+              "AisUuid": "e0636fc8-2bc1-f011-bbd3-6045bde679a9",
+              "Name": "Scribblers Festival",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Families",
+                "Youth - 15 to under 25",
+                "Children - aged 6 to under 15",
+                "Early childhood - aged under 6",
+                "People in rural/regional/remote communities",
+                "Males",
+                "Females",
+                "General community in Australia"
+              ],
+              "ProgramClassie": [
+                {
+                  "classie_id": "53",
+                  "label": "Festivals",
+                  "parent_id": "42",
+                  "selected": true
+                },
+                {
+                  "classie_id": "42",
+                  "label": "Arts and culture",
+                  "parent_id": null,
+                  "selected": false
+                }
+              ],
+              "ProgramClassification": "Festivals",
+              "ProgramClassificationID": "53",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "CBD, Perth WA, Australia",
+                  "FormattedAddress": "CBD, WA, Australia",
+                  "Marker": {
+                    "Latitude": -31.9505672,
+                    "Longitude": 115.8580914
+                  },
+                  "Name": "CBD",
+                  "uuid": "37646fc8-2bc1-f011-bbd3-6045bde679a9"
+                },
+                {
+                  "DisplayName": "Pilbara, WA, Australia",
+                  "FormattedAddress": "Pilbara, WA, Australia",
+                  "Marker": {
+                    "Latitude": -21.5921433,
+                    "Longitude": 121.5236826
+                  },
+                  "Name": "Pilbara",
+                  "uuid": "39646fc8-2bc1-f011-bbd3-6045bde679a9"
+                },
+                {
+                  "DisplayName": "Kalgoorlie WA, Australia",
+                  "FormattedAddress": "Kalgoorlie WA 6430, Australia",
+                  "Marker": {
+                    "Latitude": -30.749278,
+                    "Longitude": 121.4705253
+                  },
+                  "Name": "Kalgoorlie",
+                  "uuid": "3b646fc8-2bc1-f011-bbd3-6045bde679a9"
+                }
+              ],
+              "ProgramWeblink": "https://www.scribblersfestival.com.au/",
+              "uuid": "2a646fc8-2bc1-f011-bbd3-6045bde679a9"
+            },
+            {
+              "AisUuid": "e0636fc8-2bc1-f011-bbd3-6045bde679a9",
+              "Name": "Spinifex Hill Studio",
+              "OperatesOnline": true,
+              "ProgramBeneficiaries": [
+                "Children - aged 6 to under 15",
+                "Youth - 15 to under 25",
+                "Adults - aged 25 to under 65",
+                "Adults - aged 65 and over",
+                "Families",
+                "Aboriginal and Torres Strait Islander people",
+                "People from a culturally and linguistically diverse background",
+                "People in rural/regional/remote communities",
+                "Financially disadvantaged people",
+                "People at risk of homelessness/ people experiencing homelessness",
+                "People with chronic illness (including terminal illness)",
+                "People with disabilities",
+                "Unemployed persons",
+                "Victims of crime (including family violence)",
+                "Females",
+                "Males",
+                "Pre/post release offenders and/or their families",
+                "Overseas communities or charities",
+                "General community in Australia"
+              ],
+              "ProgramClassie": [
+                {
+                  "classie_id": "48",
+                  "label": "Artist services",
+                  "parent_id": "43",
+                  "selected": true
+                },
+                {
+                  "classie_id": "43",
+                  "label": "Arts services",
+                  "parent_id": "42",
+                  "selected": false
+                },
+                {
+                  "classie_id": "42",
+                  "label": "Arts and culture",
+                  "parent_id": null,
+                  "selected": false
+                }
+              ],
+              "ProgramClassification": "Artist services",
+              "ProgramClassificationID": "48",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "South Hedland WA, Australia",
+                  "FormattedAddress": "South Hedland WA 6722, Australia",
+                  "Marker": {
+                    "Latitude": -20.4072579,
+                    "Longitude": 118.5965289
+                  },
+                  "Name": "South Hedland",
+                  "uuid": "5b646fc8-2bc1-f011-bbd3-6045bde679a9"
+                }
+              ],
+              "ProgramWeblink": "https://www.spinifexhillstudio.com.au/",
+              "uuid": "3d646fc8-2bc1-f011-bbd3-6045bde679a9"
+            },
+            {
+              "AisUuid": "e0636fc8-2bc1-f011-bbd3-6045bde679a9",
+              "Name": "FORM Gallery artistic program",
+              "OperatesOnline": true,
+              "ProgramBeneficiaries": [
+                "Children - aged 6 to under 15",
+                "Youth - 15 to under 25",
+                "Adults - aged 25 to under 65",
+                "Adults - aged 65 and over",
+                "Families",
+                "Aboriginal and Torres Strait Islander people",
+                "People from a culturally and linguistically diverse background",
+                "People in rural/regional/remote communities",
+                "Financially disadvantaged people",
+                "People at risk of homelessness/ people experiencing homelessness",
+                "People with chronic illness (including terminal illness)",
+                "People with disabilities",
+                "Unemployed persons",
+                "Victims of crime (including family violence)",
+                "Victims of disaster",
+                "Females",
+                "Males",
+                "Environment",
+                "Other charities",
+                "General community in Australia"
+              ],
+              "ProgramClassie": [
+                {
+                  "classie_id": "104",
+                  "label": "Visual arts",
+                  "parent_id": "42",
+                  "selected": true
+                },
+                {
+                  "classie_id": "42",
+                  "label": "Arts and culture",
+                  "parent_id": null,
+                  "selected": false
+                }
+              ],
+              "ProgramClassification": "Visual arts",
+              "ProgramClassificationID": "104",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Claremont WA, Australia",
+                  "FormattedAddress": "Claremont WA 6010, Australia",
+                  "Marker": {
+                    "Latitude": -31.9807386,
+                    "Longitude": 115.7821812
+                  },
+                  "Name": "Claremont",
+                  "uuid": "45a96ace-2bc1-f011-bbd3-6045bde679a9"
+                }
+              ],
+              "ProgramWeblink": "https://www.form.net.au/gallery-cafe",
+              "uuid": "5e646fc8-2bc1-f011-bbd3-6045bde679a9"
+            },
+            {
+              "AisUuid": "e0636fc8-2bc1-f011-bbd3-6045bde679a9",
+              "Name": "Creative Schools",
+              "OperatesOnline": true,
+              "ProgramBeneficiaries": [
+                "Early childhood - aged under 6",
+                "Children - aged 6 to under 15",
+                "Families",
+                "Aboriginal and Torres Strait Islander people",
+                "People from a culturally and linguistically diverse background",
+                "People in rural/regional/remote communities",
+                "Financially disadvantaged people",
+                "Females",
+                "Males"
+              ],
+              "ProgramClassie": [
+                {
+                  "classie_id": "200",
+                  "label": "Primary and secondary education",
+                  "parent_id": "170",
+                  "selected": true
+                },
+                {
+                  "classie_id": "170",
+                  "label": "Education",
+                  "parent_id": null,
+                  "selected": false
+                }
+              ],
+              "ProgramClassification": "Primary and secondary education",
+              "ProgramClassificationID": "200",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Perth WA, Australia",
+                  "FormattedAddress": "Perth WA, Australia",
+                  "Marker": {
+                    "Latitude": -31.9523123,
+                    "Longitude": 115.861309
+                  },
+                  "Name": "Perth",
+                  "uuid": "5aa96ace-2bc1-f011-bbd3-6045bde679a9"
+                },
+                {
+                  "DisplayName": "Albany WA, Australia",
+                  "FormattedAddress": "Albany WA 6330, Australia",
+                  "Marker": {
+                    "Latitude": -35.0275298,
+                    "Longitude": 117.883959
+                  },
+                  "Name": "Albany",
+                  "uuid": "5ca96ace-2bc1-f011-bbd3-6045bde679a9"
+                },
+                {
+                  "DisplayName": "Bunbury WA, Australia",
+                  "FormattedAddress": "Bunbury WA, Australia",
+                  "Marker": {
+                    "Latitude": -33.325636,
+                    "Longitude": 115.6396494
+                  },
+                  "Name": "Bunbury",
+                  "uuid": "5ea96ace-2bc1-f011-bbd3-6045bde679a9"
+                },
+                {
+                  "DisplayName": "Donnybrook WA, Australia",
+                  "FormattedAddress": "Donnybrook WA 6239, Australia",
+                  "Marker": {
+                    "Latitude": -33.5797259,
+                    "Longitude": 115.8275492
+                  },
+                  "Name": "Donnybrook",
+                  "uuid": "60a96ace-2bc1-f011-bbd3-6045bde679a9"
+                },
+                {
+                  "DisplayName": "Peel, WA, Australia",
+                  "FormattedAddress": "Peel, WA, Australia",
+                  "Marker": {
+                    "Latitude": -32.5671424,
+                    "Longitude": 115.7991829
+                  },
+                  "Name": "Peel",
+                  "uuid": "62a96ace-2bc1-f011-bbd3-6045bde679a9"
+                }
+              ],
+              "ProgramWeblink": "https://www.creativeschools.com.au/",
+              "uuid": "47a96ace-2bc1-f011-bbd3-6045bde679a9"
+            },
+            {
+              "AisUuid": "e0636fc8-2bc1-f011-bbd3-6045bde679a9",
+              "Name": "Art and Cultural Consultancy",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Early childhood - aged under 6",
+                "Children - aged 6 to under 15",
+                "Youth - 15 to under 25",
+                "Adults - aged 25 to under 65",
+                "Adults - aged 65 and over",
+                "Families",
+                "Aboriginal and Torres Strait Islander people",
+                "People from a culturally and linguistically diverse background",
+                "People in rural/regional/remote communities",
+                "Financially disadvantaged people",
+                "People at risk of homelessness/ people experiencing homelessness",
+                "People with chronic illness (including terminal illness)",
+                "People with disabilities",
+                "Pre/post release offenders and/or their families",
+                "Unemployed persons",
+                "Veterans and/or their families",
+                "Victims of crime (including family violence)",
+                "Victims of disaster",
+                "Females",
+                "Males",
+                "Environment",
+                "Other charities",
+                "Overseas communities or charities",
+                "General community in Australia"
+              ],
+              "ProgramClassie": [
+                {
+                  "classie_id": "103",
+                  "label": "Public arts",
+                  "parent_id": "42",
+                  "selected": true
+                },
+                {
+                  "classie_id": "42",
+                  "label": "Arts and culture",
+                  "parent_id": null,
+                  "selected": false
+                }
+              ],
+              "ProgramClassification": "Public arts",
+              "ProgramClassificationID": "103",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Claremont WA, Australia",
+                  "FormattedAddress": "Claremont WA 6010, Australia",
+                  "Marker": {
+                    "Latitude": -31.9807386,
+                    "Longitude": 115.7821812
+                  },
+                  "Name": "Claremont",
+                  "uuid": "aea96ace-2bc1-f011-bbd3-6045bde679a9"
+                }
+              ],
+              "ProgramWeblink": "https://www.form.net.au/what-we-do/art-consultancy",
+              "uuid": "65a96ace-2bc1-f011-bbd3-6045bde679a9"
+            },
+            {
+              "AisUuid": "e0636fc8-2bc1-f011-bbd3-6045bde679a9",
+              "Name": "Cultural Tourism",
+              "OperatesOnline": true,
+              "ProgramBeneficiaries": [
+                "Early childhood - aged under 6",
+                "Children - aged 6 to under 15",
+                "Youth - 15 to under 25",
+                "Adults - aged 25 to under 65",
+                "Adults - aged 65 and over",
+                "Families",
+                "Aboriginal and Torres Strait Islander people",
+                "LGBTIQA+",
+                "Migrants, refugees or asylum seekers",
+                "People from a culturally and linguistically diverse background",
+                "People in rural/regional/remote communities",
+                "Financially disadvantaged people",
+                "People at risk of homelessness/ people experiencing homelessness",
+                "People with chronic illness (including terminal illness)",
+                "People with disabilities",
+                "Pre/post release offenders and/or their families",
+                "Unemployed persons",
+                "Veterans and/or their families",
+                "Victims of crime (including family violence)",
+                "Victims of disaster",
+                "Females",
+                "Males",
+                "Other gender identities",
+                "Environment",
+                "Other charities",
+                "Overseas communities or charities",
+                "General community in Australia"
+              ],
+              "ProgramClassie": [
+                {
+                  "classie_id": "103",
+                  "label": "Public arts",
+                  "parent_id": "42",
+                  "selected": true
+                },
+                {
+                  "classie_id": "42",
+                  "label": "Arts and culture",
+                  "parent_id": null,
+                  "selected": false
+                }
+              ],
+              "ProgramClassification": "Public arts",
+              "ProgramClassificationID": "103",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Claremont WA, Australia",
+                  "FormattedAddress": "Claremont WA 6010, Australia",
+                  "Marker": {
+                    "Latitude": -31.9807386,
+                    "Longitude": 115.7821812
+                  },
+                  "Name": "Claremont",
+                  "uuid": "d8a96ace-2bc1-f011-bbd3-6045bde679a9"
+                },
+                {
+                  "DisplayName": "Albany WA, Australia",
+                  "FormattedAddress": "Albany WA 6330, Australia",
+                  "Marker": {
+                    "Latitude": -35.0275298,
+                    "Longitude": 117.883959
+                  },
+                  "Name": "Albany",
+                  "uuid": "daa96ace-2bc1-f011-bbd3-6045bde679a9"
+                },
+                {
+                  "DisplayName": "Esperance WA, Australia",
+                  "FormattedAddress": "Esperance WA 6450, Australia",
+                  "Marker": {
+                    "Latitude": -33.8608027,
+                    "Longitude": 121.8896205
+                  },
+                  "Name": "Esperance",
+                  "uuid": "dda96ace-2bc1-f011-bbd3-6045bde679a9"
+                }
+              ],
+              "ProgramWeblink": "https://form.net.au/lighting-the-sound",
+              "uuid": "b1a96ace-2bc1-f011-bbd3-6045bde679a9"
+            }
+          ],
+          "ReferendumReturnsUrl": null,
+          "RegistrationStatusHistory": [
+            {
+              "EffectiveDate": "2015-03-10T13:00:00.0000000Z",
+              "Status": "Registered",
+              "TransactionDate": "2015-04-29T14:00:00.0000000Z",
+              "uuid": "d827a0f2-06c6-e811-a964-000d3ad24077"
+            }
+          ],
+          "RelatedPartyTransactions": null,
+          "RelevantTransactions": null,
+          "ReportingLate": "2027-06-30T12:30:00.0000000Z",
+          "ResponsiblePersons": [
+            {
+              "Name": "Thomas Rayner",
+              "Role": "Director",
+              "uuid": "04be0368-48b9-f011-bbd2-00224810550c"
+            },
+            {
+              "Name": "Timothy Shanahan",
+              "Role": "Chairperson",
+              "uuid": "bb0e50d8-d98d-ea11-a811-000d3ad1f9f4"
+            },
+            {
+              "Name": "Kathryn Reid",
+              "Role": "Deputy Chairperson",
+              "uuid": "c20d24d7-c813-ed11-b83d-00224812b54e"
+            },
+            {
+              "Name": "Nicolette Casella",
+              "Role": "Director",
+              "uuid": "a47d23dd-c813-ed11-b83d-00224812b54e"
+            },
+            {
+              "Name": "Tabitha McMullan",
+              "Role": "Secretary",
+              "uuid": "9f3032f7-eafb-eb11-94ee-0022481064b7"
+            },
+            {
+              "Name": "Bradfield Ronald",
+              "Role": "Director",
+              "uuid": "188df626-aeae-ee11-a569-00224893b261"
+            },
+            {
+              "Name": "Narelle Grinceri",
+              "Role": "Director",
+              "uuid": "4b8df626-aeae-ee11-a569-00224893b261"
+            },
+            {
+              "Name": "Paul Kotsoglo",
+              "Role": "Director",
+              "uuid": "66a76576-63ec-e811-a965-000d3ad24077"
+            },
+            {
+              "Name": "Jennifer Morris",
+              "Role": "Director",
+              "uuid": "46b78d28-20da-f011-8543-7ced8da1d1a7"
+            },
+            {
+              "Name": "Peter Lee",
+              "Role": "Director",
+              "uuid": "d67544c7-fcbb-e811-a963-000d3ad24a0d"
+            },
+            {
+              "Name": "Stedman Ellis",
+              "Role": "Director",
+              "uuid": "300d3fcd-fcbb-e811-a962-000d3ad24182"
+            }
+          ],
+          "Status": "Registered",
+          "SummaryOfActivities": "FORM's programs and creative project spaces including the Scribblers Festival, Creative Schools, Art and Cultural Consultancy, Cultural Tourism projects, FORM Gallery & Cafe and Spinifex Hill Studios contribute to our mission to be a leader in developing a vibrant creative economy for the benefit and wellbeing of all Western Australian communities.",
+          "TotalExpensesEmployee": "3421252",
+          "TotalExpensesGrantsAndDonationsInAustralia": "0",
+          "TotalExpensesGrantsAndDonationsOutsideAustralia": "0",
+          "TotalExpensesInterest": "4271",
+          "TotalExpensesOther": "4929630",
+          "TotalGrossIncomeDonationsAndRequests": "220688",
+          "TotalGrossIncomeGoodsOrServices": "2508056",
+          "TotalGrossIncomeGovernmentGrants": "3210530",
+          "TotalGrossIncomeInvestments": "33771",
+          "TotalGrossIncomeOtherRevenues": "1612036",
+          "TransparencyRegisterUrl": null,
+          "Website": "www.form.net.au",
+          "__normalized": true,
+          "type": "charity",
+          "uuid": "886b8c49-3aaf-e811-a960-000d3ad24282"
+        },
+        "type": "charity",
+        "uuid": "886b8c49-3aaf-e811-a960-000d3ad24282"
+      },
+      "canonical_field_mappings": {
+        "data.Name": "display_name",
+        "data.OtherNames": "operating_names",
+        "data.AnnualReports": "acnc_ais_url",
+        "data.Programs": "programs"
+      },
+      "evidence_ids": [
+        "ev:acnc:ais:77967703375:2025"
       ]
     }
   ],
@@ -238,7 +1494,10 @@
         "source_precision": null
       },
       "assets": null,
-      "liabilities": null
+      "liabilities": null,
+      "income_breakdown": [],
+      "expense_breakdown": [],
+      "balance_sheet_breakdown": []
     }
   ],
   "financial_metrics": [
@@ -417,6 +1676,30 @@
       "page": null,
       "section": null,
       "content_hash": null
+    },
+    {
+      "evidence_id": "ev:abr-dgr:77967703375:20260805",
+      "source_type": "regulatory",
+      "title": "ABR DGR bulk observation",
+      "publisher": "Australian Business Register / Australian Taxation Office",
+      "url": "https://abr.business.gov.au/Tools/BulkExtract",
+      "observed_at": "2026-08-05",
+      "reporting_period": null,
+      "page": null,
+      "section": null,
+      "content_hash": null
+    },
+    {
+      "evidence_id": "ev:acnc:ais:77967703375:2025",
+      "source_type": "regulatory",
+      "title": "FORM Building a State of Creativity Limited Annual Information Statement 2025",
+      "publisher": "Australian Charities and Not-for-profits Commission",
+      "url": "https://www.acnc.gov.au/charity/charities/886b8c49-3aaf-e811-a960-000d3ad24282/documents/e0636fc8-2bc1-f011-bbd3-6045bde679a9",
+      "observed_at": "2025-11-14",
+      "reporting_period": null,
+      "page": null,
+      "section": null,
+      "content_hash": null
     }
   ],
   "embedding": {
@@ -425,8 +1708,8 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "965d149a61193aa58c7b85838cfea53210064c72883f1a4fe46390c3b37fb89d",
-    "generated_at": "2026-08-10T13:53:24.457755Z",
+    "source_text_hash": "33884123f21de4fa4c673d2695e3ec35112463d608d868bf94393bbe2ab259cc",
+    "generated_at": "2026-08-13T00:32:18.623651Z",
     "vector_ref": "embeddings.parquet#cb_4bedfcf11ee24200bd97278aa08ab305"
   },
   "synthesis": {
@@ -497,9 +1780,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc2",
-  "card_schema_version": "0.3",
+  "dataset_version": "phase2b-2026-08-13-rc3",
+  "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.3.0-rc2",
-  "built_at": "2026-08-12T14:24:20.675968Z"
+  "generator_version": "0.4.0-rc3",
+  "built_at": "2026-08-13T00:32:15.698599Z"
 }

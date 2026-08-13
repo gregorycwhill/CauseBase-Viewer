@@ -37,6 +37,12 @@
   "legal_name": "MULTICULTURAL SENIOR DIGITAL SUPPORT QLD INC",
   "display_name": "MULTICULTURAL SENIOR DIGITAL SUPPORT QLD INC",
   "entity_status": "registered",
+  "canonical_url": "https://gregorycwhill.github.io/CauseBase-Viewer/#cb_1ed4d44d34e949098005cf9c6ca1885c",
+  "acnc_profile_url": "https://www.acnc.gov.au/charity/charities/4d5512d5-0f42-f111-88b5-6045bde5b920/profile",
+  "acnc_ais_url": null,
+  "operating_names": [],
+  "former_names": [],
+  "principal_location": null,
   "coverage": [
     {
       "capability": "regulatory",
@@ -79,6 +85,14 @@
       "evidence_ids": [],
       "observed_at": "2026-08-10",
       "freshness_note": null
+    },
+    {
+      "capability": "latest_acnc_ais",
+      "status": "not_available_from_source",
+      "source_record_id": null,
+      "evidence_ids": [],
+      "observed_at": "2026-08-13",
+      "freshness_note": "No submitted AIS appears in the 2026-08-13 public ACNC profile acquisition."
     }
   ],
   "enrichment_level": "enriched",
@@ -104,7 +118,9 @@
   "activities": [],
   "beneficiaries": [],
   "participation_modes": [],
+  "participation_observations": [],
   "opportunities": [],
+  "programs": [],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:5ba36dbb-708e-5b5a-a3f3-7a20a628af8a",
@@ -124,6 +140,7 @@
         "ACNC registration ID": null,
         "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
+      "source_payload": null,
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
         "Legal Name": "legal_name",
@@ -183,8 +200,8 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "e9c81d44d90626c852692251957d309a81c408dbc066d70fdec047fbc5c2b536",
-    "generated_at": "2026-08-10T13:53:24.457249Z",
+    "source_text_hash": "24cc31a5ee29e0e54cb0b75c01afde3fabf8a88c9de14d35eec2da8d1c3b2ccc",
+    "generated_at": "2026-08-13T00:32:18.623025Z",
     "vector_ref": "embeddings.parquet#cb_1ed4d44d34e949098005cf9c6ca1885c"
   },
   "synthesis": {
@@ -255,9 +272,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc2",
-  "card_schema_version": "0.3",
+  "dataset_version": "phase2b-2026-08-13-rc3",
+  "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.3.0-rc2",
-  "built_at": "2026-08-12T14:24:20.675968Z"
+  "generator_version": "0.4.0-rc3",
+  "built_at": "2026-08-13T00:32:15.698599Z"
 }

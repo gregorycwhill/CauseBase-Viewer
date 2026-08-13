@@ -37,6 +37,12 @@
   "legal_name": "AUSTRALIAN LGBTQ BOARD AND EXECUTIVE INCLUSION FORUM LIMITED",
   "display_name": "AUSTRALIAN LGBTQ BOARD AND EXECUTIVE INCLUSION FORUM LIMITED",
   "entity_status": "registered",
+  "canonical_url": "https://gregorycwhill.github.io/CauseBase-Viewer/#cb_ce5fa7858d2f47ffaf33a8015e933ba8",
+  "acnc_profile_url": "https://www.acnc.gov.au/charity/charities/f5d45d3a-46e7-ef11-be20-0022489758db/profile",
+  "acnc_ais_url": null,
+  "operating_names": [],
+  "former_names": [],
+  "principal_location": null,
   "coverage": [
     {
       "capability": "regulatory",
@@ -81,6 +87,14 @@
       "evidence_ids": [],
       "observed_at": "2026-08-10",
       "freshness_note": null
+    },
+    {
+      "capability": "latest_acnc_ais",
+      "status": "not_available_from_source",
+      "source_record_id": null,
+      "evidence_ids": [],
+      "observed_at": "2026-08-13",
+      "freshness_note": "No submitted AIS appears in the 2026-08-13 public ACNC profile acquisition."
     }
   ],
   "enrichment_level": "enriched",
@@ -131,7 +145,9 @@
     "Offering help or assistance (organisation invitation)",
     "Attending ALBEI events (organisation-described)"
   ],
+  "participation_observations": [],
   "opportunities": [],
+  "programs": [],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:cbd2fc4b-9782-5a5a-b53a-087995bf56b6",
@@ -151,6 +167,7 @@
         "ACNC registration ID": null,
         "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
+      "source_payload": null,
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
         "Legal Name": "legal_name",
@@ -294,8 +311,8 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "6ac732a609bfe45544c3b0a60995c71c703dca761462584f44e2a59f8a3fc4c1",
-    "generated_at": "2026-08-10T13:53:24.456981Z",
+    "source_text_hash": "7e4fbc618f65f9f7e641de00449ce075bb5ac747da9b4e7f063ba7b5badf38d0",
+    "generated_at": "2026-08-13T00:32:18.622578Z",
     "vector_ref": "embeddings.parquet#cb_ce5fa7858d2f47ffaf33a8015e933ba8"
   },
   "synthesis": {
@@ -366,9 +383,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc2",
-  "card_schema_version": "0.3",
+  "dataset_version": "phase2b-2026-08-13-rc3",
+  "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.3.0-rc2",
-  "built_at": "2026-08-12T14:24:20.675968Z"
+  "generator_version": "0.4.0-rc3",
+  "built_at": "2026-08-13T00:32:15.698599Z"
 }

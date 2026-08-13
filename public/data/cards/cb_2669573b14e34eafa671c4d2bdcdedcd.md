@@ -2,7 +2,7 @@
 
 **CauseBase subject:** `cb_2669573b14e34eafa671c4d2bdcdedcd`
 **Subject kind:** unknown
-**Coverage:** `[{"capability": "regulatory", "evidence_ids": ["ev:acnc:32588253381"], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "observed"}, {"capability": "annual_report", "evidence_ids": [], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "not_yet_processed"}, {"capability": "website", "evidence_ids": [], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "not_available_from_source"}, {"capability": "fundraising_expenditure", "evidence_ids": [], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "not_yet_processed"}, {"capability": "financials", "evidence_ids": [], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "not_found_in_source"}]`
+**Coverage:** `[{"capability": "regulatory", "evidence_ids": ["ev:acnc:32588253381"], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "observed"}, {"capability": "annual_report", "evidence_ids": [], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "not_yet_processed"}, {"capability": "website", "evidence_ids": [], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "not_available_from_source"}, {"capability": "fundraising_expenditure", "evidence_ids": [], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "not_yet_processed"}, {"capability": "financials", "evidence_ids": [], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "not_found_in_source"}, {"capability": "latest_acnc_ais", "evidence_ids": ["ev:acnc:ais:32588253381:2025"], "freshness_note": "Latest submitted ACNC AIS in the 2026-08-13 public-profile acquisition: 2025.", "observed_at": "2025-11-25", "source_record_id": null, "status": "observed"}]`
 
 ## CauseBase summary
 
@@ -38,6 +38,8 @@ North East Men's Shed (Winnaleah) Inc. is an incorporated not-for-profit organis
 ## Evidence
 
 - ACNC Register extract — regulatory, observed 2026-08-10
+- ABR DGR bulk observation — regulatory, observed 2026-08-05 — https://abr.business.gov.au/Tools/BulkExtract
+- North East Men's Shed (Winnaleah) Inc. Annual Information Statement 2025 — regulatory, observed 2025-11-25 — https://www.acnc.gov.au/charity/charities/34a380bc-73cd-ef11-a72f-000d3a6b41c8/documents/b5e30541-b3c9-f011-bbd3-6045bde73edb
 
 ## Machine representation
 
@@ -48,7 +50,7 @@ North East Men's Shed (Winnaleah) Inc. is an incorporated not-for-profit organis
 
 ## Build
 
-- Dataset version: `phase2b-2026-08-12-rc2`
-- Card schema: `0.3`
+- Dataset version: `phase2b-2026-08-13-rc3`
+- Card schema: `0.4`
 - Editorial policy: `0.3-rc2`
-- Built: 2026-08-12T14:24:20.675968+00:00
+- Built: 2026-08-13T00:32:15.698599+00:00

@@ -28,5 +28,12 @@ test("uses friendly but separated taxonomy headings", () => {
 
 test("keeps source-native records distinct and linkable", () => {
   assert.equal(fundingSourceLabel("government_grants_or_contracts"), "government grants or contracts");
-  assert.equal(sourceRecordLocator({ source_record_id: "src:acnc/1" }), "./public/data/source-records/src%3Aacnc%2F1.json");
+  assert.equal(sourceRecordLocator({ source_record_id: "src:acnc/1" }), "./public/data/source-records/src%253Aacnc%252F1.json");
+});
+
+test("keeps encoded source-native filenames routable through static hosting", () => {
+  assert.equal(
+    sourceRecordLocator({ source_record_id: "src:acnc-ais:example" }),
+    "./public/data/source-records/src%253Aacnc-ais%253Aexample.json",
+  );
 });

@@ -18,7 +18,16 @@
       ]
     }
   ],
-  "tax_statuses": [],
+  "tax_statuses": [
+    {
+      "scheme": "ABR DGR",
+      "status": "endorsed",
+      "detail": "Dated 2026-08-05 ABR bulk observation",
+      "evidence_ids": [
+        "ev:abr-dgr:41461770404:20260805"
+      ]
+    }
+  ],
   "relationships": [],
   "source_resolutions": [
     {
@@ -37,6 +46,12 @@
   "legal_name": "Aged Care Deloraine Inc",
   "display_name": "Aged Care Deloraine Inc",
   "entity_status": "registered",
+  "canonical_url": "https://gregorycwhill.github.io/CauseBase-Viewer/#cb_ef8cfa1cd3c940db8a4710197388e578",
+  "acnc_profile_url": "https://www.acnc.gov.au/charity/charities/5e3a7a14-39af-e811-a961-000d3ad24182/profile",
+  "acnc_ais_url": "https://www.acnc.gov.au/charity/charities/5e3a7a14-39af-e811-a961-000d3ad24182/documents/f1f1e5b6-8588-f011-b4cc-000d3a6aeb52",
+  "operating_names": [],
+  "former_names": [],
+  "principal_location": "TAS, Australia",
   "coverage": [
     {
       "capability": "regulatory",
@@ -83,6 +98,16 @@
       ],
       "observed_at": "2026-08-10",
       "freshness_note": null
+    },
+    {
+      "capability": "latest_acnc_ais",
+      "status": "observed",
+      "source_record_id": null,
+      "evidence_ids": [
+        "ev:acnc:ais:41461770404:2025"
+      ],
+      "observed_at": "2025-09-03",
+      "freshness_note": "Latest submitted ACNC AIS in the 2026-08-13 public-profile acquisition: 2025."
     }
   ],
   "enrichment_level": "enriched",
@@ -134,7 +159,9 @@
     "Site tours for prospective residents and families",
     "Admissions consultations with residents and families"
   ],
+  "participation_observations": [],
   "opportunities": [],
+  "programs": [],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:029e1097-789f-57a1-9dbf-79e65d424f85",
@@ -154,6 +181,7 @@
         "ACNC registration ID": null,
         "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
+      "source_payload": null,
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
         "Legal Name": "legal_name",
@@ -183,12 +211,707 @@
         "Assets": null,
         "Liabilities": null
       },
+      "source_payload": null,
       "canonical_field_mappings": {
         "Revenue": "financial_records[].revenue",
         "Total expenses": "financial_records[].total_expenses"
       },
       "evidence_ids": [
         "ev:ais:41461770404:2023"
+      ]
+    },
+    {
+      "source_record_id": "src:acnc-public-profile:41461770404:cb_ef8cfa1cd3c940db8a4710197388e578:2026-08-13",
+      "source_family": "acnc-public-profile",
+      "dataset_version": "2026-08-13-public-api",
+      "source_url": "https://www.acnc.gov.au/charity/charities/5e3a7a14-39af-e811-a961-000d3ad24182/profile",
+      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "observed_at": "2025-09-03",
+      "effective_from": null,
+      "effective_to": null,
+      "source_fields": {
+        "uuid": "5e3a7a14-39af-e811-a961-000d3ad24182",
+        "abn": "41461770404",
+        "latest_ais_year": "2025",
+        "latest_ais_uuid": "f1f1e5b6-8588-f011-b4cc-000d3a6aeb52"
+      },
+      "source_payload": {
+        "data": {
+          "AFSAddressPostalCode": "7304",
+          "AFSEmail": "info@agedcaredeloraine.org.au",
+          "Abn": "41461770404",
+          "AddressCountry": "Australia",
+          "AddressLine1": "7 East Barrack St",
+          "AddressLine2": null,
+          "AddressLine3": null,
+          "AddressPostalCode": "7304",
+          "AddressStateOrProvince": "TAS",
+          "AddressSuburb": "Deloraine",
+          "AddressSuburbStatePostcode": "Deloraine TAS 7304",
+          "AnnualReports": [
+            {
+              "AISId": null,
+              "DateReceived": "2020-01-29T00:05:24.0000000Z",
+              "DocumentUuid": "8f488004-2b42-ea11-a812-000d3ad1cc03",
+              "DueDate": "2020-05-27T14:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2019",
+              "type": "Financial Report 2019",
+              "uuid": "5c77446e-e825-e911-a977-000d3ad064bd"
+            },
+            {
+              "AISId": "a3c7d80b-2b42-ea11-a813-000d3ad1cd99",
+              "DateReceived": "2020-01-29T00:05:29.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2020-05-27T14:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2019",
+              "type": "Annual Information Statement 2019",
+              "uuid": "9977446e-e825-e911-a977-000d3ad064bd"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2020-12-28T23:45:21.0000000Z",
+              "DocumentUuid": "afaeb3b7-6649-eb11-a812-000d3ad1caaa",
+              "DueDate": "2021-01-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2020",
+              "type": "Financial Report 2020",
+              "uuid": "e577446e-e825-e911-a977-000d3ad064bd"
+            },
+            {
+              "AISId": "2bc3f7bd-6649-eb11-bb23-000d3ad1f9f4",
+              "DateReceived": "2020-12-28T23:45:28.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2021-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2020",
+              "type": "Annual Information Statement 2020",
+              "uuid": "1c78446e-e825-e911-a977-000d3ad064bd"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2026-12-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Not yet submitted",
+              "Year": "2026",
+              "type": "Annual Information Statement 2026",
+              "uuid": "d131dd9c-d5df-ef11-a732-000d3ad0bafe"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2026-12-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Pending",
+              "Year": "2026",
+              "type": "Financial Report 2026",
+              "uuid": "1432dd9c-d5df-ef11-a732-000d3ad0bafe"
+            },
+            {
+              "AISId": "460b9877-f350-ed11-bba3-00224810056d",
+              "DateReceived": "2022-10-21T03:50:24.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2023-01-31T00:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2022",
+              "type": "Annual Information Statement 2022",
+              "uuid": "e7e1b780-cf63-eb11-b0b0-000d3ad1cd99"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2022-10-21T03:50:24.0000000Z",
+              "DocumentUuid": "da3cda72-f350-ed11-bba3-002248110683",
+              "DueDate": "2023-01-31T00:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2022",
+              "type": "Financial Report 2022",
+              "uuid": "53e2b780-cf63-eb11-b0b0-000d3ad1cd99"
+            },
+            {
+              "AISId": "975a0a78-615c-ec11-8f8f-000d3ad21a08",
+              "DateReceived": "2021-12-13T22:10:37.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2022-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2021",
+              "type": "Annual Information Statement 2021",
+              "uuid": "2b2578c1-eba0-ea11-a812-000d3ad1f497"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2021-12-13T22:10:28.0000000Z",
+              "DocumentUuid": "3ca6dd70-615c-ec11-8f8f-000d3ad169d3",
+              "DueDate": "2022-01-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2021",
+              "type": "Financial Report 2021",
+              "uuid": "602578c1-eba0-ea11-a812-000d3ad1f497"
+            },
+            {
+              "AISId": "db481a30-51c8-e811-a964-000d3ad24077",
+              "DateReceived": "2014-10-12T13:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2015-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2014",
+              "type": "Annual Information Statement 2014",
+              "uuid": "28491a30-51c8-e811-a964-000d3ad24077"
+            },
+            {
+              "AISId": "e5481a30-51c8-e811-a964-000d3ad24077",
+              "DateReceived": "2015-10-19T13:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2016-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2015",
+              "type": "Annual Information Statement 2015",
+              "uuid": "31491a30-51c8-e811-a964-000d3ad24077"
+            },
+            {
+              "AISId": "ef481a30-51c8-e811-a964-000d3ad24077",
+              "DateReceived": "2016-10-20T13:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2017-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2016",
+              "type": "Annual Information Statement 2016",
+              "uuid": "39491a30-51c8-e811-a964-000d3ad24077"
+            },
+            {
+              "AISId": "fd481a30-51c8-e811-a964-000d3ad24077",
+              "DateReceived": "2017-10-26T13:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2018-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2017",
+              "type": "Annual Information Statement 2017",
+              "uuid": "42491a30-51c8-e811-a964-000d3ad24077"
+            },
+            {
+              "AISId": "0fc76f38-8653-e911-a97e-000d3ad05e15",
+              "DateReceived": "2019-03-31T07:26:07.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2019-03-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2018",
+              "type": "Annual Information Statement 2018",
+              "uuid": "24b37dc0-3ac8-e811-a962-000d3ad24182"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2014-10-12T13:00:00.0000000Z",
+              "DocumentUuid": "e525c797-47b0-e811-a960-000d3ad24282",
+              "DueDate": "2015-01-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2014",
+              "type": "Financial Report 2014",
+              "uuid": "861c8e05-3fc8-e811-a963-000d3ad24a0d"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2015-10-19T13:00:00.0000000Z",
+              "DocumentUuid": "0e26c797-47b0-e811-a960-000d3ad24282",
+              "DueDate": "2016-01-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2015",
+              "type": "Financial Report 2015",
+              "uuid": "a21c8e05-3fc8-e811-a963-000d3ad24a0d"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2016-10-20T13:00:00.0000000Z",
+              "DocumentUuid": "2426c797-47b0-e811-a960-000d3ad24282",
+              "DueDate": "2017-01-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2016",
+              "type": "Financial Report 2016",
+              "uuid": "b91c8e05-3fc8-e811-a963-000d3ad24a0d"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Not required",
+              "Year": "2017",
+              "type": "Financial Report 2017",
+              "uuid": "d11c8e05-3fc8-e811-a963-000d3ad24a0d"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Not required",
+              "Year": "2013",
+              "type": "Financial Report 2013",
+              "uuid": "e61c8e05-3fc8-e811-a963-000d3ad24a0d"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2019-03-31T07:26:01.0000000Z",
+              "DocumentUuid": "551d2531-8653-e911-a975-000d3ad24282",
+              "DueDate": "2019-03-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2018",
+              "type": "Financial Report 2018",
+              "uuid": "fa1c8e05-3fc8-e811-a963-000d3ad24a0d"
+            },
+            {
+              "AISId": "272399fb-45c8-e811-a963-000d3ad24a0d",
+              "DateReceived": "2013-10-28T13:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2014-03-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2013",
+              "type": "Annual Information Statement 2013",
+              "uuid": "642399fb-45c8-e811-a963-000d3ad24a0d"
+            },
+            {
+              "AISId": "7340fdc9-9098-ee11-be37-002248122521",
+              "DateReceived": "2023-12-12T01:50:21.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2024-01-31T00:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2023",
+              "type": "Annual Information Statement 2023",
+              "uuid": "3feb67e8-a682-ec11-8d20-00224892973b"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2023-12-12T01:50:15.0000000Z",
+              "DocumentUuid": "e5fafec7-9098-ee11-be37-002248935564",
+              "DueDate": "2024-01-31T00:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2023",
+              "type": "Financial Report 2023",
+              "uuid": "4ceb67e8-a682-ec11-8d20-00224892973b"
+            },
+            {
+              "AISId": "f1f1e5b6-8588-f011-b4cc-000d3a6aeb52",
+              "DateReceived": "2025-09-03T05:20:40.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2026-01-31T00:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2025",
+              "type": "Annual Information Statement 2025",
+              "uuid": "90e70089-99c0-ee11-907a-00224893b0ed"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2025-09-03T05:20:29.0000000Z",
+              "DocumentUuid": "09490daa-8588-f011-b4cc-00224893fe04",
+              "DueDate": "2026-01-31T00:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2025",
+              "type": "Financial Report 2025",
+              "uuid": "bee70089-99c0-ee11-907a-00224893b0ed"
+            },
+            {
+              "AISId": "5593a8e3-52ac-ef11-b8e8-00224893f572",
+              "DateReceived": "2024-11-27T00:02:45.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2025-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2024",
+              "type": "Annual Information Statement 2024",
+              "uuid": "230f8187-c9a1-ed11-aad1-00224893bffb"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2024-11-27T00:01:33.0000000Z",
+              "DocumentUuid": "03a3918e-52ac-ef11-b8e8-000d3acb551c",
+              "DueDate": "2025-01-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2024",
+              "type": "Financial Report 2024",
+              "uuid": "6e0f8187-c9a1-ed11-aad1-00224893bffb"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2027-12-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Not yet submitted",
+              "Year": "2027",
+              "type": "Annual Information Statement 2027",
+              "uuid": "7b051891-04ff-f011-8406-6045bdc27ae7"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2027-12-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Pending",
+              "Year": "2027",
+              "type": "Financial Report 2027",
+              "uuid": "8f051891-04ff-f011-8406-6045bdc27ae7"
+            }
+          ],
+          "Beneficiaries": [
+            {
+              "Description": null,
+              "Name": "Adults - aged 65 and over",
+              "uuid": "cff2e5b6-8588-f011-b4cc-000d3a6aeb52"
+            }
+          ],
+          "CharitySize": "Large",
+          "CharitySubtypeHistory": [
+            {
+              "EndDate": "2013-12-30T13:00:00.0000000Z",
+              "Purpose": "2012 Another purpose beneficial to the community",
+              "StartDate": "2012-12-02T13:00:00.0000000Z",
+              "uuid": "1aae4671-fdc6-e811-a964-000d3ad24077"
+            },
+            {
+              "EndDate": "2013-12-30T13:00:00.0000000Z",
+              "Purpose": "2012 Public benevolent institution",
+              "StartDate": "2012-12-02T13:00:00.0000000Z",
+              "uuid": "25ae4671-fdc6-e811-a964-000d3ad24077"
+            },
+            {
+              "EndDate": null,
+              "Purpose": "Public Benevolent Institution (PBI)",
+              "StartDate": "2013-12-31T13:00:00.0000000Z",
+              "uuid": "35ae4671-fdc6-e811-a964-000d3ad24077"
+            },
+            {
+              "EndDate": null,
+              "Purpose": "Advancing health",
+              "StartDate": "2013-12-31T13:00:00.0000000Z",
+              "uuid": "3bae4671-fdc6-e811-a964-000d3ad24077"
+            },
+            {
+              "EndDate": null,
+              "Purpose": "Advancing social or public welfare",
+              "StartDate": "2013-12-31T13:00:00.0000000Z",
+              "uuid": "50ae4671-fdc6-e811-a964-000d3ad24077"
+            },
+            {
+              "EndDate": null,
+              "Purpose": "Purposes beneficial to the general public that may reasonably be regarded as analogous to, or within the spirit of, any of the other charitable purposes",
+              "StartDate": "2013-12-31T13:00:00.0000000Z",
+              "uuid": "5eae4671-fdc6-e811-a964-000d3ad24077"
+            }
+          ],
+          "CharityVersion": "162",
+          "ChildMemberEndDate": null,
+          "ChildMemberStartDate": null,
+          "ChooseToProvideAis": null,
+          "Countries": [],
+          "DateEstablished": "1972-12-31T13:00:00.0000000Z",
+          "Documents": [
+            {
+              "Date": "2013-03-04T00:00:00.0000000",
+              "Title": "20130304 Aged Care Deloraine Constitution.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/5e3a7a14-39af-e811-a961-000d3ad24182-750c1851-16d3-4f56-a0c0-476db1767957-Governing%20Document-7725c797-47b0-e811-a960-000d3ad24282-20130304_Aged_Care_Deloraine_Constitution.pdf",
+              "Year": null,
+              "type": "Governing Document",
+              "uuid": "7725c797-47b0-e811-a960-000d3ad24282"
+            },
+            {
+              "Date": "2017-10-27T00:00:00.0000000",
+              "Title": "ACD Annual Report to June 2017.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/5e3a7a14-39af-e811-a961-000d3ad24182-750c1851-16d3-4f56-a0c0-476db1767957-Annual%20Report-4126c797-47b0-e811-a960-000d3ad24282-ACD_Annual_Report_to_June_2017.pdf",
+              "Year": "2017",
+              "type": "Annual Report",
+              "uuid": "4126c797-47b0-e811-a960-000d3ad24282"
+            },
+            {
+              "Date": "2021-12-01T00:00:00.0000000",
+              "Title": "Aged Care Deloraine Annual Report 2021.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/5e3a7a14-39af-e811-a961-000d3ad24182-750c1851-16d3-4f56-a0c0-476db1767957-Annual%20Report-5320f5e8-4d52-ec11-8f8e-00224811c9dd-Aged_Care_Deloraine_Annual_Report_2021.pdf",
+              "Year": "2021",
+              "type": "Annual Report",
+              "uuid": "5320f5e8-4d52-ec11-8f8e-00224811c9dd"
+            },
+            {
+              "Date": "2024-11-27T00:00:00.0000000",
+              "Title": "2024 Financial Statements & Audit Report - Aged Care Deloraine Inc [FYI-768135769].pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/5e3a7a14-39af-e811-a961-000d3ad24182-750c1851-16d3-4f56-a0c0-476db1767957-Financial%20Report-03a3918e-52ac-ef11-b8e8-000d3acb551c-2024_Financial_Statements_&_Audit_Report_-_Aged_Care_Deloraine_Inc_[FYI-768135769].pdf",
+              "Year": "2024",
+              "type": "Financial Report",
+              "uuid": "03a3918e-52ac-ef11-b8e8-000d3acb551c"
+            },
+            {
+              "Date": "2021-12-14T00:00:00.0000000",
+              "Title": "Financial Statement & Audit Report Aged Care Deloraine (signed).pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/5e3a7a14-39af-e811-a961-000d3ad24182-750c1851-16d3-4f56-a0c0-476db1767957-Financial%20Report-3ca6dd70-615c-ec11-8f8f-000d3ad169d3-Financial_Statement_&_Audit_Report_Aged_Care_Deloraine_(signed).pdf",
+              "Year": "2021",
+              "type": "Financial Report",
+              "uuid": "3ca6dd70-615c-ec11-8f8f-000d3ad169d3"
+            },
+            {
+              "Date": "2020-12-29T00:00:00.0000000",
+              "Title": "Financial statements and Audit report Aged Care Deloraine Inc.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/5e3a7a14-39af-e811-a961-000d3ad24182-750c1851-16d3-4f56-a0c0-476db1767957-Financial%20Report-afaeb3b7-6649-eb11-a812-000d3ad1caaa-Financial_statements_and_Audit_report_Aged_Care_Deloraine_Inc.pdf",
+              "Year": "2020",
+              "type": "Financial Report",
+              "uuid": "afaeb3b7-6649-eb11-a812-000d3ad1caaa"
+            },
+            {
+              "Date": "2020-01-29T00:00:00.0000000",
+              "Title": "signed audit report final ACD.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/5e3a7a14-39af-e811-a961-000d3ad24182-750c1851-16d3-4f56-a0c0-476db1767957-Financial%20Report-8f488004-2b42-ea11-a812-000d3ad1cc03-signed_audit_report_final_ACD.pdf",
+              "Year": "2019",
+              "type": "Financial Report",
+              "uuid": "8f488004-2b42-ea11-a812-000d3ad1cc03"
+            },
+            {
+              "Date": "2014-10-13T00:00:00.0000000",
+              "Title": "ACD 2014 General Purpose Financial Statements - (signed).pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/5e3a7a14-39af-e811-a961-000d3ad24182-750c1851-16d3-4f56-a0c0-476db1767957-Financial%20Report-e525c797-47b0-e811-a960-000d3ad24282-ACD_2014_General_Purpose_Financial_Statements_-_(signed).pdf",
+              "Year": "2014",
+              "type": "Financial Report",
+              "uuid": "e525c797-47b0-e811-a960-000d3ad24282"
+            },
+            {
+              "Date": "2015-10-20T00:00:00.0000000",
+              "Title": "Aged Care Deloraine Inc - 2015 Financial Statements (signed).pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/5e3a7a14-39af-e811-a961-000d3ad24182-750c1851-16d3-4f56-a0c0-476db1767957-Financial%20Report-0e26c797-47b0-e811-a960-000d3ad24282-Aged_Care_Deloraine_Inc_-_2015_Financial_Statements_(signed).pdf",
+              "Year": "2015",
+              "type": "Financial Report",
+              "uuid": "0e26c797-47b0-e811-a960-000d3ad24282"
+            },
+            {
+              "Date": "2016-10-21T00:00:00.0000000",
+              "Title": "ACD accounts YEJ 2016 Final (signed with Audit Report).pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/5e3a7a14-39af-e811-a961-000d3ad24182-750c1851-16d3-4f56-a0c0-476db1767957-Financial%20Report-2426c797-47b0-e811-a960-000d3ad24282-ACD_accounts_YEJ_2016_Final_(signed_with_Audit_Report).pdf",
+              "Year": "2016",
+              "type": "Financial Report",
+              "uuid": "2426c797-47b0-e811-a960-000d3ad24282"
+            },
+            {
+              "Date": "2019-03-31T00:00:00.0000000",
+              "Title": "Aged Care Deloraine Inc signed financials  audit report.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/5e3a7a14-39af-e811-a961-000d3ad24182-750c1851-16d3-4f56-a0c0-476db1767957-Financial%20Report-551d2531-8653-e911-a975-000d3ad24282-Aged_Care_Deloraine_Inc_signed_financials__audit_report.pdf",
+              "Year": "2018",
+              "type": "Financial Report",
+              "uuid": "551d2531-8653-e911-a975-000d3ad24282"
+            },
+            {
+              "Date": "2022-10-21T00:00:00.0000000",
+              "Title": "Financial statements and Audit report Aged Care Deloraine Inc .pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/5e3a7a14-39af-e811-a961-000d3ad24182-750c1851-16d3-4f56-a0c0-476db1767957-Financial%20Report-da3cda72-f350-ed11-bba3-002248110683-Financial_statements_and_Audit_report_Aged_Care_Deloraine_Inc_.pdf",
+              "Year": "2022",
+              "type": "Financial Report",
+              "uuid": "da3cda72-f350-ed11-bba3-002248110683"
+            },
+            {
+              "Date": "2023-12-12T00:00:00.0000000",
+              "Title": "Aged Care Deloraine Inc 2023 - Financial statements (FINAL).pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/5e3a7a14-39af-e811-a961-000d3ad24182-750c1851-16d3-4f56-a0c0-476db1767957-Financial%20Report-e5fafec7-9098-ee11-be37-002248935564-Aged_Care_Deloraine_Inc_2023_-_Financial_statements_(FINAL).pdf",
+              "Year": "2023",
+              "type": "Financial Report",
+              "uuid": "e5fafec7-9098-ee11-be37-002248935564"
+            },
+            {
+              "Date": "2025-09-03T00:00:00.0000000",
+              "Title": "2025 Financial statements & Audit Report - Aged Care Deloraine Inc.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/5e3a7a14-39af-e811-a961-000d3ad24182-750c1851-16d3-4f56-a0c0-476db1767957-Financial%20Report-09490daa-8588-f011-b4cc-00224893fe04-2025_Financial_statements_&_Audit_Report_-_Aged_Care_Deloraine_Inc.pdf",
+              "Year": "2025",
+              "type": "Financial Report",
+              "uuid": "09490daa-8588-f011-b4cc-00224893fe04"
+            }
+          ],
+          "Email": "administration@agedcaredeloraine.org.au",
+          "EnforcementOutcomes": [],
+          "FinancialYearEnd": "30/06",
+          "GovernmentAgencies": [
+            {
+              "Name": "TAS - Incorporated Association",
+              "ReferenceNumber": "00154C",
+              "uuid": "aff2e5b6-8588-f011-b4cc-000d3a6aeb52"
+            }
+          ],
+          "GroupHeadFlag": false,
+          "LastReported": "2025-09-03T05:20:40.0000000Z",
+          "Name": "Aged Care Deloraine Inc",
+          "NextReportDue": "2026-12-31T12:30:00.0000000Z",
+          "OperatingInStates": [],
+          "OtherDetails": null,
+          "OtherNames": [],
+          "ParentAccountAbn": null,
+          "ParentAccountId": null,
+          "Phone": null,
+          "Programs": [
+            {
+              "AisUuid": "f1f1e5b6-8588-f011-b4cc-000d3a6aeb52",
+              "Name": "Aged Care Services",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Adults - aged 65 and over"
+              ],
+              "ProgramClassie": [
+                {
+                  "classie_id": "535",
+                  "label": "Nursing homes",
+                  "parent_id": "534",
+                  "selected": true
+                },
+                {
+                  "classie_id": "534",
+                  "label": "Senior living",
+                  "parent_id": "527",
+                  "selected": false
+                },
+                {
+                  "classie_id": "527",
+                  "label": "Shelter and residential care",
+                  "parent_id": "485",
+                  "selected": false
+                },
+                {
+                  "classie_id": "485",
+                  "label": "Human services",
+                  "parent_id": null,
+                  "selected": false
+                }
+              ],
+              "ProgramClassification": "Nursing homes",
+              "ProgramClassificationID": "535",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Deloraine TAS, Australia",
+                  "FormattedAddress": "Deloraine TAS 7304, Australia",
+                  "Marker": {
+                    "Latitude": -41.5348943,
+                    "Longitude": 146.66163
+                  },
+                  "Name": "Deloraine",
+                  "uuid": "c2f2e5b6-8588-f011-b4cc-000d3a6aeb52"
+                }
+              ],
+              "ProgramWeblink": null,
+              "uuid": "baf2e5b6-8588-f011-b4cc-000d3a6aeb52"
+            }
+          ],
+          "ReferendumReturnsUrl": null,
+          "RegistrationStatusHistory": [
+            {
+              "EffectiveDate": "2012-12-02T13:00:00.0000000Z",
+              "Status": "Registered",
+              "TransactionDate": "2012-12-02T13:00:00.0000000Z",
+              "uuid": "0485b9a8-06c6-e811-a95f-000d3ad24c60"
+            }
+          ],
+          "RelatedPartyTransactions": null,
+          "RelevantTransactions": null,
+          "ReportingLate": "2027-06-30T12:30:00.0000000Z",
+          "ResponsiblePersons": [
+            {
+              "Name": "Li Zhang",
+              "Role": "Board Member",
+              "uuid": "05f2e5b6-8588-f011-b4cc-000d3a6aeb52"
+            },
+            {
+              "Name": "leanne Selvadurai",
+              "Role": "Board Member",
+              "uuid": "28f2e5b6-8588-f011-b4cc-000d3a6aeb52"
+            },
+            {
+              "Name": "Dawn Vallance",
+              "Role": "President",
+              "uuid": "52c51697-eebb-e811-a962-000d3ad24182"
+            },
+            {
+              "Name": "Nadine Ozols",
+              "Role": "Public Officer",
+              "uuid": "3ac3f7bd-6649-eb11-bb23-000d3ad1f9f4"
+            },
+            {
+              "Name": "Dinah Fitzgerald",
+              "Role": "Board Member",
+              "uuid": "3f127f83-a3dc-e811-a962-000d3ad24282"
+            },
+            {
+              "Name": "Craig Zimitat",
+              "Role": "Board Member",
+              "uuid": "11888733-37c1-ec11-983f-002248116867"
+            },
+            {
+              "Name": "Gayle Plunkett",
+              "Role": "Board Member",
+              "uuid": "5f02d100-1fbc-e811-a964-000d3ad24077"
+            },
+            {
+              "Name": "Annette Viney",
+              "Role": "Board Member",
+              "uuid": "d433119d-eebb-e811-a962-000d3ad24182"
+            },
+            {
+              "Name": "Elaine Bentley",
+              "Role": "Board Member",
+              "uuid": "7740fdc9-9098-ee11-be37-002248122521"
+            },
+            {
+              "Name": "Wayne Johnston",
+              "Role": "Board Member",
+              "uuid": "6293a8e3-52ac-ef11-b8e8-00224893f572"
+            }
+          ],
+          "Status": "Registered",
+          "SummaryOfActivities": "Aged Care Deloraine supports the needs of individuals by providing quality residential aged care services and independent living units to the Meander Valley community.",
+          "TotalExpensesEmployee": "11887378",
+          "TotalExpensesGrantsAndDonationsInAustralia": "0",
+          "TotalExpensesGrantsAndDonationsOutsideAustralia": "0",
+          "TotalExpensesInterest": "7620",
+          "TotalExpensesOther": "3361244",
+          "TotalGrossIncomeDonationsAndRequests": "725",
+          "TotalGrossIncomeGoodsOrServices": "3039220",
+          "TotalGrossIncomeGovernmentGrants": "13224965",
+          "TotalGrossIncomeInvestments": "325652",
+          "TotalGrossIncomeOtherRevenues": "71177",
+          "TransparencyRegisterUrl": null,
+          "Website": "www.agedcaredeloraine.org.au",
+          "__normalized": true,
+          "type": "charity",
+          "uuid": "5e3a7a14-39af-e811-a961-000d3ad24182"
+        },
+        "type": "charity",
+        "uuid": "5e3a7a14-39af-e811-a961-000d3ad24182"
+      },
+      "canonical_field_mappings": {
+        "data.Name": "display_name",
+        "data.OtherNames": "operating_names",
+        "data.AnnualReports": "acnc_ais_url",
+        "data.Programs": "programs"
+      },
+      "evidence_ids": [
+        "ev:acnc:ais:41461770404:2025"
       ]
     }
   ],
@@ -236,7 +959,10 @@
         "source_precision": null
       },
       "assets": null,
-      "liabilities": null
+      "liabilities": null,
+      "income_breakdown": [],
+      "expense_breakdown": [],
+      "balance_sheet_breakdown": []
     }
   ],
   "financial_metrics": [
@@ -415,6 +1141,30 @@
       "page": null,
       "section": null,
       "content_hash": null
+    },
+    {
+      "evidence_id": "ev:abr-dgr:41461770404:20260805",
+      "source_type": "regulatory",
+      "title": "ABR DGR bulk observation",
+      "publisher": "Australian Business Register / Australian Taxation Office",
+      "url": "https://abr.business.gov.au/Tools/BulkExtract",
+      "observed_at": "2026-08-05",
+      "reporting_period": null,
+      "page": null,
+      "section": null,
+      "content_hash": null
+    },
+    {
+      "evidence_id": "ev:acnc:ais:41461770404:2025",
+      "source_type": "regulatory",
+      "title": "Aged Care Deloraine Inc Annual Information Statement 2025",
+      "publisher": "Australian Charities and Not-for-profits Commission",
+      "url": "https://www.acnc.gov.au/charity/charities/5e3a7a14-39af-e811-a961-000d3ad24182/documents/f1f1e5b6-8588-f011-b4cc-000d3a6aeb52",
+      "observed_at": "2025-09-03",
+      "reporting_period": null,
+      "page": null,
+      "section": null,
+      "content_hash": null
     }
   ],
   "embedding": {
@@ -423,8 +1173,8 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "c518367a8b71d75174bc46ead96ee3703ccff33d87a09c32b158097f14fe5441",
-    "generated_at": "2026-08-10T13:53:24.458307Z",
+    "source_text_hash": "223655bcd5788a9ce3a63478696077bde5380acb9ef646bb1ae3260aec1943b4",
+    "generated_at": "2026-08-13T00:32:18.624958Z",
     "vector_ref": "embeddings.parquet#cb_ef8cfa1cd3c940db8a4710197388e578"
   },
   "synthesis": {
@@ -495,9 +1245,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc2",
-  "card_schema_version": "0.3",
+  "dataset_version": "phase2b-2026-08-13-rc3",
+  "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.3.0-rc2",
-  "built_at": "2026-08-12T14:24:20.675968Z"
+  "generator_version": "0.4.0-rc3",
+  "built_at": "2026-08-13T00:32:15.698599Z"
 }

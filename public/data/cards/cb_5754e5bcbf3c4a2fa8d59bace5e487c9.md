@@ -2,7 +2,7 @@
 
 **CauseBase subject:** `cb_5754e5bcbf3c4a2fa8d59bace5e487c9`
 **Subject kind:** unknown
-**Coverage:** `[{"capability": "regulatory", "evidence_ids": ["ev:acnc:49008643927"], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "observed"}, {"capability": "annual_report", "evidence_ids": [], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "not_yet_processed"}, {"capability": "website", "evidence_ids": [], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "retrieval_failed"}, {"capability": "fundraising_expenditure", "evidence_ids": [], "freshness_note": "No direct or defensible derived fundraising expenditure was found in selected Phase 2A evidence.", "observed_at": "2026-08-10", "source_record_id": null, "status": "not_available_from_source"}, {"capability": "financials", "evidence_ids": ["ev:ais:49008643927:2023"], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "observed"}]`
+**Coverage:** `[{"capability": "regulatory", "evidence_ids": ["ev:acnc:49008643927"], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "observed"}, {"capability": "annual_report", "evidence_ids": [], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "not_yet_processed"}, {"capability": "website", "evidence_ids": [], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "retrieval_failed"}, {"capability": "fundraising_expenditure", "evidence_ids": [], "freshness_note": "No direct or defensible derived fundraising expenditure was found in selected Phase 2A evidence.", "observed_at": "2026-08-10", "source_record_id": null, "status": "not_available_from_source"}, {"capability": "financials", "evidence_ids": ["ev:ais:49008643927:2023"], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "observed"}, {"capability": "latest_acnc_ais", "evidence_ids": ["ev:acnc:ais:49008643927:2025"], "freshness_note": "Latest submitted ACNC AIS in the 2026-08-13 public-profile acquisition: 2025.", "observed_at": "2025-11-27", "source_record_id": null, "status": "observed"}]`
 
 ## CauseBase summary
 
@@ -45,6 +45,8 @@ National Gallery Of Australia Foundation is a registered foundation based in the
 
 - ACNC Register extract — regulatory, observed 2026-08-10
 - ACNC AIS 2023 extract — regulatory, observed 2026-08-10
+- ABR DGR bulk observation — regulatory, observed 2026-08-05 — https://abr.business.gov.au/Tools/BulkExtract
+- National Gallery Of Australia Foundation Annual Information Statement 2025 — regulatory, observed 2025-11-27 — https://www.acnc.gov.au/charity/charities/51e826e3-2daf-e811-a963-000d3ad24077/documents/be2e8fda-7a4a-f111-bec7-7ced8d33fe37
 
 ## Machine representation
 
@@ -55,7 +57,7 @@ National Gallery Of Australia Foundation is a registered foundation based in the
 
 ## Build
 
-- Dataset version: `phase2b-2026-08-12-rc2`
-- Card schema: `0.3`
+- Dataset version: `phase2b-2026-08-13-rc3`
+- Card schema: `0.4`
 - Editorial policy: `0.3-rc2`
-- Built: 2026-08-12T14:24:20.675968+00:00
+- Built: 2026-08-13T00:32:15.698599+00:00

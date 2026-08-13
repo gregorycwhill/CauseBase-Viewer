@@ -18,7 +18,16 @@
       ]
     }
   ],
-  "tax_statuses": [],
+  "tax_statuses": [
+    {
+      "scheme": "ABR DGR",
+      "status": "endorsed",
+      "detail": "Dated 2026-08-05 ABR bulk observation",
+      "evidence_ids": [
+        "ev:abr-dgr:31650257585:20260805"
+      ]
+    }
+  ],
   "relationships": [],
   "source_resolutions": [
     {
@@ -37,6 +46,12 @@
   "legal_name": "Central Queensland Aboriginal Corporation For Cultural Activities",
   "display_name": "Central Queensland Aboriginal Corporation For Cultural Activities",
   "entity_status": "registered",
+  "canonical_url": "https://gregorycwhill.github.io/CauseBase-Viewer/#cb_637fedbb4541485caadb1f40cf25d1a8",
+  "acnc_profile_url": "https://www.acnc.gov.au/charity/charities/4319a19e-39af-e811-a963-000d3ad24077/profile",
+  "acnc_ais_url": "https://www.acnc.gov.au/charity/charities/4319a19e-39af-e811-a963-000d3ad24077/documents/61b95ab0-46c8-e811-a963-000d3ad24a0d",
+  "operating_names": [],
+  "former_names": [],
+  "principal_location": "QLD, Australia",
   "coverage": [
     {
       "capability": "regulatory",
@@ -79,6 +94,16 @@
       "evidence_ids": [],
       "observed_at": "2026-08-10",
       "freshness_note": null
+    },
+    {
+      "capability": "latest_acnc_ais",
+      "status": "observed",
+      "source_record_id": null,
+      "evidence_ids": [
+        "ev:acnc:ais:31650257585:2013"
+      ],
+      "observed_at": "2013-09-12",
+      "freshness_note": "Latest submitted ACNC AIS in the 2026-08-13 public-profile acquisition: 2013."
     }
   ],
   "enrichment_level": "enriched",
@@ -116,7 +141,9 @@
     "Aboriginal people (referenced in organisation name)"
   ],
   "participation_modes": [],
+  "participation_observations": [],
   "opportunities": [],
+  "programs": [],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:38a7410c-56b4-5a31-801c-6e484d53a9c1",
@@ -136,6 +163,7 @@
         "ACNC registration ID": null,
         "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
+      "source_payload": null,
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
         "Legal Name": "legal_name",
@@ -143,6 +171,497 @@
       },
       "evidence_ids": [
         "ev:acnc:31650257585"
+      ]
+    },
+    {
+      "source_record_id": "src:acnc-public-profile:31650257585:cb_637fedbb4541485caadb1f40cf25d1a8:2026-08-13",
+      "source_family": "acnc-public-profile",
+      "dataset_version": "2026-08-13-public-api",
+      "source_url": "https://www.acnc.gov.au/charity/charities/4319a19e-39af-e811-a963-000d3ad24077/profile",
+      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "observed_at": "2013-09-12",
+      "effective_from": null,
+      "effective_to": null,
+      "source_fields": {
+        "uuid": "4319a19e-39af-e811-a963-000d3ad24077",
+        "abn": "31650257585",
+        "latest_ais_year": "2013",
+        "latest_ais_uuid": "61b95ab0-46c8-e811-a963-000d3ad24a0d"
+      },
+      "source_payload": {
+        "data": {
+          "AFSAddressPostalCode": "4702",
+          "AFSEmail": "dtime1@iinet.net.au",
+          "Abn": "31650257585",
+          "AddressCountry": null,
+          "AddressLine1": "Dreamtime Cultural Centre Lot 703-751 Yaamba Road",
+          "AddressLine2": "Lot 703-751 Yaamba Road",
+          "AddressLine3": null,
+          "AddressPostalCode": "4702",
+          "AddressStateOrProvince": "QLD",
+          "AddressSuburb": "Parkhurst",
+          "AddressSuburbStatePostcode": "Parkhurst QLD 4702",
+          "AnnualReports": [
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Not required - ORIC",
+              "Year": "2019",
+              "type": "Financial Report 2019",
+              "uuid": "7d457de0-ec25-e911-a976-000d3ad05e15"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": true,
+              "Status": "Not required - ORIC",
+              "Year": "2019",
+              "type": "Annual Information Statement 2019",
+              "uuid": "a8457de0-ec25-e911-a976-000d3ad05e15"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Not required - ORIC",
+              "Year": "2020",
+              "type": "Financial Report 2020",
+              "uuid": "d1457de0-ec25-e911-a976-000d3ad05e15"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": true,
+              "Status": "Not required - ORIC",
+              "Year": "2020",
+              "type": "Annual Information Statement 2020",
+              "uuid": "ee457de0-ec25-e911-a976-000d3ad05e15"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": true,
+              "Status": "Not required - ORIC",
+              "Year": "2026",
+              "type": "Annual Information Statement 2026",
+              "uuid": "e4f2493a-dadf-ef11-a731-000d3ad18bb1"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Not required - ORIC",
+              "Year": "2026",
+              "type": "Financial Report 2026",
+              "uuid": "00f3493a-dadf-ef11-a731-000d3ad18bb1"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": true,
+              "Status": "Not required - ORIC",
+              "Year": "2022",
+              "type": "Annual Information Statement 2022",
+              "uuid": "a4bc7bda-6d4b-eb11-bb23-000d3ad1cd99"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Not required - ORIC",
+              "Year": "2022",
+              "type": "Financial Report 2022",
+              "uuid": "c6bc7bda-6d4b-eb11-bb23-000d3ad1cd99"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": true,
+              "Status": "Not required - ORIC",
+              "Year": "2023",
+              "type": "Annual Information Statement 2023",
+              "uuid": "c7bc7bda-6d4b-eb11-bb23-000d3ad1cd99"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Not required - ORIC",
+              "Year": "2023",
+              "type": "Financial Report 2023",
+              "uuid": "e1bc7bda-6d4b-eb11-bb23-000d3ad1cd99"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": true,
+              "Status": "Not required - ORIC",
+              "Year": "2021",
+              "type": "Annual Information Statement 2021",
+              "uuid": "88a96ee1-d02b-ea11-a812-000d3ad1ce4e"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Not required - ORIC",
+              "Year": "2021",
+              "type": "Financial Report 2021",
+              "uuid": "a6a96ee1-d02b-ea11-a812-000d3ad1ce4e"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": true,
+              "Status": "Not required - ORIC",
+              "Year": "2014",
+              "type": "Annual Information Statement 2014",
+              "uuid": "994f7b45-3bc8-e811-a962-000d3ad24182"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": true,
+              "Status": "Not required - ORIC",
+              "Year": "2015",
+              "type": "Annual Information Statement 2015",
+              "uuid": "ac4f7b45-3bc8-e811-a962-000d3ad24182"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": true,
+              "Status": "Not required - ORIC",
+              "Year": "2016",
+              "type": "Annual Information Statement 2016",
+              "uuid": "c44f7b45-3bc8-e811-a962-000d3ad24182"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": true,
+              "Status": "Not required - ORIC",
+              "Year": "2017",
+              "type": "Annual Information Statement 2017",
+              "uuid": "d84f7b45-3bc8-e811-a962-000d3ad24182"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": true,
+              "Status": "Not required - ORIC",
+              "Year": "2018",
+              "type": "Annual Information Statement 2018",
+              "uuid": "f34f7b45-3bc8-e811-a962-000d3ad24182"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Not required",
+              "Year": "2013",
+              "type": "Financial Report 2013",
+              "uuid": "ed22c101-40c8-e811-a962-000d3ad24182"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Not required - ORIC",
+              "Year": "2018",
+              "type": "Financial Report 2018",
+              "uuid": "f622c101-40c8-e811-a962-000d3ad24182"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Not required - ORIC",
+              "Year": "2016",
+              "type": "Financial Report 2016",
+              "uuid": "1223c101-40c8-e811-a962-000d3ad24182"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Not required - ORIC",
+              "Year": "2014",
+              "type": "Financial Report 2014",
+              "uuid": "1f23c101-40c8-e811-a962-000d3ad24182"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Not required - ORIC",
+              "Year": "2015",
+              "type": "Financial Report 2015",
+              "uuid": "2c23c101-40c8-e811-a962-000d3ad24182"
+            },
+            {
+              "AISId": "61b95ab0-46c8-e811-a963-000d3ad24a0d",
+              "DateReceived": "2013-09-12T14:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2013",
+              "type": "Annual Information Statement 2013",
+              "uuid": "843493ad-46c8-e811-a964-000d3ad244fd"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Not required - ORIC",
+              "Year": "2017",
+              "type": "Financial Report 2017",
+              "uuid": "fee0f006-40c8-e811-a963-000d3ad24a0d"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": true,
+              "Status": "Not required - ORIC",
+              "Year": "2025",
+              "type": "Annual Information Statement 2025",
+              "uuid": "fa77d37a-a7c0-ee11-907a-002248122b18"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Not required - ORIC",
+              "Year": "2025",
+              "type": "Financial Report 2025",
+              "uuid": "3978d37a-a7c0-ee11-907a-002248122b18"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": true,
+              "Status": "Not required - ORIC",
+              "Year": "2024",
+              "type": "Annual Information Statement 2024",
+              "uuid": "a8e2aa5b-c8a1-ed11-aad1-00224893bfad"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Not required - ORIC",
+              "Year": "2024",
+              "type": "Financial Report 2024",
+              "uuid": "d7e2aa5b-c8a1-ed11-aad1-00224893bfad"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": true,
+              "Status": "Not required - ORIC",
+              "Year": "2027",
+              "type": "Annual Information Statement 2027",
+              "uuid": "0e8a1c02-04ff-f011-8406-6045bdc3b801"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Not required - ORIC",
+              "Year": "2027",
+              "type": "Financial Report 2027",
+              "uuid": "288a1c02-04ff-f011-8406-6045bdc3b801"
+            }
+          ],
+          "Beneficiaries": [
+            {
+              "Description": null,
+              "Name": "Aboriginal and Torres Strait Islander people",
+              "uuid": "e809215c-75bc-e811-a963-000d3ad24a0d"
+            }
+          ],
+          "CharitySize": null,
+          "CharitySubtypeHistory": [
+            {
+              "EndDate": "2013-12-30T13:00:00.0000000Z",
+              "Purpose": "2012 Another purpose beneficial to the community",
+              "StartDate": "2012-12-02T13:00:00.0000000Z",
+              "uuid": "9a8f8819-fec6-e811-a964-000d3ad24077"
+            },
+            {
+              "EndDate": null,
+              "Purpose": "Advancing culture",
+              "StartDate": "2013-12-31T13:00:00.0000000Z",
+              "uuid": "a88f8819-fec6-e811-a964-000d3ad24077"
+            },
+            {
+              "EndDate": null,
+              "Purpose": "Promoting reconciliation, mutual respect and tolerance between groups of individuals that are in Australia",
+              "StartDate": "2013-12-31T13:00:00.0000000Z",
+              "uuid": "b78f8819-fec6-e811-a964-000d3ad24077"
+            }
+          ],
+          "CharityVersion": "81",
+          "ChildMemberEndDate": null,
+          "ChildMemberStartDate": null,
+          "ChooseToProvideAis": null,
+          "Countries": [],
+          "DateEstablished": "1980-02-11T00:00:00.0000000Z",
+          "Documents": [],
+          "Email": "dtime1@iinet.net.au",
+          "EnforcementOutcomes": [],
+          "FinancialYearEnd": "30/06",
+          "GovernmentAgencies": [
+            {
+              "Name": "Office of the Registrar of Indigenous Corporations",
+              "ReferenceNumber": "53",
+              "uuid": "8461d2d5-e6af-e811-a963-000d3ad24077"
+            }
+          ],
+          "GroupHeadFlag": false,
+          "LastReported": "2013-09-12T14:00:00.0000000Z",
+          "Name": "Central Queensland Aboriginal Corporation For Cultural Activities",
+          "NextReportDue": "",
+          "OperatingInStates": [
+            {
+              "Name": "Queensland",
+              "uuid": "2cf593a5-455e-e811-a95c-000d3ad1c715"
+            }
+          ],
+          "OtherDetails": null,
+          "OtherNames": [],
+          "ParentAccountAbn": null,
+          "ParentAccountId": null,
+          "Phone": "0428 769 595",
+          "Programs": [],
+          "ReferendumReturnsUrl": null,
+          "RegistrationStatusHistory": [
+            {
+              "EffectiveDate": "2012-12-02T13:00:00.0000000Z",
+              "Status": "Registered",
+              "TransactionDate": "2012-12-02T13:00:00.0000000Z",
+              "uuid": "d5f376d5-06c6-e811-a961-000d3ad24282"
+            }
+          ],
+          "RelatedPartyTransactions": null,
+          "RelevantTransactions": null,
+          "ReportingLate": "9999-12-31T23:59:59.9999999",
+          "ResponsiblePersons": [
+            {
+              "Name": "Kerry Blackman",
+              "Role": "Director",
+              "uuid": "4eb0f61f-0dbc-e811-a964-000d3ad24077"
+            },
+            {
+              "Name": "Kaddie Chilly",
+              "Role": "Director",
+              "uuid": "b677353f-4ee9-ed11-8848-002248935564"
+            },
+            {
+              "Name": "Deanna Beatson",
+              "Role": "Director",
+              "uuid": "9bc5f67b-94e0-ec11-bb3e-002248944157"
+            },
+            {
+              "Name": "Ann Armstrong",
+              "Role": "Director",
+              "uuid": "87fece60-fbbb-e811-a964-000d3ad244fd"
+            },
+            {
+              "Name": "June Hornung",
+              "Role": "Director",
+              "uuid": "bb504167-2c8d-eb11-b1ac-000d3a6b2d94"
+            }
+          ],
+          "Status": "Registered",
+          "SummaryOfActivities": null,
+          "TotalExpensesEmployee": "0",
+          "TotalExpensesGrantsAndDonationsInAustralia": "0",
+          "TotalExpensesGrantsAndDonationsOutsideAustralia": "0",
+          "TotalExpensesInterest": "0",
+          "TotalExpensesOther": "0",
+          "TotalGrossIncomeDonationsAndRequests": "0",
+          "TotalGrossIncomeGoodsOrServices": "0",
+          "TotalGrossIncomeGovernmentGrants": "0",
+          "TotalGrossIncomeInvestments": "0",
+          "TotalGrossIncomeOtherRevenues": "0",
+          "TransparencyRegisterUrl": null,
+          "Website": null,
+          "__normalized": true,
+          "type": "charity",
+          "uuid": "4319a19e-39af-e811-a963-000d3ad24077"
+        },
+        "type": "charity",
+        "uuid": "4319a19e-39af-e811-a963-000d3ad24077"
+      },
+      "canonical_field_mappings": {
+        "data.Name": "display_name",
+        "data.OtherNames": "operating_names",
+        "data.AnnualReports": "acnc_ais_url",
+        "data.Programs": "programs"
+      },
+      "evidence_ids": [
+        "ev:acnc:ais:31650257585:2013"
       ]
     }
   ],
@@ -223,6 +742,30 @@
       "page": null,
       "section": null,
       "content_hash": null
+    },
+    {
+      "evidence_id": "ev:abr-dgr:31650257585:20260805",
+      "source_type": "regulatory",
+      "title": "ABR DGR bulk observation",
+      "publisher": "Australian Business Register / Australian Taxation Office",
+      "url": "https://abr.business.gov.au/Tools/BulkExtract",
+      "observed_at": "2026-08-05",
+      "reporting_period": null,
+      "page": null,
+      "section": null,
+      "content_hash": null
+    },
+    {
+      "evidence_id": "ev:acnc:ais:31650257585:2013",
+      "source_type": "regulatory",
+      "title": "Central Queensland Aboriginal Corporation For Cultural Activities Annual Information Statement 2013",
+      "publisher": "Australian Charities and Not-for-profits Commission",
+      "url": "https://www.acnc.gov.au/charity/charities/4319a19e-39af-e811-a963-000d3ad24077/documents/61b95ab0-46c8-e811-a963-000d3ad24a0d",
+      "observed_at": "2013-09-12",
+      "reporting_period": null,
+      "page": null,
+      "section": null,
+      "content_hash": null
     }
   ],
   "embedding": {
@@ -231,8 +774,8 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "72a609b6f1733250a9177dcce002278e8b1a3ae84153dba68e3cb80bf451ab2b",
-    "generated_at": "2026-08-10T13:53:24.456000Z",
+    "source_text_hash": "899b5af8e9b887a479e14ddfb9f3b41d6ee0fba34d5871b76e6236366220c71e",
+    "generated_at": "2026-08-13T00:32:18.621164Z",
     "vector_ref": "embeddings.parquet#cb_637fedbb4541485caadb1f40cf25d1a8"
   },
   "synthesis": {
@@ -303,9 +846,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc2",
-  "card_schema_version": "0.3",
+  "dataset_version": "phase2b-2026-08-13-rc3",
+  "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.3.0-rc2",
-  "built_at": "2026-08-12T14:24:20.675968Z"
+  "generator_version": "0.4.0-rc3",
+  "built_at": "2026-08-13T00:32:15.698599Z"
 }

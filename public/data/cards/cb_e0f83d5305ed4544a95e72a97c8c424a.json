@@ -18,7 +18,16 @@
       ]
     }
   ],
-  "tax_statuses": [],
+  "tax_statuses": [
+    {
+      "scheme": "ABR DGR",
+      "status": "endorsed",
+      "detail": "Dated 2026-08-05 ABR bulk observation",
+      "evidence_ids": [
+        "ev:abr-dgr:32590616129:20260805"
+      ]
+    }
+  ],
   "relationships": [],
   "source_resolutions": [
     {
@@ -37,6 +46,12 @@
   "legal_name": "Angel Gowns Australia Incorporated",
   "display_name": "Angel Gowns Australia Incorporated",
   "entity_status": "registered",
+  "canonical_url": "https://gregorycwhill.github.io/CauseBase-Viewer/#cb_e0f83d5305ed4544a95e72a97c8c424a",
+  "acnc_profile_url": "https://www.acnc.gov.au/charity/charities/5ea57b44-3aaf-e811-a961-000d3ad24182/profile",
+  "acnc_ais_url": "https://www.acnc.gov.au/charity/charities/5ea57b44-3aaf-e811-a961-000d3ad24182/documents/15636c5f-6aa2-f011-bbd2-7ced8d32de18",
+  "operating_names": [],
+  "former_names": [],
+  "principal_location": "Australia",
   "coverage": [
     {
       "capability": "regulatory",
@@ -85,6 +100,16 @@
       ],
       "observed_at": "2026-08-10",
       "freshness_note": null
+    },
+    {
+      "capability": "latest_acnc_ais",
+      "status": "observed",
+      "source_record_id": null,
+      "evidence_ids": [
+        "ev:acnc:ais:32590616129:2025"
+      ],
+      "observed_at": "2025-10-06",
+      "freshness_note": "Latest submitted ACNC AIS in the 2026-08-13 public-profile acquisition: 2025."
     }
   ],
   "enrichment_level": "enriched",
@@ -130,7 +155,9 @@
     "Participation in public events and craft shows and online fundraising",
     "Submitting special requests for garments"
   ],
+  "participation_observations": [],
   "opportunities": [],
+  "programs": [],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:1087a3cd-7169-5e5a-b703-f8e114664e79",
@@ -150,6 +177,7 @@
         "ACNC registration ID": null,
         "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
+      "source_payload": null,
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
         "Legal Name": "legal_name",
@@ -179,12 +207,1015 @@
         "Assets": null,
         "Liabilities": null
       },
+      "source_payload": null,
       "canonical_field_mappings": {
         "Revenue": "financial_records[].revenue",
         "Total expenses": "financial_records[].total_expenses"
       },
       "evidence_ids": [
         "ev:ais:32590616129:2023"
+      ]
+    },
+    {
+      "source_record_id": "src:acnc-public-profile:32590616129:cb_e0f83d5305ed4544a95e72a97c8c424a:2026-08-13",
+      "source_family": "acnc-public-profile",
+      "dataset_version": "2026-08-13-public-api",
+      "source_url": "https://www.acnc.gov.au/charity/charities/5ea57b44-3aaf-e811-a961-000d3ad24182/profile",
+      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "observed_at": "2025-10-06",
+      "effective_from": null,
+      "effective_to": null,
+      "source_fields": {
+        "uuid": "5ea57b44-3aaf-e811-a961-000d3ad24182",
+        "abn": "32590616129",
+        "latest_ais_year": "2025",
+        "latest_ais_uuid": "15636c5f-6aa2-f011-bbd2-7ced8d32de18"
+      },
+      "source_payload": {
+        "data": {
+          "AFSAddressPostalCode": "2161",
+          "AFSEmail": "secretary@angelgownsaustralia.org.au",
+          "Abn": "32590616129",
+          "AddressCountry": "Australia",
+          "AddressLine1": "18 Essex Street",
+          "AddressLine2": null,
+          "AddressLine3": "Guildford   NSW",
+          "AddressPostalCode": "2161",
+          "AddressStateOrProvince": null,
+          "AddressSuburb": null,
+          "AnnualReports": [
+            {
+              "AISId": null,
+              "DateReceived": "2019-11-18T04:25:24.0000000Z",
+              "DocumentUuid": "f5100417-eb4a-eb11-a812-000d3acb05bc",
+              "DueDate": "2020-01-31T00:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2019",
+              "type": "Financial Report 2019",
+              "uuid": "24a12d80-e825-e911-a977-000d3ad064bd"
+            },
+            {
+              "AISId": "a3e6541c-eb4a-eb11-bb23-000d3ad1cd99",
+              "DateReceived": "2020-12-30T22:05:31.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2020-01-31T00:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2019",
+              "type": "Annual Information Statement 2019",
+              "uuid": "66a12d80-e825-e911-a977-000d3ad064bd"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2020-12-30T22:30:24.0000000Z",
+              "DocumentUuid": "e4aa3c95-ee4a-eb11-a812-000d3acb05bc",
+              "DueDate": "2021-01-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2020",
+              "type": "Financial Report 2020",
+              "uuid": "9fa12d80-e825-e911-a977-000d3ad064bd"
+            },
+            {
+              "AISId": "a30cea9a-ee4a-eb11-bb23-000d3a6b0983",
+              "DateReceived": "2020-12-30T22:30:28.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2021-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2020",
+              "type": "Annual Information Statement 2020",
+              "uuid": "bea12d80-e825-e911-a977-000d3ad064bd"
+            },
+            {
+              "AISId": "6aaf0374-3c5a-ec11-8f8f-000d3ad27c4a",
+              "DateReceived": "2021-12-11T04:40:28.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2022-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2021",
+              "type": "Annual Information Statement 2021",
+              "uuid": "cdda765d-8f44-ea11-a813-000d3ad1f29c"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2021-12-11T04:40:24.0000000Z",
+              "DocumentUuid": "1193e069-3c5a-ec11-8f8f-000d3a6a0f3f",
+              "DueDate": "2022-01-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2021",
+              "type": "Financial Report 2021",
+              "uuid": "f9da765d-8f44-ea11-a813-000d3ad1f29c"
+            },
+            {
+              "AISId": "62a84881-857f-ed11-81ac-00224893cef4",
+              "DateReceived": "2022-12-19T10:11:41.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2023-01-31T00:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2022",
+              "type": "Annual Information Statement 2022",
+              "uuid": "e9fb9801-d063-eb11-b0b0-000d3ad1f9f4"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2022-12-19T10:11:38.0000000Z",
+              "DocumentUuid": "ff1dbb7e-857f-ed11-81ac-00224892bbf7",
+              "DueDate": "2023-01-31T00:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2022",
+              "type": "Financial Report 2022",
+              "uuid": "02fc9801-d063-eb11-b0b0-000d3ad1f9f4"
+            },
+            {
+              "AISId": "d12fc287-52c8-e811-a964-000d3ad24077",
+              "DateReceived": "2016-01-30T13:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2016-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2015",
+              "type": "Annual Information Statement 2015",
+              "uuid": "fb8b5184-52c8-e811-a962-000d3ad24182"
+            },
+            {
+              "AISId": "db2fc287-52c8-e811-a964-000d3ad24077",
+              "DateReceived": "2017-10-02T13:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2018-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2017",
+              "type": "Annual Information Statement 2017",
+              "uuid": "038c5184-52c8-e811-a962-000d3ad24182"
+            },
+            {
+              "AISId": "ea2fc287-52c8-e811-a964-000d3ad24077",
+              "DateReceived": "2016-12-27T13:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2017-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2016",
+              "type": "Annual Information Statement 2016",
+              "uuid": "0d8c5184-52c8-e811-a962-000d3ad24182"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2017-10-02T13:00:00.0000000Z",
+              "DocumentUuid": "bde44a00-4fb0-e811-a963-000d3ad24077",
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2017",
+              "type": "Financial Report 2017",
+              "uuid": "5f845d88-40c8-e811-a963-000d3ad24a0d"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2016-12-27T13:00:00.0000000Z",
+              "DocumentUuid": "65544600-4fb0-e811-a961-000d3ad24182",
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2016",
+              "type": "Financial Report 2016",
+              "uuid": "70845d88-40c8-e811-a963-000d3ad24a0d"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Not required",
+              "Year": "2013",
+              "type": "Financial Report 2013",
+              "uuid": "7f845d88-40c8-e811-a963-000d3ad24a0d"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2018-12-22T09:10:31.0000000Z",
+              "DocumentUuid": "ee33cd60-c905-e911-a969-000d3ad24a0d",
+              "DueDate": "2019-03-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2018",
+              "type": "Financial Report 2018",
+              "uuid": "94845d88-40c8-e811-a963-000d3ad24a0d"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2016-01-30T13:00:00.0000000Z",
+              "DocumentUuid": "e0874501-4fb0-e811-a95e-000d3ad24c60",
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2015",
+              "type": "Financial Report 2015",
+              "uuid": "a3845d88-40c8-e811-a963-000d3ad24a0d"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Not required",
+              "Year": "2014",
+              "type": "Financial Report 2014",
+              "uuid": "bd845d88-40c8-e811-a963-000d3ad24a0d"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": true,
+              "Status": "Not required",
+              "Year": "2013",
+              "type": "Annual Information Statement 2013",
+              "uuid": "6d862c83-3bc8-e811-a95f-000d3ad24c60"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": true,
+              "Status": "Not required",
+              "Year": "2014",
+              "type": "Annual Information Statement 2014",
+              "uuid": "7a862c83-3bc8-e811-a95f-000d3ad24c60"
+            },
+            {
+              "AISId": "64f18969-c905-e911-a96e-000d3ad064bd",
+              "DateReceived": "2018-12-22T09:10:36.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2019-03-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2018",
+              "type": "Annual Information Statement 2018",
+              "uuid": "8c862c83-3bc8-e811-a95f-000d3ad24c60"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2026-12-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Not yet submitted",
+              "Year": "2026",
+              "type": "Annual Information Statement 2026",
+              "uuid": "15764bb8-dbdf-ef11-a732-00224891e269"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2026-12-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Pending",
+              "Year": "2026",
+              "type": "Financial Report 2026",
+              "uuid": "22764bb8-dbdf-ef11-a732-00224891e269"
+            },
+            {
+              "AISId": "eb7adfe8-9862-ee11-8df0-00224893cef4",
+              "DateReceived": "2023-10-04T09:32:32.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2024-01-31T00:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2023",
+              "type": "Annual Information Statement 2023",
+              "uuid": "9b676ec4-a682-ec11-8d20-0022489297b7"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2023-10-04T09:32:30.0000000Z",
+              "DocumentUuid": "2ede59e3-9862-ee11-8df0-002248110683",
+              "DueDate": "2024-01-31T00:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2023",
+              "type": "Financial Report 2023",
+              "uuid": "b9676ec4-a682-ec11-8d20-0022489297b7"
+            },
+            {
+              "AISId": "15636c5f-6aa2-f011-bbd2-7ced8d32de18",
+              "DateReceived": "2025-10-06T04:10:26.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2026-01-31T00:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2025",
+              "type": "Annual Information Statement 2025",
+              "uuid": "201745b5-9cc0-ee11-907a-00224893b0ed"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2025-10-06T04:10:23.0000000Z",
+              "DocumentUuid": "f5001f56-6aa2-f011-bbd2-7c1e528a8605",
+              "DueDate": "2026-01-31T00:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2025",
+              "type": "Financial Report 2025",
+              "uuid": "321745b5-9cc0-ee11-907a-00224893b0ed"
+            },
+            {
+              "AISId": "3eead556-3481-ef11-ac20-002248971b8a",
+              "DateReceived": "2024-10-03T03:05:31.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2025-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2024",
+              "type": "Annual Information Statement 2024",
+              "uuid": "89cfedd3-c8a1-ed11-aad1-00224893bfad"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2024-10-03T03:05:20.0000000Z",
+              "DocumentUuid": "96472e4c-3481-ef11-ac21-00224898b115",
+              "DueDate": "2025-01-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2024",
+              "type": "Financial Report 2024",
+              "uuid": "b3cfedd3-c8a1-ed11-aad1-00224893bfad"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2027-12-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Not yet submitted",
+              "Year": "2027",
+              "type": "Annual Information Statement 2027",
+              "uuid": "ee316914-07ff-f011-8407-6045bdc4655a"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2027-12-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Pending",
+              "Year": "2027",
+              "type": "Financial Report 2027",
+              "uuid": "08326914-07ff-f011-8407-6045bdc4655a"
+            }
+          ],
+          "Beneficiaries": [
+            {
+              "Description": null,
+              "Name": "People with disabilities",
+              "uuid": "3acf6465-6aa2-f011-bbd2-7ced8d32de18"
+            },
+            {
+              "Description": null,
+              "Name": "People with chronic illness (including terminal illness)",
+              "uuid": "3ecf6465-6aa2-f011-bbd2-7ced8d32de18"
+            },
+            {
+              "Description": null,
+              "Name": "People in rural/regional/remote communities",
+              "uuid": "9c635d6b-6aa2-f011-bbd2-7ced8d32de18"
+            },
+            {
+              "Description": null,
+              "Name": "People from a culturally and linguistically diverse background",
+              "uuid": "9f635d6b-6aa2-f011-bbd2-7ced8d32de18"
+            },
+            {
+              "Description": null,
+              "Name": "General community in Australia",
+              "uuid": "a4635d6b-6aa2-f011-bbd2-7ced8d32de18"
+            },
+            {
+              "Description": null,
+              "Name": "Financially disadvantaged people",
+              "uuid": "a7635d6b-6aa2-f011-bbd2-7ced8d32de18"
+            },
+            {
+              "Description": null,
+              "Name": "Families",
+              "uuid": "bb635d6b-6aa2-f011-bbd2-7ced8d32de18"
+            },
+            {
+              "Description": null,
+              "Name": "Early childhood - aged under 6",
+              "uuid": "be635d6b-6aa2-f011-bbd2-7ced8d32de18"
+            },
+            {
+              "Description": null,
+              "Name": "Children - aged 6 to under 15",
+              "uuid": "c4635d6b-6aa2-f011-bbd2-7ced8d32de18"
+            },
+            {
+              "Description": null,
+              "Name": "Aboriginal and Torres Strait Islander people",
+              "uuid": "c9635d6b-6aa2-f011-bbd2-7ced8d32de18"
+            }
+          ],
+          "CharitySize": "Small",
+          "CharitySubtypeHistory": [
+            {
+              "EndDate": null,
+              "Purpose": "Advancing health",
+              "StartDate": "2014-06-22T14:00:00.0000000Z",
+              "uuid": "025d4797-fec6-e811-a964-000d3ad24077"
+            },
+            {
+              "EndDate": null,
+              "Purpose": "Advancing social or public welfare",
+              "StartDate": "2014-06-22T14:00:00.0000000Z",
+              "uuid": "115d4797-fec6-e811-a964-000d3ad24077"
+            },
+            {
+              "EndDate": null,
+              "Purpose": "Public Benevolent Institution (PBI)",
+              "StartDate": "2014-06-16T14:00:00.0000000Z",
+              "uuid": "205d4797-fec6-e811-a964-000d3ad24077"
+            }
+          ],
+          "CharityVersion": "180",
+          "ChildMemberEndDate": null,
+          "ChildMemberStartDate": null,
+          "ChooseToProvideAis": null,
+          "Countries": [],
+          "DateEstablished": "2014-03-26T13:00:00.0000000Z",
+          "Documents": [
+            {
+              "Date": "2021-10-19T00:00:00.0000000",
+              "Title": "AdoptedConstitution2019.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/5ea57b44-3aaf-e811-a961-000d3ad24182-ff06b113-fed2-404f-953c-da0e57e613d8-Governing%20Document-23ea7ee3-aa30-ec11-b6e6-00224810e2cf-AdoptedConstitution2019.pdf",
+              "Year": null,
+              "type": "Governing Document",
+              "uuid": "23ea7ee3-aa30-ec11-b6e6-00224810e2cf"
+            },
+            {
+              "Date": "2020-12-31T00:00:00.0000000",
+              "Title": "AGA Annual Report 2018-2019_Final.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/5ea57b44-3aaf-e811-a961-000d3ad24182-ff06b113-fed2-404f-953c-da0e57e613d8-Annual%20Report-e2100417-eb4a-eb11-a812-000d3acb05bc-AGA_Annual_Report_2018-2019_Final.pdf",
+              "Year": "2019",
+              "type": "Annual Report",
+              "uuid": "e2100417-eb4a-eb11-a812-000d3acb05bc"
+            },
+            {
+              "Date": "2017-10-03T00:00:00.0000000",
+              "Title": "Annual Report 2017.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/5ea57b44-3aaf-e811-a961-000d3ad24182-ff06b113-fed2-404f-953c-da0e57e613d8-Annual%20Report-99e44a00-4fb0-e811-a963-000d3ad24077-Annual_Report_2017.pdf",
+              "Year": "2017",
+              "type": "Annual Report",
+              "uuid": "99e44a00-4fb0-e811-a963-000d3ad24077"
+            },
+            {
+              "Date": "2024-02-06T00:00:00.0000000",
+              "Title": "ANNUAL REPORT 2022 final.docx",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/5ea57b44-3aaf-e811-a961-000d3ad24182-ff06b113-fed2-404f-953c-da0e57e613d8-Annual%20Report-9577f151-adc4-ee11-9079-002248122521-ANNUAL_REPORT_2022_final.docx",
+              "Year": "2022",
+              "type": "Annual Report",
+              "uuid": "9577f151-adc4-ee11-9079-002248122521"
+            },
+            {
+              "Date": "2024-02-06T00:00:00.0000000",
+              "Title": "ANNUAL REPORT 2023 final.docx",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/5ea57b44-3aaf-e811-a961-000d3ad24182-ff06b113-fed2-404f-953c-da0e57e613d8-Annual%20Report-c093d7fb-adc4-ee11-9079-002248122521-ANNUAL_REPORT_2023_final.docx",
+              "Year": "2023",
+              "type": "Annual Report",
+              "uuid": "c093d7fb-adc4-ee11-9079-002248122521"
+            },
+            {
+              "Date": "2025-10-06T00:00:00.0000000",
+              "Title": "Annual Report 2025 Final Sept 1st.docx",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/5ea57b44-3aaf-e811-a961-000d3ad24182-ff06b113-fed2-404f-953c-da0e57e613d8-Annual%20Report-690f69ba-6ba2-f011-bbd2-6045bdc40aa5-Annual_Report_2025_Final_Sept_1st.docx",
+              "Year": "2025",
+              "type": "Annual Report",
+              "uuid": "690f69ba-6ba2-f011-bbd2-6045bdc40aa5"
+            },
+            {
+              "Date": "2021-12-11T00:00:00.0000000",
+              "Title": "AGA Financials Report 2021 for ACNC report.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/5ea57b44-3aaf-e811-a961-000d3ad24182-ff06b113-fed2-404f-953c-da0e57e613d8-Financial%20Report-1193e069-3c5a-ec11-8f8f-000d3a6a0f3f-AGA_Financials_Report_2021_for_ACNC_report.pdf",
+              "Year": "2021",
+              "type": "Financial Report",
+              "uuid": "1193e069-3c5a-ec11-8f8f-000d3a6a0f3f"
+            },
+            {
+              "Date": "2020-12-31T00:00:00.0000000",
+              "Title": "AGA Annual Report 2018-2019_Final.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/5ea57b44-3aaf-e811-a961-000d3ad24182-ff06b113-fed2-404f-953c-da0e57e613d8-Financial%20Report-f5100417-eb4a-eb11-a812-000d3acb05bc-AGA_Annual_Report_2018-2019_Final.pdf",
+              "Year": "2019",
+              "type": "Financial Report",
+              "uuid": "f5100417-eb4a-eb11-a812-000d3acb05bc"
+            },
+            {
+              "Date": "2020-12-31T00:00:00.0000000",
+              "Title": "AGA Financials Report 2020v2.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/5ea57b44-3aaf-e811-a961-000d3ad24182-ff06b113-fed2-404f-953c-da0e57e613d8-Financial%20Report-e4aa3c95-ee4a-eb11-a812-000d3acb05bc-AGA_Financials_Report_2020v2.pdf",
+              "Year": "2020",
+              "type": "Financial Report",
+              "uuid": "e4aa3c95-ee4a-eb11-a812-000d3acb05bc"
+            },
+            {
+              "Date": "2017-10-03T00:00:00.0000000",
+              "Title": "Financial Report 2016-17.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/5ea57b44-3aaf-e811-a961-000d3ad24182-ff06b113-fed2-404f-953c-da0e57e613d8-Financial%20Report-bde44a00-4fb0-e811-a963-000d3ad24077-Financial_Report_2016-17.pdf",
+              "Year": "2017",
+              "type": "Financial Report",
+              "uuid": "bde44a00-4fb0-e811-a963-000d3ad24077"
+            },
+            {
+              "Date": "2016-12-28T00:00:00.0000000",
+              "Title": "Financial Report 2015 - 2016 nov.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/5ea57b44-3aaf-e811-a961-000d3ad24182-ff06b113-fed2-404f-953c-da0e57e613d8-Financial%20Report-65544600-4fb0-e811-a961-000d3ad24182-Financial_Report_2015_-_2016_nov.pdf",
+              "Year": "2016",
+              "type": "Financial Report",
+              "uuid": "65544600-4fb0-e811-a961-000d3ad24182"
+            },
+            {
+              "Date": "2018-12-22T00:00:00.0000000",
+              "Title": "Annual Report and Audit.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/5ea57b44-3aaf-e811-a961-000d3ad24182-ff06b113-fed2-404f-953c-da0e57e613d8-Financial%20Report-ee33cd60-c905-e911-a969-000d3ad24a0d-Annual_Report_and_Audit.pdf",
+              "Year": "2018",
+              "type": "Financial Report",
+              "uuid": "ee33cd60-c905-e911-a969-000d3ad24a0d"
+            },
+            {
+              "Date": "2016-01-31T00:00:00.0000000",
+              "Title": "Fin report 2015.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/5ea57b44-3aaf-e811-a961-000d3ad24182-ff06b113-fed2-404f-953c-da0e57e613d8-Financial%20Report-e0874501-4fb0-e811-a95e-000d3ad24c60-Fin_report_2015.pdf",
+              "Year": "2015",
+              "type": "Financial Report",
+              "uuid": "e0874501-4fb0-e811-a95e-000d3ad24c60"
+            },
+            {
+              "Date": "2023-10-04T00:00:00.0000000",
+              "Title": "Financial Report - Angel Gowns Australia Inc - 2023.doc (003) signed by JD.rtf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/5ea57b44-3aaf-e811-a961-000d3ad24182-ff06b113-fed2-404f-953c-da0e57e613d8-Financial%20Report-2ede59e3-9862-ee11-8df0-002248110683-Financial_Report_-_Angel_Gowns_Australia_Inc_-_2023.doc_(003)_signed_by_JD.rtf",
+              "Year": "2023",
+              "type": "Financial Report",
+              "uuid": "2ede59e3-9862-ee11-8df0-002248110683"
+            },
+            {
+              "Date": "2022-12-19T00:00:00.0000000",
+              "Title": "2022 Financial Statement for Angel Gown Australia Inc.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/5ea57b44-3aaf-e811-a961-000d3ad24182-ff06b113-fed2-404f-953c-da0e57e613d8-Financial%20Report-ff1dbb7e-857f-ed11-81ac-00224892bbf7-2022_Financial_Statement_for_Angel_Gown_Australia_Inc.pdf",
+              "Year": "2022",
+              "type": "Financial Report",
+              "uuid": "ff1dbb7e-857f-ed11-81ac-00224892bbf7"
+            },
+            {
+              "Date": "2024-10-03T00:00:00.0000000",
+              "Title": "Financial Statements_2023.2024.docx",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/5ea57b44-3aaf-e811-a961-000d3ad24182-ff06b113-fed2-404f-953c-da0e57e613d8-Financial%20Report-96472e4c-3481-ef11-ac21-00224898b115-Financial_Statements_2023.2024.docx",
+              "Year": "2024",
+              "type": "Financial Report",
+              "uuid": "96472e4c-3481-ef11-ac21-00224898b115"
+            },
+            {
+              "Date": "2025-10-06T00:00:00.0000000",
+              "Title": "Financial Report Angel Gowns Australia Inc 2025 signed.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/5ea57b44-3aaf-e811-a961-000d3ad24182-ff06b113-fed2-404f-953c-da0e57e613d8-Financial%20Report-f5001f56-6aa2-f011-bbd2-7c1e528a8605-Financial_Report_Angel_Gowns_Australia_Inc_2025_signed.pdf",
+              "Year": "2025",
+              "type": "Financial Report",
+              "uuid": "f5001f56-6aa2-f011-bbd2-7c1e528a8605"
+            }
+          ],
+          "Email": "secretary@angelgownsaustralia.org.au",
+          "EnforcementOutcomes": [],
+          "FinancialYearEnd": "30/06",
+          "GovernmentAgencies": [
+            {
+              "Name": "Online fundraising",
+              "ReferenceNumber": null,
+              "uuid": "cd0cea9a-ee4a-eb11-bb23-000d3a6b0983"
+            },
+            {
+              "Name": "Online fundraising",
+              "ReferenceNumber": null,
+              "uuid": "bf90826f-c905-e911-a96e-000d3ad064bd"
+            },
+            {
+              "Name": "Online fundraising",
+              "ReferenceNumber": null,
+              "uuid": "d6e68f22-eb4a-eb11-bb23-000d3ad1cd99"
+            },
+            {
+              "Name": "Online fundraising",
+              "ReferenceNumber": null,
+              "uuid": "c010786c-bb09-ea11-a811-000d3ad1f497"
+            },
+            {
+              "Name": "Online fundraising",
+              "ReferenceNumber": null,
+              "uuid": "ba3dc4e1-e6af-e811-a963-000d3ad24077"
+            },
+            {
+              "Name": "Online fundraising",
+              "ReferenceNumber": null,
+              "uuid": "c5fcfb79-3c5a-ec11-8f8f-000d3ad27c4a"
+            },
+            {
+              "Name": "Online fundraising",
+              "ReferenceNumber": null,
+              "uuid": "3da1cd87-857f-ed11-81ac-00224893cef4"
+            },
+            {
+              "Name": "Online fundraising",
+              "ReferenceNumber": null,
+              "uuid": "d8ead556-3481-ef11-ac20-002248971b8a"
+            },
+            {
+              "Name": "ACT - Incorporated Association",
+              "ReferenceNumber": "A05485",
+              "uuid": "d0636c5f-6aa2-f011-bbd2-7ced8d32de18"
+            },
+            {
+              "Name": "ACT - Fundraising",
+              "ReferenceNumber": "19000891",
+              "uuid": "db636c5f-6aa2-f011-bbd2-7ced8d32de18"
+            },
+            {
+              "Name": "NSW - Fundraising",
+              "ReferenceNumber": "23394",
+              "uuid": "e2636c5f-6aa2-f011-bbd2-7ced8d32de18"
+            },
+            {
+              "Name": "QLD - Fundraising",
+              "ReferenceNumber": "CH2694",
+              "uuid": "ea636c5f-6aa2-f011-bbd2-7ced8d32de18"
+            },
+            {
+              "Name": "SA - Fundraising",
+              "ReferenceNumber": "CCP2803",
+              "uuid": "fd636c5f-6aa2-f011-bbd2-7ced8d32de18"
+            },
+            {
+              "Name": "TAS - Fundraising",
+              "ReferenceNumber": "C/10208",
+              "uuid": "e9cd6465-6aa2-f011-bbd2-7ced8d32de18"
+            },
+            {
+              "Name": "VIC - Fundraising",
+              "ReferenceNumber": "FR0015186",
+              "uuid": "facd6465-6aa2-f011-bbd2-7ced8d32de18"
+            },
+            {
+              "Name": "WA - Fundraising",
+              "ReferenceNumber": "CC21870",
+              "uuid": "0dce6465-6aa2-f011-bbd2-7ced8d32de18"
+            },
+            {
+              "Name": "Online fundraising",
+              "ReferenceNumber": null,
+              "uuid": "11ce6465-6aa2-f011-bbd2-7ced8d32de18"
+            },
+            {
+              "Name": "NT - Fundraising",
+              "ReferenceNumber": null,
+              "uuid": "15ce6465-6aa2-f011-bbd2-7ced8d32de18"
+            }
+          ],
+          "GroupHeadFlag": false,
+          "LastReported": "2025-10-06T04:10:26.0000000Z",
+          "Name": "Angel Gowns Australia Incorporated",
+          "NextReportDue": "2026-12-31T12:30:00.0000000Z",
+          "OperatingInStates": [],
+          "OtherDetails": null,
+          "OtherNames": [],
+          "ParentAccountAbn": null,
+          "ParentAccountId": null,
+          "Phone": "0413915629",
+          "Programs": [
+            {
+              "AisUuid": "15636c5f-6aa2-f011-bbd2-7ced8d32de18",
+              "Name": "Angel Gown Program",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Early childhood - aged under 6",
+                "Children - aged 6 to under 15",
+                "Families",
+                "Aboriginal and Torres Strait Islander people",
+                "People from a culturally and linguistically diverse background",
+                "People in rural/regional/remote communities",
+                "Financially disadvantaged people",
+                "People with chronic illness (including terminal illness)",
+                "People with disabilities",
+                "General community in Australia"
+              ],
+              "ProgramClassie": [
+                {
+                  "classie_id": "125",
+                  "label": "Community service organisations",
+                  "parent_id": "118",
+                  "selected": true
+                },
+                {
+                  "classie_id": "118",
+                  "label": "Community development",
+                  "parent_id": null,
+                  "selected": false
+                }
+              ],
+              "ProgramClassification": "Community service organisations",
+              "ProgramClassificationID": "125",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "New South Wales, Australia",
+                  "FormattedAddress": "New South Wales, Australia",
+                  "Marker": {
+                    "Latitude": -31.2532183,
+                    "Longitude": 146.921099
+                  },
+                  "Name": "New South Wales",
+                  "uuid": "00cf6465-6aa2-f011-bbd2-7ced8d32de18"
+                },
+                {
+                  "DisplayName": "Queensland, Australia",
+                  "FormattedAddress": "Queensland, Australia",
+                  "Marker": {
+                    "Latitude": -22.575197,
+                    "Longitude": 144.0847926
+                  },
+                  "Name": "Queensland",
+                  "uuid": "02cf6465-6aa2-f011-bbd2-7ced8d32de18"
+                },
+                {
+                  "DisplayName": "Victoria, Australia",
+                  "FormattedAddress": "Victoria, Australia",
+                  "Marker": {
+                    "Latitude": -36.9847807,
+                    "Longitude": 143.3906074
+                  },
+                  "Name": "Victoria",
+                  "uuid": "07cf6465-6aa2-f011-bbd2-7ced8d32de18"
+                },
+                {
+                  "DisplayName": "Tasmania, Australia",
+                  "FormattedAddress": "Tasmania, Australia",
+                  "Marker": {
+                    "Latitude": -42.0409059,
+                    "Longitude": 146.8087322
+                  },
+                  "Name": "Tasmania",
+                  "uuid": "0acf6465-6aa2-f011-bbd2-7ced8d32de18"
+                },
+                {
+                  "DisplayName": "South Australia, Australia",
+                  "FormattedAddress": "South Australia, Australia",
+                  "Marker": {
+                    "Latitude": -30.0002315,
+                    "Longitude": 136.2091547
+                  },
+                  "Name": "South Australia",
+                  "uuid": "0dcf6465-6aa2-f011-bbd2-7ced8d32de18"
+                },
+                {
+                  "DisplayName": "Western Australia, Australia",
+                  "FormattedAddress": "Western Australia, Australia",
+                  "Marker": {
+                    "Latitude": -27.6728168,
+                    "Longitude": 121.6283098
+                  },
+                  "Name": "Western Australia",
+                  "uuid": "11cf6465-6aa2-f011-bbd2-7ced8d32de18"
+                },
+                {
+                  "DisplayName": "Northern Territory, Australia",
+                  "FormattedAddress": "Northern Territory, Australia",
+                  "Marker": {
+                    "Latitude": -19.4914108,
+                    "Longitude": 132.5509603
+                  },
+                  "Name": "Northern Territory",
+                  "uuid": "15cf6465-6aa2-f011-bbd2-7ced8d32de18"
+                },
+                {
+                  "DisplayName": "Australian Capital Territory, Australia",
+                  "FormattedAddress": "Australian Capital Territory, Australia",
+                  "Marker": {
+                    "Latitude": -35.4734679,
+                    "Longitude": 149.0123679
+                  },
+                  "Name": "Australian Capital Territory",
+                  "uuid": "17cf6465-6aa2-f011-bbd2-7ced8d32de18"
+                }
+              ],
+              "ProgramWeblink": "www.angelgownsaustralia.org.au",
+              "uuid": "21ce6465-6aa2-f011-bbd2-7ced8d32de18"
+            },
+            {
+              "AisUuid": "15636c5f-6aa2-f011-bbd2-7ced8d32de18",
+              "Name": "Tutu Program",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Early childhood - aged under 6",
+                "Children - aged 6 to under 15",
+                "General community in Australia"
+              ],
+              "ProgramClassie": [
+                {
+                  "classie_id": "116",
+                  "label": "Crafts",
+                  "parent_id": "42",
+                  "selected": true
+                },
+                {
+                  "classie_id": "42",
+                  "label": "Arts and culture",
+                  "parent_id": null,
+                  "selected": false
+                }
+              ],
+              "ProgramClassification": "Crafts",
+              "ProgramClassificationID": "116",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "New South Wales, Australia",
+                  "FormattedAddress": "New South Wales, Australia",
+                  "Marker": {
+                    "Latitude": -31.2532183,
+                    "Longitude": 146.921099
+                  },
+                  "Name": "New South Wales",
+                  "uuid": "23cf6465-6aa2-f011-bbd2-7ced8d32de18"
+                },
+                {
+                  "DisplayName": "Queensland, Australia",
+                  "FormattedAddress": "Queensland, Australia",
+                  "Marker": {
+                    "Latitude": -22.575197,
+                    "Longitude": 144.0847926
+                  },
+                  "Name": "Queensland",
+                  "uuid": "25cf6465-6aa2-f011-bbd2-7ced8d32de18"
+                },
+                {
+                  "DisplayName": "Victoria, Australia",
+                  "FormattedAddress": "Victoria, Australia",
+                  "Marker": {
+                    "Latitude": -36.9847807,
+                    "Longitude": 143.3906074
+                  },
+                  "Name": "Victoria",
+                  "uuid": "27cf6465-6aa2-f011-bbd2-7ced8d32de18"
+                },
+                {
+                  "DisplayName": "South Australia, Australia",
+                  "FormattedAddress": "South Australia, Australia",
+                  "Marker": {
+                    "Latitude": -30.0002315,
+                    "Longitude": 136.2091547
+                  },
+                  "Name": "South Australia",
+                  "uuid": "29cf6465-6aa2-f011-bbd2-7ced8d32de18"
+                },
+                {
+                  "DisplayName": "Tasmania, Australia",
+                  "FormattedAddress": "Tasmania, Australia",
+                  "Marker": {
+                    "Latitude": -42.0409059,
+                    "Longitude": 146.8087322
+                  },
+                  "Name": "Tasmania",
+                  "uuid": "2bcf6465-6aa2-f011-bbd2-7ced8d32de18"
+                },
+                {
+                  "DisplayName": "Western Australia, Australia",
+                  "FormattedAddress": "Western Australia, Australia",
+                  "Marker": {
+                    "Latitude": -27.6728168,
+                    "Longitude": 121.6283098
+                  },
+                  "Name": "Western Australia",
+                  "uuid": "2dcf6465-6aa2-f011-bbd2-7ced8d32de18"
+                },
+                {
+                  "DisplayName": "Northern Territory, Australia",
+                  "FormattedAddress": "Northern Territory, Australia",
+                  "Marker": {
+                    "Latitude": -19.4914108,
+                    "Longitude": 132.5509603
+                  },
+                  "Name": "Northern Territory",
+                  "uuid": "2fcf6465-6aa2-f011-bbd2-7ced8d32de18"
+                },
+                {
+                  "DisplayName": "Australian Capital Territory, Australia",
+                  "FormattedAddress": "Australian Capital Territory, Australia",
+                  "Marker": {
+                    "Latitude": -35.4734679,
+                    "Longitude": 149.0123679
+                  },
+                  "Name": "Australian Capital Territory",
+                  "uuid": "31cf6465-6aa2-f011-bbd2-7ced8d32de18"
+                }
+              ],
+              "ProgramWeblink": "www.angelgownsaustralia.org.au",
+              "uuid": "1bcf6465-6aa2-f011-bbd2-7ced8d32de18"
+            }
+          ],
+          "ReferendumReturnsUrl": null,
+          "RegistrationStatusHistory": [
+            {
+              "EffectiveDate": "2014-06-22T14:00:00.0000000Z",
+              "Status": "Registered",
+              "TransactionDate": "2014-06-26T14:00:00.0000000Z",
+              "uuid": "7e0184f3-06c6-e811-a963-000d3ad24a0d"
+            }
+          ],
+          "RelatedPartyTransactions": null,
+          "RelevantTransactions": null,
+          "ReportingLate": "2027-06-30T12:30:00.0000000Z",
+          "ResponsiblePersons": [
+            {
+              "Name": "Christine McKenna",
+              "Role": "Secretary",
+              "uuid": "7c2aff34-01bc-e811-a964-000d3ad244fd"
+            },
+            {
+              "Name": "Robyn Lavery",
+              "Role": "Committee Member",
+              "uuid": "2c3858e2-b9de-e911-a812-000d3ad1f497"
+            },
+            {
+              "Name": "Julie Dimech",
+              "Role": "President",
+              "uuid": "774e544b-17bc-e811-a963-000d3ad24a0d"
+            },
+            {
+              "Name": "Dorothy McAdie",
+              "Role": "Public Officer",
+              "uuid": "ba95eb44-11bc-e811-a962-000d3ad24182"
+            },
+            {
+              "Name": "Lynette D'Arcy-Evans",
+              "Role": "Treasurer",
+              "uuid": "6a886670-a47a-f111-ab0e-00224812ec12"
+            },
+            {
+              "Name": "Janice Dufficy",
+              "Role": "Committee Member",
+              "uuid": "b47096f4-f069-ec11-8f8e-00224891b076"
+            },
+            {
+              "Name": "Joanne Flanagan",
+              "Role": "Committee Member",
+              "uuid": "04497a32-3a13-ef11-9f8a-00224893b0ed"
+            },
+            {
+              "Name": "Wendy Horton",
+              "Role": "Committee Member",
+              "uuid": "4f636c5f-6aa2-f011-bbd2-7ced8d32de18"
+            },
+            {
+              "Name": "Wendy Horton",
+              "Role": "Committee Member",
+              "uuid": "4f636c5f-6aa2-f011-bbd2-7ced8d32de18"
+            }
+          ],
+          "Status": "Registered",
+          "SummaryOfActivities": "Our volunteers created and gifted baby burial garments to bereaved families who suffered from a miscarriage, stillbirth or neo-natal death of their baby. These were made from donated wedding dresses and donated to hospitals, funeral homes and directly to families at no charge. We also made and gifted tutu skirts and gifts to sick children in hospital or through support groups to brighten their day.",
+          "TotalExpensesEmployee": "0",
+          "TotalExpensesGrantsAndDonationsInAustralia": "0",
+          "TotalExpensesGrantsAndDonationsOutsideAustralia": "0",
+          "TotalExpensesInterest": "0",
+          "TotalExpensesOther": "20015",
+          "TotalGrossIncomeDonationsAndRequests": "15256",
+          "TotalGrossIncomeGoodsOrServices": "3100",
+          "TotalGrossIncomeGovernmentGrants": "0",
+          "TotalGrossIncomeInvestments": "0",
+          "TotalGrossIncomeOtherRevenues": "1349",
+          "TransparencyRegisterUrl": null,
+          "Website": "https://www.angelgownsaustralia.org.au",
+          "__normalized": true,
+          "type": "charity",
+          "uuid": "5ea57b44-3aaf-e811-a961-000d3ad24182"
+        },
+        "type": "charity",
+        "uuid": "5ea57b44-3aaf-e811-a961-000d3ad24182"
+      },
+      "canonical_field_mappings": {
+        "data.Name": "display_name",
+        "data.OtherNames": "operating_names",
+        "data.AnnualReports": "acnc_ais_url",
+        "data.Programs": "programs"
+      },
+      "evidence_ids": [
+        "ev:acnc:ais:32590616129:2025"
       ]
     }
   ],
@@ -232,7 +1263,10 @@
         "source_precision": null
       },
       "assets": null,
-      "liabilities": null
+      "liabilities": null,
+      "income_breakdown": [],
+      "expense_breakdown": [],
+      "balance_sheet_breakdown": []
     }
   ],
   "financial_metrics": [
@@ -432,6 +1466,30 @@
       "page": null,
       "section": null,
       "content_hash": null
+    },
+    {
+      "evidence_id": "ev:abr-dgr:32590616129:20260805",
+      "source_type": "regulatory",
+      "title": "ABR DGR bulk observation",
+      "publisher": "Australian Business Register / Australian Taxation Office",
+      "url": "https://abr.business.gov.au/Tools/BulkExtract",
+      "observed_at": "2026-08-05",
+      "reporting_period": null,
+      "page": null,
+      "section": null,
+      "content_hash": null
+    },
+    {
+      "evidence_id": "ev:acnc:ais:32590616129:2025",
+      "source_type": "regulatory",
+      "title": "Angel Gowns Australia Incorporated Annual Information Statement 2025",
+      "publisher": "Australian Charities and Not-for-profits Commission",
+      "url": "https://www.acnc.gov.au/charity/charities/5ea57b44-3aaf-e811-a961-000d3ad24182/documents/15636c5f-6aa2-f011-bbd2-7ced8d32de18",
+      "observed_at": "2025-10-06",
+      "reporting_period": null,
+      "page": null,
+      "section": null,
+      "content_hash": null
     }
   ],
   "embedding": {
@@ -440,8 +1498,8 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "3f165c926980464aba55e3ce81d9989809c3e3649bde0e1b26d6b9b0e9e3cf8a",
-    "generated_at": "2026-08-10T13:53:24.457352Z",
+    "source_text_hash": "fc57aef26abeb5355746543bf2d0851aac338efaea51783b6e6154ed7bb1e122",
+    "generated_at": "2026-08-13T00:32:18.623151Z",
     "vector_ref": "embeddings.parquet#cb_e0f83d5305ed4544a95e72a97c8c424a"
   },
   "synthesis": {
@@ -512,9 +1570,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc2",
-  "card_schema_version": "0.3",
+  "dataset_version": "phase2b-2026-08-13-rc3",
+  "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.3.0-rc2",
-  "built_at": "2026-08-12T14:24:20.675968Z"
+  "generator_version": "0.4.0-rc3",
+  "built_at": "2026-08-13T00:32:15.698599Z"
 }

@@ -37,6 +37,12 @@
   "legal_name": "AUSTRALIAN RURAL YOUTH FOUNDATION INCORPORATED",
   "display_name": "AUSTRALIAN RURAL YOUTH FOUNDATION INCORPORATED",
   "entity_status": "registered",
+  "canonical_url": "https://gregorycwhill.github.io/CauseBase-Viewer/#cb_d0e0f5a5a57e40efb5b6b892f21e2f6a",
+  "acnc_profile_url": "https://www.acnc.gov.au/charity/charities/7773328b-f453-f011-bec2-00224893786f/profile",
+  "acnc_ais_url": null,
+  "operating_names": [],
+  "former_names": [],
+  "principal_location": null,
   "coverage": [
     {
       "capability": "regulatory",
@@ -79,6 +85,14 @@
       "evidence_ids": [],
       "observed_at": "2026-08-10",
       "freshness_note": null
+    },
+    {
+      "capability": "latest_acnc_ais",
+      "status": "not_available_from_source",
+      "source_record_id": null,
+      "evidence_ids": [],
+      "observed_at": "2026-08-13",
+      "freshness_note": "No submitted AIS appears in the 2026-08-13 public ACNC profile acquisition."
     }
   ],
   "enrichment_level": "enriched",
@@ -112,7 +126,9 @@
   "activities": [],
   "beneficiaries": [],
   "participation_modes": [],
+  "participation_observations": [],
   "opportunities": [],
+  "programs": [],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:8b2ce8ba-06a7-59cb-a1ea-aa45e3aa4c71",
@@ -132,6 +148,7 @@
         "ACNC registration ID": null,
         "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
+      "source_payload": null,
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
         "Legal Name": "legal_name",
@@ -191,8 +208,8 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "fcec1eb6b960ece94cf3487727eb5fb37b783a8404541bddb80f6efaff1d1ec9",
-    "generated_at": "2026-08-10T13:53:24.456379Z",
+    "source_text_hash": "e0ecc35acf760b25b859627baeb90f7a772c41c66ca01edbfa2823d16f7f75d2",
+    "generated_at": "2026-08-13T00:32:18.621691Z",
     "vector_ref": "embeddings.parquet#cb_d0e0f5a5a57e40efb5b6b892f21e2f6a"
   },
   "synthesis": {
@@ -263,9 +280,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc2",
-  "card_schema_version": "0.3",
+  "dataset_version": "phase2b-2026-08-13-rc3",
+  "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.3.0-rc2",
-  "built_at": "2026-08-12T14:24:20.675968Z"
+  "generator_version": "0.4.0-rc3",
+  "built_at": "2026-08-13T00:32:15.698599Z"
 }

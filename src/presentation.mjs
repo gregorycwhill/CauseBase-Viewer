@@ -29,5 +29,8 @@ export function fundingSourceLabel(sourceType) {
 }
 
 export function sourceRecordLocator(record) {
-  return `./public/data/source-records/${encodeURIComponent(record.source_record_id)}.json`;
+  // GitHub Pages decodes one URL-encoding layer before looking up a static
+  // file. Source-record files deliberately retain their encoded opaque IDs on
+  // Windows-safe filenames, so the URL must retain that layer after routing.
+  return `./public/data/source-records/${encodeURIComponent(encodeURIComponent(record.source_record_id))}.json`;
 }

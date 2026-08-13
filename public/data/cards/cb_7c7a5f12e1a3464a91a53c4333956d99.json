@@ -37,6 +37,12 @@
   "legal_name": "Institute of Public Works Engineering Australasia (NSW Division) Ltd",
   "display_name": "Institute of Public Works Engineering Australasia (NSW Division) Ltd",
   "entity_status": "registered",
+  "canonical_url": "https://gregorycwhill.github.io/CauseBase-Viewer/#cb_7c7a5f12e1a3464a91a53c4333956d99",
+  "acnc_profile_url": "https://www.acnc.gov.au/charity/charities/9e5f1656-3aaf-e811-a962-000d3ad24a0d/profile",
+  "acnc_ais_url": "https://www.acnc.gov.au/charity/charities/9e5f1656-3aaf-e811-a962-000d3ad24a0d/documents/1554dc4a-97df-f011-8544-7ced8d344e2d",
+  "operating_names": [],
+  "former_names": [],
+  "principal_location": "NSW, Australia",
   "coverage": [
     {
       "capability": "regulatory",
@@ -83,6 +89,16 @@
       ],
       "observed_at": "2026-08-10",
       "freshness_note": null
+    },
+    {
+      "capability": "latest_acnc_ais",
+      "status": "observed",
+      "source_record_id": null,
+      "evidence_ids": [
+        "ev:acnc:ais:35093562602:2025"
+      ],
+      "observed_at": "2025-12-23",
+      "freshness_note": "Latest submitted ACNC AIS in the 2026-08-13 public-profile acquisition: 2025."
     }
   ],
   "enrichment_level": "enriched",
@@ -142,7 +158,9 @@
     "enrol in accredited courses and short workshops",
     "access NSW Government subsidised courses (Smart and Skilled)"
   ],
+  "participation_observations": [],
   "opportunities": [],
+  "programs": [],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:d1a82638-d3f5-5d23-a0b4-237c2a63a8db",
@@ -162,6 +180,7 @@
         "ACNC registration ID": null,
         "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
+      "source_payload": null,
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
         "Legal Name": "legal_name",
@@ -191,12 +210,795 @@
         "Assets": null,
         "Liabilities": null
       },
+      "source_payload": null,
       "canonical_field_mappings": {
         "Revenue": "financial_records[].revenue",
         "Total expenses": "financial_records[].total_expenses"
       },
       "evidence_ids": [
         "ev:ais:35093562602:2023"
+      ]
+    },
+    {
+      "source_record_id": "src:acnc-public-profile:35093562602:cb_7c7a5f12e1a3464a91a53c4333956d99:2026-08-13",
+      "source_family": "acnc-public-profile",
+      "dataset_version": "2026-08-13-public-api",
+      "source_url": "https://www.acnc.gov.au/charity/charities/9e5f1656-3aaf-e811-a962-000d3ad24a0d/profile",
+      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "observed_at": "2025-12-23",
+      "effective_from": null,
+      "effective_to": null,
+      "source_fields": {
+        "uuid": "9e5f1656-3aaf-e811-a962-000d3ad24a0d",
+        "abn": "35093562602",
+        "latest_ais_year": "2025",
+        "latest_ais_uuid": "1554dc4a-97df-f011-8544-7ced8d344e2d"
+      },
+      "source_payload": {
+        "data": {
+          "AFSAddressPostalCode": "2000",
+          "AFSEmail": "nsw@ipweansw.org",
+          "Abn": "35093562602",
+          "AddressCountry": "Australia",
+          "AddressLine1": "Level 12",
+          "AddressLine2": "447 Kent St",
+          "AddressLine3": null,
+          "AddressPostalCode": "2000",
+          "AddressStateOrProvince": "NSW",
+          "AddressSuburb": "Sydney",
+          "AddressSuburbStatePostcode": "Sydney NSW 2000",
+          "AnnualReports": [
+            {
+              "AISId": "75407d04-ab8f-ed11-aad1-002248933dda",
+              "DateReceived": "2023-01-08T23:20:33.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2023-01-31T00:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2022",
+              "type": "Annual Information Statement 2022",
+              "uuid": "c1ddbcd6-d363-eb11-b0b0-000d3acbaeea"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2023-01-08T23:20:29.0000000Z",
+              "DocumentUuid": "66d676fe-aa8f-ed11-aad1-00224893b065",
+              "DueDate": "2023-01-31T00:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2022",
+              "type": "Financial Report 2022",
+              "uuid": "deddbcd6-d363-eb11-b0b0-000d3acbaeea"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2019-11-13T01:40:18.0000000Z",
+              "DocumentUuid": "0116d588-b605-ea11-a811-000d3ad1cf4f",
+              "DueDate": "2020-01-31T00:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2019",
+              "type": "Financial Report 2019",
+              "uuid": "c53465f1-f125-e911-a976-000d3ad05e15"
+            },
+            {
+              "AISId": "4444f18d-b605-ea11-a811-000d3ad1fbf8",
+              "DateReceived": "2019-11-12T13:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2020-01-31T00:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2019",
+              "type": "Annual Information Statement 2019",
+              "uuid": "ec3465f1-f125-e911-a976-000d3ad05e15"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2021-01-13T23:11:25.0000000Z",
+              "DocumentUuid": "9a0ca5a2-f455-eb11-a812-000d3a6b5fac",
+              "DueDate": "2021-01-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2020",
+              "type": "Financial Report 2020",
+              "uuid": "203565f1-f125-e911-a976-000d3ad05e15"
+            },
+            {
+              "AISId": "770fffa5-f455-eb11-bb24-000d3a6b0983",
+              "DateReceived": "2021-01-13T23:11:29.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2021-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2020",
+              "type": "Annual Information Statement 2020",
+              "uuid": "4f3565f1-f125-e911-a976-000d3ad05e15"
+            },
+            {
+              "AISId": "e5657e64-0ec5-ec11-a7b5-0022481240c1",
+              "DateReceived": "2022-04-26T03:10:24.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2022-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2021",
+              "type": "Annual Information Statement 2021",
+              "uuid": "34624ba6-8f44-ea11-a813-000d3ad1f9f4"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2022-04-26T03:10:19.0000000Z",
+              "DocumentUuid": "b9b6835e-0ec5-ec11-a7b5-0022481240c1",
+              "DueDate": "2022-01-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2021",
+              "type": "Financial Report 2021",
+              "uuid": "48624ba6-8f44-ea11-a813-000d3ad1f9f4"
+            },
+            {
+              "AISId": "79e0b99b-52c8-e811-a95f-000d3ad24c60",
+              "DateReceived": "2015-10-27T13:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2016-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2015",
+              "type": "Annual Information Statement 2015",
+              "uuid": "32ebc59f-52c8-e811-a964-000d3ad24077"
+            },
+            {
+              "AISId": "86e0b99b-52c8-e811-a95f-000d3ad24c60",
+              "DateReceived": "2016-10-31T13:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2017-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2016",
+              "type": "Annual Information Statement 2016",
+              "uuid": "38ebc59f-52c8-e811-a964-000d3ad24077"
+            },
+            {
+              "AISId": "90e0b99b-52c8-e811-a95f-000d3ad24c60",
+              "DateReceived": "2017-11-19T13:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2018-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2017",
+              "type": "Annual Information Statement 2017",
+              "uuid": "3eebc59f-52c8-e811-a964-000d3ad24077"
+            },
+            {
+              "AISId": "d5f5339d-cbe7-e811-a96b-000d3ad02a61",
+              "DateReceived": "2018-11-14T05:10:44.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2019-03-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2018",
+              "type": "Annual Information Statement 2018",
+              "uuid": "14ab5194-3bc8-e811-a962-000d3ad24182"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": true,
+              "Status": "Not required",
+              "Year": "2013",
+              "type": "Annual Information Statement 2013",
+              "uuid": "27ab5194-3bc8-e811-a962-000d3ad24182"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": true,
+              "Status": "Not required",
+              "Year": "2014",
+              "type": "Annual Information Statement 2014",
+              "uuid": "42ab5194-3bc8-e811-a962-000d3ad24182"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2017-11-19T13:00:00.0000000Z",
+              "DocumentUuid": "6b412a17-50b0-e811-a960-000d3ad24282",
+              "DueDate": "2018-01-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2017",
+              "type": "Financial Report 2017",
+              "uuid": "84e9fda5-40c8-e811-a961-000d3ad24282"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Not required",
+              "Year": "2014",
+              "type": "Financial Report 2014",
+              "uuid": "fda5f0a6-40c8-e811-a963-000d3ad24a0d"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2015-10-27T13:00:00.0000000Z",
+              "DocumentUuid": "ee5e0414-50b0-e811-a95e-000d3ad24c60",
+              "DueDate": "2016-01-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2015",
+              "type": "Financial Report 2015",
+              "uuid": "0da6f0a6-40c8-e811-a963-000d3ad24a0d"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Not required",
+              "Year": "2013",
+              "type": "Financial Report 2013",
+              "uuid": "1aa6f0a6-40c8-e811-a963-000d3ad24a0d"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2018-11-14T05:10:35.0000000Z",
+              "DocumentUuid": "52cc0c8e-cbe7-e811-a965-000d3ad244fd",
+              "DueDate": "2019-03-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2018",
+              "type": "Financial Report 2018",
+              "uuid": "25a6f0a6-40c8-e811-a963-000d3ad24a0d"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2016-10-31T13:00:00.0000000Z",
+              "DocumentUuid": "c75f0414-50b0-e811-a95e-000d3ad24c60",
+              "DueDate": "2017-01-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2016",
+              "type": "Financial Report 2016",
+              "uuid": "30a6f0a6-40c8-e811-a963-000d3ad24a0d"
+            },
+            {
+              "AISId": "1345d0d5-c394-ee11-be37-00224893bd39",
+              "DateReceived": "2023-12-07T05:45:36.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2024-01-31T00:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2023",
+              "type": "Annual Information Statement 2023",
+              "uuid": "43571096-a082-ec11-8d20-002248929301"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2023-12-07T05:45:20.0000000Z",
+              "DocumentUuid": "94f565c4-c394-ee11-be37-002248110683",
+              "DueDate": "2024-01-31T00:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2023",
+              "type": "Financial Report 2023",
+              "uuid": "67571096-a082-ec11-8d20-002248929301"
+            },
+            {
+              "AISId": "d106d6ba-a8d7-ef11-a730-00224898d3ed",
+              "DateReceived": "2025-01-21T03:35:24.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2025-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2024",
+              "type": "Annual Information Statement 2024",
+              "uuid": "c970f5a2-c8a1-ed11-aad1-00224893b0ed"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2025-01-21T03:35:18.0000000Z",
+              "DocumentUuid": "f68a9eb3-a8d7-ef11-a731-00224896a8b6",
+              "DueDate": "2025-01-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2024",
+              "type": "Financial Report 2024",
+              "uuid": "0e71f5a2-c8a1-ed11-aad1-00224893b0ed"
+            },
+            {
+              "AISId": "1554dc4a-97df-f011-8544-7ced8d344e2d",
+              "DateReceived": "2025-12-23T00:36:05.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2026-01-31T00:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2025",
+              "type": "Annual Information Statement 2025",
+              "uuid": "6f1c74ea-98c0-ee11-907a-00224893b8c7"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2025-12-23T00:35:42.0000000Z",
+              "DocumentUuid": "d4e1033d-97df-f011-8544-6045bde4e200",
+              "DueDate": "2026-01-31T00:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2025",
+              "type": "Financial Report 2025",
+              "uuid": "981c74ea-98c0-ee11-907a-00224893b8c7"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2026-12-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Not yet submitted",
+              "Year": "2026",
+              "type": "Annual Information Statement 2026",
+              "uuid": "b9f06cc1-d7df-ef11-a731-00224893f254"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2026-12-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Pending",
+              "Year": "2026",
+              "type": "Financial Report 2026",
+              "uuid": "ccf06cc1-d7df-ef11-a731-00224893f254"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2027-12-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Not yet submitted",
+              "Year": "2027",
+              "type": "Annual Information Statement 2027",
+              "uuid": "2b3ad67a-05ff-f011-8407-6045bdc4655a"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2027-12-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Pending",
+              "Year": "2027",
+              "type": "Financial Report 2027",
+              "uuid": "3b3ad67a-05ff-f011-8407-6045bdc4655a"
+            }
+          ],
+          "Beneficiaries": [
+            {
+              "Description": null,
+              "Name": "People in rural/regional/remote communities",
+              "uuid": "970de350-97df-f011-8544-7ced8d344e2d"
+            },
+            {
+              "Description": null,
+              "Name": "People from a culturally and linguistically diverse background",
+              "uuid": "9b0de350-97df-f011-8544-7ced8d344e2d"
+            },
+            {
+              "Description": null,
+              "Name": "Other",
+              "uuid": "a90de350-97df-f011-8544-7ced8d344e2d"
+            },
+            {
+              "Description": null,
+              "Name": "Males",
+              "uuid": "ac0de350-97df-f011-8544-7ced8d344e2d"
+            },
+            {
+              "Description": null,
+              "Name": "General community in Australia",
+              "uuid": "af0de350-97df-f011-8544-7ced8d344e2d"
+            },
+            {
+              "Description": null,
+              "Name": "Females",
+              "uuid": "b50de350-97df-f011-8544-7ced8d344e2d"
+            },
+            {
+              "Description": null,
+              "Name": "Families",
+              "uuid": "bb0de350-97df-f011-8544-7ced8d344e2d"
+            },
+            {
+              "Description": null,
+              "Name": "Adults - aged 65 and over",
+              "uuid": "c40de350-97df-f011-8544-7ced8d344e2d"
+            },
+            {
+              "Description": null,
+              "Name": "Adults - aged 25 to under 65",
+              "uuid": "c90de350-97df-f011-8544-7ced8d344e2d"
+            }
+          ],
+          "CharitySize": "Medium",
+          "CharitySubtypeHistory": [
+            {
+              "EndDate": null,
+              "Purpose": "Advancing public debate (promoting or opposing a change to any matter established by law, policy or practice in the Commonwealth, a state, territory or another country)",
+              "StartDate": "2015-07-22T14:00:00.0000000Z",
+              "uuid": "308e83bd-fec6-e811-a962-000d3ad24182"
+            },
+            {
+              "EndDate": null,
+              "Purpose": "Advancing the security or safety of Australia or the Australian public",
+              "StartDate": "2015-07-22T14:00:00.0000000Z",
+              "uuid": "418e83bd-fec6-e811-a962-000d3ad24182"
+            },
+            {
+              "EndDate": null,
+              "Purpose": "Advancing education",
+              "StartDate": "2015-07-22T14:00:00.0000000Z",
+              "uuid": "eba0d0bc-fec6-e811-a961-000d3ad24282"
+            },
+            {
+              "EndDate": null,
+              "Purpose": "Advancing the natural environment",
+              "StartDate": "2015-07-22T14:00:00.0000000Z",
+              "uuid": "23a1d0bc-fec6-e811-a961-000d3ad24282"
+            }
+          ],
+          "CharityVersion": "147",
+          "ChildMemberEndDate": null,
+          "ChildMemberStartDate": null,
+          "ChooseToProvideAis": null,
+          "Countries": [
+            {
+              "Name": "Australia",
+              "uuid": "f57b5602-9a4d-e811-a951-000d3ad06f2d"
+            }
+          ],
+          "DateEstablished": "2000-03-06T13:00:00.0000000Z",
+          "Documents": [
+            {
+              "Date": "2018-11-14T00:00:00.0000000",
+              "Title": "Constitution Adopted 8th Nov 2018.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/9e5f1656-3aaf-e811-a962-000d3ad24a0d-f714fd7e-73bd-4e5c-b985-45ace9976d74-Governing%20Document-c88aebf4-cce7-e811-a965-000d3ad24077-Constitution_Adopted_8th_Nov_2018.pdf",
+              "Year": null,
+              "type": "Governing Document",
+              "uuid": "c88aebf4-cce7-e811-a965-000d3ad24077"
+            },
+            {
+              "Date": "2019-11-13T00:00:00.0000000",
+              "Title": "Annual Report 2018 - 2019_web.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/9e5f1656-3aaf-e811-a962-000d3ad24a0d-f714fd7e-73bd-4e5c-b985-45ace9976d74-Annual%20Report-f115d588-b605-ea11-a811-000d3ad1cf4f-Annual_Report_2018_-_2019_web.pdf",
+              "Year": "2019",
+              "type": "Annual Report",
+              "uuid": "f115d588-b605-ea11-a811-000d3ad1cf4f"
+            },
+            {
+              "Date": "2017-12-06T00:00:00.0000000",
+              "Title": "2114  Annual Report  FINAL.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/9e5f1656-3aaf-e811-a962-000d3ad24a0d-f714fd7e-73bd-4e5c-b985-45ace9976d74-Annual%20Report-75412a17-50b0-e811-a960-000d3ad24282-2114__Annual_Report__FINAL.pdf",
+              "Year": "2017",
+              "type": "Annual Report",
+              "uuid": "75412a17-50b0-e811-a960-000d3ad24282"
+            },
+            {
+              "Date": "2018-11-14T00:00:00.0000000",
+              "Title": "Annual Report 2017 - 2018_fweb.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/9e5f1656-3aaf-e811-a962-000d3ad24a0d-f714fd7e-73bd-4e5c-b985-45ace9976d74-Annual%20Report-2ccc0c8e-cbe7-e811-a965-000d3ad244fd-Annual_Report_2017_-_2018_fweb.pdf",
+              "Year": "2018",
+              "type": "Annual Report",
+              "uuid": "2ccc0c8e-cbe7-e811-a965-000d3ad244fd"
+            },
+            {
+              "Date": "2021-01-14T00:00:00.0000000",
+              "Title": "2020 IPWEA NSW Statutory Financials - Signed.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/9e5f1656-3aaf-e811-a962-000d3ad24a0d-f714fd7e-73bd-4e5c-b985-45ace9976d74-Financial%20Report-9a0ca5a2-f455-eb11-a812-000d3a6b5fac-2020_IPWEA_NSW_Statutory_Financials_-_Signed.pdf",
+              "Year": "2020",
+              "type": "Financial Report",
+              "uuid": "9a0ca5a2-f455-eb11-a812-000d3a6b5fac"
+            },
+            {
+              "Date": "2019-11-13T00:00:00.0000000",
+              "Title": "2019 NSW Statutory Financials.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/9e5f1656-3aaf-e811-a962-000d3ad24a0d-f714fd7e-73bd-4e5c-b985-45ace9976d74-Financial%20Report-0116d588-b605-ea11-a811-000d3ad1cf4f-2019_NSW_Statutory_Financials.pdf",
+              "Year": "2019",
+              "type": "Financial Report",
+              "uuid": "0116d588-b605-ea11-a811-000d3ad1cf4f"
+            },
+            {
+              "Date": "2017-11-20T00:00:00.0000000",
+              "Title": "Signed Final Financial Report - 30 June 2017.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/9e5f1656-3aaf-e811-a962-000d3ad24a0d-f714fd7e-73bd-4e5c-b985-45ace9976d74-Financial%20Report-6b412a17-50b0-e811-a960-000d3ad24282-Signed_Final_Financial_Report_-_30_June_2017.pdf",
+              "Year": "2017",
+              "type": "Financial Report",
+              "uuid": "6b412a17-50b0-e811-a960-000d3ad24282"
+            },
+            {
+              "Date": "2018-11-14T00:00:00.0000000",
+              "Title": "2. 2018 NSW Statutory Financials.docx",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/9e5f1656-3aaf-e811-a962-000d3ad24a0d-f714fd7e-73bd-4e5c-b985-45ace9976d74-Financial%20Report-52cc0c8e-cbe7-e811-a965-000d3ad244fd-2._2018_NSW_Statutory_Financials.docx",
+              "Year": "2018",
+              "type": "Financial Report",
+              "uuid": "52cc0c8e-cbe7-e811-a965-000d3ad244fd"
+            },
+            {
+              "Date": "2015-10-28T00:00:00.0000000",
+              "Title": "2015 IPWEA (NSW) - Signed FINAL Audited Financial Report.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/9e5f1656-3aaf-e811-a962-000d3ad24a0d-f714fd7e-73bd-4e5c-b985-45ace9976d74-Financial%20Report-ee5e0414-50b0-e811-a95e-000d3ad24c60-2015_IPWEA_(NSW)_-_Signed_FINAL_Audited_Financial_Report.pdf",
+              "Year": "2015",
+              "type": "Financial Report",
+              "uuid": "ee5e0414-50b0-e811-a95e-000d3ad24c60"
+            },
+            {
+              "Date": "2016-11-01T00:00:00.0000000",
+              "Title": "FINAL Signed Audited fin accounts_FY2015-16.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/9e5f1656-3aaf-e811-a962-000d3ad24a0d-f714fd7e-73bd-4e5c-b985-45ace9976d74-Financial%20Report-c75f0414-50b0-e811-a95e-000d3ad24c60-FINAL_Signed_Audited_fin_accounts_FY2015-16.pdf",
+              "Year": "2016",
+              "type": "Financial Report",
+              "uuid": "c75f0414-50b0-e811-a95e-000d3ad24c60"
+            },
+            {
+              "Date": "2023-12-07T00:00:00.0000000",
+              "Title": "Signed 2023 Audited Financial Report - IPWEA (NSW Division) Limited - Signed by all 23.08.2023.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/9e5f1656-3aaf-e811-a962-000d3ad24a0d-f714fd7e-73bd-4e5c-b985-45ace9976d74-Financial%20Report-94f565c4-c394-ee11-be37-002248110683-Signed_2023_Audited_Financial_Report_-_IPWEA_(NSW_Division)_Limited_-_Signed_by_all_23.08.2023.pdf",
+              "Year": "2023",
+              "type": "Financial Report",
+              "uuid": "94f565c4-c394-ee11-be37-002248110683"
+            },
+            {
+              "Date": "2022-04-26T00:00:00.0000000",
+              "Title": "IPWEA - 2021 Audited Financial Report.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/9e5f1656-3aaf-e811-a962-000d3ad24a0d-f714fd7e-73bd-4e5c-b985-45ace9976d74-Financial%20Report-b9b6835e-0ec5-ec11-a7b5-0022481240c1-IPWEA_-_2021_Audited_Financial_Report.pdf",
+              "Year": "2021",
+              "type": "Financial Report",
+              "uuid": "b9b6835e-0ec5-ec11-a7b5-0022481240c1"
+            },
+            {
+              "Date": "2023-01-09T00:00:00.0000000",
+              "Title": "IPWEA - 2022 Audited Financial Report SIGNED by all.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/9e5f1656-3aaf-e811-a962-000d3ad24a0d-f714fd7e-73bd-4e5c-b985-45ace9976d74-Financial%20Report-66d676fe-aa8f-ed11-aad1-00224893b065-IPWEA_-_2022_Audited_Financial_Report_SIGNED_by_all.pdf",
+              "Year": "2022",
+              "type": "Financial Report",
+              "uuid": "66d676fe-aa8f-ed11-aad1-00224893b065"
+            },
+            {
+              "Date": "2025-01-21T00:00:00.0000000",
+              "Title": "Signed 2024 Audited Financial Report - IPWEA (NSW).pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/9e5f1656-3aaf-e811-a962-000d3ad24a0d-f714fd7e-73bd-4e5c-b985-45ace9976d74-Financial%20Report-f68a9eb3-a8d7-ef11-a731-00224896a8b6-Signed_2024_Audited_Financial_Report_-_IPWEA_(NSW).pdf",
+              "Year": "2024",
+              "type": "Financial Report",
+              "uuid": "f68a9eb3-a8d7-ef11-a731-00224896a8b6"
+            },
+            {
+              "Date": "2025-12-23T00:00:00.0000000",
+              "Title": "IPWEA - 2025 Audited Financial Report.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/9e5f1656-3aaf-e811-a962-000d3ad24a0d-f714fd7e-73bd-4e5c-b985-45ace9976d74-Financial%20Report-d4e1033d-97df-f011-8544-6045bde4e200-IPWEA_-_2025_Audited_Financial_Report.pdf",
+              "Year": "2025",
+              "type": "Financial Report",
+              "uuid": "d4e1033d-97df-f011-8544-6045bde4e200"
+            }
+          ],
+          "Email": "nsw@ipweansw.org",
+          "EnforcementOutcomes": [],
+          "FinancialYearEnd": "30/06",
+          "GovernmentAgencies": [
+            {
+              "Name": "Australian Securities and Investment Commission",
+              "ReferenceNumber": "093562602",
+              "uuid": "cc5d86bf-e6af-e811-a962-000d3ad24a0d"
+            }
+          ],
+          "GroupHeadFlag": false,
+          "LastReported": "2025-12-23T00:36:05.0000000Z",
+          "Name": "Institute of Public Works Engineering Australasia (NSW Division) Ltd",
+          "NextReportDue": "2026-12-31T12:30:00.0000000Z",
+          "OperatingInStates": [
+            {
+              "Name": "New South Wales",
+              "uuid": "2bf593a5-455e-e811-a95c-000d3ad1c715"
+            }
+          ],
+          "OtherDetails": null,
+          "OtherNames": [],
+          "ParentAccountAbn": null,
+          "ParentAccountId": null,
+          "Phone": "02 8267 3001",
+          "Programs": [
+            {
+              "AisUuid": "1554dc4a-97df-f011-8544-7ced8d344e2d",
+              "Name": "Road Safety Strategy Planning-Integrate into Local Government",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Adults - aged 25 to under 65",
+                "People in rural/regional/remote communities",
+                "People from a culturally and linguistically diverse background",
+                "Males",
+                "Females",
+                "General community in Australia",
+                "Other - Victims of disaster"
+              ],
+              "ProgramClassie": [
+                {
+                  "classie_id": "176",
+                  "label": "Continuing education",
+                  "parent_id": "171",
+                  "selected": true
+                },
+                {
+                  "classie_id": "171",
+                  "label": "Adult education",
+                  "parent_id": "170",
+                  "selected": false
+                },
+                {
+                  "classie_id": "170",
+                  "label": "Education",
+                  "parent_id": null,
+                  "selected": false
+                }
+              ],
+              "ProgramClassification": "Continuing education",
+              "ProgramClassificationID": "176",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Sydney NSW, Australia",
+                  "FormattedAddress": "Sydney NSW, Australia",
+                  "Marker": {
+                    "Latitude": -33.8688197,
+                    "Longitude": 151.2092955
+                  },
+                  "Name": "Sydney",
+                  "uuid": "6d0de350-97df-f011-8544-7ced8d344e2d"
+                }
+              ],
+              "ProgramWeblink": "www.ipweansw.org",
+              "uuid": "6454dc4a-97df-f011-8544-7ced8d344e2d"
+            },
+            {
+              "AisUuid": "1554dc4a-97df-f011-8544-7ced8d344e2d",
+              "Name": "Roads & Transport Directorate work",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Families",
+                "Adults - aged 65 and over",
+                "Adults - aged 25 to under 65"
+              ],
+              "ProgramClassie": [
+                {
+                  "classie_id": "734",
+                  "label": "Traffic safety",
+                  "parent_id": "729",
+                  "selected": true
+                },
+                {
+                  "classie_id": "729",
+                  "label": "Safety education",
+                  "parent_id": "665",
+                  "selected": false
+                },
+                {
+                  "classie_id": "665",
+                  "label": "Public safety",
+                  "parent_id": null,
+                  "selected": false
+                }
+              ],
+              "ProgramClassification": "Traffic safety",
+              "ProgramClassificationID": "734",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "New South Wales, Australia",
+                  "FormattedAddress": "New South Wales, Australia",
+                  "Marker": {
+                    "Latitude": -31.2532183,
+                    "Longitude": 146.921099
+                  },
+                  "Name": "New South Wales",
+                  "uuid": "7e0de350-97df-f011-8544-7ced8d344e2d"
+                }
+              ],
+              "ProgramWeblink": null,
+              "uuid": "700de350-97df-f011-8544-7ced8d344e2d"
+            }
+          ],
+          "ReferendumReturnsUrl": null,
+          "RegistrationStatusHistory": [
+            {
+              "EffectiveDate": "2015-07-22T14:00:00.0000000Z",
+              "Status": "Registered",
+              "TransactionDate": "2015-07-29T14:00:00.0000000Z",
+              "uuid": "431202fa-06c6-e811-a962-000d3ad24182"
+            }
+          ],
+          "RelatedPartyTransactions": null,
+          "RelevantTransactions": null,
+          "ReportingLate": "2027-06-30T12:30:00.0000000Z",
+          "ResponsiblePersons": [
+            {
+              "Name": "Grant Baker",
+              "Role": "Chairperson",
+              "uuid": "b04024a7-08bc-e811-a963-000d3ad24a0d"
+            },
+            {
+              "Name": "Megan Finnie",
+              "Role": "Director",
+              "uuid": "c7087957-5055-eb11-bb23-000d3ad1ce4e"
+            },
+            {
+              "Name": "Paul Gallagher",
+              "Role": "Director",
+              "uuid": "6c4224a7-08bc-e811-a963-000d3ad24a0d"
+            },
+            {
+              "Name": "William Barton",
+              "Role": "Director",
+              "uuid": "ef4224a7-08bc-e811-a963-000d3ad24a0d"
+            },
+            {
+              "Name": "Gary Woodman",
+              "Role": "Director",
+              "uuid": "f43f24a7-08bc-e811-a963-000d3ad24a0d"
+            },
+            {
+              "Name": "Peter Shields",
+              "Role": "Director",
+              "uuid": "d741bfac-08bc-e811-a964-000d3ad244fd"
+            },
+            {
+              "Name": "Timothy Mackney",
+              "Role": "Director",
+              "uuid": "c768d76b-d800-ed11-82e6-002248116a15"
+            },
+            {
+              "Name": "Parissa Ghanem",
+              "Role": "Director",
+              "uuid": "1fe4ccdc-da8c-ee11-be36-00224893bfad"
+            },
+            {
+              "Name": "Robert Scott",
+              "Role": "Director",
+              "uuid": "983c3b40-dc8c-ee11-be36-00224893bfad"
+            }
+          ],
+          "Status": "Registered",
+          "SummaryOfActivities": "We provided the lead advocacy on behalf of the community into the management , funding and future planning of community public infrastructure. We also facilitated training to all local governments in NSW on Road Safety Auditor skills and the need to consider public safety. Provided forums across the state and ACT to bring best practice and innovation to the sector for the benefit of the community",
+          "TotalExpensesEmployee": "1301494",
+          "TotalExpensesGrantsAndDonationsInAustralia": "0",
+          "TotalExpensesGrantsAndDonationsOutsideAustralia": "0",
+          "TotalExpensesInterest": "0",
+          "TotalExpensesOther": "1504950",
+          "TotalGrossIncomeDonationsAndRequests": "0",
+          "TotalGrossIncomeGoodsOrServices": "2529334",
+          "TotalGrossIncomeGovernmentGrants": "0",
+          "TotalGrossIncomeInvestments": "46245",
+          "TotalGrossIncomeOtherRevenues": "0",
+          "TransparencyRegisterUrl": null,
+          "Website": "www.ipweansw.org",
+          "__normalized": true,
+          "type": "charity",
+          "uuid": "9e5f1656-3aaf-e811-a962-000d3ad24a0d"
+        },
+        "type": "charity",
+        "uuid": "9e5f1656-3aaf-e811-a962-000d3ad24a0d"
+      },
+      "canonical_field_mappings": {
+        "data.Name": "display_name",
+        "data.OtherNames": "operating_names",
+        "data.AnnualReports": "acnc_ais_url",
+        "data.Programs": "programs"
+      },
+      "evidence_ids": [
+        "ev:acnc:ais:35093562602:2025"
       ]
     }
   ],
@@ -244,7 +1046,10 @@
         "source_precision": null
       },
       "assets": null,
-      "liabilities": null
+      "liabilities": null,
+      "income_breakdown": [],
+      "expense_breakdown": [],
+      "balance_sheet_breakdown": []
     }
   ],
   "financial_metrics": [
@@ -423,6 +1228,18 @@
       "page": null,
       "section": null,
       "content_hash": null
+    },
+    {
+      "evidence_id": "ev:acnc:ais:35093562602:2025",
+      "source_type": "regulatory",
+      "title": "Institute of Public Works Engineering Australasia (NSW Division) Ltd Annual Information Statement 2025",
+      "publisher": "Australian Charities and Not-for-profits Commission",
+      "url": "https://www.acnc.gov.au/charity/charities/9e5f1656-3aaf-e811-a962-000d3ad24a0d/documents/1554dc4a-97df-f011-8544-7ced8d344e2d",
+      "observed_at": "2025-12-23",
+      "reporting_period": null,
+      "page": null,
+      "section": null,
+      "content_hash": null
     }
   ],
   "embedding": {
@@ -431,8 +1248,8 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "9e086d358b189940806cdf564acb0f2701ce0d71f080cb7de130636f5e4ec7f6",
-    "generated_at": "2026-08-10T13:53:24.456735Z",
+    "source_text_hash": "a9d5d3526c9d9133c231926f22e63f4b99b4910cef7f2bf6d8583b5863d9fb0a",
+    "generated_at": "2026-08-13T00:32:18.622206Z",
     "vector_ref": "embeddings.parquet#cb_7c7a5f12e1a3464a91a53c4333956d99"
   },
   "synthesis": {
@@ -503,9 +1320,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc2",
-  "card_schema_version": "0.3",
+  "dataset_version": "phase2b-2026-08-13-rc3",
+  "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.3.0-rc2",
-  "built_at": "2026-08-12T14:24:20.675968Z"
+  "generator_version": "0.4.0-rc3",
+  "built_at": "2026-08-13T00:32:15.698599Z"
 }

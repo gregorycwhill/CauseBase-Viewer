@@ -2,7 +2,7 @@
 
 **CauseBase subject:** `cb_14e77d7e8f9c4fabb1c1011aacdacc99`
 **Subject kind:** unknown
-**Coverage:** `[{"capability": "regulatory", "evidence_ids": ["ev:acnc:58665094077"], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "observed"}, {"capability": "annual_report", "evidence_ids": [], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "not_yet_processed"}, {"capability": "website", "evidence_ids": ["ev:web:58665094077:2026-08-10"], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "observed"}, {"capability": "fundraising_expenditure", "evidence_ids": [], "freshness_note": "No direct or defensible derived fundraising expenditure was found in selected Phase 2A evidence.", "observed_at": "2026-08-10", "source_record_id": null, "status": "not_available_from_source"}, {"capability": "financials", "evidence_ids": ["ev:ais:58665094077:2023"], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "observed"}]`
+**Coverage:** `[{"capability": "regulatory", "evidence_ids": ["ev:acnc:58665094077"], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "observed"}, {"capability": "annual_report", "evidence_ids": [], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "not_yet_processed"}, {"capability": "website", "evidence_ids": ["ev:web:58665094077:2026-08-10"], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "observed"}, {"capability": "fundraising_expenditure", "evidence_ids": [], "freshness_note": "No direct or defensible derived fundraising expenditure was found in selected Phase 2A evidence.", "observed_at": "2026-08-10", "source_record_id": null, "status": "not_available_from_source"}, {"capability": "financials", "evidence_ids": ["ev:ais:58665094077:2023"], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "observed"}, {"capability": "latest_acnc_ais", "evidence_ids": ["ev:acnc:ais:58665094077:2025"], "freshness_note": "Latest submitted ACNC AIS in the 2026-08-13 public-profile acquisition: 2025.", "observed_at": "2025-12-31", "source_record_id": null, "status": "observed"}]`
 
 ## CauseBase summary
 
@@ -51,6 +51,8 @@ Avon Community Services (legal name Avon Youth Community And Family Services) is
 - ACNC Register extract — regulatory, observed 2026-08-10
 - Organisation website homepage — organisation_self_report, observed 2026-08-10 — https://www.avoncs.org.au/
 - ACNC AIS 2023 extract — regulatory, observed 2026-08-10
+- ABR DGR bulk observation — regulatory, observed 2026-08-05 — https://abr.business.gov.au/Tools/BulkExtract
+- Avon Youth Community And Family Services Annual Information Statement 2025 — regulatory, observed 2025-12-31 — https://www.acnc.gov.au/charity/charities/c81199a1-39af-e811-a960-000d3ad24282/documents/3fcdf847-fbe5-f011-8544-6045bde73a73
 
 ## Machine representation
 
@@ -61,7 +63,7 @@ Avon Community Services (legal name Avon Youth Community And Family Services) is
 
 ## Build
 
-- Dataset version: `phase2b-2026-08-12-rc2`
-- Card schema: `0.3`
+- Dataset version: `phase2b-2026-08-13-rc3`
+- Card schema: `0.4`
 - Editorial policy: `0.3-rc2`
-- Built: 2026-08-12T14:24:20.675968+00:00
+- Built: 2026-08-13T00:32:15.698599+00:00

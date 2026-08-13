@@ -409,6 +409,57 @@
       "title": "ExternalIdentifier",
       "type": "object"
     },
+    "FinancialLineItem": {
+      "description": "A selectively preserved report line, retaining its source label.",
+      "properties": {
+        "label": {
+          "title": "Label",
+          "type": "string"
+        },
+        "category": {
+          "enum": [
+            "income",
+            "expense",
+            "asset",
+            "liability",
+            "equity",
+            "cash_flow",
+            "other"
+          ],
+          "title": "Category",
+          "type": "string"
+        },
+        "amount": {
+          "$ref": "#/$defs/MoneyObservation"
+        },
+        "evidence_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Evidence Ids",
+          "type": "array"
+        },
+        "note": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Note"
+        }
+      },
+      "required": [
+        "label",
+        "category",
+        "amount"
+      ],
+      "title": "FinancialLineItem",
+      "type": "object"
+    },
     "FinancialMetricObservation": {
       "properties": {
         "financial_record_id": {
@@ -705,6 +756,27 @@
             }
           ],
           "default": null
+        },
+        "income_breakdown": {
+          "items": {
+            "$ref": "#/$defs/FinancialLineItem"
+          },
+          "title": "Income Breakdown",
+          "type": "array"
+        },
+        "expense_breakdown": {
+          "items": {
+            "$ref": "#/$defs/FinancialLineItem"
+          },
+          "title": "Expense Breakdown",
+          "type": "array"
+        },
+        "balance_sheet_breakdown": {
+          "items": {
+            "$ref": "#/$defs/FinancialLineItem"
+          },
+          "title": "Balance Sheet Breakdown",
+          "type": "array"
         }
       },
       "required": [
@@ -1315,6 +1387,168 @@
       "title": "Opportunity",
       "type": "object"
     },
+    "ParticipationObservation": {
+      "description": "A stable public participation path, distinct from a dated opportunity.",
+      "properties": {
+        "mode": {
+          "enum": [
+            "donate",
+            "regular_giving",
+            "bequest",
+            "membership",
+            "volunteer",
+            "employment",
+            "action",
+            "event",
+            "subscribe",
+            "resource",
+            "other"
+          ],
+          "title": "Mode",
+          "type": "string"
+        },
+        "label": {
+          "title": "Label",
+          "type": "string"
+        },
+        "source_url": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Source Url"
+        },
+        "status": {
+          "default": "unknown",
+          "enum": [
+            "current",
+            "historical",
+            "stale",
+            "unknown"
+          ],
+          "title": "Status",
+          "type": "string"
+        },
+        "observed_at": {
+          "anyOf": [
+            {
+              "format": "date",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Observed At"
+        },
+        "evidence_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Evidence Ids",
+          "type": "array"
+        }
+      },
+      "required": [
+        "mode",
+        "label"
+      ],
+      "title": "ParticipationObservation",
+      "type": "object"
+    },
+    "ProgramObservation": {
+      "description": "An evidence-bound program nested under an organisation unless separately governed.",
+      "properties": {
+        "program_id": {
+          "title": "Program Id",
+          "type": "string"
+        },
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "description": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Description"
+        },
+        "beneficiaries": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Beneficiaries",
+          "type": "array"
+        },
+        "geography": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Geography",
+          "type": "array"
+        },
+        "status": {
+          "default": "unknown",
+          "enum": [
+            "current",
+            "historical",
+            "stale",
+            "unknown"
+          ],
+          "title": "Status",
+          "type": "string"
+        },
+        "reporting_period": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Reporting Period"
+        },
+        "source_url": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Source Url"
+        },
+        "evidence_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Evidence Ids",
+          "type": "array"
+        }
+      },
+      "required": [
+        "program_id",
+        "name"
+      ],
+      "title": "ProgramObservation",
+      "type": "object"
+    },
     "Registration": {
       "properties": {
         "regulator": {
@@ -1452,6 +1686,19 @@
           },
           "title": "Source Fields",
           "type": "object"
+        },
+        "source_payload": {
+          "anyOf": [
+            {
+              "additionalProperties": true,
+              "type": "object"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Source Payload"
         },
         "canonical_field_mappings": {
           "additionalProperties": {
@@ -1900,6 +2147,68 @@
       "title": "Entity Status",
       "type": "string"
     },
+    "canonical_url": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Canonical Url"
+    },
+    "acnc_profile_url": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Acnc Profile Url"
+    },
+    "acnc_ais_url": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Acnc Ais Url"
+    },
+    "operating_names": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Operating Names",
+      "type": "array"
+    },
+    "former_names": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Former Names",
+      "type": "array"
+    },
+    "principal_location": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Principal Location"
+    },
     "coverage": {
       "items": {
         "$ref": "#/$defs/CoverageObservation"
@@ -1995,11 +2304,25 @@
       "title": "Participation Modes",
       "type": "array"
     },
+    "participation_observations": {
+      "items": {
+        "$ref": "#/$defs/ParticipationObservation"
+      },
+      "title": "Participation Observations",
+      "type": "array"
+    },
     "opportunities": {
       "items": {
         "$ref": "#/$defs/Opportunity"
       },
       "title": "Opportunities",
+      "type": "array"
+    },
+    "programs": {
+      "items": {
+        "$ref": "#/$defs/ProgramObservation"
+      },
+      "title": "Programs",
       "type": "array"
     },
     "source_native_records": {

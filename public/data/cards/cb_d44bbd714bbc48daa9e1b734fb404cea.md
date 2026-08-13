@@ -2,7 +2,7 @@
 
 **CauseBase subject:** `cb_d44bbd714bbc48daa9e1b734fb404cea`
 **Subject kind:** unknown
-**Coverage:** `[{"capability": "regulatory", "evidence_ids": ["ev:acnc:13103345213"], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "observed"}, {"capability": "annual_report", "evidence_ids": [], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "not_yet_processed"}, {"capability": "website", "evidence_ids": ["ev:web:13103345213:2026-08-10"], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "observed"}, {"capability": "fundraising_expenditure", "evidence_ids": [], "freshness_note": "No direct or defensible derived fundraising expenditure was found in selected Phase 2A evidence.", "observed_at": "2026-08-10", "source_record_id": null, "status": "not_available_from_source"}, {"capability": "financials", "evidence_ids": ["ev:ais:13103345213:2023"], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "observed"}]`
+**Coverage:** `[{"capability": "regulatory", "evidence_ids": ["ev:acnc:13103345213"], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "observed"}, {"capability": "annual_report", "evidence_ids": [], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "not_yet_processed"}, {"capability": "website", "evidence_ids": ["ev:web:13103345213:2026-08-10"], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "observed"}, {"capability": "fundraising_expenditure", "evidence_ids": [], "freshness_note": "No direct or defensible derived fundraising expenditure was found in selected Phase 2A evidence.", "observed_at": "2026-08-10", "source_record_id": null, "status": "not_available_from_source"}, {"capability": "financials", "evidence_ids": ["ev:ais:13103345213:2023"], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "observed"}, {"capability": "latest_acnc_ais", "evidence_ids": ["ev:acnc:ais:13103345213:2025"], "freshness_note": "Latest submitted ACNC AIS in the 2026-08-13 public-profile acquisition: 2025.", "observed_at": "2026-01-27", "source_record_id": null, "status": "observed"}]`
 
 ## CauseBase summary
 
@@ -51,6 +51,7 @@ The Russian Imperial Order of Saint Michael Archangel is a dynastic order that o
 - ACNC Register extract — regulatory, observed 2026-08-10
 - Organisation website homepage — organisation_self_report, observed 2026-08-10 — https://russianimperialorder.com
 - ACNC AIS 2023 extract — regulatory, observed 2026-08-10
+- The Russian Imperial Order of Saint Michael Archangel Annual Information Statement 2025 — regulatory, observed 2026-01-27 — https://www.acnc.gov.au/charity/charities/5e7cbb9d-39af-e811-a962-000d3ad24a0d/documents/0c391b90-d0fb-f011-8406-7ced8d33fdea
 
 ## Machine representation
 
@@ -61,7 +62,7 @@ The Russian Imperial Order of Saint Michael Archangel is a dynastic order that o
 
 ## Build
 
-- Dataset version: `phase2b-2026-08-12-rc2`
-- Card schema: `0.3`
+- Dataset version: `phase2b-2026-08-13-rc3`
+- Card schema: `0.4`
 - Editorial policy: `0.3-rc2`
-- Built: 2026-08-12T14:24:20.675968+00:00
+- Built: 2026-08-13T00:32:15.698599+00:00
