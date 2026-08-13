@@ -5,9 +5,10 @@ export function filterEntities(entities, query) { return entities.filter(entity 
 const causebase = entity => (entity.classifications ?? []).filter(x => x.taxonomy_id === "causebase");
 const dimension = (entity, name) => causebase(entity).filter(x => x.term_id.startsWith(`${name}.`)).map(x => x.term_id);
 export function facetValues(entities) {
-  const values = { geography: new Set(), cause: new Set(), beneficiary: new Set(), activity: new Set(), approach: new Set(), participation: new Set(), organisation: new Set(), acnc_classification: new Set(), funding: new Set(), dgr: new Set() };
+  const values = { geography: new Set(), causebase_geography: new Set(), cause: new Set(), beneficiary: new Set(), activity: new Set(), approach: new Set(), participation: new Set(), organisation: new Set(), acnc_classification: new Set(), funding: new Set(), dgr: new Set() };
   for (const e of entities) {
     for (const x of e.navigation_geography ?? []) values.geography.add(`${x.level}:${x.code}:${x.label}`);
+    for (const x of dimension(e, "geography")) values.causebase_geography.add(x);
     for (const group of ["cause", "beneficiary", "activity", "approach", "participation", "organisation"]) for (const x of dimension(e, group)) values[group].add(x);
     for (const x of e.classifications ?? []) if (x.taxonomy_id === "acnc-register") values.acnc_classification.add(x.term_id);
     for (const x of e.funding_sources ?? []) values.funding.add(x.source_type);
@@ -19,6 +20,7 @@ export function filterWithFacets(entities, query, facets = {}) { return filterEn
   if (!wanted?.length) return true;
   let candidates = [];
   if (group === "geography") candidates = (e.navigation_geography ?? []).map(x => `${x.level}:${x.code}:${x.label}`);
+  else if (group === "causebase_geography") candidates = dimension(e, "geography");
   else if (["cause", "beneficiary", "activity", "approach", "participation", "organisation"].includes(group)) candidates = dimension(e, group);
   else if (group === "acnc_classification") candidates = (e.classifications ?? []).filter(x => x.taxonomy_id === "acnc-register").map(x => x.term_id);
   else if (group === "funding") candidates = (e.funding_sources ?? []).map(x => x.source_type);

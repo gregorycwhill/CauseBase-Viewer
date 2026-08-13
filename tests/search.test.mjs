@@ -60,10 +60,12 @@ test("supports every rendered CauseBase dimension and separate ACNC chips", () =
   const rich = { ...entities[0], classifications: [
     { taxonomy_id: "causebase", term_id: "approach.advocacy", term_label: "Advocacy" },
     { taxonomy_id: "causebase", term_id: "organisation.incorporated_association", term_label: "Incorporated association" },
+    { taxonomy_id: "causebase", term_id: "geography.australia", term_label: "Australia" },
     { taxonomy_id: "acnc-register", term_id: "acnc.environment", term_label: "Environment" },
   ] };
   assert.deepEqual(facetValues([rich]).approach, ["approach.advocacy"]);
   assert.deepEqual(facetValues([rich]).organisation, ["organisation.incorporated_association"]);
+  assert.equal(filterWithFacets([rich, entities[1]], "", { causebase_geography: ["geography.australia"] }).length, 1);
   assert.equal(filterWithFacets([rich, entities[1]], "", { approach: ["approach.advocacy"] }).length, 1);
   assert.equal(filterWithFacets([rich, entities[1]], "", { acnc_classification: ["acnc.environment"] }).length, 1);
 });
