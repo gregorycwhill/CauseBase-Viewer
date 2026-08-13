@@ -3,8 +3,8 @@ import { resolve } from "node:path";
 import { execFileSync } from "node:child_process";
 
 const root = resolve(import.meta.dirname, "..");
-const output = resolve(root, "dist");
-const data = resolve(root, "public", "data");
+const output = resolve(process.env.CAUSEBASE_OUTPUT_DIR ?? resolve(root, "dist"));
+const data = resolve(process.env.CAUSEBASE_DATA_DIR ?? resolve(root, "public", "data"));
 const required = [
   "causebase.json", "causebase.jsonl", "causebase.csv", "causebase.parquet",
   "embeddings.json", "embeddings.parquet", "similarities.json", "similarities.parquet",
@@ -28,6 +28,12 @@ for (const file of ["index.html", "styles.css", "correction.html", "commitments.
 }
 await cp(resolve(root, "src"), resolve(output, "src"), { recursive: true });
 await cp(resolve(root, "public"), resolve(output, "public"), { recursive: true });
+// A local human-review bundle may deliberately point at a staged candidate.
+// Replace only its data subtree after copying the Viewer shell/assets.
+if (data !== resolve(root, "public", "data")) {
+  await rm(resolve(output, "public", "data"), { recursive: true, force: true });
+  await cp(data, resolve(output, "public", "data"), { recursive: true });
+}
 const viewerCommit = process.env.GITHUB_SHA ?? execFileSync("git", ["rev-parse", "HEAD"], { cwd: root, encoding: "utf8" }).trim();
 await writeFile(resolve(output, "deployment.json"), JSON.stringify({
   deployment_type: "CauseBase human-test",
