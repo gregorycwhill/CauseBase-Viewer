@@ -33,8 +33,36 @@ export function functionalAllocationDisplay(allocation) {
   return {
     share: allocation?.direct_observation ? `${share} (direct reported)` : share,
     derivedAmount: allocation?.derived_amount
-      ? `${allocation?.derived_amount_approximate ? "Approx. " : ""}${formatMoney(allocation.derived_amount.normalised_amount, allocation.derived_amount.normalised_currency)}`
+      ? allocation?.derived_amount_approximate
+        ? `Approx. ${compactMoney(allocation.derived_amount.normalised_amount, allocation.derived_amount.normalised_currency)}`
+        : formatMoney(allocation.derived_amount.normalised_amount, allocation.derived_amount.normalised_currency)
       : "",
+  };
+}
+
+export function compactMoney(amount, currency = "AUD") {
+  if (amount == null) return "Not available";
+  return new Intl.NumberFormat("en-AU", {
+    style: "currency", currency, notation: "compact", maximumFractionDigits: 0,
+  }).format(amount).replace("K", "k");
+}
+
+export function validActionUrl(value, viewerOrigin = "https://gregorycwhill.github.io/CauseBase-Viewer/") {
+  try {
+    const url = new URL(value);
+    if (!/^https?:$/.test(url.protocol) || !url.hostname) return null;
+    const viewer = new URL(viewerOrigin);
+    if (url.origin === viewer.origin && url.pathname.startsWith(viewer.pathname)) return null;
+    return url.href;
+  } catch {
+    return null;
+  }
+}
+
+export function revenueShareDisplay(share) {
+  return {
+    amount: formatMoney(share?.numerator_amount?.normalised_amount, share?.numerator_amount?.normalised_currency),
+    percentage: `${(Number(share?.result ?? 0) * 100).toFixed(1)}% of ${share?.denominator_label ?? "total income"}`,
   };
 }
 

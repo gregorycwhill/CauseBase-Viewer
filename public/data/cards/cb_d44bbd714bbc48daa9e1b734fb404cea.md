@@ -20,8 +20,8 @@ The Russian Imperial Order of Saint Michael Archangel is a dynastic order that o
 
 ## Participation
 
-- Membership sign-up (Join now, per website)
-- Public investiture services / ceremonies (moleben text on website)
+- Membership sign-up
+- Public investiture services and ceremonies
 
 ## Financials
 
@@ -62,7 +62,7 @@ The Russian Imperial Order of Saint Michael Archangel is a dynastic order that o
 
 ## Build
 
-- Dataset version: `phase2b-2026-08-14-rc4-integration-repair-final`
+- Dataset version: `phase2b-2026-08-14-rc4-final-viewer-editorial-integration`
 - Card schema: `0.4`
 - Editorial policy: `0.4-rc4`
-- Built: 2026-08-13T12:20:41.979776+00:00
+- Built: 2026-08-13T13:15:13.611756+00:00
