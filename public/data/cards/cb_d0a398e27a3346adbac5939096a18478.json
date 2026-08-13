@@ -160,7 +160,32 @@
   ],
   "participation_observations": [],
   "opportunities": [],
-  "programs": [],
+  "programs": [
+    {
+      "program_id": "prg:acnc:87158627386:bd083e18-edff-f011-8406-6045bde4dfec",
+      "name": "Indigenous Governance",
+      "description": "Self-determination",
+      "beneficiaries": [
+        "Aboriginal and Torres Strait Islander people"
+      ],
+      "geography": [
+        "Australian Capital Territory, Australia",
+        "New South Wales, Australia",
+        "Northern Territory, Australia",
+        "Queensland, Australia",
+        "South Australia, Australia",
+        "Tasmania, Australia",
+        "Victoria, Australia",
+        "Western Australia, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "https://www.aigi.org.au",
+      "evidence_ids": [
+        "ev:acnc:ais:87158627386:2025"
+      ]
+    }
+  ],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:7cc39a85-4aed-50fe-8f8d-d93a630397f3",
@@ -224,7 +249,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-13-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/af4778db-39af-e811-a95e-000d3ad24c60/profile",
-      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "retrieved_at": "2026-08-13T05:50:58.991012Z",
       "observed_at": "2026-01-27",
       "effective_from": null,
       "effective_to": null,
@@ -1296,7 +1321,7 @@
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
     "source_text_hash": "d0cbc5dccd5d7423ee8b6d7ec75d4d4e4a4ea8a331afe5544aa72fb86117ccc1",
-    "generated_at": "2026-08-13T00:32:18.622170Z",
+    "generated_at": "2026-08-13T05:51:03.015705Z",
     "vector_ref": "embeddings.parquet#cb_d0a398e27a3346adbac5939096a18478"
   },
   "synthesis": {
@@ -1371,5 +1396,5 @@
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
   "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T00:32:15.698599Z"
+  "built_at": "2026-08-13T05:50:58.991012Z"
 }

@@ -142,7 +142,31 @@
   "participation_modes": [],
   "participation_observations": [],
   "opportunities": [],
-  "programs": [],
+  "programs": [
+    {
+      "program_id": "prg:acnc:16636320874:22cea09a-3ff0-f011-8406-7ced8db173e1",
+      "name": "Geelong Childrens Centre",
+      "description": "Early childhood education",
+      "beneficiaries": [
+        "Early childhood - aged under 6",
+        "Aboriginal and Torres Strait Islander people",
+        "People from a culturally and linguistically diverse background",
+        "Financially disadvantaged people",
+        "People with disabilities",
+        "Victims of crime (including family violence)",
+        "General community in Australia"
+      ],
+      "geography": [
+        "21A Lomond Terrace, Thomson VIC, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "https://www.acnc.gov.au/charity/charities/e58414c6-38af-e811-a961-000d3ad24182/documents/05eba594-3ff0-f011-8406-7ced8db173e1",
+      "evidence_ids": [
+        "ev:acnc:ais:16636320874:2025"
+      ]
+    }
+  ],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:2618b214-920d-5cfc-b945-30f776810279",
@@ -206,7 +230,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-13-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/e58414c6-38af-e811-a961-000d3ad24182/profile",
-      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "retrieved_at": "2026-08-13T05:50:58.991012Z",
       "observed_at": "2026-01-13",
       "effective_from": null,
       "effective_to": null,
@@ -1112,7 +1136,7 @@
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
     "source_text_hash": "c31a23e231ba6c5c09127e56f5de1bd5f291efd3c0414433c592395eae4bc4c9",
-    "generated_at": "2026-08-13T00:32:18.621607Z",
+    "generated_at": "2026-08-13T05:51:03.015153Z",
     "vector_ref": "embeddings.parquet#cb_e26f2d8882614c9cbcf906a11734c7e1"
   },
   "synthesis": {
@@ -1187,5 +1211,5 @@
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
   "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T00:32:15.698599Z"
+  "built_at": "2026-08-13T05:50:58.991012Z"
 }

@@ -152,7 +152,33 @@
   ],
   "participation_observations": [],
   "opportunities": [],
-  "programs": [],
+  "programs": [
+    {
+      "program_id": "prg:acnc:54001276599:a1eabc57-71b8-f011-bbd3-6045bde67d52",
+      "name": "Residential Aged Care",
+      "description": "Palliative care",
+      "beneficiaries": [
+        "Adults - aged 65 and over",
+        "Males",
+        "Females",
+        "Veterans and/or their families",
+        "People with disabilities",
+        "People with chronic illness (including terminal illness)",
+        "Financially disadvantaged people",
+        "General community in Australia"
+      ],
+      "geography": [
+        "Greater Sydney Area, NSW, Australia",
+        "Newcastle NSW, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "www.cbcs.com.au",
+      "evidence_ids": [
+        "ev:acnc:ais:54001276599:2025"
+      ]
+    }
+  ],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:fcc4d425-4ae4-54c4-893e-14f6328689e0",
@@ -216,7 +242,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-13-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/319e2dd7-2daf-e811-a960-000d3ad24282/profile",
-      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "retrieved_at": "2026-08-13T05:50:58.991012Z",
       "observed_at": "2025-11-03",
       "effective_from": null,
       "effective_to": null,
@@ -1182,7 +1208,7 @@
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
     "source_text_hash": "8afc3a3996678fe22977aa91215565dc21a99b0ae63fd702f0e50f188eb5b51c",
-    "generated_at": "2026-08-13T00:32:18.621956Z",
+    "generated_at": "2026-08-13T05:51:03.015496Z",
     "vector_ref": "embeddings.parquet#cb_ad96c6cc41e54daf8fd0a0aa3afde6b3"
   },
   "synthesis": {
@@ -1257,5 +1283,5 @@
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
   "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T00:32:15.698599Z"
+  "built_at": "2026-08-13T05:50:58.991012Z"
 }

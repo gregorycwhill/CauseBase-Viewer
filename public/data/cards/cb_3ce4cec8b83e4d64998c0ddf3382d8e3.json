@@ -142,7 +142,27 @@
   "participation_modes": [],
   "participation_observations": [],
   "opportunities": [],
-  "programs": [],
+  "programs": [
+    {
+      "program_id": "prg:acnc:31520352647:7f53de89-a4fd-f011-8406-7ced8db1969d",
+      "name": "Management of Charitable Asset",
+      "description": "Unknown or not classified",
+      "beneficiaries": [
+        "People in rural/regional/remote communities",
+        "Aboriginal and Torres Strait Islander people",
+        "Financially disadvantaged people"
+      ],
+      "geography": [
+        "Alice Springs NT, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "https://www.acnc.gov.au/charity/charities/5981bb9d-39af-e811-a962-000d3ad24a0d/documents/3d53de89-a4fd-f011-8406-7ced8db1969d",
+      "evidence_ids": [
+        "ev:acnc:ais:31520352647:2025"
+      ]
+    }
+  ],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:0421a68f-d878-5b32-bac9-8a42037dc940",
@@ -206,7 +226,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-13-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/5981bb9d-39af-e811-a962-000d3ad24a0d/profile",
-      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "retrieved_at": "2026-08-13T05:50:58.991012Z",
       "observed_at": "2026-01-30",
       "effective_from": null,
       "effective_to": null,
@@ -1020,7 +1040,7 @@
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
     "source_text_hash": "e148e842fbb2ab330bea547846b7bdb9ab7132132c3490f0cd445d439c82c430",
-    "generated_at": "2026-08-13T00:32:18.620434Z",
+    "generated_at": "2026-08-13T05:51:03.014013Z",
     "vector_ref": "embeddings.parquet#cb_3ce4cec8b83e4d64998c0ddf3382d8e3"
   },
   "synthesis": {
@@ -1095,5 +1115,5 @@
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
   "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T00:32:15.698599Z"
+  "built_at": "2026-08-13T05:50:58.991012Z"
 }

@@ -165,7 +165,42 @@
   ],
   "participation_observations": [],
   "opportunities": [],
-  "programs": [],
+  "programs": [
+    {
+      "program_id": "prg:acnc:51419209376:61f0a241-816f-f111-ab0c-00224894cb3a",
+      "name": "Fountain",
+      "description": "Education support",
+      "beneficiaries": [
+        "Other - The College Students/residents/community"
+      ],
+      "geography": [
+        "887 Swanston Street, Parkville VIC, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "https://newman.unimelb.edu.au/",
+      "evidence_ids": [
+        "ev:acnc:ais:51419209376:2025"
+      ]
+    },
+    {
+      "program_id": "prg:acnc:51419209376:6af0a241-816f-f111-ab0c-00224894cb3a",
+      "name": "Installation of energy savings heating systems",
+      "description": "Environmental economic instruments",
+      "beneficiaries": [
+        "Environment"
+      ],
+      "geography": [
+        "887 Swanston Street, Parkville VIC, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "https://newman.unimelb.edu.au/",
+      "evidence_ids": [
+        "ev:acnc:ais:51419209376:2025"
+      ]
+    }
+  ],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:f17150da-e2bf-5af8-879c-b106dbe3f087",
@@ -229,7 +264,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-13-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/c51e8ddf-38af-e811-a963-000d3ad24077/profile",
-      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "retrieved_at": "2026-08-13T05:50:58.991012Z",
       "observed_at": "2026-06-24",
       "effective_from": null,
       "effective_to": null,
@@ -1190,7 +1225,7 @@
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
     "source_text_hash": "468c9a76d7a1431c9cfc47c95d19dd3620ffedd0efe5d0e3625456267e1f32ee",
-    "generated_at": "2026-08-13T00:32:18.622926Z",
+    "generated_at": "2026-08-13T05:51:03.017442Z",
     "vector_ref": "embeddings.parquet#cb_3bbf4f13d74a432ab0ca1eb74741adae"
   },
   "synthesis": {
@@ -1265,5 +1300,5 @@
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
   "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T00:32:15.698599Z"
+  "built_at": "2026-08-13T05:50:58.991012Z"
 }

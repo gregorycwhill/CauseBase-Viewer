@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "test": "node --test tests/*.test.mjs",
-    "prepare-pages": "node scripts/prepare-pages.mjs"
+    "prepare-pages": "node scripts/prepare-pages.mjs",
+    "check-source-links": "node scripts/check-source-native-links.mjs"
   }
 }

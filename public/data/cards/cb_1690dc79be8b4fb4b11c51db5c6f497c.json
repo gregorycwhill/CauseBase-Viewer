@@ -159,7 +159,29 @@
   ],
   "participation_observations": [],
   "opportunities": [],
-  "programs": [],
+  "programs": [
+    {
+      "program_id": "prg:acnc:16734386980:c4540d55-aff2-f011-8407-7ced8d34ef5a",
+      "name": "Green Card Training",
+      "description": "Environmental education",
+      "beneficiaries": [
+        "Aboriginal and Torres Strait Islander people",
+        "People in rural/regional/remote communities",
+        "Environment",
+        "Other charities",
+        "General community in Australia"
+      ],
+      "geography": [
+        "Western Australia, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "https://www.acnc.gov.au/charity/charities/0355329a-3aaf-e811-a963-000d3ad24077/documents/1c540d55-aff2-f011-8407-7ced8d34ef5a",
+      "evidence_ids": [
+        "ev:acnc:ais:16734386980:2025"
+      ]
+    }
+  ],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:e9a28170-b5c9-51a8-be70-01268d6e7569",
@@ -223,7 +245,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-13-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/0355329a-3aaf-e811-a963-000d3ad24077/profile",
-      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "retrieved_at": "2026-08-13T05:50:58.991012Z",
       "observed_at": "2026-01-16",
       "effective_from": null,
       "effective_to": null,
@@ -1136,7 +1158,7 @@
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
     "source_text_hash": "fd79c9983fef8924889d859d87d02b9a39ac2c21f79a37c725a1cdbde62d69d1",
-    "generated_at": "2026-08-13T00:32:18.622882Z",
+    "generated_at": "2026-08-13T05:51:03.017393Z",
     "vector_ref": "embeddings.parquet#cb_1690dc79be8b4fb4b11c51db5c6f497c"
   },
   "synthesis": {
@@ -1211,5 +1233,5 @@
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
   "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T00:32:15.698599Z"
+  "built_at": "2026-08-13T05:50:58.991012Z"
 }

@@ -132,7 +132,28 @@
   "participation_modes": [],
   "participation_observations": [],
   "opportunities": [],
-  "programs": [],
+  "programs": [
+    {
+      "program_id": "prg:acnc:20151472221:a2919566-74d9-f011-8544-6045bde61b96",
+      "name": "Labour Hire and Employment Services",
+      "description": "Employment",
+      "beneficiaries": [
+        "People with disabilities"
+      ],
+      "geography": [
+        "Sunshine Coast QLD, Australia",
+        "Bundaberg QLD, Australia",
+        "Hobart TAS, Australia",
+        "Northern Territory, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "https://www.acnc.gov.au/charity/charities/734a2bdd-2daf-e811-a960-000d3ad24282/documents/57919566-74d9-f011-8544-6045bde61b96",
+      "evidence_ids": [
+        "ev:acnc:ais:20151472221:2025"
+      ]
+    }
+  ],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:234e2f90-74f8-5177-8dcb-ea17c66a463c",
@@ -196,7 +217,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-13-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/734a2bdd-2daf-e811-a960-000d3ad24282/profile",
-      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "retrieved_at": "2026-08-13T05:50:58.991012Z",
       "observed_at": "2025-12-15",
       "effective_from": null,
       "effective_to": null,
@@ -1034,7 +1055,7 @@
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
     "source_text_hash": "7fc1b177eb3f2824eac66d1d7e749e3c6a81692ff33110424a5be9c33b3b372e",
-    "generated_at": "2026-08-13T00:32:18.623092Z",
+    "generated_at": "2026-08-13T05:51:03.017631Z",
     "vector_ref": "embeddings.parquet#cb_7e95b7d2c01d4908bec99f30b02c119e"
   },
   "synthesis": {
@@ -1109,5 +1130,5 @@
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
   "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T00:32:15.698599Z"
+  "built_at": "2026-08-13T05:50:58.991012Z"
 }

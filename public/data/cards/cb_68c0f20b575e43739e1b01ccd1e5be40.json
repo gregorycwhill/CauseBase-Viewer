@@ -158,7 +158,47 @@
   ],
   "participation_observations": [],
   "opportunities": [],
-  "programs": [],
+  "programs": [
+    {
+      "program_id": "prg:acnc:58675000129:e1b839a6-bdf5-f011-8406-00224812a1a7",
+      "name": "Urgent Housing",
+      "description": "Shelter and residential care",
+      "beneficiaries": [
+        "Families",
+        "People from a culturally and linguistically diverse background",
+        "People at risk of homelessness/ people experiencing homelessness",
+        "People with disabilities",
+        "Pre/post release offenders and/or their families",
+        "Victims of crime (including family violence)"
+      ],
+      "geography": [
+        "Western Australia, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "https://www.safelivingaustralia.org/",
+      "evidence_ids": [
+        "ev:acnc:ais:58675000129:2025"
+      ]
+    },
+    {
+      "program_id": "prg:acnc:58675000129:402932ac-bdf5-f011-8406-00224812a1a7",
+      "name": "Disability Support Services",
+      "description": "Family disability resources",
+      "beneficiaries": [
+        "People with disabilities"
+      ],
+      "geography": [
+        "Western Australia, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "https://www.safelivingaustralia.org/ndis-emergency-housing",
+      "evidence_ids": [
+        "ev:acnc:ais:58675000129:2025"
+      ]
+    }
+  ],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:b3868c4d-f032-5757-9d96-547ba229f4a1",
@@ -193,7 +233,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-13-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/95ab870e-6fea-ee11-a1fd-000d3ad135ea/profile",
-      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "retrieved_at": "2026-08-13T05:50:58.991012Z",
       "observed_at": "2026-01-20",
       "effective_from": null,
       "effective_to": null,
@@ -706,7 +746,7 @@
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
     "source_text_hash": "140de7561526775a7117d76d4d15c7c2ebb53689caa6d939d0bebf1b17a209c6",
-    "generated_at": "2026-08-13T00:32:18.624878Z",
+    "generated_at": "2026-08-13T05:51:03.019140Z",
     "vector_ref": "embeddings.parquet#cb_68c0f20b575e43739e1b01ccd1e5be40"
   },
   "synthesis": {
@@ -781,5 +821,5 @@
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
   "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T00:32:15.698599Z"
+  "built_at": "2026-08-13T05:50:58.991012Z"
 }

@@ -191,7 +191,36 @@
   ],
   "participation_observations": [],
   "opportunities": [],
-  "programs": [],
+  "programs": [
+    {
+      "program_id": "prg:acnc:45127505739:2da60a4c-e74f-f111-bec7-6045bdc47a8f",
+      "name": "Accommodation provider for cancer patients",
+      "description": "Temporary accommodation",
+      "beneficiaries": [
+        "Early childhood - aged under 6",
+        "Children - aged 6 to under 15",
+        "Youth - 15 to under 25",
+        "Adults - aged 25 to under 65",
+        "Adults - aged 65 and over",
+        "Families",
+        "People in rural/regional/remote communities",
+        "People with chronic illness (including terminal illness)",
+        "Females",
+        "Males",
+        "Other gender identities"
+      ],
+      "geography": [
+        "Melbourne VIC, Australia",
+        "Albury Wodonga, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "https://www.acnc.gov.au/charity/charities/a12b0678-38af-e811-a963-000d3ad244fd/documents/a2a50a4c-e74f-f111-bec7-6045bdc47a8f",
+      "evidence_ids": [
+        "ev:acnc:ais:45127505739:2025"
+      ]
+    }
+  ],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:0b8ef043-ce0c-554f-8953-1173f00acc4d",
@@ -255,7 +284,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-13-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/a12b0678-38af-e811-a963-000d3ad244fd/profile",
-      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "retrieved_at": "2026-08-13T05:50:58.991012Z",
       "observed_at": "2026-05-14",
       "effective_from": null,
       "effective_to": null,
@@ -1238,7 +1267,7 @@
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
     "source_text_hash": "5ac195973bb81cfed3c67c1800e95c2c90313c320bbe8f13280c1b3b9a1e9674",
-    "generated_at": "2026-08-13T00:32:18.622363Z",
+    "generated_at": "2026-08-13T05:51:03.015872Z",
     "vector_ref": "embeddings.parquet#cb_6c39def4ef1843d7bf41f579cb971060"
   },
   "synthesis": {
@@ -1313,5 +1342,5 @@
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
   "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T00:32:15.698599Z"
+  "built_at": "2026-08-13T05:50:58.991012Z"
 }

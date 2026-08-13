@@ -139,7 +139,25 @@
   "participation_modes": [],
   "participation_observations": [],
   "opportunities": [],
-  "programs": [],
+  "programs": [
+    {
+      "program_id": "prg:acnc:32588253381:f9e30541-b3c9-f011-bbd3-6045bde73edb",
+      "name": "Men's Support",
+      "description": "Support groups",
+      "beneficiaries": [
+        "People in rural/regional/remote communities"
+      ],
+      "geography": [
+        "1 Winnaleah Road, Winnaleah Tasmania 7265, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "https://www.acnc.gov.au/charity/charities/34a380bc-73cd-ef11-a72f-000d3a6b41c8/documents/b5e30541-b3c9-f011-bbd3-6045bde73edb",
+      "evidence_ids": [
+        "ev:acnc:ais:32588253381:2025"
+      ]
+    }
+  ],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:a9a66e74-93f7-5e7b-9510-5629f29f8bf3",
@@ -174,7 +192,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-13-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/34a380bc-73cd-ef11-a72f-000d3a6b41c8/profile",
-      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "retrieved_at": "2026-08-13T05:50:58.991012Z",
       "observed_at": "2025-11-25",
       "effective_from": null,
       "effective_to": null,
@@ -528,7 +546,7 @@
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
     "source_text_hash": "a0e059c0a6ecf606e7fe022ab8a3bd55296d2955a8ae4b6599814f166a111074",
-    "generated_at": "2026-08-13T00:32:18.623185Z",
+    "generated_at": "2026-08-13T05:51:03.017728Z",
     "vector_ref": "embeddings.parquet#cb_2669573b14e34eafa671c4d2bdcdedcd"
   },
   "synthesis": {
@@ -603,5 +621,5 @@
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
   "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T00:32:15.698599Z"
+  "built_at": "2026-08-13T05:50:58.991012Z"
 }

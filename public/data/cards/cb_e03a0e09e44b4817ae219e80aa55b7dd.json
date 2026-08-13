@@ -146,7 +146,42 @@
   ],
   "participation_observations": [],
   "opportunities": [],
-  "programs": [],
+  "programs": [
+    {
+      "program_id": "prg:acnc:50060192008:f889b4cf-42fd-f011-8406-6045bdc47b11",
+      "name": "Lucy Saw Centre - collection point in WA.",
+      "description": "Shelter and residential care",
+      "beneficiaries": [
+        "Victims of crime (including family violence)"
+      ],
+      "geography": [
+        "Rockingham WA, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "https://www.acnc.gov.au/charity/charities/a6af377e-38af-e811-a963-000d3ad244fd/documents/dd89b4cf-42fd-f011-8406-6045bdc47b11",
+      "evidence_ids": [
+        "ev:acnc:ais:50060192008:2025"
+      ]
+    },
+    {
+      "program_id": "prg:acnc:50060192008:008ab4cf-42fd-f011-8406-6045bdc47b11",
+      "name": "Animal Protection Society",
+      "description": "Animal welfare",
+      "beneficiaries": [
+        "Animals"
+      ],
+      "geography": [
+        "27 Talbot Road, Southern River WA, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "apswa.asn.au",
+      "evidence_ids": [
+        "ev:acnc:ais:50060192008:2025"
+      ]
+    }
+  ],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:1c75b0ba-a337-541d-bd66-b36d8d35fe84",
@@ -210,7 +245,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-13-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/a6af377e-38af-e811-a963-000d3ad244fd/profile",
-      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "retrieved_at": "2026-08-13T05:50:58.991012Z",
       "observed_at": "2026-01-29",
       "effective_from": null,
       "effective_to": null,
@@ -1063,7 +1098,7 @@
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
     "source_text_hash": "89caefbf6af5c436080d3b3c64a99d91d47a86ceb857a86fbd36ea01e695b853",
-    "generated_at": "2026-08-13T00:32:18.622430Z",
+    "generated_at": "2026-08-13T05:51:03.015936Z",
     "vector_ref": "embeddings.parquet#cb_e03a0e09e44b4817ae219e80aa55b7dd"
   },
   "synthesis": {
@@ -1138,5 +1173,5 @@
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
   "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T00:32:15.698599Z"
+  "built_at": "2026-08-13T05:50:58.991012Z"
 }

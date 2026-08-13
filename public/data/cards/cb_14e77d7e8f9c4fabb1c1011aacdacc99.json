@@ -159,7 +159,56 @@
   ],
   "participation_observations": [],
   "opportunities": [],
-  "programs": [],
+  "programs": [
+    {
+      "program_id": "prg:acnc:58665094077:c3cdf847-fbe5-f011-8544-6045bde73a73",
+      "name": "Strengthening Aboriginal Health & Youth at Risk",
+      "description": "Youth development",
+      "beneficiaries": [
+        "Youth - 15 to under 25",
+        "People in rural/regional/remote communities",
+        "Aboriginal and Torres Strait Islander people",
+        "Males",
+        "Females",
+        "Unemployed persons",
+        "People at risk of homelessness/ people experiencing homelessness"
+      ],
+      "geography": [
+        "Northam WA, Australia",
+        "Merredin WA, Australia",
+        "Moora WA, Australia",
+        "Narrogin WA, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "www.avoncs.org.au",
+      "evidence_ids": [
+        "ev:acnc:ais:58665094077:2025"
+      ]
+    },
+    {
+      "program_id": "prg:acnc:58665094077:ffcdf847-fbe5-f011-8544-6045bde73a73",
+      "name": "NAHA Homelessness Program",
+      "description": "Homeless refuges",
+      "beneficiaries": [
+        "Youth - 15 to under 25",
+        "Aboriginal and Torres Strait Islander people",
+        "People in rural/regional/remote communities",
+        "Financially disadvantaged people",
+        "People at risk of homelessness/ people experiencing homelessness",
+        "Unemployed persons"
+      ],
+      "geography": [
+        "Northam WA, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "www.avoncs.org.au",
+      "evidence_ids": [
+        "ev:acnc:ais:58665094077:2025"
+      ]
+    }
+  ],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:94b6824d-7973-5bf6-babf-ceac301df539",
@@ -223,7 +272,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-13-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/c81199a1-39af-e811-a960-000d3ad24282/profile",
-      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "retrieved_at": "2026-08-13T05:50:58.991012Z",
       "observed_at": "2025-12-31",
       "effective_from": null,
       "effective_to": null,
@@ -1223,7 +1272,7 @@
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
     "source_text_hash": "92b674d3eb433a504eb0cd0aeb308f072c39c72d37d969be3216dbf00d53f334",
-    "generated_at": "2026-08-13T00:32:18.624990Z",
+    "generated_at": "2026-08-13T05:51:03.019232Z",
     "vector_ref": "embeddings.parquet#cb_14e77d7e8f9c4fabb1c1011aacdacc99"
   },
   "synthesis": {
@@ -1298,5 +1347,5 @@
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
   "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T00:32:15.698599Z"
+  "built_at": "2026-08-13T05:50:58.991012Z"
 }

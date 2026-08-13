@@ -144,7 +144,32 @@
   "participation_modes": [],
   "participation_observations": [],
   "opportunities": [],
-  "programs": [],
+  "programs": [
+    {
+      "program_id": "prg:acnc:24654346693:a659da35-5058-ef11-bfe3-002248107d0b",
+      "name": "Brother to Another",
+      "description": "Youth mentoring",
+      "beneficiaries": [
+        "Children - aged 6 to under 15",
+        "Youth - 15 to under 25",
+        "Families",
+        "Aboriginal and Torres Strait Islander people",
+        "People at risk of homelessness/ people experiencing homelessness",
+        "People with disabilities",
+        "Pre/post release offenders and/or their families",
+        "Victims of crime (including family violence)"
+      ],
+      "geography": [
+        "Darwin NT, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2023",
+      "source_url": "https://www.acnc.gov.au/charity/charities/a7336f17-4d90-ec11-8d20-002248923e71/documents/9528d62f-5058-ef11-bfe3-002248107d0b",
+      "evidence_ids": [
+        "ev:acnc:ais:24654346693:2023"
+      ]
+    }
+  ],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:b9cfd4ce-caf6-5bbe-810e-11c0327ad390",
@@ -208,7 +233,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-13-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/a7336f17-4d90-ec11-8d20-002248923e71/profile",
-      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "retrieved_at": "2026-08-13T05:50:58.991012Z",
       "observed_at": "2024-08-12",
       "effective_from": null,
       "effective_to": null,
@@ -811,7 +836,7 @@
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
     "source_text_hash": "44089ca09a341f9ffa5f5a661a282f57e6015d231cf324af57128fea5811c6aa",
-    "generated_at": "2026-08-13T00:32:18.621634Z",
+    "generated_at": "2026-08-13T05:51:03.015179Z",
     "vector_ref": "embeddings.parquet#cb_14a282ecac4e4ba1a241ceac202aaf5f"
   },
   "synthesis": {
@@ -886,5 +911,5 @@
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
   "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T00:32:15.698599Z"
+  "built_at": "2026-08-13T05:50:58.991012Z"
 }

@@ -135,7 +135,25 @@
   "participation_modes": [],
   "participation_observations": [],
   "opportunities": [],
-  "programs": [],
+  "programs": [
+    {
+      "program_id": "prg:acnc:36661209143:527b8f31-75b7-f011-bbd3-6045bde67d52",
+      "name": "Ariah Park Annual Agricultural Show",
+      "description": "Agricultural shows",
+      "beneficiaries": [
+        "People in rural/regional/remote communities"
+      ],
+      "geography": [
+        "Ariah Park NSW, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "https://www.acnc.gov.au/charity/charities/f4fc8357-39af-e811-a960-000d3ad24282/documents/397b8f31-75b7-f011-bbd3-6045bde67d52",
+      "evidence_ids": [
+        "ev:acnc:ais:36661209143:2025"
+      ]
+    }
+  ],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:8242805d-0b59-5bec-aa7d-78b544133dbd",
@@ -199,7 +217,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-13-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/f4fc8357-39af-e811-a960-000d3ad24282/profile",
-      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "retrieved_at": "2026-08-13T05:50:58.991012Z",
       "observed_at": "2025-11-01",
       "effective_from": null,
       "effective_to": null,
@@ -1019,7 +1037,7 @@
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
     "source_text_hash": "a1d79cadd248be0af65b417fb2f43c4f2b2b7ed182541b916567392b6e46b267",
-    "generated_at": "2026-08-13T00:32:18.623047Z",
+    "generated_at": "2026-08-13T05:51:03.017574Z",
     "vector_ref": "embeddings.parquet#cb_59f17ed26a2647a688571b530e39e400"
   },
   "synthesis": {
@@ -1094,5 +1112,5 @@
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
   "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T00:32:15.698599Z"
+  "built_at": "2026-08-13T05:50:58.991012Z"
 }

@@ -157,7 +157,28 @@
   ],
   "participation_observations": [],
   "opportunities": [],
-  "programs": [],
+  "programs": [
+    {
+      "program_id": "prg:acnc:19135897255:0b9fd811-d8c4-f011-bbd3-7ced8da2a128",
+      "name": "Early Intervention",
+      "description": "Autism spectrum disorder",
+      "beneficiaries": [
+        "Families",
+        "Early childhood - aged under 6"
+      ],
+      "geography": [
+        "Queensland, Australia",
+        "South Australia, Australia",
+        "Garran ACT, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "https://www.acnc.gov.au/charity/charities/1db7a898-39af-e811-a963-000d3ad24077/documents/bf9ed811-d8c4-f011-bbd3-7ced8da2a128",
+      "evidence_ids": [
+        "ev:acnc:ais:19135897255:2025"
+      ]
+    }
+  ],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:5f1d66a3-e608-5a92-ac14-c2e727eed8c3",
@@ -221,7 +242,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-13-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/1db7a898-39af-e811-a963-000d3ad24077/profile",
-      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "retrieved_at": "2026-08-13T05:50:58.991012Z",
       "observed_at": "2025-11-18",
       "effective_from": null,
       "effective_to": null,
@@ -1250,7 +1271,7 @@
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
     "source_text_hash": "fce18526894effa63d34c1368c3be2303bbee8f9ccfeb2842ee1e8be9cd2d655",
-    "generated_at": "2026-08-13T00:32:18.624805Z",
+    "generated_at": "2026-08-13T05:51:03.019072Z",
     "vector_ref": "embeddings.parquet#cb_df0f3eeee8874d31998efb3005f8676d"
   },
   "synthesis": {
@@ -1325,5 +1346,5 @@
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
   "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T00:32:15.698599Z"
+  "built_at": "2026-08-13T05:50:58.991012Z"
 }

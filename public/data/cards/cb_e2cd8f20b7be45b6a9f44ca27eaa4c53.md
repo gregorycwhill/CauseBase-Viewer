@@ -61,4 +61,4 @@ Ananda Marga Pracaraka Samgha Ltd Preschool is a registered charity that operate
 - Dataset version: `phase2b-2026-08-13-rc3`
 - Card schema: `0.4`
 - Editorial policy: `0.3-rc2`
-- Built: 2026-08-13T00:32:15.698599+00:00
+- Built: 2026-08-13T05:50:58.991012+00:00

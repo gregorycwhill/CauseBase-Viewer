@@ -136,7 +136,25 @@
   "participation_modes": [],
   "participation_observations": [],
   "opportunities": [],
-  "programs": [],
+  "programs": [
+    {
+      "program_id": "prg:acnc:40920336423:eb65ea3e-305b-f111-bec7-6045bde5b710",
+      "name": "Stepping Stones Child Development Centre",
+      "description": "Child care",
+      "beneficiaries": [
+        "Early childhood - aged under 6"
+      ],
+      "geography": [
+        "6 Fortescue Street, East Fremantle WA, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "http://www.steppingstonescdc.com.au",
+      "evidence_ids": [
+        "ev:acnc:ais:40920336423:2025"
+      ]
+    }
+  ],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:e6c38ca1-9954-5b59-ad4d-479395814029",
@@ -200,7 +218,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-13-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/c99bc2b2-3aaf-e811-a961-000d3ad24182/profile",
-      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "retrieved_at": "2026-08-13T05:50:58.991012Z",
       "observed_at": "2026-05-29",
       "effective_from": null,
       "effective_to": null,
@@ -1035,7 +1053,7 @@
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
     "source_text_hash": "1fa63d5c5cc6d39fdd4731238891330e2d5fcd802755abfb1ad10847b7496cd1",
-    "generated_at": "2026-08-13T00:32:18.622754Z",
+    "generated_at": "2026-08-13T05:51:03.016138Z",
     "vector_ref": "embeddings.parquet#cb_702846f4dd1d418db5fbc98d68647cf9"
   },
   "synthesis": {
@@ -1110,5 +1128,5 @@
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
   "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T00:32:15.698599Z"
+  "built_at": "2026-08-13T05:50:58.991012Z"
 }

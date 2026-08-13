@@ -170,7 +170,25 @@
   ],
   "participation_observations": [],
   "opportunities": [],
-  "programs": [],
+  "programs": [
+    {
+      "program_id": "prg:acnc:12086262816:352cab13-8fa1-f011-bbd2-7c1e528a8d67",
+      "name": "Church Services",
+      "description": "Christianity",
+      "beneficiaries": [
+        "Families"
+      ],
+      "geography": [
+        "6 Avior Avenue, Jandakot WA, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "https://www.acnc.gov.au/charity/charities/90181751-39af-e811-a963-000d3ad244fd/documents/072cab13-8fa1-f011-bbd2-7c1e528a8d67",
+      "evidence_ids": [
+        "ev:acnc:ais:12086262816:2025"
+      ]
+    }
+  ],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:ce2b0c8b-654b-50a3-909e-cb20b5ad73bf",
@@ -234,7 +252,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-13-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/90181751-39af-e811-a963-000d3ad244fd/profile",
-      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "retrieved_at": "2026-08-13T05:50:58.991012Z",
       "observed_at": "2025-10-05",
       "effective_from": null,
       "effective_to": null,
@@ -1139,7 +1157,7 @@
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
     "source_text_hash": "7f7a0fa5bc2ef6c8437135ac5faec35db31bbe83b8b76e91594bd7f160ce90d4",
-    "generated_at": "2026-08-13T00:32:18.624845Z",
+    "generated_at": "2026-08-13T05:51:03.019111Z",
     "vector_ref": "embeddings.parquet#cb_25f9e189a09a47e0aea65cf98437dc31"
   },
   "synthesis": {
@@ -1214,5 +1232,5 @@
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
   "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T00:32:15.698599Z"
+  "built_at": "2026-08-13T05:50:58.991012Z"
 }

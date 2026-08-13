@@ -145,7 +145,63 @@
   "participation_modes": [],
   "participation_observations": [],
   "opportunities": [],
-  "programs": [],
+  "programs": [
+    {
+      "program_id": "prg:acnc:19242782512:cd95ba00-8ffd-f011-8406-7ced8d33fe37",
+      "name": "Affordable Homes program",
+      "description": "Housing development",
+      "beneficiaries": [
+        "Financially disadvantaged people",
+        "People at risk of homelessness/ people experiencing homelessness"
+      ],
+      "geography": [
+        "South Australia, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "https://www.acnc.gov.au/charity/charities/e76dc096-39af-e811-a962-000d3ad24a0d/documents/b595ba00-8ffd-f011-8406-7ced8d33fe37",
+      "evidence_ids": [
+        "ev:acnc:ais:19242782512:2025"
+      ]
+    },
+    {
+      "program_id": "prg:acnc:19242782512:d995ba00-8ffd-f011-8406-7ced8d33fe37",
+      "name": "ReStore",
+      "description": "Opportunity shops",
+      "beneficiaries": [
+        "People in rural/regional/remote communities",
+        "Financially disadvantaged people",
+        "People at risk of homelessness/ people experiencing homelessness",
+        "Victims of disaster"
+      ],
+      "geography": [
+        "Alberton SA, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "https://www.acnc.gov.au/charity/charities/e76dc096-39af-e811-a962-000d3ad24a0d/documents/b595ba00-8ffd-f011-8406-7ced8d33fe37",
+      "evidence_ids": [
+        "ev:acnc:ais:19242782512:2025"
+      ]
+    },
+    {
+      "program_id": "prg:acnc:19242782512:e395ba00-8ffd-f011-8406-7ced8d33fe37",
+      "name": "Brush With Kindness",
+      "description": "In-home aid and personal assistance",
+      "beneficiaries": [
+        "Families"
+      ],
+      "geography": [
+        "Adelaide Hills, SA, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "https://www.acnc.gov.au/charity/charities/e76dc096-39af-e811-a962-000d3ad24a0d/documents/b595ba00-8ffd-f011-8406-7ced8d33fe37",
+      "evidence_ids": [
+        "ev:acnc:ais:19242782512:2025"
+      ]
+    }
+  ],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:f4fce9d2-5369-53c6-b56e-34fc33cc8b10",
@@ -209,7 +265,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-13-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/e76dc096-39af-e811-a962-000d3ad24a0d/profile",
-      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "retrieved_at": "2026-08-13T05:50:58.991012Z",
       "observed_at": "2026-01-30",
       "effective_from": null,
       "effective_to": null,
@@ -1194,7 +1250,7 @@
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
     "source_text_hash": "65c7a334b7ef2551b3658f9eeaa09250c3fa8b703d8d04b793e1150044dc2a92",
-    "generated_at": "2026-08-13T00:32:18.622456Z",
+    "generated_at": "2026-08-13T05:51:03.015963Z",
     "vector_ref": "embeddings.parquet#cb_0f4825a00e9a462d950b16089f1845d5"
   },
   "synthesis": {
@@ -1269,5 +1325,5 @@
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
   "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T00:32:15.698599Z"
+  "built_at": "2026-08-13T05:50:58.991012Z"
 }

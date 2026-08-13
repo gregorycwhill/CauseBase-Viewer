@@ -131,7 +131,54 @@
   "participation_modes": [],
   "participation_observations": [],
   "opportunities": [],
-  "programs": [],
+  "programs": [
+    {
+      "program_id": "prg:acnc:34669915333:0e55eb37-da86-f011-b4cc-0022481296ec",
+      "name": "Advocating for the socially disadvantaged",
+      "description": "Family services",
+      "beneficiaries": [
+        "Families",
+        "Adults - aged 65 and over",
+        "People at risk of homelessness/ people experiencing homelessness",
+        "Financially disadvantaged people",
+        "General community in Australia"
+      ],
+      "geography": [
+        "Sunshine Coast QLD, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "https://www.acnc.gov.au/charity/charities/39803d36-482b-ee11-bdf4-002248122b18/documents/eb54eb37-da86-f011-b4cc-0022481296ec",
+      "evidence_ids": [
+        "ev:acnc:ais:34669915333:2025"
+      ]
+    },
+    {
+      "program_id": "prg:acnc:34669915333:4155eb37-da86-f011-b4cc-0022481296ec",
+      "name": "Religious",
+      "description": "Christianity",
+      "beneficiaries": [
+        "Adults - aged 25 to under 65",
+        "Adults - aged 65 and over",
+        "Families",
+        "Financially disadvantaged people",
+        "People at risk of homelessness/ people experiencing homelessness",
+        "People with disabilities",
+        "Victims of crime (including family violence)",
+        "Females",
+        "Males"
+      ],
+      "geography": [
+        "Sunshine Coast QLD, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "https://www.acnc.gov.au/charity/charities/39803d36-482b-ee11-bdf4-002248122b18/documents/eb54eb37-da86-f011-b4cc-0022481296ec",
+      "evidence_ids": [
+        "ev:acnc:ais:34669915333:2025"
+      ]
+    }
+  ],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:2cca74b4-16a0-5e4b-a3f7-d1cd874f6660",
@@ -166,7 +213,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-13-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/39803d36-482b-ee11-bdf4-002248122b18/profile",
-      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "retrieved_at": "2026-08-13T05:50:58.991012Z",
       "observed_at": "2025-09-01",
       "effective_from": null,
       "effective_to": null,
@@ -623,7 +670,7 @@
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
     "source_text_hash": "69c7ec8c0969bf3202d747969fa2b689328f2cd74d3fb913feff83061e7b130f",
-    "generated_at": "2026-08-13T00:32:18.621482Z",
+    "generated_at": "2026-08-13T05:51:03.015020Z",
     "vector_ref": "embeddings.parquet#cb_d760af0d10734d6db5f4c29f5c75227d"
   },
   "synthesis": {
@@ -698,5 +745,5 @@
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
   "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T00:32:15.698599Z"
+  "built_at": "2026-08-13T05:50:58.991012Z"
 }

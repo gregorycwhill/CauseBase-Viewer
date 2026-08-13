@@ -163,6 +163,10 @@ ul { padding-left: 20px; }
 }
 .facts dt { color: #666; font-size: .82rem; }
 .facts dd { margin: 3px 0 0; font-weight: 700; }
+.identity-facts { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px 16px; margin: 16px 0; }
+.identity-facts div { display: grid; grid-template-columns: 11rem minmax(0, 1fr); gap: 8px; padding: 7px 0; border-bottom: 1px solid #ecece8; }
+.identity-facts dt { color: #666; font-size: .86rem; }
+.identity-facts dd { margin: 0; font-weight: 600; }
 .estimate-note {
   background: #f1f1ee;
   border-radius: 6px;
@@ -210,7 +214,7 @@ footer {
   .layout { display: block; height: auto; overflow: visible; }
   .index-pane { border-right: 0; border-bottom: 1px solid #d9d9d5; }
   .results, .card-pane { overflow: visible; height: auto; }
-  .columns, .facts { grid-template-columns: 1fr; }
+  .columns, .facts, .identity-facts { grid-template-columns: 1fr; }
   .site-header span { display: none; }
   .test-marker { display: none; }
   .card-header { display: block; }

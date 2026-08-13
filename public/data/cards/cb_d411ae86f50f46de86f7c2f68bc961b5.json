@@ -163,7 +163,25 @@
   ],
   "participation_observations": [],
   "opportunities": [],
-  "programs": [],
+  "programs": [
+    {
+      "program_id": "prg:acnc:40821754363:784b68af-cf98-f011-b41c-002248115348",
+      "name": "Digital Recording Studio",
+      "description": "Arts and culture",
+      "beneficiaries": [
+        "People in rural/regional/remote communities"
+      ],
+      "geography": [
+        "40 Mabel Street, Atherton QLD, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2024",
+      "source_url": "http://www.artsnexus.com.au/",
+      "evidence_ids": [
+        "ev:acnc:ais:40821754363:2024"
+      ]
+    }
+  ],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:a25ddc41-b0da-5730-97c9-bff1106cac37",
@@ -227,7 +245,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-13-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/8d7cb78b-3aaf-e811-a95e-000d3ad24c60/profile",
-      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "retrieved_at": "2026-08-13T05:50:58.991012Z",
       "observed_at": "2025-09-23",
       "effective_from": null,
       "effective_to": null,
@@ -1073,7 +1091,7 @@
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
     "source_text_hash": "255bdad64d09f4b6f7160e5577956efa573a3f2e97b55c0b7e1570e942142470",
-    "generated_at": "2026-08-13T00:32:18.624730Z",
+    "generated_at": "2026-08-13T05:51:03.018934Z",
     "vector_ref": "embeddings.parquet#cb_d411ae86f50f46de86f7c2f68bc961b5"
   },
   "synthesis": {
@@ -1148,5 +1166,5 @@
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
   "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T00:32:15.698599Z"
+  "built_at": "2026-08-13T05:50:58.991012Z"
 }

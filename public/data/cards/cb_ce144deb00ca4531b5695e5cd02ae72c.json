@@ -133,7 +133,25 @@
   "participation_modes": [],
   "participation_observations": [],
   "opportunities": [],
-  "programs": [],
+  "programs": [
+    {
+      "program_id": "prg:acnc:29041947678:9c496e06-0707-f111-8406-6045bde5be38",
+      "name": "Cooperative Housing",
+      "description": "Housing development",
+      "beneficiaries": [
+        "General community in Australia"
+      ],
+      "geography": [
+        "Victoria, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "https://www.acnc.gov.au/charity/charities/a74e1e89-3aaf-e811-a962-000d3ad24a0d/documents/e1477300-0707-f111-8406-6045bde5be38",
+      "evidence_ids": [
+        "ev:acnc:ais:29041947678:2025"
+      ]
+    }
+  ],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:bdc889e4-bae6-54ba-b527-cbad388de502",
@@ -197,7 +215,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-13-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/a74e1e89-3aaf-e811-a962-000d3ad24a0d/profile",
-      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "retrieved_at": "2026-08-13T05:50:58.991012Z",
       "observed_at": "2026-01-29",
       "effective_from": null,
       "effective_to": null,
@@ -898,7 +916,7 @@
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
     "source_text_hash": "6c2ee7e9b90a2575d5114f2b5f5934974011e4eeb4b0ccb9dd985803f32045a8",
-    "generated_at": "2026-08-13T00:32:18.623114Z",
+    "generated_at": "2026-08-13T05:51:03.017655Z",
     "vector_ref": "embeddings.parquet#cb_ce144deb00ca4531b5695e5cd02ae72c"
   },
   "synthesis": {
@@ -973,5 +991,5 @@
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
   "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T00:32:15.698599Z"
+  "built_at": "2026-08-13T05:50:58.991012Z"
 }

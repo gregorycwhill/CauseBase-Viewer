@@ -161,7 +161,25 @@
   ],
   "participation_observations": [],
   "opportunities": [],
-  "programs": [],
+  "programs": [
+    {
+      "program_id": "prg:acnc:41461770404:baf2e5b6-8588-f011-b4cc-000d3a6aeb52",
+      "name": "Aged Care Services",
+      "description": "Nursing homes",
+      "beneficiaries": [
+        "Adults - aged 65 and over"
+      ],
+      "geography": [
+        "Deloraine TAS, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "https://www.acnc.gov.au/charity/charities/5e3a7a14-39af-e811-a961-000d3ad24182/documents/f1f1e5b6-8588-f011-b4cc-000d3a6aeb52",
+      "evidence_ids": [
+        "ev:acnc:ais:41461770404:2025"
+      ]
+    }
+  ],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:029e1097-789f-57a1-9dbf-79e65d424f85",
@@ -225,7 +243,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-13-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/5e3a7a14-39af-e811-a961-000d3ad24182/profile",
-      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "retrieved_at": "2026-08-13T05:50:58.991012Z",
       "observed_at": "2025-09-03",
       "effective_from": null,
       "effective_to": null,
@@ -1174,7 +1192,7 @@
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
     "source_text_hash": "223655bcd5788a9ce3a63478696077bde5380acb9ef646bb1ae3260aec1943b4",
-    "generated_at": "2026-08-13T00:32:18.624958Z",
+    "generated_at": "2026-08-13T05:51:03.019205Z",
     "vector_ref": "embeddings.parquet#cb_ef8cfa1cd3c940db8a4710197388e578"
   },
   "synthesis": {
@@ -1249,5 +1267,5 @@
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
   "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T00:32:15.698599Z"
+  "built_at": "2026-08-13T05:50:58.991012Z"
 }

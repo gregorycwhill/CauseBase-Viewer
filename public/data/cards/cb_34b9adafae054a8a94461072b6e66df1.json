@@ -142,7 +142,26 @@
   "participation_modes": [],
   "participation_observations": [],
   "opportunities": [],
-  "programs": [],
+  "programs": [
+    {
+      "program_id": "prg:acnc:76000005210:c9836831-c8db-f011-8544-7ced8d3448aa",
+      "name": "Religious activities",
+      "description": "Catholicism",
+      "beneficiaries": [
+        "Other charities",
+        "Other - Organisations associated with the Catholic Church"
+      ],
+      "geography": [
+        "Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "https://www.acnc.gov.au/charity/charities/23565117-39af-e811-a960-000d3ad24282/documents/ad836831-c8db-f011-8544-7ced8d3448aa",
+      "evidence_ids": [
+        "ev:acnc:ais:76000005210:2025"
+      ]
+    }
+  ],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:31b79dba-71a4-54d3-beb3-fb0941e162ff",
@@ -206,7 +225,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-13-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/23565117-39af-e811-a960-000d3ad24282/profile",
-      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "retrieved_at": "2026-08-13T05:50:58.991012Z",
       "observed_at": "2025-12-18",
       "effective_from": null,
       "effective_to": null,
@@ -1082,7 +1101,7 @@
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
     "source_text_hash": "e09f7513f13f71954a6cc423160e86a247b468a7f03e6eae06eb67d863c3ef56",
-    "generated_at": "2026-08-13T00:32:18.624430Z",
+    "generated_at": "2026-08-13T05:51:03.018740Z",
     "vector_ref": "embeddings.parquet#cb_34b9adafae054a8a94461072b6e66df1"
   },
   "synthesis": {
@@ -1157,5 +1176,5 @@
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
   "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T00:32:15.698599Z"
+  "built_at": "2026-08-13T05:50:58.991012Z"
 }

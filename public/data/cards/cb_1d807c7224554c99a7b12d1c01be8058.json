@@ -133,7 +133,58 @@
   "participation_modes": [],
   "participation_observations": [],
   "opportunities": [],
-  "programs": [],
+  "programs": [
+    {
+      "program_id": "prg:acnc:50798979881:6bafc6dc-614f-f011-877b-6045bdc235e4",
+      "name": "Prayer Meetings",
+      "description": "Christianity",
+      "beneficiaries": [
+        "Adults - aged 25 to under 65",
+        "Families",
+        "Aboriginal and Torres Strait Islander people",
+        "People from a culturally and linguistically diverse background",
+        "People in rural/regional/remote communities",
+        "Overseas communities or charities",
+        "General community in Australia"
+      ],
+      "geography": [
+        "Queensland, Australia",
+        "Victoria, Australia",
+        "Australian Capital Territory, Australia",
+        "New South Wales, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2024",
+      "source_url": "www.zoom/us.com",
+      "evidence_ids": [
+        "ev:acnc:ais:50798979881:2024"
+      ]
+    },
+    {
+      "program_id": "prg:acnc:50798979881:7eafc6dc-614f-f011-877b-6045bdc235e4",
+      "name": "Christian Leader Mentoring and Support",
+      "description": "Christianity",
+      "beneficiaries": [
+        "Adults - aged 25 to under 65",
+        "Adults - aged 65 and over",
+        "Families",
+        "Aboriginal and Torres Strait Islander people",
+        "People from a culturally and linguistically diverse background",
+        "People in rural/regional/remote communities",
+        "Overseas communities or charities",
+        "General community in Australia"
+      ],
+      "geography": [
+        "Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2024",
+      "source_url": "https://www.acnc.gov.au/charity/charities/167fe4a8-38af-e811-a962-000d3ad24a0d/documents/4cafc6dc-614f-f011-877b-6045bdc235e4",
+      "evidence_ids": [
+        "ev:acnc:ais:50798979881:2024"
+      ]
+    }
+  ],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:b59420a9-d175-5a00-b49a-1eb31cd8ab1e",
@@ -197,7 +248,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-13-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/167fe4a8-38af-e811-a962-000d3ad24a0d/profile",
-      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "retrieved_at": "2026-08-13T05:50:58.991012Z",
       "observed_at": "2025-06-22",
       "effective_from": null,
       "effective_to": null,
@@ -1174,7 +1225,7 @@
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
     "source_text_hash": "56fe91bd7f9e3df2f75b7167b071884aa601977a88a5a0f3fd88a7df35cd49b9",
-    "generated_at": "2026-08-13T00:32:18.621107Z",
+    "generated_at": "2026-08-13T05:51:03.014632Z",
     "vector_ref": "embeddings.parquet#cb_1d807c7224554c99a7b12d1c01be8058"
   },
   "synthesis": {
@@ -1249,5 +1300,5 @@
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
   "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T00:32:15.698599Z"
+  "built_at": "2026-08-13T05:50:58.991012Z"
 }

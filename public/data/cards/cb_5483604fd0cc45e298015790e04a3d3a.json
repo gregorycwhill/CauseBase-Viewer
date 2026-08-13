@@ -158,7 +158,26 @@
   ],
   "participation_observations": [],
   "opportunities": [],
-  "programs": [],
+  "programs": [
+    {
+      "program_id": "prg:acnc:24661281465:606dcac1-5ad5-f011-8544-6045bde61b96",
+      "name": "Conservation",
+      "description": "Wildlife biodiversity",
+      "beneficiaries": [
+        "Other charities",
+        "Environment"
+      ],
+      "geography": [
+        "Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "https://globalwildlifefund.org/",
+      "evidence_ids": [
+        "ev:acnc:ais:24661281465:2025"
+      ]
+    }
+  ],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:1fdebdae-04da-5863-bb1f-843011a95031",
@@ -193,7 +212,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-13-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/6835f7ab-756c-ee11-9ae7-00224893b8c7/profile",
-      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "retrieved_at": "2026-08-13T05:50:58.991012Z",
       "observed_at": "2025-12-09",
       "effective_from": null,
       "effective_to": null,
@@ -671,7 +690,7 @@
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
     "source_text_hash": "3dbd1de1a3fba8f302f03782f61f39b84d24344005fd5023f71c12892d1f4742",
-    "generated_at": "2026-08-13T00:32:18.621921Z",
+    "generated_at": "2026-08-13T05:51:03.015463Z",
     "vector_ref": "embeddings.parquet#cb_5483604fd0cc45e298015790e04a3d3a"
   },
   "synthesis": {
@@ -746,5 +765,5 @@
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
   "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T00:32:15.698599Z"
+  "built_at": "2026-08-13T05:50:58.991012Z"
 }

@@ -147,7 +147,76 @@
   ],
   "participation_observations": [],
   "opportunities": [],
-  "programs": [],
+  "programs": [
+    {
+      "program_id": "prg:acnc:30091040649:7af5b78d-a12b-f011-8c4d-6045bdc24e13",
+      "name": "Family Partners Program",
+      "description": "Family disability resources",
+      "beneficiaries": [
+        "Early childhood - aged under 6",
+        "Children - aged 6 to under 15",
+        "Youth - 15 to under 25",
+        "Families",
+        "People in rural/regional/remote communities",
+        "Financially disadvantaged people",
+        "People with disabilities",
+        "Females",
+        "Males",
+        "Overseas communities or charities"
+      ],
+      "geography": [],
+      "status": "current",
+      "reporting_period": "2024",
+      "source_url": "https://chinaconcern.org/restoring-families/",
+      "evidence_ids": [
+        "ev:acnc:ais:30091040649:2024"
+      ]
+    },
+    {
+      "program_id": "prg:acnc:30091040649:8ef5b78d-a12b-f011-8c4d-6045bdc24e13",
+      "name": "Family-style Care Centres",
+      "description": "Out-of-home care",
+      "beneficiaries": [
+        "Early childhood - aged under 6",
+        "Children - aged 6 to under 15",
+        "Youth - 15 to under 25",
+        "People with disabilities",
+        "Females",
+        "Males",
+        "Overseas communities or charities"
+      ],
+      "geography": [],
+      "status": "current",
+      "reporting_period": "2024",
+      "source_url": "https://chinaconcern.org/serving-children-without-families/",
+      "evidence_ids": [
+        "ev:acnc:ais:30091040649:2024"
+      ]
+    },
+    {
+      "program_id": "prg:acnc:30091040649:9ef5b78d-a12b-f011-8c4d-6045bdc24e13",
+      "name": "Pathways Vocational Training",
+      "description": "Vocational rehabilitation",
+      "beneficiaries": [
+        "Youth - 15 to under 25",
+        "Adults - aged 25 to under 65",
+        "Families",
+        "People in rural/regional/remote communities",
+        "Financially disadvantaged people",
+        "People with disabilities",
+        "Females",
+        "Males",
+        "Overseas communities or charities"
+      ],
+      "geography": [],
+      "status": "current",
+      "reporting_period": "2024",
+      "source_url": "https://chinaconcern.org/equipping-young-adults/",
+      "evidence_ids": [
+        "ev:acnc:ais:30091040649:2024"
+      ]
+    }
+  ],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:27b9f52e-9b0e-58ed-b6d5-9a281e4b3bfa",
@@ -211,7 +280,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-13-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/6a6e5a24-39af-e811-a962-000d3ad24a0d/profile",
-      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "retrieved_at": "2026-08-13T05:50:58.991012Z",
       "observed_at": "2025-05-08",
       "effective_from": null,
       "effective_to": null,
@@ -1258,7 +1327,7 @@
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
     "source_text_hash": "6960585674d801dacda0a1798d6c8d4cb3edd4512cb03ab82653938809b4f0bf",
-    "generated_at": "2026-08-13T00:32:18.621342Z",
+    "generated_at": "2026-08-13T05:51:03.014875Z",
     "vector_ref": "embeddings.parquet#cb_6b2097060d424bdf8858dde71c901dbb"
   },
   "synthesis": {
@@ -1333,5 +1402,5 @@
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
   "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T00:32:15.698599Z"
+  "built_at": "2026-08-13T05:50:58.991012Z"
 }

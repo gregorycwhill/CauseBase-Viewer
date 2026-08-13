@@ -144,7 +144,29 @@
   ],
   "participation_observations": [],
   "opportunities": [],
-  "programs": [],
+  "programs": [
+    {
+      "program_id": "prg:acnc:11580238789:2dda4701-0783-f011-b4cc-000d3ad25630",
+      "name": "Resources",
+      "description": "Disasters and emergency management",
+      "beneficiaries": [
+        "Adults - aged 25 to under 65",
+        "Adults - aged 65 and over",
+        "People with disabilities",
+        "Females",
+        "Males"
+      ],
+      "geography": [
+        "Darwin Northern Territory, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "https://www.acnc.gov.au/charity/charities/ceccfc3b-69f5-ee11-a1ff-002248122b18/documents/ba5452f5-0683-f011-b4cc-000d3ad25630",
+      "evidence_ids": [
+        "ev:acnc:ais:11580238789:2025"
+      ]
+    }
+  ],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:988eb82e-629c-57c2-9942-09af838db040",
@@ -179,7 +201,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-13-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/ceccfc3b-69f5-ee11-a1ff-002248122b18/profile",
-      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "retrieved_at": "2026-08-13T05:50:58.991012Z",
       "observed_at": "2025-08-27",
       "effective_from": null,
       "effective_to": null,
@@ -642,7 +664,7 @@
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
     "source_text_hash": "08099b1e0e30f3deec16ceb0dda46d9b88e0546369f859b3476ae9209273d3f5",
-    "generated_at": "2026-08-13T00:32:18.621541Z",
+    "generated_at": "2026-08-13T05:51:03.015090Z",
     "vector_ref": "embeddings.parquet#cb_57b76ad8dc4d4628a4f07e602fbbcb44"
   },
   "synthesis": {
@@ -717,5 +739,5 @@
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
   "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T00:32:15.698599Z"
+  "built_at": "2026-08-13T05:50:58.991012Z"
 }

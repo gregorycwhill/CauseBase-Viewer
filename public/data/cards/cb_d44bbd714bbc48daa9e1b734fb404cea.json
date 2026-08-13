@@ -143,7 +143,44 @@
   ],
   "participation_observations": [],
   "opportunities": [],
-  "programs": [],
+  "programs": [
+    {
+      "program_id": "prg:acnc:13103345213:3a371d96-d0fb-f011-8406-7ced8d33fdea",
+      "name": "Disaster relief",
+      "description": "Welfare",
+      "beneficiaries": [
+        "Families",
+        "Victims of disaster",
+        "People at risk of homelessness/ people experiencing homelessness"
+      ],
+      "geography": [
+        "Dandenong VIC, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "https://www.acnc.gov.au/charity/charities/5e7cbb9d-39af-e811-a962-000d3ad24a0d/documents/0c391b90-d0fb-f011-8406-7ced8d33fdea",
+      "evidence_ids": [
+        "ev:acnc:ais:13103345213:2025"
+      ]
+    },
+    {
+      "program_id": "prg:acnc:13103345213:aa371d96-d0fb-f011-8406-7ced8d33fdea",
+      "name": "Migrant Assistance",
+      "description": "Community service organisations",
+      "beneficiaries": [
+        "Migrants, refugees or asylum seekers"
+      ],
+      "geography": [
+        "Dandenong VIC, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "www.ruscare.com.au",
+      "evidence_ids": [
+        "ev:acnc:ais:13103345213:2025"
+      ]
+    }
+  ],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:ae8f2b5b-4ac8-5143-9654-afbbac5e3632",
@@ -207,7 +244,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-13-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/5e7cbb9d-39af-e811-a962-000d3ad24a0d/profile",
-      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "retrieved_at": "2026-08-13T05:50:58.991012Z",
       "observed_at": "2026-01-27",
       "effective_from": null,
       "effective_to": null,
@@ -1121,7 +1158,7 @@
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
     "source_text_hash": "15d6330c1ce46b8b181c8c1fda06b7d03807bec24742ee13f61f1d20fb35b741",
-    "generated_at": "2026-08-13T00:32:18.623317Z",
+    "generated_at": "2026-08-13T05:51:03.017879Z",
     "vector_ref": "embeddings.parquet#cb_d44bbd714bbc48daa9e1b734fb404cea"
   },
   "synthesis": {
@@ -1196,5 +1233,5 @@
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
   "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T00:32:15.698599Z"
+  "built_at": "2026-08-13T05:50:58.991012Z"
 }

@@ -132,7 +132,25 @@
   "participation_modes": [],
   "participation_observations": [],
   "opportunities": [],
-  "programs": [],
+  "programs": [
+    {
+      "program_id": "prg:acnc:11955042908:a0d0dfcf-b487-ec11-8d20-000d3ad22323",
+      "name": "Set Up",
+      "description": "Economic development",
+      "beneficiaries": [
+        "Aboriginal and Torres Strait Islander people"
+      ],
+      "geography": [
+        "Geraldton WA, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2021",
+      "source_url": "https://www.acnc.gov.au/charity/charities/e05fdbab-256f-ea11-a811-000d3ad1cd99/documents/82d0dfcf-b487-ec11-8d20-000d3ad22323",
+      "evidence_ids": [
+        "ev:acnc:ais:11955042908:2021"
+      ]
+    }
+  ],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:e8548119-90cb-5557-9276-cdd730de13a2",
@@ -167,7 +185,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-13-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/e05fdbab-256f-ea11-a811-000d3ad1cd99/profile",
-      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "retrieved_at": "2026-08-13T05:50:58.991012Z",
       "observed_at": "2022-02-07",
       "effective_from": null,
       "effective_to": null,
@@ -618,7 +636,7 @@
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
     "source_text_hash": "4e30593bc4529ab5fb4ccbaf3fc0fded2d949d21c38fa92d5d3abdf931a4bc0c",
-    "generated_at": "2026-08-13T00:32:18.623004Z",
+    "generated_at": "2026-08-13T05:51:03.017520Z",
     "vector_ref": "embeddings.parquet#cb_56748025b6a94a74bfce6d2b12c1f74c"
   },
   "synthesis": {
@@ -693,5 +711,5 @@
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
   "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T00:32:15.698599Z"
+  "built_at": "2026-08-13T05:50:58.991012Z"
 }

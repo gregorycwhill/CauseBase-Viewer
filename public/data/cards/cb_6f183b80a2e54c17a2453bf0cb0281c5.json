@@ -172,7 +172,47 @@
   ],
   "participation_observations": [],
   "opportunities": [],
-  "programs": [],
+  "programs": [
+    {
+      "program_id": "prg:acnc:97442336082:53af82b3-4aa9-f011-bbd2-000d3ad208e6",
+      "name": "Home care",
+      "description": "Nursing care",
+      "beneficiaries": [
+        "Adults - aged 65 and over"
+      ],
+      "geography": [
+        "Tasmania, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "https://www.acnc.gov.au/charity/charities/5c8143db-39af-e811-a960-000d3ad24282/documents/34af82b3-4aa9-f011-bbd2-000d3ad208e6",
+      "evidence_ids": [
+        "ev:acnc:ais:97442336082:2025"
+      ]
+    },
+    {
+      "program_id": "prg:acnc:97442336082:65af82b3-4aa9-f011-bbd2-000d3ad208e6",
+      "name": "Residential Aged Care",
+      "description": "Senior living",
+      "beneficiaries": [
+        "Adults - aged 65 and over",
+        "People in rural/regional/remote communities",
+        "Veterans and/or their families",
+        "Males",
+        "Females"
+      ],
+      "geography": [
+        "Swansea TAS, Australia",
+        "Scottsdale TAS, Australia"
+      ],
+      "status": "current",
+      "reporting_period": "2025",
+      "source_url": "https://www.acnc.gov.au/charity/charities/5c8143db-39af-e811-a960-000d3ad24282/documents/34af82b3-4aa9-f011-bbd2-000d3ad208e6",
+      "evidence_ids": [
+        "ev:acnc:ais:97442336082:2025"
+      ]
+    }
+  ],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:8f3b2770-f777-5c66-a47c-81e41e4bbf73",
@@ -236,7 +276,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-13-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/5c8143db-39af-e811-a960-000d3ad24282/profile",
-      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "retrieved_at": "2026-08-13T05:50:58.991012Z",
       "observed_at": "2025-10-14",
       "effective_from": null,
       "effective_to": null,
@@ -1213,7 +1253,7 @@
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
     "source_text_hash": "b4916c25ded3190a6fc973791e7c31f306bcfaeb6e91862c0203f74a711cb4e4",
-    "generated_at": "2026-08-13T00:32:18.622625Z",
+    "generated_at": "2026-08-13T05:51:03.016082Z",
     "vector_ref": "embeddings.parquet#cb_6f183b80a2e54c17a2453bf0cb0281c5"
   },
   "synthesis": {
@@ -1288,5 +1328,5 @@
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
   "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T00:32:15.698599Z"
+  "built_at": "2026-08-13T05:50:58.991012Z"
 }
