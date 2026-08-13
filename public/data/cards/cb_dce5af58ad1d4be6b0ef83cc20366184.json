@@ -91,12 +91,12 @@
     {
       "capability": "latest_acnc_ais",
       "status": "observed",
-      "source_record_id": null,
+      "source_record_id": "src:acnc-ais-detail:94196952697:1e9b16ae-d3de-f011-8544-6045bde61b96:cb_dce5af58ad1d4be6b0ef83cc20366184",
       "evidence_ids": [
-        "ev:acnc:ais:94196952697:2025"
+        "ev:acnc:ais:94196952697:1e9b16ae-d3de-f011-8544-6045bde61b96"
       ],
       "observed_at": "2025-12-22",
-      "freshness_note": "Latest submitted ACNC AIS in the 2026-08-13 public-profile acquisition: 2025."
+      "freshness_note": "Latest submitted AIS detail acquired from the public ACNC entity endpoint."
     }
   ],
   "enrichment_level": "enriched",
@@ -105,32 +105,28 @@
     "Tasmania",
     "Australia"
   ],
-  "navigation_geography": [
+  "geography_observations": [
     {
-      "level": "country",
-      "code": "AU",
-      "label": "Australia",
-      "evidence_ids": [
-        "ev:acnc:94196952697"
-      ]
+      "value": "Tasmania",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
     },
     {
-      "level": "state_territory",
-      "code": "AU-TAS",
-      "label": "Tasmania",
-      "evidence_ids": [
-        "ev:acnc:94196952697"
-      ]
+      "value": "Australia",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
     }
   ],
-  "causebase_summary": "Beechford Residents and Property Owners Association Inc is an incorporated association linked with Tasmania, Australia. It appears on the ACNC register and submitted an Annual Information Statement covering 1 July 2022 to 30 June 2023. CauseBase does not have sufficient descriptive evidence in this release to independently identify the organisation’s specific activities, services or beneficiary groups. No website, program descriptions or activity listings were available in the supplied regulatory extracts to allow a more detailed operational summary.",
-  "summary_evidence_ids": [
-    "ev:acnc:94196952697",
-    "ev:ais:94196952697:2023"
-  ],
+  "navigation_geography": [],
+  "causebase_summary": "Beechford Residents and Property Owners Association Inc is listed on the Australian Charities and Not-for-profits Commission (ACNC) register. The available regulatory material comprises an ACNC register extract and the 2023 Annual Information Statement (AIS) covering 01/07/2022 to 30/06/2023. The AIS shows reported revenue of AUD 3,120 for that period and reported total expenses of AUD 0. The association is recorded with a structured geography of Tasmania. No website or public-facing organisational description was available in the supplied evidence. The ACNC extracts and AIS provided do not describe specific programs, services, beneficiaries, staff or volunteer roles, nor do they list participation modes such as meetings, events or working bees in the portions of filings supplied. The only concrete operational data in the supplied evidence are the legal name, registration on the ACNC register, the Tasmania location tag, and the single-year financial figures from the AIS.",
+  "summary_evidence_ids": [],
   "organisation_self_description": null,
   "activities": [],
+  "activity_observations": [],
   "beneficiaries": [],
+  "beneficiary_observations": [],
   "participation_modes": [],
   "participation_observations": [],
   "opportunities": [],
@@ -149,82 +145,23 @@
       "reporting_period": "2025",
       "source_url": "https://www.acnc.gov.au/charity/charities/15ae171b-38af-e811-a961-000d3ad24182/documents/1e9b16ae-d3de-f011-8544-6045bde61b96",
       "evidence_ids": [
-        "ev:acnc:ais:94196952697:2025"
+        "ev:acnc:ais:94196952697:1e9b16ae-d3de-f011-8544-6045bde61b96"
       ]
     }
   ],
   "source_native_records": [
     {
-      "source_record_id": "src:acnc-register:5ca5ded8-6d21-550f-9f8f-1fd787568229",
-      "source_family": "acnc-register",
-      "dataset_version": "2026-08-10",
-      "source_url": "https://www.acnc.gov.au/charity/charities?search=94196952697",
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "ABN": "94196952697",
-        "Legal Name": "BEECHFORD RESIDENTS AND PROPERTY OWNERS ASSOCIATION INC",
-        "Registration Status": "registered",
-        "ACNC classifications": "other purpose; regional remote",
-        "Website": null,
-        "ACNC registration ID": null,
-        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "ABN": "external_identifiers",
-        "Legal Name": "legal_name",
-        "Registration Status": "registrations"
-      },
-      "evidence_ids": [
-        "ev:acnc:94196952697"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-ais:fr:ais:cb_dce5af58ad1d4be6b0ef83cc20366184:2023",
-      "source_family": "acnc-ais",
-      "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": "2022-07-01",
-      "effective_to": "2023-06-30",
-      "source_fields": {
-        "Reporting period": "01/07/2022 to 30/06/2023",
-        "Reporting scope": "subject",
-        "Consolidated": "unknown",
-        "Revenue": "3120",
-        "Donations and bequests": null,
-        "Government grants": null,
-        "Total expenses": "0",
-        "Assets": null,
-        "Liabilities": null
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "Revenue": "financial_records[].revenue",
-        "Total expenses": "financial_records[].total_expenses"
-      },
-      "evidence_ids": [
-        "ev:ais:94196952697:2023"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-public-profile:94196952697:cb_dce5af58ad1d4be6b0ef83cc20366184:2026-08-13",
+      "source_record_id": "src:acnc-public-profile:94196952697:15ae171b-38af-e811-a961-000d3ad24182:cb_dce5af58ad1d4be6b0ef83cc20366184",
       "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-13-public-api",
+      "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/15ae171b-38af-e811-a961-000d3ad24182/profile",
-      "retrieved_at": "2026-08-13T05:50:58.991012Z",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
       "observed_at": "2025-12-22",
       "effective_from": null,
       "effective_to": null,
       "source_fields": {
         "uuid": "15ae171b-38af-e811-a961-000d3ad24182",
-        "abn": "94196952697",
-        "latest_ais_year": "2025",
-        "latest_ais_uuid": "1e9b16ae-d3de-f011-8544-6045bde61b96"
+        "abn": "94196952697"
       },
       "source_payload": {
         "data": {
@@ -771,13 +708,295 @@
         "uuid": "15ae171b-38af-e811-a961-000d3ad24182"
       },
       "canonical_field_mappings": {
-        "data.Name": "display_name",
         "data.OtherNames": "operating_names",
-        "data.AnnualReports": "acnc_ais_url",
-        "data.Programs": "programs"
+        "data.AddressStateOrProvince": "principal_location"
+      },
+      "evidence_ids": []
+    },
+    {
+      "source_record_id": "src:acnc-ais-detail:94196952697:1e9b16ae-d3de-f011-8544-6045bde61b96:cb_dce5af58ad1d4be6b0ef83cc20366184",
+      "source_family": "acnc-ais-detail",
+      "dataset_version": "2026-08-14-public-api",
+      "source_url": "https://www.acnc.gov.au/charity/charities/15ae171b-38af-e811-a961-000d3ad24182/documents/1e9b16ae-d3de-f011-8544-6045bde61b96",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
+      "observed_at": "2025-12-22",
+      "effective_from": null,
+      "effective_to": null,
+      "source_fields": {
+        "abn": "94196952697",
+        "ais_uuid": "1e9b16ae-d3de-f011-8544-6045bde61b96",
+        "year": "2025",
+        "date_received": "2025-12-22T01:15:23.0000000Z"
+      },
+      "source_payload": {
+        "data": {
+          "Abn": "94196952697",
+          "ActivityAdvocacyNCivic": false,
+          "ActivityAgedCare": false,
+          "ActivityAnimalProtection": false,
+          "ActivityCultureAndArt": false,
+          "ActivityEconomicSocialCommunity": false,
+          "ActivityEmergencyNRelief": false,
+          "ActivityEmploymentNTraining": false,
+          "ActivityEnvironmental": false,
+          "ActivityGrantMaking": false,
+          "ActivityHealthRehabilitation": false,
+          "ActivityHigherEducation": false,
+          "ActivityHousing": false,
+          "ActivityIncomeSupportNMaintenance": false,
+          "ActivityInternational": false,
+          "ActivityInternationalDescription": null,
+          "ActivityInternationalOther": false,
+          "ActivityInternationalOtherDescription": null,
+          "ActivityLawNLegalServices": false,
+          "ActivityMain": null,
+          "ActivityMentalHealthCrisisIntervention": false,
+          "ActivityNdisSupported": null,
+          "ActivityNdisSupportedNext": null,
+          "ActivityOperating": true,
+          "ActivityOperatingOverseas": false,
+          "ActivityOther": false,
+          "ActivityOtherDescription": null,
+          "ActivityOtherEducation": false,
+          "ActivityOtherHealthServices": false,
+          "ActivityPersuitPurposesDescription": "Maintained our existing facilities and installed a wind shelter to the side of the BBQ shed. Liaise with Tasmanian Parks and George Town Council. We hosted a few community events.",
+          "ActivityPhilanthropicPromotion": false,
+          "ActivityPolitical": false,
+          "ActivityPrimarySecondaryEducation": false,
+          "ActivityPurposeChange": null,
+          "ActivityPurposeChangeDescription": null,
+          "ActivityRecreationSocialClub": false,
+          "ActivityReligious": false,
+          "ActivityResearch": false,
+          "ActivitySocialServices": false,
+          "ActivitySports": false,
+          "ActivityTransferringFundsGoods": false,
+          "AdvancementOfEducation": false,
+          "AdvancementOfReligion": false,
+          "AssetsandLiabilitiesDescription": "Our community association currently has $10,000 in a term deposit account.  We currently do not have any liabilities.",
+          "BasicReligiousCharity": false,
+          "BeneficiaryAboriginalTorres": false,
+          "BeneficiaryAdults": false,
+          "BeneficiaryAllAges": false,
+          "BeneficiaryChildren": false,
+          "BeneficiaryChronicIllness": false,
+          "BeneficiaryCrimeVictims": false,
+          "BeneficiaryDisasterVictims": false,
+          "BeneficiaryEarlyChildhood": false,
+          "BeneficiaryEthnic": false,
+          "BeneficiaryFamilies": false,
+          "BeneficiaryFinanciallyDisadvantaged": false,
+          "BeneficiaryGeneral": false,
+          "BeneficiaryHomelessnessRisk": false,
+          "BeneficiaryLGBT": false,
+          "BeneficiaryMain": null,
+          "BeneficiaryMen": false,
+          "BeneficiaryMigrantsRefugees": false,
+          "BeneficiaryOffenderFamilies": false,
+          "BeneficiaryOther": false,
+          "BeneficiaryOtherCharities": false,
+          "BeneficiaryOtherDescription": null,
+          "BeneficiaryOverseas": false,
+          "BeneficiaryPeopleWithDisability": false,
+          "BeneficiaryRuralRegionalRemote": false,
+          "BeneficiarySeniors": false,
+          "BeneficiaryUnemployed": false,
+          "BeneficiaryVeteranFamilies": false,
+          "BeneficiaryWomen": false,
+          "BeneficiaryYouth": false,
+          "CharityAddressCountry": "Australia",
+          "CharityAddressLine1": "14 Higgins Street",
+          "CharityAddressLine2": null,
+          "CharityAddressPostalCode": "7252",
+          "CharityAddressStateOrProvince": "TAS",
+          "CharityAddressSuburb": "Beechford",
+          "CharityEmail": "beechfordgroup@gmail.com",
+          "CharitySize": "Small",
+          "CharityUuid": "15ae171b-38af-e811-a961-000d3ad24182",
+          "ChildCareServices": false,
+          "ExpenseEmployees": "0.0000",
+          "ExpenseGrantDonationsInAustralia": "100.0000",
+          "ExpenseGrantDonationsOutsideAustralia": "0.0000",
+          "ExpenseTotal": "4259.0000",
+          "ExpensesOther": "4159.0000",
+          "FinAccrualAccounting": "Cash",
+          "FinConsolidatedReportFromMiltiple": null,
+          "FinDocumentedPoliciesRelatedPartyTransactions": null,
+          "FinFyeJune": false,
+          "FinProvideVoluntarily": null,
+          "FinRelatedPartyTransactions": "No",
+          "FinReportACT": false,
+          "FinReportFrom": "2024-07-01T00:00:00.0000000Z",
+          "FinReportNSW": false,
+          "FinReportNT": false,
+          "FinReportQLD": false,
+          "FinReportSA": false,
+          "FinReportTAS": false,
+          "FinReportTo": "2025-06-30T00:00:00.0000000Z",
+          "FinReportVIC": false,
+          "FinReportWA": false,
+          "FinReportingType": null,
+          "FinSapDate": null,
+          "FundRaisingNumberACT": null,
+          "FundRaisingNumberNSW": null,
+          "FundRaisingNumberQLD": null,
+          "FundRaisingNumberSA": null,
+          "FundRaisingNumberTAS": null,
+          "FundRaisingNumberVIC": null,
+          "FundRaisingNumberWA": null,
+          "GovDocAccurate": null,
+          "GrantCapacityBuildingPct": null,
+          "GrantMultiYearPct": null,
+          "GrantPublicOpenApplicationPct": null,
+          "GrantRuralRegionPct": null,
+          "HasSubmittedToRegulator": false,
+          "HoursPaid": null,
+          "HoursTotal": null,
+          "HoursVolunteer": null,
+          "HrCasualEmployees": "0",
+          "HrFteStaff": "8.0000000000",
+          "HrFullTimeEmployees": "0",
+          "HrPartTimeEmployees": "0",
+          "HrUnpainVolunteers": "25",
+          "IncomeDonationsBequests": "1085.0000",
+          "IncomeGovernmentGrants": "2500.0000",
+          "IncomeOther": "0.0000",
+          "IncomeOtherComprehinsive": "0.0000",
+          "IncomeOtherNeg": null,
+          "IncomeOtherReceipts": "2370.0000",
+          "IncomeTotalComprehensive": "0.0000",
+          "IncomeTotalReceipts": "6502.0000",
+          "IncorporationStatus": null,
+          "InterestExpense": "0.0000",
+          "IsIncorporatedAssociation": true,
+          "KeyManagementPersonnel": false,
+          "LegalName": "BEECHFORD RESIDENTS AND PROPERTY OWNERS ASSOCIATION INC",
+          "NetAssetsLiabilities": "10000.0000",
+          "NetSurplusDeficit": "2243.0000",
+          "NonCurrentLoansPayable": "0.0000",
+          "NumberOfKeyManagementPersonnel": "0",
+          "OperatingCountries": null,
+          "OperatingInACT": false,
+          "OperatingInNSW": false,
+          "OperatingInNT": false,
+          "OperatingInQLD": false,
+          "OperatingInSA": false,
+          "OperatingInTAS": false,
+          "OperatingInVIC": false,
+          "OperatingInWA": false,
+          "OperatingOverseas": false,
+          "OtherNames": [],
+          "OtherNonCurrentAssets": "0.0000",
+          "OtherNonCurrentLiabilities": "0.0000",
+          "OtherPurposeDescription": null,
+          "OtherPurposes": "False",
+          "Programs": [
+            {
+              "AisUuid": "1e9b16ae-d3de-f011-8544-6045bde61b96",
+              "Name": "Community conclusion",
+              "OperatesOnline": true,
+              "ProgramBeneficiaries": [
+                "People in rural/regional/remote communities"
+              ],
+              "ProgramClassification": "Social inclusion",
+              "ProgramClassificationID": "464",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Beechford TAS, Australia",
+                  "FormattedAddress": "Beechford TAS 7252, Australia",
+                  "Marker": {
+                    "Latitude": -41.0279606,
+                    "Longitude": 146.9512111
+                  },
+                  "Name": "Beechford",
+                  "uuid": "569b16ae-d3de-f011-8544-6045bde61b96"
+                }
+              ],
+              "ProgramWeblink": null,
+              "uuid": "4f9b16ae-d3de-f011-8544-6045bde61b96"
+            }
+          ],
+          "RegulatedACT": false,
+          "RegulatedNSW": false,
+          "RegulatedNT": false,
+          "RegulatedQLD": false,
+          "RegulatedSA": false,
+          "RegulatedTAS": false,
+          "RegulatedVIC": false,
+          "RegulatedWA": false,
+          "Regulator": null,
+          "RegulatorAGMDateACT": null,
+          "RegulatorAGMDateNT": null,
+          "RegulatorAGMDateVIC": null,
+          "RegulatorAGMDateWA": null,
+          "RegulatorFundRaising": "No",
+          "RegulatorFundRaisingACT": false,
+          "RegulatorFundRaisingNSW": false,
+          "RegulatorFundRaisingNT": false,
+          "RegulatorFundRaisingOnline": false,
+          "RegulatorFundRaisingQLD": false,
+          "RegulatorFundRaisingSA": false,
+          "RegulatorFundRaisingTAS": false,
+          "RegulatorFundRaisingVIC": false,
+          "RegulatorFundRaisingWA": false,
+          "RegulatorIncorporatedAssociationACT": false,
+          "RegulatorIncorporatedAssociationNSW": false,
+          "RegulatorIncorporatedAssociationNT": false,
+          "RegulatorIncorporatedAssociationNumberACT": null,
+          "RegulatorIncorporatedAssociationNumberNSW": null,
+          "RegulatorIncorporatedAssociationNumberNT": null,
+          "RegulatorIncorporatedAssociationNumberQLD": null,
+          "RegulatorIncorporatedAssociationNumberSA": null,
+          "RegulatorIncorporatedAssociationNumberTAS": "IA12048",
+          "RegulatorIncorporatedAssociationNumberVIC": null,
+          "RegulatorIncorporatedAssociationNumberWA": null,
+          "RegulatorIncorporatedAssociationQLD": false,
+          "RegulatorIncorporatedAssociationSA": false,
+          "RegulatorIncorporatedAssociationTAS": true,
+          "RegulatorIncorporatedAssociationVIC": false,
+          "RegulatorIncorporatedAssociationWA": false,
+          "RegulatorMetRequirementACT": false,
+          "RegulatorMetRequirementWA": null,
+          "RegulatorOtherDetails": null,
+          "RegulatorPrograms": null,
+          "RegulatorStates": false,
+          "RelatedPartyDetails": null,
+          "RelatedPartyTransactions": [],
+          "ReliefOfPoverty": false,
+          "ReportingGroupFlag": false,
+          "ResponsiblePersonAccurate": null,
+          "RevenueGoodsServices": "121.0000",
+          "RevenueInvestments": "426.0000",
+          "RevenueTotal": "6502.0000",
+          "StatementYear": "2025",
+          "SubTypesAccurate": null,
+          "TotalAssets": "10000.0000",
+          "TotalCurrentAssets": "0.0000",
+          "TotalCurrentLiabilities": "0.0000",
+          "TotalLiabilities": "0.0000",
+          "TotalNonCurrentAssets": null,
+          "TotalNonCurrentLiabilities": "0.0000",
+          "TotalNonCurrentLoansReceivable": "0.0000",
+          "TotalPaidKMP": "$0.00",
+          "Website": null,
+          "__normalized": true,
+          "entityTypeVersion": "",
+          "entityVersion": "1814025101",
+          "timeStamp": "2025-12-22T01:15:21.0000000Z",
+          "type": "annual_information_statement",
+          "uuid": "1e9b16ae-d3de-f011-8544-6045bde61b96"
+        },
+        "type": "annual_information_statement",
+        "uuid": "1e9b16ae-d3de-f011-8544-6045bde61b96"
+      },
+      "canonical_field_mappings": {
+        "data.Programs": "programs",
+        "data.TotalRevenue": "financial_records[].revenue",
+        "data.TotalExpenses": "financial_records[].total_expenses"
       },
       "evidence_ids": [
-        "ev:acnc:ais:94196952697:2025"
+        "ev:acnc:ais:94196952697:1e9b16ae-d3de-f011-8544-6045bde61b96"
       ]
     }
   ],
@@ -826,9 +1045,12 @@
       },
       "assets": null,
       "liabilities": null,
+      "net_assets": null,
       "income_breakdown": [],
       "expense_breakdown": [],
-      "balance_sheet_breakdown": []
+      "balance_sheet_breakdown": [],
+      "source_ordered_line_items": [],
+      "statements": []
     }
   ],
   "financial_metrics": [
@@ -952,13 +1174,13 @@
       "content_hash": null
     },
     {
-      "evidence_id": "ev:acnc:ais:94196952697:2025",
+      "evidence_id": "ev:acnc:ais:94196952697:1e9b16ae-d3de-f011-8544-6045bde61b96",
       "source_type": "regulatory",
-      "title": "BEECHFORD RESIDENTS AND PROPERTY OWNERS ASSOCIATION INC Annual Information Statement 2025",
+      "title": "ACNC Annual Information Statement 2025",
       "publisher": "Australian Charities and Not-for-profits Commission",
       "url": "https://www.acnc.gov.au/charity/charities/15ae171b-38af-e811-a961-000d3ad24182/documents/1e9b16ae-d3de-f011-8544-6045bde61b96",
       "observed_at": "2025-12-22",
-      "reporting_period": null,
+      "reporting_period": "2025",
       "page": null,
       "section": null,
       "content_hash": null
@@ -970,81 +1192,25 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "0b1da968967fe635c5c8e4a26ff8f06d1c2b1490179c3c2410e8136ddc2c1826",
-    "generated_at": "2026-08-13T05:51:03.017605Z",
+    "source_text_hash": "18051d96f794540a5e80a83627155589392abf79d06872e7b6efd0daaf9b49ef",
+    "generated_at": "2026-08-10T13:53:24.457285Z",
     "vector_ref": "embeddings.parquet#cb_dce5af58ad1d4be6b0ef83cc20366184"
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
+    "prompt_version": "phase2a-0.4",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "7e55034e7f4c005cae002daffe4f1b0a523238f1f4bb9573fa409ba616ed744f",
-    "generated_at": "2026-08-12T14:04:58.406935Z",
+    "evidence_input_hash": "508689077691992582282d08e474ccdc9e1c2c8368f01c5e134d28b34665f761",
+    "generated_at": "2026-08-10T12:56:33.171812Z",
     "editorial_policy_version": "0.1"
   },
-  "derivative_assessments": [
-    {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T14:04:58.406935Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-rc2-editorial-migration",
-      "input_hash": "7e55034e7f4c005cae002daffe4f1b0a523238f1f4bb9573fa409ba616ed744f",
-      "disposition": "refreshed",
-      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "taxonomy",
-      "generated_at": "2026-08-12T14:04:58.406935Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "7e55034e7f4c005cae002daffe4f1b0a523238f1f4bb9573fa409ba616ed744f",
-      "disposition": "reused",
-      "reason": "No new supported canonical classification facts.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "fundraising",
-      "generated_at": null,
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "7e55034e7f4c005cae002daffe4f1b0a523238f1f4bb9573fa409ba616ed744f",
-      "disposition": "reused",
-      "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "embedding",
-      "generated_at": "2026-08-10T13:53:24.457285Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "18051d96f794540a5e80a83627155589392abf79d06872e7b6efd0daaf9b49ef",
-      "disposition": "reused",
-      "reason": "Semantic source text unchanged.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "similarities",
-      "generated_at": "2026-08-10T13:53:24.457285Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "18051d96f794540a5e80a83627155589392abf79d06872e7b6efd0daaf9b49ef",
-      "disposition": "reused",
-      "reason": "Embedding reused; semantic neighbours retained.",
-      "affected_dimensions": []
-    }
-  ],
-  "dataset_version": "phase2b-2026-08-13-rc3",
+  "derivative_assessments": [],
+  "dataset_version": "phase2b-2026-08-14-rc4",
   "card_schema_version": "0.4",
-  "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T05:50:58.991012Z"
+  "editorial_policy_version": "0.4-rc4",
+  "generator_version": "0.5.0-rc4",
+  "built_at": "2026-08-13T10:52:47.483880Z"
 }

@@ -63,16 +63,6 @@
       "freshness_note": null
     },
     {
-      "capability": "website",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:web:26687611356:2026-08-10"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
       "capability": "fundraising_expenditure",
       "status": "not_yet_processed",
       "source_record_id": null,
@@ -91,16 +81,24 @@
     {
       "capability": "latest_acnc_ais",
       "status": "not_available_from_source",
+      "source_record_id": "src:acnc-public-profile:26687611356:8e571924-2769-f011-bec3-7c1e522b1d9f:cb_f1a207947b60442c97280736618ac5b8",
+      "evidence_ids": [],
+      "observed_at": "2026-08-13",
+      "freshness_note": "No submitted AIS was returned by the public ACNC profile endpoint."
+    },
+    {
+      "capability": "website",
+      "status": "observed",
       "source_record_id": null,
       "evidence_ids": [],
       "observed_at": "2026-08-13",
-      "freshness_note": "No submitted AIS appears in the 2026-08-13 public ACNC profile acquisition."
+      "freshness_note": "Public website locator acquired from the ACNC profile."
     }
   ],
   "enrichment_level": "enriched",
   "website": "https://rolda.org.au/",
   "geography": [
-    "NSW, Australia (organisation registration and Australian fundraising)",
+    "NSW, Australia",
     "Romania (Galati and local shelters)",
     "Ukraine (evacuations, treatment and support in conflict areas)",
     "Venezuela (emergency aid after earthquake)",
@@ -108,21 +106,53 @@
     "Europe (rehoming of dogs in Europe)",
     "Middle East (emergency aid described)"
   ],
-  "navigation_geography": [
+  "geography_observations": [
     {
-      "level": "country",
-      "code": "AU",
-      "label": "Australia",
-      "evidence_ids": [
-        "ev:acnc:26687611356"
-      ]
+      "value": "NSW, Australia",
+      "source_role": "legacy_source_qualifier",
+      "provenance_note": "organisation registration and Australian fundraising",
+      "evidence_ids": []
+    },
+    {
+      "value": "Romania (Galati and local shelters)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Ukraine (evacuations, treatment and support in conflict areas)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Venezuela (emergency aid after earthquake)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Bethlehem, Palestine (support for a local shelter)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Europe (rehoming of dogs in Europe)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Middle East (emergency aid described)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
     }
   ],
-  "causebase_summary": "ROLDA Ltd is an Australian-registered animal welfare organisation that raises funds in NSW and channels support to rescue work in Romania and other countries. It rescues and shelters dogs and cats from streets, puppy mills and disaster or conflict zones; provides food, shelter, urgent veterinary treatment and rehabilitation; evacuates animals from war and disaster areas; and rehomes animals in Europe or places them in foster care. ROLDA also buys and develops shelter land (including a cage-free sanctuary project), supports independent local rescue teams, and runs community education and early-intervention programmes that help vulnerable pet owners keep animals with their families.",
-  "summary_evidence_ids": [
-    "ev:web:26687611356:2026-08-10",
-    "ev:acnc:26687611356"
-  ],
+  "navigation_geography": [],
+  "causebase_summary": "ROLDA Ltd (registered in NSW) presents itself as an Australian fundraising and support entity for ROLDA’s international animal-welfare work. The organisation's website says it funds and supports rescue, shelter, rehabilitation and rehoming for dogs and cats in Romania and elsewhere in Europe; evacuates, feeds and treats animals affected by the war in Ukraine; and provides emergency aid for animals in other crises such as an earthquake in Venezuela. The website gives concrete examples: rescuing dogs from puppy mills, urgent veterinary surgery and foster care for animals injured by shelling, buying land and renovating dog housing near a shelter in Galaţi, and planning a cage-free sanctuary called Little Haven. It also describes keeping families together by supplying pet food and medical assistance to vulnerable owners, running education programmes in communities and schools, and supporting independent rescue teams it calls “ROLDA Heroes.” The site includes fundraising and public engagement activities such as a 20th‑anniversary challenge and donor appeals. The supplied evidence is the organisation website and an ACNC register extract; the website’s statements are organisation-authored and no financial statements or independent evaluations were supplied in the evidence pack.",
+  "summary_evidence_ids": [],
   "organisation_self_description": null,
   "activities": [
     "Rescue dogs and cats from streets, puppy mills and disaster/conflict zones",
@@ -134,9 +164,73 @@
     "Provide support (food and medical assistance) to vulnerable pet owners to prevent abandonment",
     "Support independent local rescue teams ('ROLDA Heroes')"
   ],
+  "activity_observations": [
+    {
+      "value": "Rescue dogs and cats from streets, puppy mills and disaster/conflict zones",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Provide shelter, food, warmth and urgent veterinary treatment",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Rehabilitate animals and place them in foster care or rehome in Europe",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Evacuate animals from conflict zones and disaster sites",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Buy and develop land and shelter facilities (e.g. renovations near Galaţi, Little Haven sanctuary project)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Provide community education programmes about humane treatment and responsible ownership",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Provide support (food and medical assistance) to vulnerable pet owners to prevent abandonment",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Support independent local rescue teams ('ROLDA Heroes')",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    }
+  ],
   "beneficiaries": [
     "Dogs and cats rescued from streets, puppy mills and disaster/conflict zones",
     "Vulnerable pet owners and disadvantaged community members who receive food or medical assistance for pets"
+  ],
+  "beneficiary_observations": [
+    {
+      "value": "Dogs and cats rescued from streets, puppy mills and disaster/conflict zones",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Vulnerable pet owners and disadvantaged community members who receive food or medical assistance for pets",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    }
   ],
   "participation_modes": [
     "Donating to fundraising appeals",
@@ -149,47 +243,17 @@
   "programs": [],
   "source_native_records": [
     {
-      "source_record_id": "src:acnc-register:48a54271-ce63-59a0-892e-9ad507324e8c",
-      "source_family": "acnc-register",
-      "dataset_version": "2026-08-10",
-      "source_url": "https://www.acnc.gov.au/charity/charities?search=26687611356",
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "ABN": "26687611356",
-        "Legal Name": "ROLDA LTD",
-        "Registration Status": "registered",
-        "ACNC classifications": "animal welfare; animals",
-        "Website": "https://rolda.org.au/",
-        "ACNC registration ID": null,
-        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "ABN": "external_identifiers",
-        "Legal Name": "legal_name",
-        "Registration Status": "registrations"
-      },
-      "evidence_ids": [
-        "ev:acnc:26687611356"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-public-profile:26687611356:cb_f1a207947b60442c97280736618ac5b8:2026-08-13",
+      "source_record_id": "src:acnc-public-profile:26687611356:8e571924-2769-f011-bec3-7c1e522b1d9f:cb_f1a207947b60442c97280736618ac5b8",
       "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-13-public-api",
+      "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/8e571924-2769-f011-bec3-7c1e522b1d9f/profile",
-      "retrieved_at": "2026-08-13T05:50:58.991012Z",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
       "observed_at": "2026-08-13",
       "effective_from": null,
       "effective_to": null,
       "source_fields": {
         "uuid": "8e571924-2769-f011-bec3-7c1e522b1d9f",
-        "abn": "26687611356",
-        "latest_ais_year": null,
-        "latest_ais_uuid": null
+        "abn": "26687611356"
       },
       "source_payload": {
         "data": {
@@ -529,10 +593,8 @@
         "uuid": "8e571924-2769-f011-bec3-7c1e522b1d9f"
       },
       "canonical_field_mappings": {
-        "data.Name": "display_name",
         "data.OtherNames": "operating_names",
-        "data.AnnualReports": "acnc_ais_url",
-        "data.Programs": "programs"
+        "data.AddressStateOrProvince": "principal_location"
       },
       "evidence_ids": []
     }
@@ -670,81 +732,25 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "874514a298462d6a7014610dd857c8a15e779f3501f6342b420a7ea653c1f2bb",
-    "generated_at": "2026-08-13T05:51:03.018336Z",
+    "source_text_hash": "209a858bbb84221929c874e6da0608cb128a1943074fc6fd88f5880e58e539ac",
+    "generated_at": "2026-08-10T13:53:24.457785Z",
     "vector_ref": "embeddings.parquet#cb_f1a207947b60442c97280736618ac5b8"
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
+    "prompt_version": "phase2a-0.4",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "745a1d48eb09c4674e9b5d0fa3e7bdcdc18c5154bf64b438ff9f4aa0bff7cf9e",
-    "generated_at": "2026-08-12T14:13:02.910716Z",
+    "evidence_input_hash": "dd88c27fa29160a0288808668d3a4e26f5b506225b5e56fed8c81917977f81e2",
+    "generated_at": "2026-08-10T12:59:23.195280Z",
     "editorial_policy_version": "0.1"
   },
-  "derivative_assessments": [
-    {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T14:13:02.910716Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-rc2-editorial-migration",
-      "input_hash": "745a1d48eb09c4674e9b5d0fa3e7bdcdc18c5154bf64b438ff9f4aa0bff7cf9e",
-      "disposition": "refreshed",
-      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "taxonomy",
-      "generated_at": "2026-08-12T14:13:02.910716Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "745a1d48eb09c4674e9b5d0fa3e7bdcdc18c5154bf64b438ff9f4aa0bff7cf9e",
-      "disposition": "reused",
-      "reason": "No new supported canonical classification facts.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "fundraising",
-      "generated_at": null,
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "745a1d48eb09c4674e9b5d0fa3e7bdcdc18c5154bf64b438ff9f4aa0bff7cf9e",
-      "disposition": "reused",
-      "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "embedding",
-      "generated_at": "2026-08-10T13:53:24.457785Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "209a858bbb84221929c874e6da0608cb128a1943074fc6fd88f5880e58e539ac",
-      "disposition": "reused",
-      "reason": "Semantic source text unchanged.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "similarities",
-      "generated_at": "2026-08-10T13:53:24.457785Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "209a858bbb84221929c874e6da0608cb128a1943074fc6fd88f5880e58e539ac",
-      "disposition": "reused",
-      "reason": "Embedding reused; semantic neighbours retained.",
-      "affected_dimensions": []
-    }
-  ],
-  "dataset_version": "phase2b-2026-08-13-rc3",
+  "derivative_assessments": [],
+  "dataset_version": "phase2b-2026-08-14-rc4",
   "card_schema_version": "0.4",
-  "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T05:50:58.991012Z"
+  "editorial_policy_version": "0.4-rc4",
+  "generator_version": "0.5.0-rc4",
+  "built_at": "2026-08-13T10:52:47.483880Z"
 }

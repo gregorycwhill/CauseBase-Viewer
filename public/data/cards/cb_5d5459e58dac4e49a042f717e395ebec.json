@@ -63,16 +63,6 @@
       "freshness_note": null
     },
     {
-      "capability": "website",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:web:31128981902:2026-08-10"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
       "capability": "fundraising_expenditure",
       "status": "not_yet_processed",
       "source_record_id": null,
@@ -91,43 +81,45 @@
     {
       "capability": "latest_acnc_ais",
       "status": "observed",
-      "source_record_id": null,
+      "source_record_id": "src:acnc-ais-detail:31128981902:4fb6fd94-386d-f111-ab0d-0022489549a2:cb_5d5459e58dac4e49a042f717e395ebec",
       "evidence_ids": [
-        "ev:acnc:ais:31128981902:2025"
+        "ev:acnc:ais:31128981902:4fb6fd94-386d-f111-ab0d-0022489549a2"
       ],
       "observed_at": "2026-06-21",
-      "freshness_note": "Latest submitted ACNC AIS in the 2026-08-13 public-profile acquisition: 2025."
+      "freshness_note": "Latest submitted AIS detail acquired from the public ACNC entity endpoint."
+    },
+    {
+      "capability": "website",
+      "status": "observed",
+      "source_record_id": null,
+      "evidence_ids": [],
+      "observed_at": "2026-08-13",
+      "freshness_note": "Public website locator acquired from the ACNC profile."
     }
   ],
   "enrichment_level": "enriched",
   "website": "pinnacleacademiccollege.com.au",
   "geography": [
-    "Kallangur, Queensland (on‑site campus)",
-    "Australia (organisation states it serves families across Australia)"
+    "Kallangur, Queensland",
+    "Australia"
   ],
-  "navigation_geography": [
+  "geography_observations": [
     {
-      "level": "country",
-      "code": "AU",
-      "label": "Australia",
-      "evidence_ids": [
-        "ev:acnc:31128981902"
-      ]
+      "value": "Kallangur, Queensland",
+      "source_role": "legacy_source_qualifier",
+      "provenance_note": "on‑site campus",
+      "evidence_ids": []
     },
     {
-      "level": "state_territory",
-      "code": "AU-QLD",
-      "label": "Queensland",
-      "evidence_ids": [
-        "ev:acnc:31128981902"
-      ]
+      "value": "Australia",
+      "source_role": "legacy_source_qualifier",
+      "provenance_note": "organisation states it serves families across Australia",
+      "evidence_ids": []
     }
   ],
-  "causebase_summary": "Akademeia Limited (trading as Pinnacle Academic College) operates an on‑site campus in Kallangur, Queensland and provides distance and blended primary education for Years 1–6. It offers a fully online Bronze package, Silver and Gold blended packages that combine online study with scheduled on‑campus days, workshops, excursions and on‑campus activities, and a full‑time on‑campus option (currently full, with a waitlist). The Gold package lists an intensive swimming program. The organisation states it supports families across Australia and provides learning support and educational resources. Enrolment options include fully online, blended attendance with on‑campus days, or full‑time on‑site study; prospective families are invited to book a tour or submit an enquiry to receive fees and enrolment information.",
-  "summary_evidence_ids": [
-    "ev:web:31128981902:2026-08-10",
-    "ev:acnc:31128981902"
-  ],
+  "navigation_geography": [],
+  "causebase_summary": "Akademeia Limited (branded on its website as Pinnacle Academic College) presents itself as a provider of on‑campus and distance education. The website lists a Kallangur, Queensland campus and describes three packages: Bronze (fully online distance learning), Silver (online with on‑site Thursdays at the Kallangur campus) and Gold (online with on‑site days, excursions and an intensive swimming program). The site also describes a full‑time on‑campus option for students in Years 1–6 that is currently full and offered by waitlist. Services and activities described include online lessons, workshops, on‑campus activities and excursions, learning support and a range of learning resources; teaching is described as guided by teachers and supported by parents, with multi‑age class groups and personalised learning approaches. The website invites families to submit an enquiry, book a tour or have an online chat to receive fees and enrolment information. An ACNC Register extract for the entity was observed in the evidence pack; no financial statements or independent verification of claims were included in the supplied materials.",
+  "summary_evidence_ids": [],
   "organisation_self_description": null,
   "activities": [
     "On‑campus education at Kallangur campus (Years 1–6 full‑time option)",
@@ -137,9 +129,61 @@
     "Learning support and provision of educational resources",
     "Intensive swimming program (listed in Gold package)"
   ],
+  "activity_observations": [
+    {
+      "value": "On‑campus education at Kallangur campus (Years 1–6 full‑time option)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Distance education / online lessons",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Blended packages combining online study with on‑site days (Silver, Gold)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Workshops, excursions and on‑campus activities",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Learning support and provision of educational resources",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Intensive swimming program (listed in Gold package)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    }
+  ],
   "beneficiaries": [
     "Students in Years 1–6",
-    "Families across Australia (claimed by the organisation)"
+    "Families across Australia"
+  ],
+  "beneficiary_observations": [
+    {
+      "value": "Students in Years 1–6",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Families across Australia",
+      "source_role": "legacy_source_qualifier",
+      "provenance_note": "claimed by the organisation",
+      "evidence_ids": []
+    }
   ],
   "participation_modes": [
     "Fully online enrolment (Bronze package)",
@@ -172,53 +216,23 @@
       "reporting_period": "2025",
       "source_url": "pinnacleacademiccollege.com.au",
       "evidence_ids": [
-        "ev:acnc:ais:31128981902:2025"
+        "ev:acnc:ais:31128981902:4fb6fd94-386d-f111-ab0d-0022489549a2"
       ]
     }
   ],
   "source_native_records": [
     {
-      "source_record_id": "src:acnc-register:94096ef4-b7bb-560e-825c-e7dfc44e060a",
-      "source_family": "acnc-register",
-      "dataset_version": "2026-08-10",
-      "source_url": "https://www.acnc.gov.au/charity/charities?search=31128981902",
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "ABN": "31128981902",
-        "Legal Name": "Akademeia Limited",
-        "Registration Status": "registered",
-        "ACNC classifications": "education; children",
-        "Website": "pinnacleacademiccollege.com.au",
-        "ACNC registration ID": null,
-        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "ABN": "external_identifiers",
-        "Legal Name": "legal_name",
-        "Registration Status": "registrations"
-      },
-      "evidence_ids": [
-        "ev:acnc:31128981902"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-public-profile:31128981902:cb_5d5459e58dac4e49a042f717e395ebec:2026-08-13",
+      "source_record_id": "src:acnc-public-profile:31128981902:da30c989-91d2-ee11-904c-6045bdc27b8f:cb_5d5459e58dac4e49a042f717e395ebec",
       "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-13-public-api",
+      "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/da30c989-91d2-ee11-904c-6045bdc27b8f/profile",
-      "retrieved_at": "2026-08-13T05:50:58.991012Z",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
       "observed_at": "2026-06-21",
       "effective_from": null,
       "effective_to": null,
       "source_fields": {
         "uuid": "da30c989-91d2-ee11-904c-6045bdc27b8f",
-        "abn": "31128981902",
-        "latest_ais_year": "2025",
-        "latest_ais_uuid": "4fb6fd94-386d-f111-ab0d-0022489549a2"
+        "abn": "31128981902"
       },
       "source_payload": {
         "data": {
@@ -559,13 +573,320 @@
         "uuid": "da30c989-91d2-ee11-904c-6045bdc27b8f"
       },
       "canonical_field_mappings": {
-        "data.Name": "display_name",
         "data.OtherNames": "operating_names",
-        "data.AnnualReports": "acnc_ais_url",
-        "data.Programs": "programs"
+        "data.AddressStateOrProvince": "principal_location"
+      },
+      "evidence_ids": []
+    },
+    {
+      "source_record_id": "src:acnc-ais-detail:31128981902:4fb6fd94-386d-f111-ab0d-0022489549a2:cb_5d5459e58dac4e49a042f717e395ebec",
+      "source_family": "acnc-ais-detail",
+      "dataset_version": "2026-08-14-public-api",
+      "source_url": "https://www.acnc.gov.au/charity/charities/da30c989-91d2-ee11-904c-6045bdc27b8f/documents/4fb6fd94-386d-f111-ab0d-0022489549a2",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
+      "observed_at": "2026-06-21",
+      "effective_from": null,
+      "effective_to": null,
+      "source_fields": {
+        "abn": "31128981902",
+        "ais_uuid": "4fb6fd94-386d-f111-ab0d-0022489549a2",
+        "year": "2025",
+        "date_received": "2026-06-21T06:15:25.0000000Z"
+      },
+      "source_payload": {
+        "data": {
+          "Abn": "31128981902",
+          "ActivityAdvocacyNCivic": false,
+          "ActivityAgedCare": false,
+          "ActivityAnimalProtection": false,
+          "ActivityCultureAndArt": false,
+          "ActivityEconomicSocialCommunity": false,
+          "ActivityEmergencyNRelief": false,
+          "ActivityEmploymentNTraining": false,
+          "ActivityEnvironmental": false,
+          "ActivityGrantMaking": false,
+          "ActivityHealthRehabilitation": false,
+          "ActivityHigherEducation": false,
+          "ActivityHousing": false,
+          "ActivityIncomeSupportNMaintenance": false,
+          "ActivityInternational": false,
+          "ActivityInternationalDescription": null,
+          "ActivityInternationalOther": false,
+          "ActivityInternationalOtherDescription": null,
+          "ActivityLawNLegalServices": false,
+          "ActivityMain": null,
+          "ActivityMentalHealthCrisisIntervention": false,
+          "ActivityNdisSupported": null,
+          "ActivityNdisSupportedNext": null,
+          "ActivityOperating": true,
+          "ActivityOperatingOverseas": false,
+          "ActivityOther": false,
+          "ActivityOtherDescription": null,
+          "ActivityOtherEducation": false,
+          "ActivityOtherHealthServices": false,
+          "ActivityPersuitPurposesDescription": "We provide an excellent quality, flexible and student focused education. This is provided both on campus and via Distance Education for students for whom the average, traditional classroom setting does not work.",
+          "ActivityPhilanthropicPromotion": false,
+          "ActivityPolitical": false,
+          "ActivityPrimarySecondaryEducation": false,
+          "ActivityPurposeChange": null,
+          "ActivityPurposeChangeDescription": null,
+          "ActivityRecreationSocialClub": false,
+          "ActivityReligious": false,
+          "ActivityResearch": false,
+          "ActivitySocialServices": false,
+          "ActivitySports": false,
+          "ActivityTransferringFundsGoods": false,
+          "AdvancementOfEducation": false,
+          "AdvancementOfReligion": false,
+          "AssetsandLiabilitiesDescription": null,
+          "BasicReligiousCharity": false,
+          "BeneficiaryAboriginalTorres": false,
+          "BeneficiaryAdults": false,
+          "BeneficiaryAllAges": false,
+          "BeneficiaryChildren": false,
+          "BeneficiaryChronicIllness": false,
+          "BeneficiaryCrimeVictims": false,
+          "BeneficiaryDisasterVictims": false,
+          "BeneficiaryEarlyChildhood": false,
+          "BeneficiaryEthnic": false,
+          "BeneficiaryFamilies": false,
+          "BeneficiaryFinanciallyDisadvantaged": false,
+          "BeneficiaryGeneral": false,
+          "BeneficiaryHomelessnessRisk": false,
+          "BeneficiaryLGBT": false,
+          "BeneficiaryMain": null,
+          "BeneficiaryMen": false,
+          "BeneficiaryMigrantsRefugees": false,
+          "BeneficiaryOffenderFamilies": false,
+          "BeneficiaryOther": false,
+          "BeneficiaryOtherCharities": false,
+          "BeneficiaryOtherDescription": null,
+          "BeneficiaryOverseas": false,
+          "BeneficiaryPeopleWithDisability": false,
+          "BeneficiaryRuralRegionalRemote": false,
+          "BeneficiarySeniors": false,
+          "BeneficiaryUnemployed": false,
+          "BeneficiaryVeteranFamilies": false,
+          "BeneficiaryWomen": false,
+          "BeneficiaryYouth": false,
+          "CharityAddressCountry": "Australia",
+          "CharityAddressLine1": "10 Narangba Rd",
+          "CharityAddressLine2": null,
+          "CharityAddressPostalCode": "4503",
+          "CharityAddressStateOrProvince": "QLD",
+          "CharityAddressSuburb": "Kallangur",
+          "CharityEmail": "admin@pac.qld.edu.au",
+          "CharitySize": "Medium",
+          "CharityUuid": "da30c989-91d2-ee11-904c-6045bdc27b8f",
+          "ChildCareServices": false,
+          "ExpenseEmployees": "915125.0000",
+          "ExpenseGrantDonationsInAustralia": "0.0000",
+          "ExpenseGrantDonationsOutsideAustralia": "0.0000",
+          "ExpenseTotal": "1340308.0000",
+          "ExpensesOther": "425183.0000",
+          "FinAccrualAccounting": null,
+          "FinConsolidatedReportFromMiltiple": "No",
+          "FinDocumentedPoliciesRelatedPartyTransactions": null,
+          "FinFyeJune": false,
+          "FinProvideVoluntarily": null,
+          "FinRelatedPartyTransactions": "No",
+          "FinReportACT": false,
+          "FinReportFrom": "2025-01-01T00:00:00.0000000Z",
+          "FinReportNSW": false,
+          "FinReportNT": false,
+          "FinReportQLD": false,
+          "FinReportSA": false,
+          "FinReportTAS": false,
+          "FinReportTo": "2025-12-31T00:00:00.0000000Z",
+          "FinReportVIC": false,
+          "FinReportWA": false,
+          "FinReportingType": "Special purpose financial statements",
+          "FinSapDate": null,
+          "FundRaisingNumberACT": null,
+          "FundRaisingNumberNSW": null,
+          "FundRaisingNumberQLD": null,
+          "FundRaisingNumberSA": null,
+          "FundRaisingNumberTAS": null,
+          "FundRaisingNumberVIC": null,
+          "FundRaisingNumberWA": null,
+          "GovDocAccurate": null,
+          "GrantCapacityBuildingPct": null,
+          "GrantMultiYearPct": null,
+          "GrantPublicOpenApplicationPct": null,
+          "GrantRuralRegionPct": null,
+          "HasSubmittedToRegulator": true,
+          "HoursPaid": null,
+          "HoursTotal": null,
+          "HoursVolunteer": null,
+          "HrCasualEmployees": "13",
+          "HrFteStaff": "8.6900000000",
+          "HrFullTimeEmployees": "8",
+          "HrPartTimeEmployees": "3",
+          "HrUnpainVolunteers": "12",
+          "IncomeDonationsBequests": "32.0000",
+          "IncomeGovernmentGrants": "1373077.0000",
+          "IncomeOther": "0.0000",
+          "IncomeOtherComprehinsive": "0.0000",
+          "IncomeOtherNeg": null,
+          "IncomeOtherReceipts": "1944.0000",
+          "IncomeTotalComprehensive": "171200.0000",
+          "IncomeTotalReceipts": "1511508.0000",
+          "IncorporationStatus": null,
+          "InterestExpense": "0.0000",
+          "IsIncorporatedAssociation": false,
+          "KeyManagementPersonnel": false,
+          "LegalName": "Akademeia Limited",
+          "NetAssetsLiabilities": "489061.0000",
+          "NetSurplusDeficit": "171200.0000",
+          "NonCurrentLoansPayable": "0.0000",
+          "NumberOfKeyManagementPersonnel": "0",
+          "OperatingCountries": null,
+          "OperatingInACT": false,
+          "OperatingInNSW": false,
+          "OperatingInNT": false,
+          "OperatingInQLD": false,
+          "OperatingInSA": false,
+          "OperatingInTAS": false,
+          "OperatingInVIC": false,
+          "OperatingInWA": false,
+          "OperatingOverseas": false,
+          "OtherNames": [],
+          "OtherNonCurrentAssets": "0.0000",
+          "OtherNonCurrentLiabilities": "0.0000",
+          "OtherPurposeDescription": null,
+          "OtherPurposes": "False",
+          "Programs": [
+            {
+              "AisUuid": "4fb6fd94-386d-f111-ab0d-0022489549a2",
+              "Name": "Pinnacle Akademic College",
+              "OperatesOnline": true,
+              "ProgramBeneficiaries": [
+                "Children - aged 6 to under 15",
+                "Families",
+                "Aboriginal and Torres Strait Islander people",
+                "People from a culturally and linguistically diverse background",
+                "People in rural/regional/remote communities",
+                "Financially disadvantaged people"
+              ],
+              "ProgramClassification": "Educational development",
+              "ProgramClassificationID": "202",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Moreton Bay, QLD, Australia",
+                  "FormattedAddress": "City of Moreton Bay, QLD, Australia",
+                  "Marker": {
+                    "Latitude": -27.0946084,
+                    "Longitude": 152.9205918
+                  },
+                  "Name": "City of Moreton Bay",
+                  "uuid": "69b6fd94-386d-f111-ab0d-0022489549a2"
+                },
+                {
+                  "DisplayName": "Pinnacle Academic College, Narangba Road, Kallangur QLD, Australia",
+                  "FormattedAddress": "10 Narangba Rd, Kallangur QLD 4503, Australia",
+                  "Marker": {
+                    "Latitude": -27.2532134,
+                    "Longitude": 152.981027
+                  },
+                  "Name": "Pinnacle Academic College",
+                  "uuid": "6bb6fd94-386d-f111-ab0d-0022489549a2"
+                },
+                {
+                  "DisplayName": "Queensland, Australia",
+                  "FormattedAddress": "Queensland, Australia",
+                  "Marker": {
+                    "Latitude": -22.575197,
+                    "Longitude": 144.0847926
+                  },
+                  "Name": "Queensland",
+                  "uuid": "6db6fd94-386d-f111-ab0d-0022489549a2"
+                }
+              ],
+              "ProgramWeblink": "pinnacleacademiccollege.com.au",
+              "uuid": "5fb6fd94-386d-f111-ab0d-0022489549a2"
+            }
+          ],
+          "RegulatedACT": false,
+          "RegulatedNSW": false,
+          "RegulatedNT": false,
+          "RegulatedQLD": false,
+          "RegulatedSA": false,
+          "RegulatedTAS": false,
+          "RegulatedVIC": false,
+          "RegulatedWA": false,
+          "Regulator": null,
+          "RegulatorAGMDateACT": null,
+          "RegulatorAGMDateNT": null,
+          "RegulatorAGMDateVIC": null,
+          "RegulatorAGMDateWA": null,
+          "RegulatorFundRaising": "No",
+          "RegulatorFundRaisingACT": false,
+          "RegulatorFundRaisingNSW": false,
+          "RegulatorFundRaisingNT": false,
+          "RegulatorFundRaisingOnline": false,
+          "RegulatorFundRaisingQLD": false,
+          "RegulatorFundRaisingSA": false,
+          "RegulatorFundRaisingTAS": false,
+          "RegulatorFundRaisingVIC": false,
+          "RegulatorFundRaisingWA": false,
+          "RegulatorIncorporatedAssociationACT": false,
+          "RegulatorIncorporatedAssociationNSW": false,
+          "RegulatorIncorporatedAssociationNT": false,
+          "RegulatorIncorporatedAssociationNumberACT": null,
+          "RegulatorIncorporatedAssociationNumberNSW": null,
+          "RegulatorIncorporatedAssociationNumberNT": null,
+          "RegulatorIncorporatedAssociationNumberQLD": null,
+          "RegulatorIncorporatedAssociationNumberSA": null,
+          "RegulatorIncorporatedAssociationNumberTAS": null,
+          "RegulatorIncorporatedAssociationNumberVIC": null,
+          "RegulatorIncorporatedAssociationNumberWA": null,
+          "RegulatorIncorporatedAssociationQLD": false,
+          "RegulatorIncorporatedAssociationSA": false,
+          "RegulatorIncorporatedAssociationTAS": false,
+          "RegulatorIncorporatedAssociationVIC": false,
+          "RegulatorIncorporatedAssociationWA": false,
+          "RegulatorMetRequirementACT": false,
+          "RegulatorMetRequirementWA": null,
+          "RegulatorOtherDetails": null,
+          "RegulatorPrograms": null,
+          "RegulatorStates": false,
+          "RelatedPartyDetails": null,
+          "RelatedPartyTransactions": [],
+          "ReliefOfPoverty": false,
+          "ReportingGroupFlag": false,
+          "ResponsiblePersonAccurate": null,
+          "RevenueGoodsServices": "130956.0000",
+          "RevenueInvestments": "5499.0000",
+          "RevenueTotal": "1511508.0000",
+          "StatementYear": "2025",
+          "SubTypesAccurate": null,
+          "TotalAssets": "1704477.0000",
+          "TotalCurrentAssets": "489422.0000",
+          "TotalCurrentLiabilities": "210006.0000",
+          "TotalLiabilities": "1215416.0000",
+          "TotalNonCurrentAssets": "1215055.0000",
+          "TotalNonCurrentLiabilities": "1005410.0000",
+          "TotalNonCurrentLoansReceivable": "0.0000",
+          "TotalPaidKMP": "$0.00",
+          "Website": "pinnacleacademiccollege.com.au",
+          "__normalized": true,
+          "entityTypeVersion": "",
+          "entityVersion": "1950161202",
+          "timeStamp": "2026-06-21T06:15:22.0000000Z",
+          "type": "annual_information_statement",
+          "uuid": "4fb6fd94-386d-f111-ab0d-0022489549a2"
+        },
+        "type": "annual_information_statement",
+        "uuid": "4fb6fd94-386d-f111-ab0d-0022489549a2"
+      },
+      "canonical_field_mappings": {
+        "data.Programs": "programs",
+        "data.TotalRevenue": "financial_records[].revenue",
+        "data.TotalExpenses": "financial_records[].total_expenses"
       },
       "evidence_ids": [
-        "ev:acnc:ais:31128981902:2025"
+        "ev:acnc:ais:31128981902:4fb6fd94-386d-f111-ab0d-0022489549a2"
       ]
     }
   ],
@@ -687,13 +1008,13 @@
       "content_hash": null
     },
     {
-      "evidence_id": "ev:acnc:ais:31128981902:2025",
+      "evidence_id": "ev:acnc:ais:31128981902:4fb6fd94-386d-f111-ab0d-0022489549a2",
       "source_type": "regulatory",
-      "title": "Akademeia Limited Annual Information Statement 2025",
+      "title": "ACNC Annual Information Statement 2025",
       "publisher": "Australian Charities and Not-for-profits Commission",
       "url": "https://www.acnc.gov.au/charity/charities/da30c989-91d2-ee11-904c-6045bdc27b8f/documents/4fb6fd94-386d-f111-ab0d-0022489549a2",
       "observed_at": "2026-06-21",
-      "reporting_period": null,
+      "reporting_period": "2025",
       "page": null,
       "section": null,
       "content_hash": null
@@ -705,81 +1026,25 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "f7efaabd3a96d26029d611b508951a2dfcd1f253856765f6c36e9ffa5ceebd99",
-    "generated_at": "2026-08-13T05:51:03.017771Z",
+    "source_text_hash": "9c2aaeeb4489df8930ff65249b388d516d9fb44b544208f522517c6fa6ecd826",
+    "generated_at": "2026-08-10T13:53:24.457398Z",
     "vector_ref": "embeddings.parquet#cb_5d5459e58dac4e49a042f717e395ebec"
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
+    "prompt_version": "phase2a-0.4",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "3dcee2cc38a3454d0180303c3baaeffd417b843d9c38c52078dac5bf07c121f2",
-    "generated_at": "2026-08-12T14:06:45.592102Z",
+    "evidence_input_hash": "81404e6dfe90991b67ffec60db8f920c0c5eb131eeb046def0410a872e719260",
+    "generated_at": "2026-08-10T12:58:07.313156Z",
     "editorial_policy_version": "0.1"
   },
-  "derivative_assessments": [
-    {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T14:06:45.592102Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-rc2-editorial-migration",
-      "input_hash": "3dcee2cc38a3454d0180303c3baaeffd417b843d9c38c52078dac5bf07c121f2",
-      "disposition": "refreshed",
-      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "taxonomy",
-      "generated_at": "2026-08-12T14:06:45.592102Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "3dcee2cc38a3454d0180303c3baaeffd417b843d9c38c52078dac5bf07c121f2",
-      "disposition": "reused",
-      "reason": "No new supported canonical classification facts.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "fundraising",
-      "generated_at": null,
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "3dcee2cc38a3454d0180303c3baaeffd417b843d9c38c52078dac5bf07c121f2",
-      "disposition": "reused",
-      "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "embedding",
-      "generated_at": "2026-08-10T13:53:24.457398Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "9c2aaeeb4489df8930ff65249b388d516d9fb44b544208f522517c6fa6ecd826",
-      "disposition": "reused",
-      "reason": "Semantic source text unchanged.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "similarities",
-      "generated_at": "2026-08-10T13:53:24.457398Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "9c2aaeeb4489df8930ff65249b388d516d9fb44b544208f522517c6fa6ecd826",
-      "disposition": "reused",
-      "reason": "Embedding reused; semantic neighbours retained.",
-      "affected_dimensions": []
-    }
-  ],
-  "dataset_version": "phase2b-2026-08-13-rc3",
+  "derivative_assessments": [],
+  "dataset_version": "phase2b-2026-08-14-rc4",
   "card_schema_version": "0.4",
-  "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T05:50:58.991012Z"
+  "editorial_policy_version": "0.4-rc4",
+  "generator_version": "0.5.0-rc4",
+  "built_at": "2026-08-13T10:52:47.483880Z"
 }

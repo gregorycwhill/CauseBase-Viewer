@@ -1,0 +1,33 @@
+{
+  "source_record_id": "src:report-extract:45127505739:2b4900457b82d674:cb_6c39def4ef1843d7bf41f579cb971060",
+  "source_family": "organisation-report-extract",
+  "dataset_version": "2026-08-14-private-extraction",
+  "source_url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/a12b0678-38af-e811-a963-000d3ad244fd-d0e75279-d970-4018-aa71-8462543ee43e-Financial%20Report-12c6cf42-e74f-f111-bec7-6045bde5be38-BMDI_-_Financial_Statements_30_June_2025_-_signed.pdf",
+  "retrieved_at": "2026-08-13T10:52:47.483880Z",
+  "observed_at": "2026-08-13",
+  "effective_from": null,
+  "effective_to": null,
+  "source_fields": {
+    "filename": "2b4900457b82d674f66342db0cdb219cfaf02c541d0286d6ee62a5db5c592ce1.pdf",
+    "source_sha256": "2b4900457b82d674f66342db0cdb219cfaf02c541d0286d6ee62a5db5c592ce1",
+    "page_count": 17,
+    "discovery_basis": "ACNC public profile Documents field"
+  },
+  "source_payload": {
+    "rows": [],
+    "diagnostics": {
+      "native_text_pages": 16,
+      "low_text_pages": [
+        1
+      ],
+      "ocr_attempted_pages": []
+    }
+  },
+  "canonical_field_mappings": {
+    "rows[].label": "financial_records[].*_breakdown",
+    "rows[].current": "financial_records[].*_breakdown[].amount"
+  },
+  "evidence_ids": [
+    "ev:report:45127505739:2b4900457b82d674"
+  ]
+}

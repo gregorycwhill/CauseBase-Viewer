@@ -98,10 +98,10 @@
     {
       "capability": "latest_acnc_ais",
       "status": "not_available_from_source",
-      "source_record_id": null,
+      "source_record_id": "src:acnc-public-profile:65996383887:8872388d-3aaf-e811-a963-000d3ad244fd:cb_b98aa616e57b4e90aef7abf3bfb2eed9",
       "evidence_ids": [],
       "observed_at": "2026-08-13",
-      "freshness_note": "No submitted AIS appears in the 2026-08-13 public ACNC profile acquisition."
+      "freshness_note": "No submitted AIS was returned by the public ACNC profile endpoint."
     }
   ],
   "enrichment_level": "enriched",
@@ -109,78 +109,39 @@
   "geography": [
     "South Australia"
   ],
-  "navigation_geography": [
+  "geography_observations": [
     {
-      "level": "country",
-      "code": "AU",
-      "label": "Australia",
-      "evidence_ids": [
-        "ev:acnc:65996383887"
-      ]
-    },
-    {
-      "level": "state_territory",
-      "code": "AU-SA",
-      "label": "South Australia",
-      "evidence_ids": [
-        "ev:acnc:65996383887"
-      ]
+      "value": "South Australia",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
     }
   ],
-  "causebase_summary": "Ara Irititja Aboriginal Corporation is an incorporated Aboriginal corporation associated with South Australia. CauseBase has only a regulatory extract recording the organisation’s legal name and its association with South Australia and does not have sufficient descriptive evidence in this release to identify specific activities, programs, beneficiaries or participation modes. No website, annual report or program descriptions were available in the supplied records, so this card is limited to the organisation’s name and geographic association.",
-  "summary_evidence_ids": [
-    "ev:acnc:65996383887"
-  ],
+  "navigation_geography": [],
+  "causebase_summary": "Ara Irititja Aboriginal Corporation is recorded on the Australian Charities and Not-for-profits Commission register with a legal name of Ara Irititja Aboriginal Corporation and an ACNC-derived location of South Australia (observed 2026-08-10). CauseBase has not located an organisational website, published descriptive material, or accessible financial statements in the supplied evidence. The available regulatory extract provides the legal identity and jurisdiction only; it does not provide information on specific activities, programs, beneficiaries, or how people can participate. Organisation-authored claims, if any, were not available in the provided sources.",
+  "summary_evidence_ids": [],
   "organisation_self_description": null,
   "activities": [],
+  "activity_observations": [],
   "beneficiaries": [],
+  "beneficiary_observations": [],
   "participation_modes": [],
   "participation_observations": [],
   "opportunities": [],
   "programs": [],
   "source_native_records": [
     {
-      "source_record_id": "src:acnc-register:163b9912-b6d7-5c81-a438-8e73f92546c8",
-      "source_family": "acnc-register",
-      "dataset_version": "2026-08-10",
-      "source_url": "https://www.acnc.gov.au/charity/charities?search=65996383887",
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "ABN": "65996383887",
-        "Legal Name": "Ara Irititja Aboriginal Corporation",
-        "Registration Status": "registered",
-        "ACNC classifications": "social welfare; other beneficiary",
-        "Website": null,
-        "ACNC registration ID": null,
-        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "ABN": "external_identifiers",
-        "Legal Name": "legal_name",
-        "Registration Status": "registrations"
-      },
-      "evidence_ids": [
-        "ev:acnc:65996383887"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-public-profile:65996383887:cb_b98aa616e57b4e90aef7abf3bfb2eed9:2026-08-13",
+      "source_record_id": "src:acnc-public-profile:65996383887:8872388d-3aaf-e811-a963-000d3ad244fd:cb_b98aa616e57b4e90aef7abf3bfb2eed9",
       "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-13-public-api",
+      "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/8872388d-3aaf-e811-a963-000d3ad244fd/profile",
-      "retrieved_at": "2026-08-13T05:50:58.991012Z",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
       "observed_at": "2026-08-13",
       "effective_from": null,
       "effective_to": null,
       "source_fields": {
         "uuid": "8872388d-3aaf-e811-a963-000d3ad244fd",
-        "abn": "65996383887",
-        "latest_ais_year": null,
-        "latest_ais_uuid": null
+        "abn": "65996383887"
       },
       "source_payload": {
         "data": {
@@ -663,10 +624,8 @@
         "uuid": "8872388d-3aaf-e811-a963-000d3ad244fd"
       },
       "canonical_field_mappings": {
-        "data.Name": "display_name",
         "data.OtherNames": "operating_names",
-        "data.AnnualReports": "acnc_ais_url",
-        "data.Programs": "programs"
+        "data.AddressStateOrProvince": "principal_location"
       },
       "evidence_ids": []
     }
@@ -732,81 +691,25 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "370bdfe295657c1642cd67af51724bf58b18836bc3a46cd7a1d71595f3957298",
-    "generated_at": "2026-08-13T05:51:03.018195Z",
+    "source_text_hash": "9631fa5816fd59269cd01bac72b1011112203eaa2ca0d2f8c9fcfa1cbb5e0a07",
+    "generated_at": "2026-08-10T13:53:24.457703Z",
     "vector_ref": "embeddings.parquet#cb_b98aa616e57b4e90aef7abf3bfb2eed9"
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
+    "prompt_version": "phase2a-0.5",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "0bc1daaaedf4ae2db50925795a0be6a71efc94fbd293d8cdff0ded764711405e",
-    "generated_at": "2026-08-12T14:11:40.434138Z",
+    "evidence_input_hash": "7cd6457422052328015f69759c5e739f2d9139776ca6d07a144138df10b36c53",
+    "generated_at": "2026-08-10T13:51:29.238183Z",
     "editorial_policy_version": "0.1"
   },
-  "derivative_assessments": [
-    {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T14:11:40.434138Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-rc2-editorial-migration",
-      "input_hash": "0bc1daaaedf4ae2db50925795a0be6a71efc94fbd293d8cdff0ded764711405e",
-      "disposition": "refreshed",
-      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "taxonomy",
-      "generated_at": "2026-08-12T14:11:40.434138Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "0bc1daaaedf4ae2db50925795a0be6a71efc94fbd293d8cdff0ded764711405e",
-      "disposition": "reused",
-      "reason": "No new supported canonical classification facts.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "fundraising",
-      "generated_at": null,
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "0bc1daaaedf4ae2db50925795a0be6a71efc94fbd293d8cdff0ded764711405e",
-      "disposition": "reused",
-      "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "embedding",
-      "generated_at": "2026-08-10T13:53:24.457703Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "9631fa5816fd59269cd01bac72b1011112203eaa2ca0d2f8c9fcfa1cbb5e0a07",
-      "disposition": "reused",
-      "reason": "Semantic source text unchanged.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "similarities",
-      "generated_at": "2026-08-10T13:53:24.457703Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "9631fa5816fd59269cd01bac72b1011112203eaa2ca0d2f8c9fcfa1cbb5e0a07",
-      "disposition": "reused",
-      "reason": "Embedding reused; semantic neighbours retained.",
-      "affected_dimensions": []
-    }
-  ],
-  "dataset_version": "phase2b-2026-08-13-rc3",
+  "derivative_assessments": [],
+  "dataset_version": "phase2b-2026-08-14-rc4",
   "card_schema_version": "0.4",
-  "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T05:50:58.991012Z"
+  "editorial_policy_version": "0.4-rc4",
+  "generator_version": "0.5.0-rc4",
+  "built_at": "2026-08-13T10:52:47.483880Z"
 }

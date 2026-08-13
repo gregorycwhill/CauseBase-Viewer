@@ -72,14 +72,6 @@
       "freshness_note": null
     },
     {
-      "capability": "website",
-      "status": "retrieval_failed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
       "capability": "fundraising_expenditure",
       "status": "not_available_from_source",
       "source_record_id": null,
@@ -100,12 +92,20 @@
     {
       "capability": "latest_acnc_ais",
       "status": "observed",
-      "source_record_id": null,
+      "source_record_id": "src:acnc-ais-detail:99862937528:b45f3fc7-94f2-f011-8406-6045bdc272f3:cb_21850e61afb54d82b6a821f256034fb5",
       "evidence_ids": [
-        "ev:acnc:ais:99862937528:2025"
+        "ev:acnc:ais:99862937528:b45f3fc7-94f2-f011-8406-6045bdc272f3"
       ],
       "observed_at": "2026-01-16",
-      "freshness_note": "Latest submitted ACNC AIS in the 2026-08-13 public-profile acquisition: 2025."
+      "freshness_note": "Latest submitted AIS detail acquired from the public ACNC entity endpoint."
+    },
+    {
+      "capability": "website",
+      "status": "observed",
+      "source_record_id": null,
+      "evidence_ids": [],
+      "observed_at": "2026-08-13",
+      "freshness_note": "Public website locator acquired from the ACNC profile."
     }
   ],
   "enrichment_level": "enriched",
@@ -114,36 +114,52 @@
     "Brisbane Valley, Queensland (appears in legal name)",
     "Queensland, Australia (listed in ACNC structured geography)"
   ],
-  "navigation_geography": [
+  "geography_observations": [
     {
-      "level": "country",
-      "code": "AU",
-      "label": "Australia",
-      "evidence_ids": [
-        "ev:acnc:99862937528"
-      ]
+      "value": "Brisbane Valley, Queensland (appears in legal name)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
     },
     {
-      "level": "state_territory",
-      "code": "AU-QLD",
-      "label": "Queensland",
-      "evidence_ids": [
-        "ev:acnc:99862937528"
-      ]
+      "value": "Queensland, Australia (listed in ACNC structured geography)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
     }
   ],
-  "causebase_summary": "Brisbane Valley Cat Rescue Inc. is an incorporated not‑for‑profit registered with the national charity regulator and based in the Brisbane Valley region of Queensland, Australia. CauseBase does not have sufficient descriptive evidence in this release to independently identify the organisation's specific activities or beneficiaries; the legal name includes the phrase “Cat Rescue”, which indicates an animal-focused purpose. ACNC financial reporting is available for the year 1 July 2022 to 30 June 2023.",
-  "summary_evidence_ids": [
-    "ev:acnc:99862937528",
-    "ev:ais:99862937528:2023"
-  ],
+  "navigation_geography": [],
+  "causebase_summary": "Brisbane Valley Cat Rescue Inc. is the legal name on the ACNC register; the name includes the phrase “Cat Rescue.” The ACNC Annual Information Statement for 1/07/2022–30/06/2023 records the organisation and reports revenue of AUD 63,570 and total expenses of AUD 150,735 for that period. The organisation is registered in Queensland; the subject record lists QLD as structured geography. No program descriptions, service delivery details, beneficiary counts or locations of activity are present in the supplied ACNC extracts. Attempts to retrieve the organisation website for further detail failed in the evidence pack. The available documents do not provide detail on how the organisation operates, who directly delivers services, or how volunteers or other participants are engaged.",
+  "summary_evidence_ids": [],
   "organisation_self_description": null,
   "activities": [
     "Legal name contains the phrase 'Cat Rescue' (indicates focus on rescuing cats, as stated in the legal name)",
     "Financial reporting to the ACNC for the year 01/07/2022–30/06/2023 (revenue and expenses recorded)"
   ],
+  "activity_observations": [
+    {
+      "value": "Legal name contains the phrase 'Cat Rescue' (indicates focus on rescuing cats, as stated in the legal name)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Financial reporting to the ACNC for the year 01/07/2022–30/06/2023 (revenue and expenses recorded)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    }
+  ],
   "beneficiaries": [
-    "Cats (implied by the organisation's legal name 'Cat Rescue')"
+    "Cats"
+  ],
+  "beneficiary_observations": [
+    {
+      "value": "Cats",
+      "source_role": "legacy_source_qualifier",
+      "provenance_note": "implied by the organisation's legal name 'Cat Rescue'",
+      "evidence_ids": []
+    }
   ],
   "participation_modes": [],
   "participation_observations": [],
@@ -165,7 +181,7 @@
       "reporting_period": "2025",
       "source_url": "https://www.acnc.gov.au/charity/charities/4a97f631-3aaf-e811-a95e-000d3ad24c60/documents/b45f3fc7-94f2-f011-8406-6045bdc272f3",
       "evidence_ids": [
-        "ev:acnc:ais:99862937528:2025"
+        "ev:acnc:ais:99862937528:b45f3fc7-94f2-f011-8406-6045bdc272f3"
       ]
     },
     {
@@ -196,7 +212,7 @@
       "reporting_period": "2025",
       "source_url": "https://www.acnc.gov.au/charity/charities/4a97f631-3aaf-e811-a95e-000d3ad24c60/documents/b45f3fc7-94f2-f011-8406-6045bdc272f3",
       "evidence_ids": [
-        "ev:acnc:ais:99862937528:2025"
+        "ev:acnc:ais:99862937528:b45f3fc7-94f2-f011-8406-6045bdc272f3"
       ]
     },
     {
@@ -220,82 +236,23 @@
       "reporting_period": "2025",
       "source_url": "https://www.acnc.gov.au/charity/charities/4a97f631-3aaf-e811-a95e-000d3ad24c60/documents/b45f3fc7-94f2-f011-8406-6045bdc272f3",
       "evidence_ids": [
-        "ev:acnc:ais:99862937528:2025"
+        "ev:acnc:ais:99862937528:b45f3fc7-94f2-f011-8406-6045bdc272f3"
       ]
     }
   ],
   "source_native_records": [
     {
-      "source_record_id": "src:acnc-register:a5fdca91-b6ea-52f1-b124-8f136e5ba099",
-      "source_family": "acnc-register",
-      "dataset_version": "2026-08-10",
-      "source_url": "https://www.acnc.gov.au/charity/charities?search=99862937528",
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "ABN": "99862937528",
-        "Legal Name": "Brisbane Valley Cat Rescue Inc.",
-        "Registration Status": "registered",
-        "ACNC classifications": "animal welfare; children",
-        "Website": "www.brisbanevalleycatrescue.com",
-        "ACNC registration ID": null,
-        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "ABN": "external_identifiers",
-        "Legal Name": "legal_name",
-        "Registration Status": "registrations"
-      },
-      "evidence_ids": [
-        "ev:acnc:99862937528"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-ais:fr:ais:cb_21850e61afb54d82b6a821f256034fb5:2023",
-      "source_family": "acnc-ais",
-      "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": "2022-07-01",
-      "effective_to": "2023-06-30",
-      "source_fields": {
-        "Reporting period": "01/07/2022 to 30/06/2023",
-        "Reporting scope": "subject",
-        "Consolidated": "unknown",
-        "Revenue": "63570",
-        "Donations and bequests": null,
-        "Government grants": null,
-        "Total expenses": "150735",
-        "Assets": null,
-        "Liabilities": null
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "Revenue": "financial_records[].revenue",
-        "Total expenses": "financial_records[].total_expenses"
-      },
-      "evidence_ids": [
-        "ev:ais:99862937528:2023"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-public-profile:99862937528:cb_21850e61afb54d82b6a821f256034fb5:2026-08-13",
+      "source_record_id": "src:acnc-public-profile:99862937528:4a97f631-3aaf-e811-a95e-000d3ad24c60:cb_21850e61afb54d82b6a821f256034fb5",
       "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-13-public-api",
+      "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/4a97f631-3aaf-e811-a95e-000d3ad24c60/profile",
-      "retrieved_at": "2026-08-13T05:50:58.991012Z",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
       "observed_at": "2026-01-16",
       "effective_from": null,
       "effective_to": null,
       "source_fields": {
         "uuid": "4a97f631-3aaf-e811-a95e-000d3ad24c60",
-        "abn": "99862937528",
-        "latest_ais_year": "2025",
-        "latest_ais_uuid": "b45f3fc7-94f2-f011-8406-6045bdc272f3"
+        "abn": "99862937528"
       },
       "source_payload": {
         "data": {
@@ -1058,13 +1015,395 @@
         "uuid": "4a97f631-3aaf-e811-a95e-000d3ad24c60"
       },
       "canonical_field_mappings": {
-        "data.Name": "display_name",
         "data.OtherNames": "operating_names",
-        "data.AnnualReports": "acnc_ais_url",
-        "data.Programs": "programs"
+        "data.AddressStateOrProvince": "principal_location"
+      },
+      "evidence_ids": []
+    },
+    {
+      "source_record_id": "src:acnc-ais-detail:99862937528:b45f3fc7-94f2-f011-8406-6045bdc272f3:cb_21850e61afb54d82b6a821f256034fb5",
+      "source_family": "acnc-ais-detail",
+      "dataset_version": "2026-08-14-public-api",
+      "source_url": "https://www.acnc.gov.au/charity/charities/4a97f631-3aaf-e811-a95e-000d3ad24c60/documents/b45f3fc7-94f2-f011-8406-6045bdc272f3",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
+      "observed_at": "2026-01-16",
+      "effective_from": null,
+      "effective_to": null,
+      "source_fields": {
+        "abn": "99862937528",
+        "ais_uuid": "b45f3fc7-94f2-f011-8406-6045bdc272f3",
+        "year": "2025",
+        "date_received": "2026-01-16T04:35:36.0000000Z"
+      },
+      "source_payload": {
+        "data": {
+          "Abn": "99862937528",
+          "ActivityAdvocacyNCivic": false,
+          "ActivityAgedCare": false,
+          "ActivityAnimalProtection": false,
+          "ActivityCultureAndArt": false,
+          "ActivityEconomicSocialCommunity": false,
+          "ActivityEmergencyNRelief": false,
+          "ActivityEmploymentNTraining": false,
+          "ActivityEnvironmental": false,
+          "ActivityGrantMaking": false,
+          "ActivityHealthRehabilitation": false,
+          "ActivityHigherEducation": false,
+          "ActivityHousing": false,
+          "ActivityIncomeSupportNMaintenance": false,
+          "ActivityInternational": false,
+          "ActivityInternationalDescription": null,
+          "ActivityInternationalOther": false,
+          "ActivityInternationalOtherDescription": null,
+          "ActivityLawNLegalServices": false,
+          "ActivityMain": null,
+          "ActivityMentalHealthCrisisIntervention": false,
+          "ActivityNdisSupported": null,
+          "ActivityNdisSupportedNext": null,
+          "ActivityOperating": true,
+          "ActivityOperatingOverseas": false,
+          "ActivityOther": false,
+          "ActivityOtherDescription": null,
+          "ActivityOtherEducation": false,
+          "ActivityOtherHealthServices": false,
+          "ActivityPersuitPurposesDescription": "We provide community services for cats in need.  Accessing resources for temporary housing, vet bills and no cost desexing.",
+          "ActivityPhilanthropicPromotion": false,
+          "ActivityPolitical": false,
+          "ActivityPrimarySecondaryEducation": false,
+          "ActivityPurposeChange": null,
+          "ActivityPurposeChangeDescription": null,
+          "ActivityRecreationSocialClub": false,
+          "ActivityReligious": false,
+          "ActivityResearch": false,
+          "ActivitySocialServices": false,
+          "ActivitySports": false,
+          "ActivityTransferringFundsGoods": false,
+          "AdvancementOfEducation": false,
+          "AdvancementOfReligion": false,
+          "AssetsandLiabilitiesDescription": "Bank account it $195872.38 Fixed assets $39452",
+          "BasicReligiousCharity": false,
+          "BeneficiaryAboriginalTorres": false,
+          "BeneficiaryAdults": false,
+          "BeneficiaryAllAges": false,
+          "BeneficiaryChildren": false,
+          "BeneficiaryChronicIllness": false,
+          "BeneficiaryCrimeVictims": false,
+          "BeneficiaryDisasterVictims": false,
+          "BeneficiaryEarlyChildhood": false,
+          "BeneficiaryEthnic": false,
+          "BeneficiaryFamilies": false,
+          "BeneficiaryFinanciallyDisadvantaged": false,
+          "BeneficiaryGeneral": false,
+          "BeneficiaryHomelessnessRisk": false,
+          "BeneficiaryLGBT": false,
+          "BeneficiaryMain": null,
+          "BeneficiaryMen": false,
+          "BeneficiaryMigrantsRefugees": false,
+          "BeneficiaryOffenderFamilies": false,
+          "BeneficiaryOther": false,
+          "BeneficiaryOtherCharities": false,
+          "BeneficiaryOtherDescription": null,
+          "BeneficiaryOverseas": false,
+          "BeneficiaryPeopleWithDisability": false,
+          "BeneficiaryRuralRegionalRemote": false,
+          "BeneficiarySeniors": false,
+          "BeneficiaryUnemployed": false,
+          "BeneficiaryVeteranFamilies": false,
+          "BeneficiaryWomen": false,
+          "BeneficiaryYouth": false,
+          "CharityAddressCountry": "Australia",
+          "CharityAddressLine1": "16-22 Buccan Rd",
+          "CharityAddressLine2": null,
+          "CharityAddressPostalCode": "4207",
+          "CharityAddressStateOrProvince": "QLD",
+          "CharityAddressSuburb": "Buccan",
+          "CharityEmail": "tennille.cat@gmail.com",
+          "CharitySize": "Small",
+          "CharityUuid": "4a97f631-3aaf-e811-a95e-000d3ad24c60",
+          "ChildCareServices": false,
+          "ExpenseEmployees": "0.0000",
+          "ExpenseGrantDonationsInAustralia": "0.0000",
+          "ExpenseGrantDonationsOutsideAustralia": "0.0000",
+          "ExpenseTotal": "71084.0000",
+          "ExpensesOther": "71084.0000",
+          "FinAccrualAccounting": "Cash",
+          "FinConsolidatedReportFromMiltiple": null,
+          "FinDocumentedPoliciesRelatedPartyTransactions": null,
+          "FinFyeJune": false,
+          "FinProvideVoluntarily": null,
+          "FinRelatedPartyTransactions": "No",
+          "FinReportACT": false,
+          "FinReportFrom": "2024-07-01T00:00:00.0000000Z",
+          "FinReportNSW": false,
+          "FinReportNT": false,
+          "FinReportQLD": false,
+          "FinReportSA": false,
+          "FinReportTAS": false,
+          "FinReportTo": "2025-06-30T00:00:00.0000000Z",
+          "FinReportVIC": false,
+          "FinReportWA": false,
+          "FinReportingType": null,
+          "FinSapDate": null,
+          "FundRaisingNumberACT": null,
+          "FundRaisingNumberNSW": null,
+          "FundRaisingNumberQLD": null,
+          "FundRaisingNumberSA": null,
+          "FundRaisingNumberTAS": null,
+          "FundRaisingNumberVIC": null,
+          "FundRaisingNumberWA": null,
+          "GovDocAccurate": null,
+          "GrantCapacityBuildingPct": null,
+          "GrantMultiYearPct": null,
+          "GrantPublicOpenApplicationPct": null,
+          "GrantRuralRegionPct": null,
+          "HasSubmittedToRegulator": false,
+          "HoursPaid": null,
+          "HoursTotal": null,
+          "HoursVolunteer": null,
+          "HrCasualEmployees": "0",
+          "HrFteStaff": "0.0000000000",
+          "HrFullTimeEmployees": "0",
+          "HrPartTimeEmployees": "0",
+          "HrUnpainVolunteers": "10",
+          "IncomeDonationsBequests": "193576.0000",
+          "IncomeGovernmentGrants": "1026.0000",
+          "IncomeOther": "0.0000",
+          "IncomeOtherComprehinsive": "0.0000",
+          "IncomeOtherNeg": null,
+          "IncomeOtherReceipts": "0.0000",
+          "IncomeTotalComprehensive": "0.0000",
+          "IncomeTotalReceipts": "194929.0000",
+          "IncorporationStatus": null,
+          "InterestExpense": "0.0000",
+          "IsIncorporatedAssociation": true,
+          "KeyManagementPersonnel": false,
+          "LegalName": "Brisbane Valley Cat Rescue Inc.",
+          "NetAssetsLiabilities": "235324.0000",
+          "NetSurplusDeficit": "123845.0000",
+          "NonCurrentLoansPayable": "0.0000",
+          "NumberOfKeyManagementPersonnel": "0",
+          "OperatingCountries": null,
+          "OperatingInACT": false,
+          "OperatingInNSW": false,
+          "OperatingInNT": false,
+          "OperatingInQLD": false,
+          "OperatingInSA": false,
+          "OperatingInTAS": false,
+          "OperatingInVIC": false,
+          "OperatingInWA": false,
+          "OperatingOverseas": false,
+          "OtherNames": [],
+          "OtherNonCurrentAssets": "0.0000",
+          "OtherNonCurrentLiabilities": "0.0000",
+          "OtherPurposeDescription": null,
+          "OtherPurposes": "False",
+          "Programs": [
+            {
+              "AisUuid": "b45f3fc7-94f2-f011-8406-6045bdc272f3",
+              "Name": "Community Desexing Program",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Families",
+                "Animals"
+              ],
+              "ProgramClassification": "Animal welfare",
+              "ProgramClassificationID": "26",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Logan City, QLD, Australia",
+                  "FormattedAddress": "Logan, QLD, Australia",
+                  "Marker": {
+                    "Latitude": -27.7749944,
+                    "Longitude": 153.0618566
+                  },
+                  "Name": "Logan City",
+                  "uuid": "de5f3fc7-94f2-f011-8406-6045bdc272f3"
+                },
+                {
+                  "DisplayName": "Somerset Regional, QLD, Australia",
+                  "FormattedAddress": "Somerset, QLD, Australia",
+                  "Marker": {
+                    "Latitude": -26.9764219,
+                    "Longitude": 152.3565156
+                  },
+                  "Name": "Somerset Regional",
+                  "uuid": "e15f3fc7-94f2-f011-8406-6045bdc272f3"
+                }
+              ],
+              "ProgramWeblink": null,
+              "uuid": "d45f3fc7-94f2-f011-8406-6045bdc272f3"
+            },
+            {
+              "AisUuid": "b45f3fc7-94f2-f011-8406-6045bdc272f3",
+              "Name": "Foster Program",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Early childhood - aged under 6",
+                "Children - aged 6 to under 15",
+                "Youth - 15 to under 25",
+                "Adults - aged 25 to under 65",
+                "Adults - aged 65 and over",
+                "Families",
+                "Aboriginal and Torres Strait Islander people",
+                "People from a culturally and linguistically diverse background",
+                "People in rural/regional/remote communities",
+                "Financially disadvantaged people",
+                "Unemployed persons",
+                "Females",
+                "Males",
+                "Animals"
+              ],
+              "ProgramClassification": "Animal adoptions",
+              "ProgramClassificationID": "28",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Logan, QLD, Australia",
+                  "FormattedAddress": "Logan, QLD, Australia",
+                  "Marker": {
+                    "Latitude": -27.7749944,
+                    "Longitude": 153.0618566
+                  },
+                  "Name": "Logan City",
+                  "uuid": "fd5f3fc7-94f2-f011-8406-6045bdc272f3"
+                },
+                {
+                  "DisplayName": "Somerset, QLD, Australia",
+                  "FormattedAddress": "Somerset, QLD, Australia",
+                  "Marker": {
+                    "Latitude": -26.9764219,
+                    "Longitude": 152.3565156
+                  },
+                  "Name": "Somerset Regional",
+                  "uuid": "01603fc7-94f2-f011-8406-6045bdc272f3"
+                }
+              ],
+              "ProgramWeblink": null,
+              "uuid": "e35f3fc7-94f2-f011-8406-6045bdc272f3"
+            },
+            {
+              "AisUuid": "b45f3fc7-94f2-f011-8406-6045bdc272f3",
+              "Name": "Crisis Care",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Families",
+                "Financially disadvantaged people",
+                "People with disabilities",
+                "Unemployed persons",
+                "Females",
+                "Males",
+                "Animals"
+              ],
+              "ProgramClassification": "Domesticated animal welfare",
+              "ProgramClassificationID": "27",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Logan City, QLD, Australia",
+                  "FormattedAddress": "Logan, QLD, Australia",
+                  "Marker": {
+                    "Latitude": -27.7749944,
+                    "Longitude": 153.0618566
+                  },
+                  "Name": "Logan City",
+                  "uuid": "0e603fc7-94f2-f011-8406-6045bdc272f3"
+                },
+                {
+                  "DisplayName": "Somerset, QLD, Australia",
+                  "FormattedAddress": "Somerset, QLD, Australia",
+                  "Marker": {
+                    "Latitude": -26.9764219,
+                    "Longitude": 152.3565156
+                  },
+                  "Name": "Somerset Regional",
+                  "uuid": "10603fc7-94f2-f011-8406-6045bdc272f3"
+                }
+              ],
+              "ProgramWeblink": null,
+              "uuid": "03603fc7-94f2-f011-8406-6045bdc272f3"
+            }
+          ],
+          "RegulatedACT": false,
+          "RegulatedNSW": false,
+          "RegulatedNT": false,
+          "RegulatedQLD": false,
+          "RegulatedSA": false,
+          "RegulatedTAS": false,
+          "RegulatedVIC": false,
+          "RegulatedWA": false,
+          "Regulator": null,
+          "RegulatorAGMDateACT": null,
+          "RegulatorAGMDateNT": null,
+          "RegulatorAGMDateVIC": null,
+          "RegulatorAGMDateWA": null,
+          "RegulatorFundRaising": "No",
+          "RegulatorFundRaisingACT": false,
+          "RegulatorFundRaisingNSW": false,
+          "RegulatorFundRaisingNT": false,
+          "RegulatorFundRaisingOnline": false,
+          "RegulatorFundRaisingQLD": false,
+          "RegulatorFundRaisingSA": false,
+          "RegulatorFundRaisingTAS": false,
+          "RegulatorFundRaisingVIC": false,
+          "RegulatorFundRaisingWA": false,
+          "RegulatorIncorporatedAssociationACT": false,
+          "RegulatorIncorporatedAssociationNSW": false,
+          "RegulatorIncorporatedAssociationNT": false,
+          "RegulatorIncorporatedAssociationNumberACT": null,
+          "RegulatorIncorporatedAssociationNumberNSW": null,
+          "RegulatorIncorporatedAssociationNumberNT": null,
+          "RegulatorIncorporatedAssociationNumberQLD": "IA41803",
+          "RegulatorIncorporatedAssociationNumberSA": null,
+          "RegulatorIncorporatedAssociationNumberTAS": null,
+          "RegulatorIncorporatedAssociationNumberVIC": null,
+          "RegulatorIncorporatedAssociationNumberWA": null,
+          "RegulatorIncorporatedAssociationQLD": true,
+          "RegulatorIncorporatedAssociationSA": false,
+          "RegulatorIncorporatedAssociationTAS": false,
+          "RegulatorIncorporatedAssociationVIC": false,
+          "RegulatorIncorporatedAssociationWA": false,
+          "RegulatorMetRequirementACT": false,
+          "RegulatorMetRequirementWA": null,
+          "RegulatorOtherDetails": null,
+          "RegulatorPrograms": null,
+          "RegulatorStates": false,
+          "RelatedPartyDetails": null,
+          "RelatedPartyTransactions": [],
+          "ReliefOfPoverty": false,
+          "ReportingGroupFlag": false,
+          "ResponsiblePersonAccurate": null,
+          "RevenueGoodsServices": "327.0000",
+          "RevenueInvestments": "0.0000",
+          "RevenueTotal": "194929.0000",
+          "StatementYear": "2025",
+          "SubTypesAccurate": null,
+          "TotalAssets": "235324.0000",
+          "TotalCurrentAssets": "0.0000",
+          "TotalCurrentLiabilities": "0.0000",
+          "TotalLiabilities": "0.0000",
+          "TotalNonCurrentAssets": null,
+          "TotalNonCurrentLiabilities": "0.0000",
+          "TotalNonCurrentLoansReceivable": "0.0000",
+          "TotalPaidKMP": "$0.00",
+          "Website": "www.brisbanevalleycatrescue.com",
+          "__normalized": true,
+          "entityTypeVersion": "",
+          "entityVersion": "1829253363",
+          "timeStamp": "2026-01-16T04:35:32.0000000Z",
+          "type": "annual_information_statement",
+          "uuid": "b45f3fc7-94f2-f011-8406-6045bdc272f3"
+        },
+        "type": "annual_information_statement",
+        "uuid": "b45f3fc7-94f2-f011-8406-6045bdc272f3"
+      },
+      "canonical_field_mappings": {
+        "data.Programs": "programs",
+        "data.TotalRevenue": "financial_records[].revenue",
+        "data.TotalExpenses": "financial_records[].total_expenses"
       },
       "evidence_ids": [
-        "ev:acnc:ais:99862937528:2025"
+        "ev:acnc:ais:99862937528:b45f3fc7-94f2-f011-8406-6045bdc272f3"
       ]
     }
   ],
@@ -1113,9 +1452,12 @@
       },
       "assets": null,
       "liabilities": null,
+      "net_assets": null,
       "income_breakdown": [],
       "expense_breakdown": [],
-      "balance_sheet_breakdown": []
+      "balance_sheet_breakdown": [],
+      "source_ordered_line_items": [],
+      "statements": []
     }
   ],
   "financial_metrics": [
@@ -1266,24 +1608,24 @@
       "content_hash": null
     },
     {
+      "evidence_id": "ev:acnc:ais:99862937528:b45f3fc7-94f2-f011-8406-6045bdc272f3",
+      "source_type": "regulatory",
+      "title": "ACNC Annual Information Statement 2025",
+      "publisher": "Australian Charities and Not-for-profits Commission",
+      "url": "https://www.acnc.gov.au/charity/charities/4a97f631-3aaf-e811-a95e-000d3ad24c60/documents/b45f3fc7-94f2-f011-8406-6045bdc272f3",
+      "observed_at": "2026-01-16",
+      "reporting_period": "2025",
+      "page": null,
+      "section": null,
+      "content_hash": null
+    },
+    {
       "evidence_id": "ev:abr-dgr:99862937528:20260805",
       "source_type": "regulatory",
       "title": "ABR DGR bulk observation",
       "publisher": "Australian Business Register / Australian Taxation Office",
       "url": "https://abr.business.gov.au/Tools/BulkExtract",
       "observed_at": "2026-08-05",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
-    },
-    {
-      "evidence_id": "ev:acnc:ais:99862937528:2025",
-      "source_type": "regulatory",
-      "title": "Brisbane Valley Cat Rescue Inc. Annual Information Statement 2025",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": "https://www.acnc.gov.au/charity/charities/4a97f631-3aaf-e811-a95e-000d3ad24c60/documents/b45f3fc7-94f2-f011-8406-6045bdc272f3",
-      "observed_at": "2026-01-16",
       "reporting_period": null,
       "page": null,
       "section": null,
@@ -1296,81 +1638,25 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "ce5fa4920e1e1de52fe8c1d1678fadc60585fbd079d65e9685c1f7c175a273c0",
-    "generated_at": "2026-08-13T05:51:03.015595Z",
+    "source_text_hash": "e06ef6b4e420fedd61451b07d0c155d7def3007b0f1eee70322afc72d44e955d",
+    "generated_at": "2026-08-10T13:53:24.456628Z",
     "vector_ref": "embeddings.parquet#cb_21850e61afb54d82b6a821f256034fb5"
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
+    "prompt_version": "phase2a-0.4",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "a6ad767e43e7fb215f2396a797365d78d3b6dcae807ab2bcc248df6ad49a25d5",
-    "generated_at": "2026-08-12T13:54:29.418852Z",
+    "evidence_input_hash": "74884448214b50bce64bc872adb3270ab3f9d136155b86ad5b34c80534ff91ff",
+    "generated_at": "2026-08-10T12:51:50.696585Z",
     "editorial_policy_version": "0.1"
   },
-  "derivative_assessments": [
-    {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T13:54:29.418852Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-rc2-editorial-migration",
-      "input_hash": "a6ad767e43e7fb215f2396a797365d78d3b6dcae807ab2bcc248df6ad49a25d5",
-      "disposition": "refreshed",
-      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "taxonomy",
-      "generated_at": "2026-08-12T13:54:29.418852Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "a6ad767e43e7fb215f2396a797365d78d3b6dcae807ab2bcc248df6ad49a25d5",
-      "disposition": "reused",
-      "reason": "No new supported canonical classification facts.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "fundraising",
-      "generated_at": null,
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "a6ad767e43e7fb215f2396a797365d78d3b6dcae807ab2bcc248df6ad49a25d5",
-      "disposition": "reused",
-      "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "embedding",
-      "generated_at": "2026-08-10T13:53:24.456628Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "e06ef6b4e420fedd61451b07d0c155d7def3007b0f1eee70322afc72d44e955d",
-      "disposition": "reused",
-      "reason": "Semantic source text unchanged.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "similarities",
-      "generated_at": "2026-08-10T13:53:24.456628Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "e06ef6b4e420fedd61451b07d0c155d7def3007b0f1eee70322afc72d44e955d",
-      "disposition": "reused",
-      "reason": "Embedding reused; semantic neighbours retained.",
-      "affected_dimensions": []
-    }
-  ],
-  "dataset_version": "phase2b-2026-08-13-rc3",
+  "derivative_assessments": [],
+  "dataset_version": "phase2b-2026-08-14-rc4",
   "card_schema_version": "0.4",
-  "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T05:50:58.991012Z"
+  "editorial_policy_version": "0.4-rc4",
+  "generator_version": "0.5.0-rc4",
+  "built_at": "2026-08-13T10:52:47.483880Z"
 }

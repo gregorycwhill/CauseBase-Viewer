@@ -1,24 +1,15 @@
 {
-  "inventory_version": "phase2b-rc3",
+  "inventory_version": "phase2b-rc4",
   "scope": "Existing 120-card corpus; no new subjects.",
-  "cost_reconciliation": {
-    "request_count": 120,
-    "model": "gpt-5-mini-2025-08-07",
-    "input_tokens": 327726,
-    "output_tokens": 222747,
-    "reasoning_tokens": null,
-    "estimated_usd": "0.527423",
-    "retries_or_duplicate_response_ids": 0,
-    "note": "Dashboard movements are external timing/accounting observations and cannot be attributed from response telemetry alone."
-  },
   "embedding_run": {
     "cache_hits": 120,
     "generated": 0,
-    "input_tokens": 0
+    "input_tokens": 0,
+    "note": "RC3 vectors intentionally reused; source text and summaries were not rewritten."
   },
   "gap_report": [
-    "Current acquired ACNC AIS 2023 rows are retained source-native for all matching cards.",
-    "A 2026-08-13 public ACNC profile acquisition supplies a latest submitted AIS locator and full source-native response for every card.",
-    "EJA also carries public 2024-25 annual and financial report observations."
+    "Public ACNC profile and latest AIS-detail acquisition attempted for all 120 existing subjects.",
+    "AIS detail failures are explicit coverage observations; no profile metadata is substituted for a detail payload.",
+    "Seven already-acquired reports were processed through one deterministic extractor; document URLs are only published where preserved in source acquisition metadata."
   ]
 }

@@ -100,12 +100,12 @@
     {
       "capability": "latest_acnc_ais",
       "status": "observed",
-      "source_record_id": null,
+      "source_record_id": "src:acnc-ais-detail:67575837755:21e457df-c7bc-ef11-a72f-000d3ad17a98:cb_6f5a9298e0474c4ebdfd55968fd61f0c",
       "evidence_ids": [
-        "ev:acnc:ais:67575837755:2024"
+        "ev:acnc:ais:67575837755:21e457df-c7bc-ef11-a72f-000d3ad17a98"
       ],
       "observed_at": "2024-12-17",
-      "freshness_note": "Latest submitted ACNC AIS in the 2026-08-13 public-profile acquisition: 2024."
+      "freshness_note": "Latest submitted AIS detail acquired from the public ACNC entity endpoint."
     }
   ],
   "enrichment_level": "enriched",
@@ -113,24 +113,22 @@
   "geography": [
     "ACT"
   ],
-  "navigation_geography": [
+  "geography_observations": [
     {
-      "level": "country",
-      "code": "AU",
-      "label": "Australia",
-      "evidence_ids": [
-        "ev:acnc:67575837755"
-      ]
+      "value": "ACT",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
     }
   ],
-  "causebase_summary": "Anzac Memorial Chapel Of St Paul Trustees is a registered charity located in the Australian Capital Territory. CauseBase does not have sufficient descriptive evidence in this release to independently identify the organisation’s specific activities, services, beneficiaries or operating model. The record provided includes ACNC registration details and an Annual Information Statement dated 2023, but no website, public description or program information is included in the supplied evidence.",
-  "summary_evidence_ids": [
-    "ev:acnc:67575837755",
-    "ev:ais:67575837755:2023"
-  ],
+  "navigation_geography": [],
+  "causebase_summary": "Anzac Memorial Chapel Of St Paul Trustees is recorded on the ACNC Register with jurisdiction in the ACT. The available regulatory extract and the organisation’s 2023 ACNC information statement (AIS) are the only processed sources. Those extracts do not describe any activities, programs, services or named beneficiaries. The AIS entry for 2023 reports zero revenue and zero total expenses for the reporting subject. No website or other public organisational description was available in the supplied evidence. The legal name in the register identifies the entity as a body of trustees for an Anzac memorial chapel, but the ACNC extracts supplied do not set out an operating model, locations of activity beyond the ACT designation, staff or volunteer numbers, or recent project information.",
+  "summary_evidence_ids": [],
   "organisation_self_description": null,
   "activities": [],
+  "activity_observations": [],
   "beneficiaries": [],
+  "beneficiary_observations": [],
   "participation_modes": [],
   "participation_observations": [],
   "opportunities": [],
@@ -150,7 +148,7 @@
       "reporting_period": "2024",
       "source_url": "https://www.acnc.gov.au/charity/charities/1e7dff46-39af-e811-a961-000d3ad24182/documents/21e457df-c7bc-ef11-a72f-000d3ad17a98",
       "evidence_ids": [
-        "ev:acnc:ais:67575837755:2024"
+        "ev:acnc:ais:67575837755:21e457df-c7bc-ef11-a72f-000d3ad17a98"
       ]
     },
     {
@@ -168,82 +166,23 @@
       "reporting_period": "2024",
       "source_url": "https://www.acnc.gov.au/charity/charities/1e7dff46-39af-e811-a961-000d3ad24182/documents/21e457df-c7bc-ef11-a72f-000d3ad17a98",
       "evidence_ids": [
-        "ev:acnc:ais:67575837755:2024"
+        "ev:acnc:ais:67575837755:21e457df-c7bc-ef11-a72f-000d3ad17a98"
       ]
     }
   ],
   "source_native_records": [
     {
-      "source_record_id": "src:acnc-register:cd87d41d-202a-5cd2-addf-10ab12e3f715",
-      "source_family": "acnc-register",
-      "dataset_version": "2026-08-10",
-      "source_url": "https://www.acnc.gov.au/charity/charities?search=67575837755",
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "ABN": "67575837755",
-        "Legal Name": "Anzac Memorial Chapel Of St Paul Trustees",
-        "Registration Status": "registered",
-        "ACNC classifications": "religion; other beneficiary",
-        "Website": null,
-        "ACNC registration ID": null,
-        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "ABN": "external_identifiers",
-        "Legal Name": "legal_name",
-        "Registration Status": "registrations"
-      },
-      "evidence_ids": [
-        "ev:acnc:67575837755"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-ais:fr:ais:cb_6f5a9298e0474c4ebdfd55968fd61f0c:2023",
-      "source_family": "acnc-ais",
-      "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "Reporting period": null,
-        "Reporting scope": "subject",
-        "Consolidated": "unknown",
-        "Revenue": "0",
-        "Donations and bequests": null,
-        "Government grants": null,
-        "Total expenses": "0",
-        "Assets": null,
-        "Liabilities": null
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "Revenue": "financial_records[].revenue",
-        "Total expenses": "financial_records[].total_expenses"
-      },
-      "evidence_ids": [
-        "ev:ais:67575837755:2023"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-public-profile:67575837755:cb_6f5a9298e0474c4ebdfd55968fd61f0c:2026-08-13",
+      "source_record_id": "src:acnc-public-profile:67575837755:1e7dff46-39af-e811-a961-000d3ad24182:cb_6f5a9298e0474c4ebdfd55968fd61f0c",
       "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-13-public-api",
+      "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/1e7dff46-39af-e811-a961-000d3ad24182/profile",
-      "retrieved_at": "2026-08-13T05:50:58.991012Z",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
       "observed_at": "2024-12-17",
       "effective_from": null,
       "effective_to": null,
       "source_fields": {
         "uuid": "1e7dff46-39af-e811-a961-000d3ad24182",
-        "abn": "67575837755",
-        "latest_ais_year": "2024",
-        "latest_ais_uuid": "21e457df-c7bc-ef11-a72f-000d3ad17a98"
+        "abn": "67575837755"
       },
       "source_payload": {
         "data": {
@@ -762,13 +701,322 @@
         "uuid": "1e7dff46-39af-e811-a961-000d3ad24182"
       },
       "canonical_field_mappings": {
-        "data.Name": "display_name",
         "data.OtherNames": "operating_names",
-        "data.AnnualReports": "acnc_ais_url",
-        "data.Programs": "programs"
+        "data.AddressStateOrProvince": "principal_location"
+      },
+      "evidence_ids": []
+    },
+    {
+      "source_record_id": "src:acnc-ais-detail:67575837755:21e457df-c7bc-ef11-a72f-000d3ad17a98:cb_6f5a9298e0474c4ebdfd55968fd61f0c",
+      "source_family": "acnc-ais-detail",
+      "dataset_version": "2026-08-14-public-api",
+      "source_url": "https://www.acnc.gov.au/charity/charities/1e7dff46-39af-e811-a961-000d3ad24182/documents/21e457df-c7bc-ef11-a72f-000d3ad17a98",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
+      "observed_at": "2024-12-17",
+      "effective_from": null,
+      "effective_to": null,
+      "source_fields": {
+        "abn": "67575837755",
+        "ais_uuid": "21e457df-c7bc-ef11-a72f-000d3ad17a98",
+        "year": "2024",
+        "date_received": "2024-12-17T22:40:20.0000000Z"
+      },
+      "source_payload": {
+        "data": {
+          "Abn": "67575837755",
+          "ActivityAdvocacyNCivic": false,
+          "ActivityAgedCare": false,
+          "ActivityAnimalProtection": false,
+          "ActivityCultureAndArt": false,
+          "ActivityEconomicSocialCommunity": false,
+          "ActivityEmergencyNRelief": false,
+          "ActivityEmploymentNTraining": false,
+          "ActivityEnvironmental": false,
+          "ActivityGrantMaking": false,
+          "ActivityHealthRehabilitation": false,
+          "ActivityHigherEducation": false,
+          "ActivityHousing": false,
+          "ActivityIncomeSupportNMaintenance": false,
+          "ActivityInternational": false,
+          "ActivityInternationalDescription": null,
+          "ActivityInternationalOther": false,
+          "ActivityInternationalOtherDescription": null,
+          "ActivityLawNLegalServices": false,
+          "ActivityMain": null,
+          "ActivityMentalHealthCrisisIntervention": false,
+          "ActivityNdisSupported": null,
+          "ActivityNdisSupportedNext": null,
+          "ActivityOperating": true,
+          "ActivityOperatingOverseas": false,
+          "ActivityOther": false,
+          "ActivityOtherDescription": null,
+          "ActivityOtherEducation": false,
+          "ActivityOtherHealthServices": false,
+          "ActivityPersuitPurposesDescription": "Provide Christian religious services for ADF members and their families.",
+          "ActivityPhilanthropicPromotion": false,
+          "ActivityPolitical": false,
+          "ActivityPrimarySecondaryEducation": false,
+          "ActivityPurposeChange": null,
+          "ActivityPurposeChangeDescription": null,
+          "ActivityRecreationSocialClub": false,
+          "ActivityReligious": false,
+          "ActivityResearch": false,
+          "ActivitySocialServices": false,
+          "ActivitySports": false,
+          "ActivityTransferringFundsGoods": false,
+          "AdvancementOfEducation": false,
+          "AdvancementOfReligion": false,
+          "AssetsandLiabilitiesDescription": null,
+          "BasicReligiousCharity": true,
+          "BeneficiaryAboriginalTorres": false,
+          "BeneficiaryAdults": false,
+          "BeneficiaryAllAges": false,
+          "BeneficiaryChildren": false,
+          "BeneficiaryChronicIllness": false,
+          "BeneficiaryCrimeVictims": false,
+          "BeneficiaryDisasterVictims": false,
+          "BeneficiaryEarlyChildhood": false,
+          "BeneficiaryEthnic": false,
+          "BeneficiaryFamilies": false,
+          "BeneficiaryFinanciallyDisadvantaged": false,
+          "BeneficiaryGeneral": false,
+          "BeneficiaryHomelessnessRisk": false,
+          "BeneficiaryLGBT": false,
+          "BeneficiaryMain": null,
+          "BeneficiaryMen": false,
+          "BeneficiaryMigrantsRefugees": false,
+          "BeneficiaryOffenderFamilies": false,
+          "BeneficiaryOther": false,
+          "BeneficiaryOtherCharities": false,
+          "BeneficiaryOtherDescription": null,
+          "BeneficiaryOverseas": false,
+          "BeneficiaryPeopleWithDisability": false,
+          "BeneficiaryRuralRegionalRemote": false,
+          "BeneficiarySeniors": false,
+          "BeneficiaryUnemployed": false,
+          "BeneficiaryVeteranFamilies": false,
+          "BeneficiaryWomen": false,
+          "BeneficiaryYouth": false,
+          "CharityAddressCountry": "Australia",
+          "CharityAddressLine1": "4 Robert Campbell Rd",
+          "CharityAddressLine2": null,
+          "CharityAddressPostalCode": "2612",
+          "CharityAddressStateOrProvince": "ACT",
+          "CharityAddressSuburb": "Campbell",
+          "CharityEmail": "renton.mcrae@gmail.com",
+          "CharitySize": "Small",
+          "CharityUuid": "1e7dff46-39af-e811-a961-000d3ad24182",
+          "ChildCareServices": false,
+          "ExpenseEmployees": "0.0000",
+          "ExpenseGrantDonationsInAustralia": "0.0000",
+          "ExpenseGrantDonationsOutsideAustralia": "0.0000",
+          "ExpenseTotal": "0.0000",
+          "ExpensesOther": "0.0000",
+          "FinAccrualAccounting": null,
+          "FinConsolidatedReportFromMiltiple": null,
+          "FinDocumentedPoliciesRelatedPartyTransactions": null,
+          "FinFyeJune": false,
+          "FinProvideVoluntarily": "No",
+          "FinRelatedPartyTransactions": null,
+          "FinReportACT": false,
+          "FinReportFrom": null,
+          "FinReportNSW": false,
+          "FinReportNT": false,
+          "FinReportQLD": false,
+          "FinReportSA": false,
+          "FinReportTAS": false,
+          "FinReportTo": null,
+          "FinReportVIC": false,
+          "FinReportWA": false,
+          "FinReportingType": null,
+          "FinSapDate": null,
+          "FundRaisingNumberACT": null,
+          "FundRaisingNumberNSW": null,
+          "FundRaisingNumberQLD": null,
+          "FundRaisingNumberSA": null,
+          "FundRaisingNumberTAS": null,
+          "FundRaisingNumberVIC": null,
+          "FundRaisingNumberWA": null,
+          "GovDocAccurate": null,
+          "GrantCapacityBuildingPct": null,
+          "GrantMultiYearPct": null,
+          "GrantPublicOpenApplicationPct": null,
+          "GrantRuralRegionPct": null,
+          "HasSubmittedToRegulator": false,
+          "HoursPaid": null,
+          "HoursTotal": null,
+          "HoursVolunteer": null,
+          "HrCasualEmployees": "0",
+          "HrFteStaff": "0.0000000000",
+          "HrFullTimeEmployees": "0",
+          "HrPartTimeEmployees": "0",
+          "HrUnpainVolunteers": "5",
+          "IncomeDonationsBequests": "0.0000",
+          "IncomeGovernmentGrants": "0.0000",
+          "IncomeOther": "0.0000",
+          "IncomeOtherComprehinsive": "0.0000",
+          "IncomeOtherNeg": null,
+          "IncomeOtherReceipts": "0.0000",
+          "IncomeTotalComprehensive": "0.0000",
+          "IncomeTotalReceipts": "0.0000",
+          "IncorporationStatus": null,
+          "InterestExpense": "0.0000",
+          "IsIncorporatedAssociation": false,
+          "KeyManagementPersonnel": false,
+          "LegalName": "Anzac Memorial Chapel Of St Paul Trustees",
+          "NetAssetsLiabilities": "0.0000",
+          "NetSurplusDeficit": "0.0000",
+          "NonCurrentLoansPayable": "0.0000",
+          "NumberOfKeyManagementPersonnel": "0",
+          "OperatingCountries": null,
+          "OperatingInACT": false,
+          "OperatingInNSW": false,
+          "OperatingInNT": false,
+          "OperatingInQLD": false,
+          "OperatingInSA": false,
+          "OperatingInTAS": false,
+          "OperatingInVIC": false,
+          "OperatingInWA": false,
+          "OperatingOverseas": false,
+          "OtherNames": [],
+          "OtherNonCurrentAssets": "0.0000",
+          "OtherNonCurrentLiabilities": "0.0000",
+          "OtherPurposeDescription": null,
+          "OtherPurposes": "False",
+          "Programs": [
+            {
+              "AisUuid": "21e457df-c7bc-ef11-a72f-000d3ad17a98",
+              "Name": "Baptisms, Weddings, Funerals",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Families",
+                "Veterans and/or their families"
+              ],
+              "ProgramClassification": "Christianity",
+              "ProgramClassificationID": "741",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "RMC Chapel, Campbell ACT, Australia",
+                  "FormattedAddress": "Cnr. Robert Campbell Rd & Miles Rd, Campbell ACT 2612, Australia",
+                  "Marker": {
+                    "Latitude": -35.2964374,
+                    "Longitude": 149.1680433
+                  },
+                  "Name": "RMC Chapel",
+                  "uuid": "34e457df-c7bc-ef11-a72f-000d3ad17a98"
+                }
+              ],
+              "ProgramWeblink": null,
+              "uuid": "2de457df-c7bc-ef11-a72f-000d3ad17a98"
+            },
+            {
+              "AisUuid": "21e457df-c7bc-ef11-a72f-000d3ad17a98",
+              "Name": "Church Services",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Families",
+                "Veterans and/or their families"
+              ],
+              "ProgramClassification": "Christianity",
+              "ProgramClassificationID": "741",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "RMC Chapel, Campbell ACT, Australia",
+                  "FormattedAddress": "Cnr. Robert Campbell Rd & Miles Rd, Campbell ACT 2612, Australia",
+                  "Marker": {
+                    "Latitude": -35.2964374,
+                    "Longitude": 149.1680433
+                  },
+                  "Name": "RMC Chapel",
+                  "uuid": "3ce457df-c7bc-ef11-a72f-000d3ad17a98"
+                }
+              ],
+              "ProgramWeblink": null,
+              "uuid": "36e457df-c7bc-ef11-a72f-000d3ad17a98"
+            }
+          ],
+          "RegulatedACT": false,
+          "RegulatedNSW": false,
+          "RegulatedNT": false,
+          "RegulatedQLD": false,
+          "RegulatedSA": false,
+          "RegulatedTAS": false,
+          "RegulatedVIC": false,
+          "RegulatedWA": false,
+          "Regulator": null,
+          "RegulatorAGMDateACT": null,
+          "RegulatorAGMDateNT": null,
+          "RegulatorAGMDateVIC": null,
+          "RegulatorAGMDateWA": null,
+          "RegulatorFundRaising": "No",
+          "RegulatorFundRaisingACT": false,
+          "RegulatorFundRaisingNSW": false,
+          "RegulatorFundRaisingNT": false,
+          "RegulatorFundRaisingOnline": false,
+          "RegulatorFundRaisingQLD": false,
+          "RegulatorFundRaisingSA": false,
+          "RegulatorFundRaisingTAS": false,
+          "RegulatorFundRaisingVIC": false,
+          "RegulatorFundRaisingWA": false,
+          "RegulatorIncorporatedAssociationACT": false,
+          "RegulatorIncorporatedAssociationNSW": false,
+          "RegulatorIncorporatedAssociationNT": false,
+          "RegulatorIncorporatedAssociationNumberACT": null,
+          "RegulatorIncorporatedAssociationNumberNSW": null,
+          "RegulatorIncorporatedAssociationNumberNT": null,
+          "RegulatorIncorporatedAssociationNumberQLD": null,
+          "RegulatorIncorporatedAssociationNumberSA": null,
+          "RegulatorIncorporatedAssociationNumberTAS": null,
+          "RegulatorIncorporatedAssociationNumberVIC": null,
+          "RegulatorIncorporatedAssociationNumberWA": null,
+          "RegulatorIncorporatedAssociationQLD": false,
+          "RegulatorIncorporatedAssociationSA": false,
+          "RegulatorIncorporatedAssociationTAS": false,
+          "RegulatorIncorporatedAssociationVIC": false,
+          "RegulatorIncorporatedAssociationWA": false,
+          "RegulatorMetRequirementACT": false,
+          "RegulatorMetRequirementWA": null,
+          "RegulatorOtherDetails": null,
+          "RegulatorPrograms": null,
+          "RegulatorStates": false,
+          "RelatedPartyDetails": null,
+          "RelatedPartyTransactions": [],
+          "ReliefOfPoverty": false,
+          "ReportingGroupFlag": false,
+          "ResponsiblePersonAccurate": null,
+          "RevenueGoodsServices": "0.0000",
+          "RevenueInvestments": "0.0000",
+          "RevenueTotal": "0.0000",
+          "StatementYear": "2024",
+          "SubTypesAccurate": null,
+          "TotalAssets": "0.0000",
+          "TotalCurrentAssets": "0.0000",
+          "TotalCurrentLiabilities": "0.0000",
+          "TotalLiabilities": "0.0000",
+          "TotalNonCurrentAssets": null,
+          "TotalNonCurrentLiabilities": "0.0000",
+          "TotalNonCurrentLoansReceivable": "0.0000",
+          "TotalPaidKMP": "$0.00",
+          "Website": null,
+          "__normalized": true,
+          "entityTypeVersion": "",
+          "entityVersion": "1508561629",
+          "timeStamp": "2024-12-17T22:40:17.0000000Z",
+          "type": "annual_information_statement",
+          "uuid": "21e457df-c7bc-ef11-a72f-000d3ad17a98"
+        },
+        "type": "annual_information_statement",
+        "uuid": "21e457df-c7bc-ef11-a72f-000d3ad17a98"
+      },
+      "canonical_field_mappings": {
+        "data.Programs": "programs",
+        "data.TotalRevenue": "financial_records[].revenue",
+        "data.TotalExpenses": "financial_records[].total_expenses"
       },
       "evidence_ids": [
-        "ev:acnc:ais:67575837755:2024"
+        "ev:acnc:ais:67575837755:21e457df-c7bc-ef11-a72f-000d3ad17a98"
       ]
     }
   ],
@@ -817,9 +1065,12 @@
       },
       "assets": null,
       "liabilities": null,
+      "net_assets": null,
       "income_breakdown": [],
       "expense_breakdown": [],
-      "balance_sheet_breakdown": []
+      "balance_sheet_breakdown": [],
+      "source_ordered_line_items": [],
+      "statements": []
     }
   ],
   "financial_metrics": [
@@ -925,24 +1176,24 @@
       "content_hash": null
     },
     {
+      "evidence_id": "ev:acnc:ais:67575837755:21e457df-c7bc-ef11-a72f-000d3ad17a98",
+      "source_type": "regulatory",
+      "title": "ACNC Annual Information Statement 2024",
+      "publisher": "Australian Charities and Not-for-profits Commission",
+      "url": "https://www.acnc.gov.au/charity/charities/1e7dff46-39af-e811-a961-000d3ad24182/documents/21e457df-c7bc-ef11-a72f-000d3ad17a98",
+      "observed_at": "2024-12-17",
+      "reporting_period": "2024",
+      "page": null,
+      "section": null,
+      "content_hash": null
+    },
+    {
       "evidence_id": "ev:abr-dgr:67575837755:20260805",
       "source_type": "regulatory",
       "title": "ABR DGR bulk observation",
       "publisher": "Australian Business Register / Australian Taxation Office",
       "url": "https://abr.business.gov.au/Tools/BulkExtract",
       "observed_at": "2026-08-05",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
-    },
-    {
-      "evidence_id": "ev:acnc:ais:67575837755:2024",
-      "source_type": "regulatory",
-      "title": "Anzac Memorial Chapel Of St Paul Trustees Annual Information Statement 2024",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": "https://www.acnc.gov.au/charity/charities/1e7dff46-39af-e811-a961-000d3ad24182/documents/21e457df-c7bc-ef11-a72f-000d3ad17a98",
-      "observed_at": "2024-12-17",
       "reporting_period": null,
       "page": null,
       "section": null,
@@ -955,81 +1206,25 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "dc3c96879717e4c677092aae6f0f19a3b73163a6772d4139160305673ddae18e",
-    "generated_at": "2026-08-13T05:51:03.014253Z",
+    "source_text_hash": "5beb1a08390eed347e475e886466115566cc52ba0474933a09a37b6215936a97",
+    "generated_at": "2026-08-10T13:53:24.455655Z",
     "vector_ref": "embeddings.parquet#cb_6f5a9298e0474c4ebdfd55968fd61f0c"
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
+    "prompt_version": "phase2a-0.4",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "20215364ddc3e846055dea511c5a6be09ca2f61c11ba565ee58e48a70965f2a8",
-    "generated_at": "2026-08-12T13:40:26.234440Z",
+    "evidence_input_hash": "6c4a9f719a2e17cc4ce9db44970244eb79944548dd569183ff528764d0a5db66",
+    "generated_at": "2026-08-10T12:46:31.326278Z",
     "editorial_policy_version": "0.1"
   },
-  "derivative_assessments": [
-    {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T13:40:26.234440Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-rc2-editorial-migration",
-      "input_hash": "20215364ddc3e846055dea511c5a6be09ca2f61c11ba565ee58e48a70965f2a8",
-      "disposition": "refreshed",
-      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "taxonomy",
-      "generated_at": "2026-08-12T13:40:26.234440Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "20215364ddc3e846055dea511c5a6be09ca2f61c11ba565ee58e48a70965f2a8",
-      "disposition": "reused",
-      "reason": "No new supported canonical classification facts.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "fundraising",
-      "generated_at": null,
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "20215364ddc3e846055dea511c5a6be09ca2f61c11ba565ee58e48a70965f2a8",
-      "disposition": "reused",
-      "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "embedding",
-      "generated_at": "2026-08-10T13:53:24.455655Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "5beb1a08390eed347e475e886466115566cc52ba0474933a09a37b6215936a97",
-      "disposition": "reused",
-      "reason": "Semantic source text unchanged.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "similarities",
-      "generated_at": "2026-08-10T13:53:24.455655Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "5beb1a08390eed347e475e886466115566cc52ba0474933a09a37b6215936a97",
-      "disposition": "reused",
-      "reason": "Embedding reused; semantic neighbours retained.",
-      "affected_dimensions": []
-    }
-  ],
-  "dataset_version": "phase2b-2026-08-13-rc3",
+  "derivative_assessments": [],
+  "dataset_version": "phase2b-2026-08-14-rc4",
   "card_schema_version": "0.4",
-  "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T05:50:58.991012Z"
+  "editorial_policy_version": "0.4-rc4",
+  "generator_version": "0.5.0-rc4",
+  "built_at": "2026-08-13T10:52:47.483880Z"
 }

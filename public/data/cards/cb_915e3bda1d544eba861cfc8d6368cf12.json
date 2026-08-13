@@ -91,12 +91,12 @@
     {
       "capability": "latest_acnc_ais",
       "status": "observed",
-      "source_record_id": null,
+      "source_record_id": "src:acnc-ais-detail:43245526192:54ed5238-6ad6-f011-8543-000d3ad20411:cb_915e3bda1d544eba861cfc8d6368cf12",
       "evidence_ids": [
-        "ev:acnc:ais:43245526192:2025"
+        "ev:acnc:ais:43245526192:54ed5238-6ad6-f011-8543-000d3ad20411"
       ],
       "observed_at": "2025-12-11",
-      "freshness_note": "Latest submitted ACNC AIS in the 2026-08-13 public-profile acquisition: 2025."
+      "freshness_note": "Latest submitted AIS detail acquired from the public ACNC entity endpoint."
     }
   ],
   "enrichment_level": "enriched",
@@ -104,32 +104,22 @@
   "geography": [
     "Australian Capital Territory (ACT)"
   ],
-  "navigation_geography": [
+  "geography_observations": [
     {
-      "level": "country",
-      "code": "AU",
-      "label": "Australia",
-      "evidence_ids": [
-        "ev:acnc:43245526192"
-      ]
-    },
-    {
-      "level": "state_territory",
-      "code": "AU-ACT",
-      "label": "Australian Capital Territory",
-      "evidence_ids": [
-        "ev:acnc:43245526192"
-      ]
+      "value": "Australian Capital Territory (ACT)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
     }
   ],
-  "causebase_summary": "The Australian Law Librarians' Association (Australian Capital Territory) Incorporated is an incorporated association registered in the Australian Capital Territory. CauseBase holds ACNC register and annual information statement extracts (including the 2022–23 AIS) for this entity. CauseBase does not have sufficient descriptive evidence in this release to independently identify the organisation’s specific activities, programs or beneficiary groups.",
-  "summary_evidence_ids": [
-    "ev:acnc:43245526192",
-    "ev:ais:43245526192:2023"
-  ],
+  "navigation_geography": [],
+  "causebase_summary": "The Australian Law Librarians' Association (Australian Capital Territory) Incorporated is an ACT‑incorporated association recorded in an ACNC register extract. The only supplied regulatory filing for 1 July 2022 to 30 June 2023 is the organisation's 2023 AIS, which reports total revenue of AUD 1,592 and total expenses of AUD 618 for that period. The evidence package consists of the ACNC register extract and the AIS; it does not include a public website, a written self-description, or documents that specify programs, services, beneficiaries, membership, staff or volunteer numbers. Structured metadata identifies the organisation's geography as the Australian Capital Territory. No activities, participation modes or beneficiary groups are documented in the supplied records.",
+  "summary_evidence_ids": [],
   "organisation_self_description": null,
   "activities": [],
+  "activity_observations": [],
   "beneficiaries": [],
+  "beneficiary_observations": [],
   "participation_modes": [],
   "participation_observations": [],
   "opportunities": [],
@@ -150,7 +140,7 @@
       "reporting_period": "2025",
       "source_url": "https://www.acnc.gov.au/charity/charities/09d61d50-3aaf-e811-a962-000d3ad24a0d/documents/54ed5238-6ad6-f011-8543-000d3ad20411",
       "evidence_ids": [
-        "ev:acnc:ais:43245526192:2025"
+        "ev:acnc:ais:43245526192:54ed5238-6ad6-f011-8543-000d3ad20411"
       ]
     },
     {
@@ -167,7 +157,7 @@
       "reporting_period": "2025",
       "source_url": "https://www.acnc.gov.au/charity/charities/09d61d50-3aaf-e811-a962-000d3ad24a0d/documents/54ed5238-6ad6-f011-8543-000d3ad20411",
       "evidence_ids": [
-        "ev:acnc:ais:43245526192:2025"
+        "ev:acnc:ais:43245526192:54ed5238-6ad6-f011-8543-000d3ad20411"
       ]
     },
     {
@@ -187,82 +177,23 @@
       "reporting_period": "2025",
       "source_url": "https://www.acnc.gov.au/charity/charities/09d61d50-3aaf-e811-a962-000d3ad24a0d/documents/54ed5238-6ad6-f011-8543-000d3ad20411",
       "evidence_ids": [
-        "ev:acnc:ais:43245526192:2025"
+        "ev:acnc:ais:43245526192:54ed5238-6ad6-f011-8543-000d3ad20411"
       ]
     }
   ],
   "source_native_records": [
     {
-      "source_record_id": "src:acnc-register:80717ccd-d859-5ddd-afce-ca0900299eef",
-      "source_family": "acnc-register",
-      "dataset_version": "2026-08-10",
-      "source_url": "https://www.acnc.gov.au/charity/charities?search=43245526192",
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "ABN": "43245526192",
-        "Legal Name": "The Australian Law Librarians' Association (Australian Capital Territory) Incorporated",
-        "Registration Status": "registered",
-        "ACNC classifications": "education; regional remote",
-        "Website": null,
-        "ACNC registration ID": null,
-        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "ABN": "external_identifiers",
-        "Legal Name": "legal_name",
-        "Registration Status": "registrations"
-      },
-      "evidence_ids": [
-        "ev:acnc:43245526192"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-ais:fr:ais:cb_915e3bda1d544eba861cfc8d6368cf12:2023",
-      "source_family": "acnc-ais",
-      "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": "2022-07-01",
-      "effective_to": "2023-06-30",
-      "source_fields": {
-        "Reporting period": "01/07/2022 to 30/06/2023",
-        "Reporting scope": "subject",
-        "Consolidated": "unknown",
-        "Revenue": "1592",
-        "Donations and bequests": null,
-        "Government grants": null,
-        "Total expenses": "618",
-        "Assets": null,
-        "Liabilities": null
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "Revenue": "financial_records[].revenue",
-        "Total expenses": "financial_records[].total_expenses"
-      },
-      "evidence_ids": [
-        "ev:ais:43245526192:2023"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-public-profile:43245526192:cb_915e3bda1d544eba861cfc8d6368cf12:2026-08-13",
+      "source_record_id": "src:acnc-public-profile:43245526192:09d61d50-3aaf-e811-a962-000d3ad24a0d:cb_915e3bda1d544eba861cfc8d6368cf12",
       "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-13-public-api",
+      "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/09d61d50-3aaf-e811-a962-000d3ad24a0d/profile",
-      "retrieved_at": "2026-08-13T05:50:58.991012Z",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
       "observed_at": "2025-12-11",
       "effective_from": null,
       "effective_to": null,
       "source_fields": {
         "uuid": "09d61d50-3aaf-e811-a962-000d3ad24a0d",
-        "abn": "43245526192",
-        "latest_ais_year": "2025",
-        "latest_ais_uuid": "54ed5238-6ad6-f011-8543-000d3ad20411"
+        "abn": "43245526192"
       },
       "source_payload": {
         "data": {
@@ -999,13 +930,352 @@
         "uuid": "09d61d50-3aaf-e811-a962-000d3ad24a0d"
       },
       "canonical_field_mappings": {
-        "data.Name": "display_name",
         "data.OtherNames": "operating_names",
-        "data.AnnualReports": "acnc_ais_url",
-        "data.Programs": "programs"
+        "data.AddressStateOrProvince": "principal_location"
+      },
+      "evidence_ids": []
+    },
+    {
+      "source_record_id": "src:acnc-ais-detail:43245526192:54ed5238-6ad6-f011-8543-000d3ad20411:cb_915e3bda1d544eba861cfc8d6368cf12",
+      "source_family": "acnc-ais-detail",
+      "dataset_version": "2026-08-14-public-api",
+      "source_url": "https://www.acnc.gov.au/charity/charities/09d61d50-3aaf-e811-a962-000d3ad24a0d/documents/54ed5238-6ad6-f011-8543-000d3ad20411",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
+      "observed_at": "2025-12-11",
+      "effective_from": null,
+      "effective_to": null,
+      "source_fields": {
+        "abn": "43245526192",
+        "ais_uuid": "54ed5238-6ad6-f011-8543-000d3ad20411",
+        "year": "2025",
+        "date_received": "2025-12-11T08:20:23.0000000Z"
+      },
+      "source_payload": {
+        "data": {
+          "Abn": "43245526192",
+          "ActivityAdvocacyNCivic": false,
+          "ActivityAgedCare": false,
+          "ActivityAnimalProtection": false,
+          "ActivityCultureAndArt": false,
+          "ActivityEconomicSocialCommunity": false,
+          "ActivityEmergencyNRelief": false,
+          "ActivityEmploymentNTraining": false,
+          "ActivityEnvironmental": false,
+          "ActivityGrantMaking": false,
+          "ActivityHealthRehabilitation": false,
+          "ActivityHigherEducation": false,
+          "ActivityHousing": false,
+          "ActivityIncomeSupportNMaintenance": false,
+          "ActivityInternational": false,
+          "ActivityInternationalDescription": "Book etc donations to Pacific law libraries and financial support for Pacific island librarians to attend conferences in Australia",
+          "ActivityInternationalOther": false,
+          "ActivityInternationalOtherDescription": null,
+          "ActivityLawNLegalServices": false,
+          "ActivityMain": null,
+          "ActivityMentalHealthCrisisIntervention": false,
+          "ActivityNdisSupported": null,
+          "ActivityNdisSupportedNext": null,
+          "ActivityOperating": true,
+          "ActivityOperatingOverseas": false,
+          "ActivityOther": false,
+          "ActivityOtherDescription": null,
+          "ActivityOtherEducation": false,
+          "ActivityOtherHealthServices": false,
+          "ActivityPersuitPurposesDescription": "We provide access to professional law library education programs, conferences and support for members of the law library profession, primarily in the ACT, including through the organisation of social events. The group also provides financial support and mentoring to law libraries in the Pacific region, primarily by purchasing books etc for libraries or providing financial support for staff to attend law librarian conferences in Australia.",
+          "ActivityPhilanthropicPromotion": false,
+          "ActivityPolitical": false,
+          "ActivityPrimarySecondaryEducation": false,
+          "ActivityPurposeChange": null,
+          "ActivityPurposeChangeDescription": null,
+          "ActivityRecreationSocialClub": false,
+          "ActivityReligious": false,
+          "ActivityResearch": false,
+          "ActivitySocialServices": false,
+          "ActivitySports": false,
+          "ActivityTransferringFundsGoods": true,
+          "AdvancementOfEducation": false,
+          "AdvancementOfReligion": false,
+          "AssetsandLiabilitiesDescription": "Assets are cash held in a CBA account and only liability is annual rental of PO box",
+          "BasicReligiousCharity": false,
+          "BeneficiaryAboriginalTorres": false,
+          "BeneficiaryAdults": false,
+          "BeneficiaryAllAges": false,
+          "BeneficiaryChildren": false,
+          "BeneficiaryChronicIllness": false,
+          "BeneficiaryCrimeVictims": false,
+          "BeneficiaryDisasterVictims": false,
+          "BeneficiaryEarlyChildhood": false,
+          "BeneficiaryEthnic": false,
+          "BeneficiaryFamilies": false,
+          "BeneficiaryFinanciallyDisadvantaged": false,
+          "BeneficiaryGeneral": false,
+          "BeneficiaryHomelessnessRisk": false,
+          "BeneficiaryLGBT": false,
+          "BeneficiaryMain": null,
+          "BeneficiaryMen": false,
+          "BeneficiaryMigrantsRefugees": false,
+          "BeneficiaryOffenderFamilies": false,
+          "BeneficiaryOther": false,
+          "BeneficiaryOtherCharities": false,
+          "BeneficiaryOtherDescription": null,
+          "BeneficiaryOverseas": false,
+          "BeneficiaryPeopleWithDisability": false,
+          "BeneficiaryRuralRegionalRemote": false,
+          "BeneficiarySeniors": false,
+          "BeneficiaryUnemployed": false,
+          "BeneficiaryVeteranFamilies": false,
+          "BeneficiaryWomen": false,
+          "BeneficiaryYouth": false,
+          "CharityAddressCountry": "Australia",
+          "CharityAddressLine1": "Po Box 9131",
+          "CharityAddressLine2": null,
+          "CharityAddressPostalCode": "2600",
+          "CharityAddressStateOrProvince": "ACT",
+          "CharityAddressSuburb": "Deakin",
+          "CharityEmail": "jandg@y7mail.com",
+          "CharitySize": "Small",
+          "CharityUuid": "09d61d50-3aaf-e811-a962-000d3ad24a0d",
+          "ChildCareServices": false,
+          "ExpenseEmployees": "0.0000",
+          "ExpenseGrantDonationsInAustralia": "0.0000",
+          "ExpenseGrantDonationsOutsideAustralia": "0.0000",
+          "ExpenseTotal": "342.0000",
+          "ExpensesOther": "342.0000",
+          "FinAccrualAccounting": "Cash",
+          "FinConsolidatedReportFromMiltiple": null,
+          "FinDocumentedPoliciesRelatedPartyTransactions": null,
+          "FinFyeJune": false,
+          "FinProvideVoluntarily": null,
+          "FinRelatedPartyTransactions": "No",
+          "FinReportACT": false,
+          "FinReportFrom": "2024-07-01T00:00:00.0000000Z",
+          "FinReportNSW": false,
+          "FinReportNT": false,
+          "FinReportQLD": false,
+          "FinReportSA": false,
+          "FinReportTAS": false,
+          "FinReportTo": "2025-06-30T00:00:00.0000000Z",
+          "FinReportVIC": false,
+          "FinReportWA": false,
+          "FinReportingType": null,
+          "FinSapDate": null,
+          "FundRaisingNumberACT": null,
+          "FundRaisingNumberNSW": null,
+          "FundRaisingNumberQLD": null,
+          "FundRaisingNumberSA": null,
+          "FundRaisingNumberTAS": null,
+          "FundRaisingNumberVIC": null,
+          "FundRaisingNumberWA": null,
+          "GovDocAccurate": null,
+          "GrantCapacityBuildingPct": null,
+          "GrantMultiYearPct": null,
+          "GrantPublicOpenApplicationPct": null,
+          "GrantRuralRegionPct": null,
+          "HasSubmittedToRegulator": false,
+          "HoursPaid": null,
+          "HoursTotal": null,
+          "HoursVolunteer": null,
+          "HrCasualEmployees": "0",
+          "HrFteStaff": "0.0000000000",
+          "HrFullTimeEmployees": "0",
+          "HrPartTimeEmployees": "0",
+          "HrUnpainVolunteers": "8",
+          "IncomeDonationsBequests": "0.0000",
+          "IncomeGovernmentGrants": "0.0000",
+          "IncomeOther": "0.0000",
+          "IncomeOtherComprehinsive": "0.0000",
+          "IncomeOtherNeg": null,
+          "IncomeOtherReceipts": "1300.0000",
+          "IncomeTotalComprehensive": "0.0000",
+          "IncomeTotalReceipts": "1300.0000",
+          "IncorporationStatus": null,
+          "InterestExpense": "0.0000",
+          "IsIncorporatedAssociation": true,
+          "KeyManagementPersonnel": false,
+          "LegalName": "The Australian Law Librarians' Association (Australian Capital Territory) Incorporated",
+          "NetAssetsLiabilities": "33736.0000",
+          "NetSurplusDeficit": "958.0000",
+          "NonCurrentLoansPayable": "0.0000",
+          "NumberOfKeyManagementPersonnel": "0",
+          "OperatingCountries": null,
+          "OperatingInACT": false,
+          "OperatingInNSW": false,
+          "OperatingInNT": false,
+          "OperatingInQLD": false,
+          "OperatingInSA": false,
+          "OperatingInTAS": false,
+          "OperatingInVIC": false,
+          "OperatingInWA": false,
+          "OperatingOverseas": false,
+          "OtherNames": [],
+          "OtherNonCurrentAssets": "0.0000",
+          "OtherNonCurrentLiabilities": "0.0000",
+          "OtherPurposeDescription": null,
+          "OtherPurposes": "False",
+          "Programs": [
+            {
+              "AisUuid": "54ed5238-6ad6-f011-8543-000d3ad20411",
+              "Name": "Annual welcome activities",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Adults - aged 25 to under 65",
+                "Females",
+                "Males"
+              ],
+              "ProgramClassification": "Continuing education",
+              "ProgramClassificationID": "176",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Canberra ACT, Australia",
+                  "FormattedAddress": "Canberra ACT, Australia",
+                  "Marker": {
+                    "Latitude": -35.3075,
+                    "Longitude": 149.124417
+                  },
+                  "Name": "Canberra",
+                  "uuid": "aaed5238-6ad6-f011-8543-000d3ad20411"
+                }
+              ],
+              "ProgramWeblink": null,
+              "uuid": "98ed5238-6ad6-f011-8543-000d3ad20411"
+            },
+            {
+              "AisUuid": "54ed5238-6ad6-f011-8543-000d3ad20411",
+              "Name": "Continuing education programs",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Adults - aged 25 to under 65"
+              ],
+              "ProgramClassification": "Continuing education",
+              "ProgramClassificationID": "176",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Canberra ACT, Australia",
+                  "FormattedAddress": "Canberra ACT, Australia",
+                  "Marker": {
+                    "Latitude": -35.3075,
+                    "Longitude": 149.124417
+                  },
+                  "Name": "Canberra",
+                  "uuid": "d6ed5238-6ad6-f011-8543-000d3ad20411"
+                }
+              ],
+              "ProgramWeblink": null,
+              "uuid": "b0ed5238-6ad6-f011-8543-000d3ad20411"
+            },
+            {
+              "AisUuid": "54ed5238-6ad6-f011-8543-000d3ad20411",
+              "Name": "Resource support for select Pacific region law libraries",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Adults - aged 25 to under 65",
+                "People in rural/regional/remote communities",
+                "Financially disadvantaged people",
+                "Overseas communities or charities"
+              ],
+              "ProgramClassification": "Learning technology",
+              "ProgramClassificationID": "196",
+              "ProgramCountries": [
+                "Fiji"
+              ],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Canberra ACT, Australia",
+                  "FormattedAddress": "Canberra ACT, Australia",
+                  "Marker": {
+                    "Latitude": -35.2801846,
+                    "Longitude": 149.1310324
+                  },
+                  "Name": "Canberra",
+                  "uuid": "f6ed5238-6ad6-f011-8543-000d3ad20411"
+                }
+              ],
+              "ProgramWeblink": null,
+              "uuid": "e0ed5238-6ad6-f011-8543-000d3ad20411"
+            }
+          ],
+          "RegulatedACT": false,
+          "RegulatedNSW": false,
+          "RegulatedNT": false,
+          "RegulatedQLD": false,
+          "RegulatedSA": false,
+          "RegulatedTAS": false,
+          "RegulatedVIC": false,
+          "RegulatedWA": false,
+          "Regulator": null,
+          "RegulatorAGMDateACT": "2025-12-04T00:00:00.0000000Z",
+          "RegulatorAGMDateNT": null,
+          "RegulatorAGMDateVIC": null,
+          "RegulatorAGMDateWA": null,
+          "RegulatorFundRaising": "No",
+          "RegulatorFundRaisingACT": false,
+          "RegulatorFundRaisingNSW": false,
+          "RegulatorFundRaisingNT": false,
+          "RegulatorFundRaisingOnline": false,
+          "RegulatorFundRaisingQLD": false,
+          "RegulatorFundRaisingSA": false,
+          "RegulatorFundRaisingTAS": false,
+          "RegulatorFundRaisingVIC": false,
+          "RegulatorFundRaisingWA": false,
+          "RegulatorIncorporatedAssociationACT": true,
+          "RegulatorIncorporatedAssociationNSW": false,
+          "RegulatorIncorporatedAssociationNT": false,
+          "RegulatorIncorporatedAssociationNumberACT": "A03866",
+          "RegulatorIncorporatedAssociationNumberNSW": null,
+          "RegulatorIncorporatedAssociationNumberNT": null,
+          "RegulatorIncorporatedAssociationNumberQLD": null,
+          "RegulatorIncorporatedAssociationNumberSA": null,
+          "RegulatorIncorporatedAssociationNumberTAS": null,
+          "RegulatorIncorporatedAssociationNumberVIC": null,
+          "RegulatorIncorporatedAssociationNumberWA": null,
+          "RegulatorIncorporatedAssociationQLD": false,
+          "RegulatorIncorporatedAssociationSA": false,
+          "RegulatorIncorporatedAssociationTAS": false,
+          "RegulatorIncorporatedAssociationVIC": false,
+          "RegulatorIncorporatedAssociationWA": false,
+          "RegulatorMetRequirementACT": true,
+          "RegulatorMetRequirementWA": null,
+          "RegulatorOtherDetails": null,
+          "RegulatorPrograms": null,
+          "RegulatorStates": false,
+          "RelatedPartyDetails": null,
+          "RelatedPartyTransactions": [],
+          "ReliefOfPoverty": false,
+          "ReportingGroupFlag": false,
+          "ResponsiblePersonAccurate": null,
+          "RevenueGoodsServices": "0.0000",
+          "RevenueInvestments": "0.0000",
+          "RevenueTotal": "1300.0000",
+          "StatementYear": "2025",
+          "SubTypesAccurate": null,
+          "TotalAssets": "33917.0000",
+          "TotalCurrentAssets": "0.0000",
+          "TotalCurrentLiabilities": "0.0000",
+          "TotalLiabilities": "181.0000",
+          "TotalNonCurrentAssets": null,
+          "TotalNonCurrentLiabilities": "0.0000",
+          "TotalNonCurrentLoansReceivable": "0.0000",
+          "TotalPaidKMP": "$0.00",
+          "Website": null,
+          "__normalized": true,
+          "entityTypeVersion": "",
+          "entityVersion": "1807471500",
+          "timeStamp": "2025-12-11T08:20:20.0000000Z",
+          "type": "annual_information_statement",
+          "uuid": "54ed5238-6ad6-f011-8543-000d3ad20411"
+        },
+        "type": "annual_information_statement",
+        "uuid": "54ed5238-6ad6-f011-8543-000d3ad20411"
+      },
+      "canonical_field_mappings": {
+        "data.Programs": "programs",
+        "data.TotalRevenue": "financial_records[].revenue",
+        "data.TotalExpenses": "financial_records[].total_expenses"
       },
       "evidence_ids": [
-        "ev:acnc:ais:43245526192:2025"
+        "ev:acnc:ais:43245526192:54ed5238-6ad6-f011-8543-000d3ad20411"
       ]
     }
   ],
@@ -1054,9 +1324,12 @@
       },
       "assets": null,
       "liabilities": null,
+      "net_assets": null,
       "income_breakdown": [],
       "expense_breakdown": [],
-      "balance_sheet_breakdown": []
+      "balance_sheet_breakdown": [],
+      "source_ordered_line_items": [],
+      "statements": []
     }
   ],
   "financial_metrics": [
@@ -1180,13 +1453,13 @@
       "content_hash": null
     },
     {
-      "evidence_id": "ev:acnc:ais:43245526192:2025",
+      "evidence_id": "ev:acnc:ais:43245526192:54ed5238-6ad6-f011-8543-000d3ad20411",
       "source_type": "regulatory",
-      "title": "The Australian Law Librarians' Association (Australian Capital Territory) Incorporated Annual Information Statement 2025",
+      "title": "ACNC Annual Information Statement 2025",
       "publisher": "Australian Charities and Not-for-profits Commission",
       "url": "https://www.acnc.gov.au/charity/charities/09d61d50-3aaf-e811-a962-000d3ad24a0d/documents/54ed5238-6ad6-f011-8543-000d3ad20411",
       "observed_at": "2025-12-11",
-      "reporting_period": null,
+      "reporting_period": "2025",
       "page": null,
       "section": null,
       "content_hash": null
@@ -1198,81 +1471,25 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "873707dd780681e6c0ea18ecc51c3bde8875239c78b824d902514f5cf29f42f7",
-    "generated_at": "2026-08-13T05:51:03.018036Z",
+    "source_text_hash": "a2988525d25bf58832f5c8d99ab6eae644a65c7b0e8fe489352510d56e2f1702",
+    "generated_at": "2026-08-10T13:53:24.457590Z",
     "vector_ref": "embeddings.parquet#cb_915e3bda1d544eba861cfc8d6368cf12"
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
+    "prompt_version": "phase2a-0.4",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "8ae631e1b2bfc30486580ed9f5753967c0f5903915afa774edee1b64c4e0a588",
-    "generated_at": "2026-08-12T14:09:36.875675Z",
+    "evidence_input_hash": "8cf852c2133890ac3675b24a777e5bfae4be47aee023549a227d7e0d2e1d0d51",
+    "generated_at": "2026-08-10T12:57:49.811652Z",
     "editorial_policy_version": "0.1"
   },
-  "derivative_assessments": [
-    {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T14:09:36.875675Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-rc2-editorial-migration",
-      "input_hash": "8ae631e1b2bfc30486580ed9f5753967c0f5903915afa774edee1b64c4e0a588",
-      "disposition": "refreshed",
-      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "taxonomy",
-      "generated_at": "2026-08-12T14:09:36.875675Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "8ae631e1b2bfc30486580ed9f5753967c0f5903915afa774edee1b64c4e0a588",
-      "disposition": "reused",
-      "reason": "No new supported canonical classification facts.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "fundraising",
-      "generated_at": null,
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "8ae631e1b2bfc30486580ed9f5753967c0f5903915afa774edee1b64c4e0a588",
-      "disposition": "reused",
-      "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "embedding",
-      "generated_at": "2026-08-10T13:53:24.457590Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "a2988525d25bf58832f5c8d99ab6eae644a65c7b0e8fe489352510d56e2f1702",
-      "disposition": "reused",
-      "reason": "Semantic source text unchanged.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "similarities",
-      "generated_at": "2026-08-10T13:53:24.457590Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "a2988525d25bf58832f5c8d99ab6eae644a65c7b0e8fe489352510d56e2f1702",
-      "disposition": "reused",
-      "reason": "Embedding reused; semantic neighbours retained.",
-      "affected_dimensions": []
-    }
-  ],
-  "dataset_version": "phase2b-2026-08-13-rc3",
+  "derivative_assessments": [],
+  "dataset_version": "phase2b-2026-08-14-rc4",
   "card_schema_version": "0.4",
-  "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T05:50:58.991012Z"
+  "editorial_policy_version": "0.4-rc4",
+  "generator_version": "0.5.0-rc4",
+  "built_at": "2026-08-13T10:52:47.483880Z"
 }

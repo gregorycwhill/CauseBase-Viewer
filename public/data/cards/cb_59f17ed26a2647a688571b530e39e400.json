@@ -93,12 +93,12 @@
     {
       "capability": "latest_acnc_ais",
       "status": "observed",
-      "source_record_id": null,
+      "source_record_id": "src:acnc-ais-detail:36661209143:397b8f31-75b7-f011-bbd3-6045bde67d52:cb_59f17ed26a2647a688571b530e39e400",
       "evidence_ids": [
-        "ev:acnc:ais:36661209143:2025"
+        "ev:acnc:ais:36661209143:397b8f31-75b7-f011-bbd3-6045bde67d52"
       ],
       "observed_at": "2025-11-01",
-      "freshness_note": "Latest submitted ACNC AIS in the 2026-08-13 public-profile acquisition: 2025."
+      "freshness_note": "Latest submitted AIS detail acquired from the public ACNC entity endpoint."
     }
   ],
   "enrichment_level": "enriched",
@@ -106,32 +106,22 @@
   "geography": [
     "New South Wales (NSW)"
   ],
-  "navigation_geography": [
+  "geography_observations": [
     {
-      "level": "country",
-      "code": "AU",
-      "label": "Australia",
-      "evidence_ids": [
-        "ev:acnc:36661209143"
-      ]
-    },
-    {
-      "level": "state_territory",
-      "code": "AU-NSW",
-      "label": "New South Wales",
-      "evidence_ids": [
-        "ev:acnc:36661209143"
-      ]
+      "value": "New South Wales (NSW)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
     }
   ],
-  "causebase_summary": "Ariah Park Show Society Inc is an incorporated community organisation registered with the Australian Charities and Not-for-profits Commission and located in New South Wales (NSW). The organisation filed an Annual Information Statement covering 01/07/2022 to 30/06/2023. CauseBase does not have sufficient descriptive evidence in this release to independently identify the society's specific activities, programs, participation modes or intended beneficiaries.",
-  "summary_evidence_ids": [
-    "ev:acnc:36661209143",
-    "ev:ais:36661209143:2023"
-  ],
+  "navigation_geography": [],
+  "causebase_summary": "Ariah Park Show Society Inc is listed on the Australian Charities and Not-for-profits Commission (ACNC) register with a structured location of New South Wales (NSW). The only detailed document provided in the evidence pack is the ACNC Annual Information Statement (AIS) extract for the reporting period 01/07/2022 to 30/06/2023. For that period the AIS records total revenue of AUD 18,799 and total expenses of AUD 44,870. Within the supplied extracts there are no program descriptions, lists of services, named beneficiaries or participation mechanisms. The material does not include a website or other public-facing communications in the evidence pack. The financial figures in the AIS show expenses exceeded revenue in the reported year by AUD 26,071. The ACNC register extract and the AIS are the sources for the statements above; the organisation’s own descriptions beyond those filings were not included in the provided evidence.",
+  "summary_evidence_ids": [],
   "organisation_self_description": null,
   "activities": [],
+  "activity_observations": [],
   "beneficiaries": [],
+  "beneficiary_observations": [],
   "participation_modes": [],
   "participation_observations": [],
   "opportunities": [],
@@ -150,82 +140,23 @@
       "reporting_period": "2025",
       "source_url": "https://www.acnc.gov.au/charity/charities/f4fc8357-39af-e811-a960-000d3ad24282/documents/397b8f31-75b7-f011-bbd3-6045bde67d52",
       "evidence_ids": [
-        "ev:acnc:ais:36661209143:2025"
+        "ev:acnc:ais:36661209143:397b8f31-75b7-f011-bbd3-6045bde67d52"
       ]
     }
   ],
   "source_native_records": [
     {
-      "source_record_id": "src:acnc-register:8242805d-0b59-5bec-aa7d-78b544133dbd",
-      "source_family": "acnc-register",
-      "dataset_version": "2026-08-10",
-      "source_url": "https://www.acnc.gov.au/charity/charities?search=36661209143",
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "ABN": "36661209143",
-        "Legal Name": "Ariah Park Show Society Inc",
-        "Registration Status": "registered",
-        "ACNC classifications": "other purpose; regional remote",
-        "Website": null,
-        "ACNC registration ID": null,
-        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "ABN": "external_identifiers",
-        "Legal Name": "legal_name",
-        "Registration Status": "registrations"
-      },
-      "evidence_ids": [
-        "ev:acnc:36661209143"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-ais:fr:ais:cb_59f17ed26a2647a688571b530e39e400:2023",
-      "source_family": "acnc-ais",
-      "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": "2022-07-01",
-      "effective_to": "2023-06-30",
-      "source_fields": {
-        "Reporting period": "01/07/2022 to 30/06/2023",
-        "Reporting scope": "subject",
-        "Consolidated": "unknown",
-        "Revenue": "18799",
-        "Donations and bequests": null,
-        "Government grants": null,
-        "Total expenses": "44870",
-        "Assets": null,
-        "Liabilities": null
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "Revenue": "financial_records[].revenue",
-        "Total expenses": "financial_records[].total_expenses"
-      },
-      "evidence_ids": [
-        "ev:ais:36661209143:2023"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-public-profile:36661209143:cb_59f17ed26a2647a688571b530e39e400:2026-08-13",
+      "source_record_id": "src:acnc-public-profile:36661209143:f4fc8357-39af-e811-a960-000d3ad24282:cb_59f17ed26a2647a688571b530e39e400",
       "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-13-public-api",
+      "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/f4fc8357-39af-e811-a960-000d3ad24282/profile",
-      "retrieved_at": "2026-08-13T05:50:58.991012Z",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
       "observed_at": "2025-11-01",
       "effective_from": null,
       "effective_to": null,
       "source_fields": {
         "uuid": "f4fc8357-39af-e811-a960-000d3ad24282",
-        "abn": "36661209143",
-        "latest_ais_year": "2025",
-        "latest_ais_uuid": "397b8f31-75b7-f011-bbd3-6045bde67d52"
+        "abn": "36661209143"
       },
       "source_payload": {
         "data": {
@@ -837,13 +768,295 @@
         "uuid": "f4fc8357-39af-e811-a960-000d3ad24282"
       },
       "canonical_field_mappings": {
-        "data.Name": "display_name",
         "data.OtherNames": "operating_names",
-        "data.AnnualReports": "acnc_ais_url",
-        "data.Programs": "programs"
+        "data.AddressStateOrProvince": "principal_location"
+      },
+      "evidence_ids": []
+    },
+    {
+      "source_record_id": "src:acnc-ais-detail:36661209143:397b8f31-75b7-f011-bbd3-6045bde67d52:cb_59f17ed26a2647a688571b530e39e400",
+      "source_family": "acnc-ais-detail",
+      "dataset_version": "2026-08-14-public-api",
+      "source_url": "https://www.acnc.gov.au/charity/charities/f4fc8357-39af-e811-a960-000d3ad24282/documents/397b8f31-75b7-f011-bbd3-6045bde67d52",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
+      "observed_at": "2025-11-01",
+      "effective_from": null,
+      "effective_to": null,
+      "source_fields": {
+        "abn": "36661209143",
+        "ais_uuid": "397b8f31-75b7-f011-bbd3-6045bde67d52",
+        "year": "2025",
+        "date_received": "2025-11-01T22:50:49.0000000Z"
+      },
+      "source_payload": {
+        "data": {
+          "Abn": "36661209143",
+          "ActivityAdvocacyNCivic": false,
+          "ActivityAgedCare": false,
+          "ActivityAnimalProtection": false,
+          "ActivityCultureAndArt": false,
+          "ActivityEconomicSocialCommunity": false,
+          "ActivityEmergencyNRelief": false,
+          "ActivityEmploymentNTraining": false,
+          "ActivityEnvironmental": false,
+          "ActivityGrantMaking": false,
+          "ActivityHealthRehabilitation": false,
+          "ActivityHigherEducation": false,
+          "ActivityHousing": false,
+          "ActivityIncomeSupportNMaintenance": false,
+          "ActivityInternational": false,
+          "ActivityInternationalDescription": null,
+          "ActivityInternationalOther": false,
+          "ActivityInternationalOtherDescription": null,
+          "ActivityLawNLegalServices": false,
+          "ActivityMain": null,
+          "ActivityMentalHealthCrisisIntervention": false,
+          "ActivityNdisSupported": null,
+          "ActivityNdisSupportedNext": null,
+          "ActivityOperating": true,
+          "ActivityOperatingOverseas": false,
+          "ActivityOther": false,
+          "ActivityOtherDescription": null,
+          "ActivityOtherEducation": false,
+          "ActivityOtherHealthServices": false,
+          "ActivityPersuitPurposesDescription": "We provide an Annual Agricultural Show that is an opportunity for community  involvement across all ages (pre-school to adults, including the elderly). This is  achieved through a variety of activities, displays and competitions based on creativity  and skill, rural produce and areas of interest. We operate our agricultural show as a  not-for-profit event.",
+          "ActivityPhilanthropicPromotion": false,
+          "ActivityPolitical": false,
+          "ActivityPrimarySecondaryEducation": false,
+          "ActivityPurposeChange": null,
+          "ActivityPurposeChangeDescription": null,
+          "ActivityRecreationSocialClub": false,
+          "ActivityReligious": false,
+          "ActivityResearch": false,
+          "ActivitySocialServices": false,
+          "ActivitySports": false,
+          "ActivityTransferringFundsGoods": false,
+          "AdvancementOfEducation": false,
+          "AdvancementOfReligion": false,
+          "AssetsandLiabilitiesDescription": "Chq Account Balance $9755 Trade Creditors $1800",
+          "BasicReligiousCharity": false,
+          "BeneficiaryAboriginalTorres": false,
+          "BeneficiaryAdults": false,
+          "BeneficiaryAllAges": false,
+          "BeneficiaryChildren": false,
+          "BeneficiaryChronicIllness": false,
+          "BeneficiaryCrimeVictims": false,
+          "BeneficiaryDisasterVictims": false,
+          "BeneficiaryEarlyChildhood": false,
+          "BeneficiaryEthnic": false,
+          "BeneficiaryFamilies": false,
+          "BeneficiaryFinanciallyDisadvantaged": false,
+          "BeneficiaryGeneral": false,
+          "BeneficiaryHomelessnessRisk": false,
+          "BeneficiaryLGBT": false,
+          "BeneficiaryMain": null,
+          "BeneficiaryMen": false,
+          "BeneficiaryMigrantsRefugees": false,
+          "BeneficiaryOffenderFamilies": false,
+          "BeneficiaryOther": false,
+          "BeneficiaryOtherCharities": false,
+          "BeneficiaryOtherDescription": null,
+          "BeneficiaryOverseas": false,
+          "BeneficiaryPeopleWithDisability": false,
+          "BeneficiaryRuralRegionalRemote": false,
+          "BeneficiarySeniors": false,
+          "BeneficiaryUnemployed": false,
+          "BeneficiaryVeteranFamilies": false,
+          "BeneficiaryWomen": false,
+          "BeneficiaryYouth": false,
+          "CharityAddressCountry": "Australia",
+          "CharityAddressLine1": "Po Box 22",
+          "CharityAddressLine2": null,
+          "CharityAddressPostalCode": "2665",
+          "CharityAddressStateOrProvince": "NSW",
+          "CharityAddressSuburb": "Ariah Park",
+          "CharityEmail": "apshowsociety@hotmail.com",
+          "CharitySize": "Small",
+          "CharityUuid": "f4fc8357-39af-e811-a960-000d3ad24282",
+          "ChildCareServices": false,
+          "ExpenseEmployees": "0.0000",
+          "ExpenseGrantDonationsInAustralia": "0.0000",
+          "ExpenseGrantDonationsOutsideAustralia": "0.0000",
+          "ExpenseTotal": "29594.0000",
+          "ExpensesOther": "29594.0000",
+          "FinAccrualAccounting": "Cash",
+          "FinConsolidatedReportFromMiltiple": null,
+          "FinDocumentedPoliciesRelatedPartyTransactions": null,
+          "FinFyeJune": false,
+          "FinProvideVoluntarily": null,
+          "FinRelatedPartyTransactions": "No",
+          "FinReportACT": false,
+          "FinReportFrom": "2024-07-01T00:00:00.0000000Z",
+          "FinReportNSW": false,
+          "FinReportNT": false,
+          "FinReportQLD": false,
+          "FinReportSA": false,
+          "FinReportTAS": false,
+          "FinReportTo": "2025-06-30T00:00:00.0000000Z",
+          "FinReportVIC": false,
+          "FinReportWA": false,
+          "FinReportingType": null,
+          "FinSapDate": null,
+          "FundRaisingNumberACT": null,
+          "FundRaisingNumberNSW": null,
+          "FundRaisingNumberQLD": null,
+          "FundRaisingNumberSA": null,
+          "FundRaisingNumberTAS": null,
+          "FundRaisingNumberVIC": null,
+          "FundRaisingNumberWA": null,
+          "GovDocAccurate": null,
+          "GrantCapacityBuildingPct": null,
+          "GrantMultiYearPct": null,
+          "GrantPublicOpenApplicationPct": null,
+          "GrantRuralRegionPct": null,
+          "HasSubmittedToRegulator": false,
+          "HoursPaid": null,
+          "HoursTotal": null,
+          "HoursVolunteer": null,
+          "HrCasualEmployees": "0",
+          "HrFteStaff": "0.0000000000",
+          "HrFullTimeEmployees": "0",
+          "HrPartTimeEmployees": "0",
+          "HrUnpainVolunteers": "30",
+          "IncomeDonationsBequests": "1794.0000",
+          "IncomeGovernmentGrants": "0.0000",
+          "IncomeOther": "0.0000",
+          "IncomeOtherComprehinsive": "0.0000",
+          "IncomeOtherNeg": null,
+          "IncomeOtherReceipts": "0.0000",
+          "IncomeTotalComprehensive": "0.0000",
+          "IncomeTotalReceipts": "26525.0000",
+          "IncorporationStatus": null,
+          "InterestExpense": "0.0000",
+          "IsIncorporatedAssociation": true,
+          "KeyManagementPersonnel": false,
+          "LegalName": "Ariah Park Show Society Inc",
+          "NetAssetsLiabilities": "7955.0000",
+          "NetSurplusDeficit": "-3069.0000",
+          "NonCurrentLoansPayable": "0.0000",
+          "NumberOfKeyManagementPersonnel": "0",
+          "OperatingCountries": null,
+          "OperatingInACT": false,
+          "OperatingInNSW": false,
+          "OperatingInNT": false,
+          "OperatingInQLD": false,
+          "OperatingInSA": false,
+          "OperatingInTAS": false,
+          "OperatingInVIC": false,
+          "OperatingInWA": false,
+          "OperatingOverseas": false,
+          "OtherNames": [],
+          "OtherNonCurrentAssets": "0.0000",
+          "OtherNonCurrentLiabilities": "0.0000",
+          "OtherPurposeDescription": null,
+          "OtherPurposes": "False",
+          "Programs": [
+            {
+              "AisUuid": "397b8f31-75b7-f011-bbd3-6045bde67d52",
+              "Name": "Ariah Park Annual Agricultural Show",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "People in rural/regional/remote communities"
+              ],
+              "ProgramClassification": "Agricultural shows",
+              "ProgramClassificationID": "3",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Ariah Park NSW, Australia",
+                  "FormattedAddress": "Ariah Park NSW 2665, Australia",
+                  "Marker": {
+                    "Latitude": -34.4025941,
+                    "Longitude": 147.2624528
+                  },
+                  "Name": "Ariah Park",
+                  "uuid": "587b8f31-75b7-f011-bbd3-6045bde67d52"
+                }
+              ],
+              "ProgramWeblink": null,
+              "uuid": "527b8f31-75b7-f011-bbd3-6045bde67d52"
+            }
+          ],
+          "RegulatedACT": false,
+          "RegulatedNSW": false,
+          "RegulatedNT": false,
+          "RegulatedQLD": false,
+          "RegulatedSA": false,
+          "RegulatedTAS": false,
+          "RegulatedVIC": false,
+          "RegulatedWA": false,
+          "Regulator": null,
+          "RegulatorAGMDateACT": null,
+          "RegulatorAGMDateNT": null,
+          "RegulatorAGMDateVIC": null,
+          "RegulatorAGMDateWA": null,
+          "RegulatorFundRaising": "Yes",
+          "RegulatorFundRaisingACT": false,
+          "RegulatorFundRaisingNSW": true,
+          "RegulatorFundRaisingNT": false,
+          "RegulatorFundRaisingOnline": false,
+          "RegulatorFundRaisingQLD": false,
+          "RegulatorFundRaisingSA": false,
+          "RegulatorFundRaisingTAS": false,
+          "RegulatorFundRaisingVIC": false,
+          "RegulatorFundRaisingWA": false,
+          "RegulatorIncorporatedAssociationACT": false,
+          "RegulatorIncorporatedAssociationNSW": true,
+          "RegulatorIncorporatedAssociationNT": false,
+          "RegulatorIncorporatedAssociationNumberACT": null,
+          "RegulatorIncorporatedAssociationNumberNSW": "Y0289713",
+          "RegulatorIncorporatedAssociationNumberNT": null,
+          "RegulatorIncorporatedAssociationNumberQLD": null,
+          "RegulatorIncorporatedAssociationNumberSA": null,
+          "RegulatorIncorporatedAssociationNumberTAS": null,
+          "RegulatorIncorporatedAssociationNumberVIC": null,
+          "RegulatorIncorporatedAssociationNumberWA": null,
+          "RegulatorIncorporatedAssociationQLD": false,
+          "RegulatorIncorporatedAssociationSA": false,
+          "RegulatorIncorporatedAssociationTAS": false,
+          "RegulatorIncorporatedAssociationVIC": false,
+          "RegulatorIncorporatedAssociationWA": false,
+          "RegulatorMetRequirementACT": false,
+          "RegulatorMetRequirementWA": null,
+          "RegulatorOtherDetails": null,
+          "RegulatorPrograms": null,
+          "RegulatorStates": false,
+          "RelatedPartyDetails": null,
+          "RelatedPartyTransactions": [],
+          "ReliefOfPoverty": false,
+          "ReportingGroupFlag": false,
+          "ResponsiblePersonAccurate": null,
+          "RevenueGoodsServices": "24731.0000",
+          "RevenueInvestments": "0.0000",
+          "RevenueTotal": "26525.0000",
+          "StatementYear": "2025",
+          "SubTypesAccurate": null,
+          "TotalAssets": "9755.0000",
+          "TotalCurrentAssets": "0.0000",
+          "TotalCurrentLiabilities": "0.0000",
+          "TotalLiabilities": "1800.0000",
+          "TotalNonCurrentAssets": null,
+          "TotalNonCurrentLiabilities": "0.0000",
+          "TotalNonCurrentLoansReceivable": "0.0000",
+          "TotalPaidKMP": "$0.00",
+          "Website": null,
+          "__normalized": true,
+          "entityTypeVersion": "",
+          "entityVersion": "1782627726",
+          "timeStamp": "2025-11-01T22:50:43.0000000Z",
+          "type": "annual_information_statement",
+          "uuid": "397b8f31-75b7-f011-bbd3-6045bde67d52"
+        },
+        "type": "annual_information_statement",
+        "uuid": "397b8f31-75b7-f011-bbd3-6045bde67d52"
+      },
+      "canonical_field_mappings": {
+        "data.Programs": "programs",
+        "data.TotalRevenue": "financial_records[].revenue",
+        "data.TotalExpenses": "financial_records[].total_expenses"
       },
       "evidence_ids": [
-        "ev:acnc:ais:36661209143:2025"
+        "ev:acnc:ais:36661209143:397b8f31-75b7-f011-bbd3-6045bde67d52"
       ]
     }
   ],
@@ -892,9 +1105,12 @@
       },
       "assets": null,
       "liabilities": null,
+      "net_assets": null,
       "income_breakdown": [],
       "expense_breakdown": [],
-      "balance_sheet_breakdown": []
+      "balance_sheet_breakdown": [],
+      "source_ordered_line_items": [],
+      "statements": []
     }
   ],
   "financial_metrics": [
@@ -1018,13 +1234,13 @@
       "content_hash": null
     },
     {
-      "evidence_id": "ev:acnc:ais:36661209143:2025",
+      "evidence_id": "ev:acnc:ais:36661209143:397b8f31-75b7-f011-bbd3-6045bde67d52",
       "source_type": "regulatory",
-      "title": "Ariah Park Show Society Inc Annual Information Statement 2025",
+      "title": "ACNC Annual Information Statement 2025",
       "publisher": "Australian Charities and Not-for-profits Commission",
       "url": "https://www.acnc.gov.au/charity/charities/f4fc8357-39af-e811-a960-000d3ad24282/documents/397b8f31-75b7-f011-bbd3-6045bde67d52",
       "observed_at": "2025-11-01",
-      "reporting_period": null,
+      "reporting_period": "2025",
       "page": null,
       "section": null,
       "content_hash": null
@@ -1036,81 +1252,25 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "a1d79cadd248be0af65b417fb2f43c4f2b2b7ed182541b916567392b6e46b267",
-    "generated_at": "2026-08-13T05:51:03.017574Z",
+    "source_text_hash": "f43f4081955361a47a38c8261e1d657f6dbde73572bd975c93e165303ba3ec27",
+    "generated_at": "2026-08-10T13:53:24.457268Z",
     "vector_ref": "embeddings.parquet#cb_59f17ed26a2647a688571b530e39e400"
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
+    "prompt_version": "phase2a-0.4",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "16bdf4a9a6c586b1b7ada155550d37915f89ccc5d3a70fe067c643844bf3fe3e",
-    "generated_at": "2026-08-12T14:04:32.011186Z",
+    "evidence_input_hash": "cf210bc191547080d8fa75dd8cacc6092007fbbce20fc12a06a44801607940ba",
+    "generated_at": "2026-08-10T12:56:28.812470Z",
     "editorial_policy_version": "0.1"
   },
-  "derivative_assessments": [
-    {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T14:04:32.011186Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-rc2-editorial-migration",
-      "input_hash": "16bdf4a9a6c586b1b7ada155550d37915f89ccc5d3a70fe067c643844bf3fe3e",
-      "disposition": "refreshed",
-      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "taxonomy",
-      "generated_at": "2026-08-12T14:04:32.011186Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "16bdf4a9a6c586b1b7ada155550d37915f89ccc5d3a70fe067c643844bf3fe3e",
-      "disposition": "reused",
-      "reason": "No new supported canonical classification facts.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "fundraising",
-      "generated_at": null,
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "16bdf4a9a6c586b1b7ada155550d37915f89ccc5d3a70fe067c643844bf3fe3e",
-      "disposition": "reused",
-      "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "embedding",
-      "generated_at": "2026-08-10T13:53:24.457268Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "f43f4081955361a47a38c8261e1d657f6dbde73572bd975c93e165303ba3ec27",
-      "disposition": "reused",
-      "reason": "Semantic source text unchanged.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "similarities",
-      "generated_at": "2026-08-10T13:53:24.457268Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "f43f4081955361a47a38c8261e1d657f6dbde73572bd975c93e165303ba3ec27",
-      "disposition": "reused",
-      "reason": "Embedding reused; semantic neighbours retained.",
-      "affected_dimensions": []
-    }
-  ],
-  "dataset_version": "phase2b-2026-08-13-rc3",
+  "derivative_assessments": [],
+  "dataset_version": "phase2b-2026-08-14-rc4",
   "card_schema_version": "0.4",
-  "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T05:50:58.991012Z"
+  "editorial_policy_version": "0.4-rc4",
+  "generator_version": "0.5.0-rc4",
+  "built_at": "2026-08-13T10:52:47.483880Z"
 }

@@ -65,16 +65,6 @@
       "freshness_note": null
     },
     {
-      "capability": "website",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:web:16148061741:2026-08-10"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
       "capability": "fundraising_expenditure",
       "status": "not_yet_processed",
       "source_record_id": null,
@@ -93,55 +83,121 @@
     {
       "capability": "latest_acnc_ais",
       "status": "not_available_from_source",
+      "source_record_id": "src:acnc-public-profile:16148061741:8d760508-63c3-f011-bbd3-7c1e528a65f7:cb_b77551387a114e6290750dd88fe9c83f",
+      "evidence_ids": [],
+      "observed_at": "2026-08-13",
+      "freshness_note": "No submitted AIS was returned by the public ACNC profile endpoint."
+    },
+    {
+      "capability": "website",
+      "status": "observed",
       "source_record_id": null,
       "evidence_ids": [],
       "observed_at": "2026-08-13",
-      "freshness_note": "No submitted AIS appears in the 2026-08-13 public ACNC profile acquisition."
+      "freshness_note": "Public website locator acquired from the ACNC profile."
     }
   ],
   "enrichment_level": "enriched",
   "website": "https://communitytransportaustralia.org.au/",
   "geography": [
     "Australia (national; membership claimed across all states and territories)",
-    "Metropolitan, regional, rural and remote communities (as described by ACTA)",
+    "Metropolitan, regional, rural and remote communities",
     "South Australia (registered location on ACNC)"
   ],
-  "navigation_geography": [
+  "geography_observations": [
     {
-      "level": "country",
-      "code": "AU",
-      "label": "Australia",
-      "evidence_ids": [
-        "ev:acnc:16148061741"
-      ]
+      "value": "Australia (national; membership claimed across all states and territories)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
     },
     {
-      "level": "state_territory",
-      "code": "AU-SA",
-      "label": "South Australia",
-      "evidence_ids": [
-        "ev:acnc:16148061741"
-      ]
+      "value": "Metropolitan, regional, rural and remote communities",
+      "source_role": "legacy_source_qualifier",
+      "provenance_note": "as described by ACTA",
+      "evidence_ids": []
+    },
+    {
+      "value": "South Australia (registered location on ACNC)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
     }
   ],
-  "causebase_summary": "Australian Community Transport Association (ACTA) is the national peak body for community transport providers in Australia, with membership spanning all states and territories and services delivered in metropolitan, regional, rural and remote communities. ACTA represents community transport providers (including not‑for‑profits, local governments and regional providers) and undertakes advocacy and policy reform aimed at transport equity, provides sector leadership and support for service providers, runs national conferences and webinars, and coordinates the National Community Transport Pricing Model (NCTPM) pilot. ACTA’s stated beneficiaries include older Australians, people with disability, carers and others facing transport disadvantage who use community transport services.",
-  "summary_evidence_ids": [
-    "ev:web:16148061741:2026-08-10",
-    "ev:acnc:16148061741"
-  ],
+  "navigation_geography": [],
+  "causebase_summary": "The Australian Community Transport Association (ACTA) presents itself as a national membership body for community transport providers, stating membership from “100+” organisations across all states and territories. ACTA’s website describes its stated activities as policy reform, sector leadership, advocacy for transport equity and support for service providers; it publishes news about webinars, a national conference and a National Community Transport Pricing Model (NCTPM) pilot run with iMove and the University of South Australia. The site reports aggregate figures attributed to its membership: 6.05 million trips per year, 261,800 clients served and 104.5 million kilometres of travel. ACTA’s online description characterises “community transport” services (as delivered by members) as person‑centred transport for older Australians, people with disability, carers and others facing transport disadvantage across metropolitan, regional, rural and remote communities. The website invites organisations, individuals and community groups to become members and includes testimonials from member organisations and pilot participants. The ACNC register entry and the organisation website are the provided sources; the material is organisation‑authored and does not document ACTA’s own direct service operations or audited financial details in the supplied excerpts.",
+  "summary_evidence_ids": [],
   "organisation_self_description": null,
   "activities": [
-    "Advocacy for transport equity (as stated by ACTA)",
-    "Policy reform and sector leadership (as stated by ACTA)",
-    "Support for community transport service providers (as stated by ACTA)",
+    "Advocacy for transport equity",
+    "Policy reform and sector leadership",
+    "Support for community transport service providers",
     "National conferences and webinars (public events)",
     "Coordination of the National Community Transport Pricing Model (NCTPM) pilot"
   ],
+  "activity_observations": [
+    {
+      "value": "Advocacy for transport equity",
+      "source_role": "legacy_source_qualifier",
+      "provenance_note": "as stated by ACTA",
+      "evidence_ids": []
+    },
+    {
+      "value": "Policy reform and sector leadership",
+      "source_role": "legacy_source_qualifier",
+      "provenance_note": "as stated by ACTA",
+      "evidence_ids": []
+    },
+    {
+      "value": "Support for community transport service providers",
+      "source_role": "legacy_source_qualifier",
+      "provenance_note": "as stated by ACTA",
+      "evidence_ids": []
+    },
+    {
+      "value": "National conferences and webinars (public events)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Coordination of the National Community Transport Pricing Model (NCTPM) pilot",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    }
+  ],
   "beneficiaries": [
     "Community transport providers (members, including not‑for‑profits, local governments, regional providers)",
-    "Older Australians (as described by ACTA)",
-    "People with disability (as described by ACTA)",
-    "Carers and people facing transport disadvantage (as described by ACTA)"
+    "Older Australians",
+    "People with disability",
+    "Carers and people facing transport disadvantage"
+  ],
+  "beneficiary_observations": [
+    {
+      "value": "Community transport providers (members, including not‑for‑profits, local governments, regional providers)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Older Australians",
+      "source_role": "legacy_source_qualifier",
+      "provenance_note": "as described by ACTA",
+      "evidence_ids": []
+    },
+    {
+      "value": "People with disability",
+      "source_role": "legacy_source_qualifier",
+      "provenance_note": "as described by ACTA",
+      "evidence_ids": []
+    },
+    {
+      "value": "Carers and people facing transport disadvantage",
+      "source_role": "legacy_source_qualifier",
+      "provenance_note": "as described by ACTA",
+      "evidence_ids": []
+    }
   ],
   "participation_modes": [
     "Membership by organisations, individuals and community groups",
@@ -153,47 +209,17 @@
   "programs": [],
   "source_native_records": [
     {
-      "source_record_id": "src:acnc-register:5f1e8770-20c3-5801-abe9-04ca4b7ad6d8",
-      "source_family": "acnc-register",
-      "dataset_version": "2026-08-10",
-      "source_url": "https://www.acnc.gov.au/charity/charities?search=16148061741",
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "ABN": "16148061741",
-        "Legal Name": "AUSTRALIAN COMMUNITY TRANSPORT ASSOCIATION LIMITED",
-        "Registration Status": "registered",
-        "ACNC classifications": "other purpose; older people",
-        "Website": "https://communitytransportaustralia.org.au/",
-        "ACNC registration ID": null,
-        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "ABN": "external_identifiers",
-        "Legal Name": "legal_name",
-        "Registration Status": "registrations"
-      },
-      "evidence_ids": [
-        "ev:acnc:16148061741"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-public-profile:16148061741:cb_b77551387a114e6290750dd88fe9c83f:2026-08-13",
+      "source_record_id": "src:acnc-public-profile:16148061741:8d760508-63c3-f011-bbd3-7c1e528a65f7:cb_b77551387a114e6290750dd88fe9c83f",
       "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-13-public-api",
+      "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/8d760508-63c3-f011-bbd3-7c1e528a65f7/profile",
-      "retrieved_at": "2026-08-13T05:50:58.991012Z",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
       "observed_at": "2026-08-13",
       "effective_from": null,
       "effective_to": null,
       "source_fields": {
         "uuid": "8d760508-63c3-f011-bbd3-7c1e528a65f7",
-        "abn": "16148061741",
-        "latest_ais_year": null,
-        "latest_ais_uuid": null
+        "abn": "16148061741"
       },
       "source_payload": {
         "data": {
@@ -481,10 +507,8 @@
         "uuid": "8d760508-63c3-f011-bbd3-7c1e528a65f7"
       },
       "canonical_field_mappings": {
-        "data.Name": "display_name",
         "data.OtherNames": "operating_names",
-        "data.AnnualReports": "acnc_ais_url",
-        "data.Programs": "programs"
+        "data.AddressStateOrProvince": "principal_location"
       },
       "evidence_ids": []
     }
@@ -613,81 +637,25 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "f2690416402f31bbbe4ca7c1088e90776ef60dd62650899c9a6b20be034397af",
-    "generated_at": "2026-08-13T05:51:03.018825Z",
+    "source_text_hash": "f1ca99eb211bbf9deb4ab691edf511d5e93bdecca53f351c9605956aa9225401",
+    "generated_at": "2026-08-10T13:53:24.458063Z",
     "vector_ref": "embeddings.parquet#cb_b77551387a114e6290750dd88fe9c83f"
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
+    "prompt_version": "phase2a-0.4",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "9bc873fc3dbcccd98badd19e53f585127d32c6b16f6d90040f0fca0e19f3bd39",
-    "generated_at": "2026-08-12T14:17:07.952665Z",
+    "evidence_input_hash": "d434203b71770ce734a93d51e45966b0d44a94cb7c163de1346c606357bd270a",
+    "generated_at": "2026-08-10T13:00:40.719646Z",
     "editorial_policy_version": "0.1"
   },
-  "derivative_assessments": [
-    {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T14:17:07.952665Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-rc2-editorial-migration",
-      "input_hash": "9bc873fc3dbcccd98badd19e53f585127d32c6b16f6d90040f0fca0e19f3bd39",
-      "disposition": "refreshed",
-      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "taxonomy",
-      "generated_at": "2026-08-12T14:17:07.952665Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "9bc873fc3dbcccd98badd19e53f585127d32c6b16f6d90040f0fca0e19f3bd39",
-      "disposition": "reused",
-      "reason": "No new supported canonical classification facts.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "fundraising",
-      "generated_at": null,
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "9bc873fc3dbcccd98badd19e53f585127d32c6b16f6d90040f0fca0e19f3bd39",
-      "disposition": "reused",
-      "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "embedding",
-      "generated_at": "2026-08-10T13:53:24.458063Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "f1ca99eb211bbf9deb4ab691edf511d5e93bdecca53f351c9605956aa9225401",
-      "disposition": "reused",
-      "reason": "Semantic source text unchanged.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "similarities",
-      "generated_at": "2026-08-10T13:53:24.458063Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "f1ca99eb211bbf9deb4ab691edf511d5e93bdecca53f351c9605956aa9225401",
-      "disposition": "reused",
-      "reason": "Embedding reused; semantic neighbours retained.",
-      "affected_dimensions": []
-    }
-  ],
-  "dataset_version": "phase2b-2026-08-13-rc3",
+  "derivative_assessments": [],
+  "dataset_version": "phase2b-2026-08-14-rc4",
   "card_schema_version": "0.4",
-  "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T05:50:58.991012Z"
+  "editorial_policy_version": "0.4-rc4",
+  "generator_version": "0.5.0-rc4",
+  "built_at": "2026-08-13T10:52:47.483880Z"
 }

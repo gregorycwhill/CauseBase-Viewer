@@ -2,11 +2,11 @@
 
 **CauseBase subject:** `cb_0efc3a5d9f844ddda1a19832eb00d6ee`
 **Subject kind:** unknown
-**Coverage:** `[{"capability": "regulatory", "evidence_ids": ["ev:acnc:98052960862"], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "observed"}, {"capability": "annual_report", "evidence_ids": [], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "not_yet_processed"}, {"capability": "website", "evidence_ids": ["ev:web:98052960862:2026-08-10"], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "observed"}, {"capability": "fundraising_expenditure", "evidence_ids": [], "freshness_note": "No direct or defensible derived fundraising expenditure was found in selected Phase 2A evidence.", "observed_at": "2026-08-10", "source_record_id": null, "status": "not_available_from_source"}, {"capability": "financials", "evidence_ids": ["ev:ais:98052960862:2023"], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "observed"}, {"capability": "latest_acnc_ais", "evidence_ids": ["ev:acnc:ais:98052960862:2025"], "freshness_note": "Latest submitted ACNC AIS in the 2026-08-13 public-profile acquisition: 2025.", "observed_at": "2026-01-20", "source_record_id": null, "status": "observed"}]`
+**Coverage:** `[{"capability": "regulatory", "evidence_ids": ["ev:acnc:98052960862"], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "observed"}, {"capability": "annual_report", "evidence_ids": [], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "not_yet_processed"}, {"capability": "fundraising_expenditure", "evidence_ids": [], "freshness_note": "No direct or defensible derived fundraising expenditure was found in selected Phase 2A evidence.", "observed_at": "2026-08-10", "source_record_id": null, "status": "not_available_from_source"}, {"capability": "financials", "evidence_ids": ["ev:ais:98052960862:2023"], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "observed"}, {"capability": "latest_acnc_ais", "evidence_ids": ["ev:acnc:ais:98052960862:59778e94-56f6-f011-8406-6045bdc47b11"], "freshness_note": "Latest submitted AIS detail acquired from the public ACNC entity endpoint.", "observed_at": "2026-01-20", "source_record_id": "src:acnc-ais-detail:98052960862:59778e94-56f6-f011-8406-6045bdc47b11:cb_0efc3a5d9f844ddda1a19832eb00d6ee", "status": "observed"}, {"capability": "website", "evidence_ids": [], "freshness_note": "Public website locator acquired from the ACNC profile.", "observed_at": "2026-08-13", "source_record_id": null, "status": "observed"}]`
 
 ## CauseBase summary
 
-Seniors Rights Service is a community legal and advocacy organisation based in Surry Hills that operates across New South Wales. It provides free, confidential legal advice and services for older people (including matters relating to strata, retirement villages, boarding houses and advance legal documents), aged care advocacy for recipients of Commonwealth-funded aged care services, targeted rights-based information and education (brochures, fact sheets and information sessions), community development including public seminars and events, and telephone advice and referral lines. The service offers dedicated support for First Nations older people, LGBTQ+ older people and older people from linguistically diverse backgrounds and lists multilingual access and referral options.
+The Seniors Rights Service (registered in NSW) describes itself on its website as providing free and confidential legal advice, advocacy and information for older people in New South Wales. The website lists legal services in areas including general law, strata, retirement village and boarding house matters, and assistance with legal documents for the future. It states that aged care advocates are located across NSW to support recipients of Commonwealth-funded aged care services, and that solicitors, advocates and education staff travel across the state. The site lists targeted supports labelled First Nations support, LGBTQ+ support and multilingual support, and offers community development resources such as information sessions, brochures, fact sheets and elder abuse materials. The organisation publishes a calendar of public events and seminars and provides phone contact and referral lines (1800 424 079 and 02 9281 3600). The website gives an office address in Surry Hills (Gadigal land). Regulatory filings for the 2022–23 year report revenue of AUD 8,520,046 and total expenses of AUD 8,649,082 for the period 1 July 2022 to 30 June 2023. The claim that the organisation is a “fully accredited community legal centre” appears on the website.
 
 ## Activities
 
@@ -61,19 +61,19 @@ Seniors Rights Service is a community legal and advocacy organisation based in S
 - ACNC Register extract — regulatory, observed 2026-08-10
 - Organisation website homepage — organisation_self_report, observed 2026-08-10 — https://seniorsrightsservice.org.au/
 - ACNC AIS 2023 extract — regulatory, observed 2026-08-10
+- ACNC Annual Information Statement 2025 — regulatory, observed 2026-01-20 — https://www.acnc.gov.au/charity/charities/fd70ca20-38af-e811-a960-000d3ad24282/documents/59778e94-56f6-f011-8406-6045bdc47b11
 - ABR DGR bulk observation — regulatory, observed 2026-08-05 — https://abr.business.gov.au/Tools/BulkExtract
-- Seniors Rights Service Annual Information Statement 2025 — regulatory, observed 2026-01-20 — https://www.acnc.gov.au/charity/charities/fd70ca20-38af-e811-a960-000d3ad24282/documents/59778e94-56f6-f011-8406-6045bdc47b11
 
 ## Machine representation
 
 - Embedding: `cb_0efc3a5d9f844ddda1a19832eb00d6ee:entity:text-embedding-3-small`
 - Embedding model: `text-embedding-3-small`
 - Synthesis model: `gpt-5-mini-2025-08-07`
-- Synthesis evidence hash: `f7b377332cf26c15c619643d240991869274f99bfcbaa66bbf2068f0e36e2b65`
+- Synthesis evidence hash: `4e66ad756b4a1fa30d9e304dccff4f032321b685c1dc1c47a9b9371d230d9b92`
 
 ## Build
 
-- Dataset version: `phase2b-2026-08-13-rc3`
+- Dataset version: `phase2b-2026-08-14-rc4`
 - Card schema: `0.4`
-- Editorial policy: `0.3-rc2`
-- Built: 2026-08-13T05:50:58.991012+00:00
+- Editorial policy: `0.4-rc4`
+- Built: 2026-08-13T10:52:47.483880+00:00

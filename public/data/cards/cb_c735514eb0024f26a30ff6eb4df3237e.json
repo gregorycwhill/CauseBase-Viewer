@@ -72,16 +72,6 @@
       "freshness_note": null
     },
     {
-      "capability": "website",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:web:18083027276:2026-08-10"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
       "capability": "fundraising_expenditure",
       "status": "not_yet_processed",
       "source_record_id": null,
@@ -100,50 +90,86 @@
     {
       "capability": "latest_acnc_ais",
       "status": "not_available_from_source",
+      "source_record_id": "src:acnc-public-profile:18083027276:0f33f233-39af-e811-a95e-000d3ad24c60:cb_c735514eb0024f26a30ff6eb4df3237e",
+      "evidence_ids": [],
+      "observed_at": "2026-08-13",
+      "freshness_note": "No submitted AIS was returned by the public ACNC profile endpoint."
+    },
+    {
+      "capability": "website",
+      "status": "observed",
       "source_record_id": null,
       "evidence_ids": [],
       "observed_at": "2026-08-13",
-      "freshness_note": "No submitted AIS appears in the 2026-08-13 public ACNC profile acquisition."
+      "freshness_note": "Public website locator acquired from the ACNC profile."
     }
   ],
   "enrichment_level": "enriched",
   "website": "https://watchgood.com",
   "geography": [
-    "Queensland (organisational registration observed)",
+    "Queensland",
     "Online/streaming platforms listed on the organisation’s website (mobile, tablet, web, Apple TV, Smart TV, Foxtel, Fetch, Chromecast)"
   ],
-  "navigation_geography": [
+  "geography_observations": [
     {
-      "level": "country",
-      "code": "AU",
-      "label": "Australia",
-      "evidence_ids": [
-        "ev:acnc:18083027276"
-      ]
+      "value": "Queensland",
+      "source_role": "legacy_source_qualifier",
+      "provenance_note": "organisational registration observed",
+      "evidence_ids": []
     },
     {
-      "level": "state_territory",
-      "code": "AU-QLD",
-      "label": "Queensland",
-      "evidence_ids": [
-        "ev:acnc:18083027276"
-      ]
+      "value": "Online/streaming platforms listed on the organisation’s website (mobile, tablet, web, Apple TV, Smart TV, Foxtel, Fetch, Chromecast)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
     }
   ],
-  "causebase_summary": "Australian Christian Channel Pty Ltd operates the streaming television and on‑demand service branded as GOOD from Queensland and online. GOOD provides a downloadable app for iOS and Android and is available via web and a range of connected TV platforms; the service publishes programme listings and short articles organised into categories such as Faith and Culture, Entertainment & The Arts, Lifestyle, Families and Health and Wellness. The organisation offers a newsletter sign‑up for programme updates and news. The primary user group is people who access or view the GOOD streaming service and its website content, including families identified as a content category.",
-  "summary_evidence_ids": [
-    "ev:web:18083027276:2026-08-10",
-    "ev:acnc:18083027276"
-  ],
+  "navigation_geography": [],
+  "causebase_summary": "Australian Christian Channel Pty Ltd (operating a service called GOOD) is presented on its website (watchgood.com) as a streaming television and on‑demand service. The site states the GOOD app can be downloaded for mobile phones and tablets (iOS v12+ and Android v7+), and that GOOD is available on web, Apple TV, Smart TV, Foxtel, Fetch and Chromecast. The website publishes program listings and short articles under headings such as Faith and Culture, Entertainment & The Arts, Lifestyle, Families and Health and Wellness (examples dated 4–9 August 2026 are shown). The site invites users to sign up for a newsletter for program news and behind‑the‑scenes content. An ACNC Register extract for Australian Christian Channel Pty Ltd was observed in the evidence pack. The evidence is primarily the organisation’s website and the ACNC record; the website’s statements about device availability and content categories are reported here as claims from the organisation’s site.",
+  "summary_evidence_ids": [],
   "organisation_self_description": null,
   "activities": [
-    "Operating and promoting a streaming television and on‑demand service called GOOD (website claims availability on mobile, tablet, web and connected TV platforms)",
+    "Operating and promoting a streaming television and on‑demand service called GOOD",
     "Publishing program listings and short articles in categories such as Faith and Culture, Entertainment & The Arts, Lifestyle, Families and Health and Wellness",
     "Offering a newsletter sign‑up on the website for program updates and news"
   ],
+  "activity_observations": [
+    {
+      "value": "Operating and promoting a streaming television and on‑demand service called GOOD",
+      "source_role": "legacy_source_qualifier",
+      "provenance_note": "website claims availability on mobile, tablet, web and connected TV platforms",
+      "evidence_ids": []
+    },
+    {
+      "value": "Publishing program listings and short articles in categories such as Faith and Culture, Entertainment & The Arts, Lifestyle, Families and Health and Wellness",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Offering a newsletter sign‑up on the website for program updates and news",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    }
+  ],
   "beneficiaries": [
     "People who access or view the GOOD streaming service and website content",
-    "Families (as an identified website content category)"
+    "Families"
+  ],
+  "beneficiary_observations": [
+    {
+      "value": "People who access or view the GOOD streaming service and website content",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Families",
+      "source_role": "legacy_source_qualifier",
+      "provenance_note": "as an identified website content category",
+      "evidence_ids": []
+    }
   ],
   "participation_modes": [
     "Downloading and streaming the GOOD app on mobile or tablet as described on the website",
@@ -155,47 +181,17 @@
   "programs": [],
   "source_native_records": [
     {
-      "source_record_id": "src:acnc-register:9bb277b3-ffbb-5dd4-9366-05d278d51667",
-      "source_family": "acnc-register",
-      "dataset_version": "2026-08-10",
-      "source_url": "https://www.acnc.gov.au/charity/charities?search=18083027276",
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "ABN": "18083027276",
-        "Legal Name": "Australian Christian Channel Pty Ltd",
-        "Registration Status": "registered",
-        "ACNC classifications": "religion; general community",
-        "Website": "https://watchgood.com",
-        "ACNC registration ID": null,
-        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "ABN": "external_identifiers",
-        "Legal Name": "legal_name",
-        "Registration Status": "registrations"
-      },
-      "evidence_ids": [
-        "ev:acnc:18083027276"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-public-profile:18083027276:cb_c735514eb0024f26a30ff6eb4df3237e:2026-08-13",
+      "source_record_id": "src:acnc-public-profile:18083027276:0f33f233-39af-e811-a95e-000d3ad24c60:cb_c735514eb0024f26a30ff6eb4df3237e",
       "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-13-public-api",
+      "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/0f33f233-39af-e811-a95e-000d3ad24c60/profile",
-      "retrieved_at": "2026-08-13T05:50:58.991012Z",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
       "observed_at": "2026-08-13",
       "effective_from": null,
       "effective_to": null,
       "source_fields": {
         "uuid": "0f33f233-39af-e811-a95e-000d3ad24c60",
-        "abn": "18083027276",
-        "latest_ais_year": null,
-        "latest_ais_uuid": null
+        "abn": "18083027276"
       },
       "source_payload": {
         "data": {
@@ -669,10 +665,8 @@
         "uuid": "0f33f233-39af-e811-a95e-000d3ad24c60"
       },
       "canonical_field_mappings": {
-        "data.Name": "display_name",
         "data.OtherNames": "operating_names",
-        "data.AnnualReports": "acnc_ais_url",
-        "data.Programs": "programs"
+        "data.AddressStateOrProvince": "principal_location"
       },
       "evidence_ids": []
     }
@@ -795,81 +789,25 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "220086c093a1ed7235ad1709d9e8eafbbca21d070da63c80db53417e95ac377a",
-    "generated_at": "2026-08-13T05:51:03.017976Z",
+    "source_text_hash": "979829bb039295a6b798a705384d3ef1bec30e519f0464ee906de7b7915d8a5d",
+    "generated_at": "2026-08-10T13:53:24.457551Z",
     "vector_ref": "embeddings.parquet#cb_c735514eb0024f26a30ff6eb4df3237e"
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
+    "prompt_version": "phase2a-0.4",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "4934afc696573b382a0d82df683b5e4e5276b7e9e737a248b71032fb4e35890d",
-    "generated_at": "2026-08-12T14:09:15.355407Z",
+    "evidence_input_hash": "e6da29cc5930bddd2e5945e01c8ab5e5b64f4061da350099b4a80e53e72ddd34",
+    "generated_at": "2026-08-10T12:57:43.552744Z",
     "editorial_policy_version": "0.1"
   },
-  "derivative_assessments": [
-    {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T14:09:15.355407Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-rc2-editorial-migration",
-      "input_hash": "4934afc696573b382a0d82df683b5e4e5276b7e9e737a248b71032fb4e35890d",
-      "disposition": "refreshed",
-      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "taxonomy",
-      "generated_at": "2026-08-12T14:09:15.355407Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "4934afc696573b382a0d82df683b5e4e5276b7e9e737a248b71032fb4e35890d",
-      "disposition": "reused",
-      "reason": "No new supported canonical classification facts.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "fundraising",
-      "generated_at": null,
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "4934afc696573b382a0d82df683b5e4e5276b7e9e737a248b71032fb4e35890d",
-      "disposition": "reused",
-      "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "embedding",
-      "generated_at": "2026-08-10T13:53:24.457551Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "979829bb039295a6b798a705384d3ef1bec30e519f0464ee906de7b7915d8a5d",
-      "disposition": "reused",
-      "reason": "Semantic source text unchanged.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "similarities",
-      "generated_at": "2026-08-10T13:53:24.457551Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "979829bb039295a6b798a705384d3ef1bec30e519f0464ee906de7b7915d8a5d",
-      "disposition": "reused",
-      "reason": "Embedding reused; semantic neighbours retained.",
-      "affected_dimensions": []
-    }
-  ],
-  "dataset_version": "phase2b-2026-08-13-rc3",
+  "derivative_assessments": [],
+  "dataset_version": "phase2b-2026-08-14-rc4",
   "card_schema_version": "0.4",
-  "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T05:50:58.991012Z"
+  "editorial_policy_version": "0.4-rc4",
+  "generator_version": "0.5.0-rc4",
+  "built_at": "2026-08-13T10:52:47.483880Z"
 }

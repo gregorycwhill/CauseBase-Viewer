@@ -63,16 +63,6 @@
       "freshness_note": null
     },
     {
-      "capability": "website",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:web:31681580987:2026-08-10"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
       "capability": "fundraising_expenditure",
       "status": "not_yet_processed",
       "source_record_id": null,
@@ -91,10 +81,18 @@
     {
       "capability": "latest_acnc_ais",
       "status": "not_available_from_source",
+      "source_record_id": "src:acnc-public-profile:31681580987:0b3d14dc-8b2f-f011-8c4d-000d3ad259fb:cb_ef6013bee4d04343be2d79a62503399d",
+      "evidence_ids": [],
+      "observed_at": "2026-08-13",
+      "freshness_note": "No submitted AIS was returned by the public ACNC profile endpoint."
+    },
+    {
+      "capability": "website",
+      "status": "observed",
       "source_record_id": null,
       "evidence_ids": [],
       "observed_at": "2026-08-13",
-      "freshness_note": "No submitted AIS appears in the 2026-08-13 public ACNC profile acquisition."
+      "freshness_note": "Public website locator acquired from the ACNC profile."
     }
   ],
   "enrichment_level": "enriched",
@@ -102,29 +100,17 @@
   "geography": [
     "South Australia"
   ],
-  "navigation_geography": [
+  "geography_observations": [
     {
-      "level": "country",
-      "code": "AU",
-      "label": "Australia",
-      "evidence_ids": [
-        "ev:acnc:31681580987"
-      ]
-    },
-    {
-      "level": "state_territory",
-      "code": "AU-SA",
-      "label": "South Australia",
-      "evidence_ids": [
-        "ev:acnc:31681580987"
-      ]
+      "value": "South Australia",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
     }
   ],
-  "causebase_summary": "Stallard Meek Flightpath Foundation (SMFF) is a not-for-profit based in South Australia that raises funds and awareness for organisations, cultural groups and underrepresented communities with a focus on built environments and social infrastructure. SMFF provides opportunities for architectural and design professionals to undertake research projects, and offers collaboration, mentorships and sponsorships for people and organisations in the art, architecture and design sectors. Recent activities include sponsorship of the NAWIC International Women’s Day 2025 networking event and supporting a post‑event networking function, and an active curriculum partnership with Adelaide Botanic High School’s Year 11–12 Architectural Specialisation Programme, where SMFF delivers one to two lessons per term and participates in studio‑style pin‑up presentations.",
-  "summary_evidence_ids": [
-    "ev:web:31681580987:2026-08-10",
-    "ev:acnc:31681580987"
-  ],
+  "navigation_geography": [],
+  "causebase_summary": "Stallard Meek Flightpath Foundation (SMFF) is presented on its website as a not-for-profit that raises funds and awareness for organisations, cultural groups and underrepresented communities to ‘better their built environments, strengthen their social infrastructures and/or support their defined ethos’. The foundation describes offering opportunities for architectural and design industry professionals to undertake research projects, and to participate in collaboration, mentorships and sponsorships for persons and organisations within the art, architecture and design sectors. Recent project listings on the site include sponsorship of the NAWIC International Women’s Day 2025 event, where SMFF is named as a Networking Event Sponsor for the Post Event Networking Drinks at the Malt Shovel Taphouse on 28 February 2025 and states an interest in advocating for women in the construction industry. SMFF also describes an active collaboration with Adelaide Botanic High School: tailoring the Year 11–12 Architectural Specialisation Programme, participating in one to two lessons each term, and teaching topics such as site analysis strategies, architectural typologies, ideation and design principles, graphic communication methods and studio-style pin-up presentations. The ACNC register entry for the organisation was observed but no financial details were supplied in the provided evidence.",
+  "summary_evidence_ids": [],
   "organisation_self_description": null,
   "activities": [
     "Raising funds and awareness for organisations, cultural groups and underrepresented communities",
@@ -133,12 +119,76 @@
     "Sponsoring industry events (NAWIC International Women’s Day 2025 networking event)",
     "Curriculum participation with Adelaide Botanic High School (Year 11–12 Architectural Specialisation Programme)"
   ],
+  "activity_observations": [
+    {
+      "value": "Raising funds and awareness for organisations, cultural groups and underrepresented communities",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Providing opportunities for architectural and design professionals to undertake research projects",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Collaboration, mentorships and sponsorships for persons and organisations in the art, architecture and design sectors",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Sponsoring industry events (NAWIC International Women’s Day 2025 networking event)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Curriculum participation with Adelaide Botanic High School (Year 11–12 Architectural Specialisation Programme)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    }
+  ],
   "beneficiaries": [
     "Organisations",
     "Cultural groups",
     "Underrepresented communities",
     "Year 11–12 architecture students at Adelaide Botanic High School",
     "Persons and organisations in the art, architecture and design sectors"
+  ],
+  "beneficiary_observations": [
+    {
+      "value": "Organisations",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Cultural groups",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Underrepresented communities",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Year 11–12 architecture students at Adelaide Botanic High School",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Persons and organisations in the art, architecture and design sectors",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    }
   ],
   "participation_modes": [
     "Sponsoring and supporting industry networking and public events",
@@ -150,47 +200,17 @@
   "programs": [],
   "source_native_records": [
     {
-      "source_record_id": "src:acnc-register:e2208ff4-ad06-5f43-89f7-27d24dc7c1dd",
-      "source_family": "acnc-register",
-      "dataset_version": "2026-08-10",
-      "source_url": "https://www.acnc.gov.au/charity/charities?search=31681580987",
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "ABN": "31681580987",
-        "Legal Name": "STALLARD MEEK FLIGHTPATH FOUNDATION LTD",
-        "Registration Status": "registered",
-        "ACNC classifications": "education; general community",
-        "Website": "https://www.sm-f.com.au/foundation/",
-        "ACNC registration ID": null,
-        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "ABN": "external_identifiers",
-        "Legal Name": "legal_name",
-        "Registration Status": "registrations"
-      },
-      "evidence_ids": [
-        "ev:acnc:31681580987"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-public-profile:31681580987:cb_ef6013bee4d04343be2d79a62503399d:2026-08-13",
+      "source_record_id": "src:acnc-public-profile:31681580987:0b3d14dc-8b2f-f011-8c4d-000d3ad259fb:cb_ef6013bee4d04343be2d79a62503399d",
       "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-13-public-api",
+      "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/0b3d14dc-8b2f-f011-8c4d-000d3ad259fb/profile",
-      "retrieved_at": "2026-08-13T05:50:58.991012Z",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
       "observed_at": "2026-08-13",
       "effective_from": null,
       "effective_to": null,
       "source_fields": {
         "uuid": "0b3d14dc-8b2f-f011-8c4d-000d3ad259fb",
-        "abn": "31681580987",
-        "latest_ais_year": null,
-        "latest_ais_uuid": null
+        "abn": "31681580987"
       },
       "source_payload": {
         "data": {
@@ -391,10 +411,8 @@
         "uuid": "0b3d14dc-8b2f-f011-8c4d-000d3ad259fb"
       },
       "canonical_field_mappings": {
-        "data.Name": "display_name",
         "data.OtherNames": "operating_names",
-        "data.AnnualReports": "acnc_ais_url",
-        "data.Programs": "programs"
+        "data.AddressStateOrProvince": "principal_location"
       },
       "evidence_ids": []
     }
@@ -532,81 +550,25 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "2a2c382394119f92e70bb7e3d025ab30d5ff7ce468c1108c2219ed9e113ddf32",
-    "generated_at": "2026-08-13T05:51:03.018713Z",
+    "source_text_hash": "62c9c8bdd208e8f2da87772970eb0cafab3e8854646012ee8351793f15a71f70",
+    "generated_at": "2026-08-10T13:53:24.457971Z",
     "vector_ref": "embeddings.parquet#cb_ef6013bee4d04343be2d79a62503399d"
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
+    "prompt_version": "phase2a-0.4",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "2cec50152bd97ce05eef21a7e145e58c6bb227c9e0c496c5f68de67fd4301584",
-    "generated_at": "2026-08-12T14:15:58.294678Z",
+    "evidence_input_hash": "4100720c924feae73755f8bdc7997cdc117ebf247895fae9309e9db634a21c8c",
+    "generated_at": "2026-08-10T13:00:11.502797Z",
     "editorial_policy_version": "0.1"
   },
-  "derivative_assessments": [
-    {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T14:15:58.294678Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-rc2-editorial-migration",
-      "input_hash": "2cec50152bd97ce05eef21a7e145e58c6bb227c9e0c496c5f68de67fd4301584",
-      "disposition": "refreshed",
-      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "taxonomy",
-      "generated_at": "2026-08-12T14:15:58.294678Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "2cec50152bd97ce05eef21a7e145e58c6bb227c9e0c496c5f68de67fd4301584",
-      "disposition": "reused",
-      "reason": "No new supported canonical classification facts.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "fundraising",
-      "generated_at": null,
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "2cec50152bd97ce05eef21a7e145e58c6bb227c9e0c496c5f68de67fd4301584",
-      "disposition": "reused",
-      "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "embedding",
-      "generated_at": "2026-08-10T13:53:24.457971Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "62c9c8bdd208e8f2da87772970eb0cafab3e8854646012ee8351793f15a71f70",
-      "disposition": "reused",
-      "reason": "Semantic source text unchanged.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "similarities",
-      "generated_at": "2026-08-10T13:53:24.457971Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "62c9c8bdd208e8f2da87772970eb0cafab3e8854646012ee8351793f15a71f70",
-      "disposition": "reused",
-      "reason": "Embedding reused; semantic neighbours retained.",
-      "affected_dimensions": []
-    }
-  ],
-  "dataset_version": "phase2b-2026-08-13-rc3",
+  "derivative_assessments": [],
+  "dataset_version": "phase2b-2026-08-14-rc4",
   "card_schema_version": "0.4",
-  "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T05:50:58.991012Z"
+  "editorial_policy_version": "0.4-rc4",
+  "generator_version": "0.5.0-rc4",
+  "built_at": "2026-08-13T10:52:47.483880Z"
 }

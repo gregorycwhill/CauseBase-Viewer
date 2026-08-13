@@ -63,16 +63,6 @@
       "freshness_note": null
     },
     {
-      "capability": "website",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:web:24602619634:2026-08-10"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
       "capability": "fundraising_expenditure",
       "status": "not_yet_processed",
       "source_record_id": null,
@@ -91,10 +81,18 @@
     {
       "capability": "latest_acnc_ais",
       "status": "not_available_from_source",
+      "source_record_id": "src:acnc-public-profile:24602619634:7cffd720-9e2f-f011-8c4d-000d3ad259fb:cb_c98b2e14f66e429aa26c655d3e2ba99b",
+      "evidence_ids": [],
+      "observed_at": "2026-08-13",
+      "freshness_note": "No submitted AIS was returned by the public ACNC profile endpoint."
+    },
+    {
+      "capability": "website",
+      "status": "observed",
       "source_record_id": null,
       "evidence_ids": [],
       "observed_at": "2026-08-13",
-      "freshness_note": "No submitted AIS appears in the 2026-08-13 public ACNC profile acquisition."
+      "freshness_note": "Public website locator acquired from the ACNC profile."
     }
   ],
   "enrichment_level": "enriched",
@@ -103,39 +101,73 @@
     "Western Australia",
     "Organisation states it has a wide national footprint across Australia"
   ],
-  "navigation_geography": [
+  "geography_observations": [
     {
-      "level": "country",
-      "code": "AU",
-      "label": "Australia",
-      "evidence_ids": [
-        "ev:acnc:24602619634"
-      ]
+      "value": "Western Australia",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
     },
     {
-      "level": "state_territory",
-      "code": "AU-WA",
-      "label": "Western Australia",
-      "evidence_ids": [
-        "ev:acnc:24602619634"
-      ]
+      "value": "Organisation states it has a wide national footprint across Australia",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
     }
   ],
-  "causebase_summary": "Innovate Australia Ltd is a not-for-profit facilitator of Australian innovation, established in 2014 and based in Western Australia; the organisation states it has a wide national footprint across Australia. It works with industry to encourage, assist and promote Australian innovation, develop innovation programs and networks, and showcase innovation through events and sponsorship. Innovate Australia also judges startup competitions and publishes online commentary — a June 9, 2026 post described the organisation’s experience judging AI startups. The organisation describes itself as independent and focused on bringing about and encouraging innovation through industry-facing programs, events and online publishing.",
-  "summary_evidence_ids": [
-    "ev:acnc:24602619634",
-    "ev:web:24602619634:2026-08-10"
-  ],
+  "navigation_geography": [],
+  "causebase_summary": "Innovate Australia Ltd (website content) says it was established in 2014 as a not‑for‑profit, independent facilitator to “encourage, assist and proactively promote Australian innovation.” The organisation’s website states it works with industry to bring about and encourage innovation, to showcase innovation, and to develop innovation programs and networks. Slides on the site reference event activity and sponsorship (slide text: “Proud sponsor … Road to Geneva - Finals - 27-03-25”). Recent website content includes a blog post titled “What Judging AI Startups Taught Me About Where the Industry Is Actually Headed” (9 June 2026), and the site notes involvement in judging AI startups. The ACNC register extract for the entity is recorded in the evidence pack but no financial details were provided in the available sources. The organisation is associated with Western Australia in structured data; the site also describes a “wide national footprint” (organisation claim).",
+  "summary_evidence_ids": [],
   "organisation_self_description": null,
   "activities": [
-    "Encouraging, assisting and promoting Australian innovation (organisation claim)",
+    "Encouraging, assisting and promoting Australian innovation",
     "Working with industry to develop innovation programs and networks",
     "Showcasing innovation through events and sponsorship",
     "Judging startup competitions and publishing online commentary"
   ],
+  "activity_observations": [
+    {
+      "value": "Encouraging, assisting and promoting Australian innovation",
+      "source_role": "legacy_source_qualifier",
+      "provenance_note": "organisation claim",
+      "evidence_ids": []
+    },
+    {
+      "value": "Working with industry to develop innovation programs and networks",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Showcasing innovation through events and sponsorship",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Judging startup competitions and publishing online commentary",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    }
+  ],
   "beneficiaries": [
     "Industry participants",
     "Startups, including AI startups"
+  ],
+  "beneficiary_observations": [
+    {
+      "value": "Industry participants",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Startups, including AI startups",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    }
   ],
   "participation_modes": [
     "Judging competitions",
@@ -148,47 +180,17 @@
   "programs": [],
   "source_native_records": [
     {
-      "source_record_id": "src:acnc-register:ed37bbd2-cb38-5d15-9644-3d4e25dcd93d",
-      "source_family": "acnc-register",
-      "dataset_version": "2026-08-10",
-      "source_url": "https://www.acnc.gov.au/charity/charities?search=24602619634",
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "ABN": "24602619634",
-        "Legal Name": "INNOVATE AUSTRALIA LTD",
-        "Registration Status": "registered",
-        "ACNC classifications": "other purpose; general community",
-        "Website": "https://innovateaustralia.org/",
-        "ACNC registration ID": null,
-        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "ABN": "external_identifiers",
-        "Legal Name": "legal_name",
-        "Registration Status": "registrations"
-      },
-      "evidence_ids": [
-        "ev:acnc:24602619634"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-public-profile:24602619634:cb_c98b2e14f66e429aa26c655d3e2ba99b:2026-08-13",
+      "source_record_id": "src:acnc-public-profile:24602619634:7cffd720-9e2f-f011-8c4d-000d3ad259fb:cb_c98b2e14f66e429aa26c655d3e2ba99b",
       "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-13-public-api",
+      "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/7cffd720-9e2f-f011-8c4d-000d3ad259fb/profile",
-      "retrieved_at": "2026-08-13T05:50:58.991012Z",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
       "observed_at": "2026-08-13",
       "effective_from": null,
       "effective_to": null,
       "source_fields": {
         "uuid": "7cffd720-9e2f-f011-8c4d-000d3ad259fb",
-        "abn": "24602619634",
-        "latest_ais_year": null,
-        "latest_ais_uuid": null
+        "abn": "24602619634"
       },
       "source_payload": {
         "data": {
@@ -383,10 +385,8 @@
         "uuid": "7cffd720-9e2f-f011-8c4d-000d3ad259fb"
       },
       "canonical_field_mappings": {
-        "data.Name": "display_name",
         "data.OtherNames": "operating_names",
-        "data.AnnualReports": "acnc_ais_url",
-        "data.Programs": "programs"
+        "data.AddressStateOrProvince": "principal_location"
       },
       "evidence_ids": []
     }
@@ -497,81 +497,25 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "6ac45573f7ca40d7a3cd2a22dac31d1b79b23f4271ccdde61b5722ed951c5774",
-    "generated_at": "2026-08-13T05:51:03.015418Z",
+    "source_text_hash": "9368da83dac60ac1b2bf563ad8e311feec88b42b9cbb305e91e19008e531d508",
+    "generated_at": "2026-08-10T13:53:24.456500Z",
     "vector_ref": "embeddings.parquet#cb_c98b2e14f66e429aa26c655d3e2ba99b"
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
+    "prompt_version": "phase2a-0.4",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "0c4f987a055d5c9c77a304ec5a546509596dfdfc8dac828f7218a4afe2729af7",
-    "generated_at": "2026-08-12T13:52:17.361450Z",
+    "evidence_input_hash": "4ea9a0fc2fe648bae08898d551f4a284b28694fbf7642efc755a0fcff3aa5689",
+    "generated_at": "2026-08-10T12:51:20.749005Z",
     "editorial_policy_version": "0.1"
   },
-  "derivative_assessments": [
-    {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T13:52:17.361450Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-rc2-editorial-migration",
-      "input_hash": "0c4f987a055d5c9c77a304ec5a546509596dfdfc8dac828f7218a4afe2729af7",
-      "disposition": "refreshed",
-      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "taxonomy",
-      "generated_at": "2026-08-12T13:52:17.361450Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "0c4f987a055d5c9c77a304ec5a546509596dfdfc8dac828f7218a4afe2729af7",
-      "disposition": "reused",
-      "reason": "No new supported canonical classification facts.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "fundraising",
-      "generated_at": null,
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "0c4f987a055d5c9c77a304ec5a546509596dfdfc8dac828f7218a4afe2729af7",
-      "disposition": "reused",
-      "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "embedding",
-      "generated_at": "2026-08-10T13:53:24.456500Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "9368da83dac60ac1b2bf563ad8e311feec88b42b9cbb305e91e19008e531d508",
-      "disposition": "reused",
-      "reason": "Semantic source text unchanged.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "similarities",
-      "generated_at": "2026-08-10T13:53:24.456500Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "9368da83dac60ac1b2bf563ad8e311feec88b42b9cbb305e91e19008e531d508",
-      "disposition": "reused",
-      "reason": "Embedding reused; semantic neighbours retained.",
-      "affected_dimensions": []
-    }
-  ],
-  "dataset_version": "phase2b-2026-08-13-rc3",
+  "derivative_assessments": [],
+  "dataset_version": "phase2b-2026-08-14-rc4",
   "card_schema_version": "0.4",
-  "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T05:50:58.991012Z"
+  "editorial_policy_version": "0.4-rc4",
+  "generator_version": "0.5.0-rc4",
+  "built_at": "2026-08-13T10:52:47.483880Z"
 }

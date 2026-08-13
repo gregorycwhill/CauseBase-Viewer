@@ -65,16 +65,6 @@
       "freshness_note": null
     },
     {
-      "capability": "website",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:web:16636320874:2026-08-10"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
       "capability": "fundraising_expenditure",
       "status": "not_available_from_source",
       "source_record_id": null,
@@ -95,12 +85,20 @@
     {
       "capability": "latest_acnc_ais",
       "status": "observed",
-      "source_record_id": null,
+      "source_record_id": "src:acnc-ais-detail:16636320874:05eba594-3ff0-f011-8406-7ced8db173e1:cb_e26f2d8882614c9cbcf906a11734c7e1",
       "evidence_ids": [
-        "ev:acnc:ais:16636320874:2025"
+        "ev:acnc:ais:16636320874:05eba594-3ff0-f011-8406-7ced8db173e1"
       ],
       "observed_at": "2026-01-13",
-      "freshness_note": "Latest submitted ACNC AIS in the 2026-08-13 public-profile acquisition: 2025."
+      "freshness_note": "Latest submitted AIS detail acquired from the public ACNC entity endpoint."
+    },
+    {
+      "capability": "website",
+      "status": "observed",
+      "source_record_id": null,
+      "evidence_ids": [],
+      "observed_at": "2026-08-13",
+      "freshness_note": "Public website locator acquired from the ACNC profile."
     }
   ],
   "enrichment_level": "enriched",
@@ -108,36 +106,39 @@
   "geography": [
     "Victoria (VIC, Australia)"
   ],
-  "navigation_geography": [
+  "geography_observations": [
     {
-      "level": "country",
-      "code": "AU",
-      "label": "Australia",
-      "evidence_ids": [
-        "ev:acnc:16636320874"
-      ]
-    },
-    {
-      "level": "state_territory",
-      "code": "AU-VIC",
-      "label": "Victoria",
-      "evidence_ids": [
-        "ev:acnc:16636320874"
-      ]
+      "value": "Victoria (VIC, Australia)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
     }
   ],
-  "causebase_summary": "Geelong & District Day Nursery Incorporated is a local early‑childhood service based in Geelong, Victoria. It operates a day nursery / children’s centre, providing on‑site care and early childhood education for children in the Geelong & district area. Regulatory registration and the organisation’s website and annual information statement identify the organisation, its role as a children’s centre and its location; financial filings are available for the 2022–23 reporting year. CauseBase has evidence that the organisation runs a day nursery in Geelong but does not have sufficient descriptive evidence in this release to identify specific service models, age ranges served, opening hours or eligibility criteria.",
-  "summary_evidence_ids": [
-    "ev:web:16636320874:2026-08-10",
-    "ev:acnc:16636320874",
-    "ev:ais:16636320874:2023"
-  ],
+  "navigation_geography": [],
+  "causebase_summary": "Geelong & District Day Nursery Incorporated (display name: Geelong & District Day Nursery Incorporated; website: https://geelongchildrenscentre.com.au/) is registered in Victoria. Evidence available for this subject comprises an ACNC register entry, the organisation’s website homepage, and an ACNC Annual Information Statement (AIS) for 01/07/2022–30/06/2023. The AIS reports revenue of AUD 3,936,353 and total expenses of AUD 3,592,605 for that reporting period. The organisation’s legal name and website name refer to a day nursery/children’s centre; the website snapshot in the evidence pack was not readable for extraction of further program or service details. No independent documentation of specific programs, participant numbers, service locations within Victoria, staffing or governance detail was provided in the selected excerpts.",
+  "summary_evidence_ids": [],
   "organisation_self_description": null,
   "activities": [
-    "Operates as a day nursery / children’s centre (stated in legal and display names and website URL)"
+    "Operates as a day nursery / children’s centre"
+  ],
+  "activity_observations": [
+    {
+      "value": "Operates as a day nursery / children’s centre",
+      "source_role": "legacy_source_qualifier",
+      "provenance_note": "stated in legal and display names and website URL",
+      "evidence_ids": []
+    }
   ],
   "beneficiaries": [
-    "Children (implied by the organisation’s legal and display names)"
+    "Children"
+  ],
+  "beneficiary_observations": [
+    {
+      "value": "Children",
+      "source_role": "legacy_source_qualifier",
+      "provenance_note": "implied by the organisation’s legal and display names",
+      "evidence_ids": []
+    }
   ],
   "participation_modes": [],
   "participation_observations": [],
@@ -163,82 +164,23 @@
       "reporting_period": "2025",
       "source_url": "https://www.acnc.gov.au/charity/charities/e58414c6-38af-e811-a961-000d3ad24182/documents/05eba594-3ff0-f011-8406-7ced8db173e1",
       "evidence_ids": [
-        "ev:acnc:ais:16636320874:2025"
+        "ev:acnc:ais:16636320874:05eba594-3ff0-f011-8406-7ced8db173e1"
       ]
     }
   ],
   "source_native_records": [
     {
-      "source_record_id": "src:acnc-register:2618b214-920d-5cfc-b945-30f776810279",
-      "source_family": "acnc-register",
-      "dataset_version": "2026-08-10",
-      "source_url": "https://www.acnc.gov.au/charity/charities?search=16636320874",
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "ABN": "16636320874",
-        "Legal Name": "Geelong & District Day Nursery Incorporated",
-        "Registration Status": "registered",
-        "ACNC classifications": "education; people with disability",
-        "Website": "www.geelongchildrenscentre.com.au",
-        "ACNC registration ID": null,
-        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "ABN": "external_identifiers",
-        "Legal Name": "legal_name",
-        "Registration Status": "registrations"
-      },
-      "evidence_ids": [
-        "ev:acnc:16636320874"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-ais:fr:ais:cb_e26f2d8882614c9cbcf906a11734c7e1:2023",
-      "source_family": "acnc-ais",
-      "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": "2022-07-01",
-      "effective_to": "2023-06-30",
-      "source_fields": {
-        "Reporting period": "01/07/2022 to 30/06/2023",
-        "Reporting scope": "subject",
-        "Consolidated": "false",
-        "Revenue": "3936353",
-        "Donations and bequests": null,
-        "Government grants": null,
-        "Total expenses": "3592605",
-        "Assets": null,
-        "Liabilities": null
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "Revenue": "financial_records[].revenue",
-        "Total expenses": "financial_records[].total_expenses"
-      },
-      "evidence_ids": [
-        "ev:ais:16636320874:2023"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-public-profile:16636320874:cb_e26f2d8882614c9cbcf906a11734c7e1:2026-08-13",
+      "source_record_id": "src:acnc-public-profile:16636320874:e58414c6-38af-e811-a961-000d3ad24182:cb_e26f2d8882614c9cbcf906a11734c7e1",
       "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-13-public-api",
+      "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/e58414c6-38af-e811-a961-000d3ad24182/profile",
-      "retrieved_at": "2026-08-13T05:50:58.991012Z",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
       "observed_at": "2026-01-13",
       "effective_from": null,
       "effective_to": null,
       "source_fields": {
         "uuid": "e58414c6-38af-e811-a961-000d3ad24182",
-        "abn": "16636320874",
-        "latest_ais_year": "2025",
-        "latest_ais_uuid": "05eba594-3ff0-f011-8406-7ced8db173e1"
+        "abn": "16636320874"
       },
       "source_payload": {
         "data": {
@@ -906,13 +848,301 @@
         "uuid": "e58414c6-38af-e811-a961-000d3ad24182"
       },
       "canonical_field_mappings": {
-        "data.Name": "display_name",
         "data.OtherNames": "operating_names",
-        "data.AnnualReports": "acnc_ais_url",
-        "data.Programs": "programs"
+        "data.AddressStateOrProvince": "principal_location"
+      },
+      "evidence_ids": []
+    },
+    {
+      "source_record_id": "src:acnc-ais-detail:16636320874:05eba594-3ff0-f011-8406-7ced8db173e1:cb_e26f2d8882614c9cbcf906a11734c7e1",
+      "source_family": "acnc-ais-detail",
+      "dataset_version": "2026-08-14-public-api",
+      "source_url": "https://www.acnc.gov.au/charity/charities/e58414c6-38af-e811-a961-000d3ad24182/documents/05eba594-3ff0-f011-8406-7ced8db173e1",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
+      "observed_at": "2026-01-13",
+      "effective_from": null,
+      "effective_to": null,
+      "source_fields": {
+        "abn": "16636320874",
+        "ais_uuid": "05eba594-3ff0-f011-8406-7ced8db173e1",
+        "year": "2025",
+        "date_received": "2026-01-13T05:20:41.0000000Z"
+      },
+      "source_payload": {
+        "data": {
+          "Abn": "16636320874",
+          "ActivityAdvocacyNCivic": false,
+          "ActivityAgedCare": false,
+          "ActivityAnimalProtection": false,
+          "ActivityCultureAndArt": false,
+          "ActivityEconomicSocialCommunity": false,
+          "ActivityEmergencyNRelief": false,
+          "ActivityEmploymentNTraining": false,
+          "ActivityEnvironmental": false,
+          "ActivityGrantMaking": false,
+          "ActivityHealthRehabilitation": false,
+          "ActivityHigherEducation": false,
+          "ActivityHousing": false,
+          "ActivityIncomeSupportNMaintenance": false,
+          "ActivityInternational": false,
+          "ActivityInternationalDescription": null,
+          "ActivityInternationalOther": false,
+          "ActivityInternationalOtherDescription": null,
+          "ActivityLawNLegalServices": false,
+          "ActivityMain": null,
+          "ActivityMentalHealthCrisisIntervention": false,
+          "ActivityNdisSupported": null,
+          "ActivityNdisSupportedNext": null,
+          "ActivityOperating": true,
+          "ActivityOperatingOverseas": false,
+          "ActivityOther": false,
+          "ActivityOtherDescription": null,
+          "ActivityOtherEducation": false,
+          "ActivityOtherHealthServices": false,
+          "ActivityPersuitPurposesDescription": "We operate a non-for-profit community based Childcare Service to meet the needs of the local community.  Our Service provides a long daycare service including a 3 and 4 year kindergarten programmes.",
+          "ActivityPhilanthropicPromotion": false,
+          "ActivityPolitical": false,
+          "ActivityPrimarySecondaryEducation": false,
+          "ActivityPurposeChange": null,
+          "ActivityPurposeChangeDescription": null,
+          "ActivityRecreationSocialClub": false,
+          "ActivityReligious": false,
+          "ActivityResearch": false,
+          "ActivitySocialServices": false,
+          "ActivitySports": false,
+          "ActivityTransferringFundsGoods": false,
+          "AdvancementOfEducation": false,
+          "AdvancementOfReligion": false,
+          "AssetsandLiabilitiesDescription": null,
+          "BasicReligiousCharity": false,
+          "BeneficiaryAboriginalTorres": false,
+          "BeneficiaryAdults": false,
+          "BeneficiaryAllAges": false,
+          "BeneficiaryChildren": false,
+          "BeneficiaryChronicIllness": false,
+          "BeneficiaryCrimeVictims": false,
+          "BeneficiaryDisasterVictims": false,
+          "BeneficiaryEarlyChildhood": false,
+          "BeneficiaryEthnic": false,
+          "BeneficiaryFamilies": false,
+          "BeneficiaryFinanciallyDisadvantaged": false,
+          "BeneficiaryGeneral": false,
+          "BeneficiaryHomelessnessRisk": false,
+          "BeneficiaryLGBT": false,
+          "BeneficiaryMain": null,
+          "BeneficiaryMen": false,
+          "BeneficiaryMigrantsRefugees": false,
+          "BeneficiaryOffenderFamilies": false,
+          "BeneficiaryOther": false,
+          "BeneficiaryOtherCharities": false,
+          "BeneficiaryOtherDescription": null,
+          "BeneficiaryOverseas": false,
+          "BeneficiaryPeopleWithDisability": false,
+          "BeneficiaryRuralRegionalRemote": false,
+          "BeneficiarySeniors": false,
+          "BeneficiaryUnemployed": false,
+          "BeneficiaryVeteranFamilies": false,
+          "BeneficiaryWomen": false,
+          "BeneficiaryYouth": false,
+          "CharityAddressCountry": "Australia",
+          "CharityAddressLine1": "21a Lomond Tce",
+          "CharityAddressLine2": null,
+          "CharityAddressPostalCode": "3219",
+          "CharityAddressStateOrProvince": "VIC",
+          "CharityAddressSuburb": "Thomson",
+          "CharityEmail": "admin@geelongchildrenscentre.com.au",
+          "CharitySize": "Large",
+          "CharityUuid": "e58414c6-38af-e811-a961-000d3ad24182",
+          "ChildCareServices": false,
+          "ExpenseEmployees": "4041912.0000",
+          "ExpenseGrantDonationsInAustralia": "0.0000",
+          "ExpenseGrantDonationsOutsideAustralia": "0.0000",
+          "ExpenseTotal": "4612048.0000",
+          "ExpensesOther": "570136.0000",
+          "FinAccrualAccounting": null,
+          "FinConsolidatedReportFromMiltiple": "No",
+          "FinDocumentedPoliciesRelatedPartyTransactions": null,
+          "FinFyeJune": false,
+          "FinProvideVoluntarily": null,
+          "FinRelatedPartyTransactions": "No",
+          "FinReportACT": false,
+          "FinReportFrom": "2024-07-01T00:00:00.0000000Z",
+          "FinReportNSW": false,
+          "FinReportNT": false,
+          "FinReportQLD": false,
+          "FinReportSA": false,
+          "FinReportTAS": false,
+          "FinReportTo": "2025-06-30T00:00:00.0000000Z",
+          "FinReportVIC": false,
+          "FinReportWA": false,
+          "FinReportingType": "General purpose financial statements",
+          "FinSapDate": null,
+          "FundRaisingNumberACT": null,
+          "FundRaisingNumberNSW": null,
+          "FundRaisingNumberQLD": null,
+          "FundRaisingNumberSA": null,
+          "FundRaisingNumberTAS": null,
+          "FundRaisingNumberVIC": null,
+          "FundRaisingNumberWA": null,
+          "GovDocAccurate": null,
+          "GrantCapacityBuildingPct": null,
+          "GrantMultiYearPct": null,
+          "GrantPublicOpenApplicationPct": null,
+          "GrantRuralRegionPct": null,
+          "HasSubmittedToRegulator": false,
+          "HoursPaid": null,
+          "HoursTotal": null,
+          "HoursVolunteer": null,
+          "HrCasualEmployees": "0",
+          "HrFteStaff": "55.0000000000",
+          "HrFullTimeEmployees": "35",
+          "HrPartTimeEmployees": "30",
+          "HrUnpainVolunteers": "0",
+          "IncomeDonationsBequests": "0.0000",
+          "IncomeGovernmentGrants": "3040273.0000",
+          "IncomeOther": "0.0000",
+          "IncomeOtherComprehinsive": "0.0000",
+          "IncomeOtherNeg": null,
+          "IncomeOtherReceipts": "0.0000",
+          "IncomeTotalComprehensive": "72916.0000",
+          "IncomeTotalReceipts": "4684964.0000",
+          "IncorporationStatus": null,
+          "InterestExpense": "0.0000",
+          "IsIncorporatedAssociation": true,
+          "KeyManagementPersonnel": false,
+          "LegalName": "Geelong & District Day Nursery Incorporated",
+          "NetAssetsLiabilities": "4871999.0000",
+          "NetSurplusDeficit": "72916.0000",
+          "NonCurrentLoansPayable": "0.0000",
+          "NumberOfKeyManagementPersonnel": "0",
+          "OperatingCountries": null,
+          "OperatingInACT": false,
+          "OperatingInNSW": false,
+          "OperatingInNT": false,
+          "OperatingInQLD": false,
+          "OperatingInSA": false,
+          "OperatingInTAS": false,
+          "OperatingInVIC": false,
+          "OperatingInWA": false,
+          "OperatingOverseas": false,
+          "OtherNames": [],
+          "OtherNonCurrentAssets": "3123367.0000",
+          "OtherNonCurrentLiabilities": "50000.0000",
+          "OtherPurposeDescription": null,
+          "OtherPurposes": "False",
+          "Programs": [
+            {
+              "AisUuid": "05eba594-3ff0-f011-8406-7ced8db173e1",
+              "Name": "Geelong Childrens Centre",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Early childhood - aged under 6",
+                "Aboriginal and Torres Strait Islander people",
+                "People from a culturally and linguistically diverse background",
+                "Financially disadvantaged people",
+                "People with disabilities",
+                "Victims of crime (including family violence)",
+                "General community in Australia"
+              ],
+              "ProgramClassification": "Early childhood education",
+              "ProgramClassificationID": "201",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "21A Lomond Terrace, Thomson VIC, Australia",
+                  "FormattedAddress": "21A Lomond Terrace, Thomson VIC 3219, Australia",
+                  "Marker": {
+                    "Latitude": -38.1634382,
+                    "Longitude": 144.3756532
+                  },
+                  "Name": "21A Lomond Terrace",
+                  "uuid": "a8cea09a-3ff0-f011-8406-7ced8db173e1"
+                }
+              ],
+              "ProgramWeblink": null,
+              "uuid": "22cea09a-3ff0-f011-8406-7ced8db173e1"
+            }
+          ],
+          "RegulatedACT": false,
+          "RegulatedNSW": false,
+          "RegulatedNT": false,
+          "RegulatedQLD": false,
+          "RegulatedSA": false,
+          "RegulatedTAS": false,
+          "RegulatedVIC": false,
+          "RegulatedWA": false,
+          "Regulator": null,
+          "RegulatorAGMDateACT": null,
+          "RegulatorAGMDateNT": null,
+          "RegulatorAGMDateVIC": "2025-10-21T00:00:00.0000000",
+          "RegulatorAGMDateWA": null,
+          "RegulatorFundRaising": "No",
+          "RegulatorFundRaisingACT": false,
+          "RegulatorFundRaisingNSW": false,
+          "RegulatorFundRaisingNT": false,
+          "RegulatorFundRaisingOnline": false,
+          "RegulatorFundRaisingQLD": false,
+          "RegulatorFundRaisingSA": false,
+          "RegulatorFundRaisingTAS": false,
+          "RegulatorFundRaisingVIC": false,
+          "RegulatorFundRaisingWA": false,
+          "RegulatorIncorporatedAssociationACT": false,
+          "RegulatorIncorporatedAssociationNSW": false,
+          "RegulatorIncorporatedAssociationNT": false,
+          "RegulatorIncorporatedAssociationNumberACT": null,
+          "RegulatorIncorporatedAssociationNumberNSW": null,
+          "RegulatorIncorporatedAssociationNumberNT": null,
+          "RegulatorIncorporatedAssociationNumberQLD": null,
+          "RegulatorIncorporatedAssociationNumberSA": null,
+          "RegulatorIncorporatedAssociationNumberTAS": null,
+          "RegulatorIncorporatedAssociationNumberVIC": "A0017455P",
+          "RegulatorIncorporatedAssociationNumberWA": null,
+          "RegulatorIncorporatedAssociationQLD": false,
+          "RegulatorIncorporatedAssociationSA": false,
+          "RegulatorIncorporatedAssociationTAS": false,
+          "RegulatorIncorporatedAssociationVIC": true,
+          "RegulatorIncorporatedAssociationWA": false,
+          "RegulatorMetRequirementACT": false,
+          "RegulatorMetRequirementWA": null,
+          "RegulatorOtherDetails": null,
+          "RegulatorPrograms": null,
+          "RegulatorStates": false,
+          "RelatedPartyDetails": null,
+          "RelatedPartyTransactions": [],
+          "ReliefOfPoverty": false,
+          "ReportingGroupFlag": false,
+          "ResponsiblePersonAccurate": null,
+          "RevenueGoodsServices": "1594572.0000",
+          "RevenueInvestments": "50119.0000",
+          "RevenueTotal": "4684964.0000",
+          "StatementYear": "2025",
+          "SubTypesAccurate": null,
+          "TotalAssets": "5558032.0000",
+          "TotalCurrentAssets": "2434665.0000",
+          "TotalCurrentLiabilities": "636033.0000",
+          "TotalLiabilities": "686033.0000",
+          "TotalNonCurrentAssets": "3123367.0000",
+          "TotalNonCurrentLiabilities": "50000.0000",
+          "TotalNonCurrentLoansReceivable": "0.0000",
+          "TotalPaidKMP": "$0.00",
+          "Website": "www.geelongchildrenscentre.com.au",
+          "__normalized": true,
+          "entityTypeVersion": "",
+          "entityVersion": "1826077669",
+          "timeStamp": "2026-01-13T05:20:37.0000000Z",
+          "type": "annual_information_statement",
+          "uuid": "05eba594-3ff0-f011-8406-7ced8db173e1"
+        },
+        "type": "annual_information_statement",
+        "uuid": "05eba594-3ff0-f011-8406-7ced8db173e1"
+      },
+      "canonical_field_mappings": {
+        "data.Programs": "programs",
+        "data.TotalRevenue": "financial_records[].revenue",
+        "data.TotalExpenses": "financial_records[].total_expenses"
       },
       "evidence_ids": [
-        "ev:acnc:ais:16636320874:2025"
+        "ev:acnc:ais:16636320874:05eba594-3ff0-f011-8406-7ced8db173e1"
       ]
     }
   ],
@@ -961,9 +1191,12 @@
       },
       "assets": null,
       "liabilities": null,
+      "net_assets": null,
       "income_breakdown": [],
       "expense_breakdown": [],
-      "balance_sheet_breakdown": []
+      "balance_sheet_breakdown": [],
+      "source_ordered_line_items": [],
+      "statements": []
     }
   ],
   "financial_metrics": [
@@ -1117,13 +1350,13 @@
       "content_hash": null
     },
     {
-      "evidence_id": "ev:acnc:ais:16636320874:2025",
+      "evidence_id": "ev:acnc:ais:16636320874:05eba594-3ff0-f011-8406-7ced8db173e1",
       "source_type": "regulatory",
-      "title": "Geelong & District Day Nursery Incorporated Annual Information Statement 2025",
+      "title": "ACNC Annual Information Statement 2025",
       "publisher": "Australian Charities and Not-for-profits Commission",
       "url": "https://www.acnc.gov.au/charity/charities/e58414c6-38af-e811-a961-000d3ad24182/documents/05eba594-3ff0-f011-8406-7ced8db173e1",
       "observed_at": "2026-01-13",
-      "reporting_period": null,
+      "reporting_period": "2025",
       "page": null,
       "section": null,
       "content_hash": null
@@ -1135,81 +1368,25 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "c31a23e231ba6c5c09127e56f5de1bd5f291efd3c0414433c592395eae4bc4c9",
-    "generated_at": "2026-08-13T05:51:03.015153Z",
+    "source_text_hash": "cf68e0de5351de531842dbbfdd4e38e376c68983bdd9760c088057cd508007e0",
+    "generated_at": "2026-08-10T13:53:24.456310Z",
     "vector_ref": "embeddings.parquet#cb_e26f2d8882614c9cbcf906a11734c7e1"
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
+    "prompt_version": "phase2a-0.4",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "0a8f0fcf08fe01753c07284641aa0a0cd6fdb8f079210c2969c49ae24bafa7c9",
-    "generated_at": "2026-08-12T13:49:48.656888Z",
+    "evidence_input_hash": "242bc24a26714b1c40dfff8325ed0a9d038619c83903af79f5c92be75f74cc9f",
+    "generated_at": "2026-08-10T12:50:50.767593Z",
     "editorial_policy_version": "0.1"
   },
-  "derivative_assessments": [
-    {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T13:49:48.656888Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-rc2-editorial-migration",
-      "input_hash": "0a8f0fcf08fe01753c07284641aa0a0cd6fdb8f079210c2969c49ae24bafa7c9",
-      "disposition": "refreshed",
-      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "taxonomy",
-      "generated_at": "2026-08-12T13:49:48.656888Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "0a8f0fcf08fe01753c07284641aa0a0cd6fdb8f079210c2969c49ae24bafa7c9",
-      "disposition": "reused",
-      "reason": "No new supported canonical classification facts.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "fundraising",
-      "generated_at": null,
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "0a8f0fcf08fe01753c07284641aa0a0cd6fdb8f079210c2969c49ae24bafa7c9",
-      "disposition": "reused",
-      "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "embedding",
-      "generated_at": "2026-08-10T13:53:24.456310Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "cf68e0de5351de531842dbbfdd4e38e376c68983bdd9760c088057cd508007e0",
-      "disposition": "reused",
-      "reason": "Semantic source text unchanged.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "similarities",
-      "generated_at": "2026-08-10T13:53:24.456310Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "cf68e0de5351de531842dbbfdd4e38e376c68983bdd9760c088057cd508007e0",
-      "disposition": "reused",
-      "reason": "Embedding reused; semantic neighbours retained.",
-      "affected_dimensions": []
-    }
-  ],
-  "dataset_version": "phase2b-2026-08-13-rc3",
+  "derivative_assessments": [],
+  "dataset_version": "phase2b-2026-08-14-rc4",
   "card_schema_version": "0.4",
-  "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T05:50:58.991012Z"
+  "editorial_policy_version": "0.4-rc4",
+  "generator_version": "0.5.0-rc4",
+  "built_at": "2026-08-13T10:52:47.483880Z"
 }

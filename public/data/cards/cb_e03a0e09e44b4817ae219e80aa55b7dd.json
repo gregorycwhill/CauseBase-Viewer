@@ -63,16 +63,6 @@
       "freshness_note": null
     },
     {
-      "capability": "website",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:web:50060192008:2026-08-10"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
       "capability": "fundraising_expenditure",
       "status": "not_available_from_source",
       "source_record_id": null,
@@ -93,12 +83,20 @@
     {
       "capability": "latest_acnc_ais",
       "status": "observed",
-      "source_record_id": null,
+      "source_record_id": "src:acnc-ais-detail:50060192008:dd89b4cf-42fd-f011-8406-6045bdc47b11:cb_e03a0e09e44b4817ae219e80aa55b7dd",
       "evidence_ids": [
-        "ev:acnc:ais:50060192008:2025"
+        "ev:acnc:ais:50060192008:dd89b4cf-42fd-f011-8406-6045bdc47b11"
       ],
       "observed_at": "2026-01-29",
-      "freshness_note": "Latest submitted ACNC AIS in the 2026-08-13 public-profile acquisition: 2025."
+      "freshness_note": "Latest submitted AIS detail acquired from the public ACNC entity endpoint."
+    },
+    {
+      "capability": "website",
+      "status": "observed",
+      "source_record_id": null,
+      "evidence_ids": [],
+      "observed_at": "2026-08-13",
+      "freshness_note": "Public website locator acquired from the ACNC profile."
     }
   ],
   "enrichment_level": "enriched",
@@ -106,38 +104,53 @@
   "geography": [
     "Western Australia (WA)"
   ],
-  "navigation_geography": [
+  "geography_observations": [
     {
-      "level": "country",
-      "code": "AU",
-      "label": "Australia",
-      "evidence_ids": [
-        "ev:acnc:50060192008"
-      ]
-    },
-    {
-      "level": "state_territory",
-      "code": "AU-WA",
-      "label": "Western Australia",
-      "evidence_ids": [
-        "ev:acnc:50060192008"
-      ]
+      "value": "Western Australia (WA)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
     }
   ],
-  "causebase_summary": "Spiritualists National Union Of WA Inc is a spiritualist centre based in Western Australia. As of August 2026 it publishes a mediums schedule for regular services, runs a learning programme that includes spiritualism and mediumship training, and hosts gatherings where people share life experiences and explore spiritual growth. The organisation describes its attendees as \"like-minded people\" and invites contact for information or locations of its church. The available records identify these programmatic activities and participation routes (attendance at scheduled services and medium events, and participation in the learning programme) but do not provide detailed breakdowns of service locations or participant numbers in this release.",
-  "summary_evidence_ids": [
-    "ev:web:50060192008:2026-08-10",
-    "ev:acnc:50060192008",
-    "ev:ais:50060192008:2023"
-  ],
+  "navigation_geography": [],
+  "causebase_summary": "Spiritualists National Union Of WA Inc is a Western Australian incorporated organisation that, according to its website, describes itself as \"a centre of like-minded people\" who gather to share life experiences, spiritual growth, wisdom and knowledge. The website states the group seeks to \"expand the knowledge that the soul does indeed live on\" and to demonstrate that people can \"communicate with loved ones who have passed.\" The site publishes a mediums schedule for upcoming services and mediums, and advertises a learning programme that includes spiritualism and mediumship training; it invites contact for more information or to learn where to find the church. An ACNC register extract is listed among the sources. The organisation’s ACNC Information Statement for 01/07/2022–30/06/2023 reports revenue of AUD 22,323 and total expenses of AUD 17,592 for that period. The available evidence is primarily the organisation’s website text and the ACNC AIS financial extract; no independent descriptions of day-to-day operations or external evaluations were provided in the supplied material.",
+  "summary_evidence_ids": [],
   "organisation_self_description": null,
   "activities": [
     "publishes a mediums schedule for services and mediums",
     "runs a learning programme in spiritualism and mediumship training",
     "hosts gatherings for people to share life experiences and spiritual growth"
   ],
+  "activity_observations": [
+    {
+      "value": "publishes a mediums schedule for services and mediums",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "runs a learning programme in spiritualism and mediumship training",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "hosts gatherings for people to share life experiences and spiritual growth",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    }
+  ],
   "beneficiaries": [
-    "people who attend the centre (described on the website as \"like-minded people\")"
+    "people who attend the centre"
+  ],
+  "beneficiary_observations": [
+    {
+      "value": "people who attend the centre",
+      "source_role": "legacy_source_qualifier",
+      "provenance_note": "described on the website as \"like-minded people\"",
+      "evidence_ids": []
+    }
   ],
   "participation_modes": [
     "attending scheduled services and medium events",
@@ -161,7 +174,7 @@
       "reporting_period": "2025",
       "source_url": "https://www.acnc.gov.au/charity/charities/a6af377e-38af-e811-a963-000d3ad244fd/documents/dd89b4cf-42fd-f011-8406-6045bdc47b11",
       "evidence_ids": [
-        "ev:acnc:ais:50060192008:2025"
+        "ev:acnc:ais:50060192008:dd89b4cf-42fd-f011-8406-6045bdc47b11"
       ]
     },
     {
@@ -178,82 +191,23 @@
       "reporting_period": "2025",
       "source_url": "apswa.asn.au",
       "evidence_ids": [
-        "ev:acnc:ais:50060192008:2025"
+        "ev:acnc:ais:50060192008:dd89b4cf-42fd-f011-8406-6045bdc47b11"
       ]
     }
   ],
   "source_native_records": [
     {
-      "source_record_id": "src:acnc-register:1c75b0ba-a337-541d-bd66-b36d8d35fe84",
-      "source_family": "acnc-register",
-      "dataset_version": "2026-08-10",
-      "source_url": "https://www.acnc.gov.au/charity/charities?search=50060192008",
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "ABN": "50060192008",
-        "Legal Name": "Spiritualists National Union Of Wa Inc",
-        "Registration Status": "registered",
-        "ACNC classifications": "religion; animals",
-        "Website": "www.snuwa.org.au",
-        "ACNC registration ID": null,
-        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "ABN": "external_identifiers",
-        "Legal Name": "legal_name",
-        "Registration Status": "registrations"
-      },
-      "evidence_ids": [
-        "ev:acnc:50060192008"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-ais:fr:ais:cb_e03a0e09e44b4817ae219e80aa55b7dd:2023",
-      "source_family": "acnc-ais",
-      "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": "2022-07-01",
-      "effective_to": "2023-06-30",
-      "source_fields": {
-        "Reporting period": "01/07/2022 to 30/06/2023",
-        "Reporting scope": "subject",
-        "Consolidated": "unknown",
-        "Revenue": "22323",
-        "Donations and bequests": null,
-        "Government grants": null,
-        "Total expenses": "17592",
-        "Assets": null,
-        "Liabilities": null
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "Revenue": "financial_records[].revenue",
-        "Total expenses": "financial_records[].total_expenses"
-      },
-      "evidence_ids": [
-        "ev:ais:50060192008:2023"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-public-profile:50060192008:cb_e03a0e09e44b4817ae219e80aa55b7dd:2026-08-13",
+      "source_record_id": "src:acnc-public-profile:50060192008:a6af377e-38af-e811-a963-000d3ad244fd:cb_e03a0e09e44b4817ae219e80aa55b7dd",
       "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-13-public-api",
+      "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/a6af377e-38af-e811-a963-000d3ad244fd/profile",
-      "retrieved_at": "2026-08-13T05:50:58.991012Z",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
       "observed_at": "2026-01-29",
       "effective_from": null,
       "effective_to": null,
       "source_fields": {
         "uuid": "a6af377e-38af-e811-a963-000d3ad244fd",
-        "abn": "50060192008",
-        "latest_ais_year": "2025",
-        "latest_ais_uuid": "dd89b4cf-42fd-f011-8406-6045bdc47b11"
+        "abn": "50060192008"
       },
       "source_payload": {
         "data": {
@@ -859,13 +813,320 @@
         "uuid": "a6af377e-38af-e811-a963-000d3ad244fd"
       },
       "canonical_field_mappings": {
-        "data.Name": "display_name",
         "data.OtherNames": "operating_names",
-        "data.AnnualReports": "acnc_ais_url",
-        "data.Programs": "programs"
+        "data.AddressStateOrProvince": "principal_location"
+      },
+      "evidence_ids": []
+    },
+    {
+      "source_record_id": "src:acnc-ais-detail:50060192008:dd89b4cf-42fd-f011-8406-6045bdc47b11:cb_e03a0e09e44b4817ae219e80aa55b7dd",
+      "source_family": "acnc-ais-detail",
+      "dataset_version": "2026-08-14-public-api",
+      "source_url": "https://www.acnc.gov.au/charity/charities/a6af377e-38af-e811-a963-000d3ad244fd/documents/dd89b4cf-42fd-f011-8406-6045bdc47b11",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
+      "observed_at": "2026-01-29",
+      "effective_from": null,
+      "effective_to": null,
+      "source_fields": {
+        "abn": "50060192008",
+        "ais_uuid": "dd89b4cf-42fd-f011-8406-6045bdc47b11",
+        "year": "2025",
+        "date_received": "2026-01-29T18:48:05.0000000Z"
+      },
+      "source_payload": {
+        "data": {
+          "Abn": "50060192008",
+          "ActivityAdvocacyNCivic": false,
+          "ActivityAgedCare": false,
+          "ActivityAnimalProtection": false,
+          "ActivityCultureAndArt": false,
+          "ActivityEconomicSocialCommunity": false,
+          "ActivityEmergencyNRelief": false,
+          "ActivityEmploymentNTraining": false,
+          "ActivityEnvironmental": false,
+          "ActivityGrantMaking": false,
+          "ActivityHealthRehabilitation": false,
+          "ActivityHigherEducation": false,
+          "ActivityHousing": false,
+          "ActivityIncomeSupportNMaintenance": false,
+          "ActivityInternational": false,
+          "ActivityInternationalDescription": null,
+          "ActivityInternationalOther": false,
+          "ActivityInternationalOtherDescription": null,
+          "ActivityLawNLegalServices": false,
+          "ActivityMain": null,
+          "ActivityMentalHealthCrisisIntervention": false,
+          "ActivityNdisSupported": null,
+          "ActivityNdisSupportedNext": null,
+          "ActivityOperating": true,
+          "ActivityOperatingOverseas": false,
+          "ActivityOther": false,
+          "ActivityOtherDescription": null,
+          "ActivityOtherEducation": false,
+          "ActivityOtherHealthServices": false,
+          "ActivityPersuitPurposesDescription": "Our charity aims to support the individuals in a time of need by following the Seven principles as set out in our constitution",
+          "ActivityPhilanthropicPromotion": false,
+          "ActivityPolitical": false,
+          "ActivityPrimarySecondaryEducation": false,
+          "ActivityPurposeChange": null,
+          "ActivityPurposeChangeDescription": null,
+          "ActivityRecreationSocialClub": false,
+          "ActivityReligious": false,
+          "ActivityResearch": false,
+          "ActivitySocialServices": false,
+          "ActivitySports": false,
+          "ActivityTransferringFundsGoods": false,
+          "AdvancementOfEducation": false,
+          "AdvancementOfReligion": false,
+          "AssetsandLiabilitiesDescription": "Building at 7/64 Kent Street, including fixed assets $2,51217 Cash at bank $39,778",
+          "BasicReligiousCharity": false,
+          "BeneficiaryAboriginalTorres": false,
+          "BeneficiaryAdults": false,
+          "BeneficiaryAllAges": false,
+          "BeneficiaryChildren": false,
+          "BeneficiaryChronicIllness": false,
+          "BeneficiaryCrimeVictims": false,
+          "BeneficiaryDisasterVictims": false,
+          "BeneficiaryEarlyChildhood": false,
+          "BeneficiaryEthnic": false,
+          "BeneficiaryFamilies": false,
+          "BeneficiaryFinanciallyDisadvantaged": false,
+          "BeneficiaryGeneral": false,
+          "BeneficiaryHomelessnessRisk": false,
+          "BeneficiaryLGBT": false,
+          "BeneficiaryMain": null,
+          "BeneficiaryMen": false,
+          "BeneficiaryMigrantsRefugees": false,
+          "BeneficiaryOffenderFamilies": false,
+          "BeneficiaryOther": false,
+          "BeneficiaryOtherCharities": false,
+          "BeneficiaryOtherDescription": null,
+          "BeneficiaryOverseas": false,
+          "BeneficiaryPeopleWithDisability": false,
+          "BeneficiaryRuralRegionalRemote": false,
+          "BeneficiarySeniors": false,
+          "BeneficiaryUnemployed": false,
+          "BeneficiaryVeteranFamilies": false,
+          "BeneficiaryWomen": false,
+          "BeneficiaryYouth": false,
+          "CharityAddressCountry": "Australia",
+          "CharityAddressLine1": "11 Dursely Street",
+          "CharityAddressLine2": null,
+          "CharityAddressPostalCode": "6170",
+          "CharityAddressStateOrProvince": "WA",
+          "CharityAddressSuburb": "Wellard",
+          "CharityEmail": "enquiry@snuwa.org.au",
+          "CharitySize": "Small",
+          "CharityUuid": "a6af377e-38af-e811-a963-000d3ad244fd",
+          "ChildCareServices": false,
+          "ExpenseEmployees": "0.0000",
+          "ExpenseGrantDonationsInAustralia": "1000.0000",
+          "ExpenseGrantDonationsOutsideAustralia": "0.0000",
+          "ExpenseTotal": "17862.0000",
+          "ExpensesOther": "16862.0000",
+          "FinAccrualAccounting": "Cash",
+          "FinConsolidatedReportFromMiltiple": null,
+          "FinDocumentedPoliciesRelatedPartyTransactions": null,
+          "FinFyeJune": false,
+          "FinProvideVoluntarily": null,
+          "FinRelatedPartyTransactions": "No",
+          "FinReportACT": false,
+          "FinReportFrom": "2024-07-01T00:00:00.0000000Z",
+          "FinReportNSW": false,
+          "FinReportNT": false,
+          "FinReportQLD": false,
+          "FinReportSA": false,
+          "FinReportTAS": false,
+          "FinReportTo": "2025-06-30T00:00:00.0000000Z",
+          "FinReportVIC": false,
+          "FinReportWA": false,
+          "FinReportingType": null,
+          "FinSapDate": null,
+          "FundRaisingNumberACT": null,
+          "FundRaisingNumberNSW": null,
+          "FundRaisingNumberQLD": null,
+          "FundRaisingNumberSA": null,
+          "FundRaisingNumberTAS": null,
+          "FundRaisingNumberVIC": null,
+          "FundRaisingNumberWA": null,
+          "GovDocAccurate": null,
+          "GrantCapacityBuildingPct": null,
+          "GrantMultiYearPct": null,
+          "GrantPublicOpenApplicationPct": null,
+          "GrantRuralRegionPct": null,
+          "HasSubmittedToRegulator": false,
+          "HoursPaid": null,
+          "HoursTotal": null,
+          "HoursVolunteer": null,
+          "HrCasualEmployees": "0",
+          "HrFteStaff": "0.0000000000",
+          "HrFullTimeEmployees": "0",
+          "HrPartTimeEmployees": "0",
+          "HrUnpainVolunteers": "15",
+          "IncomeDonationsBequests": "0.0000",
+          "IncomeGovernmentGrants": "0.0000",
+          "IncomeOther": "0.0000",
+          "IncomeOtherComprehinsive": "0.0000",
+          "IncomeOtherNeg": null,
+          "IncomeOtherReceipts": "0.0000",
+          "IncomeTotalComprehensive": "0.0000",
+          "IncomeTotalReceipts": "22356.0000",
+          "IncorporationStatus": null,
+          "InterestExpense": "0.0000",
+          "IsIncorporatedAssociation": true,
+          "KeyManagementPersonnel": false,
+          "LegalName": "Spiritualists National Union Of Wa Inc",
+          "NetAssetsLiabilities": "290995.0000",
+          "NetSurplusDeficit": "4494.0000",
+          "NonCurrentLoansPayable": "0.0000",
+          "NumberOfKeyManagementPersonnel": "0",
+          "OperatingCountries": null,
+          "OperatingInACT": false,
+          "OperatingInNSW": false,
+          "OperatingInNT": false,
+          "OperatingInQLD": false,
+          "OperatingInSA": false,
+          "OperatingInTAS": false,
+          "OperatingInVIC": false,
+          "OperatingInWA": false,
+          "OperatingOverseas": false,
+          "OtherNames": [],
+          "OtherNonCurrentAssets": "0.0000",
+          "OtherNonCurrentLiabilities": "0.0000",
+          "OtherPurposeDescription": null,
+          "OtherPurposes": "False",
+          "Programs": [
+            {
+              "AisUuid": "dd89b4cf-42fd-f011-8406-6045bdc47b11",
+              "Name": "Lucy Saw Centre - collection point in WA.",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Victims of crime (including family violence)"
+              ],
+              "ProgramClassification": "Shelter and residential care",
+              "ProgramClassificationID": "527",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Rockingham WA, Australia",
+                  "FormattedAddress": "Rockingham WA 6168, Australia",
+                  "Marker": {
+                    "Latitude": -32.2780969,
+                    "Longitude": 115.7351399
+                  },
+                  "Name": "Rockingham",
+                  "uuid": "fe89b4cf-42fd-f011-8406-6045bdc47b11"
+                }
+              ],
+              "ProgramWeblink": null,
+              "uuid": "f889b4cf-42fd-f011-8406-6045bdc47b11"
+            },
+            {
+              "AisUuid": "dd89b4cf-42fd-f011-8406-6045bdc47b11",
+              "Name": "Animal Protection Society",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Animals"
+              ],
+              "ProgramClassification": "Animal welfare",
+              "ProgramClassificationID": "26",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "27 Talbot Road, Southern River WA, Australia",
+                  "FormattedAddress": "27 Talbot Rd, Southern River WA 6110, Australia",
+                  "Marker": {
+                    "Latitude": -32.118999,
+                    "Longitude": 115.9553427
+                  },
+                  "Name": "27 Talbot Rd",
+                  "uuid": "088ab4cf-42fd-f011-8406-6045bdc47b11"
+                }
+              ],
+              "ProgramWeblink": "apswa.asn.au",
+              "uuid": "008ab4cf-42fd-f011-8406-6045bdc47b11"
+            }
+          ],
+          "RegulatedACT": false,
+          "RegulatedNSW": false,
+          "RegulatedNT": false,
+          "RegulatedQLD": false,
+          "RegulatedSA": false,
+          "RegulatedTAS": false,
+          "RegulatedVIC": false,
+          "RegulatedWA": false,
+          "Regulator": null,
+          "RegulatorAGMDateACT": null,
+          "RegulatorAGMDateNT": null,
+          "RegulatorAGMDateVIC": null,
+          "RegulatorAGMDateWA": "2025-11-23T00:00:00.0000000",
+          "RegulatorFundRaising": "No",
+          "RegulatorFundRaisingACT": false,
+          "RegulatorFundRaisingNSW": false,
+          "RegulatorFundRaisingNT": false,
+          "RegulatorFundRaisingOnline": false,
+          "RegulatorFundRaisingQLD": false,
+          "RegulatorFundRaisingSA": false,
+          "RegulatorFundRaisingTAS": false,
+          "RegulatorFundRaisingVIC": false,
+          "RegulatorFundRaisingWA": false,
+          "RegulatorIncorporatedAssociationACT": false,
+          "RegulatorIncorporatedAssociationNSW": false,
+          "RegulatorIncorporatedAssociationNT": false,
+          "RegulatorIncorporatedAssociationNumberACT": null,
+          "RegulatorIncorporatedAssociationNumberNSW": null,
+          "RegulatorIncorporatedAssociationNumberNT": null,
+          "RegulatorIncorporatedAssociationNumberQLD": null,
+          "RegulatorIncorporatedAssociationNumberSA": null,
+          "RegulatorIncorporatedAssociationNumberTAS": null,
+          "RegulatorIncorporatedAssociationNumberVIC": null,
+          "RegulatorIncorporatedAssociationNumberWA": "A1003042L",
+          "RegulatorIncorporatedAssociationQLD": false,
+          "RegulatorIncorporatedAssociationSA": false,
+          "RegulatorIncorporatedAssociationTAS": false,
+          "RegulatorIncorporatedAssociationVIC": false,
+          "RegulatorIncorporatedAssociationWA": true,
+          "RegulatorMetRequirementACT": false,
+          "RegulatorMetRequirementWA": "Yes",
+          "RegulatorOtherDetails": null,
+          "RegulatorPrograms": null,
+          "RegulatorStates": false,
+          "RelatedPartyDetails": null,
+          "RelatedPartyTransactions": [],
+          "ReliefOfPoverty": false,
+          "ReportingGroupFlag": false,
+          "ResponsiblePersonAccurate": null,
+          "RevenueGoodsServices": "22356.0000",
+          "RevenueInvestments": "0.0000",
+          "RevenueTotal": "22356.0000",
+          "StatementYear": "2025",
+          "SubTypesAccurate": null,
+          "TotalAssets": "290995.0000",
+          "TotalCurrentAssets": "0.0000",
+          "TotalCurrentLiabilities": "0.0000",
+          "TotalLiabilities": "0.0000",
+          "TotalNonCurrentAssets": null,
+          "TotalNonCurrentLiabilities": "0.0000",
+          "TotalNonCurrentLoansReceivable": "0.0000",
+          "TotalPaidKMP": "$0.00",
+          "Website": "www.snuwa.org.au",
+          "__normalized": true,
+          "entityTypeVersion": "",
+          "entityVersion": "1842458268",
+          "timeStamp": "2026-01-29T18:46:30.0000000Z",
+          "type": "annual_information_statement",
+          "uuid": "dd89b4cf-42fd-f011-8406-6045bdc47b11"
+        },
+        "type": "annual_information_statement",
+        "uuid": "dd89b4cf-42fd-f011-8406-6045bdc47b11"
+      },
+      "canonical_field_mappings": {
+        "data.Programs": "programs",
+        "data.TotalRevenue": "financial_records[].revenue",
+        "data.TotalExpenses": "financial_records[].total_expenses"
       },
       "evidence_ids": [
-        "ev:acnc:ais:50060192008:2025"
+        "ev:acnc:ais:50060192008:dd89b4cf-42fd-f011-8406-6045bdc47b11"
       ]
     }
   ],
@@ -914,9 +1175,12 @@
       },
       "assets": null,
       "liabilities": null,
+      "net_assets": null,
       "income_breakdown": [],
       "expense_breakdown": [],
-      "balance_sheet_breakdown": []
+      "balance_sheet_breakdown": [],
+      "source_ordered_line_items": [],
+      "statements": []
     }
   ],
   "financial_metrics": [
@@ -1079,13 +1343,13 @@
       "content_hash": null
     },
     {
-      "evidence_id": "ev:acnc:ais:50060192008:2025",
+      "evidence_id": "ev:acnc:ais:50060192008:dd89b4cf-42fd-f011-8406-6045bdc47b11",
       "source_type": "regulatory",
-      "title": "Spiritualists National Union Of Wa Inc Annual Information Statement 2025",
+      "title": "ACNC Annual Information Statement 2025",
       "publisher": "Australian Charities and Not-for-profits Commission",
       "url": "https://www.acnc.gov.au/charity/charities/a6af377e-38af-e811-a963-000d3ad244fd/documents/dd89b4cf-42fd-f011-8406-6045bdc47b11",
       "observed_at": "2026-01-29",
-      "reporting_period": null,
+      "reporting_period": "2025",
       "page": null,
       "section": null,
       "content_hash": null
@@ -1097,81 +1361,25 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "89caefbf6af5c436080d3b3c64a99d91d47a86ceb857a86fbd36ea01e695b853",
-    "generated_at": "2026-08-13T05:51:03.015936Z",
+    "source_text_hash": "e71c22bad23a23043f0c580fc652328dfb3613bcbb4b30e296fee593d0b61047",
+    "generated_at": "2026-08-10T13:53:24.456891Z",
     "vector_ref": "embeddings.parquet#cb_e03a0e09e44b4817ae219e80aa55b7dd"
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
+    "prompt_version": "phase2a-0.4",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "baaeece5b44ac979a2fee86372b575a9f80b4dcf02cab3270057488d0e70d43e",
-    "generated_at": "2026-08-12T13:59:01.937744Z",
+    "evidence_input_hash": "70c791f515823f7abbfe92eaa8448e799c5b551f4f4ab0a17b6f9f33ba6d3537",
+    "generated_at": "2026-08-10T12:54:19.469347Z",
     "editorial_policy_version": "0.1"
   },
-  "derivative_assessments": [
-    {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T13:59:01.937744Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-rc2-editorial-migration",
-      "input_hash": "baaeece5b44ac979a2fee86372b575a9f80b4dcf02cab3270057488d0e70d43e",
-      "disposition": "refreshed",
-      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "taxonomy",
-      "generated_at": "2026-08-12T13:59:01.937744Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "baaeece5b44ac979a2fee86372b575a9f80b4dcf02cab3270057488d0e70d43e",
-      "disposition": "reused",
-      "reason": "No new supported canonical classification facts.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "fundraising",
-      "generated_at": null,
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "baaeece5b44ac979a2fee86372b575a9f80b4dcf02cab3270057488d0e70d43e",
-      "disposition": "reused",
-      "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "embedding",
-      "generated_at": "2026-08-10T13:53:24.456891Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "e71c22bad23a23043f0c580fc652328dfb3613bcbb4b30e296fee593d0b61047",
-      "disposition": "reused",
-      "reason": "Semantic source text unchanged.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "similarities",
-      "generated_at": "2026-08-10T13:53:24.456891Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "e71c22bad23a23043f0c580fc652328dfb3613bcbb4b30e296fee593d0b61047",
-      "disposition": "reused",
-      "reason": "Embedding reused; semantic neighbours retained.",
-      "affected_dimensions": []
-    }
-  ],
-  "dataset_version": "phase2b-2026-08-13-rc3",
+  "derivative_assessments": [],
+  "dataset_version": "phase2b-2026-08-14-rc4",
   "card_schema_version": "0.4",
-  "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T05:50:58.991012Z"
+  "editorial_policy_version": "0.4-rc4",
+  "generator_version": "0.5.0-rc4",
+  "built_at": "2026-08-13T10:52:47.483880Z"
 }

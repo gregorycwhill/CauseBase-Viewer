@@ -72,16 +72,6 @@
       "freshness_note": null
     },
     {
-      "capability": "website",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:web:40821754363:2026-08-10"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
       "capability": "fundraising_expenditure",
       "status": "not_available_from_source",
       "source_record_id": null,
@@ -102,12 +92,20 @@
     {
       "capability": "latest_acnc_ais",
       "status": "observed",
-      "source_record_id": null,
+      "source_record_id": "src:acnc-ais-detail:40821754363:d3fb6fa9-cf98-f011-b41c-002248115348:cb_d411ae86f50f46de86f7c2f68bc961b5",
       "evidence_ids": [
-        "ev:acnc:ais:40821754363:2024"
+        "ev:acnc:ais:40821754363:d3fb6fa9-cf98-f011-b41c-002248115348"
       ],
       "observed_at": "2025-09-23",
-      "freshness_note": "Latest submitted ACNC AIS in the 2026-08-13 public-profile acquisition: 2024."
+      "freshness_note": "Latest submitted AIS detail acquired from the public ACNC entity endpoint."
+    },
+    {
+      "capability": "website",
+      "status": "observed",
+      "source_record_id": null,
+      "evidence_ids": [],
+      "observed_at": "2026-08-13",
+      "freshness_note": "Public website locator acquired from the ACNC profile."
     }
   ],
   "enrichment_level": "enriched",
@@ -117,43 +115,100 @@
     "Atherton, Queensland",
     "Australia"
   ],
-  "navigation_geography": [
+  "geography_observations": [
     {
-      "level": "country",
-      "code": "AU",
-      "label": "Australia",
-      "evidence_ids": [
-        "ev:acnc:40821754363"
-      ]
+      "value": "Far North Queensland (FNQ)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
     },
     {
-      "level": "state_territory",
-      "code": "AU-QLD",
-      "label": "Queensland",
-      "evidence_ids": [
-        "ev:acnc:40821754363"
-      ]
+      "value": "Atherton, Queensland",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Australia",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
     }
   ],
-  "causebase_summary": "Arts Nexus Inc is a not‑for‑profit, community-based arts organisation operating in Far North Queensland and based in Atherton, Queensland. It was founded in 1995 and incorporated in May 1996 as an umbrella body for arts, cultural and creative industries in the FNQ region. The organisation describes work to strengthen operational capacity across the regional arts sector, to drive policy and regional strategic planning, and to support artists, cultural practitioners and creative industries with the business aspects of arts making. Arts Nexus also operates a digital recording studio at 40 Mabel Street, Atherton; the studio is open for bookings by appointment. The organisation states it connects creative industries, organisations, communities and stakeholders across artforms and cultures within the region.",
-  "summary_evidence_ids": [
-    "ev:web:40821754363:2026-08-10",
-    "ev:acnc:40821754363",
-    "ev:ais:40821754363:2023"
-  ],
+  "navigation_geography": [],
+  "causebase_summary": "Arts Nexus Inc is a not‑for‑profit incorporated in May 1996 and describes itself as an inclusive umbrella body for arts, cultural and creative industries in Far North Queensland (FNQ). The organisation’s website states it supports artists, cultural practitioners and creative industries across artforms and cultures, and aims to connect creative industries, organisations, communities and stakeholders in FNQ. Arts Nexus says it works on policy and regional strategic planning and on the business of arts making. The organisation notes a newly upgraded digital recording studio at 40 Mabel Street, Atherton, Queensland; the studio is open by appointment and studio bookings are available (contact details: admin@artsnexus.com.au; phone 0412 570 701). The site refers to membership across the FNQ region and to social media accounts (TikTok, Instagram, Facebook group and a studio page). The website includes an apolitical disclaimer. ACNC reporting for 2023 shows revenue of AUD 195,946 and total expenses of AUD 188,060 for the 01/01/2023–31/12/2023 period.",
+  "summary_evidence_ids": [],
   "organisation_self_description": null,
   "activities": [
-    "Operational capacity building for Far North Queensland arts, cultural and creative industries (organisation statement)",
-    "Policy and regional strategic planning work (organisation statement)",
-    "Support for artists, cultural practitioners and creative industries with the business of arts making (organisation statement)",
+    "Operational capacity building for Far North Queensland arts, cultural and creative industries",
+    "Policy and regional strategic planning work",
+    "Support for artists, cultural practitioners and creative industries with the business of arts making",
     "Operation of a digital recording studio at 40 Mabel Street, Atherton; studio bookings by appointment",
     "Connecting creative industries, organisations, communities and stakeholders across artforms and cultures"
   ],
+  "activity_observations": [
+    {
+      "value": "Operational capacity building for Far North Queensland arts, cultural and creative industries",
+      "source_role": "legacy_source_qualifier",
+      "provenance_note": "organisation statement",
+      "evidence_ids": []
+    },
+    {
+      "value": "Policy and regional strategic planning work",
+      "source_role": "legacy_source_qualifier",
+      "provenance_note": "organisation statement",
+      "evidence_ids": []
+    },
+    {
+      "value": "Support for artists, cultural practitioners and creative industries with the business of arts making",
+      "source_role": "legacy_source_qualifier",
+      "provenance_note": "organisation statement",
+      "evidence_ids": []
+    },
+    {
+      "value": "Operation of a digital recording studio at 40 Mabel Street, Atherton; studio bookings by appointment",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Connecting creative industries, organisations, communities and stakeholders across artforms and cultures",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    }
+  ],
   "beneficiaries": [
-    "Artists (organisation-stated)",
-    "Cultural practitioners (organisation-stated)",
-    "Creative industries in Far North Queensland (organisation-stated)",
-    "Member organisations and communities across the Far North Queensland region (organisation-stated)"
+    "Artists",
+    "Cultural practitioners",
+    "Creative industries in Far North Queensland",
+    "Member organisations and communities across the Far North Queensland region"
+  ],
+  "beneficiary_observations": [
+    {
+      "value": "Artists",
+      "source_role": "legacy_source_qualifier",
+      "provenance_note": "organisation-stated",
+      "evidence_ids": []
+    },
+    {
+      "value": "Cultural practitioners",
+      "source_role": "legacy_source_qualifier",
+      "provenance_note": "organisation-stated",
+      "evidence_ids": []
+    },
+    {
+      "value": "Creative industries in Far North Queensland",
+      "source_role": "legacy_source_qualifier",
+      "provenance_note": "organisation-stated",
+      "evidence_ids": []
+    },
+    {
+      "value": "Member organisations and communities across the Far North Queensland region",
+      "source_role": "legacy_source_qualifier",
+      "provenance_note": "organisation-stated",
+      "evidence_ids": []
+    }
   ],
   "participation_modes": [
     "Studio bookings by appointment",
@@ -178,82 +233,23 @@
       "reporting_period": "2024",
       "source_url": "http://www.artsnexus.com.au/",
       "evidence_ids": [
-        "ev:acnc:ais:40821754363:2024"
+        "ev:acnc:ais:40821754363:d3fb6fa9-cf98-f011-b41c-002248115348"
       ]
     }
   ],
   "source_native_records": [
     {
-      "source_record_id": "src:acnc-register:a25ddc41-b0da-5730-97c9-bff1106cac37",
-      "source_family": "acnc-register",
-      "dataset_version": "2026-08-10",
-      "source_url": "https://www.acnc.gov.au/charity/charities?search=40821754363",
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "ABN": "40821754363",
-        "Legal Name": "Arts Nexus Inc",
-        "Registration Status": "registered",
-        "ACNC classifications": "culture; regional remote",
-        "Website": "www.artsnexus.com.au",
-        "ACNC registration ID": null,
-        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "ABN": "external_identifiers",
-        "Legal Name": "legal_name",
-        "Registration Status": "registrations"
-      },
-      "evidence_ids": [
-        "ev:acnc:40821754363"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-ais:fr:ais:cb_d411ae86f50f46de86f7c2f68bc961b5:2023",
-      "source_family": "acnc-ais",
-      "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": "2023-01-01",
-      "effective_to": "2023-12-31",
-      "source_fields": {
-        "Reporting period": "01/01/2023 to 31/12/2023",
-        "Reporting scope": "subject",
-        "Consolidated": "unknown",
-        "Revenue": "195946",
-        "Donations and bequests": null,
-        "Government grants": null,
-        "Total expenses": "188060",
-        "Assets": null,
-        "Liabilities": null
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "Revenue": "financial_records[].revenue",
-        "Total expenses": "financial_records[].total_expenses"
-      },
-      "evidence_ids": [
-        "ev:ais:40821754363:2023"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-public-profile:40821754363:cb_d411ae86f50f46de86f7c2f68bc961b5:2026-08-13",
+      "source_record_id": "src:acnc-public-profile:40821754363:8d7cb78b-3aaf-e811-a95e-000d3ad24c60:cb_d411ae86f50f46de86f7c2f68bc961b5",
       "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-13-public-api",
+      "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/8d7cb78b-3aaf-e811-a95e-000d3ad24c60/profile",
-      "retrieved_at": "2026-08-13T05:50:58.991012Z",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
       "observed_at": "2025-09-23",
       "effective_from": null,
       "effective_to": null,
       "source_fields": {
         "uuid": "8d7cb78b-3aaf-e811-a95e-000d3ad24c60",
-        "abn": "40821754363",
-        "latest_ais_year": "2024",
-        "latest_ais_uuid": "d3fb6fa9-cf98-f011-b41c-002248115348"
+        "abn": "40821754363"
       },
       "source_payload": {
         "data": {
@@ -822,13 +818,295 @@
         "uuid": "8d7cb78b-3aaf-e811-a95e-000d3ad24c60"
       },
       "canonical_field_mappings": {
-        "data.Name": "display_name",
         "data.OtherNames": "operating_names",
-        "data.AnnualReports": "acnc_ais_url",
-        "data.Programs": "programs"
+        "data.AddressStateOrProvince": "principal_location"
+      },
+      "evidence_ids": []
+    },
+    {
+      "source_record_id": "src:acnc-ais-detail:40821754363:d3fb6fa9-cf98-f011-b41c-002248115348:cb_d411ae86f50f46de86f7c2f68bc961b5",
+      "source_family": "acnc-ais-detail",
+      "dataset_version": "2026-08-14-public-api",
+      "source_url": "https://www.acnc.gov.au/charity/charities/8d7cb78b-3aaf-e811-a95e-000d3ad24c60/documents/d3fb6fa9-cf98-f011-b41c-002248115348",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
+      "observed_at": "2025-09-23",
+      "effective_from": null,
+      "effective_to": null,
+      "source_fields": {
+        "abn": "40821754363",
+        "ais_uuid": "d3fb6fa9-cf98-f011-b41c-002248115348",
+        "year": "2024",
+        "date_received": "2025-09-23T22:50:23.0000000Z"
+      },
+      "source_payload": {
+        "data": {
+          "Abn": "40821754363",
+          "ActivityAdvocacyNCivic": false,
+          "ActivityAgedCare": false,
+          "ActivityAnimalProtection": false,
+          "ActivityCultureAndArt": false,
+          "ActivityEconomicSocialCommunity": false,
+          "ActivityEmergencyNRelief": false,
+          "ActivityEmploymentNTraining": false,
+          "ActivityEnvironmental": false,
+          "ActivityGrantMaking": false,
+          "ActivityHealthRehabilitation": false,
+          "ActivityHigherEducation": false,
+          "ActivityHousing": false,
+          "ActivityIncomeSupportNMaintenance": false,
+          "ActivityInternational": false,
+          "ActivityInternationalDescription": null,
+          "ActivityInternationalOther": false,
+          "ActivityInternationalOtherDescription": null,
+          "ActivityLawNLegalServices": false,
+          "ActivityMain": null,
+          "ActivityMentalHealthCrisisIntervention": false,
+          "ActivityNdisSupported": null,
+          "ActivityNdisSupportedNext": null,
+          "ActivityOperating": true,
+          "ActivityOperatingOverseas": false,
+          "ActivityOther": false,
+          "ActivityOtherDescription": null,
+          "ActivityOtherEducation": false,
+          "ActivityOtherHealthServices": false,
+          "ActivityPersuitPurposesDescription": "Arts Nexus Inc. supports arts, culture and creative industries across Far North Qld, through capacity building, mentoring, advice and referrals. The Digital Recording Studio has provided the community a place to record aural histories, family history, truth-telling and podcasts. Through these digital stories and podcasts, Arts Nexus promotes the understanding of our region's culture and history. Working with creative groups, visual artists, performers, writers, cultural practitioners, and gives their stories a platform to be shared globally.",
+          "ActivityPhilanthropicPromotion": false,
+          "ActivityPolitical": false,
+          "ActivityPrimarySecondaryEducation": false,
+          "ActivityPurposeChange": null,
+          "ActivityPurposeChangeDescription": null,
+          "ActivityRecreationSocialClub": false,
+          "ActivityReligious": false,
+          "ActivityResearch": false,
+          "ActivitySocialServices": false,
+          "ActivitySports": false,
+          "ActivityTransferringFundsGoods": false,
+          "AdvancementOfEducation": false,
+          "AdvancementOfReligion": false,
+          "AssetsandLiabilitiesDescription": "Assets are made up of cash and receivables $47,168, and equipment $385. Liabilities are made up of unspent funds held on behalf of others $35,980.",
+          "BasicReligiousCharity": false,
+          "BeneficiaryAboriginalTorres": false,
+          "BeneficiaryAdults": false,
+          "BeneficiaryAllAges": false,
+          "BeneficiaryChildren": false,
+          "BeneficiaryChronicIllness": false,
+          "BeneficiaryCrimeVictims": false,
+          "BeneficiaryDisasterVictims": false,
+          "BeneficiaryEarlyChildhood": false,
+          "BeneficiaryEthnic": false,
+          "BeneficiaryFamilies": false,
+          "BeneficiaryFinanciallyDisadvantaged": false,
+          "BeneficiaryGeneral": false,
+          "BeneficiaryHomelessnessRisk": false,
+          "BeneficiaryLGBT": false,
+          "BeneficiaryMain": null,
+          "BeneficiaryMen": false,
+          "BeneficiaryMigrantsRefugees": false,
+          "BeneficiaryOffenderFamilies": false,
+          "BeneficiaryOther": false,
+          "BeneficiaryOtherCharities": false,
+          "BeneficiaryOtherDescription": null,
+          "BeneficiaryOverseas": false,
+          "BeneficiaryPeopleWithDisability": false,
+          "BeneficiaryRuralRegionalRemote": false,
+          "BeneficiarySeniors": false,
+          "BeneficiaryUnemployed": false,
+          "BeneficiaryVeteranFamilies": false,
+          "BeneficiaryWomen": false,
+          "BeneficiaryYouth": false,
+          "CharityAddressCountry": "Australia",
+          "CharityAddressLine1": "Po Box 4995",
+          "CharityAddressLine2": null,
+          "CharityAddressPostalCode": "4870",
+          "CharityAddressStateOrProvince": "QLD",
+          "CharityAddressSuburb": "Cairns",
+          "CharityEmail": "admin@artsnexus.com.au",
+          "CharitySize": "Small",
+          "CharityUuid": "8d7cb78b-3aaf-e811-a95e-000d3ad24c60",
+          "ChildCareServices": false,
+          "ExpenseEmployees": "0.0000",
+          "ExpenseGrantDonationsInAustralia": "0.0000",
+          "ExpenseGrantDonationsOutsideAustralia": "0.0000",
+          "ExpenseTotal": "102154.0000",
+          "ExpensesOther": "102154.0000",
+          "FinAccrualAccounting": "Cash",
+          "FinConsolidatedReportFromMiltiple": null,
+          "FinDocumentedPoliciesRelatedPartyTransactions": null,
+          "FinFyeJune": false,
+          "FinProvideVoluntarily": null,
+          "FinRelatedPartyTransactions": "No",
+          "FinReportACT": false,
+          "FinReportFrom": "2024-01-01T00:00:00.0000000Z",
+          "FinReportNSW": false,
+          "FinReportNT": false,
+          "FinReportQLD": false,
+          "FinReportSA": false,
+          "FinReportTAS": false,
+          "FinReportTo": "2024-12-31T00:00:00.0000000Z",
+          "FinReportVIC": false,
+          "FinReportWA": false,
+          "FinReportingType": null,
+          "FinSapDate": null,
+          "FundRaisingNumberACT": null,
+          "FundRaisingNumberNSW": null,
+          "FundRaisingNumberQLD": null,
+          "FundRaisingNumberSA": null,
+          "FundRaisingNumberTAS": null,
+          "FundRaisingNumberVIC": null,
+          "FundRaisingNumberWA": null,
+          "GovDocAccurate": null,
+          "GrantCapacityBuildingPct": null,
+          "GrantMultiYearPct": null,
+          "GrantPublicOpenApplicationPct": null,
+          "GrantRuralRegionPct": null,
+          "HasSubmittedToRegulator": false,
+          "HoursPaid": null,
+          "HoursTotal": null,
+          "HoursVolunteer": null,
+          "HrCasualEmployees": "0",
+          "HrFteStaff": "0.0000000000",
+          "HrFullTimeEmployees": "0",
+          "HrPartTimeEmployees": "0",
+          "HrUnpainVolunteers": "7",
+          "IncomeDonationsBequests": "950.0000",
+          "IncomeGovernmentGrants": "0.0000",
+          "IncomeOther": "75000.0000",
+          "IncomeOtherComprehinsive": "0.0000",
+          "IncomeOtherNeg": null,
+          "IncomeOtherReceipts": "373.0000",
+          "IncomeTotalComprehensive": "0.0000",
+          "IncomeTotalReceipts": "91953.0000",
+          "IncorporationStatus": null,
+          "InterestExpense": "0.0000",
+          "IsIncorporatedAssociation": true,
+          "KeyManagementPersonnel": false,
+          "LegalName": "Arts Nexus Inc",
+          "NetAssetsLiabilities": "11573.0000",
+          "NetSurplusDeficit": "-10201.0000",
+          "NonCurrentLoansPayable": "0.0000",
+          "NumberOfKeyManagementPersonnel": "0",
+          "OperatingCountries": null,
+          "OperatingInACT": false,
+          "OperatingInNSW": false,
+          "OperatingInNT": false,
+          "OperatingInQLD": false,
+          "OperatingInSA": false,
+          "OperatingInTAS": false,
+          "OperatingInVIC": false,
+          "OperatingInWA": false,
+          "OperatingOverseas": false,
+          "OtherNames": [],
+          "OtherNonCurrentAssets": "0.0000",
+          "OtherNonCurrentLiabilities": "0.0000",
+          "OtherPurposeDescription": null,
+          "OtherPurposes": "False",
+          "Programs": [
+            {
+              "AisUuid": "d3fb6fa9-cf98-f011-b41c-002248115348",
+              "Name": "Digital Recording Studio",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "People in rural/regional/remote communities"
+              ],
+              "ProgramClassification": "Arts and culture",
+              "ProgramClassificationID": "42",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "40 Mabel Street, Atherton QLD, Australia",
+                  "FormattedAddress": "40 Mabel St, Atherton QLD 4883, Australia",
+                  "Marker": {
+                    "Latitude": -17.2666438,
+                    "Longitude": 145.4772517
+                  },
+                  "Name": "40 Mabel St",
+                  "uuid": "844b68af-cf98-f011-b41c-002248115348"
+                }
+              ],
+              "ProgramWeblink": "http://www.artsnexus.com.au/",
+              "uuid": "784b68af-cf98-f011-b41c-002248115348"
+            }
+          ],
+          "RegulatedACT": false,
+          "RegulatedNSW": false,
+          "RegulatedNT": false,
+          "RegulatedQLD": false,
+          "RegulatedSA": false,
+          "RegulatedTAS": false,
+          "RegulatedVIC": false,
+          "RegulatedWA": false,
+          "Regulator": null,
+          "RegulatorAGMDateACT": null,
+          "RegulatorAGMDateNT": null,
+          "RegulatorAGMDateVIC": null,
+          "RegulatorAGMDateWA": null,
+          "RegulatorFundRaising": "No",
+          "RegulatorFundRaisingACT": false,
+          "RegulatorFundRaisingNSW": false,
+          "RegulatorFundRaisingNT": false,
+          "RegulatorFundRaisingOnline": false,
+          "RegulatorFundRaisingQLD": false,
+          "RegulatorFundRaisingSA": false,
+          "RegulatorFundRaisingTAS": false,
+          "RegulatorFundRaisingVIC": false,
+          "RegulatorFundRaisingWA": false,
+          "RegulatorIncorporatedAssociationACT": false,
+          "RegulatorIncorporatedAssociationNSW": false,
+          "RegulatorIncorporatedAssociationNT": false,
+          "RegulatorIncorporatedAssociationNumberACT": null,
+          "RegulatorIncorporatedAssociationNumberNSW": null,
+          "RegulatorIncorporatedAssociationNumberNT": null,
+          "RegulatorIncorporatedAssociationNumberQLD": "IA16676",
+          "RegulatorIncorporatedAssociationNumberSA": null,
+          "RegulatorIncorporatedAssociationNumberTAS": null,
+          "RegulatorIncorporatedAssociationNumberVIC": null,
+          "RegulatorIncorporatedAssociationNumberWA": null,
+          "RegulatorIncorporatedAssociationQLD": true,
+          "RegulatorIncorporatedAssociationSA": false,
+          "RegulatorIncorporatedAssociationTAS": false,
+          "RegulatorIncorporatedAssociationVIC": false,
+          "RegulatorIncorporatedAssociationWA": false,
+          "RegulatorMetRequirementACT": false,
+          "RegulatorMetRequirementWA": null,
+          "RegulatorOtherDetails": null,
+          "RegulatorPrograms": null,
+          "RegulatorStates": false,
+          "RelatedPartyDetails": null,
+          "RelatedPartyTransactions": [],
+          "ReliefOfPoverty": false,
+          "ReportingGroupFlag": false,
+          "ResponsiblePersonAccurate": null,
+          "RevenueGoodsServices": "15626.0000",
+          "RevenueInvestments": "4.0000",
+          "RevenueTotal": "16953.0000",
+          "StatementYear": "2024",
+          "SubTypesAccurate": null,
+          "TotalAssets": "47553.0000",
+          "TotalCurrentAssets": "0.0000",
+          "TotalCurrentLiabilities": "0.0000",
+          "TotalLiabilities": "35980.0000",
+          "TotalNonCurrentAssets": null,
+          "TotalNonCurrentLiabilities": "0.0000",
+          "TotalNonCurrentLoansReceivable": "0.0000",
+          "TotalPaidKMP": "$0.00",
+          "Website": "www.artsnexus.com.au",
+          "__normalized": true,
+          "entityTypeVersion": "",
+          "entityVersion": "1762107164",
+          "timeStamp": "2025-09-23T22:50:21.0000000Z",
+          "type": "annual_information_statement",
+          "uuid": "d3fb6fa9-cf98-f011-b41c-002248115348"
+        },
+        "type": "annual_information_statement",
+        "uuid": "d3fb6fa9-cf98-f011-b41c-002248115348"
+      },
+      "canonical_field_mappings": {
+        "data.Programs": "programs",
+        "data.TotalRevenue": "financial_records[].revenue",
+        "data.TotalExpenses": "financial_records[].total_expenses"
       },
       "evidence_ids": [
-        "ev:acnc:ais:40821754363:2024"
+        "ev:acnc:ais:40821754363:d3fb6fa9-cf98-f011-b41c-002248115348"
       ]
     }
   ],
@@ -877,9 +1155,12 @@
       },
       "assets": null,
       "liabilities": null,
+      "net_assets": null,
       "income_breakdown": [],
       "expense_breakdown": [],
-      "balance_sheet_breakdown": []
+      "balance_sheet_breakdown": [],
+      "source_ordered_line_items": [],
+      "statements": []
     }
   ],
   "financial_metrics": [
@@ -1060,24 +1341,24 @@
       "content_hash": null
     },
     {
+      "evidence_id": "ev:acnc:ais:40821754363:d3fb6fa9-cf98-f011-b41c-002248115348",
+      "source_type": "regulatory",
+      "title": "ACNC Annual Information Statement 2024",
+      "publisher": "Australian Charities and Not-for-profits Commission",
+      "url": "https://www.acnc.gov.au/charity/charities/8d7cb78b-3aaf-e811-a95e-000d3ad24c60/documents/d3fb6fa9-cf98-f011-b41c-002248115348",
+      "observed_at": "2025-09-23",
+      "reporting_period": "2024",
+      "page": null,
+      "section": null,
+      "content_hash": null
+    },
+    {
       "evidence_id": "ev:abr-dgr:40821754363:20260805",
       "source_type": "regulatory",
       "title": "ABR DGR bulk observation",
       "publisher": "Australian Business Register / Australian Taxation Office",
       "url": "https://abr.business.gov.au/Tools/BulkExtract",
       "observed_at": "2026-08-05",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
-    },
-    {
-      "evidence_id": "ev:acnc:ais:40821754363:2024",
-      "source_type": "regulatory",
-      "title": "Arts Nexus Inc Annual Information Statement 2024",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": "https://www.acnc.gov.au/charity/charities/8d7cb78b-3aaf-e811-a95e-000d3ad24c60/documents/d3fb6fa9-cf98-f011-b41c-002248115348",
-      "observed_at": "2025-09-23",
       "reporting_period": null,
       "page": null,
       "section": null,
@@ -1090,81 +1371,25 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "255bdad64d09f4b6f7160e5577956efa573a3f2e97b55c0b7e1570e942142470",
-    "generated_at": "2026-08-13T05:51:03.018934Z",
+    "source_text_hash": "b05a12233dcc54e92eacdb12bc7d6bdd76682059435918c62f477d3bf1a6ce63",
+    "generated_at": "2026-08-10T13:53:24.458156Z",
     "vector_ref": "embeddings.parquet#cb_d411ae86f50f46de86f7c2f68bc961b5"
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
+    "prompt_version": "phase2a-0.4",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "e08438054b18b56f4e83552f06c840e14d1674f59be3e3468833c277adc424cb",
-    "generated_at": "2026-08-12T14:18:55.678023Z",
+    "evidence_input_hash": "1184fde73da2e9221935600d085e8463b2ae558cf506247e585b1ab9029108e3",
+    "generated_at": "2026-08-10T13:01:52.757776Z",
     "editorial_policy_version": "0.1"
   },
-  "derivative_assessments": [
-    {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T14:18:55.678023Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-rc2-editorial-migration",
-      "input_hash": "e08438054b18b56f4e83552f06c840e14d1674f59be3e3468833c277adc424cb",
-      "disposition": "refreshed",
-      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "taxonomy",
-      "generated_at": "2026-08-12T14:18:55.678023Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "e08438054b18b56f4e83552f06c840e14d1674f59be3e3468833c277adc424cb",
-      "disposition": "reused",
-      "reason": "No new supported canonical classification facts.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "fundraising",
-      "generated_at": null,
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "e08438054b18b56f4e83552f06c840e14d1674f59be3e3468833c277adc424cb",
-      "disposition": "reused",
-      "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "embedding",
-      "generated_at": "2026-08-10T13:53:24.458156Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "b05a12233dcc54e92eacdb12bc7d6bdd76682059435918c62f477d3bf1a6ce63",
-      "disposition": "reused",
-      "reason": "Semantic source text unchanged.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "similarities",
-      "generated_at": "2026-08-10T13:53:24.458156Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "b05a12233dcc54e92eacdb12bc7d6bdd76682059435918c62f477d3bf1a6ce63",
-      "disposition": "reused",
-      "reason": "Embedding reused; semantic neighbours retained.",
-      "affected_dimensions": []
-    }
-  ],
-  "dataset_version": "phase2b-2026-08-13-rc3",
+  "derivative_assessments": [],
+  "dataset_version": "phase2b-2026-08-14-rc4",
   "card_schema_version": "0.4",
-  "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T05:50:58.991012Z"
+  "editorial_policy_version": "0.4-rc4",
+  "generator_version": "0.5.0-rc4",
+  "built_at": "2026-08-13T10:52:47.483880Z"
 }

@@ -65,16 +65,6 @@
       "freshness_note": null
     },
     {
-      "capability": "website",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:web:33674759123:2026-08-10"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
       "capability": "fundraising_expenditure",
       "status": "not_yet_processed",
       "source_record_id": null,
@@ -93,10 +83,18 @@
     {
       "capability": "latest_acnc_ais",
       "status": "not_available_from_source",
+      "source_record_id": "src:acnc-public-profile:33674759123:f5d45d3a-46e7-ef11-be20-0022489758db:cb_ce5fa7858d2f47ffaf33a8015e933ba8",
+      "evidence_ids": [],
+      "observed_at": "2026-08-13",
+      "freshness_note": "No submitted AIS was returned by the public ACNC profile endpoint."
+    },
+    {
+      "capability": "website",
+      "status": "observed",
       "source_record_id": null,
       "evidence_ids": [],
       "observed_at": "2026-08-13",
-      "freshness_note": "No submitted AIS appears in the 2026-08-13 public ACNC profile acquisition."
+      "freshness_note": "Public website locator acquired from the ACNC profile."
     }
   ],
   "enrichment_level": "enriched",
@@ -104,35 +102,49 @@
   "geography": [
     "New South Wales (NSW)"
   ],
-  "navigation_geography": [
+  "geography_observations": [
     {
-      "level": "country",
-      "code": "AU",
-      "label": "Australia",
-      "evidence_ids": [
-        "ev:acnc:33674759123"
-      ]
-    },
-    {
-      "level": "state_territory",
-      "code": "AU-NSW",
-      "label": "New South Wales",
-      "evidence_ids": [
-        "ev:acnc:33674759123"
-      ]
+      "value": "New South Wales (NSW)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
     }
   ],
-  "causebase_summary": "Australian LGBTQ Board and Executive Inclusion Forum Limited is a New South Wales-based organisation that promotes diversity and inclusion in corporate boardrooms. It fosters discussions between company board members, nominations committees, executive search firms, industry governance bodies and interested individuals. ALBEI organises and promotes events, maintains a subscription list and website communications, and identifies a set of priority projects related to boardroom inclusion. The organisation invites people to subscribe for event updates, send questions, offer help and attend ALBEI events. Activities described focus on convening conversations and project work around boardroom inclusion rather than direct service provision to individual clients.",
-  "summary_evidence_ids": [
-    "ev:web:33674759123:2026-08-10",
-    "ev:acnc:33674759123"
-  ],
+  "navigation_geography": [],
+  "causebase_summary": "According to its website, AUSTRALIAN LGBTQ BOARD AND EXECUTIVE INCLUSION FORUM LIMITED (ALBEI) describes its mission as promoting diversity and inclusion in company boardrooms by fostering discussions among company board members, nominations committees, executive search firms, industry governance bodies and individuals. The site invites people to subscribe for information about ALBEI events, refers to a set of “projects” described as priority areas, and asks visitors to “join the discussion” by sending questions or offers to help. The material presented is organisation-authored and frames ALBEI’s work in terms of convening conversations, staging events and maintaining projects focused on boardroom inclusion. The ACNC register entry is listed in the evidence pack but no financial statements or program reporting were supplied in the selected excerpts. The organisation’s structured geography in the evidence is New South Wales (NSW).",
+  "summary_evidence_ids": [],
   "organisation_self_description": null,
   "activities": [
-    "Hosting events about diversity and inclusion in boardrooms (organisation-described)",
-    "Fostering discussions between company board members, nominations committees, executive search firms and industry governance bodies (organisation-described)",
-    "Running projects described as priority areas related to boardroom inclusion (organisation-described)",
-    "Maintaining a subscription list and website communications (organisation-described)"
+    "Hosting events about diversity and inclusion in boardrooms",
+    "Fostering discussions between company board members, nominations committees, executive search firms and industry governance bodies",
+    "Running projects described as priority areas related to boardroom inclusion",
+    "Maintaining a subscription list and website communications"
+  ],
+  "activity_observations": [
+    {
+      "value": "Hosting events about diversity and inclusion in boardrooms",
+      "source_role": "legacy_source_qualifier",
+      "provenance_note": "organisation-described",
+      "evidence_ids": []
+    },
+    {
+      "value": "Fostering discussions between company board members, nominations committees, executive search firms and industry governance bodies",
+      "source_role": "legacy_source_qualifier",
+      "provenance_note": "organisation-described",
+      "evidence_ids": []
+    },
+    {
+      "value": "Running projects described as priority areas related to boardroom inclusion",
+      "source_role": "legacy_source_qualifier",
+      "provenance_note": "organisation-described",
+      "evidence_ids": []
+    },
+    {
+      "value": "Maintaining a subscription list and website communications",
+      "source_role": "legacy_source_qualifier",
+      "provenance_note": "organisation-described",
+      "evidence_ids": []
+    }
   ],
   "beneficiaries": [
     "Company board members",
@@ -140,6 +152,38 @@
     "Executive search firms",
     "Industry governance bodies",
     "Individuals interested in boardroom diversity and inclusion"
+  ],
+  "beneficiary_observations": [
+    {
+      "value": "Company board members",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Nominations committees",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Executive search firms",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Industry governance bodies",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Individuals interested in boardroom diversity and inclusion",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    }
   ],
   "participation_modes": [
     "Subscribing to event updates",
@@ -152,47 +196,17 @@
   "programs": [],
   "source_native_records": [
     {
-      "source_record_id": "src:acnc-register:cbd2fc4b-9782-5a5a-b53a-087995bf56b6",
-      "source_family": "acnc-register",
-      "dataset_version": "2026-08-10",
-      "source_url": "https://www.acnc.gov.au/charity/charities?search=33674759123",
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "ABN": "33674759123",
-        "Legal Name": "AUSTRALIAN LGBTQ BOARD AND EXECUTIVE INCLUSION FORUM LIMITED",
-        "Registration Status": "registered",
-        "ACNC classifications": "other purpose; other beneficiary",
-        "Website": "https://www.albei.org",
-        "ACNC registration ID": null,
-        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "ABN": "external_identifiers",
-        "Legal Name": "legal_name",
-        "Registration Status": "registrations"
-      },
-      "evidence_ids": [
-        "ev:acnc:33674759123"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-public-profile:33674759123:cb_ce5fa7858d2f47ffaf33a8015e933ba8:2026-08-13",
+      "source_record_id": "src:acnc-public-profile:33674759123:f5d45d3a-46e7-ef11-be20-0022489758db:cb_ce5fa7858d2f47ffaf33a8015e933ba8",
       "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-13-public-api",
+      "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/f5d45d3a-46e7-ef11-be20-0022489758db/profile",
-      "retrieved_at": "2026-08-13T05:50:58.991012Z",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
       "observed_at": "2026-08-13",
       "effective_from": null,
       "effective_to": null,
       "source_fields": {
         "uuid": "f5d45d3a-46e7-ef11-be20-0022489758db",
-        "abn": "33674759123",
-        "latest_ais_year": null,
-        "latest_ais_uuid": null
+        "abn": "33674759123"
       },
       "source_payload": {
         "data": {
@@ -427,10 +441,8 @@
         "uuid": "f5d45d3a-46e7-ef11-be20-0022489758db"
       },
       "canonical_field_mappings": {
-        "data.Name": "display_name",
         "data.OtherNames": "operating_names",
-        "data.AnnualReports": "acnc_ais_url",
-        "data.Programs": "programs"
+        "data.AddressStateOrProvince": "principal_location"
       },
       "evidence_ids": []
     }
@@ -568,81 +580,25 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "7e4fbc618f65f9f7e641de00449ce075bb5ac747da9b4e7f063ba7b5badf38d0",
-    "generated_at": "2026-08-13T05:51:03.016049Z",
+    "source_text_hash": "6ac732a609bfe45544c3b0a60995c71c703dca761462584f44e2a59f8a3fc4c1",
+    "generated_at": "2026-08-10T13:53:24.456981Z",
     "vector_ref": "embeddings.parquet#cb_ce5fa7858d2f47ffaf33a8015e933ba8"
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
+    "prompt_version": "phase2a-0.4",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "50141229a149167f8a2396fa725de996b0268a4ea1288329246fcf389df95088",
-    "generated_at": "2026-08-12T14:00:15.939825Z",
+    "evidence_input_hash": "8ccd5177b2cca582efe7b59eb56fa7725376e63f4099a08243f1d93faa7f44f9",
+    "generated_at": "2026-08-10T12:54:53.620373Z",
     "editorial_policy_version": "0.1"
   },
-  "derivative_assessments": [
-    {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T14:00:15.939825Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-rc2-editorial-migration",
-      "input_hash": "50141229a149167f8a2396fa725de996b0268a4ea1288329246fcf389df95088",
-      "disposition": "refreshed",
-      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "taxonomy",
-      "generated_at": "2026-08-12T14:00:15.939825Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "50141229a149167f8a2396fa725de996b0268a4ea1288329246fcf389df95088",
-      "disposition": "reused",
-      "reason": "No new supported canonical classification facts.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "fundraising",
-      "generated_at": null,
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "50141229a149167f8a2396fa725de996b0268a4ea1288329246fcf389df95088",
-      "disposition": "reused",
-      "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "embedding",
-      "generated_at": "2026-08-10T13:53:24.456981Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "6ac732a609bfe45544c3b0a60995c71c703dca761462584f44e2a59f8a3fc4c1",
-      "disposition": "reused",
-      "reason": "Semantic source text unchanged.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "similarities",
-      "generated_at": "2026-08-10T13:53:24.456981Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "6ac732a609bfe45544c3b0a60995c71c703dca761462584f44e2a59f8a3fc4c1",
-      "disposition": "reused",
-      "reason": "Embedding reused; semantic neighbours retained.",
-      "affected_dimensions": []
-    }
-  ],
-  "dataset_version": "phase2b-2026-08-13-rc3",
+  "derivative_assessments": [],
+  "dataset_version": "phase2b-2026-08-14-rc4",
   "card_schema_version": "0.4",
-  "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T05:50:58.991012Z"
+  "editorial_policy_version": "0.4-rc4",
+  "generator_version": "0.5.0-rc4",
+  "built_at": "2026-08-13T10:52:47.483880Z"
 }

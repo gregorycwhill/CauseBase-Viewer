@@ -72,16 +72,6 @@
       "freshness_note": null
     },
     {
-      "capability": "website",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:web:46451431764:2026-08-10"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
       "capability": "fundraising_expenditure",
       "status": "not_available_from_source",
       "source_record_id": null,
@@ -102,12 +92,20 @@
     {
       "capability": "latest_acnc_ais",
       "status": "observed",
-      "source_record_id": null,
+      "source_record_id": "src:acnc-ais-detail:46451431764:51d66582-8f0b-f111-8406-6045bde5b710:cb_594bc869fd134d30b934d40975343c63",
       "evidence_ids": [
-        "ev:acnc:ais:46451431764:2025"
+        "ev:acnc:ais:46451431764:51d66582-8f0b-f111-8406-6045bde5b710"
       ],
       "observed_at": "2026-02-16",
-      "freshness_note": "Latest submitted ACNC AIS in the 2026-08-13 public-profile acquisition: 2025."
+      "freshness_note": "Latest submitted AIS detail acquired from the public ACNC entity endpoint."
+    },
+    {
+      "capability": "website",
+      "status": "observed",
+      "source_record_id": null,
+      "evidence_ids": [],
+      "observed_at": "2026-08-13",
+      "freshness_note": "Public website locator acquired from the ACNC profile."
     }
   ],
   "enrichment_level": "enriched",
@@ -117,38 +115,29 @@
     "Australian Capital Territory (rural lessees)",
     "Australia"
   ],
-  "navigation_geography": [
+  "geography_observations": [
     {
-      "level": "country",
-      "code": "AU",
-      "label": "Australia",
-      "evidence_ids": [
-        "ev:acnc:46451431764"
-      ]
+      "value": "South‑east New South Wales (K2C region)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
     },
     {
-      "level": "state_territory",
-      "code": "AU-NSW",
-      "label": "New South Wales",
-      "evidence_ids": [
-        "ev:acnc:46451431764"
-      ]
+      "value": "Australian Capital Territory (rural lessees)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
     },
     {
-      "level": "state_territory",
-      "code": "AU-ACT",
-      "label": "Australian Capital Territory",
-      "evidence_ids": [
-        "ev:acnc:46451431764"
-      ]
+      "value": "Australia",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
     }
   ],
-  "causebase_summary": "K2C Incorporated (Kosciuszko to Coast, K2C) is a partnership of fourteen organisations that delivers natural resource management and environment services across the Kosciuszko to Coast region of south‑east New South Wales and to rural lessees in the Australian Capital Territory. K2C runs a Land for Wildlife property registration and assessment program, delivers projects such as “Being a Good Neighbour to the Bush for the Yass Gorge”, and runs workshops on habitat and threatened species (including Scarlet Robin) under the Saving Our Species framework. It organises public events and site visits (examples: Feeling Fishy Day, Maffra Lake TSR) and publishes local fauna news (items on quolls and arboreal mammals). Partners work with land owners, landcare groups and local community members to support on‑ground natural resource management and habitat activities.",
-  "summary_evidence_ids": [
-    "ev:web:46451431764:2026-08-10",
-    "ev:acnc:46451431764",
-    "ev:ais:46451431764:2023"
-  ],
+  "navigation_geography": [],
+  "causebase_summary": "Kosciuszko to Coast (K2C) is described on its website as a partnership of fourteen organisations that “deliver better natural resource management and environment services and learn from land owners and managers, landcare groups, and community.” The site lists multiple concrete activities: a project titled “Being a Good Neighbour to the Bush for the Yass Gorge” (noting assistance from the NSW Government’s Environmental Trust); a Land for Wildlife scheme and property assessments delivered in south‑east New South Wales and offered to rural lessees in the Australian Capital Territory; workshops run under the Saving our Species program focused on habitat for Scarlet Robin and other vulnerable bush birds; and local events and site visits (for example, Feeling Fishy Day and a visit to Maffra Lake TSR). News items on the site name quolls and other Monaro arboreal mammals. The website frames K2C work as partnership delivery involving landholders, landcare groups and partners. The ACNC AIS 2023 extract in the evidence package reports zero revenue and zero expenses for the 2022–23 reporting year for this subject.",
+  "summary_evidence_ids": [],
   "organisation_self_description": null,
   "activities": [
     "Delivering natural resource management and environment services",
@@ -158,11 +147,75 @@
     "Running public events and site visits (e.g. Feeling Fishy Day, Maffra Lake TSR)",
     "Publishing local fauna news and information (e.g. quolls, arboreal mammals)"
   ],
+  "activity_observations": [
+    {
+      "value": "Delivering natural resource management and environment services",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Running workshops on habitat and threatened species (Scarlet Robin)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Operating a Land for Wildlife property registration and assessment program",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Delivering the \"Being a Good Neighbour to the Bush for the Yass Gorge\" project",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Running public events and site visits (e.g. Feeling Fishy Day, Maffra Lake TSR)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Publishing local fauna news and information (e.g. quolls, arboreal mammals)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    }
+  ],
   "beneficiaries": [
     "Land owners and managers",
     "Landcare groups",
     "Local community in the K2C region",
     "Wildlife (examples named: Scarlet Robin, quolls)"
+  ],
+  "beneficiary_observations": [
+    {
+      "value": "Land owners and managers",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Landcare groups",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Local community in the K2C region",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    },
+    {
+      "value": "Wildlife (examples named: Scarlet Robin, quolls)",
+      "source_role": "unknown",
+      "provenance_note": null,
+      "evidence_ids": []
+    }
   ],
   "participation_modes": [
     "Partner organisations working together",
@@ -174,76 +227,17 @@
   "programs": [],
   "source_native_records": [
     {
-      "source_record_id": "src:acnc-register:129d7b61-dd32-51fb-a7f5-658fd07bfe9b",
-      "source_family": "acnc-register",
-      "dataset_version": "2026-08-10",
-      "source_url": "https://www.acnc.gov.au/charity/charities?search=46451431764",
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "ABN": "46451431764",
-        "Legal Name": "K2C Incorporated",
-        "Registration Status": "registered",
-        "ACNC classifications": "environment; other beneficiary",
-        "Website": "https://landcare.nsw.gov.au/groups/kosciuszko-to-coast/",
-        "ACNC registration ID": null,
-        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "ABN": "external_identifiers",
-        "Legal Name": "legal_name",
-        "Registration Status": "registrations"
-      },
-      "evidence_ids": [
-        "ev:acnc:46451431764"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-ais:fr:ais:cb_594bc869fd134d30b934d40975343c63:2023",
-      "source_family": "acnc-ais",
-      "dataset_version": "2026-08-10",
-      "source_url": null,
-      "retrieved_at": "2026-08-12T14:24:20.675968Z",
-      "observed_at": "2026-08-10",
-      "effective_from": "2022-07-01",
-      "effective_to": "2023-06-30",
-      "source_fields": {
-        "Reporting period": "01/07/2022 to 30/06/2023",
-        "Reporting scope": "subject",
-        "Consolidated": "unknown",
-        "Revenue": "0",
-        "Donations and bequests": null,
-        "Government grants": null,
-        "Total expenses": "0",
-        "Assets": null,
-        "Liabilities": null
-      },
-      "source_payload": null,
-      "canonical_field_mappings": {
-        "Revenue": "financial_records[].revenue",
-        "Total expenses": "financial_records[].total_expenses"
-      },
-      "evidence_ids": [
-        "ev:ais:46451431764:2023"
-      ]
-    },
-    {
-      "source_record_id": "src:acnc-public-profile:46451431764:cb_594bc869fd134d30b934d40975343c63:2026-08-13",
+      "source_record_id": "src:acnc-public-profile:46451431764:cd5704f2-38af-e811-a963-000d3ad24077:cb_594bc869fd134d30b934d40975343c63",
       "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-13-public-api",
+      "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/cd5704f2-38af-e811-a963-000d3ad24077/profile",
-      "retrieved_at": "2026-08-13T05:50:58.991012Z",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
       "observed_at": "2026-02-16",
       "effective_from": null,
       "effective_to": null,
       "source_fields": {
         "uuid": "cd5704f2-38af-e811-a963-000d3ad24077",
-        "abn": "46451431764",
-        "latest_ais_year": "2025",
-        "latest_ais_uuid": "51d66582-8f0b-f111-8406-6045bde5b710"
+        "abn": "46451431764"
       },
       "source_payload": {
         "data": {
@@ -761,13 +755,269 @@
         "uuid": "cd5704f2-38af-e811-a963-000d3ad24077"
       },
       "canonical_field_mappings": {
-        "data.Name": "display_name",
         "data.OtherNames": "operating_names",
-        "data.AnnualReports": "acnc_ais_url",
-        "data.Programs": "programs"
+        "data.AddressStateOrProvince": "principal_location"
+      },
+      "evidence_ids": []
+    },
+    {
+      "source_record_id": "src:acnc-ais-detail:46451431764:51d66582-8f0b-f111-8406-6045bde5b710:cb_594bc869fd134d30b934d40975343c63",
+      "source_family": "acnc-ais-detail",
+      "dataset_version": "2026-08-14-public-api",
+      "source_url": "https://www.acnc.gov.au/charity/charities/cd5704f2-38af-e811-a963-000d3ad24077/documents/51d66582-8f0b-f111-8406-6045bde5b710",
+      "retrieved_at": "2026-08-13T10:52:47.483880Z",
+      "observed_at": "2026-02-16",
+      "effective_from": null,
+      "effective_to": null,
+      "source_fields": {
+        "abn": "46451431764",
+        "ais_uuid": "51d66582-8f0b-f111-8406-6045bde5b710",
+        "year": "2025",
+        "date_received": "2026-02-16T23:30:47.0000000Z"
+      },
+      "source_payload": {
+        "data": {
+          "Abn": "46451431764",
+          "ActivityAdvocacyNCivic": false,
+          "ActivityAgedCare": false,
+          "ActivityAnimalProtection": false,
+          "ActivityCultureAndArt": false,
+          "ActivityEconomicSocialCommunity": false,
+          "ActivityEmergencyNRelief": false,
+          "ActivityEmploymentNTraining": false,
+          "ActivityEnvironmental": false,
+          "ActivityGrantMaking": false,
+          "ActivityHealthRehabilitation": false,
+          "ActivityHigherEducation": false,
+          "ActivityHousing": false,
+          "ActivityIncomeSupportNMaintenance": false,
+          "ActivityInternational": false,
+          "ActivityInternationalDescription": null,
+          "ActivityInternationalOther": false,
+          "ActivityInternationalOtherDescription": null,
+          "ActivityLawNLegalServices": false,
+          "ActivityMain": null,
+          "ActivityMentalHealthCrisisIntervention": false,
+          "ActivityNdisSupported": null,
+          "ActivityNdisSupportedNext": null,
+          "ActivityOperating": false,
+          "ActivityOperatingOverseas": false,
+          "ActivityOther": false,
+          "ActivityOtherDescription": null,
+          "ActivityOtherEducation": false,
+          "ActivityOtherHealthServices": false,
+          "ActivityPersuitPurposesDescription": null,
+          "ActivityPhilanthropicPromotion": false,
+          "ActivityPolitical": false,
+          "ActivityPrimarySecondaryEducation": false,
+          "ActivityPurposeChange": null,
+          "ActivityPurposeChangeDescription": null,
+          "ActivityRecreationSocialClub": false,
+          "ActivityReligious": false,
+          "ActivityResearch": false,
+          "ActivitySocialServices": false,
+          "ActivitySports": false,
+          "ActivityTransferringFundsGoods": false,
+          "AdvancementOfEducation": false,
+          "AdvancementOfReligion": false,
+          "AssetsandLiabilitiesDescription": "Due to the long period of inactivity, and having lost contact with previous responsible persons, we are having difficulty accessing the K2C bank account to ascertain an accurate current balance. At the time of reporting it is understood that the charity's account contained at least $3,000 when last reported.",
+          "BasicReligiousCharity": false,
+          "BeneficiaryAboriginalTorres": false,
+          "BeneficiaryAdults": false,
+          "BeneficiaryAllAges": false,
+          "BeneficiaryChildren": false,
+          "BeneficiaryChronicIllness": false,
+          "BeneficiaryCrimeVictims": false,
+          "BeneficiaryDisasterVictims": false,
+          "BeneficiaryEarlyChildhood": false,
+          "BeneficiaryEthnic": false,
+          "BeneficiaryFamilies": false,
+          "BeneficiaryFinanciallyDisadvantaged": false,
+          "BeneficiaryGeneral": false,
+          "BeneficiaryHomelessnessRisk": false,
+          "BeneficiaryLGBT": false,
+          "BeneficiaryMain": null,
+          "BeneficiaryMen": false,
+          "BeneficiaryMigrantsRefugees": false,
+          "BeneficiaryOffenderFamilies": false,
+          "BeneficiaryOther": false,
+          "BeneficiaryOtherCharities": false,
+          "BeneficiaryOtherDescription": null,
+          "BeneficiaryOverseas": false,
+          "BeneficiaryPeopleWithDisability": false,
+          "BeneficiaryRuralRegionalRemote": false,
+          "BeneficiarySeniors": false,
+          "BeneficiaryUnemployed": false,
+          "BeneficiaryVeteranFamilies": false,
+          "BeneficiaryWomen": false,
+          "BeneficiaryYouth": false,
+          "CharityAddressCountry": "Australia",
+          "CharityAddressLine1": "U 2 89 Tennant St",
+          "CharityAddressLine2": null,
+          "CharityAddressPostalCode": "2609",
+          "CharityAddressStateOrProvince": "ACT",
+          "CharityAddressSuburb": "Fyshwick",
+          "CharityEmail": "president@molonglo.org.au",
+          "CharitySize": "Small",
+          "CharityUuid": "cd5704f2-38af-e811-a963-000d3ad24077",
+          "ChildCareServices": false,
+          "ExpenseEmployees": "0.0000",
+          "ExpenseGrantDonationsInAustralia": "0.0000",
+          "ExpenseGrantDonationsOutsideAustralia": "0.0000",
+          "ExpenseTotal": "0.0000",
+          "ExpensesOther": "0.0000",
+          "FinAccrualAccounting": "Cash",
+          "FinConsolidatedReportFromMiltiple": null,
+          "FinDocumentedPoliciesRelatedPartyTransactions": null,
+          "FinFyeJune": false,
+          "FinProvideVoluntarily": null,
+          "FinRelatedPartyTransactions": "No",
+          "FinReportACT": false,
+          "FinReportFrom": "2024-07-01T00:00:00.0000000Z",
+          "FinReportNSW": false,
+          "FinReportNT": false,
+          "FinReportQLD": false,
+          "FinReportSA": false,
+          "FinReportTAS": false,
+          "FinReportTo": "2025-06-30T00:00:00.0000000Z",
+          "FinReportVIC": false,
+          "FinReportWA": false,
+          "FinReportingType": null,
+          "FinSapDate": null,
+          "FundRaisingNumberACT": null,
+          "FundRaisingNumberNSW": null,
+          "FundRaisingNumberQLD": null,
+          "FundRaisingNumberSA": null,
+          "FundRaisingNumberTAS": null,
+          "FundRaisingNumberVIC": null,
+          "FundRaisingNumberWA": null,
+          "GovDocAccurate": null,
+          "GrantCapacityBuildingPct": null,
+          "GrantMultiYearPct": null,
+          "GrantPublicOpenApplicationPct": null,
+          "GrantRuralRegionPct": null,
+          "HasSubmittedToRegulator": false,
+          "HoursPaid": null,
+          "HoursTotal": null,
+          "HoursVolunteer": null,
+          "HrCasualEmployees": "0",
+          "HrFteStaff": "0.0000000000",
+          "HrFullTimeEmployees": "0",
+          "HrPartTimeEmployees": "0",
+          "HrUnpainVolunteers": "2",
+          "IncomeDonationsBequests": "0.0000",
+          "IncomeGovernmentGrants": "0.0000",
+          "IncomeOther": "0.0000",
+          "IncomeOtherComprehinsive": "0.0000",
+          "IncomeOtherNeg": null,
+          "IncomeOtherReceipts": "0.0000",
+          "IncomeTotalComprehensive": "0.0000",
+          "IncomeTotalReceipts": "0.0000",
+          "IncorporationStatus": null,
+          "InterestExpense": "0.0000",
+          "IsIncorporatedAssociation": true,
+          "KeyManagementPersonnel": false,
+          "LegalName": "K2C Incorporated",
+          "NetAssetsLiabilities": "3000.0000",
+          "NetSurplusDeficit": "0.0000",
+          "NonCurrentLoansPayable": "0.0000",
+          "NumberOfKeyManagementPersonnel": "0",
+          "OperatingCountries": null,
+          "OperatingInACT": false,
+          "OperatingInNSW": false,
+          "OperatingInNT": false,
+          "OperatingInQLD": false,
+          "OperatingInSA": false,
+          "OperatingInTAS": false,
+          "OperatingInVIC": false,
+          "OperatingInWA": false,
+          "OperatingOverseas": false,
+          "OtherNames": [],
+          "OtherNonCurrentAssets": "0.0000",
+          "OtherNonCurrentLiabilities": "0.0000",
+          "OtherPurposeDescription": null,
+          "OtherPurposes": "False",
+          "Programs": [],
+          "RegulatedACT": false,
+          "RegulatedNSW": false,
+          "RegulatedNT": false,
+          "RegulatedQLD": false,
+          "RegulatedSA": false,
+          "RegulatedTAS": false,
+          "RegulatedVIC": false,
+          "RegulatedWA": false,
+          "Regulator": null,
+          "RegulatorAGMDateACT": null,
+          "RegulatorAGMDateNT": null,
+          "RegulatorAGMDateVIC": null,
+          "RegulatorAGMDateWA": null,
+          "RegulatorFundRaising": "No",
+          "RegulatorFundRaisingACT": false,
+          "RegulatorFundRaisingNSW": false,
+          "RegulatorFundRaisingNT": false,
+          "RegulatorFundRaisingOnline": false,
+          "RegulatorFundRaisingQLD": false,
+          "RegulatorFundRaisingSA": false,
+          "RegulatorFundRaisingTAS": false,
+          "RegulatorFundRaisingVIC": false,
+          "RegulatorFundRaisingWA": false,
+          "RegulatorIncorporatedAssociationACT": false,
+          "RegulatorIncorporatedAssociationNSW": true,
+          "RegulatorIncorporatedAssociationNT": false,
+          "RegulatorIncorporatedAssociationNumberACT": null,
+          "RegulatorIncorporatedAssociationNumberNSW": "INC9895364",
+          "RegulatorIncorporatedAssociationNumberNT": null,
+          "RegulatorIncorporatedAssociationNumberQLD": null,
+          "RegulatorIncorporatedAssociationNumberSA": null,
+          "RegulatorIncorporatedAssociationNumberTAS": null,
+          "RegulatorIncorporatedAssociationNumberVIC": null,
+          "RegulatorIncorporatedAssociationNumberWA": null,
+          "RegulatorIncorporatedAssociationQLD": false,
+          "RegulatorIncorporatedAssociationSA": false,
+          "RegulatorIncorporatedAssociationTAS": false,
+          "RegulatorIncorporatedAssociationVIC": false,
+          "RegulatorIncorporatedAssociationWA": false,
+          "RegulatorMetRequirementACT": false,
+          "RegulatorMetRequirementWA": null,
+          "RegulatorOtherDetails": null,
+          "RegulatorPrograms": null,
+          "RegulatorStates": false,
+          "RelatedPartyDetails": null,
+          "RelatedPartyTransactions": [],
+          "ReliefOfPoverty": false,
+          "ReportingGroupFlag": false,
+          "ResponsiblePersonAccurate": null,
+          "RevenueGoodsServices": "0.0000",
+          "RevenueInvestments": "0.0000",
+          "RevenueTotal": "0.0000",
+          "StatementYear": "2025",
+          "SubTypesAccurate": null,
+          "TotalAssets": "3000.0000",
+          "TotalCurrentAssets": "0.0000",
+          "TotalCurrentLiabilities": "0.0000",
+          "TotalLiabilities": "0.0000",
+          "TotalNonCurrentAssets": null,
+          "TotalNonCurrentLiabilities": "0.0000",
+          "TotalNonCurrentLoansReceivable": "0.0000",
+          "TotalPaidKMP": "$0.00",
+          "Website": "https://landcare.nsw.gov.au/groups/kosciuszko-to-coast/",
+          "__normalized": true,
+          "entityTypeVersion": "",
+          "entityVersion": "1866115629",
+          "timeStamp": "2026-02-16T23:30:45.0000000Z",
+          "type": "annual_information_statement",
+          "uuid": "51d66582-8f0b-f111-8406-6045bde5b710"
+        },
+        "type": "annual_information_statement",
+        "uuid": "51d66582-8f0b-f111-8406-6045bde5b710"
+      },
+      "canonical_field_mappings": {
+        "data.Programs": "programs",
+        "data.TotalRevenue": "financial_records[].revenue",
+        "data.TotalExpenses": "financial_records[].total_expenses"
       },
       "evidence_ids": [
-        "ev:acnc:ais:46451431764:2025"
+        "ev:acnc:ais:46451431764:51d66582-8f0b-f111-8406-6045bde5b710"
       ]
     }
   ],
@@ -816,9 +1066,12 @@
       },
       "assets": null,
       "liabilities": null,
+      "net_assets": null,
       "income_breakdown": [],
       "expense_breakdown": [],
-      "balance_sheet_breakdown": []
+      "balance_sheet_breakdown": [],
+      "source_ordered_line_items": [],
+      "statements": []
     }
   ],
   "financial_metrics": [
@@ -1008,24 +1261,24 @@
       "content_hash": null
     },
     {
+      "evidence_id": "ev:acnc:ais:46451431764:51d66582-8f0b-f111-8406-6045bde5b710",
+      "source_type": "regulatory",
+      "title": "ACNC Annual Information Statement 2025",
+      "publisher": "Australian Charities and Not-for-profits Commission",
+      "url": "https://www.acnc.gov.au/charity/charities/cd5704f2-38af-e811-a963-000d3ad24077/documents/51d66582-8f0b-f111-8406-6045bde5b710",
+      "observed_at": "2026-02-16",
+      "reporting_period": "2025",
+      "page": null,
+      "section": null,
+      "content_hash": null
+    },
+    {
       "evidence_id": "ev:abr-dgr:46451431764:20260805",
       "source_type": "regulatory",
       "title": "ABR DGR bulk observation",
       "publisher": "Australian Business Register / Australian Taxation Office",
       "url": "https://abr.business.gov.au/Tools/BulkExtract",
       "observed_at": "2026-08-05",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
-    },
-    {
-      "evidence_id": "ev:acnc:ais:46451431764:2025",
-      "source_type": "regulatory",
-      "title": "K2C Incorporated Annual Information Statement 2025",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": "https://www.acnc.gov.au/charity/charities/cd5704f2-38af-e811-a963-000d3ad24077/documents/51d66582-8f0b-f111-8406-6045bde5b710",
-      "observed_at": "2026-02-16",
       "reporting_period": null,
       "page": null,
       "section": null,
@@ -1038,81 +1291,25 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "cf5a52c8b51c99c1167e2b112abe15db1ab1037755be6bc0a70c4a6561e154e6",
-    "generated_at": "2026-08-13T05:51:03.014762Z",
+    "source_text_hash": "32e4aaa5a27c3c4505ca2877f65e2856a1319f3d0071ee88830df6c693af6843",
+    "generated_at": "2026-08-10T13:53:24.456051Z",
     "vector_ref": "embeddings.parquet#cb_594bc869fd134d30b934d40975343c63"
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
+    "prompt_version": "phase2a-0.4",
     "parameters": {
       "max_output_tokens": 3000,
       "structured_output": true
     },
-    "evidence_input_hash": "6fa0ba0cf4638400761fd86610303aa23beb0457cfcb1ec8464c531ad8aea84e",
-    "generated_at": "2026-08-12T13:45:47.652830Z",
+    "evidence_input_hash": "6ccc55c211e1a3ca5254e02dc3bcf9d707752dbd59cf87b511bc6354abc713fe",
+    "generated_at": "2026-08-10T12:49:13.470976Z",
     "editorial_policy_version": "0.1"
   },
-  "derivative_assessments": [
-    {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T13:45:47.652830Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-rc2-editorial-migration",
-      "input_hash": "6fa0ba0cf4638400761fd86610303aa23beb0457cfcb1ec8464c531ad8aea84e",
-      "disposition": "refreshed",
-      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "taxonomy",
-      "generated_at": "2026-08-12T13:45:47.652830Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "6fa0ba0cf4638400761fd86610303aa23beb0457cfcb1ec8464c531ad8aea84e",
-      "disposition": "reused",
-      "reason": "No new supported canonical classification facts.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "fundraising",
-      "generated_at": null,
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "6fa0ba0cf4638400761fd86610303aa23beb0457cfcb1ec8464c531ad8aea84e",
-      "disposition": "reused",
-      "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "embedding",
-      "generated_at": "2026-08-10T13:53:24.456051Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "32e4aaa5a27c3c4505ca2877f65e2856a1319f3d0071ee88830df6c693af6843",
-      "disposition": "reused",
-      "reason": "Semantic source text unchanged.",
-      "affected_dimensions": []
-    },
-    {
-      "derivative": "similarities",
-      "generated_at": "2026-08-10T13:53:24.456051Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
-      "assessment_method": "phase2b-deterministic-v1",
-      "input_hash": "32e4aaa5a27c3c4505ca2877f65e2856a1319f3d0071ee88830df6c693af6843",
-      "disposition": "reused",
-      "reason": "Embedding reused; semantic neighbours retained.",
-      "affected_dimensions": []
-    }
-  ],
-  "dataset_version": "phase2b-2026-08-13-rc3",
+  "derivative_assessments": [],
+  "dataset_version": "phase2b-2026-08-14-rc4",
   "card_schema_version": "0.4",
-  "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.4.0-rc3",
-  "built_at": "2026-08-13T05:50:58.991012Z"
+  "editorial_policy_version": "0.4-rc4",
+  "generator_version": "0.5.0-rc4",
+  "built_at": "2026-08-13T10:52:47.483880Z"
 }

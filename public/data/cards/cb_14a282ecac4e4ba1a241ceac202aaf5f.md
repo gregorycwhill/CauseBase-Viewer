@@ -2,11 +2,11 @@
 
 **CauseBase subject:** `cb_14a282ecac4e4ba1a241ceac202aaf5f`
 **Subject kind:** unknown
-**Coverage:** `[{"capability": "regulatory", "evidence_ids": ["ev:acnc:24654346693"], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "observed"}, {"capability": "annual_report", "evidence_ids": [], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "not_yet_processed"}, {"capability": "website", "evidence_ids": [], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "not_available_from_source"}, {"capability": "fundraising_expenditure", "evidence_ids": [], "freshness_note": "No direct or defensible derived fundraising expenditure was found in selected Phase 2A evidence.", "observed_at": "2026-08-10", "source_record_id": null, "status": "not_available_from_source"}, {"capability": "financials", "evidence_ids": ["ev:ais:24654346693:2023"], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "observed"}, {"capability": "latest_acnc_ais", "evidence_ids": ["ev:acnc:ais:24654346693:2023"], "freshness_note": "Latest submitted ACNC AIS in the 2026-08-13 public-profile acquisition: 2023.", "observed_at": "2024-08-12", "source_record_id": null, "status": "observed"}]`
+**Coverage:** `[{"capability": "regulatory", "evidence_ids": ["ev:acnc:24654346693"], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "observed"}, {"capability": "annual_report", "evidence_ids": [], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "not_yet_processed"}, {"capability": "website", "evidence_ids": [], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "not_available_from_source"}, {"capability": "fundraising_expenditure", "evidence_ids": [], "freshness_note": "No direct or defensible derived fundraising expenditure was found in selected Phase 2A evidence.", "observed_at": "2026-08-10", "source_record_id": null, "status": "not_available_from_source"}, {"capability": "financials", "evidence_ids": ["ev:ais:24654346693:2023"], "freshness_note": null, "observed_at": "2026-08-10", "source_record_id": null, "status": "observed"}, {"capability": "latest_acnc_ais", "evidence_ids": ["ev:acnc:ais:24654346693:9528d62f-5058-ef11-bfe3-002248107d0b"], "freshness_note": "Latest submitted AIS detail acquired from the public ACNC entity endpoint.", "observed_at": "2024-08-12", "source_record_id": "src:acnc-ais-detail:24654346693:9528d62f-5058-ef11-bfe3-002248107d0b:cb_14a282ecac4e4ba1a241ceac202aaf5f", "status": "observed"}]`
 
 ## CauseBase summary
 
-Brother to Another Ltd is an Australian not‑for‑profit company registered with the Australian Charities and Not‑for‑profits Commission and recorded as operating in the Northern Territory. It submitted an Annual Information Statement covering the 2022–23 reporting year to the ACNC. The supplied records include ACNC registration and AIS reporting but do not include a public website, descriptive materials or program-level documentation in this release. CauseBase does not have sufficient descriptive evidence here to independently identify the organisation's specific activities, services, target beneficiaries or modes of participation.
+BROTHER TO ANOTHER LTD is recorded on the ACNC register with its structured geography listed as the Northern Territory (NT). The supplied regulatory documents comprise an ACNC register extract and the organisation’s Annual Information Statement (AIS) for the reporting period 01/07/2022 to 30/06/2023. The AIS records revenue of AUD 660,000 and total expenses of AUD 627,000 for that year; the financial submission is presented as consolidated and attributed to the organisation’s own report. No website, program descriptions, annual report text, service locations within the NT, named beneficiary groups, staff or volunteer numbers, or descriptions of specific activities or projects are included in the provided evidence. The legal and display name in the extracts is BROTHER TO ANOTHER LTD. The evidence supplied is limited to the ACNC extracts and the 2022–23 AIS financial figures; it does not describe programs, beneficiaries, modes of participation or operational details beyond the jurisdiction and financial totals.
 
 ## Activities
 
@@ -44,19 +44,19 @@ Brother to Another Ltd is an Australian not‑for‑profit company registered wi
 
 - ACNC Register extract — regulatory, observed 2026-08-10
 - ACNC AIS 2023 extract — regulatory, observed 2026-08-10
+- ACNC Annual Information Statement 2023 — regulatory, observed 2024-08-12 — https://www.acnc.gov.au/charity/charities/a7336f17-4d90-ec11-8d20-002248923e71/documents/9528d62f-5058-ef11-bfe3-002248107d0b
 - ABR DGR bulk observation — regulatory, observed 2026-08-05 — https://abr.business.gov.au/Tools/BulkExtract
-- BROTHER TO ANOTHER LTD Annual Information Statement 2023 — regulatory, observed 2024-08-12 — https://www.acnc.gov.au/charity/charities/a7336f17-4d90-ec11-8d20-002248923e71/documents/9528d62f-5058-ef11-bfe3-002248107d0b
 
 ## Machine representation
 
 - Embedding: `cb_14a282ecac4e4ba1a241ceac202aaf5f:entity:text-embedding-3-small`
 - Embedding model: `text-embedding-3-small`
 - Synthesis model: `gpt-5-mini-2025-08-07`
-- Synthesis evidence hash: `8fc80f400f4439a99e10387b63941214d5e38dcf9edda2a16e64528e287cf5ac`
+- Synthesis evidence hash: `f25240f22c53ef0c3229972ea6fd5b92b190956b0b8b15aa3944e2f4fd422143`
 
 ## Build
 
-- Dataset version: `phase2b-2026-08-13-rc3`
+- Dataset version: `phase2b-2026-08-14-rc4`
 - Card schema: `0.4`
-- Editorial policy: `0.3-rc2`
-- Built: 2026-08-13T05:50:58.991012+00:00
+- Editorial policy: `0.4-rc4`
+- Built: 2026-08-13T10:52:47.483880+00:00
