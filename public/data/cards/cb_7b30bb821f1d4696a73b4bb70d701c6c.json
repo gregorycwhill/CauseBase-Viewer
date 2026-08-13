@@ -18,7 +18,16 @@
       ]
     }
   ],
-  "tax_statuses": [],
+  "tax_statuses": [
+    {
+      "scheme": "ABR DGR",
+      "status": "endorsed",
+      "detail": "Dated 2026-08-05 ABR bulk observation",
+      "evidence_ids": [
+        "ev:abr-dgr:99155905829:20260805"
+      ]
+    }
+  ],
   "relationships": [],
   "source_resolutions": [
     {
@@ -37,6 +46,12 @@
   "legal_name": "Australian Philanthropic Services Limited",
   "display_name": "Australian Philanthropic Services Limited",
   "entity_status": "registered",
+  "canonical_url": "https://gregorycwhill.github.io/CauseBase-Viewer/#cb_7b30bb821f1d4696a73b4bb70d701c6c",
+  "acnc_profile_url": "https://www.acnc.gov.au/charity/charities/a86168b9-38af-e811-a95e-000d3ad24c60/profile",
+  "acnc_ais_url": "https://www.acnc.gov.au/charity/charities/a86168b9-38af-e811-a95e-000d3ad24c60/documents/40f21162-8c85-f111-ab0e-000d3ad27d82",
+  "operating_names": [],
+  "former_names": [],
+  "principal_location": "NSW, Australia",
   "coverage": [
     {
       "capability": "regulatory",
@@ -83,6 +98,16 @@
       ],
       "observed_at": "2026-08-10",
       "freshness_note": null
+    },
+    {
+      "capability": "latest_acnc_ais",
+      "status": "observed",
+      "source_record_id": null,
+      "evidence_ids": [
+        "ev:acnc:ais:99155905829:2025"
+      ],
+      "observed_at": "2026-01-28",
+      "freshness_note": "Latest submitted ACNC AIS in the 2026-08-13 public-profile acquisition: 2025."
     }
   ],
   "enrichment_level": "enriched",
@@ -129,7 +154,9 @@
     "Website information for donors",
     "Public governance announcements"
   ],
+  "participation_observations": [],
   "opportunities": [],
+  "programs": [],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:3b026df1-9dba-5c8b-ba7a-31830b7c4ecb",
@@ -149,6 +176,7 @@
         "ACNC registration ID": null,
         "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
+      "source_payload": null,
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
         "Legal Name": "legal_name",
@@ -178,12 +206,729 @@
         "Assets": null,
         "Liabilities": null
       },
+      "source_payload": null,
       "canonical_field_mappings": {
         "Revenue": "financial_records[].revenue",
         "Total expenses": "financial_records[].total_expenses"
       },
       "evidence_ids": [
         "ev:ais:99155905829:2023"
+      ]
+    },
+    {
+      "source_record_id": "src:acnc-public-profile:99155905829:cb_7b30bb821f1d4696a73b4bb70d701c6c:2026-08-13",
+      "source_family": "acnc-public-profile",
+      "dataset_version": "2026-08-13-public-api",
+      "source_url": "https://www.acnc.gov.au/charity/charities/a86168b9-38af-e811-a95e-000d3ad24c60/profile",
+      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "observed_at": "2026-01-28",
+      "effective_from": null,
+      "effective_to": null,
+      "source_fields": {
+        "uuid": "a86168b9-38af-e811-a95e-000d3ad24c60",
+        "abn": "99155905829",
+        "latest_ais_year": "2025",
+        "latest_ais_uuid": "40f21162-8c85-f111-ab0e-000d3ad27d82"
+      },
+      "source_payload": {
+        "data": {
+          "AFSAddressPostalCode": "2000",
+          "AFSEmail": "hello@australianphilanthropicservices.com.au",
+          "Abn": "99155905829",
+          "AddressCountry": "Australia",
+          "AddressLine1": "L 7 130 Pitt St",
+          "AddressLine2": null,
+          "AddressLine3": null,
+          "AddressPostalCode": "2000",
+          "AddressStateOrProvince": "NSW",
+          "AddressSuburb": "Sydney",
+          "AddressSuburbStatePostcode": "Sydney NSW 2000",
+          "AnnualReports": [
+            {
+              "AISId": "b732efa3-2595-ed11-aad1-000d3ad0b1e9",
+              "DateReceived": "2023-01-15T22:40:51.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2023-01-31T00:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2022",
+              "type": "Annual Information Statement 2022",
+              "uuid": "0cad729f-d463-eb11-b0b0-000d3acbaeea"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2023-01-15T22:40:26.0000000Z",
+              "DocumentUuid": "5fe37991-2595-ed11-aad1-00224893bd39",
+              "DueDate": "2023-01-31T00:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2022",
+              "type": "Financial Report 2022",
+              "uuid": "19ad729f-d463-eb11-b0b0-000d3acbaeea"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2020-01-28T04:00:23.0000000Z",
+              "DocumentUuid": "1ba2b1b1-8241-ea11-a812-000d3ad1cc03",
+              "DueDate": "2020-01-31T00:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2019",
+              "type": "Financial Report 2019",
+              "uuid": "55305924-e925-e911-a977-000d3ad064bd"
+            },
+            {
+              "AISId": "0f155ab0-8241-ea11-a813-000d3ad1f497",
+              "DateReceived": "2020-01-28T04:00:27.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2020-01-31T00:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2019",
+              "type": "Annual Information Statement 2019",
+              "uuid": "79305924-e925-e911-a977-000d3ad064bd"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2021-01-27T23:25:21.0000000Z",
+              "DocumentUuid": "1f2b13e6-f660-eb11-a812-000d3a6a6817",
+              "DueDate": "2021-01-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2020",
+              "type": "Financial Report 2020",
+              "uuid": "bd305924-e925-e911-a977-000d3ad064bd"
+            },
+            {
+              "AISId": "dae767eb-f660-eb11-89f5-000d3ad1cd99",
+              "DateReceived": "2021-01-27T23:25:24.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2021-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2020",
+              "type": "Annual Information Statement 2020",
+              "uuid": "c7305924-e925-e911-a977-000d3ad064bd"
+            },
+            {
+              "AISId": "52f5cf7d-967c-ec11-8d20-00224892278c",
+              "DateReceived": "2022-01-23T21:50:40.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2022-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2021",
+              "type": "Annual Information Statement 2021",
+              "uuid": "cd585cdb-9444-ea11-a813-000d3ad1f497"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2022-01-23T21:50:33.0000000Z",
+              "DocumentUuid": "db580875-967c-ec11-8d20-00224891d493",
+              "DueDate": "2022-01-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2021",
+              "type": "Financial Report 2021",
+              "uuid": "e2585cdb-9444-ea11-a813-000d3ad1f497"
+            },
+            {
+              "AISId": "3cac6fa0-50c8-e811-a963-000d3ad24a0d",
+              "DateReceived": "2013-11-24T13:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2014-03-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2013",
+              "type": "Annual Information Statement 2013",
+              "uuid": "bb7f65a1-50c8-e811-a964-000d3ad244fd"
+            },
+            {
+              "AISId": "47ac6fa0-50c8-e811-a963-000d3ad24a0d",
+              "DateReceived": "2014-12-15T13:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2015-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2014",
+              "type": "Annual Information Statement 2014",
+              "uuid": "c87f65a1-50c8-e811-a964-000d3ad244fd"
+            },
+            {
+              "AISId": "54ac6fa0-50c8-e811-a963-000d3ad24a0d",
+              "DateReceived": "2016-02-25T13:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2016-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2015",
+              "type": "Annual Information Statement 2015",
+              "uuid": "d87f65a1-50c8-e811-a964-000d3ad244fd"
+            },
+            {
+              "AISId": "5cac6fa0-50c8-e811-a963-000d3ad24a0d",
+              "DateReceived": "2017-01-22T13:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2017-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2016",
+              "type": "Annual Information Statement 2016",
+              "uuid": "e87f65a1-50c8-e811-a964-000d3ad244fd"
+            },
+            {
+              "AISId": "3fb7eda4-50c8-e811-a961-000d3ad24282",
+              "DateReceived": "2018-01-09T13:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2018-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2017",
+              "type": "Annual Information Statement 2017",
+              "uuid": "008065a1-50c8-e811-a964-000d3ad244fd"
+            },
+            {
+              "AISId": "ae57cce0-ab51-e911-a97d-000d3ad06f2d",
+              "DateReceived": "2019-03-28T22:50:33.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2019-03-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2018",
+              "type": "Annual Information Statement 2018",
+              "uuid": "ed94278b-3ac8-e811-a95f-000d3ad24c60"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2016-02-25T13:00:00.0000000Z",
+              "DocumentUuid": "91937157-45b0-e811-a961-000d3ad24182",
+              "DueDate": "2016-01-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2015",
+              "type": "Financial Report 2015",
+              "uuid": "d14dff60-3ec8-e811-a95f-000d3ad24c60"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Not required",
+              "Year": "2014",
+              "type": "Financial Report 2014",
+              "uuid": "da4dff60-3ec8-e811-a95f-000d3ad24c60"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2017-01-22T13:00:00.0000000Z",
+              "DocumentUuid": "dc191e56-45b0-e811-a963-000d3ad24077",
+              "DueDate": "2017-01-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2016",
+              "type": "Financial Report 2016",
+              "uuid": "e84dff60-3ec8-e811-a95f-000d3ad24c60"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2018-01-09T13:00:00.0000000Z",
+              "DocumentUuid": "351a1e56-45b0-e811-a963-000d3ad24077",
+              "DueDate": "2018-01-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2017",
+              "type": "Financial Report 2017",
+              "uuid": "014eff60-3ec8-e811-a95f-000d3ad24c60"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2019-03-28T22:50:27.0000000Z",
+              "DocumentUuid": "0b52aada-ab51-e911-a96d-000d3ad244fd",
+              "DueDate": "2019-03-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2018",
+              "type": "Financial Report 2018",
+              "uuid": "134eff60-3ec8-e811-a95f-000d3ad24c60"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Not required",
+              "Year": "2013",
+              "type": "Financial Report 2013",
+              "uuid": "2e4eff60-3ec8-e811-a95f-000d3ad24c60"
+            },
+            {
+              "AISId": "01f4c8ae-37bf-ee11-9079-00224893cef4",
+              "DateReceived": "2024-01-30T06:20:51.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2024-01-31T00:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2023",
+              "type": "Annual Information Statement 2023",
+              "uuid": "ca676ec4-a682-ec11-8d20-0022489297b7"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2024-01-30T06:20:21.0000000Z",
+              "DocumentUuid": "edae369d-37bf-ee11-9079-002248110683",
+              "DueDate": "2024-01-31T00:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2023",
+              "type": "Financial Report 2023",
+              "uuid": "9d0d69ca-a682-ec11-8d20-0022489297b7"
+            },
+            {
+              "AISId": "40f21162-8c85-f111-ab0e-000d3ad27d82",
+              "DateReceived": "2026-01-28T05:50:24.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2026-01-31T00:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2025",
+              "type": "Annual Information Statement 2025",
+              "uuid": "ff9da3bc-99c0-ee11-9079-00224893b304"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2026-01-28T05:50:19.0000000Z",
+              "DocumentUuid": "ae8ce94a-8c85-f111-ab0e-7c1e522a768f",
+              "DueDate": "2026-01-31T00:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2025",
+              "type": "Financial Report 2025",
+              "uuid": "199ea3bc-99c0-ee11-9079-00224893b304"
+            },
+            {
+              "AISId": "f522c88c-2ee7-ef11-be21-6045bdc3226b",
+              "DateReceived": "2025-01-13T22:40:37.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2025-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2024",
+              "type": "Annual Information Statement 2024",
+              "uuid": "ee323617-cba1-ed11-aad1-00224893bffb"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2025-01-13T22:40:22.0000000Z",
+              "DocumentUuid": "5add777c-2ee7-ef11-be21-000d3acc14e5",
+              "DueDate": "2025-01-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2024",
+              "type": "Financial Report 2024",
+              "uuid": "34333617-cba1-ed11-aad1-00224893bffb"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2026-12-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Not yet submitted",
+              "Year": "2026",
+              "type": "Annual Information Statement 2026",
+              "uuid": "896446a0-dedf-ef11-a731-002248979061"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2026-12-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Pending",
+              "Year": "2026",
+              "type": "Financial Report 2026",
+              "uuid": "8f6446a0-dedf-ef11-a731-002248979061"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2027-12-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Not yet submitted",
+              "Year": "2027",
+              "type": "Annual Information Statement 2027",
+              "uuid": "115f28e7-05ff-f011-8406-6045bdc3b801"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2027-12-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Pending",
+              "Year": "2027",
+              "type": "Financial Report 2027",
+              "uuid": "315f28e7-05ff-f011-8406-6045bdc3b801"
+            }
+          ],
+          "Beneficiaries": [
+            {
+              "Description": null,
+              "Name": "General community in Australia",
+              "uuid": "86351468-8c85-f111-ab0e-000d3ad27d82"
+            }
+          ],
+          "CharitySize": "Large",
+          "CharitySubtypeHistory": [
+            {
+              "EndDate": "2013-12-30T13:00:00.0000000Z",
+              "Purpose": "2012 Another purpose beneficial to the community",
+              "StartDate": "2012-12-02T13:00:00.0000000Z",
+              "uuid": "104d3af5-fcc6-e811-a963-000d3ad24a0d"
+            },
+            {
+              "EndDate": null,
+              "Purpose": "Advancing education",
+              "StartDate": "2013-12-31T13:00:00.0000000Z",
+              "uuid": "174d3af5-fcc6-e811-a963-000d3ad24a0d"
+            },
+            {
+              "EndDate": null,
+              "Purpose": "Purposes beneficial to the general public that may reasonably be regarded as analogous to, or within the spirit of, any of the other charitable purposes",
+              "StartDate": "2013-12-31T13:00:00.0000000Z",
+              "uuid": "224d3af5-fcc6-e811-a963-000d3ad24a0d"
+            }
+          ],
+          "CharityVersion": "154",
+          "ChildMemberEndDate": null,
+          "ChildMemberStartDate": null,
+          "ChooseToProvideAis": null,
+          "Countries": [
+            {
+              "Name": "Australia",
+              "uuid": "f57b5602-9a4d-e811-a951-000d3ad06f2d"
+            }
+          ],
+          "DateEstablished": "2011-12-31T13:00:00.0000000Z",
+          "Documents": [
+            {
+              "Date": "2017-07-26T00:00:00.0000000",
+              "Title": "20170701 APS Constitution .pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/a86168b9-38af-e811-a95e-000d3ad24c60-df7331f6-454d-4174-93f9-12913814bf39-Governing%20Document-121a1e56-45b0-e811-a963-000d3ad24077-20170701_APS_Constitution_.pdf",
+              "Year": null,
+              "type": "Governing Document",
+              "uuid": "121a1e56-45b0-e811-a963-000d3ad24077"
+            },
+            {
+              "Date": "2026-02-09T00:00:00.0000000",
+              "Title": "APS Ltd - FY25 Financial Statements - Combined - Signed.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/a86168b9-38af-e811-a95e-000d3ad24c60-df7331f6-454d-4174-93f9-12913814bf39-Annual%20Report-0f64666d-6305-f111-8407-002248111f49-APS_Ltd_-_FY25_Financial_Statements_-_Combined_-_Signed.pdf",
+              "Year": "2025",
+              "type": "Annual Report",
+              "uuid": "0f64666d-6305-f111-8407-002248111f49"
+            },
+            {
+              "Date": "2021-01-28T00:00:00.0000000",
+              "Title": "APS Ltd - Annual Financial Report YE 30 June 2020 - signed (final).pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/a86168b9-38af-e811-a95e-000d3ad24c60-df7331f6-454d-4174-93f9-12913814bf39-Financial%20Report-1f2b13e6-f660-eb11-a812-000d3a6a6817-APS_Ltd_-_Annual_Financial_Report_YE_30_June_2020_-_signed_(final).pdf",
+              "Year": "2020",
+              "type": "Financial Report",
+              "uuid": "1f2b13e6-f660-eb11-a812-000d3a6a6817"
+            },
+            {
+              "Date": "2025-02-10T00:00:00.0000000",
+              "Title": "FY24 APS Annual Financial Report - Combined - Signed.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/a86168b9-38af-e811-a95e-000d3ad24c60-df7331f6-454d-4174-93f9-12913814bf39-Financial%20Report-5add777c-2ee7-ef11-be21-000d3acc14e5-FY24_APS_Annual_Financial_Report_-_Combined_-_Signed.pdf",
+              "Year": "2024",
+              "type": "Financial Report",
+              "uuid": "5add777c-2ee7-ef11-be21-000d3acc14e5"
+            },
+            {
+              "Date": "2020-01-28T00:00:00.0000000",
+              "Title": "2019 APS Ltd Financial Report (signed and audited) Rev (3MB).pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/a86168b9-38af-e811-a95e-000d3ad24c60-df7331f6-454d-4174-93f9-12913814bf39-Financial%20Report-1ba2b1b1-8241-ea11-a812-000d3ad1cc03-2019_APS_Ltd_Financial_Report_(signed_and_audited)_Rev_(3MB).pdf",
+              "Year": "2019",
+              "type": "Financial Report",
+              "uuid": "1ba2b1b1-8241-ea11-a812-000d3ad1cc03"
+            },
+            {
+              "Date": "2017-01-23T00:00:00.0000000",
+              "Title": "160919 Financial Report 2016 APS Ltd (signed).pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/a86168b9-38af-e811-a95e-000d3ad24c60-df7331f6-454d-4174-93f9-12913814bf39-Financial%20Report-dc191e56-45b0-e811-a963-000d3ad24077-160919_Financial_Report_2016_APS_Ltd_(signed).pdf",
+              "Year": "2016",
+              "type": "Financial Report",
+              "uuid": "dc191e56-45b0-e811-a963-000d3ad24077"
+            },
+            {
+              "Date": "2018-01-10T00:00:00.0000000",
+              "Title": "APSAnnualFinancialReportFY17signed20171222.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/a86168b9-38af-e811-a95e-000d3ad24c60-df7331f6-454d-4174-93f9-12913814bf39-Financial%20Report-351a1e56-45b0-e811-a963-000d3ad24077-APSAnnualFinancialReportFY17signed20171222.pdf",
+              "Year": "2017",
+              "type": "Financial Report",
+              "uuid": "351a1e56-45b0-e811-a963-000d3ad24077"
+            },
+            {
+              "Date": "2016-01-20T00:00:00.0000000",
+              "Title": "APS FY15 Signed Financial statements.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/a86168b9-38af-e811-a95e-000d3ad24c60-df7331f6-454d-4174-93f9-12913814bf39-Financial%20Report-91937157-45b0-e811-a961-000d3ad24182-APS_FY15_Signed_Financial_statements.pdf",
+              "Year": "2015",
+              "type": "Financial Report",
+              "uuid": "91937157-45b0-e811-a961-000d3ad24182"
+            },
+            {
+              "Date": "2019-03-29T00:00:00.0000000",
+              "Title": "FY2018 APS Ltd Annual Financial Report (Signed).pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/a86168b9-38af-e811-a95e-000d3ad24c60-df7331f6-454d-4174-93f9-12913814bf39-Financial%20Report-0b52aada-ab51-e911-a96d-000d3ad244fd-FY2018_APS_Ltd_Annual_Financial_Report_(Signed).pdf",
+              "Year": "2018",
+              "type": "Financial Report",
+              "uuid": "0b52aada-ab51-e911-a96d-000d3ad244fd"
+            },
+            {
+              "Date": "2024-01-30T00:00:00.0000000",
+              "Title": "FY 2023 Financial Report - final .pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/a86168b9-38af-e811-a95e-000d3ad24c60-df7331f6-454d-4174-93f9-12913814bf39-Financial%20Report-edae369d-37bf-ee11-9079-002248110683-FY_2023_Financial_Report_-_final_.pdf",
+              "Year": "2023",
+              "type": "Financial Report",
+              "uuid": "edae369d-37bf-ee11-9079-002248110683"
+            },
+            {
+              "Date": "2022-01-24T00:00:00.0000000",
+              "Title": "20211027 Annual Financial Report  2021 APS Ltd - signed.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/a86168b9-38af-e811-a95e-000d3ad24c60-df7331f6-454d-4174-93f9-12913814bf39-Financial%20Report-db580875-967c-ec11-8d20-00224891d493-20211027_Annual_Financial_Report__2021_APS_Ltd_-_signed.pdf",
+              "Year": "2021",
+              "type": "Financial Report",
+              "uuid": "db580875-967c-ec11-8d20-00224891d493"
+            },
+            {
+              "Date": "2023-01-16T00:00:00.0000000",
+              "Title": "Annual Financial Report June 2022 - Final.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/a86168b9-38af-e811-a95e-000d3ad24c60-df7331f6-454d-4174-93f9-12913814bf39-Financial%20Report-5fe37991-2595-ed11-aad1-00224893bd39-Annual_Financial_Report_June_2022_-_Final.pdf",
+              "Year": "2022",
+              "type": "Financial Report",
+              "uuid": "5fe37991-2595-ed11-aad1-00224893bd39"
+            },
+            {
+              "Date": "2026-07-22T00:00:00.0000000",
+              "Title": "APS Ltd - FY25 Financial Statements - Combined - Signed.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/a86168b9-38af-e811-a95e-000d3ad24c60-df7331f6-454d-4174-93f9-12913814bf39-Financial%20Report-ae8ce94a-8c85-f111-ab0e-7c1e522a768f-APS_Ltd_-_FY25_Financial_Statements_-_Combined_-_Signed.pdf",
+              "Year": "2025",
+              "type": "Financial Report",
+              "uuid": "ae8ce94a-8c85-f111-ab0e-7c1e522a768f"
+            }
+          ],
+          "Email": "hello@australianphilanthropicservices.com.au",
+          "EnforcementOutcomes": [],
+          "FinancialYearEnd": "30/06",
+          "GovernmentAgencies": [
+            {
+              "Name": "Australian Securities and Investment Commission",
+              "ReferenceNumber": "155905829",
+              "uuid": "f3e9bcbd-e6af-e811-a963-000d3ad24077"
+            },
+            {
+              "Name": "NSW - Fundraising",
+              "ReferenceNumber": "CFN/25514",
+              "uuid": "67351468-8c85-f111-ab0e-000d3ad27d82"
+            }
+          ],
+          "GroupHeadFlag": false,
+          "LastReported": "2026-01-28T05:50:24.0000000Z",
+          "Name": "Australian Philanthropic Services Limited",
+          "NextReportDue": "2026-12-31T12:30:00.0000000Z",
+          "OperatingInStates": [
+            {
+              "Name": "Victoria",
+              "uuid": "4ea3219c-455e-e811-a95c-000d3ad1c715"
+            },
+            {
+              "Name": "New South Wales",
+              "uuid": "2bf593a5-455e-e811-a95c-000d3ad1c715"
+            },
+            {
+              "Name": "Queensland",
+              "uuid": "2cf593a5-455e-e811-a95c-000d3ad1c715"
+            },
+            {
+              "Name": "Western Australia",
+              "uuid": "dc2782ae-455e-e811-a95c-000d3ad1c715"
+            },
+            {
+              "Name": "South Australia",
+              "uuid": "dd2782ae-455e-e811-a95c-000d3ad1c715"
+            }
+          ],
+          "OtherDetails": null,
+          "OtherNames": [],
+          "ParentAccountAbn": null,
+          "ParentAccountId": null,
+          "Phone": "02 9779 6300",
+          "Programs": [
+            {
+              "AisUuid": "40f21162-8c85-f111-ab0e-000d3ad27d82",
+              "Name": "Giving and Governance Advice",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "General community in Australia"
+              ],
+              "ProgramClassie": [
+                {
+                  "classie_id": "842",
+                  "label": "Unknown or not classified",
+                  "parent_id": null,
+                  "selected": true
+                }
+              ],
+              "ProgramClassification": "Unknown or not classified",
+              "ProgramClassificationID": "842",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Sydney NSW, Australia",
+                  "FormattedAddress": "Sydney NSW, Australia",
+                  "Marker": {
+                    "Latitude": -33.8688197,
+                    "Longitude": 151.2092955
+                  },
+                  "Name": "Sydney",
+                  "uuid": "73351468-8c85-f111-ab0e-000d3ad27d82"
+                },
+                {
+                  "DisplayName": "Melbourne VIC, Australia",
+                  "FormattedAddress": "Melbourne VIC, Australia",
+                  "Marker": {
+                    "Latitude": -37.8136276,
+                    "Longitude": 144.9630576
+                  },
+                  "Name": "Melbourne",
+                  "uuid": "76351468-8c85-f111-ab0e-000d3ad27d82"
+                },
+                {
+                  "DisplayName": "Adelaide SA, Australia",
+                  "FormattedAddress": "Adelaide SA, Australia",
+                  "Marker": {
+                    "Latitude": -34.9284989,
+                    "Longitude": 138.6007456
+                  },
+                  "Name": "Adelaide",
+                  "uuid": "7c351468-8c85-f111-ab0e-000d3ad27d82"
+                },
+                {
+                  "DisplayName": "Brisbane QLD, Australia",
+                  "FormattedAddress": "Brisbane QLD, Australia",
+                  "Marker": {
+                    "Latitude": -27.4704528,
+                    "Longitude": 153.0260341
+                  },
+                  "Name": "Brisbane",
+                  "uuid": "7f351468-8c85-f111-ab0e-000d3ad27d82"
+                },
+                {
+                  "DisplayName": "Perth WA, Australia",
+                  "FormattedAddress": "Perth WA, Australia",
+                  "Marker": {
+                    "Latitude": -31.9513993,
+                    "Longitude": 115.8616783
+                  },
+                  "Name": "Perth",
+                  "uuid": "81351468-8c85-f111-ab0e-000d3ad27d82"
+                }
+              ],
+              "ProgramWeblink": null,
+              "uuid": "6e351468-8c85-f111-ab0e-000d3ad27d82"
+            }
+          ],
+          "ReferendumReturnsUrl": null,
+          "RegistrationStatusHistory": [
+            {
+              "EffectiveDate": "2012-12-02T13:00:00.0000000Z",
+              "Status": "Registered",
+              "TransactionDate": "2012-12-02T13:00:00.0000000Z",
+              "uuid": "f39a6d8d-06c6-e811-a961-000d3ad24282"
+            }
+          ],
+          "RelatedPartyTransactions": null,
+          "RelevantTransactions": null,
+          "ReportingLate": "2027-06-30T12:30:00.0000000Z",
+          "ResponsiblePersons": [
+            {
+              "Name": "JAN SWINHOE",
+              "Role": "Director",
+              "uuid": "a433503e-f4bb-e811-a963-000d3ad24a0d"
+            },
+            {
+              "Name": "Michael William Traill",
+              "Role": "Director",
+              "uuid": "97c16ba5-5445-f111-bec7-002248111f49"
+            },
+            {
+              "Name": "Daniel Phillips",
+              "Role": "Director",
+              "uuid": "cab3eab4-3831-f011-8c4d-000d3a6a780f"
+            },
+            {
+              "Name": "David Ward",
+              "Role": "Director",
+              "uuid": "a7aac361-97ab-ea11-a812-000d3ad1ce4e"
+            },
+            {
+              "Name": "Belinda Hutchinson",
+              "Role": "Director",
+              "uuid": "f46d140d-f0b1-ef11-b8e8-7c1e528a05e3"
+            },
+            {
+              "Name": "Sebastian Robertson",
+              "Role": "Director",
+              "uuid": "c7bc1fe1-02be-f011-bbd2-00224810550c"
+            },
+            {
+              "Name": "Lisa George",
+              "Role": "Director",
+              "uuid": "aa7b0fb6-8d85-f111-ab0e-00224811fa4c"
+            },
+            {
+              "Name": "John McMurdo",
+              "Role": "Director",
+              "uuid": "88b8d6b4-37bf-ee11-9079-00224893cef4"
+            },
+            {
+              "Name": "Graeme McKenzie",
+              "Role": "Director",
+              "uuid": "ea5e672a-75a1-ef11-8a6b-00224893bffb"
+            }
+          ],
+          "Status": "Registered",
+          "SummaryOfActivities": "We set up and administer Private Ancillary Funds, we offer a Public Ancillary Fund known as Australian Philanthropic Services Foundation, and we provide philanthropy education and grant-making advice.",
+          "TotalExpensesEmployee": "5998954",
+          "TotalExpensesGrantsAndDonationsInAustralia": "0",
+          "TotalExpensesGrantsAndDonationsOutsideAustralia": "0",
+          "TotalExpensesInterest": "89020",
+          "TotalExpensesOther": "1491671",
+          "TotalGrossIncomeDonationsAndRequests": "101177",
+          "TotalGrossIncomeGoodsOrServices": "8168746",
+          "TotalGrossIncomeGovernmentGrants": "0",
+          "TotalGrossIncomeInvestments": "62818",
+          "TotalGrossIncomeOtherRevenues": "0",
+          "TransparencyRegisterUrl": null,
+          "Website": "https://australianphilanthropicservices.com.au",
+          "__normalized": true,
+          "type": "charity",
+          "uuid": "a86168b9-38af-e811-a95e-000d3ad24c60"
+        },
+        "type": "charity",
+        "uuid": "a86168b9-38af-e811-a95e-000d3ad24c60"
+      },
+      "canonical_field_mappings": {
+        "data.Name": "display_name",
+        "data.OtherNames": "operating_names",
+        "data.AnnualReports": "acnc_ais_url",
+        "data.Programs": "programs"
+      },
+      "evidence_ids": [
+        "ev:acnc:ais:99155905829:2025"
       ]
     }
   ],
@@ -231,7 +976,10 @@
         "source_precision": null
       },
       "assets": null,
-      "liabilities": null
+      "liabilities": null,
+      "income_breakdown": [],
+      "expense_breakdown": [],
+      "balance_sheet_breakdown": []
     }
   ],
   "financial_metrics": [
@@ -401,6 +1149,30 @@
       "page": null,
       "section": null,
       "content_hash": null
+    },
+    {
+      "evidence_id": "ev:abr-dgr:99155905829:20260805",
+      "source_type": "regulatory",
+      "title": "ABR DGR bulk observation",
+      "publisher": "Australian Business Register / Australian Taxation Office",
+      "url": "https://abr.business.gov.au/Tools/BulkExtract",
+      "observed_at": "2026-08-05",
+      "reporting_period": null,
+      "page": null,
+      "section": null,
+      "content_hash": null
+    },
+    {
+      "evidence_id": "ev:acnc:ais:99155905829:2025",
+      "source_type": "regulatory",
+      "title": "Australian Philanthropic Services Limited Annual Information Statement 2025",
+      "publisher": "Australian Charities and Not-for-profits Commission",
+      "url": "https://www.acnc.gov.au/charity/charities/a86168b9-38af-e811-a95e-000d3ad24c60/documents/40f21162-8c85-f111-ab0e-000d3ad27d82",
+      "observed_at": "2026-01-28",
+      "reporting_period": null,
+      "page": null,
+      "section": null,
+      "content_hash": null
     }
   ],
   "embedding": {
@@ -409,8 +1181,8 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "8cc1c059ba311078f307840c9fc89142378a24a3b506b89c1318a81669fcd682",
-    "generated_at": "2026-08-10T13:53:24.456287Z",
+    "source_text_hash": "12551c314a6938628c70adcc4c39906a05ba28b8ef884738b0779dcefc8d18e4",
+    "generated_at": "2026-08-13T00:32:18.621575Z",
     "vector_ref": "embeddings.parquet#cb_7b30bb821f1d4696a73b4bb70d701c6c"
   },
   "synthesis": {
@@ -481,9 +1253,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc2",
-  "card_schema_version": "0.3",
+  "dataset_version": "phase2b-2026-08-13-rc3",
+  "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.3.0-rc2",
-  "built_at": "2026-08-12T14:24:20.675968Z"
+  "generator_version": "0.4.0-rc3",
+  "built_at": "2026-08-13T00:32:15.698599Z"
 }

@@ -18,7 +18,16 @@
       ]
     }
   ],
-  "tax_statuses": [],
+  "tax_statuses": [
+    {
+      "scheme": "ABR DGR",
+      "status": "endorsed",
+      "detail": "Dated 2026-08-05 ABR bulk observation",
+      "evidence_ids": [
+        "ev:abr-dgr:18083027276:20260805"
+      ]
+    }
+  ],
   "relationships": [],
   "source_resolutions": [
     {
@@ -37,6 +46,12 @@
   "legal_name": "Australian Christian Channel Pty Ltd",
   "display_name": "Australian Christian Channel Pty Ltd",
   "entity_status": "registered",
+  "canonical_url": "https://gregorycwhill.github.io/CauseBase-Viewer/#cb_c735514eb0024f26a30ff6eb4df3237e",
+  "acnc_profile_url": "https://www.acnc.gov.au/charity/charities/0f33f233-39af-e811-a95e-000d3ad24c60/profile",
+  "acnc_ais_url": null,
+  "operating_names": [],
+  "former_names": [],
+  "principal_location": null,
   "coverage": [
     {
       "capability": "regulatory",
@@ -81,6 +96,14 @@
       "evidence_ids": [],
       "observed_at": "2026-08-10",
       "freshness_note": null
+    },
+    {
+      "capability": "latest_acnc_ais",
+      "status": "not_available_from_source",
+      "source_record_id": null,
+      "evidence_ids": [],
+      "observed_at": "2026-08-13",
+      "freshness_note": "No submitted AIS appears in the 2026-08-13 public ACNC profile acquisition."
     }
   ],
   "enrichment_level": "enriched",
@@ -127,7 +150,9 @@
     "Accessing GOOD via web or connected TV platforms listed on the website",
     "Signing up to the website newsletter for program news"
   ],
+  "participation_observations": [],
   "opportunities": [],
+  "programs": [],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:9bb277b3-ffbb-5dd4-9366-05d278d51667",
@@ -147,6 +172,7 @@
         "ACNC registration ID": null,
         "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
+      "source_payload": null,
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
         "Legal Name": "legal_name",
@@ -255,6 +281,18 @@
       "page": null,
       "section": null,
       "content_hash": null
+    },
+    {
+      "evidence_id": "ev:abr-dgr:18083027276:20260805",
+      "source_type": "regulatory",
+      "title": "ABR DGR bulk observation",
+      "publisher": "Australian Business Register / Australian Taxation Office",
+      "url": "https://abr.business.gov.au/Tools/BulkExtract",
+      "observed_at": "2026-08-05",
+      "reporting_period": null,
+      "page": null,
+      "section": null,
+      "content_hash": null
     }
   ],
   "embedding": {
@@ -263,8 +301,8 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "979829bb039295a6b798a705384d3ef1bec30e519f0464ee906de7b7915d8a5d",
-    "generated_at": "2026-08-10T13:53:24.457551Z",
+    "source_text_hash": "220086c093a1ed7235ad1709d9e8eafbbca21d070da63c80db53417e95ac377a",
+    "generated_at": "2026-08-13T00:32:18.623407Z",
     "vector_ref": "embeddings.parquet#cb_c735514eb0024f26a30ff6eb4df3237e"
   },
   "synthesis": {
@@ -335,9 +373,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc2",
-  "card_schema_version": "0.3",
+  "dataset_version": "phase2b-2026-08-13-rc3",
+  "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.3.0-rc2",
-  "built_at": "2026-08-12T14:24:20.675968Z"
+  "generator_version": "0.4.0-rc3",
+  "built_at": "2026-08-13T00:32:15.698599Z"
 }

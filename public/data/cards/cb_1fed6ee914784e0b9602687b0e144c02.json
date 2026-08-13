@@ -37,6 +37,12 @@
   "legal_name": "Martu Charitable Trust",
   "display_name": "Martu Charitable Trust",
   "entity_status": "registered",
+  "canonical_url": "https://gregorycwhill.github.io/CauseBase-Viewer/#cb_1fed6ee914784e0b9602687b0e144c02",
+  "acnc_profile_url": "https://www.acnc.gov.au/charity/charities/d90be587-3aaf-e811-a963-000d3ad24077/profile",
+  "acnc_ais_url": "https://www.acnc.gov.au/charity/charities/d90be587-3aaf-e811-a963-000d3ad24077/documents/d4b739a9-e2f1-f011-8407-6045bde67d52",
+  "operating_names": [],
+  "former_names": [],
+  "principal_location": "Australia",
   "coverage": [
     {
       "capability": "regulatory",
@@ -81,6 +87,16 @@
       ],
       "observed_at": "2026-08-10",
       "freshness_note": null
+    },
+    {
+      "capability": "latest_acnc_ais",
+      "status": "observed",
+      "source_record_id": null,
+      "evidence_ids": [
+        "ev:acnc:ais:54212670988:2025"
+      ],
+      "observed_at": "2026-01-15",
+      "freshness_note": "Latest submitted ACNC AIS in the 2026-08-13 public-profile acquisition: 2025."
     }
   ],
   "enrichment_level": "enriched",
@@ -107,7 +123,9 @@
   "activities": [],
   "beneficiaries": [],
   "participation_modes": [],
+  "participation_observations": [],
   "opportunities": [],
+  "programs": [],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:93fa4f23-50b2-5b59-b5d8-e3879a3654f9",
@@ -127,6 +145,7 @@
         "ACNC registration ID": null,
         "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
+      "source_payload": null,
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
         "Legal Name": "legal_name",
@@ -156,12 +175,660 @@
         "Assets": null,
         "Liabilities": null
       },
+      "source_payload": null,
       "canonical_field_mappings": {
         "Revenue": "financial_records[].revenue",
         "Total expenses": "financial_records[].total_expenses"
       },
       "evidence_ids": [
         "ev:ais:54212670988:2023"
+      ]
+    },
+    {
+      "source_record_id": "src:acnc-public-profile:54212670988:cb_1fed6ee914784e0b9602687b0e144c02:2026-08-13",
+      "source_family": "acnc-public-profile",
+      "dataset_version": "2026-08-13-public-api",
+      "source_url": "https://www.acnc.gov.au/charity/charities/d90be587-3aaf-e811-a963-000d3ad24077/profile",
+      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "observed_at": "2026-01-15",
+      "effective_from": null,
+      "effective_to": null,
+      "source_fields": {
+        "uuid": "d90be587-3aaf-e811-a963-000d3ad24077",
+        "abn": "54212670988",
+        "latest_ais_year": "2025",
+        "latest_ais_uuid": "d4b739a9-e2f1-f011-8407-6045bde67d52"
+      },
+      "source_payload": {
+        "data": {
+          "AFSEmail": "perthadmin@mutualtrust.com.au",
+          "Abn": "54212670988",
+          "AddressCountry": null,
+          "AddressLine1": null,
+          "AddressLine2": null,
+          "AddressLine3": null,
+          "AddressPostalCode": null,
+          "AddressStateOrProvince": null,
+          "AddressSuburb": null,
+          "AnnualReports": [
+            {
+              "AISId": null,
+              "DateReceived": "2019-12-19T04:20:21.0000000Z",
+              "DocumentUuid": "7a2b99d7-1622-ea11-a810-000d3ad1cf4f",
+              "DueDate": "2020-01-31T00:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2019",
+              "type": "Financial Report 2019",
+              "uuid": "25259b8d-f425-e911-a979-000d3ad05ad0"
+            },
+            {
+              "AISId": "b0b3bfde-1622-ea11-a812-000d3ad1ce4e",
+              "DateReceived": "2019-12-19T04:20:25.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2020-01-31T00:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2019",
+              "type": "Annual Information Statement 2019",
+              "uuid": "53259b8d-f425-e911-a979-000d3ad05ad0"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2020-12-23T02:50:17.0000000Z",
+              "DocumentUuid": "8bf24a90-c944-eb11-a812-000d3ad1caaa",
+              "DueDate": "2021-01-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2020",
+              "type": "Financial Report 2020",
+              "uuid": "7b259b8d-f425-e911-a979-000d3ad05ad0"
+            },
+            {
+              "AISId": "6c321496-c944-eb11-bb23-000d3ad1cd99",
+              "DateReceived": "2020-12-23T02:50:20.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2021-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2020",
+              "type": "Annual Information Statement 2020",
+              "uuid": "b5259b8d-f425-e911-a979-000d3ad05ad0"
+            },
+            {
+              "AISId": "defac7eb-d862-ec11-8f8e-00224812259b",
+              "DateReceived": "2021-12-22T03:40:47.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2022-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2021",
+              "type": "Annual Information Statement 2021",
+              "uuid": "60546114-9144-ea11-a813-000d3ad1cd99"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2021-12-22T03:40:37.0000000Z",
+              "DocumentUuid": "981db3de-d862-ec11-8f8e-002248129291",
+              "DueDate": "2022-01-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2021",
+              "type": "Financial Report 2021",
+              "uuid": "77546114-9144-ea11-a813-000d3ad1cd99"
+            },
+            {
+              "AISId": "58845b52-e380-ed11-81ac-00224810001d",
+              "DateReceived": "2022-12-21T03:55:42.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2023-01-31T00:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2022",
+              "type": "Annual Information Statement 2022",
+              "uuid": "eb2f38c7-ce63-eb11-b0b0-000d3ad1cd99"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2022-12-21T03:55:37.0000000Z",
+              "DocumentUuid": "e4a7d245-e380-ed11-81ad-002248933c76",
+              "DueDate": "2023-01-31T00:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2022",
+              "type": "Financial Report 2022",
+              "uuid": "01a869cd-ce63-eb11-b0b0-000d3ad1cd99"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Not required",
+              "Year": "2016",
+              "type": "Financial Report 2016",
+              "uuid": "18a6a5e5-40c8-e811-a964-000d3ad24077"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Not required",
+              "Year": "2014",
+              "type": "Financial Report 2014",
+              "uuid": "31a6a5e5-40c8-e811-a964-000d3ad24077"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Not required",
+              "Year": "2015",
+              "type": "Financial Report 2015",
+              "uuid": "40a6a5e5-40c8-e811-a964-000d3ad24077"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2019-03-25T07:25:16.0000000Z",
+              "DocumentUuid": "5d7cfe1e-cf4e-e911-a970-000d3ad24a0d",
+              "DueDate": "2019-03-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2018",
+              "type": "Financial Report 2018",
+              "uuid": "53a6a5e5-40c8-e811-a964-000d3ad24077"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Not required",
+              "Year": "2013",
+              "type": "Financial Report 2013",
+              "uuid": "69a6a5e5-40c8-e811-a964-000d3ad24077"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": true,
+              "Status": "Not required",
+              "Year": "2013",
+              "type": "Annual Information Statement 2013",
+              "uuid": "b2a1a8c4-3bc8-e811-a962-000d3ad24182"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": true,
+              "Status": "Not required",
+              "Year": "2014",
+              "type": "Annual Information Statement 2014",
+              "uuid": "c0a1a8c4-3bc8-e811-a962-000d3ad24182"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": true,
+              "Status": "Not required",
+              "Year": "2015",
+              "type": "Annual Information Statement 2015",
+              "uuid": "d0a1a8c4-3bc8-e811-a962-000d3ad24182"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": true,
+              "Status": "Not required",
+              "Year": "2016",
+              "type": "Annual Information Statement 2016",
+              "uuid": "dea1a8c4-3bc8-e811-a962-000d3ad24182"
+            },
+            {
+              "AISId": "5d210e09-cd4e-e911-a97f-000d3ad02a61",
+              "DateReceived": "2019-03-25T07:10:22.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2018-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2017",
+              "type": "Annual Information Statement 2017",
+              "uuid": "eda1a8c4-3bc8-e811-a962-000d3ad24182"
+            },
+            {
+              "AISId": "96eb1920-cf4e-e911-a97d-000d3ad05e15",
+              "DateReceived": "2019-03-25T07:25:20.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2019-03-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2018",
+              "type": "Annual Information Statement 2018",
+              "uuid": "fda1a8c4-3bc8-e811-a962-000d3ad24182"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2019-03-25T07:10:16.0000000Z",
+              "DocumentUuid": "d5ef4404-cd4e-e911-a96f-000d3ad24182",
+              "DueDate": "2018-01-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2017",
+              "type": "Financial Report 2017",
+              "uuid": "1f393ae9-40c8-e811-a963-000d3ad24a0d"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2026-12-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Not yet submitted",
+              "Year": "2026",
+              "type": "Annual Information Statement 2026",
+              "uuid": "c0cb9617-d5df-ef11-a732-0022481019a9"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2026-12-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Pending",
+              "Year": "2026",
+              "type": "Financial Report 2026",
+              "uuid": "f2cb9617-d5df-ef11-a732-0022481019a9"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2027-12-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Not yet submitted",
+              "Year": "2027",
+              "type": "Annual Information Statement 2027",
+              "uuid": "68da7a31-04ff-f011-8406-00224810400c"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2027-12-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Pending",
+              "Year": "2027",
+              "type": "Financial Report 2027",
+              "uuid": "8dda7a31-04ff-f011-8406-00224810400c"
+            },
+            {
+              "AISId": "3518992a-af9f-ee11-be37-00224893b261",
+              "DateReceived": "2023-12-21T03:15:27.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2024-01-31T00:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2023",
+              "type": "Annual Information Statement 2023",
+              "uuid": "1fb81823-a482-ec11-8d20-002248929158"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2023-12-21T03:15:19.0000000Z",
+              "DocumentUuid": "17e36f20-af9f-ee11-be37-002248110683",
+              "DueDate": "2024-01-31T00:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2023",
+              "type": "Financial Report 2023",
+              "uuid": "35b81823-a482-ec11-8d20-002248929158"
+            },
+            {
+              "AISId": "d4b739a9-e2f1-f011-8407-6045bde67d52",
+              "DateReceived": "2026-01-15T07:20:36.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2026-01-31T00:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2025",
+              "type": "Annual Information Statement 2025",
+              "uuid": "2734391a-a6c0-ee11-907a-00224893bfad"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2026-01-15T07:20:23.0000000Z",
+              "DocumentUuid": "3052349e-e2f1-f011-8407-6045bde61dfb",
+              "DueDate": "2026-01-31T00:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2025",
+              "type": "Financial Report 2025",
+              "uuid": "3634391a-a6c0-ee11-907a-00224893bfad"
+            },
+            {
+              "AISId": "a7fcccdd-67bb-ef11-a72f-00224891dc56",
+              "DateReceived": "2024-12-16T04:40:35.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2025-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2024",
+              "type": "Annual Information Statement 2024",
+              "uuid": "76d98639-c9a1-ed11-aad1-00224893bfad"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2024-12-16T04:40:32.0000000Z",
+              "DocumentUuid": "293d75cf-67bb-ef11-a72f-000d3ad290e2",
+              "DueDate": "2025-01-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2024",
+              "type": "Financial Report 2024",
+              "uuid": "92d98639-c9a1-ed11-aad1-00224893bfad"
+            }
+          ],
+          "Beneficiaries": [
+            {
+              "Description": null,
+              "Name": "People in rural/regional/remote communities",
+              "uuid": "1f2e32af-e2f1-f011-8407-6045bde67d52"
+            },
+            {
+              "Description": null,
+              "Name": "Financially disadvantaged people",
+              "uuid": "292e32af-e2f1-f011-8407-6045bde67d52"
+            },
+            {
+              "Description": null,
+              "Name": "Aboriginal and Torres Strait Islander people",
+              "uuid": "2c2e32af-e2f1-f011-8407-6045bde67d52"
+            }
+          ],
+          "CharitySize": "Large",
+          "CharitySubtypeHistory": [
+            {
+              "EndDate": null,
+              "Purpose": "Advancing health",
+              "StartDate": "2016-07-19T14:00:00.0000000Z",
+              "uuid": "6aab8011-ffc6-e811-a962-000d3ad24182"
+            },
+            {
+              "EndDate": null,
+              "Purpose": "Advancing education",
+              "StartDate": "2016-07-19T14:00:00.0000000Z",
+              "uuid": "78ab8011-ffc6-e811-a962-000d3ad24182"
+            },
+            {
+              "EndDate": null,
+              "Purpose": "Advancing social or public welfare",
+              "StartDate": "2016-07-19T14:00:00.0000000Z",
+              "uuid": "8bab8011-ffc6-e811-a962-000d3ad24182"
+            },
+            {
+              "EndDate": null,
+              "Purpose": "Advancing religion",
+              "StartDate": "2016-07-19T14:00:00.0000000Z",
+              "uuid": "99ab8011-ffc6-e811-a962-000d3ad24182"
+            },
+            {
+              "EndDate": null,
+              "Purpose": "Advancing culture",
+              "StartDate": "2016-07-19T14:00:00.0000000Z",
+              "uuid": "a1ab8011-ffc6-e811-a962-000d3ad24182"
+            }
+          ],
+          "CharityVersion": "153",
+          "ChildMemberEndDate": null,
+          "ChildMemberStartDate": null,
+          "ChooseToProvideAis": null,
+          "Countries": [
+            {
+              "Name": "Australia",
+              "uuid": "f57b5602-9a4d-e811-a951-000d3ad06f2d"
+            }
+          ],
+          "DateEstablished": "2016-07-19T14:00:00.0000000Z",
+          "Documents": [
+            {
+              "Date": "2017-03-20T00:00:00.0000000",
+              "Title": "TrustDeed_MartuCharitableTrust.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/d90be587-3aaf-e811-a963-000d3ad24077-26a96a69-ce68-4cbb-9fca-961c495be5ef-Governing%20Document-6744208f-52b0-e811-a963-000d3ad244fd-TrustDeed_MartuCharitableTrust.pdf",
+              "Year": null,
+              "type": "Governing Document",
+              "uuid": "6744208f-52b0-e811-a963-000d3ad244fd"
+            },
+            {
+              "Date": "2020-12-23T00:00:00.0000000",
+              "Title": "Martu Charitable Trust - 2020 Audited Financial Statements.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/d90be587-3aaf-e811-a963-000d3ad24077-26a96a69-ce68-4cbb-9fca-961c495be5ef-Financial%20Report-8bf24a90-c944-eb11-a812-000d3ad1caaa-Martu_Charitable_Trust_-_2020_Audited_Financial_Statements.pdf",
+              "Year": "2020",
+              "type": "Financial Report",
+              "uuid": "8bf24a90-c944-eb11-a812-000d3ad1caaa"
+            },
+            {
+              "Date": "2019-12-19T00:00:00.0000000",
+              "Title": "Martu Charitable Trust - 2019 Audited Financial Statements.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/d90be587-3aaf-e811-a963-000d3ad24077-26a96a69-ce68-4cbb-9fca-961c495be5ef-Financial%20Report-7a2b99d7-1622-ea11-a810-000d3ad1cf4f-Martu_Charitable_Trust_-_2019_Audited_Financial_Statements.pdf",
+              "Year": "2019",
+              "type": "Financial Report",
+              "uuid": "7a2b99d7-1622-ea11-a810-000d3ad1cf4f"
+            },
+            {
+              "Date": "2019-03-25T00:00:00.0000000",
+              "Title": "Martu Charitable Trust - Financial Statements (signed) 2017.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/d90be587-3aaf-e811-a963-000d3ad24077-26a96a69-ce68-4cbb-9fca-961c495be5ef-Financial%20Report-d5ef4404-cd4e-e911-a96f-000d3ad24182-Martu_Charitable_Trust_-_Financial_Statements_(signed)_2017.pdf",
+              "Year": "2017",
+              "type": "Financial Report",
+              "uuid": "d5ef4404-cd4e-e911-a96f-000d3ad24182"
+            },
+            {
+              "Date": "2019-03-25T00:00:00.0000000",
+              "Title": "Martu Charitable Trust - Financial Report (signed) 2018-1.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/d90be587-3aaf-e811-a963-000d3ad24077-26a96a69-ce68-4cbb-9fca-961c495be5ef-Financial%20Report-5d7cfe1e-cf4e-e911-a970-000d3ad24a0d-Martu_Charitable_Trust_-_Financial_Report_(signed)_2018-1.pdf",
+              "Year": "2018",
+              "type": "Financial Report",
+              "uuid": "5d7cfe1e-cf4e-e911-a970-000d3ad24a0d"
+            },
+            {
+              "Date": "2024-12-16T00:00:00.0000000",
+              "Title": "Martu Charitable Trust - 2024 Audited Financial Report.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/d90be587-3aaf-e811-a963-000d3ad24077-26a96a69-ce68-4cbb-9fca-961c495be5ef-Financial%20Report-293d75cf-67bb-ef11-a72f-000d3ad290e2-Martu_Charitable_Trust_-_2024_Audited_Financial_Report.pdf",
+              "Year": "2024",
+              "type": "Financial Report",
+              "uuid": "293d75cf-67bb-ef11-a72f-000d3ad290e2"
+            },
+            {
+              "Date": "2023-12-21T00:00:00.0000000",
+              "Title": "Martu Charitable Trust - 2023FY Audited Financial Report.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/d90be587-3aaf-e811-a963-000d3ad24077-26a96a69-ce68-4cbb-9fca-961c495be5ef-Financial%20Report-17e36f20-af9f-ee11-be37-002248110683-Martu_Charitable_Trust_-_2023FY_Audited_Financial_Report.pdf",
+              "Year": "2023",
+              "type": "Financial Report",
+              "uuid": "17e36f20-af9f-ee11-be37-002248110683"
+            },
+            {
+              "Date": "2021-12-22T00:00:00.0000000",
+              "Title": "Martu Charitable Trust - 2021 Financial Report.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/d90be587-3aaf-e811-a963-000d3ad24077-26a96a69-ce68-4cbb-9fca-961c495be5ef-Financial%20Report-981db3de-d862-ec11-8f8e-002248129291-Martu_Charitable_Trust_-_2021_Financial_Report.pdf",
+              "Year": "2021",
+              "type": "Financial Report",
+              "uuid": "981db3de-d862-ec11-8f8e-002248129291"
+            },
+            {
+              "Date": "2022-12-21T00:00:00.0000000",
+              "Title": "Martu Charitable Trust - 2022 Financial Report.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/d90be587-3aaf-e811-a963-000d3ad24077-26a96a69-ce68-4cbb-9fca-961c495be5ef-Financial%20Report-e4a7d245-e380-ed11-81ad-002248933c76-Martu_Charitable_Trust_-_2022_Financial_Report.pdf",
+              "Year": "2022",
+              "type": "Financial Report",
+              "uuid": "e4a7d245-e380-ed11-81ad-002248933c76"
+            },
+            {
+              "Date": "2026-01-15T00:00:00.0000000",
+              "Title": "Martu Charitable Trust - 2025 Audited Financial Report.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/d90be587-3aaf-e811-a963-000d3ad24077-26a96a69-ce68-4cbb-9fca-961c495be5ef-Financial%20Report-3052349e-e2f1-f011-8407-6045bde61dfb-Martu_Charitable_Trust_-_2025_Audited_Financial_Report.pdf",
+              "Year": "2025",
+              "type": "Financial Report",
+              "uuid": "3052349e-e2f1-f011-8407-6045bde61dfb"
+            }
+          ],
+          "Email": "perthadmin@mutualtrust.com.au",
+          "EnforcementOutcomes": [],
+          "FinancialYearEnd": "30/06",
+          "GovernmentAgencies": [],
+          "GroupHeadFlag": false,
+          "LastReported": "2026-01-15T07:20:36.0000000Z",
+          "Name": "Martu Charitable Trust",
+          "NextReportDue": "2026-12-31T12:30:00.0000000Z",
+          "OperatingInStates": [
+            {
+              "Name": "Western Australia",
+              "uuid": "dc2782ae-455e-e811-a95c-000d3ad1c715"
+            }
+          ],
+          "OtherDetails": null,
+          "OtherNames": [],
+          "ParentAccountAbn": null,
+          "ParentAccountId": null,
+          "Phone": "08 92307700",
+          "Programs": [
+            {
+              "AisUuid": "d4b739a9-e2f1-f011-8407-6045bde67d52",
+              "Name": "Martu Charitable Trust",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "People in rural/regional/remote communities",
+                "Aboriginal and Torres Strait Islander people",
+                "Financially disadvantaged people"
+              ],
+              "ProgramClassie": [
+                {
+                  "classie_id": "118",
+                  "label": "Community development",
+                  "parent_id": null,
+                  "selected": true
+                }
+              ],
+              "ProgramClassification": "Community development",
+              "ProgramClassificationID": "118",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Western Australia, Australia",
+                  "FormattedAddress": "Western Australia, Australia",
+                  "Marker": {
+                    "Latitude": -27.6728168,
+                    "Longitude": 121.6283098
+                  },
+                  "Name": "Western Australia",
+                  "uuid": "102e32af-e2f1-f011-8407-6045bde67d52"
+                }
+              ],
+              "ProgramWeblink": null,
+              "uuid": "d92d32af-e2f1-f011-8407-6045bde67d52"
+            }
+          ],
+          "ReferendumReturnsUrl": null,
+          "RegistrationStatusHistory": [
+            {
+              "EffectiveDate": "2016-07-19T14:00:00.0000000Z",
+              "Status": "Registered",
+              "TransactionDate": "2017-03-16T13:00:00.0000000Z",
+              "uuid": "b6828e04-07c6-e811-a964-000d3ad24077"
+            }
+          ],
+          "RelatedPartyTransactions": null,
+          "RelevantTransactions": null,
+          "ReportingLate": "2027-06-30T12:30:00.0000000Z",
+          "ResponsiblePersons": [
+            {
+              "Name": "Peter Hay",
+              "Role": "Chairperson",
+              "uuid": "2d66c4fc-fcb8-eb11-8236-000d3a6a6794"
+            },
+            {
+              "Name": "Peter Yates",
+              "Role": "Director",
+              "uuid": "86248550-efbb-e811-a961-000d3ad24282"
+            },
+            {
+              "Name": "Sidney Myer",
+              "Role": "Director",
+              "uuid": "6d66c4fc-fcb8-eb11-8236-000d3a6a6794"
+            },
+            {
+              "Name": "Rupert Myer",
+              "Role": "Director",
+              "uuid": "8e66c4fc-fcb8-eb11-8236-000d3a6a6794"
+            },
+            {
+              "Name": "Michael Baillieu",
+              "Role": "Director",
+              "uuid": "a166c4fc-fcb8-eb11-8236-000d3a6a6794"
+            },
+            {
+              "Name": "Marshall Baillieu",
+              "Role": "Director",
+              "uuid": "ba66c4fc-fcb8-eb11-8236-000d3a6a6794"
+            },
+            {
+              "Name": "Catherine Leahy",
+              "Role": "Director",
+              "uuid": "ca1bd267-5abc-e811-a95f-000d3ad24c60"
+            },
+            {
+              "Name": "Peter Michell",
+              "Role": "Director",
+              "uuid": "3479d401-cbc5-ec11-a7b5-00224811d503"
+            },
+            {
+              "Name": "Nicola Davis",
+              "Role": "Board Member",
+              "uuid": "c042acc3-0b9f-ee11-be37-002248122b18"
+            }
+          ],
+          "Status": "Registered",
+          "SummaryOfActivities": "Advancing social and public welfare through the relief of poverty, distress and Aboriginal disadvantage.",
+          "TotalExpensesEmployee": "0",
+          "TotalExpensesGrantsAndDonationsInAustralia": "2638148",
+          "TotalExpensesGrantsAndDonationsOutsideAustralia": "0",
+          "TotalExpensesInterest": "0",
+          "TotalExpensesOther": "607393",
+          "TotalGrossIncomeDonationsAndRequests": "0",
+          "TotalGrossIncomeGoodsOrServices": "0",
+          "TotalGrossIncomeGovernmentGrants": "0",
+          "TotalGrossIncomeInvestments": "287858",
+          "TotalGrossIncomeOtherRevenues": "4775085",
+          "TransparencyRegisterUrl": null,
+          "Website": null,
+          "__normalized": true,
+          "type": "charity",
+          "uuid": "d90be587-3aaf-e811-a963-000d3ad24077"
+        },
+        "type": "charity",
+        "uuid": "d90be587-3aaf-e811-a963-000d3ad24077"
+      },
+      "canonical_field_mappings": {
+        "data.Name": "display_name",
+        "data.OtherNames": "operating_names",
+        "data.AnnualReports": "acnc_ais_url",
+        "data.Programs": "programs"
+      },
+      "evidence_ids": [
+        "ev:acnc:ais:54212670988:2025"
       ]
     }
   ],
@@ -209,7 +876,10 @@
         "source_precision": null
       },
       "assets": null,
-      "liabilities": null
+      "liabilities": null,
+      "income_breakdown": [],
+      "expense_breakdown": [],
+      "balance_sheet_breakdown": []
     }
   ],
   "financial_metrics": [
@@ -313,6 +983,18 @@
       "page": null,
       "section": null,
       "content_hash": null
+    },
+    {
+      "evidence_id": "ev:acnc:ais:54212670988:2025",
+      "source_type": "regulatory",
+      "title": "Martu Charitable Trust Annual Information Statement 2025",
+      "publisher": "Australian Charities and Not-for-profits Commission",
+      "url": "https://www.acnc.gov.au/charity/charities/d90be587-3aaf-e811-a963-000d3ad24077/documents/d4b739a9-e2f1-f011-8407-6045bde67d52",
+      "observed_at": "2026-01-15",
+      "reporting_period": null,
+      "page": null,
+      "section": null,
+      "content_hash": null
     }
   ],
   "embedding": {
@@ -321,8 +1003,8 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "54c234b5cbdc007448b3977a7a7ae73cfb3c2001c2596915eb78376c3afb44f6",
-    "generated_at": "2026-08-10T13:53:24.458036Z",
+    "source_text_hash": "e1daefaef35674f8f580afe526fee22feee0a599475bc6710b68c2c48bb04c11",
+    "generated_at": "2026-08-13T00:32:18.624523Z",
     "vector_ref": "embeddings.parquet#cb_1fed6ee914784e0b9602687b0e144c02"
   },
   "synthesis": {
@@ -393,9 +1075,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc2",
-  "card_schema_version": "0.3",
+  "dataset_version": "phase2b-2026-08-13-rc3",
+  "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.3.0-rc2",
-  "built_at": "2026-08-12T14:24:20.675968Z"
+  "generator_version": "0.4.0-rc3",
+  "built_at": "2026-08-13T00:32:15.698599Z"
 }

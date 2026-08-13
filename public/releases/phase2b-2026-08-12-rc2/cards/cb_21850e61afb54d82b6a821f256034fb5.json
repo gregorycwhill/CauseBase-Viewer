@@ -1,0 +1,460 @@
+{
+  "causebase_id": "cb_21850e61afb54d82b6a821f256034fb5",
+  "subject_kind": "unknown",
+  "external_identifiers": [
+    {
+      "scheme": "abn",
+      "value": "99862937528",
+      "source_evidence_id": "ev:acnc:99862937528"
+    }
+  ],
+  "registrations": [
+    {
+      "regulator": "ACNC",
+      "registration_id": null,
+      "status": "registered",
+      "evidence_ids": [
+        "ev:acnc:99862937528"
+      ]
+    }
+  ],
+  "tax_statuses": [],
+  "relationships": [],
+  "source_resolutions": [
+    {
+      "source_record_id": "src:acnc-register:a5fdca91-b6ea-52f1-b124-8f136e5ba099",
+      "resolution_status": "resolved",
+      "resolution_basis": "automated authoritative ACNC promotion under acnc-authoritative-v1",
+      "confidence": "high",
+      "supporting_signals": [
+        "ABN:99862937528",
+        "ACNC Register"
+      ],
+      "conflicting_signals": [],
+      "review_status": "not_required"
+    }
+  ],
+  "legal_name": "Brisbane Valley Cat Rescue Inc.",
+  "display_name": "Brisbane Valley Cat Rescue Inc.",
+  "entity_status": "registered",
+  "coverage": [
+    {
+      "capability": "regulatory",
+      "status": "observed",
+      "source_record_id": null,
+      "evidence_ids": [
+        "ev:acnc:99862937528"
+      ],
+      "observed_at": "2026-08-10",
+      "freshness_note": null
+    },
+    {
+      "capability": "annual_report",
+      "status": "not_yet_processed",
+      "source_record_id": null,
+      "evidence_ids": [],
+      "observed_at": "2026-08-10",
+      "freshness_note": null
+    },
+    {
+      "capability": "website",
+      "status": "retrieval_failed",
+      "source_record_id": null,
+      "evidence_ids": [],
+      "observed_at": "2026-08-10",
+      "freshness_note": null
+    },
+    {
+      "capability": "fundraising_expenditure",
+      "status": "not_available_from_source",
+      "source_record_id": null,
+      "evidence_ids": [],
+      "observed_at": "2026-08-10",
+      "freshness_note": "No direct or defensible derived fundraising expenditure was found in selected Phase 2A evidence."
+    },
+    {
+      "capability": "financials",
+      "status": "observed",
+      "source_record_id": null,
+      "evidence_ids": [
+        "ev:ais:99862937528:2023"
+      ],
+      "observed_at": "2026-08-10",
+      "freshness_note": null
+    }
+  ],
+  "enrichment_level": "enriched",
+  "website": "www.brisbanevalleycatrescue.com",
+  "geography": [
+    "Brisbane Valley, Queensland (appears in legal name)",
+    "Queensland, Australia (listed in ACNC structured geography)"
+  ],
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:99862937528"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-QLD",
+      "label": "Queensland",
+      "evidence_ids": [
+        "ev:acnc:99862937528"
+      ]
+    }
+  ],
+  "causebase_summary": "Brisbane Valley Cat Rescue Inc. is an incorporated not‑for‑profit registered with the national charity regulator and based in the Brisbane Valley region of Queensland, Australia. CauseBase does not have sufficient descriptive evidence in this release to independently identify the organisation's specific activities or beneficiaries; the legal name includes the phrase “Cat Rescue”, which indicates an animal-focused purpose. ACNC financial reporting is available for the year 1 July 2022 to 30 June 2023.",
+  "summary_evidence_ids": [
+    "ev:acnc:99862937528",
+    "ev:ais:99862937528:2023"
+  ],
+  "organisation_self_description": null,
+  "activities": [
+    "Legal name contains the phrase 'Cat Rescue' (indicates focus on rescuing cats, as stated in the legal name)",
+    "Financial reporting to the ACNC for the year 01/07/2022–30/06/2023 (revenue and expenses recorded)"
+  ],
+  "beneficiaries": [
+    "Cats (implied by the organisation's legal name 'Cat Rescue')"
+  ],
+  "participation_modes": [],
+  "opportunities": [],
+  "source_native_records": [
+    {
+      "source_record_id": "src:acnc-register:a5fdca91-b6ea-52f1-b124-8f136e5ba099",
+      "source_family": "acnc-register",
+      "dataset_version": "2026-08-10",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=99862937528",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
+      "observed_at": "2026-08-10",
+      "effective_from": null,
+      "effective_to": null,
+      "source_fields": {
+        "ABN": "99862937528",
+        "Legal Name": "Brisbane Valley Cat Rescue Inc.",
+        "Registration Status": "registered",
+        "ACNC classifications": "animal welfare; children",
+        "Website": "www.brisbanevalleycatrescue.com",
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
+      },
+      "canonical_field_mappings": {
+        "ABN": "external_identifiers",
+        "Legal Name": "legal_name",
+        "Registration Status": "registrations"
+      },
+      "evidence_ids": [
+        "ev:acnc:99862937528"
+      ]
+    },
+    {
+      "source_record_id": "src:acnc-ais:fr:ais:cb_21850e61afb54d82b6a821f256034fb5:2023",
+      "source_family": "acnc-ais",
+      "dataset_version": "2026-08-10",
+      "source_url": null,
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
+      "observed_at": "2026-08-10",
+      "effective_from": "2022-07-01",
+      "effective_to": "2023-06-30",
+      "source_fields": {
+        "Reporting period": "01/07/2022 to 30/06/2023",
+        "Reporting scope": "subject",
+        "Consolidated": "unknown",
+        "Revenue": "63570",
+        "Donations and bequests": null,
+        "Government grants": null,
+        "Total expenses": "150735",
+        "Assets": null,
+        "Liabilities": null
+      },
+      "canonical_field_mappings": {
+        "Revenue": "financial_records[].revenue",
+        "Total expenses": "financial_records[].total_expenses"
+      },
+      "evidence_ids": [
+        "ev:ais:99862937528:2023"
+      ]
+    }
+  ],
+  "financial_records": [
+    {
+      "financial_record_id": "fr:ais:cb_21850e61afb54d82b6a821f256034fb5:2023",
+      "period": {
+        "period_start": "2022-07-01",
+        "period_end": "2023-06-30",
+        "period_length_days": 365,
+        "label": "01/07/2022 to 30/06/2023",
+        "is_transitional_or_nonstandard": false
+      },
+      "reporting_scope": "subject",
+      "reporting_subject_causebase_id": "cb_21850e61afb54d82b6a821f256034fb5",
+      "covered_subjects": [
+        "cb_21850e61afb54d82b6a821f256034fb5"
+      ],
+      "consolidated": "unknown",
+      "attribution_method": "direct_subject_report",
+      "evidence_ids": [
+        "ev:ais:99862937528:2023"
+      ],
+      "revenue": {
+        "source_amount": "63570",
+        "source_currency": "AUD",
+        "source_unit_scale": "1",
+        "normalised_amount": "63570",
+        "normalised_currency": "AUD",
+        "source_unit_label": null,
+        "source_raw_value": "63570",
+        "source_precision": null
+      },
+      "donations": null,
+      "government_grants": null,
+      "employee_costs": null,
+      "total_expenses": {
+        "source_amount": "150735",
+        "source_currency": "AUD",
+        "source_unit_scale": "1",
+        "normalised_amount": "150735",
+        "normalised_currency": "AUD",
+        "source_unit_label": null,
+        "source_raw_value": "150735",
+        "source_precision": null
+      },
+      "assets": null,
+      "liabilities": null
+    }
+  ],
+  "financial_metrics": [
+    {
+      "metric": "revenue",
+      "observations": [
+        {
+          "financial_record_id": "fr:ais:cb_21850e61afb54d82b6a821f256034fb5:2023",
+          "amount": {
+            "source_amount": "63570",
+            "source_currency": "AUD",
+            "source_unit_scale": "1",
+            "normalised_amount": "63570",
+            "normalised_currency": "AUD",
+            "source_unit_label": null,
+            "source_raw_value": "63570",
+            "source_precision": null
+          },
+          "metric_source_label": null,
+          "evidence_ids": [
+            "ev:ais:99862937528:2023"
+          ]
+        }
+      ],
+      "reconciliation_status": "single_observation",
+      "reconciliation_notes": null
+    },
+    {
+      "metric": "total_expenses",
+      "observations": [
+        {
+          "financial_record_id": "fr:ais:cb_21850e61afb54d82b6a821f256034fb5:2023",
+          "amount": {
+            "source_amount": "150735",
+            "source_currency": "AUD",
+            "source_unit_scale": "1",
+            "normalised_amount": "150735",
+            "normalised_currency": "AUD",
+            "source_unit_label": null,
+            "source_raw_value": "150735",
+            "source_precision": null
+          },
+          "metric_source_label": null,
+          "evidence_ids": [
+            "ev:ais:99862937528:2023"
+          ]
+        }
+      ],
+      "reconciliation_status": "single_observation",
+      "reconciliation_notes": null
+    }
+  ],
+  "fundraising_expenditure": null,
+  "funding_sources": [],
+  "fundraising_methods": [],
+  "classifications": [
+    {
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "purpose.animal_welfare",
+      "term_label": "animal welfare",
+      "assignment_method": "source_native",
+      "confidence": "high",
+      "evidence_ids": [
+        "ev:acnc:99862937528"
+      ]
+    },
+    {
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "beneficiary.children",
+      "term_label": "children",
+      "assignment_method": "source_native",
+      "confidence": "high",
+      "evidence_ids": [
+        "ev:acnc:99862937528"
+      ]
+    },
+    {
+      "taxonomy_id": "causebase",
+      "taxonomy_version": "0.1-phase2a",
+      "term_id": "cause.animal_welfare",
+      "term_label": "Animal welfare",
+      "assignment_method": "llm_classification",
+      "confidence": "medium",
+      "evidence_ids": []
+    },
+    {
+      "taxonomy_id": "causebase",
+      "taxonomy_version": "0.1-phase2a",
+      "term_id": "activity.direct_service",
+      "term_label": "Direct service delivery",
+      "assignment_method": "llm_classification",
+      "confidence": "medium",
+      "evidence_ids": []
+    },
+    {
+      "taxonomy_id": "causebase",
+      "taxonomy_version": "0.1-phase2a",
+      "term_id": "geography.australia",
+      "term_label": "Australia",
+      "assignment_method": "llm_classification",
+      "confidence": "medium",
+      "evidence_ids": []
+    },
+    {
+      "taxonomy_id": "causebase",
+      "taxonomy_version": "0.1-phase2a",
+      "term_id": "geography.local_or_regional",
+      "term_label": "Local or regional Australia",
+      "assignment_method": "llm_classification",
+      "confidence": "medium",
+      "evidence_ids": []
+    },
+    {
+      "taxonomy_id": "causebase",
+      "taxonomy_version": "0.1-phase2a",
+      "term_id": "organisation.local",
+      "term_label": "Local organisation",
+      "assignment_method": "llm_classification",
+      "confidence": "medium",
+      "evidence_ids": []
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "ev:acnc:99862937528",
+      "source_type": "regulatory",
+      "title": "ACNC Register extract",
+      "publisher": "Australian Charities and Not-for-profits Commission",
+      "url": null,
+      "observed_at": "2026-08-10",
+      "reporting_period": null,
+      "page": null,
+      "section": null,
+      "content_hash": null
+    },
+    {
+      "evidence_id": "ev:ais:99862937528:2023",
+      "source_type": "regulatory",
+      "title": "ACNC AIS 2023 extract",
+      "publisher": "Australian Charities and Not-for-profits Commission",
+      "url": null,
+      "observed_at": "2026-08-10",
+      "reporting_period": "01/07/2022 to 30/06/2023",
+      "page": null,
+      "section": null,
+      "content_hash": null
+    }
+  ],
+  "embedding": {
+    "embedding_id": "cb_21850e61afb54d82b6a821f256034fb5:entity:text-embedding-3-small",
+    "embedding_type": "entity",
+    "model_id": "text-embedding-3-small",
+    "model_version": "text-embedding-3-small",
+    "dimensions": 1536,
+    "source_text_hash": "e06ef6b4e420fedd61451b07d0c155d7def3007b0f1eee70322afc72d44e955d",
+    "generated_at": "2026-08-10T13:53:24.456628Z",
+    "vector_ref": "embeddings.parquet#cb_21850e61afb54d82b6a821f256034fb5"
+  },
+  "synthesis": {
+    "model_id": "gpt-5-mini-2025-08-07",
+    "prompt_version": "phase2b-rc2-1",
+    "parameters": {
+      "max_output_tokens": 3000,
+      "structured_output": true
+    },
+    "evidence_input_hash": "a6ad767e43e7fb215f2396a797365d78d3b6dcae807ab2bcc248df6ad49a25d5",
+    "generated_at": "2026-08-12T13:54:29.418852Z",
+    "editorial_policy_version": "0.1"
+  },
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T13:54:29.418852Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "a6ad767e43e7fb215f2396a797365d78d3b6dcae807ab2bcc248df6ad49a25d5",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
+      "affected_dimensions": []
+    },
+    {
+      "derivative": "taxonomy",
+      "generated_at": "2026-08-12T13:54:29.418852Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-deterministic-v1",
+      "input_hash": "a6ad767e43e7fb215f2396a797365d78d3b6dcae807ab2bcc248df6ad49a25d5",
+      "disposition": "reused",
+      "reason": "No new supported canonical classification facts.",
+      "affected_dimensions": []
+    },
+    {
+      "derivative": "fundraising",
+      "generated_at": null,
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-deterministic-v1",
+      "input_hash": "a6ad767e43e7fb215f2396a797365d78d3b6dcae807ab2bcc248df6ad49a25d5",
+      "disposition": "reused",
+      "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
+      "affected_dimensions": []
+    },
+    {
+      "derivative": "embedding",
+      "generated_at": "2026-08-10T13:53:24.456628Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-deterministic-v1",
+      "input_hash": "e06ef6b4e420fedd61451b07d0c155d7def3007b0f1eee70322afc72d44e955d",
+      "disposition": "reused",
+      "reason": "Semantic source text unchanged.",
+      "affected_dimensions": []
+    },
+    {
+      "derivative": "similarities",
+      "generated_at": "2026-08-10T13:53:24.456628Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-deterministic-v1",
+      "input_hash": "e06ef6b4e420fedd61451b07d0c155d7def3007b0f1eee70322afc72d44e955d",
+      "disposition": "reused",
+      "reason": "Embedding reused; semantic neighbours retained.",
+      "affected_dimensions": []
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-12-rc2",
+  "card_schema_version": "0.3",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.3.0-rc2",
+  "built_at": "2026-08-12T14:24:20.675968Z"
+}

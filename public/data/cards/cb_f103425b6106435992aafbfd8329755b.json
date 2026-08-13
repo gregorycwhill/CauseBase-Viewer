@@ -18,7 +18,16 @@
       ]
     }
   ],
-  "tax_statuses": [],
+  "tax_statuses": [
+    {
+      "scheme": "ABR DGR",
+      "status": "endorsed",
+      "detail": "Dated 2026-08-05 ABR bulk observation",
+      "evidence_ids": [
+        "ev:abr-dgr:17624324741:20260805"
+      ]
+    }
+  ],
   "relationships": [],
   "source_resolutions": [
     {
@@ -37,6 +46,12 @@
   "legal_name": "Thalanyji Foundation Limited",
   "display_name": "Thalanyji Foundation Limited",
   "entity_status": "registered",
+  "canonical_url": "https://gregorycwhill.github.io/CauseBase-Viewer/#cb_f103425b6106435992aafbfd8329755b",
+  "acnc_profile_url": "https://www.acnc.gov.au/charity/charities/306892b3-3aaf-e811-a962-000d3ad24a0d/profile",
+  "acnc_ais_url": "https://www.acnc.gov.au/charity/charities/306892b3-3aaf-e811-a962-000d3ad24a0d/documents/3161d5c6-7005-f111-8406-6045bde5be38",
+  "operating_names": [],
+  "former_names": [],
+  "principal_location": "WA, Australia",
   "coverage": [
     {
       "capability": "regulatory",
@@ -81,6 +96,16 @@
       ],
       "observed_at": "2026-08-10",
       "freshness_note": null
+    },
+    {
+      "capability": "latest_acnc_ais",
+      "status": "observed",
+      "source_record_id": null,
+      "evidence_ids": [
+        "ev:acnc:ais:17624324741:2025"
+      ],
+      "observed_at": "2026-02-09",
+      "freshness_note": "Latest submitted ACNC AIS in the 2026-08-13 public-profile acquisition: 2025."
     }
   ],
   "enrichment_level": "enriched",
@@ -115,7 +140,9 @@
   "activities": [],
   "beneficiaries": [],
   "participation_modes": [],
+  "participation_observations": [],
   "opportunities": [],
+  "programs": [],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:0fff40d0-e095-5a9f-972a-0f834d4cdb76",
@@ -135,6 +162,7 @@
         "ACNC registration ID": null,
         "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
+      "source_payload": null,
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
         "Legal Name": "legal_name",
@@ -164,12 +192,513 @@
         "Assets": null,
         "Liabilities": null
       },
+      "source_payload": null,
       "canonical_field_mappings": {
         "Revenue": "financial_records[].revenue",
         "Total expenses": "financial_records[].total_expenses"
       },
       "evidence_ids": [
         "ev:ais:17624324741:2023"
+      ]
+    },
+    {
+      "source_record_id": "src:acnc-public-profile:17624324741:cb_f103425b6106435992aafbfd8329755b:2026-08-13",
+      "source_family": "acnc-public-profile",
+      "dataset_version": "2026-08-13-public-api",
+      "source_url": "https://www.acnc.gov.au/charity/charities/306892b3-3aaf-e811-a962-000d3ad24a0d/profile",
+      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "observed_at": "2026-02-09",
+      "effective_from": null,
+      "effective_to": null,
+      "source_fields": {
+        "uuid": "306892b3-3aaf-e811-a962-000d3ad24a0d",
+        "abn": "17624324741",
+        "latest_ais_year": "2025",
+        "latest_ais_uuid": "3161d5c6-7005-f111-8406-6045bde5be38"
+      },
+      "source_payload": {
+        "data": {
+          "AFSAddressPostalCode": "6710",
+          "AFSEmail": "kanishka.kumarage@thalanyji.com.au",
+          "Abn": "17624324741",
+          "AddressCountry": "Australia",
+          "AddressLine1": "569 Beadon Creek Road",
+          "AddressLine2": null,
+          "AddressLine3": null,
+          "AddressPostalCode": "6710",
+          "AddressStateOrProvince": "WA",
+          "AddressSuburb": "Onslow",
+          "AddressSuburbStatePostcode": "Onslow WA 6710",
+          "AnnualReports": [
+            {
+              "AISId": "2a769104-86b2-ed11-83ff-002248122521",
+              "DateReceived": "2023-02-22T07:59:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2023-01-31T00:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2022",
+              "type": "Annual Information Statement 2022",
+              "uuid": "8638a818-d463-eb11-b0b0-000d3acbaeea"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Not required - small",
+              "Year": "2022",
+              "type": "Financial Report 2022",
+              "uuid": "cb38a818-d463-eb11-b0b0-000d3acbaeea"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Not required - small",
+              "Year": "2019",
+              "type": "Financial Report 2019",
+              "uuid": "03bebecf-2325-e911-a973-000d3ad0574c"
+            },
+            {
+              "AISId": "f0cdd8bf-3a43-ea11-a813-000d3ad1f497",
+              "DateReceived": "2020-01-30T08:30:24.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2020-01-31T00:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2019",
+              "type": "Annual Information Statement 2019",
+              "uuid": "38bebecf-2325-e911-a973-000d3ad0574c"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2022-11-08T06:25:20.0000000Z",
+              "DocumentUuid": "61d81418-2e5f-ed11-9562-00224893bc23",
+              "DueDate": "2021-01-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2020",
+              "type": "Financial Report 2020",
+              "uuid": "63bebecf-2325-e911-a973-000d3ad0574c"
+            },
+            {
+              "AISId": "d3a58b19-2e5f-ed11-9562-00224893b8c7",
+              "DateReceived": "2022-11-08T06:25:22.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2021-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2020",
+              "type": "Annual Information Statement 2020",
+              "uuid": "82bebecf-2325-e911-a973-000d3ad0574c"
+            },
+            {
+              "AISId": "a5e85aa4-2a5f-ed11-9562-00224893d32a",
+              "DateReceived": "2022-11-08T06:00:37.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2022-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2021",
+              "type": "Annual Information Statement 2021",
+              "uuid": "9f9ae566-8d44-ea11-a813-000d3ad1f9f4"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2022-11-08T06:00:27.0000000Z",
+              "DocumentUuid": "8c64349c-2a5f-ed11-9562-00224893bc23",
+              "DueDate": "2022-01-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2021",
+              "type": "Financial Report 2021",
+              "uuid": "dd9ae566-8d44-ea11-a813-000d3ad1f9f4"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": true,
+              "Status": "Not required",
+              "Year": "2013",
+              "type": "Annual Information Statement 2013",
+              "uuid": "2486e6f4-3bc8-e811-a962-000d3ad24182"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": true,
+              "Status": "Not required",
+              "Year": "2014",
+              "type": "Annual Information Statement 2014",
+              "uuid": "3c86e6f4-3bc8-e811-a962-000d3ad24182"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": true,
+              "Status": "Not required",
+              "Year": "2015",
+              "type": "Annual Information Statement 2015",
+              "uuid": "5386e6f4-3bc8-e811-a962-000d3ad24182"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Not required",
+              "Year": "2014",
+              "type": "Financial Report 2014",
+              "uuid": "798a661c-41c8-e811-a964-000d3ad244fd"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Not required",
+              "Year": "2015",
+              "type": "Financial Report 2015",
+              "uuid": "7c8a661c-41c8-e811-a964-000d3ad244fd"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Not required",
+              "Year": "2016",
+              "type": "Financial Report 2016",
+              "uuid": "7e8a661c-41c8-e811-a964-000d3ad244fd"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Not required",
+              "Year": "2017",
+              "type": "Financial Report 2017",
+              "uuid": "818a661c-41c8-e811-a964-000d3ad244fd"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Not required",
+              "Year": "2018",
+              "type": "Financial Report 2018",
+              "uuid": "838a661c-41c8-e811-a964-000d3ad244fd"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Not required",
+              "Year": "2013",
+              "type": "Financial Report 2013",
+              "uuid": "858a661c-41c8-e811-a964-000d3ad244fd"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": true,
+              "Status": "Not required",
+              "Year": "2016",
+              "type": "Annual Information Statement 2016",
+              "uuid": "57ef28f0-3bc8-e811-a95f-000d3ad24c60"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": true,
+              "Status": "Not required",
+              "Year": "2017",
+              "type": "Annual Information Statement 2017",
+              "uuid": "61ef28f0-3bc8-e811-a95f-000d3ad24c60"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": true,
+              "Status": "Not required",
+              "Year": "2018",
+              "type": "Annual Information Statement 2018",
+              "uuid": "70ef28f0-3bc8-e811-a95f-000d3ad24c60"
+            },
+            {
+              "AISId": "63ba179a-11b4-ee11-a567-002248935564",
+              "DateReceived": "2024-01-16T01:50:29.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2024-01-31T00:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2023",
+              "type": "Annual Information Statement 2023",
+              "uuid": "3f8a91de-a682-ec11-8d20-002248929158"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Not required - small",
+              "Year": "2023",
+              "type": "Financial Report 2023",
+              "uuid": "458a91de-a682-ec11-8d20-002248929158"
+            },
+            {
+              "AISId": "3161d5c6-7005-f111-8406-6045bde5be38",
+              "DateReceived": "2026-02-09T04:35:46.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2026-01-31T00:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2025",
+              "type": "Annual Information Statement 2025",
+              "uuid": "0d2bd847-98c0-ee11-907a-00224893bfad"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2026-02-09T04:35:45.0000000Z",
+              "DocumentUuid": "253addc0-7005-f111-8406-7ced8d33fe37",
+              "DueDate": "2026-01-31T00:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2025",
+              "type": "Financial Report 2025",
+              "uuid": "392bd847-98c0-ee11-907a-00224893bfad"
+            },
+            {
+              "AISId": "af60159e-3afe-ef11-bae2-000d3a6a1292",
+              "DateReceived": "2025-02-18T06:16:42.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2025-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2024",
+              "type": "Annual Information Statement 2024",
+              "uuid": "cde13dba-c7a1-ed11-aad1-00224893bfad"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2025-02-18T06:16:41.0000000Z",
+              "DocumentUuid": "37c98f98-3afe-ef11-bae3-00224896c370",
+              "DueDate": "2025-01-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2024",
+              "type": "Financial Report 2024",
+              "uuid": "04e23dba-c7a1-ed11-aad1-00224893bfad"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2026-12-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Not yet submitted",
+              "Year": "2026",
+              "type": "Annual Information Statement 2026",
+              "uuid": "5a2525a2-d6df-ef11-a732-00224895e766"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2026-12-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Pending",
+              "Year": "2026",
+              "type": "Financial Report 2026",
+              "uuid": "662525a2-d6df-ef11-a732-00224895e766"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2027-12-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Not yet submitted",
+              "Year": "2027",
+              "type": "Annual Information Statement 2027",
+              "uuid": "7caf82ce-05ff-f011-8407-6045bdc4655a"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2027-12-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Pending",
+              "Year": "2027",
+              "type": "Financial Report 2027",
+              "uuid": "b9af82ce-05ff-f011-8407-6045bdc4655a"
+            }
+          ],
+          "Beneficiaries": [],
+          "CharitySize": "Small",
+          "CharitySubtypeHistory": [
+            {
+              "EndDate": null,
+              "Purpose": "Public Benevolent Institution (PBI)",
+              "StartDate": "2018-05-07T14:00:00.0000000Z",
+              "uuid": "3ff9674e-ffc6-e811-a962-000d3ad24182"
+            },
+            {
+              "EndDate": null,
+              "Purpose": "Advancing social or public welfare",
+              "StartDate": "2018-05-07T14:00:00.0000000Z",
+              "uuid": "c5fa674e-ffc6-e811-a962-000d3ad24182"
+            }
+          ],
+          "CharityVersion": "157",
+          "ChildMemberEndDate": null,
+          "ChildMemberStartDate": null,
+          "ChooseToProvideAis": null,
+          "Countries": [],
+          "DateEstablished": "2018-03-04T13:00:00.0000000Z",
+          "Documents": [
+            {
+              "Date": "2018-05-08T00:00:00.0000000",
+              "Title": "Updated_Constitution_of_Thalanyji_Foundation_Ltd.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/306892b3-3aaf-e811-a962-000d3ad24a0d-1a782999-b2ab-4c85-9a33-f09ad640abe0-Governing%20Document-cf581be2-54b0-e811-a963-000d3ad24077-Updated_Constitution_of_Thalanyji_Foundation_Ltd.pdf",
+              "Year": null,
+              "type": "Governing Document",
+              "uuid": "cf581be2-54b0-e811-a963-000d3ad24077"
+            },
+            {
+              "Date": "2025-03-11T00:00:00.0000000",
+              "Title": "2024 Financial Statements - Buurabalayji Thalanyji Aboriginal Corporation RNTBC signed.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/306892b3-3aaf-e811-a962-000d3ad24a0d-1a782999-b2ab-4c85-9a33-f09ad640abe0-Financial%20Report-37c98f98-3afe-ef11-bae3-00224896c370-2024_Financial_Statements_-_Buurabalayji_Thalanyji_Aboriginal_Corporation_RNTBC_signed.pdf",
+              "Year": "2024",
+              "type": "Financial Report",
+              "uuid": "37c98f98-3afe-ef11-bae3-00224896c370"
+            },
+            {
+              "Date": "2022-11-08T00:00:00.0000000",
+              "Title": "Foundation - Financial Statements 30 June 2021.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/306892b3-3aaf-e811-a962-000d3ad24a0d-1a782999-b2ab-4c85-9a33-f09ad640abe0-Financial%20Report-8c64349c-2a5f-ed11-9562-00224893bc23-Foundation_-_Financial_Statements_30_June_2021.pdf",
+              "Year": "2021",
+              "type": "Financial Report",
+              "uuid": "8c64349c-2a5f-ed11-9562-00224893bc23"
+            },
+            {
+              "Date": "2022-11-08T00:00:00.0000000",
+              "Title": "Foundation - Financial Statements 30 June 2021.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/306892b3-3aaf-e811-a962-000d3ad24a0d-1a782999-b2ab-4c85-9a33-f09ad640abe0-Financial%20Report-61d81418-2e5f-ed11-9562-00224893bc23-Foundation_-_Financial_Statements_30_June_2021.pdf",
+              "Year": "2020",
+              "type": "Financial Report",
+              "uuid": "61d81418-2e5f-ed11-9562-00224893bc23"
+            },
+            {
+              "Date": "2026-02-09T00:00:00.0000000",
+              "Title": "2025 Financial Statements - Buurabalayji Thalanyji Aboriginal Corporation RNTBC V3.2 Signed.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/306892b3-3aaf-e811-a962-000d3ad24a0d-1a782999-b2ab-4c85-9a33-f09ad640abe0-Financial%20Report-253addc0-7005-f111-8406-7ced8d33fe37-2025_Financial_Statements_-_Buurabalayji_Thalanyji_Aboriginal_Corporation_RNTBC_V3.2_Signed.pdf",
+              "Year": "2025",
+              "type": "Financial Report",
+              "uuid": "253addc0-7005-f111-8406-7ced8d33fe37"
+            }
+          ],
+          "Email": "brett.peake@thalanyjifoundation.org.au",
+          "EnforcementOutcomes": [],
+          "FinancialYearEnd": "30/06",
+          "GovernmentAgencies": [
+            {
+              "Name": "Australian Securities and Investment Commission",
+              "ReferenceNumber": "624324741",
+              "uuid": "2787c3b7-e6af-e811-a963-000d3ad24077"
+            },
+            {
+              "Name": "WA - Incorporated Association",
+              "ReferenceNumber": null,
+              "uuid": "0464d0cc-7005-f111-8406-6045bde5be38"
+            }
+          ],
+          "GroupHeadFlag": false,
+          "LastReported": "2026-02-09T04:35:46.0000000Z",
+          "Name": "Thalanyji Foundation Limited",
+          "NextReportDue": "2026-12-31T12:30:00.0000000Z",
+          "OperatingInStates": [],
+          "OtherDetails": null,
+          "OtherNames": [],
+          "ParentAccountAbn": null,
+          "ParentAccountId": null,
+          "Phone": null,
+          "Programs": [],
+          "ReferendumReturnsUrl": null,
+          "RegistrationStatusHistory": [
+            {
+              "EffectiveDate": "2018-05-07T14:00:00.0000000Z",
+              "Status": "Registered",
+              "TransactionDate": "2018-06-04T02:10:20.0000000Z",
+              "uuid": "9acff811-07c6-e811-a961-000d3ad24282"
+            }
+          ],
+          "RelatedPartyTransactions": null,
+          "RelevantTransactions": null,
+          "ReportingLate": "2027-06-30T12:30:00.0000000Z",
+          "ResponsiblePersons": [
+            {
+              "Name": "Frances Hayes",
+              "Role": "Director",
+              "uuid": "7eba179a-11b4-ee11-a567-002248935564"
+            }
+          ],
+          "Status": "Registered",
+          "SummaryOfActivities": null,
+          "TotalExpensesEmployee": "0",
+          "TotalExpensesGrantsAndDonationsInAustralia": "0",
+          "TotalExpensesGrantsAndDonationsOutsideAustralia": "0",
+          "TotalExpensesInterest": "0",
+          "TotalExpensesOther": "0",
+          "TotalGrossIncomeDonationsAndRequests": "0",
+          "TotalGrossIncomeGoodsOrServices": "0",
+          "TotalGrossIncomeGovernmentGrants": "0",
+          "TotalGrossIncomeInvestments": "0",
+          "TotalGrossIncomeOtherRevenues": "0",
+          "TransparencyRegisterUrl": null,
+          "Website": null,
+          "__normalized": true,
+          "type": "charity",
+          "uuid": "306892b3-3aaf-e811-a962-000d3ad24a0d"
+        },
+        "type": "charity",
+        "uuid": "306892b3-3aaf-e811-a962-000d3ad24a0d"
+      },
+      "canonical_field_mappings": {
+        "data.Name": "display_name",
+        "data.OtherNames": "operating_names",
+        "data.AnnualReports": "acnc_ais_url",
+        "data.Programs": "programs"
+      },
+      "evidence_ids": [
+        "ev:acnc:ais:17624324741:2025"
       ]
     }
   ],
@@ -217,7 +746,10 @@
         "source_precision": null
       },
       "assets": null,
-      "liabilities": null
+      "liabilities": null,
+      "income_breakdown": [],
+      "expense_breakdown": [],
+      "balance_sheet_breakdown": []
     }
   ],
   "financial_metrics": [
@@ -321,6 +853,30 @@
       "page": null,
       "section": null,
       "content_hash": null
+    },
+    {
+      "evidence_id": "ev:abr-dgr:17624324741:20260805",
+      "source_type": "regulatory",
+      "title": "ABR DGR bulk observation",
+      "publisher": "Australian Business Register / Australian Taxation Office",
+      "url": "https://abr.business.gov.au/Tools/BulkExtract",
+      "observed_at": "2026-08-05",
+      "reporting_period": null,
+      "page": null,
+      "section": null,
+      "content_hash": null
+    },
+    {
+      "evidence_id": "ev:acnc:ais:17624324741:2025",
+      "source_type": "regulatory",
+      "title": "Thalanyji Foundation Limited Annual Information Statement 2025",
+      "publisher": "Australian Charities and Not-for-profits Commission",
+      "url": "https://www.acnc.gov.au/charity/charities/306892b3-3aaf-e811-a962-000d3ad24a0d/documents/3161d5c6-7005-f111-8406-6045bde5be38",
+      "observed_at": "2026-02-09",
+      "reporting_period": null,
+      "page": null,
+      "section": null,
+      "content_hash": null
     }
   ],
   "embedding": {
@@ -329,8 +885,8 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "221f642b4b19d7054face3ce73163430cf8eb85d524f28f8bc9c63bf689ab783",
-    "generated_at": "2026-08-10T13:53:24.455542Z",
+    "source_text_hash": "7fcfb12f5c3c855b7077bdcb953274fb4d937aea411dd3b2fa24196c56560ae7",
+    "generated_at": "2026-08-13T00:32:18.620547Z",
     "vector_ref": "embeddings.parquet#cb_f103425b6106435992aafbfd8329755b"
   },
   "synthesis": {
@@ -401,9 +957,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc2",
-  "card_schema_version": "0.3",
+  "dataset_version": "phase2b-2026-08-13-rc3",
+  "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.3.0-rc2",
-  "built_at": "2026-08-12T14:24:20.675968Z"
+  "generator_version": "0.4.0-rc3",
+  "built_at": "2026-08-13T00:32:15.698599Z"
 }

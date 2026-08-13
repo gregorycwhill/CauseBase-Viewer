@@ -1,0 +1,123 @@
+{
+  "inventory_version": "phase2b-0.1",
+  "scope": "Current 120-subject human-test corpus; the source architecture supports broader public coverage.",
+  "source_families": [
+    {
+      "source_name": "ACNC Charity Register",
+      "publisher": "Australian Charities and Not-for-profits Commission",
+      "source_url": "https://www.acnc.gov.au/charity/about-charity-register/download-charity-register-data",
+      "licence_or_attribution": "Government source; retain ACNC attribution. Verify dataset-specific terms at each refresh.",
+      "refresh_cadence": "Register dataset regularly updated",
+      "historical_coverage": "Current register projection; source history retained when acquired.",
+      "identity_keys": [
+        "ABN",
+        "ACNC source-record ID"
+      ],
+      "source_field_count": "variable dataset schema",
+      "currently_preserved": [
+        "identity",
+        "legal name",
+        "registration status",
+        "source-native classifications"
+      ],
+      "currently_canonicalised": [
+        "registration",
+        "external identifiers",
+        "classifications"
+      ],
+      "currently_discarded": [],
+      "not_yet_processed": [
+        "full public profile field surface",
+        "people records"
+      ],
+      "limitations": "Withheld information is not present in public datasets."
+    },
+    {
+      "source_name": "ACNC Annual Information Statement datasets",
+      "publisher": "Australian Charities and Not-for-profits Commission",
+      "source_url": "https://www.acnc.gov.au/charity/about-charity-register/download-charity-register-data",
+      "licence_or_attribution": "Government source; retain ACNC attribution. Verify dataset-specific terms at each refresh.",
+      "refresh_cadence": "Annual datasets updated weekly",
+      "historical_coverage": "Acquired annual observations are append-only.",
+      "identity_keys": [
+        "ABN",
+        "reporting period",
+        "AIS source-record ID"
+      ],
+      "source_field_count": "variable dataset schema",
+      "currently_preserved": [
+        "financial values",
+        "period",
+        "reporting scope",
+        "selected source-native fields"
+      ],
+      "currently_canonicalised": [
+        "financial records",
+        "financial metrics",
+        "government grants",
+        "donations"
+      ],
+      "currently_discarded": [],
+      "not_yet_processed": [
+        "full activity/program and beneficiary history for all years"
+      ],
+      "limitations": "Source disclosures and reporting requirements vary by charity size and exemptions."
+    },
+    {
+      "source_name": "ABR / ATO ABN Lookup bulk extract and DGR material",
+      "publisher": "Australian Business Register / Australian Taxation Office",
+      "source_url": "https://abr.business.gov.au/Tools/BulkExtract",
+      "licence_or_attribution": "ABR bulk extract terms apply; existing DGR ingest records its source metadata.",
+      "refresh_cadence": "Weekly bulk extract",
+      "historical_coverage": "Dated DGR observations retained when acquired.",
+      "identity_keys": [
+        "ABN"
+      ],
+      "source_field_count": "bulk extract schema",
+      "currently_preserved": [
+        "dated DGR status in private backbone"
+      ],
+      "currently_canonicalised": [
+        "external tax status when resolved"
+      ],
+      "currently_discarded": [],
+      "not_yet_processed": [
+        "expanded ABR entity and business-name history for the 120 cards"
+      ],
+      "limitations": "DGR presence is source-date-specific; absence is not a general negative claim."
+    },
+    {
+      "source_name": "ASIC public information",
+      "publisher": "Australian Securities and Investments Commission",
+      "source_url": "https://asic.gov.au/online-services/search-asic-registers/",
+      "licence_or_attribution": "Not integrated pending record-level access, cost and terms review.",
+      "refresh_cadence": "Not assessed",
+      "historical_coverage": "Not assessed",
+      "identity_keys": [
+        "ACN",
+        "ARBN"
+      ],
+      "source_field_count": "Not assessed",
+      "currently_preserved": [],
+      "currently_canonicalised": [],
+      "currently_discarded": [],
+      "not_yet_processed": [
+        "ASIC integration"
+      ],
+      "limitations": "Some records/documents may be fee-based or subject to access terms; CauseBase does not scrape around payment or access controls."
+    }
+  ],
+  "gap_report": [
+    "All regulator fields present in the acquired Phase 2A ACNC/AIS observations are exposed canonically or in source-native sidecars.",
+    "A field not present in those acquired observations is explicitly represented as not_yet_processed; this candidate does not claim to mirror unacquired ACNC profile surfaces.",
+    "ASIC remains outside the accepted access/cost/terms boundary."
+  ],
+  "migration": {
+    "reason": "Editorial policy, synthesis prompt and summary output contract changed for Phase 2B RC2.",
+    "model": "gpt-5-mini",
+    "calls": 120,
+    "input_tokens": 327726,
+    "output_tokens": 222747,
+    "estimated_cost_usd": "0.527423"
+  }
+}

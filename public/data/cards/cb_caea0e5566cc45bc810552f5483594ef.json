@@ -18,7 +18,16 @@
       ]
     }
   ],
-  "tax_statuses": [],
+  "tax_statuses": [
+    {
+      "scheme": "ABR DGR",
+      "status": "endorsed",
+      "detail": "Dated 2026-08-05 ABR bulk observation",
+      "evidence_ids": [
+        "ev:abr-dgr:68180228511:20260805"
+      ]
+    }
+  ],
   "relationships": [],
   "source_resolutions": [
     {
@@ -37,6 +46,12 @@
   "legal_name": "THE TRUSTEE FOR THE L.&M. COWAN FOUNDATION",
   "display_name": "THE TRUSTEE FOR THE L.&M. COWAN FOUNDATION",
   "entity_status": "registered",
+  "canonical_url": "https://gregorycwhill.github.io/CauseBase-Viewer/#cb_caea0e5566cc45bc810552f5483594ef",
+  "acnc_profile_url": "https://www.acnc.gov.au/charity/charities/e2035a3b-3aaf-e811-a963-000d3ad244fd/profile",
+  "acnc_ais_url": "https://www.acnc.gov.au/charity/charities/e2035a3b-3aaf-e811-a963-000d3ad244fd/documents/4c0d69ba-fb9c-f011-bbd2-6045bdc40aa5",
+  "operating_names": [],
+  "former_names": [],
+  "principal_location": "Australia",
   "coverage": [
     {
       "capability": "regulatory",
@@ -81,6 +96,16 @@
       ],
       "observed_at": "2026-08-10",
       "freshness_note": null
+    },
+    {
+      "capability": "latest_acnc_ais",
+      "status": "observed",
+      "source_record_id": null,
+      "evidence_ids": [
+        "ev:acnc:ais:68180228511:2025"
+      ],
+      "observed_at": "2025-09-29",
+      "freshness_note": "Latest submitted ACNC AIS in the 2026-08-13 public-profile acquisition: 2025."
     }
   ],
   "enrichment_level": "enriched",
@@ -105,7 +130,9 @@
   "activities": [],
   "beneficiaries": [],
   "participation_modes": [],
+  "participation_observations": [],
   "opportunities": [],
+  "programs": [],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:e603f2e1-9903-5d8a-9c01-d03761b7c7d2",
@@ -125,6 +152,7 @@
         "ACNC registration ID": null,
         "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
+      "source_payload": null,
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
         "Legal Name": "legal_name",
@@ -154,12 +182,616 @@
         "Assets": null,
         "Liabilities": null
       },
+      "source_payload": null,
       "canonical_field_mappings": {
         "Revenue": "financial_records[].revenue",
         "Total expenses": "financial_records[].total_expenses"
       },
       "evidence_ids": [
         "ev:ais:68180228511:2023"
+      ]
+    },
+    {
+      "source_record_id": "src:acnc-public-profile:68180228511:cb_caea0e5566cc45bc810552f5483594ef:2026-08-13",
+      "source_family": "acnc-public-profile",
+      "dataset_version": "2026-08-13-public-api",
+      "source_url": "https://www.acnc.gov.au/charity/charities/e2035a3b-3aaf-e811-a963-000d3ad244fd/profile",
+      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "observed_at": "2025-09-29",
+      "effective_from": null,
+      "effective_to": null,
+      "source_fields": {
+        "uuid": "e2035a3b-3aaf-e811-a963-000d3ad244fd",
+        "abn": "68180228511",
+        "latest_ais_year": "2025",
+        "latest_ais_uuid": "4c0d69ba-fb9c-f011-bbd2-6045bdc40aa5"
+      },
+      "source_payload": {
+        "data": {
+          "AFSEmail": "surquhart@nexiasydney.com.au",
+          "Abn": "68180228511",
+          "AddressCountry": null,
+          "AddressLine1": null,
+          "AddressLine2": null,
+          "AddressLine3": null,
+          "AddressPostalCode": null,
+          "AddressStateOrProvince": null,
+          "AddressSuburb": null,
+          "AnnualReports": [
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2026-12-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Not yet submitted",
+              "Year": "2026",
+              "type": "Annual Information Statement 2026",
+              "uuid": "ca72bf45-d6df-ef11-a731-000d3ad04fa6"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2026-12-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Pending",
+              "Year": "2026",
+              "type": "Financial Report 2026",
+              "uuid": "d772bf45-d6df-ef11-a731-000d3ad04fa6"
+            },
+            {
+              "AISId": "beb85b12-5f41-ea11-a813-000d3ad1f9f4",
+              "DateReceived": "2020-01-27T23:45:21.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2020-01-31T00:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2019",
+              "type": "Annual Information Statement 2019",
+              "uuid": "10495e9f-e03e-e911-a978-000d3ad0574c"
+            },
+            {
+              "AISId": "dccfe002-8acd-eb11-8235-002248103e22",
+              "DateReceived": "2021-06-15T03:30:28.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2021-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2020",
+              "type": "Annual Information Statement 2020",
+              "uuid": "13495e9f-e03e-e911-a978-000d3ad0574c"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2020-01-27T23:45:16.0000000Z",
+              "DocumentUuid": "39b7e80b-5f41-ea11-a812-000d3ad1cc03",
+              "DueDate": "2020-01-31T00:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2019",
+              "type": "Financial Report 2019",
+              "uuid": "16495e9f-e03e-e911-a978-000d3ad0574c"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2021-06-15T03:30:22.0000000Z",
+              "DocumentUuid": "750139f9-89cd-eb11-bacc-000d3a6aad87",
+              "DueDate": "2021-01-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2020",
+              "type": "Financial Report 2020",
+              "uuid": "19495e9f-e03e-e911-a978-000d3ad0574c"
+            },
+            {
+              "AISId": "82336657-fc1d-ed11-b83d-00224812bcee",
+              "DateReceived": "2022-08-17T07:15:23.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2023-01-31T00:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2022",
+              "type": "Annual Information Statement 2022",
+              "uuid": "4557c38d-d263-eb11-b0b0-000d3ad1ce4e"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2022-08-17T07:15:21.0000000Z",
+              "DocumentUuid": "87c45951-fc1d-ed11-b83d-00224812b54e",
+              "DueDate": "2023-01-31T00:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2022",
+              "type": "Financial Report 2022",
+              "uuid": "5a57c38d-d263-eb11-b0b0-000d3ad1ce4e"
+            },
+            {
+              "AISId": "d9c93e8b-8317-ec11-b6e5-000d3ad2b8a1",
+              "DateReceived": "2021-09-17T06:50:37.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2022-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2021",
+              "type": "Annual Information Statement 2021",
+              "uuid": "7a467d4f-9244-ea11-a813-000d3ad1f29c"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2021-09-17T06:50:30.0000000Z",
+              "DocumentUuid": "6531d580-8317-ec11-b6e6-000d3ad05f4a",
+              "DueDate": "2022-01-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2021",
+              "type": "Financial Report 2021",
+              "uuid": "8f467d4f-9244-ea11-a813-000d3ad1f29c"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Not required",
+              "Year": "2015",
+              "type": "Financial Report 2015",
+              "uuid": "25d1447e-40c8-e811-a964-000d3ad24077"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Not required",
+              "Year": "2014",
+              "type": "Financial Report 2014",
+              "uuid": "2ad1447e-40c8-e811-a964-000d3ad24077"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Not required",
+              "Year": "2013",
+              "type": "Financial Report 2013",
+              "uuid": "7ed62c82-40c8-e811-a962-000d3ad24182"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2018-10-25T06:10:21.0000000Z",
+              "DocumentUuid": "7b79639c-1cd8-e811-a962-000d3ad24282",
+              "DueDate": "2019-03-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2018",
+              "type": "Financial Report 2018",
+              "uuid": "94d62c82-40c8-e811-a962-000d3ad24182"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2018-09-09T14:00:00.0000000Z",
+              "DocumentUuid": "ef47b454-5dc8-e811-a95f-000d3ad24c60",
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2016",
+              "type": "Financial Report 2016",
+              "uuid": "a5d62c82-40c8-e811-a962-000d3ad24182"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2018-10-15T06:50:25.0000000Z",
+              "DocumentUuid": "fc1c0490-46d0-e811-a961-000d3ad24282",
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Not required - small",
+              "Year": "2017",
+              "type": "Financial Report 2017",
+              "uuid": "b9d62c82-40c8-e811-a962-000d3ad24182"
+            },
+            {
+              "AISId": "6c05ed96-46d0-e811-a96b-000d3ad05e15",
+              "DateReceived": "2018-10-15T06:50:29.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2018-02-27T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2017",
+              "type": "Annual Information Statement 2017",
+              "uuid": "17e4087a-3bc8-e811-a961-000d3ad24282"
+            },
+            {
+              "AISId": "560c9aa0-1cd8-e811-a96a-000d3ad06f2d",
+              "DateReceived": "2018-10-25T06:10:24.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2019-03-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2018",
+              "type": "Annual Information Statement 2018",
+              "uuid": "25e4087a-3bc8-e811-a961-000d3ad24282"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": true,
+              "Status": "Not required",
+              "Year": "2013",
+              "type": "Annual Information Statement 2013",
+              "uuid": "37e4087a-3bc8-e811-a961-000d3ad24282"
+            },
+            {
+              "AISId": "2499737d-52c8-e811-a95f-000d3ad24c60",
+              "DateReceived": "2018-09-09T14:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2017-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2016",
+              "type": "Annual Information Statement 2016",
+              "uuid": "b099737d-52c8-e811-a95f-000d3ad24c60"
+            },
+            {
+              "AISId": "3999737d-52c8-e811-a95f-000d3ad24c60",
+              "DateReceived": "2016-11-02T13:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2015-02-27T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2014",
+              "type": "Annual Information Statement 2014",
+              "uuid": "bb99737d-52c8-e811-a95f-000d3ad24c60"
+            },
+            {
+              "AISId": "4299737d-52c8-e811-a95f-000d3ad24c60",
+              "DateReceived": "2016-11-02T13:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2016-02-27T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2015",
+              "type": "Annual Information Statement 2015",
+              "uuid": "c599737d-52c8-e811-a95f-000d3ad24c60"
+            },
+            {
+              "AISId": "7a7a2404-3a51-ee11-be6f-00224893bd39",
+              "DateReceived": "2023-09-12T07:00:41.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2024-01-31T00:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2023",
+              "type": "Annual Information Statement 2023",
+              "uuid": "96570ca5-9e82-ec11-8d20-002248929301"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2023-09-12T07:00:18.0000000Z",
+              "DocumentUuid": "35c50efe-3951-ee11-be6f-002248122521",
+              "DueDate": "2024-01-31T00:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2023",
+              "type": "Financial Report 2023",
+              "uuid": "b6570ca5-9e82-ec11-8d20-002248929301"
+            },
+            {
+              "AISId": "4c0d69ba-fb9c-f011-bbd2-6045bdc40aa5",
+              "DateReceived": "2025-09-29T06:15:55.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2026-01-31T00:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2025",
+              "type": "Annual Information Statement 2025",
+              "uuid": "da79338c-97c0-ee11-907a-00224893b0ed"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2025-09-29T06:15:18.0000000Z",
+              "DocumentUuid": "213772a7-fb9c-f011-bbd2-7ced8d32de18",
+              "DueDate": "2026-01-31T00:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2025",
+              "type": "Financial Report 2025",
+              "uuid": "ef79338c-97c0-ee11-907a-00224893b0ed"
+            },
+            {
+              "AISId": "bfb6ed16-49d1-ef11-a72f-000d3ad17a98",
+              "DateReceived": "2025-01-13T00:55:46.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2025-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2024",
+              "type": "Annual Information Statement 2024",
+              "uuid": "236171b6-c9a1-ed11-aad1-00224893b304"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2025-01-13T00:55:27.0000000Z",
+              "DocumentUuid": "2a3fa109-49d1-ef11-a72f-7c1e522b0303",
+              "DueDate": "2025-01-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2024",
+              "type": "Financial Report 2024",
+              "uuid": "556171b6-c9a1-ed11-aad1-00224893b304"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2027-12-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Not yet submitted",
+              "Year": "2027",
+              "type": "Annual Information Statement 2027",
+              "uuid": "f15feffa-0dff-f011-8406-6045bdc27ae7"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2027-12-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Pending",
+              "Year": "2027",
+              "type": "Financial Report 2027",
+              "uuid": "fe5feffa-0dff-f011-8406-6045bdc27ae7"
+            }
+          ],
+          "Beneficiaries": [
+            {
+              "Description": null,
+              "Name": "Environment",
+              "uuid": "518661c0-fb9c-f011-bbd2-6045bdc40aa5"
+            },
+            {
+              "Description": null,
+              "Name": "Animals",
+              "uuid": "958661c0-fb9c-f011-bbd2-6045bdc40aa5"
+            }
+          ],
+          "CharitySize": "Large",
+          "CharitySubtypeHistory": [
+            {
+              "EndDate": null,
+              "Purpose": "Purposes beneficial to the general public that may reasonably be regarded as analogous to, or within the spirit of, any of the other charitable purposes",
+              "StartDate": "2016-05-10T14:00:00.0000000Z",
+              "uuid": "495e35be-143e-e911-a973-000d3ad24282"
+            }
+          ],
+          "CharityVersion": "127",
+          "ChildMemberEndDate": null,
+          "ChildMemberStartDate": null,
+          "ChooseToProvideAis": null,
+          "Countries": [
+            {
+              "Name": "Australia",
+              "uuid": "f57b5602-9a4d-e811-a951-000d3ad06f2d"
+            }
+          ],
+          "DateEstablished": "2009-12-31T13:00:00.0000000Z",
+          "Documents": [
+            {
+              "Date": "2019-03-04T00:00:00.0000000",
+              "Title": "Amd deed and Founding deed",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/e2035a3b-3aaf-e811-a963-000d3ad244fd-83a573aa-cac8-4100-909a-3c6efc829ab7-Governing%20Document-32a4a53c-133e-e911-a973-000d3ad24282-Gov_doc_-_The_Trustee_for_the_L_&_M_Cowan_Foundation_Redacted.pdf",
+              "Year": null,
+              "type": "Governing Document",
+              "uuid": "32a4a53c-133e-e911-a973-000d3ad24282"
+            },
+            {
+              "Date": "2021-06-15T00:00:00.0000000",
+              "Title": "l & m cowan foundation 20 fs signed.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/e2035a3b-3aaf-e811-a963-000d3ad244fd-83a573aa-cac8-4100-909a-3c6efc829ab7-Financial%20Report-750139f9-89cd-eb11-bacc-000d3a6aad87-l_&_m_cowan_foundation_20_fs_signed.pdf",
+              "Year": "2020",
+              "type": "Financial Report",
+              "uuid": "750139f9-89cd-eb11-bacc-000d3a6aad87"
+            },
+            {
+              "Date": "2021-09-17T00:00:00.0000000",
+              "Title": "l & m cowan foundation 21 fs.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/e2035a3b-3aaf-e811-a963-000d3ad244fd-83a573aa-cac8-4100-909a-3c6efc829ab7-Financial%20Report-6531d580-8317-ec11-b6e6-000d3ad05f4a-l_&_m_cowan_foundation_21_fs.pdf",
+              "Year": "2021",
+              "type": "Financial Report",
+              "uuid": "6531d580-8317-ec11-b6e6-000d3ad05f4a"
+            },
+            {
+              "Date": "2020-01-28T00:00:00.0000000",
+              "Title": "L & M Cowan Foundation 19 fs.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/e2035a3b-3aaf-e811-a963-000d3ad244fd-83a573aa-cac8-4100-909a-3c6efc829ab7-Financial%20Report-39b7e80b-5f41-ea11-a812-000d3ad1cc03-L_&_M_Cowan_Foundation_19_fs.pdf",
+              "Year": "2019",
+              "type": "Financial Report",
+              "uuid": "39b7e80b-5f41-ea11-a812-000d3ad1cc03"
+            },
+            {
+              "Date": "2018-10-15T00:00:00.0000000",
+              "Title": "financial report 2017.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/e2035a3b-3aaf-e811-a963-000d3ad244fd-83a573aa-cac8-4100-909a-3c6efc829ab7-Financial%20Report-fc1c0490-46d0-e811-a961-000d3ad24282-financial_report_2017.pdf",
+              "Year": "2017",
+              "type": "Financial Report",
+              "uuid": "fc1c0490-46d0-e811-a961-000d3ad24282"
+            },
+            {
+              "Date": "2018-10-25T00:00:00.0000000",
+              "Title": "fin report 18.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/e2035a3b-3aaf-e811-a963-000d3ad244fd-83a573aa-cac8-4100-909a-3c6efc829ab7-Financial%20Report-7b79639c-1cd8-e811-a962-000d3ad24282-fin_report_18.pdf",
+              "Year": "2018",
+              "type": "Financial Report",
+              "uuid": "7b79639c-1cd8-e811-a962-000d3ad24282"
+            },
+            {
+              "Date": "2018-09-10T00:00:00.0000000",
+              "Title": "fin st 16.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/e2035a3b-3aaf-e811-a963-000d3ad244fd-83a573aa-cac8-4100-909a-3c6efc829ab7-Financial%20Report-ef47b454-5dc8-e811-a95f-000d3ad24c60-fin_st_16.pdf",
+              "Year": "2016",
+              "type": "Financial Report",
+              "uuid": "ef47b454-5dc8-e811-a95f-000d3ad24c60"
+            },
+            {
+              "Date": "2023-09-12T00:00:00.0000000",
+              "Title": "l & m cowan foundation 23 fs signed .pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/e2035a3b-3aaf-e811-a963-000d3ad244fd-83a573aa-cac8-4100-909a-3c6efc829ab7-Financial%20Report-35c50efe-3951-ee11-be6f-002248122521-l_&_m_cowan_foundation_23_fs_signed_.pdf",
+              "Year": "2023",
+              "type": "Financial Report",
+              "uuid": "35c50efe-3951-ee11-be6f-002248122521"
+            },
+            {
+              "Date": "2022-08-17T00:00:00.0000000",
+              "Title": "l & m cowan foundation 22 fs signed.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/e2035a3b-3aaf-e811-a963-000d3ad244fd-83a573aa-cac8-4100-909a-3c6efc829ab7-Financial%20Report-87c45951-fc1d-ed11-b83d-00224812b54e-l_&_m_cowan_foundation_22_fs_signed.pdf",
+              "Year": "2022",
+              "type": "Financial Report",
+              "uuid": "87c45951-fc1d-ed11-b83d-00224812b54e"
+            },
+            {
+              "Date": "2025-01-13T00:00:00.0000000",
+              "Title": "The L.  M. Cowan Foundation Financial Statements FY2024_signed.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/e2035a3b-3aaf-e811-a963-000d3ad244fd-83a573aa-cac8-4100-909a-3c6efc829ab7-Financial%20Report-2a3fa109-49d1-ef11-a72f-7c1e522b0303-The_L.__M._Cowan_Foundation_Financial_Statements_FY2024_signed.pdf",
+              "Year": "2024",
+              "type": "Financial Report",
+              "uuid": "2a3fa109-49d1-ef11-a72f-7c1e522b0303"
+            },
+            {
+              "Date": "2025-09-29T00:00:00.0000000",
+              "Title": "The L & M Cowan Foundation - Financial Statements FY2025 - Signed.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/e2035a3b-3aaf-e811-a963-000d3ad244fd-83a573aa-cac8-4100-909a-3c6efc829ab7-Financial%20Report-213772a7-fb9c-f011-bbd2-7ced8d32de18-The_L_&_M_Cowan_Foundation_-_Financial_Statements_FY2025_-_Signed.pdf",
+              "Year": "2025",
+              "type": "Financial Report",
+              "uuid": "213772a7-fb9c-f011-bbd2-7ced8d32de18"
+            }
+          ],
+          "Email": "lyndac@lemacaustralia.com.au",
+          "EnforcementOutcomes": [],
+          "FinancialYearEnd": "30/06",
+          "GovernmentAgencies": [],
+          "GroupHeadFlag": false,
+          "LastReported": "2025-09-29T06:15:55.0000000Z",
+          "Name": "THE TRUSTEE FOR THE L.&M. COWAN FOUNDATION",
+          "NextReportDue": "2026-12-31T12:30:00.0000000Z",
+          "OperatingInStates": [],
+          "OtherDetails": null,
+          "OtherNames": [],
+          "ParentAccountAbn": null,
+          "ParentAccountId": null,
+          "Phone": "0407913667",
+          "Programs": [
+            {
+              "AisUuid": "4c0d69ba-fb9c-f011-bbd2-6045bdc40aa5",
+              "Name": "Wildlife welfare",
+              "OperatesOnline": true,
+              "ProgramBeneficiaries": [
+                "Animals",
+                "Environment"
+              ],
+              "ProgramClassie": [
+                {
+                  "classie_id": "35",
+                  "label": "Wildlife welfare",
+                  "parent_id": "26",
+                  "selected": true
+                },
+                {
+                  "classie_id": "26",
+                  "label": "Animal welfare",
+                  "parent_id": null,
+                  "selected": false
+                }
+              ],
+              "ProgramClassification": "Wildlife welfare",
+              "ProgramClassificationID": "35",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Australia",
+                  "FormattedAddress": "Australia",
+                  "Marker": {
+                    "Latitude": -25.274398,
+                    "Longitude": 133.775136
+                  },
+                  "Name": "Australia",
+                  "uuid": "2e8661c0-fb9c-f011-bbd2-6045bdc40aa5"
+                }
+              ],
+              "ProgramWeblink": null,
+              "uuid": "fc8561c0-fb9c-f011-bbd2-6045bdc40aa5"
+            }
+          ],
+          "ReferendumReturnsUrl": null,
+          "RegistrationStatusHistory": [
+            {
+              "EffectiveDate": "2016-05-10T14:00:00.0000000Z",
+              "Status": "Registered",
+              "TransactionDate": "2019-03-05T00:50:11.0000000Z",
+              "uuid": "daedae9d-e03e-e911-a97b-000d3ad05ad0"
+            },
+            {
+              "EffectiveDate": "2016-05-10T14:00:00.0000000Z",
+              "Status": "Revoked Double defaulter",
+              "TransactionDate": "2016-05-10T14:00:00.0000000Z",
+              "uuid": "8b24a0f2-06c6-e811-a964-000d3ad24077"
+            },
+            {
+              "EffectiveDate": "2013-12-31T13:00:00.0000000Z",
+              "Status": "Registered",
+              "TransactionDate": "2013-12-31T13:00:00.0000000Z",
+              "uuid": "9b24a0f2-06c6-e811-a964-000d3ad24077"
+            }
+          ],
+          "RelatedPartyTransactions": null,
+          "RelevantTransactions": null,
+          "ReportingLate": "2027-06-30T12:30:00.0000000Z",
+          "ResponsiblePersons": [
+            {
+              "Name": "MICHAEL ALEXANDER COWAN",
+              "Role": "Director",
+              "uuid": "637eef7c-9382-e911-a973-000d3ad24077"
+            },
+            {
+              "Name": "Lynda Cowan",
+              "Role": "Director",
+              "uuid": "c0652114-32e0-ee11-904c-000d3ad0466e"
+            }
+          ],
+          "Status": "Registered",
+          "SummaryOfActivities": "Spending money on charitable purposes",
+          "TotalExpensesEmployee": "0",
+          "TotalExpensesGrantsAndDonationsInAustralia": "60000",
+          "TotalExpensesGrantsAndDonationsOutsideAustralia": "0",
+          "TotalExpensesInterest": "0",
+          "TotalExpensesOther": "3181",
+          "TotalGrossIncomeDonationsAndRequests": "3488332",
+          "TotalGrossIncomeGoodsOrServices": "0",
+          "TotalGrossIncomeGovernmentGrants": "0",
+          "TotalGrossIncomeInvestments": "44148",
+          "TotalGrossIncomeOtherRevenues": "0",
+          "TransparencyRegisterUrl": null,
+          "Website": null,
+          "__normalized": true,
+          "type": "charity",
+          "uuid": "e2035a3b-3aaf-e811-a963-000d3ad244fd"
+        },
+        "type": "charity",
+        "uuid": "e2035a3b-3aaf-e811-a963-000d3ad244fd"
+      },
+      "canonical_field_mappings": {
+        "data.Name": "display_name",
+        "data.OtherNames": "operating_names",
+        "data.AnnualReports": "acnc_ais_url",
+        "data.Programs": "programs"
+      },
+      "evidence_ids": [
+        "ev:acnc:ais:68180228511:2025"
       ]
     }
   ],
@@ -207,7 +839,10 @@
         "source_precision": null
       },
       "assets": null,
-      "liabilities": null
+      "liabilities": null,
+      "income_breakdown": [],
+      "expense_breakdown": [],
+      "balance_sheet_breakdown": []
     }
   ],
   "financial_metrics": [
@@ -311,6 +946,30 @@
       "page": null,
       "section": null,
       "content_hash": null
+    },
+    {
+      "evidence_id": "ev:abr-dgr:68180228511:20260805",
+      "source_type": "regulatory",
+      "title": "ABR DGR bulk observation",
+      "publisher": "Australian Business Register / Australian Taxation Office",
+      "url": "https://abr.business.gov.au/Tools/BulkExtract",
+      "observed_at": "2026-08-05",
+      "reporting_period": null,
+      "page": null,
+      "section": null,
+      "content_hash": null
+    },
+    {
+      "evidence_id": "ev:acnc:ais:68180228511:2025",
+      "source_type": "regulatory",
+      "title": "THE TRUSTEE FOR THE L.&M. COWAN FOUNDATION Annual Information Statement 2025",
+      "publisher": "Australian Charities and Not-for-profits Commission",
+      "url": "https://www.acnc.gov.au/charity/charities/e2035a3b-3aaf-e811-a963-000d3ad244fd/documents/4c0d69ba-fb9c-f011-bbd2-6045bdc40aa5",
+      "observed_at": "2025-09-29",
+      "reporting_period": null,
+      "page": null,
+      "section": null,
+      "content_hash": null
     }
   ],
   "embedding": {
@@ -319,8 +978,8 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "16233f8b305b28738fd64ff890a2360dec102ca10b52814b42b3db61eaae3d99",
-    "generated_at": "2026-08-10T13:53:24.458129Z",
+    "source_text_hash": "5780744c81b2aad0cf4e8fe8a2a8d6948c993e9456b8d58b7f235814f624bd2b",
+    "generated_at": "2026-08-13T00:32:18.624690Z",
     "vector_ref": "embeddings.parquet#cb_caea0e5566cc45bc810552f5483594ef"
   },
   "synthesis": {
@@ -391,9 +1050,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc2",
-  "card_schema_version": "0.3",
+  "dataset_version": "phase2b-2026-08-13-rc3",
+  "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.3.0-rc2",
-  "built_at": "2026-08-12T14:24:20.675968Z"
+  "generator_version": "0.4.0-rc3",
+  "built_at": "2026-08-13T00:32:15.698599Z"
 }

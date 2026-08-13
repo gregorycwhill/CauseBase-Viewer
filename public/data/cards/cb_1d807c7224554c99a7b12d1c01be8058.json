@@ -37,6 +37,12 @@
   "legal_name": "Backyard Ministries Incorporated",
   "display_name": "Backyard Ministries Incorporated",
   "entity_status": "registered",
+  "canonical_url": "https://gregorycwhill.github.io/CauseBase-Viewer/#cb_1d807c7224554c99a7b12d1c01be8058",
+  "acnc_profile_url": "https://www.acnc.gov.au/charity/charities/167fe4a8-38af-e811-a962-000d3ad24a0d/profile",
+  "acnc_ais_url": "https://www.acnc.gov.au/charity/charities/167fe4a8-38af-e811-a962-000d3ad24a0d/documents/4cafc6dc-614f-f011-877b-6045bdc235e4",
+  "operating_names": [],
+  "former_names": [],
+  "principal_location": "ACT, Australia",
   "coverage": [
     {
       "capability": "regulatory",
@@ -81,6 +87,16 @@
       ],
       "observed_at": "2026-08-10",
       "freshness_note": null
+    },
+    {
+      "capability": "latest_acnc_ais",
+      "status": "observed",
+      "source_record_id": null,
+      "evidence_ids": [
+        "ev:acnc:ais:50798979881:2024"
+      ],
+      "observed_at": "2025-06-22",
+      "freshness_note": "Latest submitted ACNC AIS in the 2026-08-13 public-profile acquisition: 2024."
     }
   ],
   "enrichment_level": "enriched",
@@ -115,7 +131,9 @@
   "activities": [],
   "beneficiaries": [],
   "participation_modes": [],
+  "participation_observations": [],
   "opportunities": [],
+  "programs": [],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:b59420a9-d175-5a00-b49a-1eb31cd8ab1e",
@@ -135,6 +153,7 @@
         "ACNC registration ID": null,
         "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
+      "source_payload": null,
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
         "Legal Name": "legal_name",
@@ -164,12 +183,795 @@
         "Assets": null,
         "Liabilities": null
       },
+      "source_payload": null,
       "canonical_field_mappings": {
         "Revenue": "financial_records[].revenue",
         "Total expenses": "financial_records[].total_expenses"
       },
       "evidence_ids": [
         "ev:ais:50798979881:2023"
+      ]
+    },
+    {
+      "source_record_id": "src:acnc-public-profile:50798979881:cb_1d807c7224554c99a7b12d1c01be8058:2026-08-13",
+      "source_family": "acnc-public-profile",
+      "dataset_version": "2026-08-13-public-api",
+      "source_url": "https://www.acnc.gov.au/charity/charities/167fe4a8-38af-e811-a962-000d3ad24a0d/profile",
+      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "observed_at": "2025-06-22",
+      "effective_from": null,
+      "effective_to": null,
+      "source_fields": {
+        "uuid": "167fe4a8-38af-e811-a962-000d3ad24a0d",
+        "abn": "50798979881",
+        "latest_ais_year": "2024",
+        "latest_ais_uuid": "4cafc6dc-614f-f011-877b-6045bdc235e4"
+      },
+      "source_payload": {
+        "data": {
+          "AFSAddressPostalCode": "2913",
+          "AFSEmail": "53mickbrown@gmail.com",
+          "Abn": "50798979881",
+          "AddressCountry": "Australia",
+          "AddressLine1": "145 Paul Coe Cres",
+          "AddressLine2": null,
+          "AddressLine3": null,
+          "AddressPostalCode": "2913",
+          "AddressStateOrProvince": "ACT",
+          "AddressSuburb": "Ngunnawal",
+          "AddressSuburbStatePostcode": "Ngunnawal ACT 2913",
+          "AnnualReports": [
+            {
+              "AISId": "6e38e566-23b7-ed11-b597-002248935564",
+              "DateReceived": "2023-02-28T04:50:28.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2023-01-31T00:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2022",
+              "type": "Annual Information Statement 2022",
+              "uuid": "68947f3a-d363-eb11-b0b0-000d3acbaeea"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2023-02-28T04:50:22.0000000Z",
+              "DocumentUuid": "24c76860-23b7-ed11-b596-00224893cef4",
+              "DueDate": "2023-01-31T00:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2022",
+              "type": "Financial Report 2022",
+              "uuid": "7f947f3a-d363-eb11-b0b0-000d3acbaeea"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2020-01-28T01:10:20.0000000Z",
+              "DocumentUuid": "b77ebcee-6a41-ea11-a812-000d3ad1cf4f",
+              "DueDate": "2020-01-31T00:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2019",
+              "type": "Financial Report 2019",
+              "uuid": "5c03ba79-ea25-e911-a979-000d3ad05ad0"
+            },
+            {
+              "AISId": "57f274f6-6a41-ea11-a813-000d3ad1fbf8",
+              "DateReceived": "2020-01-28T01:10:28.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2020-01-31T00:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2019",
+              "type": "Annual Information Statement 2019",
+              "uuid": "9503ba79-ea25-e911-a979-000d3ad05ad0"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2021-03-26T07:10:26.0000000Z",
+              "DocumentUuid": "4bcd584c-028e-eb11-b1ac-000d3a6b21df",
+              "DueDate": "2021-01-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2020",
+              "type": "Financial Report 2020",
+              "uuid": "ef03ba79-ea25-e911-a979-000d3ad05ad0"
+            },
+            {
+              "AISId": "527dc554-028e-eb11-b1ac-000d3a6b24eb",
+              "DateReceived": "2021-03-26T07:10:31.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2021-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2020",
+              "type": "Annual Information Statement 2020",
+              "uuid": "4004ba79-ea25-e911-a979-000d3ad05ad0"
+            },
+            {
+              "AISId": "002f773a-18b7-ed11-b597-002248122521",
+              "DateReceived": "2023-02-28T03:30:28.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2022-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2021",
+              "type": "Annual Information Statement 2021",
+              "uuid": "0efda0d0-9044-ea11-a813-000d3ad1f29c"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2023-02-28T03:30:21.0000000Z",
+              "DocumentUuid": "141e5033-18b7-ed11-b597-002248110683",
+              "DueDate": "2022-01-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2021",
+              "type": "Financial Report 2021",
+              "uuid": "40fda0d0-9044-ea11-a813-000d3ad1f29c"
+            },
+            {
+              "AISId": "da9fcf8e-50c8-e811-a962-000d3ad24182",
+              "DateReceived": "2013-12-18T13:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2014-03-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2013",
+              "type": "Annual Information Statement 2013",
+              "uuid": "deac0393-50c8-e811-a964-000d3ad24077"
+            },
+            {
+              "AISId": "dd9fcf8e-50c8-e811-a962-000d3ad24182",
+              "DateReceived": "2015-10-30T13:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2015-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2014",
+              "type": "Annual Information Statement 2014",
+              "uuid": "efac0393-50c8-e811-a964-000d3ad24077"
+            },
+            {
+              "AISId": "e19fcf8e-50c8-e811-a962-000d3ad24182",
+              "DateReceived": "2015-12-20T13:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2016-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2015",
+              "type": "Annual Information Statement 2015",
+              "uuid": "10ad0393-50c8-e811-a964-000d3ad24077"
+            },
+            {
+              "AISId": "e39fcf8e-50c8-e811-a962-000d3ad24182",
+              "DateReceived": "2016-12-19T13:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2017-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2016",
+              "type": "Annual Information Statement 2016",
+              "uuid": "2bad0393-50c8-e811-a964-000d3ad24077"
+            },
+            {
+              "AISId": "a6ecc38f-f446-e911-a97b-000d3ad05e15",
+              "DateReceived": "2019-03-15T07:33:11.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2019-03-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2018",
+              "type": "Annual Information Statement 2018",
+              "uuid": "d0ef6e87-3ac8-e811-a961-000d3ad24282"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2013-12-18T13:00:00.0000000Z",
+              "DocumentUuid": "43db8519-45b0-e811-a963-000d3ad244fd",
+              "DueDate": "2014-03-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2013",
+              "type": "Financial Report 2013",
+              "uuid": "dae7f945-3ec8-e811-a961-000d3ad24282"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2015-10-30T13:00:00.0000000Z",
+              "DocumentUuid": "a2db8519-45b0-e811-a963-000d3ad244fd",
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2014",
+              "type": "Financial Report 2014",
+              "uuid": "ece7f945-3ec8-e811-a961-000d3ad24282"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2015-12-20T13:00:00.0000000Z",
+              "DocumentUuid": "1d44081c-45b0-e811-a960-000d3ad24282",
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2015",
+              "type": "Financial Report 2015",
+              "uuid": "07e8f945-3ec8-e811-a961-000d3ad24282"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2016-12-19T13:00:00.0000000Z",
+              "DocumentUuid": "3e44081c-45b0-e811-a960-000d3ad24282",
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2016",
+              "type": "Financial Report 2016",
+              "uuid": "1ae8f945-3ec8-e811-a961-000d3ad24282"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2019-03-15T07:33:06.0000000Z",
+              "DocumentUuid": "7472368e-f446-e911-a970-000d3ad24077",
+              "DueDate": "2019-03-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2018",
+              "type": "Financial Report 2018",
+              "uuid": "26e8f945-3ec8-e811-a961-000d3ad24282"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Not required",
+              "Year": "2017",
+              "type": "Financial Report 2017",
+              "uuid": "30e8f945-3ec8-e811-a961-000d3ad24282"
+            },
+            {
+              "AISId": "49eef78c-50c8-e811-a961-000d3ad24282",
+              "DateReceived": "2018-01-16T13:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2018-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2017",
+              "type": "Annual Information Statement 2017",
+              "uuid": "9994818e-50c8-e811-a963-000d3ad24a0d"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2026-12-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Not yet submitted",
+              "Year": "2026",
+              "type": "Annual Information Statement 2026",
+              "uuid": "9ea6da8f-d6df-ef11-a732-00224891e269"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2026-12-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Pending",
+              "Year": "2026",
+              "type": "Financial Report 2026",
+              "uuid": "b1a6da8f-d6df-ef11-a732-00224891e269"
+            },
+            {
+              "AISId": "3eba69e1-1006-ef11-9f89-000d3acadbb7",
+              "DateReceived": "2024-04-29T10:11:56.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2024-01-31T00:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2023",
+              "type": "Annual Information Statement 2023",
+              "uuid": "d6bfcdaf-a282-ec11-8d20-00224892945b"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2024-04-29T10:11:29.0000000Z",
+              "DocumentUuid": "56515bcd-1006-ef11-9f89-000d3ad11700",
+              "DueDate": "2024-01-31T00:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2023",
+              "type": "Financial Report 2023",
+              "uuid": "ffbfcdaf-a282-ec11-8d20-00224892945b"
+            },
+            {
+              "AISId": "4cafc6dc-614f-f011-877b-6045bdc235e4",
+              "DateReceived": "2025-06-22T12:10:25.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2025-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2024",
+              "type": "Annual Information Statement 2024",
+              "uuid": "60347314-c9a1-ed11-aad1-00224893b0ed"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2025-06-22T12:10:25.0000000Z",
+              "DocumentUuid": "032313d5-614f-f011-877b-7c1e522b1d9f",
+              "DueDate": "2025-01-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2024",
+              "type": "Financial Report 2024",
+              "uuid": "bf347314-c9a1-ed11-aad1-00224893b0ed"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2026-01-31T00:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Overdue",
+              "Year": "2025",
+              "type": "Annual Information Statement 2025",
+              "uuid": "8650fd31-9ac0-ee11-907a-00224893bfad"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2026-01-31T00:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Overdue",
+              "Year": "2025",
+              "type": "Financial Report 2025",
+              "uuid": "d450fd31-9ac0-ee11-907a-00224893bfad"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2027-12-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Not yet submitted",
+              "Year": "2027",
+              "type": "Annual Information Statement 2027",
+              "uuid": "ed856d4c-07ff-f011-8406-6045bdc27ae7"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2027-12-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Pending",
+              "Year": "2027",
+              "type": "Financial Report 2027",
+              "uuid": "0a866d4c-07ff-f011-8406-6045bdc27ae7"
+            }
+          ],
+          "Beneficiaries": [
+            {
+              "Description": null,
+              "Name": "People in rural/regional/remote communities",
+              "uuid": "94afc6dc-614f-f011-877b-6045bdc235e4"
+            },
+            {
+              "Description": null,
+              "Name": "People from a culturally and linguistically diverse background",
+              "uuid": "97afc6dc-614f-f011-877b-6045bdc235e4"
+            },
+            {
+              "Description": null,
+              "Name": "Overseas communities or charities",
+              "uuid": "9aafc6dc-614f-f011-877b-6045bdc235e4"
+            },
+            {
+              "Description": null,
+              "Name": "General community in Australia",
+              "uuid": "9dafc6dc-614f-f011-877b-6045bdc235e4"
+            },
+            {
+              "Description": null,
+              "Name": "Families",
+              "uuid": "a0afc6dc-614f-f011-877b-6045bdc235e4"
+            },
+            {
+              "Description": null,
+              "Name": "Adults - aged 65 and over",
+              "uuid": "a3afc6dc-614f-f011-877b-6045bdc235e4"
+            },
+            {
+              "Description": null,
+              "Name": "Adults - aged 25 to under 65",
+              "uuid": "a6afc6dc-614f-f011-877b-6045bdc235e4"
+            },
+            {
+              "Description": null,
+              "Name": "Aboriginal and Torres Strait Islander people",
+              "uuid": "a9afc6dc-614f-f011-877b-6045bdc235e4"
+            }
+          ],
+          "CharitySize": "Small",
+          "CharitySubtypeHistory": [
+            {
+              "EndDate": "2013-12-30T13:00:00.0000000Z",
+              "Purpose": "2012 Advancement of religion",
+              "StartDate": "2012-12-02T13:00:00.0000000Z",
+              "uuid": "a9c981e9-fcc6-e811-a95f-000d3ad24c60"
+            },
+            {
+              "EndDate": null,
+              "Purpose": "Advancing religion",
+              "StartDate": "2013-12-31T13:00:00.0000000Z",
+              "uuid": "b7c981e9-fcc6-e811-a95f-000d3ad24c60"
+            }
+          ],
+          "CharityVersion": "77",
+          "ChildMemberEndDate": null,
+          "ChildMemberStartDate": null,
+          "ChooseToProvideAis": null,
+          "Countries": [
+            {
+              "Name": "Australia",
+              "uuid": "f57b5602-9a4d-e811-a951-000d3ad06f2d"
+            },
+            {
+              "Name": "Fiji",
+              "uuid": "5b7c5602-9a4d-e811-a951-000d3ad06f2d"
+            },
+            {
+              "Name": "Malawi",
+              "uuid": "b97c5602-9a4d-e811-a951-000d3ad06f2d"
+            },
+            {
+              "Name": "Singapore",
+              "uuid": "be4b7513-7664-e811-a960-000d3ad1caed"
+            },
+            {
+              "Name": "United States of America",
+              "uuid": "29203855-037e-ee11-8179-002248122521"
+            }
+          ],
+          "DateEstablished": "2006-12-31T13:00:00.0000000Z",
+          "Documents": [
+            {
+              "Date": "2013-07-18T00:00:00.0000000",
+              "Title": "50798979881_Gov.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/167fe4a8-38af-e811-a962-000d3ad24a0d-1241b045-6b28-4c0c-b7ac-dd335a8aaeb1-Governing%20Document-f8da8519-45b0-e811-a963-000d3ad244fd-50798979881_Gov.pdf",
+              "Year": null,
+              "type": "Governing Document",
+              "uuid": "f8da8519-45b0-e811-a963-000d3ad244fd"
+            },
+            {
+              "Date": "2021-03-26T00:00:00.0000000",
+              "Title": "ACNC Reporting Accounts BYM 2019-2020.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/167fe4a8-38af-e811-a962-000d3ad24a0d-1241b045-6b28-4c0c-b7ac-dd335a8aaeb1-Financial%20Report-4bcd584c-028e-eb11-b1ac-000d3a6b21df-ACNC_Reporting_Accounts_BYM_2019-2020.pdf",
+              "Year": "2020",
+              "type": "Financial Report",
+              "uuid": "4bcd584c-028e-eb11-b1ac-000d3a6b21df"
+            },
+            {
+              "Date": "2024-04-29T00:00:00.0000000",
+              "Title": "ACNC 2023 Submission Accounts.xlsx",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/167fe4a8-38af-e811-a962-000d3ad24a0d-1241b045-6b28-4c0c-b7ac-dd335a8aaeb1-Financial%20Report-56515bcd-1006-ef11-9f89-000d3ad11700-ACNC_2023_Submission_Accounts.xlsx",
+              "Year": "2023",
+              "type": "Financial Report",
+              "uuid": "56515bcd-1006-ef11-9f89-000d3ad11700"
+            },
+            {
+              "Date": "2020-01-28T00:00:00.0000000",
+              "Title": "Accounts Reporting ACNC 2018 - 2019 BYM.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/167fe4a8-38af-e811-a962-000d3ad24a0d-1241b045-6b28-4c0c-b7ac-dd335a8aaeb1-Financial%20Report-b77ebcee-6a41-ea11-a812-000d3ad1cf4f-Accounts_Reporting_ACNC_2018_-_2019_BYM.pdf",
+              "Year": "2019",
+              "type": "Financial Report",
+              "uuid": "b77ebcee-6a41-ea11-a812-000d3ad1cf4f"
+            },
+            {
+              "Date": "2019-03-15T00:00:00.0000000",
+              "Title": "Journal BYM 30.6.2018.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/167fe4a8-38af-e811-a962-000d3ad24a0d-1241b045-6b28-4c0c-b7ac-dd335a8aaeb1-Financial%20Report-7472368e-f446-e911-a970-000d3ad24077-Journal_BYM_30.6.2018.pdf",
+              "Year": "2018",
+              "type": "Financial Report",
+              "uuid": "7472368e-f446-e911-a970-000d3ad24077"
+            },
+            {
+              "Date": "2015-12-21T00:00:00.0000000",
+              "Title": "Balance Sheet 010714 to 300615.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/167fe4a8-38af-e811-a962-000d3ad24a0d-1241b045-6b28-4c0c-b7ac-dd335a8aaeb1-Financial%20Report-1d44081c-45b0-e811-a960-000d3ad24282-Balance_Sheet_010714_to_300615.pdf",
+              "Year": "2015",
+              "type": "Financial Report",
+              "uuid": "1d44081c-45b0-e811-a960-000d3ad24282"
+            },
+            {
+              "Date": "2016-12-20T00:00:00.0000000",
+              "Title": "BackYard Accounts Package 2016.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/167fe4a8-38af-e811-a962-000d3ad24a0d-1241b045-6b28-4c0c-b7ac-dd335a8aaeb1-Financial%20Report-3e44081c-45b0-e811-a960-000d3ad24282-BackYard_Accounts_Package_2016.pdf",
+              "Year": "2016",
+              "type": "Financial Report",
+              "uuid": "3e44081c-45b0-e811-a960-000d3ad24282"
+            },
+            {
+              "Date": "2013-12-19T00:00:00.0000000",
+              "Title": "Backyard Accounts & Balance Sheet 010712 to 300613.xlsx",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/167fe4a8-38af-e811-a962-000d3ad24a0d-1241b045-6b28-4c0c-b7ac-dd335a8aaeb1-Financial%20Report-43db8519-45b0-e811-a963-000d3ad244fd-Backyard_Accounts_&_Balance_Sheet_010712_to_300613.xlsx",
+              "Year": "2013",
+              "type": "Financial Report",
+              "uuid": "43db8519-45b0-e811-a963-000d3ad244fd"
+            },
+            {
+              "Date": "2015-10-31T00:00:00.0000000",
+              "Title": "Balance 010713 to 300614.xlsx",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/167fe4a8-38af-e811-a962-000d3ad24a0d-1241b045-6b28-4c0c-b7ac-dd335a8aaeb1-Financial%20Report-a2db8519-45b0-e811-a963-000d3ad244fd-Balance_010713_to_300614.xlsx",
+              "Year": "2014",
+              "type": "Financial Report",
+              "uuid": "a2db8519-45b0-e811-a963-000d3ad244fd"
+            },
+            {
+              "Date": "2023-02-28T00:00:00.0000000",
+              "Title": "Cash_report_BYM_2020-21.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/167fe4a8-38af-e811-a962-000d3ad24a0d-1241b045-6b28-4c0c-b7ac-dd335a8aaeb1-Financial%20Report-141e5033-18b7-ed11-b597-002248110683-Cash_report_BYM_2020-21.pdf",
+              "Year": "2021",
+              "type": "Financial Report",
+              "uuid": "141e5033-18b7-ed11-b597-002248110683"
+            },
+            {
+              "Date": "2023-02-28T00:00:00.0000000",
+              "Title": "BYM_2021-22 Accounts.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/167fe4a8-38af-e811-a962-000d3ad24a0d-1241b045-6b28-4c0c-b7ac-dd335a8aaeb1-Financial%20Report-24c76860-23b7-ed11-b596-00224893cef4-BYM_2021-22_Accounts.pdf",
+              "Year": "2022",
+              "type": "Financial Report",
+              "uuid": "24c76860-23b7-ed11-b596-00224893cef4"
+            },
+            {
+              "Date": "2025-06-22T00:00:00.0000000",
+              "Title": "BYM Manual Ledger 23-24 FinYear current MB Edit.xlsx",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/167fe4a8-38af-e811-a962-000d3ad24a0d-1241b045-6b28-4c0c-b7ac-dd335a8aaeb1-Financial%20Report-032313d5-614f-f011-877b-7c1e522b1d9f-BYM_Manual_Ledger_23-24_FinYear_current_MB_Edit.xlsx",
+              "Year": "2024",
+              "type": "Financial Report",
+              "uuid": "032313d5-614f-f011-877b-7c1e522b1d9f"
+            }
+          ],
+          "Email": "53mickbrown@gmail.org",
+          "EnforcementOutcomes": [],
+          "FinancialYearEnd": "30/06",
+          "GovernmentAgencies": [
+            {
+              "Name": "ACT - Incorporated Association",
+              "ReferenceNumber": "A04499",
+              "uuid": "64afc6dc-614f-f011-877b-6045bdc235e4"
+            }
+          ],
+          "GroupHeadFlag": false,
+          "LastReported": "2025-06-22T12:10:25.0000000Z",
+          "Name": "Backyard Ministries Incorporated",
+          "NextReportDue": "2026-01-31T23:30:00.0000000Z",
+          "OperatingInStates": [
+            {
+              "Name": "Victoria",
+              "uuid": "4ea3219c-455e-e811-a95c-000d3ad1c715"
+            },
+            {
+              "Name": "New South Wales",
+              "uuid": "2bf593a5-455e-e811-a95c-000d3ad1c715"
+            },
+            {
+              "Name": "Queensland",
+              "uuid": "2cf593a5-455e-e811-a95c-000d3ad1c715"
+            },
+            {
+              "Name": "Australian Capital Territory",
+              "uuid": "db77d9b9-455e-e811-a95c-000d3ad1c715"
+            }
+          ],
+          "OtherDetails": null,
+          "OtherNames": [],
+          "ParentAccountAbn": null,
+          "ParentAccountId": null,
+          "Phone": "02 61610050",
+          "Programs": [
+            {
+              "AisUuid": "4cafc6dc-614f-f011-877b-6045bdc235e4",
+              "Name": "Prayer Meetings",
+              "OperatesOnline": true,
+              "ProgramBeneficiaries": [
+                "Adults - aged 25 to under 65",
+                "Families",
+                "Aboriginal and Torres Strait Islander people",
+                "People from a culturally and linguistically diverse background",
+                "People in rural/regional/remote communities",
+                "Overseas communities or charities",
+                "General community in Australia"
+              ],
+              "ProgramClassie": [
+                {
+                  "classie_id": "741",
+                  "label": "Christianity",
+                  "parent_id": "738",
+                  "selected": true
+                },
+                {
+                  "classie_id": "738",
+                  "label": "Religion and faith-based spirituality",
+                  "parent_id": null,
+                  "selected": false
+                }
+              ],
+              "ProgramClassification": "Christianity",
+              "ProgramClassificationID": "741",
+              "ProgramCountries": [
+                "Fiji",
+                "Malawi",
+                "Singapore",
+                "United States of America"
+              ],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Queensland, Australia",
+                  "FormattedAddress": "Queensland, Australia",
+                  "Marker": {
+                    "Latitude": -22.575197,
+                    "Longitude": 144.0847926
+                  },
+                  "Name": "Queensland",
+                  "uuid": "76afc6dc-614f-f011-877b-6045bdc235e4"
+                },
+                {
+                  "DisplayName": "Victoria, Australia",
+                  "FormattedAddress": "Victoria, Australia",
+                  "Marker": {
+                    "Latitude": -36.9847807,
+                    "Longitude": 143.3906074
+                  },
+                  "Name": "Victoria",
+                  "uuid": "78afc6dc-614f-f011-877b-6045bdc235e4"
+                },
+                {
+                  "DisplayName": "Australian Capital Territory, Australia",
+                  "FormattedAddress": "Australian Capital Territory, Australia",
+                  "Marker": {
+                    "Latitude": -35.4734679,
+                    "Longitude": 149.0123679
+                  },
+                  "Name": "Australian Capital Territory",
+                  "uuid": "7aafc6dc-614f-f011-877b-6045bdc235e4"
+                },
+                {
+                  "DisplayName": "New South Wales, Australia",
+                  "FormattedAddress": "New South Wales, Australia",
+                  "Marker": {
+                    "Latitude": -31.2532183,
+                    "Longitude": 146.921099
+                  },
+                  "Name": "New South Wales",
+                  "uuid": "7cafc6dc-614f-f011-877b-6045bdc235e4"
+                }
+              ],
+              "ProgramWeblink": "www.zoom/us.com",
+              "uuid": "6bafc6dc-614f-f011-877b-6045bdc235e4"
+            },
+            {
+              "AisUuid": "4cafc6dc-614f-f011-877b-6045bdc235e4",
+              "Name": "Christian Leader Mentoring and Support",
+              "OperatesOnline": true,
+              "ProgramBeneficiaries": [
+                "Adults - aged 25 to under 65",
+                "Adults - aged 65 and over",
+                "Families",
+                "Aboriginal and Torres Strait Islander people",
+                "People from a culturally and linguistically diverse background",
+                "People in rural/regional/remote communities",
+                "Overseas communities or charities",
+                "General community in Australia"
+              ],
+              "ProgramClassie": [
+                {
+                  "classie_id": "741",
+                  "label": "Christianity",
+                  "parent_id": "738",
+                  "selected": true
+                },
+                {
+                  "classie_id": "738",
+                  "label": "Religion and faith-based spirituality",
+                  "parent_id": null,
+                  "selected": false
+                }
+              ],
+              "ProgramClassification": "Christianity",
+              "ProgramClassificationID": "741",
+              "ProgramCountries": [
+                "Fiji",
+                "Malawi",
+                "Singapore",
+                "United States of America"
+              ],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Australia",
+                  "FormattedAddress": null,
+                  "Marker": {
+                    "Latitude": 0,
+                    "Longitude": 0
+                  },
+                  "Name": null,
+                  "uuid": "8aafc6dc-614f-f011-877b-6045bdc235e4"
+                }
+              ],
+              "ProgramWeblink": null,
+              "uuid": "7eafc6dc-614f-f011-877b-6045bdc235e4"
+            }
+          ],
+          "ReferendumReturnsUrl": null,
+          "RegistrationStatusHistory": [
+            {
+              "EffectiveDate": "2012-12-02T13:00:00.0000000Z",
+              "Status": "Registered",
+              "TransactionDate": "2012-12-02T13:00:00.0000000Z",
+              "uuid": "76882587-06c6-e811-a964-000d3ad244fd"
+            }
+          ],
+          "RelatedPartyTransactions": null,
+          "RelevantTransactions": null,
+          "ReportingLate": "2026-07-31T23:30:00.0000000Z",
+          "ResponsiblePersons": [
+            {
+              "Name": "James Pryor",
+              "Role": "Other",
+              "uuid": "f1376e73-06bc-e811-a963-000d3ad24a0d"
+            },
+            {
+              "Name": "Jillian Pryor",
+              "Role": "Other",
+              "uuid": "d4e071ac-1cbc-e811-a962-000d3ad24182"
+            },
+            {
+              "Name": "Michael Brown",
+              "Role": "Other",
+              "uuid": "8164380b-0bbc-e811-a964-000d3ad24077"
+            },
+            {
+              "Name": "LYNETTE BROWN",
+              "Role": "Other",
+              "uuid": "b618323e-f0bb-e811-a962-000d3ad24182"
+            },
+            {
+              "Name": "Gordon Matton-Johnson",
+              "Role": "Board Member",
+              "uuid": "042f773a-18b7-ed11-b597-002248122521"
+            }
+          ],
+          "Status": "Registered",
+          "SummaryOfActivities": "We provide Christian networking and encouragement services to a wide range of Christian individuals, groups and organizations.  We provide Christian pastoral support to churches and Christian organizations, as well as worship leading, facilitating and coaching.  Provide home church structure and meetings. Preaching",
+          "TotalExpensesEmployee": "0",
+          "TotalExpensesGrantsAndDonationsInAustralia": "8300",
+          "TotalExpensesGrantsAndDonationsOutsideAustralia": "1404",
+          "TotalExpensesInterest": "0",
+          "TotalExpensesOther": "49935",
+          "TotalGrossIncomeDonationsAndRequests": "20181",
+          "TotalGrossIncomeGoodsOrServices": "11349",
+          "TotalGrossIncomeGovernmentGrants": "0",
+          "TotalGrossIncomeInvestments": "0",
+          "TotalGrossIncomeOtherRevenues": "0",
+          "TransparencyRegisterUrl": null,
+          "Website": "www.zoom/us.com",
+          "__normalized": true,
+          "type": "charity",
+          "uuid": "167fe4a8-38af-e811-a962-000d3ad24a0d"
+        },
+        "type": "charity",
+        "uuid": "167fe4a8-38af-e811-a962-000d3ad24a0d"
+      },
+      "canonical_field_mappings": {
+        "data.Name": "display_name",
+        "data.OtherNames": "operating_names",
+        "data.AnnualReports": "acnc_ais_url",
+        "data.Programs": "programs"
+      },
+      "evidence_ids": [
+        "ev:acnc:ais:50798979881:2024"
       ]
     }
   ],
@@ -217,7 +1019,10 @@
         "source_precision": null
       },
       "assets": null,
-      "liabilities": null
+      "liabilities": null,
+      "income_breakdown": [],
+      "expense_breakdown": [],
+      "balance_sheet_breakdown": []
     }
   ],
   "financial_metrics": [
@@ -348,6 +1153,18 @@
       "page": null,
       "section": null,
       "content_hash": null
+    },
+    {
+      "evidence_id": "ev:acnc:ais:50798979881:2024",
+      "source_type": "regulatory",
+      "title": "Backyard Ministries Incorporated Annual Information Statement 2024",
+      "publisher": "Australian Charities and Not-for-profits Commission",
+      "url": "https://www.acnc.gov.au/charity/charities/167fe4a8-38af-e811-a962-000d3ad24a0d/documents/4cafc6dc-614f-f011-877b-6045bdc235e4",
+      "observed_at": "2025-06-22",
+      "reporting_period": null,
+      "page": null,
+      "section": null,
+      "content_hash": null
     }
   ],
   "embedding": {
@@ -356,8 +1173,8 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "0a13f8faefcc3d74e5dc155ae87d68cdb01910043d1f514d0df819988c73ad7c",
-    "generated_at": "2026-08-10T13:53:24.455957Z",
+    "source_text_hash": "56fe91bd7f9e3df2f75b7167b071884aa601977a88a5a0f3fd88a7df35cd49b9",
+    "generated_at": "2026-08-13T00:32:18.621107Z",
     "vector_ref": "embeddings.parquet#cb_1d807c7224554c99a7b12d1c01be8058"
   },
   "synthesis": {
@@ -428,9 +1245,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc2",
-  "card_schema_version": "0.3",
+  "dataset_version": "phase2b-2026-08-13-rc3",
+  "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.3.0-rc2",
-  "built_at": "2026-08-12T14:24:20.675968Z"
+  "generator_version": "0.4.0-rc3",
+  "built_at": "2026-08-13T00:32:15.698599Z"
 }

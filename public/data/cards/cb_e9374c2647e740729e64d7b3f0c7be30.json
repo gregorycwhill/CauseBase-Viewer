@@ -18,7 +18,16 @@
       ]
     }
   ],
-  "tax_statuses": [],
+  "tax_statuses": [
+    {
+      "scheme": "ABR DGR",
+      "status": "endorsed",
+      "detail": "Dated 2026-08-05 ABR bulk observation",
+      "evidence_ids": [
+        "ev:abr-dgr:34254826976:20260805"
+      ]
+    }
+  ],
   "relationships": [],
   "source_resolutions": [
     {
@@ -37,6 +46,12 @@
   "legal_name": "South Australian Rainbow Advocacy Alliance Inc.",
   "display_name": "South Australian Rainbow Advocacy Alliance Inc.",
   "entity_status": "registered",
+  "canonical_url": "https://gregorycwhill.github.io/CauseBase-Viewer/#cb_e9374c2647e740729e64d7b3f0c7be30",
+  "acnc_profile_url": "https://www.acnc.gov.au/charity/charities/6be91704-bc0e-ec11-b6e5-00224810d203/profile",
+  "acnc_ais_url": "https://www.acnc.gov.au/charity/charities/6be91704-bc0e-ec11-b6e5-00224810d203/documents/69b9a08a-398a-f111-ab0f-70a8a5547962",
+  "operating_names": [],
+  "former_names": [],
+  "principal_location": "SA, Australia",
   "coverage": [
     {
       "capability": "regulatory",
@@ -83,6 +98,16 @@
       ],
       "observed_at": "2026-08-10",
       "freshness_note": null
+    },
+    {
+      "capability": "latest_acnc_ais",
+      "status": "observed",
+      "source_record_id": null,
+      "evidence_ids": [
+        "ev:acnc:ais:34254826976:2025"
+      ],
+      "observed_at": "2026-01-30",
+      "freshness_note": "Latest submitted ACNC AIS in the 2026-08-13 public-profile acquisition: 2025."
     }
   ],
   "enrichment_level": "enriched",
@@ -136,7 +161,9 @@
     "Attending public events",
     "Responding to or contributing to policy consultations"
   ],
+  "participation_observations": [],
   "opportunities": [],
+  "programs": [],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:44bb8ed4-3e0f-5e74-a46a-7a216506ddd2",
@@ -156,6 +183,7 @@
         "ACNC registration ID": null,
         "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
+      "source_payload": null,
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
         "Legal Name": "legal_name",
@@ -185,12 +213,685 @@
         "Assets": null,
         "Liabilities": null
       },
+      "source_payload": null,
       "canonical_field_mappings": {
         "Revenue": "financial_records[].revenue",
         "Total expenses": "financial_records[].total_expenses"
       },
       "evidence_ids": [
         "ev:ais:34254826976:2023"
+      ]
+    },
+    {
+      "source_record_id": "src:acnc-public-profile:34254826976:cb_e9374c2647e740729e64d7b3f0c7be30:2026-08-13",
+      "source_family": "acnc-public-profile",
+      "dataset_version": "2026-08-13-public-api",
+      "source_url": "https://www.acnc.gov.au/charity/charities/6be91704-bc0e-ec11-b6e5-00224810d203/profile",
+      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "observed_at": "2026-01-30",
+      "effective_from": null,
+      "effective_to": null,
+      "source_fields": {
+        "uuid": "6be91704-bc0e-ec11-b6e5-00224810d203",
+        "abn": "34254826976",
+        "latest_ais_year": "2025",
+        "latest_ais_uuid": "69b9a08a-398a-f111-ab0f-70a8a5547962"
+      },
+      "source_payload": {
+        "data": {
+          "AFSAddressPostalCode": "5011",
+          "AFSEmail": "info@saraa.org.au",
+          "Abn": "34254826976",
+          "AddressCountry": "Australia",
+          "AddressLine1": "64c Woodville Road",
+          "AddressLine2": null,
+          "AddressLine3": null,
+          "AddressPostalCode": "5011",
+          "AddressStateOrProvince": "SA",
+          "AddressSuburb": "Woodville South",
+          "AddressSuburbStatePostcode": "Woodville South SA 5011",
+          "AnnualReports": [
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2026-12-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Not yet submitted",
+              "Year": "2026",
+              "type": "Annual Information Statement 2026",
+              "uuid": "cc5500c6-dddf-ef11-a732-000d3ad0bafe"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2026-12-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Pending",
+              "Year": "2026",
+              "type": "Financial Report 2026",
+              "uuid": "de5500c6-dddf-ef11-a732-000d3ad0bafe"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2027-12-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Not yet submitted",
+              "Year": "2027",
+              "type": "Annual Information Statement 2027",
+              "uuid": "d7cd20e7-05ff-f011-8406-00224810400c"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2027-12-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Pending",
+              "Year": "2027",
+              "type": "Financial Report 2027",
+              "uuid": "f0cd20e7-05ff-f011-8406-00224810400c"
+            },
+            {
+              "AISId": "27cc4903-6f8e-ed11-81ac-00224810001d",
+              "DateReceived": "2023-01-07T09:38:19.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2023-01-31T00:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2022",
+              "type": "Annual Information Statement 2022",
+              "uuid": "57771b76-8f37-ec11-8c65-00224810a8cc"
+            },
+            {
+              "AISId": "6aff7c34-8187-ee11-be36-002248110683",
+              "DateReceived": "2023-11-20T08:45:58.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2024-01-31T00:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2023",
+              "type": "Annual Information Statement 2023",
+              "uuid": "5f771b76-8f37-ec11-8c65-00224810a8cc"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2023-01-07T09:37:26.0000000Z",
+              "DocumentUuid": "a62922da-6e8e-ed11-81ad-00224893362a",
+              "DueDate": "2023-01-31T00:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2022",
+              "type": "Financial Report 2022",
+              "uuid": "66771b76-8f37-ec11-8c65-00224810a8cc"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Not required - small",
+              "Year": "2023",
+              "type": "Financial Report 2023",
+              "uuid": "73771b76-8f37-ec11-8c65-00224810a8cc"
+            },
+            {
+              "AISId": "69b9a08a-398a-f111-ab0f-70a8a5547962",
+              "DateReceived": "2026-01-30T07:30:25.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2026-01-31T00:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2025",
+              "type": "Annual Information Statement 2025",
+              "uuid": "f55e80fe-96c0-ee11-907a-00224893bfad"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2026-01-30T07:30:20.0000000Z",
+              "DocumentUuid": "5844a884-398a-f111-ab0f-70a8a5547962",
+              "DueDate": "2026-01-31T00:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2025",
+              "type": "Financial Report 2025",
+              "uuid": "545f80fe-96c0-ee11-907a-00224893bfad"
+            },
+            {
+              "AISId": "e6af9176-a0ab-ef11-b8e8-000d3ad0cea6",
+              "DateReceived": "2024-11-26T02:45:27.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2025-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2024",
+              "type": "Annual Information Statement 2024",
+              "uuid": "74845a9d-c8a1-ed11-aad1-00224893bfad"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2024-11-26T02:45:21.0000000Z",
+              "DocumentUuid": "93748775-a0ab-ef11-b8e8-6045bde4b1ab",
+              "DueDate": "2025-01-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2024",
+              "type": "Financial Report 2024",
+              "uuid": "9d845a9d-c8a1-ed11-aad1-00224893bfad"
+            }
+          ],
+          "Beneficiaries": [
+            {
+              "Description": null,
+              "Name": "Youth - 15 to under 25",
+              "uuid": "752e9790-398a-f111-ab0f-70a8a5547962"
+            },
+            {
+              "Description": null,
+              "Name": "People in rural/regional/remote communities",
+              "uuid": "7d2e9790-398a-f111-ab0f-70a8a5547962"
+            },
+            {
+              "Description": null,
+              "Name": "LGBTIQA+",
+              "uuid": "832e9790-398a-f111-ab0f-70a8a5547962"
+            },
+            {
+              "Description": null,
+              "Name": "Financially disadvantaged people",
+              "uuid": "8a2e9790-398a-f111-ab0f-70a8a5547962"
+            },
+            {
+              "Description": null,
+              "Name": "Children - aged 6 to under 15",
+              "uuid": "972e9790-398a-f111-ab0f-70a8a5547962"
+            }
+          ],
+          "CharitySize": "Small",
+          "CharitySubtypeHistory": [
+            {
+              "EndDate": null,
+              "Purpose": "Advancing public debate (promoting or opposing a change to any matter established by law, policy or practice in the Commonwealth, a state, territory or another country)",
+              "StartDate": "2021-07-01T00:00:00.0000000Z",
+              "uuid": "ee21af91-c536-ec11-8c64-000d3a6a3abf"
+            },
+            {
+              "EndDate": null,
+              "Purpose": "Promoting or protecting human rights",
+              "StartDate": "2021-07-01T00:00:00.0000000Z",
+              "uuid": "1491120a-bc0e-ec11-b6e5-00224810d203"
+            },
+            {
+              "EndDate": null,
+              "Purpose": "Institution whose principal activity is to promote the prevention or control of diseases in human beings (Health Promotion Charity)(HPC)",
+              "StartDate": "2022-08-16T00:00:00.0000000Z",
+              "uuid": "d1bc8a93-c8ec-ed11-8849-00224893bfad"
+            }
+          ],
+          "CharityVersion": "178",
+          "ChildMemberEndDate": null,
+          "ChildMemberStartDate": null,
+          "ChooseToProvideAis": null,
+          "Countries": [
+            {
+              "Name": "Australia",
+              "uuid": "f57b5602-9a4d-e811-a951-000d3ad06f2d"
+            }
+          ],
+          "DateEstablished": "2015-03-25T00:00:00.0000000Z",
+          "Documents": [
+            {
+              "Date": "2024-01-21T00:00:00.0000000",
+              "Title": "SARAA Constitution v3 from 26 October 2023.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/6be91704-bc0e-ec11-b6e5-00224810d203-a526b427-7f8c-4ec6-ba66-5aeae8a2c16f-Governing%20Document-8297e926-33b8-ee11-9078-002248933d22-SARAA_Constitution_v3_from_26_October_2023.pdf",
+              "Year": null,
+              "type": "Governing Document",
+              "uuid": "8297e926-33b8-ee11-9078-002248933d22"
+            },
+            {
+              "Date": "2023-01-07T00:00:00.0000000",
+              "Title": "South_Australian_Rainbow_Advocacy_Alliance_-_Profit_and_Loss (9).pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/6be91704-bc0e-ec11-b6e5-00224810d203-a526b427-7f8c-4ec6-ba66-5aeae8a2c16f-Financial%20Report-a62922da-6e8e-ed11-81ad-00224893362a-South_Australian_Rainbow_Advocacy_Alliance_-_Profit_and_Loss_(9).pdf",
+              "Year": "2022",
+              "type": "Financial Report",
+              "uuid": "a62922da-6e8e-ed11-81ad-00224893362a"
+            },
+            {
+              "Date": "2024-11-26T00:00:00.0000000",
+              "Title": "SA Rainbow Advocacy Alliance Annual Financial Statement.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/6be91704-bc0e-ec11-b6e5-00224810d203-a526b427-7f8c-4ec6-ba66-5aeae8a2c16f-Financial%20Report-93748775-a0ab-ef11-b8e8-6045bde4b1ab-SA_Rainbow_Advocacy_Alliance_Annual_Financial_Statement.pdf",
+              "Year": "2024",
+              "type": "Financial Report",
+              "uuid": "93748775-a0ab-ef11-b8e8-6045bde4b1ab"
+            },
+            {
+              "Date": "2026-07-28T00:00:00.0000000",
+              "Title": "South Australian Rainbow Advocacy Alliance FY25 Financial Report and Review Report - Signed by Auditor.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/6be91704-bc0e-ec11-b6e5-00224810d203-a526b427-7f8c-4ec6-ba66-5aeae8a2c16f-Financial%20Report-5844a884-398a-f111-ab0f-70a8a5547962-South_Australian_Rainbow_Advocacy_Alliance_FY25_Financial_Report_and_Review_Report_-_Signed_by_Auditor.pdf",
+              "Year": "2025",
+              "type": "Financial Report",
+              "uuid": "5844a884-398a-f111-ab0f-70a8a5547962"
+            }
+          ],
+          "Email": "info@saraa.org.au",
+          "EnforcementOutcomes": [],
+          "FinancialYearEnd": "30/06",
+          "GovernmentAgencies": [
+            {
+              "Name": "SA - Incorporated Association",
+              "ReferenceNumber": "A42508",
+              "uuid": "e5b9a08a-398a-f111-ab0f-70a8a5547962"
+            },
+            {
+              "Name": "SA - Fundraising",
+              "ReferenceNumber": "CCP4443",
+              "uuid": "ecb9a08a-398a-f111-ab0f-70a8a5547962"
+            }
+          ],
+          "GroupHeadFlag": false,
+          "LastReported": "2026-01-30T07:30:25.0000000Z",
+          "Name": "South Australian Rainbow Advocacy Alliance Inc.",
+          "NextReportDue": "2026-12-31T12:30:00.0000000Z",
+          "OperatingInStates": [
+            {
+              "Name": "South Australia",
+              "uuid": "dd2782ae-455e-e811-a95c-000d3ad1c715"
+            }
+          ],
+          "OtherDetails": null,
+          "OtherNames": [],
+          "ParentAccountAbn": null,
+          "ParentAccountId": null,
+          "Phone": null,
+          "Programs": [
+            {
+              "AisUuid": "69b9a08a-398a-f111-ab0f-70a8a5547962",
+              "Name": "TransMasc SA Binder Program",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Youth - 15 to under 25",
+                "Financially disadvantaged people"
+              ],
+              "ProgramClassie": [
+                {
+                  "classie_id": "331",
+                  "label": "Healthcare access",
+                  "parent_id": "264",
+                  "selected": true
+                },
+                {
+                  "classie_id": "264",
+                  "label": "Health",
+                  "parent_id": null,
+                  "selected": false
+                }
+              ],
+              "ProgramClassification": "Healthcare access",
+              "ProgramClassificationID": "331",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "South Australia, Australia",
+                  "FormattedAddress": "South Australia, Australia",
+                  "Marker": {
+                    "Latitude": -30.0002315,
+                    "Longitude": 136.2091547
+                  },
+                  "Name": "South Australia",
+                  "uuid": "af2d9790-398a-f111-ab0f-70a8a5547962"
+                }
+              ],
+              "ProgramWeblink": "https://www.saraa.org.au/community/binder-program/",
+              "uuid": "9e2d9790-398a-f111-ab0f-70a8a5547962"
+            },
+            {
+              "AisUuid": "69b9a08a-398a-f111-ab0f-70a8a5547962",
+              "Name": "Advocacy",
+              "OperatesOnline": true,
+              "ProgramBeneficiaries": [
+                "LGBTIQA+"
+              ],
+              "ProgramClassie": [
+                {
+                  "classie_id": "457",
+                  "label": "LGBTIQA+ rights",
+                  "parent_id": "452",
+                  "selected": true
+                },
+                {
+                  "classie_id": "452",
+                  "label": "Anti-discrimination",
+                  "parent_id": "451",
+                  "selected": false
+                },
+                {
+                  "classie_id": "451",
+                  "label": "Human rights",
+                  "parent_id": null,
+                  "selected": false
+                }
+              ],
+              "ProgramClassification": "LGBTIQA+ rights",
+              "ProgramClassificationID": "457",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "South Australia, Australia",
+                  "FormattedAddress": "South Australia, Australia",
+                  "Marker": {
+                    "Latitude": -30.0002315,
+                    "Longitude": 136.2091547
+                  },
+                  "Name": "South Australia",
+                  "uuid": "c32d9790-398a-f111-ab0f-70a8a5547962"
+                }
+              ],
+              "ProgramWeblink": "https://www.saraa.org.au/advocacy/",
+              "uuid": "b42d9790-398a-f111-ab0f-70a8a5547962"
+            },
+            {
+              "AisUuid": "69b9a08a-398a-f111-ab0f-70a8a5547962",
+              "Name": "Community capacity building",
+              "OperatesOnline": true,
+              "ProgramBeneficiaries": [
+                "LGBTIQA+"
+              ],
+              "ProgramClassie": [
+                {
+                  "classie_id": "118",
+                  "label": "Community development",
+                  "parent_id": null,
+                  "selected": true
+                }
+              ],
+              "ProgramClassification": "Community development",
+              "ProgramClassificationID": "118",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "South Australia, Australia",
+                  "FormattedAddress": "South Australia, Australia",
+                  "Marker": {
+                    "Latitude": -30.0002315,
+                    "Longitude": 136.2091547
+                  },
+                  "Name": "South Australia",
+                  "uuid": "e22d9790-398a-f111-ab0f-70a8a5547962"
+                }
+              ],
+              "ProgramWeblink": "https://www.saraa.org.au/community/",
+              "uuid": "c72d9790-398a-f111-ab0f-70a8a5547962"
+            },
+            {
+              "AisUuid": "69b9a08a-398a-f111-ab0f-70a8a5547962",
+              "Name": "Awareness & Inclusion",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "LGBTIQA+"
+              ],
+              "ProgramClassie": [
+                {
+                  "classie_id": "464",
+                  "label": "Social inclusion",
+                  "parent_id": "462",
+                  "selected": true
+                },
+                {
+                  "classie_id": "462",
+                  "label": "Diversity and intergroup relations",
+                  "parent_id": "451",
+                  "selected": false
+                },
+                {
+                  "classie_id": "451",
+                  "label": "Human rights",
+                  "parent_id": null,
+                  "selected": false
+                }
+              ],
+              "ProgramClassification": "Social inclusion",
+              "ProgramClassificationID": "464",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "South Australia, Australia",
+                  "FormattedAddress": "South Australia, Australia",
+                  "Marker": {
+                    "Latitude": -30.0002315,
+                    "Longitude": 136.2091547
+                  },
+                  "Name": "South Australia",
+                  "uuid": "f32d9790-398a-f111-ab0f-70a8a5547962"
+                }
+              ],
+              "ProgramWeblink": "https://www.saraa.org.au/awareness/",
+              "uuid": "e62d9790-398a-f111-ab0f-70a8a5547962"
+            },
+            {
+              "AisUuid": "69b9a08a-398a-f111-ab0f-70a8a5547962",
+              "Name": "Representation",
+              "OperatesOnline": true,
+              "ProgramBeneficiaries": [
+                "LGBTIQA+"
+              ],
+              "ProgramClassie": [
+                {
+                  "classie_id": "131",
+                  "label": "Community celebration",
+                  "parent_id": "118",
+                  "selected": true
+                },
+                {
+                  "classie_id": "118",
+                  "label": "Community development",
+                  "parent_id": null,
+                  "selected": false
+                }
+              ],
+              "ProgramClassification": "Community celebration",
+              "ProgramClassificationID": "131",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "South Australia, Australia",
+                  "FormattedAddress": "South Australia, Australia",
+                  "Marker": {
+                    "Latitude": -30.0002315,
+                    "Longitude": 136.2091547
+                  },
+                  "Name": "South Australia",
+                  "uuid": "0d2e9790-398a-f111-ab0f-70a8a5547962"
+                }
+              ],
+              "ProgramWeblink": "www.saraa.org.au",
+              "uuid": "f72d9790-398a-f111-ab0f-70a8a5547962"
+            },
+            {
+              "AisUuid": "69b9a08a-398a-f111-ab0f-70a8a5547962",
+              "Name": "LGBTIQA+ Youth Physical Activity",
+              "OperatesOnline": true,
+              "ProgramBeneficiaries": [
+                "Children - aged 6 to under 15",
+                "Youth - 15 to under 25",
+                "LGBTIQA+"
+              ],
+              "ProgramClassie": [
+                {
+                  "classie_id": "422",
+                  "label": "Health promotion",
+                  "parent_id": "418",
+                  "selected": true
+                },
+                {
+                  "classie_id": "418",
+                  "label": "Public health",
+                  "parent_id": "264",
+                  "selected": false
+                },
+                {
+                  "classie_id": "264",
+                  "label": "Health",
+                  "parent_id": null,
+                  "selected": false
+                }
+              ],
+              "ProgramClassification": "Health promotion",
+              "ProgramClassificationID": "422",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "South Australia, Australia",
+                  "FormattedAddress": "South Australia, Australia",
+                  "Marker": {
+                    "Latitude": -30.0002315,
+                    "Longitude": 136.2091547
+                  },
+                  "Name": "South Australia",
+                  "uuid": "282e9790-398a-f111-ab0f-70a8a5547962"
+                }
+              ],
+              "ProgramWeblink": "https://www.saraa.org.au/rainbow-council-copy/",
+              "uuid": "122e9790-398a-f111-ab0f-70a8a5547962"
+            },
+            {
+              "AisUuid": "69b9a08a-398a-f111-ab0f-70a8a5547962",
+              "Name": "Rainbow Council Network",
+              "OperatesOnline": true,
+              "ProgramBeneficiaries": [
+                "LGBTIQA+",
+                "People in rural/regional/remote communities"
+              ],
+              "ProgramClassie": [
+                {
+                  "classie_id": "422",
+                  "label": "Health promotion",
+                  "parent_id": "418",
+                  "selected": true
+                },
+                {
+                  "classie_id": "418",
+                  "label": "Public health",
+                  "parent_id": "264",
+                  "selected": false
+                },
+                {
+                  "classie_id": "264",
+                  "label": "Health",
+                  "parent_id": null,
+                  "selected": false
+                }
+              ],
+              "ProgramClassification": "Health promotion",
+              "ProgramClassificationID": "422",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "South Australia, Australia",
+                  "FormattedAddress": "South Australia, Australia",
+                  "Marker": {
+                    "Latitude": -30.0002315,
+                    "Longitude": 136.2091547
+                  },
+                  "Name": "South Australia",
+                  "uuid": "452e9790-398a-f111-ab0f-70a8a5547962"
+                }
+              ],
+              "ProgramWeblink": "https://www.saraa.org.au/rainbow-council/",
+              "uuid": "2c2e9790-398a-f111-ab0f-70a8a5547962"
+            }
+          ],
+          "ReferendumReturnsUrl": null,
+          "RegistrationStatusHistory": [
+            {
+              "EffectiveDate": "2021-07-01T00:00:00.0000000Z",
+              "Status": "Registered",
+              "TransactionDate": "2021-10-28T01:36:21.0000000Z",
+              "uuid": "1769b872-8f37-ec11-8c65-00224810a361"
+            }
+          ],
+          "RelatedPartyTransactions": null,
+          "RelevantTransactions": null,
+          "ReportingLate": "2027-06-30T12:30:00.0000000Z",
+          "ResponsiblePersons": [
+            {
+              "Name": "Edison Harris",
+              "Role": "Secretary",
+              "uuid": "03f001bd-132b-f011-8c4d-000d3ad14bbe"
+            },
+            {
+              "Name": "Lucy Solonsch",
+              "Role": "Chairperson",
+              "uuid": "5155f401-e585-ee11-be36-00224893bfad"
+            },
+            {
+              "Name": "Lucy Solonsch",
+              "Role": "Chairperson",
+              "uuid": "5155f401-e585-ee11-be36-00224893bfad"
+            },
+            {
+              "Name": "Kirsty Degabriele",
+              "Role": "Treasurer",
+              "uuid": "7455f401-e585-ee11-be36-00224893bfad"
+            },
+            {
+              "Name": "Odette Mazel",
+              "Role": "Board Member",
+              "uuid": "33632dcd-91ab-ef11-b8e8-6045bdc3889b"
+            },
+            {
+              "Name": "Kelly Treloar",
+              "Role": "Board Member",
+              "uuid": "202a1ed9-91ab-ef11-b8e8-6045bdc3889b"
+            },
+            {
+              "Name": "Syr Lumi Vor",
+              "Role": "Board Member",
+              "uuid": "933a1de5-91ab-ef11-b8e8-6045bdc3889b"
+            },
+            {
+              "Name": "Brinsley Lysha",
+              "Role": "Board Member",
+              "uuid": "2040cfb5-08ed-f011-8545-7ced8da1d72a"
+            },
+            {
+              "Name": "Mariam Owrang",
+              "Role": "Board Member",
+              "uuid": "cd40cfb5-08ed-f011-8545-7ced8da1d72a"
+            }
+          ],
+          "Status": "Registered",
+          "SummaryOfActivities": "We undertook systemic advocacy, providing expert advice, community consultation and policy analysis to make structural social change to policies and practices that improves the quality of life for LGBTIQA+ South Australians.   Our wins included advocating for a legislative ban on conversion practices, recruiting our inaugural CEO, supporting vulnerable LGBTIQA+ people to engage with the media to share their stories, connecting with South Australian councils through the Rainbow Council Network and representing LGBTIQA+ communities on key advisory bodies.  We built the capacity of LGBTIQA+ communities to actively participate in public life by providing opportunities for networking and connection. We supported LGBTIQA+ South Australians through the delivery of suicide prevention training, hosted events at Feast Festival, and were recognised for our work as winners of the South Australian Pride Awards  Sports Health and Wellbeing Award",
+          "TotalExpensesEmployee": "154452",
+          "TotalExpensesGrantsAndDonationsInAustralia": "26860",
+          "TotalExpensesGrantsAndDonationsOutsideAustralia": "0",
+          "TotalExpensesInterest": "0",
+          "TotalExpensesOther": "0",
+          "TotalGrossIncomeDonationsAndRequests": "27579",
+          "TotalGrossIncomeGoodsOrServices": "11445",
+          "TotalGrossIncomeGovernmentGrants": "207697",
+          "TotalGrossIncomeInvestments": "139",
+          "TotalGrossIncomeOtherRevenues": "0",
+          "TransparencyRegisterUrl": null,
+          "Website": "http://www.saraa.org.au/",
+          "__normalized": true,
+          "type": "charity",
+          "uuid": "6be91704-bc0e-ec11-b6e5-00224810d203"
+        },
+        "type": "charity",
+        "uuid": "6be91704-bc0e-ec11-b6e5-00224810d203"
+      },
+      "canonical_field_mappings": {
+        "data.Name": "display_name",
+        "data.OtherNames": "operating_names",
+        "data.AnnualReports": "acnc_ais_url",
+        "data.Programs": "programs"
+      },
+      "evidence_ids": [
+        "ev:acnc:ais:34254826976:2025"
       ]
     }
   ],
@@ -238,7 +939,10 @@
         "source_precision": null
       },
       "assets": null,
-      "liabilities": null
+      "liabilities": null,
+      "income_breakdown": [],
+      "expense_breakdown": [],
+      "balance_sheet_breakdown": []
     }
   ],
   "financial_metrics": [
@@ -408,6 +1112,30 @@
       "page": null,
       "section": null,
       "content_hash": null
+    },
+    {
+      "evidence_id": "ev:abr-dgr:34254826976:20260805",
+      "source_type": "regulatory",
+      "title": "ABR DGR bulk observation",
+      "publisher": "Australian Business Register / Australian Taxation Office",
+      "url": "https://abr.business.gov.au/Tools/BulkExtract",
+      "observed_at": "2026-08-05",
+      "reporting_period": null,
+      "page": null,
+      "section": null,
+      "content_hash": null
+    },
+    {
+      "evidence_id": "ev:acnc:ais:34254826976:2025",
+      "source_type": "regulatory",
+      "title": "South Australian Rainbow Advocacy Alliance Inc. Annual Information Statement 2025",
+      "publisher": "Australian Charities and Not-for-profits Commission",
+      "url": "https://www.acnc.gov.au/charity/charities/6be91704-bc0e-ec11-b6e5-00224810d203/documents/69b9a08a-398a-f111-ab0f-70a8a5547962",
+      "observed_at": "2026-01-30",
+      "reporting_period": null,
+      "page": null,
+      "section": null,
+      "content_hash": null
     }
   ],
   "embedding": {
@@ -416,8 +1144,8 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "6b406cdee0c620877c7c126f3dfa1b3d340ac8f6b264cd344fb1ef8fef5e052f",
-    "generated_at": "2026-08-10T13:53:24.455523Z",
+    "source_text_hash": "5db673da146df8140335202b6768c05a5d3e2aa0e44e067932f0336860c9e649",
+    "generated_at": "2026-08-13T00:32:18.620521Z",
     "vector_ref": "embeddings.parquet#cb_e9374c2647e740729e64d7b3f0c7be30"
   },
   "synthesis": {
@@ -488,9 +1216,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc2",
-  "card_schema_version": "0.3",
+  "dataset_version": "phase2b-2026-08-13-rc3",
+  "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.3.0-rc2",
-  "built_at": "2026-08-12T14:24:20.675968Z"
+  "generator_version": "0.4.0-rc3",
+  "built_at": "2026-08-13T00:32:15.698599Z"
 }

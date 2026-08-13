@@ -18,7 +18,16 @@
       ]
     }
   ],
-  "tax_statuses": [],
+  "tax_statuses": [
+    {
+      "scheme": "ABR DGR",
+      "status": "endorsed",
+      "detail": "Dated 2026-08-05 ABR bulk observation",
+      "evidence_ids": [
+        "ev:abr-dgr:60094500985:20260805"
+      ]
+    }
+  ],
   "relationships": [],
   "source_resolutions": [
     {
@@ -37,6 +46,12 @@
   "legal_name": "Banks Street Newmarket Community Preschooling Centre Inc",
   "display_name": "Banks Street Newmarket Community Preschooling Centre Inc",
   "entity_status": "registered",
+  "canonical_url": "https://gregorycwhill.github.io/CauseBase-Viewer/#cb_2bb1b827064a43ec9737b9d6f68297ef",
+  "acnc_profile_url": "https://www.acnc.gov.au/charity/charities/413ef050-38af-e811-a95e-000d3ad24c60/profile",
+  "acnc_ais_url": "https://www.acnc.gov.au/charity/charities/413ef050-38af-e811-a95e-000d3ad24c60/documents/0fb9a958-1f1c-f111-8341-7ced8d33fdea",
+  "operating_names": [],
+  "former_names": [],
+  "principal_location": "QLD, Australia",
   "coverage": [
     {
       "capability": "regulatory",
@@ -83,6 +98,16 @@
       ],
       "observed_at": "2026-08-10",
       "freshness_note": null
+    },
+    {
+      "capability": "latest_acnc_ais",
+      "status": "observed",
+      "source_record_id": null,
+      "evidence_ids": [
+        "ev:acnc:ais:60094500985:2025"
+      ],
+      "observed_at": "2026-03-10",
+      "freshness_note": "Latest submitted ACNC AIS in the 2026-08-13 public-profile acquisition: 2025."
     }
   ],
   "enrichment_level": "enriched",
@@ -131,7 +156,9 @@
     "Family participation in events (annual art show, school activities)",
     "Children's participation in daily outdoor and Bush Kindy activities"
   ],
+  "participation_observations": [],
   "opportunities": [],
+  "programs": [],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:e06f8aa2-9ad6-5a43-9e01-7345ffdc6809",
@@ -151,6 +178,7 @@
         "ACNC registration ID": null,
         "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
+      "source_payload": null,
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
         "Legal Name": "legal_name",
@@ -180,12 +208,672 @@
         "Assets": null,
         "Liabilities": null
       },
+      "source_payload": null,
       "canonical_field_mappings": {
         "Revenue": "financial_records[].revenue",
         "Total expenses": "financial_records[].total_expenses"
       },
       "evidence_ids": [
         "ev:ais:60094500985:2023"
+      ]
+    },
+    {
+      "source_record_id": "src:acnc-public-profile:60094500985:cb_2bb1b827064a43ec9737b9d6f68297ef:2026-08-13",
+      "source_family": "acnc-public-profile",
+      "dataset_version": "2026-08-13-public-api",
+      "source_url": "https://www.acnc.gov.au/charity/charities/413ef050-38af-e811-a95e-000d3ad24c60/profile",
+      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "observed_at": "2026-03-10",
+      "effective_from": null,
+      "effective_to": null,
+      "source_fields": {
+        "uuid": "413ef050-38af-e811-a95e-000d3ad24c60",
+        "abn": "60094500985",
+        "latest_ais_year": "2025",
+        "latest_ais_uuid": "0fb9a958-1f1c-f111-8341-7ced8d33fdea"
+      },
+      "source_payload": {
+        "data": {
+          "AFSAddressPostalCode": "4051",
+          "AFSEmail": "admin@banksstkindy.org",
+          "Abn": "60094500985",
+          "AddressCountry": "Australia",
+          "AddressLine1": "15 Banks St",
+          "AddressLine2": null,
+          "AddressLine3": null,
+          "AddressPostalCode": "4051",
+          "AddressStateOrProvince": "QLD",
+          "AddressSuburb": "Newmarket",
+          "AddressSuburbStatePostcode": "Newmarket QLD 4051",
+          "AnnualReports": [
+            {
+              "AISId": null,
+              "DateReceived": "2020-03-10T00:20:54.0000000Z",
+              "DocumentUuid": "7d7d53f8-6462-ea11-a811-000d3acae853",
+              "DueDate": "2020-06-29T14:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2019",
+              "type": "Financial Report 2019",
+              "uuid": "0c8b8aa1-ea25-e911-a976-000d3ad02a61"
+            },
+            {
+              "AISId": "ab9825fd-6462-ea11-a811-000d3ad1fbf8",
+              "DateReceived": "2020-03-10T00:20:57.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2020-06-29T14:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2019",
+              "type": "Annual Information Statement 2019",
+              "uuid": "408b8aa1-ea25-e911-a976-000d3ad02a61"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2021-03-08T23:51:00.0000000Z",
+              "DocumentUuid": "c5df8aef-f491-eb11-b1ac-000d3acbdef0",
+              "DueDate": "2021-06-29T14:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2020",
+              "type": "Financial Report 2020",
+              "uuid": "6b8b8aa1-ea25-e911-a976-000d3ad02a61"
+            },
+            {
+              "AISId": "c29724d7-f591-eb11-b1ac-000d3ad0c361",
+              "DateReceived": "2021-03-08T23:51:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2021-06-29T14:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2020",
+              "type": "Annual Information Statement 2020",
+              "uuid": "8e8b8aa1-ea25-e911-a976-000d3ad02a61"
+            },
+            {
+              "AISId": "9cc41b44-05d0-ec11-a7b6-000d3ad1d6af",
+              "DateReceived": "2022-05-10T02:02:48.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2022-06-29T14:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2021",
+              "type": "Annual Information Statement 2021",
+              "uuid": "92549088-e3ba-ea11-a812-000d3ad1ce4e"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2022-05-10T02:01:32.0000000Z",
+              "DocumentUuid": "af9f7413-05d0-ec11-a7b6-000d3ad1d6af",
+              "DueDate": "2022-06-29T14:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2021",
+              "type": "Financial Report 2021",
+              "uuid": "b2549088-e3ba-ea11-a812-000d3ad1ce4e"
+            },
+            {
+              "AISId": "63693b12-45c8-e811-a964-000d3ad244fd",
+              "DateReceived": "2013-08-19T14:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2014-06-29T14:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2013",
+              "type": "Annual Information Statement 2013",
+              "uuid": "34b2e412-45c8-e811-a962-000d3ad24182"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2018-03-05T13:00:00.0000000Z",
+              "DocumentUuid": "b33e61fe-3eb0-e811-a95e-000d3ad24c60",
+              "DueDate": "2018-06-29T14:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2017",
+              "type": "Financial Report 2017",
+              "uuid": "80b4f1b9-3dc8-e811-a961-000d3ad24282"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2016-04-21T14:00:00.0000000Z",
+              "DocumentUuid": "5e3e61fe-3eb0-e811-a95e-000d3ad24c60",
+              "DueDate": "2016-06-29T14:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2015",
+              "type": "Financial Report 2015",
+              "uuid": "8db4f1b9-3dc8-e811-a961-000d3ad24282"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2015-03-19T13:00:00.0000000Z",
+              "DocumentUuid": "4a3e61fe-3eb0-e811-a95e-000d3ad24c60",
+              "DueDate": "2015-06-29T14:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2014",
+              "type": "Financial Report 2014",
+              "uuid": "9ab4f1b9-3dc8-e811-a961-000d3ad24282"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2019-03-26T02:10:36.0000000Z",
+              "DocumentUuid": "fe4e120b-6a8b-eb11-b1ac-000d3a6b2b8c",
+              "DueDate": "2019-06-29T14:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2018",
+              "type": "Financial Report 2018",
+              "uuid": "acb4f1b9-3dc8-e811-a961-000d3ad24282"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2013-08-19T14:00:00.0000000Z",
+              "DocumentUuid": "253e61fe-3eb0-e811-a95e-000d3ad24c60",
+              "DueDate": "2014-06-29T14:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2013",
+              "type": "Financial Report 2013",
+              "uuid": "c0b4f1b9-3dc8-e811-a961-000d3ad24282"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2017-05-04T14:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2017-06-29T14:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2016",
+              "type": "Financial Report 2016",
+              "uuid": "d0b4f1b9-3dc8-e811-a961-000d3ad24282"
+            },
+            {
+              "AISId": "56adcd0f-6a8b-eb11-b1ac-000d3a6b2c51",
+              "DateReceived": "2019-03-26T02:10:42.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2019-06-29T14:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2018",
+              "type": "Annual Information Statement 2018",
+              "uuid": "9fee8e63-3ac8-e811-a964-000d3ad244fd"
+            },
+            {
+              "AISId": "64f91211-50c8-e811-a962-000d3ad24182",
+              "DateReceived": "2015-03-19T13:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2015-06-29T14:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2014",
+              "type": "Annual Information Statement 2014",
+              "uuid": "f824e016-50c8-e811-a963-000d3ad24a0d"
+            },
+            {
+              "AISId": "6cf91211-50c8-e811-a962-000d3ad24182",
+              "DateReceived": "2016-04-21T14:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2016-06-29T14:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2015",
+              "type": "Annual Information Statement 2015",
+              "uuid": "0525e016-50c8-e811-a963-000d3ad24a0d"
+            },
+            {
+              "AISId": "74f91211-50c8-e811-a962-000d3ad24182",
+              "DateReceived": "2017-05-04T14:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2017-06-29T14:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2016",
+              "type": "Annual Information Statement 2016",
+              "uuid": "1625e016-50c8-e811-a963-000d3ad24a0d"
+            },
+            {
+              "AISId": "90f91211-50c8-e811-a962-000d3ad24182",
+              "DateReceived": "2018-03-05T13:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2018-06-29T14:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2017",
+              "type": "Annual Information Statement 2017",
+              "uuid": "2425e016-50c8-e811-a963-000d3ad24a0d"
+            },
+            {
+              "AISId": "ce8fa9f2-81e8-ed11-8848-00224893b261",
+              "DateReceived": "2023-05-02T00:40:40.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2023-06-29T14:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2022",
+              "type": "Annual Information Statement 2022",
+              "uuid": "985a655a-bdd9-eb11-bacb-00224810799d"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2023-05-02T00:40:39.0000000Z",
+              "DocumentUuid": "907d0fee-81e8-ed11-8848-00224893bc23",
+              "DueDate": "2023-06-29T14:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2022",
+              "type": "Financial Report 2022",
+              "uuid": "3d5b655a-bdd9-eb11-bacb-00224810799d"
+            },
+            {
+              "AISId": "d1e5db98-c7eb-ee11-a204-002248935564",
+              "DateReceived": "2024-03-26T23:21:53.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2024-06-29T14:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2023",
+              "type": "Annual Information Statement 2023",
+              "uuid": "91b0f5f0-8af8-ec11-82e8-00224811d4e9"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2024-03-26T23:20:25.0000000Z",
+              "DocumentUuid": "f6aa2964-c7eb-ee11-a1fd-000d3ad25c5d",
+              "DueDate": "2024-06-29T14:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2023",
+              "type": "Financial Report 2023",
+              "uuid": "a3b0f5f0-8af8-ec11-82e8-00224811d4e9"
+            },
+            {
+              "AISId": "a13fe374-3513-f011-9989-000d3ad02a0a",
+              "DateReceived": "2025-04-06T22:21:20.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2025-06-29T14:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2024",
+              "type": "Annual Information Statement 2024",
+              "uuid": "969f961e-5117-ee11-8f6d-00224893b0ed"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2025-04-06T22:20:47.0000000Z",
+              "DocumentUuid": "fdd9c15c-3513-f011-998a-002248964b72",
+              "DueDate": "2025-06-29T14:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2024",
+              "type": "Financial Report 2024",
+              "uuid": "c89f961e-5117-ee11-8f6d-00224893b0ed"
+            },
+            {
+              "AISId": "0fb9a958-1f1c-f111-8341-7ced8d33fdea",
+              "DateReceived": "2026-03-10T01:21:29.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2026-06-29T14:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2025",
+              "type": "Annual Information Statement 2025",
+              "uuid": "5c3b51b7-e936-ef11-a317-00224893b0ed"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2026-03-10T01:20:50.0000000Z",
+              "DocumentUuid": "2a0ceb46-1f1c-f111-8341-7ced8dd1baa6",
+              "DueDate": "2026-06-29T14:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2025",
+              "type": "Financial Report 2025",
+              "uuid": "833b51b7-e936-ef11-a317-00224893b0ed"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2027-06-29T14:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Not yet submitted",
+              "Year": "2026",
+              "type": "Annual Information Statement 2026",
+              "uuid": "50e019bc-ba55-f011-bec2-00224894aab5"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2027-06-29T14:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Pending",
+              "Year": "2026",
+              "type": "Financial Report 2026",
+              "uuid": "73e019bc-ba55-f011-bec2-00224894aab5"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2028-06-29T14:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Not yet submitted",
+              "Year": "2027",
+              "type": "Annual Information Statement 2027",
+              "uuid": "47426175-8c74-f111-ab0e-002248973d37"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2028-06-29T14:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Pending",
+              "Year": "2027",
+              "type": "Financial Report 2027",
+              "uuid": "5b426175-8c74-f111-ab0e-002248973d37"
+            }
+          ],
+          "Beneficiaries": [
+            {
+              "Description": null,
+              "Name": "Families",
+              "uuid": "62b9a958-1f1c-f111-8341-7ced8d33fdea"
+            },
+            {
+              "Description": null,
+              "Name": "Early childhood - aged under 6",
+              "uuid": "66b9a958-1f1c-f111-8341-7ced8d33fdea"
+            }
+          ],
+          "CharitySize": "Small",
+          "CharitySubtypeHistory": [
+            {
+              "EndDate": "2013-12-30T13:00:00.0000000Z",
+              "Purpose": "2012 Advancement of education",
+              "StartDate": "2012-12-02T13:00:00.0000000Z",
+              "uuid": "b3c43d7d-fcc6-e811-a95f-000d3ad24c60"
+            },
+            {
+              "EndDate": null,
+              "Purpose": "Advancing education",
+              "StartDate": "2013-12-31T13:00:00.0000000Z",
+              "uuid": "bfc43d7d-fcc6-e811-a95f-000d3ad24c60"
+            }
+          ],
+          "CharityVersion": "80",
+          "ChildMemberEndDate": null,
+          "ChildMemberStartDate": null,
+          "ChooseToProvideAis": null,
+          "Countries": [
+            {
+              "Name": "Australia",
+              "uuid": "f57b5602-9a4d-e811-a951-000d3ad06f2d"
+            }
+          ],
+          "DateEstablished": "1993-12-31T13:00:00.0000000Z",
+          "Documents": [
+            {
+              "Date": "2015-03-20T00:00:00.0000000",
+              "Title": "IA13735 Constitution 13 pages.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/413ef050-38af-e811-a95e-000d3ad24c60-5fdac5b4-0020-4961-8b10-1eb36fc5d22e-Governing%20Document-2c3e61fe-3eb0-e811-a95e-000d3ad24c60-IA13735_Constitution_13_pages.pdf",
+              "Year": "2014",
+              "type": "Governing Document",
+              "uuid": "2c3e61fe-3eb0-e811-a95e-000d3ad24c60"
+            },
+            {
+              "Date": "2021-03-23T00:00:00.0000000",
+              "Title": "signed audit report 2018.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/413ef050-38af-e811-a95e-000d3ad24c60-5fdac5b4-0020-4961-8b10-1eb36fc5d22e-Annual%20Report-ed4e120b-6a8b-eb11-b1ac-000d3a6b2b8c-signed_audit_report_2018.pdf",
+              "Year": "2018",
+              "type": "Annual Report",
+              "uuid": "ed4e120b-6a8b-eb11-b1ac-000d3a6b2b8c"
+            },
+            {
+              "Date": "2020-03-10T00:00:00.0000000",
+              "Title": "ACNC documents.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/413ef050-38af-e811-a95e-000d3ad24c60-5fdac5b4-0020-4961-8b10-1eb36fc5d22e-Annual%20Report-687d53f8-6462-ea11-a811-000d3acae853-ACNC_documents.pdf",
+              "Year": "2019",
+              "type": "Annual Report",
+              "uuid": "687d53f8-6462-ea11-a811-000d3acae853"
+            },
+            {
+              "Date": "2021-03-23T00:00:00.0000000",
+              "Title": "signed audit report 2018.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/413ef050-38af-e811-a95e-000d3ad24c60-5fdac5b4-0020-4961-8b10-1eb36fc5d22e-Financial%20Report-fe4e120b-6a8b-eb11-b1ac-000d3a6b2b8c-signed_audit_report_2018.pdf",
+              "Year": "2018",
+              "type": "Financial Report",
+              "uuid": "fe4e120b-6a8b-eb11-b1ac-000d3a6b2b8c"
+            },
+            {
+              "Date": "2020-03-10T00:00:00.0000000",
+              "Title": "Audit Report Signed 2019.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/413ef050-38af-e811-a95e-000d3ad24c60-5fdac5b4-0020-4961-8b10-1eb36fc5d22e-Financial%20Report-7d7d53f8-6462-ea11-a811-000d3acae853-Audit_Report_Signed_2019.pdf",
+              "Year": "2019",
+              "type": "Financial Report",
+              "uuid": "7d7d53f8-6462-ea11-a811-000d3acae853"
+            },
+            {
+              "Date": "2021-03-31T00:00:00.0000000",
+              "Title": "ACNC Documents.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/413ef050-38af-e811-a95e-000d3ad24c60-5fdac5b4-0020-4961-8b10-1eb36fc5d22e-Financial%20Report-c5df8aef-f491-eb11-b1ac-000d3acbdef0-ACNC_Documents.pdf",
+              "Year": "2020",
+              "type": "Financial Report",
+              "uuid": "c5df8aef-f491-eb11-b1ac-000d3acbdef0"
+            },
+            {
+              "Date": "2022-05-10T00:00:00.0000000",
+              "Title": "ACNC lodge 2021 documents.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/413ef050-38af-e811-a95e-000d3ad24c60-5fdac5b4-0020-4961-8b10-1eb36fc5d22e-Financial%20Report-af9f7413-05d0-ec11-a7b6-000d3ad1d6af-ACNC_lodge_2021_documents.pdf",
+              "Year": "2021",
+              "type": "Financial Report",
+              "uuid": "af9f7413-05d0-ec11-a7b6-000d3ad1d6af"
+            },
+            {
+              "Date": "2013-08-20T00:00:00.0000000",
+              "Title": "Audited accounts dec 2012.PDF",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/413ef050-38af-e811-a95e-000d3ad24c60-5fdac5b4-0020-4961-8b10-1eb36fc5d22e-Financial%20Report-253e61fe-3eb0-e811-a95e-000d3ad24c60-Audited_accounts_dec_2012.PDF",
+              "Year": "2013",
+              "type": "Financial Report",
+              "uuid": "253e61fe-3eb0-e811-a95e-000d3ad24c60"
+            },
+            {
+              "Date": "2015-03-20T00:00:00.0000000",
+              "Title": "2014 audited financials.PDF",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/413ef050-38af-e811-a95e-000d3ad24c60-5fdac5b4-0020-4961-8b10-1eb36fc5d22e-Financial%20Report-4a3e61fe-3eb0-e811-a95e-000d3ad24c60-2014_audited_financials.PDF",
+              "Year": "2014",
+              "type": "Financial Report",
+              "uuid": "4a3e61fe-3eb0-e811-a95e-000d3ad24c60"
+            },
+            {
+              "Date": "2016-04-22T00:00:00.0000000",
+              "Title": "Audit 2015.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/413ef050-38af-e811-a95e-000d3ad24c60-5fdac5b4-0020-4961-8b10-1eb36fc5d22e-Financial%20Report-5e3e61fe-3eb0-e811-a95e-000d3ad24c60-Audit_2015.pdf",
+              "Year": "2015",
+              "type": "Financial Report",
+              "uuid": "5e3e61fe-3eb0-e811-a95e-000d3ad24c60"
+            },
+            {
+              "Date": "2017-05-05T00:00:00.0000000",
+              "Title": "Audit for 2016 prepsented 2017 signed.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/413ef050-38af-e811-a95e-000d3ad24c60-5fdac5b4-0020-4961-8b10-1eb36fc5d22e-Financial%20Report-773e61fe-3eb0-e811-a95e-000d3ad24c60-Audit_for_2016_prepsented_2017_signed.pdf",
+              "Year": "2016",
+              "type": "Financial Report",
+              "uuid": "773e61fe-3eb0-e811-a95e-000d3ad24c60"
+            },
+            {
+              "Date": "2018-03-06T00:00:00.0000000",
+              "Title": "Audit 2017 year ending signed.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/413ef050-38af-e811-a95e-000d3ad24c60-5fdac5b4-0020-4961-8b10-1eb36fc5d22e-Financial%20Report-b33e61fe-3eb0-e811-a95e-000d3ad24c60-Audit_2017_year_ending_signed.pdf",
+              "Year": "2017",
+              "type": "Financial Report",
+              "uuid": "b33e61fe-3eb0-e811-a95e-000d3ad24c60"
+            },
+            {
+              "Date": "2024-03-27T00:00:00.0000000",
+              "Title": "P&L and Bal Sheet for ACNC.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/413ef050-38af-e811-a95e-000d3ad24c60-5fdac5b4-0020-4961-8b10-1eb36fc5d22e-Financial%20Report-f6aa2964-c7eb-ee11-a1fd-000d3ad25c5d-P&L_and_Bal_Sheet_for_ACNC.pdf",
+              "Year": "2023",
+              "type": "Financial Report",
+              "uuid": "f6aa2964-c7eb-ee11-a1fd-000d3ad25c5d"
+            },
+            {
+              "Date": "2023-05-02T00:00:00.0000000",
+              "Title": "ACNC documents 2022.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/413ef050-38af-e811-a95e-000d3ad24c60-5fdac5b4-0020-4961-8b10-1eb36fc5d22e-Financial%20Report-907d0fee-81e8-ed11-8848-00224893bc23-ACNC_documents_2022.pdf",
+              "Year": "2022",
+              "type": "Financial Report",
+              "uuid": "907d0fee-81e8-ed11-8848-00224893bc23"
+            },
+            {
+              "Date": "2025-04-07T00:00:00.0000000",
+              "Title": "2024 Audit ACNC.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/413ef050-38af-e811-a95e-000d3ad24c60-5fdac5b4-0020-4961-8b10-1eb36fc5d22e-Financial%20Report-fdd9c15c-3513-f011-998a-002248964b72-2024_Audit_ACNC.pdf",
+              "Year": "2024",
+              "type": "Financial Report",
+              "uuid": "fdd9c15c-3513-f011-998a-002248964b72"
+            },
+            {
+              "Date": "2026-03-10T00:00:00.0000000",
+              "Title": "2025 P&L and Bal Sheet.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/413ef050-38af-e811-a95e-000d3ad24c60-5fdac5b4-0020-4961-8b10-1eb36fc5d22e-Financial%20Report-2a0ceb46-1f1c-f111-8341-7ced8dd1baa6-2025_P&L_and_Bal_Sheet.pdf",
+              "Year": "2025",
+              "type": "Financial Report",
+              "uuid": "2a0ceb46-1f1c-f111-8341-7ced8dd1baa6"
+            }
+          ],
+          "Email": "admin@banksstkindy.org",
+          "EnforcementOutcomes": [],
+          "FinancialYearEnd": "31/12",
+          "GovernmentAgencies": [
+            {
+              "Name": "QLD - Incorporated Association",
+              "ReferenceNumber": "IA13735",
+              "uuid": "4eb9a958-1f1c-f111-8341-7ced8d33fdea"
+            },
+            {
+              "Name": "QLD - Fundraising",
+              "ReferenceNumber": "CP4310",
+              "uuid": "51b9a958-1f1c-f111-8341-7ced8d33fdea"
+            }
+          ],
+          "GroupHeadFlag": false,
+          "LastReported": "2026-03-10T01:21:29.0000000Z",
+          "Name": "Banks Street Newmarket Community Preschooling Centre Inc",
+          "NextReportDue": "2027-06-30T13:30:00.0000000Z",
+          "OperatingInStates": [
+            {
+              "Name": "Queensland",
+              "uuid": "2cf593a5-455e-e811-a95c-000d3ad1c715"
+            }
+          ],
+          "OtherDetails": null,
+          "OtherNames": [],
+          "ParentAccountAbn": null,
+          "ParentAccountId": null,
+          "Phone": "0733526940",
+          "Programs": [
+            {
+              "AisUuid": "0fb9a958-1f1c-f111-8341-7ced8d33fdea",
+              "Name": "Banks St Kindy",
+              "OperatesOnline": true,
+              "ProgramBeneficiaries": [
+                "Early childhood - aged under 6",
+                "Families"
+              ],
+              "ProgramClassie": [
+                {
+                  "classie_id": "170",
+                  "label": "Education",
+                  "parent_id": null,
+                  "selected": true
+                }
+              ],
+              "ProgramClassification": "Education",
+              "ProgramClassificationID": "170",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Newmarket QLD, Australia",
+                  "FormattedAddress": "Newmarket QLD 4051, Australia",
+                  "Marker": {
+                    "Latitude": -27.435,
+                    "Longitude": 153.009
+                  },
+                  "Name": "Newmarket",
+                  "uuid": "5eb9a958-1f1c-f111-8341-7ced8d33fdea"
+                }
+              ],
+              "ProgramWeblink": "www.banksstkindy.org",
+              "uuid": "56b9a958-1f1c-f111-8341-7ced8d33fdea"
+            }
+          ],
+          "ReferendumReturnsUrl": null,
+          "RegistrationStatusHistory": [
+            {
+              "EffectiveDate": "2012-12-02T13:00:00.0000000Z",
+              "Status": "Registered",
+              "TransactionDate": "2012-12-02T13:00:00.0000000Z",
+              "uuid": "c19d1569-06c6-e811-a964-000d3ad244fd"
+            }
+          ],
+          "RelatedPartyTransactions": null,
+          "RelevantTransactions": null,
+          "ReportingLate": "2027-12-30T13:30:00.0000000Z",
+          "ResponsiblePersons": [
+            {
+              "Name": "Elizabeth Oliver",
+              "Role": "Other",
+              "uuid": "e3e5a067-02bc-e811-a95f-000d3ad24c60"
+            },
+            {
+              "Name": "Sharon Kemp",
+              "Role": "Director",
+              "uuid": "5a4732ee-dd26-f011-8c4d-00224812e339"
+            },
+            {
+              "Name": "Michelle Baran",
+              "Role": "President",
+              "uuid": "d68fa9f2-81e8-ed11-8848-00224893b261"
+            },
+            {
+              "Name": "Lawrence Chan",
+              "Role": "Treasurer",
+              "uuid": "1bb9a958-1f1c-f111-8341-7ced8d33fdea"
+            }
+          ],
+          "Status": "Registered",
+          "SummaryOfActivities": "To provide all children a well grounded kindergarten education to ensure that when they move onto Prep/school they are as ready as they can be.",
+          "TotalExpensesEmployee": "379848",
+          "TotalExpensesGrantsAndDonationsInAustralia": "0",
+          "TotalExpensesGrantsAndDonationsOutsideAustralia": "0",
+          "TotalExpensesInterest": "0",
+          "TotalExpensesOther": "151676",
+          "TotalGrossIncomeDonationsAndRequests": "17185",
+          "TotalGrossIncomeGoodsOrServices": "63667",
+          "TotalGrossIncomeGovernmentGrants": "392212",
+          "TotalGrossIncomeInvestments": "2448",
+          "TotalGrossIncomeOtherRevenues": "296",
+          "TransparencyRegisterUrl": null,
+          "Website": "www.banksstkindy.org",
+          "__normalized": true,
+          "type": "charity",
+          "uuid": "413ef050-38af-e811-a95e-000d3ad24c60"
+        },
+        "type": "charity",
+        "uuid": "413ef050-38af-e811-a95e-000d3ad24c60"
+      },
+      "canonical_field_mappings": {
+        "data.Name": "display_name",
+        "data.OtherNames": "operating_names",
+        "data.AnnualReports": "acnc_ais_url",
+        "data.Programs": "programs"
+      },
+      "evidence_ids": [
+        "ev:acnc:ais:60094500985:2025"
       ]
     }
   ],
@@ -233,7 +921,10 @@
         "source_precision": null
       },
       "assets": null,
-      "liabilities": null
+      "liabilities": null,
+      "income_breakdown": [],
+      "expense_breakdown": [],
+      "balance_sheet_breakdown": []
     }
   ],
   "financial_metrics": [
@@ -421,6 +1112,30 @@
       "page": null,
       "section": null,
       "content_hash": null
+    },
+    {
+      "evidence_id": "ev:abr-dgr:60094500985:20260805",
+      "source_type": "regulatory",
+      "title": "ABR DGR bulk observation",
+      "publisher": "Australian Business Register / Australian Taxation Office",
+      "url": "https://abr.business.gov.au/Tools/BulkExtract",
+      "observed_at": "2026-08-05",
+      "reporting_period": null,
+      "page": null,
+      "section": null,
+      "content_hash": null
+    },
+    {
+      "evidence_id": "ev:acnc:ais:60094500985:2025",
+      "source_type": "regulatory",
+      "title": "Banks Street Newmarket Community Preschooling Centre Inc Annual Information Statement 2025",
+      "publisher": "Australian Charities and Not-for-profits Commission",
+      "url": "https://www.acnc.gov.au/charity/charities/413ef050-38af-e811-a95e-000d3ad24c60/documents/0fb9a958-1f1c-f111-8341-7ced8d33fdea",
+      "observed_at": "2026-03-10",
+      "reporting_period": null,
+      "page": null,
+      "section": null,
+      "content_hash": null
     }
   ],
   "embedding": {
@@ -429,8 +1144,8 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "dfc5c384a13e21bdc394d20f5a8d0dd1b265d625ac37b9110a432c53cac7c507",
-    "generated_at": "2026-08-10T13:53:24.455569Z",
+    "source_text_hash": "45b53818a658ebe541a89a8f915921347c622765f05a04b9fb5e0b8257174bea",
+    "generated_at": "2026-08-13T00:32:18.620579Z",
     "vector_ref": "embeddings.parquet#cb_2bb1b827064a43ec9737b9d6f68297ef"
   },
   "synthesis": {
@@ -501,9 +1216,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc2",
-  "card_schema_version": "0.3",
+  "dataset_version": "phase2b-2026-08-13-rc3",
+  "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.3.0-rc2",
-  "built_at": "2026-08-12T14:24:20.675968Z"
+  "generator_version": "0.4.0-rc3",
+  "built_at": "2026-08-13T00:32:15.698599Z"
 }

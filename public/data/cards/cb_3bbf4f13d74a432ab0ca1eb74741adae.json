@@ -18,7 +18,16 @@
       ]
     }
   ],
-  "tax_statuses": [],
+  "tax_statuses": [
+    {
+      "scheme": "ABR DGR",
+      "status": "endorsed",
+      "detail": "Dated 2026-08-05 ABR bulk observation",
+      "evidence_ids": [
+        "ev:abr-dgr:51419209376:20260805"
+      ]
+    }
+  ],
   "relationships": [],
   "source_resolutions": [
     {
@@ -37,6 +46,12 @@
   "legal_name": "The Trustee For The Newman College Foundation",
   "display_name": "The Trustee For The Newman College Foundation",
   "entity_status": "registered",
+  "canonical_url": "https://gregorycwhill.github.io/CauseBase-Viewer/#cb_3bbf4f13d74a432ab0ca1eb74741adae",
+  "acnc_profile_url": "https://www.acnc.gov.au/charity/charities/c51e8ddf-38af-e811-a963-000d3ad24077/profile",
+  "acnc_ais_url": "https://www.acnc.gov.au/charity/charities/c51e8ddf-38af-e811-a963-000d3ad24077/documents/0ef0a241-816f-f111-ab0c-00224894cb3a",
+  "operating_names": [],
+  "former_names": [],
+  "principal_location": "VIC, Australia",
   "coverage": [
     {
       "capability": "regulatory",
@@ -83,6 +98,16 @@
       ],
       "observed_at": "2026-08-10",
       "freshness_note": null
+    },
+    {
+      "capability": "latest_acnc_ais",
+      "status": "observed",
+      "source_record_id": null,
+      "evidence_ids": [
+        "ev:acnc:ais:51419209376:2025"
+      ],
+      "observed_at": "2026-06-24",
+      "freshness_note": "Latest submitted ACNC AIS in the 2026-08-13 public-profile acquisition: 2025."
     }
   ],
   "enrichment_level": "enriched",
@@ -138,7 +163,9 @@
     "engaging in community service and outreach (volunteering)",
     "attending public talks and Scholar’s Presentations"
   ],
+  "participation_observations": [],
   "opportunities": [],
+  "programs": [],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:f17150da-e2bf-5af8-879c-b106dbe3f087",
@@ -158,6 +185,7 @@
         "ACNC registration ID": null,
         "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
+      "source_payload": null,
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
         "Legal Name": "legal_name",
@@ -187,12 +215,728 @@
         "Assets": null,
         "Liabilities": null
       },
+      "source_payload": null,
       "canonical_field_mappings": {
         "Revenue": "financial_records[].revenue",
         "Total expenses": "financial_records[].total_expenses"
       },
       "evidence_ids": [
         "ev:ais:51419209376:2023"
+      ]
+    },
+    {
+      "source_record_id": "src:acnc-public-profile:51419209376:cb_3bbf4f13d74a432ab0ca1eb74741adae:2026-08-13",
+      "source_family": "acnc-public-profile",
+      "dataset_version": "2026-08-13-public-api",
+      "source_url": "https://www.acnc.gov.au/charity/charities/c51e8ddf-38af-e811-a963-000d3ad24077/profile",
+      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "observed_at": "2026-06-24",
+      "effective_from": null,
+      "effective_to": null,
+      "source_fields": {
+        "uuid": "c51e8ddf-38af-e811-a963-000d3ad24077",
+        "abn": "51419209376",
+        "latest_ais_year": "2025",
+        "latest_ais_uuid": "0ef0a241-816f-f111-ab0c-00224894cb3a"
+      },
+      "source_payload": {
+        "data": {
+          "AFSAddressPostalCode": "3052",
+          "AFSEmail": "accounts@newman.unimelb.edu.au",
+          "Abn": "51419209376",
+          "AddressCountry": "Australia",
+          "AddressLine1": "Newman College",
+          "AddressLine2": null,
+          "AddressLine3": null,
+          "AddressPostalCode": "3052",
+          "AddressStateOrProvince": "VIC",
+          "AddressSuburb": "Parkville",
+          "AddressSuburbStatePostcode": "Parkville VIC 3052",
+          "AnnualReports": [
+            {
+              "AISId": null,
+              "DateReceived": "2020-06-11T22:21:23.0000000Z",
+              "DocumentUuid": "36429ed6-31ac-ea11-a812-000d3ad1cc03",
+              "DueDate": "2020-08-30T14:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2019",
+              "type": "Financial Report 2019",
+              "uuid": "ef619b3c-0026-e911-a976-000d3ad05e15"
+            },
+            {
+              "AISId": "bf6456ee-31ac-ea11-a812-000d3ad1f497",
+              "DateReceived": "2020-06-11T22:21:48.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2020-08-30T14:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2019",
+              "type": "Annual Information Statement 2019",
+              "uuid": "1b629b3c-0026-e911-a976-000d3ad05e15"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2021-07-01T00:55:23.0000000Z",
+              "DocumentUuid": "f05f28fa-06da-eb11-bacb-000d3acc5dd6",
+              "DueDate": "2021-06-29T14:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2020",
+              "type": "Financial Report 2020",
+              "uuid": "50629b3c-0026-e911-a976-000d3ad05e15"
+            },
+            {
+              "AISId": "ee00f402-07da-eb11-bacb-002248107110",
+              "DateReceived": "2021-07-01T00:55:34.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2021-06-29T14:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2020",
+              "type": "Annual Information Statement 2020",
+              "uuid": "7c629b3c-0026-e911-a976-000d3ad05e15"
+            },
+            {
+              "AISId": "4703a344-32f0-ec11-bb3d-002248944f2b",
+              "DateReceived": "2022-06-20T00:45:27.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2022-06-29T14:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2021",
+              "type": "Annual Information Statement 2021",
+              "uuid": "92847e24-99eb-ea11-a815-000d3ad1f29c"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2022-06-20T00:45:22.0000000Z",
+              "DocumentUuid": "01f3ce3c-32f0-ec11-bb3d-002248944e6d",
+              "DueDate": "2022-06-29T14:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2021",
+              "type": "Financial Report 2021",
+              "uuid": "c7847e24-99eb-ea11-a815-000d3ad1f29c"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Not required",
+              "Year": "2013",
+              "type": "Financial Report 2013",
+              "uuid": "27eb36a3-3ec8-e811-a964-000d3ad24077"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Not required",
+              "Year": "2014",
+              "type": "Financial Report 2014",
+              "uuid": "2feb36a3-3ec8-e811-a964-000d3ad24077"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2019-06-12T02:03:31.0000000Z",
+              "DocumentUuid": "4dbcf03f-b68c-e911-a972-000d3ad24c60",
+              "DueDate": "2019-06-29T14:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2018",
+              "type": "Financial Report 2018",
+              "uuid": "40eb36a3-3ec8-e811-a964-000d3ad24077"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2017-06-21T14:00:00.0000000Z",
+              "DocumentUuid": "cc5df84a-46b0-e811-a961-000d3ad24182",
+              "DueDate": "2017-06-29T14:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2016",
+              "type": "Financial Report 2016",
+              "uuid": "4deb36a3-3ec8-e811-a964-000d3ad24077"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2018-06-13T14:00:00.0000000Z",
+              "DocumentUuid": "055ef84a-46b0-e811-a961-000d3ad24182",
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2017",
+              "type": "Financial Report 2017",
+              "uuid": "57eb36a3-3ec8-e811-a964-000d3ad24077"
+            },
+            {
+              "AISId": "b2296c46-b68c-e911-a987-000d3ad05e15",
+              "DateReceived": "2019-06-12T02:03:35.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2019-06-29T14:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2018",
+              "type": "Annual Information Statement 2018",
+              "uuid": "cbea95a0-3ac8-e811-a963-000d3ad24a0d"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2016-06-29T14:00:00.0000000Z",
+              "DocumentUuid": "8c5ef84a-46b0-e811-a961-000d3ad24182",
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2015",
+              "type": "Financial Report 2015",
+              "uuid": "8eaaad9e-3ec8-e811-a963-000d3ad24a0d"
+            },
+            {
+              "AISId": "ab5dd8dc-50c8-e811-a962-000d3ad24182",
+              "DateReceived": "2017-06-21T14:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2017-06-29T14:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2016",
+              "type": "Annual Information Statement 2016",
+              "uuid": "4f057bdd-50c8-e811-a95f-000d3ad24c60"
+            },
+            {
+              "AISId": "aa2a9cdb-50c8-e811-a964-000d3ad24077",
+              "DateReceived": "2014-06-29T14:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2014-06-29T14:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2013",
+              "type": "Annual Information Statement 2013",
+              "uuid": "51057bdd-50c8-e811-a95f-000d3ad24c60"
+            },
+            {
+              "AISId": "c35dd8dc-50c8-e811-a962-000d3ad24182",
+              "DateReceived": "2018-06-13T14:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2018-06-29T14:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2017",
+              "type": "Annual Information Statement 2017",
+              "uuid": "55057bdd-50c8-e811-a95f-000d3ad24c60"
+            },
+            {
+              "AISId": "b02a9cdb-50c8-e811-a964-000d3ad24077",
+              "DateReceived": "2015-06-29T14:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2015-06-29T14:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2014",
+              "type": "Annual Information Statement 2014",
+              "uuid": "57057bdd-50c8-e811-a95f-000d3ad24c60"
+            },
+            {
+              "AISId": "b62a9cdb-50c8-e811-a964-000d3ad24077",
+              "DateReceived": "2016-06-29T14:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2016-06-29T14:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2015",
+              "type": "Annual Information Statement 2015",
+              "uuid": "5d057bdd-50c8-e811-a95f-000d3ad24c60"
+            },
+            {
+              "AISId": "c3c62eca-0412-ee11-8f6d-00224893bc23",
+              "DateReceived": "2023-06-23T20:31:23.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2023-06-29T14:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2022",
+              "type": "Annual Information Statement 2022",
+              "uuid": "73437645-c0d9-eb11-bacb-002248107df9"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2023-06-23T20:30:31.0000000Z",
+              "DocumentUuid": "ddbe8fc0-0412-ee11-8f6d-00224893b958",
+              "DueDate": "2023-06-29T14:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2022",
+              "type": "Financial Report 2022",
+              "uuid": "85437645-c0d9-eb11-bacb-002248107df9"
+            },
+            {
+              "AISId": "ac0b67fa-3912-ef11-9f89-002248934705",
+              "DateReceived": "2024-05-14T21:36:20.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2024-06-29T14:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2023",
+              "type": "Annual Information Statement 2023",
+              "uuid": "6b149bd6-8df8-ec11-82e6-00224811654f"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2024-05-14T21:35:21.0000000Z",
+              "DocumentUuid": "85f08cd4-3912-ef11-9f89-002248972ec2",
+              "DueDate": "2024-06-29T14:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2023",
+              "type": "Financial Report 2023",
+              "uuid": "80149bd6-8df8-ec11-82e6-00224811654f"
+            },
+            {
+              "AISId": "5cb87796-305a-f011-bec2-000d3a6aeb52",
+              "DateReceived": "2025-07-06T06:15:33.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2025-06-29T14:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2024",
+              "type": "Annual Information Statement 2024",
+              "uuid": "e9708675-5317-ee11-8f6d-00224893b304"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2025-07-06T06:15:21.0000000Z",
+              "DocumentUuid": "f3fa5b90-305a-f011-bec2-000d3acbcde3",
+              "DueDate": "2025-06-29T14:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2024",
+              "type": "Financial Report 2024",
+              "uuid": "f8708675-5317-ee11-8f6d-00224893b304"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2028-06-29T14:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Not yet submitted",
+              "Year": "2027",
+              "type": "Annual Information Statement 2027",
+              "uuid": "e3110206-8d74-f111-ab0e-0022489423ca"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2028-06-29T14:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Pending",
+              "Year": "2027",
+              "type": "Financial Report 2027",
+              "uuid": "13120206-8d74-f111-ab0e-0022489423ca"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2027-06-29T14:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Not yet submitted",
+              "Year": "2026",
+              "type": "Annual Information Statement 2026",
+              "uuid": "f74416e0-bb55-f011-bec2-00224894aab5"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2027-06-29T14:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Pending",
+              "Year": "2026",
+              "type": "Financial Report 2026",
+              "uuid": "1f4516e0-bb55-f011-bec2-00224894aab5"
+            },
+            {
+              "AISId": "0ef0a241-816f-f111-ab0c-00224894cb3a",
+              "DateReceived": "2026-06-24T04:01:15.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2026-06-29T14:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2025",
+              "type": "Annual Information Statement 2025",
+              "uuid": "b2f8309c-ea36-ef11-a317-6045bdc334c7"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2026-06-24T04:01:10.0000000Z",
+              "DocumentUuid": "3b645934-816f-f111-ab0c-7ced8da12d72",
+              "DueDate": "2026-06-29T14:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2025",
+              "type": "Financial Report 2025",
+              "uuid": "c2f8309c-ea36-ef11-a317-6045bdc334c7"
+            }
+          ],
+          "Beneficiaries": [
+            {
+              "Description": null,
+              "Name": "Other",
+              "uuid": "76f0a241-816f-f111-ab0c-00224894cb3a"
+            },
+            {
+              "Description": null,
+              "Name": "Environment",
+              "uuid": "79f0a241-816f-f111-ab0c-00224894cb3a"
+            }
+          ],
+          "CharitySize": "Small",
+          "CharitySubtypeHistory": [
+            {
+              "EndDate": null,
+              "Purpose": "Advancing education",
+              "StartDate": "2013-12-31T13:00:00.0000000Z",
+              "uuid": "9226672b-fdc6-e811-a962-000d3ad24182"
+            },
+            {
+              "EndDate": "2013-12-30T13:00:00.0000000Z",
+              "Purpose": "2012 Advancement of education",
+              "StartDate": "2012-12-02T13:00:00.0000000Z",
+              "uuid": "4627672b-fdc6-e811-a962-000d3ad24182"
+            }
+          ],
+          "CharityVersion": "157",
+          "ChildMemberEndDate": null,
+          "ChildMemberStartDate": null,
+          "ChooseToProvideAis": null,
+          "Countries": [
+            {
+              "Name": "Australia",
+              "uuid": "f57b5602-9a4d-e811-a951-000d3ad06f2d"
+            }
+          ],
+          "DateEstablished": "1990-12-31T13:00:00.0000000Z",
+          "Documents": [
+            {
+              "Date": "2015-08-20T00:00:00.0000000",
+              "Title": "20150820_The Trustee For The Newman College Foundation_govdoc.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/c51e8ddf-38af-e811-a963-000d3ad24077-5de2a6e1-90ea-46b5-ac03-54fb723116b1-Governing%20Document-685ef84a-46b0-e811-a961-000d3ad24182-20150820_The_Trustee_For_The_Newman_College_Foundation_govdoc.pdf",
+              "Year": null,
+              "type": "Governing Document",
+              "uuid": "685ef84a-46b0-e811-a961-000d3ad24182"
+            },
+            {
+              "Date": "2025-07-06T00:00:00.0000000",
+              "Title": "NEWMAN COLLEGE FINANCIAL STATEMENTS 2024 .pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/c51e8ddf-38af-e811-a963-000d3ad24077-5de2a6e1-90ea-46b5-ac03-54fb723116b1-Financial%20Report-f3fa5b90-305a-f011-bec2-000d3acbcde3-NEWMAN_COLLEGE_FINANCIAL_STATEMENTS_2024_.pdf",
+              "Year": "2024",
+              "type": "Financial Report",
+              "uuid": "f3fa5b90-305a-f011-bec2-000d3acbcde3"
+            },
+            {
+              "Date": "2021-07-01T00:00:00.0000000",
+              "Title": "NEWMAN COLLEGE Financial Report 2020.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/c51e8ddf-38af-e811-a963-000d3ad24077-5de2a6e1-90ea-46b5-ac03-54fb723116b1-Financial%20Report-f05f28fa-06da-eb11-bacb-000d3acc5dd6-NEWMAN_COLLEGE_Financial_Report_2020.pdf",
+              "Year": "2020",
+              "type": "Financial Report",
+              "uuid": "f05f28fa-06da-eb11-bacb-000d3acc5dd6"
+            },
+            {
+              "Date": "2020-06-12T00:00:00.0000000",
+              "Title": "Newman College - Annual Report 2019 .pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/c51e8ddf-38af-e811-a963-000d3ad24077-5de2a6e1-90ea-46b5-ac03-54fb723116b1-Financial%20Report-36429ed6-31ac-ea11-a812-000d3ad1cc03-Newman_College_-_Annual_Report_2019_.pdf",
+              "Year": "2019",
+              "type": "Financial Report",
+              "uuid": "36429ed6-31ac-ea11-a812-000d3ad1cc03"
+            },
+            {
+              "Date": "2017-06-22T00:00:00.0000000",
+              "Title": "Foundation 2016 Financial Statements.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/c51e8ddf-38af-e811-a963-000d3ad24077-5de2a6e1-90ea-46b5-ac03-54fb723116b1-Financial%20Report-cc5df84a-46b0-e811-a961-000d3ad24182-Foundation_2016_Financial_Statements.pdf",
+              "Year": "2016",
+              "type": "Financial Report",
+              "uuid": "cc5df84a-46b0-e811-a961-000d3ad24182"
+            },
+            {
+              "Date": "2018-06-14T00:00:00.0000000",
+              "Title": "Consolidated Newman College Foundation.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/c51e8ddf-38af-e811-a963-000d3ad24077-5de2a6e1-90ea-46b5-ac03-54fb723116b1-Financial%20Report-055ef84a-46b0-e811-a961-000d3ad24182-Consolidated_Newman_College_Foundation.pdf",
+              "Year": "2017",
+              "type": "Financial Report",
+              "uuid": "055ef84a-46b0-e811-a961-000d3ad24182"
+            },
+            {
+              "Date": "2016-06-30T00:00:00.0000000",
+              "Title": "Financial Report 2015.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/c51e8ddf-38af-e811-a963-000d3ad24077-5de2a6e1-90ea-46b5-ac03-54fb723116b1-Financial%20Report-8c5ef84a-46b0-e811-a961-000d3ad24182-Financial_Report_2015.pdf",
+              "Year": "2015",
+              "type": "Financial Report",
+              "uuid": "8c5ef84a-46b0-e811-a961-000d3ad24182"
+            },
+            {
+              "Date": "2019-06-12T00:00:00.0000000",
+              "Title": "Newman College (with Foundation Account).pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/c51e8ddf-38af-e811-a963-000d3ad24077-5de2a6e1-90ea-46b5-ac03-54fb723116b1-Financial%20Report-4dbcf03f-b68c-e911-a972-000d3ad24c60-Newman_College_(with_Foundation_Account).pdf",
+              "Year": "2018",
+              "type": "Financial Report",
+              "uuid": "4dbcf03f-b68c-e911-a972-000d3ad24c60"
+            },
+            {
+              "Date": "2023-06-24T00:00:00.0000000",
+              "Title": "Newman College Financial Report 2022.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/c51e8ddf-38af-e811-a963-000d3ad24077-5de2a6e1-90ea-46b5-ac03-54fb723116b1-Financial%20Report-ddbe8fc0-0412-ee11-8f6d-00224893b958-Newman_College_Financial_Report_2022.pdf",
+              "Year": "2022",
+              "type": "Financial Report",
+              "uuid": "ddbe8fc0-0412-ee11-8f6d-00224893b958"
+            },
+            {
+              "Date": "2022-06-20T00:00:00.0000000",
+              "Title": "NEWMAN COLLEGE.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/c51e8ddf-38af-e811-a963-000d3ad24077-5de2a6e1-90ea-46b5-ac03-54fb723116b1-Financial%20Report-01f3ce3c-32f0-ec11-bb3d-002248944e6d-NEWMAN_COLLEGE.pdf",
+              "Year": "2021",
+              "type": "Financial Report",
+              "uuid": "01f3ce3c-32f0-ec11-bb3d-002248944e6d"
+            },
+            {
+              "Date": "2024-05-15T00:00:00.0000000",
+              "Title": "NEWMAN COLLEGE 2023 FINANCIAL REPORT.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/c51e8ddf-38af-e811-a963-000d3ad24077-5de2a6e1-90ea-46b5-ac03-54fb723116b1-Financial%20Report-85f08cd4-3912-ef11-9f89-002248972ec2-NEWMAN_COLLEGE_2023_FINANCIAL_REPORT.pdf",
+              "Year": "2023",
+              "type": "Financial Report",
+              "uuid": "85f08cd4-3912-ef11-9f89-002248972ec2"
+            },
+            {
+              "Date": "2026-06-24T00:00:00.0000000",
+              "Title": "2025 Newman College Finanical Report.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/c51e8ddf-38af-e811-a963-000d3ad24077-5de2a6e1-90ea-46b5-ac03-54fb723116b1-Financial%20Report-3b645934-816f-f111-ab0c-7ced8da12d72-2025_Newman_College_Finanical_Report.pdf",
+              "Year": "2025",
+              "type": "Financial Report",
+              "uuid": "3b645934-816f-f111-ab0c-7ced8da12d72"
+            }
+          ],
+          "Email": "provost@newman.unimelb.edu.au",
+          "EnforcementOutcomes": [],
+          "FinancialYearEnd": "31/12",
+          "GovernmentAgencies": [],
+          "GroupHeadFlag": false,
+          "LastReported": "2026-06-24T04:01:15.0000000Z",
+          "Name": "The Trustee For The Newman College Foundation",
+          "NextReportDue": "2027-06-30T13:30:00.0000000Z",
+          "OperatingInStates": [
+            {
+              "Name": "Victoria",
+              "uuid": "4ea3219c-455e-e811-a95c-000d3ad1c715"
+            }
+          ],
+          "OtherDetails": null,
+          "OtherNames": [],
+          "ParentAccountAbn": null,
+          "ParentAccountId": null,
+          "Phone": null,
+          "Programs": [
+            {
+              "AisUuid": "0ef0a241-816f-f111-ab0c-00224894cb3a",
+              "Name": "Fountain",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Other - The College Students/residents/community"
+              ],
+              "ProgramClassie": [
+                {
+                  "classie_id": "179",
+                  "label": "Education support",
+                  "parent_id": "170",
+                  "selected": true
+                },
+                {
+                  "classie_id": "170",
+                  "label": "Education",
+                  "parent_id": null,
+                  "selected": false
+                }
+              ],
+              "ProgramClassification": "Education support",
+              "ProgramClassificationID": "179",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "887 Swanston Street, Parkville VIC, Australia",
+                  "FormattedAddress": "887 Swanston St, Parkville VIC 3052, Australia",
+                  "Marker": {
+                    "Latitude": -37.7952573,
+                    "Longitude": 144.9646236
+                  },
+                  "Name": "887 Swanston St",
+                  "uuid": "66f0a241-816f-f111-ab0c-00224894cb3a"
+                }
+              ],
+              "ProgramWeblink": "https://newman.unimelb.edu.au/",
+              "uuid": "61f0a241-816f-f111-ab0c-00224894cb3a"
+            },
+            {
+              "AisUuid": "0ef0a241-816f-f111-ab0c-00224894cb3a",
+              "Name": "Installation of energy savings heating systems",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Environment"
+              ],
+              "ProgramClassie": [
+                {
+                  "classie_id": "230",
+                  "label": "Environmental economic instruments",
+                  "parent_id": "216",
+                  "selected": true
+                },
+                {
+                  "classie_id": "216",
+                  "label": "Environment",
+                  "parent_id": null,
+                  "selected": false
+                }
+              ],
+              "ProgramClassification": "Environmental economic instruments",
+              "ProgramClassificationID": "230",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "887 Swanston Street, Parkville VIC, Australia",
+                  "FormattedAddress": "887 Swanston St, Parkville VIC 3052, Australia",
+                  "Marker": {
+                    "Latitude": -37.795467,
+                    "Longitude": 144.964652
+                  },
+                  "Name": "887 Swanston St",
+                  "uuid": "72f0a241-816f-f111-ab0c-00224894cb3a"
+                }
+              ],
+              "ProgramWeblink": "https://newman.unimelb.edu.au/",
+              "uuid": "6af0a241-816f-f111-ab0c-00224894cb3a"
+            }
+          ],
+          "ReferendumReturnsUrl": null,
+          "RegistrationStatusHistory": [
+            {
+              "EffectiveDate": "2012-12-02T13:00:00.0000000Z",
+              "Status": "Registered",
+              "TransactionDate": "2012-12-02T13:00:00.0000000Z",
+              "uuid": "28b21e9a-06c6-e811-a962-000d3ad24182"
+            }
+          ],
+          "RelatedPartyTransactions": null,
+          "RelevantTransactions": null,
+          "ReportingLate": "2027-12-30T13:30:00.0000000Z",
+          "ResponsiblePersons": [
+            {
+              "Name": "Peter Andrew Comensoli",
+              "Role": "President",
+              "uuid": "080648f1-b727-ef11-840b-00224893bffb"
+            },
+            {
+              "Name": "William John Wilding",
+              "Role": "Director",
+              "uuid": "d41a160d-f9bb-e811-a961-000d3ad24282"
+            },
+            {
+              "Name": "Steven Severino Cortese",
+              "Role": "Director",
+              "uuid": "626340f7-b727-ef11-840b-00224893bffb"
+            },
+            {
+              "Name": "Timothy Patrick O'Leary",
+              "Role": "Director",
+              "uuid": "72e89ac1-1dbc-e811-a963-000d3ad24a0d"
+            },
+            {
+              "Name": "Jane Marie Murphy Page",
+              "Role": "Director",
+              "uuid": "3958830c-f9bb-e811-a964-000d3ad244fd"
+            },
+            {
+              "Name": "Allan Myers",
+              "Role": "Director",
+              "uuid": "1d313a09-b827-ef11-840b-00224893bffb"
+            },
+            {
+              "Name": "Catherine Marian Kovesi",
+              "Role": "Director",
+              "uuid": "ce6540f7-b727-ef11-840b-00224893bffb"
+            },
+            {
+              "Name": "Darcy James McCormack",
+              "Role": "Director",
+              "uuid": "4c9223e3-23bc-e811-a963-000d3ad24a0d"
+            },
+            {
+              "Name": "Janet Mary Vivienne Whiting",
+              "Role": "Director",
+              "uuid": "7ccc885b-0fbc-e811-a963-000d3ad24a0d"
+            },
+            {
+              "Name": "William James Uren",
+              "Role": "Director",
+              "uuid": "78249c3b-5928-ef11-840b-00224893b0ed"
+            },
+            {
+              "Name": "Maree Pallisco",
+              "Role": "Director",
+              "uuid": "5a8c9cae-65d9-eb11-bacb-00224810799d"
+            },
+            {
+              "Name": "Gregory Charles Bennet",
+              "Role": "Director",
+              "uuid": "7d13c3df-b727-ef11-840b-00224893bffb"
+            },
+            {
+              "Name": "Daniel Madigan",
+              "Role": "Director",
+              "uuid": "1dee4e38-6472-f111-ab0f-7ced8da0c6e5"
+            },
+            {
+              "Name": "Daniel Madigan",
+              "Role": "Director",
+              "uuid": "1dee4e38-6472-f111-ab0f-7ced8da0c6e5"
+            },
+            {
+              "Name": "Mark Freeman",
+              "Role": "Director",
+              "uuid": "4b00ffe7-9e64-f111-a825-7ced8d34ed9b"
+            }
+          ],
+          "Status": "Registered",
+          "SummaryOfActivities": "The Foundation supports the College s mission by funding the ongoing maintenance and improvement of its buildings and infrastructure. This ensures safe, stable accommodation for higher education students and promotes access for individuals from diverse social, economic, and geographical backgrounds, thereby advancing education and reducing barriers to participation.",
+          "TotalExpensesEmployee": "0",
+          "TotalExpensesGrantsAndDonationsInAustralia": "0",
+          "TotalExpensesGrantsAndDonationsOutsideAustralia": "0",
+          "TotalExpensesInterest": "0",
+          "TotalExpensesOther": "47500",
+          "TotalGrossIncomeDonationsAndRequests": "2500",
+          "TotalGrossIncomeGoodsOrServices": "0",
+          "TotalGrossIncomeGovernmentGrants": "0",
+          "TotalGrossIncomeInvestments": "1885",
+          "TotalGrossIncomeOtherRevenues": "266165",
+          "TransparencyRegisterUrl": null,
+          "Website": "https://newman.unimelb.edu.au",
+          "__normalized": true,
+          "type": "charity",
+          "uuid": "c51e8ddf-38af-e811-a963-000d3ad24077"
+        },
+        "type": "charity",
+        "uuid": "c51e8ddf-38af-e811-a963-000d3ad24077"
+      },
+      "canonical_field_mappings": {
+        "data.Name": "display_name",
+        "data.OtherNames": "operating_names",
+        "data.AnnualReports": "acnc_ais_url",
+        "data.Programs": "programs"
+      },
+      "evidence_ids": [
+        "ev:acnc:ais:51419209376:2025"
       ]
     }
   ],
@@ -240,7 +984,10 @@
         "source_precision": null
       },
       "assets": null,
-      "liabilities": null
+      "liabilities": null,
+      "income_breakdown": [],
+      "expense_breakdown": [],
+      "balance_sheet_breakdown": []
     }
   ],
   "financial_metrics": [
@@ -410,6 +1157,30 @@
       "page": null,
       "section": null,
       "content_hash": null
+    },
+    {
+      "evidence_id": "ev:abr-dgr:51419209376:20260805",
+      "source_type": "regulatory",
+      "title": "ABR DGR bulk observation",
+      "publisher": "Australian Business Register / Australian Taxation Office",
+      "url": "https://abr.business.gov.au/Tools/BulkExtract",
+      "observed_at": "2026-08-05",
+      "reporting_period": null,
+      "page": null,
+      "section": null,
+      "content_hash": null
+    },
+    {
+      "evidence_id": "ev:acnc:ais:51419209376:2025",
+      "source_type": "regulatory",
+      "title": "The Trustee For The Newman College Foundation Annual Information Statement 2025",
+      "publisher": "Australian Charities and Not-for-profits Commission",
+      "url": "https://www.acnc.gov.au/charity/charities/c51e8ddf-38af-e811-a963-000d3ad24077/documents/0ef0a241-816f-f111-ab0c-00224894cb3a",
+      "observed_at": "2026-06-24",
+      "reporting_period": null,
+      "page": null,
+      "section": null,
+      "content_hash": null
     }
   ],
   "embedding": {
@@ -418,8 +1189,8 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "39f2117f10288c4ef6d41b55153a08525c62d1949459b896b3ca67291ef2bf9a",
-    "generated_at": "2026-08-10T13:53:24.457145Z",
+    "source_text_hash": "468c9a76d7a1431c9cfc47c95d19dd3620ffedd0efe5d0e3625456267e1f32ee",
+    "generated_at": "2026-08-13T00:32:18.622926Z",
     "vector_ref": "embeddings.parquet#cb_3bbf4f13d74a432ab0ca1eb74741adae"
   },
   "synthesis": {
@@ -490,9 +1261,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc2",
-  "card_schema_version": "0.3",
+  "dataset_version": "phase2b-2026-08-13-rc3",
+  "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.3.0-rc2",
-  "built_at": "2026-08-12T14:24:20.675968Z"
+  "generator_version": "0.4.0-rc3",
+  "built_at": "2026-08-13T00:32:15.698599Z"
 }

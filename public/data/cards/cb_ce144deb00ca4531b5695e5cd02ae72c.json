@@ -37,6 +37,12 @@
   "legal_name": "A F E Common Equity Rental Housing Co-operative Limited",
   "display_name": "A F E Common Equity Rental Housing Co-operative Limited",
   "entity_status": "registered",
+  "canonical_url": "https://gregorycwhill.github.io/CauseBase-Viewer/#cb_ce144deb00ca4531b5695e5cd02ae72c",
+  "acnc_profile_url": "https://www.acnc.gov.au/charity/charities/a74e1e89-3aaf-e811-a962-000d3ad24a0d/profile",
+  "acnc_ais_url": "https://www.acnc.gov.au/charity/charities/a74e1e89-3aaf-e811-a962-000d3ad24a0d/documents/e1477300-0707-f111-8406-6045bde5be38",
+  "operating_names": [],
+  "former_names": [],
+  "principal_location": "VIC, Australia",
   "coverage": [
     {
       "capability": "regulatory",
@@ -81,6 +87,16 @@
       ],
       "observed_at": "2026-08-10",
       "freshness_note": null
+    },
+    {
+      "capability": "latest_acnc_ais",
+      "status": "observed",
+      "source_record_id": null,
+      "evidence_ids": [
+        "ev:acnc:ais:29041947678:2025"
+      ],
+      "observed_at": "2026-01-29",
+      "freshness_note": "Latest submitted ACNC AIS in the 2026-08-13 public-profile acquisition: 2025."
     }
   ],
   "enrichment_level": "enriched",
@@ -115,7 +131,9 @@
   "activities": [],
   "beneficiaries": [],
   "participation_modes": [],
+  "participation_observations": [],
   "opportunities": [],
+  "programs": [],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:bdc889e4-bae6-54ba-b527-cbad388de502",
@@ -135,6 +153,7 @@
         "ACNC registration ID": null,
         "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
+      "source_payload": null,
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
         "Legal Name": "legal_name",
@@ -164,12 +183,546 @@
         "Assets": null,
         "Liabilities": null
       },
+      "source_payload": null,
       "canonical_field_mappings": {
         "Revenue": "financial_records[].revenue",
         "Total expenses": "financial_records[].total_expenses"
       },
       "evidence_ids": [
         "ev:ais:29041947678:2023"
+      ]
+    },
+    {
+      "source_record_id": "src:acnc-public-profile:29041947678:cb_ce144deb00ca4531b5695e5cd02ae72c:2026-08-13",
+      "source_family": "acnc-public-profile",
+      "dataset_version": "2026-08-13-public-api",
+      "source_url": "https://www.acnc.gov.au/charity/charities/a74e1e89-3aaf-e811-a962-000d3ad24a0d/profile",
+      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "observed_at": "2026-01-29",
+      "effective_from": null,
+      "effective_to": null,
+      "source_fields": {
+        "uuid": "a74e1e89-3aaf-e811-a962-000d3ad24a0d",
+        "abn": "29041947678",
+        "latest_ais_year": "2025",
+        "latest_ais_uuid": "e1477300-0707-f111-8406-6045bde5be38"
+      },
+      "source_payload": {
+        "data": {
+          "AFSAddressPostalCode": "3156",
+          "AFSEmail": "afecerc@gmail.com",
+          "Abn": "29041947678",
+          "AddressCountry": "AUSTRALIA",
+          "AddressLine1": "4 Dion Street",
+          "AddressLine2": null,
+          "AddressLine3": null,
+          "AddressPostalCode": "3156",
+          "AddressStateOrProvince": "VIC",
+          "AddressSuburb": "Ferntree Gully",
+          "AddressSuburbStatePostcode": "Ferntree Gully VIC 3156",
+          "AnnualReports": [
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Not required - small",
+              "Year": "2019",
+              "type": "Financial Report 2019",
+              "uuid": "ccbaecc9-e725-e911-a976-000d3ad02a61"
+            },
+            {
+              "AISId": "7a514ea5-1452-ea11-a813-000d3ad1fbf8",
+              "DateReceived": "2020-01-28T13:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2020-01-31T00:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2019",
+              "type": "Annual Information Statement 2019",
+              "uuid": "eebaecc9-e725-e911-a976-000d3ad02a61"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Not required - small",
+              "Year": "2020",
+              "type": "Financial Report 2020",
+              "uuid": "11bbecc9-e725-e911-a976-000d3ad02a61"
+            },
+            {
+              "AISId": "d9493c0b-e78d-eb11-b1ac-000d3a6b266f",
+              "DateReceived": "2021-03-24T13:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2021-03-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2020",
+              "type": "Annual Information Statement 2020",
+              "uuid": "25bbecc9-e725-e911-a976-000d3ad02a61"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2026-12-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Not yet submitted",
+              "Year": "2026",
+              "type": "Annual Information Statement 2026",
+              "uuid": "22167862-d7df-ef11-a731-000d3ad059a3"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2026-12-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Pending",
+              "Year": "2026",
+              "type": "Financial Report 2026",
+              "uuid": "26167862-d7df-ef11-a731-000d3ad059a3"
+            },
+            {
+              "AISId": "965de287-84b2-ed11-83ff-00224893b065",
+              "DateReceived": "2023-01-30T13:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2023-01-31T00:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2022",
+              "type": "Annual Information Statement 2022",
+              "uuid": "32c2523f-2292-eb11-b1ac-000d3ad1204c"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Not required - small",
+              "Year": "2022",
+              "type": "Financial Report 2022",
+              "uuid": "3bc2523f-2292-eb11-b1ac-000d3ad1204c"
+            },
+            {
+              "AISId": "f3949233-9382-ec11-8d20-0022489297b7",
+              "DateReceived": "2022-01-30T13:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2022-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2021",
+              "type": "Annual Information Statement 2021",
+              "uuid": "36cfd0fb-8e44-ea11-a813-000d3ad1fbf8"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Not required - small",
+              "Year": "2021",
+              "type": "Financial Report 2021",
+              "uuid": "44cfd0fb-8e44-ea11-a813-000d3ad1fbf8"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": true,
+              "Status": "Not required",
+              "Year": "2013",
+              "type": "Annual Information Statement 2013",
+              "uuid": "942255c1-3bc8-e811-a964-000d3ad24077"
+            },
+            {
+              "AISId": "0c30904a-47c8-e811-a95f-000d3ad24c60",
+              "DateReceived": "2018-01-30T13:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2018-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2017",
+              "type": "Annual Information Statement 2017",
+              "uuid": "7c41b850-47c8-e811-a964-000d3ad24077"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Not required",
+              "Year": "2017",
+              "type": "Financial Report 2017",
+              "uuid": "a00e2be9-40c8-e811-a961-000d3ad24282"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Not required",
+              "Year": "2013",
+              "type": "Financial Report 2013",
+              "uuid": "af0e2be9-40c8-e811-a961-000d3ad24282"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Not required - small",
+              "Year": "2018",
+              "type": "Financial Report 2018",
+              "uuid": "c30e2be9-40c8-e811-a961-000d3ad24282"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Not required",
+              "Year": "2015",
+              "type": "Financial Report 2015",
+              "uuid": "d70e2be9-40c8-e811-a961-000d3ad24282"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Not required",
+              "Year": "2014",
+              "type": "Financial Report 2014",
+              "uuid": "ec0e2be9-40c8-e811-a961-000d3ad24282"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Not required",
+              "Year": "2016",
+              "type": "Financial Report 2016",
+              "uuid": "5a0f2be9-40c8-e811-a961-000d3ad24282"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": true,
+              "Status": "Not required",
+              "Year": "2014",
+              "type": "Annual Information Statement 2014",
+              "uuid": "edc807c0-3bc8-e811-a95f-000d3ad24c60"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": true,
+              "Status": "Not required",
+              "Year": "2015",
+              "type": "Annual Information Statement 2015",
+              "uuid": "fcc807c0-3bc8-e811-a95f-000d3ad24c60"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": true,
+              "Status": "Not required",
+              "Year": "2016",
+              "type": "Annual Information Statement 2016",
+              "uuid": "0dc907c0-3bc8-e811-a95f-000d3ad24c60"
+            },
+            {
+              "AISId": "f8c4fced-4ec3-e911-a989-000d3ad064bd",
+              "DateReceived": "2019-08-20T13:32:29.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2019-04-06T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2018",
+              "type": "Annual Information Statement 2018",
+              "uuid": "23c907c0-3bc8-e811-a95f-000d3ad24c60"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2027-12-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Not yet submitted",
+              "Year": "2027",
+              "type": "Annual Information Statement 2027",
+              "uuid": "0c67c53b-07ff-f011-8406-00224810400c"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2027-12-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Pending",
+              "Year": "2027",
+              "type": "Financial Report 2027",
+              "uuid": "3567c53b-07ff-f011-8406-00224810400c"
+            },
+            {
+              "AISId": "6e0dcf0d-84c1-ee11-9079-002248110683",
+              "DateReceived": "2024-01-30T13:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2024-01-31T00:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2023",
+              "type": "Annual Information Statement 2023",
+              "uuid": "d851dbbf-a282-ec11-8d20-002248929158"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Not required - small",
+              "Year": "2023",
+              "type": "Financial Report 2023",
+              "uuid": "e651dbbf-a282-ec11-8d20-002248929158"
+            },
+            {
+              "AISId": "e1477300-0707-f111-8406-6045bde5be38",
+              "DateReceived": "2026-01-29T13:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2026-01-31T00:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2025",
+              "type": "Annual Information Statement 2025",
+              "uuid": "c87c280e-9bc0-ee11-907a-00224893b0ed"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Not required - small",
+              "Year": "2025",
+              "type": "Financial Report 2025",
+              "uuid": "ee7c280e-9bc0-ee11-907a-00224893b0ed"
+            },
+            {
+              "AISId": "fc9cd158-89df-ef11-a730-000d3acaa399",
+              "DateReceived": "2025-01-29T13:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2025-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2024",
+              "type": "Annual Information Statement 2024",
+              "uuid": "c0f4d637-c8a1-ed11-aad1-00224893bfad"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Not required - small",
+              "Year": "2024",
+              "type": "Financial Report 2024",
+              "uuid": "def4d637-c8a1-ed11-aad1-00224893bfad"
+            }
+          ],
+          "Beneficiaries": [
+            {
+              "Description": null,
+              "Name": "General community in Australia",
+              "uuid": "822b690c-0707-f111-8406-6045bde5be38"
+            }
+          ],
+          "CharitySize": "Small",
+          "CharitySubtypeHistory": [
+            {
+              "EndDate": null,
+              "Purpose": "Advancing social or public welfare",
+              "StartDate": "2013-12-31T13:00:00.0000000Z",
+              "uuid": "37641c0f-ffc6-e811-a964-000d3ad24077"
+            },
+            {
+              "EndDate": "2013-12-30T13:00:00.0000000Z",
+              "Purpose": "2012 Relief of poverty sickness or needs of the aged",
+              "StartDate": "2012-12-02T13:00:00.0000000Z",
+              "uuid": "54641c0f-ffc6-e811-a964-000d3ad24077"
+            }
+          ],
+          "CharityVersion": "103",
+          "ChildMemberEndDate": null,
+          "ChildMemberStartDate": null,
+          "ChooseToProvideAis": null,
+          "Countries": [
+            {
+              "Name": "Australia",
+              "uuid": "f57b5602-9a4d-e811-a951-000d3ad06f2d"
+            }
+          ],
+          "DateEstablished": "1988-11-29T13:00:00.0000000Z",
+          "Documents": [
+            {
+              "Date": "2016-11-16T00:00:00.0000000",
+              "Title": "AFE_Co-op-Rules.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/a74e1e89-3aaf-e811-a962-000d3ad24a0d-9dba5700-b5c5-4020-afa6-c7e206086413-Governing%20Document-05579b86-52b0-e811-a961-000d3ad24182-AFE_Co-op-Rules.pdf",
+              "Year": null,
+              "type": "Governing Document",
+              "uuid": "05579b86-52b0-e811-a961-000d3ad24182"
+            }
+          ],
+          "Email": "afecerc@gmail.com",
+          "EnforcementOutcomes": [],
+          "FinancialYearEnd": "30/06",
+          "GovernmentAgencies": [],
+          "GroupHeadFlag": false,
+          "LastReported": "2026-01-29T13:00:00.0000000Z",
+          "Name": "A F E Common Equity Rental Housing Co-operative Limited",
+          "NextReportDue": "2026-12-31T12:30:00.0000000Z",
+          "OperatingInStates": [
+            {
+              "Name": "Victoria",
+              "uuid": "4ea3219c-455e-e811-a95c-000d3ad1c715"
+            }
+          ],
+          "OtherDetails": null,
+          "OtherNames": [],
+          "ParentAccountAbn": null,
+          "ParentAccountId": null,
+          "Phone": "0388202379",
+          "Programs": [
+            {
+              "AisUuid": "e1477300-0707-f111-8406-6045bde5be38",
+              "Name": "Cooperative Housing",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "General community in Australia"
+              ],
+              "ProgramClassie": [
+                {
+                  "classie_id": "168",
+                  "label": "Housing development",
+                  "parent_id": "133",
+                  "selected": true
+                },
+                {
+                  "classie_id": "133",
+                  "label": "Economic development",
+                  "parent_id": null,
+                  "selected": false
+                }
+              ],
+              "ProgramClassification": "Housing development",
+              "ProgramClassificationID": "168",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Victoria, Australia",
+                  "FormattedAddress": "Victoria, Australia",
+                  "Marker": {
+                    "Latitude": -36.9847807,
+                    "Longitude": 143.3906074
+                  },
+                  "Name": null,
+                  "uuid": "134a6e06-0707-f111-8406-6045bde5be38"
+                }
+              ],
+              "ProgramWeblink": null,
+              "uuid": "9c496e06-0707-f111-8406-6045bde5be38"
+            }
+          ],
+          "ReferendumReturnsUrl": null,
+          "RegistrationStatusHistory": [
+            {
+              "EffectiveDate": "2012-12-02T13:00:00.0000000Z",
+              "Status": "Registered",
+              "TransactionDate": "2017-02-12T23:55:33.0000000Z",
+              "uuid": "6d073605-07c6-e811-a964-000d3ad244fd"
+            }
+          ],
+          "RelatedPartyTransactions": null,
+          "RelevantTransactions": null,
+          "ReportingLate": "2027-06-30T12:30:00.0000000Z",
+          "ResponsiblePersons": [
+            {
+              "Name": "KAREN NAUTA",
+              "Role": "Director",
+              "uuid": "fcc4fced-4ec3-e911-a989-000d3ad064bd"
+            },
+            {
+              "Name": "JAMES MOLESWORTH",
+              "Role": "Director",
+              "uuid": "13c5fced-4ec3-e911-a989-000d3ad064bd"
+            },
+            {
+              "Name": "HELENA BROADHURST",
+              "Role": "Secretary",
+              "uuid": "92514ea5-1452-ea11-a813-000d3ad1fbf8"
+            },
+            {
+              "Name": "Sophie Polites",
+              "Role": "Chairperson",
+              "uuid": "fa716a88-18bc-e811-a964-000d3ad244fd"
+            },
+            {
+              "Name": "Kerry Carroll",
+              "Role": "Director",
+              "uuid": "975c655f-da8b-ed11-81ad-002248122521"
+            }
+          ],
+          "Status": "Registered",
+          "SummaryOfActivities": "PROVIDED LOW COST HOUSING",
+          "TotalExpensesEmployee": "0",
+          "TotalExpensesGrantsAndDonationsInAustralia": "0",
+          "TotalExpensesGrantsAndDonationsOutsideAustralia": "0",
+          "TotalExpensesInterest": "0",
+          "TotalExpensesOther": "159597",
+          "TotalGrossIncomeDonationsAndRequests": "0",
+          "TotalGrossIncomeGoodsOrServices": "0",
+          "TotalGrossIncomeGovernmentGrants": "0",
+          "TotalGrossIncomeInvestments": "0",
+          "TotalGrossIncomeOtherRevenues": "162199",
+          "TransparencyRegisterUrl": null,
+          "Website": null,
+          "__normalized": true,
+          "type": "charity",
+          "uuid": "a74e1e89-3aaf-e811-a962-000d3ad24a0d"
+        },
+        "type": "charity",
+        "uuid": "a74e1e89-3aaf-e811-a962-000d3ad24a0d"
+      },
+      "canonical_field_mappings": {
+        "data.Name": "display_name",
+        "data.OtherNames": "operating_names",
+        "data.AnnualReports": "acnc_ais_url",
+        "data.Programs": "programs"
+      },
+      "evidence_ids": [
+        "ev:acnc:ais:29041947678:2025"
       ]
     }
   ],
@@ -217,7 +770,10 @@
         "source_precision": null
       },
       "assets": null,
-      "liabilities": null
+      "liabilities": null,
+      "income_breakdown": [],
+      "expense_breakdown": [],
+      "balance_sheet_breakdown": []
     }
   ],
   "financial_metrics": [
@@ -321,6 +877,18 @@
       "page": null,
       "section": null,
       "content_hash": null
+    },
+    {
+      "evidence_id": "ev:acnc:ais:29041947678:2025",
+      "source_type": "regulatory",
+      "title": "A F E Common Equity Rental Housing Co-operative Limited Annual Information Statement 2025",
+      "publisher": "Australian Charities and Not-for-profits Commission",
+      "url": "https://www.acnc.gov.au/charity/charities/a74e1e89-3aaf-e811-a962-000d3ad24a0d/documents/e1477300-0707-f111-8406-6045bde5be38",
+      "observed_at": "2026-01-29",
+      "reporting_period": null,
+      "page": null,
+      "section": null,
+      "content_hash": null
     }
   ],
   "embedding": {
@@ -329,8 +897,8 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "fd8fdd53e28d7169b20cb2565893fe2b897b255f59c5715c03be78eacf3aa386",
-    "generated_at": "2026-08-10T13:53:24.457322Z",
+    "source_text_hash": "6c2ee7e9b90a2575d5114f2b5f5934974011e4eeb4b0ccb9dd985803f32045a8",
+    "generated_at": "2026-08-13T00:32:18.623114Z",
     "vector_ref": "embeddings.parquet#cb_ce144deb00ca4531b5695e5cd02ae72c"
   },
   "synthesis": {
@@ -401,9 +969,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc2",
-  "card_schema_version": "0.3",
+  "dataset_version": "phase2b-2026-08-13-rc3",
+  "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.3.0-rc2",
-  "built_at": "2026-08-12T14:24:20.675968Z"
+  "generator_version": "0.4.0-rc3",
+  "built_at": "2026-08-13T00:32:15.698599Z"
 }

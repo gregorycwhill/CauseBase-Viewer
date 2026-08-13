@@ -37,6 +37,12 @@
   "legal_name": "ACTIVE FRIENDS LIMITED",
   "display_name": "ACTIVE FRIENDS LIMITED",
   "entity_status": "registered",
+  "canonical_url": "https://gregorycwhill.github.io/CauseBase-Viewer/#cb_c4b9f95b7a08480781a470f5e1ce6eb8",
+  "acnc_profile_url": "https://www.acnc.gov.au/charity/charities/2c0833b0-4c44-f011-877a-002248112f30/profile",
+  "acnc_ais_url": null,
+  "operating_names": [],
+  "former_names": [],
+  "principal_location": null,
   "coverage": [
     {
       "capability": "regulatory",
@@ -81,6 +87,14 @@
       "evidence_ids": [],
       "observed_at": "2026-08-10",
       "freshness_note": null
+    },
+    {
+      "capability": "latest_acnc_ais",
+      "status": "not_available_from_source",
+      "source_record_id": null,
+      "evidence_ids": [],
+      "observed_at": "2026-08-13",
+      "freshness_note": "No submitted AIS appears in the 2026-08-13 public ACNC profile acquisition."
     }
   ],
   "enrichment_level": "enriched",
@@ -115,7 +129,9 @@
   "activities": [],
   "beneficiaries": [],
   "participation_modes": [],
+  "participation_observations": [],
   "opportunities": [],
+  "programs": [],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:50aa318c-8034-5d94-84cf-5b2e0144c1b1",
@@ -135,6 +151,7 @@
         "ACNC registration ID": null,
         "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
+      "source_payload": null,
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
         "Legal Name": "legal_name",
@@ -206,8 +223,8 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "9303676b7758c07294e8c25be9d9dc848f7a4d82419d76f85658abaf53d79184",
-    "generated_at": "2026-08-10T13:53:24.457607Z",
+    "source_text_hash": "6cc11cc376683900c29837f35b27d6a08a011870790568a52d829af6fc9c5a55",
+    "generated_at": "2026-08-13T00:32:18.623477Z",
     "vector_ref": "embeddings.parquet#cb_c4b9f95b7a08480781a470f5e1ce6eb8"
   },
   "synthesis": {
@@ -278,9 +295,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc2",
-  "card_schema_version": "0.3",
+  "dataset_version": "phase2b-2026-08-13-rc3",
+  "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.3.0-rc2",
-  "built_at": "2026-08-12T14:24:20.675968Z"
+  "generator_version": "0.4.0-rc3",
+  "built_at": "2026-08-13T00:32:15.698599Z"
 }

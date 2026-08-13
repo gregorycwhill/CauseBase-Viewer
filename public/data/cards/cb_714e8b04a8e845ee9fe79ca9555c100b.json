@@ -37,6 +37,12 @@
   "legal_name": "CIRCOBATS INCORPORATED",
   "display_name": "CIRCOBATS INCORPORATED",
   "entity_status": "registered",
+  "canonical_url": "https://gregorycwhill.github.io/CauseBase-Viewer/#cb_714e8b04a8e845ee9fe79ca9555c100b",
+  "acnc_profile_url": "https://www.acnc.gov.au/charity/charities/34718812-1327-f011-8c4d-7c1e52631b2b/profile",
+  "acnc_ais_url": null,
+  "operating_names": [],
+  "former_names": [],
+  "principal_location": null,
   "coverage": [
     {
       "capability": "regulatory",
@@ -81,6 +87,14 @@
       "evidence_ids": [],
       "observed_at": "2026-08-10",
       "freshness_note": null
+    },
+    {
+      "capability": "latest_acnc_ais",
+      "status": "not_available_from_source",
+      "source_record_id": null,
+      "evidence_ids": [],
+      "observed_at": "2026-08-13",
+      "freshness_note": "No submitted AIS appears in the 2026-08-13 public ACNC profile acquisition."
     }
   ],
   "enrichment_level": "enriched",
@@ -129,7 +143,9 @@
     "Attending public performances (Adelaide Fringe listing)",
     "Attending holiday workshops"
   ],
+  "participation_observations": [],
   "opportunities": [],
+  "programs": [],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:3b1b8f9d-f46c-5b4b-8dbe-f3582d18af0c",
@@ -149,6 +165,7 @@
         "ACNC registration ID": null,
         "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
+      "source_payload": null,
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
         "Legal Name": "legal_name",
@@ -283,8 +300,8 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "afa63fe9ff0c82bce9851c671e1808dcd7c121e236d2b012d030fd3b0be62bb9",
-    "generated_at": "2026-08-10T13:53:24.456581Z",
+    "source_text_hash": "70b2cf62475019273e9fc8112571fd4665716e61cfb9ea882a0b1406fa2749aa",
+    "generated_at": "2026-08-13T00:32:18.621991Z",
     "vector_ref": "embeddings.parquet#cb_714e8b04a8e845ee9fe79ca9555c100b"
   },
   "synthesis": {
@@ -355,9 +372,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc2",
-  "card_schema_version": "0.3",
+  "dataset_version": "phase2b-2026-08-13-rc3",
+  "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.3.0-rc2",
-  "built_at": "2026-08-12T14:24:20.675968Z"
+  "generator_version": "0.4.0-rc3",
+  "built_at": "2026-08-13T00:32:15.698599Z"
 }

@@ -37,6 +37,12 @@
   "legal_name": "Greenbushes Community Shed",
   "display_name": "Greenbushes Community Shed",
   "entity_status": "registered",
+  "canonical_url": "https://gregorycwhill.github.io/CauseBase-Viewer/#cb_b88ef38552d74cfc9bad7cb97f99f8e9",
+  "acnc_profile_url": "https://www.acnc.gov.au/charity/charities/01f41616-8003-ee11-8f6e-00224893b304/profile",
+  "acnc_ais_url": "https://www.acnc.gov.au/charity/charities/01f41616-8003-ee11-8f6e-00224893b304/documents/337214ff-8fc6-f011-bbd3-000d3ad10b92",
+  "operating_names": [],
+  "former_names": [],
+  "principal_location": "WA, Australia",
   "coverage": [
     {
       "capability": "regulatory",
@@ -79,6 +85,16 @@
       "evidence_ids": [],
       "observed_at": "2026-08-10",
       "freshness_note": null
+    },
+    {
+      "capability": "latest_acnc_ais",
+      "status": "observed",
+      "source_record_id": null,
+      "evidence_ids": [
+        "ev:acnc:ais:92259617291:2025"
+      ],
+      "observed_at": "2025-11-21",
+      "freshness_note": "Latest submitted ACNC AIS in the 2026-08-13 public-profile acquisition: 2025."
     }
   ],
   "enrichment_level": "enriched",
@@ -112,7 +128,9 @@
   "activities": [],
   "beneficiaries": [],
   "participation_modes": [],
+  "participation_observations": [],
   "opportunities": [],
+  "programs": [],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:d5268ffb-f1ef-5704-b7c1-bab67c6d8357",
@@ -132,6 +150,7 @@
         "ACNC registration ID": null,
         "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
+      "source_payload": null,
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
         "Legal Name": "legal_name",
@@ -139,6 +158,378 @@
       },
       "evidence_ids": [
         "ev:acnc:92259617291"
+      ]
+    },
+    {
+      "source_record_id": "src:acnc-public-profile:92259617291:cb_b88ef38552d74cfc9bad7cb97f99f8e9:2026-08-13",
+      "source_family": "acnc-public-profile",
+      "dataset_version": "2026-08-13-public-api",
+      "source_url": "https://www.acnc.gov.au/charity/charities/01f41616-8003-ee11-8f6e-00224893b304/profile",
+      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "observed_at": "2025-11-21",
+      "effective_from": null,
+      "effective_to": null,
+      "source_fields": {
+        "uuid": "01f41616-8003-ee11-8f6e-00224893b304",
+        "abn": "92259617291",
+        "latest_ais_year": "2025",
+        "latest_ais_uuid": "337214ff-8fc6-f011-bbd3-000d3ad10b92"
+      },
+      "source_payload": {
+        "data": {
+          "AFSAddressPostalCode": "6254",
+          "AFSEmail": "greenbushes.cs@mail.com",
+          "Abn": "92259617291",
+          "AddressCountry": "Australia",
+          "AddressLine1": "46 Blackwood Rd",
+          "AddressLine2": null,
+          "AddressLine3": null,
+          "AddressPostalCode": "6254",
+          "AddressStateOrProvince": "WA",
+          "AddressSuburb": "Greenbushes",
+          "AddressSuburbStatePostcode": "Greenbushes WA 6254",
+          "AnnualReports": [
+            {
+              "AISId": "fca376a7-56d6-ef11-a731-6045bde6cf6a",
+              "DateReceived": "2025-01-19T11:15:29.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2025-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2024",
+              "type": "Annual Information Statement 2024",
+              "uuid": "92459ff7-d334-ee11-bdf5-00224893b8c7"
+            },
+            {
+              "AISId": "337214ff-8fc6-f011-bbd3-000d3ad10b92",
+              "DateReceived": "2025-11-21T04:10:46.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2026-01-31T00:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2025",
+              "type": "Annual Information Statement 2025",
+              "uuid": "98459ff7-d334-ee11-bdf5-00224893b8c7"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2025-01-19T11:15:28.0000000Z",
+              "DocumentUuid": "d0c185a0-56d6-ef11-a731-00224893e2ef",
+              "DueDate": "2025-01-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2024",
+              "type": "Financial Report 2024",
+              "uuid": "a3459ff7-d334-ee11-bdf5-00224893b8c7"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2025-11-21T04:10:24.0000000Z",
+              "DocumentUuid": "f0ecd9f4-8fc6-f011-bbd3-7ced8da2a128",
+              "DueDate": "2026-01-31T00:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2025",
+              "type": "Financial Report 2025",
+              "uuid": "b9459ff7-d334-ee11-bdf5-00224893b8c7"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2027-12-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Not yet submitted",
+              "Year": "2027",
+              "type": "Annual Information Statement 2027",
+              "uuid": "6ef14832-07ff-f011-8407-6045bdc4655a"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2027-12-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Pending",
+              "Year": "2027",
+              "type": "Financial Report 2027",
+              "uuid": "bef14832-07ff-f011-8407-6045bdc4655a"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2026-12-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Not yet submitted",
+              "Year": "2026",
+              "type": "Annual Information Statement 2026",
+              "uuid": "699f945e-dedf-ef11-a731-6045bde5a05c"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2026-12-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Pending",
+              "Year": "2026",
+              "type": "Financial Report 2026",
+              "uuid": "839f945e-dedf-ef11-a731-6045bde5a05c"
+            }
+          ],
+          "Beneficiaries": [
+            {
+              "Description": null,
+              "Name": "Veterans and/or their families",
+              "uuid": "81a21305-90c6-f011-bbd3-000d3ad10b92"
+            },
+            {
+              "Description": null,
+              "Name": "People with disabilities",
+              "uuid": "84a21305-90c6-f011-bbd3-000d3ad10b92"
+            },
+            {
+              "Description": null,
+              "Name": "People with chronic illness (including terminal illness)",
+              "uuid": "87a21305-90c6-f011-bbd3-000d3ad10b92"
+            },
+            {
+              "Description": null,
+              "Name": "People in rural/regional/remote communities",
+              "uuid": "8aa21305-90c6-f011-bbd3-000d3ad10b92"
+            },
+            {
+              "Description": null,
+              "Name": "Males",
+              "uuid": "8da21305-90c6-f011-bbd3-000d3ad10b92"
+            },
+            {
+              "Description": null,
+              "Name": "General community in Australia",
+              "uuid": "90a21305-90c6-f011-bbd3-000d3ad10b92"
+            },
+            {
+              "Description": null,
+              "Name": "Financially disadvantaged people",
+              "uuid": "93a21305-90c6-f011-bbd3-000d3ad10b92"
+            },
+            {
+              "Description": null,
+              "Name": "Females",
+              "uuid": "9ca21305-90c6-f011-bbd3-000d3ad10b92"
+            }
+          ],
+          "CharitySize": "Small",
+          "CharitySubtypeHistory": [
+            {
+              "EndDate": null,
+              "Purpose": "Advancing social or public welfare",
+              "StartDate": "2023-06-04T14:00:00.0000000Z",
+              "uuid": "62f41616-8003-ee11-8f6e-00224893b304"
+            }
+          ],
+          "CharityVersion": "74",
+          "ChildMemberEndDate": null,
+          "ChildMemberStartDate": null,
+          "ChooseToProvideAis": null,
+          "Countries": [],
+          "DateEstablished": "2017-08-10T00:00:00.0000000Z",
+          "Documents": [
+            {
+              "Date": "2023-06-05T00:00:00.0000000",
+              "Title": "Greenbushes Community Shed Incorporation.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/01f41616-8003-ee11-8f6e-00224893b304-0588949b-7028-4b87-9f52-4c7a21b6f945-Governing%20Document-df8e0b12-8003-ee11-8f6e-00224893bc23-Greenbushes_Community_Shed_Incorporation.pdf",
+              "Year": null,
+              "type": "Governing Document",
+              "uuid": "df8e0b12-8003-ee11-8f6e-00224893bc23"
+            },
+            {
+              "Date": "2023-10-08T00:00:00.0000000",
+              "Title": "2023 Shed Business Plan.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/01f41616-8003-ee11-8f6e-00224893b304-0588949b-7028-4b87-9f52-4c7a21b6f945-Annual%20Report-c92f3996-8365-ee11-9ae7-00224893d32a-2023_Shed_Business_Plan.pdf",
+              "Year": "2023",
+              "type": "Annual Report",
+              "uuid": "c92f3996-8365-ee11-9ae7-00224893d32a"
+            },
+            {
+              "Date": "2025-01-19T00:00:00.0000000",
+              "Title": "P&L.xlsx",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/01f41616-8003-ee11-8f6e-00224893b304-0588949b-7028-4b87-9f52-4c7a21b6f945-Financial%20Report-d0c185a0-56d6-ef11-a731-00224893e2ef-P&L.xlsx",
+              "Year": "2024",
+              "type": "Financial Report",
+              "uuid": "d0c185a0-56d6-ef11-a731-00224893e2ef"
+            },
+            {
+              "Date": "2025-11-21T00:00:00.0000000",
+              "Title": "2024-2025 Accounts ledger.xlsx",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/01f41616-8003-ee11-8f6e-00224893b304-0588949b-7028-4b87-9f52-4c7a21b6f945-Financial%20Report-f0ecd9f4-8fc6-f011-bbd3-7ced8da2a128-2024-2025_Accounts_ledger.xlsx",
+              "Year": "2025",
+              "type": "Financial Report",
+              "uuid": "f0ecd9f4-8fc6-f011-bbd3-7ced8da2a128"
+            }
+          ],
+          "Email": "greenbushes.cs@mail.com",
+          "EnforcementOutcomes": [],
+          "FinancialYearEnd": "30/06",
+          "GovernmentAgencies": [
+            {
+              "Name": "WA - Incorporated Association",
+              "ReferenceNumber": "A1022533D",
+              "uuid": "3e7214ff-8fc6-f011-bbd3-000d3ad10b92"
+            }
+          ],
+          "GroupHeadFlag": false,
+          "LastReported": "2025-11-21T04:10:46.0000000Z",
+          "Name": "Greenbushes Community Shed",
+          "NextReportDue": "2026-12-31T12:30:00.0000000Z",
+          "OperatingInStates": [],
+          "OtherDetails": null,
+          "OtherNames": [],
+          "ParentAccountAbn": null,
+          "ParentAccountId": null,
+          "Phone": "0439612628",
+          "Programs": [
+            {
+              "AisUuid": "337214ff-8fc6-f011-bbd3-000d3ad10b92",
+              "Name": "Men's Shed Movement",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "People in rural/regional/remote communities",
+                "Financially disadvantaged people",
+                "People with chronic illness (including terminal illness)",
+                "People with disabilities",
+                "Veterans and/or their families",
+                "Females",
+                "Males",
+                "General community in Australia"
+              ],
+              "ProgramClassie": [
+                {
+                  "classie_id": "125",
+                  "label": "Community service organisations",
+                  "parent_id": "118",
+                  "selected": true
+                },
+                {
+                  "classie_id": "118",
+                  "label": "Community development",
+                  "parent_id": null,
+                  "selected": false
+                }
+              ],
+              "ProgramClassification": "Community service organisations",
+              "ProgramClassificationID": "125",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Greenbushes WA, Australia",
+                  "FormattedAddress": "Greenbushes WA 6254, Australia",
+                  "Marker": {
+                    "Latitude": -33.8487699,
+                    "Longitude": 116.0588376
+                  },
+                  "Name": "Greenbushes",
+                  "uuid": "547214ff-8fc6-f011-bbd3-000d3ad10b92"
+                },
+                {
+                  "DisplayName": "Bridgetown WA, Australia",
+                  "FormattedAddress": "Bridgetown WA 6255, Australia",
+                  "Marker": {
+                    "Latitude": -33.9580163,
+                    "Longitude": 116.1372217
+                  },
+                  "Name": "Bridgetown",
+                  "uuid": "577214ff-8fc6-f011-bbd3-000d3ad10b92"
+                },
+                {
+                  "DisplayName": "Balingup WA, Australia",
+                  "FormattedAddress": "Balingup WA 6253, Australia",
+                  "Marker": {
+                    "Latitude": -33.7865988,
+                    "Longitude": 115.9842778
+                  },
+                  "Name": "Balingup",
+                  "uuid": "597214ff-8fc6-f011-bbd3-000d3ad10b92"
+                }
+              ],
+              "ProgramWeblink": null,
+              "uuid": "447214ff-8fc6-f011-bbd3-000d3ad10b92"
+            }
+          ],
+          "ReferendumReturnsUrl": null,
+          "RegistrationStatusHistory": [
+            {
+              "EffectiveDate": "2023-06-04T14:00:00.0000000Z",
+              "Status": "Registered",
+              "TransactionDate": "2023-08-07T03:39:07.0000000Z",
+              "uuid": "ba5889f5-d334-ee11-bdf5-00224893bffb"
+            }
+          ],
+          "RelatedPartyTransactions": null,
+          "RelevantTransactions": null,
+          "ReportingLate": "2027-06-30T12:30:00.0000000Z",
+          "ResponsiblePersons": [
+            {
+              "Name": "Alan Clark",
+              "Role": "Deputy Chairperson",
+              "uuid": "1a3f3467-3ac3-ee11-907a-00224893b0ed"
+            },
+            {
+              "Name": "Trish Clark",
+              "Role": "Committee Member",
+              "uuid": "d93e3467-3ac3-ee11-907a-00224893b0ed"
+            },
+            {
+              "Name": "David Robertson",
+              "Role": "President",
+              "uuid": "8cf51616-8003-ee11-8f6e-00224893b304"
+            },
+            {
+              "Name": "Grant Macdonald",
+              "Role": "Committee Member",
+              "uuid": "407b291c-8003-ee11-8f6e-00224893b304"
+            },
+            {
+              "Name": "Susan Cornish",
+              "Role": "Treasurer",
+              "uuid": "2c607770-91c6-f011-bbd3-6045bde73edb"
+            },
+            {
+              "Name": "Norma Brewer",
+              "Role": "Committee Member",
+              "uuid": "b8bb63ca-3bc3-ee11-907a-00224893bffb"
+            }
+          ],
+          "Status": "Registered",
+          "SummaryOfActivities": "We continued to provide a safe space for men and women to learn new skills, provided mentorship and taught skills to local community members. Provided connection within the community through membership and sharing skills",
+          "TotalExpensesEmployee": "0",
+          "TotalExpensesGrantsAndDonationsInAustralia": "0",
+          "TotalExpensesGrantsAndDonationsOutsideAustralia": "0",
+          "TotalExpensesInterest": "0",
+          "TotalExpensesOther": "7801",
+          "TotalGrossIncomeDonationsAndRequests": "420",
+          "TotalGrossIncomeGoodsOrServices": "1500",
+          "TotalGrossIncomeGovernmentGrants": "0",
+          "TotalGrossIncomeInvestments": "0",
+          "TotalGrossIncomeOtherRevenues": "1746",
+          "TransparencyRegisterUrl": null,
+          "Website": null,
+          "__normalized": true,
+          "type": "charity",
+          "uuid": "01f41616-8003-ee11-8f6e-00224893b304"
+        },
+        "type": "charity",
+        "uuid": "01f41616-8003-ee11-8f6e-00224893b304"
+      },
+      "canonical_field_mappings": {
+        "data.Name": "display_name",
+        "data.OtherNames": "operating_names",
+        "data.AnnualReports": "acnc_ais_url",
+        "data.Programs": "programs"
+      },
+      "evidence_ids": [
+        "ev:acnc:ais:92259617291:2025"
       ]
     }
   ],
@@ -201,6 +592,18 @@
       "page": null,
       "section": null,
       "content_hash": null
+    },
+    {
+      "evidence_id": "ev:acnc:ais:92259617291:2025",
+      "source_type": "regulatory",
+      "title": "Greenbushes Community Shed Annual Information Statement 2025",
+      "publisher": "Australian Charities and Not-for-profits Commission",
+      "url": "https://www.acnc.gov.au/charity/charities/01f41616-8003-ee11-8f6e-00224893b304/documents/337214ff-8fc6-f011-bbd3-000d3ad10b92",
+      "observed_at": "2025-11-21",
+      "reporting_period": null,
+      "page": null,
+      "section": null,
+      "content_hash": null
     }
   ],
   "embedding": {
@@ -209,8 +612,8 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "7fcefd64c31cf4e12521329d248b16bd38351d4c259b8df85412e2fd53e7735e",
-    "generated_at": "2026-08-10T13:53:24.456400Z",
+    "source_text_hash": "911532db00241c89eb774ac0094cdf35c20b65ca36bde2a827e648bc9c2f3d28",
+    "generated_at": "2026-08-13T00:32:18.621719Z",
     "vector_ref": "embeddings.parquet#cb_b88ef38552d74cfc9bad7cb97f99f8e9"
   },
   "synthesis": {
@@ -281,9 +684,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc2",
-  "card_schema_version": "0.3",
+  "dataset_version": "phase2b-2026-08-13-rc3",
+  "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.3.0-rc2",
-  "built_at": "2026-08-12T14:24:20.675968Z"
+  "generator_version": "0.4.0-rc3",
+  "built_at": "2026-08-13T00:32:15.698599Z"
 }

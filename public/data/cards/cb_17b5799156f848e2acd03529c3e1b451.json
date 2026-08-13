@@ -18,7 +18,16 @@
       ]
     }
   ],
-  "tax_statuses": [],
+  "tax_statuses": [
+    {
+      "scheme": "ABR DGR",
+      "status": "endorsed",
+      "detail": "Dated 2026-08-05 ABR bulk observation",
+      "evidence_ids": [
+        "ev:abr-dgr:75442934320:20260805"
+      ]
+    }
+  ],
   "relationships": [],
   "source_resolutions": [
     {
@@ -37,6 +46,12 @@
   "legal_name": "Craftsouth: Centre For Contemporary Craft & Design Inc",
   "display_name": "Craftsouth: Centre For Contemporary Craft & Design Inc",
   "entity_status": "registered",
+  "canonical_url": "https://gregorycwhill.github.io/CauseBase-Viewer/#cb_17b5799156f848e2acd03529c3e1b451",
+  "acnc_profile_url": "https://www.acnc.gov.au/charity/charities/8e82bbd4-38af-e811-a962-000d3ad24a0d/profile",
+  "acnc_ais_url": "https://www.acnc.gov.au/charity/charities/8e82bbd4-38af-e811-a962-000d3ad24a0d/documents/0ee357b9-0654-f111-bec7-6045bde5be38",
+  "operating_names": [],
+  "former_names": [],
+  "principal_location": "SA, Australia",
   "coverage": [
     {
       "capability": "regulatory",
@@ -83,6 +98,16 @@
       ],
       "observed_at": "2026-08-10",
       "freshness_note": null
+    },
+    {
+      "capability": "latest_acnc_ais",
+      "status": "observed",
+      "source_record_id": null,
+      "evidence_ids": [
+        "ev:acnc:ais:75442934320:2025"
+      ],
+      "observed_at": "2026-05-20",
+      "freshness_note": "Latest submitted ACNC AIS in the 2026-08-13 public-profile acquisition: 2025."
     }
   ],
   "enrichment_level": "enriched",
@@ -142,7 +167,9 @@
     "public presentations and exhibitions",
     "calls/callouts"
   ],
+  "participation_observations": [],
   "opportunities": [],
+  "programs": [],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:52fce3ed-4dae-579e-919a-a2404b65157a",
@@ -162,6 +189,7 @@
         "ACNC registration ID": null,
         "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
+      "source_payload": null,
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
         "Legal Name": "legal_name",
@@ -191,12 +219,1200 @@
         "Assets": null,
         "Liabilities": null
       },
+      "source_payload": null,
       "canonical_field_mappings": {
         "Revenue": "financial_records[].revenue",
         "Total expenses": "financial_records[].total_expenses"
       },
       "evidence_ids": [
         "ev:ais:75442934320:2023"
+      ]
+    },
+    {
+      "source_record_id": "src:acnc-public-profile:75442934320:cb_17b5799156f848e2acd03529c3e1b451:2026-08-13",
+      "source_family": "acnc-public-profile",
+      "dataset_version": "2026-08-13-public-api",
+      "source_url": "https://www.acnc.gov.au/charity/charities/8e82bbd4-38af-e811-a962-000d3ad24a0d/profile",
+      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "observed_at": "2026-05-20",
+      "effective_from": null,
+      "effective_to": null,
+      "source_fields": {
+        "uuid": "8e82bbd4-38af-e811-a962-000d3ad24a0d",
+        "abn": "75442934320",
+        "latest_ais_year": "2025",
+        "latest_ais_uuid": "0ee357b9-0654-f111-bec7-6045bde5be38"
+      },
+      "source_payload": {
+        "data": {
+          "AFSAddressPostalCode": "5000",
+          "AFSEmail": "guildhouse@guildhouse.org.au",
+          "Abn": "75442934320",
+          "AddressCountry": "Australia",
+          "AddressLine1": "13 Morphett St",
+          "AddressLine2": null,
+          "AddressLine3": null,
+          "AddressPostalCode": "5000",
+          "AddressStateOrProvince": "SA",
+          "AddressSuburb": "Adelaide",
+          "AddressSuburbStatePostcode": "Adelaide SA 5000",
+          "AnnualReports": [
+            {
+              "AISId": null,
+              "DateReceived": "2020-08-27T04:20:27.0000000Z",
+              "DocumentUuid": "21aa429e-1ce8-ea11-a817-000d3ad1cf4f",
+              "DueDate": "2020-08-30T14:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2019",
+              "type": "Financial Report 2019",
+              "uuid": "85fe629b-ee25-e911-a977-000d3ad06f2d"
+            },
+            {
+              "AISId": "4bc189a3-1ce8-ea11-a817-000d3ad1fbf8",
+              "DateReceived": "2020-08-27T04:20:35.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2020-08-30T14:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2019",
+              "type": "Annual Information Statement 2019",
+              "uuid": "a5fe629b-ee25-e911-a977-000d3ad06f2d"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2021-06-29T03:35:28.0000000Z",
+              "DocumentUuid": "cf435e04-8bd8-eb11-bacb-002248107fc4",
+              "DueDate": "2021-06-29T14:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2020",
+              "type": "Financial Report 2020",
+              "uuid": "ddfe629b-ee25-e911-a977-000d3ad06f2d"
+            },
+            {
+              "AISId": "6cb32d0e-8bd8-eb11-bacb-002248107110",
+              "DateReceived": "2021-06-29T03:35:38.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2021-06-29T14:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2020",
+              "type": "Annual Information Statement 2020",
+              "uuid": "08ff629b-ee25-e911-a977-000d3ad06f2d"
+            },
+            {
+              "AISId": "f01bb7bc-cff5-ec11-82e7-002248944bc7",
+              "DateReceived": "2022-06-27T04:15:27.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2022-06-29T14:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2021",
+              "type": "Annual Information Statement 2021",
+              "uuid": "061054a9-9aeb-ea11-a815-000d3ad1cd99"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2022-06-27T04:15:22.0000000Z",
+              "DocumentUuid": "a2e06ab6-cff5-ec11-82e6-000d3ad1769c",
+              "DueDate": "2022-06-29T14:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2021",
+              "type": "Financial Report 2021",
+              "uuid": "271054a9-9aeb-ea11-a815-000d3ad1cd99"
+            },
+            {
+              "AISId": "23499cd0-50c8-e811-a962-000d3ad24182",
+              "DateReceived": "2016-06-28T14:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2016-06-29T14:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2015",
+              "type": "Annual Information Statement 2015",
+              "uuid": "a27d8fcf-50c8-e811-a964-000d3ad24077"
+            },
+            {
+              "AISId": "2a499cd0-50c8-e811-a962-000d3ad24182",
+              "DateReceived": "2017-06-28T14:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2017-06-29T14:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2016",
+              "type": "Annual Information Statement 2016",
+              "uuid": "a67d8fcf-50c8-e811-a964-000d3ad24077"
+            },
+            {
+              "AISId": "31499cd0-50c8-e811-a962-000d3ad24182",
+              "DateReceived": "2018-06-27T14:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2018-06-29T14:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2017",
+              "type": "Annual Information Statement 2017",
+              "uuid": "ab7d8fcf-50c8-e811-a964-000d3ad24077"
+            },
+            {
+              "AISId": "15499cd0-50c8-e811-a962-000d3ad24182",
+              "DateReceived": "2014-07-16T14:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2014-06-29T14:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2013",
+              "type": "Annual Information Statement 2013",
+              "uuid": "f0fde9ce-50c8-e811-a961-000d3ad24282"
+            },
+            {
+              "AISId": "1b499cd0-50c8-e811-a962-000d3ad24182",
+              "DateReceived": "2015-06-29T14:00:00.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2015-06-29T14:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2014",
+              "type": "Annual Information Statement 2014",
+              "uuid": "01fee9ce-50c8-e811-a961-000d3ad24282"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2018-06-27T14:00:00.0000000Z",
+              "DocumentUuid": "9ef15f25-46b0-e811-a95e-000d3ad24c60",
+              "DueDate": "2018-06-29T14:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2017",
+              "type": "Financial Report 2017",
+              "uuid": "f4f55993-3ec8-e811-a964-000d3ad244fd"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2014-07-16T14:00:00.0000000Z",
+              "DocumentUuid": "feed6d23-46b0-e811-a963-000d3ad244fd",
+              "DueDate": "2014-06-29T14:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2013",
+              "type": "Financial Report 2013",
+              "uuid": "07f65993-3ec8-e811-a964-000d3ad244fd"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2015-06-29T14:00:00.0000000Z",
+              "DocumentUuid": "90ee6d23-46b0-e811-a963-000d3ad244fd",
+              "DueDate": "2015-06-29T14:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2014",
+              "type": "Financial Report 2014",
+              "uuid": "15f65993-3ec8-e811-a964-000d3ad244fd"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2016-06-28T14:00:00.0000000Z",
+              "DocumentUuid": "e1ee6d23-46b0-e811-a963-000d3ad244fd",
+              "DueDate": "2016-06-29T14:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2015",
+              "type": "Financial Report 2015",
+              "uuid": "27f65993-3ec8-e811-a964-000d3ad244fd"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2017-06-28T14:00:00.0000000Z",
+              "DocumentUuid": "11ef6d23-46b0-e811-a963-000d3ad244fd",
+              "DueDate": "2017-06-29T14:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2016",
+              "type": "Financial Report 2016",
+              "uuid": "37f65993-3ec8-e811-a964-000d3ad244fd"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2019-06-05T05:10:20.0000000Z",
+              "DocumentUuid": "b670b12e-5087-e911-a973-000d3ad24077",
+              "DueDate": "2019-06-29T14:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2018",
+              "type": "Financial Report 2018",
+              "uuid": "4df65993-3ec8-e811-a964-000d3ad244fd"
+            },
+            {
+              "AISId": "aace2237-5087-e911-a97f-000d3ad064bd",
+              "DateReceived": "2019-06-05T05:10:24.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2019-06-29T14:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2018",
+              "type": "Annual Information Statement 2018",
+              "uuid": "05b00f9d-3ac8-e811-a95f-000d3ad24c60"
+            },
+            {
+              "AISId": "0ee357b9-0654-f111-bec7-6045bde5be38",
+              "DateReceived": "2026-05-20T04:45:36.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2026-06-29T14:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2025",
+              "type": "Annual Information Statement 2025",
+              "uuid": "45150cc0-ec36-ef11-a316-002248103dd9"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2026-05-20T04:45:25.0000000Z",
+              "DocumentUuid": "1afbfbaf-0654-f111-bec7-002248111f49",
+              "DueDate": "2026-06-29T14:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2025",
+              "type": "Financial Report 2025",
+              "uuid": "61150cc0-ec36-ef11-a316-002248103dd9"
+            },
+            {
+              "AISId": "7c1da108-7003-ee11-8f6e-00224893d32a",
+              "DateReceived": "2023-06-05T07:10:27.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2023-06-29T14:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2022",
+              "type": "Annual Information Statement 2022",
+              "uuid": "6f1459d3-bdd9-eb11-bacb-0022481070a1"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2023-06-05T07:10:22.0000000Z",
+              "DocumentUuid": "31bd2cff-6f03-ee11-8f6e-002248110683",
+              "DueDate": "2023-06-29T14:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2022",
+              "type": "Financial Report 2022",
+              "uuid": "8b1459d3-bdd9-eb11-bacb-0022481070a1"
+            },
+            {
+              "AISId": "09326915-2f01-ef11-9f89-002248956a7c",
+              "DateReceived": "2024-04-23T05:05:31.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2024-06-29T14:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2023",
+              "type": "Annual Information Statement 2023",
+              "uuid": "a91e2122-8ff8-ec11-82e8-00224811d4e9"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2024-04-23T05:05:22.0000000Z",
+              "DocumentUuid": "289b380f-2f01-ef11-9f89-000d3acb2bf3",
+              "DueDate": "2024-06-29T14:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2023",
+              "type": "Financial Report 2023",
+              "uuid": "bb1e2122-8ff8-ec11-82e8-00224811d4e9"
+            },
+            {
+              "AISId": "131b575d-2235-f011-8c4c-002248929f50",
+              "DateReceived": "2025-05-20T02:30:28.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2025-06-29T14:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2024",
+              "type": "Annual Information Statement 2024",
+              "uuid": "68fa2317-5217-ee11-8f6d-00224893b0ed"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2025-05-20T02:30:21.0000000Z",
+              "DocumentUuid": "a8f59859-2235-f011-8c4c-00224810b26d",
+              "DueDate": "2025-06-29T14:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2024",
+              "type": "Financial Report 2024",
+              "uuid": "8cfa2317-5217-ee11-8f6d-00224893b0ed"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2027-06-29T14:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Not yet submitted",
+              "Year": "2026",
+              "type": "Annual Information Statement 2026",
+              "uuid": "d9b45e6f-bb55-f011-bec1-00224894d5bf"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2027-06-29T14:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Pending",
+              "Year": "2026",
+              "type": "Financial Report 2026",
+              "uuid": "b93e427a-bb55-f011-bec1-00224894d5bf"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2028-06-29T14:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Not yet submitted",
+              "Year": "2027",
+              "type": "Annual Information Statement 2027",
+              "uuid": "0a9e548e-8d74-f111-ab0e-70a8a553aca8"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2028-06-29T14:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Pending",
+              "Year": "2027",
+              "type": "Financial Report 2027",
+              "uuid": "259e548e-8d74-f111-ab0e-70a8a553aca8"
+            }
+          ],
+          "Beneficiaries": [
+            {
+              "Description": null,
+              "Name": "Youth - 15 to under 25",
+              "uuid": "bdc350bf-0654-f111-bec7-6045bde5be38"
+            },
+            {
+              "Description": null,
+              "Name": "People with disabilities",
+              "uuid": "c0c350bf-0654-f111-bec7-6045bde5be38"
+            },
+            {
+              "Description": null,
+              "Name": "People in rural/regional/remote communities",
+              "uuid": "c4c350bf-0654-f111-bec7-6045bde5be38"
+            },
+            {
+              "Description": null,
+              "Name": "People from a culturally and linguistically diverse background",
+              "uuid": "cbc350bf-0654-f111-bec7-6045bde5be38"
+            },
+            {
+              "Description": null,
+              "Name": "Other",
+              "uuid": "d0c350bf-0654-f111-bec7-6045bde5be38"
+            },
+            {
+              "Description": null,
+              "Name": "Migrants, refugees or asylum seekers",
+              "uuid": "dbc350bf-0654-f111-bec7-6045bde5be38"
+            },
+            {
+              "Description": null,
+              "Name": "LGBTIQA+",
+              "uuid": "e1c350bf-0654-f111-bec7-6045bde5be38"
+            },
+            {
+              "Description": null,
+              "Name": "General community in Australia",
+              "uuid": "e5c350bf-0654-f111-bec7-6045bde5be38"
+            },
+            {
+              "Description": null,
+              "Name": "Financially disadvantaged people",
+              "uuid": "ebc350bf-0654-f111-bec7-6045bde5be38"
+            },
+            {
+              "Description": null,
+              "Name": "Adults - aged 65 and over",
+              "uuid": "efc350bf-0654-f111-bec7-6045bde5be38"
+            },
+            {
+              "Description": null,
+              "Name": "Adults - aged 25 to under 65",
+              "uuid": "f6c350bf-0654-f111-bec7-6045bde5be38"
+            },
+            {
+              "Description": null,
+              "Name": "Aboriginal and Torres Strait Islander people",
+              "uuid": "06c450bf-0654-f111-bec7-6045bde5be38"
+            }
+          ],
+          "CharitySize": "Medium",
+          "CharitySubtypeHistory": [
+            {
+              "EndDate": "2013-12-30T13:00:00.0000000Z",
+              "Purpose": "2012 Another purpose beneficial to the community",
+              "StartDate": "2012-12-02T13:00:00.0000000Z",
+              "uuid": "486b1f1d-fdc6-e811-a964-000d3ad24077"
+            },
+            {
+              "EndDate": null,
+              "Purpose": "Advancing culture",
+              "StartDate": "2013-12-31T13:00:00.0000000Z",
+              "uuid": "616b1f1d-fdc6-e811-a964-000d3ad24077"
+            }
+          ],
+          "CharityVersion": "95",
+          "ChildMemberEndDate": null,
+          "ChildMemberStartDate": null,
+          "ChooseToProvideAis": null,
+          "Countries": [
+            {
+              "Name": "Australia",
+              "uuid": "f57b5602-9a4d-e811-a951-000d3ad06f2d"
+            }
+          ],
+          "DateEstablished": "1965-12-31T13:00:00.0000000Z",
+          "Documents": [
+            {
+              "Date": "2015-02-25T00:00:00.0000000",
+              "Title": "75442934320_GOV.docx",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/8e82bbd4-38af-e811-a962-000d3ad24a0d-f31fd2d3-08d5-4a54-ae66-7ac50aa7d14f-Governing%20Document-4fee6d23-46b0-e811-a963-000d3ad244fd-75442934320_GOV.docx",
+              "Year": null,
+              "type": "Governing Document",
+              "uuid": "4fee6d23-46b0-e811-a963-000d3ad244fd"
+            },
+            {
+              "Date": "2020-08-27T00:00:00.0000000",
+              "Title": "https://guildhouse.org.au/wp-content/uploads/2020/05/FINAL-2019-Annual-Report_.pdf",
+              "Url": "https://guildhouse.org.au/wp-content/uploads/2020/05/FINAL-2019-Annual-Report_.pdf",
+              "Year": "2019",
+              "type": "Annual Report",
+              "uuid": "2eaa429e-1ce8-ea11-a817-000d3ad1cf4f"
+            },
+            {
+              "Date": "2019-06-05T00:00:00.0000000",
+              "Title": "FINAL 2018 Annual Report 070519_LR.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/8e82bbd4-38af-e811-a962-000d3ad24a0d-f31fd2d3-08d5-4a54-ae66-7ac50aa7d14f-Annual%20Report-aa70b12e-5087-e911-a973-000d3ad24077-FINAL_2018_Annual_Report_070519_LR.pdf",
+              "Year": "2018",
+              "type": "Annual Report",
+              "uuid": "aa70b12e-5087-e911-a973-000d3ad24077"
+            },
+            {
+              "Date": "2018-06-28T00:00:00.0000000",
+              "Title": "2017_Annual Report.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/8e82bbd4-38af-e811-a962-000d3ad24a0d-f31fd2d3-08d5-4a54-ae66-7ac50aa7d14f-Annual%20Report-92f15f25-46b0-e811-a95e-000d3ad24c60-2017_Annual_Report.pdf",
+              "Year": "2017",
+              "type": "Annual Report",
+              "uuid": "92f15f25-46b0-e811-a95e-000d3ad24c60"
+            },
+            {
+              "Date": "2024-04-23T00:00:00.0000000",
+              "Title": "2023 Guildhouse Incorporated  FS Signed.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/8e82bbd4-38af-e811-a962-000d3ad24a0d-f31fd2d3-08d5-4a54-ae66-7ac50aa7d14f-Financial%20Report-289b380f-2f01-ef11-9f89-000d3acb2bf3-2023_Guildhouse_Incorporated__FS_Signed.pdf",
+              "Year": "2023",
+              "type": "Financial Report",
+              "uuid": "289b380f-2f01-ef11-9f89-000d3acb2bf3"
+            },
+            {
+              "Date": "2022-06-27T00:00:00.0000000",
+              "Title": "Final 2021 Guildhouse Inc Financial Statements ALL SIGNED.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/8e82bbd4-38af-e811-a962-000d3ad24a0d-f31fd2d3-08d5-4a54-ae66-7ac50aa7d14f-Financial%20Report-a2e06ab6-cff5-ec11-82e6-000d3ad1769c-Final_2021_Guildhouse_Inc_Financial_Statements_ALL_SIGNED.pdf",
+              "Year": "2021",
+              "type": "Financial Report",
+              "uuid": "a2e06ab6-cff5-ec11-82e6-000d3ad1769c"
+            },
+            {
+              "Date": "2020-08-27T00:00:00.0000000",
+              "Title": "2019 Guildhouse Financials Signed 5520.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/8e82bbd4-38af-e811-a962-000d3ad24a0d-f31fd2d3-08d5-4a54-ae66-7ac50aa7d14f-Financial%20Report-21aa429e-1ce8-ea11-a817-000d3ad1cf4f-2019_Guildhouse_Financials_Signed_5520.pdf",
+              "Year": "2019",
+              "type": "Financial Report",
+              "uuid": "21aa429e-1ce8-ea11-a817-000d3ad1cf4f"
+            },
+            {
+              "Date": "2019-06-05T00:00:00.0000000",
+              "Title": "Guildhouse 2018 Financials.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/8e82bbd4-38af-e811-a962-000d3ad24a0d-f31fd2d3-08d5-4a54-ae66-7ac50aa7d14f-Financial%20Report-b670b12e-5087-e911-a973-000d3ad24077-Guildhouse_2018_Financials.pdf",
+              "Year": "2018",
+              "type": "Financial Report",
+              "uuid": "b670b12e-5087-e911-a973-000d3ad24077"
+            },
+            {
+              "Date": "2014-08-01T00:00:00.0000000",
+              "Title": "SIGNED AUDITED ACCOUNTS 2013.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/8e82bbd4-38af-e811-a962-000d3ad24a0d-f31fd2d3-08d5-4a54-ae66-7ac50aa7d14f-Financial%20Report-feed6d23-46b0-e811-a963-000d3ad244fd-SIGNED_AUDITED_ACCOUNTS_2013.pdf",
+              "Year": "2013",
+              "type": "Financial Report",
+              "uuid": "feed6d23-46b0-e811-a963-000d3ad244fd"
+            },
+            {
+              "Date": "2015-06-30T00:00:00.0000000",
+              "Title": "GUILDHOUSE 2014 SIGNED AUDITED ACCOUNTS.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/8e82bbd4-38af-e811-a962-000d3ad24a0d-f31fd2d3-08d5-4a54-ae66-7ac50aa7d14f-Financial%20Report-90ee6d23-46b0-e811-a963-000d3ad244fd-GUILDHOUSE_2014_SIGNED_AUDITED_ACCOUNTS.pdf",
+              "Year": "2014",
+              "type": "Financial Report",
+              "uuid": "90ee6d23-46b0-e811-a963-000d3ad244fd"
+            },
+            {
+              "Date": "2016-06-29T00:00:00.0000000",
+              "Title": "Guildhouse 2015 signed Audited Accounts.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/8e82bbd4-38af-e811-a962-000d3ad24a0d-f31fd2d3-08d5-4a54-ae66-7ac50aa7d14f-Financial%20Report-e1ee6d23-46b0-e811-a963-000d3ad244fd-Guildhouse_2015_signed_Audited_Accounts.pdf",
+              "Year": "2015",
+              "type": "Financial Report",
+              "uuid": "e1ee6d23-46b0-e811-a963-000d3ad244fd"
+            },
+            {
+              "Date": "2017-06-29T00:00:00.0000000",
+              "Title": "Signed Guildhouse audited accounts.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/8e82bbd4-38af-e811-a962-000d3ad24a0d-f31fd2d3-08d5-4a54-ae66-7ac50aa7d14f-Financial%20Report-11ef6d23-46b0-e811-a963-000d3ad244fd-Signed_Guildhouse_audited_accounts.pdf",
+              "Year": "2016",
+              "type": "Financial Report",
+              "uuid": "11ef6d23-46b0-e811-a963-000d3ad244fd"
+            },
+            {
+              "Date": "2018-06-28T00:00:00.0000000",
+              "Title": "Signed audited accounts.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/8e82bbd4-38af-e811-a962-000d3ad24a0d-f31fd2d3-08d5-4a54-ae66-7ac50aa7d14f-Financial%20Report-9ef15f25-46b0-e811-a95e-000d3ad24c60-Signed_audited_accounts.pdf",
+              "Year": "2017",
+              "type": "Financial Report",
+              "uuid": "9ef15f25-46b0-e811-a95e-000d3ad24c60"
+            },
+            {
+              "Date": "2021-06-29T00:00:00.0000000",
+              "Title": "2020 AUDITED Guildhouse Inc Financial .pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/8e82bbd4-38af-e811-a962-000d3ad24a0d-f31fd2d3-08d5-4a54-ae66-7ac50aa7d14f-Financial%20Report-cf435e04-8bd8-eb11-bacb-002248107fc4-2020_AUDITED_Guildhouse_Inc_Financial_.pdf",
+              "Year": "2020",
+              "type": "Financial Report",
+              "uuid": "cf435e04-8bd8-eb11-bacb-002248107fc4"
+            },
+            {
+              "Date": "2025-05-20T00:00:00.0000000",
+              "Title": "FINAL 2024 Guildhouse Financial Statements - Signed.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/8e82bbd4-38af-e811-a962-000d3ad24a0d-f31fd2d3-08d5-4a54-ae66-7ac50aa7d14f-Financial%20Report-a8f59859-2235-f011-8c4c-00224810b26d-FINAL_2024_Guildhouse_Financial_Statements_-_Signed.pdf",
+              "Year": "2024",
+              "type": "Financial Report",
+              "uuid": "a8f59859-2235-f011-8c4c-00224810b26d"
+            },
+            {
+              "Date": "2023-06-05T00:00:00.0000000",
+              "Title": "2022 Guildhouse Inc FS SIGNED.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/8e82bbd4-38af-e811-a962-000d3ad24a0d-f31fd2d3-08d5-4a54-ae66-7ac50aa7d14f-Financial%20Report-31bd2cff-6f03-ee11-8f6e-002248110683-2022_Guildhouse_Inc_FS_SIGNED.pdf",
+              "Year": "2022",
+              "type": "Financial Report",
+              "uuid": "31bd2cff-6f03-ee11-8f6e-002248110683"
+            },
+            {
+              "Date": "2026-05-20T00:00:00.0000000",
+              "Title": "2025 Financial Report - Guildhouse (Signed).pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/8e82bbd4-38af-e811-a962-000d3ad24a0d-f31fd2d3-08d5-4a54-ae66-7ac50aa7d14f-Financial%20Report-1afbfbaf-0654-f111-bec7-002248111f49-2025_Financial_Report_-_Guildhouse_(Signed).pdf",
+              "Year": "2025",
+              "type": "Financial Report",
+              "uuid": "1afbfbaf-0654-f111-bec7-002248111f49"
+            }
+          ],
+          "Email": "guildhouse@guildhouse.org.au",
+          "EnforcementOutcomes": [],
+          "FinancialYearEnd": "31/12",
+          "GovernmentAgencies": [
+            {
+              "Name": "SA - Incorporated Association",
+              "ReferenceNumber": "A6547",
+              "uuid": "2ee357b9-0654-f111-bec7-6045bde5be38"
+            },
+            {
+              "Name": "SA - Fundraising",
+              "ReferenceNumber": null,
+              "uuid": "32e357b9-0654-f111-bec7-6045bde5be38"
+            }
+          ],
+          "GroupHeadFlag": false,
+          "LastReported": "2026-05-20T04:45:36.0000000Z",
+          "Name": "Craftsouth: Centre For Contemporary Craft & Design Inc",
+          "NextReportDue": "2027-06-30T13:30:00.0000000Z",
+          "OperatingInStates": [
+            {
+              "Name": "South Australia",
+              "uuid": "dd2782ae-455e-e811-a95c-000d3ad1c715"
+            }
+          ],
+          "OtherDetails": null,
+          "OtherNames": [],
+          "ParentAccountAbn": null,
+          "ParentAccountId": null,
+          "Phone": "(08) 8410 1822",
+          "Programs": [
+            {
+              "AisUuid": "0ee357b9-0654-f111-bec7-6045bde5be38",
+              "Name": "The Collections Project",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Youth - 15 to under 25",
+                "Adults - aged 25 to under 65",
+                "Adults - aged 65 and over",
+                "Aboriginal and Torres Strait Islander people",
+                "People from a culturally and linguistically diverse background",
+                "People in rural/regional/remote communities",
+                "General community in Australia"
+              ],
+              "ProgramClassie": [
+                {
+                  "classie_id": "47",
+                  "label": "Arts exchange",
+                  "parent_id": "43",
+                  "selected": true
+                },
+                {
+                  "classie_id": "43",
+                  "label": "Arts services",
+                  "parent_id": "42",
+                  "selected": false
+                },
+                {
+                  "classie_id": "42",
+                  "label": "Arts and culture",
+                  "parent_id": null,
+                  "selected": false
+                }
+              ],
+              "ProgramClassification": "Arts exchange",
+              "ProgramClassificationID": "47",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Adelaide SA, Australia",
+                  "FormattedAddress": "Adelaide SA, Australia",
+                  "Marker": {
+                    "Latitude": -34.9284989,
+                    "Longitude": 138.6007456
+                  },
+                  "Name": "Adelaide",
+                  "uuid": "69e357b9-0654-f111-bec7-6045bde5be38"
+                }
+              ],
+              "ProgramWeblink": "https://guildhouse.org.au/programs/the-collections-project/",
+              "uuid": "4be357b9-0654-f111-bec7-6045bde5be38"
+            },
+            {
+              "AisUuid": "0ee357b9-0654-f111-bec7-6045bde5be38",
+              "Name": "Guildhouse Fellowship",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Youth - 15 to under 25",
+                "Adults - aged 25 to under 65",
+                "Adults - aged 65 and over",
+                "Aboriginal and Torres Strait Islander people",
+                "People from a culturally and linguistically diverse background",
+                "People in rural/regional/remote communities",
+                "People with disabilities"
+              ],
+              "ProgramClassie": [
+                {
+                  "classie_id": "104",
+                  "label": "Visual arts",
+                  "parent_id": "42",
+                  "selected": true
+                },
+                {
+                  "classie_id": "42",
+                  "label": "Arts and culture",
+                  "parent_id": null,
+                  "selected": false
+                }
+              ],
+              "ProgramClassification": "Visual arts",
+              "ProgramClassificationID": "104",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Adelaide SA, Australia",
+                  "FormattedAddress": "Adelaide SA, Australia",
+                  "Marker": {
+                    "Latitude": -34.9284989,
+                    "Longitude": 138.6007456
+                  },
+                  "Name": "Adelaide",
+                  "uuid": "83e357b9-0654-f111-bec7-6045bde5be38"
+                }
+              ],
+              "ProgramWeblink": "https://guildhouse.org.au/the-guildhouse-fellowship/",
+              "uuid": "6ce357b9-0654-f111-bec7-6045bde5be38"
+            },
+            {
+              "AisUuid": "0ee357b9-0654-f111-bec7-6045bde5be38",
+              "Name": "Catapult",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Youth - 15 to under 25",
+                "Adults - aged 25 to under 65",
+                "Adults - aged 65 and over",
+                "Aboriginal and Torres Strait Islander people",
+                "People from a culturally and linguistically diverse background",
+                "People in rural/regional/remote communities",
+                "Financially disadvantaged people"
+              ],
+              "ProgramClassie": [
+                {
+                  "classie_id": "104",
+                  "label": "Visual arts",
+                  "parent_id": "42",
+                  "selected": true
+                },
+                {
+                  "classie_id": "42",
+                  "label": "Arts and culture",
+                  "parent_id": null,
+                  "selected": false
+                }
+              ],
+              "ProgramClassification": "Visual arts",
+              "ProgramClassificationID": "104",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Adelaide SA, Australia",
+                  "FormattedAddress": "Adelaide SA, Australia",
+                  "Marker": {
+                    "Latitude": -34.9284989,
+                    "Longitude": 138.6007456
+                  },
+                  "Name": "Adelaide",
+                  "uuid": "99e357b9-0654-f111-bec7-6045bde5be38"
+                }
+              ],
+              "ProgramWeblink": "https://guildhouse.org.au/catapult-2020-recipients/",
+              "uuid": "85e357b9-0654-f111-bec7-6045bde5be38"
+            },
+            {
+              "AisUuid": "0ee357b9-0654-f111-bec7-6045bde5be38",
+              "Name": "Monthly Advice Bank",
+              "OperatesOnline": true,
+              "ProgramBeneficiaries": [
+                "Youth - 15 to under 25",
+                "Adults - aged 25 to under 65",
+                "Adults - aged 65 and over",
+                "Aboriginal and Torres Strait Islander people",
+                "People from a culturally and linguistically diverse background",
+                "People in rural/regional/remote communities",
+                "Financially disadvantaged people",
+                "People with disabilities",
+                "Other - Guildhouse members"
+              ],
+              "ProgramClassie": [
+                {
+                  "classie_id": "46",
+                  "label": "Arts education",
+                  "parent_id": "43",
+                  "selected": true
+                },
+                {
+                  "classie_id": "43",
+                  "label": "Arts services",
+                  "parent_id": "42",
+                  "selected": false
+                },
+                {
+                  "classie_id": "42",
+                  "label": "Arts and culture",
+                  "parent_id": null,
+                  "selected": false
+                }
+              ],
+              "ProgramClassification": "Arts education",
+              "ProgramClassificationID": "46",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Adelaide SA, Australia",
+                  "FormattedAddress": "Adelaide SA, Australia",
+                  "Marker": {
+                    "Latitude": -34.9284989,
+                    "Longitude": 138.6007456
+                  },
+                  "Name": "Adelaide",
+                  "uuid": "e0e357b9-0654-f111-bec7-6045bde5be38"
+                }
+              ],
+              "ProgramWeblink": "https://guildhouse.org.au/programs/one-on-one/",
+              "uuid": "aae357b9-0654-f111-bec7-6045bde5be38"
+            },
+            {
+              "AisUuid": "0ee357b9-0654-f111-bec7-6045bde5be38",
+              "Name": "INFORM",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Youth - 15 to under 25",
+                "Adults - aged 25 to under 65",
+                "Adults - aged 65 and over",
+                "Aboriginal and Torres Strait Islander people",
+                "People from a culturally and linguistically diverse background",
+                "People in rural/regional/remote communities"
+              ],
+              "ProgramClassie": [
+                {
+                  "classie_id": "46",
+                  "label": "Arts education",
+                  "parent_id": "43",
+                  "selected": true
+                },
+                {
+                  "classie_id": "43",
+                  "label": "Arts services",
+                  "parent_id": "42",
+                  "selected": false
+                },
+                {
+                  "classie_id": "42",
+                  "label": "Arts and culture",
+                  "parent_id": null,
+                  "selected": false
+                }
+              ],
+              "ProgramClassification": "Arts education",
+              "ProgramClassificationID": "46",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Adelaide SA, Australia",
+                  "FormattedAddress": "Adelaide SA, Australia",
+                  "Marker": {
+                    "Latitude": -34.9284989,
+                    "Longitude": 138.6007456
+                  },
+                  "Name": "Adelaide",
+                  "uuid": "b5c250bf-0654-f111-bec7-6045bde5be38"
+                }
+              ],
+              "ProgramWeblink": "https://guildhouse.org.au/category/programs/inform/",
+              "uuid": "e2e357b9-0654-f111-bec7-6045bde5be38"
+            },
+            {
+              "AisUuid": "0ee357b9-0654-f111-bec7-6045bde5be38",
+              "Name": "The JPE Art in Residence",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Youth - 15 to under 25",
+                "Adults - aged 25 to under 65",
+                "Adults - aged 65 and over",
+                "Aboriginal and Torres Strait Islander people",
+                "People from a culturally and linguistically diverse background"
+              ],
+              "ProgramClassie": [
+                {
+                  "classie_id": "104",
+                  "label": "Visual arts",
+                  "parent_id": "42",
+                  "selected": true
+                },
+                {
+                  "classie_id": "42",
+                  "label": "Arts and culture",
+                  "parent_id": null,
+                  "selected": false
+                }
+              ],
+              "ProgramClassification": "Visual arts",
+              "ProgramClassificationID": "104",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Adelaide SA, Australia",
+                  "FormattedAddress": "Adelaide SA, Australia",
+                  "Marker": {
+                    "Latitude": -34.9284989,
+                    "Longitude": 138.6007456
+                  },
+                  "Name": "Adelaide",
+                  "uuid": "dfc250bf-0654-f111-bec7-6045bde5be38"
+                }
+              ],
+              "ProgramWeblink": "https://guildhouse.org.au/jpe-art-in-residence/",
+              "uuid": "bcc250bf-0654-f111-bec7-6045bde5be38"
+            },
+            {
+              "AisUuid": "0ee357b9-0654-f111-bec7-6045bde5be38",
+              "Name": "Intersection",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Adults - aged 25 to under 65",
+                "Adults - aged 65 and over",
+                "People in rural/regional/remote communities",
+                "Financially disadvantaged people"
+              ],
+              "ProgramClassie": [
+                {
+                  "classie_id": "104",
+                  "label": "Visual arts",
+                  "parent_id": "42",
+                  "selected": true
+                },
+                {
+                  "classie_id": "42",
+                  "label": "Arts and culture",
+                  "parent_id": null,
+                  "selected": false
+                }
+              ],
+              "ProgramClassification": "Visual arts",
+              "ProgramClassificationID": "104",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Spencer Gulf, Australia",
+                  "FormattedAddress": "Spencer Gulf, Australia",
+                  "Marker": {
+                    "Latitude": -34.3036498,
+                    "Longitude": 136.9805103
+                  },
+                  "Name": "Spencer Gulf",
+                  "uuid": "f2c250bf-0654-f111-bec7-6045bde5be38"
+                },
+                {
+                  "DisplayName": "Kangaroo Island, South Australia, Australia",
+                  "FormattedAddress": "Kangaroo Island, South Australia, Australia",
+                  "Marker": {
+                    "Latitude": -35.7752426,
+                    "Longitude": 137.2142417
+                  },
+                  "Name": "Kangaroo Island",
+                  "uuid": "f5c250bf-0654-f111-bec7-6045bde5be38"
+                },
+                {
+                  "DisplayName": "Clare Valley, Clare SA, Australia",
+                  "FormattedAddress": "Clare Valley, Clare SA 5453, Australia",
+                  "Marker": {
+                    "Latitude": -33.8335699,
+                    "Longitude": 138.61
+                  },
+                  "Name": "Clare Valley",
+                  "uuid": "fac250bf-0654-f111-bec7-6045bde5be38"
+                },
+                {
+                  "DisplayName": "Murray Bridge SA, Australia",
+                  "FormattedAddress": "Murray Bridge SA 5253, Australia",
+                  "Marker": {
+                    "Latitude": -35.1311491,
+                    "Longitude": 139.2650902
+                  },
+                  "Name": "Murray Bridge",
+                  "uuid": "fec250bf-0654-f111-bec7-6045bde5be38"
+                }
+              ],
+              "ProgramWeblink": "https://guildhouse.org.au/intersection/",
+              "uuid": "e5c250bf-0654-f111-bec7-6045bde5be38"
+            },
+            {
+              "AisUuid": "0ee357b9-0654-f111-bec7-6045bde5be38",
+              "Name": "Guildhouse Greets",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Adults - aged 25 to under 65",
+                "Adults - aged 65 and over",
+                "Aboriginal and Torres Strait Islander people",
+                "LGBTIQA+",
+                "Migrants, refugees or asylum seekers",
+                "People from a culturally and linguistically diverse background"
+              ],
+              "ProgramClassie": [
+                {
+                  "classie_id": "104",
+                  "label": "Visual arts",
+                  "parent_id": "42",
+                  "selected": true
+                },
+                {
+                  "classie_id": "42",
+                  "label": "Arts and culture",
+                  "parent_id": null,
+                  "selected": false
+                }
+              ],
+              "ProgramClassification": "Visual arts",
+              "ProgramClassificationID": "104",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Adelaide SA, Australia",
+                  "FormattedAddress": "Adelaide SA, Australia",
+                  "Marker": {
+                    "Latitude": -34.9284989,
+                    "Longitude": 138.6007456
+                  },
+                  "Name": "Adelaide",
+                  "uuid": "22c350bf-0654-f111-bec7-6045bde5be38"
+                }
+              ],
+              "ProgramWeblink": "https://guildhouse.org.au/programs/guildhouse-greets/",
+              "uuid": "02c350bf-0654-f111-bec7-6045bde5be38"
+            },
+            {
+              "AisUuid": "0ee357b9-0654-f111-bec7-6045bde5be38",
+              "Name": "Adelaide Airport Naidoc Week Exhibition",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Adults - aged 25 to under 65",
+                "Adults - aged 65 and over",
+                "Aboriginal and Torres Strait Islander people"
+              ],
+              "ProgramClassie": [
+                {
+                  "classie_id": "104",
+                  "label": "Visual arts",
+                  "parent_id": "42",
+                  "selected": true
+                },
+                {
+                  "classie_id": "42",
+                  "label": "Arts and culture",
+                  "parent_id": null,
+                  "selected": false
+                }
+              ],
+              "ProgramClassification": "Visual arts",
+              "ProgramClassificationID": "104",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Adelaide Airport (ADL), Sir Richard Williams Avenue, Adelaide Airport SA, Australia",
+                  "FormattedAddress": "Sir Richard Williams Ave, Adelaide Airport SA 5950, Australia",
+                  "Marker": {
+                    "Latitude": -34.946237,
+                    "Longitude": 138.5312017
+                  },
+                  "Name": "Adelaide Airport",
+                  "uuid": "3dc350bf-0654-f111-bec7-6045bde5be38"
+                }
+              ],
+              "ProgramWeblink": "https://guildhouse.org.au/adelaide-airport/",
+              "uuid": "2ec350bf-0654-f111-bec7-6045bde5be38"
+            },
+            {
+              "AisUuid": "0ee357b9-0654-f111-bec7-6045bde5be38",
+              "Name": "Guildhouse Membership Morning Tea",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Adults - aged 25 to under 65",
+                "Adults - aged 65 and over"
+              ],
+              "ProgramClassie": [
+                {
+                  "classie_id": "104",
+                  "label": "Visual arts",
+                  "parent_id": "42",
+                  "selected": true
+                },
+                {
+                  "classie_id": "42",
+                  "label": "Arts and culture",
+                  "parent_id": null,
+                  "selected": false
+                }
+              ],
+              "ProgramClassification": "Visual arts",
+              "ProgramClassificationID": "104",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Adelaide SA, Australia",
+                  "FormattedAddress": "Adelaide SA, Australia",
+                  "Marker": {
+                    "Latitude": -34.9284989,
+                    "Longitude": 138.6007456
+                  },
+                  "Name": "Adelaide",
+                  "uuid": "4dc350bf-0654-f111-bec7-6045bde5be38"
+                }
+              ],
+              "ProgramWeblink": "https://guildhouse.org.au/guildhouse-members-morning-tea/",
+              "uuid": "41c350bf-0654-f111-bec7-6045bde5be38"
+            }
+          ],
+          "ReferendumReturnsUrl": null,
+          "RegistrationStatusHistory": [
+            {
+              "EffectiveDate": "2012-12-02T13:00:00.0000000Z",
+              "Status": "Registered",
+              "TransactionDate": "2012-12-02T13:00:00.0000000Z",
+              "uuid": "a75a6a93-06c6-e811-a961-000d3ad24282"
+            }
+          ],
+          "RelatedPartyTransactions": null,
+          "RelevantTransactions": null,
+          "ReportingLate": "2027-12-30T13:30:00.0000000Z",
+          "ResponsiblePersons": [
+            {
+              "Name": "Catherine Sarah",
+              "Role": "Chairperson",
+              "uuid": "5bc189a3-1ce8-ea11-a817-000d3ad1fbf8"
+            },
+            {
+              "Name": "Beth Neate",
+              "Role": "Director",
+              "uuid": "9b86dd9b-04d3-ef11-a730-000d3ad0bafe"
+            },
+            {
+              "Name": "Christian Hall",
+              "Role": "Board Member",
+              "uuid": "fc8ce13a-b9a8-ec11-9841-002248936bd0"
+            },
+            {
+              "Name": "Stuart Symons",
+              "Role": "Board Member",
+              "uuid": "a78de13a-b9a8-ec11-9841-002248936bd0"
+            },
+            {
+              "Name": "Talia Begley",
+              "Role": "Board Member",
+              "uuid": "a71da108-7003-ee11-8f6e-00224893d32a"
+            },
+            {
+              "Name": "Dameeli Coates",
+              "Role": "Chairperson",
+              "uuid": "43159c57-7f15-ee11-9cbe-00224810001d"
+            },
+            {
+              "Name": "Kirsteen Mackay",
+              "Role": "Board Member",
+              "uuid": "349dc9c2-cff5-ec11-82e7-002248944bc7"
+            },
+            {
+              "Name": "Tsering Hannaford",
+              "Role": "Board Member",
+              "uuid": "0f326915-2f01-ef11-9f89-002248956a7c"
+            }
+          ],
+          "Status": "Registered",
+          "SummaryOfActivities": "2025 was a year defined by artistic excellence, collective achievement and renewed purpose for Guildhouse. Guided by our new Strategic Plan and Manifesto, we stepped forward with conviction as sector leaders supporting the career development and livelihoods of South Australian artists at  every stage of their career.  Our suite of nationally recognised artistic programs continued to advance practice, encourage experimentation and increase visibility for visual artists, craft makers and designers. Whilst our unique exhibition series, in traditional and non-traditional gallery spaces, connected South Australian artists and their work to new  audiences of over 2 million people.  In 2025 Guildhouse provided an ambitious suite of tailored support services and meaningful employment for artists, generating more than $1.2 million in direct income for artists, artisans and creative  workers.",
+          "TotalExpensesEmployee": "1233133",
+          "TotalExpensesGrantsAndDonationsInAustralia": "0",
+          "TotalExpensesGrantsAndDonationsOutsideAustralia": "0",
+          "TotalExpensesInterest": "0",
+          "TotalExpensesOther": "425055",
+          "TotalGrossIncomeDonationsAndRequests": "50140",
+          "TotalGrossIncomeGoodsOrServices": "989659",
+          "TotalGrossIncomeGovernmentGrants": "320036",
+          "TotalGrossIncomeInvestments": "9826",
+          "TotalGrossIncomeOtherRevenues": "156347",
+          "TransparencyRegisterUrl": null,
+          "Website": "www.guildhouse.org.au",
+          "__normalized": true,
+          "type": "charity",
+          "uuid": "8e82bbd4-38af-e811-a962-000d3ad24a0d"
+        },
+        "type": "charity",
+        "uuid": "8e82bbd4-38af-e811-a962-000d3ad24a0d"
+      },
+      "canonical_field_mappings": {
+        "data.Name": "display_name",
+        "data.OtherNames": "operating_names",
+        "data.AnnualReports": "acnc_ais_url",
+        "data.Programs": "programs"
+      },
+      "evidence_ids": [
+        "ev:acnc:ais:75442934320:2025"
       ]
     }
   ],
@@ -244,7 +1460,10 @@
         "source_precision": null
       },
       "assets": null,
-      "liabilities": null
+      "liabilities": null,
+      "income_breakdown": [],
+      "expense_breakdown": [],
+      "balance_sheet_breakdown": []
     }
   ],
   "financial_metrics": [
@@ -423,6 +1642,30 @@
       "page": null,
       "section": null,
       "content_hash": null
+    },
+    {
+      "evidence_id": "ev:abr-dgr:75442934320:20260805",
+      "source_type": "regulatory",
+      "title": "ABR DGR bulk observation",
+      "publisher": "Australian Business Register / Australian Taxation Office",
+      "url": "https://abr.business.gov.au/Tools/BulkExtract",
+      "observed_at": "2026-08-05",
+      "reporting_period": null,
+      "page": null,
+      "section": null,
+      "content_hash": null
+    },
+    {
+      "evidence_id": "ev:acnc:ais:75442934320:2025",
+      "source_type": "regulatory",
+      "title": "Craftsouth: Centre For Contemporary Craft & Design Inc Annual Information Statement 2025",
+      "publisher": "Australian Charities and Not-for-profits Commission",
+      "url": "https://www.acnc.gov.au/charity/charities/8e82bbd4-38af-e811-a962-000d3ad24a0d/documents/0ee357b9-0654-f111-bec7-6045bde5be38",
+      "observed_at": "2026-05-20",
+      "reporting_period": null,
+      "page": null,
+      "section": null,
+      "content_hash": null
     }
   ],
   "embedding": {
@@ -431,8 +1674,8 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "e85fcc8b0a487b34f42960ca326a06be56aa93225169256f358f1507114cba61",
-    "generated_at": "2026-08-10T13:53:24.456361Z",
+    "source_text_hash": "ad755d92f91f3524d80cb06366b65c577a7d5c89c69a7ac8bca52b55f9e88838",
+    "generated_at": "2026-08-13T00:32:18.621664Z",
     "vector_ref": "embeddings.parquet#cb_17b5799156f848e2acd03529c3e1b451"
   },
   "synthesis": {
@@ -503,9 +1746,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc2",
-  "card_schema_version": "0.3",
+  "dataset_version": "phase2b-2026-08-13-rc3",
+  "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.3.0-rc2",
-  "built_at": "2026-08-12T14:24:20.675968Z"
+  "generator_version": "0.4.0-rc3",
+  "built_at": "2026-08-13T00:32:15.698599Z"
 }

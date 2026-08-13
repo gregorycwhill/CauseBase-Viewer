@@ -37,6 +37,12 @@
   "legal_name": "DEMOCRACY IN COLOUR LIMITED",
   "display_name": "DEMOCRACY IN COLOUR LIMITED",
   "entity_status": "registered",
+  "canonical_url": "https://gregorycwhill.github.io/CauseBase-Viewer/#cb_24bd80e16e6d44dbbcf15482bc82ed93",
+  "acnc_profile_url": "https://www.acnc.gov.au/charity/charities/89245fd4-1b1c-ec11-b6e6-00224810be60/profile",
+  "acnc_ais_url": "https://www.acnc.gov.au/charity/charities/89245fd4-1b1c-ec11-b6e6-00224810be60/documents/522fd0d4-edfb-f011-8406-002248111f49",
+  "operating_names": [],
+  "former_names": [],
+  "principal_location": "VIC, Australia",
   "coverage": [
     {
       "capability": "regulatory",
@@ -83,6 +89,16 @@
       ],
       "observed_at": "2026-08-10",
       "freshness_note": null
+    },
+    {
+      "capability": "latest_acnc_ais",
+      "status": "observed",
+      "source_record_id": null,
+      "evidence_ids": [
+        "ev:acnc:ais:57623367117:2025"
+      ],
+      "observed_at": "2026-01-28",
+      "freshness_note": "Latest submitted ACNC AIS in the 2026-08-13 public-profile acquisition: 2025."
     }
   ],
   "enrichment_level": "enriched",
@@ -130,7 +146,9 @@
     "Campaign participation (Racism Out This and related campaigns)",
     "Partnerships with other civil society organisations"
   ],
+  "participation_observations": [],
   "opportunities": [],
+  "programs": [],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:cd1a4e66-a39c-5f3e-9aaa-753f45bab38b",
@@ -150,6 +168,7 @@
         "ACNC registration ID": null,
         "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
+      "source_payload": null,
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
         "Legal Name": "legal_name",
@@ -179,12 +198,736 @@
         "Assets": null,
         "Liabilities": null
       },
+      "source_payload": null,
       "canonical_field_mappings": {
         "Revenue": "financial_records[].revenue",
         "Total expenses": "financial_records[].total_expenses"
       },
       "evidence_ids": [
         "ev:ais:57623367117:2023"
+      ]
+    },
+    {
+      "source_record_id": "src:acnc-public-profile:57623367117:cb_24bd80e16e6d44dbbcf15482bc82ed93:2026-08-13",
+      "source_family": "acnc-public-profile",
+      "dataset_version": "2026-08-13-public-api",
+      "source_url": "https://www.acnc.gov.au/charity/charities/89245fd4-1b1c-ec11-b6e6-00224810be60/profile",
+      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "observed_at": "2026-01-28",
+      "effective_from": null,
+      "effective_to": null,
+      "source_fields": {
+        "uuid": "89245fd4-1b1c-ec11-b6e6-00224810be60",
+        "abn": "57623367117",
+        "latest_ais_year": "2025",
+        "latest_ais_uuid": "522fd0d4-edfb-f011-8406-002248111f49"
+      },
+      "source_payload": {
+        "data": {
+          "AFSAddressPostalCode": "3066",
+          "AFSEmail": "info@democracyincolour.org",
+          "Abn": "57623367117",
+          "AddressCountry": "Australia",
+          "AddressLine1": "36-38 Gipps St",
+          "AddressLine2": null,
+          "AddressLine3": null,
+          "AddressPostalCode": "3066",
+          "AddressStateOrProvince": "VIC",
+          "AddressSuburb": "Collingwood",
+          "AddressSuburbStatePostcode": "Collingwood VIC 3066",
+          "AnnualReports": [
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2026-12-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Not yet submitted",
+              "Year": "2026",
+              "type": "Annual Information Statement 2026",
+              "uuid": "f41d10d3-d6df-ef11-a731-000d3ad059a3"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2026-12-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Pending",
+              "Year": "2026",
+              "type": "Financial Report 2026",
+              "uuid": "401e10d3-d6df-ef11-a731-000d3ad059a3"
+            },
+            {
+              "AISId": "016b227c-c3ad-ed11-83ff-00224893bc23",
+              "DateReceived": "2023-02-16T06:31:15.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2023-01-31T00:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2022",
+              "type": "Annual Information Statement 2022",
+              "uuid": "974ffef4-a237-ec11-8c65-00224810a361"
+            },
+            {
+              "AISId": "b688c58b-1d4e-ef11-a316-6045bdc437c6",
+              "DateReceived": "2023-12-18T05:25:26.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2024-01-31T00:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2023",
+              "type": "Annual Information Statement 2023",
+              "uuid": "9b4ffef4-a237-ec11-8c65-00224810a361"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2023-02-16T06:30:27.0000000Z",
+              "DocumentUuid": "67ad135e-c3ad-ed11-83ff-002248935564",
+              "DueDate": "2023-01-31T00:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2022",
+              "type": "Financial Report 2022",
+              "uuid": "9e4ffef4-a237-ec11-8c65-00224810a361"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2023-12-18T05:25:21.0000000Z",
+              "DocumentUuid": "059e9c81-1d4e-ef11-a316-002248107d0b",
+              "DueDate": "2024-01-31T00:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2023",
+              "type": "Financial Report 2023",
+              "uuid": "a24ffef4-a237-ec11-8c65-00224810a361"
+            },
+            {
+              "AISId": "522fd0d4-edfb-f011-8406-002248111f49",
+              "DateReceived": "2026-01-28T02:05:40.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2026-01-31T00:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2025",
+              "type": "Annual Information Statement 2025",
+              "uuid": "3f17ee5a-a5c0-ee11-907a-00224893bfad"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2026-01-28T02:06:08.0000000Z",
+              "DocumentUuid": "8be205c9-edfb-f011-8406-00224892fae8",
+              "DueDate": "2026-01-31T00:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2025",
+              "type": "Financial Report 2025",
+              "uuid": "8417ee5a-a5c0-ee11-907a-00224893bfad"
+            },
+            {
+              "AISId": "8b5fdea5-fdd2-ef11-a72f-000d3a6af31d",
+              "DateReceived": "2025-01-15T05:00:45.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2025-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2024",
+              "type": "Annual Information Statement 2024",
+              "uuid": "4ac09575-c9a1-ed11-aad1-00224893bffb"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2025-01-15T05:00:25.0000000Z",
+              "DocumentUuid": "ebb29098-fdd2-ef11-a72f-000d3ad05a80",
+              "DueDate": "2025-01-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2024",
+              "type": "Financial Report 2024",
+              "uuid": "76c09575-c9a1-ed11-aad1-00224893bffb"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2027-12-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Not yet submitted",
+              "Year": "2027",
+              "type": "Annual Information Statement 2027",
+              "uuid": "3587284a-07ff-f011-8407-6045bdc4655a"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2027-12-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Pending",
+              "Year": "2027",
+              "type": "Financial Report 2027",
+              "uuid": "5a87284a-07ff-f011-8407-6045bdc4655a"
+            }
+          ],
+          "Beneficiaries": [
+            {
+              "Description": null,
+              "Name": "Youth - 15 to under 25",
+              "uuid": "d82fd0d4-edfb-f011-8406-002248111f49"
+            },
+            {
+              "Description": null,
+              "Name": "People from a culturally and linguistically diverse background",
+              "uuid": "db2fd0d4-edfb-f011-8406-002248111f49"
+            },
+            {
+              "Description": null,
+              "Name": "Other charities",
+              "uuid": "de2fd0d4-edfb-f011-8406-002248111f49"
+            },
+            {
+              "Description": null,
+              "Name": "General community in Australia",
+              "uuid": "e22fd0d4-edfb-f011-8406-002248111f49"
+            },
+            {
+              "Description": null,
+              "Name": "Environment",
+              "uuid": "e52fd0d4-edfb-f011-8406-002248111f49"
+            },
+            {
+              "Description": null,
+              "Name": "Adults - aged 65 and over",
+              "uuid": "e82fd0d4-edfb-f011-8406-002248111f49"
+            },
+            {
+              "Description": null,
+              "Name": "Adults - aged 25 to under 65",
+              "uuid": "eb2fd0d4-edfb-f011-8406-002248111f49"
+            },
+            {
+              "Description": null,
+              "Name": "Aboriginal and Torres Strait Islander people",
+              "uuid": "ee2fd0d4-edfb-f011-8406-002248111f49"
+            }
+          ],
+          "CharitySize": "Medium",
+          "CharitySubtypeHistory": [
+            {
+              "EndDate": null,
+              "Purpose": "Advancing public debate (promoting or opposing a change to any matter established by law, policy or practice in the Commonwealth, a state, territory or another country)",
+              "StartDate": "2018-02-19T00:00:00.0000000Z",
+              "uuid": "96245fd4-1b1c-ec11-b6e6-00224810be60"
+            },
+            {
+              "EndDate": null,
+              "Purpose": "Promoting or protecting human rights",
+              "StartDate": "2018-02-19T00:00:00.0000000Z",
+              "uuid": "9d245fd4-1b1c-ec11-b6e6-00224810be60"
+            },
+            {
+              "EndDate": null,
+              "Purpose": "Promoting reconciliation, mutual respect and tolerance between groups of individuals that are in Australia",
+              "StartDate": "2018-02-19T00:00:00.0000000Z",
+              "uuid": "a6245fd4-1b1c-ec11-b6e6-00224810be60"
+            }
+          ],
+          "CharityVersion": "150",
+          "ChildMemberEndDate": null,
+          "ChildMemberStartDate": null,
+          "ChooseToProvideAis": null,
+          "Countries": [
+            {
+              "Name": "Australia",
+              "uuid": "f57b5602-9a4d-e811-a951-000d3ad06f2d"
+            }
+          ],
+          "DateEstablished": "2017-12-11T13:00:00.0000000Z",
+          "Documents": [
+            {
+              "Date": "2021-09-23T00:00:00.0000000",
+              "Title": "Democracy in Colour constitution.docx",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/89245fd4-1b1c-ec11-b6e6-00224810be60-bc4aeef5-b17f-46dd-9939-31c8e3e427d4-Governing%20Document-5506d0cd-1b1c-ec11-b6e7-0022481047bf-Democracy_in_Colour_constitution.docx",
+              "Year": null,
+              "type": "Governing Document",
+              "uuid": "5506d0cd-1b1c-ec11-b6e7-0022481047bf"
+            },
+            {
+              "Date": "2025-01-15T00:00:00.0000000",
+              "Title": "Democracy In Colour Limited - 2024 Audited Financial Statements_.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/89245fd4-1b1c-ec11-b6e6-00224810be60-bc4aeef5-b17f-46dd-9939-31c8e3e427d4-Financial%20Report-ebb29098-fdd2-ef11-a72f-000d3ad05a80-Democracy_In_Colour_Limited_-_2024_Audited_Financial_Statements_.pdf",
+              "Year": "2024",
+              "type": "Financial Report",
+              "uuid": "ebb29098-fdd2-ef11-a72f-000d3ad05a80"
+            },
+            {
+              "Date": "2024-07-30T00:00:00.0000000",
+              "Title": "Audited financial statement.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/89245fd4-1b1c-ec11-b6e6-00224810be60-bc4aeef5-b17f-46dd-9939-31c8e3e427d4-Financial%20Report-059e9c81-1d4e-ef11-a316-002248107d0b-Audited_financial_statement.pdf",
+              "Year": "2023",
+              "type": "Financial Report",
+              "uuid": "059e9c81-1d4e-ef11-a316-002248107d0b"
+            },
+            {
+              "Date": "2026-01-28T00:00:00.0000000",
+              "Title": "Democracy In Colour Limited - 2025 Financial Statements - signed.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/89245fd4-1b1c-ec11-b6e6-00224810be60-bc4aeef5-b17f-46dd-9939-31c8e3e427d4-Financial%20Report-8be205c9-edfb-f011-8406-00224892fae8-Democracy_In_Colour_Limited_-_2025_Financial_Statements_-_signed.pdf",
+              "Year": "2025",
+              "type": "Financial Report",
+              "uuid": "8be205c9-edfb-f011-8406-00224892fae8"
+            },
+            {
+              "Date": "2023-02-16T00:00:00.0000000",
+              "Title": "Financial Statements and Auditor's Report 2022.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/89245fd4-1b1c-ec11-b6e6-00224810be60-bc4aeef5-b17f-46dd-9939-31c8e3e427d4-Financial%20Report-67ad135e-c3ad-ed11-83ff-002248935564-Financial_Statements_and_Auditor's_Report_2022.pdf",
+              "Year": "2022",
+              "type": "Financial Report",
+              "uuid": "67ad135e-c3ad-ed11-83ff-002248935564"
+            }
+          ],
+          "Email": "info@democracyincolour.org",
+          "EnforcementOutcomes": [],
+          "FinancialYearEnd": "30/06",
+          "GovernmentAgencies": [
+            {
+              "Name": "Online fundraising",
+              "ReferenceNumber": null,
+              "uuid": "f72ee0ab-fdd2-ef11-a72f-000d3a6af31d"
+            },
+            {
+              "Name": "Australian Securities and Investment Commission",
+              "ReferenceNumber": "623367117",
+              "uuid": "798957da-1b1c-ec11-b6e6-00224810be60"
+            },
+            {
+              "Name": "NSW - Fundraising",
+              "ReferenceNumber": "CFN/26123",
+              "uuid": "712fd0d4-edfb-f011-8406-002248111f49"
+            },
+            {
+              "Name": "QLD - Fundraising",
+              "ReferenceNumber": "CH4576208",
+              "uuid": "752fd0d4-edfb-f011-8406-002248111f49"
+            },
+            {
+              "Name": "VIC - Fundraising",
+              "ReferenceNumber": "FR0016327",
+              "uuid": "782fd0d4-edfb-f011-8406-002248111f49"
+            },
+            {
+              "Name": "Online fundraising",
+              "ReferenceNumber": null,
+              "uuid": "7b2fd0d4-edfb-f011-8406-002248111f49"
+            },
+            {
+              "Name": "Online fundraising",
+              "ReferenceNumber": null,
+              "uuid": "a1dc4188-c3ad-ed11-83ff-00224893bc23"
+            },
+            {
+              "Name": "Online fundraising",
+              "ReferenceNumber": null,
+              "uuid": "aab655d4-659d-ee11-be37-00224893d32a"
+            },
+            {
+              "Name": "Online fundraising",
+              "ReferenceNumber": null,
+              "uuid": "e888c58b-1d4e-ef11-a316-6045bdc437c6"
+            }
+          ],
+          "GroupHeadFlag": false,
+          "LastReported": "2026-01-28T02:06:08.0000000Z",
+          "Name": "DEMOCRACY IN COLOUR LIMITED",
+          "NextReportDue": "2026-12-31T12:30:00.0000000Z",
+          "OperatingInStates": [
+            {
+              "Name": "Victoria",
+              "uuid": "4ea3219c-455e-e811-a95c-000d3ad1c715"
+            },
+            {
+              "Name": "New South Wales",
+              "uuid": "2bf593a5-455e-e811-a95c-000d3ad1c715"
+            },
+            {
+              "Name": "Queensland",
+              "uuid": "2cf593a5-455e-e811-a95c-000d3ad1c715"
+            },
+            {
+              "Name": "South Australia",
+              "uuid": "dd2782ae-455e-e811-a95c-000d3ad1c715"
+            }
+          ],
+          "OtherDetails": null,
+          "OtherNames": [],
+          "ParentAccountAbn": null,
+          "ParentAccountId": null,
+          "Phone": null,
+          "Programs": [
+            {
+              "AisUuid": "522fd0d4-edfb-f011-8406-002248111f49",
+              "Name": "People of Colour Placement Program",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Adults - aged 25 to under 65",
+                "People from a culturally and linguistically diverse background",
+                "Aboriginal and Torres Strait Islander people",
+                "Environment"
+              ],
+              "ProgramClassie": [
+                {
+                  "classie_id": "191",
+                  "label": "Equal opportunity in education",
+                  "parent_id": "170",
+                  "selected": true
+                },
+                {
+                  "classie_id": "170",
+                  "label": "Education",
+                  "parent_id": null,
+                  "selected": false
+                }
+              ],
+              "ProgramClassification": "Equal opportunity in education",
+              "ProgramClassificationID": "191",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Melbourne VIC, Australia",
+                  "FormattedAddress": "Melbourne VIC, Australia",
+                  "Marker": {
+                    "Latitude": -37.8136276,
+                    "Longitude": 144.9630576
+                  },
+                  "Name": "Melbourne",
+                  "uuid": "902fd0d4-edfb-f011-8406-002248111f49"
+                },
+                {
+                  "DisplayName": "Sydney NSW, Australia",
+                  "FormattedAddress": "Sydney NSW, Australia",
+                  "Marker": {
+                    "Latitude": -33.8688197,
+                    "Longitude": 151.2092955
+                  },
+                  "Name": "Sydney",
+                  "uuid": "922fd0d4-edfb-f011-8406-002248111f49"
+                },
+                {
+                  "DisplayName": "Brisbane QLD, Australia",
+                  "FormattedAddress": "Brisbane QLD, Australia",
+                  "Marker": {
+                    "Latitude": -27.4704528,
+                    "Longitude": 153.0260341
+                  },
+                  "Name": "Brisbane",
+                  "uuid": "952fd0d4-edfb-f011-8406-002248111f49"
+                },
+                {
+                  "DisplayName": "Adelaide SA, Australia",
+                  "FormattedAddress": "Adelaide SA, Australia",
+                  "Marker": {
+                    "Latitude": -34.9284989,
+                    "Longitude": 138.6007456
+                  },
+                  "Name": "Adelaide",
+                  "uuid": "972fd0d4-edfb-f011-8406-002248111f49"
+                }
+              ],
+              "ProgramWeblink": "https://democracyincolour.org/fellowships-and-anti-racism-training/people-of-colour-placement-program/",
+              "uuid": "862fd0d4-edfb-f011-8406-002248111f49"
+            },
+            {
+              "AisUuid": "522fd0d4-edfb-f011-8406-002248111f49",
+              "Name": "Anti-racism training",
+              "OperatesOnline": true,
+              "ProgramBeneficiaries": [
+                "Adults - aged 65 and over",
+                "Adults - aged 25 to under 65",
+                "People from a culturally and linguistically diverse background",
+                "General community in Australia",
+                "Other charities"
+              ],
+              "ProgramClassie": [
+                {
+                  "classie_id": "452",
+                  "label": "Anti-discrimination",
+                  "parent_id": "451",
+                  "selected": true
+                },
+                {
+                  "classie_id": "451",
+                  "label": "Human rights",
+                  "parent_id": null,
+                  "selected": false
+                }
+              ],
+              "ProgramClassification": "Anti-discrimination",
+              "ProgramClassificationID": "452",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Sydney NSW, Australia",
+                  "FormattedAddress": "Sydney NSW, Australia",
+                  "Marker": {
+                    "Latitude": -33.8688197,
+                    "Longitude": 151.2092955
+                  },
+                  "Name": "Sydney",
+                  "uuid": "a22fd0d4-edfb-f011-8406-002248111f49"
+                },
+                {
+                  "DisplayName": "Melbourne VIC, Australia",
+                  "FormattedAddress": "Melbourne VIC, Australia",
+                  "Marker": {
+                    "Latitude": -37.8136276,
+                    "Longitude": 144.9630576
+                  },
+                  "Name": "Melbourne",
+                  "uuid": "a52fd0d4-edfb-f011-8406-002248111f49"
+                },
+                {
+                  "DisplayName": "Adelaide SA, Australia",
+                  "FormattedAddress": "Adelaide SA, Australia",
+                  "Marker": {
+                    "Latitude": -34.9284989,
+                    "Longitude": 138.6007456
+                  },
+                  "Name": "Adelaide",
+                  "uuid": "a72fd0d4-edfb-f011-8406-002248111f49"
+                },
+                {
+                  "DisplayName": "Newcastle NSW, Australia",
+                  "FormattedAddress": "Newcastle NSW, Australia",
+                  "Marker": {
+                    "Latitude": -32.9282712,
+                    "Longitude": 151.7816802
+                  },
+                  "Name": "Newcastle",
+                  "uuid": "a92fd0d4-edfb-f011-8406-002248111f49"
+                }
+              ],
+              "ProgramWeblink": "https://democracyincolour.org/anti-racism-workplace-training/",
+              "uuid": "992fd0d4-edfb-f011-8406-002248111f49"
+            },
+            {
+              "AisUuid": "522fd0d4-edfb-f011-8406-002248111f49",
+              "Name": "Bystander Intervention Training",
+              "OperatesOnline": true,
+              "ProgramBeneficiaries": [
+                "Adults - aged 25 to under 65",
+                "Adults - aged 65 and over",
+                "People from a culturally and linguistically diverse background",
+                "General community in Australia"
+              ],
+              "ProgramClassie": [
+                {
+                  "classie_id": "213",
+                  "label": "Vocational education and training",
+                  "parent_id": "170",
+                  "selected": true
+                },
+                {
+                  "classie_id": "170",
+                  "label": "Education",
+                  "parent_id": null,
+                  "selected": false
+                }
+              ],
+              "ProgramClassification": "Vocational education and training",
+              "ProgramClassificationID": "213",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Sydney NSW, Australia",
+                  "FormattedAddress": "Sydney NSW, Australia",
+                  "Marker": {
+                    "Latitude": -33.8688197,
+                    "Longitude": 151.2092955
+                  },
+                  "Name": "Sydney",
+                  "uuid": "b42fd0d4-edfb-f011-8406-002248111f49"
+                }
+              ],
+              "ProgramWeblink": "https://democracyincolour.org/bystander-intervention-workshops-to-stop-covid-19-racism/",
+              "uuid": "ab2fd0d4-edfb-f011-8406-002248111f49"
+            },
+            {
+              "AisUuid": "522fd0d4-edfb-f011-8406-002248111f49",
+              "Name": "Migration with Dignity",
+              "OperatesOnline": true,
+              "ProgramBeneficiaries": [
+                "Adults - aged 25 to under 65",
+                "Adults - aged 65 and over",
+                "People from a culturally and linguistically diverse background"
+              ],
+              "ProgramClassie": [
+                {
+                  "classie_id": "452",
+                  "label": "Anti-discrimination",
+                  "parent_id": "451",
+                  "selected": true
+                },
+                {
+                  "classie_id": "451",
+                  "label": "Human rights",
+                  "parent_id": null,
+                  "selected": false
+                }
+              ],
+              "ProgramClassification": "Anti-discrimination",
+              "ProgramClassificationID": "452",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Australia",
+                  "FormattedAddress": "Australia",
+                  "Marker": {
+                    "Latitude": -25.274398,
+                    "Longitude": 133.775136
+                  },
+                  "Name": "Australia",
+                  "uuid": "be2fd0d4-edfb-f011-8406-002248111f49"
+                }
+              ],
+              "ProgramWeblink": "https://www.facebook.com/DemocracyInColour/photos/a.1847999815457387/3341203472803673/",
+              "uuid": "b62fd0d4-edfb-f011-8406-002248111f49"
+            },
+            {
+              "AisUuid": "522fd0d4-edfb-f011-8406-002248111f49",
+              "Name": "Renew Australia for All",
+              "OperatesOnline": false,
+              "ProgramBeneficiaries": [
+                "Youth - 15 to under 25",
+                "Adults - aged 25 to under 65",
+                "Adults - aged 65 and over",
+                "People from a culturally and linguistically diverse background",
+                "Environment"
+              ],
+              "ProgramClassie": [
+                {
+                  "classie_id": "229",
+                  "label": "Climate change",
+                  "parent_id": "216",
+                  "selected": true
+                },
+                {
+                  "classie_id": "216",
+                  "label": "Environment",
+                  "parent_id": null,
+                  "selected": false
+                }
+              ],
+              "ProgramClassification": "Climate change",
+              "ProgramClassificationID": "229",
+              "ProgramCountries": [],
+              "ProgramLocations": [
+                {
+                  "DisplayName": "Sydney NSW, Australia",
+                  "FormattedAddress": "Sydney NSW, Australia",
+                  "Marker": {
+                    "Latitude": -33.8688197,
+                    "Longitude": 151.2092955
+                  },
+                  "Name": "Sydney",
+                  "uuid": "ca2fd0d4-edfb-f011-8406-002248111f49"
+                }
+              ],
+              "ProgramWeblink": null,
+              "uuid": "c02fd0d4-edfb-f011-8406-002248111f49"
+            }
+          ],
+          "ReferendumReturnsUrl": null,
+          "RegistrationStatusHistory": [
+            {
+              "EffectiveDate": "2018-02-19T00:00:00.0000000Z",
+              "Status": "Registered",
+              "TransactionDate": "2021-10-28T03:55:57.0000000Z",
+              "uuid": "421c6ef3-a237-ec11-8c65-00224810a8cc"
+            }
+          ],
+          "RelatedPartyTransactions": null,
+          "RelevantTransactions": null,
+          "ReportingLate": "2027-06-30T12:30:00.0000000Z",
+          "ResponsiblePersons": [
+            {
+              "Name": "Sarah Mohammed",
+              "Role": "Board Member",
+              "uuid": "6f9c3939-c257-f011-bec1-000d3ad2bb8b"
+            },
+            {
+              "Name": "Jamal Hakim",
+              "Role": "Chairperson",
+              "uuid": "4f28fed4-99bd-ee11-9078-002248935564"
+            },
+            {
+              "Name": "Rochelle Francis",
+              "Role": "Board Member",
+              "uuid": "0306a6d0-4e42-ef11-a316-002248128597"
+            },
+            {
+              "Name": "Amala Ramarathinam",
+              "Role": "Board Member",
+              "uuid": "504e9ed6-4e42-ef11-a316-002248128597"
+            },
+            {
+              "Name": "Ethan Floyd",
+              "Role": "Board Member",
+              "uuid": "e082e6ec-2626-f011-8c4d-7c1e5262b645"
+            },
+            {
+              "Name": "Jeffrey Grospe",
+              "Role": "Treasurer",
+              "uuid": "1abec940-16ff-eb11-94ee-0022481064b1"
+            },
+            {
+              "Name": "Joseph Nguyen",
+              "Role": "Board Member",
+              "uuid": "a3a9f01f-2426-f011-8c4d-002248967192"
+            },
+            {
+              "Name": "Bianca Pizzorno",
+              "Role": "Board Member",
+              "uuid": "2377c3da-9921-f111-8341-7c1e5263624f"
+            },
+            {
+              "Name": "Nadine Abraham",
+              "Role": "Board Member",
+              "uuid": "027ac3da-9921-f111-8341-7c1e5263624f"
+            },
+            {
+              "Name": "Yasmin Poole",
+              "Role": "Board Member",
+              "uuid": "2b7bc3da-9921-f111-8341-7c1e5263624f"
+            }
+          ],
+          "Status": "Registered",
+          "SummaryOfActivities": "Democracy in Colour is an organisation that advocates for racial justice by identifying the various manifestations of racism in society and providing targeted and strategic interventions that centre the voices and lived experiences of racialised and marginalised communities. The work we do is built upon a rich legacy of community organising, personal sacrifices and collective wins of the anti-racism movement across the world.",
+          "TotalExpensesEmployee": "515592",
+          "TotalExpensesGrantsAndDonationsInAustralia": "0",
+          "TotalExpensesGrantsAndDonationsOutsideAustralia": "0",
+          "TotalExpensesInterest": "0",
+          "TotalExpensesOther": "65442",
+          "TotalGrossIncomeDonationsAndRequests": "38270",
+          "TotalGrossIncomeGoodsOrServices": "6990",
+          "TotalGrossIncomeGovernmentGrants": "0",
+          "TotalGrossIncomeInvestments": "0",
+          "TotalGrossIncomeOtherRevenues": "540546",
+          "TransparencyRegisterUrl": null,
+          "Website": "https://democracyincolour.org/",
+          "__normalized": true,
+          "type": "charity",
+          "uuid": "89245fd4-1b1c-ec11-b6e6-00224810be60"
+        },
+        "type": "charity",
+        "uuid": "89245fd4-1b1c-ec11-b6e6-00224810be60"
+      },
+      "canonical_field_mappings": {
+        "data.Name": "display_name",
+        "data.OtherNames": "operating_names",
+        "data.AnnualReports": "acnc_ais_url",
+        "data.Programs": "programs"
+      },
+      "evidence_ids": [
+        "ev:acnc:ais:57623367117:2025"
       ]
     }
   ],
@@ -232,7 +975,10 @@
         "source_precision": null
       },
       "assets": null,
-      "liabilities": null
+      "liabilities": null,
+      "income_breakdown": [],
+      "expense_breakdown": [],
+      "balance_sheet_breakdown": []
     }
   ],
   "financial_metrics": [
@@ -420,6 +1166,18 @@
       "page": null,
       "section": null,
       "content_hash": null
+    },
+    {
+      "evidence_id": "ev:acnc:ais:57623367117:2025",
+      "source_type": "regulatory",
+      "title": "DEMOCRACY IN COLOUR LIMITED Annual Information Statement 2025",
+      "publisher": "Australian Charities and Not-for-profits Commission",
+      "url": "https://www.acnc.gov.au/charity/charities/89245fd4-1b1c-ec11-b6e6-00224810be60/documents/522fd0d4-edfb-f011-8406-002248111f49",
+      "observed_at": "2026-01-28",
+      "reporting_period": null,
+      "page": null,
+      "section": null,
+      "content_hash": null
     }
   ],
   "embedding": {
@@ -428,8 +1186,8 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "eae58f44d47f757b557539828bc3775ec19b24d4dba34921fcb6edfb80ecc554",
-    "generated_at": "2026-08-10T13:53:24.457729Z",
+    "source_text_hash": "ee1df95a47392cf7801c522418709a49c1decde32a33ea3493e0cf287d2c192f",
+    "generated_at": "2026-08-13T00:32:18.623626Z",
     "vector_ref": "embeddings.parquet#cb_24bd80e16e6d44dbbcf15482bc82ed93"
   },
   "synthesis": {
@@ -500,9 +1258,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc2",
-  "card_schema_version": "0.3",
+  "dataset_version": "phase2b-2026-08-13-rc3",
+  "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.3.0-rc2",
-  "built_at": "2026-08-12T14:24:20.675968Z"
+  "generator_version": "0.4.0-rc3",
+  "built_at": "2026-08-13T00:32:15.698599Z"
 }

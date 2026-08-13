@@ -37,6 +37,12 @@
   "legal_name": "STALLARD MEEK FLIGHTPATH FOUNDATION LTD",
   "display_name": "STALLARD MEEK FLIGHTPATH FOUNDATION LTD",
   "entity_status": "registered",
+  "canonical_url": "https://gregorycwhill.github.io/CauseBase-Viewer/#cb_ef6013bee4d04343be2d79a62503399d",
+  "acnc_profile_url": "https://www.acnc.gov.au/charity/charities/0b3d14dc-8b2f-f011-8c4d-000d3ad259fb/profile",
+  "acnc_ais_url": null,
+  "operating_names": [],
+  "former_names": [],
+  "principal_location": null,
   "coverage": [
     {
       "capability": "regulatory",
@@ -81,6 +87,14 @@
       "evidence_ids": [],
       "observed_at": "2026-08-10",
       "freshness_note": null
+    },
+    {
+      "capability": "latest_acnc_ais",
+      "status": "not_available_from_source",
+      "source_record_id": null,
+      "evidence_ids": [],
+      "observed_at": "2026-08-13",
+      "freshness_note": "No submitted AIS appears in the 2026-08-13 public ACNC profile acquisition."
     }
   ],
   "enrichment_level": "enriched",
@@ -131,7 +145,9 @@
     "Classroom participation and teaching (1–2 lessons per term)",
     "Participation in studio-style pin-up presentations and curriculum activities"
   ],
+  "participation_observations": [],
   "opportunities": [],
+  "programs": [],
   "source_native_records": [
     {
       "source_record_id": "src:acnc-register:e2208ff4-ad06-5f43-89f7-27d24dc7c1dd",
@@ -151,6 +167,7 @@
         "ACNC registration ID": null,
         "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
       },
+      "source_payload": null,
       "canonical_field_mappings": {
         "ABN": "external_identifiers",
         "Legal Name": "legal_name",
@@ -294,8 +311,8 @@
     "model_id": "text-embedding-3-small",
     "model_version": "text-embedding-3-small",
     "dimensions": 1536,
-    "source_text_hash": "62c9c8bdd208e8f2da87772970eb0cafab3e8854646012ee8351793f15a71f70",
-    "generated_at": "2026-08-10T13:53:24.457971Z",
+    "source_text_hash": "2a2c382394119f92e70bb7e3d025ab30d5ff7ce468c1108c2219ed9e113ddf32",
+    "generated_at": "2026-08-13T00:32:18.624393Z",
     "vector_ref": "embeddings.parquet#cb_ef6013bee4d04343be2d79a62503399d"
   },
   "synthesis": {
@@ -366,9 +383,9 @@
       "affected_dimensions": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-12-rc2",
-  "card_schema_version": "0.3",
+  "dataset_version": "phase2b-2026-08-13-rc3",
+  "card_schema_version": "0.4",
   "editorial_policy_version": "0.3-rc2",
-  "generator_version": "0.3.0-rc2",
-  "built_at": "2026-08-12T14:24:20.675968Z"
+  "generator_version": "0.4.0-rc3",
+  "built_at": "2026-08-13T00:32:15.698599Z"
 }
