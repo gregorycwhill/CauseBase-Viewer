@@ -345,7 +345,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/2ba8363e-38af-e811-a963-000d3ad244fd/profile",
-      "retrieved_at": "2026-08-13T10:52:47.483880Z",
+      "retrieved_at": "2026-08-13T11:52:50.408301Z",
       "observed_at": "2025-12-12",
       "effective_from": null,
       "effective_to": null,
@@ -1262,7 +1262,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/2ba8363e-38af-e811-a963-000d3ad244fd/documents/a9cc94e1-1fd7-f011-8544-6045bde67719",
-      "retrieved_at": "2026-08-13T10:52:47.483880Z",
+      "retrieved_at": "2026-08-13T11:52:50.408301Z",
       "observed_at": "2025-12-12",
       "effective_from": null,
       "effective_to": null,
@@ -1639,7 +1639,7 @@
       "source_family": "organisation-report-extract",
       "dataset_version": "2026-08-14-private-extraction",
       "source_url": "https://envirojustice.org.au/publication/annual-reports/",
-      "retrieved_at": "2026-08-13T10:52:47.483880Z",
+      "retrieved_at": "2026-08-13T11:52:50.408301Z",
       "observed_at": "2026-08-13",
       "effective_from": null,
       "effective_to": null,
@@ -1654,7 +1654,34 @@
         "diagnostics": {
           "native_text_pages": 32,
           "low_text_pages": [],
-          "ocr_attempted_pages": []
+          "ocr_attempted_pages": [],
+          "image_only_or_scanned_pages": [],
+          "visual_relationships_unresolved_pages": [
+            29
+          ],
+          "vision_escalations": [
+            {
+              "document": "EJA-Annual-Report-2024-25.pdf",
+              "page": 29,
+              "crop": "full_page",
+              "trigger_reason": "labels_and_percentages_present_but_spatial_relationships_unresolved",
+              "model": "gpt-5.6-luna",
+              "usage": {
+                "input_tokens": 2527,
+                "input_tokens_details": {
+                  "cache_write_tokens": 0,
+                  "cached_tokens": 2524
+                },
+                "output_tokens": 186,
+                "output_tokens_details": {
+                  "reasoning_tokens": 88
+                },
+                "total_tokens": 2713
+              },
+              "cost": 0.0007286,
+              "validation_outcome": "passed_share_sum_and_total_expenses_cross_check"
+            }
+          ]
         }
       },
       "canonical_field_mappings": {
@@ -1670,7 +1697,7 @@
       "source_family": "organisation-report-extract",
       "dataset_version": "2026-08-14-private-extraction",
       "source_url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/2ba8363e-38af-e811-a963-000d3ad244fd-e877a084-1f61-49a9-8780-ce3bdf21658f-Financial%20Report-f13d2bcf-1fd7-f011-8544-7ced8d344eb8-EJA-Financial-Report-2024-2025-1.pdf",
-      "retrieved_at": "2026-08-13T10:52:47.483880Z",
+      "retrieved_at": "2026-08-13T11:52:50.408301Z",
       "observed_at": "2026-08-13",
       "effective_from": null,
       "effective_to": null,
@@ -2887,7 +2914,8 @@
       "expense_breakdown": [],
       "balance_sheet_breakdown": [],
       "source_ordered_line_items": [],
-      "statements": []
+      "statements": [],
+      "functional_expense_allocations": []
     },
     {
       "financial_record_id": "fr:report:74052124375:8c1652a7ab5783f5",
@@ -10242,6 +10270,100 @@
             }
           ]
         }
+      ],
+      "functional_expense_allocations": [
+        {
+          "source_label": "Legal Programs",
+          "share": "0.5",
+          "allocation_basis": "total_expenses",
+          "direct_observation": true,
+          "derived_amount": {
+            "source_amount": "2926394",
+            "source_currency": "AUD",
+            "source_unit_scale": "1",
+            "normalised_amount": "2926394",
+            "normalised_currency": "AUD",
+            "source_unit_label": null,
+            "source_raw_value": "derived from 50% × reported total expenses",
+            "source_precision": null
+          },
+          "derivation_note": "Mechanically derived rounded estimate from reported share and independently extracted total expenses.",
+          "evidence_ids": [
+            "ev:report:74052124375:f3eff600992d9dcf"
+          ],
+          "page": 29,
+          "extraction_method": "narrow_vision_structured",
+          "extraction_confidence": "medium"
+        },
+        {
+          "source_label": "Operations & Management",
+          "share": "0.31",
+          "allocation_basis": "total_expenses",
+          "direct_observation": true,
+          "derived_amount": {
+            "source_amount": "1814365",
+            "source_currency": "AUD",
+            "source_unit_scale": "1",
+            "normalised_amount": "1814365",
+            "normalised_currency": "AUD",
+            "source_unit_label": null,
+            "source_raw_value": "derived from 31% × reported total expenses",
+            "source_precision": null
+          },
+          "derivation_note": "Mechanically derived rounded estimate from reported share and independently extracted total expenses.",
+          "evidence_ids": [
+            "ev:report:74052124375:f3eff600992d9dcf"
+          ],
+          "page": 29,
+          "extraction_method": "narrow_vision_structured",
+          "extraction_confidence": "medium"
+        },
+        {
+          "source_label": "Campaigns & Communications",
+          "share": "0.09",
+          "allocation_basis": "total_expenses",
+          "direct_observation": true,
+          "derived_amount": {
+            "source_amount": "526751",
+            "source_currency": "AUD",
+            "source_unit_scale": "1",
+            "normalised_amount": "526751",
+            "normalised_currency": "AUD",
+            "source_unit_label": null,
+            "source_raw_value": "derived from 9% × reported total expenses",
+            "source_precision": null
+          },
+          "derivation_note": "Mechanically derived rounded estimate from reported share and independently extracted total expenses.",
+          "evidence_ids": [
+            "ev:report:74052124375:f3eff600992d9dcf"
+          ],
+          "page": 29,
+          "extraction_method": "narrow_vision_structured",
+          "extraction_confidence": "medium"
+        },
+        {
+          "source_label": "Fundraising",
+          "share": "0.1",
+          "allocation_basis": "total_expenses",
+          "direct_observation": true,
+          "derived_amount": {
+            "source_amount": "585279",
+            "source_currency": "AUD",
+            "source_unit_scale": "1",
+            "normalised_amount": "585279",
+            "normalised_currency": "AUD",
+            "source_unit_label": null,
+            "source_raw_value": "derived from 10% × reported total expenses",
+            "source_precision": null
+          },
+          "derivation_note": "Mechanically derived rounded estimate from reported share and independently extracted total expenses.",
+          "evidence_ids": [
+            "ev:report:74052124375:f3eff600992d9dcf"
+          ],
+          "page": 29,
+          "extraction_method": "narrow_vision_structured",
+          "extraction_confidence": "medium"
+        }
       ]
     }
   ],
@@ -10617,9 +10739,9 @@
     "editorial_policy_version": "0.1"
   },
   "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4",
+  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T10:52:47.483880Z"
+  "built_at": "2026-08-13T11:52:50.408301Z"
 }

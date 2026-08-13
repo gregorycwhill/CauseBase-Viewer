@@ -1109,6 +1109,13 @@
           },
           "title": "Statements",
           "type": "array"
+        },
+        "functional_expense_allocations": {
+          "items": {
+            "$ref": "#/$defs/FunctionalExpenseAllocation"
+          },
+          "title": "Functional Expense Allocations",
+          "type": "array"
         }
       },
       "required": [
@@ -1117,6 +1124,107 @@
         "reporting_scope"
       ],
       "title": "Financials",
+      "type": "object"
+    },
+    "FunctionalExpenseAllocation": {
+      "description": "A source-reported functional allocation, kept separate from a P&L row.\n\nCharts frequently report a share of independently reported total expenses.\nThe share is the direct observation; an amount is only a transparent\ndeterministic projection and must never be presented as another report row.",
+      "properties": {
+        "source_label": {
+          "title": "Source Label",
+          "type": "string"
+        },
+        "share": {
+          "anyOf": [
+            {
+              "maximum": 1.0,
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+              "type": "string"
+            }
+          ],
+          "title": "Share"
+        },
+        "allocation_basis": {
+          "default": "unknown",
+          "enum": [
+            "total_expenses",
+            "other",
+            "unknown"
+          ],
+          "title": "Allocation Basis",
+          "type": "string"
+        },
+        "direct_observation": {
+          "default": true,
+          "title": "Direct Observation",
+          "type": "boolean"
+        },
+        "derived_amount": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/MoneyObservation"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "derivation_note": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Derivation Note"
+        },
+        "evidence_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Evidence Ids",
+          "type": "array"
+        },
+        "page": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Page"
+        },
+        "extraction_method": {
+          "title": "Extraction Method",
+          "type": "string"
+        },
+        "extraction_confidence": {
+          "default": "medium",
+          "enum": [
+            "high",
+            "medium",
+            "low"
+          ],
+          "title": "Extraction Confidence",
+          "type": "string"
+        }
+      },
+      "required": [
+        "source_label",
+        "share",
+        "extraction_method"
+      ],
+      "title": "FunctionalExpenseAllocation",
       "type": "object"
     },
     "FundingSourceObservation": {

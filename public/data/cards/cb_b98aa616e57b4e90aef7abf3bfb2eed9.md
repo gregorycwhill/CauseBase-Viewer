@@ -49,7 +49,7 @@ Ara Irititja Aboriginal Corporation is recorded on the Australian Charities and 
 
 ## Build
 
-- Dataset version: `phase2b-2026-08-14-rc4`
+- Dataset version: `phase2b-2026-08-14-rc4-visual-escalation-human-review`
 - Card schema: `0.4`
 - Editorial policy: `0.4-rc4`
-- Built: 2026-08-13T10:52:47.483880+00:00
+- Built: 2026-08-13T11:52:50.408301+00:00
