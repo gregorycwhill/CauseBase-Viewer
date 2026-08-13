@@ -56,7 +56,7 @@ Brother to Another Ltd is an Australian not‑for‑profit company registered wi
 
 ## Build
 
-- Dataset version: `phase2b-2026-08-14-rc4-final-viewer-editorial-integration`
+- Dataset version: `phase2b-2026-08-14-rc4-fundraising-projection-correction`
 - Card schema: `0.4`
 - Editorial policy: `0.4-rc4`
-- Built: 2026-08-13T13:15:13.611756+00:00
+- Built: 2026-08-13T13:54:42.956606+00:00

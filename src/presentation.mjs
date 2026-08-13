@@ -59,11 +59,18 @@ export function validActionUrl(value, viewerOrigin = "https://gregorycwhill.gith
   }
 }
 
-export function revenueShareDisplay(share) {
+export function donationsGiftsBequestsDisplay(projection) {
+  const amount = projection?.numerator_amount;
   return {
-    amount: formatMoney(share?.numerator_amount?.normalised_amount, share?.numerator_amount?.normalised_currency),
-    percentage: `${(Number(share?.result ?? 0) * 100).toFixed(1)}% of ${share?.denominator_label ?? "total income"}`,
+    amount: amount?.normalised_amount == null ? "Not available" : new Intl.NumberFormat("en-AU", {
+      style: "currency", currency: amount.normalised_currency ?? "AUD", notation: "compact", maximumFractionDigits: 3,
+    }).format(amount.normalised_amount).replace("M", "m").replace("K", "k"),
+    percentage: `${(Number(projection?.result ?? 0) * 100).toFixed(1)}% of ${projection?.denominator_label ?? "total income"}`,
   };
+}
+
+export function fundraisingAllocationOnly(allocations) {
+  return (allocations ?? []).find(item => String(item?.source_label ?? "").trim().toLowerCase() === "fundraising") ?? null;
 }
 
 export function sourceRecordLocator(record) {
