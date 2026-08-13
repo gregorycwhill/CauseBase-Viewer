@@ -116,8 +116,11 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "Innovate Australia Ltd (website content) says it was established in 2014 as a not‑for‑profit, independent facilitator to “encourage, assist and proactively promote Australian innovation.” The organisation’s website states it works with industry to bring about and encourage innovation, to showcase innovation, and to develop innovation programs and networks. Slides on the site reference event activity and sponsorship (slide text: “Proud sponsor … Road to Geneva - Finals - 27-03-25”). Recent website content includes a blog post titled “What Judging AI Startups Taught Me About Where the Industry Is Actually Headed” (9 June 2026), and the site notes involvement in judging AI startups. The ACNC register extract for the entity is recorded in the evidence pack but no financial details were provided in the available sources. The organisation is associated with Western Australia in structured data; the site also describes a “wide national footprint” (organisation claim).",
-  "summary_evidence_ids": [],
+  "causebase_summary": "Innovate Australia Ltd is a not-for-profit facilitator of Australian innovation, established in 2014 and based in Western Australia; the organisation states it has a wide national footprint across Australia. It works with industry to encourage, assist and promote Australian innovation, develop innovation programs and networks, and showcase innovation through events and sponsorship. Innovate Australia also judges startup competitions and publishes online commentary — a June 9, 2026 post described the organisation’s experience judging AI startups. The organisation describes itself as independent and focused on bringing about and encouraging innovation through industry-facing programs, events and online publishing.",
+  "summary_evidence_ids": [
+    "ev:acnc:24602619634",
+    "ev:web:24602619634:2026-08-10"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Encouraging, assisting and promoting Australian innovation",
@@ -184,7 +187,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/7cffd720-9e2f-f011-8c4d-000d3ad259fb/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-08-13",
       "effective_from": null,
       "effective_to": null,
@@ -503,19 +506,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "4ea9a0fc2fe648bae08898d551f4a284b28694fbf7642efc755a0fcff3aa5689",
-    "generated_at": "2026-08-10T12:51:20.749005Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "0c4f987a055d5c9c77a304ec5a546509596dfdfc8dac828f7218a4afe2729af7",
+    "generated_at": "2026-08-12T13:52:17.361450Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T13:52:17.361450Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "0c4f987a055d5c9c77a304ec5a546509596dfdfc8dac828f7218a4afe2729af7",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

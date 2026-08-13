@@ -118,8 +118,10 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "JUUKAN GORGE LEGACY FOUNDATION LTD appears in an ACNC register extract observed on 10 August 2026. The ACNC record in the supplied evidence identifies the organisation by legal/display name and lists Western Australia (WA) as structured geography. CauseBase’s evidence pack for this release did not include a website or published financial statements, and an annual report was noted as not yet processed. CauseBase does not have sufficient descriptive evidence in this release to independently identify the foundation’s specific activities, beneficiaries or modes of participation.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "Juukan Gorge Legacy Foundation Ltd is an incorporated organisation recorded on the Australian Charities and Not-for-profits Commission register with a listed location of Western Australia. The only evidence in this release is the ACNC register entry observed 10 August 2026. CauseBase does not have sufficient descriptive evidence in this release to independently identify the organisation's specific activities, beneficiaries or modes of participation.",
+  "summary_evidence_ids": [
+    "ev:acnc:32668161279"
+  ],
   "organisation_self_description": null,
   "activities": [],
   "activity_observations": [],
@@ -135,7 +137,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/97f39a84-7303-ee11-8f6e-00224893bfad/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-08-13",
       "effective_from": null,
       "effective_to": null,
@@ -607,19 +609,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.5",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "319f3d36ac9ad73023767163d67cd3b46fbe0ff096bf81cdd335e5db10e9d93a",
-    "generated_at": "2026-08-10T13:51:36.054633Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "929b557f7632d0efcd4c639e9c5f54cfce3efad8be5f6197a1faf08249c081c9",
+    "generated_at": "2026-08-12T14:08:53.639536Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T14:08:53.639536Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "929b557f7632d0efcd4c639e9c5f54cfce3efad8be5f6197a1faf08249c081c9",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

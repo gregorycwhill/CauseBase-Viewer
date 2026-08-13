@@ -120,8 +120,12 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "Ivory’s Rock Foundation (registered in Queensland) describes itself as a foundation that promotes peace and wellbeing. The foundation’s website says it supports the Peace Education Program in Australia, New Zealand and the South Pacific and states that the program is held in high schools, universities, health care facilities, veteran’s groups, police units and correctional facilities; the website also notes the Peace Education Program operates in 87 countries (organisation claim). Ivory’s Rock Foundation says it sponsors and hosts peace and wellbeing events in its region, and that it invites Prem Rawat as keynote speaker when his schedule permits. The foundation states it supports activities associated with the United Nations International Day of Peace each year. The website additionally notes that “there are over 160 species recorded at Ivory’s Rock including some threatened and endangered wildlife.” The foundation’s 2023 Australian Information Statement reports total revenue of AUD 3,323,799 and total expenses of AUD 2,338,875 for the year ending 31 December 2023. The website includes anniversary material for Prem Rawat and references an on-site location called Ivory’s Rock where events and conservation observations are reported.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "Ivory's Rock Foundation is a Queensland-based foundation that reports activity across Australia, New Zealand and the South Pacific. As of 2026 it supports the Peace Education Program in Australia, New Zealand and the South Pacific and sponsors and hosts peace and wellbeing events in its region. The foundation describes the Peace Education Program as being delivered in high schools, universities, health-care facilities, veterans' groups, police units and correctional facilities. It states that Prem Rawat has been invited as keynote speaker for selected events when his schedule permits and that it supports activities associated with the United Nations International Day of Peace. The foundation also reports conservation and sustainability work at the Ivory's Rock property and records over 160 species, including some threatened or endangered wildlife.",
+  "summary_evidence_ids": [
+    "ev:web:49143249290:2026-08-10",
+    "ev:ais:49143249290:2023",
+    "ev:acnc:49143249290"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Supports the Peace Education Program in Australia, New Zealand and the South Pacific",
@@ -204,7 +208,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/6b6dc226-38af-e811-a960-000d3ad24282/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-05-12",
       "effective_from": null,
       "effective_to": null,
@@ -879,7 +883,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/6b6dc226-38af-e811-a960-000d3ad24282/documents/c62633ab-bc4d-f111-bec6-6045bde523ce",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-05-12",
       "effective_from": null,
       "effective_to": null,
@@ -1417,19 +1421,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "b874b6215cd0624d6373c336f55825c95c3e26212ea71baa81ec342f8fe269fb",
-    "generated_at": "2026-08-10T12:53:45.430039Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "d675917066345af3ea31333fbe15a7fed4925261c88a4bf197e3226bd7500b7f",
+    "generated_at": "2026-08-12T13:55:26.472551Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T13:55:26.472551Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "d675917066345af3ea31333fbe15a7fed4925261c88a4bf197e3226bd7500b7f",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

@@ -120,8 +120,12 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "Catholic Church Insurance Limited (CCI) is an Australia‑based insurer registered in Victoria. Public website content shows practical customer-facing services: an online portal for managing policies and payments, web pages for lodging claims and requesting certificates of currency, and a dedicated page titled “Financial Hardship.” The site publishes news items including a March 2025 article about CCI’s status as a subscriber to the General Insurance Code of Practice and items from 2023 labelled “Update on the orderly run‑off of CCI business” and a 30 May 2023 media statement. An ACNC Extract and the organisation’s 2023 ACNC Information Statement are present in the evidence pack. The 2022–23 consolidated financial figures reported in that statement show revenue of AUD 699,284,628 and total expenses of AUD 974,618,881 for the period 1 July 2022 to 30 June 2023. Public materials in the evidence focus on transactional insurance services, customer communications and financial reporting; they do not provide detailed lists of client types, programme delivery locations beyond Victoria, or independent evaluation of activities.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "Catholic Church Insurance Limited is a Victoria‑registered insurer operating in Australia. It provides customer‑facing insurance administration, including claims handling, issuing certificates of currency, accepting policy payments and online policy management via a customer portal. The organisation publishes information on financial hardship and maintains news and media statements, including a notice referencing subscription to the General Insurance Code of Practice and an update titled “orderly run‑off of CCI business” (May 2023). Regulatory filings include an Australian Information Statement for the 2022–23 year. Evidence for these activities and communications comes from the organisation’s website and regulator records cited below.",
+  "summary_evidence_ids": [
+    "ev:acnc:76000005210",
+    "ev:web:76000005210:2026-08-10",
+    "ev:ais:76000005210:2023"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Customer-facing insurance administration (claims processing, certificates of currency, policy payments)",
@@ -186,7 +190,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/23565117-39af-e811-a960-000d3ad24282/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2025-12-18",
       "effective_from": null,
       "effective_to": null,
@@ -840,7 +844,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/23565117-39af-e811-a960-000d3ad24282/documents/ad836831-c8db-f011-8544-7ced8d3448aa",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2025-12-18",
       "effective_from": null,
       "effective_to": null,
@@ -1352,19 +1356,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "83c79e7ea7c19a8586eebfcbb23ca8b7f7f9194b8a03f474466046aff5727357",
-    "generated_at": "2026-08-10T13:00:10.172753Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "4bbbd275aa789e9e3af773c8a3a05fc753a83fc1b74e7a1a89abbd1d1883b8af",
+    "generated_at": "2026-08-12T14:17:43.291418Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T14:17:43.291418Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "4bbbd275aa789e9e3af773c8a3a05fc753a83fc1b74e7a1a89abbd1d1883b8af",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

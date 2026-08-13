@@ -116,8 +116,11 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "Circobats Incorporated is presented on its website as an Adelaide-based circus school that offers classes and workshops for children and adults. The site lists a regular term timetable for 2026, April school holiday workshops and full-day holiday programs for varying age groups, and specific holiday program dates (for example 4–8 March with multiple daily session times). It names a venue, “Circobats Community Circus,” and displays an enrolment period (13–17 April) and a 2026 timetable notice. The organisation also publishes performance activity: a CircoBats Performance Troupe production titled ‘The Dreamer’ is listed with an Adelaide Fringe run (26 January–12 April). The website text states that classes cover circus skills such as tumbling, aerial, juggling and spinning and says the programs are open to all skill levels. The available evidence is drawn from the organisation’s public website; no financial reports or independent evaluations were provided in the supplied evidence.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "CircoBats Incorporated is an Adelaide-based community circus school that, as of 2026, operates a venue called Circobats Community Circus. It runs regular circus classes for children and adults, delivers school-holiday workshops and full-day holiday programs, and stages public circus‑theatre performances through a named CircoBats Performance Troupe (including a Fringe presentation titled 'The Dreamer'). The organisation advertises term timetables, enrolment dates and holiday program schedules for varying age groups and skill levels at its Adelaide venue.",
+  "summary_evidence_ids": [
+    "ev:web:21602259214:2026-08-10",
+    "ev:acnc:21602259214"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Running regular circus classes for children and adults as described on the organisation website",
@@ -190,7 +193,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/34718812-1327-f011-8c4d-7c1e52631b2b/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-08-13",
       "effective_from": null,
       "effective_to": null,
@@ -650,19 +653,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "e03a8d52f7e7bb286c80360e49f2939ff3715e7f601ca448b0d4eb58b4fdfa13",
-    "generated_at": "2026-08-10T12:51:36.245264Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "560ef989827c9ff9d270a04aa685e713275cc6a7b451f69164e4c806b126b9c3",
+    "generated_at": "2026-08-12T13:53:32.456859Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T13:53:32.456859Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "560ef989827c9ff9d270a04aa685e713275cc6a7b451f69164e4c806b126b9c3",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

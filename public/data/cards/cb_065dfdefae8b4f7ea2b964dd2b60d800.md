@@ -6,7 +6,7 @@
 
 ## CauseBase summary
 
-According to its website, Araluen Botanic Park Foundation Inc operates Araluen Botanic Park in Roleystone in the Perth Hills, about 40 minutes from Perth. The site describes 14 hectares of cultivated botanical gardens set within 59 hectares of native West Australian bushland and highlights a tree collection developed through “decades of intentional planting, ecological succession, and preservation of native forest.” The park publishes a calendar of public events and programs including a Tulip Festival, live concerts, seasonal festivals, a Flower Crown workshop and a Remembrance Day event. The website advertises venue hire for weddings, an on-site café, membership and volunteer opportunities; one advertised volunteer activity is a scheduled bulb‑planting day that the website says will plant 250,000 bulbs to prepare for spring. The organisation’s ACNC AIS return for 2022–23 reports revenue of AUD 3,029,307 and total expenses of AUD 2,215,004. Contact details and an address in Roleystone are listed on the website.
+Araluen Botanic Park Foundation Inc manages Araluen Botanic Park in Roleystone in the Perth Hills, Western Australia. As of August 2026 it maintains 14 hectares of cultivated botanical gardens set within 59 hectares of native West Australian bushland, and manages a significant tree collection and remnant native forest on site. The park hosts public programming including a Tulip Festival, concerts and workshops, operates venue hire for weddings and other events and runs an on‑site café. It recruits and hosts volunteer activities such as a large bulb‑planting day (250,000 bulbs cited) and advertises regular opportunities for visitors to participate. The park is described as open to visitors and supports on‑site wildlife associated with the native bushland.
 
 ## Activities
 
@@ -66,11 +66,11 @@ According to its website, Araluen Botanic Park Foundation Inc operates Araluen B
 - Embedding: `cb_065dfdefae8b4f7ea2b964dd2b60d800:entity:text-embedding-3-small`
 - Embedding model: `text-embedding-3-small`
 - Synthesis model: `gpt-5-mini-2025-08-07`
-- Synthesis evidence hash: `f9e1240f610ab639ad1e056c1a793aa545b10528109c236068f3016e1013d888`
+- Synthesis evidence hash: `bce16e04950effb37825e595af69998294328d06ccaae1a667055fefd67ffcb0`
 
 ## Build
 
-- Dataset version: `phase2b-2026-08-14-rc4-visual-escalation-human-review`
+- Dataset version: `phase2b-2026-08-14-rc4-integration-repair-final`
 - Card schema: `0.4`
 - Editorial policy: `0.4-rc4`
-- Built: 2026-08-13T11:52:50.408301+00:00
+- Built: 2026-08-13T12:20:41.979776+00:00

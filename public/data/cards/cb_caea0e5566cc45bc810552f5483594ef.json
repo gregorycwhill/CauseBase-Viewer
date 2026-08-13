@@ -113,8 +113,11 @@
   "geography": [],
   "geography_observations": [],
   "navigation_geography": [],
-  "causebase_summary": "THE TRUSTEE FOR THE L.&M. COWAN FOUNDATION is recorded in the supplied ACNC Register extract and submitted an Annual Information Statement (AIS) covering 1 July 2022 to 30 June 2023. For that reporting period the AIS records total revenue of AUD 312,863 and total expenses of AUD 36,429. The AIS entry included metadata that consolidated reporting status is listed as unknown and that the attribution method for the financial figures is “direct_subject_report.” The evidence pack contains no organisational website, no program descriptions, and no structured entries for geography, activities, beneficiaries or participation. Known_coverage notes that an annual report has not yet been processed and that website-sourced information was not available from the supplied sources. The available documents are the ACNC register extract and the AIS 2023 extract; no further internal governance documents, program-level financial breakdowns, or public-facing descriptions were provided in the supplied evidence.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "THE TRUSTEE FOR THE L.&M. COWAN FOUNDATION is a legal entity registered with the Australian Charities and Not-for-profits Commission. It lodged an Annual Information Statement covering 1 July 2022 to 30 June 2023 and reported financial information for that year (see sources). CauseBase does not have sufficient descriptive evidence in this release to independently identify the organisation’s specific charitable activities, beneficiaries, operating locations beyond registration, or participation modes. No website or organisational self-description was available in the supplied evidence.",
+  "summary_evidence_ids": [
+    "ev:acnc:68180228511",
+    "ev:ais:68180228511:2023"
+  ],
   "organisation_self_description": null,
   "activities": [],
   "activity_observations": [],
@@ -149,7 +152,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/e2035a3b-3aaf-e811-a963-000d3ad244fd/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2025-09-29",
       "effective_from": null,
       "effective_to": null,
@@ -746,7 +749,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/e2035a3b-3aaf-e811-a963-000d3ad244fd/documents/4c0d69ba-fb9c-f011-bbd2-6045bdc40aa5",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2025-09-29",
       "effective_from": null,
       "effective_to": null,
@@ -1222,19 +1225,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "f3bd1086143ab54f96e4950680bdd22763fa92f31381d950174e408f8cee1e50",
-    "generated_at": "2026-08-10T13:01:42.498756Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "1db23f65ed878378c78bff1cb28cb4a022e4b41a7e1246962cda28010577f01a",
+    "generated_at": "2026-08-12T14:18:26.431442Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T14:18:26.431442Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "1db23f65ed878378c78bff1cb28cb4a022e4b41a7e1246962cda28010577f01a",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

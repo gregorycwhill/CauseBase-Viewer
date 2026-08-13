@@ -120,8 +120,11 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "Safe Living Australia Ltd describes itself on its website as a provider of short- and long-term housing and support for people in need, operating properties “dotted around the Perth metro area”. The site sets out several service streams: trauma‑informed, tailored child‑centred residential care for children and young people; housing options for young people transitioning from statutory care (“Leaving Care”); and urgent housing placements. The organisation says applicants require a referral and that it works alongside government departments, agencies, support coordinators, case managers and community programs to place clients. The website states occupants may stay for days, weeks or months, with circumstances reviewed after six months. It lists groups the organisation says it assists, including children, young people, families and individuals of all ages, and people leaving violent or dangerous environments, people experiencing poverty and people with disability. The site refers to volunteer involvement—“Urgent Housing Volunteers prioritise housing based on the circumstances of the individual”—and invites feedback and partnership. Safe Living Australia Ltd also states it is a Public Benevolent Institution and a registered DGR and displays contact details for enquiries.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "Safe Living Australia Ltd is a Public Benevolent Institution based in the Perth metropolitan area that provides housing and residential care for people who need safe accommodation. It operates a portfolio of properties across the Perth metro area and places occupants by referral, working with government departments, agencies, support coordinators, case managers and community programs. Its services include short- and long-term housing, urgent housing placements, trauma‑informed residential care for children and young people, and housing options for young people transitioning from care. Volunteers take part in prioritising housing placements and the organisation invites client feedback and partnership input; individual placements are reviewed after around six months.",
+  "summary_evidence_ids": [
+    "ev:web:58675000129:2026-08-10",
+    "ev:acnc:58675000129"
+  ],
   "organisation_self_description": null,
   "activities": [
     "short- and long-term housing provision",
@@ -255,7 +258,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/95ab870e-6fea-ee11-a1fd-000d3ad135ea/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-01-20",
       "effective_from": null,
       "effective_to": null,
@@ -617,7 +620,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/95ab870e-6fea-ee11-a1fd-000d3ad135ea/documents/dfda3ea0-bdf5-f011-8406-00224812a1a7",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-01-20",
       "effective_from": null,
       "effective_to": null,
@@ -1099,19 +1102,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "449a3b66c73deba3f6bab126560a8143b080284654d0242c1131a9c1ed20fc37",
-    "generated_at": "2026-08-10T13:02:14.886885Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "1a4c1a13e397afd7b68e0853d321f773186c9d489f260fd203436587681ca31f",
+    "generated_at": "2026-08-12T14:20:47.232961Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T14:20:47.232961Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "1a4c1a13e397afd7b68e0853d321f773186c9d489f260fd203436587681ca31f",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

@@ -122,8 +122,12 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "The South Australian Rainbow Advocacy Alliance Inc. (SARAA) website describes the organisation as “the peak body championing the health, safety, inclusion, equity and equality of LGBTIQA+ South Australians.” The site lists practical offerings such as membership sign-up, an online shop, and a “Know your Rights” resource. It identifies policy priorities including ending conversion practices, protections from anti-LGBTIQA+ hate, access to gender-affirming healthcare, intersex bodily autonomy, HIV healthcare access, support for LGBTIQA+ students, stronger anti-discrimination laws, criminal justice concerns, mental health, representation in public policy and strengthening the LGBTIQA+ community sector. SARAA reports project activity such as the Rainbow Local Council Project to support local government inclusion, submissions on Births, Deaths and Marriages regulations, engagement with SA Health on a Statewide Adult Gender Affirming Surgery Service, and events including Trans Day of Visibility and youth events (e.g., “Meet the Australian Youth Representative to the UN”). ACNC financial extract (AIS 2023) records revenue of AUD 163,695 and total expenses of AUD 178,228 for 01/07/2022–30/06/2023. The website content and listed news items indicate activity focused on South Australia.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "South Australian Rainbow Advocacy Alliance Inc. (SARAA) is a South Australia‑based peak body that advocates for LGBTIQA+ people across the state. As of the cited sources it runs policy advocacy and submissions (for example on births, deaths and marriages regulations), correspondence with health authorities about gender‑affirming care, and public events and commemorations such as Trans Day of Visibility and youth forums. SARAA provides online resources including a “Know Your Rights” guide, operates a Rainbow Local Council Project to support local government inclusion, and recruits members and sells branded merchandise. Recent activity listed on the organisation’s site includes submissions, letters to government, event listings and involvement in demographic question reviews for the state Department of Health and Wellbeing.",
+  "summary_evidence_ids": [
+    "ev:web:34254826976:2026-08-10",
+    "ev:ais:34254826976:2023",
+    "ev:acnc:34254826976"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Policy submissions and formal advocacy to government (e.g. submissions on Births, Deaths and Marriages regulations)",
@@ -349,7 +353,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/6be91704-bc0e-ec11-b6e5-00224810d203/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-01-30",
       "effective_from": null,
       "effective_to": null,
@@ -1015,7 +1019,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/6be91704-bc0e-ec11-b6e5-00224810d203/documents/69b9a08a-398a-f111-ab0f-70a8a5547962",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-01-30",
       "effective_from": null,
       "effective_to": null,
@@ -1710,19 +1714,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "38c59f6bd6b7a3998f1a17c3d86480f775437910ee1dfb44354d2ea7da38acc3",
-    "generated_at": "2026-08-10T12:46:36.389543Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "c1bd11061e0ab012a5a5a0688f21b94450f2710a7b4968a2be45ff90d0c0a8f3",
+    "generated_at": "2026-08-12T13:38:12.699284Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T13:38:12.699284Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "c1bd11061e0ab012a5a5a0688f21b94450f2710a7b4968a2be45ff90d0c0a8f3",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

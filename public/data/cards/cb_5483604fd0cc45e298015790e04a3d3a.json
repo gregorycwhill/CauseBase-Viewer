@@ -148,8 +148,11 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "Global Wildlife Fund Limited is described on its website as an Australian charity, based in New South Wales, that partners with local conservation organisations to fund and oversee overseas conservation projects. The organisation lists initial geographic priorities as Sub‑Saharan Africa, the Andes–Amazon, New Guinea and the Pacific, and Asian biodiversity hotspots. Website material and news items cited include wildlife translocations (for example, reintroduction of black rhino to Matusadona National Park and translocation of sable antelope in Zimbabwe), a Papua Community Forest Project that aims to help communities secure customary title and implement forest management to prevent industrial logging, and purchase of 250 hectares to expand Narupa Reserve in the Ecuadorian Amazon. The site names target species and groups such as black rhino, snow leopards, African wild dogs, hummingbirds, macaws, birds of paradise and rediscovered marsupials in Papua. The organisation states it negotiates project funding agreements, tracks project progress and reports back on outcomes and metrics. The website also states that directors and founders donate their time to research, assess, support and audit projects and that Australians can make tax‑deductible gifts.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "Global Wildlife Fund is an Australian charity that partners with local conservation organisations to support projects to restore wildlife populations and habitats in selected high‑priority areas. It works in Sub‑Saharan Africa (including Matusadona National Park, Zimbabwe), the Andes–Amazon (including Narupa Reserve, Ecuador), New Guinea and the Pacific (Vogelkop Peninsula, Papua, Indonesia) and Asian biodiversity hotspots. The organisation provides funding for wildlife translocations (for example black rhino and sable antelope), helps acquire or expand private non‑profit reserves (for example a 250 ha Narupa Reserve expansion), supports community forest and land‑rights work in Papua, and negotiates project funding agreements while tracking progress and reporting on project outcomes. Directors and founders donate their time to research, assess, support and audit projects, and Australians can make tax‑deductible gifts to support specific projects.",
+  "summary_evidence_ids": [
+    "ev:web:24661281465:2026-08-10",
+    "ev:acnc:24661281465"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Funding and support for wildlife translocations (e.g. black rhino, sable antelope)",
@@ -240,7 +243,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/6835f7ab-756c-ee11-9ae7-00224893b8c7/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2025-12-09",
       "effective_from": null,
       "effective_to": null,
@@ -558,7 +561,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/6835f7ab-756c-ee11-9ae7-00224893b8c7/documents/416dcac1-5ad5-f011-8544-6045bde61b96",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2025-12-09",
       "effective_from": null,
       "effective_to": null,
@@ -1010,19 +1013,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "1202828969c3e6dd8310e8ae06ef16b679b388800a63c0cb44fa44627d12e951",
-    "generated_at": "2026-08-10T12:51:40.654657Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "0e5322b678305f284b3681cddf67ed9902ae3f3cf52112d2f8d86a1be5d462c7",
+    "generated_at": "2026-08-12T13:52:54.038403Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T13:52:54.038403Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "0e5322b678305f284b3681cddf67ed9902ae3f3cf52112d2f8d86a1be5d462c7",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

@@ -125,8 +125,11 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "Adelaide City Mosque (listed on the ACNC as ADELAIDE MOSQUE ISLAMIC SOCIETY LTD and also referred to on its website as Adelaide Mosque Islamic Society of SA Inc) is a mosque in Adelaide, South Australia. The website describes the building as the oldest functioning mosque in Australia, built in 1886–88 by migrant cameleers from Afghanistan, north‑west India (now Pakistan) and Balochistan. The organisation publishes daily prayer times and a Friday Juma time and says it offers five daily prayers and other facilities. Named services and activities on the website include Prayers/Salah services, funeral services, and halal certification. It lists religious programs and events such as Ramadan, Mawlid‑un‑Nabi and Shab e Miraj, and community activities including a children’s school and a “Sister’s Morning Tea.” The site invites community membership, accepts donations (PayPal, debit/credit card and direct deposit) for general mosque support and specific purposes (iftar, zakat, sadqa, mawlid), and notes website support from the Department of Premier and Cabinet – Multicultural Affairs. The ACNC entry for the legal entity was observed; detailed financial statements and published information on program scale are not included in the supplied evidence.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "Adelaide Mosque Islamic Society Ltd operates the Adelaide City Mosque in Adelaide, South Australia. Described on its website as Australia’s oldest functioning mosque (built 1886–88), the society offers five daily prayers and Friday (Juma) services, funeral services and halal certification. It runs religious programmes and events (including Ramadan, Mawlid‑un‑Nabi and Shab e Miraj) and community activities such as a children’s school and a Sister’s Morning Tea. The organisation maintains membership (AMISSA) and accepts donations via PayPal, card and direct deposit to support mosque and wider community activities. Services are presented as directed to the Muslim community in Adelaide and to the wider community.",
+  "summary_evidence_ids": [
+    "ev:web:47683036106:2026-08-10",
+    "ev:acnc:47683036106"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Providing five daily prayers and Friday (Juma) prayer services",
@@ -235,7 +238,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/2ceb9578-032a-f011-8c4d-0022489511f7/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-08-13",
       "effective_from": null,
       "effective_to": null,
@@ -625,19 +628,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "2cd42036d5ce9421edd105a425e96db079648584c2583baf9ef42a3207b095ef",
-    "generated_at": "2026-08-10T12:59:48.257896Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "98343e3684acea613ebbc5dea080ef1b5a09a0d4bc258d815de3aa8aee1eff49",
+    "generated_at": "2026-08-12T14:14:09.811121Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T14:14:09.811121Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "98343e3684acea613ebbc5dea080ef1b5a09a0d4bc258d815de3aa8aee1eff49",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

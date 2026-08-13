@@ -113,8 +113,11 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "A F E Common Equity Rental Housing Co-operative Limited appears on the Australian Charities and Not-for-profits Commission (ACNC) register under that legal name. The available ACNC Annual Information Statement (AIS) for the year 01/07/2022 to 30/06/2023 reports the entity’s financials: total revenue of AUD 176,523 and total expenses of AUD 171,661 for that period. The AIS record included in the evidence lists the reporting scope as the subject, notes the entity itself as the covered subject, and records the attribution method as a direct subject report; the AIS extract indicates the consolidated reporting status as unknown. The supplied coverage metadata shows ACNC/regulatory information was observed and that no website content was available to the data source. The evidence package does not include a separate annual report, program descriptions, beneficiary lists, or descriptions of activities or modes of participation. No public website or other organisational publications were provided in the evidence set.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "A F E Common Equity Rental Housing Co-operative Limited is an incorporated co-operative located in Victoria, Australia. The record includes regulatory filings for the 2022–23 reporting year (ACNC AIS for 01/07/2022–30/06/2023). CauseBase does not have sufficient descriptive evidence in this release to independently identify the co-operative’s specific activities, services or intended beneficiaries.",
+  "summary_evidence_ids": [
+    "ev:acnc:29041947678",
+    "ev:ais:29041947678:2023"
+  ],
   "organisation_self_description": null,
   "activities": [],
   "activity_observations": [],
@@ -148,7 +151,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/a74e1e89-3aaf-e811-a962-000d3ad24a0d/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-01-29",
       "effective_from": null,
       "effective_to": null,
@@ -675,7 +678,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/a74e1e89-3aaf-e811-a962-000d3ad24a0d/documents/e1477300-0707-f111-8406-6045bde5be38",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-01-29",
       "effective_from": null,
       "effective_to": null,
@@ -1138,19 +1141,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "21d6c9b43c8d19b353be1a52807dabdfc77b9c455387d39e499cfcf375be45c6",
-    "generated_at": "2026-08-10T12:56:43.670980Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "85a8168096ff518e206335409056fd9b3de74830576a40b8055bd123630cdfae",
+    "generated_at": "2026-08-12T14:05:29.772608Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T14:05:29.772608Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "85a8168096ff518e206335409056fd9b3de74830576a40b8055bd123630cdfae",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

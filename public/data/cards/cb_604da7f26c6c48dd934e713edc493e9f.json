@@ -133,8 +133,11 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "Environmental Justice Australia (EJA) is described on its website as a public-interest legal organisation based in Victoria that says it uses the law to address environmental and climate issues across the country. The website lists activities the organisation says it runs, including landmark court cases, high‑stakes legal interventions, legal advice and representation, and advocacy campaigns; named items on the site include cases titled \"Hard Truths: Australia’s coal and gas exports case\", a court case for threatened wildlife, the Great Northern Savanna case and the North West Shelf Extension case. EJA's website states it provides pro‑bono legal support to communities and to Traditional Owners to protect Country, nature and climate, and it describes standing \"shoulder‑to‑shoulder with communities\". The site also publishes webinars and legal updates and invites people to subscribe for updates. Regulatory filings for the 2022–23 year show revenue of $7,770,242 and total expenses of $5,338,457 for the reported period. The available evidence is primarily the organisation's own website text and an ACNC extract and does not include independent evaluations or detailed operational metrics.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "Environmental Justice Australia is a public interest legal organisation based in Victoria that works across Australia. It provides legal advice and pro‑bono representation, runs court cases and high‑stakes legal interventions, and conducts advocacy campaigns and legal investigations. The organisation represents communities affected by environmental harm and people with the least power, including providing legal support to Traditional Owners seeking to protect Country and Culture. It pursues matters such as climate litigation, challenges to fossil fuel expansion, and cases to defend forests, rivers and threatened wildlife. The organisation also publishes legal updates and runs public webinars and subscription updates for people who want to follow its work.",
+  "summary_evidence_ids": [
+    "ev:web:74052124375:2026-08-10",
+    "ev:ais:74052124375:2023"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Court cases and legal interventions",
@@ -345,7 +348,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/2ba8363e-38af-e811-a963-000d3ad244fd/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2025-12-12",
       "effective_from": null,
       "effective_to": null,
@@ -1262,7 +1265,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/2ba8363e-38af-e811-a963-000d3ad244fd/documents/a9cc94e1-1fd7-f011-8544-6045bde67719",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2025-12-12",
       "effective_from": null,
       "effective_to": null,
@@ -1639,7 +1642,7 @@
       "source_family": "organisation-report-extract",
       "dataset_version": "2026-08-14-private-extraction",
       "source_url": "https://envirojustice.org.au/publication/annual-reports/",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-08-13",
       "effective_from": null,
       "effective_to": null,
@@ -1697,7 +1700,7 @@
       "source_family": "organisation-report-extract",
       "dataset_version": "2026-08-14-private-extraction",
       "source_url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/2ba8363e-38af-e811-a963-000d3ad244fd-e877a084-1f61-49a9-8780-ce3bdf21658f-Financial%20Report-f13d2bcf-1fd7-f011-8544-7ced8d344eb8-EJA-Financial-Report-2024-2025-1.pdf",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-08-13",
       "effective_from": null,
       "effective_to": null,
@@ -10275,6 +10278,18 @@
         {
           "source_label": "Legal Programs",
           "share": "0.5",
+          "denominator_label": "Total expenses",
+          "denominator_amount": {
+            "source_amount": "-5852789",
+            "source_currency": "AUD",
+            "source_unit_scale": "1",
+            "normalised_amount": "-5852789",
+            "normalised_currency": "AUD",
+            "source_unit_label": null,
+            "source_raw_value": "(5,852,789)",
+            "source_precision": null
+          },
+          "reporting_period_label": "year ended 2025-06-30",
           "allocation_basis": "total_expenses",
           "direct_observation": true,
           "derived_amount": {
@@ -10287,6 +10302,8 @@
             "source_raw_value": "derived from 50% × reported total expenses",
             "source_precision": null
           },
+          "derived_amount_method": "rounded_percentage_x_reported_total",
+          "derived_amount_approximate": true,
           "derivation_note": "Mechanically derived rounded estimate from reported share and independently extracted total expenses.",
           "evidence_ids": [
             "ev:report:74052124375:f3eff600992d9dcf"
@@ -10298,6 +10315,18 @@
         {
           "source_label": "Operations & Management",
           "share": "0.31",
+          "denominator_label": "Total expenses",
+          "denominator_amount": {
+            "source_amount": "-5852789",
+            "source_currency": "AUD",
+            "source_unit_scale": "1",
+            "normalised_amount": "-5852789",
+            "normalised_currency": "AUD",
+            "source_unit_label": null,
+            "source_raw_value": "(5,852,789)",
+            "source_precision": null
+          },
+          "reporting_period_label": "year ended 2025-06-30",
           "allocation_basis": "total_expenses",
           "direct_observation": true,
           "derived_amount": {
@@ -10310,6 +10339,8 @@
             "source_raw_value": "derived from 31% × reported total expenses",
             "source_precision": null
           },
+          "derived_amount_method": "rounded_percentage_x_reported_total",
+          "derived_amount_approximate": true,
           "derivation_note": "Mechanically derived rounded estimate from reported share and independently extracted total expenses.",
           "evidence_ids": [
             "ev:report:74052124375:f3eff600992d9dcf"
@@ -10321,6 +10352,18 @@
         {
           "source_label": "Campaigns & Communications",
           "share": "0.09",
+          "denominator_label": "Total expenses",
+          "denominator_amount": {
+            "source_amount": "-5852789",
+            "source_currency": "AUD",
+            "source_unit_scale": "1",
+            "normalised_amount": "-5852789",
+            "normalised_currency": "AUD",
+            "source_unit_label": null,
+            "source_raw_value": "(5,852,789)",
+            "source_precision": null
+          },
+          "reporting_period_label": "year ended 2025-06-30",
           "allocation_basis": "total_expenses",
           "direct_observation": true,
           "derived_amount": {
@@ -10333,6 +10376,8 @@
             "source_raw_value": "derived from 9% × reported total expenses",
             "source_precision": null
           },
+          "derived_amount_method": "rounded_percentage_x_reported_total",
+          "derived_amount_approximate": true,
           "derivation_note": "Mechanically derived rounded estimate from reported share and independently extracted total expenses.",
           "evidence_ids": [
             "ev:report:74052124375:f3eff600992d9dcf"
@@ -10344,6 +10389,18 @@
         {
           "source_label": "Fundraising",
           "share": "0.1",
+          "denominator_label": "Total expenses",
+          "denominator_amount": {
+            "source_amount": "-5852789",
+            "source_currency": "AUD",
+            "source_unit_scale": "1",
+            "normalised_amount": "-5852789",
+            "normalised_currency": "AUD",
+            "source_unit_label": null,
+            "source_raw_value": "(5,852,789)",
+            "source_precision": null
+          },
+          "reporting_period_label": "year ended 2025-06-30",
           "allocation_basis": "total_expenses",
           "direct_observation": true,
           "derived_amount": {
@@ -10356,6 +10413,8 @@
             "source_raw_value": "derived from 10% × reported total expenses",
             "source_precision": null
           },
+          "derived_amount_method": "rounded_percentage_x_reported_total",
+          "derived_amount_approximate": true,
           "derivation_note": "Mechanically derived rounded estimate from reported share and independently extracted total expenses.",
           "evidence_ids": [
             "ev:report:74052124375:f3eff600992d9dcf"
@@ -10729,19 +10788,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "9f07d5360fe5ac5ed58ceb8802902cf288d184e37ab81adbcab2b87ac3619ea1",
-    "generated_at": "2026-08-10T12:47:12.090909Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "9e6062c6daaef636032480453c726e24f71fc5a715a92535cd3be63eb27f33dd",
+    "generated_at": "2026-08-12T13:41:26.285308Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T13:41:26.285308Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "9e6062c6daaef636032480453c726e24f71fc5a715a92535cd3be63eb27f33dd",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

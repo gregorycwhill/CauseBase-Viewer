@@ -129,8 +129,12 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "The Italian Australian Welfare Association (Granite Belt) Inc (trading as IAWA Home Care) is described on its website as an approved, registered Aged Care Provider (Provider No. 26626) based in Stanthorpe and the Granite Belt region of Queensland. The organisation states it accepts referrals for Support at Home Packages through the federal My Aged Care gateway and offers services under the Commonwealth Home Support Program. The website characterises the group as a grass‑roots, community‑based not‑for‑profit that aims to reduce cultural and language barriers; it says its earlier services focused on Italian‑born people and Italian descendants and others from non‑English speaking backgrounds, and that it has since expanded services “to everyone (irrespective of your background).” The site also references a Granite Belt Ethnic Health Liaison Service funded by the Australian Government, a published IAWA cookbook available for purchase, and a whistleblower contact (IAWA Home Care Delegate, Eddie Stringer). Financial data filed in the ACNC AIS for 2022–23 list revenue of AUD 1,148,626 and expenses of AUD 1,018,436 for the reporting year.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "Italian Australian Welfare Association (Granite Belt) Inc, trading as IAWA Home Care, is a registered aged care provider serving Stanthorpe and the Granite Belt region in Queensland (information current to 2026). It accepts referrals for Support at Home Packages through My Aged Care and provides services under the Commonwealth Home Support Program. The organisation operates a Granite Belt Ethnic Health Liaison Service (noted as government-funded) and describes itself as a grassroots, community-based not-for-profit that historically focused on Italian-born people and people of Italian descent and on people from non-English-speaking backgrounds, while now providing services to residents of the Granite Belt irrespective of background. IAWA also publishes and sells a cookbook and maintains a whistleblower/protected-disclosure contact for home care concerns.",
+  "summary_evidence_ids": [
+    "ev:web:30913308861:2026-08-10",
+    "ev:acnc:30913308861",
+    "ev:ais:30913308861:2023"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Registered Aged Care Provider delivering in‑home support services in the Stanthorpe and Granite Belt region",
@@ -265,7 +269,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/7f6e2565-39af-e811-a95e-000d3ad24c60/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2025-11-18",
       "effective_from": null,
       "effective_to": null,
@@ -987,7 +991,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/7f6e2565-39af-e811-a95e-000d3ad24c60/documents/0fe97a75-42c4-f011-bbd3-7ced8da2a128",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2025-11-18",
       "effective_from": null,
       "effective_to": null,
@@ -1574,19 +1578,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "bd683dbbb8bc47af36b94507251e2c3f7afe20cb5f6500cd4c4924924e0e0365",
-    "generated_at": "2026-08-10T12:58:49.944272Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "8a2d944222573835cb91e90817890cbfc1394d88ae6c3900005c47e70f230e27",
+    "generated_at": "2026-08-12T14:10:22.898690Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T14:10:22.898690Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "8a2d944222573835cb91e90817890cbfc1394d88ae6c3900005c47e70f230e27",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

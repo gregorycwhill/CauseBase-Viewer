@@ -129,8 +129,11 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "According to its website, the Aboriginal Legal Rights Movement (ALRM) is an Aboriginal community-controlled legal service based in South Australia, with a main office in Adelaide on Kaurna land. The website describes a focus on “social justice, equality and wellbeing for the Aboriginal people of South Australia, especially for those Aboriginal people who are detained in police custody or imprisoned.” Services and programs listed include a Custody Notification Service and criminal court services and programs for Aboriginal people across South Australia. The site also advertises membership, a process for confirmation of Aboriginality, volunteering opportunities, and current calls for Aboriginal community board members. ALRM publishes media releases and participates in public programming (for example a Law Week panel). The website includes a fundraising page stating donations are tax deductible. The ACNC Annual Information Statement for 2022–23 reports revenue of AUD 11,422,993 and total expenses of AUD 10,655,077 for the period 1 July 2022 to 30 June 2023.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "The Aboriginal Legal Rights Movement (ALRM) is an Aboriginal community-controlled legal service based in Adelaide on Kaurna country that works across South Australia. ALRM pursues social justice, equality and wellbeing for Aboriginal people of South Australia, with particular focus on those detained in police custody or imprisoned. It operates a Custody Notification Service and provides criminal court services and programs for Aboriginal people across the state. ALRM also offers a Confirmation of Aboriginality service, membership and volunteering opportunities, and runs public programming such as Law Week panels. The organisation issues media releases and advocacy statements, invites applications for Aboriginal community board members and accepts tax-deductible donations to support its work.",
+  "summary_evidence_ids": [
+    "ev:web:32942723464:2026-08-10",
+    "ev:acnc:32942723464"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Custody Notification Service",
@@ -325,7 +328,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/a26fc226-38af-e811-a960-000d3ad24282/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2025-12-09",
       "effective_from": null,
       "effective_to": null,
@@ -1239,7 +1242,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/a26fc226-38af-e811-a960-000d3ad24282/documents/a4b94e57-c4d4-f011-8544-6045bde61b96",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2025-12-09",
       "effective_from": null,
       "effective_to": null,
@@ -1938,19 +1941,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "4445771aa3d9262ff747c9f89c9bc0ec778d6b86a0f1d88fc188313f330d8df7",
-    "generated_at": "2026-08-10T12:46:11.625048Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "67629e8eb49f3352d5c68e2c10fbf1f93059b545436d8c7447124ba99f4de11f",
+    "generated_at": "2026-08-12T13:37:22.085012Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T13:37:22.085012Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "67629e8eb49f3352d5c68e2c10fbf1f93059b545436d8c7447124ba99f4de11f",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

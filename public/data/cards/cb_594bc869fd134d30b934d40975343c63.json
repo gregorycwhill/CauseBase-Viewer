@@ -136,8 +136,12 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "Kosciuszko to Coast (K2C) is described on its website as a partnership of fourteen organisations that “deliver better natural resource management and environment services and learn from land owners and managers, landcare groups, and community.” The site lists multiple concrete activities: a project titled “Being a Good Neighbour to the Bush for the Yass Gorge” (noting assistance from the NSW Government’s Environmental Trust); a Land for Wildlife scheme and property assessments delivered in south‑east New South Wales and offered to rural lessees in the Australian Capital Territory; workshops run under the Saving our Species program focused on habitat for Scarlet Robin and other vulnerable bush birds; and local events and site visits (for example, Feeling Fishy Day and a visit to Maffra Lake TSR). News items on the site name quolls and other Monaro arboreal mammals. The website frames K2C work as partnership delivery involving landholders, landcare groups and partners. The ACNC AIS 2023 extract in the evidence package reports zero revenue and zero expenses for the 2022–23 reporting year for this subject.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "K2C Incorporated (Kosciuszko to Coast, K2C) is a partnership of fourteen organisations that delivers natural resource management and environment services across the Kosciuszko to Coast region of south‑east New South Wales and to rural lessees in the Australian Capital Territory. K2C runs a Land for Wildlife property registration and assessment program, delivers projects such as “Being a Good Neighbour to the Bush for the Yass Gorge”, and runs workshops on habitat and threatened species (including Scarlet Robin) under the Saving Our Species framework. It organises public events and site visits (examples: Feeling Fishy Day, Maffra Lake TSR) and publishes local fauna news (items on quolls and arboreal mammals). Partners work with land owners, landcare groups and local community members to support on‑ground natural resource management and habitat activities.",
+  "summary_evidence_ids": [
+    "ev:web:46451431764:2026-08-10",
+    "ev:acnc:46451431764",
+    "ev:ais:46451431764:2023"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Delivering natural resource management and environment services",
@@ -231,7 +235,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/cd5704f2-38af-e811-a963-000d3ad24077/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-02-16",
       "effective_from": null,
       "effective_to": null,
@@ -765,7 +769,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/cd5704f2-38af-e811-a963-000d3ad24077/documents/51d66582-8f0b-f111-8406-6045bde5b710",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-02-16",
       "effective_from": null,
       "effective_to": null,
@@ -1298,19 +1302,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "6ccc55c211e1a3ca5254e02dc3bcf9d707752dbd59cf87b511bc6354abc713fe",
-    "generated_at": "2026-08-10T12:49:13.470976Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "6fa0ba0cf4638400761fd86610303aa23beb0457cfcb1ec8464c531ad8aea84e",
+    "generated_at": "2026-08-12T13:45:47.652830Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T13:45:47.652830Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "6fa0ba0cf4638400761fd86610303aa23beb0457cfcb1ec8464c531ad8aea84e",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

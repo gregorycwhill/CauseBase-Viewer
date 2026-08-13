@@ -136,8 +136,11 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "The Corporation Of The Trustees Of The Order Of The Sisters Of Mercy In Queensland appears in the ACNC register and publishes a website (brisbanemercy.org.au) with news items about congregation life and milestone events. Website excerpts record a 70‑year anniversary for Sister Catharine Courtney (Sister Mary Benedict) on 8 November 2022, a gathering in Aubigny at ‘Mater’ on 27 November 2019, a farewell to Robyn Rodwell published 15 November 2019, and a page titled “Celebrating 130 Years of Service Excellence.” One excerpt states “The Sisters of Mercy, Brisbane Congregation, recently joined with Board and staff members from Holy …” (excerpt truncated). The ACNC AIS extract for 2023 included in the evidence pack shows reported revenue of 0 AUD and total expenses of 0 AUD for the subject entity. Recorded material therefore documents a sequence of commemorative and organisational events involving Sisters of Mercy and associated board and staff, and the organisation’s public website activity; it does not provide program descriptions, service delivery details, staffing numbers, or confirmed beneficiaries beyond congregation members mentioned in the excerpts.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "The Corporation Of The Trustees Of The Order Of The Sisters Of Mercy In Queensland is the corporate entity for the Sisters of Mercy, Brisbane Congregation. It operates in Queensland, with activity linked to Brisbane and Aubigny. When supported, the organisation publishes news and announcements on its website and organises commemorative gatherings, farewell events and anniversary celebrations for congregation members. Examples recorded include a 70‑year jubilee for Sister Catharine Courtney (Sister Mary Benedict), a farewell to Robyn Rodwell and a 130‑year service commemoration. Recorded modes of participation include attending public gatherings and reading website news. CauseBase does not have sufficient descriptive evidence in this release to identify other service programs, beneficiaries beyond congregation members, or operational details such as staffing or finances.",
+  "summary_evidence_ids": [
+    "ev:web:94710251744:2026-08-10",
+    "ev:acnc:94710251744"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Publishing news items on the organisation website",
@@ -206,7 +209,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/2e3cab38-38af-e811-a960-000d3ad24282/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-06-08",
       "effective_from": null,
       "effective_to": null,
@@ -754,7 +757,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/2e3cab38-38af-e811-a960-000d3ad24282/documents/b4463a81-de62-f111-a826-7ced8d33fdea",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-06-08",
       "effective_from": null,
       "effective_to": null,
@@ -1286,19 +1289,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "478c522de0612f557f7ff028aa1680b0fcb271f02f649b787d8bbfe14e7daa11",
-    "generated_at": "2026-08-10T12:54:19.147242Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "51277e4c131a095ca4cd49db19bcb2069c76b6d460c96a9c0df8d413d029231f",
+    "generated_at": "2026-08-12T13:57:56.604775Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T13:57:56.604775Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "51277e4c131a095ca4cd49db19bcb2069c76b6d460c96a9c0df8d413d029231f",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

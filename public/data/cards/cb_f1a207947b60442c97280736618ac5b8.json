@@ -151,8 +151,11 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "ROLDA Ltd (registered in NSW) presents itself as an Australian fundraising and support entity for ROLDA’s international animal-welfare work. The organisation's website says it funds and supports rescue, shelter, rehabilitation and rehoming for dogs and cats in Romania and elsewhere in Europe; evacuates, feeds and treats animals affected by the war in Ukraine; and provides emergency aid for animals in other crises such as an earthquake in Venezuela. The website gives concrete examples: rescuing dogs from puppy mills, urgent veterinary surgery and foster care for animals injured by shelling, buying land and renovating dog housing near a shelter in Galaţi, and planning a cage-free sanctuary called Little Haven. It also describes keeping families together by supplying pet food and medical assistance to vulnerable owners, running education programmes in communities and schools, and supporting independent rescue teams it calls “ROLDA Heroes.” The site includes fundraising and public engagement activities such as a 20th‑anniversary challenge and donor appeals. The supplied evidence is the organisation website and an ACNC register extract; the website’s statements are organisation-authored and no financial statements or independent evaluations were supplied in the evidence pack.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "ROLDA Ltd is an Australian-registered animal welfare organisation that raises funds in NSW and channels support to rescue work in Romania and other countries. It rescues and shelters dogs and cats from streets, puppy mills and disaster or conflict zones; provides food, shelter, urgent veterinary treatment and rehabilitation; evacuates animals from war and disaster areas; and rehomes animals in Europe or places them in foster care. ROLDA also buys and develops shelter land (including a cage-free sanctuary project), supports independent local rescue teams, and runs community education and early-intervention programmes that help vulnerable pet owners keep animals with their families.",
+  "summary_evidence_ids": [
+    "ev:web:26687611356:2026-08-10",
+    "ev:acnc:26687611356"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Rescue dogs and cats from streets, puppy mills and disaster/conflict zones",
@@ -247,7 +250,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/8e571924-2769-f011-bec3-7c1e522b1d9f/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-08-13",
       "effective_from": null,
       "effective_to": null,
@@ -738,19 +741,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "dd88c27fa29160a0288808668d3a4e26f5b506225b5e56fed8c81917977f81e2",
-    "generated_at": "2026-08-10T12:59:23.195280Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "745a1d48eb09c4674e9b5d0fa3e7bdcdc18c5154bf64b438ff9f4aa0bff7cf9e",
+    "generated_at": "2026-08-12T14:13:02.910716Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T14:13:02.910716Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "745a1d48eb09c4674e9b5d0fa3e7bdcdc18c5154bf64b438ff9f4aa0bff7cf9e",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

@@ -118,8 +118,10 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "Ara Irititja Aboriginal Corporation is recorded on the Australian Charities and Not-for-profits Commission register with a legal name of Ara Irititja Aboriginal Corporation and an ACNC-derived location of South Australia (observed 2026-08-10). CauseBase has not located an organisational website, published descriptive material, or accessible financial statements in the supplied evidence. The available regulatory extract provides the legal identity and jurisdiction only; it does not provide information on specific activities, programs, beneficiaries, or how people can participate. Organisation-authored claims, if any, were not available in the provided sources.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "Ara Irititja Aboriginal Corporation is an incorporated Aboriginal corporation associated with South Australia. CauseBase has only a regulatory extract recording the organisation’s legal name and its association with South Australia and does not have sufficient descriptive evidence in this release to identify specific activities, programs, beneficiaries or participation modes. No website, annual report or program descriptions were available in the supplied records, so this card is limited to the organisation’s name and geographic association.",
+  "summary_evidence_ids": [
+    "ev:acnc:65996383887"
+  ],
   "organisation_self_description": null,
   "activities": [],
   "activity_observations": [],
@@ -135,7 +137,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/8872388d-3aaf-e811-a963-000d3ad244fd/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-08-13",
       "effective_from": null,
       "effective_to": null,
@@ -697,19 +699,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.5",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "7cd6457422052328015f69759c5e739f2d9139776ca6d07a144138df10b36c53",
-    "generated_at": "2026-08-10T13:51:29.238183Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "0bc1daaaedf4ae2db50925795a0be6a71efc94fbd293d8cdff0ded764711405e",
+    "generated_at": "2026-08-12T14:11:40.434138Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T14:11:40.434138Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "0bc1daaaedf4ae2db50925795a0be6a71efc94fbd293d8cdff0ded764711405e",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

@@ -113,8 +113,11 @@
   "geography": [],
   "geography_observations": [],
   "navigation_geography": [],
-  "causebase_summary": "Steps Staffing Solutions Ltd is recorded under an ACNC Register extract and provided an ACNC Annual Information Statement for the year 01/07/2022 to 30/06/2023. The AIS financial data for that period reports total revenue of AUD 5,176,925 and total expenses of AUD 5,027,845. The organisation’s website URL is listed as https://www.stepsstaffingsolutions.com.au, but website retrieval failed in the supplied evidence. The supplied documents in this evidence pack do not include a description of the organisation’s activities, the people or groups it serves, geographic areas of operation, or modes of public participation. No externally sourced programme descriptions or beneficiary lists are present in the provided material.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "Steps Staffing Solutions Ltd is an Australian entity registered with the Australian Charities and Not-for-profits Commission. The organisation lodged an ACNC Annual Information Statement covering 1 July 2022 to 30 June 2023. CauseBase does not have sufficient descriptive evidence in this release to independently identify the organisation’s specific activities, services or intended beneficiaries.",
+  "summary_evidence_ids": [
+    "ev:acnc:20151472221",
+    "ev:ais:20151472221:2023"
+  ],
   "organisation_self_description": null,
   "activities": [],
   "activity_observations": [],
@@ -151,7 +154,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/734a2bdd-2daf-e811-a960-000d3ad24282/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2025-12-15",
       "effective_from": null,
       "effective_to": null,
@@ -803,7 +806,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/734a2bdd-2daf-e811-a960-000d3ad24282/documents/57919566-74d9-f011-8544-6045bde61b96",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2025-12-15",
       "effective_from": null,
       "effective_to": null,
@@ -1319,19 +1322,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "8747f4873e34e3e24ed5238e6ccde7ac9847ecc18f863266183aca6c3a3c664f",
-    "generated_at": "2026-08-10T12:56:22.360181Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "d0e193083ceb8ef7fb791765fa1513df6526ef7193901caf7bc2d0d425d54005",
+    "generated_at": "2026-08-12T14:05:10.745105Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T14:05:10.745105Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "d0e193083ceb8ef7fb791765fa1513df6526ef7193901caf7bc2d0d425d54005",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

@@ -113,8 +113,12 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "Campbelltown Community Children’s Centre Inc is recorded on its website and in ACNC filings under that legal name and is presented publicly as “Campbelltown CCC.” Available public records for 01/07/2022–30/06/2023 show the organisation reported revenue of AUD 2,310,243 and total expenses of AUD 2,321,451 in its ACNC Annual Information Statement for that period. The organisation’s structured geography in the supplied records is South Australia (SA). The only descriptive material captured from the organisation’s website in the evidence pack is the name/brand “Campbelltown CCC”; no program descriptions, service models, participation opportunities or beneficiary lists were included in the provided website snapshot. The ACNC AIS extract supplied financial figures but no additional program detail in the evidence provided.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "Campbelltown Community Children's Centre Inc is registered as a community children's centre that operates in South Australia (Campbelltown). The organisation serves children, families and the local community and is identifiable by its legal name and website. It is registered with the Australian Charities and Not‑for‑profits Commission and lodged an Annual Information Statement covering 01/07/2022–30/06/2023. CauseBase does not have sufficient descriptive evidence in this release to independently identify specific programs, daily service models, client age ranges, participation modes (for example, volunteering or working bees) or other operational details beyond the organisation’s name, location and regulatory filings.",
+  "summary_evidence_ids": [
+    "ev:web:17527786900:2026-08-10",
+    "ev:acnc:17527786900",
+    "ev:ais:17527786900:2023"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Identified as a community children’s centre by legal name and website (Campbelltown Community Children’s Centre Inc)"
@@ -180,7 +184,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/f49ec95b-3aaf-e811-a95e-000d3ad24c60/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2025-11-25",
       "effective_from": null,
       "effective_to": null,
@@ -833,7 +837,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/f49ec95b-3aaf-e811-a95e-000d3ad24c60/documents/3aa9dc62-aec9-f011-bbd3-6045bde73edb",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2025-11-25",
       "effective_from": null,
       "effective_to": null,
@@ -1344,19 +1348,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "41b35a6684f285de899e4885d6577f3f30c8e571721bb07688967b76d657eb7c",
-    "generated_at": "2026-08-10T12:53:37.940803Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "397973b2af16fe658a10ef01cf1d631fc4444ade7d9255b34f20e7d88114206d",
+    "generated_at": "2026-08-12T13:56:54.453213Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T13:56:54.453213Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "397973b2af16fe658a10ef01cf1d631fc4444ade7d9255b34f20e7d88114206d",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

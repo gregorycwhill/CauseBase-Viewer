@@ -129,8 +129,11 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "Northern Rivers Animal Services (NRAS) is a self‑funded, not‑for‑profit registered charity established in 2001 that describes itself as rescuing abandoned, abused, lost and unwanted dogs and cats in the Northern Rivers region of New South Wales. NRAS operates a rescue shelter at 61 Piper Drive, Ballina and runs monthly Adoption Days on the first Saturday of each month (10:00–13:00) where animals available for adoption are presented alongside a pop‑up merchandise store, a community barbecue and low‑cost services such as $10 microchipping, nail clipping and hydrobathing. The organisation advertises that animals remain with foster carers or at the shelter until rehoming; it states all animals are desexed, microchipped, vet checked and vaccinated before adoption. NRAS lists a subsidised desexing program, a Ballina op shop and community events (including an annual Dogs Day Out and a pet calendar competition). The website invites people to become foster carers, volunteer at the shelter or shop, assist with animal transport, garden and maintenance, event staffing or office duties, and notes a nominal annual membership fee and options for donations including gifts in wills.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "Northern Rivers Animal Services (NRAS) is a self-funded, not-for-profit registered charity based in Ballina that rescues abandoned, abused, lost and unwanted dogs and cats across the Northern Rivers region of New South Wales. NRAS operates a rescue shelter at 61 Piper Drive, Ballina, places animals in foster care and runs monthly Adoption Days (first Saturday, 10:00–13:00) where prospective adopters can meet animals and access services such as microchipping, nail clipping and hydrobathing. Animals are desexed, microchipped, vaccinated and vet-checked prior to adoption. NRAS also runs a subsidised desexing program, operates an op shop in Ballina and stages community events (including Dogs Day Out and a pet calendar competition). Volunteer roles include foster caring, shelter and shop staffing, transport and general maintenance.",
+  "summary_evidence_ids": [
+    "ev:web:16055396731:2026-08-10",
+    "ev:acnc:16055396731"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Rescue and foster care for abandoned, abused, lost and unwanted dogs and cats",
@@ -301,7 +304,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/e4b4c3a1-38af-e811-a961-000d3ad24182/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-01-28",
       "effective_from": null,
       "effective_to": null,
@@ -1193,7 +1196,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/e4b4c3a1-38af-e811-a961-000d3ad24182/documents/640b12e7-f6fb-f011-8406-00224891bae2",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-01-28",
       "effective_from": null,
       "effective_to": null,
@@ -1930,19 +1933,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "eceaf50df724e2ab1c3b71171461cb969d544ae3303e0d55a2bb4f216f45e2e6",
-    "generated_at": "2026-08-10T12:49:40.131599Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "5ac21606a9f1fef03c09fc7de177eef662cc85416fbfedcb4ef921dfe96406cc",
+    "generated_at": "2026-08-12T13:47:27.323918Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T13:47:27.323918Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "5ac21606a9f1fef03c09fc7de177eef662cc85416fbfedcb4ef921dfe96406cc",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

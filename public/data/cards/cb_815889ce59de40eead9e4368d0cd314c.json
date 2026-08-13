@@ -129,8 +129,11 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "Rossmoyne Kindergarten Association (Inc.) operates Rossmoyne Community Kindergarten, described on its website as a community-run kindergarten leased from the City of Canning and operating since 1969. The website states the kindergarten has two classes with a maximum of 20 children each (a stated staff-to-children ratio of 2:20) and that teachers are appointed by the Department of Education while the service is managed by a parent committee. The site describes an on-site “Enchanted Garden” nature play area with a water pump, sandpits, forts, chickens, rabbits, guinea pigs and vegetable patches and says these features support children’s cognitive and emotional development. Enrolment is described as an in-person, two-step process through Rossmoyne Primary School with an intake preference for local-area residents and siblings; the site states a maximum of 40 kindergarten places per year. The website lists the current cost as A$820 per year (A$205 per term), notes the service relies on community support including grants, donations and volunteers, and offers both an on-site tour and a 360-degree virtual tour. ACNC extracts and the AIS 2023 are listed as regulatory sources; AIS 2023 reports revenue of A$48,227 and expenses of A$49,568.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "Rossmoyne Kindergarten Association (Inc.) is a community kindergarten in Rossmoyne, City of Canning, Western Australia. It operates two kindergarten classes with a maximum of 20 children per class for children who are four years old by 30 June in the year they attend. The kindergarten occupies purpose-built facilities leased from the City of Canning, with teachers appointed by the Department of Education and management conducted by a parent committee. On-site provision includes an “Enchanted Garden” nature play area with a water pump, sandpits, forts, poultry and small animals, and vegetable patches. The parent committee manages enrolment administration (applications completed in person at Rossmoyne Primary School), coordinates volunteer involvement, and publishes a 360-degree virtual tour and information on fees and intake timing.",
+  "summary_evidence_ids": [
+    "ev:web:62785862039:2026-08-10",
+    "ev:acnc:62785862039"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Provision of kindergarten (two classes of up to 20 children)",
@@ -220,7 +223,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/7fe4cd79-3aaf-e811-a95e-000d3ad24c60/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-04-10",
       "effective_from": null,
       "effective_to": null,
@@ -889,7 +892,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/7fe4cd79-3aaf-e811-a95e-000d3ad24c60/documents/9a15293c-9434-f111-88b4-002248111f49",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-04-10",
       "effective_from": null,
       "effective_to": null,
@@ -1426,19 +1429,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "37f01cb02791e3f24994291abcdf32fcced4d93f85f5f8737b3f2f58af908480",
-    "generated_at": "2026-08-10T12:59:57.931843Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "d66c3a4809026ca1f4f9c620cdad7ad5b63ade186d1271015a75dd63b134dc2b",
+    "generated_at": "2026-08-12T14:15:11.042755Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T14:15:11.042755Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "d66c3a4809026ca1f4f9c620cdad7ad5b63ade186d1271015a75dd63b134dc2b",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

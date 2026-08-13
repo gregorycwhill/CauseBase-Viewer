@@ -111,8 +111,10 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "MULTICULTURAL SENIOR DIGITAL SUPPORT QLD INC is listed under that legal and display name in an ACNC Register extract observed 2026-08-10. The record shows a website URL (https://lifelong.org.au) and structured geography indicated as QLD. No organisation-authored description, program details, activities, beneficiary groups or participation modes were available in the supplied materials. Website retrieval was attempted but failed; an annual report was noted as not yet processed and financial records were not found in the provided sources. The available evidence therefore identifies the entity by name, a web address and a Queensland location on an ACNC extract, and does not provide substantiated information about services, beneficiaries, or operating practices.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "MULTICULTURAL SENIOR DIGITAL SUPPORT QLD INC is a registered charity based in Queensland, Australia. CauseBase has the organisation’s ACNC registration and a listed website (lifelong.org.au) on record. CauseBase does not have sufficient descriptive evidence in this release to independently identify the specific activities the organisation carries out, the populations it serves, or the locations within Queensland where it operates.",
+  "summary_evidence_ids": [
+    "ev:acnc:56147787276"
+  ],
   "organisation_self_description": null,
   "activities": [],
   "activity_observations": [],
@@ -128,7 +130,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/4d5512d5-0f42-f111-88b5-6045bde5b920/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-08-13",
       "effective_from": null,
       "effective_to": null,
@@ -396,19 +398,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "a8d8094e58623ce411fd28479217e1e14ed73f4ca38ba02e4814feafbc53dd95",
-    "generated_at": "2026-08-10T12:56:09.616702Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "1ac7da674dbff0f61699debf40e9e7c4c4d2d92c81169c0e480b5e7297efcdad",
+    "generated_at": "2026-08-12T14:04:14.530810Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T14:04:14.530810Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "1ac7da674dbff0f61699debf40e9e7c4c4d2d92c81169c0e480b5e7297efcdad",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

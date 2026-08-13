@@ -28,6 +28,16 @@ export function fundingSourceLabel(sourceType) {
   return String(sourceType ?? "other").replaceAll("_", " ");
 }
 
+export function functionalAllocationDisplay(allocation) {
+  const share = `${(Number(allocation?.share ?? 0) * 100).toFixed(0)}%`;
+  return {
+    share: allocation?.direct_observation ? `${share} (direct reported)` : share,
+    derivedAmount: allocation?.derived_amount
+      ? `${allocation?.derived_amount_approximate ? "Approx. " : ""}${formatMoney(allocation.derived_amount.normalised_amount, allocation.derived_amount.normalised_currency)}`
+      : "",
+  };
+}
+
 export function sourceRecordLocator(record) {
   // GitHub Pages decodes one URL-encoding layer before looking up a static
   // file. Source-record files deliberately retain their encoded opaque IDs on

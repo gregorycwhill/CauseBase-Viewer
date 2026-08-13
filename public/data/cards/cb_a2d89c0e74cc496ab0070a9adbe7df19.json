@@ -136,8 +136,12 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "Regional Australia Institute Ltd (RAI) is presented on its website as a think tank “devoted to issues concerning regional Australia” and describes its work with phrases the organisation uses such as “Independent | Fact Driven | Future Focused.” Website content and recent posts list recurring activities RAI publishes and convenes: the Regional Movers Index (developed in partnership with the Commonwealth Bank of Australia) that maps population movements; monthly Regional Labour Markets Update briefs that use ABS and Jobs and Skills Australia datasets; a Regional Migration Experience research report (08.05.2026); and the Regionalisation Ambition 2032 – Year 3 Progress Report (07.10.2025). RAI runs events and programs including the Regions Rising National Summit (14.09.2026 listed), regional “Regions Rising” events (example: Perth, WA), and a Masterclass Program “designed exclusively for CEOs and Executives.” The site also references membership options and alliance arrangements. Financial data extracted from the ACNC AIS for 01/07/2022–30/06/2023 shows revenue of AUD 6,214,413 and total expenses of AUD 5,424,456. The organisation’s descriptions of activities, partnerships and national remit are taken from its own website and regulatory filings.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "Regional Australia Institute (RAI) is a national think tank focused on issues affecting regional Australia. As of August 2026, RAI produces research and data products (for example the Regional Movers Index developed with the Commonwealth Bank, the Regional Labour Markets Update, and the Regionalisation Ambition 2032 progress reports), develops policy and advocacy material (Policy Pulse), and runs events and public programming including the Regions Rising National Summit, Regions Rising WA and member-only Dialogue Day. RAI also offers an executive education Masterclass program for CEOs and executives and delivers partnership projects with external organisations. Its activities are aimed at residents of regional Australia, community, industry and government leaders who use its research and attend its events, and CEOs and executives who enrol in its education programs. (Sources: RAI website; ACNC AIS 2023; ACNC register.)",
+  "summary_evidence_ids": [
+    "ev:web:65152955667:2026-08-10",
+    "ev:ais:65152955667:2023",
+    "ev:acnc:65152955667"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Research and data production (Regional Movers Index; Regional Labour Markets Update)",
@@ -238,7 +242,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/34568a6a-38af-e811-a960-000d3ad24282/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-01-20",
       "effective_from": null,
       "effective_to": null,
@@ -929,7 +933,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/34568a6a-38af-e811-a960-000d3ad24282/documents/a1771ede-4cf6-f011-8406-002248111f49",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-01-20",
       "effective_from": null,
       "effective_to": null,
@@ -1490,19 +1494,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "62a634c979f65ee80b8c59e23c8b61b75a3c458285446f0c210708d3b0dbdfb7",
-    "generated_at": "2026-08-10T12:54:55.358777Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "9b3c47877ed666badbcf6cd8e48b46bf6d0bf4b767ca5e43d9a105d4cc247560",
+    "generated_at": "2026-08-12T13:59:58.358645Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T13:59:58.358645Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "9b3c47877ed666badbcf6cd8e48b46bf6d0bf4b767ca5e43d9a105d4cc247560",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

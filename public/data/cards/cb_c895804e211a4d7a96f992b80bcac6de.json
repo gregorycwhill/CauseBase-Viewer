@@ -109,8 +109,10 @@
   "geography": [],
   "geography_observations": [],
   "navigation_geography": [],
-  "causebase_summary": "NHILL KAREN COMMUNITY LTD appears in the CauseBase evidence pack via an ACNC Register extract. There is no website, no processed annual report, and no financial records or structured entries for activities, beneficiaries, geography or participation included in this release. CauseBase does not have sufficient descriptive evidence in this release to independently identify specific activities, services provided, target beneficiaries, or the geographic area of operations for NHILL KAREN COMMUNITY LTD.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "NHILL KAREN COMMUNITY LTD is an organisation recorded in CauseBase's ACNC register extract. CauseBase does not have sufficient descriptive evidence in this release to independently identify the organisation's specific activities, beneficiaries, location of operations or how people participate. No website, public program descriptions or financial details were available in the supplied evidence to describe the group's work or target populations.",
+  "summary_evidence_ids": [
+    "ev:acnc:60669466326"
+  ],
   "organisation_self_description": null,
   "activities": [],
   "activity_observations": [],
@@ -126,7 +128,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/9fa35b92-2542-ee11-bdf4-00224893b304/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-08-13",
       "effective_from": null,
       "effective_to": null,
@@ -462,19 +464,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.5",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "d122e3428c99df9147e5623b0f7c5034f1af77eb09c7376126d3c8c00d2746db",
-    "generated_at": "2026-08-10T13:51:07.050569Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "4f0837b04b26e92c5abeb0f189a9a9c0e1d383081a5c759e5cc1709464881639",
+    "generated_at": "2026-08-12T14:03:39.278762Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T14:03:39.278762Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "4f0837b04b26e92c5abeb0f189a9a9c0e1d383081a5c759e5cc1709464881639",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

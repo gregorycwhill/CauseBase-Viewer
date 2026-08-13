@@ -122,8 +122,11 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "Australia Chung Tai Buddhist Foundation Inc is recorded on the ACNC register with a structured geography of VIC. The available regulatory evidence for 01/07/2022 to 30/06/2023 is an ACNC Annual Information Statement entry reporting revenue of AUD 207,407 and total expenses of AUD 201,787. CauseBase has an ACNC register extract and the AIS 2023 extract as the sources for this record. No organisational self-description or website content was retrieved in this release and the supplied evidence does not describe specific programs, services or beneficiary groups. CauseBase does not have sufficient descriptive evidence in this release to independently identify specific activities or beneficiaries.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "Australia Chung Tai Buddhist Foundation Inc is a registered charity based in Victoria, Australia. It filed an Annual Information Statement covering the year 1 July 2022 to 30 June 2023 with the ACNC. CauseBase does not have descriptive material in this release that identifies the foundation’s specific programs, activities or the people or groups it serves.",
+  "summary_evidence_ids": [
+    "ev:acnc:17855693573",
+    "ev:ais:17855693573:2023"
+  ],
   "organisation_self_description": null,
   "activities": [],
   "activity_observations": [],
@@ -160,7 +163,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/0186f520-39af-e811-a95e-000d3ad24c60/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-03-16",
       "effective_from": null,
       "effective_to": null,
@@ -846,7 +849,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/0186f520-39af-e811-a95e-000d3ad24c60/documents/375b325c-f420-f111-8341-6045bde5b22a",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-03-16",
       "effective_from": null,
       "effective_to": null,
@@ -1324,19 +1327,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.5",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "39bc513e4d0e9b4c73be3a6b100c0d80df0fb9a1b5eebecef44180d2aee80da0",
-    "generated_at": "2026-08-10T13:50:51.389102Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "b4f9ee3a544efbbdf89d1ea910a4f25f7beb12df0744aa060f80d0d00ea1b03a",
+    "generated_at": "2026-08-12T13:37:07.643668Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T13:37:07.643668Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "b4f9ee3a544efbbdf89d1ea910a4f25f7beb12df0744aa060f80d0d00ea1b03a",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

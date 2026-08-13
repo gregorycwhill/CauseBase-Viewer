@@ -118,8 +118,10 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "Darumbal People Aboriginal Corporation RNTBC appears on the ACNC Register and is recorded in this release with structured geography of Queensland (QLD). This CauseBase release includes an ACNC Register extract for the legal entity but does not include a website, a public self-description, statements of activities or programs, beneficiary listings, or financial reports. The organisation's legal name in the register contains the letters “RNTBC”; CauseBase records that as part of the legal name and does not infer functions or services from the name. CauseBase does not have sufficient descriptive evidence in this release to independently identify specific activities, programs, beneficiaries, participation modes, or financial details for this organisation.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "Darumbal People Aboriginal Corporation RNTBC is an Aboriginal corporation whose legal name includes the RNTBC designation and is recorded as located in Queensland, Australia. CauseBase does not have sufficient descriptive evidence in this release to independently identify the corporation’s specific activities, programs or beneficiary groups. The single recorded source for this release is an ACNC Register extract (ev:acnc:93624893443); no organisational website text or descriptive reports were supplied here to describe services, projects or participation modes.",
+  "summary_evidence_ids": [
+    "ev:acnc:93624893443"
+  ],
   "organisation_self_description": null,
   "activities": [],
   "activity_observations": [],
@@ -135,7 +137,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/6f0c96a0-3aaf-e811-a961-000d3ad24182/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-08-13",
       "effective_from": null,
       "effective_to": null,
@@ -738,19 +740,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.5",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "0cf5403e1dd05375944685693b4644ddc41deb408739984853517493ac205566",
-    "generated_at": "2026-08-10T13:50:57.142444Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "a65f4f2abbd8dd7d32ce7ff77bffad6354d6830bf45e67baac38799010beea9d",
+    "generated_at": "2026-08-12T13:42:23.031141Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T13:42:23.031141Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "a65f4f2abbd8dd7d32ce7ff77bffad6354d6830bf45e67baac38799010beea9d",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

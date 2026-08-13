@@ -118,8 +118,11 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "Akademeia Limited (branded on its website as Pinnacle Academic College) presents itself as a provider of on‑campus and distance education. The website lists a Kallangur, Queensland campus and describes three packages: Bronze (fully online distance learning), Silver (online with on‑site Thursdays at the Kallangur campus) and Gold (online with on‑site days, excursions and an intensive swimming program). The site also describes a full‑time on‑campus option for students in Years 1–6 that is currently full and offered by waitlist. Services and activities described include online lessons, workshops, on‑campus activities and excursions, learning support and a range of learning resources; teaching is described as guided by teachers and supported by parents, with multi‑age class groups and personalised learning approaches. The website invites families to submit an enquiry, book a tour or have an online chat to receive fees and enrolment information. An ACNC Register extract for the entity was observed in the evidence pack; no financial statements or independent verification of claims were included in the supplied materials.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "Akademeia Limited (trading as Pinnacle Academic College) operates an on‑site campus in Kallangur, Queensland and provides distance and blended primary education for Years 1–6. It offers a fully online Bronze package, Silver and Gold blended packages that combine online study with scheduled on‑campus days, workshops, excursions and on‑campus activities, and a full‑time on‑campus option (currently full, with a waitlist). The Gold package lists an intensive swimming program. The organisation states it supports families across Australia and provides learning support and educational resources. Enrolment options include fully online, blended attendance with on‑campus days, or full‑time on‑site study; prospective families are invited to book a tour or submit an enquiry to receive fees and enrolment information.",
+  "summary_evidence_ids": [
+    "ev:web:31128981902:2026-08-10",
+    "ev:acnc:31128981902"
+  ],
   "organisation_self_description": null,
   "activities": [
     "On‑campus education at Kallangur campus (Years 1–6 full‑time option)",
@@ -226,7 +229,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/da30c989-91d2-ee11-904c-6045bdc27b8f/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-06-21",
       "effective_from": null,
       "effective_to": null,
@@ -583,7 +586,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/da30c989-91d2-ee11-904c-6045bdc27b8f/documents/4fb6fd94-386d-f111-ab0d-0022489549a2",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-06-21",
       "effective_from": null,
       "effective_to": null,
@@ -1032,19 +1035,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "81404e6dfe90991b67ffec60db8f920c0c5eb131eeb046def0410a872e719260",
-    "generated_at": "2026-08-10T12:58:07.313156Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "3dcee2cc38a3454d0180303c3baaeffd417b843d9c38c52078dac5bf07c121f2",
+    "generated_at": "2026-08-12T14:06:45.592102Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T14:06:45.592102Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "3dcee2cc38a3454d0180303c3baaeffd417b843d9c38c52078dac5bf07c121f2",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

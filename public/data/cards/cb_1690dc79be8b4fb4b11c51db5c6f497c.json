@@ -129,8 +129,11 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "The organisation’s website describes Dieback Working Group Inc as a WA‑based group focused on Phytophthora cinnamomi (Phytophthora Dieback). The website states the group was founded in 1996 by Dr Ian Colquhoun and is marking 30 years in 2026. Services listed on the site include Green Card Training (Dieback Biosecurity Awareness Training), which the website says is recognised by WA government authorities; a public biosecurity campaign called “Arrive Clean – Leave Clean”; a Find an Expert service; Treatment News; FAQs; and publication of a Managing Dieback Best Practice Guideline. The site promotes an annual conference (DIG) with dates listed for 2026 and references past DIG highlights. The website frames Phytophthora Dieback as a widespread concern in southern Western Australia and lists stakeholders involved in management—government, industry, landholders, research organisations, universities and community groups—while drawing attention to risks from tourism and outdoor recreation (for example mountain biking, geocaching and four‑wheel driving). The organisation’s 2022–23 AIS shows revenue of AUD 276,556 and expenses of AUD 90,061 for the year 01/07/2022–30/06/2023.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "Dieback Working Group Inc is an organisation operating in southern Western Australia that focuses on managing Phytophthora Dieback, a plant disease caused by Phytophthora cinnamomi. It delivers biosecurity awareness training (Green Card Training) recognised by WA government authorities, runs a public conference series (DIG) and other public events, and promotes an ‘Arrive Clean – Leave Clean’ public education campaign. The group publishes guidance and information (Managing Dieback Best Practice Guideline, Treatment News, FAQs) and operates an information referral service (Find an Expert). Its stated stakeholders include government and industry agencies, landholders and land managers, community groups and outdoor recreation users; its work also relates to native plants and regional biodiversity in southern Western Australia. Evidence for these activities comes from the organisation’s website and its 2023 ACNC information statement.",
+  "summary_evidence_ids": [
+    "ev:web:16734386980:2026-08-10",
+    "ev:ais:16734386980:2023"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Biosecurity awareness training (Green Card Training)",
@@ -238,7 +241,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/0355329a-3aaf-e811-a963-000d3ad24077/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-01-16",
       "effective_from": null,
       "effective_to": null,
@@ -881,7 +884,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/0355329a-3aaf-e811-a963-000d3ad24077/documents/1c540d55-aff2-f011-8407-7ced8d34ef5a",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-01-16",
       "effective_from": null,
       "effective_to": null,
@@ -1444,19 +1447,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "528452f50a2793d4d7f8287094a56fb78179620e554af3fd9046def9a2b40350",
-    "generated_at": "2026-08-10T12:55:35.558549Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "535e554af326047a7df5f6b29f19292b4fad2876c0dfc0e21cc8e2f481ebc62c",
+    "generated_at": "2026-08-12T14:02:22.501185Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T14:02:22.501185Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "535e554af326047a7df5f6b29f19292b4fad2876c0dfc0e21cc8e2f481ebc62c",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

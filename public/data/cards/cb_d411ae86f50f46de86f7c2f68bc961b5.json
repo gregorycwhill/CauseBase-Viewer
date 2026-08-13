@@ -136,8 +136,12 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "Arts Nexus Inc is a not‑for‑profit incorporated in May 1996 and describes itself as an inclusive umbrella body for arts, cultural and creative industries in Far North Queensland (FNQ). The organisation’s website states it supports artists, cultural practitioners and creative industries across artforms and cultures, and aims to connect creative industries, organisations, communities and stakeholders in FNQ. Arts Nexus says it works on policy and regional strategic planning and on the business of arts making. The organisation notes a newly upgraded digital recording studio at 40 Mabel Street, Atherton, Queensland; the studio is open by appointment and studio bookings are available (contact details: admin@artsnexus.com.au; phone 0412 570 701). The site refers to membership across the FNQ region and to social media accounts (TikTok, Instagram, Facebook group and a studio page). The website includes an apolitical disclaimer. ACNC reporting for 2023 shows revenue of AUD 195,946 and total expenses of AUD 188,060 for the 01/01/2023–31/12/2023 period.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "Arts Nexus Inc is a not‑for‑profit, community-based arts organisation operating in Far North Queensland and based in Atherton, Queensland. It was founded in 1995 and incorporated in May 1996 as an umbrella body for arts, cultural and creative industries in the FNQ region. The organisation describes work to strengthen operational capacity across the regional arts sector, to drive policy and regional strategic planning, and to support artists, cultural practitioners and creative industries with the business aspects of arts making. Arts Nexus also operates a digital recording studio at 40 Mabel Street, Atherton; the studio is open for bookings by appointment. The organisation states it connects creative industries, organisations, communities and stakeholders across artforms and cultures within the region.",
+  "summary_evidence_ids": [
+    "ev:web:40821754363:2026-08-10",
+    "ev:acnc:40821754363",
+    "ev:ais:40821754363:2023"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Operational capacity building for Far North Queensland arts, cultural and creative industries",
@@ -243,7 +247,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/8d7cb78b-3aaf-e811-a95e-000d3ad24c60/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2025-09-23",
       "effective_from": null,
       "effective_to": null,
@@ -828,7 +832,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/8d7cb78b-3aaf-e811-a95e-000d3ad24c60/documents/d3fb6fa9-cf98-f011-b41c-002248115348",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2025-09-23",
       "effective_from": null,
       "effective_to": null,
@@ -1378,19 +1382,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "1184fde73da2e9221935600d085e8463b2ae558cf506247e585b1ab9029108e3",
-    "generated_at": "2026-08-10T13:01:52.757776Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "e08438054b18b56f4e83552f06c840e14d1674f59be3e3468833c277adc424cb",
+    "generated_at": "2026-08-12T14:18:55.678023Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T14:18:55.678023Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "e08438054b18b56f4e83552f06c840e14d1674f59be3e3468833c277adc424cb",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

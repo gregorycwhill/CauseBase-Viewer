@@ -125,8 +125,11 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "The Australian Community Transport Association (ACTA) presents itself as a national membership body for community transport providers, stating membership from “100+” organisations across all states and territories. ACTA’s website describes its stated activities as policy reform, sector leadership, advocacy for transport equity and support for service providers; it publishes news about webinars, a national conference and a National Community Transport Pricing Model (NCTPM) pilot run with iMove and the University of South Australia. The site reports aggregate figures attributed to its membership: 6.05 million trips per year, 261,800 clients served and 104.5 million kilometres of travel. ACTA’s online description characterises “community transport” services (as delivered by members) as person‑centred transport for older Australians, people with disability, carers and others facing transport disadvantage across metropolitan, regional, rural and remote communities. The website invites organisations, individuals and community groups to become members and includes testimonials from member organisations and pilot participants. The ACNC register entry and the organisation website are the provided sources; the material is organisation‑authored and does not document ACTA’s own direct service operations or audited financial details in the supplied excerpts.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "Australian Community Transport Association (ACTA) is the national peak body for community transport providers in Australia, with membership spanning all states and territories and services delivered in metropolitan, regional, rural and remote communities. ACTA represents community transport providers (including not‑for‑profits, local governments and regional providers) and undertakes advocacy and policy reform aimed at transport equity, provides sector leadership and support for service providers, runs national conferences and webinars, and coordinates the National Community Transport Pricing Model (NCTPM) pilot. ACTA’s stated beneficiaries include older Australians, people with disability, carers and others facing transport disadvantage who use community transport services.",
+  "summary_evidence_ids": [
+    "ev:web:16148061741:2026-08-10",
+    "ev:acnc:16148061741"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Advocacy for transport equity",
@@ -213,7 +216,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/8d760508-63c3-f011-bbd3-7c1e528a65f7/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-08-13",
       "effective_from": null,
       "effective_to": null,
@@ -643,19 +646,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "d434203b71770ce734a93d51e45966b0d44a94cb7c163de1346c606357bd270a",
-    "generated_at": "2026-08-10T13:00:40.719646Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "9bc873fc3dbcccd98badd19e53f585127d32c6b16f6d90040f0fca0e19f3bd39",
+    "generated_at": "2026-08-12T14:17:07.952665Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T14:17:07.952665Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "9bc873fc3dbcccd98badd19e53f585127d32c6b16f6d90040f0fca0e19f3bd39",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

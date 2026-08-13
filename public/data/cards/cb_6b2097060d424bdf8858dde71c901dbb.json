@@ -122,8 +122,12 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "International China Concern (Australia) Ltd is an ACNC‑registered entity with a web presence at chinaconcern.org and structured geography recorded as Victoria, Australia. Publicly available website text describes its privacy and website practices: it collects visitors’ IP addresses and linked data for server administration and aggregate analysis, uses cookies, transmits information via SSL encryption, and names third‑party payment/transaction providers (FundraiseUp, GiftTool, Raisely, Charities Aid Foundation, Mollie). The site includes a published Complaints Policy that references five elements (Culture, Principles, People, Process, Analysis), states the policy is modelled on biblical principles, and sets out a seven‑stage complaint process (acknowledgement, assessment, planning, investigation, response, review, consideration of systemic issues). The policy says complaints will ideally be acknowledged within two business days and that the organisation will report progress if a complaint is not finalised within seven days; it also permits anonymous complaints and use of external investigators. Regulatory financial reporting (ACNC AIS 2023) shows revenue of AUD 899,398 and total expenses of AUD 945,189 for the 2023 reporting year (organisation‑level reporting).",
-  "summary_evidence_ids": [],
+  "causebase_summary": "International China Concern (Australia) Ltd is an organisation registered in Victoria, Australia. Available materials include a website with a privacy policy describing collection of IP addresses, use of cookies, SSL encryption for transactions and links to third‑party payment providers, and a complaints policy that applies to members of the public, volunteers, staff and board members. The complaints policy outlines seven handling stages (acknowledgement, assessment, planning, investigation, response, review and systemic follow‑up), refers to biblical principles as guiding principles, and notes volunteers as a stakeholder group. The organisation also references a mission and vision page. CauseBase does not have sufficient descriptive evidence in this release to independently identify specific activities delivered or the intended beneficiary groups.",
+  "summary_evidence_ids": [
+    "ev:web:30091040649:2026-08-10",
+    "ev:ais:30091040649:2023",
+    "ev:acnc:30091040649"
+  ],
   "organisation_self_description": null,
   "activities": [],
   "activity_observations": [],
@@ -210,7 +214,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/6a6e5a24-39af-e811-a962-000d3ad24a0d/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2025-05-08",
       "effective_from": null,
       "effective_to": null,
@@ -1032,7 +1036,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/6a6e5a24-39af-e811-a962-000d3ad24a0d/documents/8b28b687-a12b-f011-8c4d-6045bdc24e13",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2025-05-08",
       "effective_from": null,
       "effective_to": null,
@@ -1592,19 +1596,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "28c5c2df5c67493c25c7c4c339a1f7fa018759ebfac34443de3f002b50e984d8",
-    "generated_at": "2026-08-10T12:49:25.395113Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "8a1df3998e0ca21c0027bb8758a3edfd44d9c5137f509190e2cf95ec96fa4334",
+    "generated_at": "2026-08-12T13:47:02.145557Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T13:47:02.145557Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "8a1df3998e0ca21c0027bb8758a3edfd44d9c5137f509190e2cf95ec96fa4334",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

@@ -1,7 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 
-import { financialMetricDisplay, fundraisingDisplay, fundingSourceLabel, sourceRecordLocator, taxonomyHeading } from "../src/presentation.mjs";
+import { financialMetricDisplay, fundraisingDisplay, fundingSourceLabel, functionalAllocationDisplay, sourceRecordLocator, taxonomyHeading } from "../src/presentation.mjs";
 
 test("renders a missing fundraising estimate without placeholder metadata", () => {
   assert.equal(fundraisingDisplay({ fundraising_expenditure: null }), "Not available from selected evidence.");
@@ -36,4 +36,10 @@ test("keeps encoded source-native filenames routable through static hosting", ()
     sourceRecordLocator({ source_record_id: "src:acnc-ais:example" }),
     "./public/data/source-records/src%253Aacnc-ais%253Aexample.json",
   );
+});
+
+test("renders functional allocations as direct shares with transparent derived amounts", () => {
+  const display = functionalAllocationDisplay({ share: "0.1", direct_observation: true, derived_amount_approximate: true, derived_amount: { normalised_amount: "585279", normalised_currency: "AUD" } });
+  assert.equal(display.share, "10% (direct reported)");
+  assert.match(display.derivedAmount, /^Approx\. \$585,279$/);
 });

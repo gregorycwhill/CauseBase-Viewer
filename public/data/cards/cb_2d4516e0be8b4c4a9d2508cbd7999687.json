@@ -122,8 +122,12 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "The Water Well Project Limited is described on its website as running community-facing health education sessions for people from migrant and refugee backgrounds and other community participants. Website excerpts quote community members and teachers saying sessions create a space to discuss sensitive health topics, improve health literacy, and build confidence in navigating the Australian healthcare system; specific participant comments mention learning about preventative healthcare, healthier food choices and ambulance cover. A volunteer healthcare professional quoted on the site says volunteering helped them understand migrant and refugee health needs. Teacher feedback in the excerpts refers to high student engagement and many questions during sessions. The organisation’s ACNC Annual Information Statement for 01/07/2022–30/06/2023 records revenue of AUD 327,452 and total expenses of AUD 399,752 for that period. The available evidence consists of organisation-published web quotes and the ACNC AIS financial extract.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "The Water Well Project Limited is an Australian community organisation that runs health education sessions for people from migrant and refugee backgrounds and broader community groups. It delivers in-school sessions for students, public or community sessions on navigating the Australian healthcare system, preventative health and healthy eating, and recruits volunteer healthcare professionals to support delivery. Community representatives and participants quoted by the organisation say the sessions “have improved health literacy and built confidence in navigating the Australian healthcare system” and report learning about preventative care and affordable ambulance cover. Volunteer healthcare professionals describe the experience as improving their understanding of the health needs of people from migrant and refugee backgrounds. (Sources: organisation website and regulatory filings.)",
+  "summary_evidence_ids": [
+    "ev:web:38177188057:2026-08-10",
+    "ev:ais:38177188057:2023",
+    "ev:acnc:38177188057"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Community health education sessions about navigating the Australian healthcare system",
@@ -214,7 +218,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/090eefe3-39af-e811-a963-000d3ad244fd/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-01-31",
       "effective_from": null,
       "effective_to": null,
@@ -895,7 +899,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/090eefe3-39af-e811-a963-000d3ad244fd/documents/7db67a67-8cfe-f011-8407-7ced8d33fe37",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-01-31",
       "effective_from": null,
       "effective_to": null,
@@ -1455,19 +1459,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "cf317975f36975f68def48e5deebcba17f5ca2db2e53c9346ed89f35a49aa363",
-    "generated_at": "2026-08-10T12:57:09.211403Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "dfa06b40b2bd9d4adc6ef3f570ddb848ca9a15f918b3bbcb07981758852ee8de",
+    "generated_at": "2026-08-12T14:07:39.563765Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T14:07:39.563765Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "dfa06b40b2bd9d4adc6ef3f570ddb848ca9a15f918b3bbcb07981758852ee8de",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

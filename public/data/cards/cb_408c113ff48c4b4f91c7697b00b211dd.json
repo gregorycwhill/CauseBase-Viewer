@@ -129,8 +129,11 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "Defence Force Welfare Association - National Inc (DFWA) describes itself on its website as \"an independent voice for Australian Defence Force members, veterans, and their families.\" The site lists specific advocacy areas including ADF pay and conditions of service, rehabilitation of injured veterans, compensation for service injuries, retirement and superannuation, improving service delivery, and veteran recognition. DFWA publishes a newsletter and a membership magazine called Camaraderie (Vol. 57, Nos. 1 and 2 cited in 2026) and invites people to subscribe or download editions online. The organisation runs and promotes surveys related to the WRA 2026–29 process (a Pre-Offer Survey posted 28 May 2026 and a Post-Offer Survey posted 02 Aug 2026) and has posted media releases calling on ADF members to respond to a proposed 3% pay offer. DFWA states it is funded by branch membership fees and donations. Regulatory records include an ACNC extract and an AIS entry for 01/07/2022–30/06/2023 reporting revenue of AUD 80,194 and total expenses of AUD 84,179.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "As of August 2026, the Defence Force Welfare Association – National Inc (DFWA) describes itself as an independent voice for Australian Defence Force members, veterans and their families. It advocates to government on ADF pay and conditions of service, rehabilitation of injured veterans, compensation for service injuries, retirement and superannuation, service delivery and veteran recognition. DFWA publishes a regular newsletter and the Camaraderie magazine, runs surveys to inform its WRA 2026–29 submission (including pre‑offer and post‑offer surveys), and is funded by branch membership fees and donations. The organisation invites branch membership, newsletter subscriptions and survey participation to help shape its submissions and communications.",
+  "summary_evidence_ids": [
+    "ev:web:49929713439:2026-08-10",
+    "ev:acnc:49929713439"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Advocacy to government on ADF pay and conditions of service",
@@ -255,7 +258,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/a46b8058-38af-e811-a963-000d3ad244fd/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-04-18",
       "effective_from": null,
       "effective_to": null,
@@ -887,7 +890,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/a46b8058-38af-e811-a963-000d3ad244fd/documents/79c04e7b-be3a-f111-88b5-002248111f49",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-04-18",
       "effective_from": null,
       "effective_to": null,
@@ -1421,19 +1424,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "32d500b23bd1e51d840a89170b7876d66137cd32d5a8929685baceb62e0f3829",
-    "generated_at": "2026-08-10T12:51:53.877949Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "66b664f3f89278d91e35f57c0066815d7e99a94fd5bef1ec7bd7cf7ee443305b",
+    "generated_at": "2026-08-12T13:54:03.407628Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T13:54:03.407628Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "66b664f3f89278d91e35f57c0066815d7e99a94fd5bef1ec7bd7cf7ee443305b",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

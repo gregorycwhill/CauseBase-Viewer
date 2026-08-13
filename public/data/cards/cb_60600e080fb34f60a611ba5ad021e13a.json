@@ -136,8 +136,12 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "Australian Design Centre (ADC) is presented on its website as a Sydney-based organisation that curates and tours design exhibitions, operates a retail Object Shop and publishes research into design. The ADC website states it presented “over 175 exhibitions in Sydney” in the last decade, claiming the works of “13,200+ artists” were shown; it also says Object Space (a Williams Street window gallery) hosted 53 exhibitions with 104 artists since 2017. The site describes “ADC On Tour,” saying that “since the 1970s ADC has toured nationally” to provide regional Australia with access to exhibitions. The Object Shop is described as supporting “over 150 leading and emerging Australian designer makers.” The website lists government partners including NSW Government, City of Sydney and Australian Government (Visions of Australia). The ACNC AIS 2023 extract in the evidence pack reports revenue of AUD 1,403,560 and total expenses of AUD 1,364,655 for 2023. The website also contains an Announcement Board item about a Board decision on ADC’s future and a December 2025 feedback survey about the impact of “ADC closing.”",
-  "summary_evidence_ids": [],
+  "causebase_summary": "Australian Design Centre is a Sydney-based organisation that curates and presents design exhibitions and related programs. It operates a Williams Street window gallery called Object Space, runs an Object Shop retail outlet that supports more than 150 Australian designer makers, and operates ADC On Tour travelling exhibitions that it says have toured nationally since the 1970s to provide regional Australia with access. ADC publishes Object Digital research into object and design disciplines and commissions engagement research, including a 2025 feedback survey about the impact of ADC closing. Over the last decade the centre reports it presented more than 175 exhibitions in Sydney featuring 13,200+ artists; since 2017 Object Space staged 53 exhibitions with 104 artists. People can attend exhibitions and tours, visit the shop, exhibit in Object Space, attend events and workshops, or subscribe to ADC communications.",
+  "summary_evidence_ids": [
+    "ev:web:42002037881:2026-08-10",
+    "ev:ais:42002037881:2023",
+    "ev:acnc:42002037881"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Curating and presenting exhibitions in Sydney (ADC exhibitions)",
@@ -361,7 +365,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/fbf50f2a-39af-e811-a963-000d3ad244fd/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-05-19",
       "effective_from": null,
       "effective_to": null,
@@ -1330,7 +1334,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/fbf50f2a-39af-e811-a963-000d3ad244fd/documents/50fe431f-2553-f111-bec7-002248111f49",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-05-19",
       "effective_from": null,
       "effective_to": null,
@@ -2055,19 +2059,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "8d097e20536837c8256c55f3ce432bd43ba8fb22b44582df0d1527e6d046b20e",
-    "generated_at": "2026-08-10T12:59:27.825998Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "5c5a4eb30111cbdec6cae13f230e89f78fc5f3ccbfd3f33ca5a637ebc390caed",
+    "generated_at": "2026-08-12T14:13:46.437746Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T14:13:46.437746Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "5c5a4eb30111cbdec6cae13f230e89f78fc5f3ccbfd3f33ca5a637ebc390caed",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

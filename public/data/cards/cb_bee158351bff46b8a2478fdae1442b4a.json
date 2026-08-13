@@ -120,8 +120,11 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "Aboriginal Foundation Of South Australia Incorporated is an entity recorded on the Australian Charities and Not-for-profits Commission (ACNC) register. The available ACNC Annual Information Statement (AIS) for the reporting period 01/07/2022 to 30/06/2023 is the primary source of public information for this period. That AIS reports total revenue of AUD 74 and total expenses of AUD 3,861 for the period; the AIS data are attributed to the organisation’s own AIS filing and the AIS extract lists the subject’s consolidated status as unknown. The ACNC extract and AIS entries were observed on 10 August 2026. The organisation’s structured geography is recorded as South Australia. No website was available in the supplied evidence, and the evidence bundle does not include descriptions of services, programs, beneficiary groups, participation modes or detailed annual reports. Several coverage flags in the evidence note that annual reports and fundraising-expenditure details were not processed or not available from the sources supplied.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "Aboriginal Foundation Of South Australia Incorporated is a registered charity located in South Australia, Australia. CauseBase does not have sufficient descriptive evidence in this release to independently identify the organisation’s specific activities, programs or primary beneficiaries. The records available for this release are an ACNC register extract and the organisation’s 2023 Annual Information Statement, covering the reporting period 1 July 2022 to 30 June 2023; no website or organisational self-description was supplied in the selected evidence.",
+  "summary_evidence_ids": [
+    "ev:acnc:91765078109",
+    "ev:ais:91765078109:2023"
+  ],
   "organisation_self_description": null,
   "activities": [],
   "activity_observations": [],
@@ -156,7 +159,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/aae68eaf-38af-e811-a962-000d3ad24a0d/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-01-28",
       "effective_from": null,
       "effective_to": null,
@@ -757,7 +760,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/aae68eaf-38af-e811-a962-000d3ad24a0d/documents/1dc3859b-ecfb-f011-8406-002248111f49",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-01-28",
       "effective_from": null,
       "effective_to": null,
@@ -1239,19 +1242,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "a73697c75cb1b11ae72fb6deb3b0e7290f7891aade690fc1aac45781d57b67f3",
-    "generated_at": "2026-08-10T12:47:02.058847Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "85cc9d7843bea21b94b2e631d02e881a37001ba543c81098e3f65e19d268c431",
+    "generated_at": "2026-08-12T13:41:43.935047Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T13:41:43.935047Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "85cc9d7843bea21b94b2e631d02e881a37001ba543c81098e3f65e19d268c431",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

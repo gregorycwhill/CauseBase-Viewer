@@ -122,8 +122,12 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "Biopixel Oceans Foundation Limited (registered in Queensland) describes a program of marine research, animal tagging and public multimedia activity. The organisation’s website highlights a realtime tracking system called BioTracker and a public multimedia library called Oceanpedia, and it advertises a “Name, Tag & Track” sponsorship option that allows a one‑time sponsorship to follow an individual shark. Website material states the foundation focuses on applied research into marine megafauna, developing or combining technologies, shark behaviour, and providing ecological information to assist fisheries management. The site also cites outputs including thousands of short videos and peer‑reviewed publications; however counts on the site are inconsistent (for example, pages list both “1,325” and “1,057” animals tagged and both “97” and “58” published journal articles). The organisation lists media partnerships and featuring on streamed documentaries. ACNC annual information for 2022–23 shows revenue A$187,807 and total expenses A$590,064. The website identifies the foundation as an initiative of the Slattery Family Trust.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "Biopixel Oceans Foundation Limited is an Australian marine research and education organisation operating on the Great Barrier Reef, Queensland. It tags and tracks marine animals in real time using the BioTracker platform, undertakes applied research on marine megafauna (including shark behaviour) and provides ecological information for fisheries management. The foundation maintains Oceanpedia, a multimedia library of short Great Barrier Reef video clips, produces videos and participates in streamed documentaries and media partnerships, and publishes journal articles and research collaborations. It also offers naming/sponsorship opportunities for individually tagged animals and reports tracking more than 1,000 animals currently being followed.",
+  "summary_evidence_ids": [
+    "ev:web:51616914268:2026-08-10",
+    "ev:ais:51616914268:2023",
+    "ev:acnc:51616914268"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Tagging and real‑time tracking of marine animals via BioTracker",
@@ -399,7 +403,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/616d92b3-3aaf-e811-a962-000d3ad24a0d/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-01-28",
       "effective_from": null,
       "effective_to": null,
@@ -1444,7 +1448,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/616d92b3-3aaf-e811-a962-000d3ad24a0d/documents/550c12e7-f6fb-f011-8406-00224891bae2",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-01-28",
       "effective_from": null,
       "effective_to": null,
@@ -2264,19 +2268,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "c3f787c106f46c3f9ec6eaa60bd0aa1c42d4d67f6b561d52c76fb63961b47511",
-    "generated_at": "2026-08-10T12:53:49.528176Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "2e4c3b070365b29aa82591a318de6ec8af600a2156c4d9b071f9b01739c41a56",
+    "generated_at": "2026-08-12T13:54:54.454041Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T13:54:54.454041Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "2e4c3b070365b29aa82591a318de6ec8af600a2156c4d9b071f9b01739c41a56",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }

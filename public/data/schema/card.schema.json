@@ -1147,6 +1147,34 @@
           ],
           "title": "Share"
         },
+        "denominator_label": {
+          "default": "Total expenses",
+          "title": "Denominator Label",
+          "type": "string"
+        },
+        "denominator_amount": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/MoneyObservation"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "reporting_period_label": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Reporting Period Label"
+        },
         "allocation_basis": {
           "default": "unknown",
           "enum": [
@@ -1172,6 +1200,24 @@
             }
           ],
           "default": null
+        },
+        "derived_amount_method": {
+          "anyOf": [
+            {
+              "const": "rounded_percentage_x_reported_total",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Derived Amount Method"
+        },
+        "derived_amount_approximate": {
+          "default": false,
+          "title": "Derived Amount Approximate",
+          "type": "boolean"
         },
         "derivation_note": {
           "anyOf": [

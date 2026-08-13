@@ -129,8 +129,11 @@
     }
   ],
   "navigation_geography": [],
-  "causebase_summary": "Brisbane Valley Cat Rescue Inc. is the legal name on the ACNC register; the name includes the phrase “Cat Rescue.” The ACNC Annual Information Statement for 1/07/2022–30/06/2023 records the organisation and reports revenue of AUD 63,570 and total expenses of AUD 150,735 for that period. The organisation is registered in Queensland; the subject record lists QLD as structured geography. No program descriptions, service delivery details, beneficiary counts or locations of activity are present in the supplied ACNC extracts. Attempts to retrieve the organisation website for further detail failed in the evidence pack. The available documents do not provide detail on how the organisation operates, who directly delivers services, or how volunteers or other participants are engaged.",
-  "summary_evidence_ids": [],
+  "causebase_summary": "Brisbane Valley Cat Rescue Inc. is an incorporated not‑for‑profit registered with the national charity regulator and based in the Brisbane Valley region of Queensland, Australia. CauseBase does not have sufficient descriptive evidence in this release to independently identify the organisation's specific activities or beneficiaries; the legal name includes the phrase “Cat Rescue”, which indicates an animal-focused purpose. ACNC financial reporting is available for the year 1 July 2022 to 30 June 2023.",
+  "summary_evidence_ids": [
+    "ev:acnc:99862937528",
+    "ev:ais:99862937528:2023"
+  ],
   "organisation_self_description": null,
   "activities": [
     "Legal name contains the phrase 'Cat Rescue' (indicates focus on rescuing cats, as stated in the legal name)",
@@ -246,7 +249,7 @@
       "source_family": "acnc-public-profile",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/4a97f631-3aaf-e811-a95e-000d3ad24c60/profile",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-01-16",
       "effective_from": null,
       "effective_to": null,
@@ -1025,7 +1028,7 @@
       "source_family": "acnc-ais-detail",
       "dataset_version": "2026-08-14-public-api",
       "source_url": "https://www.acnc.gov.au/charity/charities/4a97f631-3aaf-e811-a95e-000d3ad24c60/documents/b45f3fc7-94f2-f011-8406-6045bdc272f3",
-      "retrieved_at": "2026-08-13T11:52:50.408301Z",
+      "retrieved_at": "2026-08-13T12:20:41.979776Z",
       "observed_at": "2026-01-16",
       "effective_from": null,
       "effective_to": null,
@@ -1645,19 +1648,34 @@
   },
   "synthesis": {
     "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2a-0.4",
+    "prompt_version": "phase2b-rc2-1",
     "parameters": {
       "max_output_tokens": 3000,
-      "structured_output": true
+      "structured_output": true,
+      "output_contract": "causebase-summary-v0.3-rc2"
     },
-    "evidence_input_hash": "74884448214b50bce64bc872adb3270ab3f9d136155b86ad5b34c80534ff91ff",
-    "generated_at": "2026-08-10T12:51:50.696585Z",
-    "editorial_policy_version": "0.1"
+    "evidence_input_hash": "a6ad767e43e7fb215f2396a797365d78d3b6dcae807ab2bcc248df6ad49a25d5",
+    "generated_at": "2026-08-12T13:54:29.418852Z",
+    "editorial_policy_version": "0.3-rc2"
   },
-  "derivative_assessments": [],
-  "dataset_version": "phase2b-2026-08-14-rc4-visual-escalation-human-review",
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T13:54:29.418852Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-13T12:20:41.979776Z",
+      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
+      "input_hash": "a6ad767e43e7fb215f2396a797365d78d3b6dcae807ab2bcc248df6ad49a25d5",
+      "disposition": "reused",
+      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
+      "affected_dimensions": [
+        "summary"
+      ]
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-14-rc4-integration-repair-final",
   "card_schema_version": "0.4",
   "editorial_policy_version": "0.4-rc4",
   "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T11:52:50.408301Z"
+  "built_at": "2026-08-13T12:20:41.979776Z"
 }
