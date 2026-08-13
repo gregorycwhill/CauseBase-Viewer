@@ -1,7 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 
-import { financialMetricDisplay, fundraisingDisplay, fundingSourceLabel, functionalAllocationDisplay, revenueShareDisplay, sourceRecordLocator, taxonomyHeading, validActionUrl } from "../src/presentation.mjs";
+import { donationsGiftsBequestsDisplay, financialMetricDisplay, fundraisingAllocationOnly, fundraisingDisplay, fundingSourceLabel, functionalAllocationDisplay, sourceRecordLocator, taxonomyHeading, validActionUrl } from "../src/presentation.mjs";
 
 test("renders a missing fundraising estimate without placeholder metadata", () => {
   assert.equal(fundraisingDisplay({ fundraising_expenditure: null }), "Not available from selected evidence.");
@@ -56,8 +56,19 @@ test("never treats the CauseBase site or current card as a participation destina
   assert.equal(validActionUrl("https://gregorycwhill.github.io/CauseBase-Viewer/#cb_example"), null);
 });
 
-test("renders a source-labelled revenue share without narrowing a mixed category", () => {
-  const display = revenueShareDisplay({ source_label: "Donations, Fundraisings, Lectures", numerator_amount: { normalised_amount: "2051817", normalised_currency: "AUD" }, denominator_label: "Total income", result: "0.409" });
-  assert.match(display.amount, /2,051,817/);
-  assert.equal(display.percentage, "40.9% of Total income");
+test("renders the compact donations, gifts and bequests aggregate", () => {
+  const display = donationsGiftsBequestsDisplay({ numerator_amount: { normalised_amount: "2101817", normalised_currency: "AUD" }, denominator_label: "Total income", result: "0.419" });
+  assert.equal(display.amount, "$2.102m");
+  assert.equal(display.percentage, "41.9% of Total income");
+});
+
+test("selects only the Fundraising functional allocation for the fundraising projection", () => {
+  const allocation = fundraisingAllocationOnly([
+    { source_label: "Legal Programs", share: "0.5" },
+    { source_label: "Operations & Management", share: "0.31" },
+    { source_label: "Campaigns & Communications", share: "0.09" },
+    { source_label: "Fundraising", share: "0.1" },
+  ]);
+  assert.equal(allocation.source_label, "Fundraising");
+  assert.equal(allocation.share, "0.1");
 });
