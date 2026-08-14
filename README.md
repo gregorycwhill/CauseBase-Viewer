@@ -19,6 +19,10 @@ The Viewer supports free-text retrieval plus combinable geography, taxonomy and 
 
 The current release remains an explicit 120-subject early test corpus, not a claim of national enriched coverage.
 
+## Preparing a Viewer bundle from CauseBase Data
+
+CauseBase Data owns immutable releases; Viewer does not select or fetch a “latest” dataset. Prepare a bundle from one explicitly selected, validated Data release (for example RC4) with `CAUSEBASE_DATA_RELEASE_DIR` set to that release directory, then run `npm run prepare-from-data`. The command fails if the selected release lacks a passed manifest or required public artefacts. It creates a self-contained static bundle and does not deploy it.
+
 ## Product boundary
 
 CauseBase Viewer is an epistemic interface.
