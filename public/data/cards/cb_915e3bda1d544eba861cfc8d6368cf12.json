@@ -1,1515 +1,424 @@
 {
   "causebase_id": "cb_915e3bda1d544eba861cfc8d6368cf12",
+  "contract_version": "0.5",
   "subject_kind": "unknown",
-  "external_identifiers": [
-    {
-      "scheme": "abn",
-      "value": "43245526192",
-      "source_evidence_id": "ev:acnc:43245526192"
-    }
+  "identity": {
+    "legal_name": "The Australian Law Librarians' Association (Australian Capital Territory) Incorporated",
+    "display_name": "The Australian Law Librarians' Association (Australian Capital Territory) Incorporated",
+    "operating_names": [],
+    "former_names": [],
+    "entity_status": "registered",
+    "website": null,
+    "external_identifiers": [
+      {
+        "scheme": "abn",
+        "value": "43245526192",
+        "evidence_ids": [
+          "ev:acnc:43245526192"
+        ]
+      }
+    ],
+    "registrations": [
+      {
+        "regulator": "ACNC",
+        "status": "registered",
+        "evidence_ids": [
+          "ev:acnc:43245526192"
+        ]
+      }
+    ],
+    "tax_statuses": []
+  },
+  "release": {
+    "release_id": "v0.5.0-2026-08-15",
+    "dataset_version": "0.5.0-2026-08-15",
+    "contract_version": "0.5",
+    "based_on_release": "rc4-2026-08-14",
+    "generated_at": "2026-08-15T00:00:00Z"
+  },
+  "source_record_refs": [
+    "src:acnc-public-profile:43245526192:09d61d50-3aaf-e811-a962-000d3ad24a0d:cb_915e3bda1d544eba861cfc8d6368cf12",
+    "src:acnc-ais-detail:43245526192:54ed5238-6ad6-f011-8543-000d3ad20411:cb_915e3bda1d544eba861cfc8d6368cf12"
   ],
-  "registrations": [
-    {
-      "regulator": "ACNC",
-      "registration_id": null,
-      "status": "registered",
-      "evidence_ids": [
-        "ev:acnc:43245526192"
-      ]
-    }
-  ],
-  "tax_statuses": [],
-  "relationships": [],
-  "source_resolutions": [
+  "source_bindings": [
     {
       "source_record_id": "src:acnc-register:80717ccd-d859-5ddd-afce-ca0900299eef",
       "resolution_status": "resolved",
       "resolution_basis": "automated authoritative ACNC promotion under acnc-authoritative-v1",
       "confidence": "high",
-      "supporting_signals": [
-        "ABN:43245526192",
-        "ACNC Register"
-      ],
-      "conflicting_signals": [],
-      "review_status": "not_required"
-    }
-  ],
-  "legal_name": "The Australian Law Librarians' Association (Australian Capital Territory) Incorporated",
-  "display_name": "The Australian Law Librarians' Association (Australian Capital Territory) Incorporated",
-  "entity_status": "registered",
-  "canonical_url": "https://gregorycwhill.github.io/CauseBase-Viewer/#cb_915e3bda1d544eba861cfc8d6368cf12",
-  "acnc_profile_url": "https://www.acnc.gov.au/charity/charities/09d61d50-3aaf-e811-a962-000d3ad24a0d/profile",
-  "acnc_ais_url": "https://www.acnc.gov.au/charity/charities/09d61d50-3aaf-e811-a962-000d3ad24a0d/documents/54ed5238-6ad6-f011-8543-000d3ad20411",
-  "operating_names": [],
-  "former_names": [],
-  "principal_location": "ACT, Australia",
-  "coverage": [
-    {
-      "capability": "regulatory",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:acnc:43245526192"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "annual_report",
-      "status": "not_yet_processed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "website",
-      "status": "not_available_from_source",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "fundraising_expenditure",
-      "status": "not_available_from_source",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": "No direct or defensible derived fundraising expenditure was found in selected Phase 2A evidence."
-    },
-    {
-      "capability": "financials",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:ais:43245526192:2023"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "latest_acnc_ais",
-      "status": "observed",
-      "source_record_id": "src:acnc-ais-detail:43245526192:54ed5238-6ad6-f011-8543-000d3ad20411:cb_915e3bda1d544eba861cfc8d6368cf12",
-      "evidence_ids": [
-        "ev:acnc:ais:43245526192:54ed5238-6ad6-f011-8543-000d3ad20411"
-      ],
-      "observed_at": "2025-12-11",
-      "freshness_note": "Latest submitted AIS detail acquired from the public ACNC entity endpoint."
-    }
-  ],
-  "enrichment_level": "enriched",
-  "website": null,
-  "geography": [
-    "Australian Capital Territory (ACT)"
-  ],
-  "geography_observations": [
-    {
-      "value": "Australian Capital Territory (ACT)",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "navigation_geography": [],
-  "causebase_summary": "The Australian Law Librarians' Association (Australian Capital Territory) Incorporated is an incorporated association registered in the Australian Capital Territory. CauseBase holds ACNC register and annual information statement extracts (including the 2022–23 AIS) for this entity. CauseBase does not have sufficient descriptive evidence in this release to independently identify the organisation’s specific activities, programs or beneficiary groups.",
-  "summary_evidence_ids": [
-    "ev:acnc:43245526192",
-    "ev:ais:43245526192:2023"
-  ],
-  "organisation_self_description": null,
-  "activities": [],
-  "activity_observations": [],
-  "beneficiaries": [],
-  "beneficiary_observations": [],
-  "participation_modes": [],
-  "participation_observations": [],
-  "opportunities": [],
-  "programs": [
-    {
-      "program_id": "prg:acnc:43245526192:98ed5238-6ad6-f011-8543-000d3ad20411",
-      "name": "Annual welcome activities",
-      "description": "Continuing education",
-      "beneficiaries": [
-        "Adults - aged 25 to under 65",
-        "Females",
-        "Males"
-      ],
-      "geography": [
-        "Canberra ACT, Australia"
-      ],
-      "status": "current",
-      "reporting_period": "2025",
-      "source_url": "https://www.acnc.gov.au/charity/charities/09d61d50-3aaf-e811-a962-000d3ad24a0d/documents/54ed5238-6ad6-f011-8543-000d3ad20411",
-      "evidence_ids": [
-        "ev:acnc:ais:43245526192:54ed5238-6ad6-f011-8543-000d3ad20411"
-      ]
-    },
-    {
-      "program_id": "prg:acnc:43245526192:b0ed5238-6ad6-f011-8543-000d3ad20411",
-      "name": "Continuing education programs",
-      "description": "Continuing education",
-      "beneficiaries": [
-        "Adults - aged 25 to under 65"
-      ],
-      "geography": [
-        "Canberra ACT, Australia"
-      ],
-      "status": "current",
-      "reporting_period": "2025",
-      "source_url": "https://www.acnc.gov.au/charity/charities/09d61d50-3aaf-e811-a962-000d3ad24a0d/documents/54ed5238-6ad6-f011-8543-000d3ad20411",
-      "evidence_ids": [
-        "ev:acnc:ais:43245526192:54ed5238-6ad6-f011-8543-000d3ad20411"
-      ]
-    },
-    {
-      "program_id": "prg:acnc:43245526192:e0ed5238-6ad6-f011-8543-000d3ad20411",
-      "name": "Resource support for select Pacific region law libraries",
-      "description": "Learning technology",
-      "beneficiaries": [
-        "Adults - aged 25 to under 65",
-        "People in rural/regional/remote communities",
-        "Financially disadvantaged people",
-        "Overseas communities or charities"
-      ],
-      "geography": [
-        "Canberra ACT, Australia"
-      ],
-      "status": "current",
-      "reporting_period": "2025",
-      "source_url": "https://www.acnc.gov.au/charity/charities/09d61d50-3aaf-e811-a962-000d3ad24a0d/documents/54ed5238-6ad6-f011-8543-000d3ad20411",
-      "evidence_ids": [
-        "ev:acnc:ais:43245526192:54ed5238-6ad6-f011-8543-000d3ad20411"
-      ]
-    }
-  ],
-  "source_native_records": [
-    {
-      "source_record_id": "src:acnc-public-profile:43245526192:09d61d50-3aaf-e811-a962-000d3ad24a0d:cb_915e3bda1d544eba861cfc8d6368cf12",
-      "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-14-public-api",
-      "source_url": "https://www.acnc.gov.au/charity/charities/09d61d50-3aaf-e811-a962-000d3ad24a0d/profile",
-      "retrieved_at": "2026-08-13T13:54:42.956606Z",
-      "observed_at": "2025-12-11",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "uuid": "09d61d50-3aaf-e811-a962-000d3ad24a0d",
-        "abn": "43245526192"
-      },
-      "source_payload": {
-        "data": {
-          "AFSAddressPostalCode": "2600",
-          "AFSEmail": "jandg@y7mail.com",
-          "Abn": "43245526192",
-          "AddressCountry": "Australia",
-          "AddressLine1": "Po Box 9131",
-          "AddressLine2": null,
-          "AddressLine3": null,
-          "AddressPostalCode": "2600",
-          "AddressStateOrProvince": "ACT",
-          "AddressSuburb": "Deakin",
-          "AddressSuburbStatePostcode": "Deakin ACT 2600",
-          "AnnualReports": [
-            {
-              "AISId": null,
-              "DateReceived": "2019-11-11T23:55:31.0000000Z",
-              "DocumentUuid": "5bea90b2-de04-ea11-a811-000d3ad1c2b4",
-              "DueDate": "2020-01-31T00:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2019",
-              "type": "Financial Report 2019",
-              "uuid": "fcf78ea0-fc25-e911-a976-000d3ad02a61"
-            },
-            {
-              "AISId": "759c9ebd-de04-ea11-a811-000d3ad1ce4e",
-              "DateReceived": "2019-11-11T13:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2020-01-31T00:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2019",
-              "type": "Annual Information Statement 2019",
-              "uuid": "2ef88ea0-fc25-e911-a976-000d3ad02a61"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2020-11-30T04:30:19.0000000Z",
-              "DocumentUuid": "3eeb0fbd-c432-eb11-a813-000d3acb05bc",
-              "DueDate": "2021-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2020",
-              "type": "Financial Report 2020",
-              "uuid": "57f88ea0-fc25-e911-a976-000d3ad02a61"
-            },
-            {
-              "AISId": "e78175be-c432-eb11-bf71-000d3ad1cd99",
-              "DateReceived": "2020-11-30T04:30:25.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2021-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2020",
-              "type": "Annual Information Statement 2020",
-              "uuid": "84f88ea0-fc25-e911-a976-000d3ad02a61"
-            },
-            {
-              "AISId": "df5e6111-9e6f-ed11-81ac-002248933d22",
-              "DateReceived": "2022-11-29T04:27:04.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2023-01-31T00:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2022",
-              "type": "Annual Information Statement 2022",
-              "uuid": "7de5d7e7-d363-eb11-b0b0-000d3ad1cd99"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2022-11-29T04:26:56.0000000Z",
-              "DocumentUuid": "80d64e06-9e6f-ed11-81ac-00224893362a",
-              "DueDate": "2023-01-31T00:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2022",
-              "type": "Financial Report 2022",
-              "uuid": "8ce5d7e7-d363-eb11-b0b0-000d3ad1cd99"
-            },
-            {
-              "AISId": "07a74c8f-6e4b-ec11-8c60-00224811c18d",
-              "DateReceived": "2021-11-22T08:31:31.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2022-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2021",
-              "type": "Annual Information Statement 2021",
-              "uuid": "f2277420-9044-ea11-a813-000d3ad1f29c"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2021-11-22T08:31:16.0000000Z",
-              "DocumentUuid": "3f184a81-6e4b-ec11-8f8e-00224811c9dd",
-              "DueDate": "2022-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2021",
-              "type": "Financial Report 2021",
-              "uuid": "03287420-9044-ea11-a813-000d3ad1f29c"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2016-10-06T13:00:00.0000000Z",
-              "DocumentUuid": "95d110a1-4fb0-e811-a95e-000d3ad24c60",
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2016",
-              "type": "Financial Report 2016",
-              "uuid": "0f60bd9a-40c8-e811-a962-000d3ad24182"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required",
-              "Year": "2013",
-              "type": "Financial Report 2013",
-              "uuid": "2c60bd9a-40c8-e811-a962-000d3ad24182"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2018-11-23T04:05:20.0000000Z",
-              "DocumentUuid": "572703fa-d4ee-e811-a965-000d3ad24077",
-              "DueDate": "2019-03-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2018",
-              "type": "Financial Report 2018",
-              "uuid": "3860bd9a-40c8-e811-a962-000d3ad24182"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required",
-              "Year": "2014",
-              "type": "Financial Report 2014",
-              "uuid": "4b60bd9a-40c8-e811-a962-000d3ad24182"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2015-10-04T13:00:00.0000000Z",
-              "DocumentUuid": "70d110a1-4fb0-e811-a95e-000d3ad24c60",
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2015",
-              "type": "Financial Report 2015",
-              "uuid": "5860bd9a-40c8-e811-a962-000d3ad24182"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": true,
-              "Status": "Not required",
-              "Year": "2013",
-              "type": "Annual Information Statement 2013",
-              "uuid": "90cfd68b-3bc8-e811-a963-000d3ad24a0d"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": true,
-              "Status": "Not required",
-              "Year": "2014",
-              "type": "Annual Information Statement 2014",
-              "uuid": "a3cfd68b-3bc8-e811-a963-000d3ad24a0d"
-            },
-            {
-              "AISId": "e0d400fd-d4ee-e811-a96e-000d3ad05ad0",
-              "DateReceived": "2018-11-23T04:05:26.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2019-03-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2018",
-              "type": "Annual Information Statement 2018",
-              "uuid": "bbcfd68b-3bc8-e811-a963-000d3ad24a0d"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2017-09-17T14:00:00.0000000Z",
-              "DocumentUuid": "b1d110a1-4fb0-e811-a95e-000d3ad24c60",
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2017",
-              "type": "Financial Report 2017",
-              "uuid": "e1d4bc98-40c8-e811-a95f-000d3ad24c60"
-            },
-            {
-              "AISId": "07a83b32-47c8-e811-a961-000d3ad24282",
-              "DateReceived": "2015-10-04T13:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2016-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2015",
-              "type": "Annual Information Statement 2015",
-              "uuid": "a0c78132-47c8-e811-a95f-000d3ad24c60"
-            },
-            {
-              "AISId": "09a83b32-47c8-e811-a961-000d3ad24282",
-              "DateReceived": "2016-10-06T13:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2017-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2016",
-              "type": "Annual Information Statement 2016",
-              "uuid": "a7c78132-47c8-e811-a95f-000d3ad24c60"
-            },
-            {
-              "AISId": "0da83b32-47c8-e811-a961-000d3ad24282",
-              "DateReceived": "2017-09-17T14:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2018-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2017",
-              "type": "Annual Information Statement 2017",
-              "uuid": "afc78132-47c8-e811-a95f-000d3ad24c60"
-            },
-            {
-              "AISId": "c1312be5-c398-ee11-be37-002248110683",
-              "DateReceived": "2023-12-12T07:56:11.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2024-01-31T00:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2023",
-              "type": "Annual Information Statement 2023",
-              "uuid": "75f18fb1-a682-ec11-8d20-0022489297f3"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2023-12-12T07:56:02.0000000Z",
-              "DocumentUuid": "28e4a5d8-c398-ee11-be37-002248935564",
-              "DueDate": "2024-01-31T00:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2023",
-              "type": "Financial Report 2023",
-              "uuid": "7ef18fb1-a682-ec11-8d20-0022489297f3"
-            },
-            {
-              "AISId": "54ed5238-6ad6-f011-8543-000d3ad20411",
-              "DateReceived": "2025-12-11T08:20:23.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2026-01-31T00:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2025",
-              "type": "Annual Information Statement 2025",
-              "uuid": "e8f774c6-98c0-ee11-907a-00224893b8c7"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2025-12-11T08:20:25.0000000Z",
-              "DocumentUuid": "1f287230-6ad6-f011-8544-7ced8d344b97",
-              "DueDate": "2026-01-31T00:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2025",
-              "type": "Financial Report 2025",
-              "uuid": "19f874c6-98c0-ee11-907a-00224893b8c7"
-            },
-            {
-              "AISId": "8fdffa96-06b6-ef11-a72f-000d3a6ac063",
-              "DateReceived": "2024-12-09T08:21:42.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2025-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2024",
-              "type": "Annual Information Statement 2024",
-              "uuid": "483aeffd-c8a1-ed11-aad1-00224893bffb"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2024-12-09T08:21:37.0000000Z",
-              "DocumentUuid": "cb67fb90-06b6-ef11-a72f-000d3a6ac063",
-              "DueDate": "2025-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2024",
-              "type": "Financial Report 2024",
-              "uuid": "713aeffd-c8a1-ed11-aad1-00224893bffb"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2027-12-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Not yet submitted",
-              "Year": "2027",
-              "type": "Annual Information Statement 2027",
-              "uuid": "f9422686-0cff-f011-8407-6045bdc4655a"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2027-12-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Pending",
-              "Year": "2027",
-              "type": "Financial Report 2027",
-              "uuid": "11432686-0cff-f011-8407-6045bdc4655a"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2026-12-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Not yet submitted",
-              "Year": "2026",
-              "type": "Annual Information Statement 2026",
-              "uuid": "9d91c2c5-d3df-ef11-a731-6045bde5a05c"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2026-12-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Pending",
-              "Year": "2026",
-              "type": "Financial Report 2026",
-              "uuid": "bc91c2c5-d3df-ef11-a731-6045bde5a05c"
-            }
-          ],
-          "Beneficiaries": [
-            {
-              "Description": null,
-              "Name": "People in rural/regional/remote communities",
-              "uuid": "02ee5238-6ad6-f011-8543-000d3ad20411"
-            },
-            {
-              "Description": null,
-              "Name": "Overseas communities or charities",
-              "uuid": "08ee5238-6ad6-f011-8543-000d3ad20411"
-            },
-            {
-              "Description": null,
-              "Name": "Males",
-              "uuid": "0cee5238-6ad6-f011-8543-000d3ad20411"
-            },
-            {
-              "Description": null,
-              "Name": "Financially disadvantaged people",
-              "uuid": "10ee5238-6ad6-f011-8543-000d3ad20411"
-            },
-            {
-              "Description": null,
-              "Name": "Females",
-              "uuid": "15ee5238-6ad6-f011-8543-000d3ad20411"
-            },
-            {
-              "Description": null,
-              "Name": "Adults - aged 25 to under 65",
-              "uuid": "19ee5238-6ad6-f011-8543-000d3ad20411"
-            }
-          ],
-          "CharitySize": "Small",
-          "CharitySubtypeHistory": [
-            {
-              "EndDate": null,
-              "Purpose": "Advancing education",
-              "StartDate": "2015-01-15T13:00:00.0000000Z",
-              "uuid": "d7c6d8aa-fec6-e811-a961-000d3ad24282"
-            },
-            {
-              "EndDate": null,
-              "Purpose": "Purposes beneficial to the general public that may reasonably be regarded as analogous to, or within the spirit of, any of the other charitable purposes",
-              "StartDate": "2015-01-15T13:00:00.0000000Z",
-              "uuid": "f7c6d8aa-fec6-e811-a961-000d3ad24282"
-            }
-          ],
-          "CharityVersion": "79",
-          "ChildMemberEndDate": null,
-          "ChildMemberStartDate": null,
-          "ChooseToProvideAis": null,
-          "Countries": [
-            {
-              "Name": "Australia",
-              "uuid": "f57b5602-9a4d-e811-a951-000d3ad06f2d"
-            },
-            {
-              "Name": "Fiji",
-              "uuid": "5b7c5602-9a4d-e811-a951-000d3ad06f2d"
-            }
-          ],
-          "DateEstablished": "1999-10-31T13:00:00.0000000Z",
-          "Documents": [
-            {
-              "Date": "2014-11-04T00:00:00.0000000",
-              "Title": "ALLA (ACT) Inc  Constitution.doc",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/09d61d50-3aaf-e811-a962-000d3ad24a0d-35f494e3-1aa8-4db0-b7da-1c17395e655e-Governing%20Document-43d110a1-4fb0-e811-a95e-000d3ad24c60-ALLA_(ACT)_Inc__Constitution.doc",
-              "Year": null,
-              "type": "Governing Document",
-              "uuid": "43d110a1-4fb0-e811-a95e-000d3ad24c60"
-            },
-            {
-              "Date": "2019-11-12T00:00:00.0000000",
-              "Title": "Fin. St. 2018-19 (Signed PDF).pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/09d61d50-3aaf-e811-a962-000d3ad24a0d-35f494e3-1aa8-4db0-b7da-1c17395e655e-Annual%20Report-4bea90b2-de04-ea11-a811-000d3ad1c2b4-Fin._St._2018-19_(Signed_PDF).pdf",
-              "Year": "2019",
-              "type": "Annual Report",
-              "uuid": "4bea90b2-de04-ea11-a811-000d3ad1c2b4"
-            },
-            {
-              "Date": "2018-11-23T00:00:00.0000000",
-              "Title": "Fin. St. 2017-18 (Signed PDF).pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/09d61d50-3aaf-e811-a962-000d3ad24a0d-35f494e3-1aa8-4db0-b7da-1c17395e655e-Annual%20Report-512703fa-d4ee-e811-a965-000d3ad24077-Fin._St._2017-18_(Signed_PDF).pdf",
-              "Year": "2018",
-              "type": "Annual Report",
-              "uuid": "512703fa-d4ee-e811-a965-000d3ad24077"
-            },
-            {
-              "Date": "2024-12-09T00:00:00.0000000",
-              "Title": "Fin. St. 2023-24 (Signed PDF).pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/09d61d50-3aaf-e811-a962-000d3ad24a0d-35f494e3-1aa8-4db0-b7da-1c17395e655e-Financial%20Report-cb67fb90-06b6-ef11-a72f-000d3a6ac063-Fin._St._2023-24_(Signed_PDF).pdf",
-              "Year": "2024",
-              "type": "Financial Report",
-              "uuid": "cb67fb90-06b6-ef11-a72f-000d3a6ac063"
-            },
-            {
-              "Date": "2020-11-30T00:00:00.0000000",
-              "Title": "Fin. St. 2019-20 (Signed PDF).pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/09d61d50-3aaf-e811-a962-000d3ad24a0d-35f494e3-1aa8-4db0-b7da-1c17395e655e-Financial%20Report-3eeb0fbd-c432-eb11-a813-000d3acb05bc-Fin._St._2019-20_(Signed_PDF).pdf",
-              "Year": "2020",
-              "type": "Financial Report",
-              "uuid": "3eeb0fbd-c432-eb11-a813-000d3acb05bc"
-            },
-            {
-              "Date": "2019-11-12T00:00:00.0000000",
-              "Title": "Fin. St. 2018-19 (Signed PDF).pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/09d61d50-3aaf-e811-a962-000d3ad24a0d-35f494e3-1aa8-4db0-b7da-1c17395e655e-Financial%20Report-5bea90b2-de04-ea11-a811-000d3ad1c2b4-Fin._St._2018-19_(Signed_PDF).pdf",
-              "Year": "2019",
-              "type": "Financial Report",
-              "uuid": "5bea90b2-de04-ea11-a811-000d3ad1c2b4"
-            },
-            {
-              "Date": "2018-11-23T00:00:00.0000000",
-              "Title": "Fin. St. 2017-18 (Signed PDF).pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/09d61d50-3aaf-e811-a962-000d3ad24a0d-35f494e3-1aa8-4db0-b7da-1c17395e655e-Financial%20Report-572703fa-d4ee-e811-a965-000d3ad24077-Fin._St._2017-18_(Signed_PDF).pdf",
-              "Year": "2018",
-              "type": "Financial Report",
-              "uuid": "572703fa-d4ee-e811-a965-000d3ad24077"
-            },
-            {
-              "Date": "2015-10-05T00:00:00.0000000",
-              "Title": "Fin. St. 2014-15 (Final - Signed).pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/09d61d50-3aaf-e811-a962-000d3ad24a0d-35f494e3-1aa8-4db0-b7da-1c17395e655e-Financial%20Report-70d110a1-4fb0-e811-a95e-000d3ad24c60-Fin._St._2014-15_(Final_-_Signed).pdf",
-              "Year": "2015",
-              "type": "Financial Report",
-              "uuid": "70d110a1-4fb0-e811-a95e-000d3ad24c60"
-            },
-            {
-              "Date": "2016-10-07T00:00:00.0000000",
-              "Title": "Fin. St. 2015-2016 (Signed PDF).pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/09d61d50-3aaf-e811-a962-000d3ad24a0d-35f494e3-1aa8-4db0-b7da-1c17395e655e-Financial%20Report-95d110a1-4fb0-e811-a95e-000d3ad24c60-Fin._St._2015-2016_(Signed_PDF).pdf",
-              "Year": "2016",
-              "type": "Financial Report",
-              "uuid": "95d110a1-4fb0-e811-a95e-000d3ad24c60"
-            },
-            {
-              "Date": "2017-09-18T00:00:00.0000000",
-              "Title": "Fin. St. 2016-17 (Signed PDF).pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/09d61d50-3aaf-e811-a962-000d3ad24a0d-35f494e3-1aa8-4db0-b7da-1c17395e655e-Financial%20Report-b1d110a1-4fb0-e811-a95e-000d3ad24c60-Fin._St._2016-17_(Signed_PDF).pdf",
-              "Year": "2017",
-              "type": "Financial Report",
-              "uuid": "b1d110a1-4fb0-e811-a95e-000d3ad24c60"
-            },
-            {
-              "Date": "2021-11-22T00:00:00.0000000",
-              "Title": "Fin. St. 2020-21 (Signed PDF).pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/09d61d50-3aaf-e811-a962-000d3ad24a0d-35f494e3-1aa8-4db0-b7da-1c17395e655e-Financial%20Report-3f184a81-6e4b-ec11-8f8e-00224811c9dd-Fin._St._2020-21_(Signed_PDF).pdf",
-              "Year": "2021",
-              "type": "Financial Report",
-              "uuid": "3f184a81-6e4b-ec11-8f8e-00224811c9dd"
-            },
-            {
-              "Date": "2022-11-29T00:00:00.0000000",
-              "Title": "Fin. St. 2021-22 (Signed PDF).pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/09d61d50-3aaf-e811-a962-000d3ad24a0d-35f494e3-1aa8-4db0-b7da-1c17395e655e-Financial%20Report-80d64e06-9e6f-ed11-81ac-00224893362a-Fin._St._2021-22_(Signed_PDF).pdf",
-              "Year": "2022",
-              "type": "Financial Report",
-              "uuid": "80d64e06-9e6f-ed11-81ac-00224893362a"
-            },
-            {
-              "Date": "2023-12-12T00:00:00.0000000",
-              "Title": "Fin. St. 2022-23 (Signed PDF).pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/09d61d50-3aaf-e811-a962-000d3ad24a0d-35f494e3-1aa8-4db0-b7da-1c17395e655e-Financial%20Report-28e4a5d8-c398-ee11-be37-002248935564-Fin._St._2022-23_(Signed_PDF).pdf",
-              "Year": "2023",
-              "type": "Financial Report",
-              "uuid": "28e4a5d8-c398-ee11-be37-002248935564"
-            },
-            {
-              "Date": "2025-12-11T00:00:00.0000000",
-              "Title": "Fin. St. 2024-25 (Signed PDF).pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/09d61d50-3aaf-e811-a962-000d3ad24a0d-35f494e3-1aa8-4db0-b7da-1c17395e655e-Financial%20Report-1f287230-6ad6-f011-8544-7ced8d344b97-Fin._St._2024-25_(Signed_PDF).pdf",
-              "Year": "2025",
-              "type": "Financial Report",
-              "uuid": "1f287230-6ad6-f011-8544-7ced8d344b97"
-            }
-          ],
-          "Email": "jandg@y7mail.com",
-          "EnforcementOutcomes": [],
-          "FinancialYearEnd": "30/06",
-          "GovernmentAgencies": [
-            {
-              "Name": "ACT - Incorporated Association",
-              "ReferenceNumber": "A03866",
-              "uuid": "83ed5238-6ad6-f011-8543-000d3ad20411"
-            }
-          ],
-          "GroupHeadFlag": false,
-          "LastReported": "2025-12-11T08:20:25.0000000Z",
-          "Name": "The Australian Law Librarians' Association (Australian Capital Territory) Incorporated",
-          "NextReportDue": "2026-12-31T12:30:00.0000000Z",
-          "OperatingInStates": [
-            {
-              "Name": "Australian Capital Territory",
-              "uuid": "db77d9b9-455e-e811-a95c-000d3ad1c715"
-            }
-          ],
-          "OtherDetails": null,
-          "OtherNames": [],
-          "ParentAccountAbn": null,
-          "ParentAccountId": null,
-          "Phone": "0262822793",
-          "Programs": [
-            {
-              "AisUuid": "54ed5238-6ad6-f011-8543-000d3ad20411",
-              "Name": "Annual welcome activities",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Adults - aged 25 to under 65",
-                "Females",
-                "Males"
-              ],
-              "ProgramClassie": [
-                {
-                  "classie_id": "176",
-                  "label": "Continuing education",
-                  "parent_id": "171",
-                  "selected": true
-                },
-                {
-                  "classie_id": "171",
-                  "label": "Adult education",
-                  "parent_id": "170",
-                  "selected": false
-                },
-                {
-                  "classie_id": "170",
-                  "label": "Education",
-                  "parent_id": null,
-                  "selected": false
-                }
-              ],
-              "ProgramClassification": "Continuing education",
-              "ProgramClassificationID": "176",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "Canberra ACT, Australia",
-                  "FormattedAddress": "Canberra ACT, Australia",
-                  "Marker": {
-                    "Latitude": -35.3075,
-                    "Longitude": 149.124417
-                  },
-                  "Name": "Canberra",
-                  "uuid": "aaed5238-6ad6-f011-8543-000d3ad20411"
-                }
-              ],
-              "ProgramWeblink": null,
-              "uuid": "98ed5238-6ad6-f011-8543-000d3ad20411"
-            },
-            {
-              "AisUuid": "54ed5238-6ad6-f011-8543-000d3ad20411",
-              "Name": "Continuing education programs",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Adults - aged 25 to under 65"
-              ],
-              "ProgramClassie": [
-                {
-                  "classie_id": "176",
-                  "label": "Continuing education",
-                  "parent_id": "171",
-                  "selected": true
-                },
-                {
-                  "classie_id": "171",
-                  "label": "Adult education",
-                  "parent_id": "170",
-                  "selected": false
-                },
-                {
-                  "classie_id": "170",
-                  "label": "Education",
-                  "parent_id": null,
-                  "selected": false
-                }
-              ],
-              "ProgramClassification": "Continuing education",
-              "ProgramClassificationID": "176",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "Canberra ACT, Australia",
-                  "FormattedAddress": "Canberra ACT, Australia",
-                  "Marker": {
-                    "Latitude": -35.3075,
-                    "Longitude": 149.124417
-                  },
-                  "Name": "Canberra",
-                  "uuid": "d6ed5238-6ad6-f011-8543-000d3ad20411"
-                }
-              ],
-              "ProgramWeblink": null,
-              "uuid": "b0ed5238-6ad6-f011-8543-000d3ad20411"
-            },
-            {
-              "AisUuid": "54ed5238-6ad6-f011-8543-000d3ad20411",
-              "Name": "Resource support for select Pacific region law libraries",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Adults - aged 25 to under 65",
-                "People in rural/regional/remote communities",
-                "Financially disadvantaged people",
-                "Overseas communities or charities"
-              ],
-              "ProgramClassie": [
-                {
-                  "classie_id": "196",
-                  "label": "Learning technology",
-                  "parent_id": "170",
-                  "selected": true
-                },
-                {
-                  "classie_id": "170",
-                  "label": "Education",
-                  "parent_id": null,
-                  "selected": false
-                }
-              ],
-              "ProgramClassification": "Learning technology",
-              "ProgramClassificationID": "196",
-              "ProgramCountries": [
-                "Fiji"
-              ],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "Canberra ACT, Australia",
-                  "FormattedAddress": "Canberra ACT, Australia",
-                  "Marker": {
-                    "Latitude": -35.2801846,
-                    "Longitude": 149.1310324
-                  },
-                  "Name": "Canberra",
-                  "uuid": "f6ed5238-6ad6-f011-8543-000d3ad20411"
-                }
-              ],
-              "ProgramWeblink": null,
-              "uuid": "e0ed5238-6ad6-f011-8543-000d3ad20411"
-            }
-          ],
-          "ReferendumReturnsUrl": null,
-          "RegistrationStatusHistory": [
-            {
-              "EffectiveDate": "2015-01-15T13:00:00.0000000Z",
-              "Status": "Registered",
-              "TransactionDate": "2015-02-17T13:00:00.0000000Z",
-              "uuid": "685f71f6-06c6-e811-a95f-000d3ad24c60"
-            }
-          ],
-          "RelatedPartyTransactions": null,
-          "RelevantTransactions": null,
-          "ReportingLate": "2027-06-30T12:30:00.0000000Z",
-          "ResponsiblePersons": [
-            {
-              "Name": "Pauline Downing",
-              "Role": "Public Officer",
-              "uuid": "d16c8300-febb-e811-a962-000d3ad24182"
-            },
-            {
-              "Name": "Gregory Jones",
-              "Role": "Board Member",
-              "uuid": "755f88fa-fdbb-e811-a962-000d3ad24182"
-            },
-            {
-              "Name": "Margaret Hutchinson",
-              "Role": "Board Member",
-              "uuid": "0741fa60-03bc-e811-a961-000d3ad24282"
-            }
-          ],
-          "Status": "Registered",
-          "SummaryOfActivities": "We provide access to professional law library education programs, conferences and support for members of the law library profession, primarily in the ACT, including through the organisation of social events. The group also provides financial support and mentoring to law libraries in the Pacific region, primarily by purchasing books etc for libraries or providing financial support for staff to attend law librarian conferences in Australia.",
-          "TotalExpensesEmployee": "0",
-          "TotalExpensesGrantsAndDonationsInAustralia": "0",
-          "TotalExpensesGrantsAndDonationsOutsideAustralia": "0",
-          "TotalExpensesInterest": "0",
-          "TotalExpensesOther": "342",
-          "TotalGrossIncomeDonationsAndRequests": "0",
-          "TotalGrossIncomeGoodsOrServices": "0",
-          "TotalGrossIncomeGovernmentGrants": "0",
-          "TotalGrossIncomeInvestments": "0",
-          "TotalGrossIncomeOtherRevenues": "1300",
-          "TransparencyRegisterUrl": null,
-          "Website": null,
-          "__normalized": true,
-          "type": "charity",
-          "uuid": "09d61d50-3aaf-e811-a962-000d3ad24a0d"
-        },
-        "type": "charity",
-        "uuid": "09d61d50-3aaf-e811-a962-000d3ad24a0d"
-      },
-      "canonical_field_mappings": {
-        "data.OtherNames": "operating_names",
-        "data.AddressStateOrProvince": "principal_location"
-      },
-      "evidence_ids": []
-    },
-    {
-      "source_record_id": "src:acnc-ais-detail:43245526192:54ed5238-6ad6-f011-8543-000d3ad20411:cb_915e3bda1d544eba861cfc8d6368cf12",
-      "source_family": "acnc-ais-detail",
-      "dataset_version": "2026-08-14-public-api",
-      "source_url": "https://www.acnc.gov.au/charity/charities/09d61d50-3aaf-e811-a962-000d3ad24a0d/documents/54ed5238-6ad6-f011-8543-000d3ad20411",
-      "retrieved_at": "2026-08-13T13:54:42.956606Z",
-      "observed_at": "2025-12-11",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "abn": "43245526192",
-        "ais_uuid": "54ed5238-6ad6-f011-8543-000d3ad20411",
-        "year": "2025",
-        "date_received": "2025-12-11T08:20:23.0000000Z"
-      },
-      "source_payload": {
-        "data": {
-          "Abn": "43245526192",
-          "ActivityAdvocacyNCivic": false,
-          "ActivityAgedCare": false,
-          "ActivityAnimalProtection": false,
-          "ActivityCultureAndArt": false,
-          "ActivityEconomicSocialCommunity": false,
-          "ActivityEmergencyNRelief": false,
-          "ActivityEmploymentNTraining": false,
-          "ActivityEnvironmental": false,
-          "ActivityGrantMaking": false,
-          "ActivityHealthRehabilitation": false,
-          "ActivityHigherEducation": false,
-          "ActivityHousing": false,
-          "ActivityIncomeSupportNMaintenance": false,
-          "ActivityInternational": false,
-          "ActivityInternationalDescription": "Book etc donations to Pacific law libraries and financial support for Pacific island librarians to attend conferences in Australia",
-          "ActivityInternationalOther": false,
-          "ActivityInternationalOtherDescription": null,
-          "ActivityLawNLegalServices": false,
-          "ActivityMain": null,
-          "ActivityMentalHealthCrisisIntervention": false,
-          "ActivityNdisSupported": null,
-          "ActivityNdisSupportedNext": null,
-          "ActivityOperating": true,
-          "ActivityOperatingOverseas": false,
-          "ActivityOther": false,
-          "ActivityOtherDescription": null,
-          "ActivityOtherEducation": false,
-          "ActivityOtherHealthServices": false,
-          "ActivityPersuitPurposesDescription": "We provide access to professional law library education programs, conferences and support for members of the law library profession, primarily in the ACT, including through the organisation of social events. The group also provides financial support and mentoring to law libraries in the Pacific region, primarily by purchasing books etc for libraries or providing financial support for staff to attend law librarian conferences in Australia.",
-          "ActivityPhilanthropicPromotion": false,
-          "ActivityPolitical": false,
-          "ActivityPrimarySecondaryEducation": false,
-          "ActivityPurposeChange": null,
-          "ActivityPurposeChangeDescription": null,
-          "ActivityRecreationSocialClub": false,
-          "ActivityReligious": false,
-          "ActivityResearch": false,
-          "ActivitySocialServices": false,
-          "ActivitySports": false,
-          "ActivityTransferringFundsGoods": true,
-          "AdvancementOfEducation": false,
-          "AdvancementOfReligion": false,
-          "AssetsandLiabilitiesDescription": "Assets are cash held in a CBA account and only liability is annual rental of PO box",
-          "BasicReligiousCharity": false,
-          "BeneficiaryAboriginalTorres": false,
-          "BeneficiaryAdults": false,
-          "BeneficiaryAllAges": false,
-          "BeneficiaryChildren": false,
-          "BeneficiaryChronicIllness": false,
-          "BeneficiaryCrimeVictims": false,
-          "BeneficiaryDisasterVictims": false,
-          "BeneficiaryEarlyChildhood": false,
-          "BeneficiaryEthnic": false,
-          "BeneficiaryFamilies": false,
-          "BeneficiaryFinanciallyDisadvantaged": false,
-          "BeneficiaryGeneral": false,
-          "BeneficiaryHomelessnessRisk": false,
-          "BeneficiaryLGBT": false,
-          "BeneficiaryMain": null,
-          "BeneficiaryMen": false,
-          "BeneficiaryMigrantsRefugees": false,
-          "BeneficiaryOffenderFamilies": false,
-          "BeneficiaryOther": false,
-          "BeneficiaryOtherCharities": false,
-          "BeneficiaryOtherDescription": null,
-          "BeneficiaryOverseas": false,
-          "BeneficiaryPeopleWithDisability": false,
-          "BeneficiaryRuralRegionalRemote": false,
-          "BeneficiarySeniors": false,
-          "BeneficiaryUnemployed": false,
-          "BeneficiaryVeteranFamilies": false,
-          "BeneficiaryWomen": false,
-          "BeneficiaryYouth": false,
-          "CharityAddressCountry": "Australia",
-          "CharityAddressLine1": "Po Box 9131",
-          "CharityAddressLine2": null,
-          "CharityAddressPostalCode": "2600",
-          "CharityAddressStateOrProvince": "ACT",
-          "CharityAddressSuburb": "Deakin",
-          "CharityEmail": "jandg@y7mail.com",
-          "CharitySize": "Small",
-          "CharityUuid": "09d61d50-3aaf-e811-a962-000d3ad24a0d",
-          "ChildCareServices": false,
-          "ExpenseEmployees": "0.0000",
-          "ExpenseGrantDonationsInAustralia": "0.0000",
-          "ExpenseGrantDonationsOutsideAustralia": "0.0000",
-          "ExpenseTotal": "342.0000",
-          "ExpensesOther": "342.0000",
-          "FinAccrualAccounting": "Cash",
-          "FinConsolidatedReportFromMiltiple": null,
-          "FinDocumentedPoliciesRelatedPartyTransactions": null,
-          "FinFyeJune": false,
-          "FinProvideVoluntarily": null,
-          "FinRelatedPartyTransactions": "No",
-          "FinReportACT": false,
-          "FinReportFrom": "2024-07-01T00:00:00.0000000Z",
-          "FinReportNSW": false,
-          "FinReportNT": false,
-          "FinReportQLD": false,
-          "FinReportSA": false,
-          "FinReportTAS": false,
-          "FinReportTo": "2025-06-30T00:00:00.0000000Z",
-          "FinReportVIC": false,
-          "FinReportWA": false,
-          "FinReportingType": null,
-          "FinSapDate": null,
-          "FundRaisingNumberACT": null,
-          "FundRaisingNumberNSW": null,
-          "FundRaisingNumberQLD": null,
-          "FundRaisingNumberSA": null,
-          "FundRaisingNumberTAS": null,
-          "FundRaisingNumberVIC": null,
-          "FundRaisingNumberWA": null,
-          "GovDocAccurate": null,
-          "GrantCapacityBuildingPct": null,
-          "GrantMultiYearPct": null,
-          "GrantPublicOpenApplicationPct": null,
-          "GrantRuralRegionPct": null,
-          "HasSubmittedToRegulator": false,
-          "HoursPaid": null,
-          "HoursTotal": null,
-          "HoursVolunteer": null,
-          "HrCasualEmployees": "0",
-          "HrFteStaff": "0.0000000000",
-          "HrFullTimeEmployees": "0",
-          "HrPartTimeEmployees": "0",
-          "HrUnpainVolunteers": "8",
-          "IncomeDonationsBequests": "0.0000",
-          "IncomeGovernmentGrants": "0.0000",
-          "IncomeOther": "0.0000",
-          "IncomeOtherComprehinsive": "0.0000",
-          "IncomeOtherNeg": null,
-          "IncomeOtherReceipts": "1300.0000",
-          "IncomeTotalComprehensive": "0.0000",
-          "IncomeTotalReceipts": "1300.0000",
-          "IncorporationStatus": null,
-          "InterestExpense": "0.0000",
-          "IsIncorporatedAssociation": true,
-          "KeyManagementPersonnel": false,
-          "LegalName": "The Australian Law Librarians' Association (Australian Capital Territory) Incorporated",
-          "NetAssetsLiabilities": "33736.0000",
-          "NetSurplusDeficit": "958.0000",
-          "NonCurrentLoansPayable": "0.0000",
-          "NumberOfKeyManagementPersonnel": "0",
-          "OperatingCountries": null,
-          "OperatingInACT": false,
-          "OperatingInNSW": false,
-          "OperatingInNT": false,
-          "OperatingInQLD": false,
-          "OperatingInSA": false,
-          "OperatingInTAS": false,
-          "OperatingInVIC": false,
-          "OperatingInWA": false,
-          "OperatingOverseas": false,
-          "OtherNames": [],
-          "OtherNonCurrentAssets": "0.0000",
-          "OtherNonCurrentLiabilities": "0.0000",
-          "OtherPurposeDescription": null,
-          "OtherPurposes": "False",
-          "Programs": [
-            {
-              "AisUuid": "54ed5238-6ad6-f011-8543-000d3ad20411",
-              "Name": "Annual welcome activities",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Adults - aged 25 to under 65",
-                "Females",
-                "Males"
-              ],
-              "ProgramClassification": "Continuing education",
-              "ProgramClassificationID": "176",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "Canberra ACT, Australia",
-                  "FormattedAddress": "Canberra ACT, Australia",
-                  "Marker": {
-                    "Latitude": -35.3075,
-                    "Longitude": 149.124417
-                  },
-                  "Name": "Canberra",
-                  "uuid": "aaed5238-6ad6-f011-8543-000d3ad20411"
-                }
-              ],
-              "ProgramWeblink": null,
-              "uuid": "98ed5238-6ad6-f011-8543-000d3ad20411"
-            },
-            {
-              "AisUuid": "54ed5238-6ad6-f011-8543-000d3ad20411",
-              "Name": "Continuing education programs",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Adults - aged 25 to under 65"
-              ],
-              "ProgramClassification": "Continuing education",
-              "ProgramClassificationID": "176",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "Canberra ACT, Australia",
-                  "FormattedAddress": "Canberra ACT, Australia",
-                  "Marker": {
-                    "Latitude": -35.3075,
-                    "Longitude": 149.124417
-                  },
-                  "Name": "Canberra",
-                  "uuid": "d6ed5238-6ad6-f011-8543-000d3ad20411"
-                }
-              ],
-              "ProgramWeblink": null,
-              "uuid": "b0ed5238-6ad6-f011-8543-000d3ad20411"
-            },
-            {
-              "AisUuid": "54ed5238-6ad6-f011-8543-000d3ad20411",
-              "Name": "Resource support for select Pacific region law libraries",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Adults - aged 25 to under 65",
-                "People in rural/regional/remote communities",
-                "Financially disadvantaged people",
-                "Overseas communities or charities"
-              ],
-              "ProgramClassification": "Learning technology",
-              "ProgramClassificationID": "196",
-              "ProgramCountries": [
-                "Fiji"
-              ],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "Canberra ACT, Australia",
-                  "FormattedAddress": "Canberra ACT, Australia",
-                  "Marker": {
-                    "Latitude": -35.2801846,
-                    "Longitude": 149.1310324
-                  },
-                  "Name": "Canberra",
-                  "uuid": "f6ed5238-6ad6-f011-8543-000d3ad20411"
-                }
-              ],
-              "ProgramWeblink": null,
-              "uuid": "e0ed5238-6ad6-f011-8543-000d3ad20411"
-            }
-          ],
-          "RegulatedACT": false,
-          "RegulatedNSW": false,
-          "RegulatedNT": false,
-          "RegulatedQLD": false,
-          "RegulatedSA": false,
-          "RegulatedTAS": false,
-          "RegulatedVIC": false,
-          "RegulatedWA": false,
-          "Regulator": null,
-          "RegulatorAGMDateACT": "2025-12-04T00:00:00.0000000Z",
-          "RegulatorAGMDateNT": null,
-          "RegulatorAGMDateVIC": null,
-          "RegulatorAGMDateWA": null,
-          "RegulatorFundRaising": "No",
-          "RegulatorFundRaisingACT": false,
-          "RegulatorFundRaisingNSW": false,
-          "RegulatorFundRaisingNT": false,
-          "RegulatorFundRaisingOnline": false,
-          "RegulatorFundRaisingQLD": false,
-          "RegulatorFundRaisingSA": false,
-          "RegulatorFundRaisingTAS": false,
-          "RegulatorFundRaisingVIC": false,
-          "RegulatorFundRaisingWA": false,
-          "RegulatorIncorporatedAssociationACT": true,
-          "RegulatorIncorporatedAssociationNSW": false,
-          "RegulatorIncorporatedAssociationNT": false,
-          "RegulatorIncorporatedAssociationNumberACT": "A03866",
-          "RegulatorIncorporatedAssociationNumberNSW": null,
-          "RegulatorIncorporatedAssociationNumberNT": null,
-          "RegulatorIncorporatedAssociationNumberQLD": null,
-          "RegulatorIncorporatedAssociationNumberSA": null,
-          "RegulatorIncorporatedAssociationNumberTAS": null,
-          "RegulatorIncorporatedAssociationNumberVIC": null,
-          "RegulatorIncorporatedAssociationNumberWA": null,
-          "RegulatorIncorporatedAssociationQLD": false,
-          "RegulatorIncorporatedAssociationSA": false,
-          "RegulatorIncorporatedAssociationTAS": false,
-          "RegulatorIncorporatedAssociationVIC": false,
-          "RegulatorIncorporatedAssociationWA": false,
-          "RegulatorMetRequirementACT": true,
-          "RegulatorMetRequirementWA": null,
-          "RegulatorOtherDetails": null,
-          "RegulatorPrograms": null,
-          "RegulatorStates": false,
-          "RelatedPartyDetails": null,
-          "RelatedPartyTransactions": [],
-          "ReliefOfPoverty": false,
-          "ReportingGroupFlag": false,
-          "ResponsiblePersonAccurate": null,
-          "RevenueGoodsServices": "0.0000",
-          "RevenueInvestments": "0.0000",
-          "RevenueTotal": "1300.0000",
-          "StatementYear": "2025",
-          "SubTypesAccurate": null,
-          "TotalAssets": "33917.0000",
-          "TotalCurrentAssets": "0.0000",
-          "TotalCurrentLiabilities": "0.0000",
-          "TotalLiabilities": "181.0000",
-          "TotalNonCurrentAssets": null,
-          "TotalNonCurrentLiabilities": "0.0000",
-          "TotalNonCurrentLoansReceivable": "0.0000",
-          "TotalPaidKMP": "$0.00",
-          "Website": null,
-          "__normalized": true,
-          "entityTypeVersion": "",
-          "entityVersion": "1807471500",
-          "timeStamp": "2025-12-11T08:20:20.0000000Z",
-          "type": "annual_information_statement",
-          "uuid": "54ed5238-6ad6-f011-8543-000d3ad20411"
-        },
-        "type": "annual_information_statement",
-        "uuid": "54ed5238-6ad6-f011-8543-000d3ad20411"
-      },
-      "canonical_field_mappings": {
-        "data.Programs": "programs",
-        "data.TotalRevenue": "financial_records[].revenue",
-        "data.TotalExpenses": "financial_records[].total_expenses"
-      },
-      "evidence_ids": [
-        "ev:acnc:ais:43245526192:54ed5238-6ad6-f011-8543-000d3ad20411"
-      ]
-    }
-  ],
-  "financial_records": [
-    {
-      "financial_record_id": "fr:ais:cb_915e3bda1d544eba861cfc8d6368cf12:2023",
-      "period": {
-        "period_start": "2022-07-01",
-        "period_end": "2023-06-30",
-        "period_length_days": 365,
-        "label": "01/07/2022 to 30/06/2023",
-        "is_transitional_or_nonstandard": false
-      },
-      "reporting_scope": "subject",
-      "reporting_subject_causebase_id": "cb_915e3bda1d544eba861cfc8d6368cf12",
-      "covered_subjects": [
-        "cb_915e3bda1d544eba861cfc8d6368cf12"
-      ],
-      "consolidated": "unknown",
-      "attribution_method": "direct_subject_report",
-      "evidence_ids": [
-        "ev:ais:43245526192:2023"
-      ],
-      "revenue": {
-        "source_amount": "1592",
-        "source_currency": "AUD",
-        "source_unit_scale": "1",
-        "normalised_amount": "1592",
-        "normalised_currency": "AUD",
-        "source_unit_label": null,
-        "source_raw_value": "1592",
-        "source_precision": null
-      },
-      "donations": null,
-      "government_grants": null,
-      "employee_costs": null,
-      "total_expenses": {
-        "source_amount": "618",
-        "source_currency": "AUD",
-        "source_unit_scale": "1",
-        "normalised_amount": "618",
-        "normalised_currency": "AUD",
-        "source_unit_label": null,
-        "source_raw_value": "618",
-        "source_precision": null
-      },
-      "assets": null,
-      "liabilities": null,
-      "net_assets": null,
-      "income_breakdown": [],
-      "expense_breakdown": [],
-      "balance_sheet_breakdown": [],
-      "source_ordered_line_items": [],
-      "statements": [],
-      "donations_gifts_bequests": null,
-      "functional_expense_allocations": []
-    }
-  ],
-  "financial_metrics": [
-    {
-      "metric": "revenue",
-      "observations": [
-        {
-          "financial_record_id": "fr:ais:cb_915e3bda1d544eba861cfc8d6368cf12:2023",
-          "amount": {
-            "source_amount": "1592",
-            "source_currency": "AUD",
-            "source_unit_scale": "1",
-            "normalised_amount": "1592",
-            "normalised_currency": "AUD",
-            "source_unit_label": null,
-            "source_raw_value": "1592",
-            "source_precision": null
-          },
-          "metric_source_label": null,
-          "evidence_ids": [
-            "ev:ais:43245526192:2023"
-          ]
-        }
-      ],
-      "reconciliation_status": "single_observation",
-      "reconciliation_notes": null
-    },
-    {
-      "metric": "total_expenses",
-      "observations": [
-        {
-          "financial_record_id": "fr:ais:cb_915e3bda1d544eba861cfc8d6368cf12:2023",
-          "amount": {
-            "source_amount": "618",
-            "source_currency": "AUD",
-            "source_unit_scale": "1",
-            "normalised_amount": "618",
-            "normalised_currency": "AUD",
-            "source_unit_label": null,
-            "source_raw_value": "618",
-            "source_precision": null
-          },
-          "metric_source_label": null,
-          "evidence_ids": [
-            "ev:ais:43245526192:2023"
-          ]
-        }
-      ],
-      "reconciliation_status": "single_observation",
-      "reconciliation_notes": null
-    }
-  ],
-  "fundraising_expenditure": null,
-  "funding_sources": [],
-  "fundraising_methods": [],
-  "classifications": [
-    {
-      "taxonomy_id": "acnc-register",
-      "taxonomy_version": "2026-08-10",
-      "term_id": "purpose.education",
-      "term_label": "education",
-      "assignment_method": "source_native",
-      "confidence": "high",
-      "evidence_ids": [
-        "ev:acnc:43245526192"
-      ]
-    },
-    {
-      "taxonomy_id": "acnc-register",
-      "taxonomy_version": "2026-08-10",
-      "term_id": "beneficiary.regional_remote",
-      "term_label": "regional remote",
-      "assignment_method": "source_native",
-      "confidence": "high",
-      "evidence_ids": [
-        "ev:acnc:43245526192"
-      ]
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "geography.australia",
-      "term_label": "Australia",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "geography.local_or_regional",
-      "term_label": "Local or regional Australia",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
+      "review_status": "not_required",
+      "conflicting_signals": []
     }
   ],
   "evidence": [
     {
       "evidence_id": "ev:acnc:43245526192",
-      "source_type": "regulatory",
-      "title": "ACNC Register extract",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": null,
-      "observed_at": "2026-08-10",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "title": "ACNC Register extract"
     },
     {
       "evidence_id": "ev:ais:43245526192:2023",
-      "source_type": "regulatory",
-      "title": "ACNC AIS 2023 extract",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": null,
-      "observed_at": "2026-08-10",
-      "reporting_period": "01/07/2022 to 30/06/2023",
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "title": "ACNC AIS 2023 extract"
     },
     {
       "evidence_id": "ev:acnc:ais:43245526192:54ed5238-6ad6-f011-8543-000d3ad20411",
-      "source_type": "regulatory",
       "title": "ACNC Annual Information Statement 2025",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": "https://www.acnc.gov.au/charity/charities/09d61d50-3aaf-e811-a962-000d3ad24a0d/documents/54ed5238-6ad6-f011-8543-000d3ad20411",
-      "observed_at": "2025-12-11",
-      "reporting_period": "2025",
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://www.acnc.gov.au/charity/charities/09d61d50-3aaf-e811-a962-000d3ad24a0d/documents/54ed5238-6ad6-f011-8543-000d3ad20411"
     }
   ],
-  "embedding": {
-    "embedding_id": "cb_915e3bda1d544eba861cfc8d6368cf12:entity:text-embedding-3-small",
-    "embedding_type": "entity",
-    "model_id": "text-embedding-3-small",
-    "model_version": "text-embedding-3-small",
-    "dimensions": 1536,
-    "source_text_hash": "a2988525d25bf58832f5c8d99ab6eae644a65c7b0e8fe489352510d56e2f1702",
-    "generated_at": "2026-08-10T13:53:24.457590Z",
-    "vector_ref": "embeddings.parquet#cb_915e3bda1d544eba861cfc8d6368cf12"
+  "summary": {
+    "derivative_id": "der:rc4:cb_915e3bda1d544eba861cfc8d6368cf12:summary",
+    "text": "The Australian Law Librarians' Association (Australian Capital Territory) Incorporated is an incorporated association registered in the Australian Capital Territory. CauseBase holds ACNC register and annual information statement extracts (including the 2022\u201323 AIS) for this entity. CauseBase does not have sufficient descriptive evidence in this release to independently identify the organisation\u2019s specific activities, programs or beneficiary groups."
   },
-  "synthesis": {
-    "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
-    "parameters": {
-      "max_output_tokens": 3000,
-      "structured_output": true,
-      "output_contract": "causebase-summary-v0.3-rc2"
-    },
-    "evidence_input_hash": "8ae631e1b2bfc30486580ed9f5753967c0f5903915afa774edee1b64c4e0a588",
-    "generated_at": "2026-08-12T14:09:36.875675Z",
-    "editorial_policy_version": "0.3-rc2"
-  },
-  "derivative_assessments": [
+  "activities": [],
+  "beneficiaries": [],
+  "descriptive_geography": [],
+  "navigation_geography": [],
+  "funding_sources": [],
+  "fundraising_methods": [],
+  "participation": [],
+  "opportunities": [],
+  "programs": [
     {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T14:09:36.875675Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-13T13:54:42.956606Z",
-      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
-      "input_hash": "8ae631e1b2bfc30486580ed9f5753967c0f5903915afa774edee1b64c4e0a588",
-      "disposition": "reused",
-      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
-      "affected_dimensions": [
-        "summary"
-      ]
+      "observation_id": "obs:rc4:cb_915e3bda1d544eba861cfc8d6368cf12:program:prg:acnc:43245526192:98ed5238-6ad6-f011-8543-000d3ad20411",
+      "program_id": "prg:acnc:43245526192:98ed5238-6ad6-f011-8543-000d3ad20411",
+      "name": "Annual welcome activities",
+      "description": "Continuing education",
+      "url": "https://www.acnc.gov.au/charity/charities/09d61d50-3aaf-e811-a962-000d3ad24a0d/documents/54ed5238-6ad6-f011-8543-000d3ad20411",
+      "status": "current",
+      "claim_basis": "direct",
+      "extraction_method": "api",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:ais:43245526192:54ed5238-6ad6-f011-8543-000d3ad20411"
+      ],
+      "time": {
+        "reporting_period": {
+          "label": "2025"
+        }
+      },
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_915e3bda1d544eba861cfc8d6368cf12:program:prg:acnc:43245526192:b0ed5238-6ad6-f011-8543-000d3ad20411",
+      "program_id": "prg:acnc:43245526192:b0ed5238-6ad6-f011-8543-000d3ad20411",
+      "name": "Continuing education programs",
+      "description": "Continuing education",
+      "url": "https://www.acnc.gov.au/charity/charities/09d61d50-3aaf-e811-a962-000d3ad24a0d/documents/54ed5238-6ad6-f011-8543-000d3ad20411",
+      "status": "current",
+      "claim_basis": "direct",
+      "extraction_method": "api",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:ais:43245526192:54ed5238-6ad6-f011-8543-000d3ad20411"
+      ],
+      "time": {
+        "reporting_period": {
+          "label": "2025"
+        }
+      },
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_915e3bda1d544eba861cfc8d6368cf12:program:prg:acnc:43245526192:e0ed5238-6ad6-f011-8543-000d3ad20411",
+      "program_id": "prg:acnc:43245526192:e0ed5238-6ad6-f011-8543-000d3ad20411",
+      "name": "Resource support for select Pacific region law libraries",
+      "description": "Learning technology",
+      "url": "https://www.acnc.gov.au/charity/charities/09d61d50-3aaf-e811-a962-000d3ad24a0d/documents/54ed5238-6ad6-f011-8543-000d3ad20411",
+      "status": "current",
+      "claim_basis": "direct",
+      "extraction_method": "api",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:ais:43245526192:54ed5238-6ad6-f011-8543-000d3ad20411"
+      ],
+      "time": {
+        "reporting_period": {
+          "label": "2025"
+        }
+      },
+      "warnings": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-14-rc4-fundraising-projection-correction",
-  "card_schema_version": "0.4",
-  "editorial_policy_version": "0.4-rc4",
-  "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T13:54:42.956606Z"
+  "relationships": [],
+  "classifications": [
+    {
+      "observation_id": "obs:rc4:cb_915e3bda1d544eba861cfc8d6368cf12:classification:0",
+      "classification_id": "cls:rc4:cb_915e3bda1d544eba861cfc8d6368cf12:0",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "purpose.education",
+      "term_label": "education",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:43245526192"
+      ],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_915e3bda1d544eba861cfc8d6368cf12:classification:1",
+      "classification_id": "cls:rc4:cb_915e3bda1d544eba861cfc8d6368cf12:1",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "beneficiary.regional_remote",
+      "term_label": "regional remote",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:43245526192"
+      ],
+      "confidence": "high",
+      "warnings": []
+    }
+  ],
+  "coverage": {
+    "registry_id": "capability-registry-0.5-initial",
+    "current": [
+      {
+        "capability": "regulatory.acnc_profile",
+        "status": "observed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:acnc:43245526192"
+        ]
+      },
+      {
+        "capability": "regulatory.ais",
+        "status": "observed",
+        "assessed_at": "2025-12-11",
+        "source_record_ids": [
+          "src:acnc-ais-detail:43245526192:54ed5238-6ad6-f011-8543-000d3ad20411:cb_915e3bda1d544eba861cfc8d6368cf12"
+        ],
+        "evidence_ids": [
+          "ev:acnc:ais:43245526192:54ed5238-6ad6-f011-8543-000d3ad20411"
+        ]
+      },
+      {
+        "capability": "tax.dgr",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "web.website",
+        "status": "not_available_from_source",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "report.annual_report",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "financial.report",
+        "status": "unknown",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:ais:43245526192:2023"
+        ]
+      },
+      {
+        "capability": "financial.statements",
+        "status": "unknown",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:ais:43245526192:2023"
+        ]
+      },
+      {
+        "capability": "understanding.activities",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.beneficiaries",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.geography",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "programs",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "participation",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "funding.sources",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.methods",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.expenditure",
+        "status": "not_available_from_source",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "taxonomy.causebase",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "semantic.embedding",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      }
+    ]
+  },
+  "financial_reports": [],
+  "canonical_metrics": [],
+  "analytic_projections": [],
+  "derivatives": [
+    {
+      "derivative_id": "der:rc4:cb_915e3bda1d544eba861cfc8d6368cf12:summary",
+      "kind": "summary",
+      "input_observation_ids": [],
+      "evidence_ids": [
+        "ev:acnc:43245526192",
+        "ev:ais:43245526192:2023"
+      ],
+      "generated_under": {
+        "output_contract_version": "phase2b-rc4-accepted-rc2-summary-reuse",
+        "input_hash": "8ae631e1b2bfc30486580ed9f5753967c0f5903915afa774edee1b64c4e0a588",
+        "generated_at": "2026-08-12T14:09:36.875675Z"
+      },
+      "current_assessment": {
+        "assessed_at": "2026-08-13T13:54:42.956606Z",
+        "assessed_against_contract": "0.5",
+        "governing_input_hash": "8ae631e1b2bfc30486580ed9f5753967c0f5903915afa774edee1b64c4e0a588",
+        "disposition": "reused",
+        "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs."
+      }
+    }
+  ],
+  "legacy_unbound": {
+    "origin_release": "rc4-2026-08-14",
+    "origin_card_sha256": "bae8f76b2b22d27c5df1f17b6abf5a80c5d4767df13d334f7606f7801b638aff",
+    "descriptive_geography": [
+      {
+        "value": "Australian Capital Territory (ACT)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "classifications": [
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "geography.australia",
+        "term_label": "Australia",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "geography.local_or_regional",
+        "term_label": "Local or regional Australia",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      }
+    ],
+    "financial_records": [
+      {
+        "financial_record_id": "fr:ais:cb_915e3bda1d544eba861cfc8d6368cf12:2023",
+        "period": {
+          "period_start": "2022-07-01",
+          "period_end": "2023-06-30",
+          "period_length_days": 365,
+          "label": "01/07/2022 to 30/06/2023",
+          "is_transitional_or_nonstandard": false
+        },
+        "reporting_scope": "subject",
+        "reporting_subject_causebase_id": "cb_915e3bda1d544eba861cfc8d6368cf12",
+        "covered_subjects": [
+          "cb_915e3bda1d544eba861cfc8d6368cf12"
+        ],
+        "consolidated": "unknown",
+        "attribution_method": "direct_subject_report",
+        "evidence_ids": [
+          "ev:ais:43245526192:2023"
+        ],
+        "revenue": {
+          "source_amount": "1592",
+          "source_currency": "AUD",
+          "source_unit_scale": "1",
+          "normalised_amount": "1592",
+          "normalised_currency": "AUD",
+          "source_unit_label": null,
+          "source_raw_value": "1592",
+          "source_precision": null
+        },
+        "donations": null,
+        "government_grants": null,
+        "employee_costs": null,
+        "total_expenses": {
+          "source_amount": "618",
+          "source_currency": "AUD",
+          "source_unit_scale": "1",
+          "normalised_amount": "618",
+          "normalised_currency": "AUD",
+          "source_unit_label": null,
+          "source_raw_value": "618",
+          "source_precision": null
+        },
+        "assets": null,
+        "liabilities": null,
+        "net_assets": null,
+        "income_breakdown": [],
+        "expense_breakdown": [],
+        "balance_sheet_breakdown": [],
+        "source_ordered_line_items": [],
+        "statements": [],
+        "donations_gifts_bequests": null,
+        "functional_expense_allocations": []
+      }
+    ]
+  }
 }

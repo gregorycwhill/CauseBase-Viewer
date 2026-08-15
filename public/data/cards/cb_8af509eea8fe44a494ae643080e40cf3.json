@@ -1,1213 +1,448 @@
 {
   "causebase_id": "cb_8af509eea8fe44a494ae643080e40cf3",
+  "contract_version": "0.5",
   "subject_kind": "unknown",
-  "external_identifiers": [
-    {
-      "scheme": "abn",
-      "value": "40105898173",
-      "source_evidence_id": "ev:acnc:40105898173"
-    }
+  "identity": {
+    "legal_name": "Calvary Retirement Community Ryde Limited",
+    "display_name": "Calvary Retirement Community Ryde Limited",
+    "operating_names": [],
+    "former_names": [],
+    "entity_status": "registered",
+    "website": "https://www.calvarycare.org.au",
+    "external_identifiers": [
+      {
+        "scheme": "abn",
+        "value": "40105898173",
+        "evidence_ids": [
+          "ev:acnc:40105898173"
+        ]
+      }
+    ],
+    "registrations": [
+      {
+        "regulator": "ACNC",
+        "status": "registered",
+        "evidence_ids": [
+          "ev:acnc:40105898173"
+        ]
+      }
+    ],
+    "tax_statuses": [
+      {
+        "scheme": "ABR DGR",
+        "status": "endorsed",
+        "evidence_ids": [
+          "ev:abr-dgr:40105898173:20260805"
+        ]
+      }
+    ]
+  },
+  "release": {
+    "release_id": "v0.5.0-2026-08-15",
+    "dataset_version": "0.5.0-2026-08-15",
+    "contract_version": "0.5",
+    "based_on_release": "rc4-2026-08-14",
+    "generated_at": "2026-08-15T00:00:00Z"
+  },
+  "source_record_refs": [
+    "src:acnc-public-profile:40105898173:d20f4d9b-38af-e811-a95e-000d3ad24c60:cb_8af509eea8fe44a494ae643080e40cf3",
+    "src:acnc-ais-detail:40105898173:6a2ffd66-45c8-e811-a964-000d3ad24077:cb_8af509eea8fe44a494ae643080e40cf3"
   ],
-  "registrations": [
-    {
-      "regulator": "ACNC",
-      "registration_id": null,
-      "status": "registered",
-      "evidence_ids": [
-        "ev:acnc:40105898173"
-      ]
-    }
-  ],
-  "tax_statuses": [
-    {
-      "scheme": "ABR DGR",
-      "status": "endorsed",
-      "detail": "Dated 2026-08-05 ABR bulk observation",
-      "evidence_ids": [
-        "ev:abr-dgr:40105898173:20260805"
-      ]
-    }
-  ],
-  "relationships": [],
-  "source_resolutions": [
+  "source_bindings": [
     {
       "source_record_id": "src:acnc-register:2e2aac73-41f5-5345-8942-5a81feb66535",
       "resolution_status": "resolved",
       "resolution_basis": "automated authoritative ACNC promotion under acnc-authoritative-v1",
       "confidence": "high",
-      "supporting_signals": [
-        "ABN:40105898173",
-        "ACNC Register"
-      ],
-      "conflicting_signals": [],
-      "review_status": "not_required"
-    }
-  ],
-  "legal_name": "Calvary Retirement Community Ryde Limited",
-  "display_name": "Calvary Retirement Community Ryde Limited",
-  "entity_status": "registered",
-  "canonical_url": "https://gregorycwhill.github.io/CauseBase-Viewer/#cb_8af509eea8fe44a494ae643080e40cf3",
-  "acnc_profile_url": "https://www.acnc.gov.au/charity/charities/d20f4d9b-38af-e811-a95e-000d3ad24c60/profile",
-  "acnc_ais_url": "https://www.acnc.gov.au/charity/charities/d20f4d9b-38af-e811-a95e-000d3ad24c60/documents/6a2ffd66-45c8-e811-a964-000d3ad24077",
-  "operating_names": [],
-  "former_names": [],
-  "principal_location": "NSW, Australia",
-  "coverage": [
-    {
-      "capability": "regulatory",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:acnc:40105898173"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "annual_report",
-      "status": "not_yet_processed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "fundraising_expenditure",
-      "status": "not_yet_processed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "financials",
-      "status": "not_found_in_source",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "latest_acnc_ais",
-      "status": "observed",
-      "source_record_id": "src:acnc-ais-detail:40105898173:6a2ffd66-45c8-e811-a964-000d3ad24077:cb_8af509eea8fe44a494ae643080e40cf3",
-      "evidence_ids": [
-        "ev:acnc:ais:40105898173:6a2ffd66-45c8-e811-a964-000d3ad24077"
-      ],
-      "observed_at": "2013-11-20",
-      "freshness_note": "Latest submitted AIS detail acquired from the public ACNC entity endpoint."
-    },
-    {
-      "capability": "website",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-13",
-      "freshness_note": "Public website locator acquired from the ACNC profile."
-    }
-  ],
-  "enrichment_level": "enriched",
-  "website": "https://www.calvarycare.org.au",
-  "geography": [
-    "Ryde, New South Wales",
-    "Australia"
-  ],
-  "geography_observations": [
-    {
-      "value": "Ryde, New South Wales",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Australia",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "navigation_geography": [],
-  "causebase_summary": "Calvary Retirement Community Ryde Limited is a Calvary Health Care provider based in Ryde, New South Wales (evidence current to 2026). It operates health and aged‑care services in the locality, including hospitals, residential aged care, retirement living and home care. The organisation publishes clinical safety and quality data and maintains careers and recruitment information. It supports volunteer programmes and auxiliaries and runs public events for residents, including the Calvary Residential Aged Care Games. Its stated mission includes providing healthcare to vulnerable people, including those reaching the end of life.",
-  "summary_evidence_ids": [
-    "ev:web:40105898173:2026-08-10",
-    "ev:acnc:40105898173"
-  ],
-  "organisation_self_description": null,
-  "activities": [
-    "Operates hospitals",
-    "Provides residential aged care services",
-    "Provides retirement living and home care services",
-    "Publishes annual clinical safety and quality data",
-    "Supports volunteer programmes and auxiliaries",
-    "Hosts public events including residential aged care games",
-    "Maintains careers and recruitment information"
-  ],
-  "activity_observations": [
-    {
-      "value": "Operates hospitals",
-      "source_role": "legacy_source_qualifier",
-      "provenance_note": "organisation-level",
-      "evidence_ids": []
-    },
-    {
-      "value": "Provides residential aged care services",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Provides retirement living and home care services",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Publishes annual clinical safety and quality data",
-      "source_role": "legacy_source_qualifier",
-      "provenance_note": "organisation-level",
-      "evidence_ids": []
-    },
-    {
-      "value": "Supports volunteer programmes and auxiliaries",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Hosts public events including residential aged care games",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Maintains careers and recruitment information",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "beneficiaries": [
-    "People receiving hospital care (patients)",
-    "Residents of aged care and retirement living services",
-    "People nearing end of life or described as vulnerable",
-    "Volunteers and auxiliary members involved in fundraising and support"
-  ],
-  "beneficiary_observations": [
-    {
-      "value": "People receiving hospital care (patients)",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Residents of aged care and retirement living services",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "People nearing end of life or described as vulnerable",
-      "source_role": "legacy_source_qualifier",
-      "provenance_note": "organisation-stated",
-      "evidence_ids": []
-    },
-    {
-      "value": "Volunteers and auxiliary members involved in fundraising and support",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "participation_modes": [
-    "Volunteering (volunteers and auxiliaries)",
-    "Public events (including games and community events)",
-    "Auxiliary-led fundraising and donations"
-  ],
-  "participation_observations": [],
-  "opportunities": [],
-  "programs": [],
-  "source_native_records": [
-    {
-      "source_record_id": "src:acnc-public-profile:40105898173:d20f4d9b-38af-e811-a95e-000d3ad24c60:cb_8af509eea8fe44a494ae643080e40cf3",
-      "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-14-public-api",
-      "source_url": "https://www.acnc.gov.au/charity/charities/d20f4d9b-38af-e811-a95e-000d3ad24c60/profile",
-      "retrieved_at": "2026-08-13T13:54:42.956606Z",
-      "observed_at": "2013-11-20",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "uuid": "d20f4d9b-38af-e811-a95e-000d3ad24c60",
-        "abn": "40105898173"
-      },
-      "source_payload": {
-        "data": {
-          "AFSAddressPostalCode": "2000",
-          "AFSEmail": "company.secretary@calvarycare.org.au",
-          "Abn": "40105898173",
-          "AddressCountry": "AUSTRALIA",
-          "AddressLine1": "L15",
-          "AddressLine2": "345 George Street",
-          "AddressLine3": null,
-          "AddressPostalCode": "2000",
-          "AddressStateOrProvince": "NSW",
-          "AddressSuburb": "Sydney",
-          "AddressSuburbStatePostcode": "Sydney NSW 2000",
-          "AnnualReports": [
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required - group",
-              "Year": "2019",
-              "type": "Financial Report 2019",
-              "uuid": "b010e2a6-ec25-e911-a979-000d3ad05ad0"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": true,
-              "Status": "Not required - group",
-              "Year": "2019",
-              "type": "Annual Information Statement 2019",
-              "uuid": "d910e2a6-ec25-e911-a979-000d3ad05ad0"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required - group",
-              "Year": "2020",
-              "type": "Financial Report 2020",
-              "uuid": "1011e2a6-ec25-e911-a979-000d3ad05ad0"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": true,
-              "Status": "Not required - group",
-              "Year": "2020",
-              "type": "Annual Information Statement 2020",
-              "uuid": "4911e2a6-ec25-e911-a979-000d3ad05ad0"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": true,
-              "Status": "Not required - group",
-              "Year": "2022",
-              "type": "Annual Information Statement 2022",
-              "uuid": "72fa73e0-6d4b-eb11-bb23-000d3ad1cd99"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": true,
-              "Status": "Not required - group",
-              "Year": "2023",
-              "type": "Annual Information Statement 2023",
-              "uuid": "96fa73e0-6d4b-eb11-bb23-000d3ad1cd99"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required - group",
-              "Year": "2022",
-              "type": "Financial Report 2022",
-              "uuid": "bcfa73e0-6d4b-eb11-bb23-000d3ad1cd99"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required - group",
-              "Year": "2023",
-              "type": "Financial Report 2023",
-              "uuid": "d6fa73e0-6d4b-eb11-bb23-000d3ad1cd99"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": true,
-              "Status": "Not required - group",
-              "Year": "2021",
-              "type": "Annual Information Statement 2021",
-              "uuid": "ecc664e7-d02b-ea11-a812-000d3ad1ce4e"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required - group",
-              "Year": "2021",
-              "type": "Financial Report 2021",
-              "uuid": "0bc764e7-d02b-ea11-a812-000d3ad1ce4e"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": true,
-              "Status": "Not required - group",
-              "Year": "2014",
-              "type": "Annual Information Statement 2014",
-              "uuid": "8b35767e-3ac8-e811-a962-000d3ad24182"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": true,
-              "Status": "Not required - group",
-              "Year": "2015",
-              "type": "Annual Information Statement 2015",
-              "uuid": "9335767e-3ac8-e811-a962-000d3ad24182"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": true,
-              "Status": "Not required - group",
-              "Year": "2017",
-              "type": "Annual Information Statement 2017",
-              "uuid": "9b35767e-3ac8-e811-a962-000d3ad24182"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": true,
-              "Status": "Not required - group",
-              "Year": "2018",
-              "type": "Annual Information Statement 2018",
-              "uuid": "a435767e-3ac8-e811-a962-000d3ad24182"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": true,
-              "Status": "Not required - group",
-              "Year": "2016",
-              "type": "Annual Information Statement 2016",
-              "uuid": "ac35767e-3ac8-e811-a962-000d3ad24182"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required - group",
-              "Year": "2018",
-              "type": "Financial Report 2018",
-              "uuid": "9a57c82c-3ec8-e811-a962-000d3ad24182"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required - group",
-              "Year": "2016",
-              "type": "Financial Report 2016",
-              "uuid": "b057c82c-3ec8-e811-a962-000d3ad24182"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required - group",
-              "Year": "2017",
-              "type": "Financial Report 2017",
-              "uuid": "c857c82c-3ec8-e811-a962-000d3ad24182"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required - group",
-              "Year": "2013",
-              "type": "Financial Report 2013",
-              "uuid": "da57c82c-3ec8-e811-a962-000d3ad24182"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required - group",
-              "Year": "2014",
-              "type": "Financial Report 2014",
-              "uuid": "f657c82c-3ec8-e811-a962-000d3ad24182"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required - group",
-              "Year": "2015",
-              "type": "Financial Report 2015",
-              "uuid": "ad840b2e-3ec8-e811-a961-000d3ad24282"
-            },
-            {
-              "AISId": "6a2ffd66-45c8-e811-a964-000d3ad24077",
-              "DateReceived": "2013-11-20T13:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2014-03-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2013",
-              "type": "Annual Information Statement 2013",
-              "uuid": "5a66b266-45c8-e811-a964-000d3ad244fd"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": true,
-              "Status": "Not required - group",
-              "Year": "2025",
-              "type": "Annual Information Statement 2025",
-              "uuid": "10ab9949-96c0-ee11-907a-002248122b18"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required - group",
-              "Year": "2025",
-              "type": "Financial Report 2025",
-              "uuid": "2cab9949-96c0-ee11-907a-002248122b18"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": true,
-              "Status": "Not required - group",
-              "Year": "2024",
-              "type": "Annual Information Statement 2024",
-              "uuid": "e3c7a65e-c8a1-ed11-aad1-00224893b8c7"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required - group",
-              "Year": "2024",
-              "type": "Financial Report 2024",
-              "uuid": "1ac8a65e-c8a1-ed11-aad1-00224893b8c7"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": true,
-              "Status": "Not required - group",
-              "Year": "2026",
-              "type": "Annual Information Statement 2026",
-              "uuid": "b2f95f57-dedf-ef11-a731-002248981715"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required - group",
-              "Year": "2026",
-              "type": "Financial Report 2026",
-              "uuid": "c3f95f57-dedf-ef11-a731-002248981715"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": true,
-              "Status": "Not required - group",
-              "Year": "2027",
-              "type": "Annual Information Statement 2027",
-              "uuid": "a2ba94b0-05ff-f011-8407-6045bdc4655a"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required - group",
-              "Year": "2027",
-              "type": "Financial Report 2027",
-              "uuid": "ceba94b0-05ff-f011-8407-6045bdc4655a"
-            }
-          ],
-          "Beneficiaries": [
-            {
-              "Description": null,
-              "Name": "Adults - aged 65 and over",
-              "uuid": "028a3ff0-77bc-e811-a962-000d3ad24182"
-            },
-            {
-              "Description": null,
-              "Name": "People with chronic illness (including terminal illness)",
-              "uuid": "568a3ff0-77bc-e811-a962-000d3ad24182"
-            },
-            {
-              "Description": null,
-              "Name": "General community in Australia",
-              "uuid": "33f5c5f2-77bc-e811-a963-000d3ad24a0d"
-            }
-          ],
-          "CharitySize": null,
-          "CharitySubtypeHistory": [
-            {
-              "EndDate": "2013-12-30T13:00:00.0000000Z",
-              "Purpose": "2012 Another purpose beneficial to the community",
-              "StartDate": "2012-12-02T13:00:00.0000000Z",
-              "uuid": "9e8a7cd1-fcc6-e811-a95f-000d3ad24c60"
-            },
-            {
-              "EndDate": "2013-12-30T13:00:00.0000000Z",
-              "Purpose": "2012 Public benevolent institution",
-              "StartDate": "2012-12-02T13:00:00.0000000Z",
-              "uuid": "a38a7cd1-fcc6-e811-a95f-000d3ad24c60"
-            },
-            {
-              "EndDate": null,
-              "Purpose": "Public Benevolent Institution (PBI)",
-              "StartDate": "2013-12-31T13:00:00.0000000Z",
-              "uuid": "a78a7cd1-fcc6-e811-a95f-000d3ad24c60"
-            }
-          ],
-          "CharityVersion": "153",
-          "ChildMemberEndDate": null,
-          "ChildMemberStartDate": "2013-07-01T00:00:00.0000000",
-          "ChooseToProvideAis": null,
-          "Countries": [],
-          "DateEstablished": "1994-12-31T13:00:00.0000000Z",
-          "Documents": [
-            {
-              "Date": "2023-12-15T00:00:00.0000000",
-              "Title": "Constitution - Calvary Retirement Community Ryde Limited (not active) 2023.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/d20f4d9b-38af-e811-a95e-000d3ad24c60-24506e12-056b-40d7-bb92-e121961c5834-Governing%20Document-6380f3b1-049b-ee11-be37-00224893bd39-Constitution_-_Calvary_Retirement_Community_Ryde_Limited_(not_active)_2023.pdf",
-              "Year": null,
-              "type": "Governing Document",
-              "uuid": "6380f3b1-049b-ee11-be37-00224893bd39"
-            }
-          ],
-          "Email": "company.secretary@calvarycare.org.au",
-          "EnforcementOutcomes": [],
-          "FinancialYearEnd": "30/06",
-          "GovernmentAgencies": [
-            {
-              "Name": "Australian Securities and Investment Commission",
-              "ReferenceNumber": "105898173",
-              "uuid": "b4e490be-e6af-e811-a95e-000d3ad24c60"
-            }
-          ],
-          "GroupHeadFlag": false,
-          "LastReported": "2013-11-20T13:00:00.0000000Z",
-          "Name": "Calvary Retirement Community Ryde Limited",
-          "NextReportDue": "",
-          "OperatingInStates": [
-            {
-              "Name": "New South Wales",
-              "uuid": "2bf593a5-455e-e811-a95c-000d3ad1c715"
-            }
-          ],
-          "OtherDetails": null,
-          "OtherNames": [],
-          "ParentAccountAbn": null,
-          "ParentAccountId": "77eaa156-3aaf-e811-a963-000d3ad24077",
-          "Phone": "02 9258 1700",
-          "Programs": [],
-          "ReferendumReturnsUrl": null,
-          "RegistrationStatusHistory": [
-            {
-              "EffectiveDate": "2012-12-02T13:00:00.0000000Z",
-              "Status": "Registered",
-              "TransactionDate": "2012-12-02T13:00:00.0000000Z",
-              "uuid": "1c3d0e81-06c6-e811-a964-000d3ad24077"
-            }
-          ],
-          "RelatedPartyTransactions": null,
-          "RelevantTransactions": null,
-          "ReportingLate": "9999-12-31T23:59:59.9999999",
-          "ResponsiblePersons": [
-            {
-              "Name": "Agnes Sheehan",
-              "Role": "Director",
-              "uuid": "5eed5142-abca-f011-bbd3-6045bde679a9"
-            },
-            {
-              "Name": "Christopher Baggoley",
-              "Role": "Director",
-              "uuid": "a4eceba5-cdfd-e811-a96e-000d3ad06f2d"
-            },
-            {
-              "Name": "Annette Carruthers",
-              "Role": "Director",
-              "uuid": "fd7191e3-3841-ec11-8c60-000d3acbc316"
-            },
-            {
-              "Name": "Lucille Scomazzon",
-              "Role": "Director",
-              "uuid": "f17291e3-3841-ec11-8c60-000d3acbc316"
-            },
-            {
-              "Name": "Yvonne Le Bas",
-              "Role": "Director",
-              "uuid": "00427c3e-a3a7-ed11-aad1-00224893b0ed"
-            },
-            {
-              "Name": "Jessica Roberts",
-              "Role": "Secretary",
-              "uuid": "307c12ed-0a25-e911-a96a-000d3ad24182"
-            },
-            {
-              "Name": "David Issa",
-              "Role": "Director",
-              "uuid": "47554d78-4e8a-ee11-be36-00224893b8c7"
-            },
-            {
-              "Name": "Jacinth Fairley",
-              "Role": "Director",
-              "uuid": "40fb4a06-7b55-f011-bec2-000d3acbc570"
-            },
-            {
-              "Name": "KATHY MARIE Alexander",
-              "Role": "Director",
-              "uuid": "d25c328b-012b-f011-8c4d-00224810afff"
-            },
-            {
-              "Name": "Gregory Cooper",
-              "Role": "Chairperson",
-              "uuid": "54131d53-2acf-f011-bbd2-6045bdc2f68c"
-            }
-          ],
-          "Status": "Registered",
-          "SummaryOfActivities": "Our purpose is the maintenance/enhancement of the overall quality of life, dignity and well-being of every individual needing care, particularly at the most vulnerable times of their life. LCMHC provides careto improve patient journeys and reduce interface issues with health agencies. In 2012/2013: * Introduced over 5,000 new lives; * Undertook 110,000 procedures; * Admitted over 191,500 patients to our hospitals; * Aged Care welcomed 728 new residents; * Community Care provided over one million hours of support (10,000 clients monthly). We undertook discovery and diagnostic projects across three regional areas collecting population and service data around Palliative End of Life Care for the ACT, Hunter-Manning and South Australia (hospitals, aged and community), with a view to implementing strategies to deliver an integrated model of care, focussing on PEoLC. We operate in areas that do not attract for-profit investment. Major projects: * Calvary Lenah Valley Hospital - theatre redevelopment and endoscopy unit; * Calvary North Adelaide Hospital: St. Helens Ward and maternity refurbishment; day surgery and new theatre. * Calvary Central Districts Hospital: Cancer Centre. * Calvary Riverina: rural medical school; drug and alcohol rehabilitation; specialist palliative care and rehabilitation units. * Plans are advanced to build a $20 million, 60 bed retirement and aged care facility at Muswellbrook, including 35 to 40 Independent Living Units.",
-          "TotalExpensesEmployee": "0",
-          "TotalExpensesGrantsAndDonationsInAustralia": "0",
-          "TotalExpensesGrantsAndDonationsOutsideAustralia": "0",
-          "TotalExpensesInterest": "0",
-          "TotalExpensesOther": "0",
-          "TotalGrossIncomeDonationsAndRequests": "0",
-          "TotalGrossIncomeGoodsOrServices": "0",
-          "TotalGrossIncomeGovernmentGrants": "0",
-          "TotalGrossIncomeInvestments": "0",
-          "TotalGrossIncomeOtherRevenues": "0",
-          "TransparencyRegisterUrl": null,
-          "Website": "https://www.calvarycare.org.au",
-          "__normalized": true,
-          "type": "charity",
-          "uuid": "d20f4d9b-38af-e811-a95e-000d3ad24c60"
-        },
-        "type": "charity",
-        "uuid": "d20f4d9b-38af-e811-a95e-000d3ad24c60"
-      },
-      "canonical_field_mappings": {
-        "data.OtherNames": "operating_names",
-        "data.AddressStateOrProvince": "principal_location"
-      },
-      "evidence_ids": []
-    },
-    {
-      "source_record_id": "src:acnc-ais-detail:40105898173:6a2ffd66-45c8-e811-a964-000d3ad24077:cb_8af509eea8fe44a494ae643080e40cf3",
-      "source_family": "acnc-ais-detail",
-      "dataset_version": "2026-08-14-public-api",
-      "source_url": "https://www.acnc.gov.au/charity/charities/d20f4d9b-38af-e811-a95e-000d3ad24c60/documents/6a2ffd66-45c8-e811-a964-000d3ad24077",
-      "retrieved_at": "2026-08-13T13:54:42.956606Z",
-      "observed_at": "2013-11-20",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "abn": "40105898173",
-        "ais_uuid": "6a2ffd66-45c8-e811-a964-000d3ad24077",
-        "year": "2013",
-        "date_received": "2013-11-20T13:00:00.0000000Z"
-      },
-      "source_payload": {
-        "data": {
-          "Abn": "40105898173",
-          "ActivityAdvocacyNCivic": false,
-          "ActivityAgedCare": false,
-          "ActivityAnimalProtection": false,
-          "ActivityCultureAndArt": false,
-          "ActivityEconomicSocialCommunity": false,
-          "ActivityEmergencyNRelief": false,
-          "ActivityEmploymentNTraining": false,
-          "ActivityEnvironmental": false,
-          "ActivityGrantMaking": false,
-          "ActivityHealthRehabilitation": false,
-          "ActivityHigherEducation": false,
-          "ActivityHousing": false,
-          "ActivityIncomeSupportNMaintenance": false,
-          "ActivityInternational": false,
-          "ActivityInternationalDescription": null,
-          "ActivityInternationalOther": false,
-          "ActivityInternationalOtherDescription": null,
-          "ActivityLawNLegalServices": false,
-          "ActivityMain": "Aged care activities",
-          "ActivityMentalHealthCrisisIntervention": false,
-          "ActivityNdisSupported": null,
-          "ActivityNdisSupportedNext": null,
-          "ActivityOperating": true,
-          "ActivityOperatingOverseas": false,
-          "ActivityOther": false,
-          "ActivityOtherDescription": null,
-          "ActivityOtherEducation": false,
-          "ActivityOtherHealthServices": false,
-          "ActivityPersuitPurposesDescription": "Our purpose is the maintenance/enhancement of the overall quality of life, dignity and well-being of every individual needing care, particularly at the most vulnerable times of their life. LCMHC provides careto improve patient journeys and reduce interface issues with health agencies. In 2012/2013: * Introduced over 5,000 new lives; * Undertook 110,000 procedures; * Admitted over 191,500 patients to our hospitals; * Aged Care welcomed 728 new residents; * Community Care provided over one million hours of support (10,000 clients monthly). We undertook discovery and diagnostic projects across three regional areas collecting population and service data around Palliative End of Life Care for the ACT, Hunter-Manning and South Australia (hospitals, aged and community), with a view to implementing strategies to deliver an integrated model of care, focussing on PEoLC. We operate in areas that do not attract for-profit investment. Major projects: * Calvary Lenah Valley Hospital - theatre redevelopment and endoscopy unit; * Calvary North Adelaide Hospital: St. Helens Ward and maternity refurbishment; day surgery and new theatre. * Calvary Central Districts Hospital: Cancer Centre. * Calvary Riverina: rural medical school; drug and alcohol rehabilitation; specialist palliative care and rehabilitation units. * Plans are advanced to build a $20 million, 60 bed retirement and aged care facility at Muswellbrook, including 35 to 40 Independent Living Units.",
-          "ActivityPhilanthropicPromotion": false,
-          "ActivityPolitical": false,
-          "ActivityPrimarySecondaryEducation": false,
-          "ActivityPurposeChange": null,
-          "ActivityPurposeChangeDescription": null,
-          "ActivityRecreationSocialClub": false,
-          "ActivityReligious": false,
-          "ActivityResearch": false,
-          "ActivitySocialServices": false,
-          "ActivitySports": false,
-          "ActivityTransferringFundsGoods": false,
-          "AdvancementOfEducation": false,
-          "AdvancementOfReligion": false,
-          "AssetsandLiabilitiesDescription": null,
-          "BasicReligiousCharity": false,
-          "BeneficiaryAboriginalTorres": false,
-          "BeneficiaryAdults": false,
-          "BeneficiaryAllAges": false,
-          "BeneficiaryChildren": false,
-          "BeneficiaryChronicIllness": true,
-          "BeneficiaryCrimeVictims": false,
-          "BeneficiaryDisasterVictims": false,
-          "BeneficiaryEarlyChildhood": false,
-          "BeneficiaryEthnic": false,
-          "BeneficiaryFamilies": false,
-          "BeneficiaryFinanciallyDisadvantaged": false,
-          "BeneficiaryGeneral": true,
-          "BeneficiaryHomelessnessRisk": false,
-          "BeneficiaryLGBT": false,
-          "BeneficiaryMain": null,
-          "BeneficiaryMen": false,
-          "BeneficiaryMigrantsRefugees": false,
-          "BeneficiaryOffenderFamilies": false,
-          "BeneficiaryOther": false,
-          "BeneficiaryOtherCharities": false,
-          "BeneficiaryOtherDescription": null,
-          "BeneficiaryOverseas": false,
-          "BeneficiaryPeopleWithDisability": false,
-          "BeneficiaryRuralRegionalRemote": false,
-          "BeneficiarySeniors": true,
-          "BeneficiaryUnemployed": false,
-          "BeneficiaryVeteranFamilies": false,
-          "BeneficiaryWomen": false,
-          "BeneficiaryYouth": false,
-          "CharityAddressCountry": "AUSTRALIA",
-          "CharityAddressLine1": "L15",
-          "CharityAddressLine2": "345 George Street",
-          "CharityAddressPostalCode": "2000",
-          "CharityAddressStateOrProvince": "NSW",
-          "CharityAddressSuburb": "Sydney",
-          "CharityEmail": "company.secretary@calvarycare.org.au",
-          "CharitySize": "Large",
-          "CharityUuid": "d20f4d9b-38af-e811-a95e-000d3ad24c60",
-          "ChildCareServices": false,
-          "ExpenseEmployees": "0.0000",
-          "ExpenseGrantDonationsInAustralia": "0.0000",
-          "ExpenseGrantDonationsOutsideAustralia": "0.0000",
-          "ExpenseTotal": "0.0000",
-          "ExpensesOther": "0.0000",
-          "FinAccrualAccounting": null,
-          "FinConsolidatedReportFromMiltiple": null,
-          "FinDocumentedPoliciesRelatedPartyTransactions": null,
-          "FinFyeJune": true,
-          "FinProvideVoluntarily": null,
-          "FinRelatedPartyTransactions": null,
-          "FinReportACT": false,
-          "FinReportFrom": null,
-          "FinReportNSW": false,
-          "FinReportNT": false,
-          "FinReportQLD": false,
-          "FinReportSA": false,
-          "FinReportTAS": false,
-          "FinReportTo": null,
-          "FinReportVIC": false,
-          "FinReportWA": false,
-          "FinReportingType": null,
-          "FinSapDate": null,
-          "FundRaisingNumberACT": null,
-          "FundRaisingNumberNSW": null,
-          "FundRaisingNumberQLD": null,
-          "FundRaisingNumberSA": null,
-          "FundRaisingNumberTAS": null,
-          "FundRaisingNumberVIC": null,
-          "FundRaisingNumberWA": null,
-          "GovDocAccurate": null,
-          "GrantCapacityBuildingPct": null,
-          "GrantMultiYearPct": null,
-          "GrantPublicOpenApplicationPct": null,
-          "GrantRuralRegionPct": null,
-          "HasSubmittedToRegulator": false,
-          "HoursPaid": null,
-          "HoursTotal": null,
-          "HoursVolunteer": null,
-          "HrCasualEmployees": "0",
-          "HrFteStaff": "",
-          "HrFullTimeEmployees": "15",
-          "HrPartTimeEmployees": "81",
-          "HrUnpainVolunteers": "45",
-          "IncomeDonationsBequests": "0.0000",
-          "IncomeGovernmentGrants": "0.0000",
-          "IncomeOther": "0.0000",
-          "IncomeOtherComprehinsive": "0.0000",
-          "IncomeOtherNeg": "0.0000",
-          "IncomeOtherReceipts": "0.0000",
-          "IncomeTotalComprehensive": "0.0000",
-          "IncomeTotalReceipts": "0.0000",
-          "IncorporationStatus": null,
-          "InterestExpense": "0.0000",
-          "IsIncorporatedAssociation": false,
-          "KeyManagementPersonnel": null,
-          "LegalName": "Calvary Retirement Community Ryde Limited",
-          "NetAssetsLiabilities": "0.0000",
-          "NetSurplusDeficit": "0.0000",
-          "NonCurrentLoansPayable": "0.0000",
-          "NumberOfKeyManagementPersonnel": "",
-          "OperatingCountries": null,
-          "OperatingInACT": false,
-          "OperatingInNSW": true,
-          "OperatingInNT": false,
-          "OperatingInQLD": false,
-          "OperatingInSA": false,
-          "OperatingInTAS": false,
-          "OperatingInVIC": false,
-          "OperatingInWA": false,
-          "OperatingOverseas": false,
-          "OtherNames": [],
-          "OtherNonCurrentAssets": "0.0000",
-          "OtherNonCurrentLiabilities": "0.0000",
-          "OtherPurposeDescription": null,
-          "OtherPurposes": "False",
-          "Programs": [],
-          "RegulatedACT": false,
-          "RegulatedNSW": false,
-          "RegulatedNT": false,
-          "RegulatedQLD": false,
-          "RegulatedSA": false,
-          "RegulatedTAS": false,
-          "RegulatedVIC": false,
-          "RegulatedWA": false,
-          "Regulator": null,
-          "RegulatorAGMDateACT": null,
-          "RegulatorAGMDateNT": null,
-          "RegulatorAGMDateVIC": null,
-          "RegulatorAGMDateWA": null,
-          "RegulatorFundRaising": null,
-          "RegulatorFundRaisingACT": false,
-          "RegulatorFundRaisingNSW": false,
-          "RegulatorFundRaisingNT": false,
-          "RegulatorFundRaisingOnline": false,
-          "RegulatorFundRaisingQLD": false,
-          "RegulatorFundRaisingSA": false,
-          "RegulatorFundRaisingTAS": false,
-          "RegulatorFundRaisingVIC": false,
-          "RegulatorFundRaisingWA": false,
-          "RegulatorIncorporatedAssociationACT": false,
-          "RegulatorIncorporatedAssociationNSW": false,
-          "RegulatorIncorporatedAssociationNT": false,
-          "RegulatorIncorporatedAssociationNumberACT": null,
-          "RegulatorIncorporatedAssociationNumberNSW": null,
-          "RegulatorIncorporatedAssociationNumberNT": null,
-          "RegulatorIncorporatedAssociationNumberQLD": null,
-          "RegulatorIncorporatedAssociationNumberSA": null,
-          "RegulatorIncorporatedAssociationNumberTAS": null,
-          "RegulatorIncorporatedAssociationNumberVIC": null,
-          "RegulatorIncorporatedAssociationNumberWA": null,
-          "RegulatorIncorporatedAssociationQLD": false,
-          "RegulatorIncorporatedAssociationSA": false,
-          "RegulatorIncorporatedAssociationTAS": false,
-          "RegulatorIncorporatedAssociationVIC": false,
-          "RegulatorIncorporatedAssociationWA": false,
-          "RegulatorMetRequirementACT": false,
-          "RegulatorMetRequirementWA": null,
-          "RegulatorOtherDetails": null,
-          "RegulatorPrograms": null,
-          "RegulatorStates": false,
-          "RelatedPartyDetails": null,
-          "RelatedPartyTransactions": [],
-          "ReliefOfPoverty": true,
-          "ReportingGroupFlag": false,
-          "ResponsiblePersonAccurate": null,
-          "RevenueGoodsServices": "0.0000",
-          "RevenueInvestments": "0.0000",
-          "RevenueTotal": "0.0000",
-          "StatementYear": "2013",
-          "SubTypesAccurate": null,
-          "TotalAssets": "0.0000",
-          "TotalCurrentAssets": "0.0000",
-          "TotalCurrentLiabilities": "0.0000",
-          "TotalLiabilities": "0.0000",
-          "TotalNonCurrentAssets": "0.0000",
-          "TotalNonCurrentLiabilities": "0.0000",
-          "TotalNonCurrentLoansReceivable": "0.0000",
-          "TotalPaidKMP": null,
-          "Website": null,
-          "__normalized": true,
-          "entityTypeVersion": "",
-          "entityVersion": "159412648",
-          "timeStamp": "2018-11-01T08:04:49.0000000Z",
-          "type": "annual_information_statement",
-          "uuid": "6a2ffd66-45c8-e811-a964-000d3ad24077"
-        },
-        "type": "annual_information_statement",
-        "uuid": "6a2ffd66-45c8-e811-a964-000d3ad24077"
-      },
-      "canonical_field_mappings": {
-        "data.Programs": "programs",
-        "data.TotalRevenue": "financial_records[].revenue",
-        "data.TotalExpenses": "financial_records[].total_expenses"
-      },
-      "evidence_ids": [
-        "ev:acnc:ais:40105898173:6a2ffd66-45c8-e811-a964-000d3ad24077"
-      ]
-    }
-  ],
-  "financial_records": [],
-  "financial_metrics": [],
-  "fundraising_expenditure": null,
-  "funding_sources": [],
-  "fundraising_methods": [],
-  "classifications": [
-    {
-      "taxonomy_id": "acnc-register",
-      "taxonomy_version": "2026-08-10",
-      "term_id": "purpose.other_purpose",
-      "term_label": "other purpose",
-      "assignment_method": "source_native",
-      "confidence": "high",
-      "evidence_ids": [
-        "ev:acnc:40105898173"
-      ]
-    },
-    {
-      "taxonomy_id": "acnc-register",
-      "taxonomy_version": "2026-08-10",
-      "term_id": "beneficiary.older_people",
-      "term_label": "older people",
-      "assignment_method": "source_native",
-      "confidence": "high",
-      "evidence_ids": [
-        "ev:acnc:40105898173"
-      ]
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "activity.direct_service",
-      "term_label": "Direct service delivery",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "activity.events_and_public_programming",
-      "term_label": "Events and public programming",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "participation.volunteering",
-      "term_label": "Volunteering",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "participation.public_events",
-      "term_label": "Public events",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "approach.volunteer_enabled",
-      "term_label": "Volunteer-enabled delivery",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "geography.local_or_regional",
-      "term_label": "Local or regional Australia",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "geography.australia",
-      "term_label": "Australia",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "beneficiary.people_experiencing_disadvantage",
-      "term_label": "People experiencing disadvantage",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
+      "review_status": "not_required",
+      "conflicting_signals": []
     }
   ],
   "evidence": [
     {
       "evidence_id": "ev:acnc:40105898173",
-      "source_type": "regulatory",
-      "title": "ACNC Register extract",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": null,
-      "observed_at": "2026-08-10",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "title": "ACNC Register extract"
     },
     {
       "evidence_id": "ev:web:40105898173:2026-08-10",
-      "source_type": "organisation_self_report",
       "title": "Organisation website homepage",
-      "publisher": "Calvary Retirement Community Ryde Limited",
-      "url": "https://www.calvarycare.org.au",
-      "observed_at": "2026-08-10",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://www.calvarycare.org.au"
     },
     {
       "evidence_id": "ev:acnc:ais:40105898173:6a2ffd66-45c8-e811-a964-000d3ad24077",
-      "source_type": "regulatory",
       "title": "ACNC Annual Information Statement 2013",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": "https://www.acnc.gov.au/charity/charities/d20f4d9b-38af-e811-a95e-000d3ad24c60/documents/6a2ffd66-45c8-e811-a964-000d3ad24077",
-      "observed_at": "2013-11-20",
-      "reporting_period": "2013",
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://www.acnc.gov.au/charity/charities/d20f4d9b-38af-e811-a95e-000d3ad24c60/documents/6a2ffd66-45c8-e811-a964-000d3ad24077"
     },
     {
       "evidence_id": "ev:abr-dgr:40105898173:20260805",
-      "source_type": "regulatory",
       "title": "ABR DGR bulk observation",
-      "publisher": "Australian Business Register / Australian Taxation Office",
-      "url": "https://abr.business.gov.au/Tools/BulkExtract",
-      "observed_at": "2026-08-05",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://abr.business.gov.au/Tools/BulkExtract"
     }
   ],
-  "embedding": {
-    "embedding_id": "cb_8af509eea8fe44a494ae643080e40cf3:entity:text-embedding-3-small",
-    "embedding_type": "entity",
-    "model_id": "text-embedding-3-small",
-    "model_version": "text-embedding-3-small",
-    "dimensions": 1536,
-    "source_text_hash": "45d5a69993d6aa7594838abb03fef57742fa856b5e784d44c0ffd3a3f588d49e",
-    "generated_at": "2026-08-10T13:53:24.457032Z",
-    "vector_ref": "embeddings.parquet#cb_8af509eea8fe44a494ae643080e40cf3"
+  "summary": {
+    "derivative_id": "der:rc4:cb_8af509eea8fe44a494ae643080e40cf3:summary",
+    "text": "Calvary Retirement Community Ryde Limited is a Calvary Health Care provider based in Ryde, New South Wales (evidence current to 2026). It operates health and aged\u2011care services in the locality, including hospitals, residential aged care, retirement living and home care. The organisation publishes clinical safety and quality data and maintains careers and recruitment information. It supports volunteer programmes and auxiliaries and runs public events for residents, including the Calvary Residential Aged Care Games. Its stated mission includes providing healthcare to vulnerable people, including those reaching the end of life."
   },
-  "synthesis": {
-    "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
-    "parameters": {
-      "max_output_tokens": 3000,
-      "structured_output": true,
-      "output_contract": "causebase-summary-v0.3-rc2"
-    },
-    "evidence_input_hash": "2b95c7024988f3988a69cc2adb487f521f4e0eed6a74ace427465206b9d3823d",
-    "generated_at": "2026-08-12T14:01:03.342452Z",
-    "editorial_policy_version": "0.3-rc2"
-  },
-  "derivative_assessments": [
+  "activities": [],
+  "beneficiaries": [],
+  "descriptive_geography": [],
+  "navigation_geography": [],
+  "funding_sources": [],
+  "fundraising_methods": [],
+  "participation": [],
+  "opportunities": [],
+  "programs": [],
+  "relationships": [],
+  "classifications": [
     {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T14:01:03.342452Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-13T13:54:42.956606Z",
-      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
-      "input_hash": "2b95c7024988f3988a69cc2adb487f521f4e0eed6a74ace427465206b9d3823d",
-      "disposition": "reused",
-      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
-      "affected_dimensions": [
-        "summary"
-      ]
+      "observation_id": "obs:rc4:cb_8af509eea8fe44a494ae643080e40cf3:classification:0",
+      "classification_id": "cls:rc4:cb_8af509eea8fe44a494ae643080e40cf3:0",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "purpose.other_purpose",
+      "term_label": "other purpose",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:40105898173"
+      ],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_8af509eea8fe44a494ae643080e40cf3:classification:1",
+      "classification_id": "cls:rc4:cb_8af509eea8fe44a494ae643080e40cf3:1",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "beneficiary.older_people",
+      "term_label": "older people",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:40105898173"
+      ],
+      "confidence": "high",
+      "warnings": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-14-rc4-fundraising-projection-correction",
-  "card_schema_version": "0.4",
-  "editorial_policy_version": "0.4-rc4",
-  "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T13:54:42.956606Z"
+  "coverage": {
+    "registry_id": "capability-registry-0.5-initial",
+    "current": [
+      {
+        "capability": "regulatory.acnc_profile",
+        "status": "observed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:acnc:40105898173"
+        ]
+      },
+      {
+        "capability": "regulatory.ais",
+        "status": "observed",
+        "assessed_at": "2013-11-20",
+        "source_record_ids": [
+          "src:acnc-ais-detail:40105898173:6a2ffd66-45c8-e811-a964-000d3ad24077:cb_8af509eea8fe44a494ae643080e40cf3"
+        ],
+        "evidence_ids": [
+          "ev:acnc:ais:40105898173:6a2ffd66-45c8-e811-a964-000d3ad24077"
+        ]
+      },
+      {
+        "capability": "tax.dgr",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "web.website",
+        "status": "observed",
+        "assessed_at": "2026-08-13",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "report.annual_report",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "financial.report",
+        "status": "not_found_in_source",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "financial.statements",
+        "status": "not_found_in_source",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.activities",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.beneficiaries",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.geography",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "programs",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "participation",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "funding.sources",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.methods",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.expenditure",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "taxonomy.causebase",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "semantic.embedding",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      }
+    ]
+  },
+  "financial_reports": [],
+  "canonical_metrics": [],
+  "analytic_projections": [],
+  "derivatives": [
+    {
+      "derivative_id": "der:rc4:cb_8af509eea8fe44a494ae643080e40cf3:summary",
+      "kind": "summary",
+      "input_observation_ids": [],
+      "evidence_ids": [
+        "ev:web:40105898173:2026-08-10",
+        "ev:acnc:40105898173"
+      ],
+      "generated_under": {
+        "output_contract_version": "phase2b-rc4-accepted-rc2-summary-reuse",
+        "input_hash": "2b95c7024988f3988a69cc2adb487f521f4e0eed6a74ace427465206b9d3823d",
+        "generated_at": "2026-08-12T14:01:03.342452Z"
+      },
+      "current_assessment": {
+        "assessed_at": "2026-08-13T13:54:42.956606Z",
+        "assessed_against_contract": "0.5",
+        "governing_input_hash": "2b95c7024988f3988a69cc2adb487f521f4e0eed6a74ace427465206b9d3823d",
+        "disposition": "reused",
+        "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs."
+      }
+    }
+  ],
+  "legacy_unbound": {
+    "origin_release": "rc4-2026-08-14",
+    "origin_card_sha256": "44606949e6c349fcfc509a00fe0b9293e0c0c09981e234b31ce282dbb41440ed",
+    "activities": [
+      {
+        "value": "Operates hospitals",
+        "source_role": "legacy_source_qualifier",
+        "provenance_note": "organisation-level",
+        "evidence_ids": []
+      },
+      {
+        "value": "Provides residential aged care services",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Provides retirement living and home care services",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Publishes annual clinical safety and quality data",
+        "source_role": "legacy_source_qualifier",
+        "provenance_note": "organisation-level",
+        "evidence_ids": []
+      },
+      {
+        "value": "Supports volunteer programmes and auxiliaries",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Hosts public events including residential aged care games",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Maintains careers and recruitment information",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "beneficiaries": [
+      {
+        "value": "People receiving hospital care (patients)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Residents of aged care and retirement living services",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "People nearing end of life or described as vulnerable",
+        "source_role": "legacy_source_qualifier",
+        "provenance_note": "organisation-stated",
+        "evidence_ids": []
+      },
+      {
+        "value": "Volunteers and auxiliary members involved in fundraising and support",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "descriptive_geography": [
+      {
+        "value": "Ryde, New South Wales",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Australia",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "classifications": [
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "activity.direct_service",
+        "term_label": "Direct service delivery",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "activity.events_and_public_programming",
+        "term_label": "Events and public programming",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "participation.volunteering",
+        "term_label": "Volunteering",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "participation.public_events",
+        "term_label": "Public events",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "approach.volunteer_enabled",
+        "term_label": "Volunteer-enabled delivery",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "geography.local_or_regional",
+        "term_label": "Local or regional Australia",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "geography.australia",
+        "term_label": "Australia",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "beneficiary.people_experiencing_disadvantage",
+        "term_label": "People experiencing disadvantage",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      }
+    ]
+  }
 }

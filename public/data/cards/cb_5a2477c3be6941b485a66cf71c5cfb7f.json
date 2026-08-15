@@ -1,1967 +1,566 @@
 {
   "causebase_id": "cb_5a2477c3be6941b485a66cf71c5cfb7f",
+  "contract_version": "0.5",
   "subject_kind": "unknown",
-  "external_identifiers": [
-    {
-      "scheme": "abn",
-      "value": "16055396731",
-      "source_evidence_id": "ev:acnc:16055396731"
-    }
+  "identity": {
+    "legal_name": "Northern Rivers Animal Services Inc.",
+    "display_name": "Northern Rivers Animal Services Inc.",
+    "operating_names": [],
+    "former_names": [],
+    "entity_status": "registered",
+    "website": "www.nras.org.au",
+    "external_identifiers": [
+      {
+        "scheme": "abn",
+        "value": "16055396731",
+        "evidence_ids": [
+          "ev:acnc:16055396731"
+        ]
+      }
+    ],
+    "registrations": [
+      {
+        "regulator": "ACNC",
+        "status": "registered",
+        "evidence_ids": [
+          "ev:acnc:16055396731"
+        ]
+      }
+    ],
+    "tax_statuses": [
+      {
+        "scheme": "ABR DGR",
+        "status": "endorsed",
+        "evidence_ids": [
+          "ev:abr-dgr:16055396731:20260805"
+        ]
+      }
+    ]
+  },
+  "release": {
+    "release_id": "v0.5.0-2026-08-15",
+    "dataset_version": "0.5.0-2026-08-15",
+    "contract_version": "0.5",
+    "based_on_release": "rc4-2026-08-14",
+    "generated_at": "2026-08-15T00:00:00Z"
+  },
+  "source_record_refs": [
+    "src:acnc-public-profile:16055396731:e4b4c3a1-38af-e811-a961-000d3ad24182:cb_5a2477c3be6941b485a66cf71c5cfb7f",
+    "src:acnc-ais-detail:16055396731:640b12e7-f6fb-f011-8406-00224891bae2:cb_5a2477c3be6941b485a66cf71c5cfb7f"
   ],
-  "registrations": [
-    {
-      "regulator": "ACNC",
-      "registration_id": null,
-      "status": "registered",
-      "evidence_ids": [
-        "ev:acnc:16055396731"
-      ]
-    }
-  ],
-  "tax_statuses": [
-    {
-      "scheme": "ABR DGR",
-      "status": "endorsed",
-      "detail": "Dated 2026-08-05 ABR bulk observation",
-      "evidence_ids": [
-        "ev:abr-dgr:16055396731:20260805"
-      ]
-    }
-  ],
-  "relationships": [],
-  "source_resolutions": [
+  "source_bindings": [
     {
       "source_record_id": "src:acnc-register:490f9bda-7ab9-517b-9610-49cfca073ce5",
       "resolution_status": "resolved",
       "resolution_basis": "automated authoritative ACNC promotion under acnc-authoritative-v1",
       "confidence": "high",
-      "supporting_signals": [
-        "ABN:16055396731",
-        "ACNC Register"
-      ],
-      "conflicting_signals": [],
-      "review_status": "not_required"
-    }
-  ],
-  "legal_name": "Northern Rivers Animal Services Inc.",
-  "display_name": "Northern Rivers Animal Services Inc.",
-  "entity_status": "registered",
-  "canonical_url": "https://gregorycwhill.github.io/CauseBase-Viewer/#cb_5a2477c3be6941b485a66cf71c5cfb7f",
-  "acnc_profile_url": "https://www.acnc.gov.au/charity/charities/e4b4c3a1-38af-e811-a961-000d3ad24182/profile",
-  "acnc_ais_url": "https://www.acnc.gov.au/charity/charities/e4b4c3a1-38af-e811-a961-000d3ad24182/documents/640b12e7-f6fb-f011-8406-00224891bae2",
-  "operating_names": [],
-  "former_names": [],
-  "principal_location": "NSW, Australia",
-  "coverage": [
-    {
-      "capability": "regulatory",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:acnc:16055396731"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "annual_report",
-      "status": "not_yet_processed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "fundraising_expenditure",
-      "status": "not_available_from_source",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": "No direct or defensible derived fundraising expenditure was found in selected Phase 2A evidence."
-    },
-    {
-      "capability": "financials",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:ais:16055396731:2023"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "latest_acnc_ais",
-      "status": "observed",
-      "source_record_id": "src:acnc-ais-detail:16055396731:640b12e7-f6fb-f011-8406-00224891bae2:cb_5a2477c3be6941b485a66cf71c5cfb7f",
-      "evidence_ids": [
-        "ev:acnc:ais:16055396731:640b12e7-f6fb-f011-8406-00224891bae2"
-      ],
-      "observed_at": "2026-01-28",
-      "freshness_note": "Latest submitted AIS detail acquired from the public ACNC entity endpoint."
-    },
-    {
-      "capability": "website",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-13",
-      "freshness_note": "Public website locator acquired from the ACNC profile."
-    }
-  ],
-  "enrichment_level": "enriched",
-  "website": "www.nras.org.au",
-  "geography": [
-    "Northern Rivers region, New South Wales",
-    "Ballina, New South Wales"
-  ],
-  "geography_observations": [
-    {
-      "value": "Northern Rivers region, New South Wales",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Ballina, New South Wales",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "navigation_geography": [],
-  "causebase_summary": "Northern Rivers Animal Services (NRAS) is a self-funded, not-for-profit registered charity based in Ballina that rescues abandoned, abused, lost and unwanted dogs and cats across the Northern Rivers region of New South Wales. NRAS operates a rescue shelter at 61 Piper Drive, Ballina, places animals in foster care and runs monthly Adoption Days (first Saturday, 10:00–13:00) where prospective adopters can meet animals and access services such as microchipping, nail clipping and hydrobathing. Animals are desexed, microchipped, vaccinated and vet-checked prior to adoption. NRAS also runs a subsidised desexing program, operates an op shop in Ballina and stages community events (including Dogs Day Out and a pet calendar competition). Volunteer roles include foster caring, shelter and shop staffing, transport and general maintenance.",
-  "summary_evidence_ids": [
-    "ev:web:16055396731:2026-08-10",
-    "ev:acnc:16055396731"
-  ],
-  "organisation_self_description": null,
-  "activities": [
-    "Rescue and foster care for abandoned, abused, lost and unwanted dogs and cats",
-    "Operating NRAS Rescue Shelter at 61 Piper Drive, Ballina (shelter operations)",
-    "Hosting monthly Adoption Days (first Saturday, 10:00–13:00)",
-    "Providing microchipping, nail clipping and hydrobathing services at Adoption Days",
-    "Desexing, microchipping, vaccination and veterinary checks prior to adoption",
-    "Running a subsidised desexing program",
-    "Operating an op shop in Ballina",
-    "Running community events (Dogs Day Out, pet calendar competition)"
-  ],
-  "activity_observations": [
-    {
-      "value": "Rescue and foster care for abandoned, abused, lost and unwanted dogs and cats",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Operating NRAS Rescue Shelter at 61 Piper Drive, Ballina (shelter operations)",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Hosting monthly Adoption Days (first Saturday, 10:00–13:00)",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Providing microchipping, nail clipping and hydrobathing services at Adoption Days",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Desexing, microchipping, vaccination and veterinary checks prior to adoption",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Running a subsidised desexing program",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Operating an op shop in Ballina",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Running community events (Dogs Day Out, pet calendar competition)",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "beneficiaries": [
-    "Abandoned, abused, lost and unwanted dogs and cats",
-    "People seeking to adopt dogs or cats (attendees of Adoption Days)"
-  ],
-  "beneficiary_observations": [
-    {
-      "value": "Abandoned, abused, lost and unwanted dogs and cats",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "People seeking to adopt dogs or cats (attendees of Adoption Days)",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "participation_modes": [
-    "Foster caring",
-    "Volunteering at the shelter",
-    "Volunteering at the Ballina op shop",
-    "Assisting at community events (event staffing)",
-    "Providing animal transport",
-    "Tending gardens and general maintenance",
-    "Becoming a member (nominal annual fee)",
-    "Donating (including gifts in wills); attending Adoption Day public events"
-  ],
-  "participation_observations": [],
-  "opportunities": [],
-  "programs": [
-    {
-      "program_id": "prg:acnc:16055396731:510c12e7-f6fb-f011-8406-00224891bae2",
-      "name": "Subsidised Desexing Program",
-      "description": "Animal population control",
-      "beneficiaries": [
-        "Aboriginal and Torres Strait Islander people",
-        "People in rural/regional/remote communities",
-        "Financially disadvantaged people",
-        "People at risk of homelessness/ people experiencing homelessness",
-        "People with chronic illness (including terminal illness)",
-        "Unemployed persons",
-        "Victims of crime (including family violence)",
-        "Victims of disaster"
-      ],
-      "geography": [
-        "Ballina NSW, Australia",
-        "Lismore NSW, Australia",
-        "Alstonville NSW, Australia",
-        "Casino NSW, Australia",
-        "Lennox Head NSW, Australia",
-        "Byron Bay NSW, Australia",
-        "Wardell NSW, Australia",
-        "Wollongbar NSW, Australia",
-        "Coraki NSW, Australia",
-        "Suffolk Park NSW, Australia"
-      ],
-      "status": "current",
-      "reporting_period": "2025",
-      "source_url": "www.nras.org.au",
-      "evidence_ids": [
-        "ev:acnc:ais:16055396731:640b12e7-f6fb-f011-8406-00224891bae2"
-      ]
-    },
-    {
-      "program_id": "prg:acnc:16055396731:6d480fed-f6fb-f011-8406-00224891bae2",
-      "name": "Adoption of animals",
-      "description": "Animal adoptions",
-      "beneficiaries": [
-        "Animals",
-        "General community in Australia"
-      ],
-      "geography": [
-        "Ballina NSW, Australia",
-        "Alstonville NSW, Australia",
-        "Lismore NSW, Australia",
-        "Casino NSW, Australia"
-      ],
-      "status": "current",
-      "reporting_period": "2025",
-      "source_url": "https://www.acnc.gov.au/charity/charities/e4b4c3a1-38af-e811-a961-000d3ad24182/documents/640b12e7-f6fb-f011-8406-00224891bae2",
-      "evidence_ids": [
-        "ev:acnc:ais:16055396731:640b12e7-f6fb-f011-8406-00224891bae2"
-      ]
-    },
-    {
-      "program_id": "prg:acnc:16055396731:a6480fed-f6fb-f011-8406-00224891bae2",
-      "name": "TAFE Outreach",
-      "description": "Education partnerships",
-      "beneficiaries": [
-        "Youth - 15 to under 25"
-      ],
-      "geography": [
-        "61 Piper Drive, Ballina NSW, Australia"
-      ],
-      "status": "current",
-      "reporting_period": "2025",
-      "source_url": "https://www.acnc.gov.au/charity/charities/e4b4c3a1-38af-e811-a961-000d3ad24182/documents/640b12e7-f6fb-f011-8406-00224891bae2",
-      "evidence_ids": [
-        "ev:acnc:ais:16055396731:640b12e7-f6fb-f011-8406-00224891bae2"
-      ]
-    }
-  ],
-  "source_native_records": [
-    {
-      "source_record_id": "src:acnc-public-profile:16055396731:e4b4c3a1-38af-e811-a961-000d3ad24182:cb_5a2477c3be6941b485a66cf71c5cfb7f",
-      "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-14-public-api",
-      "source_url": "https://www.acnc.gov.au/charity/charities/e4b4c3a1-38af-e811-a961-000d3ad24182/profile",
-      "retrieved_at": "2026-08-13T13:54:42.956606Z",
-      "observed_at": "2026-01-28",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "uuid": "e4b4c3a1-38af-e811-a961-000d3ad24182",
-        "abn": "16055396731"
-      },
-      "source_payload": {
-        "data": {
-          "AFSAddressPostalCode": "2478",
-          "AFSEmail": "secretary@nras.org.au",
-          "Abn": "16055396731",
-          "AddressCountry": "Australia",
-          "AddressLine1": "61 Piper Dr",
-          "AddressLine2": null,
-          "AddressLine3": null,
-          "AddressPostalCode": "2478",
-          "AddressStateOrProvince": "NSW",
-          "AddressSuburb": "Ballina",
-          "AddressSuburbStatePostcode": "Ballina NSW 2478",
-          "AnnualReports": [
-            {
-              "AISId": "a498d47c-f1b3-ed11-b596-002248110683",
-              "DateReceived": "2023-01-21T06:05:27.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2023-01-31T00:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2022",
-              "type": "Annual Information Statement 2022",
-              "uuid": "836ed441-cf63-eb11-b0b0-000d3a6b0983"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2023-01-21T06:05:23.0000000Z",
-              "DocumentUuid": "3164aa6f-f1b3-ed11-b596-00224893b5c4",
-              "DueDate": "2023-01-31T00:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2022",
-              "type": "Financial Report 2022",
-              "uuid": "8c6ed441-cf63-eb11-b0b0-000d3a6b0983"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2020-01-20T07:20:29.0000000Z",
-              "DocumentUuid": "3258e749-553b-ea11-a812-000d3ad1cf4f",
-              "DueDate": "2020-01-31T00:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2019",
-              "type": "Financial Report 2019",
-              "uuid": "9fbc8373-2125-e911-a977-000d3ad064bd"
-            },
-            {
-              "AISId": "c4c39753-553b-ea11-a813-000d3ad1f29c",
-              "DateReceived": "2020-01-20T07:20:34.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2020-01-31T00:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2019",
-              "type": "Annual Information Statement 2019",
-              "uuid": "bcbc8373-2125-e911-a977-000d3ad064bd"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2021-01-14T00:35:23.0000000Z",
-              "DocumentUuid": "8fc4b659-0056-eb11-a812-000d3a6b5aa9",
-              "DueDate": "2021-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2020",
-              "type": "Financial Report 2020",
-              "uuid": "e5bc8373-2125-e911-a977-000d3ad064bd"
-            },
-            {
-              "AISId": "3b0b3661-0056-eb11-bb23-000d3ad1cd99",
-              "DateReceived": "2021-01-14T00:35:28.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2021-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2020",
-              "type": "Annual Information Statement 2020",
-              "uuid": "23bd8373-2125-e911-a977-000d3ad064bd"
-            },
-            {
-              "AISId": "38af1ca9-a16e-ec11-8f8e-00224891b076",
-              "DateReceived": "2022-01-03T07:31:22.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2022-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2021",
-              "type": "Annual Information Statement 2021",
-              "uuid": "5dd7efb1-8d44-ea11-a813-000d3ad1f497"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2022-01-03T07:31:12.0000000Z",
-              "DocumentUuid": "64a449a3-a16e-ec11-8f8e-00224891bc43",
-              "DueDate": "2022-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2021",
-              "type": "Financial Report 2021",
-              "uuid": "66d7efb1-8d44-ea11-a813-000d3ad1f497"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2018-01-22T13:00:00.0000000Z",
-              "DocumentUuid": "b2340ade-44b0-e811-a963-000d3ad24077",
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2017",
-              "type": "Financial Report 2017",
-              "uuid": "96371536-3ec8-e811-a964-000d3ad24077"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2017-01-30T13:00:00.0000000Z",
-              "DocumentUuid": "98340ade-44b0-e811-a963-000d3ad24077",
-              "DueDate": "2017-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2016",
-              "type": "Financial Report 2016",
-              "uuid": "ab371536-3ec8-e811-a964-000d3ad24077"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2019-03-28T06:25:51.0000000Z",
-              "DocumentUuid": "e82413c0-659e-eb11-b1ac-000d3a6a6412",
-              "DueDate": "2019-03-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2018",
-              "type": "Financial Report 2018",
-              "uuid": "b7371536-3ec8-e811-a964-000d3ad24077"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required",
-              "Year": "2013",
-              "type": "Financial Report 2013",
-              "uuid": "ce371536-3ec8-e811-a964-000d3ad24077"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required",
-              "Year": "2014",
-              "type": "Financial Report 2014",
-              "uuid": "e5371536-3ec8-e811-a964-000d3ad24077"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required",
-              "Year": "2015",
-              "type": "Financial Report 2015",
-              "uuid": "f7371536-3ec8-e811-a964-000d3ad24077"
-            },
-            {
-              "AISId": "2e78f96a-45c8-e811-a95f-000d3ad24c60",
-              "DateReceived": "2014-03-26T13:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2014-03-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2013",
-              "type": "Annual Information Statement 2013",
-              "uuid": "01b1fa6c-45c8-e811-a964-000d3ad24077"
-            },
-            {
-              "AISId": "3578f96a-45c8-e811-a95f-000d3ad24c60",
-              "DateReceived": "2014-12-28T13:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2015-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2014",
-              "type": "Annual Information Statement 2014",
-              "uuid": "06b1fa6c-45c8-e811-a964-000d3ad24077"
-            },
-            {
-              "AISId": "3e78f96a-45c8-e811-a95f-000d3ad24c60",
-              "DateReceived": "2016-01-19T13:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2016-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2015",
-              "type": "Annual Information Statement 2015",
-              "uuid": "0eb1fa6c-45c8-e811-a964-000d3ad24077"
-            },
-            {
-              "AISId": "4478f96a-45c8-e811-a95f-000d3ad24c60",
-              "DateReceived": "2017-01-30T13:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2017-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2016",
-              "type": "Annual Information Statement 2016",
-              "uuid": "15b1fa6c-45c8-e811-a964-000d3ad24077"
-            },
-            {
-              "AISId": "b9b0fa6c-45c8-e811-a964-000d3ad24077",
-              "DateReceived": "2018-01-22T13:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2018-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2017",
-              "type": "Annual Information Statement 2017",
-              "uuid": "0867116b-45c8-e811-a961-000d3ad24282"
-            },
-            {
-              "AISId": "524beffa-659e-eb11-b1ac-000d3aca720b",
-              "DateReceived": "2019-03-28T06:25:56.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2019-03-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2018",
-              "type": "Annual Information Statement 2018",
-              "uuid": "5ae2d381-3ac8-e811-a964-000d3ad244fd"
-            },
-            {
-              "AISId": "8c2de92e-18d7-ef11-a731-6045bdc30950",
-              "DateReceived": "2025-01-20T10:20:40.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2025-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2024",
-              "type": "Annual Information Statement 2024",
-              "uuid": "a1c46e8d-c7a1-ed11-aad1-002248122b18"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2025-01-20T10:20:38.0000000Z",
-              "DocumentUuid": "1b896a26-18d7-ef11-a731-000d3acc14e5",
-              "DueDate": "2025-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2024",
-              "type": "Financial Report 2024",
-              "uuid": "b6c46e8d-c7a1-ed11-aad1-002248122b18"
-            },
-            {
-              "AISId": "44933d76-1bb4-ee11-a568-002248122521",
-              "DateReceived": "2024-01-16T03:00:56.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2024-01-31T00:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2023",
-              "type": "Annual Information Statement 2023",
-              "uuid": "c28e9ffa-a082-ec11-8d20-0022489297f3"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2024-01-16T03:00:38.0000000Z",
-              "DocumentUuid": "88a73b65-1bb4-ee11-a568-002248933dda",
-              "DueDate": "2024-01-31T00:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2023",
-              "type": "Financial Report 2023",
-              "uuid": "f38e9ffa-a082-ec11-8d20-0022489297f3"
-            },
-            {
-              "AISId": "640b12e7-f6fb-f011-8406-00224891bae2",
-              "DateReceived": "2026-01-28T03:10:42.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2026-01-31T00:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2025",
-              "type": "Annual Information Statement 2025",
-              "uuid": "abd9b678-98c0-ee11-9079-00224893b304"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2026-01-28T03:10:21.0000000Z",
-              "DocumentUuid": "8b5b6adb-f6fb-f011-8406-7ced8d33fe37",
-              "DueDate": "2026-01-31T00:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2025",
-              "type": "Financial Report 2025",
-              "uuid": "d8d9b678-98c0-ee11-9079-00224893b304"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2027-12-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Not yet submitted",
-              "Year": "2027",
-              "type": "Annual Information Statement 2027",
-              "uuid": "a7f55492-04ff-f011-8406-6045bdc3b801"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2027-12-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Pending",
-              "Year": "2027",
-              "type": "Financial Report 2027",
-              "uuid": "d5f55492-04ff-f011-8406-6045bdc3b801"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2026-12-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Not yet submitted",
-              "Year": "2026",
-              "type": "Annual Information Statement 2026",
-              "uuid": "f3fbc71b-d5df-ef11-a731-6045bde5a05c"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2026-12-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Pending",
-              "Year": "2026",
-              "type": "Financial Report 2026",
-              "uuid": "0cfcc71b-d5df-ef11-a731-6045bde5a05c"
-            }
-          ],
-          "Beneficiaries": [
-            {
-              "Description": null,
-              "Name": "Youth - 15 to under 25",
-              "uuid": "cd480fed-f6fb-f011-8406-00224891bae2"
-            },
-            {
-              "Description": null,
-              "Name": "Victims of disaster",
-              "uuid": "da480fed-f6fb-f011-8406-00224891bae2"
-            },
-            {
-              "Description": null,
-              "Name": "Victims of crime (including family violence)",
-              "uuid": "e1480fed-f6fb-f011-8406-00224891bae2"
-            },
-            {
-              "Description": null,
-              "Name": "Unemployed persons",
-              "uuid": "eb480fed-f6fb-f011-8406-00224891bae2"
-            },
-            {
-              "Description": null,
-              "Name": "People with chronic illness (including terminal illness)",
-              "uuid": "f6480fed-f6fb-f011-8406-00224891bae2"
-            },
-            {
-              "Description": null,
-              "Name": "People in rural/regional/remote communities",
-              "uuid": "00490fed-f6fb-f011-8406-00224891bae2"
-            },
-            {
-              "Description": null,
-              "Name": "People at risk of homelessness/ people experiencing homelessness",
-              "uuid": "08490fed-f6fb-f011-8406-00224891bae2"
-            },
-            {
-              "Description": null,
-              "Name": "General community in Australia",
-              "uuid": "0f490fed-f6fb-f011-8406-00224891bae2"
-            },
-            {
-              "Description": null,
-              "Name": "Financially disadvantaged people",
-              "uuid": "16490fed-f6fb-f011-8406-00224891bae2"
-            },
-            {
-              "Description": null,
-              "Name": "Animals",
-              "uuid": "1c490fed-f6fb-f011-8406-00224891bae2"
-            },
-            {
-              "Description": null,
-              "Name": "Aboriginal and Torres Strait Islander people",
-              "uuid": "25490fed-f6fb-f011-8406-00224891bae2"
-            }
-          ],
-          "CharitySize": "Medium",
-          "CharitySubtypeHistory": [
-            {
-              "EndDate": null,
-              "Purpose": "Preventing or relieving the suffering of animals",
-              "StartDate": "2013-12-31T13:00:00.0000000Z",
-              "uuid": "98f88bdc-fcc6-e811-a964-000d3ad244fd"
-            },
-            {
-              "EndDate": "2013-12-30T13:00:00.0000000Z",
-              "Purpose": "2012 Another purpose beneficial to the community",
-              "StartDate": "2012-12-02T13:00:00.0000000Z",
-              "uuid": "e8c96ddd-fcc6-e811-a95f-000d3ad24c60"
-            }
-          ],
-          "CharityVersion": "154",
-          "ChildMemberEndDate": null,
-          "ChildMemberStartDate": null,
-          "ChooseToProvideAis": null,
-          "Countries": [
-            {
-              "Name": "Australia",
-              "uuid": "f57b5602-9a4d-e811-a951-000d3ad06f2d"
-            }
-          ],
-          "DateEstablished": "2000-12-31T13:00:00.0000000Z",
-          "Documents": [
-            {
-              "Date": "2017-01-31T00:00:00.0000000",
-              "Title": "NRAS Constitution Sep 2016 Final.docx",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/e4b4c3a1-38af-e811-a961-000d3ad24182-98e6fa49-404c-4556-837a-1f8ae20a3bfa-Governing%20Document-a1340ade-44b0-e811-a963-000d3ad24077-NRAS_Constitution_Sep_2016_Final.docx",
-              "Year": null,
-              "type": "Governing Document",
-              "uuid": "a1340ade-44b0-e811-a963-000d3ad24077"
-            },
-            {
-              "Date": "2021-04-16T00:00:00.0000000",
-              "Title": "Financial Report",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/e4b4c3a1-38af-e811-a961-000d3ad24182-98e6fa49-404c-4556-837a-1f8ae20a3bfa-Financial%20Report-e82413c0-659e-eb11-b1ac-000d3a6a6412-NRAS_financial_report_2018_signed.pdf",
-              "Year": "2018",
-              "type": "Financial Report",
-              "uuid": "e82413c0-659e-eb11-b1ac-000d3a6a6412"
-            },
-            {
-              "Date": "2021-01-14T00:00:00.0000000",
-              "Title": "NRAS signed and audited financial report 2020.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/e4b4c3a1-38af-e811-a961-000d3ad24182-98e6fa49-404c-4556-837a-1f8ae20a3bfa-Financial%20Report-8fc4b659-0056-eb11-a812-000d3a6b5aa9-NRAS_signed_and_audited_financial_report_2020.pdf",
-              "Year": "2020",
-              "type": "Financial Report",
-              "uuid": "8fc4b659-0056-eb11-a812-000d3a6b5aa9"
-            },
-            {
-              "Date": "2025-01-20T00:00:00.0000000",
-              "Title": "FY2023.24 Audited Financials.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/e4b4c3a1-38af-e811-a961-000d3ad24182-98e6fa49-404c-4556-837a-1f8ae20a3bfa-Financial%20Report-1b896a26-18d7-ef11-a731-000d3acc14e5-FY2023.24_Audited_Financials.pdf",
-              "Year": "2024",
-              "type": "Financial Report",
-              "uuid": "1b896a26-18d7-ef11-a731-000d3acc14e5"
-            },
-            {
-              "Date": "2020-01-20T00:00:00.0000000",
-              "Title": "NRAS 2018-2019 Financials signed.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/e4b4c3a1-38af-e811-a961-000d3ad24182-98e6fa49-404c-4556-837a-1f8ae20a3bfa-Financial%20Report-3258e749-553b-ea11-a812-000d3ad1cf4f-NRAS_2018-2019_Financials_signed.pdf",
-              "Year": "2019",
-              "type": "Financial Report",
-              "uuid": "3258e749-553b-ea11-a812-000d3ad1cf4f"
-            },
-            {
-              "Date": "2017-01-31T00:00:00.0000000",
-              "Title": "NRAS Financial Report Collins Hume 2015 2016.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/e4b4c3a1-38af-e811-a961-000d3ad24182-98e6fa49-404c-4556-837a-1f8ae20a3bfa-Financial%20Report-98340ade-44b0-e811-a963-000d3ad24077-NRAS_Financial_Report_Collins_Hume_2015_2016.pdf",
-              "Year": "2016",
-              "type": "Financial Report",
-              "uuid": "98340ade-44b0-e811-a963-000d3ad24077"
-            },
-            {
-              "Date": "2018-01-23T00:00:00.0000000",
-              "Title": "NRAS Full Financial Rpt 2017.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/e4b4c3a1-38af-e811-a961-000d3ad24182-98e6fa49-404c-4556-837a-1f8ae20a3bfa-Financial%20Report-b2340ade-44b0-e811-a963-000d3ad24077-NRAS_Full_Financial_Rpt_2017.pdf",
-              "Year": "2017",
-              "type": "Financial Report",
-              "uuid": "b2340ade-44b0-e811-a963-000d3ad24077"
-            },
-            {
-              "Date": "2022-01-06T00:00:00.0000000",
-              "Title": "NRAServices Inc-Audit Financials2021.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/e4b4c3a1-38af-e811-a961-000d3ad24182-98e6fa49-404c-4556-837a-1f8ae20a3bfa-Financial%20Report-64a449a3-a16e-ec11-8f8e-00224891bc43-NRAServices_Inc-Audit_Financials2021.pdf",
-              "Year": "2021",
-              "type": "Financial Report",
-              "uuid": "64a449a3-a16e-ec11-8f8e-00224891bc43"
-            },
-            {
-              "Date": "2024-01-16T00:00:00.0000000",
-              "Title": "Audited Financial Report 2023 NRAS.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/e4b4c3a1-38af-e811-a961-000d3ad24182-98e6fa49-404c-4556-837a-1f8ae20a3bfa-Financial%20Report-88a73b65-1bb4-ee11-a568-002248933dda-Audited_Financial_Report_2023_NRAS.pdf",
-              "Year": "2023",
-              "type": "Financial Report",
-              "uuid": "88a73b65-1bb4-ee11-a568-002248933dda"
-            },
-            {
-              "Date": "2023-02-24T00:00:00.0000000",
-              "Title": "NRASFinancials2021-22.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/e4b4c3a1-38af-e811-a961-000d3ad24182-98e6fa49-404c-4556-837a-1f8ae20a3bfa-Financial%20Report-3164aa6f-f1b3-ed11-b596-00224893b5c4-NRASFinancials2021-22.pdf",
-              "Year": "2022",
-              "type": "Financial Report",
-              "uuid": "3164aa6f-f1b3-ed11-b596-00224893b5c4"
-            },
-            {
-              "Date": "2026-01-28T00:00:00.0000000",
-              "Title": "FY 2024.25 Audited Financials.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/e4b4c3a1-38af-e811-a961-000d3ad24182-98e6fa49-404c-4556-837a-1f8ae20a3bfa-Financial%20Report-8b5b6adb-f6fb-f011-8406-7ced8d33fe37-FY_2024.25_Audited_Financials.pdf",
-              "Year": "2025",
-              "type": "Financial Report",
-              "uuid": "8b5b6adb-f6fb-f011-8406-7ced8d33fe37"
-            }
-          ],
-          "Email": "nrascommittee@outlook.com",
-          "EnforcementOutcomes": [],
-          "FinancialYearEnd": "30/06",
-          "GovernmentAgencies": [
-            {
-              "Name": "NSW - Incorporated Association",
-              "ReferenceNumber": "INC9877105",
-              "uuid": "440c12e7-f6fb-f011-8406-00224891bae2"
-            },
-            {
-              "Name": "NSW - Fundraising",
-              "ReferenceNumber": "17290",
-              "uuid": "470c12e7-f6fb-f011-8406-00224891bae2"
-            }
-          ],
-          "GroupHeadFlag": false,
-          "LastReported": "2026-01-28T03:10:42.0000000Z",
-          "Name": "Northern Rivers Animal Services Inc.",
-          "NextReportDue": "2026-12-31T12:30:00.0000000Z",
-          "OperatingInStates": [
-            {
-              "Name": "New South Wales",
-              "uuid": "2bf593a5-455e-e811-a95c-000d3ad1c715"
-            }
-          ],
-          "OtherDetails": null,
-          "OtherNames": [],
-          "ParentAccountAbn": null,
-          "ParentAccountId": null,
-          "Phone": "0266811860",
-          "Programs": [
-            {
-              "AisUuid": "640b12e7-f6fb-f011-8406-00224891bae2",
-              "Name": "Subsidised Desexing Program",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Aboriginal and Torres Strait Islander people",
-                "People in rural/regional/remote communities",
-                "Financially disadvantaged people",
-                "People at risk of homelessness/ people experiencing homelessness",
-                "People with chronic illness (including terminal illness)",
-                "Unemployed persons",
-                "Victims of crime (including family violence)",
-                "Victims of disaster"
-              ],
-              "ProgramClassie": [
-                {
-                  "classie_id": "29",
-                  "label": "Animal population control",
-                  "parent_id": "27",
-                  "selected": true
-                },
-                {
-                  "classie_id": "27",
-                  "label": "Domesticated animal welfare",
-                  "parent_id": "26",
-                  "selected": false
-                },
-                {
-                  "classie_id": "26",
-                  "label": "Animal welfare",
-                  "parent_id": null,
-                  "selected": false
-                }
-              ],
-              "ProgramClassification": "Animal population control",
-              "ProgramClassificationID": "29",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "Ballina NSW, Australia",
-                  "FormattedAddress": "Ballina NSW 2478, Australia",
-                  "Marker": {
-                    "Latitude": -28.8574973,
-                    "Longitude": 153.5658573
-                  },
-                  "Name": "Ballina",
-                  "uuid": "2c480fed-f6fb-f011-8406-00224891bae2"
-                },
-                {
-                  "DisplayName": "Lismore NSW, Australia",
-                  "FormattedAddress": "Lismore NSW 2480, Australia",
-                  "Marker": {
-                    "Latitude": -28.8093154,
-                    "Longitude": 153.2882876
-                  },
-                  "Name": "Lismore",
-                  "uuid": "3d480fed-f6fb-f011-8406-00224891bae2"
-                },
-                {
-                  "DisplayName": "Alstonville NSW, Australia",
-                  "FormattedAddress": "Alstonville NSW 2477, Australia",
-                  "Marker": {
-                    "Latitude": -28.8408655,
-                    "Longitude": 153.4495841
-                  },
-                  "Name": "Alstonville",
-                  "uuid": "41480fed-f6fb-f011-8406-00224891bae2"
-                },
-                {
-                  "DisplayName": "Casino NSW, Australia",
-                  "FormattedAddress": "Casino NSW 2470, Australia",
-                  "Marker": {
-                    "Latitude": -28.866667,
-                    "Longitude": 153.05
-                  },
-                  "Name": "Casino",
-                  "uuid": "47480fed-f6fb-f011-8406-00224891bae2"
-                },
-                {
-                  "DisplayName": "Lennox Head NSW, Australia",
-                  "FormattedAddress": "Lennox Head NSW 2478, Australia",
-                  "Marker": {
-                    "Latitude": -28.7932506,
-                    "Longitude": 153.5911069
-                  },
-                  "Name": "Lennox Head",
-                  "uuid": "4e480fed-f6fb-f011-8406-00224891bae2"
-                },
-                {
-                  "DisplayName": "Byron Bay NSW, Australia",
-                  "FormattedAddress": "Byron Bay NSW 2481, Australia",
-                  "Marker": {
-                    "Latitude": -28.6419122,
-                    "Longitude": 153.6105168
-                  },
-                  "Name": "Byron Bay",
-                  "uuid": "53480fed-f6fb-f011-8406-00224891bae2"
-                },
-                {
-                  "DisplayName": "Wardell NSW, Australia",
-                  "FormattedAddress": "Wardell NSW 2477, Australia",
-                  "Marker": {
-                    "Latitude": -28.9523049,
-                    "Longitude": 153.4655212
-                  },
-                  "Name": "Wardell",
-                  "uuid": "55480fed-f6fb-f011-8406-00224891bae2"
-                },
-                {
-                  "DisplayName": "Wollongbar NSW, Australia",
-                  "FormattedAddress": "Wollongbar NSW 2477, Australia",
-                  "Marker": {
-                    "Latitude": -28.8205831,
-                    "Longitude": 153.4218684
-                  },
-                  "Name": "Wollongbar",
-                  "uuid": "58480fed-f6fb-f011-8406-00224891bae2"
-                },
-                {
-                  "DisplayName": "Coraki NSW, Australia",
-                  "FormattedAddress": "Coraki NSW 2471, Australia",
-                  "Marker": {
-                    "Latitude": -28.993391,
-                    "Longitude": 153.2816992
-                  },
-                  "Name": "Coraki",
-                  "uuid": "65480fed-f6fb-f011-8406-00224891bae2"
-                },
-                {
-                  "DisplayName": "Suffolk Park NSW, Australia",
-                  "FormattedAddress": "Suffolk Park NSW 2481, Australia",
-                  "Marker": {
-                    "Latitude": -28.6866323,
-                    "Longitude": 153.608006
-                  },
-                  "Name": "Suffolk Park",
-                  "uuid": "6b480fed-f6fb-f011-8406-00224891bae2"
-                }
-              ],
-              "ProgramWeblink": "www.nras.org.au",
-              "uuid": "510c12e7-f6fb-f011-8406-00224891bae2"
-            },
-            {
-              "AisUuid": "640b12e7-f6fb-f011-8406-00224891bae2",
-              "Name": "Adoption of animals",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Animals",
-                "General community in Australia"
-              ],
-              "ProgramClassie": [
-                {
-                  "classie_id": "28",
-                  "label": "Animal adoptions",
-                  "parent_id": "27",
-                  "selected": true
-                },
-                {
-                  "classie_id": "27",
-                  "label": "Domesticated animal welfare",
-                  "parent_id": "26",
-                  "selected": false
-                },
-                {
-                  "classie_id": "26",
-                  "label": "Animal welfare",
-                  "parent_id": null,
-                  "selected": false
-                }
-              ],
-              "ProgramClassification": "Animal adoptions",
-              "ProgramClassificationID": "28",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "Ballina NSW, Australia",
-                  "FormattedAddress": "Ballina NSW 2478, Australia",
-                  "Marker": {
-                    "Latitude": -28.8574973,
-                    "Longitude": 153.5658573
-                  },
-                  "Name": "Ballina",
-                  "uuid": "86480fed-f6fb-f011-8406-00224891bae2"
-                },
-                {
-                  "DisplayName": "Alstonville NSW, Australia",
-                  "FormattedAddress": "Alstonville NSW 2477, Australia",
-                  "Marker": {
-                    "Latitude": -28.8408655,
-                    "Longitude": 153.4495841
-                  },
-                  "Name": "Alstonville",
-                  "uuid": "8d480fed-f6fb-f011-8406-00224891bae2"
-                },
-                {
-                  "DisplayName": "Lismore NSW, Australia",
-                  "FormattedAddress": "Lismore NSW 2480, Australia",
-                  "Marker": {
-                    "Latitude": -28.8093154,
-                    "Longitude": 153.2882876
-                  },
-                  "Name": "Lismore",
-                  "uuid": "90480fed-f6fb-f011-8406-00224891bae2"
-                },
-                {
-                  "DisplayName": "Casino NSW, Australia",
-                  "FormattedAddress": "Casino NSW 2470, Australia",
-                  "Marker": {
-                    "Latitude": -28.866667,
-                    "Longitude": 153.05
-                  },
-                  "Name": "Casino",
-                  "uuid": "9d480fed-f6fb-f011-8406-00224891bae2"
-                }
-              ],
-              "ProgramWeblink": null,
-              "uuid": "6d480fed-f6fb-f011-8406-00224891bae2"
-            },
-            {
-              "AisUuid": "640b12e7-f6fb-f011-8406-00224891bae2",
-              "Name": "TAFE Outreach",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Youth - 15 to under 25"
-              ],
-              "ProgramClassie": [
-                {
-                  "classie_id": "180",
-                  "label": "Education partnerships",
-                  "parent_id": "179",
-                  "selected": true
-                },
-                {
-                  "classie_id": "179",
-                  "label": "Education support",
-                  "parent_id": "170",
-                  "selected": false
-                },
-                {
-                  "classie_id": "170",
-                  "label": "Education",
-                  "parent_id": null,
-                  "selected": false
-                }
-              ],
-              "ProgramClassification": "Education partnerships",
-              "ProgramClassificationID": "180",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "61 Piper Drive, Ballina NSW, Australia",
-                  "FormattedAddress": "61 Piper Dr, Ballina NSW 2478, Australia",
-                  "Marker": {
-                    "Latitude": -28.8417487,
-                    "Longitude": 153.554493
-                  },
-                  "Name": "61 Piper Dr",
-                  "uuid": "bc480fed-f6fb-f011-8406-00224891bae2"
-                }
-              ],
-              "ProgramWeblink": null,
-              "uuid": "a6480fed-f6fb-f011-8406-00224891bae2"
-            }
-          ],
-          "ReferendumReturnsUrl": null,
-          "RegistrationStatusHistory": [
-            {
-              "EffectiveDate": "2012-12-02T13:00:00.0000000Z",
-              "Status": "Registered",
-              "TransactionDate": "2012-12-02T13:00:00.0000000Z",
-              "uuid": "66862587-06c6-e811-a964-000d3ad244fd"
-            }
-          ],
-          "RelatedPartyTransactions": null,
-          "RelevantTransactions": null,
-          "ReportingLate": "2027-06-30T12:30:00.0000000Z",
-          "ResponsiblePersons": [
-            {
-              "Name": "Joanne Parker",
-              "Role": "President",
-              "uuid": "11ac5c34-0ebc-e811-a963-000d3ad24a0d"
-            },
-            {
-              "Name": "Dawn Beaumont",
-              "Role": "Committee Member",
-              "uuid": "0d0a1791-d8d6-ef11-a732-00224891e269"
-            },
-            {
-              "Name": "Debbie Wilesmith",
-              "Role": "Committee Member",
-              "uuid": "3d0b1791-d8d6-ef11-a732-00224891e269"
-            },
-            {
-              "Name": "Belinda Seaton",
-              "Role": "Vice-president",
-              "uuid": "d22cdce7-9068-ee11-9ae7-00224893b0ed"
-            },
-            {
-              "Name": "Teena Jameson",
-              "Role": "Secretary",
-              "uuid": "7c2ddce7-9068-ee11-9ae7-00224893b0ed"
-            }
-          ],
-          "Status": "Registered",
-          "SummaryOfActivities": "1. We took in and provided a high level of care for 160 cats and 155 dogs during this reporting period.  These companion animals were either abandoned, lost, no longer wanted, unable to be cared for due to cost of living (and other mainly housing issues), unable to be housed in rental accommodation, owner unable to afford vet bills or surrendered to a local Council Pound. 2.  We provided a safe environment for these animals either at our Animal Shelter or in foster homes and provided food and veterinary care as needed, at our cost, until we found suitable permanent housing for them. 3.  We continued our program to help those experiencing financial hardship to assist with the desexing of their companion animals. 4.  We increased our local profile through engaging with residential care facilities, providing interaction with dogs in our care. 5.  We continued to make improvements to our animal shelter facilities to ensure the comfortable and safe accommodation of animals in our care. 6.  We supported our local community through engaging with and hosting the TAFE Animals Studies Department and continued a strong working relationship and spirit of cooperation with local Council Pounds.",
-          "TotalExpensesEmployee": "160522",
-          "TotalExpensesGrantsAndDonationsInAustralia": "0",
-          "TotalExpensesGrantsAndDonationsOutsideAustralia": "0",
-          "TotalExpensesInterest": "0",
-          "TotalExpensesOther": "260462",
-          "TotalGrossIncomeDonationsAndRequests": "148109",
-          "TotalGrossIncomeGoodsOrServices": "324070",
-          "TotalGrossIncomeGovernmentGrants": "0",
-          "TotalGrossIncomeInvestments": "16392",
-          "TotalGrossIncomeOtherRevenues": "20312",
-          "TransparencyRegisterUrl": null,
-          "Website": "www.nras.org.au",
-          "__normalized": true,
-          "type": "charity",
-          "uuid": "e4b4c3a1-38af-e811-a961-000d3ad24182"
-        },
-        "type": "charity",
-        "uuid": "e4b4c3a1-38af-e811-a961-000d3ad24182"
-      },
-      "canonical_field_mappings": {
-        "data.OtherNames": "operating_names",
-        "data.AddressStateOrProvince": "principal_location"
-      },
-      "evidence_ids": []
-    },
-    {
-      "source_record_id": "src:acnc-ais-detail:16055396731:640b12e7-f6fb-f011-8406-00224891bae2:cb_5a2477c3be6941b485a66cf71c5cfb7f",
-      "source_family": "acnc-ais-detail",
-      "dataset_version": "2026-08-14-public-api",
-      "source_url": "https://www.acnc.gov.au/charity/charities/e4b4c3a1-38af-e811-a961-000d3ad24182/documents/640b12e7-f6fb-f011-8406-00224891bae2",
-      "retrieved_at": "2026-08-13T13:54:42.956606Z",
-      "observed_at": "2026-01-28",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "abn": "16055396731",
-        "ais_uuid": "640b12e7-f6fb-f011-8406-00224891bae2",
-        "year": "2025",
-        "date_received": "2026-01-28T03:10:42.0000000Z"
-      },
-      "source_payload": {
-        "data": {
-          "Abn": "16055396731",
-          "ActivityAdvocacyNCivic": false,
-          "ActivityAgedCare": false,
-          "ActivityAnimalProtection": false,
-          "ActivityCultureAndArt": false,
-          "ActivityEconomicSocialCommunity": false,
-          "ActivityEmergencyNRelief": false,
-          "ActivityEmploymentNTraining": false,
-          "ActivityEnvironmental": false,
-          "ActivityGrantMaking": false,
-          "ActivityHealthRehabilitation": false,
-          "ActivityHigherEducation": false,
-          "ActivityHousing": false,
-          "ActivityIncomeSupportNMaintenance": false,
-          "ActivityInternational": false,
-          "ActivityInternationalDescription": null,
-          "ActivityInternationalOther": false,
-          "ActivityInternationalOtherDescription": null,
-          "ActivityLawNLegalServices": false,
-          "ActivityMain": null,
-          "ActivityMentalHealthCrisisIntervention": false,
-          "ActivityNdisSupported": null,
-          "ActivityNdisSupportedNext": null,
-          "ActivityOperating": true,
-          "ActivityOperatingOverseas": false,
-          "ActivityOther": false,
-          "ActivityOtherDescription": null,
-          "ActivityOtherEducation": false,
-          "ActivityOtherHealthServices": false,
-          "ActivityPersuitPurposesDescription": "1. We took in and provided a high level of care for 160 cats and 155 dogs during this reporting period.  These companion animals were either abandoned, lost, no longer wanted, unable to be cared for due to cost of living (and other mainly housing issues), unable to be housed in rental accommodation, owner unable to afford vet bills or surrendered to a local Council Pound. 2.  We provided a safe environment for these animals either at our Animal Shelter or in foster homes and provided food and veterinary care as needed, at our cost, until we found suitable permanent housing for them. 3.  We continued our program to help those experiencing financial hardship to assist with the desexing of their companion animals. 4.  We increased our local profile through engaging with residential care facilities, providing interaction with dogs in our care. 5.  We continued to make improvements to our animal shelter facilities to ensure the comfortable and safe accommodation of animals in our care. 6.  We supported our local community through engaging with and hosting the TAFE Animals Studies Department and continued a strong working relationship and spirit of cooperation with local Council Pounds.",
-          "ActivityPhilanthropicPromotion": false,
-          "ActivityPolitical": false,
-          "ActivityPrimarySecondaryEducation": false,
-          "ActivityPurposeChange": null,
-          "ActivityPurposeChangeDescription": null,
-          "ActivityRecreationSocialClub": false,
-          "ActivityReligious": false,
-          "ActivityResearch": false,
-          "ActivitySocialServices": false,
-          "ActivitySports": false,
-          "ActivityTransferringFundsGoods": false,
-          "AdvancementOfEducation": false,
-          "AdvancementOfReligion": false,
-          "AssetsandLiabilitiesDescription": null,
-          "BasicReligiousCharity": false,
-          "BeneficiaryAboriginalTorres": false,
-          "BeneficiaryAdults": false,
-          "BeneficiaryAllAges": false,
-          "BeneficiaryChildren": false,
-          "BeneficiaryChronicIllness": false,
-          "BeneficiaryCrimeVictims": false,
-          "BeneficiaryDisasterVictims": false,
-          "BeneficiaryEarlyChildhood": false,
-          "BeneficiaryEthnic": false,
-          "BeneficiaryFamilies": false,
-          "BeneficiaryFinanciallyDisadvantaged": false,
-          "BeneficiaryGeneral": false,
-          "BeneficiaryHomelessnessRisk": false,
-          "BeneficiaryLGBT": false,
-          "BeneficiaryMain": null,
-          "BeneficiaryMen": false,
-          "BeneficiaryMigrantsRefugees": false,
-          "BeneficiaryOffenderFamilies": false,
-          "BeneficiaryOther": false,
-          "BeneficiaryOtherCharities": false,
-          "BeneficiaryOtherDescription": null,
-          "BeneficiaryOverseas": false,
-          "BeneficiaryPeopleWithDisability": false,
-          "BeneficiaryRuralRegionalRemote": false,
-          "BeneficiarySeniors": false,
-          "BeneficiaryUnemployed": false,
-          "BeneficiaryVeteranFamilies": false,
-          "BeneficiaryWomen": false,
-          "BeneficiaryYouth": false,
-          "CharityAddressCountry": "Australia",
-          "CharityAddressLine1": "61 Piper Dr",
-          "CharityAddressLine2": null,
-          "CharityAddressPostalCode": "2478",
-          "CharityAddressStateOrProvince": "NSW",
-          "CharityAddressSuburb": "Ballina",
-          "CharityEmail": "nrascommittee@outlook.com",
-          "CharitySize": "Medium",
-          "CharityUuid": "e4b4c3a1-38af-e811-a961-000d3ad24182",
-          "ChildCareServices": false,
-          "ExpenseEmployees": "160522.0000",
-          "ExpenseGrantDonationsInAustralia": "0.0000",
-          "ExpenseGrantDonationsOutsideAustralia": "0.0000",
-          "ExpenseTotal": "420984.0000",
-          "ExpensesOther": "260462.0000",
-          "FinAccrualAccounting": null,
-          "FinConsolidatedReportFromMiltiple": "No",
-          "FinDocumentedPoliciesRelatedPartyTransactions": null,
-          "FinFyeJune": false,
-          "FinProvideVoluntarily": null,
-          "FinRelatedPartyTransactions": "No",
-          "FinReportACT": false,
-          "FinReportFrom": "2024-07-01T00:00:00.0000000Z",
-          "FinReportNSW": false,
-          "FinReportNT": false,
-          "FinReportQLD": false,
-          "FinReportSA": false,
-          "FinReportTAS": false,
-          "FinReportTo": "2025-06-30T00:00:00.0000000Z",
-          "FinReportVIC": false,
-          "FinReportWA": false,
-          "FinReportingType": "General purpose financial statements",
-          "FinSapDate": null,
-          "FundRaisingNumberACT": null,
-          "FundRaisingNumberNSW": "17290",
-          "FundRaisingNumberQLD": null,
-          "FundRaisingNumberSA": null,
-          "FundRaisingNumberTAS": null,
-          "FundRaisingNumberVIC": null,
-          "FundRaisingNumberWA": null,
-          "GovDocAccurate": null,
-          "GrantCapacityBuildingPct": null,
-          "GrantMultiYearPct": null,
-          "GrantPublicOpenApplicationPct": null,
-          "GrantRuralRegionPct": null,
-          "HasSubmittedToRegulator": false,
-          "HoursPaid": null,
-          "HoursTotal": null,
-          "HoursVolunteer": null,
-          "HrCasualEmployees": "0",
-          "HrFteStaff": "1.7400000000",
-          "HrFullTimeEmployees": "2",
-          "HrPartTimeEmployees": "1",
-          "HrUnpainVolunteers": "200",
-          "IncomeDonationsBequests": "148109.0000",
-          "IncomeGovernmentGrants": "0.0000",
-          "IncomeOther": "54.0000",
-          "IncomeOtherComprehinsive": "0.0000",
-          "IncomeOtherNeg": null,
-          "IncomeOtherReceipts": "20312.0000",
-          "IncomeTotalComprehensive": "87953.0000",
-          "IncomeTotalReceipts": "508937.0000",
-          "IncorporationStatus": null,
-          "InterestExpense": "0.0000",
-          "IsIncorporatedAssociation": true,
-          "KeyManagementPersonnel": false,
-          "LegalName": "Northern Rivers Animal Services Inc.",
-          "NetAssetsLiabilities": "1425604.0000",
-          "NetSurplusDeficit": "87953.0000",
-          "NonCurrentLoansPayable": "0.0000",
-          "NumberOfKeyManagementPersonnel": "0",
-          "OperatingCountries": null,
-          "OperatingInACT": false,
-          "OperatingInNSW": false,
-          "OperatingInNT": false,
-          "OperatingInQLD": false,
-          "OperatingInSA": false,
-          "OperatingInTAS": false,
-          "OperatingInVIC": false,
-          "OperatingInWA": false,
-          "OperatingOverseas": false,
-          "OtherNames": [],
-          "OtherNonCurrentAssets": "0.0000",
-          "OtherNonCurrentLiabilities": "0.0000",
-          "OtherPurposeDescription": null,
-          "OtherPurposes": "False",
-          "Programs": [
-            {
-              "AisUuid": "640b12e7-f6fb-f011-8406-00224891bae2",
-              "Name": "Subsidised Desexing Program",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Aboriginal and Torres Strait Islander people",
-                "People in rural/regional/remote communities",
-                "Financially disadvantaged people",
-                "People at risk of homelessness/ people experiencing homelessness",
-                "People with chronic illness (including terminal illness)",
-                "Unemployed persons",
-                "Victims of crime (including family violence)",
-                "Victims of disaster"
-              ],
-              "ProgramClassification": "Animal population control",
-              "ProgramClassificationID": "29",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "Ballina NSW, Australia",
-                  "FormattedAddress": "Ballina NSW 2478, Australia",
-                  "Marker": {
-                    "Latitude": -28.8574973,
-                    "Longitude": 153.5658573
-                  },
-                  "Name": "Ballina",
-                  "uuid": "2c480fed-f6fb-f011-8406-00224891bae2"
-                },
-                {
-                  "DisplayName": "Lismore NSW, Australia",
-                  "FormattedAddress": "Lismore NSW 2480, Australia",
-                  "Marker": {
-                    "Latitude": -28.8093154,
-                    "Longitude": 153.2882876
-                  },
-                  "Name": "Lismore",
-                  "uuid": "3d480fed-f6fb-f011-8406-00224891bae2"
-                },
-                {
-                  "DisplayName": "Alstonville NSW, Australia",
-                  "FormattedAddress": "Alstonville NSW 2477, Australia",
-                  "Marker": {
-                    "Latitude": -28.8408655,
-                    "Longitude": 153.4495841
-                  },
-                  "Name": "Alstonville",
-                  "uuid": "41480fed-f6fb-f011-8406-00224891bae2"
-                },
-                {
-                  "DisplayName": "Casino NSW, Australia",
-                  "FormattedAddress": "Casino NSW 2470, Australia",
-                  "Marker": {
-                    "Latitude": -28.866667,
-                    "Longitude": 153.05
-                  },
-                  "Name": "Casino",
-                  "uuid": "47480fed-f6fb-f011-8406-00224891bae2"
-                },
-                {
-                  "DisplayName": "Lennox Head NSW, Australia",
-                  "FormattedAddress": "Lennox Head NSW 2478, Australia",
-                  "Marker": {
-                    "Latitude": -28.7932506,
-                    "Longitude": 153.5911069
-                  },
-                  "Name": "Lennox Head",
-                  "uuid": "4e480fed-f6fb-f011-8406-00224891bae2"
-                },
-                {
-                  "DisplayName": "Byron Bay NSW, Australia",
-                  "FormattedAddress": "Byron Bay NSW 2481, Australia",
-                  "Marker": {
-                    "Latitude": -28.6419122,
-                    "Longitude": 153.6105168
-                  },
-                  "Name": "Byron Bay",
-                  "uuid": "53480fed-f6fb-f011-8406-00224891bae2"
-                },
-                {
-                  "DisplayName": "Wardell NSW, Australia",
-                  "FormattedAddress": "Wardell NSW 2477, Australia",
-                  "Marker": {
-                    "Latitude": -28.9523049,
-                    "Longitude": 153.4655212
-                  },
-                  "Name": "Wardell",
-                  "uuid": "55480fed-f6fb-f011-8406-00224891bae2"
-                },
-                {
-                  "DisplayName": "Wollongbar NSW, Australia",
-                  "FormattedAddress": "Wollongbar NSW 2477, Australia",
-                  "Marker": {
-                    "Latitude": -28.8205831,
-                    "Longitude": 153.4218684
-                  },
-                  "Name": "Wollongbar",
-                  "uuid": "58480fed-f6fb-f011-8406-00224891bae2"
-                },
-                {
-                  "DisplayName": "Coraki NSW, Australia",
-                  "FormattedAddress": "Coraki NSW 2471, Australia",
-                  "Marker": {
-                    "Latitude": -28.993391,
-                    "Longitude": 153.2816992
-                  },
-                  "Name": "Coraki",
-                  "uuid": "65480fed-f6fb-f011-8406-00224891bae2"
-                },
-                {
-                  "DisplayName": "Suffolk Park NSW, Australia",
-                  "FormattedAddress": "Suffolk Park NSW 2481, Australia",
-                  "Marker": {
-                    "Latitude": -28.6866323,
-                    "Longitude": 153.608006
-                  },
-                  "Name": "Suffolk Park",
-                  "uuid": "6b480fed-f6fb-f011-8406-00224891bae2"
-                }
-              ],
-              "ProgramWeblink": "www.nras.org.au",
-              "uuid": "510c12e7-f6fb-f011-8406-00224891bae2"
-            },
-            {
-              "AisUuid": "640b12e7-f6fb-f011-8406-00224891bae2",
-              "Name": "Adoption of animals",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Animals",
-                "General community in Australia"
-              ],
-              "ProgramClassification": "Animal adoptions",
-              "ProgramClassificationID": "28",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "Ballina NSW, Australia",
-                  "FormattedAddress": "Ballina NSW 2478, Australia",
-                  "Marker": {
-                    "Latitude": -28.8574973,
-                    "Longitude": 153.5658573
-                  },
-                  "Name": "Ballina",
-                  "uuid": "86480fed-f6fb-f011-8406-00224891bae2"
-                },
-                {
-                  "DisplayName": "Alstonville NSW, Australia",
-                  "FormattedAddress": "Alstonville NSW 2477, Australia",
-                  "Marker": {
-                    "Latitude": -28.8408655,
-                    "Longitude": 153.4495841
-                  },
-                  "Name": "Alstonville",
-                  "uuid": "8d480fed-f6fb-f011-8406-00224891bae2"
-                },
-                {
-                  "DisplayName": "Lismore NSW, Australia",
-                  "FormattedAddress": "Lismore NSW 2480, Australia",
-                  "Marker": {
-                    "Latitude": -28.8093154,
-                    "Longitude": 153.2882876
-                  },
-                  "Name": "Lismore",
-                  "uuid": "90480fed-f6fb-f011-8406-00224891bae2"
-                },
-                {
-                  "DisplayName": "Casino NSW, Australia",
-                  "FormattedAddress": "Casino NSW 2470, Australia",
-                  "Marker": {
-                    "Latitude": -28.866667,
-                    "Longitude": 153.05
-                  },
-                  "Name": "Casino",
-                  "uuid": "9d480fed-f6fb-f011-8406-00224891bae2"
-                }
-              ],
-              "ProgramWeblink": null,
-              "uuid": "6d480fed-f6fb-f011-8406-00224891bae2"
-            },
-            {
-              "AisUuid": "640b12e7-f6fb-f011-8406-00224891bae2",
-              "Name": "TAFE Outreach",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Youth - 15 to under 25"
-              ],
-              "ProgramClassification": "Education partnerships",
-              "ProgramClassificationID": "180",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "61 Piper Drive, Ballina NSW, Australia",
-                  "FormattedAddress": "61 Piper Dr, Ballina NSW 2478, Australia",
-                  "Marker": {
-                    "Latitude": -28.8417487,
-                    "Longitude": 153.554493
-                  },
-                  "Name": "61 Piper Dr",
-                  "uuid": "bc480fed-f6fb-f011-8406-00224891bae2"
-                }
-              ],
-              "ProgramWeblink": null,
-              "uuid": "a6480fed-f6fb-f011-8406-00224891bae2"
-            }
-          ],
-          "RegulatedACT": false,
-          "RegulatedNSW": false,
-          "RegulatedNT": false,
-          "RegulatedQLD": false,
-          "RegulatedSA": false,
-          "RegulatedTAS": false,
-          "RegulatedVIC": false,
-          "RegulatedWA": false,
-          "Regulator": null,
-          "RegulatorAGMDateACT": null,
-          "RegulatorAGMDateNT": null,
-          "RegulatorAGMDateVIC": null,
-          "RegulatorAGMDateWA": null,
-          "RegulatorFundRaising": "Yes",
-          "RegulatorFundRaisingACT": false,
-          "RegulatorFundRaisingNSW": true,
-          "RegulatorFundRaisingNT": false,
-          "RegulatorFundRaisingOnline": false,
-          "RegulatorFundRaisingQLD": false,
-          "RegulatorFundRaisingSA": false,
-          "RegulatorFundRaisingTAS": false,
-          "RegulatorFundRaisingVIC": false,
-          "RegulatorFundRaisingWA": false,
-          "RegulatorIncorporatedAssociationACT": false,
-          "RegulatorIncorporatedAssociationNSW": true,
-          "RegulatorIncorporatedAssociationNT": false,
-          "RegulatorIncorporatedAssociationNumberACT": null,
-          "RegulatorIncorporatedAssociationNumberNSW": "INC9877105",
-          "RegulatorIncorporatedAssociationNumberNT": null,
-          "RegulatorIncorporatedAssociationNumberQLD": null,
-          "RegulatorIncorporatedAssociationNumberSA": null,
-          "RegulatorIncorporatedAssociationNumberTAS": null,
-          "RegulatorIncorporatedAssociationNumberVIC": null,
-          "RegulatorIncorporatedAssociationNumberWA": null,
-          "RegulatorIncorporatedAssociationQLD": false,
-          "RegulatorIncorporatedAssociationSA": false,
-          "RegulatorIncorporatedAssociationTAS": false,
-          "RegulatorIncorporatedAssociationVIC": false,
-          "RegulatorIncorporatedAssociationWA": false,
-          "RegulatorMetRequirementACT": false,
-          "RegulatorMetRequirementWA": null,
-          "RegulatorOtherDetails": null,
-          "RegulatorPrograms": null,
-          "RegulatorStates": false,
-          "RelatedPartyDetails": null,
-          "RelatedPartyTransactions": [],
-          "ReliefOfPoverty": false,
-          "ReportingGroupFlag": false,
-          "ResponsiblePersonAccurate": null,
-          "RevenueGoodsServices": "324070.0000",
-          "RevenueInvestments": "16392.0000",
-          "RevenueTotal": "508883.0000",
-          "StatementYear": "2025",
-          "SubTypesAccurate": null,
-          "TotalAssets": "1491112.0000",
-          "TotalCurrentAssets": "574526.0000",
-          "TotalCurrentLiabilities": "65508.0000",
-          "TotalLiabilities": "65508.0000",
-          "TotalNonCurrentAssets": "916586.0000",
-          "TotalNonCurrentLiabilities": "0.0000",
-          "TotalNonCurrentLoansReceivable": "0.0000",
-          "TotalPaidKMP": "$0.00",
-          "Website": "www.nras.org.au",
-          "__normalized": true,
-          "entityTypeVersion": "",
-          "entityVersion": "1839560119",
-          "timeStamp": "2026-01-28T03:10:32.0000000Z",
-          "type": "annual_information_statement",
-          "uuid": "640b12e7-f6fb-f011-8406-00224891bae2"
-        },
-        "type": "annual_information_statement",
-        "uuid": "640b12e7-f6fb-f011-8406-00224891bae2"
-      },
-      "canonical_field_mappings": {
-        "data.Programs": "programs",
-        "data.TotalRevenue": "financial_records[].revenue",
-        "data.TotalExpenses": "financial_records[].total_expenses"
-      },
-      "evidence_ids": [
-        "ev:acnc:ais:16055396731:640b12e7-f6fb-f011-8406-00224891bae2"
-      ]
-    }
-  ],
-  "financial_records": [
-    {
-      "financial_record_id": "fr:ais:cb_5a2477c3be6941b485a66cf71c5cfb7f:2023",
-      "period": {
-        "period_start": "2022-07-01",
-        "period_end": "2023-06-30",
-        "period_length_days": 365,
-        "label": "01/07/2022 to 30/06/2023",
-        "is_transitional_or_nonstandard": false
-      },
-      "reporting_scope": "subject",
-      "reporting_subject_causebase_id": "cb_5a2477c3be6941b485a66cf71c5cfb7f",
-      "covered_subjects": [
-        "cb_5a2477c3be6941b485a66cf71c5cfb7f"
-      ],
-      "consolidated": "unknown",
-      "attribution_method": "direct_subject_report",
-      "evidence_ids": [
-        "ev:ais:16055396731:2023"
-      ],
-      "revenue": {
-        "source_amount": "328748",
-        "source_currency": "AUD",
-        "source_unit_scale": "1",
-        "normalised_amount": "328748",
-        "normalised_currency": "AUD",
-        "source_unit_label": null,
-        "source_raw_value": "328748",
-        "source_precision": null
-      },
-      "donations": null,
-      "government_grants": null,
-      "employee_costs": null,
-      "total_expenses": {
-        "source_amount": "350299",
-        "source_currency": "AUD",
-        "source_unit_scale": "1",
-        "normalised_amount": "350299",
-        "normalised_currency": "AUD",
-        "source_unit_label": null,
-        "source_raw_value": "350299",
-        "source_precision": null
-      },
-      "assets": null,
-      "liabilities": null,
-      "net_assets": null,
-      "income_breakdown": [],
-      "expense_breakdown": [],
-      "balance_sheet_breakdown": [],
-      "source_ordered_line_items": [],
-      "statements": [],
-      "donations_gifts_bequests": null,
-      "functional_expense_allocations": []
-    }
-  ],
-  "financial_metrics": [
-    {
-      "metric": "revenue",
-      "observations": [
-        {
-          "financial_record_id": "fr:ais:cb_5a2477c3be6941b485a66cf71c5cfb7f:2023",
-          "amount": {
-            "source_amount": "328748",
-            "source_currency": "AUD",
-            "source_unit_scale": "1",
-            "normalised_amount": "328748",
-            "normalised_currency": "AUD",
-            "source_unit_label": null,
-            "source_raw_value": "328748",
-            "source_precision": null
-          },
-          "metric_source_label": null,
-          "evidence_ids": [
-            "ev:ais:16055396731:2023"
-          ]
-        }
-      ],
-      "reconciliation_status": "single_observation",
-      "reconciliation_notes": null
-    },
-    {
-      "metric": "total_expenses",
-      "observations": [
-        {
-          "financial_record_id": "fr:ais:cb_5a2477c3be6941b485a66cf71c5cfb7f:2023",
-          "amount": {
-            "source_amount": "350299",
-            "source_currency": "AUD",
-            "source_unit_scale": "1",
-            "normalised_amount": "350299",
-            "normalised_currency": "AUD",
-            "source_unit_label": null,
-            "source_raw_value": "350299",
-            "source_precision": null
-          },
-          "metric_source_label": null,
-          "evidence_ids": [
-            "ev:ais:16055396731:2023"
-          ]
-        }
-      ],
-      "reconciliation_status": "single_observation",
-      "reconciliation_notes": null
-    }
-  ],
-  "fundraising_expenditure": null,
-  "funding_sources": [],
-  "fundraising_methods": [],
-  "classifications": [
-    {
-      "taxonomy_id": "acnc-register",
-      "taxonomy_version": "2026-08-10",
-      "term_id": "purpose.animal_welfare",
-      "term_label": "animal welfare",
-      "assignment_method": "source_native",
-      "confidence": "high",
-      "evidence_ids": [
-        "ev:acnc:16055396731"
-      ]
-    },
-    {
-      "taxonomy_id": "acnc-register",
-      "taxonomy_version": "2026-08-10",
-      "term_id": "beneficiary.young_people",
-      "term_label": "young people",
-      "assignment_method": "source_native",
-      "confidence": "high",
-      "evidence_ids": [
-        "ev:acnc:16055396731"
-      ]
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "cause.animal_welfare",
-      "term_label": "Animal welfare",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "activity.direct_service",
-      "term_label": "Direct service delivery",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "activity.events_and_public_programming",
-      "term_label": "Events and public programming",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "approach.volunteer_enabled",
-      "term_label": "Volunteer-enabled delivery",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "participation.volunteering",
-      "term_label": "Volunteering",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "participation.public_events",
-      "term_label": "Public events",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "participation.working_bees",
-      "term_label": "Working bees",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "geography.local_or_regional",
-      "term_label": "Local or regional Australia",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
+      "review_status": "not_required",
+      "conflicting_signals": []
     }
   ],
   "evidence": [
     {
       "evidence_id": "ev:acnc:16055396731",
-      "source_type": "regulatory",
-      "title": "ACNC Register extract",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": null,
-      "observed_at": "2026-08-10",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "title": "ACNC Register extract"
     },
     {
       "evidence_id": "ev:web:16055396731:2026-08-10",
-      "source_type": "organisation_self_report",
       "title": "Organisation website homepage",
-      "publisher": "Northern Rivers Animal Services Inc.",
-      "url": "https://nras.org.au/",
-      "observed_at": "2026-08-10",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://nras.org.au/"
     },
     {
       "evidence_id": "ev:ais:16055396731:2023",
-      "source_type": "regulatory",
-      "title": "ACNC AIS 2023 extract",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": null,
-      "observed_at": "2026-08-10",
-      "reporting_period": "01/07/2022 to 30/06/2023",
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "title": "ACNC AIS 2023 extract"
     },
     {
       "evidence_id": "ev:acnc:ais:16055396731:640b12e7-f6fb-f011-8406-00224891bae2",
-      "source_type": "regulatory",
       "title": "ACNC Annual Information Statement 2025",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": "https://www.acnc.gov.au/charity/charities/e4b4c3a1-38af-e811-a961-000d3ad24182/documents/640b12e7-f6fb-f011-8406-00224891bae2",
-      "observed_at": "2026-01-28",
-      "reporting_period": "2025",
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://www.acnc.gov.au/charity/charities/e4b4c3a1-38af-e811-a961-000d3ad24182/documents/640b12e7-f6fb-f011-8406-00224891bae2"
     },
     {
       "evidence_id": "ev:abr-dgr:16055396731:20260805",
-      "source_type": "regulatory",
       "title": "ABR DGR bulk observation",
-      "publisher": "Australian Business Register / Australian Taxation Office",
-      "url": "https://abr.business.gov.au/Tools/BulkExtract",
-      "observed_at": "2026-08-05",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://abr.business.gov.au/Tools/BulkExtract"
     }
   ],
-  "embedding": {
-    "embedding_id": "cb_5a2477c3be6941b485a66cf71c5cfb7f:entity:text-embedding-3-small",
-    "embedding_type": "entity",
-    "model_id": "text-embedding-3-small",
-    "model_version": "text-embedding-3-small",
-    "dimensions": 1536,
-    "source_text_hash": "46df6c4ecca7f15d439247442a65e86313af41ac7276add7b1dadb29202c55aa",
-    "generated_at": "2026-08-10T13:53:24.456144Z",
-    "vector_ref": "embeddings.parquet#cb_5a2477c3be6941b485a66cf71c5cfb7f"
+  "summary": {
+    "derivative_id": "der:rc4:cb_5a2477c3be6941b485a66cf71c5cfb7f:summary",
+    "text": "Northern Rivers Animal Services (NRAS) is a self-funded, not-for-profit registered charity based in Ballina that rescues abandoned, abused, lost and unwanted dogs and cats across the Northern Rivers region of New South Wales. NRAS operates a rescue shelter at 61 Piper Drive, Ballina, places animals in foster care and runs monthly Adoption Days (first Saturday, 10:00\u201313:00) where prospective adopters can meet animals and access services such as microchipping, nail clipping and hydrobathing. Animals are desexed, microchipped, vaccinated and vet-checked prior to adoption. NRAS also runs a subsidised desexing program, operates an op shop in Ballina and stages community events (including Dogs Day Out and a pet calendar competition). Volunteer roles include foster caring, shelter and shop staffing, transport and general maintenance."
   },
-  "synthesis": {
-    "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
-    "parameters": {
-      "max_output_tokens": 3000,
-      "structured_output": true,
-      "output_contract": "causebase-summary-v0.3-rc2"
-    },
-    "evidence_input_hash": "5ac21606a9f1fef03c09fc7de177eef662cc85416fbfedcb4ef921dfe96406cc",
-    "generated_at": "2026-08-12T13:47:27.323918Z",
-    "editorial_policy_version": "0.3-rc2"
-  },
-  "derivative_assessments": [
+  "activities": [],
+  "beneficiaries": [],
+  "descriptive_geography": [],
+  "navigation_geography": [],
+  "funding_sources": [],
+  "fundraising_methods": [],
+  "participation": [],
+  "opportunities": [],
+  "programs": [
     {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T13:47:27.323918Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-13T13:54:42.956606Z",
-      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
-      "input_hash": "5ac21606a9f1fef03c09fc7de177eef662cc85416fbfedcb4ef921dfe96406cc",
-      "disposition": "reused",
-      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
-      "affected_dimensions": [
-        "summary"
-      ]
+      "observation_id": "obs:rc4:cb_5a2477c3be6941b485a66cf71c5cfb7f:program:prg:acnc:16055396731:510c12e7-f6fb-f011-8406-00224891bae2",
+      "program_id": "prg:acnc:16055396731:510c12e7-f6fb-f011-8406-00224891bae2",
+      "name": "Subsidised Desexing Program",
+      "description": "Animal population control",
+      "url": "www.nras.org.au",
+      "status": "current",
+      "claim_basis": "direct",
+      "extraction_method": "api",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:ais:16055396731:640b12e7-f6fb-f011-8406-00224891bae2"
+      ],
+      "time": {
+        "reporting_period": {
+          "label": "2025"
+        }
+      },
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_5a2477c3be6941b485a66cf71c5cfb7f:program:prg:acnc:16055396731:6d480fed-f6fb-f011-8406-00224891bae2",
+      "program_id": "prg:acnc:16055396731:6d480fed-f6fb-f011-8406-00224891bae2",
+      "name": "Adoption of animals",
+      "description": "Animal adoptions",
+      "url": "https://www.acnc.gov.au/charity/charities/e4b4c3a1-38af-e811-a961-000d3ad24182/documents/640b12e7-f6fb-f011-8406-00224891bae2",
+      "status": "current",
+      "claim_basis": "direct",
+      "extraction_method": "api",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:ais:16055396731:640b12e7-f6fb-f011-8406-00224891bae2"
+      ],
+      "time": {
+        "reporting_period": {
+          "label": "2025"
+        }
+      },
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_5a2477c3be6941b485a66cf71c5cfb7f:program:prg:acnc:16055396731:a6480fed-f6fb-f011-8406-00224891bae2",
+      "program_id": "prg:acnc:16055396731:a6480fed-f6fb-f011-8406-00224891bae2",
+      "name": "TAFE Outreach",
+      "description": "Education partnerships",
+      "url": "https://www.acnc.gov.au/charity/charities/e4b4c3a1-38af-e811-a961-000d3ad24182/documents/640b12e7-f6fb-f011-8406-00224891bae2",
+      "status": "current",
+      "claim_basis": "direct",
+      "extraction_method": "api",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:ais:16055396731:640b12e7-f6fb-f011-8406-00224891bae2"
+      ],
+      "time": {
+        "reporting_period": {
+          "label": "2025"
+        }
+      },
+      "warnings": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-14-rc4-fundraising-projection-correction",
-  "card_schema_version": "0.4",
-  "editorial_policy_version": "0.4-rc4",
-  "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T13:54:42.956606Z"
+  "relationships": [],
+  "classifications": [
+    {
+      "observation_id": "obs:rc4:cb_5a2477c3be6941b485a66cf71c5cfb7f:classification:0",
+      "classification_id": "cls:rc4:cb_5a2477c3be6941b485a66cf71c5cfb7f:0",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "purpose.animal_welfare",
+      "term_label": "animal welfare",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:16055396731"
+      ],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_5a2477c3be6941b485a66cf71c5cfb7f:classification:1",
+      "classification_id": "cls:rc4:cb_5a2477c3be6941b485a66cf71c5cfb7f:1",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "beneficiary.young_people",
+      "term_label": "young people",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:16055396731"
+      ],
+      "confidence": "high",
+      "warnings": []
+    }
+  ],
+  "coverage": {
+    "registry_id": "capability-registry-0.5-initial",
+    "current": [
+      {
+        "capability": "regulatory.acnc_profile",
+        "status": "observed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:acnc:16055396731"
+        ]
+      },
+      {
+        "capability": "regulatory.ais",
+        "status": "observed",
+        "assessed_at": "2026-01-28",
+        "source_record_ids": [
+          "src:acnc-ais-detail:16055396731:640b12e7-f6fb-f011-8406-00224891bae2:cb_5a2477c3be6941b485a66cf71c5cfb7f"
+        ],
+        "evidence_ids": [
+          "ev:acnc:ais:16055396731:640b12e7-f6fb-f011-8406-00224891bae2"
+        ]
+      },
+      {
+        "capability": "tax.dgr",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "web.website",
+        "status": "observed",
+        "assessed_at": "2026-08-13",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "report.annual_report",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "financial.report",
+        "status": "unknown",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:ais:16055396731:2023"
+        ]
+      },
+      {
+        "capability": "financial.statements",
+        "status": "unknown",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:ais:16055396731:2023"
+        ]
+      },
+      {
+        "capability": "understanding.activities",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.beneficiaries",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.geography",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "programs",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "participation",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "funding.sources",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.methods",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.expenditure",
+        "status": "not_available_from_source",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "taxonomy.causebase",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "semantic.embedding",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      }
+    ]
+  },
+  "financial_reports": [],
+  "canonical_metrics": [],
+  "analytic_projections": [],
+  "derivatives": [
+    {
+      "derivative_id": "der:rc4:cb_5a2477c3be6941b485a66cf71c5cfb7f:summary",
+      "kind": "summary",
+      "input_observation_ids": [],
+      "evidence_ids": [
+        "ev:web:16055396731:2026-08-10",
+        "ev:acnc:16055396731"
+      ],
+      "generated_under": {
+        "output_contract_version": "phase2b-rc4-accepted-rc2-summary-reuse",
+        "input_hash": "5ac21606a9f1fef03c09fc7de177eef662cc85416fbfedcb4ef921dfe96406cc",
+        "generated_at": "2026-08-12T13:47:27.323918Z"
+      },
+      "current_assessment": {
+        "assessed_at": "2026-08-13T13:54:42.956606Z",
+        "assessed_against_contract": "0.5",
+        "governing_input_hash": "5ac21606a9f1fef03c09fc7de177eef662cc85416fbfedcb4ef921dfe96406cc",
+        "disposition": "reused",
+        "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs."
+      }
+    }
+  ],
+  "legacy_unbound": {
+    "origin_release": "rc4-2026-08-14",
+    "origin_card_sha256": "6423cb253236a02199393cfcf7b9f40f7c989b75ba88d26030363171e8b42800",
+    "activities": [
+      {
+        "value": "Rescue and foster care for abandoned, abused, lost and unwanted dogs and cats",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Operating NRAS Rescue Shelter at 61 Piper Drive, Ballina (shelter operations)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Hosting monthly Adoption Days (first Saturday, 10:00\u201313:00)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Providing microchipping, nail clipping and hydrobathing services at Adoption Days",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Desexing, microchipping, vaccination and veterinary checks prior to adoption",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Running a subsidised desexing program",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Operating an op shop in Ballina",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Running community events (Dogs Day Out, pet calendar competition)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "beneficiaries": [
+      {
+        "value": "Abandoned, abused, lost and unwanted dogs and cats",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "People seeking to adopt dogs or cats (attendees of Adoption Days)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "descriptive_geography": [
+      {
+        "value": "Northern Rivers region, New South Wales",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Ballina, New South Wales",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "classifications": [
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "cause.animal_welfare",
+        "term_label": "Animal welfare",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "activity.direct_service",
+        "term_label": "Direct service delivery",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "activity.events_and_public_programming",
+        "term_label": "Events and public programming",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "approach.volunteer_enabled",
+        "term_label": "Volunteer-enabled delivery",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "participation.volunteering",
+        "term_label": "Volunteering",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "participation.public_events",
+        "term_label": "Public events",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "participation.working_bees",
+        "term_label": "Working bees",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "geography.local_or_regional",
+        "term_label": "Local or regional Australia",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      }
+    ],
+    "financial_records": [
+      {
+        "financial_record_id": "fr:ais:cb_5a2477c3be6941b485a66cf71c5cfb7f:2023",
+        "period": {
+          "period_start": "2022-07-01",
+          "period_end": "2023-06-30",
+          "period_length_days": 365,
+          "label": "01/07/2022 to 30/06/2023",
+          "is_transitional_or_nonstandard": false
+        },
+        "reporting_scope": "subject",
+        "reporting_subject_causebase_id": "cb_5a2477c3be6941b485a66cf71c5cfb7f",
+        "covered_subjects": [
+          "cb_5a2477c3be6941b485a66cf71c5cfb7f"
+        ],
+        "consolidated": "unknown",
+        "attribution_method": "direct_subject_report",
+        "evidence_ids": [
+          "ev:ais:16055396731:2023"
+        ],
+        "revenue": {
+          "source_amount": "328748",
+          "source_currency": "AUD",
+          "source_unit_scale": "1",
+          "normalised_amount": "328748",
+          "normalised_currency": "AUD",
+          "source_unit_label": null,
+          "source_raw_value": "328748",
+          "source_precision": null
+        },
+        "donations": null,
+        "government_grants": null,
+        "employee_costs": null,
+        "total_expenses": {
+          "source_amount": "350299",
+          "source_currency": "AUD",
+          "source_unit_scale": "1",
+          "normalised_amount": "350299",
+          "normalised_currency": "AUD",
+          "source_unit_label": null,
+          "source_raw_value": "350299",
+          "source_precision": null
+        },
+        "assets": null,
+        "liabilities": null,
+        "net_assets": null,
+        "income_breakdown": [],
+        "expense_breakdown": [],
+        "balance_sheet_breakdown": [],
+        "source_ordered_line_items": [],
+        "statements": [],
+        "donations_gifts_bequests": null,
+        "functional_expense_allocations": []
+      }
+    ]
+  }
 }

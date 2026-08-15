@@ -1,1463 +1,475 @@
 {
   "causebase_id": "cb_815889ce59de40eead9e4368d0cd314c",
+  "contract_version": "0.5",
   "subject_kind": "unknown",
-  "external_identifiers": [
-    {
-      "scheme": "abn",
-      "value": "62785862039",
-      "source_evidence_id": "ev:acnc:62785862039"
-    }
+  "identity": {
+    "legal_name": "Rossmoyne Kindergarten Association (Inc.)",
+    "display_name": "Rossmoyne Kindergarten Association (Inc.)",
+    "operating_names": [],
+    "former_names": [],
+    "entity_status": "registered",
+    "website": "www.rossmoynekindy.com",
+    "external_identifiers": [
+      {
+        "scheme": "abn",
+        "value": "62785862039",
+        "evidence_ids": [
+          "ev:acnc:62785862039"
+        ]
+      }
+    ],
+    "registrations": [
+      {
+        "regulator": "ACNC",
+        "status": "registered",
+        "evidence_ids": [
+          "ev:acnc:62785862039"
+        ]
+      }
+    ],
+    "tax_statuses": [
+      {
+        "scheme": "ABR DGR",
+        "status": "endorsed",
+        "evidence_ids": [
+          "ev:abr-dgr:62785862039:20260805"
+        ]
+      }
+    ]
+  },
+  "release": {
+    "release_id": "v0.5.0-2026-08-15",
+    "dataset_version": "0.5.0-2026-08-15",
+    "contract_version": "0.5",
+    "based_on_release": "rc4-2026-08-14",
+    "generated_at": "2026-08-15T00:00:00Z"
+  },
+  "source_record_refs": [
+    "src:acnc-public-profile:62785862039:7fe4cd79-3aaf-e811-a95e-000d3ad24c60:cb_815889ce59de40eead9e4368d0cd314c",
+    "src:acnc-ais-detail:62785862039:9a15293c-9434-f111-88b4-002248111f49:cb_815889ce59de40eead9e4368d0cd314c"
   ],
-  "registrations": [
-    {
-      "regulator": "ACNC",
-      "registration_id": null,
-      "status": "registered",
-      "evidence_ids": [
-        "ev:acnc:62785862039"
-      ]
-    }
-  ],
-  "tax_statuses": [
-    {
-      "scheme": "ABR DGR",
-      "status": "endorsed",
-      "detail": "Dated 2026-08-05 ABR bulk observation",
-      "evidence_ids": [
-        "ev:abr-dgr:62785862039:20260805"
-      ]
-    }
-  ],
-  "relationships": [],
-  "source_resolutions": [
+  "source_bindings": [
     {
       "source_record_id": "src:acnc-register:c56e327c-1d7c-5b2e-a361-66e42975834d",
       "resolution_status": "resolved",
       "resolution_basis": "automated authoritative ACNC promotion under acnc-authoritative-v1",
       "confidence": "high",
-      "supporting_signals": [
-        "ABN:62785862039",
-        "ACNC Register"
-      ],
-      "conflicting_signals": [],
-      "review_status": "not_required"
-    }
-  ],
-  "legal_name": "Rossmoyne Kindergarten Association (Inc.)",
-  "display_name": "Rossmoyne Kindergarten Association (Inc.)",
-  "entity_status": "registered",
-  "canonical_url": "https://gregorycwhill.github.io/CauseBase-Viewer/#cb_815889ce59de40eead9e4368d0cd314c",
-  "acnc_profile_url": "https://www.acnc.gov.au/charity/charities/7fe4cd79-3aaf-e811-a95e-000d3ad24c60/profile",
-  "acnc_ais_url": "https://www.acnc.gov.au/charity/charities/7fe4cd79-3aaf-e811-a95e-000d3ad24c60/documents/9a15293c-9434-f111-88b4-002248111f49",
-  "operating_names": [],
-  "former_names": [],
-  "principal_location": "WA, Australia",
-  "coverage": [
-    {
-      "capability": "regulatory",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:acnc:62785862039"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "annual_report",
-      "status": "not_yet_processed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "fundraising_expenditure",
-      "status": "not_available_from_source",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": "No direct or defensible derived fundraising expenditure was found in selected Phase 2A evidence."
-    },
-    {
-      "capability": "financials",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:ais:62785862039:2023"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "latest_acnc_ais",
-      "status": "observed",
-      "source_record_id": "src:acnc-ais-detail:62785862039:9a15293c-9434-f111-88b4-002248111f49:cb_815889ce59de40eead9e4368d0cd314c",
-      "evidence_ids": [
-        "ev:acnc:ais:62785862039:9a15293c-9434-f111-88b4-002248111f49"
-      ],
-      "observed_at": "2026-04-10",
-      "freshness_note": "Latest submitted AIS detail acquired from the public ACNC entity endpoint."
-    },
-    {
-      "capability": "website",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-13",
-      "freshness_note": "Public website locator acquired from the ACNC profile."
-    }
-  ],
-  "enrichment_level": "enriched",
-  "website": "www.rossmoynekindy.com",
-  "geography": [
-    "Rossmoyne, City of Canning, Western Australia",
-    "Local intake area around Rossmoyne Primary School"
-  ],
-  "geography_observations": [
-    {
-      "value": "Rossmoyne, City of Canning, Western Australia",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Local intake area around Rossmoyne Primary School",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "navigation_geography": [],
-  "causebase_summary": "Rossmoyne Kindergarten Association (Inc.) is a community kindergarten in Rossmoyne, City of Canning, Western Australia. It operates two kindergarten classes with a maximum of 20 children per class for children who are four years old by 30 June in the year they attend. The kindergarten occupies purpose-built facilities leased from the City of Canning, with teachers appointed by the Department of Education and management conducted by a parent committee. On-site provision includes an “Enchanted Garden” nature play area with a water pump, sandpits, forts, poultry and small animals, and vegetable patches. The parent committee manages enrolment administration (applications completed in person at Rossmoyne Primary School), coordinates volunteer involvement, and publishes a 360-degree virtual tour and information on fees and intake timing.",
-  "summary_evidence_ids": [
-    "ev:web:62785862039:2026-08-10",
-    "ev:acnc:62785862039"
-  ],
-  "organisation_self_description": null,
-  "activities": [
-    "Provision of kindergarten (two classes of up to 20 children)",
-    "Operation and maintenance of a nature play area (Enchanted Garden)",
-    "Parent committee management and volunteer involvement",
-    "On-site and virtual tours and enrolment administration"
-  ],
-  "activity_observations": [
-    {
-      "value": "Provision of kindergarten (two classes of up to 20 children)",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Operation and maintenance of a nature play area (Enchanted Garden)",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Parent committee management and volunteer involvement",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "On-site and virtual tours and enrolment administration",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "beneficiaries": [
-    "Children eligible for kindergarten (four years old by 30 June in the year they attend)",
-    "Parents and families who enrol or participate in the parent committee"
-  ],
-  "beneficiary_observations": [
-    {
-      "value": "Children eligible for kindergarten (four years old by 30 June in the year they attend)",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Parents and families who enrol or participate in the parent committee",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "participation_modes": [
-    "Parent committee membership and volunteering",
-    "In-person enrolment at Rossmoyne Primary School",
-    "On-site tours",
-    "360-degree virtual tour"
-  ],
-  "participation_observations": [],
-  "opportunities": [],
-  "programs": [
-    {
-      "program_id": "prg:acnc:62785862039:7e512642-9434-f111-88b4-002248111f49",
-      "name": "Community Kindergarten",
-      "description": "Family-school involvement",
-      "beneficiaries": [
-        "Families",
-        "Early childhood - aged under 6",
-        "People from a culturally and linguistically diverse background",
-        "Males",
-        "Females",
-        "People with disabilities"
-      ],
-      "geography": [
-        "Rossmoyne WA, Australia"
-      ],
-      "status": "current",
-      "reporting_period": "2025",
-      "source_url": "https://www.acnc.gov.au/charity/charities/7fe4cd79-3aaf-e811-a95e-000d3ad24c60/documents/9a15293c-9434-f111-88b4-002248111f49",
-      "evidence_ids": [
-        "ev:acnc:ais:62785862039:9a15293c-9434-f111-88b4-002248111f49"
-      ]
-    }
-  ],
-  "source_native_records": [
-    {
-      "source_record_id": "src:acnc-public-profile:62785862039:7fe4cd79-3aaf-e811-a95e-000d3ad24c60:cb_815889ce59de40eead9e4368d0cd314c",
-      "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-14-public-api",
-      "source_url": "https://www.acnc.gov.au/charity/charities/7fe4cd79-3aaf-e811-a95e-000d3ad24c60/profile",
-      "retrieved_at": "2026-08-13T13:54:42.956606Z",
-      "observed_at": "2026-04-10",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "uuid": "7fe4cd79-3aaf-e811-a95e-000d3ad24c60",
-        "abn": "62785862039"
-      },
-      "source_payload": {
-        "data": {
-          "AFSAddressPostalCode": "6148",
-          "AFSEmail": "treasurer@rossmoynekindy.com",
-          "Abn": "62785862039",
-          "AddressCountry": "Australia",
-          "AddressLine1": "48 Central Rd",
-          "AddressLine2": null,
-          "AddressLine3": null,
-          "AddressPostalCode": "6148",
-          "AddressStateOrProvince": "WA",
-          "AddressSuburb": "Rossmoyne",
-          "AddressSuburbStatePostcode": "Rossmoyne WA 6148",
-          "AnnualReports": [
-            {
-              "AISId": null,
-              "DateReceived": "2020-04-23T01:35:25.0000000Z",
-              "DocumentUuid": "57cb5ba9-0285-ea11-a811-000d3acb05bc",
-              "DueDate": "2020-08-30T14:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2019",
-              "type": "Financial Report 2019",
-              "uuid": "e9655587-f925-e911-a973-000d3ad0574c"
-            },
-            {
-              "AISId": "68eee9af-0285-ea11-a812-000d3ad1f29c",
-              "DateReceived": "2020-04-23T01:35:28.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2020-08-30T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2019",
-              "type": "Annual Information Statement 2019",
-              "uuid": "06665587-f925-e911-a973-000d3ad0574c"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2021-06-01T03:55:19.0000000Z",
-              "DocumentUuid": "e4355226-8dc2-eb11-bacc-000d3ad1ae52",
-              "DueDate": "2021-06-29T14:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2020",
-              "type": "Financial Report 2020",
-              "uuid": "31665587-f925-e911-a973-000d3ad0574c"
-            },
-            {
-              "AISId": "aa2dc52b-8dc2-eb11-8236-000d3a6a6794",
-              "DateReceived": "2021-06-01T03:55:23.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2021-06-29T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2020",
-              "type": "Annual Information Statement 2020",
-              "uuid": "5e665587-f925-e911-a973-000d3ad0574c"
-            },
-            {
-              "AISId": "ab05f8d1-07b7-ec11-983f-002248941940",
-              "DateReceived": "2022-04-08T06:48:02.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2022-06-29T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2021",
-              "type": "Annual Information Statement 2021",
-              "uuid": "a91ceeac-98eb-ea11-a815-000d3ad1f497"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2022-04-08T06:46:32.0000000Z",
-              "DocumentUuid": "e30e6c95-07b7-ec11-983f-002248941d38",
-              "DueDate": "2022-06-29T14:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2021",
-              "type": "Financial Report 2021",
-              "uuid": "c01ceeac-98eb-ea11-a815-000d3ad1f497"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": true,
-              "Status": "Not required",
-              "Year": "2013",
-              "type": "Annual Information Statement 2013",
-              "uuid": "5bfb6aac-3bc8-e811-a962-000d3ad24182"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": true,
-              "Status": "Not required",
-              "Year": "2014",
-              "type": "Annual Information Statement 2014",
-              "uuid": "6afb6aac-3bc8-e811-a962-000d3ad24182"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": true,
-              "Status": "Not required",
-              "Year": "2015",
-              "type": "Annual Information Statement 2015",
-              "uuid": "85fb6aac-3bc8-e811-a962-000d3ad24182"
-            },
-            {
-              "AISId": "dbed8d5d-c75d-e911-a97e-000d3ad05e15",
-              "DateReceived": "2019-04-13T08:37:31.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2019-06-29T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2018",
-              "type": "Annual Information Statement 2018",
-              "uuid": "b3fb6aac-3bc8-e811-a962-000d3ad24182"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2019-04-13T08:37:22.0000000Z",
-              "DocumentUuid": "4df34051-c75d-e911-a971-000d3ad24a0d",
-              "DueDate": "2019-06-29T14:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2018",
-              "type": "Financial Report 2018",
-              "uuid": "2d62c2cb-40c8-e811-a962-000d3ad24182"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required",
-              "Year": "2015",
-              "type": "Financial Report 2015",
-              "uuid": "4062c2cb-40c8-e811-a962-000d3ad24182"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required",
-              "Year": "2014",
-              "type": "Financial Report 2014",
-              "uuid": "5262c2cb-40c8-e811-a962-000d3ad24182"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required",
-              "Year": "2017",
-              "type": "Financial Report 2017",
-              "uuid": "6362c2cb-40c8-e811-a962-000d3ad24182"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required",
-              "Year": "2013",
-              "type": "Financial Report 2013",
-              "uuid": "7762c2cb-40c8-e811-a962-000d3ad24182"
-            },
-            {
-              "AISId": "79767cb2-52c8-e811-a961-000d3ad24282",
-              "DateReceived": "2017-02-26T13:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2017-06-29T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2016",
-              "type": "Annual Information Statement 2016",
-              "uuid": "d0e1a6b4-52c8-e811-a962-000d3ad24182"
-            },
-            {
-              "AISId": "82767cb2-52c8-e811-a961-000d3ad24282",
-              "DateReceived": "2018-03-28T13:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2018-06-29T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2017",
-              "type": "Annual Information Statement 2017",
-              "uuid": "d7e1a6b4-52c8-e811-a962-000d3ad24182"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2017-02-26T13:00:00.0000000Z",
-              "DocumentUuid": "788ac9a5-51b0-e811-a963-000d3ad244fd",
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2016",
-              "type": "Financial Report 2016",
-              "uuid": "09e10fcb-40c8-e811-a963-000d3ad24a0d"
-            },
-            {
-              "AISId": "2238c949-3eb6-ed11-b597-000d3ad1400f",
-              "DateReceived": "2023-02-27T01:30:25.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2023-06-29T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2022",
-              "type": "Annual Information Statement 2022",
-              "uuid": "26aaf332-bfd9-eb11-bacb-002248107110"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2023-02-27T01:30:21.0000000Z",
-              "DocumentUuid": "30904d48-3eb6-ed11-b596-00224893cef4",
-              "DueDate": "2023-06-29T14:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2022",
-              "type": "Financial Report 2022",
-              "uuid": "6caaf332-bfd9-eb11-bacb-002248107110"
-            },
-            {
-              "AISId": "fc316e34-3b2a-f011-8c4d-002248112833",
-              "DateReceived": "2025-05-06T05:30:30.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2024-06-29T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2023",
-              "type": "Annual Information Statement 2023",
-              "uuid": "eeaf91d1-8df8-ec11-82e6-00224811d503"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2025-05-06T05:30:22.0000000Z",
-              "DocumentUuid": "79a21c2c-3b2a-f011-8c4d-00224898181e",
-              "DueDate": "2024-06-29T14:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2023",
-              "type": "Financial Report 2023",
-              "uuid": "a3f589d7-8df8-ec11-82e6-00224811d503"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2027-06-29T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Not yet submitted",
-              "Year": "2026",
-              "type": "Annual Information Statement 2026",
-              "uuid": "f5d9db31-bd55-f011-bec2-0022481287a5"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2027-06-29T14:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Pending",
-              "Year": "2026",
-              "type": "Financial Report 2026",
-              "uuid": "fdd9db31-bd55-f011-bec2-0022481287a5"
-            },
-            {
-              "AISId": "26e885ed-432d-f011-8c4d-002248929f50",
-              "DateReceived": "2025-05-10T02:10:38.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2025-06-29T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2024",
-              "type": "Annual Information Statement 2024",
-              "uuid": "ae83ce8e-5217-ee11-8f6d-00224893b0ed"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2025-05-10T02:10:20.0000000Z",
-              "DocumentUuid": "053ec4e4-432d-f011-8c4d-002248112f30",
-              "DueDate": "2025-06-29T14:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2024",
-              "type": "Financial Report 2024",
-              "uuid": "bf83ce8e-5217-ee11-8f6d-00224893b0ed"
-            },
-            {
-              "AISId": "9a15293c-9434-f111-88b4-002248111f49",
-              "DateReceived": "2026-04-10T04:18:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2026-06-29T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2025",
-              "type": "Annual Information Statement 2025",
-              "uuid": "642743ad-ea36-ef11-a317-00224893b0ed"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2026-04-10T04:15:55.0000000Z",
-              "DocumentUuid": "c70806dd-9334-f111-88b4-7ced8d33fdea",
-              "DueDate": "2026-06-29T14:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2025",
-              "type": "Financial Report 2025",
-              "uuid": "982743ad-ea36-ef11-a317-00224893b0ed"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2028-06-29T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Not yet submitted",
-              "Year": "2027",
-              "type": "Annual Information Statement 2027",
-              "uuid": "2dcfcb1b-8d74-f111-ab0f-7c1e522b035c"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2028-06-29T14:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Pending",
-              "Year": "2027",
-              "type": "Financial Report 2027",
-              "uuid": "3ccfcb1b-8d74-f111-ab0f-7c1e522b035c"
-            }
-          ],
-          "Beneficiaries": [
-            {
-              "Description": null,
-              "Name": "People with disabilities",
-              "uuid": "154c2148-9434-f111-88b4-002248111f49"
-            },
-            {
-              "Description": null,
-              "Name": "People from a culturally and linguistically diverse background",
-              "uuid": "184c2148-9434-f111-88b4-002248111f49"
-            },
-            {
-              "Description": null,
-              "Name": "Males",
-              "uuid": "1c4c2148-9434-f111-88b4-002248111f49"
-            },
-            {
-              "Description": null,
-              "Name": "Females",
-              "uuid": "214c2148-9434-f111-88b4-002248111f49"
-            },
-            {
-              "Description": null,
-              "Name": "Families",
-              "uuid": "254c2148-9434-f111-88b4-002248111f49"
-            },
-            {
-              "Description": null,
-              "Name": "Early childhood - aged under 6",
-              "uuid": "284c2148-9434-f111-88b4-002248111f49"
-            }
-          ],
-          "CharitySize": "Small",
-          "CharitySubtypeHistory": [
-            {
-              "EndDate": null,
-              "Purpose": "Advancing education",
-              "StartDate": "2013-12-31T13:00:00.0000000Z",
-              "uuid": "b7f52bf1-fec6-e811-a964-000d3ad24077"
-            },
-            {
-              "EndDate": "2013-12-30T13:00:00.0000000Z",
-              "Purpose": "2012 Advancement of education",
-              "StartDate": "2012-12-02T13:00:00.0000000Z",
-              "uuid": "bdf52bf1-fec6-e811-a964-000d3ad24077"
-            }
-          ],
-          "CharityVersion": "163",
-          "ChildMemberEndDate": null,
-          "ChildMemberStartDate": null,
-          "ChooseToProvideAis": null,
-          "Countries": [
-            {
-              "Name": "Australia",
-              "uuid": "f57b5602-9a4d-e811-a951-000d3ad06f2d"
-            }
-          ],
-          "DateEstablished": "1987-05-20T14:00:00.0000000Z",
-          "Documents": [
-            {
-              "Date": "2018-03-29T00:00:00.0000000",
-              "Title": "Constitution - Rossmoyne Community Kindergarten Incorporated.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/7fe4cd79-3aaf-e811-a95e-000d3ad24c60-76623bd0-a029-4e84-b58f-e3823cc29bfc-Governing%20Document-868ac9a5-51b0-e811-a963-000d3ad244fd-Constitution_-_Rossmoyne_Community_Kindergarten_Incorporated.pdf",
-              "Year": null,
-              "type": "Governing Document",
-              "uuid": "868ac9a5-51b0-e811-a963-000d3ad244fd"
-            },
-            {
-              "Date": "2019-04-13T00:00:00.0000000",
-              "Title": "img-190413182411.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/7fe4cd79-3aaf-e811-a95e-000d3ad24c60-76623bd0-a029-4e84-b58f-e3823cc29bfc-Annual%20Report-42f34051-c75d-e911-a971-000d3ad24a0d-img-190413182411.pdf",
-              "Year": "2018",
-              "type": "Annual Report",
-              "uuid": "42f34051-c75d-e911-a971-000d3ad24a0d"
-            },
-            {
-              "Date": "2020-04-23T00:00:00.0000000",
-              "Title": "008 RCKA Inc - 2019 Audited Financials (1).pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/7fe4cd79-3aaf-e811-a95e-000d3ad24c60-76623bd0-a029-4e84-b58f-e3823cc29bfc-Financial%20Report-57cb5ba9-0285-ea11-a811-000d3acb05bc-008_RCKA_Inc_-_2019_Audited_Financials_(1).pdf",
-              "Year": "2019",
-              "type": "Financial Report",
-              "uuid": "57cb5ba9-0285-ea11-a811-000d3acb05bc"
-            },
-            {
-              "Date": "2021-06-01T00:00:00.0000000",
-              "Title": "Rossmoyne Community Kindergarten Assoc Inc (Audit Report YE Dec 2020).pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/7fe4cd79-3aaf-e811-a95e-000d3ad24c60-76623bd0-a029-4e84-b58f-e3823cc29bfc-Financial%20Report-e4355226-8dc2-eb11-bacc-000d3ad1ae52-Rossmoyne_Community_Kindergarten_Assoc_Inc_(Audit_Report_YE_Dec_2020).pdf",
-              "Year": "2020",
-              "type": "Financial Report",
-              "uuid": "e4355226-8dc2-eb11-bacc-000d3ad1ae52"
-            },
-            {
-              "Date": "2017-02-27T00:00:00.0000000",
-              "Title": "img-170227151249.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/7fe4cd79-3aaf-e811-a95e-000d3ad24c60-76623bd0-a029-4e84-b58f-e3823cc29bfc-Financial%20Report-788ac9a5-51b0-e811-a963-000d3ad244fd-img-170227151249.pdf",
-              "Year": "2016",
-              "type": "Financial Report",
-              "uuid": "788ac9a5-51b0-e811-a963-000d3ad244fd"
-            },
-            {
-              "Date": "2019-04-13T00:00:00.0000000",
-              "Title": "img-190413182818.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/7fe4cd79-3aaf-e811-a95e-000d3ad24c60-76623bd0-a029-4e84-b58f-e3823cc29bfc-Financial%20Report-4df34051-c75d-e911-a971-000d3ad24a0d-img-190413182818.pdf",
-              "Year": "2018",
-              "type": "Financial Report",
-              "uuid": "4df34051-c75d-e911-a971-000d3ad24a0d"
-            },
-            {
-              "Date": "2025-05-10T00:00:00.0000000",
-              "Title": "2025.04.11 Letter - Rossmoyne Kindergarten Inc - Final.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/7fe4cd79-3aaf-e811-a95e-000d3ad24c60-76623bd0-a029-4e84-b58f-e3823cc29bfc-Financial%20Report-053ec4e4-432d-f011-8c4d-002248112f30-2025.04.11_Letter_-_Rossmoyne_Kindergarten_Inc_-_Final.pdf",
-              "Year": "2024",
-              "type": "Financial Report",
-              "uuid": "053ec4e4-432d-f011-8c4d-002248112f30"
-            },
-            {
-              "Date": "2023-02-27T00:00:00.0000000",
-              "Title": "BRWA4FC770E5148_001368.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/7fe4cd79-3aaf-e811-a95e-000d3ad24c60-76623bd0-a029-4e84-b58f-e3823cc29bfc-Financial%20Report-30904d48-3eb6-ed11-b596-00224893cef4-BRWA4FC770E5148_001368.pdf",
-              "Year": "2022",
-              "type": "Financial Report",
-              "uuid": "30904d48-3eb6-ed11-b596-00224893cef4"
-            },
-            {
-              "Date": "2022-04-08T00:00:00.0000000",
-              "Title": "Audited financials 2021.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/7fe4cd79-3aaf-e811-a95e-000d3ad24c60-76623bd0-a029-4e84-b58f-e3823cc29bfc-Financial%20Report-e30e6c95-07b7-ec11-983f-002248941d38-Audited_financials_2021.pdf",
-              "Year": "2021",
-              "type": "Financial Report",
-              "uuid": "e30e6c95-07b7-ec11-983f-002248941d38"
-            },
-            {
-              "Date": "2025-05-06T00:00:00.0000000",
-              "Title": "KINDY 2023 AUDITED ACC.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/7fe4cd79-3aaf-e811-a95e-000d3ad24c60-76623bd0-a029-4e84-b58f-e3823cc29bfc-Financial%20Report-79a21c2c-3b2a-f011-8c4d-00224898181e-KINDY_2023_AUDITED_ACC.pdf",
-              "Year": "2023",
-              "type": "Financial Report",
-              "uuid": "79a21c2c-3b2a-f011-8c4d-00224898181e"
-            },
-            {
-              "Date": "2026-04-10T00:00:00.0000000",
-              "Title": "Kindy Audited Acc Dec 2025.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/7fe4cd79-3aaf-e811-a95e-000d3ad24c60-76623bd0-a029-4e84-b58f-e3823cc29bfc-Financial%20Report-c70806dd-9334-f111-88b4-7ced8d33fdea-Kindy_Audited_Acc_Dec_2025.pdf",
-              "Year": "2025",
-              "type": "Financial Report",
-              "uuid": "c70806dd-9334-f111-88b4-7ced8d33fdea"
-            }
-          ],
-          "Email": "president@rossmoynekindy.com",
-          "EnforcementOutcomes": [],
-          "FinancialYearEnd": "31/12",
-          "GovernmentAgencies": [
-            {
-              "Name": "WA - Incorporated Association",
-              "ReferenceNumber": "A0680034Z",
-              "uuid": "70512642-9434-f111-88b4-002248111f49"
-            },
-            {
-              "Name": "WA - Fundraising",
-              "ReferenceNumber": null,
-              "uuid": "73512642-9434-f111-88b4-002248111f49"
-            },
-            {
-              "Name": "Online fundraising",
-              "ReferenceNumber": null,
-              "uuid": "76512642-9434-f111-88b4-002248111f49"
-            }
-          ],
-          "GroupHeadFlag": false,
-          "LastReported": "2026-04-10T04:18:00.0000000Z",
-          "Name": "Rossmoyne Kindergarten Association (Inc.)",
-          "NextReportDue": "2027-06-30T13:30:00.0000000Z",
-          "OperatingInStates": [
-            {
-              "Name": "Western Australia",
-              "uuid": "dc2782ae-455e-e811-a95c-000d3ad1c715"
-            }
-          ],
-          "OtherDetails": null,
-          "OtherNames": [],
-          "ParentAccountAbn": null,
-          "ParentAccountId": null,
-          "Phone": null,
-          "Programs": [
-            {
-              "AisUuid": "9a15293c-9434-f111-88b4-002248111f49",
-              "Name": "Community Kindergarten",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Families",
-                "Early childhood - aged under 6",
-                "People from a culturally and linguistically diverse background",
-                "Males",
-                "Females",
-                "People with disabilities"
-              ],
-              "ProgramClassie": [
-                {
-                  "classie_id": "183",
-                  "label": "Family-school involvement",
-                  "parent_id": "179",
-                  "selected": true
-                },
-                {
-                  "classie_id": "179",
-                  "label": "Education support",
-                  "parent_id": "170",
-                  "selected": false
-                },
-                {
-                  "classie_id": "170",
-                  "label": "Education",
-                  "parent_id": null,
-                  "selected": false
-                }
-              ],
-              "ProgramClassification": "Family-school involvement",
-              "ProgramClassificationID": "183",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "Rossmoyne WA, Australia",
-                  "FormattedAddress": "Rossmoyne WA 6148, Australia",
-                  "Marker": {
-                    "Latitude": -32.0386354,
-                    "Longitude": 115.8677123
-                  },
-                  "Name": "Rossmoyne",
-                  "uuid": "8b512642-9434-f111-88b4-002248111f49"
-                }
-              ],
-              "ProgramWeblink": null,
-              "uuid": "7e512642-9434-f111-88b4-002248111f49"
-            }
-          ],
-          "ReferendumReturnsUrl": null,
-          "RegistrationStatusHistory": [
-            {
-              "EffectiveDate": "2012-12-02T13:00:00.0000000Z",
-              "Status": "Registered",
-              "TransactionDate": "2016-06-16T14:00:00.0000000Z",
-              "uuid": "eb4332ff-06c6-e811-a964-000d3ad244fd"
-            }
-          ],
-          "RelatedPartyTransactions": null,
-          "RelevantTransactions": null,
-          "ReportingLate": "2027-12-30T13:30:00.0000000Z",
-          "ResponsiblePersons": [
-            {
-              "Name": "Darren Hamley",
-              "Role": "President",
-              "uuid": "df84d55f-f959-eb11-bb24-000d3a6b0983"
-            },
-            {
-              "Name": "Michelle Hamley",
-              "Role": "Committee Member",
-              "uuid": "03b00d4f-17bc-e811-a964-000d3ad24077"
-            },
-            {
-              "Name": "Liting Yu",
-              "Role": "Committee Member",
-              "uuid": "5f5c07b7-6f9d-ef11-8a69-000d3ad249d6"
-            },
-            {
-              "Name": "Daphne Chipper",
-              "Role": "Deputy Chairperson",
-              "uuid": "bf4656cb-ee10-ef11-9f8a-00224893b304"
-            },
-            {
-              "Name": "Suzan Uyar",
-              "Role": "Committee Member",
-              "uuid": "06512642-9434-f111-88b4-002248111f49"
-            },
-            {
-              "Name": "Amanda Spencer-Teo",
-              "Role": "Treasurer",
-              "uuid": "81ff158f-7d22-f111-8341-6045bde5be38"
-            },
-            {
-              "Name": "Bycroft Chelsea",
-              "Role": "Committee Member",
-              "uuid": "7c4dd1ef-9334-f111-88b3-7ced8da20e24"
-            }
-          ],
-          "Status": "Registered",
-          "SummaryOfActivities": "Provided Educational programs for 3-5 year old children",
-          "TotalExpensesEmployee": "0",
-          "TotalExpensesGrantsAndDonationsInAustralia": "17930",
-          "TotalExpensesGrantsAndDonationsOutsideAustralia": "0",
-          "TotalExpensesInterest": "0",
-          "TotalExpensesOther": "62587",
-          "TotalGrossIncomeDonationsAndRequests": "2125",
-          "TotalGrossIncomeGoodsOrServices": "24060",
-          "TotalGrossIncomeGovernmentGrants": "40133",
-          "TotalGrossIncomeInvestments": "0",
-          "TotalGrossIncomeOtherRevenues": "594",
-          "TransparencyRegisterUrl": null,
-          "Website": "www.rossmoynekindy.com",
-          "__normalized": true,
-          "type": "charity",
-          "uuid": "7fe4cd79-3aaf-e811-a95e-000d3ad24c60"
-        },
-        "type": "charity",
-        "uuid": "7fe4cd79-3aaf-e811-a95e-000d3ad24c60"
-      },
-      "canonical_field_mappings": {
-        "data.OtherNames": "operating_names",
-        "data.AddressStateOrProvince": "principal_location"
-      },
-      "evidence_ids": []
-    },
-    {
-      "source_record_id": "src:acnc-ais-detail:62785862039:9a15293c-9434-f111-88b4-002248111f49:cb_815889ce59de40eead9e4368d0cd314c",
-      "source_family": "acnc-ais-detail",
-      "dataset_version": "2026-08-14-public-api",
-      "source_url": "https://www.acnc.gov.au/charity/charities/7fe4cd79-3aaf-e811-a95e-000d3ad24c60/documents/9a15293c-9434-f111-88b4-002248111f49",
-      "retrieved_at": "2026-08-13T13:54:42.956606Z",
-      "observed_at": "2026-04-10",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "abn": "62785862039",
-        "ais_uuid": "9a15293c-9434-f111-88b4-002248111f49",
-        "year": "2025",
-        "date_received": "2026-04-10T04:18:00.0000000Z"
-      },
-      "source_payload": {
-        "data": {
-          "Abn": "62785862039",
-          "ActivityAdvocacyNCivic": false,
-          "ActivityAgedCare": false,
-          "ActivityAnimalProtection": false,
-          "ActivityCultureAndArt": false,
-          "ActivityEconomicSocialCommunity": false,
-          "ActivityEmergencyNRelief": false,
-          "ActivityEmploymentNTraining": false,
-          "ActivityEnvironmental": false,
-          "ActivityGrantMaking": false,
-          "ActivityHealthRehabilitation": false,
-          "ActivityHigherEducation": false,
-          "ActivityHousing": false,
-          "ActivityIncomeSupportNMaintenance": false,
-          "ActivityInternational": false,
-          "ActivityInternationalDescription": null,
-          "ActivityInternationalOther": false,
-          "ActivityInternationalOtherDescription": null,
-          "ActivityLawNLegalServices": false,
-          "ActivityMain": null,
-          "ActivityMentalHealthCrisisIntervention": false,
-          "ActivityNdisSupported": null,
-          "ActivityNdisSupportedNext": null,
-          "ActivityOperating": true,
-          "ActivityOperatingOverseas": false,
-          "ActivityOther": false,
-          "ActivityOtherDescription": null,
-          "ActivityOtherEducation": false,
-          "ActivityOtherHealthServices": false,
-          "ActivityPersuitPurposesDescription": "Provided Educational programs for 3-5 year old children",
-          "ActivityPhilanthropicPromotion": false,
-          "ActivityPolitical": false,
-          "ActivityPrimarySecondaryEducation": false,
-          "ActivityPurposeChange": null,
-          "ActivityPurposeChangeDescription": null,
-          "ActivityRecreationSocialClub": false,
-          "ActivityReligious": false,
-          "ActivityResearch": false,
-          "ActivitySocialServices": false,
-          "ActivitySports": false,
-          "ActivityTransferringFundsGoods": false,
-          "AdvancementOfEducation": false,
-          "AdvancementOfReligion": false,
-          "AssetsandLiabilitiesDescription": "Our assets are made up of Current Bank balances including School building fund, government grants and operating income.",
-          "BasicReligiousCharity": false,
-          "BeneficiaryAboriginalTorres": false,
-          "BeneficiaryAdults": false,
-          "BeneficiaryAllAges": false,
-          "BeneficiaryChildren": false,
-          "BeneficiaryChronicIllness": false,
-          "BeneficiaryCrimeVictims": false,
-          "BeneficiaryDisasterVictims": false,
-          "BeneficiaryEarlyChildhood": false,
-          "BeneficiaryEthnic": false,
-          "BeneficiaryFamilies": false,
-          "BeneficiaryFinanciallyDisadvantaged": false,
-          "BeneficiaryGeneral": false,
-          "BeneficiaryHomelessnessRisk": false,
-          "BeneficiaryLGBT": false,
-          "BeneficiaryMain": null,
-          "BeneficiaryMen": false,
-          "BeneficiaryMigrantsRefugees": false,
-          "BeneficiaryOffenderFamilies": false,
-          "BeneficiaryOther": false,
-          "BeneficiaryOtherCharities": false,
-          "BeneficiaryOtherDescription": null,
-          "BeneficiaryOverseas": false,
-          "BeneficiaryPeopleWithDisability": false,
-          "BeneficiaryRuralRegionalRemote": false,
-          "BeneficiarySeniors": false,
-          "BeneficiaryUnemployed": false,
-          "BeneficiaryVeteranFamilies": false,
-          "BeneficiaryWomen": false,
-          "BeneficiaryYouth": false,
-          "CharityAddressCountry": "Australia",
-          "CharityAddressLine1": "48 Central Rd",
-          "CharityAddressLine2": null,
-          "CharityAddressPostalCode": "6148",
-          "CharityAddressStateOrProvince": "WA",
-          "CharityAddressSuburb": "Rossmoyne",
-          "CharityEmail": "president@rossmoynekindy.com",
-          "CharitySize": "Small",
-          "CharityUuid": "7fe4cd79-3aaf-e811-a95e-000d3ad24c60",
-          "ChildCareServices": false,
-          "ExpenseEmployees": "0.0000",
-          "ExpenseGrantDonationsInAustralia": "17930.0000",
-          "ExpenseGrantDonationsOutsideAustralia": "0.0000",
-          "ExpenseTotal": "80517.0000",
-          "ExpensesOther": "62587.0000",
-          "FinAccrualAccounting": "Cash",
-          "FinConsolidatedReportFromMiltiple": null,
-          "FinDocumentedPoliciesRelatedPartyTransactions": null,
-          "FinFyeJune": false,
-          "FinProvideVoluntarily": null,
-          "FinRelatedPartyTransactions": "No",
-          "FinReportACT": false,
-          "FinReportFrom": "2024-12-31T13:00:00.0000000Z",
-          "FinReportNSW": false,
-          "FinReportNT": false,
-          "FinReportQLD": false,
-          "FinReportSA": false,
-          "FinReportTAS": false,
-          "FinReportTo": "2025-12-30T13:00:00.0000000Z",
-          "FinReportVIC": false,
-          "FinReportWA": false,
-          "FinReportingType": null,
-          "FinSapDate": null,
-          "FundRaisingNumberACT": null,
-          "FundRaisingNumberNSW": null,
-          "FundRaisingNumberQLD": null,
-          "FundRaisingNumberSA": null,
-          "FundRaisingNumberTAS": null,
-          "FundRaisingNumberVIC": null,
-          "FundRaisingNumberWA": null,
-          "GovDocAccurate": null,
-          "GrantCapacityBuildingPct": null,
-          "GrantMultiYearPct": null,
-          "GrantPublicOpenApplicationPct": null,
-          "GrantRuralRegionPct": null,
-          "HasSubmittedToRegulator": false,
-          "HoursPaid": null,
-          "HoursTotal": null,
-          "HoursVolunteer": null,
-          "HrCasualEmployees": "0",
-          "HrFteStaff": "3.0000000000",
-          "HrFullTimeEmployees": "2",
-          "HrPartTimeEmployees": "2",
-          "HrUnpainVolunteers": "15",
-          "IncomeDonationsBequests": "2125.0000",
-          "IncomeGovernmentGrants": "40133.0000",
-          "IncomeOther": "0.0000",
-          "IncomeOtherComprehinsive": "0.0000",
-          "IncomeOtherNeg": null,
-          "IncomeOtherReceipts": "594.0000",
-          "IncomeTotalComprehensive": "0.0000",
-          "IncomeTotalReceipts": "66912.0000",
-          "IncorporationStatus": null,
-          "InterestExpense": "0.0000",
-          "IsIncorporatedAssociation": true,
-          "KeyManagementPersonnel": false,
-          "LegalName": "Rossmoyne Kindergarten Association (Inc.)",
-          "NetAssetsLiabilities": "12021.0000",
-          "NetSurplusDeficit": "-13605.0000",
-          "NonCurrentLoansPayable": "0.0000",
-          "NumberOfKeyManagementPersonnel": "0",
-          "OperatingCountries": null,
-          "OperatingInACT": false,
-          "OperatingInNSW": false,
-          "OperatingInNT": false,
-          "OperatingInQLD": false,
-          "OperatingInSA": false,
-          "OperatingInTAS": false,
-          "OperatingInVIC": false,
-          "OperatingInWA": false,
-          "OperatingOverseas": false,
-          "OtherNames": [],
-          "OtherNonCurrentAssets": "0.0000",
-          "OtherNonCurrentLiabilities": "0.0000",
-          "OtherPurposeDescription": null,
-          "OtherPurposes": "False",
-          "Programs": [
-            {
-              "AisUuid": "9a15293c-9434-f111-88b4-002248111f49",
-              "Name": "Community Kindergarten",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Families",
-                "Early childhood - aged under 6",
-                "People from a culturally and linguistically diverse background",
-                "Males",
-                "Females",
-                "People with disabilities"
-              ],
-              "ProgramClassification": "Family-school involvement",
-              "ProgramClassificationID": "183",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "Rossmoyne WA, Australia",
-                  "FormattedAddress": "Rossmoyne WA 6148, Australia",
-                  "Marker": {
-                    "Latitude": -32.0386354,
-                    "Longitude": 115.8677123
-                  },
-                  "Name": "Rossmoyne",
-                  "uuid": "8b512642-9434-f111-88b4-002248111f49"
-                }
-              ],
-              "ProgramWeblink": null,
-              "uuid": "7e512642-9434-f111-88b4-002248111f49"
-            }
-          ],
-          "RegulatedACT": false,
-          "RegulatedNSW": false,
-          "RegulatedNT": false,
-          "RegulatedQLD": false,
-          "RegulatedSA": false,
-          "RegulatedTAS": false,
-          "RegulatedVIC": false,
-          "RegulatedWA": false,
-          "Regulator": null,
-          "RegulatorAGMDateACT": null,
-          "RegulatorAGMDateNT": null,
-          "RegulatorAGMDateVIC": null,
-          "RegulatorAGMDateWA": "2026-02-25T00:00:00.0000000",
-          "RegulatorFundRaising": "Yes",
-          "RegulatorFundRaisingACT": false,
-          "RegulatorFundRaisingNSW": false,
-          "RegulatorFundRaisingNT": false,
-          "RegulatorFundRaisingOnline": true,
-          "RegulatorFundRaisingQLD": false,
-          "RegulatorFundRaisingSA": false,
-          "RegulatorFundRaisingTAS": false,
-          "RegulatorFundRaisingVIC": false,
-          "RegulatorFundRaisingWA": true,
-          "RegulatorIncorporatedAssociationACT": false,
-          "RegulatorIncorporatedAssociationNSW": false,
-          "RegulatorIncorporatedAssociationNT": false,
-          "RegulatorIncorporatedAssociationNumberACT": null,
-          "RegulatorIncorporatedAssociationNumberNSW": null,
-          "RegulatorIncorporatedAssociationNumberNT": null,
-          "RegulatorIncorporatedAssociationNumberQLD": null,
-          "RegulatorIncorporatedAssociationNumberSA": null,
-          "RegulatorIncorporatedAssociationNumberTAS": null,
-          "RegulatorIncorporatedAssociationNumberVIC": null,
-          "RegulatorIncorporatedAssociationNumberWA": "A0680034Z",
-          "RegulatorIncorporatedAssociationQLD": false,
-          "RegulatorIncorporatedAssociationSA": false,
-          "RegulatorIncorporatedAssociationTAS": false,
-          "RegulatorIncorporatedAssociationVIC": false,
-          "RegulatorIncorporatedAssociationWA": true,
-          "RegulatorMetRequirementACT": false,
-          "RegulatorMetRequirementWA": "Yes",
-          "RegulatorOtherDetails": null,
-          "RegulatorPrograms": null,
-          "RegulatorStates": false,
-          "RelatedPartyDetails": null,
-          "RelatedPartyTransactions": [],
-          "ReliefOfPoverty": false,
-          "ReportingGroupFlag": false,
-          "ResponsiblePersonAccurate": null,
-          "RevenueGoodsServices": "24060.0000",
-          "RevenueInvestments": "0.0000",
-          "RevenueTotal": "66912.0000",
-          "StatementYear": "2025",
-          "SubTypesAccurate": null,
-          "TotalAssets": "47724.0000",
-          "TotalCurrentAssets": "0.0000",
-          "TotalCurrentLiabilities": "0.0000",
-          "TotalLiabilities": "35703.0000",
-          "TotalNonCurrentAssets": null,
-          "TotalNonCurrentLiabilities": "0.0000",
-          "TotalNonCurrentLoansReceivable": "0.0000",
-          "TotalPaidKMP": "$0.00",
-          "Website": "www.rossmoynekindy.com",
-          "__normalized": true,
-          "entityTypeVersion": "",
-          "entityVersion": "1924916893",
-          "timeStamp": "2026-05-07T06:34:51.0000000Z",
-          "type": "annual_information_statement",
-          "uuid": "9a15293c-9434-f111-88b4-002248111f49"
-        },
-        "type": "annual_information_statement",
-        "uuid": "9a15293c-9434-f111-88b4-002248111f49"
-      },
-      "canonical_field_mappings": {
-        "data.Programs": "programs",
-        "data.TotalRevenue": "financial_records[].revenue",
-        "data.TotalExpenses": "financial_records[].total_expenses"
-      },
-      "evidence_ids": [
-        "ev:acnc:ais:62785862039:9a15293c-9434-f111-88b4-002248111f49"
-      ]
-    }
-  ],
-  "financial_records": [
-    {
-      "financial_record_id": "fr:ais:cb_815889ce59de40eead9e4368d0cd314c:2023",
-      "period": {
-        "period_start": "2023-01-01",
-        "period_end": "2023-12-31",
-        "period_length_days": 365,
-        "label": "01/01/2023 to 31/12/2023",
-        "is_transitional_or_nonstandard": false
-      },
-      "reporting_scope": "subject",
-      "reporting_subject_causebase_id": "cb_815889ce59de40eead9e4368d0cd314c",
-      "covered_subjects": [
-        "cb_815889ce59de40eead9e4368d0cd314c"
-      ],
-      "consolidated": "unknown",
-      "attribution_method": "direct_subject_report",
-      "evidence_ids": [
-        "ev:ais:62785862039:2023"
-      ],
-      "revenue": {
-        "source_amount": "48227",
-        "source_currency": "AUD",
-        "source_unit_scale": "1",
-        "normalised_amount": "48227",
-        "normalised_currency": "AUD",
-        "source_unit_label": null,
-        "source_raw_value": "48227",
-        "source_precision": null
-      },
-      "donations": null,
-      "government_grants": null,
-      "employee_costs": null,
-      "total_expenses": {
-        "source_amount": "49568",
-        "source_currency": "AUD",
-        "source_unit_scale": "1",
-        "normalised_amount": "49568",
-        "normalised_currency": "AUD",
-        "source_unit_label": null,
-        "source_raw_value": "49568",
-        "source_precision": null
-      },
-      "assets": null,
-      "liabilities": null,
-      "net_assets": null,
-      "income_breakdown": [],
-      "expense_breakdown": [],
-      "balance_sheet_breakdown": [],
-      "source_ordered_line_items": [],
-      "statements": [],
-      "donations_gifts_bequests": null,
-      "functional_expense_allocations": []
-    }
-  ],
-  "financial_metrics": [
-    {
-      "metric": "revenue",
-      "observations": [
-        {
-          "financial_record_id": "fr:ais:cb_815889ce59de40eead9e4368d0cd314c:2023",
-          "amount": {
-            "source_amount": "48227",
-            "source_currency": "AUD",
-            "source_unit_scale": "1",
-            "normalised_amount": "48227",
-            "normalised_currency": "AUD",
-            "source_unit_label": null,
-            "source_raw_value": "48227",
-            "source_precision": null
-          },
-          "metric_source_label": null,
-          "evidence_ids": [
-            "ev:ais:62785862039:2023"
-          ]
-        }
-      ],
-      "reconciliation_status": "single_observation",
-      "reconciliation_notes": null
-    },
-    {
-      "metric": "total_expenses",
-      "observations": [
-        {
-          "financial_record_id": "fr:ais:cb_815889ce59de40eead9e4368d0cd314c:2023",
-          "amount": {
-            "source_amount": "49568",
-            "source_currency": "AUD",
-            "source_unit_scale": "1",
-            "normalised_amount": "49568",
-            "normalised_currency": "AUD",
-            "source_unit_label": null,
-            "source_raw_value": "49568",
-            "source_precision": null
-          },
-          "metric_source_label": null,
-          "evidence_ids": [
-            "ev:ais:62785862039:2023"
-          ]
-        }
-      ],
-      "reconciliation_status": "single_observation",
-      "reconciliation_notes": null
-    }
-  ],
-  "fundraising_expenditure": null,
-  "funding_sources": [],
-  "fundraising_methods": [],
-  "classifications": [
-    {
-      "taxonomy_id": "acnc-register",
-      "taxonomy_version": "2026-08-10",
-      "term_id": "purpose.education",
-      "term_label": "education",
-      "assignment_method": "source_native",
-      "confidence": "high",
-      "evidence_ids": [
-        "ev:acnc:62785862039"
-      ]
-    },
-    {
-      "taxonomy_id": "acnc-register",
-      "taxonomy_version": "2026-08-10",
-      "term_id": "beneficiary.people_with_disability",
-      "term_label": "people with disability",
-      "assignment_method": "source_native",
-      "confidence": "high",
-      "evidence_ids": [
-        "ev:acnc:62785862039"
-      ]
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "activity.direct_service",
-      "term_label": "Direct service delivery",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "approach.community_partnership",
-      "term_label": "Community partnership",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "approach.volunteer_enabled",
-      "term_label": "Volunteer-enabled delivery",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "participation.volunteering",
-      "term_label": "Volunteering",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "geography.local_or_regional",
-      "term_label": "Local or regional Australia",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
+      "review_status": "not_required",
+      "conflicting_signals": []
     }
   ],
   "evidence": [
     {
       "evidence_id": "ev:acnc:62785862039",
-      "source_type": "regulatory",
-      "title": "ACNC Register extract",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": null,
-      "observed_at": "2026-08-10",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "title": "ACNC Register extract"
     },
     {
       "evidence_id": "ev:web:62785862039:2026-08-10",
-      "source_type": "organisation_self_report",
       "title": "Organisation website homepage",
-      "publisher": "Rossmoyne Kindergarten Association (Inc.)",
-      "url": "https://rossmoynekindy.com/",
-      "observed_at": "2026-08-10",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://rossmoynekindy.com/"
     },
     {
       "evidence_id": "ev:ais:62785862039:2023",
-      "source_type": "regulatory",
-      "title": "ACNC AIS 2023 extract",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": null,
-      "observed_at": "2026-08-10",
-      "reporting_period": "01/01/2023 to 31/12/2023",
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "title": "ACNC AIS 2023 extract"
     },
     {
       "evidence_id": "ev:acnc:ais:62785862039:9a15293c-9434-f111-88b4-002248111f49",
-      "source_type": "regulatory",
       "title": "ACNC Annual Information Statement 2025",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": "https://www.acnc.gov.au/charity/charities/7fe4cd79-3aaf-e811-a95e-000d3ad24c60/documents/9a15293c-9434-f111-88b4-002248111f49",
-      "observed_at": "2026-04-10",
-      "reporting_period": "2025",
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://www.acnc.gov.au/charity/charities/7fe4cd79-3aaf-e811-a95e-000d3ad24c60/documents/9a15293c-9434-f111-88b4-002248111f49"
     },
     {
       "evidence_id": "ev:abr-dgr:62785862039:20260805",
-      "source_type": "regulatory",
       "title": "ABR DGR bulk observation",
-      "publisher": "Australian Business Register / Australian Taxation Office",
-      "url": "https://abr.business.gov.au/Tools/BulkExtract",
-      "observed_at": "2026-08-05",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://abr.business.gov.au/Tools/BulkExtract"
     }
   ],
-  "embedding": {
-    "embedding_id": "cb_815889ce59de40eead9e4368d0cd314c:entity:text-embedding-3-small",
-    "embedding_type": "entity",
-    "model_id": "text-embedding-3-small",
-    "model_version": "text-embedding-3-small",
-    "dimensions": 1536,
-    "source_text_hash": "bb2a287426a5afd145d8ea4be8dcfa33204209c51c1b32fed79852fd8aaf2d98",
-    "generated_at": "2026-08-10T13:53:24.457917Z",
-    "vector_ref": "embeddings.parquet#cb_815889ce59de40eead9e4368d0cd314c"
+  "summary": {
+    "derivative_id": "der:rc4:cb_815889ce59de40eead9e4368d0cd314c:summary",
+    "text": "Rossmoyne Kindergarten Association (Inc.) is a community kindergarten in Rossmoyne, City of Canning, Western Australia. It operates two kindergarten classes with a maximum of 20 children per class for children who are four years old by 30 June in the year they attend. The kindergarten occupies purpose-built facilities leased from the City of Canning, with teachers appointed by the Department of Education and management conducted by a parent committee. On-site provision includes an \u201cEnchanted Garden\u201d nature play area with a water pump, sandpits, forts, poultry and small animals, and vegetable patches. The parent committee manages enrolment administration (applications completed in person at Rossmoyne Primary School), coordinates volunteer involvement, and publishes a 360-degree virtual tour and information on fees and intake timing."
   },
-  "synthesis": {
-    "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
-    "parameters": {
-      "max_output_tokens": 3000,
-      "structured_output": true,
-      "output_contract": "causebase-summary-v0.3-rc2"
-    },
-    "evidence_input_hash": "d66c3a4809026ca1f4f9c620cdad7ad5b63ade186d1271015a75dd63b134dc2b",
-    "generated_at": "2026-08-12T14:15:11.042755Z",
-    "editorial_policy_version": "0.3-rc2"
-  },
-  "derivative_assessments": [
+  "activities": [],
+  "beneficiaries": [],
+  "descriptive_geography": [],
+  "navigation_geography": [],
+  "funding_sources": [],
+  "fundraising_methods": [],
+  "participation": [],
+  "opportunities": [],
+  "programs": [
     {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T14:15:11.042755Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-13T13:54:42.956606Z",
-      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
-      "input_hash": "d66c3a4809026ca1f4f9c620cdad7ad5b63ade186d1271015a75dd63b134dc2b",
-      "disposition": "reused",
-      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
-      "affected_dimensions": [
-        "summary"
-      ]
+      "observation_id": "obs:rc4:cb_815889ce59de40eead9e4368d0cd314c:program:prg:acnc:62785862039:7e512642-9434-f111-88b4-002248111f49",
+      "program_id": "prg:acnc:62785862039:7e512642-9434-f111-88b4-002248111f49",
+      "name": "Community Kindergarten",
+      "description": "Family-school involvement",
+      "url": "https://www.acnc.gov.au/charity/charities/7fe4cd79-3aaf-e811-a95e-000d3ad24c60/documents/9a15293c-9434-f111-88b4-002248111f49",
+      "status": "current",
+      "claim_basis": "direct",
+      "extraction_method": "api",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:ais:62785862039:9a15293c-9434-f111-88b4-002248111f49"
+      ],
+      "time": {
+        "reporting_period": {
+          "label": "2025"
+        }
+      },
+      "warnings": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-14-rc4-fundraising-projection-correction",
-  "card_schema_version": "0.4",
-  "editorial_policy_version": "0.4-rc4",
-  "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T13:54:42.956606Z"
+  "relationships": [],
+  "classifications": [
+    {
+      "observation_id": "obs:rc4:cb_815889ce59de40eead9e4368d0cd314c:classification:0",
+      "classification_id": "cls:rc4:cb_815889ce59de40eead9e4368d0cd314c:0",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "purpose.education",
+      "term_label": "education",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:62785862039"
+      ],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_815889ce59de40eead9e4368d0cd314c:classification:1",
+      "classification_id": "cls:rc4:cb_815889ce59de40eead9e4368d0cd314c:1",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "beneficiary.people_with_disability",
+      "term_label": "people with disability",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:62785862039"
+      ],
+      "confidence": "high",
+      "warnings": []
+    }
+  ],
+  "coverage": {
+    "registry_id": "capability-registry-0.5-initial",
+    "current": [
+      {
+        "capability": "regulatory.acnc_profile",
+        "status": "observed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:acnc:62785862039"
+        ]
+      },
+      {
+        "capability": "regulatory.ais",
+        "status": "observed",
+        "assessed_at": "2026-04-10",
+        "source_record_ids": [
+          "src:acnc-ais-detail:62785862039:9a15293c-9434-f111-88b4-002248111f49:cb_815889ce59de40eead9e4368d0cd314c"
+        ],
+        "evidence_ids": [
+          "ev:acnc:ais:62785862039:9a15293c-9434-f111-88b4-002248111f49"
+        ]
+      },
+      {
+        "capability": "tax.dgr",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "web.website",
+        "status": "observed",
+        "assessed_at": "2026-08-13",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "report.annual_report",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "financial.report",
+        "status": "unknown",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:ais:62785862039:2023"
+        ]
+      },
+      {
+        "capability": "financial.statements",
+        "status": "unknown",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:ais:62785862039:2023"
+        ]
+      },
+      {
+        "capability": "understanding.activities",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.beneficiaries",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.geography",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "programs",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "participation",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "funding.sources",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.methods",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.expenditure",
+        "status": "not_available_from_source",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "taxonomy.causebase",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "semantic.embedding",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      }
+    ]
+  },
+  "financial_reports": [],
+  "canonical_metrics": [],
+  "analytic_projections": [],
+  "derivatives": [
+    {
+      "derivative_id": "der:rc4:cb_815889ce59de40eead9e4368d0cd314c:summary",
+      "kind": "summary",
+      "input_observation_ids": [],
+      "evidence_ids": [
+        "ev:web:62785862039:2026-08-10",
+        "ev:acnc:62785862039"
+      ],
+      "generated_under": {
+        "output_contract_version": "phase2b-rc4-accepted-rc2-summary-reuse",
+        "input_hash": "d66c3a4809026ca1f4f9c620cdad7ad5b63ade186d1271015a75dd63b134dc2b",
+        "generated_at": "2026-08-12T14:15:11.042755Z"
+      },
+      "current_assessment": {
+        "assessed_at": "2026-08-13T13:54:42.956606Z",
+        "assessed_against_contract": "0.5",
+        "governing_input_hash": "d66c3a4809026ca1f4f9c620cdad7ad5b63ade186d1271015a75dd63b134dc2b",
+        "disposition": "reused",
+        "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs."
+      }
+    }
+  ],
+  "legacy_unbound": {
+    "origin_release": "rc4-2026-08-14",
+    "origin_card_sha256": "638a7d10e37d661a9e0a384713f43ba623eb8debb801f50f789f936aa8ef53f1",
+    "activities": [
+      {
+        "value": "Provision of kindergarten (two classes of up to 20 children)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Operation and maintenance of a nature play area (Enchanted Garden)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Parent committee management and volunteer involvement",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "On-site and virtual tours and enrolment administration",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "beneficiaries": [
+      {
+        "value": "Children eligible for kindergarten (four years old by 30 June in the year they attend)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Parents and families who enrol or participate in the parent committee",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "descriptive_geography": [
+      {
+        "value": "Rossmoyne, City of Canning, Western Australia",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Local intake area around Rossmoyne Primary School",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "classifications": [
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "activity.direct_service",
+        "term_label": "Direct service delivery",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "approach.community_partnership",
+        "term_label": "Community partnership",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "approach.volunteer_enabled",
+        "term_label": "Volunteer-enabled delivery",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "participation.volunteering",
+        "term_label": "Volunteering",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "geography.local_or_regional",
+        "term_label": "Local or regional Australia",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      }
+    ],
+    "financial_records": [
+      {
+        "financial_record_id": "fr:ais:cb_815889ce59de40eead9e4368d0cd314c:2023",
+        "period": {
+          "period_start": "2023-01-01",
+          "period_end": "2023-12-31",
+          "period_length_days": 365,
+          "label": "01/01/2023 to 31/12/2023",
+          "is_transitional_or_nonstandard": false
+        },
+        "reporting_scope": "subject",
+        "reporting_subject_causebase_id": "cb_815889ce59de40eead9e4368d0cd314c",
+        "covered_subjects": [
+          "cb_815889ce59de40eead9e4368d0cd314c"
+        ],
+        "consolidated": "unknown",
+        "attribution_method": "direct_subject_report",
+        "evidence_ids": [
+          "ev:ais:62785862039:2023"
+        ],
+        "revenue": {
+          "source_amount": "48227",
+          "source_currency": "AUD",
+          "source_unit_scale": "1",
+          "normalised_amount": "48227",
+          "normalised_currency": "AUD",
+          "source_unit_label": null,
+          "source_raw_value": "48227",
+          "source_precision": null
+        },
+        "donations": null,
+        "government_grants": null,
+        "employee_costs": null,
+        "total_expenses": {
+          "source_amount": "49568",
+          "source_currency": "AUD",
+          "source_unit_scale": "1",
+          "normalised_amount": "49568",
+          "normalised_currency": "AUD",
+          "source_unit_label": null,
+          "source_raw_value": "49568",
+          "source_precision": null
+        },
+        "assets": null,
+        "liabilities": null,
+        "net_assets": null,
+        "income_breakdown": [],
+        "expense_breakdown": [],
+        "balance_sheet_breakdown": [],
+        "source_ordered_line_items": [],
+        "statements": [],
+        "donations_gifts_bequests": null,
+        "functional_expense_allocations": []
+      }
+    ]
+  }
 }

@@ -1,1481 +1,520 @@
 {
   "causebase_id": "cb_1690dc79be8b4fb4b11c51db5c6f497c",
+  "contract_version": "0.5",
   "subject_kind": "unknown",
-  "external_identifiers": [
-    {
-      "scheme": "abn",
-      "value": "16734386980",
-      "source_evidence_id": "ev:acnc:16734386980"
-    }
+  "identity": {
+    "legal_name": "Dieback Working Group Inc",
+    "display_name": "Dieback Working Group Inc",
+    "operating_names": [],
+    "former_names": [],
+    "entity_status": "registered",
+    "website": "dwg.org.au",
+    "external_identifiers": [
+      {
+        "scheme": "abn",
+        "value": "16734386980",
+        "evidence_ids": [
+          "ev:acnc:16734386980"
+        ]
+      }
+    ],
+    "registrations": [
+      {
+        "regulator": "ACNC",
+        "status": "registered",
+        "evidence_ids": [
+          "ev:acnc:16734386980"
+        ]
+      }
+    ],
+    "tax_statuses": [
+      {
+        "scheme": "ABR DGR",
+        "status": "endorsed",
+        "evidence_ids": [
+          "ev:abr-dgr:16734386980:20260805"
+        ]
+      }
+    ]
+  },
+  "release": {
+    "release_id": "v0.5.0-2026-08-15",
+    "dataset_version": "0.5.0-2026-08-15",
+    "contract_version": "0.5",
+    "based_on_release": "rc4-2026-08-14",
+    "generated_at": "2026-08-15T00:00:00Z"
+  },
+  "source_record_refs": [
+    "src:acnc-public-profile:16734386980:0355329a-3aaf-e811-a963-000d3ad24077:cb_1690dc79be8b4fb4b11c51db5c6f497c",
+    "src:acnc-ais-detail:16734386980:1c540d55-aff2-f011-8407-7ced8d34ef5a:cb_1690dc79be8b4fb4b11c51db5c6f497c"
   ],
-  "registrations": [
-    {
-      "regulator": "ACNC",
-      "registration_id": null,
-      "status": "registered",
-      "evidence_ids": [
-        "ev:acnc:16734386980"
-      ]
-    }
-  ],
-  "tax_statuses": [
-    {
-      "scheme": "ABR DGR",
-      "status": "endorsed",
-      "detail": "Dated 2026-08-05 ABR bulk observation",
-      "evidence_ids": [
-        "ev:abr-dgr:16734386980:20260805"
-      ]
-    }
-  ],
-  "relationships": [],
-  "source_resolutions": [
+  "source_bindings": [
     {
       "source_record_id": "src:acnc-register:e9a28170-b5c9-51a8-be70-01268d6e7569",
       "resolution_status": "resolved",
       "resolution_basis": "automated authoritative ACNC promotion under acnc-authoritative-v1",
       "confidence": "high",
-      "supporting_signals": [
-        "ABN:16734386980",
-        "ACNC Register"
-      ],
-      "conflicting_signals": [],
-      "review_status": "not_required"
-    }
-  ],
-  "legal_name": "Dieback Working Group Inc",
-  "display_name": "Dieback Working Group Inc",
-  "entity_status": "registered",
-  "canonical_url": "https://gregorycwhill.github.io/CauseBase-Viewer/#cb_1690dc79be8b4fb4b11c51db5c6f497c",
-  "acnc_profile_url": "https://www.acnc.gov.au/charity/charities/0355329a-3aaf-e811-a963-000d3ad24077/profile",
-  "acnc_ais_url": "https://www.acnc.gov.au/charity/charities/0355329a-3aaf-e811-a963-000d3ad24077/documents/1c540d55-aff2-f011-8407-7ced8d34ef5a",
-  "operating_names": [],
-  "former_names": [],
-  "principal_location": "WA, Australia",
-  "coverage": [
-    {
-      "capability": "regulatory",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:acnc:16734386980"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "annual_report",
-      "status": "not_yet_processed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "fundraising_expenditure",
-      "status": "not_available_from_source",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": "No direct or defensible derived fundraising expenditure was found in selected Phase 2A evidence."
-    },
-    {
-      "capability": "financials",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:ais:16734386980:2023"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "latest_acnc_ais",
-      "status": "observed",
-      "source_record_id": "src:acnc-ais-detail:16734386980:1c540d55-aff2-f011-8407-7ced8d34ef5a:cb_1690dc79be8b4fb4b11c51db5c6f497c",
-      "evidence_ids": [
-        "ev:acnc:ais:16734386980:1c540d55-aff2-f011-8407-7ced8d34ef5a"
-      ],
-      "observed_at": "2026-01-16",
-      "freshness_note": "Latest submitted AIS detail acquired from the public ACNC entity endpoint."
-    },
-    {
-      "capability": "website",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-13",
-      "freshness_note": "Public website locator acquired from the ACNC profile."
-    }
-  ],
-  "enrichment_level": "enriched",
-  "website": "dwg.org.au",
-  "geography": [
-    "Western Australia",
-    "southern Western Australia"
-  ],
-  "geography_observations": [
-    {
-      "value": "Western Australia",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "southern Western Australia",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "navigation_geography": [],
-  "causebase_summary": "Dieback Working Group Inc is an organisation operating in southern Western Australia that focuses on managing Phytophthora Dieback, a plant disease caused by Phytophthora cinnamomi. It delivers biosecurity awareness training (Green Card Training) recognised by WA government authorities, runs a public conference series (DIG) and other public events, and promotes an ‘Arrive Clean – Leave Clean’ public education campaign. The group publishes guidance and information (Managing Dieback Best Practice Guideline, Treatment News, FAQs) and operates an information referral service (Find an Expert). Its stated stakeholders include government and industry agencies, landholders and land managers, community groups and outdoor recreation users; its work also relates to native plants and regional biodiversity in southern Western Australia. Evidence for these activities comes from the organisation’s website and its 2023 ACNC information statement.",
-  "summary_evidence_ids": [
-    "ev:web:16734386980:2026-08-10",
-    "ev:ais:16734386980:2023"
-  ],
-  "organisation_self_description": null,
-  "activities": [
-    "Biosecurity awareness training (Green Card Training)",
-    "Public conferences and events (DIG conference)",
-    "Public education and awareness campaign (“Arrive Clean – Leave Clean”)",
-    "Publication of guidance and information (Managing Dieback Best Practice Guideline, Treatment News, FAQs)",
-    "Information referral service (Find an Expert)"
-  ],
-  "activity_observations": [
-    {
-      "value": "Biosecurity awareness training (Green Card Training)",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Public conferences and events (DIG conference)",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Public education and awareness campaign (“Arrive Clean – Leave Clean”)",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Publication of guidance and information (Managing Dieback Best Practice Guideline, Treatment News, FAQs)",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Information referral service (Find an Expert)",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "beneficiaries": [
-    "Government agencies and industry stakeholders",
-    "Landholders and land managers",
-    "Community groups and outdoor recreation users",
-    "Native plants and regional biodiversity"
-  ],
-  "beneficiary_observations": [
-    {
-      "value": "Government agencies and industry stakeholders",
-      "source_role": "legacy_source_qualifier",
-      "provenance_note": "as listed on the website",
-      "evidence_ids": []
-    },
-    {
-      "value": "Landholders and land managers",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Community groups and outdoor recreation users",
-      "source_role": "legacy_source_qualifier",
-      "provenance_note": "as listed on the website",
-      "evidence_ids": []
-    },
-    {
-      "value": "Native plants and regional biodiversity",
-      "source_role": "legacy_source_qualifier",
-      "provenance_note": "described on the website",
-      "evidence_ids": []
-    }
-  ],
-  "participation_modes": [
-    "Attending public events and conferences",
-    "Attending training courses (Green Card Training)"
-  ],
-  "participation_observations": [],
-  "opportunities": [],
-  "programs": [
-    {
-      "program_id": "prg:acnc:16734386980:c4540d55-aff2-f011-8407-7ced8d34ef5a",
-      "name": "Green Card Training",
-      "description": "Environmental education",
-      "beneficiaries": [
-        "Aboriginal and Torres Strait Islander people",
-        "People in rural/regional/remote communities",
-        "Environment",
-        "Other charities",
-        "General community in Australia"
-      ],
-      "geography": [
-        "Western Australia, Australia"
-      ],
-      "status": "current",
-      "reporting_period": "2025",
-      "source_url": "https://www.acnc.gov.au/charity/charities/0355329a-3aaf-e811-a963-000d3ad24077/documents/1c540d55-aff2-f011-8407-7ced8d34ef5a",
-      "evidence_ids": [
-        "ev:acnc:ais:16734386980:1c540d55-aff2-f011-8407-7ced8d34ef5a"
-      ]
-    }
-  ],
-  "source_native_records": [
-    {
-      "source_record_id": "src:acnc-public-profile:16734386980:0355329a-3aaf-e811-a963-000d3ad24077:cb_1690dc79be8b4fb4b11c51db5c6f497c",
-      "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-14-public-api",
-      "source_url": "https://www.acnc.gov.au/charity/charities/0355329a-3aaf-e811-a963-000d3ad24077/profile",
-      "retrieved_at": "2026-08-13T13:54:42.956606Z",
-      "observed_at": "2026-01-16",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "uuid": "0355329a-3aaf-e811-a963-000d3ad24077",
-        "abn": "16734386980"
-      },
-      "source_payload": {
-        "data": {
-          "AFSAddressPostalCode": "6010",
-          "AFSEmail": "treasurer@dwg.org.au",
-          "Abn": "16734386980",
-          "AddressCountry": "Australia",
-          "AddressLine1": "89 Wood St",
-          "AddressLine2": null,
-          "AddressLine3": null,
-          "AddressPostalCode": "6010",
-          "AddressStateOrProvince": "WA",
-          "AddressSuburb": "Swanbourne",
-          "AddressSuburbStatePostcode": "Swanbourne WA 6010",
-          "AnnualReports": [
-            {
-              "AISId": "fc5b12e0-dd68-ee11-9ae7-002248933d22",
-              "DateReceived": "2023-10-12T09:01:11.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2023-01-31T00:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2022",
-              "type": "Annual Information Statement 2022",
-              "uuid": "c4a826ca-ce63-eb11-b0b0-000d3acbaeea"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2023-10-12T09:00:24.0000000Z",
-              "DocumentUuid": "556cceba-dd68-ee11-9ae7-00224893cef4",
-              "DueDate": "2023-01-31T00:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2022",
-              "type": "Financial Report 2022",
-              "uuid": "d1a826ca-ce63-eb11-b0b0-000d3acbaeea"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2026-12-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Not yet submitted",
-              "Year": "2026",
-              "type": "Annual Information Statement 2026",
-              "uuid": "df2b5e01-dbdf-ef11-a731-000d3ad04fa6"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2026-12-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Pending",
-              "Year": "2026",
-              "type": "Financial Report 2026",
-              "uuid": "ef2b5e01-dbdf-ef11-a731-000d3ad04fa6"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2021-07-23T05:25:53.0000000Z",
-              "DocumentUuid": "62a09468-76eb-eb11-bacb-000d3acc5239",
-              "DueDate": "2020-01-31T00:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2019",
-              "type": "Financial Report 2019",
-              "uuid": "e20d30dc-2025-e911-a976-000d3ad05e15"
-            },
-            {
-              "AISId": "84d0d370-76eb-eb11-bacb-000d3acc5d64",
-              "DateReceived": "2021-07-23T05:25:55.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2020-01-31T00:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2019",
-              "type": "Annual Information Statement 2019",
-              "uuid": "200e30dc-2025-e911-a976-000d3ad05e15"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2021-07-23T05:50:26.0000000Z",
-              "DocumentUuid": "6c53f3d9-79eb-eb11-bacb-000d3acc5692",
-              "DueDate": "2021-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2020",
-              "type": "Financial Report 2020",
-              "uuid": "670e30dc-2025-e911-a976-000d3ad05e15"
-            },
-            {
-              "AISId": "f05496e0-79eb-eb11-bacb-000d3acc5fd7",
-              "DateReceived": "2021-07-23T05:50:33.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2021-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2020",
-              "type": "Annual Information Statement 2020",
-              "uuid": "b80e30dc-2025-e911-a976-000d3ad05e15"
-            },
-            {
-              "AISId": "a95ab34f-d868-ee11-9ae7-00224893d32a",
-              "DateReceived": "2023-10-12T08:21:23.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2022-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2021",
-              "type": "Annual Information Statement 2021",
-              "uuid": "59d8efb1-8d44-ea11-a813-000d3ad1f497"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2023-10-12T08:21:23.0000000Z",
-              "DocumentUuid": "4079ba46-d868-ee11-9ae7-002248122521",
-              "DueDate": "2022-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2021",
-              "type": "Financial Report 2021",
-              "uuid": "6cd8efb1-8d44-ea11-a813-000d3ad1f497"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required",
-              "Year": "2014",
-              "type": "Financial Report 2014",
-              "uuid": "821029fd-40c8-e811-a962-000d3ad24182"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required",
-              "Year": "2015",
-              "type": "Financial Report 2015",
-              "uuid": "3fa67ffb-40c8-e811-a961-000d3ad24282"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required",
-              "Year": "2016",
-              "type": "Financial Report 2016",
-              "uuid": "59a67ffb-40c8-e811-a961-000d3ad24282"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required",
-              "Year": "2017",
-              "type": "Financial Report 2017",
-              "uuid": "72a67ffb-40c8-e811-a961-000d3ad24282"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required",
-              "Year": "2013",
-              "type": "Financial Report 2013",
-              "uuid": "85a67ffb-40c8-e811-a961-000d3ad24282"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2021-07-21T08:00:24.0000000Z",
-              "DocumentUuid": "271f50ab-f9e9-eb11-bacb-000d3acc5692",
-              "DueDate": "2019-04-06T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2018",
-              "type": "Financial Report 2018",
-              "uuid": "95a67ffb-40c8-e811-a961-000d3ad24282"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": true,
-              "Status": "Not required",
-              "Year": "2013",
-              "type": "Annual Information Statement 2013",
-              "uuid": "cfb14ad6-3bc8-e811-a964-000d3ad244fd"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": true,
-              "Status": "Not required",
-              "Year": "2014",
-              "type": "Annual Information Statement 2014",
-              "uuid": "e0b14ad6-3bc8-e811-a964-000d3ad244fd"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": true,
-              "Status": "Not required",
-              "Year": "2015",
-              "type": "Annual Information Statement 2015",
-              "uuid": "b99b6ed4-3bc8-e811-a963-000d3ad24a0d"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": true,
-              "Status": "Not required",
-              "Year": "2016",
-              "type": "Annual Information Statement 2016",
-              "uuid": "c39b6ed4-3bc8-e811-a963-000d3ad24a0d"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": true,
-              "Status": "Not required",
-              "Year": "2017",
-              "type": "Annual Information Statement 2017",
-              "uuid": "d19b6ed4-3bc8-e811-a963-000d3ad24a0d"
-            },
-            {
-              "AISId": "055097b1-f9e9-eb11-bacb-000d3acc5db6",
-              "DateReceived": "2021-07-21T08:00:32.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2019-04-06T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2018",
-              "type": "Annual Information Statement 2018",
-              "uuid": "e59b6ed4-3bc8-e811-a963-000d3ad24a0d"
-            },
-            {
-              "AISId": "a97a6a03-37bf-ee11-9079-00224893cef4",
-              "DateReceived": "2024-01-30T06:15:58.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2024-01-31T00:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2023",
-              "type": "Annual Information Statement 2023",
-              "uuid": "e2829f2c-e348-ec11-8c60-00224811cd6d"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2024-01-30T06:15:41.0000000Z",
-              "DocumentUuid": "79605df6-36bf-ee11-9079-00224893b261",
-              "DueDate": "2024-01-31T00:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2023",
-              "type": "Financial Report 2023",
-              "uuid": "0c839f2c-e348-ec11-8c60-00224811cd6d"
-            },
-            {
-              "AISId": "1c540d55-aff2-f011-8407-7ced8d34ef5a",
-              "DateReceived": "2026-01-16T07:45:46.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2026-01-31T00:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2025",
-              "type": "Annual Information Statement 2025",
-              "uuid": "5845bdd3-9bc0-ee11-907a-00224893b0ed"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2026-01-16T07:45:34.0000000Z",
-              "DocumentUuid": "04ecb447-aff2-f011-8407-000d3ad10b92",
-              "DueDate": "2026-01-31T00:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2025",
-              "type": "Financial Report 2025",
-              "uuid": "6f45bdd3-9bc0-ee11-907a-00224893b0ed"
-            },
-            {
-              "AISId": "1c3c7124-0ffb-ef11-bae2-00224893b707",
-              "DateReceived": "2025-03-07T04:46:40.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2025-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2024",
-              "type": "Annual Information Statement 2024",
-              "uuid": "fce50efc-c7a1-ed11-aad1-00224893bfad"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2025-03-07T04:46:14.0000000Z",
-              "DocumentUuid": "117b4c15-0ffb-ef11-bae2-002248964b72",
-              "DueDate": "2025-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2024",
-              "type": "Financial Report 2024",
-              "uuid": "0ce60efc-c7a1-ed11-aad1-00224893bfad"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2027-12-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Not yet submitted",
-              "Year": "2027",
-              "type": "Annual Information Statement 2027",
-              "uuid": "b42b3067-04ff-f011-8406-6045bdc27ae7"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2027-12-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Pending",
-              "Year": "2027",
-              "type": "Financial Report 2027",
-              "uuid": "c32b3067-04ff-f011-8406-6045bdc27ae7"
-            }
-          ],
-          "Beneficiaries": [
-            {
-              "Description": null,
-              "Name": "People in rural/regional/remote communities",
-              "uuid": "97e7055b-aff2-f011-8407-7ced8d34ef5a"
-            },
-            {
-              "Description": null,
-              "Name": "Other charities",
-              "uuid": "9be7055b-aff2-f011-8407-7ced8d34ef5a"
-            },
-            {
-              "Description": null,
-              "Name": "General community in Australia",
-              "uuid": "9ee7055b-aff2-f011-8407-7ced8d34ef5a"
-            },
-            {
-              "Description": null,
-              "Name": "Environment",
-              "uuid": "a5e7055b-aff2-f011-8407-7ced8d34ef5a"
-            },
-            {
-              "Description": null,
-              "Name": "Aboriginal and Torres Strait Islander people",
-              "uuid": "ace7055b-aff2-f011-8407-7ced8d34ef5a"
-            }
-          ],
-          "CharitySize": "Medium",
-          "CharitySubtypeHistory": [
-            {
-              "EndDate": "2020-11-16T13:00:00.0000000Z",
-              "Purpose": "Advancing education",
-              "StartDate": "2017-06-20T14:00:00.0000000Z",
-              "uuid": "311e062d-ffc6-e811-a964-000d3ad24077"
-            },
-            {
-              "EndDate": "2020-11-16T13:00:00.0000000Z",
-              "Purpose": "Advancing the natural environment",
-              "StartDate": "2017-06-20T14:00:00.0000000Z",
-              "uuid": "561e062d-ffc6-e811-a964-000d3ad24077"
-            },
-            {
-              "EndDate": null,
-              "Purpose": "Advancing education",
-              "StartDate": "2020-11-16T13:00:00.0000000Z",
-              "uuid": "6068fe4a-e248-ec11-8c62-00224811cd09"
-            },
-            {
-              "EndDate": null,
-              "Purpose": "Advancing the natural environment",
-              "StartDate": "2020-11-16T13:00:00.0000000Z",
-              "uuid": "675b6d57-e248-ec11-8c62-00224811cd09"
-            }
-          ],
-          "CharityVersion": "98",
-          "ChildMemberEndDate": null,
-          "ChildMemberStartDate": null,
-          "ChooseToProvideAis": null,
-          "Countries": [
-            {
-              "Name": "Australia",
-              "uuid": "f57b5602-9a4d-e811-a951-000d3ad06f2d"
-            }
-          ],
-          "DateEstablished": "1996-06-30T14:00:00.0000000Z",
-          "Documents": [
-            {
-              "Date": "2021-10-11T00:00:00.0000000",
-              "Title": "DWG Rules of Association FINAL_201809",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/0355329a-3aaf-e811-a963-000d3ad24077-d48258a8-83c1-41a8-a8d7-500ca71efcfe-Governing%20Document-793f34eb-472a-ec11-b6e6-0022481111ed-DWG_Rules_of_Association_FINAL_201809.pdf",
-              "Year": null,
-              "type": "Governing Document",
-              "uuid": "793f34eb-472a-ec11-b6e6-0022481111ed"
-            },
-            {
-              "Date": "2017-05-29T00:00:00.0000000",
-              "Title": "DWG Annual Report 2015-2016.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/0355329a-3aaf-e811-a963-000d3ad24077-d48258a8-83c1-41a8-a8d7-500ca71efcfe-Annual%20Report-c0693ae0-53b0-e811-a963-000d3ad24077-DWG_Annual_Report_2015-2016.pdf",
-              "Year": null,
-              "type": "Annual Report",
-              "uuid": "c0693ae0-53b0-e811-a963-000d3ad24077"
-            },
-            {
-              "Date": "2021-07-23T00:00:00.0000000",
-              "Title": "DIEBACK WORKING GROUP INC2019..pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/0355329a-3aaf-e811-a963-000d3ad24077-d48258a8-83c1-41a8-a8d7-500ca71efcfe-Financial%20Report-62a09468-76eb-eb11-bacb-000d3acc5239-DIEBACK_WORKING_GROUP_INC2019..pdf",
-              "Year": "2019",
-              "type": "Financial Report",
-              "uuid": "62a09468-76eb-eb11-bacb-000d3acc5239"
-            },
-            {
-              "Date": "2021-07-21T00:00:00.0000000",
-              "Title": "ProfitandLoss2018.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/0355329a-3aaf-e811-a963-000d3ad24077-d48258a8-83c1-41a8-a8d7-500ca71efcfe-Financial%20Report-271f50ab-f9e9-eb11-bacb-000d3acc5692-ProfitandLoss2018.pdf",
-              "Year": "2018",
-              "type": "Financial Report",
-              "uuid": "271f50ab-f9e9-eb11-bacb-000d3acc5692"
-            },
-            {
-              "Date": "2021-07-23T00:00:00.0000000",
-              "Title": "DIEBACK WORKING GROUP INC2020..pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/0355329a-3aaf-e811-a963-000d3ad24077-d48258a8-83c1-41a8-a8d7-500ca71efcfe-Financial%20Report-6c53f3d9-79eb-eb11-bacb-000d3acc5692-DIEBACK_WORKING_GROUP_INC2020..pdf",
-              "Year": "2020",
-              "type": "Financial Report",
-              "uuid": "6c53f3d9-79eb-eb11-bacb-000d3acc5692"
-            },
-            {
-              "Date": "2026-01-16T00:00:00.0000000",
-              "Title": "agmReport2025.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/0355329a-3aaf-e811-a963-000d3ad24077-d48258a8-83c1-41a8-a8d7-500ca71efcfe-Financial%20Report-04ecb447-aff2-f011-8407-000d3ad10b92-agmReport2025.pdf",
-              "Year": "2025",
-              "type": "Financial Report",
-              "uuid": "04ecb447-aff2-f011-8407-000d3ad10b92"
-            },
-            {
-              "Date": "2023-10-12T00:00:00.0000000",
-              "Title": "dwgAnnualReport2021.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/0355329a-3aaf-e811-a963-000d3ad24077-d48258a8-83c1-41a8-a8d7-500ca71efcfe-Financial%20Report-4079ba46-d868-ee11-9ae7-002248122521-dwgAnnualReport2021.pdf",
-              "Year": "2021",
-              "type": "Financial Report",
-              "uuid": "4079ba46-d868-ee11-9ae7-002248122521"
-            },
-            {
-              "Date": "2024-01-30T00:00:00.0000000",
-              "Title": "DWG_Annual_Report_2023.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/0355329a-3aaf-e811-a963-000d3ad24077-d48258a8-83c1-41a8-a8d7-500ca71efcfe-Financial%20Report-79605df6-36bf-ee11-9079-00224893b261-DWG_Annual_Report_2023.pdf",
-              "Year": "2023",
-              "type": "Financial Report",
-              "uuid": "79605df6-36bf-ee11-9079-00224893b261"
-            },
-            {
-              "Date": "2023-10-12T00:00:00.0000000",
-              "Title": "dwgAnnualReport2022.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/0355329a-3aaf-e811-a963-000d3ad24077-d48258a8-83c1-41a8-a8d7-500ca71efcfe-Financial%20Report-556cceba-dd68-ee11-9ae7-00224893cef4-dwgAnnualReport2022.pdf",
-              "Year": "2022",
-              "type": "Financial Report",
-              "uuid": "556cceba-dd68-ee11-9ae7-00224893cef4"
-            },
-            {
-              "Date": "2025-03-07T00:00:00.0000000",
-              "Title": "agm2024.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/0355329a-3aaf-e811-a963-000d3ad24077-d48258a8-83c1-41a8-a8d7-500ca71efcfe-Financial%20Report-117b4c15-0ffb-ef11-bae2-002248964b72-agm2024.pdf",
-              "Year": "2024",
-              "type": "Financial Report",
-              "uuid": "117b4c15-0ffb-ef11-bae2-002248964b72"
-            }
-          ],
-          "Email": "exec.officer@dwg.org.au",
-          "EnforcementOutcomes": [],
-          "FinancialYearEnd": "30/06",
-          "GovernmentAgencies": [
-            {
-              "Name": "WA - Incorporated Association",
-              "ReferenceNumber": "A1017691A",
-              "uuid": "bb540d55-aff2-f011-8407-7ced8d34ef5a"
-            }
-          ],
-          "GroupHeadFlag": false,
-          "LastReported": "2026-01-16T07:45:46.0000000Z",
-          "Name": "Dieback Working Group Inc",
-          "NextReportDue": "2026-12-31T12:30:00.0000000Z",
-          "OperatingInStates": [
-            {
-              "Name": "Western Australia",
-              "uuid": "dc2782ae-455e-e811-a95c-000d3ad1c715"
-            }
-          ],
-          "OtherDetails": null,
-          "OtherNames": [],
-          "ParentAccountAbn": null,
-          "ParentAccountId": null,
-          "Phone": null,
-          "Programs": [
-            {
-              "AisUuid": "1c540d55-aff2-f011-8407-7ced8d34ef5a",
-              "Name": "Green Card Training",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Aboriginal and Torres Strait Islander people",
-                "People in rural/regional/remote communities",
-                "Environment",
-                "Other charities",
-                "General community in Australia"
-              ],
-              "ProgramClassie": [
-                {
-                  "classie_id": "231",
-                  "label": "Environmental education",
-                  "parent_id": "216",
-                  "selected": true
-                },
-                {
-                  "classie_id": "216",
-                  "label": "Environment",
-                  "parent_id": null,
-                  "selected": false
-                }
-              ],
-              "ProgramClassification": "Environmental education",
-              "ProgramClassificationID": "231",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "Western Australia, Australia",
-                  "FormattedAddress": "Western Australia, Australia",
-                  "Marker": {
-                    "Latitude": -27.6728168,
-                    "Longitude": 121.6283098
-                  },
-                  "Name": "Western Australia",
-                  "uuid": "74e7055b-aff2-f011-8407-7ced8d34ef5a"
-                }
-              ],
-              "ProgramWeblink": null,
-              "uuid": "c4540d55-aff2-f011-8407-7ced8d34ef5a"
-            }
-          ],
-          "ReferendumReturnsUrl": null,
-          "RegistrationStatusHistory": [
-            {
-              "EffectiveDate": "2020-11-16T13:00:00.0000000Z",
-              "Status": "Revoked Double defaulter",
-              "TransactionDate": "2020-11-18T03:36:17.0000000Z",
-              "uuid": "0f608833-4f29-eb11-a813-000d3acb05bc"
-            },
-            {
-              "EffectiveDate": "2017-06-20T14:00:00.0000000Z",
-              "Status": "Registered",
-              "TransactionDate": "2017-06-20T14:00:00.0000000Z",
-              "uuid": "7b876708-07c6-e811-a95f-000d3ad24c60"
-            },
-            {
-              "EffectiveDate": "2020-11-16T13:00:00.0000000Z",
-              "Status": "Registered",
-              "TransactionDate": "2021-11-19T02:48:22.0000000Z",
-              "uuid": "5fdba426-e348-ec11-8c60-00224811cd6d"
-            }
-          ],
-          "RelatedPartyTransactions": null,
-          "RelevantTransactions": null,
-          "ReportingLate": "2027-06-30T12:30:00.0000000Z",
-          "ResponsiblePersons": [
-            {
-              "Name": "Letty Tan",
-              "Role": "Treasurer",
-              "uuid": "f8ca897b-3ea9-eb11-9442-000d3acc3359"
-            },
-            {
-              "Name": "Cameron Crowe",
-              "Role": "Chairperson",
-              "uuid": "0c5097b1-f9e9-eb11-bacb-000d3acc5db6"
-            },
-            {
-              "Name": "Giles Hardy",
-              "Role": "Committee Member",
-              "uuid": "832f5f4d-22bc-e811-a961-000d3ad24282"
-            }
-          ],
-          "Status": "Registered",
-          "SummaryOfActivities": "DWG was able to increase awareness and management of Phytophthora Dieback by key stakeholders; b) Be a source of knowledge and facilitate the development of best management practices for Phytophthora Dieback; c) Promote best practice Phytophthora Dieback management by government, industry, and the community; d) Encourage adoption of Phytophthora Dieback best practice policy in government, industry, utilities, and NGOs; and e) Apply for, and coordinate funding applications and facilitate effective partnerships",
-          "TotalExpensesEmployee": "364519",
-          "TotalExpensesGrantsAndDonationsInAustralia": "0",
-          "TotalExpensesGrantsAndDonationsOutsideAustralia": "0",
-          "TotalExpensesInterest": "0",
-          "TotalExpensesOther": "192331",
-          "TotalGrossIncomeDonationsAndRequests": "0",
-          "TotalGrossIncomeGoodsOrServices": "221253",
-          "TotalGrossIncomeGovernmentGrants": "2345892",
-          "TotalGrossIncomeInvestments": "0",
-          "TotalGrossIncomeOtherRevenues": "0",
-          "TransparencyRegisterUrl": null,
-          "Website": "dwg.org.au",
-          "__normalized": true,
-          "type": "charity",
-          "uuid": "0355329a-3aaf-e811-a963-000d3ad24077"
-        },
-        "type": "charity",
-        "uuid": "0355329a-3aaf-e811-a963-000d3ad24077"
-      },
-      "canonical_field_mappings": {
-        "data.OtherNames": "operating_names",
-        "data.AddressStateOrProvince": "principal_location"
-      },
-      "evidence_ids": []
-    },
-    {
-      "source_record_id": "src:acnc-ais-detail:16734386980:1c540d55-aff2-f011-8407-7ced8d34ef5a:cb_1690dc79be8b4fb4b11c51db5c6f497c",
-      "source_family": "acnc-ais-detail",
-      "dataset_version": "2026-08-14-public-api",
-      "source_url": "https://www.acnc.gov.au/charity/charities/0355329a-3aaf-e811-a963-000d3ad24077/documents/1c540d55-aff2-f011-8407-7ced8d34ef5a",
-      "retrieved_at": "2026-08-13T13:54:42.956606Z",
-      "observed_at": "2026-01-16",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "abn": "16734386980",
-        "ais_uuid": "1c540d55-aff2-f011-8407-7ced8d34ef5a",
-        "year": "2025",
-        "date_received": "2026-01-16T07:45:46.0000000Z"
-      },
-      "source_payload": {
-        "data": {
-          "Abn": "16734386980",
-          "ActivityAdvocacyNCivic": false,
-          "ActivityAgedCare": false,
-          "ActivityAnimalProtection": false,
-          "ActivityCultureAndArt": false,
-          "ActivityEconomicSocialCommunity": false,
-          "ActivityEmergencyNRelief": false,
-          "ActivityEmploymentNTraining": false,
-          "ActivityEnvironmental": false,
-          "ActivityGrantMaking": false,
-          "ActivityHealthRehabilitation": false,
-          "ActivityHigherEducation": false,
-          "ActivityHousing": false,
-          "ActivityIncomeSupportNMaintenance": false,
-          "ActivityInternational": false,
-          "ActivityInternationalDescription": null,
-          "ActivityInternationalOther": false,
-          "ActivityInternationalOtherDescription": null,
-          "ActivityLawNLegalServices": false,
-          "ActivityMain": null,
-          "ActivityMentalHealthCrisisIntervention": false,
-          "ActivityNdisSupported": null,
-          "ActivityNdisSupportedNext": null,
-          "ActivityOperating": true,
-          "ActivityOperatingOverseas": false,
-          "ActivityOther": false,
-          "ActivityOtherDescription": null,
-          "ActivityOtherEducation": false,
-          "ActivityOtherHealthServices": false,
-          "ActivityPersuitPurposesDescription": "DWG was able to increase awareness and management of Phytophthora Dieback by key stakeholders; b) Be a source of knowledge and facilitate the development of best management practices for Phytophthora Dieback; c) Promote best practice Phytophthora Dieback management by government, industry, and the community; d) Encourage adoption of Phytophthora Dieback best practice policy in government, industry, utilities, and NGOs; and e) Apply for, and coordinate funding applications and facilitate effective partnerships",
-          "ActivityPhilanthropicPromotion": false,
-          "ActivityPolitical": false,
-          "ActivityPrimarySecondaryEducation": false,
-          "ActivityPurposeChange": null,
-          "ActivityPurposeChangeDescription": null,
-          "ActivityRecreationSocialClub": false,
-          "ActivityReligious": false,
-          "ActivityResearch": false,
-          "ActivitySocialServices": false,
-          "ActivitySports": false,
-          "ActivityTransferringFundsGoods": false,
-          "AdvancementOfEducation": false,
-          "AdvancementOfReligion": false,
-          "AssetsandLiabilitiesDescription": null,
-          "BasicReligiousCharity": false,
-          "BeneficiaryAboriginalTorres": false,
-          "BeneficiaryAdults": false,
-          "BeneficiaryAllAges": false,
-          "BeneficiaryChildren": false,
-          "BeneficiaryChronicIllness": false,
-          "BeneficiaryCrimeVictims": false,
-          "BeneficiaryDisasterVictims": false,
-          "BeneficiaryEarlyChildhood": false,
-          "BeneficiaryEthnic": false,
-          "BeneficiaryFamilies": false,
-          "BeneficiaryFinanciallyDisadvantaged": false,
-          "BeneficiaryGeneral": false,
-          "BeneficiaryHomelessnessRisk": false,
-          "BeneficiaryLGBT": false,
-          "BeneficiaryMain": null,
-          "BeneficiaryMen": false,
-          "BeneficiaryMigrantsRefugees": false,
-          "BeneficiaryOffenderFamilies": false,
-          "BeneficiaryOther": false,
-          "BeneficiaryOtherCharities": false,
-          "BeneficiaryOtherDescription": null,
-          "BeneficiaryOverseas": false,
-          "BeneficiaryPeopleWithDisability": false,
-          "BeneficiaryRuralRegionalRemote": false,
-          "BeneficiarySeniors": false,
-          "BeneficiaryUnemployed": false,
-          "BeneficiaryVeteranFamilies": false,
-          "BeneficiaryWomen": false,
-          "BeneficiaryYouth": false,
-          "CharityAddressCountry": "Australia",
-          "CharityAddressLine1": "89 Wood St",
-          "CharityAddressLine2": null,
-          "CharityAddressPostalCode": "6010",
-          "CharityAddressStateOrProvince": "WA",
-          "CharityAddressSuburb": "Swanbourne",
-          "CharityEmail": "exec.officer@dwg.org.au",
-          "CharitySize": "Medium",
-          "CharityUuid": "0355329a-3aaf-e811-a963-000d3ad24077",
-          "ChildCareServices": false,
-          "ExpenseEmployees": "364519.0000",
-          "ExpenseGrantDonationsInAustralia": "0.0000",
-          "ExpenseGrantDonationsOutsideAustralia": "0.0000",
-          "ExpenseTotal": "556850.0000",
-          "ExpensesOther": "192331.0000",
-          "FinAccrualAccounting": null,
-          "FinConsolidatedReportFromMiltiple": "No",
-          "FinDocumentedPoliciesRelatedPartyTransactions": null,
-          "FinFyeJune": false,
-          "FinProvideVoluntarily": null,
-          "FinRelatedPartyTransactions": "No",
-          "FinReportACT": false,
-          "FinReportFrom": "2024-07-01T00:00:00.0000000Z",
-          "FinReportNSW": false,
-          "FinReportNT": false,
-          "FinReportQLD": false,
-          "FinReportSA": false,
-          "FinReportTAS": false,
-          "FinReportTo": "2025-06-30T00:00:00.0000000Z",
-          "FinReportVIC": false,
-          "FinReportWA": false,
-          "FinReportingType": "General purpose financial statements",
-          "FinSapDate": null,
-          "FundRaisingNumberACT": null,
-          "FundRaisingNumberNSW": null,
-          "FundRaisingNumberQLD": null,
-          "FundRaisingNumberSA": null,
-          "FundRaisingNumberTAS": null,
-          "FundRaisingNumberVIC": null,
-          "FundRaisingNumberWA": null,
-          "GovDocAccurate": null,
-          "GrantCapacityBuildingPct": null,
-          "GrantMultiYearPct": null,
-          "GrantPublicOpenApplicationPct": null,
-          "GrantRuralRegionPct": null,
-          "HasSubmittedToRegulator": false,
-          "HoursPaid": null,
-          "HoursTotal": null,
-          "HoursVolunteer": null,
-          "HrCasualEmployees": "2",
-          "HrFteStaff": "1.9500000000",
-          "HrFullTimeEmployees": "3",
-          "HrPartTimeEmployees": "4",
-          "HrUnpainVolunteers": "12",
-          "IncomeDonationsBequests": "0.0000",
-          "IncomeGovernmentGrants": "2345892.0000",
-          "IncomeOther": "0.0000",
-          "IncomeOtherComprehinsive": "0.0000",
-          "IncomeOtherNeg": null,
-          "IncomeOtherReceipts": "0.0000",
-          "IncomeTotalComprehensive": "2010295.0000",
-          "IncomeTotalReceipts": "2567145.0000",
-          "IncorporationStatus": null,
-          "InterestExpense": "0.0000",
-          "IsIncorporatedAssociation": true,
-          "KeyManagementPersonnel": false,
-          "LegalName": "Dieback Working Group Inc",
-          "NetAssetsLiabilities": "1856427.0000",
-          "NetSurplusDeficit": "2010295.0000",
-          "NonCurrentLoansPayable": "0.0000",
-          "NumberOfKeyManagementPersonnel": "0",
-          "OperatingCountries": null,
-          "OperatingInACT": false,
-          "OperatingInNSW": false,
-          "OperatingInNT": false,
-          "OperatingInQLD": false,
-          "OperatingInSA": false,
-          "OperatingInTAS": false,
-          "OperatingInVIC": false,
-          "OperatingInWA": false,
-          "OperatingOverseas": false,
-          "OtherNames": [],
-          "OtherNonCurrentAssets": "0.0000",
-          "OtherNonCurrentLiabilities": "0.0000",
-          "OtherPurposeDescription": null,
-          "OtherPurposes": "False",
-          "Programs": [
-            {
-              "AisUuid": "1c540d55-aff2-f011-8407-7ced8d34ef5a",
-              "Name": "Green Card Training",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Aboriginal and Torres Strait Islander people",
-                "People in rural/regional/remote communities",
-                "Environment",
-                "Other charities",
-                "General community in Australia"
-              ],
-              "ProgramClassification": "Environmental education",
-              "ProgramClassificationID": "231",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "Western Australia, Australia",
-                  "FormattedAddress": "Western Australia, Australia",
-                  "Marker": {
-                    "Latitude": -27.6728168,
-                    "Longitude": 121.6283098
-                  },
-                  "Name": "Western Australia",
-                  "uuid": "74e7055b-aff2-f011-8407-7ced8d34ef5a"
-                }
-              ],
-              "ProgramWeblink": null,
-              "uuid": "c4540d55-aff2-f011-8407-7ced8d34ef5a"
-            }
-          ],
-          "RegulatedACT": false,
-          "RegulatedNSW": false,
-          "RegulatedNT": false,
-          "RegulatedQLD": false,
-          "RegulatedSA": false,
-          "RegulatedTAS": false,
-          "RegulatedVIC": false,
-          "RegulatedWA": false,
-          "Regulator": null,
-          "RegulatorAGMDateACT": null,
-          "RegulatorAGMDateNT": null,
-          "RegulatorAGMDateVIC": null,
-          "RegulatorAGMDateWA": "2025-12-04T00:00:00.0000000",
-          "RegulatorFundRaising": "No",
-          "RegulatorFundRaisingACT": false,
-          "RegulatorFundRaisingNSW": false,
-          "RegulatorFundRaisingNT": false,
-          "RegulatorFundRaisingOnline": false,
-          "RegulatorFundRaisingQLD": false,
-          "RegulatorFundRaisingSA": false,
-          "RegulatorFundRaisingTAS": false,
-          "RegulatorFundRaisingVIC": false,
-          "RegulatorFundRaisingWA": false,
-          "RegulatorIncorporatedAssociationACT": false,
-          "RegulatorIncorporatedAssociationNSW": false,
-          "RegulatorIncorporatedAssociationNT": false,
-          "RegulatorIncorporatedAssociationNumberACT": null,
-          "RegulatorIncorporatedAssociationNumberNSW": null,
-          "RegulatorIncorporatedAssociationNumberNT": null,
-          "RegulatorIncorporatedAssociationNumberQLD": null,
-          "RegulatorIncorporatedAssociationNumberSA": null,
-          "RegulatorIncorporatedAssociationNumberTAS": null,
-          "RegulatorIncorporatedAssociationNumberVIC": null,
-          "RegulatorIncorporatedAssociationNumberWA": "A1017691A",
-          "RegulatorIncorporatedAssociationQLD": false,
-          "RegulatorIncorporatedAssociationSA": false,
-          "RegulatorIncorporatedAssociationTAS": false,
-          "RegulatorIncorporatedAssociationVIC": false,
-          "RegulatorIncorporatedAssociationWA": true,
-          "RegulatorMetRequirementACT": false,
-          "RegulatorMetRequirementWA": "Yes",
-          "RegulatorOtherDetails": null,
-          "RegulatorPrograms": null,
-          "RegulatorStates": false,
-          "RelatedPartyDetails": null,
-          "RelatedPartyTransactions": [],
-          "ReliefOfPoverty": false,
-          "ReportingGroupFlag": false,
-          "ResponsiblePersonAccurate": null,
-          "RevenueGoodsServices": "221253.0000",
-          "RevenueInvestments": "0.0000",
-          "RevenueTotal": "2567145.0000",
-          "StatementYear": "2025",
-          "SubTypesAccurate": null,
-          "TotalAssets": "1905626.0000",
-          "TotalCurrentAssets": "1905626.0000",
-          "TotalCurrentLiabilities": "49199.0000",
-          "TotalLiabilities": "49199.0000",
-          "TotalNonCurrentAssets": "0.0000",
-          "TotalNonCurrentLiabilities": "0.0000",
-          "TotalNonCurrentLoansReceivable": "0.0000",
-          "TotalPaidKMP": "$0.00",
-          "Website": "dwg.org.au",
-          "__normalized": true,
-          "entityTypeVersion": "",
-          "entityVersion": "1829432658",
-          "timeStamp": "2026-01-16T07:45:37.0000000Z",
-          "type": "annual_information_statement",
-          "uuid": "1c540d55-aff2-f011-8407-7ced8d34ef5a"
-        },
-        "type": "annual_information_statement",
-        "uuid": "1c540d55-aff2-f011-8407-7ced8d34ef5a"
-      },
-      "canonical_field_mappings": {
-        "data.Programs": "programs",
-        "data.TotalRevenue": "financial_records[].revenue",
-        "data.TotalExpenses": "financial_records[].total_expenses"
-      },
-      "evidence_ids": [
-        "ev:acnc:ais:16734386980:1c540d55-aff2-f011-8407-7ced8d34ef5a"
-      ]
-    }
-  ],
-  "financial_records": [
-    {
-      "financial_record_id": "fr:ais:cb_1690dc79be8b4fb4b11c51db5c6f497c:2023",
-      "period": {
-        "period_start": "2022-07-01",
-        "period_end": "2023-06-30",
-        "period_length_days": 365,
-        "label": "01/07/2022 to 30/06/2023",
-        "is_transitional_or_nonstandard": false
-      },
-      "reporting_scope": "subject",
-      "reporting_subject_causebase_id": "cb_1690dc79be8b4fb4b11c51db5c6f497c",
-      "covered_subjects": [
-        "cb_1690dc79be8b4fb4b11c51db5c6f497c"
-      ],
-      "consolidated": "unknown",
-      "attribution_method": "direct_subject_report",
-      "evidence_ids": [
-        "ev:ais:16734386980:2023"
-      ],
-      "revenue": {
-        "source_amount": "276556",
-        "source_currency": "AUD",
-        "source_unit_scale": "1",
-        "normalised_amount": "276556",
-        "normalised_currency": "AUD",
-        "source_unit_label": null,
-        "source_raw_value": "276556",
-        "source_precision": null
-      },
-      "donations": null,
-      "government_grants": null,
-      "employee_costs": null,
-      "total_expenses": {
-        "source_amount": "90061",
-        "source_currency": "AUD",
-        "source_unit_scale": "1",
-        "normalised_amount": "90061",
-        "normalised_currency": "AUD",
-        "source_unit_label": null,
-        "source_raw_value": "90061",
-        "source_precision": null
-      },
-      "assets": null,
-      "liabilities": null,
-      "net_assets": null,
-      "income_breakdown": [],
-      "expense_breakdown": [],
-      "balance_sheet_breakdown": [],
-      "source_ordered_line_items": [],
-      "statements": [],
-      "donations_gifts_bequests": null,
-      "functional_expense_allocations": []
-    }
-  ],
-  "financial_metrics": [
-    {
-      "metric": "revenue",
-      "observations": [
-        {
-          "financial_record_id": "fr:ais:cb_1690dc79be8b4fb4b11c51db5c6f497c:2023",
-          "amount": {
-            "source_amount": "276556",
-            "source_currency": "AUD",
-            "source_unit_scale": "1",
-            "normalised_amount": "276556",
-            "normalised_currency": "AUD",
-            "source_unit_label": null,
-            "source_raw_value": "276556",
-            "source_precision": null
-          },
-          "metric_source_label": null,
-          "evidence_ids": [
-            "ev:ais:16734386980:2023"
-          ]
-        }
-      ],
-      "reconciliation_status": "single_observation",
-      "reconciliation_notes": null
-    },
-    {
-      "metric": "total_expenses",
-      "observations": [
-        {
-          "financial_record_id": "fr:ais:cb_1690dc79be8b4fb4b11c51db5c6f497c:2023",
-          "amount": {
-            "source_amount": "90061",
-            "source_currency": "AUD",
-            "source_unit_scale": "1",
-            "normalised_amount": "90061",
-            "normalised_currency": "AUD",
-            "source_unit_label": null,
-            "source_raw_value": "90061",
-            "source_precision": null
-          },
-          "metric_source_label": null,
-          "evidence_ids": [
-            "ev:ais:16734386980:2023"
-          ]
-        }
-      ],
-      "reconciliation_status": "single_observation",
-      "reconciliation_notes": null
-    }
-  ],
-  "fundraising_expenditure": null,
-  "funding_sources": [],
-  "fundraising_methods": [],
-  "classifications": [
-    {
-      "taxonomy_id": "acnc-register",
-      "taxonomy_version": "2026-08-10",
-      "term_id": "purpose.environment",
-      "term_label": "environment",
-      "assignment_method": "source_native",
-      "confidence": "high",
-      "evidence_ids": [
-        "ev:acnc:16734386980"
-      ]
-    },
-    {
-      "taxonomy_id": "acnc-register",
-      "taxonomy_version": "2026-08-10",
-      "term_id": "beneficiary.regional_remote",
-      "term_label": "regional remote",
-      "assignment_method": "source_native",
-      "confidence": "high",
-      "evidence_ids": [
-        "ev:acnc:16734386980"
-      ]
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "cause.environment",
-      "term_label": "Environmental protection",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "activity.direct_service",
-      "term_label": "Direct service delivery",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "activity.events_and_public_programming",
-      "term_label": "Events and public programming",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "activity.advocacy",
-      "term_label": "Advocacy",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "participation.public_events",
-      "term_label": "Public events",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "geography.local_or_regional",
-      "term_label": "Local or regional Australia",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "organisation.local",
-      "term_label": "Local organisation",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "beneficiary.general_community",
-      "term_label": "General community",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
+      "review_status": "not_required",
+      "conflicting_signals": []
     }
   ],
   "evidence": [
     {
       "evidence_id": "ev:acnc:16734386980",
-      "source_type": "regulatory",
-      "title": "ACNC Register extract",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": null,
-      "observed_at": "2026-08-10",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "title": "ACNC Register extract"
     },
     {
       "evidence_id": "ev:web:16734386980:2026-08-10",
-      "source_type": "organisation_self_report",
       "title": "Organisation website homepage",
-      "publisher": "Dieback Working Group Inc",
-      "url": "https://www.dwg.org.au/",
-      "observed_at": "2026-08-10",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://www.dwg.org.au/"
     },
     {
       "evidence_id": "ev:ais:16734386980:2023",
-      "source_type": "regulatory",
-      "title": "ACNC AIS 2023 extract",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": null,
-      "observed_at": "2026-08-10",
-      "reporting_period": "01/07/2022 to 30/06/2023",
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "title": "ACNC AIS 2023 extract"
     },
     {
       "evidence_id": "ev:acnc:ais:16734386980:1c540d55-aff2-f011-8407-7ced8d34ef5a",
-      "source_type": "regulatory",
       "title": "ACNC Annual Information Statement 2025",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": "https://www.acnc.gov.au/charity/charities/0355329a-3aaf-e811-a963-000d3ad24077/documents/1c540d55-aff2-f011-8407-7ced8d34ef5a",
-      "observed_at": "2026-01-16",
-      "reporting_period": "2025",
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://www.acnc.gov.au/charity/charities/0355329a-3aaf-e811-a963-000d3ad24077/documents/1c540d55-aff2-f011-8407-7ced8d34ef5a"
     },
     {
       "evidence_id": "ev:abr-dgr:16734386980:20260805",
-      "source_type": "regulatory",
       "title": "ABR DGR bulk observation",
-      "publisher": "Australian Business Register / Australian Taxation Office",
-      "url": "https://abr.business.gov.au/Tools/BulkExtract",
-      "observed_at": "2026-08-05",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://abr.business.gov.au/Tools/BulkExtract"
     }
   ],
-  "embedding": {
-    "embedding_id": "cb_1690dc79be8b4fb4b11c51db5c6f497c:entity:text-embedding-3-small",
-    "embedding_type": "entity",
-    "model_id": "text-embedding-3-small",
-    "model_version": "text-embedding-3-small",
-    "dimensions": 1536,
-    "source_text_hash": "127ea7ed0d064f397af17e2779c9bbbd4607f76638040e30a2739fb53017f3ab",
-    "generated_at": "2026-08-10T13:53:24.457118Z",
-    "vector_ref": "embeddings.parquet#cb_1690dc79be8b4fb4b11c51db5c6f497c"
+  "summary": {
+    "derivative_id": "der:rc4:cb_1690dc79be8b4fb4b11c51db5c6f497c:summary",
+    "text": "Dieback Working Group Inc is an organisation operating in southern Western Australia that focuses on managing Phytophthora Dieback, a plant disease caused by Phytophthora cinnamomi. It delivers biosecurity awareness training (Green Card Training) recognised by WA government authorities, runs a public conference series (DIG) and other public events, and promotes an \u2018Arrive Clean \u2013 Leave Clean\u2019 public education campaign. The group publishes guidance and information (Managing Dieback Best Practice Guideline, Treatment News, FAQs) and operates an information referral service (Find an Expert). Its stated stakeholders include government and industry agencies, landholders and land managers, community groups and outdoor recreation users; its work also relates to native plants and regional biodiversity in southern Western Australia. Evidence for these activities comes from the organisation\u2019s website and its 2023 ACNC information statement."
   },
-  "synthesis": {
-    "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
-    "parameters": {
-      "max_output_tokens": 3000,
-      "structured_output": true,
-      "output_contract": "causebase-summary-v0.3-rc2"
-    },
-    "evidence_input_hash": "535e554af326047a7df5f6b29f19292b4fad2876c0dfc0e21cc8e2f481ebc62c",
-    "generated_at": "2026-08-12T14:02:22.501185Z",
-    "editorial_policy_version": "0.3-rc2"
-  },
-  "derivative_assessments": [
+  "activities": [],
+  "beneficiaries": [],
+  "descriptive_geography": [],
+  "navigation_geography": [],
+  "funding_sources": [],
+  "fundraising_methods": [],
+  "participation": [],
+  "opportunities": [],
+  "programs": [
     {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T14:02:22.501185Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-13T13:54:42.956606Z",
-      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
-      "input_hash": "535e554af326047a7df5f6b29f19292b4fad2876c0dfc0e21cc8e2f481ebc62c",
-      "disposition": "reused",
-      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
-      "affected_dimensions": [
-        "summary"
-      ]
+      "observation_id": "obs:rc4:cb_1690dc79be8b4fb4b11c51db5c6f497c:program:prg:acnc:16734386980:c4540d55-aff2-f011-8407-7ced8d34ef5a",
+      "program_id": "prg:acnc:16734386980:c4540d55-aff2-f011-8407-7ced8d34ef5a",
+      "name": "Green Card Training",
+      "description": "Environmental education",
+      "url": "https://www.acnc.gov.au/charity/charities/0355329a-3aaf-e811-a963-000d3ad24077/documents/1c540d55-aff2-f011-8407-7ced8d34ef5a",
+      "status": "current",
+      "claim_basis": "direct",
+      "extraction_method": "api",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:ais:16734386980:1c540d55-aff2-f011-8407-7ced8d34ef5a"
+      ],
+      "time": {
+        "reporting_period": {
+          "label": "2025"
+        }
+      },
+      "warnings": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-14-rc4-fundraising-projection-correction",
-  "card_schema_version": "0.4",
-  "editorial_policy_version": "0.4-rc4",
-  "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T13:54:42.956606Z"
+  "relationships": [],
+  "classifications": [
+    {
+      "observation_id": "obs:rc4:cb_1690dc79be8b4fb4b11c51db5c6f497c:classification:0",
+      "classification_id": "cls:rc4:cb_1690dc79be8b4fb4b11c51db5c6f497c:0",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "purpose.environment",
+      "term_label": "environment",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:16734386980"
+      ],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_1690dc79be8b4fb4b11c51db5c6f497c:classification:1",
+      "classification_id": "cls:rc4:cb_1690dc79be8b4fb4b11c51db5c6f497c:1",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "beneficiary.regional_remote",
+      "term_label": "regional remote",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:16734386980"
+      ],
+      "confidence": "high",
+      "warnings": []
+    }
+  ],
+  "coverage": {
+    "registry_id": "capability-registry-0.5-initial",
+    "current": [
+      {
+        "capability": "regulatory.acnc_profile",
+        "status": "observed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:acnc:16734386980"
+        ]
+      },
+      {
+        "capability": "regulatory.ais",
+        "status": "observed",
+        "assessed_at": "2026-01-16",
+        "source_record_ids": [
+          "src:acnc-ais-detail:16734386980:1c540d55-aff2-f011-8407-7ced8d34ef5a:cb_1690dc79be8b4fb4b11c51db5c6f497c"
+        ],
+        "evidence_ids": [
+          "ev:acnc:ais:16734386980:1c540d55-aff2-f011-8407-7ced8d34ef5a"
+        ]
+      },
+      {
+        "capability": "tax.dgr",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "web.website",
+        "status": "observed",
+        "assessed_at": "2026-08-13",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "report.annual_report",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "financial.report",
+        "status": "unknown",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:ais:16734386980:2023"
+        ]
+      },
+      {
+        "capability": "financial.statements",
+        "status": "unknown",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:ais:16734386980:2023"
+        ]
+      },
+      {
+        "capability": "understanding.activities",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.beneficiaries",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.geography",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "programs",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "participation",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "funding.sources",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.methods",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.expenditure",
+        "status": "not_available_from_source",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "taxonomy.causebase",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "semantic.embedding",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      }
+    ]
+  },
+  "financial_reports": [],
+  "canonical_metrics": [],
+  "analytic_projections": [],
+  "derivatives": [
+    {
+      "derivative_id": "der:rc4:cb_1690dc79be8b4fb4b11c51db5c6f497c:summary",
+      "kind": "summary",
+      "input_observation_ids": [],
+      "evidence_ids": [
+        "ev:web:16734386980:2026-08-10",
+        "ev:ais:16734386980:2023"
+      ],
+      "generated_under": {
+        "output_contract_version": "phase2b-rc4-accepted-rc2-summary-reuse",
+        "input_hash": "535e554af326047a7df5f6b29f19292b4fad2876c0dfc0e21cc8e2f481ebc62c",
+        "generated_at": "2026-08-12T14:02:22.501185Z"
+      },
+      "current_assessment": {
+        "assessed_at": "2026-08-13T13:54:42.956606Z",
+        "assessed_against_contract": "0.5",
+        "governing_input_hash": "535e554af326047a7df5f6b29f19292b4fad2876c0dfc0e21cc8e2f481ebc62c",
+        "disposition": "reused",
+        "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs."
+      }
+    }
+  ],
+  "legacy_unbound": {
+    "origin_release": "rc4-2026-08-14",
+    "origin_card_sha256": "305a1f034b66ad30096fa78ad45146e185666e6fbec76f44d631f3789f1c31fe",
+    "activities": [
+      {
+        "value": "Biosecurity awareness training (Green Card Training)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Public conferences and events (DIG conference)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Public education and awareness campaign (\u201cArrive Clean \u2013 Leave Clean\u201d)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Publication of guidance and information (Managing Dieback Best Practice Guideline, Treatment News, FAQs)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Information referral service (Find an Expert)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "beneficiaries": [
+      {
+        "value": "Government agencies and industry stakeholders",
+        "source_role": "legacy_source_qualifier",
+        "provenance_note": "as listed on the website",
+        "evidence_ids": []
+      },
+      {
+        "value": "Landholders and land managers",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Community groups and outdoor recreation users",
+        "source_role": "legacy_source_qualifier",
+        "provenance_note": "as listed on the website",
+        "evidence_ids": []
+      },
+      {
+        "value": "Native plants and regional biodiversity",
+        "source_role": "legacy_source_qualifier",
+        "provenance_note": "described on the website",
+        "evidence_ids": []
+      }
+    ],
+    "descriptive_geography": [
+      {
+        "value": "Western Australia",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "southern Western Australia",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "classifications": [
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "cause.environment",
+        "term_label": "Environmental protection",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "activity.direct_service",
+        "term_label": "Direct service delivery",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "activity.events_and_public_programming",
+        "term_label": "Events and public programming",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "activity.advocacy",
+        "term_label": "Advocacy",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "participation.public_events",
+        "term_label": "Public events",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "geography.local_or_regional",
+        "term_label": "Local or regional Australia",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "organisation.local",
+        "term_label": "Local organisation",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "beneficiary.general_community",
+        "term_label": "General community",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      }
+    ],
+    "financial_records": [
+      {
+        "financial_record_id": "fr:ais:cb_1690dc79be8b4fb4b11c51db5c6f497c:2023",
+        "period": {
+          "period_start": "2022-07-01",
+          "period_end": "2023-06-30",
+          "period_length_days": 365,
+          "label": "01/07/2022 to 30/06/2023",
+          "is_transitional_or_nonstandard": false
+        },
+        "reporting_scope": "subject",
+        "reporting_subject_causebase_id": "cb_1690dc79be8b4fb4b11c51db5c6f497c",
+        "covered_subjects": [
+          "cb_1690dc79be8b4fb4b11c51db5c6f497c"
+        ],
+        "consolidated": "unknown",
+        "attribution_method": "direct_subject_report",
+        "evidence_ids": [
+          "ev:ais:16734386980:2023"
+        ],
+        "revenue": {
+          "source_amount": "276556",
+          "source_currency": "AUD",
+          "source_unit_scale": "1",
+          "normalised_amount": "276556",
+          "normalised_currency": "AUD",
+          "source_unit_label": null,
+          "source_raw_value": "276556",
+          "source_precision": null
+        },
+        "donations": null,
+        "government_grants": null,
+        "employee_costs": null,
+        "total_expenses": {
+          "source_amount": "90061",
+          "source_currency": "AUD",
+          "source_unit_scale": "1",
+          "normalised_amount": "90061",
+          "normalised_currency": "AUD",
+          "source_unit_label": null,
+          "source_raw_value": "90061",
+          "source_precision": null
+        },
+        "assets": null,
+        "liabilities": null,
+        "net_assets": null,
+        "income_breakdown": [],
+        "expense_breakdown": [],
+        "balance_sheet_breakdown": [],
+        "source_ordered_line_items": [],
+        "statements": [],
+        "donations_gifts_bequests": null,
+        "functional_expense_allocations": []
+      }
+    ]
+  }
 }

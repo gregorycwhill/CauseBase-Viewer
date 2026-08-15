@@ -1,1612 +1,532 @@
 {
   "causebase_id": "cb_5d5f8d975a03485ba5dc07dab3855629",
+  "contract_version": "0.5",
   "subject_kind": "unknown",
-  "external_identifiers": [
-    {
-      "scheme": "abn",
-      "value": "30913308861",
-      "source_evidence_id": "ev:acnc:30913308861"
-    }
+  "identity": {
+    "legal_name": "Italian Australian Welfare Assn (Granite Belt) Inc",
+    "display_name": "Italian Australian Welfare Assn (Granite Belt) Inc",
+    "operating_names": [],
+    "former_names": [],
+    "entity_status": "registered",
+    "website": "https://www.iawa.org.au",
+    "external_identifiers": [
+      {
+        "scheme": "abn",
+        "value": "30913308861",
+        "evidence_ids": [
+          "ev:acnc:30913308861"
+        ]
+      }
+    ],
+    "registrations": [
+      {
+        "regulator": "ACNC",
+        "status": "registered",
+        "evidence_ids": [
+          "ev:acnc:30913308861"
+        ]
+      }
+    ],
+    "tax_statuses": [
+      {
+        "scheme": "ABR DGR",
+        "status": "endorsed",
+        "evidence_ids": [
+          "ev:abr-dgr:30913308861:20260805"
+        ]
+      }
+    ]
+  },
+  "release": {
+    "release_id": "v0.5.0-2026-08-15",
+    "dataset_version": "0.5.0-2026-08-15",
+    "contract_version": "0.5",
+    "based_on_release": "rc4-2026-08-14",
+    "generated_at": "2026-08-15T00:00:00Z"
+  },
+  "source_record_refs": [
+    "src:acnc-public-profile:30913308861:7f6e2565-39af-e811-a95e-000d3ad24c60:cb_5d5f8d975a03485ba5dc07dab3855629",
+    "src:acnc-ais-detail:30913308861:0fe97a75-42c4-f011-bbd3-7ced8da2a128:cb_5d5f8d975a03485ba5dc07dab3855629"
   ],
-  "registrations": [
-    {
-      "regulator": "ACNC",
-      "registration_id": null,
-      "status": "registered",
-      "evidence_ids": [
-        "ev:acnc:30913308861"
-      ]
-    }
-  ],
-  "tax_statuses": [
-    {
-      "scheme": "ABR DGR",
-      "status": "endorsed",
-      "detail": "Dated 2026-08-05 ABR bulk observation",
-      "evidence_ids": [
-        "ev:abr-dgr:30913308861:20260805"
-      ]
-    }
-  ],
-  "relationships": [],
-  "source_resolutions": [
+  "source_bindings": [
     {
       "source_record_id": "src:acnc-register:5d6aad9c-63fe-5b9f-8226-fb74e0400df7",
       "resolution_status": "resolved",
       "resolution_basis": "automated authoritative ACNC promotion under acnc-authoritative-v1",
       "confidence": "high",
-      "supporting_signals": [
-        "ABN:30913308861",
-        "ACNC Register"
-      ],
-      "conflicting_signals": [],
-      "review_status": "not_required"
-    }
-  ],
-  "legal_name": "Italian Australian Welfare Assn (Granite Belt) Inc",
-  "display_name": "Italian Australian Welfare Assn (Granite Belt) Inc",
-  "entity_status": "registered",
-  "canonical_url": "https://gregorycwhill.github.io/CauseBase-Viewer/#cb_5d5f8d975a03485ba5dc07dab3855629",
-  "acnc_profile_url": "https://www.acnc.gov.au/charity/charities/7f6e2565-39af-e811-a95e-000d3ad24c60/profile",
-  "acnc_ais_url": "https://www.acnc.gov.au/charity/charities/7f6e2565-39af-e811-a95e-000d3ad24c60/documents/0fe97a75-42c4-f011-bbd3-7ced8da2a128",
-  "operating_names": [],
-  "former_names": [],
-  "principal_location": "QLD, Australia",
-  "coverage": [
-    {
-      "capability": "regulatory",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:acnc:30913308861"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "annual_report",
-      "status": "not_yet_processed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "fundraising_expenditure",
-      "status": "not_available_from_source",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": "No direct or defensible derived fundraising expenditure was found in selected Phase 2A evidence."
-    },
-    {
-      "capability": "financials",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:ais:30913308861:2023"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "latest_acnc_ais",
-      "status": "observed",
-      "source_record_id": "src:acnc-ais-detail:30913308861:0fe97a75-42c4-f011-bbd3-7ced8da2a128:cb_5d5f8d975a03485ba5dc07dab3855629",
-      "evidence_ids": [
-        "ev:acnc:ais:30913308861:0fe97a75-42c4-f011-bbd3-7ced8da2a128"
-      ],
-      "observed_at": "2025-11-18",
-      "freshness_note": "Latest submitted AIS detail acquired from the public ACNC entity endpoint."
-    },
-    {
-      "capability": "website",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-13",
-      "freshness_note": "Public website locator acquired from the ACNC profile."
-    }
-  ],
-  "enrichment_level": "enriched",
-  "website": "https://www.iawa.org.au",
-  "geography": [
-    "Stanthorpe and the Granite Belt region, Queensland",
-    "Australia"
-  ],
-  "geography_observations": [
-    {
-      "value": "Stanthorpe and the Granite Belt region, Queensland",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Australia",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "navigation_geography": [],
-  "causebase_summary": "Italian Australian Welfare Association (Granite Belt) Inc, trading as IAWA Home Care, is a registered aged care provider serving Stanthorpe and the Granite Belt region in Queensland (information current to 2026). It accepts referrals for Support at Home Packages through My Aged Care and provides services under the Commonwealth Home Support Program. The organisation operates a Granite Belt Ethnic Health Liaison Service (noted as government-funded) and describes itself as a grassroots, community-based not-for-profit that historically focused on Italian-born people and people of Italian descent and on people from non-English-speaking backgrounds, while now providing services to residents of the Granite Belt irrespective of background. IAWA also publishes and sells a cookbook and maintains a whistleblower/protected-disclosure contact for home care concerns.",
-  "summary_evidence_ids": [
-    "ev:web:30913308861:2026-08-10",
-    "ev:acnc:30913308861",
-    "ev:ais:30913308861:2023"
-  ],
-  "organisation_self_description": null,
-  "activities": [
-    "Registered Aged Care Provider delivering in‑home support services in the Stanthorpe and Granite Belt region",
-    "Accepting referrals for Support at Home Packages via My Aged Care",
-    "Delivering services under the Commonwealth Home Support Program",
-    "Operating a Granite Belt Ethnic Health Liaison Service (stated as government-funded)",
-    "Publishing and selling an IAWA Cookbook & authentic recipes"
-  ],
-  "activity_observations": [
-    {
-      "value": "Registered Aged Care Provider delivering in‑home support services in the Stanthorpe and Granite Belt region",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Accepting referrals for Support at Home Packages via My Aged Care",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Delivering services under the Commonwealth Home Support Program",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Operating a Granite Belt Ethnic Health Liaison Service (stated as government-funded)",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Publishing and selling an IAWA Cookbook & authentic recipes",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "beneficiaries": [
-    "Older people in Stanthorpe and the Granite Belt region who require home care supports",
-    "Italian‑born people and people of Italian descent",
-    "People from non‑English speaking backgrounds",
-    "Residents of the Granite Belt irrespective of cultural background"
-  ],
-  "beneficiary_observations": [
-    {
-      "value": "Older people in Stanthorpe and the Granite Belt region who require home care supports",
-      "source_role": "legacy_source_qualifier",
-      "provenance_note": "as described by the organisation",
-      "evidence_ids": []
-    },
-    {
-      "value": "Italian‑born people and people of Italian descent",
-      "source_role": "legacy_source_qualifier",
-      "provenance_note": "organisation‑stated historical focus",
-      "evidence_ids": []
-    },
-    {
-      "value": "People from non‑English speaking backgrounds",
-      "source_role": "legacy_source_qualifier",
-      "provenance_note": "organisation‑stated focus",
-      "evidence_ids": []
-    },
-    {
-      "value": "Residents of the Granite Belt irrespective of cultural background",
-      "source_role": "legacy_source_qualifier",
-      "provenance_note": "organisation states services have expanded to all",
-      "evidence_ids": []
-    }
-  ],
-  "participation_modes": [
-    "Referrals via My Aged Care",
-    "Accessing Commonwealth Home Support Program services",
-    "Purchasing the IAWA Cookbook",
-    "Making protected disclosures to the IAWA Home Care Delegate (whistleblower mechanism)"
-  ],
-  "participation_observations": [],
-  "opportunities": [],
-  "programs": [
-    {
-      "program_id": "prg:acnc:30913308861:5ee97a75-42c4-f011-bbd3-7ced8da2a128",
-      "name": "COMMONWEALTH HOME SUPPORT PROGRAM (CHSP)",
-      "description": "In-home aid and personal assistance",
-      "beneficiaries": [
-        "Adults - aged 65 and over",
-        "People in rural/regional/remote communities",
-        "People from a culturally and linguistically diverse background",
-        "Males",
-        "Females",
-        "People with disabilities",
-        "People with chronic illness (including terminal illness)"
-      ],
-      "geography": [
-        "Stanthorpe QLD, Australia"
-      ],
-      "status": "current",
-      "reporting_period": "2025",
-      "source_url": "https://www.acnc.gov.au/charity/charities/7f6e2565-39af-e811-a95e-000d3ad24c60/documents/0fe97a75-42c4-f011-bbd3-7ced8da2a128",
-      "evidence_ids": [
-        "ev:acnc:ais:30913308861:0fe97a75-42c4-f011-bbd3-7ced8da2a128"
-      ]
-    },
-    {
-      "program_id": "prg:acnc:30913308861:873f787b-42c4-f011-bbd3-7ced8da2a128",
-      "name": "HOME CARE PACKAGES",
-      "description": "Attendant care",
-      "beneficiaries": [
-        "Adults - aged 65 and over",
-        "People from a culturally and linguistically diverse background",
-        "People in rural/regional/remote communities",
-        "People with chronic illness (including terminal illness)",
-        "People with disabilities",
-        "Females",
-        "Males"
-      ],
-      "geography": [
-        "Stanthorpe QLD, Australia"
-      ],
-      "status": "current",
-      "reporting_period": "2025",
-      "source_url": "https://www.acnc.gov.au/charity/charities/7f6e2565-39af-e811-a95e-000d3ad24c60/documents/0fe97a75-42c4-f011-bbd3-7ced8da2a128",
-      "evidence_ids": [
-        "ev:acnc:ais:30913308861:0fe97a75-42c4-f011-bbd3-7ced8da2a128"
-      ]
-    }
-  ],
-  "source_native_records": [
-    {
-      "source_record_id": "src:acnc-public-profile:30913308861:7f6e2565-39af-e811-a95e-000d3ad24c60:cb_5d5f8d975a03485ba5dc07dab3855629",
-      "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-14-public-api",
-      "source_url": "https://www.acnc.gov.au/charity/charities/7f6e2565-39af-e811-a95e-000d3ad24c60/profile",
-      "retrieved_at": "2026-08-13T13:54:42.956606Z",
-      "observed_at": "2025-11-18",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "uuid": "7f6e2565-39af-e811-a95e-000d3ad24c60",
-        "abn": "30913308861"
-      },
-      "source_payload": {
-        "data": {
-          "AFSAddressPostalCode": "4380",
-          "AFSEmail": "tanyah@iawa.org.au",
-          "Abn": "30913308861",
-          "AddressCountry": "Australia",
-          "AddressLine1": "157 High Street",
-          "AddressLine2": null,
-          "AddressLine3": null,
-          "AddressPostalCode": "4380",
-          "AddressStateOrProvince": "QLD",
-          "AddressSuburb": "Stanthorpe",
-          "AddressSuburbStatePostcode": "Stanthorpe QLD 4380",
-          "AnnualReports": [
-            {
-              "AISId": "454c8438-ef66-ed11-9561-00224893bc23",
-              "DateReceived": "2022-11-18T03:15:28.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2023-01-31T00:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2022",
-              "type": "Annual Information Statement 2022",
-              "uuid": "0ab5e8ec-d463-eb11-b0b0-000d3a6b0983"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2022-11-18T03:15:19.0000000Z",
-              "DocumentUuid": "e0479532-ef66-ed11-9561-00224810056d",
-              "DueDate": "2023-01-31T00:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2022",
-              "type": "Financial Report 2022",
-              "uuid": "16b5e8ec-d463-eb11-b0b0-000d3a6b0983"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required - small",
-              "Year": "2019",
-              "type": "Financial Report 2019",
-              "uuid": "bb8a53fd-f125-e911-a976-000d3ad05e15"
-            },
-            {
-              "AISId": "9647ec2e-0e90-ea11-a811-000d3ad1f9f4",
-              "DateReceived": "2020-05-07T02:55:29.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2020-08-30T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2019",
-              "type": "Annual Information Statement 2019",
-              "uuid": "eb8a53fd-f125-e911-a976-000d3ad05e15"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required - small",
-              "Year": "2020",
-              "type": "Financial Report 2020",
-              "uuid": "1e8b53fd-f125-e911-a976-000d3ad05e15"
-            },
-            {
-              "AISId": "cd2018ad-4859-eb11-bb24-000d3a6b0983",
-              "DateReceived": "2021-01-18T04:50:33.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2021-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2020",
-              "type": "Annual Information Statement 2020",
-              "uuid": "4a8b53fd-f125-e911-a976-000d3ad05e15"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2026-12-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Not yet submitted",
-              "Year": "2026",
-              "type": "Annual Information Statement 2026",
-              "uuid": "d81f8d07-d7df-ef11-a732-000d3ad0bafe"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2026-12-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Pending",
-              "Year": "2026",
-              "type": "Financial Report 2026",
-              "uuid": "67208d07-d7df-ef11-a732-000d3ad0bafe"
-            },
-            {
-              "AISId": "761ee96f-4582-ec11-8d20-0022489297f3",
-              "DateReceived": "2022-01-31T03:25:37.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2022-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2021",
-              "type": "Annual Information Statement 2021",
-              "uuid": "82f24cd3-97eb-ea11-a815-000d3ad1f497"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2022-01-31T03:25:29.0000000Z",
-              "DocumentUuid": "bd2daa69-4582-ec11-8d20-0022489292d4",
-              "DueDate": "2022-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2021",
-              "type": "Financial Report 2021",
-              "uuid": "8df24cd3-97eb-ea11-a815-000d3ad1f497"
-            },
-            {
-              "AISId": "cfb4866a-46c8-e811-a964-000d3ad24077",
-              "DateReceived": "2014-03-27T13:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2014-03-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2013",
-              "type": "Annual Information Statement 2013",
-              "uuid": "22b5866a-46c8-e811-a964-000d3ad24077"
-            },
-            {
-              "AISId": "d6b4866a-46c8-e811-a964-000d3ad24077",
-              "DateReceived": "2014-12-15T13:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2015-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2014",
-              "type": "Annual Information Statement 2014",
-              "uuid": "2ab5866a-46c8-e811-a964-000d3ad24077"
-            },
-            {
-              "AISId": "dcb4866a-46c8-e811-a964-000d3ad24077",
-              "DateReceived": "2015-12-14T13:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2016-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2015",
-              "type": "Annual Information Statement 2015",
-              "uuid": "31b5866a-46c8-e811-a964-000d3ad24077"
-            },
-            {
-              "AISId": "e2b4866a-46c8-e811-a964-000d3ad24077",
-              "DateReceived": "2016-11-07T13:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2017-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2016",
-              "type": "Annual Information Statement 2016",
-              "uuid": "3ab5866a-46c8-e811-a964-000d3ad24077"
-            },
-            {
-              "AISId": "e7b4866a-46c8-e811-a964-000d3ad24077",
-              "DateReceived": "2017-11-14T13:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2018-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2017",
-              "type": "Annual Information Statement 2017",
-              "uuid": "43b5866a-46c8-e811-a964-000d3ad24077"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required",
-              "Year": "2013",
-              "type": "Financial Report 2013",
-              "uuid": "14baeca6-3fc8-e811-a964-000d3ad244fd"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required",
-              "Year": "2016",
-              "type": "Financial Report 2016",
-              "uuid": "23baeca6-3fc8-e811-a964-000d3ad244fd"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required",
-              "Year": "2017",
-              "type": "Financial Report 2017",
-              "uuid": "32baeca6-3fc8-e811-a964-000d3ad244fd"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required",
-              "Year": "2014",
-              "type": "Financial Report 2014",
-              "uuid": "41baeca6-3fc8-e811-a964-000d3ad244fd"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required",
-              "Year": "2015",
-              "type": "Financial Report 2015",
-              "uuid": "51baeca6-3fc8-e811-a964-000d3ad244fd"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2019-03-18T05:35:56.0000000Z",
-              "DocumentUuid": "a6f13601-0f90-ea11-a811-000d3acae853",
-              "DueDate": "2019-03-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2018",
-              "type": "Financial Report 2018",
-              "uuid": "5fbaeca6-3fc8-e811-a964-000d3ad244fd"
-            },
-            {
-              "AISId": "c5ffcb06-0f90-ea11-a811-000d3ad1ce4e",
-              "DateReceived": "2019-03-18T09:00:37.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2019-03-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2018",
-              "type": "Annual Information Statement 2018",
-              "uuid": "70c9d912-3bc8-e811-a963-000d3ad24a0d"
-            },
-            {
-              "AISId": "238daa4e-757f-ee11-8179-00224893d32a",
-              "DateReceived": "2023-11-10T03:00:37.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2024-01-31T00:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2023",
-              "type": "Annual Information Statement 2023",
-              "uuid": "f4fdb757-a582-ec11-8d20-00224892973b"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2023-11-10T03:00:31.0000000Z",
-              "DocumentUuid": "19df2044-757f-ee11-8179-00224893bd39",
-              "DueDate": "2024-01-31T00:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2023",
-              "type": "Financial Report 2023",
-              "uuid": "05feb757-a582-ec11-8d20-00224892973b"
-            },
-            {
-              "AISId": "0fe97a75-42c4-f011-bbd3-7ced8da2a128",
-              "DateReceived": "2025-11-18T05:50:27.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2026-01-31T00:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2025",
-              "type": "Annual Information Statement 2025",
-              "uuid": "49234639-9bc0-ee11-907a-00224893bfad"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2025-11-18T05:50:17.0000000Z",
-              "DocumentUuid": "8bac5171-42c4-f011-bbd3-6045bde67d52",
-              "DueDate": "2026-01-31T00:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2025",
-              "type": "Financial Report 2025",
-              "uuid": "70234639-9bc0-ee11-907a-00224893bfad"
-            },
-            {
-              "AISId": "5b85857a-48a5-ef11-b8e8-00224896b2a4",
-              "DateReceived": "2024-11-18T01:01:27.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2025-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2024",
-              "type": "Annual Information Statement 2024",
-              "uuid": "a2d837cf-c9a1-ed11-aad1-00224893bffb"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2024-11-18T01:00:33.0000000Z",
-              "DocumentUuid": "c8eb7775-48a5-ef11-b8e8-6045bde538fa",
-              "DueDate": "2025-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2024",
-              "type": "Financial Report 2024",
-              "uuid": "edd837cf-c9a1-ed11-aad1-00224893bffb"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2027-12-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Not yet submitted",
-              "Year": "2027",
-              "type": "Annual Information Statement 2027",
-              "uuid": "56ee545b-06ff-f011-8407-6045bdc4655a"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2027-12-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Pending",
-              "Year": "2027",
-              "type": "Financial Report 2027",
-              "uuid": "74ee545b-06ff-f011-8407-6045bdc4655a"
-            }
-          ],
-          "Beneficiaries": [
-            {
-              "Description": null,
-              "Name": "People with disabilities",
-              "uuid": "a53f787b-42c4-f011-bbd3-7ced8da2a128"
-            },
-            {
-              "Description": null,
-              "Name": "People with chronic illness (including terminal illness)",
-              "uuid": "ab3f787b-42c4-f011-bbd3-7ced8da2a128"
-            },
-            {
-              "Description": null,
-              "Name": "People in rural/regional/remote communities",
-              "uuid": "af3f787b-42c4-f011-bbd3-7ced8da2a128"
-            },
-            {
-              "Description": null,
-              "Name": "People from a culturally and linguistically diverse background",
-              "uuid": "b23f787b-42c4-f011-bbd3-7ced8da2a128"
-            },
-            {
-              "Description": null,
-              "Name": "Males",
-              "uuid": "b63f787b-42c4-f011-bbd3-7ced8da2a128"
-            },
-            {
-              "Description": null,
-              "Name": "Females",
-              "uuid": "bc3f787b-42c4-f011-bbd3-7ced8da2a128"
-            },
-            {
-              "Description": null,
-              "Name": "Adults - aged 65 and over",
-              "uuid": "bf3f787b-42c4-f011-bbd3-7ced8da2a128"
-            }
-          ],
-          "CharitySize": "Medium",
-          "CharitySubtypeHistory": [
-            {
-              "EndDate": "2013-12-30T13:00:00.0000000Z",
-              "Purpose": "2012 Another purpose beneficial to the community",
-              "StartDate": "2012-12-02T13:00:00.0000000Z",
-              "uuid": "8ed5a6d9-fdc6-e811-a962-000d3ad24182"
-            },
-            {
-              "EndDate": "2013-12-30T13:00:00.0000000Z",
-              "Purpose": "2012 Public benevolent institution",
-              "StartDate": "2012-12-02T13:00:00.0000000Z",
-              "uuid": "a6d5a6d9-fdc6-e811-a962-000d3ad24182"
-            },
-            {
-              "EndDate": null,
-              "Purpose": "Public Benevolent Institution (PBI)",
-              "StartDate": "2013-12-31T13:00:00.0000000Z",
-              "uuid": "ccd5a6d9-fdc6-e811-a962-000d3ad24182"
-            },
-            {
-              "EndDate": null,
-              "Purpose": "Advancing culture",
-              "StartDate": "2013-12-31T13:00:00.0000000Z",
-              "uuid": "e2d5a6d9-fdc6-e811-a962-000d3ad24182"
-            }
-          ],
-          "CharityVersion": "89",
-          "ChildMemberEndDate": null,
-          "ChildMemberStartDate": null,
-          "ChooseToProvideAis": null,
-          "Countries": [
-            {
-              "Name": "Australia",
-              "uuid": "f57b5602-9a4d-e811-a951-000d3ad06f2d"
-            }
-          ],
-          "DateEstablished": "1993-12-31T13:00:00.0000000Z",
-          "Documents": [
-            {
-              "Date": "2013-09-19T00:00:00.0000000",
-              "Title": "30913308861 _Gov.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/7f6e2565-39af-e811-a95e-000d3ad24c60-b43282ac-0f87-4cff-a8e0-f3344965c849-Governing%20Document-07a0d887-49b0-e811-a963-000d3ad24077-30913308861__Gov.pdf",
-              "Year": null,
-              "type": "Governing Document",
-              "uuid": "07a0d887-49b0-e811-a963-000d3ad24077"
-            },
-            {
-              "Date": "2020-05-07T00:00:00.0000000",
-              "Title": "2018 Signed Financial Statements - IAWA - 2017-18.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/7f6e2565-39af-e811-a95e-000d3ad24c60-b43282ac-0f87-4cff-a8e0-f3344965c849-Financial%20Report-a6f13601-0f90-ea11-a811-000d3acae853-2018_Signed_Financial_Statements_-_IAWA_-_2017-18.pdf",
-              "Year": "2018",
-              "type": "Financial Report",
-              "uuid": "a6f13601-0f90-ea11-a811-000d3acae853"
-            },
-            {
-              "Date": "2022-11-18T00:00:00.0000000",
-              "Title": "IAWA - Audited Financials 2022.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/7f6e2565-39af-e811-a95e-000d3ad24c60-b43282ac-0f87-4cff-a8e0-f3344965c849-Financial%20Report-e0479532-ef66-ed11-9561-00224810056d-IAWA_-_Audited_Financials_2022.pdf",
-              "Year": "2022",
-              "type": "Financial Report",
-              "uuid": "e0479532-ef66-ed11-9561-00224810056d"
-            },
-            {
-              "Date": "2022-01-31T00:00:00.0000000",
-              "Title": "Signed Audit Report and Financials - IAWA.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/7f6e2565-39af-e811-a95e-000d3ad24c60-b43282ac-0f87-4cff-a8e0-f3344965c849-Financial%20Report-bd2daa69-4582-ec11-8d20-0022489292d4-Signed_Audit_Report_and_Financials_-_IAWA.pdf",
-              "Year": "2021",
-              "type": "Financial Report",
-              "uuid": "bd2daa69-4582-ec11-8d20-0022489292d4"
-            },
-            {
-              "Date": "2023-11-10T00:00:00.0000000",
-              "Title": "Signed Report Package.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/7f6e2565-39af-e811-a95e-000d3ad24c60-b43282ac-0f87-4cff-a8e0-f3344965c849-Financial%20Report-19df2044-757f-ee11-8179-00224893bd39-Signed_Report_Package.pdf",
-              "Year": "2023",
-              "type": "Financial Report",
-              "uuid": "19df2044-757f-ee11-8179-00224893bd39"
-            },
-            {
-              "Date": "2024-11-18T00:00:00.0000000",
-              "Title": "Signed Report Package.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/7f6e2565-39af-e811-a95e-000d3ad24c60-b43282ac-0f87-4cff-a8e0-f3344965c849-Financial%20Report-c8eb7775-48a5-ef11-b8e8-6045bde538fa-Signed_Report_Package.pdf",
-              "Year": "2024",
-              "type": "Financial Report",
-              "uuid": "c8eb7775-48a5-ef11-b8e8-6045bde538fa"
-            },
-            {
-              "Date": "2025-11-18T00:00:00.0000000",
-              "Title": "20250630-Signed Financial Report Package.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/7f6e2565-39af-e811-a95e-000d3ad24c60-b43282ac-0f87-4cff-a8e0-f3344965c849-Financial%20Report-8bac5171-42c4-f011-bbd3-6045bde67d52-20250630-Signed_Financial_Report_Package.pdf",
-              "Year": "2025",
-              "type": "Financial Report",
-              "uuid": "8bac5171-42c4-f011-bbd3-6045bde67d52"
-            }
-          ],
-          "Email": "admin@iawa.org.au",
-          "EnforcementOutcomes": [],
-          "FinancialYearEnd": "30/06",
-          "GovernmentAgencies": [
-            {
-              "Name": "QLD - Incorporated Association",
-              "ReferenceNumber": "IA13883",
-              "uuid": "55e97a75-42c4-f011-bbd3-7ced8da2a128"
-            }
-          ],
-          "GroupHeadFlag": false,
-          "LastReported": "2025-11-18T05:50:27.0000000Z",
-          "Name": "Italian Australian Welfare Assn (Granite Belt) Inc",
-          "NextReportDue": "2026-12-31T12:30:00.0000000Z",
-          "OperatingInStates": [
-            {
-              "Name": "Queensland",
-              "uuid": "2cf593a5-455e-e811-a95c-000d3ad1c715"
-            }
-          ],
-          "OtherDetails": null,
-          "OtherNames": [],
-          "ParentAccountAbn": null,
-          "ParentAccountId": null,
-          "Phone": null,
-          "Programs": [
-            {
-              "AisUuid": "0fe97a75-42c4-f011-bbd3-7ced8da2a128",
-              "Name": "COMMONWEALTH HOME SUPPORT PROGRAM (CHSP)",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Adults - aged 65 and over",
-                "People in rural/regional/remote communities",
-                "People from a culturally and linguistically diverse background",
-                "Males",
-                "Females",
-                "People with disabilities",
-                "People with chronic illness (including terminal illness)"
-              ],
-              "ProgramClassie": [
-                {
-                  "classie_id": "506",
-                  "label": "In-home aid and personal assistance",
-                  "parent_id": "496",
-                  "selected": true
-                },
-                {
-                  "classie_id": "496",
-                  "label": "Family services",
-                  "parent_id": "485",
-                  "selected": false
-                },
-                {
-                  "classie_id": "485",
-                  "label": "Human services",
-                  "parent_id": null,
-                  "selected": false
-                }
-              ],
-              "ProgramClassification": "In-home aid and personal assistance",
-              "ProgramClassificationID": "506",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "Stanthorpe QLD, Australia",
-                  "FormattedAddress": "Stanthorpe QLD 4380, Australia",
-                  "Marker": {
-                    "Latitude": -28.6599726,
-                    "Longitude": 151.9375602
-                  },
-                  "Name": "Stanthorpe",
-                  "uuid": "843f787b-42c4-f011-bbd3-7ced8da2a128"
-                }
-              ],
-              "ProgramWeblink": null,
-              "uuid": "5ee97a75-42c4-f011-bbd3-7ced8da2a128"
-            },
-            {
-              "AisUuid": "0fe97a75-42c4-f011-bbd3-7ced8da2a128",
-              "Name": "HOME CARE PACKAGES",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Adults - aged 65 and over",
-                "People from a culturally and linguistically diverse background",
-                "People in rural/regional/remote communities",
-                "People with chronic illness (including terminal illness)",
-                "People with disabilities",
-                "Females",
-                "Males"
-              ],
-              "ProgramClassie": [
-                {
-                  "classie_id": "530",
-                  "label": "Attendant care",
-                  "parent_id": "529",
-                  "selected": true
-                },
-                {
-                  "classie_id": "529",
-                  "label": "Housing services",
-                  "parent_id": "527",
-                  "selected": false
-                },
-                {
-                  "classie_id": "527",
-                  "label": "Shelter and residential care",
-                  "parent_id": "485",
-                  "selected": false
-                },
-                {
-                  "classie_id": "485",
-                  "label": "Human services",
-                  "parent_id": null,
-                  "selected": false
-                }
-              ],
-              "ProgramClassification": "Attendant care",
-              "ProgramClassificationID": "530",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "Stanthorpe QLD, Australia",
-                  "FormattedAddress": "Stanthorpe QLD 4380, Australia",
-                  "Marker": {
-                    "Latitude": -28.6599726,
-                    "Longitude": 151.9375602
-                  },
-                  "Name": "Stanthorpe",
-                  "uuid": "953f787b-42c4-f011-bbd3-7ced8da2a128"
-                }
-              ],
-              "ProgramWeblink": null,
-              "uuid": "873f787b-42c4-f011-bbd3-7ced8da2a128"
-            }
-          ],
-          "ReferendumReturnsUrl": null,
-          "RegistrationStatusHistory": [
-            {
-              "EffectiveDate": "2012-12-02T13:00:00.0000000Z",
-              "Status": "Registered",
-              "TransactionDate": "2012-12-02T13:00:00.0000000Z",
-              "uuid": "cb961ec4-06c6-e811-a962-000d3ad24182"
-            }
-          ],
-          "RelatedPartyTransactions": null,
-          "RelevantTransactions": null,
-          "ReportingLate": "2027-06-30T12:30:00.0000000Z",
-          "ResponsiblePersons": [
-            {
-              "Name": "Leonilde Catanzaro",
-              "Role": "Committee Member",
-              "uuid": "3d9358d6-18bc-e811-a964-000d3ad24077"
-            },
-            {
-              "Name": "VINCE CATANZARO",
-              "Role": "President",
-              "uuid": "f09d2edb-f3bb-e811-a95f-000d3ad24c60"
-            },
-            {
-              "Name": "Franco Arcidiacono",
-              "Role": "Committee Member",
-              "uuid": "fe9dfd55-0cbc-e811-a962-000d3ad24182"
-            },
-            {
-              "Name": "David Downs",
-              "Role": "Committee Member",
-              "uuid": "979efd55-0cbc-e811-a962-000d3ad24182"
-            },
-            {
-              "Name": "Michael Catanzaro",
-              "Role": "Committee Member",
-              "uuid": "0d9258d6-18bc-e811-a964-000d3ad24077"
-            },
-            {
-              "Name": "David Harrington",
-              "Role": "Treasurer",
-              "uuid": "278daa4e-757f-ee11-8179-00224893d32a"
-            },
-            {
-              "Name": "Gerard Torrisi",
-              "Role": "Committee Member",
-              "uuid": "3e8daa4e-757f-ee11-8179-00224893d32a"
-            },
-            {
-              "Name": "Ashley Catanzaro",
-              "Role": "Committee Member",
-              "uuid": "568daa4e-757f-ee11-8179-00224893d32a"
-            },
-            {
-              "Name": "Robert Ebenestelli",
-              "Role": "Secretary",
-              "uuid": "679258d6-18bc-e811-a964-000d3ad24077"
-            },
-            {
-              "Name": "Mario Marino",
-              "Role": "Vice-president",
-              "uuid": "d89dfd55-0cbc-e811-a962-000d3ad24182"
-            },
-            {
-              "Name": "Kurt Empen",
-              "Role": "Committee Member",
-              "uuid": "27e97a75-42c4-f011-bbd3-7ced8da2a128"
-            }
-          ],
-          "Status": "Registered",
-          "SummaryOfActivities": "We provide services to enhance the health and wellbeing of the elderly, frail and  disadvantaged members of the Granite Belt community while embracing individuals of  all cultural backgrounds and celebrating the significant Italian heritage of our region.",
-          "TotalExpensesEmployee": "1083536",
-          "TotalExpensesGrantsAndDonationsInAustralia": "0",
-          "TotalExpensesGrantsAndDonationsOutsideAustralia": "0",
-          "TotalExpensesInterest": "0",
-          "TotalExpensesOther": "474682",
-          "TotalGrossIncomeDonationsAndRequests": "530",
-          "TotalGrossIncomeGoodsOrServices": "164445",
-          "TotalGrossIncomeGovernmentGrants": "1543382",
-          "TotalGrossIncomeInvestments": "0",
-          "TotalGrossIncomeOtherRevenues": "0",
-          "TransparencyRegisterUrl": null,
-          "Website": "https://www.iawa.org.au",
-          "__normalized": true,
-          "type": "charity",
-          "uuid": "7f6e2565-39af-e811-a95e-000d3ad24c60"
-        },
-        "type": "charity",
-        "uuid": "7f6e2565-39af-e811-a95e-000d3ad24c60"
-      },
-      "canonical_field_mappings": {
-        "data.OtherNames": "operating_names",
-        "data.AddressStateOrProvince": "principal_location"
-      },
-      "evidence_ids": []
-    },
-    {
-      "source_record_id": "src:acnc-ais-detail:30913308861:0fe97a75-42c4-f011-bbd3-7ced8da2a128:cb_5d5f8d975a03485ba5dc07dab3855629",
-      "source_family": "acnc-ais-detail",
-      "dataset_version": "2026-08-14-public-api",
-      "source_url": "https://www.acnc.gov.au/charity/charities/7f6e2565-39af-e811-a95e-000d3ad24c60/documents/0fe97a75-42c4-f011-bbd3-7ced8da2a128",
-      "retrieved_at": "2026-08-13T13:54:42.956606Z",
-      "observed_at": "2025-11-18",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "abn": "30913308861",
-        "ais_uuid": "0fe97a75-42c4-f011-bbd3-7ced8da2a128",
-        "year": "2025",
-        "date_received": "2025-11-18T05:50:27.0000000Z"
-      },
-      "source_payload": {
-        "data": {
-          "Abn": "30913308861",
-          "ActivityAdvocacyNCivic": false,
-          "ActivityAgedCare": false,
-          "ActivityAnimalProtection": false,
-          "ActivityCultureAndArt": false,
-          "ActivityEconomicSocialCommunity": false,
-          "ActivityEmergencyNRelief": false,
-          "ActivityEmploymentNTraining": false,
-          "ActivityEnvironmental": false,
-          "ActivityGrantMaking": false,
-          "ActivityHealthRehabilitation": false,
-          "ActivityHigherEducation": false,
-          "ActivityHousing": false,
-          "ActivityIncomeSupportNMaintenance": false,
-          "ActivityInternational": false,
-          "ActivityInternationalDescription": null,
-          "ActivityInternationalOther": false,
-          "ActivityInternationalOtherDescription": null,
-          "ActivityLawNLegalServices": false,
-          "ActivityMain": null,
-          "ActivityMentalHealthCrisisIntervention": false,
-          "ActivityNdisSupported": null,
-          "ActivityNdisSupportedNext": null,
-          "ActivityOperating": true,
-          "ActivityOperatingOverseas": false,
-          "ActivityOther": false,
-          "ActivityOtherDescription": null,
-          "ActivityOtherEducation": false,
-          "ActivityOtherHealthServices": false,
-          "ActivityPersuitPurposesDescription": "We provide services to enhance the health and wellbeing of the elderly, frail and  disadvantaged members of the Granite Belt community while embracing individuals of  all cultural backgrounds and celebrating the significant Italian heritage of our region.",
-          "ActivityPhilanthropicPromotion": false,
-          "ActivityPolitical": false,
-          "ActivityPrimarySecondaryEducation": false,
-          "ActivityPurposeChange": null,
-          "ActivityPurposeChangeDescription": null,
-          "ActivityRecreationSocialClub": false,
-          "ActivityReligious": false,
-          "ActivityResearch": false,
-          "ActivitySocialServices": false,
-          "ActivitySports": false,
-          "ActivityTransferringFundsGoods": false,
-          "AdvancementOfEducation": false,
-          "AdvancementOfReligion": false,
-          "AssetsandLiabilitiesDescription": null,
-          "BasicReligiousCharity": false,
-          "BeneficiaryAboriginalTorres": false,
-          "BeneficiaryAdults": false,
-          "BeneficiaryAllAges": false,
-          "BeneficiaryChildren": false,
-          "BeneficiaryChronicIllness": false,
-          "BeneficiaryCrimeVictims": false,
-          "BeneficiaryDisasterVictims": false,
-          "BeneficiaryEarlyChildhood": false,
-          "BeneficiaryEthnic": false,
-          "BeneficiaryFamilies": false,
-          "BeneficiaryFinanciallyDisadvantaged": false,
-          "BeneficiaryGeneral": false,
-          "BeneficiaryHomelessnessRisk": false,
-          "BeneficiaryLGBT": false,
-          "BeneficiaryMain": null,
-          "BeneficiaryMen": false,
-          "BeneficiaryMigrantsRefugees": false,
-          "BeneficiaryOffenderFamilies": false,
-          "BeneficiaryOther": false,
-          "BeneficiaryOtherCharities": false,
-          "BeneficiaryOtherDescription": null,
-          "BeneficiaryOverseas": false,
-          "BeneficiaryPeopleWithDisability": false,
-          "BeneficiaryRuralRegionalRemote": false,
-          "BeneficiarySeniors": false,
-          "BeneficiaryUnemployed": false,
-          "BeneficiaryVeteranFamilies": false,
-          "BeneficiaryWomen": false,
-          "BeneficiaryYouth": false,
-          "CharityAddressCountry": "Australia",
-          "CharityAddressLine1": "157 High Street",
-          "CharityAddressLine2": null,
-          "CharityAddressPostalCode": "4380",
-          "CharityAddressStateOrProvince": "QLD",
-          "CharityAddressSuburb": "Stanthorpe",
-          "CharityEmail": "admin@iawa.org.au",
-          "CharitySize": "Medium",
-          "CharityUuid": "7f6e2565-39af-e811-a95e-000d3ad24c60",
-          "ChildCareServices": false,
-          "ExpenseEmployees": "1083536.0000",
-          "ExpenseGrantDonationsInAustralia": "0.0000",
-          "ExpenseGrantDonationsOutsideAustralia": "0.0000",
-          "ExpenseTotal": "1558218.0000",
-          "ExpensesOther": "474682.0000",
-          "FinAccrualAccounting": null,
-          "FinConsolidatedReportFromMiltiple": "No",
-          "FinDocumentedPoliciesRelatedPartyTransactions": null,
-          "FinFyeJune": false,
-          "FinProvideVoluntarily": null,
-          "FinRelatedPartyTransactions": "No",
-          "FinReportACT": false,
-          "FinReportFrom": "2024-07-01T00:00:00.0000000Z",
-          "FinReportNSW": false,
-          "FinReportNT": false,
-          "FinReportQLD": false,
-          "FinReportSA": false,
-          "FinReportTAS": false,
-          "FinReportTo": "2025-06-30T00:00:00.0000000Z",
-          "FinReportVIC": false,
-          "FinReportWA": false,
-          "FinReportingType": "General purpose financial statements",
-          "FinSapDate": null,
-          "FundRaisingNumberACT": null,
-          "FundRaisingNumberNSW": null,
-          "FundRaisingNumberQLD": null,
-          "FundRaisingNumberSA": null,
-          "FundRaisingNumberTAS": null,
-          "FundRaisingNumberVIC": null,
-          "FundRaisingNumberWA": null,
-          "GovDocAccurate": null,
-          "GrantCapacityBuildingPct": null,
-          "GrantMultiYearPct": null,
-          "GrantPublicOpenApplicationPct": null,
-          "GrantRuralRegionPct": null,
-          "HasSubmittedToRegulator": false,
-          "HoursPaid": null,
-          "HoursTotal": null,
-          "HoursVolunteer": null,
-          "HrCasualEmployees": "23",
-          "HrFteStaff": "11.1200000000",
-          "HrFullTimeEmployees": "0",
-          "HrPartTimeEmployees": "4",
-          "HrUnpainVolunteers": "11",
-          "IncomeDonationsBequests": "530.0000",
-          "IncomeGovernmentGrants": "1543382.0000",
-          "IncomeOther": "6191.0000",
-          "IncomeOtherComprehinsive": "0.0000",
-          "IncomeOtherNeg": null,
-          "IncomeOtherReceipts": "0.0000",
-          "IncomeTotalComprehensive": "156330.0000",
-          "IncomeTotalReceipts": "1714548.0000",
-          "IncorporationStatus": null,
-          "InterestExpense": "0.0000",
-          "IsIncorporatedAssociation": true,
-          "KeyManagementPersonnel": false,
-          "LegalName": "Italian Australian Welfare Assn (Granite Belt) Inc",
-          "NetAssetsLiabilities": "534816.0000",
-          "NetSurplusDeficit": "156330.0000",
-          "NonCurrentLoansPayable": "0.0000",
-          "NumberOfKeyManagementPersonnel": "0",
-          "OperatingCountries": null,
-          "OperatingInACT": false,
-          "OperatingInNSW": false,
-          "OperatingInNT": false,
-          "OperatingInQLD": false,
-          "OperatingInSA": false,
-          "OperatingInTAS": false,
-          "OperatingInVIC": false,
-          "OperatingInWA": false,
-          "OperatingOverseas": false,
-          "OtherNames": [],
-          "OtherNonCurrentAssets": "0.0000",
-          "OtherNonCurrentLiabilities": "0.0000",
-          "OtherPurposeDescription": null,
-          "OtherPurposes": "False",
-          "Programs": [
-            {
-              "AisUuid": "0fe97a75-42c4-f011-bbd3-7ced8da2a128",
-              "Name": "COMMONWEALTH HOME SUPPORT PROGRAM (CHSP)",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Adults - aged 65 and over",
-                "People in rural/regional/remote communities",
-                "People from a culturally and linguistically diverse background",
-                "Males",
-                "Females",
-                "People with disabilities",
-                "People with chronic illness (including terminal illness)"
-              ],
-              "ProgramClassification": "In-home aid and personal assistance",
-              "ProgramClassificationID": "506",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "Stanthorpe QLD, Australia",
-                  "FormattedAddress": "Stanthorpe QLD 4380, Australia",
-                  "Marker": {
-                    "Latitude": -28.6599726,
-                    "Longitude": 151.9375602
-                  },
-                  "Name": "Stanthorpe",
-                  "uuid": "843f787b-42c4-f011-bbd3-7ced8da2a128"
-                }
-              ],
-              "ProgramWeblink": null,
-              "uuid": "5ee97a75-42c4-f011-bbd3-7ced8da2a128"
-            },
-            {
-              "AisUuid": "0fe97a75-42c4-f011-bbd3-7ced8da2a128",
-              "Name": "HOME CARE PACKAGES",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Adults - aged 65 and over",
-                "People from a culturally and linguistically diverse background",
-                "People in rural/regional/remote communities",
-                "People with chronic illness (including terminal illness)",
-                "People with disabilities",
-                "Females",
-                "Males"
-              ],
-              "ProgramClassification": "Attendant care",
-              "ProgramClassificationID": "530",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "Stanthorpe QLD, Australia",
-                  "FormattedAddress": "Stanthorpe QLD 4380, Australia",
-                  "Marker": {
-                    "Latitude": -28.6599726,
-                    "Longitude": 151.9375602
-                  },
-                  "Name": "Stanthorpe",
-                  "uuid": "953f787b-42c4-f011-bbd3-7ced8da2a128"
-                }
-              ],
-              "ProgramWeblink": null,
-              "uuid": "873f787b-42c4-f011-bbd3-7ced8da2a128"
-            }
-          ],
-          "RegulatedACT": false,
-          "RegulatedNSW": false,
-          "RegulatedNT": false,
-          "RegulatedQLD": false,
-          "RegulatedSA": false,
-          "RegulatedTAS": false,
-          "RegulatedVIC": false,
-          "RegulatedWA": false,
-          "Regulator": null,
-          "RegulatorAGMDateACT": null,
-          "RegulatorAGMDateNT": null,
-          "RegulatorAGMDateVIC": null,
-          "RegulatorAGMDateWA": null,
-          "RegulatorFundRaising": "No",
-          "RegulatorFundRaisingACT": false,
-          "RegulatorFundRaisingNSW": false,
-          "RegulatorFundRaisingNT": false,
-          "RegulatorFundRaisingOnline": false,
-          "RegulatorFundRaisingQLD": false,
-          "RegulatorFundRaisingSA": false,
-          "RegulatorFundRaisingTAS": false,
-          "RegulatorFundRaisingVIC": false,
-          "RegulatorFundRaisingWA": false,
-          "RegulatorIncorporatedAssociationACT": false,
-          "RegulatorIncorporatedAssociationNSW": false,
-          "RegulatorIncorporatedAssociationNT": false,
-          "RegulatorIncorporatedAssociationNumberACT": null,
-          "RegulatorIncorporatedAssociationNumberNSW": null,
-          "RegulatorIncorporatedAssociationNumberNT": null,
-          "RegulatorIncorporatedAssociationNumberQLD": "IA13883",
-          "RegulatorIncorporatedAssociationNumberSA": null,
-          "RegulatorIncorporatedAssociationNumberTAS": null,
-          "RegulatorIncorporatedAssociationNumberVIC": null,
-          "RegulatorIncorporatedAssociationNumberWA": null,
-          "RegulatorIncorporatedAssociationQLD": true,
-          "RegulatorIncorporatedAssociationSA": false,
-          "RegulatorIncorporatedAssociationTAS": false,
-          "RegulatorIncorporatedAssociationVIC": false,
-          "RegulatorIncorporatedAssociationWA": false,
-          "RegulatorMetRequirementACT": false,
-          "RegulatorMetRequirementWA": null,
-          "RegulatorOtherDetails": null,
-          "RegulatorPrograms": null,
-          "RegulatorStates": false,
-          "RelatedPartyDetails": null,
-          "RelatedPartyTransactions": [],
-          "ReliefOfPoverty": false,
-          "ReportingGroupFlag": false,
-          "ResponsiblePersonAccurate": null,
-          "RevenueGoodsServices": "164445.0000",
-          "RevenueInvestments": "0.0000",
-          "RevenueTotal": "1708357.0000",
-          "StatementYear": "2025",
-          "SubTypesAccurate": null,
-          "TotalAssets": "676467.0000",
-          "TotalCurrentAssets": "604697.0000",
-          "TotalCurrentLiabilities": "115256.0000",
-          "TotalLiabilities": "141651.0000",
-          "TotalNonCurrentAssets": "71770.0000",
-          "TotalNonCurrentLiabilities": "26395.0000",
-          "TotalNonCurrentLoansReceivable": "0.0000",
-          "TotalPaidKMP": "$0.00",
-          "Website": "https://www.iawa.org.au",
-          "__normalized": true,
-          "entityTypeVersion": "",
-          "entityVersion": "1792493281",
-          "timeStamp": "2025-11-18T05:50:25.0000000Z",
-          "type": "annual_information_statement",
-          "uuid": "0fe97a75-42c4-f011-bbd3-7ced8da2a128"
-        },
-        "type": "annual_information_statement",
-        "uuid": "0fe97a75-42c4-f011-bbd3-7ced8da2a128"
-      },
-      "canonical_field_mappings": {
-        "data.Programs": "programs",
-        "data.TotalRevenue": "financial_records[].revenue",
-        "data.TotalExpenses": "financial_records[].total_expenses"
-      },
-      "evidence_ids": [
-        "ev:acnc:ais:30913308861:0fe97a75-42c4-f011-bbd3-7ced8da2a128"
-      ]
-    }
-  ],
-  "financial_records": [
-    {
-      "financial_record_id": "fr:ais:cb_5d5f8d975a03485ba5dc07dab3855629:2023",
-      "period": {
-        "period_start": "2022-07-01",
-        "period_end": "2023-06-30",
-        "period_length_days": 365,
-        "label": "01/07/2022 to 30/06/2023",
-        "is_transitional_or_nonstandard": false
-      },
-      "reporting_scope": "subject",
-      "reporting_subject_causebase_id": "cb_5d5f8d975a03485ba5dc07dab3855629",
-      "covered_subjects": [
-        "cb_5d5f8d975a03485ba5dc07dab3855629"
-      ],
-      "consolidated": "false",
-      "attribution_method": "direct_subject_report",
-      "evidence_ids": [
-        "ev:ais:30913308861:2023"
-      ],
-      "revenue": {
-        "source_amount": "1148626",
-        "source_currency": "AUD",
-        "source_unit_scale": "1",
-        "normalised_amount": "1148626",
-        "normalised_currency": "AUD",
-        "source_unit_label": null,
-        "source_raw_value": "1148626",
-        "source_precision": null
-      },
-      "donations": null,
-      "government_grants": null,
-      "employee_costs": null,
-      "total_expenses": {
-        "source_amount": "1018436",
-        "source_currency": "AUD",
-        "source_unit_scale": "1",
-        "normalised_amount": "1018436",
-        "normalised_currency": "AUD",
-        "source_unit_label": null,
-        "source_raw_value": "1018436",
-        "source_precision": null
-      },
-      "assets": null,
-      "liabilities": null,
-      "net_assets": null,
-      "income_breakdown": [],
-      "expense_breakdown": [],
-      "balance_sheet_breakdown": [],
-      "source_ordered_line_items": [],
-      "statements": [],
-      "donations_gifts_bequests": null,
-      "functional_expense_allocations": []
-    }
-  ],
-  "financial_metrics": [
-    {
-      "metric": "revenue",
-      "observations": [
-        {
-          "financial_record_id": "fr:ais:cb_5d5f8d975a03485ba5dc07dab3855629:2023",
-          "amount": {
-            "source_amount": "1148626",
-            "source_currency": "AUD",
-            "source_unit_scale": "1",
-            "normalised_amount": "1148626",
-            "normalised_currency": "AUD",
-            "source_unit_label": null,
-            "source_raw_value": "1148626",
-            "source_precision": null
-          },
-          "metric_source_label": null,
-          "evidence_ids": [
-            "ev:ais:30913308861:2023"
-          ]
-        }
-      ],
-      "reconciliation_status": "single_observation",
-      "reconciliation_notes": null
-    },
-    {
-      "metric": "total_expenses",
-      "observations": [
-        {
-          "financial_record_id": "fr:ais:cb_5d5f8d975a03485ba5dc07dab3855629:2023",
-          "amount": {
-            "source_amount": "1018436",
-            "source_currency": "AUD",
-            "source_unit_scale": "1",
-            "normalised_amount": "1018436",
-            "normalised_currency": "AUD",
-            "source_unit_label": null,
-            "source_raw_value": "1018436",
-            "source_precision": null
-          },
-          "metric_source_label": null,
-          "evidence_ids": [
-            "ev:ais:30913308861:2023"
-          ]
-        }
-      ],
-      "reconciliation_status": "single_observation",
-      "reconciliation_notes": null
-    }
-  ],
-  "fundraising_expenditure": null,
-  "funding_sources": [],
-  "fundraising_methods": [],
-  "classifications": [
-    {
-      "taxonomy_id": "acnc-register",
-      "taxonomy_version": "2026-08-10",
-      "term_id": "purpose.culture",
-      "term_label": "culture",
-      "assignment_method": "source_native",
-      "confidence": "high",
-      "evidence_ids": [
-        "ev:acnc:30913308861"
-      ]
-    },
-    {
-      "taxonomy_id": "acnc-register",
-      "taxonomy_version": "2026-08-10",
-      "term_id": "beneficiary.older_people",
-      "term_label": "older people",
-      "assignment_method": "source_native",
-      "confidence": "high",
-      "evidence_ids": [
-        "ev:acnc:30913308861"
-      ]
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "activity.direct_service",
-      "term_label": "Direct service delivery",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "beneficiary.people_experiencing_disadvantage",
-      "term_label": "People experiencing disadvantage",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "beneficiary.general_community",
-      "term_label": "General community",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "approach.community_partnership",
-      "term_label": "Community partnership",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "geography.australia",
-      "term_label": "Australia",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "geography.local_or_regional",
-      "term_label": "Local or regional Australia",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "organisation.local",
-      "term_label": "Local organisation",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
+      "review_status": "not_required",
+      "conflicting_signals": []
     }
   ],
   "evidence": [
     {
       "evidence_id": "ev:acnc:30913308861",
-      "source_type": "regulatory",
-      "title": "ACNC Register extract",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": null,
-      "observed_at": "2026-08-10",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "title": "ACNC Register extract"
     },
     {
       "evidence_id": "ev:web:30913308861:2026-08-10",
-      "source_type": "organisation_self_report",
       "title": "Organisation website homepage",
-      "publisher": "Italian Australian Welfare Assn (Granite Belt) Inc",
-      "url": "https://www.iawa.org.au",
-      "observed_at": "2026-08-10",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://www.iawa.org.au"
     },
     {
       "evidence_id": "ev:ais:30913308861:2023",
-      "source_type": "regulatory",
-      "title": "ACNC AIS 2023 extract",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": null,
-      "observed_at": "2026-08-10",
-      "reporting_period": "01/07/2022 to 30/06/2023",
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "title": "ACNC AIS 2023 extract"
     },
     {
       "evidence_id": "ev:acnc:ais:30913308861:0fe97a75-42c4-f011-bbd3-7ced8da2a128",
-      "source_type": "regulatory",
       "title": "ACNC Annual Information Statement 2025",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": "https://www.acnc.gov.au/charity/charities/7f6e2565-39af-e811-a95e-000d3ad24c60/documents/0fe97a75-42c4-f011-bbd3-7ced8da2a128",
-      "observed_at": "2025-11-18",
-      "reporting_period": "2025",
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://www.acnc.gov.au/charity/charities/7f6e2565-39af-e811-a95e-000d3ad24c60/documents/0fe97a75-42c4-f011-bbd3-7ced8da2a128"
     },
     {
       "evidence_id": "ev:abr-dgr:30913308861:20260805",
-      "source_type": "regulatory",
       "title": "ABR DGR bulk observation",
-      "publisher": "Australian Business Register / Australian Taxation Office",
-      "url": "https://abr.business.gov.au/Tools/BulkExtract",
-      "observed_at": "2026-08-05",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://abr.business.gov.au/Tools/BulkExtract"
     }
   ],
-  "embedding": {
-    "embedding_id": "cb_5d5f8d975a03485ba5dc07dab3855629:entity:text-embedding-3-small",
-    "embedding_type": "entity",
-    "model_id": "text-embedding-3-small",
-    "model_version": "text-embedding-3-small",
-    "dimensions": 1536,
-    "source_text_hash": "3bdd38865589fa8c97893b10869950edd6ba0ba2b1bff23d5cd14d9dba72bfaf",
-    "generated_at": "2026-08-10T13:53:24.457635Z",
-    "vector_ref": "embeddings.parquet#cb_5d5f8d975a03485ba5dc07dab3855629"
+  "summary": {
+    "derivative_id": "der:rc4:cb_5d5f8d975a03485ba5dc07dab3855629:summary",
+    "text": "Italian Australian Welfare Association (Granite Belt) Inc, trading as IAWA Home Care, is a registered aged care provider serving Stanthorpe and the Granite Belt region in Queensland (information current to 2026). It accepts referrals for Support at Home Packages through My Aged Care and provides services under the Commonwealth Home Support Program. The organisation operates a Granite Belt Ethnic Health Liaison Service (noted as government-funded) and describes itself as a grassroots, community-based not-for-profit that historically focused on Italian-born people and people of Italian descent and on people from non-English-speaking backgrounds, while now providing services to residents of the Granite Belt irrespective of background. IAWA also publishes and sells a cookbook and maintains a whistleblower/protected-disclosure contact for home care concerns."
   },
-  "synthesis": {
-    "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
-    "parameters": {
-      "max_output_tokens": 3000,
-      "structured_output": true,
-      "output_contract": "causebase-summary-v0.3-rc2"
-    },
-    "evidence_input_hash": "8a2d944222573835cb91e90817890cbfc1394d88ae6c3900005c47e70f230e27",
-    "generated_at": "2026-08-12T14:10:22.898690Z",
-    "editorial_policy_version": "0.3-rc2"
-  },
-  "derivative_assessments": [
+  "activities": [],
+  "beneficiaries": [],
+  "descriptive_geography": [],
+  "navigation_geography": [],
+  "funding_sources": [],
+  "fundraising_methods": [],
+  "participation": [],
+  "opportunities": [],
+  "programs": [
     {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T14:10:22.898690Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-13T13:54:42.956606Z",
-      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
-      "input_hash": "8a2d944222573835cb91e90817890cbfc1394d88ae6c3900005c47e70f230e27",
-      "disposition": "reused",
-      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
-      "affected_dimensions": [
-        "summary"
-      ]
+      "observation_id": "obs:rc4:cb_5d5f8d975a03485ba5dc07dab3855629:program:prg:acnc:30913308861:5ee97a75-42c4-f011-bbd3-7ced8da2a128",
+      "program_id": "prg:acnc:30913308861:5ee97a75-42c4-f011-bbd3-7ced8da2a128",
+      "name": "COMMONWEALTH HOME SUPPORT PROGRAM (CHSP)",
+      "description": "In-home aid and personal assistance",
+      "url": "https://www.acnc.gov.au/charity/charities/7f6e2565-39af-e811-a95e-000d3ad24c60/documents/0fe97a75-42c4-f011-bbd3-7ced8da2a128",
+      "status": "current",
+      "claim_basis": "direct",
+      "extraction_method": "api",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:ais:30913308861:0fe97a75-42c4-f011-bbd3-7ced8da2a128"
+      ],
+      "time": {
+        "reporting_period": {
+          "label": "2025"
+        }
+      },
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_5d5f8d975a03485ba5dc07dab3855629:program:prg:acnc:30913308861:873f787b-42c4-f011-bbd3-7ced8da2a128",
+      "program_id": "prg:acnc:30913308861:873f787b-42c4-f011-bbd3-7ced8da2a128",
+      "name": "HOME CARE PACKAGES",
+      "description": "Attendant care",
+      "url": "https://www.acnc.gov.au/charity/charities/7f6e2565-39af-e811-a95e-000d3ad24c60/documents/0fe97a75-42c4-f011-bbd3-7ced8da2a128",
+      "status": "current",
+      "claim_basis": "direct",
+      "extraction_method": "api",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:ais:30913308861:0fe97a75-42c4-f011-bbd3-7ced8da2a128"
+      ],
+      "time": {
+        "reporting_period": {
+          "label": "2025"
+        }
+      },
+      "warnings": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-14-rc4-fundraising-projection-correction",
-  "card_schema_version": "0.4",
-  "editorial_policy_version": "0.4-rc4",
-  "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T13:54:42.956606Z"
+  "relationships": [],
+  "classifications": [
+    {
+      "observation_id": "obs:rc4:cb_5d5f8d975a03485ba5dc07dab3855629:classification:0",
+      "classification_id": "cls:rc4:cb_5d5f8d975a03485ba5dc07dab3855629:0",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "purpose.culture",
+      "term_label": "culture",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:30913308861"
+      ],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_5d5f8d975a03485ba5dc07dab3855629:classification:1",
+      "classification_id": "cls:rc4:cb_5d5f8d975a03485ba5dc07dab3855629:1",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "beneficiary.older_people",
+      "term_label": "older people",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:30913308861"
+      ],
+      "confidence": "high",
+      "warnings": []
+    }
+  ],
+  "coverage": {
+    "registry_id": "capability-registry-0.5-initial",
+    "current": [
+      {
+        "capability": "regulatory.acnc_profile",
+        "status": "observed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:acnc:30913308861"
+        ]
+      },
+      {
+        "capability": "regulatory.ais",
+        "status": "observed",
+        "assessed_at": "2025-11-18",
+        "source_record_ids": [
+          "src:acnc-ais-detail:30913308861:0fe97a75-42c4-f011-bbd3-7ced8da2a128:cb_5d5f8d975a03485ba5dc07dab3855629"
+        ],
+        "evidence_ids": [
+          "ev:acnc:ais:30913308861:0fe97a75-42c4-f011-bbd3-7ced8da2a128"
+        ]
+      },
+      {
+        "capability": "tax.dgr",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "web.website",
+        "status": "observed",
+        "assessed_at": "2026-08-13",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "report.annual_report",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "financial.report",
+        "status": "unknown",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:ais:30913308861:2023"
+        ]
+      },
+      {
+        "capability": "financial.statements",
+        "status": "unknown",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:ais:30913308861:2023"
+        ]
+      },
+      {
+        "capability": "understanding.activities",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.beneficiaries",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.geography",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "programs",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "participation",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "funding.sources",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.methods",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.expenditure",
+        "status": "not_available_from_source",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "taxonomy.causebase",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "semantic.embedding",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      }
+    ]
+  },
+  "financial_reports": [],
+  "canonical_metrics": [],
+  "analytic_projections": [],
+  "derivatives": [
+    {
+      "derivative_id": "der:rc4:cb_5d5f8d975a03485ba5dc07dab3855629:summary",
+      "kind": "summary",
+      "input_observation_ids": [],
+      "evidence_ids": [
+        "ev:web:30913308861:2026-08-10",
+        "ev:acnc:30913308861",
+        "ev:ais:30913308861:2023"
+      ],
+      "generated_under": {
+        "output_contract_version": "phase2b-rc4-accepted-rc2-summary-reuse",
+        "input_hash": "8a2d944222573835cb91e90817890cbfc1394d88ae6c3900005c47e70f230e27",
+        "generated_at": "2026-08-12T14:10:22.898690Z"
+      },
+      "current_assessment": {
+        "assessed_at": "2026-08-13T13:54:42.956606Z",
+        "assessed_against_contract": "0.5",
+        "governing_input_hash": "8a2d944222573835cb91e90817890cbfc1394d88ae6c3900005c47e70f230e27",
+        "disposition": "reused",
+        "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs."
+      }
+    }
+  ],
+  "legacy_unbound": {
+    "origin_release": "rc4-2026-08-14",
+    "origin_card_sha256": "2ca3c9b2cb0bd80bc131305d71ddfb61d826e1888781a0b9377d922490244b64",
+    "activities": [
+      {
+        "value": "Registered Aged Care Provider delivering in\u2011home support services in the Stanthorpe and Granite Belt region",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Accepting referrals for Support at Home Packages via My Aged Care",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Delivering services under the Commonwealth Home Support Program",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Operating a Granite Belt Ethnic Health Liaison Service (stated as government-funded)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Publishing and selling an IAWA Cookbook & authentic recipes",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "beneficiaries": [
+      {
+        "value": "Older people in Stanthorpe and the Granite Belt region who require home care supports",
+        "source_role": "legacy_source_qualifier",
+        "provenance_note": "as described by the organisation",
+        "evidence_ids": []
+      },
+      {
+        "value": "Italian\u2011born people and people of Italian descent",
+        "source_role": "legacy_source_qualifier",
+        "provenance_note": "organisation\u2011stated historical focus",
+        "evidence_ids": []
+      },
+      {
+        "value": "People from non\u2011English speaking backgrounds",
+        "source_role": "legacy_source_qualifier",
+        "provenance_note": "organisation\u2011stated focus",
+        "evidence_ids": []
+      },
+      {
+        "value": "Residents of the Granite Belt irrespective of cultural background",
+        "source_role": "legacy_source_qualifier",
+        "provenance_note": "organisation states services have expanded to all",
+        "evidence_ids": []
+      }
+    ],
+    "descriptive_geography": [
+      {
+        "value": "Stanthorpe and the Granite Belt region, Queensland",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Australia",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "classifications": [
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "activity.direct_service",
+        "term_label": "Direct service delivery",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "beneficiary.people_experiencing_disadvantage",
+        "term_label": "People experiencing disadvantage",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "beneficiary.general_community",
+        "term_label": "General community",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "approach.community_partnership",
+        "term_label": "Community partnership",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "geography.australia",
+        "term_label": "Australia",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "geography.local_or_regional",
+        "term_label": "Local or regional Australia",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "organisation.local",
+        "term_label": "Local organisation",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      }
+    ],
+    "financial_records": [
+      {
+        "financial_record_id": "fr:ais:cb_5d5f8d975a03485ba5dc07dab3855629:2023",
+        "period": {
+          "period_start": "2022-07-01",
+          "period_end": "2023-06-30",
+          "period_length_days": 365,
+          "label": "01/07/2022 to 30/06/2023",
+          "is_transitional_or_nonstandard": false
+        },
+        "reporting_scope": "subject",
+        "reporting_subject_causebase_id": "cb_5d5f8d975a03485ba5dc07dab3855629",
+        "covered_subjects": [
+          "cb_5d5f8d975a03485ba5dc07dab3855629"
+        ],
+        "consolidated": "false",
+        "attribution_method": "direct_subject_report",
+        "evidence_ids": [
+          "ev:ais:30913308861:2023"
+        ],
+        "revenue": {
+          "source_amount": "1148626",
+          "source_currency": "AUD",
+          "source_unit_scale": "1",
+          "normalised_amount": "1148626",
+          "normalised_currency": "AUD",
+          "source_unit_label": null,
+          "source_raw_value": "1148626",
+          "source_precision": null
+        },
+        "donations": null,
+        "government_grants": null,
+        "employee_costs": null,
+        "total_expenses": {
+          "source_amount": "1018436",
+          "source_currency": "AUD",
+          "source_unit_scale": "1",
+          "normalised_amount": "1018436",
+          "normalised_currency": "AUD",
+          "source_unit_label": null,
+          "source_raw_value": "1018436",
+          "source_precision": null
+        },
+        "assets": null,
+        "liabilities": null,
+        "net_assets": null,
+        "income_breakdown": [],
+        "expense_breakdown": [],
+        "balance_sheet_breakdown": [],
+        "source_ordered_line_items": [],
+        "statements": [],
+        "donations_gifts_bequests": null,
+        "functional_expense_allocations": []
+      }
+    ]
+  }
 }

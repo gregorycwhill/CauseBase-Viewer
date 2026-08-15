@@ -1,1581 +1,535 @@
 {
   "causebase_id": "cb_3bbf4f13d74a432ab0ca1eb74741adae",
+  "contract_version": "0.5",
   "subject_kind": "unknown",
-  "external_identifiers": [
-    {
-      "scheme": "abn",
-      "value": "51419209376",
-      "source_evidence_id": "ev:acnc:51419209376"
-    }
+  "identity": {
+    "legal_name": "The Trustee For The Newman College Foundation",
+    "display_name": "The Trustee For The Newman College Foundation",
+    "operating_names": [],
+    "former_names": [],
+    "entity_status": "registered",
+    "website": "https://newman.unimelb.edu.au",
+    "external_identifiers": [
+      {
+        "scheme": "abn",
+        "value": "51419209376",
+        "evidence_ids": [
+          "ev:acnc:51419209376"
+        ]
+      }
+    ],
+    "registrations": [
+      {
+        "regulator": "ACNC",
+        "status": "registered",
+        "evidence_ids": [
+          "ev:acnc:51419209376"
+        ]
+      }
+    ],
+    "tax_statuses": [
+      {
+        "scheme": "ABR DGR",
+        "status": "endorsed",
+        "evidence_ids": [
+          "ev:abr-dgr:51419209376:20260805"
+        ]
+      }
+    ]
+  },
+  "release": {
+    "release_id": "v0.5.0-2026-08-15",
+    "dataset_version": "0.5.0-2026-08-15",
+    "contract_version": "0.5",
+    "based_on_release": "rc4-2026-08-14",
+    "generated_at": "2026-08-15T00:00:00Z"
+  },
+  "source_record_refs": [
+    "src:acnc-public-profile:51419209376:c51e8ddf-38af-e811-a963-000d3ad24077:cb_3bbf4f13d74a432ab0ca1eb74741adae",
+    "src:acnc-ais-detail:51419209376:0ef0a241-816f-f111-ab0c-00224894cb3a:cb_3bbf4f13d74a432ab0ca1eb74741adae"
   ],
-  "registrations": [
-    {
-      "regulator": "ACNC",
-      "registration_id": null,
-      "status": "registered",
-      "evidence_ids": [
-        "ev:acnc:51419209376"
-      ]
-    }
-  ],
-  "tax_statuses": [
-    {
-      "scheme": "ABR DGR",
-      "status": "endorsed",
-      "detail": "Dated 2026-08-05 ABR bulk observation",
-      "evidence_ids": [
-        "ev:abr-dgr:51419209376:20260805"
-      ]
-    }
-  ],
-  "relationships": [],
-  "source_resolutions": [
+  "source_bindings": [
     {
       "source_record_id": "src:acnc-register:f17150da-e2bf-5af8-879c-b106dbe3f087",
       "resolution_status": "resolved",
       "resolution_basis": "automated authoritative ACNC promotion under acnc-authoritative-v1",
       "confidence": "high",
-      "supporting_signals": [
-        "ABN:51419209376",
-        "ACNC Register"
-      ],
-      "conflicting_signals": [],
-      "review_status": "not_required"
-    }
-  ],
-  "legal_name": "The Trustee For The Newman College Foundation",
-  "display_name": "The Trustee For The Newman College Foundation",
-  "entity_status": "registered",
-  "canonical_url": "https://gregorycwhill.github.io/CauseBase-Viewer/#cb_3bbf4f13d74a432ab0ca1eb74741adae",
-  "acnc_profile_url": "https://www.acnc.gov.au/charity/charities/c51e8ddf-38af-e811-a963-000d3ad24077/profile",
-  "acnc_ais_url": "https://www.acnc.gov.au/charity/charities/c51e8ddf-38af-e811-a963-000d3ad24077/documents/0ef0a241-816f-f111-ab0c-00224894cb3a",
-  "operating_names": [],
-  "former_names": [],
-  "principal_location": "VIC, Australia",
-  "coverage": [
-    {
-      "capability": "regulatory",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:acnc:51419209376"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "annual_report",
-      "status": "not_yet_processed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "fundraising_expenditure",
-      "status": "not_available_from_source",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": "No direct or defensible derived fundraising expenditure was found in selected Phase 2A evidence."
-    },
-    {
-      "capability": "financials",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:ais:51419209376:2023"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "latest_acnc_ais",
-      "status": "observed",
-      "source_record_id": "src:acnc-ais-detail:51419209376:0ef0a241-816f-f111-ab0c-00224894cb3a:cb_3bbf4f13d74a432ab0ca1eb74741adae",
-      "evidence_ids": [
-        "ev:acnc:ais:51419209376:0ef0a241-816f-f111-ab0c-00224894cb3a"
-      ],
-      "observed_at": "2026-06-24",
-      "freshness_note": "Latest submitted AIS detail acquired from the public ACNC entity endpoint."
-    },
-    {
-      "capability": "website",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-13",
-      "freshness_note": "Public website locator acquired from the ACNC profile."
-    }
-  ],
-  "enrichment_level": "enriched",
-  "website": "https://newman.unimelb.edu.au",
-  "geography": [
-    "887 Swanston Street, Parkville, Melbourne, Victoria (Australia)"
-  ],
-  "geography_observations": [
-    {
-      "value": "887 Swanston Street, Parkville, Melbourne, Victoria (Australia)",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "navigation_geography": [],
-  "causebase_summary": "Newman College is a co‑educational residential college affiliated with the University of Melbourne, located at 887 Swanston Street, Parkville, Victoria. It primarily accepts students enrolled at the University of Melbourne and holds limited places for students in select courses at ACU, Monash and RMIT. The College provides residential accommodation and runs an academic tutorial programme and mentoring (tutorials delivered weekly), administers scholarships and bursaries, and operates a student community service and outreach programme. It also supports sporting teams and inter‑collegiate competitions, music, drama and arts productions and concerts, guest speakers and Scholar’s Presentations, and student retreats (including Camino retreats). Published site metrics include counts for community membership, scholarships and weekly tutorials.",
-  "summary_evidence_ids": [
-    "ev:web:51419209376:2026-08-10",
-    "ev:acnc:51419209376",
-    "ev:ais:51419209376:2023"
-  ],
-  "organisation_self_description": null,
-  "activities": [
-    "residential accommodation for university students",
-    "tutorial programme and academic mentoring (tutorials delivered weekly)",
-    "scholarships and bursaries administration",
-    "student community service and outreach programme",
-    "sporting teams and inter‑collegiate competitions",
-    "music, drama, art productions and concerts",
-    "guest speakers and Scholar’s Presentations",
-    "student retreats (Camino retreat)"
-  ],
-  "activity_observations": [
-    {
-      "value": "residential accommodation for university students",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "tutorial programme and academic mentoring (tutorials delivered weekly)",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "scholarships and bursaries administration",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "student community service and outreach programme",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "sporting teams and inter‑collegiate competitions",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "music, drama, art productions and concerts",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "guest speakers and Scholar’s Presentations",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "student retreats (Camino retreat)",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "beneficiaries": [
-    "students studying at the University of Melbourne (primary)",
-    "limited places for students at Australian Catholic University (ACU)",
-    "limited places for students at Monash University",
-    "limited places for students at RMIT"
-  ],
-  "beneficiary_observations": [
-    {
-      "value": "students studying at the University of Melbourne (primary)",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "limited places for students at Australian Catholic University (ACU)",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "limited places for students at Monash University",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "limited places for students at RMIT",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "participation_modes": [
-    "living in residential college accommodation",
-    "attending tutorials and academic mentoring",
-    "participating in sports, music, drama and arts events",
-    "engaging in community service and outreach (volunteering)",
-    "attending public talks and Scholar’s Presentations"
-  ],
-  "participation_observations": [],
-  "opportunities": [],
-  "programs": [
-    {
-      "program_id": "prg:acnc:51419209376:61f0a241-816f-f111-ab0c-00224894cb3a",
-      "name": "Fountain",
-      "description": "Education support",
-      "beneficiaries": [
-        "Other - The College Students/residents/community"
-      ],
-      "geography": [
-        "887 Swanston Street, Parkville VIC, Australia"
-      ],
-      "status": "current",
-      "reporting_period": "2025",
-      "source_url": "https://newman.unimelb.edu.au/",
-      "evidence_ids": [
-        "ev:acnc:ais:51419209376:0ef0a241-816f-f111-ab0c-00224894cb3a"
-      ]
-    },
-    {
-      "program_id": "prg:acnc:51419209376:6af0a241-816f-f111-ab0c-00224894cb3a",
-      "name": "Installation of energy savings heating systems",
-      "description": "Environmental economic instruments",
-      "beneficiaries": [
-        "Environment"
-      ],
-      "geography": [
-        "887 Swanston Street, Parkville VIC, Australia"
-      ],
-      "status": "current",
-      "reporting_period": "2025",
-      "source_url": "https://newman.unimelb.edu.au/",
-      "evidence_ids": [
-        "ev:acnc:ais:51419209376:0ef0a241-816f-f111-ab0c-00224894cb3a"
-      ]
-    }
-  ],
-  "source_native_records": [
-    {
-      "source_record_id": "src:acnc-public-profile:51419209376:c51e8ddf-38af-e811-a963-000d3ad24077:cb_3bbf4f13d74a432ab0ca1eb74741adae",
-      "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-14-public-api",
-      "source_url": "https://www.acnc.gov.au/charity/charities/c51e8ddf-38af-e811-a963-000d3ad24077/profile",
-      "retrieved_at": "2026-08-13T13:54:42.956606Z",
-      "observed_at": "2026-06-24",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "uuid": "c51e8ddf-38af-e811-a963-000d3ad24077",
-        "abn": "51419209376"
-      },
-      "source_payload": {
-        "data": {
-          "AFSAddressPostalCode": "3052",
-          "AFSEmail": "accounts@newman.unimelb.edu.au",
-          "Abn": "51419209376",
-          "AddressCountry": "Australia",
-          "AddressLine1": "Newman College",
-          "AddressLine2": null,
-          "AddressLine3": null,
-          "AddressPostalCode": "3052",
-          "AddressStateOrProvince": "VIC",
-          "AddressSuburb": "Parkville",
-          "AddressSuburbStatePostcode": "Parkville VIC 3052",
-          "AnnualReports": [
-            {
-              "AISId": null,
-              "DateReceived": "2020-06-11T22:21:23.0000000Z",
-              "DocumentUuid": "36429ed6-31ac-ea11-a812-000d3ad1cc03",
-              "DueDate": "2020-08-30T14:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2019",
-              "type": "Financial Report 2019",
-              "uuid": "ef619b3c-0026-e911-a976-000d3ad05e15"
-            },
-            {
-              "AISId": "bf6456ee-31ac-ea11-a812-000d3ad1f497",
-              "DateReceived": "2020-06-11T22:21:48.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2020-08-30T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2019",
-              "type": "Annual Information Statement 2019",
-              "uuid": "1b629b3c-0026-e911-a976-000d3ad05e15"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2021-07-01T00:55:23.0000000Z",
-              "DocumentUuid": "f05f28fa-06da-eb11-bacb-000d3acc5dd6",
-              "DueDate": "2021-06-29T14:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2020",
-              "type": "Financial Report 2020",
-              "uuid": "50629b3c-0026-e911-a976-000d3ad05e15"
-            },
-            {
-              "AISId": "ee00f402-07da-eb11-bacb-002248107110",
-              "DateReceived": "2021-07-01T00:55:34.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2021-06-29T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2020",
-              "type": "Annual Information Statement 2020",
-              "uuid": "7c629b3c-0026-e911-a976-000d3ad05e15"
-            },
-            {
-              "AISId": "4703a344-32f0-ec11-bb3d-002248944f2b",
-              "DateReceived": "2022-06-20T00:45:27.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2022-06-29T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2021",
-              "type": "Annual Information Statement 2021",
-              "uuid": "92847e24-99eb-ea11-a815-000d3ad1f29c"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2022-06-20T00:45:22.0000000Z",
-              "DocumentUuid": "01f3ce3c-32f0-ec11-bb3d-002248944e6d",
-              "DueDate": "2022-06-29T14:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2021",
-              "type": "Financial Report 2021",
-              "uuid": "c7847e24-99eb-ea11-a815-000d3ad1f29c"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required",
-              "Year": "2013",
-              "type": "Financial Report 2013",
-              "uuid": "27eb36a3-3ec8-e811-a964-000d3ad24077"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required",
-              "Year": "2014",
-              "type": "Financial Report 2014",
-              "uuid": "2feb36a3-3ec8-e811-a964-000d3ad24077"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2019-06-12T02:03:31.0000000Z",
-              "DocumentUuid": "4dbcf03f-b68c-e911-a972-000d3ad24c60",
-              "DueDate": "2019-06-29T14:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2018",
-              "type": "Financial Report 2018",
-              "uuid": "40eb36a3-3ec8-e811-a964-000d3ad24077"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2017-06-21T14:00:00.0000000Z",
-              "DocumentUuid": "cc5df84a-46b0-e811-a961-000d3ad24182",
-              "DueDate": "2017-06-29T14:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2016",
-              "type": "Financial Report 2016",
-              "uuid": "4deb36a3-3ec8-e811-a964-000d3ad24077"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2018-06-13T14:00:00.0000000Z",
-              "DocumentUuid": "055ef84a-46b0-e811-a961-000d3ad24182",
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2017",
-              "type": "Financial Report 2017",
-              "uuid": "57eb36a3-3ec8-e811-a964-000d3ad24077"
-            },
-            {
-              "AISId": "b2296c46-b68c-e911-a987-000d3ad05e15",
-              "DateReceived": "2019-06-12T02:03:35.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2019-06-29T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2018",
-              "type": "Annual Information Statement 2018",
-              "uuid": "cbea95a0-3ac8-e811-a963-000d3ad24a0d"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2016-06-29T14:00:00.0000000Z",
-              "DocumentUuid": "8c5ef84a-46b0-e811-a961-000d3ad24182",
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2015",
-              "type": "Financial Report 2015",
-              "uuid": "8eaaad9e-3ec8-e811-a963-000d3ad24a0d"
-            },
-            {
-              "AISId": "ab5dd8dc-50c8-e811-a962-000d3ad24182",
-              "DateReceived": "2017-06-21T14:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2017-06-29T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2016",
-              "type": "Annual Information Statement 2016",
-              "uuid": "4f057bdd-50c8-e811-a95f-000d3ad24c60"
-            },
-            {
-              "AISId": "aa2a9cdb-50c8-e811-a964-000d3ad24077",
-              "DateReceived": "2014-06-29T14:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2014-06-29T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2013",
-              "type": "Annual Information Statement 2013",
-              "uuid": "51057bdd-50c8-e811-a95f-000d3ad24c60"
-            },
-            {
-              "AISId": "c35dd8dc-50c8-e811-a962-000d3ad24182",
-              "DateReceived": "2018-06-13T14:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2018-06-29T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2017",
-              "type": "Annual Information Statement 2017",
-              "uuid": "55057bdd-50c8-e811-a95f-000d3ad24c60"
-            },
-            {
-              "AISId": "b02a9cdb-50c8-e811-a964-000d3ad24077",
-              "DateReceived": "2015-06-29T14:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2015-06-29T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2014",
-              "type": "Annual Information Statement 2014",
-              "uuid": "57057bdd-50c8-e811-a95f-000d3ad24c60"
-            },
-            {
-              "AISId": "b62a9cdb-50c8-e811-a964-000d3ad24077",
-              "DateReceived": "2016-06-29T14:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2016-06-29T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2015",
-              "type": "Annual Information Statement 2015",
-              "uuid": "5d057bdd-50c8-e811-a95f-000d3ad24c60"
-            },
-            {
-              "AISId": "c3c62eca-0412-ee11-8f6d-00224893bc23",
-              "DateReceived": "2023-06-23T20:31:23.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2023-06-29T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2022",
-              "type": "Annual Information Statement 2022",
-              "uuid": "73437645-c0d9-eb11-bacb-002248107df9"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2023-06-23T20:30:31.0000000Z",
-              "DocumentUuid": "ddbe8fc0-0412-ee11-8f6d-00224893b958",
-              "DueDate": "2023-06-29T14:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2022",
-              "type": "Financial Report 2022",
-              "uuid": "85437645-c0d9-eb11-bacb-002248107df9"
-            },
-            {
-              "AISId": "ac0b67fa-3912-ef11-9f89-002248934705",
-              "DateReceived": "2024-05-14T21:36:20.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2024-06-29T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2023",
-              "type": "Annual Information Statement 2023",
-              "uuid": "6b149bd6-8df8-ec11-82e6-00224811654f"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2024-05-14T21:35:21.0000000Z",
-              "DocumentUuid": "85f08cd4-3912-ef11-9f89-002248972ec2",
-              "DueDate": "2024-06-29T14:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2023",
-              "type": "Financial Report 2023",
-              "uuid": "80149bd6-8df8-ec11-82e6-00224811654f"
-            },
-            {
-              "AISId": "5cb87796-305a-f011-bec2-000d3a6aeb52",
-              "DateReceived": "2025-07-06T06:15:33.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2025-06-29T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2024",
-              "type": "Annual Information Statement 2024",
-              "uuid": "e9708675-5317-ee11-8f6d-00224893b304"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2025-07-06T06:15:21.0000000Z",
-              "DocumentUuid": "f3fa5b90-305a-f011-bec2-000d3acbcde3",
-              "DueDate": "2025-06-29T14:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2024",
-              "type": "Financial Report 2024",
-              "uuid": "f8708675-5317-ee11-8f6d-00224893b304"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2028-06-29T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Not yet submitted",
-              "Year": "2027",
-              "type": "Annual Information Statement 2027",
-              "uuid": "e3110206-8d74-f111-ab0e-0022489423ca"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2028-06-29T14:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Pending",
-              "Year": "2027",
-              "type": "Financial Report 2027",
-              "uuid": "13120206-8d74-f111-ab0e-0022489423ca"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2027-06-29T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Not yet submitted",
-              "Year": "2026",
-              "type": "Annual Information Statement 2026",
-              "uuid": "f74416e0-bb55-f011-bec2-00224894aab5"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2027-06-29T14:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Pending",
-              "Year": "2026",
-              "type": "Financial Report 2026",
-              "uuid": "1f4516e0-bb55-f011-bec2-00224894aab5"
-            },
-            {
-              "AISId": "0ef0a241-816f-f111-ab0c-00224894cb3a",
-              "DateReceived": "2026-06-24T04:01:15.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2026-06-29T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2025",
-              "type": "Annual Information Statement 2025",
-              "uuid": "b2f8309c-ea36-ef11-a317-6045bdc334c7"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2026-06-24T04:01:10.0000000Z",
-              "DocumentUuid": "3b645934-816f-f111-ab0c-7ced8da12d72",
-              "DueDate": "2026-06-29T14:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2025",
-              "type": "Financial Report 2025",
-              "uuid": "c2f8309c-ea36-ef11-a317-6045bdc334c7"
-            }
-          ],
-          "Beneficiaries": [
-            {
-              "Description": null,
-              "Name": "Other",
-              "uuid": "76f0a241-816f-f111-ab0c-00224894cb3a"
-            },
-            {
-              "Description": null,
-              "Name": "Environment",
-              "uuid": "79f0a241-816f-f111-ab0c-00224894cb3a"
-            }
-          ],
-          "CharitySize": "Small",
-          "CharitySubtypeHistory": [
-            {
-              "EndDate": null,
-              "Purpose": "Advancing education",
-              "StartDate": "2013-12-31T13:00:00.0000000Z",
-              "uuid": "9226672b-fdc6-e811-a962-000d3ad24182"
-            },
-            {
-              "EndDate": "2013-12-30T13:00:00.0000000Z",
-              "Purpose": "2012 Advancement of education",
-              "StartDate": "2012-12-02T13:00:00.0000000Z",
-              "uuid": "4627672b-fdc6-e811-a962-000d3ad24182"
-            }
-          ],
-          "CharityVersion": "157",
-          "ChildMemberEndDate": null,
-          "ChildMemberStartDate": null,
-          "ChooseToProvideAis": null,
-          "Countries": [
-            {
-              "Name": "Australia",
-              "uuid": "f57b5602-9a4d-e811-a951-000d3ad06f2d"
-            }
-          ],
-          "DateEstablished": "1990-12-31T13:00:00.0000000Z",
-          "Documents": [
-            {
-              "Date": "2015-08-20T00:00:00.0000000",
-              "Title": "20150820_The Trustee For The Newman College Foundation_govdoc.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/c51e8ddf-38af-e811-a963-000d3ad24077-5de2a6e1-90ea-46b5-ac03-54fb723116b1-Governing%20Document-685ef84a-46b0-e811-a961-000d3ad24182-20150820_The_Trustee_For_The_Newman_College_Foundation_govdoc.pdf",
-              "Year": null,
-              "type": "Governing Document",
-              "uuid": "685ef84a-46b0-e811-a961-000d3ad24182"
-            },
-            {
-              "Date": "2025-07-06T00:00:00.0000000",
-              "Title": "NEWMAN COLLEGE FINANCIAL STATEMENTS 2024 .pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/c51e8ddf-38af-e811-a963-000d3ad24077-5de2a6e1-90ea-46b5-ac03-54fb723116b1-Financial%20Report-f3fa5b90-305a-f011-bec2-000d3acbcde3-NEWMAN_COLLEGE_FINANCIAL_STATEMENTS_2024_.pdf",
-              "Year": "2024",
-              "type": "Financial Report",
-              "uuid": "f3fa5b90-305a-f011-bec2-000d3acbcde3"
-            },
-            {
-              "Date": "2021-07-01T00:00:00.0000000",
-              "Title": "NEWMAN COLLEGE Financial Report 2020.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/c51e8ddf-38af-e811-a963-000d3ad24077-5de2a6e1-90ea-46b5-ac03-54fb723116b1-Financial%20Report-f05f28fa-06da-eb11-bacb-000d3acc5dd6-NEWMAN_COLLEGE_Financial_Report_2020.pdf",
-              "Year": "2020",
-              "type": "Financial Report",
-              "uuid": "f05f28fa-06da-eb11-bacb-000d3acc5dd6"
-            },
-            {
-              "Date": "2020-06-12T00:00:00.0000000",
-              "Title": "Newman College - Annual Report 2019 .pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/c51e8ddf-38af-e811-a963-000d3ad24077-5de2a6e1-90ea-46b5-ac03-54fb723116b1-Financial%20Report-36429ed6-31ac-ea11-a812-000d3ad1cc03-Newman_College_-_Annual_Report_2019_.pdf",
-              "Year": "2019",
-              "type": "Financial Report",
-              "uuid": "36429ed6-31ac-ea11-a812-000d3ad1cc03"
-            },
-            {
-              "Date": "2017-06-22T00:00:00.0000000",
-              "Title": "Foundation 2016 Financial Statements.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/c51e8ddf-38af-e811-a963-000d3ad24077-5de2a6e1-90ea-46b5-ac03-54fb723116b1-Financial%20Report-cc5df84a-46b0-e811-a961-000d3ad24182-Foundation_2016_Financial_Statements.pdf",
-              "Year": "2016",
-              "type": "Financial Report",
-              "uuid": "cc5df84a-46b0-e811-a961-000d3ad24182"
-            },
-            {
-              "Date": "2018-06-14T00:00:00.0000000",
-              "Title": "Consolidated Newman College Foundation.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/c51e8ddf-38af-e811-a963-000d3ad24077-5de2a6e1-90ea-46b5-ac03-54fb723116b1-Financial%20Report-055ef84a-46b0-e811-a961-000d3ad24182-Consolidated_Newman_College_Foundation.pdf",
-              "Year": "2017",
-              "type": "Financial Report",
-              "uuid": "055ef84a-46b0-e811-a961-000d3ad24182"
-            },
-            {
-              "Date": "2016-06-30T00:00:00.0000000",
-              "Title": "Financial Report 2015.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/c51e8ddf-38af-e811-a963-000d3ad24077-5de2a6e1-90ea-46b5-ac03-54fb723116b1-Financial%20Report-8c5ef84a-46b0-e811-a961-000d3ad24182-Financial_Report_2015.pdf",
-              "Year": "2015",
-              "type": "Financial Report",
-              "uuid": "8c5ef84a-46b0-e811-a961-000d3ad24182"
-            },
-            {
-              "Date": "2019-06-12T00:00:00.0000000",
-              "Title": "Newman College (with Foundation Account).pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/c51e8ddf-38af-e811-a963-000d3ad24077-5de2a6e1-90ea-46b5-ac03-54fb723116b1-Financial%20Report-4dbcf03f-b68c-e911-a972-000d3ad24c60-Newman_College_(with_Foundation_Account).pdf",
-              "Year": "2018",
-              "type": "Financial Report",
-              "uuid": "4dbcf03f-b68c-e911-a972-000d3ad24c60"
-            },
-            {
-              "Date": "2023-06-24T00:00:00.0000000",
-              "Title": "Newman College Financial Report 2022.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/c51e8ddf-38af-e811-a963-000d3ad24077-5de2a6e1-90ea-46b5-ac03-54fb723116b1-Financial%20Report-ddbe8fc0-0412-ee11-8f6d-00224893b958-Newman_College_Financial_Report_2022.pdf",
-              "Year": "2022",
-              "type": "Financial Report",
-              "uuid": "ddbe8fc0-0412-ee11-8f6d-00224893b958"
-            },
-            {
-              "Date": "2022-06-20T00:00:00.0000000",
-              "Title": "NEWMAN COLLEGE.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/c51e8ddf-38af-e811-a963-000d3ad24077-5de2a6e1-90ea-46b5-ac03-54fb723116b1-Financial%20Report-01f3ce3c-32f0-ec11-bb3d-002248944e6d-NEWMAN_COLLEGE.pdf",
-              "Year": "2021",
-              "type": "Financial Report",
-              "uuid": "01f3ce3c-32f0-ec11-bb3d-002248944e6d"
-            },
-            {
-              "Date": "2024-05-15T00:00:00.0000000",
-              "Title": "NEWMAN COLLEGE 2023 FINANCIAL REPORT.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/c51e8ddf-38af-e811-a963-000d3ad24077-5de2a6e1-90ea-46b5-ac03-54fb723116b1-Financial%20Report-85f08cd4-3912-ef11-9f89-002248972ec2-NEWMAN_COLLEGE_2023_FINANCIAL_REPORT.pdf",
-              "Year": "2023",
-              "type": "Financial Report",
-              "uuid": "85f08cd4-3912-ef11-9f89-002248972ec2"
-            },
-            {
-              "Date": "2026-06-24T00:00:00.0000000",
-              "Title": "2025 Newman College Finanical Report.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/c51e8ddf-38af-e811-a963-000d3ad24077-5de2a6e1-90ea-46b5-ac03-54fb723116b1-Financial%20Report-3b645934-816f-f111-ab0c-7ced8da12d72-2025_Newman_College_Finanical_Report.pdf",
-              "Year": "2025",
-              "type": "Financial Report",
-              "uuid": "3b645934-816f-f111-ab0c-7ced8da12d72"
-            }
-          ],
-          "Email": "provost@newman.unimelb.edu.au",
-          "EnforcementOutcomes": [],
-          "FinancialYearEnd": "31/12",
-          "GovernmentAgencies": [],
-          "GroupHeadFlag": false,
-          "LastReported": "2026-06-24T04:01:15.0000000Z",
-          "Name": "The Trustee For The Newman College Foundation",
-          "NextReportDue": "2027-06-30T13:30:00.0000000Z",
-          "OperatingInStates": [
-            {
-              "Name": "Victoria",
-              "uuid": "4ea3219c-455e-e811-a95c-000d3ad1c715"
-            }
-          ],
-          "OtherDetails": null,
-          "OtherNames": [],
-          "ParentAccountAbn": null,
-          "ParentAccountId": null,
-          "Phone": null,
-          "Programs": [
-            {
-              "AisUuid": "0ef0a241-816f-f111-ab0c-00224894cb3a",
-              "Name": "Fountain",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Other - The College Students/residents/community"
-              ],
-              "ProgramClassie": [
-                {
-                  "classie_id": "179",
-                  "label": "Education support",
-                  "parent_id": "170",
-                  "selected": true
-                },
-                {
-                  "classie_id": "170",
-                  "label": "Education",
-                  "parent_id": null,
-                  "selected": false
-                }
-              ],
-              "ProgramClassification": "Education support",
-              "ProgramClassificationID": "179",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "887 Swanston Street, Parkville VIC, Australia",
-                  "FormattedAddress": "887 Swanston St, Parkville VIC 3052, Australia",
-                  "Marker": {
-                    "Latitude": -37.7952573,
-                    "Longitude": 144.9646236
-                  },
-                  "Name": "887 Swanston St",
-                  "uuid": "66f0a241-816f-f111-ab0c-00224894cb3a"
-                }
-              ],
-              "ProgramWeblink": "https://newman.unimelb.edu.au/",
-              "uuid": "61f0a241-816f-f111-ab0c-00224894cb3a"
-            },
-            {
-              "AisUuid": "0ef0a241-816f-f111-ab0c-00224894cb3a",
-              "Name": "Installation of energy savings heating systems",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Environment"
-              ],
-              "ProgramClassie": [
-                {
-                  "classie_id": "230",
-                  "label": "Environmental economic instruments",
-                  "parent_id": "216",
-                  "selected": true
-                },
-                {
-                  "classie_id": "216",
-                  "label": "Environment",
-                  "parent_id": null,
-                  "selected": false
-                }
-              ],
-              "ProgramClassification": "Environmental economic instruments",
-              "ProgramClassificationID": "230",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "887 Swanston Street, Parkville VIC, Australia",
-                  "FormattedAddress": "887 Swanston St, Parkville VIC 3052, Australia",
-                  "Marker": {
-                    "Latitude": -37.795467,
-                    "Longitude": 144.964652
-                  },
-                  "Name": "887 Swanston St",
-                  "uuid": "72f0a241-816f-f111-ab0c-00224894cb3a"
-                }
-              ],
-              "ProgramWeblink": "https://newman.unimelb.edu.au/",
-              "uuid": "6af0a241-816f-f111-ab0c-00224894cb3a"
-            }
-          ],
-          "ReferendumReturnsUrl": null,
-          "RegistrationStatusHistory": [
-            {
-              "EffectiveDate": "2012-12-02T13:00:00.0000000Z",
-              "Status": "Registered",
-              "TransactionDate": "2012-12-02T13:00:00.0000000Z",
-              "uuid": "28b21e9a-06c6-e811-a962-000d3ad24182"
-            }
-          ],
-          "RelatedPartyTransactions": null,
-          "RelevantTransactions": null,
-          "ReportingLate": "2027-12-30T13:30:00.0000000Z",
-          "ResponsiblePersons": [
-            {
-              "Name": "Peter Andrew Comensoli",
-              "Role": "President",
-              "uuid": "080648f1-b727-ef11-840b-00224893bffb"
-            },
-            {
-              "Name": "William John Wilding",
-              "Role": "Director",
-              "uuid": "d41a160d-f9bb-e811-a961-000d3ad24282"
-            },
-            {
-              "Name": "Steven Severino Cortese",
-              "Role": "Director",
-              "uuid": "626340f7-b727-ef11-840b-00224893bffb"
-            },
-            {
-              "Name": "Timothy Patrick O'Leary",
-              "Role": "Director",
-              "uuid": "72e89ac1-1dbc-e811-a963-000d3ad24a0d"
-            },
-            {
-              "Name": "Jane Marie Murphy Page",
-              "Role": "Director",
-              "uuid": "3958830c-f9bb-e811-a964-000d3ad244fd"
-            },
-            {
-              "Name": "Allan Myers",
-              "Role": "Director",
-              "uuid": "1d313a09-b827-ef11-840b-00224893bffb"
-            },
-            {
-              "Name": "Catherine Marian Kovesi",
-              "Role": "Director",
-              "uuid": "ce6540f7-b727-ef11-840b-00224893bffb"
-            },
-            {
-              "Name": "Darcy James McCormack",
-              "Role": "Director",
-              "uuid": "4c9223e3-23bc-e811-a963-000d3ad24a0d"
-            },
-            {
-              "Name": "Janet Mary Vivienne Whiting",
-              "Role": "Director",
-              "uuid": "7ccc885b-0fbc-e811-a963-000d3ad24a0d"
-            },
-            {
-              "Name": "William James Uren",
-              "Role": "Director",
-              "uuid": "78249c3b-5928-ef11-840b-00224893b0ed"
-            },
-            {
-              "Name": "Maree Pallisco",
-              "Role": "Director",
-              "uuid": "5a8c9cae-65d9-eb11-bacb-00224810799d"
-            },
-            {
-              "Name": "Gregory Charles Bennet",
-              "Role": "Director",
-              "uuid": "7d13c3df-b727-ef11-840b-00224893bffb"
-            },
-            {
-              "Name": "Daniel Madigan",
-              "Role": "Director",
-              "uuid": "1dee4e38-6472-f111-ab0f-7ced8da0c6e5"
-            },
-            {
-              "Name": "Daniel Madigan",
-              "Role": "Director",
-              "uuid": "1dee4e38-6472-f111-ab0f-7ced8da0c6e5"
-            },
-            {
-              "Name": "Mark Freeman",
-              "Role": "Director",
-              "uuid": "4b00ffe7-9e64-f111-a825-7ced8d34ed9b"
-            }
-          ],
-          "Status": "Registered",
-          "SummaryOfActivities": "The Foundation supports the College s mission by funding the ongoing maintenance and improvement of its buildings and infrastructure. This ensures safe, stable accommodation for higher education students and promotes access for individuals from diverse social, economic, and geographical backgrounds, thereby advancing education and reducing barriers to participation.",
-          "TotalExpensesEmployee": "0",
-          "TotalExpensesGrantsAndDonationsInAustralia": "0",
-          "TotalExpensesGrantsAndDonationsOutsideAustralia": "0",
-          "TotalExpensesInterest": "0",
-          "TotalExpensesOther": "47500",
-          "TotalGrossIncomeDonationsAndRequests": "2500",
-          "TotalGrossIncomeGoodsOrServices": "0",
-          "TotalGrossIncomeGovernmentGrants": "0",
-          "TotalGrossIncomeInvestments": "1885",
-          "TotalGrossIncomeOtherRevenues": "266165",
-          "TransparencyRegisterUrl": null,
-          "Website": "https://newman.unimelb.edu.au",
-          "__normalized": true,
-          "type": "charity",
-          "uuid": "c51e8ddf-38af-e811-a963-000d3ad24077"
-        },
-        "type": "charity",
-        "uuid": "c51e8ddf-38af-e811-a963-000d3ad24077"
-      },
-      "canonical_field_mappings": {
-        "data.OtherNames": "operating_names",
-        "data.AddressStateOrProvince": "principal_location"
-      },
-      "evidence_ids": []
-    },
-    {
-      "source_record_id": "src:acnc-ais-detail:51419209376:0ef0a241-816f-f111-ab0c-00224894cb3a:cb_3bbf4f13d74a432ab0ca1eb74741adae",
-      "source_family": "acnc-ais-detail",
-      "dataset_version": "2026-08-14-public-api",
-      "source_url": "https://www.acnc.gov.au/charity/charities/c51e8ddf-38af-e811-a963-000d3ad24077/documents/0ef0a241-816f-f111-ab0c-00224894cb3a",
-      "retrieved_at": "2026-08-13T13:54:42.956606Z",
-      "observed_at": "2026-06-24",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "abn": "51419209376",
-        "ais_uuid": "0ef0a241-816f-f111-ab0c-00224894cb3a",
-        "year": "2025",
-        "date_received": "2026-06-24T04:01:15.0000000Z"
-      },
-      "source_payload": {
-        "data": {
-          "Abn": "51419209376",
-          "ActivityAdvocacyNCivic": false,
-          "ActivityAgedCare": false,
-          "ActivityAnimalProtection": false,
-          "ActivityCultureAndArt": false,
-          "ActivityEconomicSocialCommunity": false,
-          "ActivityEmergencyNRelief": false,
-          "ActivityEmploymentNTraining": false,
-          "ActivityEnvironmental": false,
-          "ActivityGrantMaking": false,
-          "ActivityHealthRehabilitation": false,
-          "ActivityHigherEducation": false,
-          "ActivityHousing": false,
-          "ActivityIncomeSupportNMaintenance": false,
-          "ActivityInternational": false,
-          "ActivityInternationalDescription": null,
-          "ActivityInternationalOther": false,
-          "ActivityInternationalOtherDescription": null,
-          "ActivityLawNLegalServices": false,
-          "ActivityMain": null,
-          "ActivityMentalHealthCrisisIntervention": false,
-          "ActivityNdisSupported": null,
-          "ActivityNdisSupportedNext": null,
-          "ActivityOperating": true,
-          "ActivityOperatingOverseas": false,
-          "ActivityOther": false,
-          "ActivityOtherDescription": null,
-          "ActivityOtherEducation": false,
-          "ActivityOtherHealthServices": false,
-          "ActivityPersuitPurposesDescription": "The Foundation supports the College s mission by funding the ongoing maintenance and improvement of its buildings and infrastructure. This ensures safe, stable accommodation for higher education students and promotes access for individuals from diverse social, economic, and geographical backgrounds, thereby advancing education and reducing barriers to participation.",
-          "ActivityPhilanthropicPromotion": false,
-          "ActivityPolitical": false,
-          "ActivityPrimarySecondaryEducation": false,
-          "ActivityPurposeChange": null,
-          "ActivityPurposeChangeDescription": null,
-          "ActivityRecreationSocialClub": false,
-          "ActivityReligious": false,
-          "ActivityResearch": false,
-          "ActivitySocialServices": false,
-          "ActivitySports": false,
-          "ActivityTransferringFundsGoods": false,
-          "AdvancementOfEducation": false,
-          "AdvancementOfReligion": false,
-          "AssetsandLiabilitiesDescription": null,
-          "BasicReligiousCharity": false,
-          "BeneficiaryAboriginalTorres": false,
-          "BeneficiaryAdults": false,
-          "BeneficiaryAllAges": false,
-          "BeneficiaryChildren": false,
-          "BeneficiaryChronicIllness": false,
-          "BeneficiaryCrimeVictims": false,
-          "BeneficiaryDisasterVictims": false,
-          "BeneficiaryEarlyChildhood": false,
-          "BeneficiaryEthnic": false,
-          "BeneficiaryFamilies": false,
-          "BeneficiaryFinanciallyDisadvantaged": false,
-          "BeneficiaryGeneral": false,
-          "BeneficiaryHomelessnessRisk": false,
-          "BeneficiaryLGBT": false,
-          "BeneficiaryMain": null,
-          "BeneficiaryMen": false,
-          "BeneficiaryMigrantsRefugees": false,
-          "BeneficiaryOffenderFamilies": false,
-          "BeneficiaryOther": false,
-          "BeneficiaryOtherCharities": false,
-          "BeneficiaryOtherDescription": null,
-          "BeneficiaryOverseas": false,
-          "BeneficiaryPeopleWithDisability": false,
-          "BeneficiaryRuralRegionalRemote": false,
-          "BeneficiarySeniors": false,
-          "BeneficiaryUnemployed": false,
-          "BeneficiaryVeteranFamilies": false,
-          "BeneficiaryWomen": false,
-          "BeneficiaryYouth": false,
-          "CharityAddressCountry": "Australia",
-          "CharityAddressLine1": "Newman College",
-          "CharityAddressLine2": null,
-          "CharityAddressPostalCode": "3052",
-          "CharityAddressStateOrProvince": "VIC",
-          "CharityAddressSuburb": "Parkville",
-          "CharityEmail": "provost@newman.unimelb.edu.au",
-          "CharitySize": "Small",
-          "CharityUuid": "c51e8ddf-38af-e811-a963-000d3ad24077",
-          "ChildCareServices": false,
-          "ExpenseEmployees": "0.0000",
-          "ExpenseGrantDonationsInAustralia": "0.0000",
-          "ExpenseGrantDonationsOutsideAustralia": "0.0000",
-          "ExpenseTotal": "47500.0000",
-          "ExpensesOther": "47500.0000",
-          "FinAccrualAccounting": "Accrual",
-          "FinConsolidatedReportFromMiltiple": null,
-          "FinDocumentedPoliciesRelatedPartyTransactions": null,
-          "FinFyeJune": false,
-          "FinProvideVoluntarily": null,
-          "FinRelatedPartyTransactions": "No",
-          "FinReportACT": false,
-          "FinReportFrom": "2025-01-01T00:00:00.0000000Z",
-          "FinReportNSW": false,
-          "FinReportNT": false,
-          "FinReportQLD": false,
-          "FinReportSA": false,
-          "FinReportTAS": false,
-          "FinReportTo": "2025-12-31T00:00:00.0000000Z",
-          "FinReportVIC": false,
-          "FinReportWA": false,
-          "FinReportingType": null,
-          "FinSapDate": null,
-          "FundRaisingNumberACT": null,
-          "FundRaisingNumberNSW": null,
-          "FundRaisingNumberQLD": null,
-          "FundRaisingNumberSA": null,
-          "FundRaisingNumberTAS": null,
-          "FundRaisingNumberVIC": null,
-          "FundRaisingNumberWA": null,
-          "GovDocAccurate": null,
-          "GrantCapacityBuildingPct": null,
-          "GrantMultiYearPct": null,
-          "GrantPublicOpenApplicationPct": null,
-          "GrantRuralRegionPct": null,
-          "HasSubmittedToRegulator": false,
-          "HoursPaid": null,
-          "HoursTotal": null,
-          "HoursVolunteer": null,
-          "HrCasualEmployees": "0",
-          "HrFteStaff": "0.0000000000",
-          "HrFullTimeEmployees": "0",
-          "HrPartTimeEmployees": "0",
-          "HrUnpainVolunteers": "0",
-          "IncomeDonationsBequests": "2500.0000",
-          "IncomeGovernmentGrants": "0.0000",
-          "IncomeOther": "16734.0000",
-          "IncomeOtherComprehinsive": "0.0000",
-          "IncomeOtherNeg": null,
-          "IncomeOtherReceipts": "266165.0000",
-          "IncomeTotalComprehensive": "0.0000",
-          "IncomeTotalReceipts": "287284.0000",
-          "IncorporationStatus": null,
-          "InterestExpense": "0.0000",
-          "IsIncorporatedAssociation": false,
-          "KeyManagementPersonnel": false,
-          "LegalName": "The Trustee For The Newman College Foundation",
-          "NetAssetsLiabilities": "256698.0000",
-          "NetSurplusDeficit": "239784.0000",
-          "NonCurrentLoansPayable": "0.0000",
-          "NumberOfKeyManagementPersonnel": "0",
-          "OperatingCountries": null,
-          "OperatingInACT": false,
-          "OperatingInNSW": false,
-          "OperatingInNT": false,
-          "OperatingInQLD": false,
-          "OperatingInSA": false,
-          "OperatingInTAS": false,
-          "OperatingInVIC": false,
-          "OperatingInWA": false,
-          "OperatingOverseas": false,
-          "OtherNames": [],
-          "OtherNonCurrentAssets": "0.0000",
-          "OtherNonCurrentLiabilities": "0.0000",
-          "OtherPurposeDescription": null,
-          "OtherPurposes": "False",
-          "Programs": [
-            {
-              "AisUuid": "0ef0a241-816f-f111-ab0c-00224894cb3a",
-              "Name": "Fountain",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Other - The College Students/residents/community"
-              ],
-              "ProgramClassification": "Education support",
-              "ProgramClassificationID": "179",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "887 Swanston Street, Parkville VIC, Australia",
-                  "FormattedAddress": "887 Swanston St, Parkville VIC 3052, Australia",
-                  "Marker": {
-                    "Latitude": -37.7952573,
-                    "Longitude": 144.9646236
-                  },
-                  "Name": "887 Swanston St",
-                  "uuid": "66f0a241-816f-f111-ab0c-00224894cb3a"
-                }
-              ],
-              "ProgramWeblink": "https://newman.unimelb.edu.au/",
-              "uuid": "61f0a241-816f-f111-ab0c-00224894cb3a"
-            },
-            {
-              "AisUuid": "0ef0a241-816f-f111-ab0c-00224894cb3a",
-              "Name": "Installation of energy savings heating systems",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Environment"
-              ],
-              "ProgramClassification": "Environmental economic instruments",
-              "ProgramClassificationID": "230",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "887 Swanston Street, Parkville VIC, Australia",
-                  "FormattedAddress": "887 Swanston St, Parkville VIC 3052, Australia",
-                  "Marker": {
-                    "Latitude": -37.795467,
-                    "Longitude": 144.964652
-                  },
-                  "Name": "887 Swanston St",
-                  "uuid": "72f0a241-816f-f111-ab0c-00224894cb3a"
-                }
-              ],
-              "ProgramWeblink": "https://newman.unimelb.edu.au/",
-              "uuid": "6af0a241-816f-f111-ab0c-00224894cb3a"
-            }
-          ],
-          "RegulatedACT": false,
-          "RegulatedNSW": false,
-          "RegulatedNT": false,
-          "RegulatedQLD": false,
-          "RegulatedSA": false,
-          "RegulatedTAS": false,
-          "RegulatedVIC": false,
-          "RegulatedWA": false,
-          "Regulator": null,
-          "RegulatorAGMDateACT": null,
-          "RegulatorAGMDateNT": null,
-          "RegulatorAGMDateVIC": null,
-          "RegulatorAGMDateWA": null,
-          "RegulatorFundRaising": "No",
-          "RegulatorFundRaisingACT": false,
-          "RegulatorFundRaisingNSW": false,
-          "RegulatorFundRaisingNT": false,
-          "RegulatorFundRaisingOnline": false,
-          "RegulatorFundRaisingQLD": false,
-          "RegulatorFundRaisingSA": false,
-          "RegulatorFundRaisingTAS": false,
-          "RegulatorFundRaisingVIC": false,
-          "RegulatorFundRaisingWA": false,
-          "RegulatorIncorporatedAssociationACT": false,
-          "RegulatorIncorporatedAssociationNSW": false,
-          "RegulatorIncorporatedAssociationNT": false,
-          "RegulatorIncorporatedAssociationNumberACT": null,
-          "RegulatorIncorporatedAssociationNumberNSW": null,
-          "RegulatorIncorporatedAssociationNumberNT": null,
-          "RegulatorIncorporatedAssociationNumberQLD": null,
-          "RegulatorIncorporatedAssociationNumberSA": null,
-          "RegulatorIncorporatedAssociationNumberTAS": null,
-          "RegulatorIncorporatedAssociationNumberVIC": null,
-          "RegulatorIncorporatedAssociationNumberWA": null,
-          "RegulatorIncorporatedAssociationQLD": false,
-          "RegulatorIncorporatedAssociationSA": false,
-          "RegulatorIncorporatedAssociationTAS": false,
-          "RegulatorIncorporatedAssociationVIC": false,
-          "RegulatorIncorporatedAssociationWA": false,
-          "RegulatorMetRequirementACT": false,
-          "RegulatorMetRequirementWA": null,
-          "RegulatorOtherDetails": null,
-          "RegulatorPrograms": null,
-          "RegulatorStates": false,
-          "RelatedPartyDetails": null,
-          "RelatedPartyTransactions": [],
-          "ReliefOfPoverty": false,
-          "ReportingGroupFlag": false,
-          "ResponsiblePersonAccurate": null,
-          "RevenueGoodsServices": "0.0000",
-          "RevenueInvestments": "1885.0000",
-          "RevenueTotal": "270550.0000",
-          "StatementYear": "2025",
-          "SubTypesAccurate": null,
-          "TotalAssets": "256698.0000",
-          "TotalCurrentAssets": "0.0000",
-          "TotalCurrentLiabilities": "0.0000",
-          "TotalLiabilities": "0.0000",
-          "TotalNonCurrentAssets": null,
-          "TotalNonCurrentLiabilities": "0.0000",
-          "TotalNonCurrentLoansReceivable": "0.0000",
-          "TotalPaidKMP": "$0.00",
-          "Website": "https://newman.unimelb.edu.au",
-          "__normalized": true,
-          "entityTypeVersion": "",
-          "entityVersion": "1952292914",
-          "timeStamp": "2026-06-24T04:00:42.0000000Z",
-          "type": "annual_information_statement",
-          "uuid": "0ef0a241-816f-f111-ab0c-00224894cb3a"
-        },
-        "type": "annual_information_statement",
-        "uuid": "0ef0a241-816f-f111-ab0c-00224894cb3a"
-      },
-      "canonical_field_mappings": {
-        "data.Programs": "programs",
-        "data.TotalRevenue": "financial_records[].revenue",
-        "data.TotalExpenses": "financial_records[].total_expenses"
-      },
-      "evidence_ids": [
-        "ev:acnc:ais:51419209376:0ef0a241-816f-f111-ab0c-00224894cb3a"
-      ]
-    }
-  ],
-  "financial_records": [
-    {
-      "financial_record_id": "fr:ais:cb_3bbf4f13d74a432ab0ca1eb74741adae:2023",
-      "period": {
-        "period_start": "2023-01-01",
-        "period_end": "2023-12-31",
-        "period_length_days": 365,
-        "label": "01/01/2023 to 31/12/2023",
-        "is_transitional_or_nonstandard": false
-      },
-      "reporting_scope": "subject",
-      "reporting_subject_causebase_id": "cb_3bbf4f13d74a432ab0ca1eb74741adae",
-      "covered_subjects": [
-        "cb_3bbf4f13d74a432ab0ca1eb74741adae"
-      ],
-      "consolidated": "unknown",
-      "attribution_method": "direct_subject_report",
-      "evidence_ids": [
-        "ev:ais:51419209376:2023"
-      ],
-      "revenue": {
-        "source_amount": "282179",
-        "source_currency": "AUD",
-        "source_unit_scale": "1",
-        "normalised_amount": "282179",
-        "normalised_currency": "AUD",
-        "source_unit_label": null,
-        "source_raw_value": "282179",
-        "source_precision": null
-      },
-      "donations": null,
-      "government_grants": null,
-      "employee_costs": null,
-      "total_expenses": {
-        "source_amount": "193332",
-        "source_currency": "AUD",
-        "source_unit_scale": "1",
-        "normalised_amount": "193332",
-        "normalised_currency": "AUD",
-        "source_unit_label": null,
-        "source_raw_value": "193332",
-        "source_precision": null
-      },
-      "assets": null,
-      "liabilities": null,
-      "net_assets": null,
-      "income_breakdown": [],
-      "expense_breakdown": [],
-      "balance_sheet_breakdown": [],
-      "source_ordered_line_items": [],
-      "statements": [],
-      "donations_gifts_bequests": null,
-      "functional_expense_allocations": []
-    }
-  ],
-  "financial_metrics": [
-    {
-      "metric": "revenue",
-      "observations": [
-        {
-          "financial_record_id": "fr:ais:cb_3bbf4f13d74a432ab0ca1eb74741adae:2023",
-          "amount": {
-            "source_amount": "282179",
-            "source_currency": "AUD",
-            "source_unit_scale": "1",
-            "normalised_amount": "282179",
-            "normalised_currency": "AUD",
-            "source_unit_label": null,
-            "source_raw_value": "282179",
-            "source_precision": null
-          },
-          "metric_source_label": null,
-          "evidence_ids": [
-            "ev:ais:51419209376:2023"
-          ]
-        }
-      ],
-      "reconciliation_status": "single_observation",
-      "reconciliation_notes": null
-    },
-    {
-      "metric": "total_expenses",
-      "observations": [
-        {
-          "financial_record_id": "fr:ais:cb_3bbf4f13d74a432ab0ca1eb74741adae:2023",
-          "amount": {
-            "source_amount": "193332",
-            "source_currency": "AUD",
-            "source_unit_scale": "1",
-            "normalised_amount": "193332",
-            "normalised_currency": "AUD",
-            "source_unit_label": null,
-            "source_raw_value": "193332",
-            "source_precision": null
-          },
-          "metric_source_label": null,
-          "evidence_ids": [
-            "ev:ais:51419209376:2023"
-          ]
-        }
-      ],
-      "reconciliation_status": "single_observation",
-      "reconciliation_notes": null
-    }
-  ],
-  "fundraising_expenditure": null,
-  "funding_sources": [],
-  "fundraising_methods": [],
-  "classifications": [
-    {
-      "taxonomy_id": "acnc-register",
-      "taxonomy_version": "2026-08-10",
-      "term_id": "purpose.education",
-      "term_label": "education",
-      "assignment_method": "source_native",
-      "confidence": "high",
-      "evidence_ids": [
-        "ev:acnc:51419209376"
-      ]
-    },
-    {
-      "taxonomy_id": "acnc-register",
-      "taxonomy_version": "2026-08-10",
-      "term_id": "beneficiary.environment",
-      "term_label": "environment",
-      "assignment_method": "source_native",
-      "confidence": "high",
-      "evidence_ids": [
-        "ev:acnc:51419209376"
-      ]
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "activity.direct_service",
-      "term_label": "Direct service delivery",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "activity.events_and_public_programming",
-      "term_label": "Events and public programming",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "participation.public_events",
-      "term_label": "Public events",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "participation.volunteering",
-      "term_label": "Volunteering",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "geography.local_or_regional",
-      "term_label": "Local or regional Australia",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "organisation.local",
-      "term_label": "Local organisation",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
+      "review_status": "not_required",
+      "conflicting_signals": []
     }
   ],
   "evidence": [
     {
       "evidence_id": "ev:acnc:51419209376",
-      "source_type": "regulatory",
-      "title": "ACNC Register extract",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": null,
-      "observed_at": "2026-08-10",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "title": "ACNC Register extract"
     },
     {
       "evidence_id": "ev:web:51419209376:2026-08-10",
-      "source_type": "organisation_self_report",
       "title": "Organisation website homepage",
-      "publisher": "The Trustee For The Newman College Foundation",
-      "url": "https://newman.unimelb.edu.au",
-      "observed_at": "2026-08-10",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://newman.unimelb.edu.au"
     },
     {
       "evidence_id": "ev:ais:51419209376:2023",
-      "source_type": "regulatory",
-      "title": "ACNC AIS 2023 extract",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": null,
-      "observed_at": "2026-08-10",
-      "reporting_period": "01/01/2023 to 31/12/2023",
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "title": "ACNC AIS 2023 extract"
     },
     {
       "evidence_id": "ev:acnc:ais:51419209376:0ef0a241-816f-f111-ab0c-00224894cb3a",
-      "source_type": "regulatory",
       "title": "ACNC Annual Information Statement 2025",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": "https://www.acnc.gov.au/charity/charities/c51e8ddf-38af-e811-a963-000d3ad24077/documents/0ef0a241-816f-f111-ab0c-00224894cb3a",
-      "observed_at": "2026-06-24",
-      "reporting_period": "2025",
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://www.acnc.gov.au/charity/charities/c51e8ddf-38af-e811-a963-000d3ad24077/documents/0ef0a241-816f-f111-ab0c-00224894cb3a"
     },
     {
       "evidence_id": "ev:abr-dgr:51419209376:20260805",
-      "source_type": "regulatory",
       "title": "ABR DGR bulk observation",
-      "publisher": "Australian Business Register / Australian Taxation Office",
-      "url": "https://abr.business.gov.au/Tools/BulkExtract",
-      "observed_at": "2026-08-05",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://abr.business.gov.au/Tools/BulkExtract"
     }
   ],
-  "embedding": {
-    "embedding_id": "cb_3bbf4f13d74a432ab0ca1eb74741adae:entity:text-embedding-3-small",
-    "embedding_type": "entity",
-    "model_id": "text-embedding-3-small",
-    "model_version": "text-embedding-3-small",
-    "dimensions": 1536,
-    "source_text_hash": "39f2117f10288c4ef6d41b55153a08525c62d1949459b896b3ca67291ef2bf9a",
-    "generated_at": "2026-08-10T13:53:24.457145Z",
-    "vector_ref": "embeddings.parquet#cb_3bbf4f13d74a432ab0ca1eb74741adae"
+  "summary": {
+    "derivative_id": "der:rc4:cb_3bbf4f13d74a432ab0ca1eb74741adae:summary",
+    "text": "Newman College is a co\u2011educational residential college affiliated with the University of Melbourne, located at 887 Swanston Street, Parkville, Victoria. It primarily accepts students enrolled at the University of Melbourne and holds limited places for students in select courses at ACU, Monash and RMIT. The College provides residential accommodation and runs an academic tutorial programme and mentoring (tutorials delivered weekly), administers scholarships and bursaries, and operates a student community service and outreach programme. It also supports sporting teams and inter\u2011collegiate competitions, music, drama and arts productions and concerts, guest speakers and Scholar\u2019s Presentations, and student retreats (including Camino retreats). Published site metrics include counts for community membership, scholarships and weekly tutorials."
   },
-  "synthesis": {
-    "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
-    "parameters": {
-      "max_output_tokens": 3000,
-      "structured_output": true,
-      "output_contract": "causebase-summary-v0.3-rc2"
-    },
-    "evidence_input_hash": "69bba02eb37f08692d980c71c423e12af8bd4b7d40960d661f02ca1e8d1ee940",
-    "generated_at": "2026-08-12T14:02:54.936146Z",
-    "editorial_policy_version": "0.3-rc2"
-  },
-  "derivative_assessments": [
+  "activities": [],
+  "beneficiaries": [],
+  "descriptive_geography": [],
+  "navigation_geography": [],
+  "funding_sources": [],
+  "fundraising_methods": [],
+  "participation": [],
+  "opportunities": [],
+  "programs": [
     {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T14:02:54.936146Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-13T13:54:42.956606Z",
-      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
-      "input_hash": "69bba02eb37f08692d980c71c423e12af8bd4b7d40960d661f02ca1e8d1ee940",
-      "disposition": "reused",
-      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
-      "affected_dimensions": [
-        "summary"
-      ]
+      "observation_id": "obs:rc4:cb_3bbf4f13d74a432ab0ca1eb74741adae:program:prg:acnc:51419209376:61f0a241-816f-f111-ab0c-00224894cb3a",
+      "program_id": "prg:acnc:51419209376:61f0a241-816f-f111-ab0c-00224894cb3a",
+      "name": "Fountain",
+      "description": "Education support",
+      "url": "https://newman.unimelb.edu.au/",
+      "status": "current",
+      "claim_basis": "direct",
+      "extraction_method": "api",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:ais:51419209376:0ef0a241-816f-f111-ab0c-00224894cb3a"
+      ],
+      "time": {
+        "reporting_period": {
+          "label": "2025"
+        }
+      },
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_3bbf4f13d74a432ab0ca1eb74741adae:program:prg:acnc:51419209376:6af0a241-816f-f111-ab0c-00224894cb3a",
+      "program_id": "prg:acnc:51419209376:6af0a241-816f-f111-ab0c-00224894cb3a",
+      "name": "Installation of energy savings heating systems",
+      "description": "Environmental economic instruments",
+      "url": "https://newman.unimelb.edu.au/",
+      "status": "current",
+      "claim_basis": "direct",
+      "extraction_method": "api",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:ais:51419209376:0ef0a241-816f-f111-ab0c-00224894cb3a"
+      ],
+      "time": {
+        "reporting_period": {
+          "label": "2025"
+        }
+      },
+      "warnings": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-14-rc4-fundraising-projection-correction",
-  "card_schema_version": "0.4",
-  "editorial_policy_version": "0.4-rc4",
-  "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T13:54:42.956606Z"
+  "relationships": [],
+  "classifications": [
+    {
+      "observation_id": "obs:rc4:cb_3bbf4f13d74a432ab0ca1eb74741adae:classification:0",
+      "classification_id": "cls:rc4:cb_3bbf4f13d74a432ab0ca1eb74741adae:0",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "purpose.education",
+      "term_label": "education",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:51419209376"
+      ],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_3bbf4f13d74a432ab0ca1eb74741adae:classification:1",
+      "classification_id": "cls:rc4:cb_3bbf4f13d74a432ab0ca1eb74741adae:1",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "beneficiary.environment",
+      "term_label": "environment",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:51419209376"
+      ],
+      "confidence": "high",
+      "warnings": []
+    }
+  ],
+  "coverage": {
+    "registry_id": "capability-registry-0.5-initial",
+    "current": [
+      {
+        "capability": "regulatory.acnc_profile",
+        "status": "observed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:acnc:51419209376"
+        ]
+      },
+      {
+        "capability": "regulatory.ais",
+        "status": "observed",
+        "assessed_at": "2026-06-24",
+        "source_record_ids": [
+          "src:acnc-ais-detail:51419209376:0ef0a241-816f-f111-ab0c-00224894cb3a:cb_3bbf4f13d74a432ab0ca1eb74741adae"
+        ],
+        "evidence_ids": [
+          "ev:acnc:ais:51419209376:0ef0a241-816f-f111-ab0c-00224894cb3a"
+        ]
+      },
+      {
+        "capability": "tax.dgr",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "web.website",
+        "status": "observed",
+        "assessed_at": "2026-08-13",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "report.annual_report",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "financial.report",
+        "status": "unknown",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:ais:51419209376:2023"
+        ]
+      },
+      {
+        "capability": "financial.statements",
+        "status": "unknown",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:ais:51419209376:2023"
+        ]
+      },
+      {
+        "capability": "understanding.activities",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.beneficiaries",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.geography",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "programs",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "participation",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "funding.sources",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.methods",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.expenditure",
+        "status": "not_available_from_source",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "taxonomy.causebase",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "semantic.embedding",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      }
+    ]
+  },
+  "financial_reports": [],
+  "canonical_metrics": [],
+  "analytic_projections": [],
+  "derivatives": [
+    {
+      "derivative_id": "der:rc4:cb_3bbf4f13d74a432ab0ca1eb74741adae:summary",
+      "kind": "summary",
+      "input_observation_ids": [],
+      "evidence_ids": [
+        "ev:web:51419209376:2026-08-10",
+        "ev:acnc:51419209376",
+        "ev:ais:51419209376:2023"
+      ],
+      "generated_under": {
+        "output_contract_version": "phase2b-rc4-accepted-rc2-summary-reuse",
+        "input_hash": "69bba02eb37f08692d980c71c423e12af8bd4b7d40960d661f02ca1e8d1ee940",
+        "generated_at": "2026-08-12T14:02:54.936146Z"
+      },
+      "current_assessment": {
+        "assessed_at": "2026-08-13T13:54:42.956606Z",
+        "assessed_against_contract": "0.5",
+        "governing_input_hash": "69bba02eb37f08692d980c71c423e12af8bd4b7d40960d661f02ca1e8d1ee940",
+        "disposition": "reused",
+        "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs."
+      }
+    }
+  ],
+  "legacy_unbound": {
+    "origin_release": "rc4-2026-08-14",
+    "origin_card_sha256": "b0a120ffd068c1b6c2e788bc2f267b7d2b2f719ed91f4661e14f6e9683692633",
+    "activities": [
+      {
+        "value": "residential accommodation for university students",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "tutorial programme and academic mentoring (tutorials delivered weekly)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "scholarships and bursaries administration",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "student community service and outreach programme",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "sporting teams and inter\u2011collegiate competitions",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "music, drama, art productions and concerts",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "guest speakers and Scholar\u2019s Presentations",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "student retreats (Camino retreat)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "beneficiaries": [
+      {
+        "value": "students studying at the University of Melbourne (primary)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "limited places for students at Australian Catholic University (ACU)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "limited places for students at Monash University",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "limited places for students at RMIT",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "descriptive_geography": [
+      {
+        "value": "887 Swanston Street, Parkville, Melbourne, Victoria (Australia)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "classifications": [
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "activity.direct_service",
+        "term_label": "Direct service delivery",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "activity.events_and_public_programming",
+        "term_label": "Events and public programming",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "participation.public_events",
+        "term_label": "Public events",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "participation.volunteering",
+        "term_label": "Volunteering",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "geography.local_or_regional",
+        "term_label": "Local or regional Australia",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "organisation.local",
+        "term_label": "Local organisation",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      }
+    ],
+    "financial_records": [
+      {
+        "financial_record_id": "fr:ais:cb_3bbf4f13d74a432ab0ca1eb74741adae:2023",
+        "period": {
+          "period_start": "2023-01-01",
+          "period_end": "2023-12-31",
+          "period_length_days": 365,
+          "label": "01/01/2023 to 31/12/2023",
+          "is_transitional_or_nonstandard": false
+        },
+        "reporting_scope": "subject",
+        "reporting_subject_causebase_id": "cb_3bbf4f13d74a432ab0ca1eb74741adae",
+        "covered_subjects": [
+          "cb_3bbf4f13d74a432ab0ca1eb74741adae"
+        ],
+        "consolidated": "unknown",
+        "attribution_method": "direct_subject_report",
+        "evidence_ids": [
+          "ev:ais:51419209376:2023"
+        ],
+        "revenue": {
+          "source_amount": "282179",
+          "source_currency": "AUD",
+          "source_unit_scale": "1",
+          "normalised_amount": "282179",
+          "normalised_currency": "AUD",
+          "source_unit_label": null,
+          "source_raw_value": "282179",
+          "source_precision": null
+        },
+        "donations": null,
+        "government_grants": null,
+        "employee_costs": null,
+        "total_expenses": {
+          "source_amount": "193332",
+          "source_currency": "AUD",
+          "source_unit_scale": "1",
+          "normalised_amount": "193332",
+          "normalised_currency": "AUD",
+          "source_unit_label": null,
+          "source_raw_value": "193332",
+          "source_precision": null
+        },
+        "assets": null,
+        "liabilities": null,
+        "net_assets": null,
+        "income_breakdown": [],
+        "expense_breakdown": [],
+        "balance_sheet_breakdown": [],
+        "source_ordered_line_items": [],
+        "statements": [],
+        "donations_gifts_bequests": null,
+        "functional_expense_allocations": []
+      }
+    ]
+  }
 }

@@ -1,1356 +1,369 @@
 {
   "causebase_id": "cb_7e95b7d2c01d4908bec99f30b02c119e",
+  "contract_version": "0.5",
   "subject_kind": "unknown",
-  "external_identifiers": [
-    {
-      "scheme": "abn",
-      "value": "20151472221",
-      "source_evidence_id": "ev:acnc:20151472221"
-    }
+  "identity": {
+    "legal_name": "Steps Staffing Solutions Ltd",
+    "display_name": "Steps Staffing Solutions Ltd",
+    "operating_names": [],
+    "former_names": [],
+    "entity_status": "registered",
+    "website": "https://www.stepsstaffingsolutions.com.au",
+    "external_identifiers": [
+      {
+        "scheme": "abn",
+        "value": "20151472221",
+        "evidence_ids": [
+          "ev:acnc:20151472221"
+        ]
+      }
+    ],
+    "registrations": [
+      {
+        "regulator": "ACNC",
+        "status": "registered",
+        "evidence_ids": [
+          "ev:acnc:20151472221"
+        ]
+      }
+    ],
+    "tax_statuses": [
+      {
+        "scheme": "ABR DGR",
+        "status": "endorsed",
+        "evidence_ids": [
+          "ev:abr-dgr:20151472221:20260805"
+        ]
+      }
+    ]
+  },
+  "release": {
+    "release_id": "v0.5.0-2026-08-15",
+    "dataset_version": "0.5.0-2026-08-15",
+    "contract_version": "0.5",
+    "based_on_release": "rc4-2026-08-14",
+    "generated_at": "2026-08-15T00:00:00Z"
+  },
+  "source_record_refs": [
+    "src:acnc-public-profile:20151472221:734a2bdd-2daf-e811-a960-000d3ad24282:cb_7e95b7d2c01d4908bec99f30b02c119e",
+    "src:acnc-ais-detail:20151472221:57919566-74d9-f011-8544-6045bde61b96:cb_7e95b7d2c01d4908bec99f30b02c119e"
   ],
-  "registrations": [
-    {
-      "regulator": "ACNC",
-      "registration_id": null,
-      "status": "registered",
-      "evidence_ids": [
-        "ev:acnc:20151472221"
-      ]
-    }
-  ],
-  "tax_statuses": [
-    {
-      "scheme": "ABR DGR",
-      "status": "endorsed",
-      "detail": "Dated 2026-08-05 ABR bulk observation",
-      "evidence_ids": [
-        "ev:abr-dgr:20151472221:20260805"
-      ]
-    }
-  ],
-  "relationships": [],
-  "source_resolutions": [
+  "source_bindings": [
     {
       "source_record_id": "src:acnc-register:234e2f90-74f8-5177-8dcb-ea17c66a463c",
       "resolution_status": "resolved",
       "resolution_basis": "automated authoritative ACNC promotion under acnc-authoritative-v1",
       "confidence": "high",
-      "supporting_signals": [
-        "ABN:20151472221",
-        "ACNC Register"
-      ],
-      "conflicting_signals": [],
-      "review_status": "not_required"
-    }
-  ],
-  "legal_name": "Steps Staffing Solutions Ltd",
-  "display_name": "Steps Staffing Solutions Ltd",
-  "entity_status": "registered",
-  "canonical_url": "https://gregorycwhill.github.io/CauseBase-Viewer/#cb_7e95b7d2c01d4908bec99f30b02c119e",
-  "acnc_profile_url": "https://www.acnc.gov.au/charity/charities/734a2bdd-2daf-e811-a960-000d3ad24282/profile",
-  "acnc_ais_url": "https://www.acnc.gov.au/charity/charities/734a2bdd-2daf-e811-a960-000d3ad24282/documents/57919566-74d9-f011-8544-6045bde61b96",
-  "operating_names": [],
-  "former_names": [],
-  "principal_location": "Australia",
-  "coverage": [
-    {
-      "capability": "regulatory",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:acnc:20151472221"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "annual_report",
-      "status": "not_yet_processed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "fundraising_expenditure",
-      "status": "not_available_from_source",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": "No direct or defensible derived fundraising expenditure was found in selected Phase 2A evidence."
-    },
-    {
-      "capability": "financials",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:ais:20151472221:2023"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "latest_acnc_ais",
-      "status": "observed",
-      "source_record_id": "src:acnc-ais-detail:20151472221:57919566-74d9-f011-8544-6045bde61b96:cb_7e95b7d2c01d4908bec99f30b02c119e",
-      "evidence_ids": [
-        "ev:acnc:ais:20151472221:57919566-74d9-f011-8544-6045bde61b96"
-      ],
-      "observed_at": "2025-12-15",
-      "freshness_note": "Latest submitted AIS detail acquired from the public ACNC entity endpoint."
-    },
-    {
-      "capability": "website",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-13",
-      "freshness_note": "Public website locator acquired from the ACNC profile."
-    }
-  ],
-  "enrichment_level": "enriched",
-  "website": "https://www.stepsstaffingsolutions.com.au",
-  "geography": [],
-  "geography_observations": [],
-  "navigation_geography": [],
-  "causebase_summary": "Steps Staffing Solutions Ltd is an Australian entity registered with the Australian Charities and Not-for-profits Commission. The organisation lodged an ACNC Annual Information Statement covering 1 July 2022 to 30 June 2023. CauseBase does not have sufficient descriptive evidence in this release to independently identify the organisation’s specific activities, services or intended beneficiaries.",
-  "summary_evidence_ids": [
-    "ev:acnc:20151472221",
-    "ev:ais:20151472221:2023"
-  ],
-  "organisation_self_description": null,
-  "activities": [],
-  "activity_observations": [],
-  "beneficiaries": [],
-  "beneficiary_observations": [],
-  "participation_modes": [],
-  "participation_observations": [],
-  "opportunities": [],
-  "programs": [
-    {
-      "program_id": "prg:acnc:20151472221:a2919566-74d9-f011-8544-6045bde61b96",
-      "name": "Labour Hire and Employment Services",
-      "description": "Employment",
-      "beneficiaries": [
-        "People with disabilities"
-      ],
-      "geography": [
-        "Sunshine Coast QLD, Australia",
-        "Bundaberg QLD, Australia",
-        "Hobart TAS, Australia",
-        "Northern Territory, Australia"
-      ],
-      "status": "current",
-      "reporting_period": "2025",
-      "source_url": "https://www.acnc.gov.au/charity/charities/734a2bdd-2daf-e811-a960-000d3ad24282/documents/57919566-74d9-f011-8544-6045bde61b96",
-      "evidence_ids": [
-        "ev:acnc:ais:20151472221:57919566-74d9-f011-8544-6045bde61b96"
-      ]
-    }
-  ],
-  "source_native_records": [
-    {
-      "source_record_id": "src:acnc-public-profile:20151472221:734a2bdd-2daf-e811-a960-000d3ad24282:cb_7e95b7d2c01d4908bec99f30b02c119e",
-      "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-14-public-api",
-      "source_url": "https://www.acnc.gov.au/charity/charities/734a2bdd-2daf-e811-a960-000d3ad24282/profile",
-      "retrieved_at": "2026-08-13T13:54:42.956606Z",
-      "observed_at": "2025-12-15",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "uuid": "734a2bdd-2daf-e811-a960-000d3ad24282",
-        "abn": "20151472221"
-      },
-      "source_payload": {
-        "data": {
-          "AFSEmail": "info@stepsstaffingsolutions.com.au",
-          "Abn": "20151472221",
-          "AddressCountry": "Australia",
-          "AddressLine1": null,
-          "AddressLine2": null,
-          "AddressLine3": null,
-          "AddressPostalCode": null,
-          "AddressStateOrProvince": null,
-          "AddressSuburb": null,
-          "AnnualReports": [
-            {
-              "AISId": "8d37fa9d-52a0-ed11-aad1-002248933c76",
-              "DateReceived": "2023-01-30T04:00:26.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2023-01-31T00:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2022",
-              "type": "Annual Information Statement 2022",
-              "uuid": "e458b73c-d063-eb11-b0b0-000d3acbaeea"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2023-01-30T04:00:17.0000000Z",
-              "DocumentUuid": "71d59596-52a0-ed11-aad1-00224811425f",
-              "DueDate": "2023-01-31T00:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2022",
-              "type": "Financial Report 2022",
-              "uuid": "f358b73c-d063-eb11-b0b0-000d3acbaeea"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2020-01-21T06:10:20.0000000Z",
-              "DocumentUuid": "ef5dcaad-143c-ea11-a812-000d3ad1cc03",
-              "DueDate": "2020-01-31T00:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2019",
-              "type": "Financial Report 2019",
-              "uuid": "fde8adca-fb25-e911-a977-000d3ad064bd"
-            },
-            {
-              "AISId": "93d1d8af-143c-ea11-a813-000d3ad1cd99",
-              "DateReceived": "2020-01-21T06:10:25.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2020-01-31T00:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2019",
-              "type": "Annual Information Statement 2019",
-              "uuid": "38e9adca-fb25-e911-a977-000d3ad064bd"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2021-01-28T08:05:18.0000000Z",
-              "DocumentUuid": "3155fc88-3f61-eb11-a812-000d3a6a4d58",
-              "DueDate": "2021-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2020",
-              "type": "Financial Report 2020",
-              "uuid": "79e9adca-fb25-e911-a977-000d3ad064bd"
-            },
-            {
-              "AISId": "c9c95a8e-3f61-eb11-89f5-000d3acbaeea",
-              "DateReceived": "2021-01-28T08:05:25.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2021-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2020",
-              "type": "Annual Information Statement 2020",
-              "uuid": "a6e9adca-fb25-e911-a977-000d3ad064bd"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2026-12-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Not yet submitted",
-              "Year": "2026",
-              "type": "Annual Information Statement 2026",
-              "uuid": "566321c7-d5df-ef11-a731-000d3ad18bb1"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2026-12-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Pending",
-              "Year": "2026",
-              "type": "Financial Report 2026",
-              "uuid": "c46321c7-d5df-ef11-a731-000d3ad18bb1"
-            },
-            {
-              "AISId": "7f9d5bac-0180-ec11-8d20-002248922257",
-              "DateReceived": "2022-01-28T06:15:33.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2022-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2021",
-              "type": "Annual Information Statement 2021",
-              "uuid": "5d302490-8d44-ea11-a813-000d3ad1fbf8"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2022-01-28T06:15:24.0000000Z",
-              "DocumentUuid": "552c69a7-0180-ec11-8d20-00224891d923",
-              "DueDate": "2022-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2021",
-              "type": "Financial Report 2021",
-              "uuid": "74302490-8d44-ea11-a813-000d3ad1fbf8"
-            },
-            {
-              "AISId": "d84f2ba5-4fc8-e811-a964-000d3ad244fd",
-              "DateReceived": "2013-10-17T13:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2014-03-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2013",
-              "type": "Annual Information Statement 2013",
-              "uuid": "a31355a2-4fc8-e811-a964-000d3ad24077"
-            },
-            {
-              "AISId": "df4f2ba5-4fc8-e811-a964-000d3ad244fd",
-              "DateReceived": "2014-11-26T13:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2015-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2014",
-              "type": "Annual Information Statement 2014",
-              "uuid": "ad1355a2-4fc8-e811-a964-000d3ad24077"
-            },
-            {
-              "AISId": "e64f2ba5-4fc8-e811-a964-000d3ad244fd",
-              "DateReceived": "2016-01-12T13:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2016-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2015",
-              "type": "Annual Information Statement 2015",
-              "uuid": "b41355a2-4fc8-e811-a964-000d3ad24077"
-            },
-            {
-              "AISId": "eb4f2ba5-4fc8-e811-a964-000d3ad244fd",
-              "DateReceived": "2017-01-30T13:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2017-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2016",
-              "type": "Annual Information Statement 2016",
-              "uuid": "bc1355a2-4fc8-e811-a964-000d3ad24077"
-            },
-            {
-              "AISId": "f54f2ba5-4fc8-e811-a964-000d3ad244fd",
-              "DateReceived": "2018-01-30T13:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2018-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2017",
-              "type": "Annual Information Statement 2017",
-              "uuid": "c71355a2-4fc8-e811-a964-000d3ad24077"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required",
-              "Year": "2016",
-              "type": "Financial Report 2016",
-              "uuid": "399d464d-3dc8-e811-a961-000d3ad24282"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required",
-              "Year": "2013",
-              "type": "Financial Report 2013",
-              "uuid": "5d9d464d-3dc8-e811-a961-000d3ad24282"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2018-01-30T13:00:00.0000000Z",
-              "DocumentUuid": "3c9c638b-3bb0-e811-a961-000d3ad24182",
-              "DueDate": "2018-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2017",
-              "type": "Financial Report 2017",
-              "uuid": "2b8f4253-3dc8-e811-a961-000d3ad24282"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required",
-              "Year": "2014",
-              "type": "Financial Report 2014",
-              "uuid": "408f4253-3dc8-e811-a961-000d3ad24282"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required",
-              "Year": "2015",
-              "type": "Financial Report 2015",
-              "uuid": "518f4253-3dc8-e811-a961-000d3ad24282"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2019-03-18T00:50:32.0000000Z",
-              "DocumentUuid": "4495c2c9-1749-e911-a96e-000d3ad24c60",
-              "DueDate": "2019-03-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2018",
-              "type": "Financial Report 2018",
-              "uuid": "638f4253-3dc8-e811-a961-000d3ad24282"
-            },
-            {
-              "AISId": "975e57d4-1749-e911-a97b-000d3ad064bd",
-              "DateReceived": "2019-03-18T00:50:46.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2019-03-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2018",
-              "type": "Annual Information Statement 2018",
-              "uuid": "c0298740-3ac8-e811-a963-000d3ad24a0d"
-            },
-            {
-              "AISId": "684d3248-fbbf-ee11-9079-002248933d22",
-              "DateReceived": "2024-01-31T05:41:07.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2024-01-31T00:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2023",
-              "type": "Annual Information Statement 2023",
-              "uuid": "95390713-9f82-ec11-8d20-002248929158"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2024-01-31T05:40:38.0000000Z",
-              "DocumentUuid": "8415513e-fbbf-ee11-9079-00224893bd39",
-              "DueDate": "2024-01-31T00:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2023",
-              "type": "Financial Report 2023",
-              "uuid": "9a390713-9f82-ec11-8d20-002248929158"
-            },
-            {
-              "AISId": "57919566-74d9-f011-8544-6045bde61b96",
-              "DateReceived": "2025-12-15T05:10:51.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2026-01-31T00:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2025",
-              "type": "Annual Information Statement 2025",
-              "uuid": "cd89280c-97c0-ee11-907a-00224893b8c7"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2025-12-15T05:10:54.0000000Z",
-              "DocumentUuid": "253a9f54-74d9-f011-8544-7ced8d344e2d",
-              "DueDate": "2026-01-31T00:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2025",
-              "type": "Financial Report 2025",
-              "uuid": "028a280c-97c0-ee11-907a-00224893b8c7"
-            },
-            {
-              "AISId": "eb217b7e-35dd-ef11-a730-002248955a6d",
-              "DateReceived": "2025-01-28T05:05:42.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2025-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2024",
-              "type": "Annual Information Statement 2024",
-              "uuid": "3e786908-c8a1-ed11-aad1-00224893bffb"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2025-01-28T05:05:33.0000000Z",
-              "DocumentUuid": "70d28278-35dd-ef11-a730-002248955a6d",
-              "DueDate": "2025-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2024",
-              "type": "Financial Report 2024",
-              "uuid": "82786908-c8a1-ed11-aad1-00224893bffb"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2027-12-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Not yet submitted",
-              "Year": "2027",
-              "type": "Annual Information Statement 2027",
-              "uuid": "26b15226-07ff-f011-8407-6045bdc4655a"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2027-12-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Pending",
-              "Year": "2027",
-              "type": "Financial Report 2027",
-              "uuid": "48b15226-07ff-f011-8407-6045bdc4655a"
-            }
-          ],
-          "Beneficiaries": [
-            {
-              "Description": null,
-              "Name": "People with disabilities",
-              "uuid": "d3919566-74d9-f011-8544-6045bde61b96"
-            }
-          ],
-          "CharitySize": "Large",
-          "CharitySubtypeHistory": [
-            {
-              "EndDate": "2013-12-30T13:00:00.0000000Z",
-              "Purpose": "2012 Another purpose beneficial to the community",
-              "StartDate": "2012-12-02T13:00:00.0000000Z",
-              "uuid": "65722c10-fcc6-e811-a962-000d3ad24182"
-            },
-            {
-              "EndDate": "2013-12-30T13:00:00.0000000Z",
-              "Purpose": "2012 Public benevolent institution",
-              "StartDate": "2012-12-02T13:00:00.0000000Z",
-              "uuid": "71722c10-fcc6-e811-a962-000d3ad24182"
-            },
-            {
-              "EndDate": null,
-              "Purpose": "Public Benevolent Institution (PBI)",
-              "StartDate": "2013-12-31T13:00:00.0000000Z",
-              "uuid": "89722c10-fcc6-e811-a962-000d3ad24182"
-            }
-          ],
-          "CharityVersion": "104",
-          "ChildMemberEndDate": null,
-          "ChildMemberStartDate": null,
-          "ChooseToProvideAis": null,
-          "Countries": [
-            {
-              "Name": "Australia",
-              "uuid": "f57b5602-9a4d-e811-a951-000d3ad06f2d"
-            }
-          ],
-          "DateEstablished": "2010-12-31T13:00:00.0000000Z",
-          "Documents": [
-            {
-              "Date": "2014-11-27T00:00:00.0000000",
-              "Title": "Constitution_Steps Group Aust Holding Ltd.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/734a2bdd-2daf-e811-a960-000d3ad24282-12e46d82-fa4b-4104-8b33-8508712ded24-Governing%20Document-1f9c638b-3bb0-e811-a961-000d3ad24182-Constitution_Steps_Group_Aust_Holding_Ltd.pdf",
-              "Year": "2014",
-              "type": "Governing Document",
-              "uuid": "1f9c638b-3bb0-e811-a961-000d3ad24182"
-            },
-            {
-              "Date": "2021-01-28T00:00:00.0000000",
-              "Title": "2020 SSS Financials Final Signed 011020.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/734a2bdd-2daf-e811-a960-000d3ad24282-12e46d82-fa4b-4104-8b33-8508712ded24-Financial%20Report-3155fc88-3f61-eb11-a812-000d3a6a4d58-2020_SSS_Financials_Final_Signed_011020.pdf",
-              "Year": "2020",
-              "type": "Financial Report",
-              "uuid": "3155fc88-3f61-eb11-a812-000d3a6a4d58"
-            },
-            {
-              "Date": "2020-01-21T00:00:00.0000000",
-              "Title": "SSS 2019 Financials_Signed.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/734a2bdd-2daf-e811-a960-000d3ad24282-12e46d82-fa4b-4104-8b33-8508712ded24-Financial%20Report-ef5dcaad-143c-ea11-a812-000d3ad1cc03-SSS_2019_Financials_Signed.pdf",
-              "Year": "2019",
-              "type": "Financial Report",
-              "uuid": "ef5dcaad-143c-ea11-a812-000d3ad1cc03"
-            },
-            {
-              "Date": "2018-01-31T00:00:00.0000000",
-              "Title": "SSSFinancials Signed.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/734a2bdd-2daf-e811-a960-000d3ad24282-12e46d82-fa4b-4104-8b33-8508712ded24-Financial%20Report-3c9c638b-3bb0-e811-a961-000d3ad24182-SSSFinancials_Signed.pdf",
-              "Year": "2017",
-              "type": "Financial Report",
-              "uuid": "3c9c638b-3bb0-e811-a961-000d3ad24182"
-            },
-            {
-              "Date": "2019-03-18T00:00:00.0000000",
-              "Title": "SSS 2018 Financials Signed.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/734a2bdd-2daf-e811-a960-000d3ad24282-12e46d82-fa4b-4104-8b33-8508712ded24-Financial%20Report-4495c2c9-1749-e911-a96e-000d3ad24c60-SSS_2018_Financials_Signed.pdf",
-              "Year": "2018",
-              "type": "Financial Report",
-              "uuid": "4495c2c9-1749-e911-a96e-000d3ad24c60"
-            },
-            {
-              "Date": "2023-01-30T00:00:00.0000000",
-              "Title": "2022 SSS Financials Final.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/734a2bdd-2daf-e811-a960-000d3ad24282-12e46d82-fa4b-4104-8b33-8508712ded24-Financial%20Report-71d59596-52a0-ed11-aad1-00224811425f-2022_SSS_Financials_Final.pdf",
-              "Year": "2022",
-              "type": "Financial Report",
-              "uuid": "71d59596-52a0-ed11-aad1-00224811425f"
-            },
-            {
-              "Date": "2022-01-28T00:00:00.0000000",
-              "Title": "SSS 2021 Financials Final Signed.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/734a2bdd-2daf-e811-a960-000d3ad24282-12e46d82-fa4b-4104-8b33-8508712ded24-Financial%20Report-552c69a7-0180-ec11-8d20-00224891d923-SSS_2021_Financials_Final_Signed.pdf",
-              "Year": "2021",
-              "type": "Financial Report",
-              "uuid": "552c69a7-0180-ec11-8d20-00224891d923"
-            },
-            {
-              "Date": "2024-01-31T00:00:00.0000000",
-              "Title": "2023 SSS Financials Final.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/734a2bdd-2daf-e811-a960-000d3ad24282-12e46d82-fa4b-4104-8b33-8508712ded24-Financial%20Report-8415513e-fbbf-ee11-9079-00224893bd39-2023_SSS_Financials_Final.pdf",
-              "Year": "2023",
-              "type": "Financial Report",
-              "uuid": "8415513e-fbbf-ee11-9079-00224893bd39"
-            },
-            {
-              "Date": "2025-01-28T00:00:00.0000000",
-              "Title": "STEPS Staffing Solutions Ltd - Signed Financial statements.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/734a2bdd-2daf-e811-a960-000d3ad24282-12e46d82-fa4b-4104-8b33-8508712ded24-Financial%20Report-70d28278-35dd-ef11-a730-002248955a6d-STEPS_Staffing_Solutions_Ltd_-_Signed_Financial_statements.pdf",
-              "Year": "2024",
-              "type": "Financial Report",
-              "uuid": "70d28278-35dd-ef11-a730-002248955a6d"
-            },
-            {
-              "Date": "2025-12-15T00:00:00.0000000",
-              "Title": "STEPS Staffing Solutions Ltd 2025 - Signed.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/734a2bdd-2daf-e811-a960-000d3ad24282-12e46d82-fa4b-4104-8b33-8508712ded24-Financial%20Report-253a9f54-74d9-f011-8544-7ced8d344e2d-STEPS_Staffing_Solutions_Ltd_2025_-_Signed.pdf",
-              "Year": "2025",
-              "type": "Financial Report",
-              "uuid": "253a9f54-74d9-f011-8544-7ced8d344e2d"
-            }
-          ],
-          "Email": "info@stepsstaffingsolutions.com.au",
-          "EnforcementOutcomes": [],
-          "FinancialYearEnd": "30/06",
-          "GovernmentAgencies": [
-            {
-              "Name": "Australian Securities and Investment Commission",
-              "ReferenceNumber": "151472221",
-              "uuid": "cb6a64b3-e6af-e811-a962-000d3ad24a0d"
-            }
-          ],
-          "GroupHeadFlag": false,
-          "LastReported": "2025-12-15T05:10:54.0000000Z",
-          "Name": "Steps Staffing Solutions Ltd",
-          "NextReportDue": "2026-12-31T12:30:00.0000000Z",
-          "OperatingInStates": [
-            {
-              "Name": "Tasmania",
-              "uuid": "4fa3219c-455e-e811-a95c-000d3ad1c715"
-            },
-            {
-              "Name": "Queensland",
-              "uuid": "2cf593a5-455e-e811-a95c-000d3ad1c715"
-            },
-            {
-              "Name": "Northern Territory",
-              "uuid": "dd77d9b9-455e-e811-a95c-000d3ad1c715"
-            }
-          ],
-          "OtherDetails": null,
-          "OtherNames": [
-            {
-              "Name": null,
-              "uuid": "9a37fa9d-52a0-ed11-aad1-002248933c76"
-            }
-          ],
-          "ParentAccountAbn": null,
-          "ParentAccountId": null,
-          "Phone": null,
-          "Programs": [
-            {
-              "AisUuid": "57919566-74d9-f011-8544-6045bde61b96",
-              "Name": "Labour Hire and Employment Services",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "People with disabilities"
-              ],
-              "ProgramClassie": [
-                {
-                  "classie_id": "134",
-                  "label": "Employment",
-                  "parent_id": "133",
-                  "selected": true
-                },
-                {
-                  "classie_id": "133",
-                  "label": "Economic development",
-                  "parent_id": null,
-                  "selected": false
-                }
-              ],
-              "ProgramClassification": "Employment",
-              "ProgramClassificationID": "134",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "Sunshine Coast QLD, Australia",
-                  "FormattedAddress": "Sunshine Coast QLD, Australia",
-                  "Marker": {
-                    "Latitude": -26.65,
-                    "Longitude": 153.066667
-                  },
-                  "Name": "Sunshine Coast",
-                  "uuid": "b7919566-74d9-f011-8544-6045bde61b96"
-                },
-                {
-                  "DisplayName": "Bundaberg QLD, Australia",
-                  "FormattedAddress": "Bundaberg QLD 4670, Australia",
-                  "Marker": {
-                    "Latitude": -24.8660809,
-                    "Longitude": 152.3488645
-                  },
-                  "Name": "Bundaberg",
-                  "uuid": "ba919566-74d9-f011-8544-6045bde61b96"
-                },
-                {
-                  "DisplayName": "Hobart TAS, Australia",
-                  "FormattedAddress": "Hobart TAS, Australia",
-                  "Marker": {
-                    "Latitude": -42.8821377,
-                    "Longitude": 147.3271949
-                  },
-                  "Name": "Hobart",
-                  "uuid": "c1919566-74d9-f011-8544-6045bde61b96"
-                },
-                {
-                  "DisplayName": "Northern Territory, Australia",
-                  "FormattedAddress": "Northern Territory, Australia",
-                  "Marker": {
-                    "Latitude": -19.4914108,
-                    "Longitude": 132.5509603
-                  },
-                  "Name": "Northern Territory",
-                  "uuid": "c3919566-74d9-f011-8544-6045bde61b96"
-                }
-              ],
-              "ProgramWeblink": null,
-              "uuid": "a2919566-74d9-f011-8544-6045bde61b96"
-            }
-          ],
-          "ReferendumReturnsUrl": null,
-          "RegistrationStatusHistory": [
-            {
-              "EffectiveDate": "2012-12-02T13:00:00.0000000Z",
-              "Status": "Registered",
-              "TransactionDate": "2012-12-02T13:00:00.0000000Z",
-              "uuid": "27f40a4c-06c6-e811-a962-000d3ad24182"
-            }
-          ],
-          "RelatedPartyTransactions": null,
-          "RelevantTransactions": null,
-          "ReportingLate": "2027-06-30T12:30:00.0000000Z",
-          "ResponsiblePersons": [
-            {
-              "Name": "Shelton Wabersinke",
-              "Role": "Board Member",
-              "uuid": "103e7eb4-6c36-e911-a979-000d3ad064bd"
-            },
-            {
-              "Name": "Helen Ferguson",
-              "Role": "Director",
-              "uuid": "95ffd1dd-03bc-e811-a963-000d3ad24a0d"
-            },
-            {
-              "Name": "Christine Jones",
-              "Role": "Director",
-              "uuid": "c655a833-1cbc-e811-a961-000d3ad24282"
-            },
-            {
-              "Name": "Michael Lutje",
-              "Role": "Treasurer",
-              "uuid": "ef73d8cf-1bbc-e811-a963-000d3ad24a0d"
-            },
-            {
-              "Name": "Carmel Crouch",
-              "Role": "Director",
-              "uuid": "9e2b227e-1abc-e811-a963-000d3ad24a0d"
-            }
-          ],
-          "Status": "Registered",
-          "SummaryOfActivities": "Providing labour hire and recruitment services in the social and community sector. Any proceeds are then distributed to STEPS Pathways Charity which enables people with a disability to live independently.",
-          "TotalExpensesEmployee": "3400140",
-          "TotalExpensesGrantsAndDonationsInAustralia": "150000",
-          "TotalExpensesGrantsAndDonationsOutsideAustralia": "0",
-          "TotalExpensesInterest": "0",
-          "TotalExpensesOther": "599935",
-          "TotalGrossIncomeDonationsAndRequests": "0",
-          "TotalGrossIncomeGoodsOrServices": "4159379",
-          "TotalGrossIncomeGovernmentGrants": "0",
-          "TotalGrossIncomeInvestments": "0",
-          "TotalGrossIncomeOtherRevenues": "0",
-          "TransparencyRegisterUrl": null,
-          "Website": "https://www.stepsstaffingsolutions.com.au",
-          "__normalized": true,
-          "type": "charity",
-          "uuid": "734a2bdd-2daf-e811-a960-000d3ad24282"
-        },
-        "type": "charity",
-        "uuid": "734a2bdd-2daf-e811-a960-000d3ad24282"
-      },
-      "canonical_field_mappings": {
-        "data.OtherNames": "operating_names",
-        "data.AddressStateOrProvince": "principal_location"
-      },
-      "evidence_ids": []
-    },
-    {
-      "source_record_id": "src:acnc-ais-detail:20151472221:57919566-74d9-f011-8544-6045bde61b96:cb_7e95b7d2c01d4908bec99f30b02c119e",
-      "source_family": "acnc-ais-detail",
-      "dataset_version": "2026-08-14-public-api",
-      "source_url": "https://www.acnc.gov.au/charity/charities/734a2bdd-2daf-e811-a960-000d3ad24282/documents/57919566-74d9-f011-8544-6045bde61b96",
-      "retrieved_at": "2026-08-13T13:54:42.956606Z",
-      "observed_at": "2025-12-15",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "abn": "20151472221",
-        "ais_uuid": "57919566-74d9-f011-8544-6045bde61b96",
-        "year": "2025",
-        "date_received": "2025-12-15T05:10:51.0000000Z"
-      },
-      "source_payload": {
-        "data": {
-          "Abn": "20151472221",
-          "ActivityAdvocacyNCivic": false,
-          "ActivityAgedCare": false,
-          "ActivityAnimalProtection": false,
-          "ActivityCultureAndArt": false,
-          "ActivityEconomicSocialCommunity": false,
-          "ActivityEmergencyNRelief": false,
-          "ActivityEmploymentNTraining": false,
-          "ActivityEnvironmental": false,
-          "ActivityGrantMaking": false,
-          "ActivityHealthRehabilitation": false,
-          "ActivityHigherEducation": false,
-          "ActivityHousing": false,
-          "ActivityIncomeSupportNMaintenance": false,
-          "ActivityInternational": false,
-          "ActivityInternationalDescription": null,
-          "ActivityInternationalOther": false,
-          "ActivityInternationalOtherDescription": null,
-          "ActivityLawNLegalServices": false,
-          "ActivityMain": null,
-          "ActivityMentalHealthCrisisIntervention": false,
-          "ActivityNdisSupported": null,
-          "ActivityNdisSupportedNext": null,
-          "ActivityOperating": true,
-          "ActivityOperatingOverseas": false,
-          "ActivityOther": false,
-          "ActivityOtherDescription": null,
-          "ActivityOtherEducation": false,
-          "ActivityOtherHealthServices": false,
-          "ActivityPersuitPurposesDescription": "Providing labour hire and recruitment services in the social and community sector. Any proceeds are then distributed to STEPS Pathways Charity which enables people with a disability to live independently.",
-          "ActivityPhilanthropicPromotion": false,
-          "ActivityPolitical": false,
-          "ActivityPrimarySecondaryEducation": false,
-          "ActivityPurposeChange": null,
-          "ActivityPurposeChangeDescription": null,
-          "ActivityRecreationSocialClub": false,
-          "ActivityReligious": false,
-          "ActivityResearch": false,
-          "ActivitySocialServices": false,
-          "ActivitySports": false,
-          "ActivityTransferringFundsGoods": false,
-          "AdvancementOfEducation": false,
-          "AdvancementOfReligion": false,
-          "AssetsandLiabilitiesDescription": null,
-          "BasicReligiousCharity": false,
-          "BeneficiaryAboriginalTorres": false,
-          "BeneficiaryAdults": false,
-          "BeneficiaryAllAges": false,
-          "BeneficiaryChildren": false,
-          "BeneficiaryChronicIllness": false,
-          "BeneficiaryCrimeVictims": false,
-          "BeneficiaryDisasterVictims": false,
-          "BeneficiaryEarlyChildhood": false,
-          "BeneficiaryEthnic": false,
-          "BeneficiaryFamilies": false,
-          "BeneficiaryFinanciallyDisadvantaged": false,
-          "BeneficiaryGeneral": false,
-          "BeneficiaryHomelessnessRisk": false,
-          "BeneficiaryLGBT": false,
-          "BeneficiaryMain": null,
-          "BeneficiaryMen": false,
-          "BeneficiaryMigrantsRefugees": false,
-          "BeneficiaryOffenderFamilies": false,
-          "BeneficiaryOther": false,
-          "BeneficiaryOtherCharities": false,
-          "BeneficiaryOtherDescription": null,
-          "BeneficiaryOverseas": false,
-          "BeneficiaryPeopleWithDisability": false,
-          "BeneficiaryRuralRegionalRemote": false,
-          "BeneficiarySeniors": false,
-          "BeneficiaryUnemployed": false,
-          "BeneficiaryVeteranFamilies": false,
-          "BeneficiaryWomen": false,
-          "BeneficiaryYouth": false,
-          "CharityAddressCountry": "Australia",
-          "CharityAddressLine1": null,
-          "CharityAddressLine2": null,
-          "CharityAddressPostalCode": null,
-          "CharityAddressStateOrProvince": null,
-          "CharityAddressSuburb": null,
-          "CharityEmail": "info@stepsstaffingsolutions.com.au",
-          "CharitySize": "Large",
-          "CharityUuid": "734a2bdd-2daf-e811-a960-000d3ad24282",
-          "ChildCareServices": false,
-          "ExpenseEmployees": "3400140.0000",
-          "ExpenseGrantDonationsInAustralia": "150000.0000",
-          "ExpenseGrantDonationsOutsideAustralia": "0.0000",
-          "ExpenseTotal": "4150075.0000",
-          "ExpensesOther": "599935.0000",
-          "FinAccrualAccounting": null,
-          "FinConsolidatedReportFromMiltiple": "No",
-          "FinDocumentedPoliciesRelatedPartyTransactions": null,
-          "FinFyeJune": false,
-          "FinProvideVoluntarily": null,
-          "FinRelatedPartyTransactions": "Yes",
-          "FinReportACT": false,
-          "FinReportFrom": "2024-07-01T00:00:00.0000000Z",
-          "FinReportNSW": false,
-          "FinReportNT": false,
-          "FinReportQLD": false,
-          "FinReportSA": false,
-          "FinReportTAS": false,
-          "FinReportTo": "2025-06-30T00:00:00.0000000Z",
-          "FinReportVIC": false,
-          "FinReportWA": false,
-          "FinReportingType": "General purpose financial statements   simplified disclosure",
-          "FinSapDate": null,
-          "FundRaisingNumberACT": null,
-          "FundRaisingNumberNSW": null,
-          "FundRaisingNumberQLD": null,
-          "FundRaisingNumberSA": null,
-          "FundRaisingNumberTAS": null,
-          "FundRaisingNumberVIC": null,
-          "FundRaisingNumberWA": null,
-          "GovDocAccurate": null,
-          "GrantCapacityBuildingPct": null,
-          "GrantMultiYearPct": null,
-          "GrantPublicOpenApplicationPct": null,
-          "GrantRuralRegionPct": null,
-          "HasSubmittedToRegulator": false,
-          "HoursPaid": null,
-          "HoursTotal": null,
-          "HoursVolunteer": null,
-          "HrCasualEmployees": "0",
-          "HrFteStaff": "5.0000000000",
-          "HrFullTimeEmployees": "5",
-          "HrPartTimeEmployees": "0",
-          "HrUnpainVolunteers": "0",
-          "IncomeDonationsBequests": "0.0000",
-          "IncomeGovernmentGrants": "0.0000",
-          "IncomeOther": "0.0000",
-          "IncomeOtherComprehinsive": "0.0000",
-          "IncomeOtherNeg": null,
-          "IncomeOtherReceipts": "0.0000",
-          "IncomeTotalComprehensive": "9304.0000",
-          "IncomeTotalReceipts": "4159379.0000",
-          "IncorporationStatus": null,
-          "InterestExpense": "0.0000",
-          "IsIncorporatedAssociation": false,
-          "KeyManagementPersonnel": true,
-          "LegalName": "Steps Staffing Solutions Ltd",
-          "NetAssetsLiabilities": "448823.0000",
-          "NetSurplusDeficit": "9304.0000",
-          "NonCurrentLoansPayable": "0.0000",
-          "NumberOfKeyManagementPersonnel": "8",
-          "OperatingCountries": null,
-          "OperatingInACT": false,
-          "OperatingInNSW": false,
-          "OperatingInNT": false,
-          "OperatingInQLD": false,
-          "OperatingInSA": false,
-          "OperatingInTAS": false,
-          "OperatingInVIC": false,
-          "OperatingInWA": false,
-          "OperatingOverseas": false,
-          "OtherNames": [],
-          "OtherNonCurrentAssets": "363667.0000",
-          "OtherNonCurrentLiabilities": "281070.0000",
-          "OtherPurposeDescription": null,
-          "OtherPurposes": "False",
-          "Programs": [
-            {
-              "AisUuid": "57919566-74d9-f011-8544-6045bde61b96",
-              "Name": "Labour Hire and Employment Services",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "People with disabilities"
-              ],
-              "ProgramClassification": "Employment",
-              "ProgramClassificationID": "134",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "Sunshine Coast QLD, Australia",
-                  "FormattedAddress": "Sunshine Coast QLD, Australia",
-                  "Marker": {
-                    "Latitude": -26.65,
-                    "Longitude": 153.066667
-                  },
-                  "Name": "Sunshine Coast",
-                  "uuid": "b7919566-74d9-f011-8544-6045bde61b96"
-                },
-                {
-                  "DisplayName": "Bundaberg QLD, Australia",
-                  "FormattedAddress": "Bundaberg QLD 4670, Australia",
-                  "Marker": {
-                    "Latitude": -24.8660809,
-                    "Longitude": 152.3488645
-                  },
-                  "Name": "Bundaberg",
-                  "uuid": "ba919566-74d9-f011-8544-6045bde61b96"
-                },
-                {
-                  "DisplayName": "Hobart TAS, Australia",
-                  "FormattedAddress": "Hobart TAS, Australia",
-                  "Marker": {
-                    "Latitude": -42.8821377,
-                    "Longitude": 147.3271949
-                  },
-                  "Name": "Hobart",
-                  "uuid": "c1919566-74d9-f011-8544-6045bde61b96"
-                },
-                {
-                  "DisplayName": "Northern Territory, Australia",
-                  "FormattedAddress": "Northern Territory, Australia",
-                  "Marker": {
-                    "Latitude": -19.4914108,
-                    "Longitude": 132.5509603
-                  },
-                  "Name": "Northern Territory",
-                  "uuid": "c3919566-74d9-f011-8544-6045bde61b96"
-                }
-              ],
-              "ProgramWeblink": null,
-              "uuid": "a2919566-74d9-f011-8544-6045bde61b96"
-            }
-          ],
-          "RegulatedACT": false,
-          "RegulatedNSW": false,
-          "RegulatedNT": false,
-          "RegulatedQLD": false,
-          "RegulatedSA": false,
-          "RegulatedTAS": false,
-          "RegulatedVIC": false,
-          "RegulatedWA": false,
-          "Regulator": null,
-          "RegulatorAGMDateACT": null,
-          "RegulatorAGMDateNT": null,
-          "RegulatorAGMDateVIC": null,
-          "RegulatorAGMDateWA": null,
-          "RegulatorFundRaising": "No",
-          "RegulatorFundRaisingACT": false,
-          "RegulatorFundRaisingNSW": false,
-          "RegulatorFundRaisingNT": false,
-          "RegulatorFundRaisingOnline": false,
-          "RegulatorFundRaisingQLD": false,
-          "RegulatorFundRaisingSA": false,
-          "RegulatorFundRaisingTAS": false,
-          "RegulatorFundRaisingVIC": false,
-          "RegulatorFundRaisingWA": false,
-          "RegulatorIncorporatedAssociationACT": false,
-          "RegulatorIncorporatedAssociationNSW": false,
-          "RegulatorIncorporatedAssociationNT": false,
-          "RegulatorIncorporatedAssociationNumberACT": null,
-          "RegulatorIncorporatedAssociationNumberNSW": null,
-          "RegulatorIncorporatedAssociationNumberNT": null,
-          "RegulatorIncorporatedAssociationNumberQLD": null,
-          "RegulatorIncorporatedAssociationNumberSA": null,
-          "RegulatorIncorporatedAssociationNumberTAS": null,
-          "RegulatorIncorporatedAssociationNumberVIC": null,
-          "RegulatorIncorporatedAssociationNumberWA": null,
-          "RegulatorIncorporatedAssociationQLD": false,
-          "RegulatorIncorporatedAssociationSA": false,
-          "RegulatorIncorporatedAssociationTAS": false,
-          "RegulatorIncorporatedAssociationVIC": false,
-          "RegulatorIncorporatedAssociationWA": false,
-          "RegulatorMetRequirementACT": false,
-          "RegulatorMetRequirementWA": null,
-          "RegulatorOtherDetails": null,
-          "RegulatorPrograms": null,
-          "RegulatorStates": false,
-          "RelatedPartyDetails": "page 15",
-          "RelatedPartyTransactions": [
-            {
-              "Description": "",
-              "Transaction": "Fees paid to a related party for providing goods or services to the charity",
-              "uuid": "67919566-74d9-f011-8544-6045bde61b96"
-            },
-            {
-              "Description": "",
-              "Transaction": "Loans from/to a related party",
-              "uuid": "6c919566-74d9-f011-8544-6045bde61b96"
-            }
-          ],
-          "ReliefOfPoverty": false,
-          "ReportingGroupFlag": false,
-          "ResponsiblePersonAccurate": null,
-          "RevenueGoodsServices": "4159379.0000",
-          "RevenueInvestments": "0.0000",
-          "RevenueTotal": "4159379.0000",
-          "StatementYear": "2025",
-          "SubTypesAccurate": null,
-          "TotalAssets": "1134284.0000",
-          "TotalCurrentAssets": "770617.0000",
-          "TotalCurrentLiabilities": "404391.0000",
-          "TotalLiabilities": "685461.0000",
-          "TotalNonCurrentAssets": "363667.0000",
-          "TotalNonCurrentLiabilities": "281070.0000",
-          "TotalNonCurrentLoansReceivable": "0.0000",
-          "TotalPaidKMP": "$195,498.00",
-          "Website": "https://www.stepsstaffingsolutions.com.au",
-          "__normalized": true,
-          "entityTypeVersion": "",
-          "entityVersion": "1809319371",
-          "timeStamp": "2025-12-15T05:10:45.0000000Z",
-          "type": "annual_information_statement",
-          "uuid": "57919566-74d9-f011-8544-6045bde61b96"
-        },
-        "type": "annual_information_statement",
-        "uuid": "57919566-74d9-f011-8544-6045bde61b96"
-      },
-      "canonical_field_mappings": {
-        "data.Programs": "programs",
-        "data.TotalRevenue": "financial_records[].revenue",
-        "data.TotalExpenses": "financial_records[].total_expenses"
-      },
-      "evidence_ids": [
-        "ev:acnc:ais:20151472221:57919566-74d9-f011-8544-6045bde61b96"
-      ]
-    }
-  ],
-  "financial_records": [
-    {
-      "financial_record_id": "fr:ais:cb_7e95b7d2c01d4908bec99f30b02c119e:2023",
-      "period": {
-        "period_start": "2022-07-01",
-        "period_end": "2023-06-30",
-        "period_length_days": 365,
-        "label": "01/07/2022 to 30/06/2023",
-        "is_transitional_or_nonstandard": false
-      },
-      "reporting_scope": "subject",
-      "reporting_subject_causebase_id": "cb_7e95b7d2c01d4908bec99f30b02c119e",
-      "covered_subjects": [
-        "cb_7e95b7d2c01d4908bec99f30b02c119e"
-      ],
-      "consolidated": "false",
-      "attribution_method": "direct_subject_report",
-      "evidence_ids": [
-        "ev:ais:20151472221:2023"
-      ],
-      "revenue": {
-        "source_amount": "5176925",
-        "source_currency": "AUD",
-        "source_unit_scale": "1",
-        "normalised_amount": "5176925",
-        "normalised_currency": "AUD",
-        "source_unit_label": null,
-        "source_raw_value": "5176925",
-        "source_precision": null
-      },
-      "donations": null,
-      "government_grants": null,
-      "employee_costs": null,
-      "total_expenses": {
-        "source_amount": "5027845",
-        "source_currency": "AUD",
-        "source_unit_scale": "1",
-        "normalised_amount": "5027845",
-        "normalised_currency": "AUD",
-        "source_unit_label": null,
-        "source_raw_value": "5027845",
-        "source_precision": null
-      },
-      "assets": null,
-      "liabilities": null,
-      "net_assets": null,
-      "income_breakdown": [],
-      "expense_breakdown": [],
-      "balance_sheet_breakdown": [],
-      "source_ordered_line_items": [],
-      "statements": [],
-      "donations_gifts_bequests": null,
-      "functional_expense_allocations": []
-    }
-  ],
-  "financial_metrics": [
-    {
-      "metric": "revenue",
-      "observations": [
-        {
-          "financial_record_id": "fr:ais:cb_7e95b7d2c01d4908bec99f30b02c119e:2023",
-          "amount": {
-            "source_amount": "5176925",
-            "source_currency": "AUD",
-            "source_unit_scale": "1",
-            "normalised_amount": "5176925",
-            "normalised_currency": "AUD",
-            "source_unit_label": null,
-            "source_raw_value": "5176925",
-            "source_precision": null
-          },
-          "metric_source_label": null,
-          "evidence_ids": [
-            "ev:ais:20151472221:2023"
-          ]
-        }
-      ],
-      "reconciliation_status": "single_observation",
-      "reconciliation_notes": null
-    },
-    {
-      "metric": "total_expenses",
-      "observations": [
-        {
-          "financial_record_id": "fr:ais:cb_7e95b7d2c01d4908bec99f30b02c119e:2023",
-          "amount": {
-            "source_amount": "5027845",
-            "source_currency": "AUD",
-            "source_unit_scale": "1",
-            "normalised_amount": "5027845",
-            "normalised_currency": "AUD",
-            "source_unit_label": null,
-            "source_raw_value": "5027845",
-            "source_precision": null
-          },
-          "metric_source_label": null,
-          "evidence_ids": [
-            "ev:ais:20151472221:2023"
-          ]
-        }
-      ],
-      "reconciliation_status": "single_observation",
-      "reconciliation_notes": null
-    }
-  ],
-  "fundraising_expenditure": null,
-  "funding_sources": [],
-  "fundraising_methods": [],
-  "classifications": [
-    {
-      "taxonomy_id": "acnc-register",
-      "taxonomy_version": "2026-08-10",
-      "term_id": "purpose.other_purpose",
-      "term_label": "other purpose",
-      "assignment_method": "source_native",
-      "confidence": "high",
-      "evidence_ids": [
-        "ev:acnc:20151472221"
-      ]
-    },
-    {
-      "taxonomy_id": "acnc-register",
-      "taxonomy_version": "2026-08-10",
-      "term_id": "beneficiary.people_with_disability",
-      "term_label": "people with disability",
-      "assignment_method": "source_native",
-      "confidence": "high",
-      "evidence_ids": [
-        "ev:acnc:20151472221"
-      ]
+      "review_status": "not_required",
+      "conflicting_signals": []
     }
   ],
   "evidence": [
     {
       "evidence_id": "ev:acnc:20151472221",
-      "source_type": "regulatory",
-      "title": "ACNC Register extract",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": null,
-      "observed_at": "2026-08-10",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "title": "ACNC Register extract"
     },
     {
       "evidence_id": "ev:ais:20151472221:2023",
-      "source_type": "regulatory",
-      "title": "ACNC AIS 2023 extract",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": null,
-      "observed_at": "2026-08-10",
-      "reporting_period": "01/07/2022 to 30/06/2023",
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "title": "ACNC AIS 2023 extract"
     },
     {
       "evidence_id": "ev:acnc:ais:20151472221:57919566-74d9-f011-8544-6045bde61b96",
-      "source_type": "regulatory",
       "title": "ACNC Annual Information Statement 2025",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": "https://www.acnc.gov.au/charity/charities/734a2bdd-2daf-e811-a960-000d3ad24282/documents/57919566-74d9-f011-8544-6045bde61b96",
-      "observed_at": "2025-12-15",
-      "reporting_period": "2025",
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://www.acnc.gov.au/charity/charities/734a2bdd-2daf-e811-a960-000d3ad24282/documents/57919566-74d9-f011-8544-6045bde61b96"
     },
     {
       "evidence_id": "ev:abr-dgr:20151472221:20260805",
-      "source_type": "regulatory",
       "title": "ABR DGR bulk observation",
-      "publisher": "Australian Business Register / Australian Taxation Office",
-      "url": "https://abr.business.gov.au/Tools/BulkExtract",
-      "observed_at": "2026-08-05",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://abr.business.gov.au/Tools/BulkExtract"
     }
   ],
-  "embedding": {
-    "embedding_id": "cb_7e95b7d2c01d4908bec99f30b02c119e:entity:text-embedding-3-small",
-    "embedding_type": "entity",
-    "model_id": "text-embedding-3-small",
-    "model_version": "text-embedding-3-small",
-    "dimensions": 1536,
-    "source_text_hash": "c957c4cbd4159ceaa41d87727cfdadb4873df462aea0640f65f62ace6a473783",
-    "generated_at": "2026-08-10T13:53:24.457303Z",
-    "vector_ref": "embeddings.parquet#cb_7e95b7d2c01d4908bec99f30b02c119e"
+  "summary": {
+    "derivative_id": "der:rc4:cb_7e95b7d2c01d4908bec99f30b02c119e:summary",
+    "text": "Steps Staffing Solutions Ltd is an Australian entity registered with the Australian Charities and Not-for-profits Commission. The organisation lodged an ACNC Annual Information Statement covering 1 July 2022 to 30 June 2023. CauseBase does not have sufficient descriptive evidence in this release to independently identify the organisation\u2019s specific activities, services or intended beneficiaries."
   },
-  "synthesis": {
-    "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
-    "parameters": {
-      "max_output_tokens": 3000,
-      "structured_output": true,
-      "output_contract": "causebase-summary-v0.3-rc2"
-    },
-    "evidence_input_hash": "d0e193083ceb8ef7fb791765fa1513df6526ef7193901caf7bc2d0d425d54005",
-    "generated_at": "2026-08-12T14:05:10.745105Z",
-    "editorial_policy_version": "0.3-rc2"
-  },
-  "derivative_assessments": [
+  "activities": [],
+  "beneficiaries": [],
+  "descriptive_geography": [],
+  "navigation_geography": [],
+  "funding_sources": [],
+  "fundraising_methods": [],
+  "participation": [],
+  "opportunities": [],
+  "programs": [
     {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T14:05:10.745105Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-13T13:54:42.956606Z",
-      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
-      "input_hash": "d0e193083ceb8ef7fb791765fa1513df6526ef7193901caf7bc2d0d425d54005",
-      "disposition": "reused",
-      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
-      "affected_dimensions": [
-        "summary"
-      ]
+      "observation_id": "obs:rc4:cb_7e95b7d2c01d4908bec99f30b02c119e:program:prg:acnc:20151472221:a2919566-74d9-f011-8544-6045bde61b96",
+      "program_id": "prg:acnc:20151472221:a2919566-74d9-f011-8544-6045bde61b96",
+      "name": "Labour Hire and Employment Services",
+      "description": "Employment",
+      "url": "https://www.acnc.gov.au/charity/charities/734a2bdd-2daf-e811-a960-000d3ad24282/documents/57919566-74d9-f011-8544-6045bde61b96",
+      "status": "current",
+      "claim_basis": "direct",
+      "extraction_method": "api",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:ais:20151472221:57919566-74d9-f011-8544-6045bde61b96"
+      ],
+      "time": {
+        "reporting_period": {
+          "label": "2025"
+        }
+      },
+      "warnings": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-14-rc4-fundraising-projection-correction",
-  "card_schema_version": "0.4",
-  "editorial_policy_version": "0.4-rc4",
-  "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T13:54:42.956606Z"
+  "relationships": [],
+  "classifications": [
+    {
+      "observation_id": "obs:rc4:cb_7e95b7d2c01d4908bec99f30b02c119e:classification:0",
+      "classification_id": "cls:rc4:cb_7e95b7d2c01d4908bec99f30b02c119e:0",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "purpose.other_purpose",
+      "term_label": "other purpose",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:20151472221"
+      ],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_7e95b7d2c01d4908bec99f30b02c119e:classification:1",
+      "classification_id": "cls:rc4:cb_7e95b7d2c01d4908bec99f30b02c119e:1",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "beneficiary.people_with_disability",
+      "term_label": "people with disability",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:20151472221"
+      ],
+      "confidence": "high",
+      "warnings": []
+    }
+  ],
+  "coverage": {
+    "registry_id": "capability-registry-0.5-initial",
+    "current": [
+      {
+        "capability": "regulatory.acnc_profile",
+        "status": "observed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:acnc:20151472221"
+        ]
+      },
+      {
+        "capability": "regulatory.ais",
+        "status": "observed",
+        "assessed_at": "2025-12-15",
+        "source_record_ids": [
+          "src:acnc-ais-detail:20151472221:57919566-74d9-f011-8544-6045bde61b96:cb_7e95b7d2c01d4908bec99f30b02c119e"
+        ],
+        "evidence_ids": [
+          "ev:acnc:ais:20151472221:57919566-74d9-f011-8544-6045bde61b96"
+        ]
+      },
+      {
+        "capability": "tax.dgr",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "web.website",
+        "status": "observed",
+        "assessed_at": "2026-08-13",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "report.annual_report",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "financial.report",
+        "status": "unknown",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:ais:20151472221:2023"
+        ]
+      },
+      {
+        "capability": "financial.statements",
+        "status": "unknown",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:ais:20151472221:2023"
+        ]
+      },
+      {
+        "capability": "understanding.activities",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.beneficiaries",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.geography",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "programs",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "participation",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "funding.sources",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.methods",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.expenditure",
+        "status": "not_available_from_source",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "taxonomy.causebase",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "semantic.embedding",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      }
+    ]
+  },
+  "financial_reports": [],
+  "canonical_metrics": [],
+  "analytic_projections": [],
+  "derivatives": [
+    {
+      "derivative_id": "der:rc4:cb_7e95b7d2c01d4908bec99f30b02c119e:summary",
+      "kind": "summary",
+      "input_observation_ids": [],
+      "evidence_ids": [
+        "ev:acnc:20151472221",
+        "ev:ais:20151472221:2023"
+      ],
+      "generated_under": {
+        "output_contract_version": "phase2b-rc4-accepted-rc2-summary-reuse",
+        "input_hash": "d0e193083ceb8ef7fb791765fa1513df6526ef7193901caf7bc2d0d425d54005",
+        "generated_at": "2026-08-12T14:05:10.745105Z"
+      },
+      "current_assessment": {
+        "assessed_at": "2026-08-13T13:54:42.956606Z",
+        "assessed_against_contract": "0.5",
+        "governing_input_hash": "d0e193083ceb8ef7fb791765fa1513df6526ef7193901caf7bc2d0d425d54005",
+        "disposition": "reused",
+        "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs."
+      }
+    }
+  ],
+  "legacy_unbound": {
+    "origin_release": "rc4-2026-08-14",
+    "origin_card_sha256": "7c744b1966fea3b6a456be71c54e7517051ce7fabc11b287615c115f841cd7a2",
+    "financial_records": [
+      {
+        "financial_record_id": "fr:ais:cb_7e95b7d2c01d4908bec99f30b02c119e:2023",
+        "period": {
+          "period_start": "2022-07-01",
+          "period_end": "2023-06-30",
+          "period_length_days": 365,
+          "label": "01/07/2022 to 30/06/2023",
+          "is_transitional_or_nonstandard": false
+        },
+        "reporting_scope": "subject",
+        "reporting_subject_causebase_id": "cb_7e95b7d2c01d4908bec99f30b02c119e",
+        "covered_subjects": [
+          "cb_7e95b7d2c01d4908bec99f30b02c119e"
+        ],
+        "consolidated": "false",
+        "attribution_method": "direct_subject_report",
+        "evidence_ids": [
+          "ev:ais:20151472221:2023"
+        ],
+        "revenue": {
+          "source_amount": "5176925",
+          "source_currency": "AUD",
+          "source_unit_scale": "1",
+          "normalised_amount": "5176925",
+          "normalised_currency": "AUD",
+          "source_unit_label": null,
+          "source_raw_value": "5176925",
+          "source_precision": null
+        },
+        "donations": null,
+        "government_grants": null,
+        "employee_costs": null,
+        "total_expenses": {
+          "source_amount": "5027845",
+          "source_currency": "AUD",
+          "source_unit_scale": "1",
+          "normalised_amount": "5027845",
+          "normalised_currency": "AUD",
+          "source_unit_label": null,
+          "source_raw_value": "5027845",
+          "source_precision": null
+        },
+        "assets": null,
+        "liabilities": null,
+        "net_assets": null,
+        "income_breakdown": [],
+        "expense_breakdown": [],
+        "balance_sheet_breakdown": [],
+        "source_ordered_line_items": [],
+        "statements": [],
+        "donations_gifts_bequests": null,
+        "functional_expense_allocations": []
+      }
+    ]
+  }
 }

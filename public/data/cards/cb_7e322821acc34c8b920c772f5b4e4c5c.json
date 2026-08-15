@@ -1,1419 +1,525 @@
 {
   "causebase_id": "cb_7e322821acc34c8b920c772f5b4e4c5c",
+  "contract_version": "0.5",
   "subject_kind": "unknown",
-  "external_identifiers": [
-    {
-      "scheme": "abn",
-      "value": "49079016738",
-      "source_evidence_id": "ev:acnc:49079016738"
-    }
+  "identity": {
+    "legal_name": "Adelaide Symphony Orchestra Pty Ltd",
+    "display_name": "Adelaide Symphony Orchestra Pty Ltd",
+    "operating_names": [],
+    "former_names": [],
+    "entity_status": "registered",
+    "website": "https://www.aso.com.au",
+    "external_identifiers": [
+      {
+        "scheme": "abn",
+        "value": "49079016738",
+        "evidence_ids": [
+          "ev:acnc:49079016738"
+        ]
+      }
+    ],
+    "registrations": [
+      {
+        "regulator": "ACNC",
+        "status": "registered",
+        "evidence_ids": [
+          "ev:acnc:49079016738"
+        ]
+      }
+    ],
+    "tax_statuses": [
+      {
+        "scheme": "ABR DGR",
+        "status": "endorsed",
+        "evidence_ids": [
+          "ev:abr-dgr:49079016738:20260805"
+        ]
+      }
+    ]
+  },
+  "release": {
+    "release_id": "v0.5.0-2026-08-15",
+    "dataset_version": "0.5.0-2026-08-15",
+    "contract_version": "0.5",
+    "based_on_release": "rc4-2026-08-14",
+    "generated_at": "2026-08-15T00:00:00Z"
+  },
+  "source_record_refs": [
+    "src:acnc-public-profile:49079016738:caaabce4-2daf-e811-a963-000d3ad244fd:cb_7e322821acc34c8b920c772f5b4e4c5c",
+    "src:acnc-ais-detail:49079016738:c96ba0c3-44c8-e811-a964-000d3ad24077:cb_7e322821acc34c8b920c772f5b4e4c5c",
+    "src:report-extract:49079016738:5848f21901bd747f:cb_7e322821acc34c8b920c772f5b4e4c5c",
+    "src:report-extract:49079016738:ac09d642f2546982:cb_7e322821acc34c8b920c772f5b4e4c5c"
   ],
-  "registrations": [
-    {
-      "regulator": "ACNC",
-      "registration_id": null,
-      "status": "registered",
-      "evidence_ids": [
-        "ev:acnc:49079016738"
-      ]
-    }
-  ],
-  "tax_statuses": [
-    {
-      "scheme": "ABR DGR",
-      "status": "endorsed",
-      "detail": "Dated 2026-08-05 ABR bulk observation",
-      "evidence_ids": [
-        "ev:abr-dgr:49079016738:20260805"
-      ]
-    }
-  ],
-  "relationships": [],
-  "source_resolutions": [
+  "source_bindings": [
     {
       "source_record_id": "src:acnc-register:d82ef5e3-7e75-593a-ba5c-e44658894168",
       "resolution_status": "resolved",
       "resolution_basis": "automated authoritative ACNC promotion under acnc-authoritative-v1",
       "confidence": "high",
-      "supporting_signals": [
-        "ABN:49079016738",
-        "ACNC Register"
-      ],
-      "conflicting_signals": [],
-      "review_status": "not_required"
-    }
-  ],
-  "legal_name": "Adelaide Symphony Orchestra Pty Ltd",
-  "display_name": "Adelaide Symphony Orchestra Pty Ltd",
-  "entity_status": "registered",
-  "canonical_url": "https://gregorycwhill.github.io/CauseBase-Viewer/#cb_7e322821acc34c8b920c772f5b4e4c5c",
-  "acnc_profile_url": "https://www.acnc.gov.au/charity/charities/caaabce4-2daf-e811-a963-000d3ad244fd/profile",
-  "acnc_ais_url": "https://www.acnc.gov.au/charity/charities/caaabce4-2daf-e811-a963-000d3ad244fd/documents/c96ba0c3-44c8-e811-a964-000d3ad24077",
-  "operating_names": [],
-  "former_names": [],
-  "principal_location": "SA, Australia",
-  "coverage": [
-    {
-      "capability": "regulatory",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:acnc:49079016738"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "annual_report",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:report:49079016738:5848f21901bd",
-        "ev:report:49079016738:ac09d642f254"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "latest_acnc_ais",
-      "status": "observed",
-      "source_record_id": "src:acnc-ais-detail:49079016738:c96ba0c3-44c8-e811-a964-000d3ad24077:cb_7e322821acc34c8b920c772f5b4e4c5c",
-      "evidence_ids": [
-        "ev:acnc:ais:49079016738:c96ba0c3-44c8-e811-a964-000d3ad24077"
-      ],
-      "observed_at": "2015-07-01",
-      "freshness_note": "Latest submitted AIS detail acquired from the public ACNC entity endpoint."
-    },
-    {
-      "capability": "website",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-13",
-      "freshness_note": "Public website locator acquired from the ACNC profile."
-    },
-    {
-      "capability": "financials",
-      "status": "observed",
-      "source_record_id": "src:report-extract:49079016738:ac09d642f2546982:cb_7e322821acc34c8b920c772f5b4e4c5c",
-      "evidence_ids": [
-        "ev:report:49079016738:ac09d642f2546982"
-      ],
-      "observed_at": "2026-08-13",
-      "freshness_note": "Financial report processed through the generic report extractor."
-    },
-    {
-      "capability": "fundraising_expenditure",
-      "status": "not_available_from_source",
-      "source_record_id": "src:report-extract:49079016738:ac09d642f2546982:cb_7e322821acc34c8b920c772f5b4e4c5c",
-      "evidence_ids": [
-        "ev:report:49079016738:ac09d642f2546982"
-      ],
-      "observed_at": "2026-08-13",
-      "freshness_note": "Relevant report pages were processed; no direct fundraising-expenditure amount was recovered."
-    }
-  ],
-  "enrichment_level": "enriched",
-  "website": "https://www.aso.com.au",
-  "geography": [
-    "South Australia (Adelaide and regional towns including Peterborough and Clare)"
-  ],
-  "geography_observations": [
-    {
-      "value": "South Australia (Adelaide and regional towns including Peterborough and Clare)",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "navigation_geography": [],
-  "causebase_summary": "Adelaide Symphony Orchestra Pty Ltd is a professional symphony orchestra based in Adelaide, South Australia. It presents a season of concerts at venues including Adelaide Town Hall, Elder Hall and the Festival Theatre, and undertakes regional touring and community concerts in South Australian towns such as Peterborough and Clare. The ASO runs learning and schools programmes and community projects (for example Floods of Fire), collaborates with festivals and other companies, and produces digital and broadcast programming including an online concert platform and mini‑recitals. Public participation opportunities include ticketed concerts, community workshops and participatory projects, and online attendance; the organisation also references volunteers and other supporter involvement.",
-  "summary_evidence_ids": [
-    "ev:web:49079016738:2026-08-10",
-    "ev:report:49079016738:5848f21901bd"
-  ],
-  "organisation_self_description": null,
-  "activities": [
-    "Symphony and concert series at Adelaide Town Hall, Elder Hall and Festival Theatre",
-    "Regional touring and community concerts in South Australia (Peterborough, Clare, mid‑north)",
-    "Learning and schools programmes including commissioned school works and incursions",
-    "Community projects and participatory work (Floods of Fire)",
-    "Collaborations with festivals and companies (Adelaide Festival, WOMADelaide, State Opera, The Australian Ballet)",
-    "Digital and broadcast programming (Virtual Concert Hall, online mini‑recitals, Silos & Symphonies)"
-  ],
-  "activity_observations": [
-    {
-      "value": "Symphony and concert series at Adelaide Town Hall, Elder Hall and Festival Theatre",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Regional touring and community concerts in South Australia (Peterborough, Clare, mid‑north)",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Learning and schools programmes including commissioned school works and incursions",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Community projects and participatory work (Floods of Fire)",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Collaborations with festivals and companies (Adelaide Festival, WOMADelaide, State Opera, The Australian Ballet)",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Digital and broadcast programming (Virtual Concert Hall, online mini‑recitals, Silos & Symphonies)",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "beneficiaries": [
-    "Audiences in metropolitan Adelaide",
-    "Audiences in regional South Australian towns (Peterborough, Clare)",
-    "School students reached through incursions and learning projects",
-    "Community groups taking part in participatory projects and community centre concerts"
-  ],
-  "beneficiary_observations": [
-    {
-      "value": "Audiences in metropolitan Adelaide",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Audiences in regional South Australian towns (Peterborough, Clare)",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "School students reached through incursions and learning projects",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Community groups taking part in participatory projects and community centre concerts",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "participation_modes": [
-    "Public concerts and festival performances",
-    "Community workshops and participatory projects",
-    "Digital attendance via online broadcasts and learning resources",
-    "Volunteering and supporter involvement (volunteers and donors referenced)"
-  ],
-  "participation_observations": [
-    {
-      "mode": "membership",
-      "label": "Membership",
-      "action_url": null,
-      "status": "current",
-      "observed_at": "2026-08-13",
-      "evidence_ids": [
-        "ev:report:49079016738:5848f21901bd747f"
-      ]
-    },
-    {
-      "mode": "volunteer",
-      "label": "Volunteer",
-      "action_url": null,
-      "status": "current",
-      "observed_at": "2026-08-13",
-      "evidence_ids": [
-        "ev:report:49079016738:5848f21901bd747f"
-      ]
-    },
-    {
-      "mode": "donate",
-      "label": "Donate",
-      "action_url": null,
-      "status": "current",
-      "observed_at": "2026-08-13",
-      "evidence_ids": [
-        "ev:report:49079016738:5848f21901bd747f"
-      ]
-    }
-  ],
-  "opportunities": [],
-  "programs": [],
-  "source_native_records": [
-    {
-      "source_record_id": "src:acnc-public-profile:49079016738:caaabce4-2daf-e811-a963-000d3ad244fd:cb_7e322821acc34c8b920c772f5b4e4c5c",
-      "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-14-public-api",
-      "source_url": "https://www.acnc.gov.au/charity/charities/caaabce4-2daf-e811-a963-000d3ad244fd/profile",
-      "retrieved_at": "2026-08-13T13:54:42.956606Z",
-      "observed_at": "2015-07-01",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "uuid": "caaabce4-2daf-e811-a963-000d3ad244fd",
-        "abn": "49079016738"
-      },
-      "source_payload": {
-        "data": {
-          "AFSAddressPostalCode": "5000",
-          "AFSEmail": "evansa@aso.com.au",
-          "Abn": "49079016738",
-          "AddressCountry": "AUSTRALIA",
-          "AddressLine1": "91 Hindley St",
-          "AddressLine2": null,
-          "AddressLine3": null,
-          "AddressPostalCode": "5000",
-          "AddressStateOrProvince": "SA",
-          "AddressSuburb": "Adelaide",
-          "AddressSuburbStatePostcode": "Adelaide SA 5000",
-          "AnnualReports": [
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required - group",
-              "Year": "2019",
-              "type": "Financial Report 2019",
-              "uuid": "1cbb29e5-e725-e911-a973-000d3ad0574c"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": true,
-              "Status": "Not required - group",
-              "Year": "2019",
-              "type": "Annual Information Statement 2019",
-              "uuid": "56bb29e5-e725-e911-a973-000d3ad0574c"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required - group",
-              "Year": "2020",
-              "type": "Financial Report 2020",
-              "uuid": "99bb29e5-e725-e911-a973-000d3ad0574c"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": true,
-              "Status": "Not required - group",
-              "Year": "2020",
-              "type": "Annual Information Statement 2020",
-              "uuid": "bdbb29e5-e725-e911-a973-000d3ad0574c"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": true,
-              "Status": "Not required - group",
-              "Year": "2021",
-              "type": "Annual Information Statement 2021",
-              "uuid": "6b0a9882-e3ba-ea11-a812-000d3ad1ce4e"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required - group",
-              "Year": "2021",
-              "type": "Financial Report 2021",
-              "uuid": "310b9882-e3ba-ea11-a812-000d3ad1ce4e"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required - group",
-              "Year": "2016",
-              "type": "Financial Report 2016",
-              "uuid": "15d94659-3dc8-e811-a962-000d3ad24182"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required - group",
-              "Year": "2017",
-              "type": "Financial Report 2017",
-              "uuid": "24d94659-3dc8-e811-a962-000d3ad24182"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required - group",
-              "Year": "2018",
-              "type": "Financial Report 2018",
-              "uuid": "39d94659-3dc8-e811-a962-000d3ad24182"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required - group",
-              "Year": "2015",
-              "type": "Financial Report 2015",
-              "uuid": "50d94659-3dc8-e811-a962-000d3ad24182"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2014-06-07T14:00:00.0000000Z",
-              "DocumentUuid": "1b601086-3db0-e811-a963-000d3ad24077",
-              "DueDate": "2014-06-29T14:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2013",
-              "type": "Financial Report 2013",
-              "uuid": "5fd94659-3dc8-e811-a962-000d3ad24182"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": true,
-              "Status": "Not required - group",
-              "Year": "2015",
-              "type": "Annual Information Statement 2015",
-              "uuid": "39e86845-3ac8-e811-a964-000d3ad244fd"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": true,
-              "Status": "Not required - group",
-              "Year": "2016",
-              "type": "Annual Information Statement 2016",
-              "uuid": "42e86845-3ac8-e811-a964-000d3ad244fd"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": true,
-              "Status": "Not required - group",
-              "Year": "2017",
-              "type": "Annual Information Statement 2017",
-              "uuid": "4fe86845-3ac8-e811-a964-000d3ad244fd"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": true,
-              "Status": "Not required - group",
-              "Year": "2018",
-              "type": "Annual Information Statement 2018",
-              "uuid": "58e86845-3ac8-e811-a964-000d3ad244fd"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2015-07-01T14:00:00.0000000Z",
-              "DocumentUuid": "94601086-3db0-e811-a963-000d3ad24077",
-              "DueDate": "2015-08-05T14:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2014",
-              "type": "Financial Report 2014",
-              "uuid": "a62cb25d-3dc8-e811-a964-000d3ad244fd"
-            },
-            {
-              "AISId": "c46ba0c3-44c8-e811-a964-000d3ad24077",
-              "DateReceived": "2014-06-07T14:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2014-06-29T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2013",
-              "type": "Annual Information Statement 2013",
-              "uuid": "812462c8-44c8-e811-a95f-000d3ad24c60"
-            },
-            {
-              "AISId": "c96ba0c3-44c8-e811-a964-000d3ad24077",
-              "DateReceived": "2015-07-01T14:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2015-08-05T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2014",
-              "type": "Annual Information Statement 2014",
-              "uuid": "882462c8-44c8-e811-a95f-000d3ad24c60"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": true,
-              "Status": "Not required - group",
-              "Year": "2026",
-              "type": "Annual Information Statement 2026",
-              "uuid": "3ba97049-bc55-f011-bec1-000d3ad272a4"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required - group",
-              "Year": "2026",
-              "type": "Financial Report 2026",
-              "uuid": "48a97049-bc55-f011-bec1-000d3ad272a4"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": true,
-              "Status": "Not required - group",
-              "Year": "2022",
-              "type": "Annual Information Statement 2022",
-              "uuid": "b85d9f2b-bdd9-eb11-bacb-002248107829"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required - group",
-              "Year": "2022",
-              "type": "Financial Report 2022",
-              "uuid": "ca5d9f2b-bdd9-eb11-bacb-002248107829"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": true,
-              "Status": "Not required - group",
-              "Year": "2023",
-              "type": "Annual Information Statement 2023",
-              "uuid": "1dab77e4-8af8-ec11-82e6-00224811d503"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required - group",
-              "Year": "2023",
-              "type": "Financial Report 2023",
-              "uuid": "28ab77e4-8af8-ec11-82e6-00224811d503"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": true,
-              "Status": "Not required - group",
-              "Year": "2024",
-              "type": "Annual Information Statement 2024",
-              "uuid": "990c8ae2-5117-ee11-8f6d-00224893b0ed"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required - group",
-              "Year": "2024",
-              "type": "Financial Report 2024",
-              "uuid": "b20c8ae2-5117-ee11-8f6d-00224893b0ed"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": true,
-              "Status": "Not required - group",
-              "Year": "2025",
-              "type": "Annual Information Statement 2025",
-              "uuid": "06b04f60-e936-ef11-a317-00224893b304"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required - group",
-              "Year": "2025",
-              "type": "Financial Report 2025",
-              "uuid": "18b04f60-e936-ef11-a317-00224893b304"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": true,
-              "Status": "Not required - group",
-              "Year": "2027",
-              "type": "Annual Information Statement 2027",
-              "uuid": "02182e19-8c74-f111-ab0e-70a8a553aca8"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required - group",
-              "Year": "2027",
-              "type": "Financial Report 2027",
-              "uuid": "1d182e19-8c74-f111-ab0e-70a8a553aca8"
-            }
-          ],
-          "Beneficiaries": [
-            {
-              "Description": null,
-              "Name": "Children - aged 6 to under 15",
-              "uuid": "990355e9-79bc-e811-a964-000d3ad24077"
-            },
-            {
-              "Description": null,
-              "Name": "All ages",
-              "uuid": "e47df6e3-79bc-e811-a962-000d3ad24182"
-            },
-            {
-              "Description": null,
-              "Name": "Adults - aged 25 to under 65",
-              "uuid": "d1f1e6e4-79bc-e811-a964-000d3ad244fd"
-            },
-            {
-              "Description": null,
-              "Name": "Males",
-              "uuid": "69f2e6e4-79bc-e811-a964-000d3ad244fd"
-            },
-            {
-              "Description": null,
-              "Name": "People with disabilities",
-              "uuid": "8ff2e6e4-79bc-e811-a964-000d3ad244fd"
-            },
-            {
-              "Description": null,
-              "Name": "Adults - aged 65 and over",
-              "uuid": "e38ccbe5-79bc-e811-a963-000d3ad24a0d"
-            },
-            {
-              "Description": null,
-              "Name": "Youth - 15 to under 25",
-              "uuid": "768dcbe5-79bc-e811-a963-000d3ad24a0d"
-            },
-            {
-              "Description": null,
-              "Name": "People with chronic illness (including terminal illness)",
-              "uuid": "ff44fde6-79bc-e811-a95f-000d3ad24c60"
-            },
-            {
-              "Description": null,
-              "Name": "Females",
-              "uuid": "8645fde6-79bc-e811-a95f-000d3ad24c60"
-            }
-          ],
-          "CharitySize": "Large",
-          "CharitySubtypeHistory": [
-            {
-              "EndDate": "2013-12-30T13:00:00.0000000Z",
-              "Purpose": "2012 Another purpose beneficial to the community",
-              "StartDate": "2012-12-02T13:00:00.0000000Z",
-              "uuid": "a1e81d16-fcc6-e811-a964-000d3ad244fd"
-            },
-            {
-              "EndDate": null,
-              "Purpose": "Advancing culture",
-              "StartDate": "2013-12-31T13:00:00.0000000Z",
-              "uuid": "bce81d16-fcc6-e811-a964-000d3ad244fd"
-            },
-            {
-              "EndDate": "2023-10-23T13:00:00.0000000Z",
-              "Purpose": "Purposes beneficial to the general public that may reasonably be regarded as analogous to, or within the spirit of, any of the other charitable purposes",
-              "StartDate": "2013-12-31T13:00:00.0000000Z",
-              "uuid": "cfe81d16-fcc6-e811-a964-000d3ad244fd"
-            }
-          ],
-          "CharityVersion": "169",
-          "ChildMemberEndDate": null,
-          "ChildMemberStartDate": "2015-01-01T00:00:00.0000000",
-          "ChooseToProvideAis": null,
-          "Countries": [],
-          "DateEstablished": "1996-12-31T13:00:00.0000000Z",
-          "Documents": [
-            {
-              "Date": "2023-10-06T00:00:00.0000000",
-              "Title": "ASO Pty Ltd Constitution Approved 25 September 2023.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/caaabce4-2daf-e811-a963-000d3ad244fd-7060f4b6-7974-4191-9638-c924bd74d001-Governing%20Document-c6a8217a-3e64-ee11-8df0-002248110683-ASO_Pty_Ltd_Constitution_Approved_25_September_2023.pdf",
-              "Year": null,
-              "type": "Governing Document",
-              "uuid": "c6a8217a-3e64-ee11-8df0-002248110683"
-            },
-            {
-              "Date": "2014-06-08T00:00:00.0000000",
-              "Title": "ASO AnnualReport 2013.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/caaabce4-2daf-e811-a963-000d3ad244fd-7060f4b6-7974-4191-9638-c924bd74d001-Financial%20Report-1b601086-3db0-e811-a963-000d3ad24077-ASO_AnnualReport_2013.pdf",
-              "Year": "2013",
-              "type": "Financial Report",
-              "uuid": "1b601086-3db0-e811-a963-000d3ad24077"
-            },
-            {
-              "Date": "2015-07-20T00:00:00.0000000",
-              "Title": "ASO200415-annual-report-FINAL.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/caaabce4-2daf-e811-a963-000d3ad244fd-7060f4b6-7974-4191-9638-c924bd74d001-Financial%20Report-94601086-3db0-e811-a963-000d3ad24077-ASO200415-annual-report-FINAL.pdf",
-              "Year": "2014",
-              "type": "Financial Report",
-              "uuid": "94601086-3db0-e811-a963-000d3ad24077"
-            }
-          ],
-          "Email": "aso@aso.com.au",
-          "EnforcementOutcomes": [],
-          "FinancialYearEnd": "31/12",
-          "GovernmentAgencies": [
-            {
-              "Name": "Australian Securities and Investment Commission",
-              "ReferenceNumber": "79016738",
-              "uuid": "2d869fb2-e6af-e811-a95e-000d3ad24c60"
-            }
-          ],
-          "GroupHeadFlag": false,
-          "LastReported": "2015-07-01T14:00:00.0000000Z",
-          "Name": "Adelaide Symphony Orchestra Pty Ltd",
-          "NextReportDue": "",
-          "OperatingInStates": [
-            {
-              "Name": "South Australia",
-              "uuid": "dd2782ae-455e-e811-a95c-000d3ad1c715"
-            }
-          ],
-          "OtherDetails": null,
-          "OtherNames": [],
-          "ParentAccountAbn": null,
-          "ParentAccountId": "d923c361-3aaf-e811-a95e-000d3ad24c60",
-          "Phone": "0882336233",
-          "Programs": [],
-          "ReferendumReturnsUrl": null,
-          "RegistrationStatusHistory": [
-            {
-              "EffectiveDate": "2012-12-02T13:00:00.0000000Z",
-              "Status": "Registered",
-              "TransactionDate": "2012-12-02T13:00:00.0000000Z",
-              "uuid": "0a560b52-06c6-e811-a962-000d3ad24182"
-            }
-          ],
-          "RelatedPartyTransactions": null,
-          "RelevantTransactions": null,
-          "ReportingLate": "9999-12-31T23:59:59.9999999",
-          "ResponsiblePersons": [
-            {
-              "Name": "Andrew Daniels",
-              "Role": "Chairperson",
-              "uuid": "eba5612c-bb95-ef11-8a6a-00224893b304"
-            },
-            {
-              "Name": "Carolyn Mitchell",
-              "Role": "Board Member",
-              "uuid": "53b631e6-1ece-e911-a98d-000d3ad0574c"
-            },
-            {
-              "Name": "Matthew Johnson",
-              "Role": "Board Member",
-              "uuid": "79dc8cc6-7e21-ef11-840a-7c1e522a764e"
-            },
-            {
-              "Name": "Karen Limb",
-              "Role": "Board Member",
-              "uuid": "3fbae519-22b8-ee11-9078-002248122521"
-            },
-            {
-              "Name": "Anton Andreacchio",
-              "Role": "Board Member",
-              "uuid": "edb50eb2-6836-ee11-bdf5-00224893b8c7"
-            },
-            {
-              "Name": "Frederick Bartlett",
-              "Role": "Board Member",
-              "uuid": "27b60eb2-6836-ee11-bdf5-00224893b8c7"
-            },
-            {
-              "Name": "Sherrilyn Handley",
-              "Role": "Board Member",
-              "uuid": "33c80bb8-6836-ee11-bdf5-00224893b8c7"
-            },
-            {
-              "Name": "Carolyn Francis",
-              "Role": "Board Member",
-              "uuid": "53a8194c-a5c7-ed11-b597-00224893bffb"
-            },
-            {
-              "Name": "Irving Kathaleen",
-              "Role": "Board Member",
-              "uuid": "8aa8194c-a5c7-ed11-b597-00224893bffb"
-            },
-            {
-              "Name": "Timothy White",
-              "Role": "Board Member",
-              "uuid": "31f3ca21-a01f-ee11-9967-00224893bfad"
-            }
-          ],
-          "Status": "Registered",
-          "SummaryOfActivities": "The Company's continuing objective is to perform the highest standard of symphonic music to enrich and contribute to the cultural and artistic life of all South Australians. It performs mainly in South Australia and held 85 performances to an audience of greater than 83,000. It also performed with The State Opera of South Australia, The Adelaide Festival of the Arts and the Australian Ballet.",
-          "TotalExpensesEmployee": "9018129",
-          "TotalExpensesGrantsAndDonationsInAustralia": "0",
-          "TotalExpensesGrantsAndDonationsOutsideAustralia": "0",
-          "TotalExpensesInterest": "0",
-          "TotalExpensesOther": "4099935",
-          "TotalGrossIncomeDonationsAndRequests": "603544",
-          "TotalGrossIncomeGoodsOrServices": "0",
-          "TotalGrossIncomeGovernmentGrants": "8231148",
-          "TotalGrossIncomeInvestments": "0",
-          "TotalGrossIncomeOtherRevenues": "3775272",
-          "TransparencyRegisterUrl": null,
-          "Website": "https://www.aso.com.au",
-          "__normalized": true,
-          "type": "charity",
-          "uuid": "caaabce4-2daf-e811-a963-000d3ad244fd"
-        },
-        "type": "charity",
-        "uuid": "caaabce4-2daf-e811-a963-000d3ad244fd"
-      },
-      "canonical_field_mappings": {
-        "data.OtherNames": "operating_names",
-        "data.AddressStateOrProvince": "principal_location"
-      },
-      "evidence_ids": []
-    },
-    {
-      "source_record_id": "src:acnc-ais-detail:49079016738:c96ba0c3-44c8-e811-a964-000d3ad24077:cb_7e322821acc34c8b920c772f5b4e4c5c",
-      "source_family": "acnc-ais-detail",
-      "dataset_version": "2026-08-14-public-api",
-      "source_url": "https://www.acnc.gov.au/charity/charities/caaabce4-2daf-e811-a963-000d3ad244fd/documents/c96ba0c3-44c8-e811-a964-000d3ad24077",
-      "retrieved_at": "2026-08-13T13:54:42.956606Z",
-      "observed_at": "2015-07-01",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "abn": "49079016738",
-        "ais_uuid": "c96ba0c3-44c8-e811-a964-000d3ad24077",
-        "year": "2014",
-        "date_received": "2015-07-01T14:00:00.0000000Z"
-      },
-      "source_payload": {
-        "data": {
-          "Abn": "49079016738",
-          "ActivityAdvocacyNCivic": false,
-          "ActivityAgedCare": false,
-          "ActivityAnimalProtection": false,
-          "ActivityCultureAndArt": false,
-          "ActivityEconomicSocialCommunity": false,
-          "ActivityEmergencyNRelief": false,
-          "ActivityEmploymentNTraining": false,
-          "ActivityEnvironmental": false,
-          "ActivityGrantMaking": false,
-          "ActivityHealthRehabilitation": false,
-          "ActivityHigherEducation": false,
-          "ActivityHousing": false,
-          "ActivityIncomeSupportNMaintenance": false,
-          "ActivityInternational": false,
-          "ActivityInternationalDescription": null,
-          "ActivityInternationalOther": false,
-          "ActivityInternationalOtherDescription": null,
-          "ActivityLawNLegalServices": false,
-          "ActivityMain": "Culture and arts",
-          "ActivityMentalHealthCrisisIntervention": false,
-          "ActivityNdisSupported": null,
-          "ActivityNdisSupportedNext": null,
-          "ActivityOperating": true,
-          "ActivityOperatingOverseas": false,
-          "ActivityOther": true,
-          "ActivityOtherDescription": "The Company's continuing objective is to perform the highest standard of symphonic music to enrich and contribute to the cultural and artistic life of all South Australians. It performs mainly in South Australia and held 85 performances to an audience of greater than 83,000. It also performed with The State Opera of South Australia, The Adelaide Festival of the Arts and the Australian Ballet.",
-          "ActivityOtherEducation": false,
-          "ActivityOtherHealthServices": false,
-          "ActivityPersuitPurposesDescription": "The Company's continuing objective is to perform the highest standard of symphonic music to enrich and contribute to the cultural and artistic life of all South Australians. It performs mainly in South Australia and held 85 performances to an audience of greater than 83,000. It also performed with The State Opera of South Australia, The Adelaide Festival of the Arts and the Australian Ballet.",
-          "ActivityPhilanthropicPromotion": false,
-          "ActivityPolitical": false,
-          "ActivityPrimarySecondaryEducation": false,
-          "ActivityPurposeChange": null,
-          "ActivityPurposeChangeDescription": null,
-          "ActivityRecreationSocialClub": false,
-          "ActivityReligious": false,
-          "ActivityResearch": false,
-          "ActivitySocialServices": false,
-          "ActivitySports": false,
-          "ActivityTransferringFundsGoods": false,
-          "AdvancementOfEducation": false,
-          "AdvancementOfReligion": false,
-          "AssetsandLiabilitiesDescription": null,
-          "BasicReligiousCharity": false,
-          "BeneficiaryAboriginalTorres": false,
-          "BeneficiaryAdults": true,
-          "BeneficiaryAllAges": true,
-          "BeneficiaryChildren": true,
-          "BeneficiaryChronicIllness": true,
-          "BeneficiaryCrimeVictims": false,
-          "BeneficiaryDisasterVictims": false,
-          "BeneficiaryEarlyChildhood": false,
-          "BeneficiaryEthnic": false,
-          "BeneficiaryFamilies": false,
-          "BeneficiaryFinanciallyDisadvantaged": false,
-          "BeneficiaryGeneral": false,
-          "BeneficiaryHomelessnessRisk": false,
-          "BeneficiaryLGBT": false,
-          "BeneficiaryMain": null,
-          "BeneficiaryMen": true,
-          "BeneficiaryMigrantsRefugees": false,
-          "BeneficiaryOffenderFamilies": false,
-          "BeneficiaryOther": false,
-          "BeneficiaryOtherCharities": false,
-          "BeneficiaryOtherDescription": "Our audience is as diverse as the community that it serves.",
-          "BeneficiaryOverseas": false,
-          "BeneficiaryPeopleWithDisability": true,
-          "BeneficiaryRuralRegionalRemote": false,
-          "BeneficiarySeniors": true,
-          "BeneficiaryUnemployed": false,
-          "BeneficiaryVeteranFamilies": false,
-          "BeneficiaryWomen": true,
-          "BeneficiaryYouth": true,
-          "CharityAddressCountry": "AUSTRALIA",
-          "CharityAddressLine1": "91 Hindley St",
-          "CharityAddressLine2": null,
-          "CharityAddressPostalCode": "5000",
-          "CharityAddressStateOrProvince": "SA",
-          "CharityAddressSuburb": "Adelaide",
-          "CharityEmail": "aso@aso.com.au",
-          "CharitySize": "Large",
-          "CharityUuid": "caaabce4-2daf-e811-a963-000d3ad244fd",
-          "ChildCareServices": false,
-          "ExpenseEmployees": "9018129.0000",
-          "ExpenseGrantDonationsInAustralia": "0.0000",
-          "ExpenseGrantDonationsOutsideAustralia": "0.0000",
-          "ExpenseTotal": "13118064.0000",
-          "ExpensesOther": "4099935.0000",
-          "FinAccrualAccounting": null,
-          "FinConsolidatedReportFromMiltiple": null,
-          "FinDocumentedPoliciesRelatedPartyTransactions": null,
-          "FinFyeJune": false,
-          "FinProvideVoluntarily": null,
-          "FinRelatedPartyTransactions": null,
-          "FinReportACT": false,
-          "FinReportFrom": "2013-12-31T13:00:00.0000000Z",
-          "FinReportNSW": false,
-          "FinReportNT": false,
-          "FinReportQLD": false,
-          "FinReportSA": false,
-          "FinReportTAS": false,
-          "FinReportTo": "2014-12-30T13:00:00.0000000Z",
-          "FinReportVIC": false,
-          "FinReportWA": false,
-          "FinReportingType": "General purpose financial statements",
-          "FinSapDate": "31/12",
-          "FundRaisingNumberACT": null,
-          "FundRaisingNumberNSW": null,
-          "FundRaisingNumberQLD": null,
-          "FundRaisingNumberSA": null,
-          "FundRaisingNumberTAS": null,
-          "FundRaisingNumberVIC": null,
-          "FundRaisingNumberWA": null,
-          "GovDocAccurate": null,
-          "GrantCapacityBuildingPct": null,
-          "GrantMultiYearPct": null,
-          "GrantPublicOpenApplicationPct": null,
-          "GrantRuralRegionPct": null,
-          "HasSubmittedToRegulator": false,
-          "HoursPaid": "40.00",
-          "HoursTotal": "40.00",
-          "HoursVolunteer": "0",
-          "HrCasualEmployees": "40",
-          "HrFteStaff": "",
-          "HrFullTimeEmployees": "91",
-          "HrPartTimeEmployees": "2",
-          "HrUnpainVolunteers": "11TO50",
-          "IncomeDonationsBequests": "603544.0000",
-          "IncomeGovernmentGrants": "8231148.0000",
-          "IncomeOther": "433040.0000",
-          "IncomeOtherComprehinsive": "0.0000",
-          "IncomeOtherNeg": "0.0000",
-          "IncomeOtherReceipts": "3775272.0000",
-          "IncomeTotalComprehensive": "0.0000",
-          "IncomeTotalReceipts": "13043004.0000",
-          "IncorporationStatus": null,
-          "InterestExpense": "0.0000",
-          "IsIncorporatedAssociation": false,
-          "KeyManagementPersonnel": null,
-          "LegalName": "Adelaide Symphony Orchestra Pty Ltd",
-          "NetAssetsLiabilities": "3106247.0000",
-          "NetSurplusDeficit": "-75060.0000",
-          "NonCurrentLoansPayable": "766000.0000",
-          "NumberOfKeyManagementPersonnel": "",
-          "OperatingCountries": null,
-          "OperatingInACT": false,
-          "OperatingInNSW": false,
-          "OperatingInNT": false,
-          "OperatingInQLD": false,
-          "OperatingInSA": true,
-          "OperatingInTAS": false,
-          "OperatingInVIC": false,
-          "OperatingInWA": false,
-          "OperatingOverseas": false,
-          "OtherNames": [],
-          "OtherNonCurrentAssets": "4753345.0000",
-          "OtherNonCurrentLiabilities": "174376.0000",
-          "OtherPurposeDescription": "The company's purpose is a cultural and artistic organisation where its continuing objective is to perform the highest standard ofsymphonic music which will enrich and contribute to the cultural life of allSouth Australians.",
-          "OtherPurposes": "True",
-          "Programs": [],
-          "RegulatedACT": false,
-          "RegulatedNSW": false,
-          "RegulatedNT": false,
-          "RegulatedQLD": false,
-          "RegulatedSA": true,
-          "RegulatedTAS": false,
-          "RegulatedVIC": false,
-          "RegulatedWA": false,
-          "Regulator": null,
-          "RegulatorAGMDateACT": null,
-          "RegulatorAGMDateNT": null,
-          "RegulatorAGMDateVIC": null,
-          "RegulatorAGMDateWA": null,
-          "RegulatorFundRaising": null,
-          "RegulatorFundRaisingACT": false,
-          "RegulatorFundRaisingNSW": false,
-          "RegulatorFundRaisingNT": false,
-          "RegulatorFundRaisingOnline": false,
-          "RegulatorFundRaisingQLD": false,
-          "RegulatorFundRaisingSA": false,
-          "RegulatorFundRaisingTAS": false,
-          "RegulatorFundRaisingVIC": false,
-          "RegulatorFundRaisingWA": false,
-          "RegulatorIncorporatedAssociationACT": false,
-          "RegulatorIncorporatedAssociationNSW": false,
-          "RegulatorIncorporatedAssociationNT": false,
-          "RegulatorIncorporatedAssociationNumberACT": null,
-          "RegulatorIncorporatedAssociationNumberNSW": null,
-          "RegulatorIncorporatedAssociationNumberNT": null,
-          "RegulatorIncorporatedAssociationNumberQLD": null,
-          "RegulatorIncorporatedAssociationNumberSA": null,
-          "RegulatorIncorporatedAssociationNumberTAS": null,
-          "RegulatorIncorporatedAssociationNumberVIC": null,
-          "RegulatorIncorporatedAssociationNumberWA": null,
-          "RegulatorIncorporatedAssociationQLD": false,
-          "RegulatorIncorporatedAssociationSA": false,
-          "RegulatorIncorporatedAssociationTAS": false,
-          "RegulatorIncorporatedAssociationVIC": false,
-          "RegulatorIncorporatedAssociationWA": false,
-          "RegulatorMetRequirementACT": false,
-          "RegulatorMetRequirementWA": null,
-          "RegulatorOtherDetails": null,
-          "RegulatorPrograms": null,
-          "RegulatorStates": false,
-          "RelatedPartyDetails": null,
-          "RelatedPartyTransactions": [],
-          "ReliefOfPoverty": false,
-          "ReportingGroupFlag": false,
-          "ResponsiblePersonAccurate": null,
-          "RevenueGoodsServices": "0.0000",
-          "RevenueInvestments": "0.0000",
-          "RevenueTotal": "12609964.0000",
-          "StatementYear": "2014",
-          "SubTypesAccurate": null,
-          "TotalAssets": "8444524.0000",
-          "TotalCurrentAssets": "3691179.0000",
-          "TotalCurrentLiabilities": "4397901.0000",
-          "TotalLiabilities": "5338277.0000",
-          "TotalNonCurrentAssets": "4753345.0000",
-          "TotalNonCurrentLiabilities": "940376.0000",
-          "TotalNonCurrentLoansReceivable": "0.0000",
-          "TotalPaidKMP": null,
-          "Website": null,
-          "__normalized": true,
-          "entityTypeVersion": "",
-          "entityVersion": "159409321",
-          "timeStamp": "2018-11-01T08:04:23.0000000Z",
-          "type": "annual_information_statement",
-          "uuid": "c96ba0c3-44c8-e811-a964-000d3ad24077"
-        },
-        "type": "annual_information_statement",
-        "uuid": "c96ba0c3-44c8-e811-a964-000d3ad24077"
-      },
-      "canonical_field_mappings": {
-        "data.Programs": "programs",
-        "data.TotalRevenue": "financial_records[].revenue",
-        "data.TotalExpenses": "financial_records[].total_expenses"
-      },
-      "evidence_ids": [
-        "ev:acnc:ais:49079016738:c96ba0c3-44c8-e811-a964-000d3ad24077"
-      ]
-    },
-    {
-      "source_record_id": "src:report-extract:49079016738:5848f21901bd747f:cb_7e322821acc34c8b920c772f5b4e4c5c",
-      "source_family": "organisation-report-extract",
-      "dataset_version": "2026-08-14-private-extraction",
-      "source_url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/caaabce4-2daf-e811-a963-000d3ad244fd-7060f4b6-7974-4191-9638-c924bd74d001-Financial%20Report-94601086-3db0-e811-a963-000d3ad24077-ASO200415-annual-report-FINAL.pdf",
-      "retrieved_at": "2026-08-13T13:54:42.956606Z",
-      "observed_at": "2026-08-13",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "filename": "5848f21901bd747f35facb46fe653144e92a334b8047cb0b6592e54ed89c4d06.pdf",
-        "source_sha256": "5848f21901bd747f35facb46fe653144e92a334b8047cb0b6592e54ed89c4d06",
-        "page_count": 34,
-        "discovery_basis": "ACNC public profile Documents field"
-      },
-      "source_payload": {
-        "rows": [],
-        "diagnostics": {
-          "native_text_pages": 19,
-          "low_text_pages": [
-            19,
-            20,
-            21,
-            22,
-            23,
-            24,
-            25,
-            26,
-            27,
-            28,
-            29,
-            30,
-            31,
-            32,
-            33
-          ],
-          "ocr_attempted_pages": []
-        }
-      },
-      "canonical_field_mappings": {
-        "rows[].label": "financial_records[].*_breakdown",
-        "rows[].current": "financial_records[].*_breakdown[].amount"
-      },
-      "evidence_ids": [
-        "ev:report:49079016738:5848f21901bd747f"
-      ]
-    },
-    {
-      "source_record_id": "src:report-extract:49079016738:ac09d642f2546982:cb_7e322821acc34c8b920c772f5b4e4c5c",
-      "source_family": "organisation-report-extract",
-      "dataset_version": "2026-08-14-private-extraction",
-      "source_url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/caaabce4-2daf-e811-a963-000d3ad244fd-7060f4b6-7974-4191-9638-c924bd74d001-Financial%20Report-94601086-3db0-e811-a963-000d3ad24077-ASO200415-annual-report-FINAL.pdf",
-      "retrieved_at": "2026-08-13T13:54:42.956606Z",
-      "observed_at": "2026-08-13",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "filename": "ac09d642f2546982276d8ca3b206079c66fb65321659a704f0d4ad9def28ca29.pdf",
-        "source_sha256": "ac09d642f2546982276d8ca3b206079c66fb65321659a704f0d4ad9def28ca29",
-        "page_count": 66,
-        "discovery_basis": "ACNC public profile Documents field"
-      },
-      "source_payload": {
-        "rows": [],
-        "diagnostics": {
-          "native_text_pages": 60,
-          "low_text_pages": [
-            22,
-            56,
-            57,
-            58,
-            59,
-            66
-          ],
-          "ocr_attempted_pages": []
-        }
-      },
-      "canonical_field_mappings": {
-        "rows[].label": "financial_records[].*_breakdown",
-        "rows[].current": "financial_records[].*_breakdown[].amount"
-      },
-      "evidence_ids": [
-        "ev:report:49079016738:ac09d642f2546982"
-      ]
-    }
-  ],
-  "financial_records": [],
-  "financial_metrics": [],
-  "fundraising_expenditure": null,
-  "funding_sources": [],
-  "fundraising_methods": [
-    {
-      "method": "other",
-      "first_seen": null,
-      "last_seen": null,
-      "observed_at": "2026-08-13",
-      "status": "current",
-      "evidence_ids": [
-        "ev:report:49079016738:ac09d642f2546982"
-      ]
-    }
-  ],
-  "classifications": [
-    {
-      "taxonomy_id": "acnc-register",
-      "taxonomy_version": "2026-08-10",
-      "term_id": "purpose.culture",
-      "term_label": "culture",
-      "assignment_method": "source_native",
-      "confidence": "high",
-      "evidence_ids": [
-        "ev:acnc:49079016738"
-      ]
-    },
-    {
-      "taxonomy_id": "acnc-register",
-      "taxonomy_version": "2026-08-10",
-      "term_id": "beneficiary.children",
-      "term_label": "children",
-      "assignment_method": "source_native",
-      "confidence": "high",
-      "evidence_ids": [
-        "ev:acnc:49079016738"
-      ]
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "cause.culture_and_heritage",
-      "term_label": "Culture and heritage",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "activity.events_and_public_programming",
-      "term_label": "Events and public programming",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "approach.community_partnership",
-      "term_label": "Community partnership",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "approach.volunteer_enabled",
-      "term_label": "Volunteer-enabled delivery",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "participation.public_events",
-      "term_label": "Public events",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "participation.volunteering",
-      "term_label": "Volunteering",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "geography.local_or_regional",
-      "term_label": "Local or regional Australia",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
+      "review_status": "not_required",
+      "conflicting_signals": []
     }
   ],
   "evidence": [
     {
       "evidence_id": "ev:acnc:49079016738",
-      "source_type": "regulatory",
-      "title": "ACNC Register extract",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": null,
-      "observed_at": "2026-08-10",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "title": "ACNC Register extract"
     },
     {
       "evidence_id": "ev:web:49079016738:2026-08-10",
-      "source_type": "organisation_self_report",
       "title": "Organisation website homepage",
-      "publisher": "Adelaide Symphony Orchestra Pty Ltd",
-      "url": "https://www.aso.com.au",
-      "observed_at": "2026-08-10",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://www.aso.com.au"
     },
     {
       "evidence_id": "ev:report:49079016738:5848f21901bd",
-      "source_type": "organisation_self_report",
       "title": "Organisation annual or financial report",
-      "publisher": "Adelaide Symphony Orchestra Pty Ltd",
-      "url": "https://aso.lbcdn.io/uploads/2023/04/ASO-011-2022-Annual-Report-F1.pdf",
-      "observed_at": "2026-08-10",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://aso.lbcdn.io/uploads/2023/04/ASO-011-2022-Annual-Report-F1.pdf"
     },
     {
       "evidence_id": "ev:report:49079016738:ac09d642f254",
-      "source_type": "organisation_self_report",
       "title": "Organisation annual or financial report",
-      "publisher": "Adelaide Symphony Orchestra Pty Ltd",
-      "url": "https://aso.lbcdn.io/uploads/2021/04/ASO-2020-Annual-Report.pdf",
-      "observed_at": "2026-08-10",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://aso.lbcdn.io/uploads/2021/04/ASO-2020-Annual-Report.pdf"
     },
     {
       "evidence_id": "ev:acnc:ais:49079016738:c96ba0c3-44c8-e811-a964-000d3ad24077",
-      "source_type": "regulatory",
       "title": "ACNC Annual Information Statement 2014",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": "https://www.acnc.gov.au/charity/charities/caaabce4-2daf-e811-a963-000d3ad244fd/documents/c96ba0c3-44c8-e811-a964-000d3ad24077",
-      "observed_at": "2015-07-01",
-      "reporting_period": "2014",
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://www.acnc.gov.au/charity/charities/caaabce4-2daf-e811-a963-000d3ad244fd/documents/c96ba0c3-44c8-e811-a964-000d3ad24077"
     },
     {
       "evidence_id": "ev:abr-dgr:49079016738:20260805",
-      "source_type": "regulatory",
       "title": "ABR DGR bulk observation",
-      "publisher": "Australian Business Register / Australian Taxation Office",
-      "url": "https://abr.business.gov.au/Tools/BulkExtract",
-      "observed_at": "2026-08-05",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://abr.business.gov.au/Tools/BulkExtract"
     },
     {
       "evidence_id": "ev:report:49079016738:5848f21901bd747f",
-      "source_type": "organisation_self_report",
       "title": "5848f21901bd747f35facb46fe653144e92a334b8047cb0b6592e54ed89c4d06.pdf",
-      "publisher": "Adelaide Symphony Orchestra Pty Ltd",
-      "url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/caaabce4-2daf-e811-a963-000d3ad244fd-7060f4b6-7974-4191-9638-c924bd74d001-Financial%20Report-94601086-3db0-e811-a963-000d3ad24077-ASO200415-annual-report-FINAL.pdf",
-      "observed_at": "2026-08-13",
-      "reporting_period": "2014",
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/caaabce4-2daf-e811-a963-000d3ad244fd-7060f4b6-7974-4191-9638-c924bd74d001-Financial%20Report-94601086-3db0-e811-a963-000d3ad24077-ASO200415-annual-report-FINAL.pdf"
     },
     {
       "evidence_id": "ev:report:49079016738:ac09d642f2546982",
-      "source_type": "organisation_self_report",
       "title": "ac09d642f2546982276d8ca3b206079c66fb65321659a704f0d4ad9def28ca29.pdf",
-      "publisher": "Adelaide Symphony Orchestra Pty Ltd",
-      "url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/caaabce4-2daf-e811-a963-000d3ad244fd-7060f4b6-7974-4191-9638-c924bd74d001-Financial%20Report-94601086-3db0-e811-a963-000d3ad24077-ASO200415-annual-report-FINAL.pdf",
-      "observed_at": "2026-08-13",
-      "reporting_period": "2014",
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/caaabce4-2daf-e811-a963-000d3ad244fd-7060f4b6-7974-4191-9638-c924bd74d001-Financial%20Report-94601086-3db0-e811-a963-000d3ad24077-ASO200415-annual-report-FINAL.pdf"
     }
   ],
-  "embedding": {
-    "embedding_id": "cb_7e322821acc34c8b920c772f5b4e4c5c:entity:text-embedding-3-small",
-    "embedding_type": "entity",
-    "model_id": "text-embedding-3-small",
-    "model_version": "text-embedding-3-small",
-    "dimensions": 1536,
-    "source_text_hash": "d282b8a791d9b61cc3b55158b481ec9559c87e7d6f2a0c521cdabf42ce0c73e7",
-    "generated_at": "2026-08-10T13:53:24.458282Z",
-    "vector_ref": "embeddings.parquet#cb_7e322821acc34c8b920c772f5b4e4c5c"
+  "summary": {
+    "derivative_id": "der:rc4:cb_7e322821acc34c8b920c772f5b4e4c5c:summary",
+    "text": "Adelaide Symphony Orchestra Pty Ltd is a professional symphony orchestra based in Adelaide, South Australia. It presents a season of concerts at venues including Adelaide Town Hall, Elder Hall and the Festival Theatre, and undertakes regional touring and community concerts in South Australian towns such as Peterborough and Clare. The ASO runs learning and schools programmes and community projects (for example Floods of Fire), collaborates with festivals and other companies, and produces digital and broadcast programming including an online concert platform and mini\u2011recitals. Public participation opportunities include ticketed concerts, community workshops and participatory projects, and online attendance; the organisation also references volunteers and other supporter involvement."
   },
-  "synthesis": {
-    "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
-    "parameters": {
-      "max_output_tokens": 3000,
-      "structured_output": true,
-      "output_contract": "causebase-summary-v0.3-rc2"
-    },
-    "evidence_input_hash": "4386595c4aa17ffe34c859042f5195742927f1b0c1d95fc30bd80aa027fcdb56",
-    "generated_at": "2026-08-12T14:21:24.393184Z",
-    "editorial_policy_version": "0.3-rc2"
-  },
-  "derivative_assessments": [
+  "activities": [],
+  "beneficiaries": [],
+  "descriptive_geography": [],
+  "navigation_geography": [],
+  "funding_sources": [],
+  "fundraising_methods": [],
+  "participation": [
     {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T14:21:24.393184Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-13T13:54:42.956606Z",
-      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
-      "input_hash": "4386595c4aa17ffe34c859042f5195742927f1b0c1d95fc30bd80aa027fcdb56",
-      "disposition": "reused",
-      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
-      "affected_dimensions": [
-        "summary"
-      ]
+      "observation_id": "obs:rc4:cb_7e322821acc34c8b920c772f5b4e4c5c:participation:0",
+      "participation_id": "part:rc4:cb_7e322821acc34c8b920c772f5b4e4c5c:0",
+      "mode": "membership",
+      "label": "Membership",
+      "action_url": null,
+      "status": "current",
+      "claim_basis": "direct",
+      "extraction_method": "document_text",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:report:49079016738:5848f21901bd747f"
+      ],
+      "observed_at": "2026-08-13",
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_7e322821acc34c8b920c772f5b4e4c5c:participation:1",
+      "participation_id": "part:rc4:cb_7e322821acc34c8b920c772f5b4e4c5c:1",
+      "mode": "volunteer",
+      "label": "Volunteer",
+      "action_url": null,
+      "status": "current",
+      "claim_basis": "direct",
+      "extraction_method": "document_text",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:report:49079016738:5848f21901bd747f"
+      ],
+      "observed_at": "2026-08-13",
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_7e322821acc34c8b920c772f5b4e4c5c:participation:2",
+      "participation_id": "part:rc4:cb_7e322821acc34c8b920c772f5b4e4c5c:2",
+      "mode": "donate",
+      "label": "Donate",
+      "action_url": null,
+      "status": "current",
+      "claim_basis": "direct",
+      "extraction_method": "document_text",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:report:49079016738:5848f21901bd747f"
+      ],
+      "observed_at": "2026-08-13",
+      "warnings": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-14-rc4-fundraising-projection-correction",
-  "card_schema_version": "0.4",
-  "editorial_policy_version": "0.4-rc4",
-  "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T13:54:42.956606Z"
+  "opportunities": [],
+  "programs": [],
+  "relationships": [],
+  "classifications": [
+    {
+      "observation_id": "obs:rc4:cb_7e322821acc34c8b920c772f5b4e4c5c:classification:0",
+      "classification_id": "cls:rc4:cb_7e322821acc34c8b920c772f5b4e4c5c:0",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "purpose.culture",
+      "term_label": "culture",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:49079016738"
+      ],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_7e322821acc34c8b920c772f5b4e4c5c:classification:1",
+      "classification_id": "cls:rc4:cb_7e322821acc34c8b920c772f5b4e4c5c:1",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "beneficiary.children",
+      "term_label": "children",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:49079016738"
+      ],
+      "confidence": "high",
+      "warnings": []
+    }
+  ],
+  "coverage": {
+    "registry_id": "capability-registry-0.5-initial",
+    "current": [
+      {
+        "capability": "regulatory.acnc_profile",
+        "status": "observed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:acnc:49079016738"
+        ]
+      },
+      {
+        "capability": "regulatory.ais",
+        "status": "observed",
+        "assessed_at": "2015-07-01",
+        "source_record_ids": [
+          "src:acnc-ais-detail:49079016738:c96ba0c3-44c8-e811-a964-000d3ad24077:cb_7e322821acc34c8b920c772f5b4e4c5c"
+        ],
+        "evidence_ids": [
+          "ev:acnc:ais:49079016738:c96ba0c3-44c8-e811-a964-000d3ad24077"
+        ]
+      },
+      {
+        "capability": "tax.dgr",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "web.website",
+        "status": "observed",
+        "assessed_at": "2026-08-13",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "report.annual_report",
+        "status": "observed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:report:49079016738:5848f21901bd",
+          "ev:report:49079016738:ac09d642f254"
+        ]
+      },
+      {
+        "capability": "financial.report",
+        "status": "observed",
+        "assessed_at": "2026-08-13",
+        "source_record_ids": [
+          "src:report-extract:49079016738:ac09d642f2546982:cb_7e322821acc34c8b920c772f5b4e4c5c"
+        ],
+        "evidence_ids": [
+          "ev:report:49079016738:ac09d642f2546982"
+        ]
+      },
+      {
+        "capability": "financial.statements",
+        "status": "observed",
+        "assessed_at": "2026-08-13",
+        "source_record_ids": [
+          "src:report-extract:49079016738:ac09d642f2546982:cb_7e322821acc34c8b920c772f5b4e4c5c"
+        ],
+        "evidence_ids": [
+          "ev:report:49079016738:ac09d642f2546982"
+        ]
+      },
+      {
+        "capability": "understanding.activities",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.beneficiaries",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.geography",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "programs",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "participation",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "funding.sources",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.methods",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.expenditure",
+        "status": "not_available_from_source",
+        "assessed_at": "2026-08-13",
+        "source_record_ids": [
+          "src:report-extract:49079016738:ac09d642f2546982:cb_7e322821acc34c8b920c772f5b4e4c5c"
+        ],
+        "evidence_ids": [
+          "ev:report:49079016738:ac09d642f2546982"
+        ]
+      },
+      {
+        "capability": "taxonomy.causebase",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "semantic.embedding",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      }
+    ]
+  },
+  "financial_reports": [],
+  "canonical_metrics": [],
+  "analytic_projections": [],
+  "derivatives": [
+    {
+      "derivative_id": "der:rc4:cb_7e322821acc34c8b920c772f5b4e4c5c:summary",
+      "kind": "summary",
+      "input_observation_ids": [],
+      "evidence_ids": [
+        "ev:web:49079016738:2026-08-10",
+        "ev:report:49079016738:5848f21901bd"
+      ],
+      "generated_under": {
+        "output_contract_version": "phase2b-rc4-accepted-rc2-summary-reuse",
+        "input_hash": "4386595c4aa17ffe34c859042f5195742927f1b0c1d95fc30bd80aa027fcdb56",
+        "generated_at": "2026-08-12T14:21:24.393184Z"
+      },
+      "current_assessment": {
+        "assessed_at": "2026-08-13T13:54:42.956606Z",
+        "assessed_against_contract": "0.5",
+        "governing_input_hash": "4386595c4aa17ffe34c859042f5195742927f1b0c1d95fc30bd80aa027fcdb56",
+        "disposition": "reused",
+        "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs."
+      }
+    }
+  ],
+  "legacy_unbound": {
+    "origin_release": "rc4-2026-08-14",
+    "origin_card_sha256": "a5b24dd817e890827db6b37097d0ede119a17017b4b04632bd1f71827dd1b0ed",
+    "activities": [
+      {
+        "value": "Symphony and concert series at Adelaide Town Hall, Elder Hall and Festival Theatre",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Regional touring and community concerts in South Australia (Peterborough, Clare, mid\u2011north)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Learning and schools programmes including commissioned school works and incursions",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Community projects and participatory work (Floods of Fire)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Collaborations with festivals and companies (Adelaide Festival, WOMADelaide, State Opera, The Australian Ballet)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Digital and broadcast programming (Virtual Concert Hall, online mini\u2011recitals, Silos & Symphonies)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "beneficiaries": [
+      {
+        "value": "Audiences in metropolitan Adelaide",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Audiences in regional South Australian towns (Peterborough, Clare)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "School students reached through incursions and learning projects",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Community groups taking part in participatory projects and community centre concerts",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "descriptive_geography": [
+      {
+        "value": "South Australia (Adelaide and regional towns including Peterborough and Clare)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "classifications": [
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "cause.culture_and_heritage",
+        "term_label": "Culture and heritage",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "activity.events_and_public_programming",
+        "term_label": "Events and public programming",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "approach.community_partnership",
+        "term_label": "Community partnership",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "approach.volunteer_enabled",
+        "term_label": "Volunteer-enabled delivery",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "participation.public_events",
+        "term_label": "Public events",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "participation.volunteering",
+        "term_label": "Volunteering",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "geography.local_or_regional",
+        "term_label": "Local or regional Australia",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      }
+    ],
+    "fundraising_methods": [
+      {
+        "method": "other",
+        "first_seen": null,
+        "last_seen": null,
+        "observed_at": "2026-08-13",
+        "status": "current",
+        "evidence_ids": [
+          "ev:report:49079016738:ac09d642f2546982"
+        ]
+      }
+    ]
+  }
 }

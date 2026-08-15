@@ -1,1320 +1,399 @@
 {
   "causebase_id": "cb_702846f4dd1d418db5fbc98d68647cf9",
+  "contract_version": "0.5",
   "subject_kind": "unknown",
-  "external_identifiers": [
-    {
-      "scheme": "abn",
-      "value": "40920336423",
-      "source_evidence_id": "ev:acnc:40920336423"
-    }
+  "identity": {
+    "legal_name": "East Fremantle Child Development Centre Inc",
+    "display_name": "East Fremantle Child Development Centre Inc",
+    "operating_names": [
+      "Stepping Stones Child Development Centre"
+    ],
+    "former_names": [],
+    "entity_status": "registered",
+    "website": "http://www.steppingstonescdc.com.au",
+    "external_identifiers": [
+      {
+        "scheme": "abn",
+        "value": "40920336423",
+        "evidence_ids": [
+          "ev:acnc:40920336423"
+        ]
+      }
+    ],
+    "registrations": [
+      {
+        "regulator": "ACNC",
+        "status": "registered",
+        "evidence_ids": [
+          "ev:acnc:40920336423"
+        ]
+      }
+    ],
+    "tax_statuses": [
+      {
+        "scheme": "ABR DGR",
+        "status": "endorsed",
+        "evidence_ids": [
+          "ev:abr-dgr:40920336423:20260805"
+        ]
+      }
+    ]
+  },
+  "release": {
+    "release_id": "v0.5.0-2026-08-15",
+    "dataset_version": "0.5.0-2026-08-15",
+    "contract_version": "0.5",
+    "based_on_release": "rc4-2026-08-14",
+    "generated_at": "2026-08-15T00:00:00Z"
+  },
+  "source_record_refs": [
+    "src:acnc-public-profile:40920336423:c99bc2b2-3aaf-e811-a961-000d3ad24182:cb_702846f4dd1d418db5fbc98d68647cf9",
+    "src:acnc-ais-detail:40920336423:b865ea3e-305b-f111-bec7-6045bde5b710:cb_702846f4dd1d418db5fbc98d68647cf9"
   ],
-  "registrations": [
-    {
-      "regulator": "ACNC",
-      "registration_id": null,
-      "status": "registered",
-      "evidence_ids": [
-        "ev:acnc:40920336423"
-      ]
-    }
-  ],
-  "tax_statuses": [
-    {
-      "scheme": "ABR DGR",
-      "status": "endorsed",
-      "detail": "Dated 2026-08-05 ABR bulk observation",
-      "evidence_ids": [
-        "ev:abr-dgr:40920336423:20260805"
-      ]
-    }
-  ],
-  "relationships": [],
-  "source_resolutions": [
+  "source_bindings": [
     {
       "source_record_id": "src:acnc-register:e6c38ca1-9954-5b59-ad4d-479395814029",
       "resolution_status": "resolved",
       "resolution_basis": "automated authoritative ACNC promotion under acnc-authoritative-v1",
       "confidence": "high",
-      "supporting_signals": [
-        "ABN:40920336423",
-        "ACNC Register"
-      ],
-      "conflicting_signals": [],
-      "review_status": "not_required"
-    }
-  ],
-  "legal_name": "East Fremantle Child Development Centre Inc",
-  "display_name": "East Fremantle Child Development Centre Inc",
-  "entity_status": "registered",
-  "canonical_url": "https://gregorycwhill.github.io/CauseBase-Viewer/#cb_702846f4dd1d418db5fbc98d68647cf9",
-  "acnc_profile_url": "https://www.acnc.gov.au/charity/charities/c99bc2b2-3aaf-e811-a961-000d3ad24182/profile",
-  "acnc_ais_url": "https://www.acnc.gov.au/charity/charities/c99bc2b2-3aaf-e811-a961-000d3ad24182/documents/b865ea3e-305b-f111-bec7-6045bde5b710",
-  "operating_names": [
-    "Stepping Stones Child Development Centre"
-  ],
-  "former_names": [],
-  "principal_location": "WA, Australia",
-  "coverage": [
-    {
-      "capability": "regulatory",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:acnc:40920336423"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "annual_report",
-      "status": "not_yet_processed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "fundraising_expenditure",
-      "status": "not_available_from_source",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": "No direct or defensible derived fundraising expenditure was found in selected Phase 2A evidence."
-    },
-    {
-      "capability": "financials",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:ais:40920336423:2023"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "latest_acnc_ais",
-      "status": "observed",
-      "source_record_id": "src:acnc-ais-detail:40920336423:b865ea3e-305b-f111-bec7-6045bde5b710:cb_702846f4dd1d418db5fbc98d68647cf9",
-      "evidence_ids": [
-        "ev:acnc:ais:40920336423:b865ea3e-305b-f111-bec7-6045bde5b710"
-      ],
-      "observed_at": "2026-05-29",
-      "freshness_note": "Latest submitted AIS detail acquired from the public ACNC entity endpoint."
-    },
-    {
-      "capability": "website",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-13",
-      "freshness_note": "Public website locator acquired from the ACNC profile."
-    }
-  ],
-  "enrichment_level": "enriched",
-  "website": "http://www.steppingstonescdc.com.au",
-  "geography": [
-    "WA"
-  ],
-  "geography_observations": [
-    {
-      "value": "WA",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "navigation_geography": [],
-  "causebase_summary": "East Fremantle Child Development Centre Inc is a registered not-for-profit organisation based in Western Australia. CauseBase does not have sufficient descriptive evidence in this release to identify the centre's specific programs, services or beneficiary groups. The organisation is listed on the ACNC Register and lodged an Annual Information Statement covering 1 January–31 December 2023, which provides the primary documentary record for this entry.",
-  "summary_evidence_ids": [
-    "ev:acnc:40920336423",
-    "ev:ais:40920336423:2023"
-  ],
-  "organisation_self_description": null,
-  "activities": [],
-  "activity_observations": [],
-  "beneficiaries": [],
-  "beneficiary_observations": [],
-  "participation_modes": [],
-  "participation_observations": [],
-  "opportunities": [],
-  "programs": [
-    {
-      "program_id": "prg:acnc:40920336423:eb65ea3e-305b-f111-bec7-6045bde5b710",
-      "name": "Stepping Stones Child Development Centre",
-      "description": "Child care",
-      "beneficiaries": [
-        "Early childhood - aged under 6"
-      ],
-      "geography": [
-        "6 Fortescue Street, East Fremantle WA, Australia"
-      ],
-      "status": "current",
-      "reporting_period": "2025",
-      "source_url": "http://www.steppingstonescdc.com.au",
-      "evidence_ids": [
-        "ev:acnc:ais:40920336423:b865ea3e-305b-f111-bec7-6045bde5b710"
-      ]
-    }
-  ],
-  "source_native_records": [
-    {
-      "source_record_id": "src:acnc-public-profile:40920336423:c99bc2b2-3aaf-e811-a961-000d3ad24182:cb_702846f4dd1d418db5fbc98d68647cf9",
-      "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-14-public-api",
-      "source_url": "https://www.acnc.gov.au/charity/charities/c99bc2b2-3aaf-e811-a961-000d3ad24182/profile",
-      "retrieved_at": "2026-08-13T13:54:42.956606Z",
-      "observed_at": "2026-05-29",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "uuid": "c99bc2b2-3aaf-e811-a961-000d3ad24182",
-        "abn": "40920336423"
-      },
-      "source_payload": {
-        "data": {
-          "AFSAddressPostalCode": "6158",
-          "AFSEmail": "director@steppingstonescdc.com.au",
-          "Abn": "40920336423",
-          "AddressCountry": "Australia",
-          "AddressLine1": "6 Fortescue St",
-          "AddressLine2": null,
-          "AddressLine3": null,
-          "AddressPostalCode": "6158",
-          "AddressStateOrProvince": "WA",
-          "AddressSuburb": "East Fremantle",
-          "AddressSuburbStatePostcode": "East Fremantle WA 6158",
-          "AnnualReports": [
-            {
-              "AISId": null,
-              "DateReceived": "2021-10-07T09:10:19.0000000Z",
-              "DocumentUuid": "a6de1f6e-4fd3-ec11-a7b5-002248944157",
-              "DueDate": "2020-08-30T14:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2019",
-              "type": "Financial Report 2019",
-              "uuid": "1c3322d4-ee25-e911-a979-000d3ad05ad0"
-            },
-            {
-              "AISId": "18a16d79-4fd3-ec11-a7b6-002248116a15",
-              "DateReceived": "2021-10-07T09:10:31.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2020-08-30T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2019",
-              "type": "Annual Information Statement 2019",
-              "uuid": "413322d4-ee25-e911-a979-000d3ad05ad0"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2022-04-28T05:05:22.0000000Z",
-              "DocumentUuid": "d5f4b447-49f8-ec11-82e7-002248944e6d",
-              "DueDate": "2021-06-29T14:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2020",
-              "type": "Financial Report 2020",
-              "uuid": "803322d4-ee25-e911-a979-000d3ad05ad0"
-            },
-            {
-              "AISId": "0e0de04d-49f8-ec11-82e6-002248116a15",
-              "DateReceived": "2022-04-28T05:05:27.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2021-06-29T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2020",
-              "type": "Annual Information Statement 2020",
-              "uuid": "ac3322d4-ee25-e911-a979-000d3ad05ad0"
-            },
-            {
-              "AISId": "87f9f3d9-8e15-ee11-9cbe-00224893bd39",
-              "DateReceived": "2022-07-26T07:51:43.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2022-06-29T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2021",
-              "type": "Annual Information Statement 2021",
-              "uuid": "0e937755-96eb-ea11-a815-000d3ad1f497"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2022-07-26T07:50:27.0000000Z",
-              "DocumentUuid": "040afbcb-8e15-ee11-9cbe-002248933d22",
-              "DueDate": "2022-06-29T14:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2021",
-              "type": "Financial Report 2021",
-              "uuid": "1d937755-96eb-ea11-a815-000d3ad1f497"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2027-06-29T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Not yet submitted",
-              "Year": "2026",
-              "type": "Annual Information Statement 2026",
-              "uuid": "c2cddc63-bc55-f011-bec1-000d3ad21ae5"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2027-06-29T14:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Pending",
-              "Year": "2026",
-              "type": "Financial Report 2026",
-              "uuid": "dbcddc63-bc55-f011-bec1-000d3ad21ae5"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": true,
-              "Status": "Not required",
-              "Year": "2013",
-              "type": "Annual Information Statement 2013",
-              "uuid": "0f0a80ed-3bc8-e811-a961-000d3ad24282"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": true,
-              "Status": "Not required",
-              "Year": "2014",
-              "type": "Annual Information Statement 2014",
-              "uuid": "230a80ed-3bc8-e811-a961-000d3ad24282"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": true,
-              "Status": "Not required",
-              "Year": "2015",
-              "type": "Annual Information Statement 2015",
-              "uuid": "310a80ed-3bc8-e811-a961-000d3ad24282"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": true,
-              "Status": "Not required",
-              "Year": "2016",
-              "type": "Annual Information Statement 2016",
-              "uuid": "3f0a80ed-3bc8-e811-a961-000d3ad24282"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": true,
-              "Status": "Not required",
-              "Year": "2017",
-              "type": "Annual Information Statement 2017",
-              "uuid": "4e0a80ed-3bc8-e811-a961-000d3ad24282"
-            },
-            {
-              "AISId": "bd91b67d-d6d4-ec11-a7b7-002248116f6b",
-              "DateReceived": "2022-05-16T05:10:35.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2019-06-29T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2018",
-              "type": "Annual Information Statement 2018",
-              "uuid": "5f0a80ed-3bc8-e811-a961-000d3ad24282"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required",
-              "Year": "2015",
-              "type": "Financial Report 2015",
-              "uuid": "b83db219-41c8-e811-a961-000d3ad24282"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required",
-              "Year": "2014",
-              "type": "Financial Report 2014",
-              "uuid": "ce3db219-41c8-e811-a961-000d3ad24282"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2022-05-16T05:10:30.0000000Z",
-              "DocumentUuid": "84c56c76-d6d4-ec11-a7b5-002248944bc7",
-              "DueDate": "2019-06-29T14:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2018",
-              "type": "Financial Report 2018",
-              "uuid": "ed3db219-41c8-e811-a961-000d3ad24282"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required",
-              "Year": "2013",
-              "type": "Financial Report 2013",
-              "uuid": "043eb219-41c8-e811-a961-000d3ad24282"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required",
-              "Year": "2016",
-              "type": "Financial Report 2016",
-              "uuid": "113eb219-41c8-e811-a961-000d3ad24282"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required",
-              "Year": "2017",
-              "type": "Financial Report 2017",
-              "uuid": "1f3eb219-41c8-e811-a961-000d3ad24282"
-            },
-            {
-              "AISId": "a50b6eff-4b16-ee11-9cbe-00224893b261",
-              "DateReceived": "2023-06-29T07:10:30.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2023-06-29T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2022",
-              "type": "Annual Information Statement 2022",
-              "uuid": "23159cd3-bdd9-eb11-bacb-002248107829"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2023-06-29T07:10:23.0000000Z",
-              "DocumentUuid": "9bb1a2fb-4b16-ee11-9cbe-00224893cef4",
-              "DueDate": "2023-06-29T14:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2022",
-              "type": "Financial Report 2022",
-              "uuid": "8c159cd3-bdd9-eb11-bacb-002248107829"
-            },
-            {
-              "AISId": "810793cb-1535-ef11-8e4e-002248103c65",
-              "DateReceived": "2024-06-28T06:15:31.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2024-06-29T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2023",
-              "type": "Annual Information Statement 2023",
-              "uuid": "67d05238-8bf8-ec11-82e7-002248116f6b"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2024-06-28T06:15:21.0000000Z",
-              "DocumentUuid": "f445c7c5-1535-ef11-8e4e-00224894beb1",
-              "DueDate": "2024-06-29T14:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2023",
-              "type": "Financial Report 2023",
-              "uuid": "70d05238-8bf8-ec11-82e7-002248116f6b"
-            },
-            {
-              "AISId": "765c9796-6955-f011-bec2-000d3ad2853b",
-              "DateReceived": "2025-06-30T04:20:49.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2025-06-29T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2024",
-              "type": "Annual Information Statement 2024",
-              "uuid": "a450994d-5117-ee11-8f6d-002248122b18"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2025-06-30T04:20:39.0000000Z",
-              "DocumentUuid": "63786a8a-6955-f011-bec2-000d3ad2853b",
-              "DueDate": "2025-06-29T14:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2024",
-              "type": "Financial Report 2024",
-              "uuid": "cf50994d-5117-ee11-8f6d-002248122b18"
-            },
-            {
-              "AISId": "b865ea3e-305b-f111-bec7-6045bde5b710",
-              "DateReceived": "2026-05-29T07:30:26.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2026-06-29T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2025",
-              "type": "Annual Information Statement 2025",
-              "uuid": "117d24b4-e936-ef11-a317-00224893b304"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2026-05-29T07:30:21.0000000Z",
-              "DocumentUuid": "27da6b36-305b-f111-bec7-002248111f49",
-              "DueDate": "2026-06-29T14:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2025",
-              "type": "Financial Report 2025",
-              "uuid": "2a7d24b4-e936-ef11-a317-00224893b304"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2028-06-29T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Not yet submitted",
-              "Year": "2027",
-              "type": "Annual Information Statement 2027",
-              "uuid": "4c42d711-9074-f111-ab0f-7c1e522b035c"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2028-06-29T14:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Pending",
-              "Year": "2027",
-              "type": "Financial Report 2027",
-              "uuid": "6442d711-9074-f111-ab0f-7c1e522b035c"
-            }
-          ],
-          "Beneficiaries": [
-            {
-              "Description": null,
-              "Name": "Early childhood - aged under 6",
-              "uuid": "0466ea3e-305b-f111-bec7-6045bde5b710"
-            }
-          ],
-          "CharitySize": "Medium",
-          "CharitySubtypeHistory": [
-            {
-              "EndDate": null,
-              "Purpose": "Advancing education",
-              "StartDate": "2018-02-25T13:00:00.0000000Z",
-              "uuid": "fc927348-ffc6-e811-a961-000d3ad24282"
-            }
-          ],
-          "CharityVersion": "97",
-          "ChildMemberEndDate": null,
-          "ChildMemberStartDate": null,
-          "ChooseToProvideAis": null,
-          "Countries": [
-            {
-              "Name": "Australia",
-              "uuid": "f57b5602-9a4d-e811-a951-000d3ad06f2d"
-            }
-          ],
-          "DateEstablished": "2018-02-25T13:00:00.0000000Z",
-          "Documents": [
-            {
-              "Date": "2018-03-06T00:00:00.0000000",
-              "Title": "Rules_-_E_F_Child_Dev_Centre_Nov_2017_Ref20800_1.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/c99bc2b2-3aaf-e811-a961-000d3ad24182-77b42b88-b053-4872-9421-5e1fdb96ac20-Governing%20Document-cfa81ebe-54b0-e811-a963-000d3ad244fd-Rules_-_E_F_Child_Dev_Centre_Nov_2017_Ref20800_1.pdf",
-              "Year": null,
-              "type": "Governing Document",
-              "uuid": "cfa81ebe-54b0-e811-a963-000d3ad244fd"
-            },
-            {
-              "Date": "2022-05-14T00:00:00.0000000",
-              "Title": "Copy of ACNC ais financials 2019 2018.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/c99bc2b2-3aaf-e811-a961-000d3ad24182-77b42b88-b053-4872-9421-5e1fdb96ac20-Annual%20Report-90de1f6e-4fd3-ec11-a7b5-002248944157-Copy_of_ACNC_ais_financials_2019_2018.pdf",
-              "Year": "2019",
-              "type": "Annual Report",
-              "uuid": "90de1f6e-4fd3-ec11-a7b5-002248944157"
-            },
-            {
-              "Date": "2022-06-30T00:00:00.0000000",
-              "Title": "East Fremantle Child Development Centre Inc 2020.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/c99bc2b2-3aaf-e811-a961-000d3ad24182-77b42b88-b053-4872-9421-5e1fdb96ac20-Financial%20Report-d5f4b447-49f8-ec11-82e7-002248944e6d-East_Fremantle_Child_Development_Centre_Inc_2020.pdf",
-              "Year": "2020",
-              "type": "Financial Report",
-              "uuid": "d5f4b447-49f8-ec11-82e7-002248944e6d"
-            },
-            {
-              "Date": "2025-06-30T00:00:00.0000000",
-              "Title": "SPFR 2024- Stepping Stones Child Development Centre.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/c99bc2b2-3aaf-e811-a961-000d3ad24182-77b42b88-b053-4872-9421-5e1fdb96ac20-Financial%20Report-63786a8a-6955-f011-bec2-000d3ad2853b-SPFR_2024-_Stepping_Stones_Child_Development_Centre.pdf",
-              "Year": "2024",
-              "type": "Financial Report",
-              "uuid": "63786a8a-6955-f011-bec2-000d3ad2853b"
-            },
-            {
-              "Date": "2026-05-29T00:00:00.0000000",
-              "Title": "East Fremantle Child Development Centre Inc.-Special Purpose Financial Report-2025.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/c99bc2b2-3aaf-e811-a961-000d3ad24182-77b42b88-b053-4872-9421-5e1fdb96ac20-Financial%20Report-27da6b36-305b-f111-bec7-002248111f49-East_Fremantle_Child_Development_Centre_Inc.-Special_Purpose_Financial_Report-2025.pdf",
-              "Year": "2025",
-              "type": "Financial Report",
-              "uuid": "27da6b36-305b-f111-bec7-002248111f49"
-            },
-            {
-              "Date": "2022-05-14T00:00:00.0000000",
-              "Title": "Annual report 2019.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/c99bc2b2-3aaf-e811-a961-000d3ad24182-77b42b88-b053-4872-9421-5e1fdb96ac20-Financial%20Report-a6de1f6e-4fd3-ec11-a7b5-002248944157-Annual_report_2019.pdf",
-              "Year": "2019",
-              "type": "Financial Report",
-              "uuid": "a6de1f6e-4fd3-ec11-a7b5-002248944157"
-            },
-            {
-              "Date": "2023-06-28T00:00:00.0000000",
-              "Title": "Audited Financial Statement 2021.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/c99bc2b2-3aaf-e811-a961-000d3ad24182-77b42b88-b053-4872-9421-5e1fdb96ac20-Financial%20Report-040afbcb-8e15-ee11-9cbe-002248933d22-Audited_Financial_Statement_2021.pdf",
-              "Year": "2021",
-              "type": "Financial Report",
-              "uuid": "040afbcb-8e15-ee11-9cbe-002248933d22"
-            },
-            {
-              "Date": "2023-06-29T00:00:00.0000000",
-              "Title": "East Fremantle Child Development Centre Inc.-Annual Report-FY22 (004).pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/c99bc2b2-3aaf-e811-a961-000d3ad24182-77b42b88-b053-4872-9421-5e1fdb96ac20-Financial%20Report-9bb1a2fb-4b16-ee11-9cbe-00224893cef4-East_Fremantle_Child_Development_Centre_Inc.-Annual_Report-FY22_(004).pdf",
-              "Year": "2022",
-              "type": "Financial Report",
-              "uuid": "9bb1a2fb-4b16-ee11-9cbe-00224893cef4"
-            },
-            {
-              "Date": "2022-05-16T00:00:00.0000000",
-              "Title": "EFCDC 2018 Annual Accounts.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/c99bc2b2-3aaf-e811-a961-000d3ad24182-77b42b88-b053-4872-9421-5e1fdb96ac20-Financial%20Report-84c56c76-d6d4-ec11-a7b5-002248944bc7-EFCDC_2018_Annual_Accounts.pdf",
-              "Year": "2018",
-              "type": "Financial Report",
-              "uuid": "84c56c76-d6d4-ec11-a7b5-002248944bc7"
-            },
-            {
-              "Date": "2024-06-28T00:00:00.0000000",
-              "Title": "SPFR 2023-East Fremantle Child Development Centre Inc.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/c99bc2b2-3aaf-e811-a961-000d3ad24182-77b42b88-b053-4872-9421-5e1fdb96ac20-Financial%20Report-f445c7c5-1535-ef11-8e4e-00224894beb1-SPFR_2023-East_Fremantle_Child_Development_Centre_Inc.pdf",
-              "Year": "2023",
-              "type": "Financial Report",
-              "uuid": "f445c7c5-1535-ef11-8e4e-00224894beb1"
-            }
-          ],
-          "Email": "director@steppingstonescdc.com.au",
-          "EnforcementOutcomes": [],
-          "FinancialYearEnd": "31/12",
-          "GovernmentAgencies": [
-            {
-              "Name": "WA - Incorporated Association",
-              "ReferenceNumber": "A1023961N",
-              "uuid": "d665ea3e-305b-f111-bec7-6045bde5b710"
-            }
-          ],
-          "GroupHeadFlag": false,
-          "LastReported": "2026-05-29T07:30:26.0000000Z",
-          "Name": "East Fremantle Child Development Centre Inc",
-          "NextReportDue": "2027-06-30T13:30:00.0000000Z",
-          "OperatingInStates": [
-            {
-              "Name": "Western Australia",
-              "uuid": "dc2782ae-455e-e811-a95c-000d3ad1c715"
-            }
-          ],
-          "OtherDetails": null,
-          "OtherNames": [
-            {
-              "Name": "Stepping Stones Child Development Centre",
-              "uuid": "11ada9f4-7f59-f111-89e7-002248104426"
-            }
-          ],
-          "ParentAccountAbn": null,
-          "ParentAccountId": null,
-          "Phone": null,
-          "Programs": [
-            {
-              "AisUuid": "b865ea3e-305b-f111-bec7-6045bde5b710",
-              "Name": "Stepping Stones Child Development Centre",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Early childhood - aged under 6"
-              ],
-              "ProgramClassie": [
-                {
-                  "classie_id": "500",
-                  "label": "Child care",
-                  "parent_id": "498",
-                  "selected": true
-                },
-                {
-                  "classie_id": "498",
-                  "label": "Child welfare",
-                  "parent_id": "496",
-                  "selected": false
-                },
-                {
-                  "classie_id": "496",
-                  "label": "Family services",
-                  "parent_id": "485",
-                  "selected": false
-                },
-                {
-                  "classie_id": "485",
-                  "label": "Human services",
-                  "parent_id": null,
-                  "selected": false
-                }
-              ],
-              "ProgramClassification": "Child care",
-              "ProgramClassificationID": "500",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "6 Fortescue Street, East Fremantle WA, Australia",
-                  "FormattedAddress": "6 Fortescue St, East Fremantle WA 6158, Australia",
-                  "Marker": {
-                    "Latitude": -32.0395324,
-                    "Longitude": 115.7726575
-                  },
-                  "Name": "6 Fortescue St",
-                  "uuid": "f865ea3e-305b-f111-bec7-6045bde5b710"
-                }
-              ],
-              "ProgramWeblink": "http://www.steppingstonescdc.com.au",
-              "uuid": "eb65ea3e-305b-f111-bec7-6045bde5b710"
-            }
-          ],
-          "ReferendumReturnsUrl": null,
-          "RegistrationStatusHistory": [
-            {
-              "EffectiveDate": "2018-02-25T13:00:00.0000000Z",
-              "Status": "Registered",
-              "TransactionDate": "2018-03-22T00:00:43.0000000Z",
-              "uuid": "21c9630e-07c6-e811-a95f-000d3ad24c60"
-            }
-          ],
-          "RelatedPartyTransactions": null,
-          "RelevantTransactions": null,
-          "ReportingLate": "2027-12-30T13:30:00.0000000Z",
-          "ResponsiblePersons": [
-            {
-              "Name": "Darren Smith",
-              "Role": "Board Member",
-              "uuid": "10aec3c6-ead6-ea11-a813-000d3ad1f9f4"
-            },
-            {
-              "Name": "Trevor Darch",
-              "Role": "Deputy Chairperson",
-              "uuid": "1726cec8-b70c-ed11-b83d-00224812b54e"
-            },
-            {
-              "Name": "Stephen Groves",
-              "Role": "Treasurer",
-              "uuid": "e668180d-36fb-eb11-94ee-002248106957"
-            },
-            {
-              "Name": "Stephen Groves",
-              "Role": "Board Member",
-              "uuid": "e668180d-36fb-eb11-94ee-002248106957"
-            },
-            {
-              "Name": "Bella Yang",
-              "Role": "Secretary",
-              "uuid": "b4b18f9c-6955-f011-bec2-000d3ad2853b"
-            },
-            {
-              "Name": "Miriam Hosking",
-              "Role": "Board Member",
-              "uuid": "5cea98a2-6955-f011-bec2-000d3ad2853b"
-            },
-            {
-              "Name": "Miriam Hosking",
-              "Role": "Chairperson",
-              "uuid": "5cea98a2-6955-f011-bec2-000d3ad2853b"
-            },
-            {
-              "Name": "Joseph Daniels",
-              "Role": "Board Member",
-              "uuid": "8e0793cb-1535-ef11-8e4e-002248103c65"
-            }
-          ],
-          "Status": "Registered",
-          "SummaryOfActivities": "We provide Early Childhood Development services in East Fremantle",
-          "TotalExpensesEmployee": "468657",
-          "TotalExpensesGrantsAndDonationsInAustralia": "25234",
-          "TotalExpensesGrantsAndDonationsOutsideAustralia": "0",
-          "TotalExpensesInterest": "0",
-          "TotalExpensesOther": "206093",
-          "TotalGrossIncomeDonationsAndRequests": "0",
-          "TotalGrossIncomeGoodsOrServices": "527033",
-          "TotalGrossIncomeGovernmentGrants": "0",
-          "TotalGrossIncomeInvestments": "16005",
-          "TotalGrossIncomeOtherRevenues": "6266",
-          "TransparencyRegisterUrl": null,
-          "Website": "http://www.steppingstonescdc.com.au",
-          "__normalized": true,
-          "type": "charity",
-          "uuid": "c99bc2b2-3aaf-e811-a961-000d3ad24182"
-        },
-        "type": "charity",
-        "uuid": "c99bc2b2-3aaf-e811-a961-000d3ad24182"
-      },
-      "canonical_field_mappings": {
-        "data.OtherNames": "operating_names",
-        "data.AddressStateOrProvince": "principal_location"
-      },
-      "evidence_ids": []
-    },
-    {
-      "source_record_id": "src:acnc-ais-detail:40920336423:b865ea3e-305b-f111-bec7-6045bde5b710:cb_702846f4dd1d418db5fbc98d68647cf9",
-      "source_family": "acnc-ais-detail",
-      "dataset_version": "2026-08-14-public-api",
-      "source_url": "https://www.acnc.gov.au/charity/charities/c99bc2b2-3aaf-e811-a961-000d3ad24182/documents/b865ea3e-305b-f111-bec7-6045bde5b710",
-      "retrieved_at": "2026-08-13T13:54:42.956606Z",
-      "observed_at": "2026-05-29",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "abn": "40920336423",
-        "ais_uuid": "b865ea3e-305b-f111-bec7-6045bde5b710",
-        "year": "2025",
-        "date_received": "2026-05-29T07:30:26.0000000Z"
-      },
-      "source_payload": {
-        "data": {
-          "Abn": "40920336423",
-          "ActivityAdvocacyNCivic": false,
-          "ActivityAgedCare": false,
-          "ActivityAnimalProtection": false,
-          "ActivityCultureAndArt": false,
-          "ActivityEconomicSocialCommunity": false,
-          "ActivityEmergencyNRelief": false,
-          "ActivityEmploymentNTraining": false,
-          "ActivityEnvironmental": false,
-          "ActivityGrantMaking": false,
-          "ActivityHealthRehabilitation": false,
-          "ActivityHigherEducation": false,
-          "ActivityHousing": false,
-          "ActivityIncomeSupportNMaintenance": false,
-          "ActivityInternational": false,
-          "ActivityInternationalDescription": null,
-          "ActivityInternationalOther": false,
-          "ActivityInternationalOtherDescription": null,
-          "ActivityLawNLegalServices": false,
-          "ActivityMain": null,
-          "ActivityMentalHealthCrisisIntervention": false,
-          "ActivityNdisSupported": null,
-          "ActivityNdisSupportedNext": null,
-          "ActivityOperating": true,
-          "ActivityOperatingOverseas": false,
-          "ActivityOther": false,
-          "ActivityOtherDescription": null,
-          "ActivityOtherEducation": false,
-          "ActivityOtherHealthServices": false,
-          "ActivityPersuitPurposesDescription": "We provide Early Childhood Development services in East Fremantle",
-          "ActivityPhilanthropicPromotion": false,
-          "ActivityPolitical": false,
-          "ActivityPrimarySecondaryEducation": false,
-          "ActivityPurposeChange": null,
-          "ActivityPurposeChangeDescription": null,
-          "ActivityRecreationSocialClub": false,
-          "ActivityReligious": false,
-          "ActivityResearch": false,
-          "ActivitySocialServices": false,
-          "ActivitySports": false,
-          "ActivityTransferringFundsGoods": false,
-          "AdvancementOfEducation": false,
-          "AdvancementOfReligion": false,
-          "AssetsandLiabilitiesDescription": null,
-          "BasicReligiousCharity": false,
-          "BeneficiaryAboriginalTorres": false,
-          "BeneficiaryAdults": false,
-          "BeneficiaryAllAges": false,
-          "BeneficiaryChildren": false,
-          "BeneficiaryChronicIllness": false,
-          "BeneficiaryCrimeVictims": false,
-          "BeneficiaryDisasterVictims": false,
-          "BeneficiaryEarlyChildhood": false,
-          "BeneficiaryEthnic": false,
-          "BeneficiaryFamilies": false,
-          "BeneficiaryFinanciallyDisadvantaged": false,
-          "BeneficiaryGeneral": false,
-          "BeneficiaryHomelessnessRisk": false,
-          "BeneficiaryLGBT": false,
-          "BeneficiaryMain": null,
-          "BeneficiaryMen": false,
-          "BeneficiaryMigrantsRefugees": false,
-          "BeneficiaryOffenderFamilies": false,
-          "BeneficiaryOther": false,
-          "BeneficiaryOtherCharities": false,
-          "BeneficiaryOtherDescription": null,
-          "BeneficiaryOverseas": false,
-          "BeneficiaryPeopleWithDisability": false,
-          "BeneficiaryRuralRegionalRemote": false,
-          "BeneficiarySeniors": false,
-          "BeneficiaryUnemployed": false,
-          "BeneficiaryVeteranFamilies": false,
-          "BeneficiaryWomen": false,
-          "BeneficiaryYouth": false,
-          "CharityAddressCountry": "Australia",
-          "CharityAddressLine1": "6 Fortescue St",
-          "CharityAddressLine2": null,
-          "CharityAddressPostalCode": "6158",
-          "CharityAddressStateOrProvince": "WA",
-          "CharityAddressSuburb": "East Fremantle",
-          "CharityEmail": "director@steppingstonescdc.com.au",
-          "CharitySize": "Medium",
-          "CharityUuid": "c99bc2b2-3aaf-e811-a961-000d3ad24182",
-          "ChildCareServices": false,
-          "ExpenseEmployees": "468657.0000",
-          "ExpenseGrantDonationsInAustralia": "25234.0000",
-          "ExpenseGrantDonationsOutsideAustralia": "0.0000",
-          "ExpenseTotal": "699984.0000",
-          "ExpensesOther": "206093.0000",
-          "FinAccrualAccounting": null,
-          "FinConsolidatedReportFromMiltiple": "No",
-          "FinDocumentedPoliciesRelatedPartyTransactions": null,
-          "FinFyeJune": false,
-          "FinProvideVoluntarily": null,
-          "FinRelatedPartyTransactions": "No",
-          "FinReportACT": false,
-          "FinReportFrom": "2025-01-01T00:00:00.0000000Z",
-          "FinReportNSW": false,
-          "FinReportNT": false,
-          "FinReportQLD": false,
-          "FinReportSA": false,
-          "FinReportTAS": false,
-          "FinReportTo": "2025-12-31T00:00:00.0000000Z",
-          "FinReportVIC": false,
-          "FinReportWA": false,
-          "FinReportingType": "Special purpose financial statements",
-          "FinSapDate": null,
-          "FundRaisingNumberACT": null,
-          "FundRaisingNumberNSW": null,
-          "FundRaisingNumberQLD": null,
-          "FundRaisingNumberSA": null,
-          "FundRaisingNumberTAS": null,
-          "FundRaisingNumberVIC": null,
-          "FundRaisingNumberWA": null,
-          "GovDocAccurate": null,
-          "GrantCapacityBuildingPct": null,
-          "GrantMultiYearPct": null,
-          "GrantPublicOpenApplicationPct": null,
-          "GrantRuralRegionPct": null,
-          "HasSubmittedToRegulator": false,
-          "HoursPaid": null,
-          "HoursTotal": null,
-          "HoursVolunteer": null,
-          "HrCasualEmployees": "7",
-          "HrFteStaff": "5.0000000000",
-          "HrFullTimeEmployees": "3",
-          "HrPartTimeEmployees": "5",
-          "HrUnpainVolunteers": "6",
-          "IncomeDonationsBequests": "0.0000",
-          "IncomeGovernmentGrants": "0.0000",
-          "IncomeOther": "0.0000",
-          "IncomeOtherComprehinsive": "0.0000",
-          "IncomeOtherNeg": null,
-          "IncomeOtherReceipts": "6266.0000",
-          "IncomeTotalComprehensive": "-150680.0000",
-          "IncomeTotalReceipts": "549304.0000",
-          "IncorporationStatus": null,
-          "InterestExpense": "0.0000",
-          "IsIncorporatedAssociation": true,
-          "KeyManagementPersonnel": false,
-          "LegalName": "East Fremantle Child Development Centre Inc",
-          "NetAssetsLiabilities": "439088.0000",
-          "NetSurplusDeficit": "-150680.0000",
-          "NonCurrentLoansPayable": "0.0000",
-          "NumberOfKeyManagementPersonnel": "0",
-          "OperatingCountries": null,
-          "OperatingInACT": false,
-          "OperatingInNSW": false,
-          "OperatingInNT": false,
-          "OperatingInQLD": false,
-          "OperatingInSA": false,
-          "OperatingInTAS": false,
-          "OperatingInVIC": false,
-          "OperatingInWA": false,
-          "OperatingOverseas": false,
-          "OtherNames": [],
-          "OtherNonCurrentAssets": "0.0000",
-          "OtherNonCurrentLiabilities": "0.0000",
-          "OtherPurposeDescription": null,
-          "OtherPurposes": "False",
-          "Programs": [
-            {
-              "AisUuid": "b865ea3e-305b-f111-bec7-6045bde5b710",
-              "Name": "Stepping Stones Child Development Centre",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Early childhood - aged under 6"
-              ],
-              "ProgramClassification": "Child care",
-              "ProgramClassificationID": "500",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "6 Fortescue Street, East Fremantle WA, Australia",
-                  "FormattedAddress": "6 Fortescue St, East Fremantle WA 6158, Australia",
-                  "Marker": {
-                    "Latitude": -32.0395324,
-                    "Longitude": 115.7726575
-                  },
-                  "Name": "6 Fortescue St",
-                  "uuid": "f865ea3e-305b-f111-bec7-6045bde5b710"
-                }
-              ],
-              "ProgramWeblink": "http://www.steppingstonescdc.com.au",
-              "uuid": "eb65ea3e-305b-f111-bec7-6045bde5b710"
-            }
-          ],
-          "RegulatedACT": false,
-          "RegulatedNSW": false,
-          "RegulatedNT": false,
-          "RegulatedQLD": false,
-          "RegulatedSA": false,
-          "RegulatedTAS": false,
-          "RegulatedVIC": false,
-          "RegulatedWA": false,
-          "Regulator": null,
-          "RegulatorAGMDateACT": null,
-          "RegulatorAGMDateNT": null,
-          "RegulatorAGMDateVIC": null,
-          "RegulatorAGMDateWA": "2026-03-30T00:00:00.0000000",
-          "RegulatorFundRaising": "No",
-          "RegulatorFundRaisingACT": false,
-          "RegulatorFundRaisingNSW": false,
-          "RegulatorFundRaisingNT": false,
-          "RegulatorFundRaisingOnline": false,
-          "RegulatorFundRaisingQLD": false,
-          "RegulatorFundRaisingSA": false,
-          "RegulatorFundRaisingTAS": false,
-          "RegulatorFundRaisingVIC": false,
-          "RegulatorFundRaisingWA": false,
-          "RegulatorIncorporatedAssociationACT": false,
-          "RegulatorIncorporatedAssociationNSW": false,
-          "RegulatorIncorporatedAssociationNT": false,
-          "RegulatorIncorporatedAssociationNumberACT": null,
-          "RegulatorIncorporatedAssociationNumberNSW": null,
-          "RegulatorIncorporatedAssociationNumberNT": null,
-          "RegulatorIncorporatedAssociationNumberQLD": null,
-          "RegulatorIncorporatedAssociationNumberSA": null,
-          "RegulatorIncorporatedAssociationNumberTAS": null,
-          "RegulatorIncorporatedAssociationNumberVIC": null,
-          "RegulatorIncorporatedAssociationNumberWA": "A1023961N",
-          "RegulatorIncorporatedAssociationQLD": false,
-          "RegulatorIncorporatedAssociationSA": false,
-          "RegulatorIncorporatedAssociationTAS": false,
-          "RegulatorIncorporatedAssociationVIC": false,
-          "RegulatorIncorporatedAssociationWA": true,
-          "RegulatorMetRequirementACT": false,
-          "RegulatorMetRequirementWA": "Yes",
-          "RegulatorOtherDetails": null,
-          "RegulatorPrograms": null,
-          "RegulatorStates": false,
-          "RelatedPartyDetails": null,
-          "RelatedPartyTransactions": [],
-          "ReliefOfPoverty": false,
-          "ReportingGroupFlag": false,
-          "ResponsiblePersonAccurate": null,
-          "RevenueGoodsServices": "527033.0000",
-          "RevenueInvestments": "16005.0000",
-          "RevenueTotal": "549304.0000",
-          "StatementYear": "2025",
-          "SubTypesAccurate": null,
-          "TotalAssets": "570648.0000",
-          "TotalCurrentAssets": "422815.0000",
-          "TotalCurrentLiabilities": "102080.0000",
-          "TotalLiabilities": "131560.0000",
-          "TotalNonCurrentAssets": "147833.0000",
-          "TotalNonCurrentLiabilities": "29480.0000",
-          "TotalNonCurrentLoansReceivable": "0.0000",
-          "TotalPaidKMP": "$0.00",
-          "Website": "http://www.steppingstonescdc.com.au",
-          "__normalized": true,
-          "entityTypeVersion": "",
-          "entityVersion": "1937718168",
-          "timeStamp": "2026-05-29T07:30:21.0000000Z",
-          "type": "annual_information_statement",
-          "uuid": "b865ea3e-305b-f111-bec7-6045bde5b710"
-        },
-        "type": "annual_information_statement",
-        "uuid": "b865ea3e-305b-f111-bec7-6045bde5b710"
-      },
-      "canonical_field_mappings": {
-        "data.Programs": "programs",
-        "data.TotalRevenue": "financial_records[].revenue",
-        "data.TotalExpenses": "financial_records[].total_expenses"
-      },
-      "evidence_ids": [
-        "ev:acnc:ais:40920336423:b865ea3e-305b-f111-bec7-6045bde5b710"
-      ]
-    }
-  ],
-  "financial_records": [
-    {
-      "financial_record_id": "fr:ais:cb_702846f4dd1d418db5fbc98d68647cf9:2023",
-      "period": {
-        "period_start": "2023-01-01",
-        "period_end": "2023-12-31",
-        "period_length_days": 365,
-        "label": "01/01/2023 to 31/12/2023",
-        "is_transitional_or_nonstandard": false
-      },
-      "reporting_scope": "subject",
-      "reporting_subject_causebase_id": "cb_702846f4dd1d418db5fbc98d68647cf9",
-      "covered_subjects": [
-        "cb_702846f4dd1d418db5fbc98d68647cf9"
-      ],
-      "consolidated": "false",
-      "attribution_method": "direct_subject_report",
-      "evidence_ids": [
-        "ev:ais:40920336423:2023"
-      ],
-      "revenue": {
-        "source_amount": "702998",
-        "source_currency": "AUD",
-        "source_unit_scale": "1",
-        "normalised_amount": "702998",
-        "normalised_currency": "AUD",
-        "source_unit_label": null,
-        "source_raw_value": "702998",
-        "source_precision": null
-      },
-      "donations": null,
-      "government_grants": null,
-      "employee_costs": null,
-      "total_expenses": {
-        "source_amount": "674216",
-        "source_currency": "AUD",
-        "source_unit_scale": "1",
-        "normalised_amount": "674216",
-        "normalised_currency": "AUD",
-        "source_unit_label": null,
-        "source_raw_value": "674216",
-        "source_precision": null
-      },
-      "assets": null,
-      "liabilities": null,
-      "net_assets": null,
-      "income_breakdown": [],
-      "expense_breakdown": [],
-      "balance_sheet_breakdown": [],
-      "source_ordered_line_items": [],
-      "statements": [],
-      "donations_gifts_bequests": null,
-      "functional_expense_allocations": []
-    }
-  ],
-  "financial_metrics": [
-    {
-      "metric": "revenue",
-      "observations": [
-        {
-          "financial_record_id": "fr:ais:cb_702846f4dd1d418db5fbc98d68647cf9:2023",
-          "amount": {
-            "source_amount": "702998",
-            "source_currency": "AUD",
-            "source_unit_scale": "1",
-            "normalised_amount": "702998",
-            "normalised_currency": "AUD",
-            "source_unit_label": null,
-            "source_raw_value": "702998",
-            "source_precision": null
-          },
-          "metric_source_label": null,
-          "evidence_ids": [
-            "ev:ais:40920336423:2023"
-          ]
-        }
-      ],
-      "reconciliation_status": "single_observation",
-      "reconciliation_notes": null
-    },
-    {
-      "metric": "total_expenses",
-      "observations": [
-        {
-          "financial_record_id": "fr:ais:cb_702846f4dd1d418db5fbc98d68647cf9:2023",
-          "amount": {
-            "source_amount": "674216",
-            "source_currency": "AUD",
-            "source_unit_scale": "1",
-            "normalised_amount": "674216",
-            "normalised_currency": "AUD",
-            "source_unit_label": null,
-            "source_raw_value": "674216",
-            "source_precision": null
-          },
-          "metric_source_label": null,
-          "evidence_ids": [
-            "ev:ais:40920336423:2023"
-          ]
-        }
-      ],
-      "reconciliation_status": "single_observation",
-      "reconciliation_notes": null
-    }
-  ],
-  "fundraising_expenditure": null,
-  "funding_sources": [],
-  "fundraising_methods": [],
-  "classifications": [
-    {
-      "taxonomy_id": "acnc-register",
-      "taxonomy_version": "2026-08-10",
-      "term_id": "purpose.education",
-      "term_label": "education",
-      "assignment_method": "source_native",
-      "confidence": "high",
-      "evidence_ids": [
-        "ev:acnc:40920336423"
-      ]
-    },
-    {
-      "taxonomy_id": "acnc-register",
-      "taxonomy_version": "2026-08-10",
-      "term_id": "beneficiary.other_beneficiary",
-      "term_label": "other beneficiary",
-      "assignment_method": "source_native",
-      "confidence": "high",
-      "evidence_ids": [
-        "ev:acnc:40920336423"
-      ]
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "geography.local_or_regional",
-      "term_label": "Local or regional Australia",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "organisation.local",
-      "term_label": "Local organisation",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
+      "review_status": "not_required",
+      "conflicting_signals": []
     }
   ],
   "evidence": [
     {
       "evidence_id": "ev:acnc:40920336423",
-      "source_type": "regulatory",
-      "title": "ACNC Register extract",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": null,
-      "observed_at": "2026-08-10",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "title": "ACNC Register extract"
     },
     {
       "evidence_id": "ev:ais:40920336423:2023",
-      "source_type": "regulatory",
-      "title": "ACNC AIS 2023 extract",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": null,
-      "observed_at": "2026-08-10",
-      "reporting_period": "01/01/2023 to 31/12/2023",
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "title": "ACNC AIS 2023 extract"
     },
     {
       "evidence_id": "ev:acnc:ais:40920336423:b865ea3e-305b-f111-bec7-6045bde5b710",
-      "source_type": "regulatory",
       "title": "ACNC Annual Information Statement 2025",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": "https://www.acnc.gov.au/charity/charities/c99bc2b2-3aaf-e811-a961-000d3ad24182/documents/b865ea3e-305b-f111-bec7-6045bde5b710",
-      "observed_at": "2026-05-29",
-      "reporting_period": "2025",
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://www.acnc.gov.au/charity/charities/c99bc2b2-3aaf-e811-a961-000d3ad24182/documents/b865ea3e-305b-f111-bec7-6045bde5b710"
     },
     {
       "evidence_id": "ev:abr-dgr:40920336423:20260805",
-      "source_type": "regulatory",
       "title": "ABR DGR bulk observation",
-      "publisher": "Australian Business Register / Australian Taxation Office",
-      "url": "https://abr.business.gov.au/Tools/BulkExtract",
-      "observed_at": "2026-08-05",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://abr.business.gov.au/Tools/BulkExtract"
     }
   ],
-  "embedding": {
-    "embedding_id": "cb_702846f4dd1d418db5fbc98d68647cf9:entity:text-embedding-3-small",
-    "embedding_type": "entity",
-    "model_id": "text-embedding-3-small",
-    "model_version": "text-embedding-3-small",
-    "dimensions": 1536,
-    "source_text_hash": "b6b20b6da8eb205fcf4bf1f0ceb58cde6fcbf09ff88d3e58fb5e19cd2a7bfb6d",
-    "generated_at": "2026-08-10T13:53:24.457051Z",
-    "vector_ref": "embeddings.parquet#cb_702846f4dd1d418db5fbc98d68647cf9"
+  "summary": {
+    "derivative_id": "der:rc4:cb_702846f4dd1d418db5fbc98d68647cf9:summary",
+    "text": "East Fremantle Child Development Centre Inc is a registered not-for-profit organisation based in Western Australia. CauseBase does not have sufficient descriptive evidence in this release to identify the centre's specific programs, services or beneficiary groups. The organisation is listed on the ACNC Register and lodged an Annual Information Statement covering 1 January\u201331 December 2023, which provides the primary documentary record for this entry."
   },
-  "synthesis": {
-    "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
-    "parameters": {
-      "max_output_tokens": 3000,
-      "structured_output": true,
-      "output_contract": "causebase-summary-v0.3-rc2"
-    },
-    "evidence_input_hash": "c825544b2f838fd7eb4a9e64b0541ffbfa8466b0d8ea5c6e740616b05f48e2ac",
-    "generated_at": "2026-08-12T14:01:19.900210Z",
-    "editorial_policy_version": "0.3-rc2"
-  },
-  "derivative_assessments": [
+  "activities": [],
+  "beneficiaries": [],
+  "descriptive_geography": [],
+  "navigation_geography": [],
+  "funding_sources": [],
+  "fundraising_methods": [],
+  "participation": [],
+  "opportunities": [],
+  "programs": [
     {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T14:01:19.900210Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-13T13:54:42.956606Z",
-      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
-      "input_hash": "c825544b2f838fd7eb4a9e64b0541ffbfa8466b0d8ea5c6e740616b05f48e2ac",
-      "disposition": "reused",
-      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
-      "affected_dimensions": [
-        "summary"
-      ]
+      "observation_id": "obs:rc4:cb_702846f4dd1d418db5fbc98d68647cf9:program:prg:acnc:40920336423:eb65ea3e-305b-f111-bec7-6045bde5b710",
+      "program_id": "prg:acnc:40920336423:eb65ea3e-305b-f111-bec7-6045bde5b710",
+      "name": "Stepping Stones Child Development Centre",
+      "description": "Child care",
+      "url": "http://www.steppingstonescdc.com.au",
+      "status": "current",
+      "claim_basis": "direct",
+      "extraction_method": "api",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:ais:40920336423:b865ea3e-305b-f111-bec7-6045bde5b710"
+      ],
+      "time": {
+        "reporting_period": {
+          "label": "2025"
+        }
+      },
+      "warnings": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-14-rc4-fundraising-projection-correction",
-  "card_schema_version": "0.4",
-  "editorial_policy_version": "0.4-rc4",
-  "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T13:54:42.956606Z"
+  "relationships": [],
+  "classifications": [
+    {
+      "observation_id": "obs:rc4:cb_702846f4dd1d418db5fbc98d68647cf9:classification:0",
+      "classification_id": "cls:rc4:cb_702846f4dd1d418db5fbc98d68647cf9:0",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "purpose.education",
+      "term_label": "education",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:40920336423"
+      ],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_702846f4dd1d418db5fbc98d68647cf9:classification:1",
+      "classification_id": "cls:rc4:cb_702846f4dd1d418db5fbc98d68647cf9:1",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "beneficiary.other_beneficiary",
+      "term_label": "other beneficiary",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:40920336423"
+      ],
+      "confidence": "high",
+      "warnings": []
+    }
+  ],
+  "coverage": {
+    "registry_id": "capability-registry-0.5-initial",
+    "current": [
+      {
+        "capability": "regulatory.acnc_profile",
+        "status": "observed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:acnc:40920336423"
+        ]
+      },
+      {
+        "capability": "regulatory.ais",
+        "status": "observed",
+        "assessed_at": "2026-05-29",
+        "source_record_ids": [
+          "src:acnc-ais-detail:40920336423:b865ea3e-305b-f111-bec7-6045bde5b710:cb_702846f4dd1d418db5fbc98d68647cf9"
+        ],
+        "evidence_ids": [
+          "ev:acnc:ais:40920336423:b865ea3e-305b-f111-bec7-6045bde5b710"
+        ]
+      },
+      {
+        "capability": "tax.dgr",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "web.website",
+        "status": "observed",
+        "assessed_at": "2026-08-13",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "report.annual_report",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "financial.report",
+        "status": "unknown",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:ais:40920336423:2023"
+        ]
+      },
+      {
+        "capability": "financial.statements",
+        "status": "unknown",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:ais:40920336423:2023"
+        ]
+      },
+      {
+        "capability": "understanding.activities",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.beneficiaries",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.geography",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "programs",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "participation",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "funding.sources",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.methods",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.expenditure",
+        "status": "not_available_from_source",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "taxonomy.causebase",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "semantic.embedding",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      }
+    ]
+  },
+  "financial_reports": [],
+  "canonical_metrics": [],
+  "analytic_projections": [],
+  "derivatives": [
+    {
+      "derivative_id": "der:rc4:cb_702846f4dd1d418db5fbc98d68647cf9:summary",
+      "kind": "summary",
+      "input_observation_ids": [],
+      "evidence_ids": [
+        "ev:acnc:40920336423",
+        "ev:ais:40920336423:2023"
+      ],
+      "generated_under": {
+        "output_contract_version": "phase2b-rc4-accepted-rc2-summary-reuse",
+        "input_hash": "c825544b2f838fd7eb4a9e64b0541ffbfa8466b0d8ea5c6e740616b05f48e2ac",
+        "generated_at": "2026-08-12T14:01:19.900210Z"
+      },
+      "current_assessment": {
+        "assessed_at": "2026-08-13T13:54:42.956606Z",
+        "assessed_against_contract": "0.5",
+        "governing_input_hash": "c825544b2f838fd7eb4a9e64b0541ffbfa8466b0d8ea5c6e740616b05f48e2ac",
+        "disposition": "reused",
+        "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs."
+      }
+    }
+  ],
+  "legacy_unbound": {
+    "origin_release": "rc4-2026-08-14",
+    "origin_card_sha256": "d4f8a99d185f8d8c4513932807f1e802cb9decbe87f0cb7f2b1e0bf91cd2b9c8",
+    "descriptive_geography": [
+      {
+        "value": "WA",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "classifications": [
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "geography.local_or_regional",
+        "term_label": "Local or regional Australia",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "organisation.local",
+        "term_label": "Local organisation",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      }
+    ],
+    "financial_records": [
+      {
+        "financial_record_id": "fr:ais:cb_702846f4dd1d418db5fbc98d68647cf9:2023",
+        "period": {
+          "period_start": "2023-01-01",
+          "period_end": "2023-12-31",
+          "period_length_days": 365,
+          "label": "01/01/2023 to 31/12/2023",
+          "is_transitional_or_nonstandard": false
+        },
+        "reporting_scope": "subject",
+        "reporting_subject_causebase_id": "cb_702846f4dd1d418db5fbc98d68647cf9",
+        "covered_subjects": [
+          "cb_702846f4dd1d418db5fbc98d68647cf9"
+        ],
+        "consolidated": "false",
+        "attribution_method": "direct_subject_report",
+        "evidence_ids": [
+          "ev:ais:40920336423:2023"
+        ],
+        "revenue": {
+          "source_amount": "702998",
+          "source_currency": "AUD",
+          "source_unit_scale": "1",
+          "normalised_amount": "702998",
+          "normalised_currency": "AUD",
+          "source_unit_label": null,
+          "source_raw_value": "702998",
+          "source_precision": null
+        },
+        "donations": null,
+        "government_grants": null,
+        "employee_costs": null,
+        "total_expenses": {
+          "source_amount": "674216",
+          "source_currency": "AUD",
+          "source_unit_scale": "1",
+          "normalised_amount": "674216",
+          "normalised_currency": "AUD",
+          "source_unit_label": null,
+          "source_raw_value": "674216",
+          "source_precision": null
+        },
+        "assets": null,
+        "liabilities": null,
+        "net_assets": null,
+        "income_breakdown": [],
+        "expense_breakdown": [],
+        "balance_sheet_breakdown": [],
+        "source_ordered_line_items": [],
+        "statements": [],
+        "donations_gifts_bequests": null,
+        "functional_expense_allocations": []
+      }
+    ]
+  }
 }

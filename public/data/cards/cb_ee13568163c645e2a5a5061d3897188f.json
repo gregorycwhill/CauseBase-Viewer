@@ -1,1242 +1,492 @@
 {
   "causebase_id": "cb_ee13568163c645e2a5a5061d3897188f",
+  "contract_version": "0.5",
   "subject_kind": "unknown",
-  "external_identifiers": [
-    {
-      "scheme": "abn",
-      "value": "84981035169",
-      "source_evidence_id": "ev:acnc:84981035169"
-    }
+  "identity": {
+    "legal_name": "Abounding Life Foundation",
+    "display_name": "Abounding Life Foundation",
+    "operating_names": [
+      "N. Mansour International Ministries",
+      "N. Mansour Ministries",
+      "Nader Mansour Ministries"
+    ],
+    "former_names": [],
+    "entity_status": "registered",
+    "website": "https://www.nadermansour.com",
+    "external_identifiers": [
+      {
+        "scheme": "abn",
+        "value": "84981035169",
+        "evidence_ids": [
+          "ev:acnc:84981035169"
+        ]
+      }
+    ],
+    "registrations": [
+      {
+        "regulator": "ACNC",
+        "status": "registered",
+        "evidence_ids": [
+          "ev:acnc:84981035169"
+        ]
+      }
+    ],
+    "tax_statuses": []
+  },
+  "release": {
+    "release_id": "v0.5.0-2026-08-15",
+    "dataset_version": "0.5.0-2026-08-15",
+    "contract_version": "0.5",
+    "based_on_release": "rc4-2026-08-14",
+    "generated_at": "2026-08-15T00:00:00Z"
+  },
+  "source_record_refs": [
+    "src:acnc-public-profile:84981035169:e437d471-b28a-ef11-8a6a-000d3ad2bc8d:cb_ee13568163c645e2a5a5061d3897188f",
+    "src:acnc-ais-detail:84981035169:3578b1c7-1e06-f111-8406-7ced8d33fdea:cb_ee13568163c645e2a5a5061d3897188f"
   ],
-  "registrations": [
-    {
-      "regulator": "ACNC",
-      "registration_id": null,
-      "status": "registered",
-      "evidence_ids": [
-        "ev:acnc:84981035169"
-      ]
-    }
-  ],
-  "tax_statuses": [],
-  "relationships": [],
-  "source_resolutions": [
+  "source_bindings": [
     {
       "source_record_id": "src:acnc-register:33ee12d9-2840-5e15-ab90-404859ab72f9",
       "resolution_status": "resolved",
       "resolution_basis": "automated authoritative ACNC promotion under acnc-authoritative-v1",
       "confidence": "high",
-      "supporting_signals": [
-        "ABN:84981035169",
-        "ACNC Register"
-      ],
-      "conflicting_signals": [],
-      "review_status": "not_required"
-    }
-  ],
-  "legal_name": "Abounding Life Foundation",
-  "display_name": "Abounding Life Foundation",
-  "entity_status": "registered",
-  "canonical_url": "https://gregorycwhill.github.io/CauseBase-Viewer/#cb_ee13568163c645e2a5a5061d3897188f",
-  "acnc_profile_url": "https://www.acnc.gov.au/charity/charities/e437d471-b28a-ef11-8a6a-000d3ad2bc8d/profile",
-  "acnc_ais_url": "https://www.acnc.gov.au/charity/charities/e437d471-b28a-ef11-8a6a-000d3ad2bc8d/documents/3578b1c7-1e06-f111-8406-7ced8d33fdea",
-  "operating_names": [
-    "N. Mansour International Ministries",
-    "N. Mansour Ministries",
-    "Nader Mansour Ministries"
-  ],
-  "former_names": [],
-  "principal_location": "Australia",
-  "coverage": [
-    {
-      "capability": "regulatory",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:acnc:84981035169"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "annual_report",
-      "status": "not_yet_processed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "fundraising_expenditure",
-      "status": "not_yet_processed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "financials",
-      "status": "not_found_in_source",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "latest_acnc_ais",
-      "status": "observed",
-      "source_record_id": "src:acnc-ais-detail:84981035169:3578b1c7-1e06-f111-8406-7ced8d33fdea:cb_ee13568163c645e2a5a5061d3897188f",
-      "evidence_ids": [
-        "ev:acnc:ais:84981035169:3578b1c7-1e06-f111-8406-7ced8d33fdea"
-      ],
-      "observed_at": "2026-01-27",
-      "freshness_note": "Latest submitted AIS detail acquired from the public ACNC entity endpoint."
-    },
-    {
-      "capability": "website",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-13",
-      "freshness_note": "Public website locator acquired from the ACNC profile."
-    }
-  ],
-  "enrichment_level": "enriched",
-  "website": "https://www.nadermansour.com",
-  "geography": [
-    "Australia",
-    "online / international"
-  ],
-  "geography_observations": [
-    {
-      "value": "Australia",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "online / international",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "navigation_geography": [],
-  "causebase_summary": "Abounding Life Foundation (branded around Nader Mansour) is an Australia-based online Christian ministry with international reach. It publishes practical Bible teaching through video sermons and lectures, structured online courses marketed as \"My Bible Academy\", written study materials and audio sermons/podcasts. The site includes a user registration and course enrolment system, invites users to submit testimonies, and provides an online donation option labelled \"Give.\" The organisation presents its content as aimed at helping people read, understand and apply the Bible; it targets Christians and church leaders who use online teaching resources and encourages participation by watching videos, enrolling in courses, reading materials and listening to audio resources.",
-  "summary_evidence_ids": [
-    "ev:web:84981035169:2026-08-10",
-    "ev:acnc:84981035169"
-  ],
-  "organisation_self_description": null,
-  "activities": [
-    "online video sermons and lectures",
-    "structured online courses (My Bible Academy)",
-    "written articles and study materials",
-    "audio resources (podcast/sermon audio)",
-    "user registration and course enrolment system",
-    "collection of testimonies",
-    "online donation option ('Give')"
-  ],
-  "activity_observations": [
-    {
-      "value": "online video sermons and lectures",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "structured online courses (My Bible Academy)",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "written articles and study materials",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "audio resources (podcast/sermon audio)",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "user registration and course enrolment system",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "collection of testimonies",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "online donation option ('Give')",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "beneficiaries": [
-    "people seeking to read, understand or apply the Bible",
-    "Christians and church leaders who use online teaching resources"
-  ],
-  "beneficiary_observations": [
-    {
-      "value": "people seeking to read, understand or apply the Bible",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Christians and church leaders who use online teaching resources",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "participation_modes": [
-    "watching video sermons",
-    "enrolling in online courses",
-    "reading written resources",
-    "listening to audio resources",
-    "creating an online account / registering",
-    "submitting testimonies",
-    "making online donations"
-  ],
-  "participation_observations": [],
-  "opportunities": [],
-  "programs": [
-    {
-      "program_id": "prg:acnc:84981035169:4478b1c7-1e06-f111-8406-7ced8d33fdea",
-      "name": "Spiritual Education & Biblical Life Skills",
-      "description": "Christianity",
-      "beneficiaries": [
-        "General community in Australia"
-      ],
-      "geography": [
-        "Australia"
-      ],
-      "status": "current",
-      "reporting_period": "2025",
-      "source_url": "https://www.acnc.gov.au/charity/charities/e437d471-b28a-ef11-8a6a-000d3ad2bc8d/documents/3578b1c7-1e06-f111-8406-7ced8d33fdea",
-      "evidence_ids": [
-        "ev:acnc:ais:84981035169:3578b1c7-1e06-f111-8406-7ced8d33fdea"
-      ]
-    },
-    {
-      "program_id": "prg:acnc:84981035169:4b78b1c7-1e06-f111-8406-7ced8d33fdea",
-      "name": "Church Services & Ministry Programs",
-      "description": "Christianity",
-      "beneficiaries": [
-        "Overseas communities or charities",
-        "General community in Australia"
-      ],
-      "geography": [
-        "Australia"
-      ],
-      "status": "current",
-      "reporting_period": "2025",
-      "source_url": "https://www.acnc.gov.au/charity/charities/e437d471-b28a-ef11-8a6a-000d3ad2bc8d/documents/3578b1c7-1e06-f111-8406-7ced8d33fdea",
-      "evidence_ids": [
-        "ev:acnc:ais:84981035169:3578b1c7-1e06-f111-8406-7ced8d33fdea"
-      ]
-    },
-    {
-      "program_id": "prg:acnc:84981035169:5378b1c7-1e06-f111-8406-7ced8d33fdea",
-      "name": "Multimedia Teaching & Digital Ministry",
-      "description": "Christianity",
-      "beneficiaries": [
-        "Overseas communities or charities",
-        "General community in Australia"
-      ],
-      "geography": [
-        "Australia"
-      ],
-      "status": "current",
-      "reporting_period": "2025",
-      "source_url": "https://www.acnc.gov.au/charity/charities/e437d471-b28a-ef11-8a6a-000d3ad2bc8d/documents/3578b1c7-1e06-f111-8406-7ced8d33fdea",
-      "evidence_ids": [
-        "ev:acnc:ais:84981035169:3578b1c7-1e06-f111-8406-7ced8d33fdea"
-      ]
-    },
-    {
-      "program_id": "prg:acnc:84981035169:5d78b1c7-1e06-f111-8406-7ced8d33fdea",
-      "name": "Online Courses & Christian Training",
-      "description": "Christianity",
-      "beneficiaries": [
-        "Overseas communities or charities",
-        "General community in Australia"
-      ],
-      "geography": [],
-      "status": "current",
-      "reporting_period": "2025",
-      "source_url": "https://www.acnc.gov.au/charity/charities/e437d471-b28a-ef11-8a6a-000d3ad2bc8d/documents/3578b1c7-1e06-f111-8406-7ced8d33fdea",
-      "evidence_ids": [
-        "ev:acnc:ais:84981035169:3578b1c7-1e06-f111-8406-7ced8d33fdea"
-      ]
-    },
-    {
-      "program_id": "prg:acnc:84981035169:6378b1c7-1e06-f111-8406-7ced8d33fdea",
-      "name": "Community Outreach & Faith Support",
-      "description": "Christianity",
-      "beneficiaries": [
-        "Overseas communities or charities",
-        "General community in Australia"
-      ],
-      "geography": [
-        "Australia"
-      ],
-      "status": "current",
-      "reporting_period": "2025",
-      "source_url": "https://www.acnc.gov.au/charity/charities/e437d471-b28a-ef11-8a6a-000d3ad2bc8d/documents/3578b1c7-1e06-f111-8406-7ced8d33fdea",
-      "evidence_ids": [
-        "ev:acnc:ais:84981035169:3578b1c7-1e06-f111-8406-7ced8d33fdea"
-      ]
-    }
-  ],
-  "source_native_records": [
-    {
-      "source_record_id": "src:acnc-public-profile:84981035169:e437d471-b28a-ef11-8a6a-000d3ad2bc8d:cb_ee13568163c645e2a5a5061d3897188f",
-      "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-14-public-api",
-      "source_url": "https://www.acnc.gov.au/charity/charities/e437d471-b28a-ef11-8a6a-000d3ad2bc8d/profile",
-      "retrieved_at": "2026-08-13T13:54:42.956606Z",
-      "observed_at": "2026-01-27",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "uuid": "e437d471-b28a-ef11-8a6a-000d3ad2bc8d",
-        "abn": "84981035169"
-      },
-      "source_payload": {
-        "data": {
-          "AFSEmail": "p.o.box.5450@gmail.com",
-          "Abn": "84981035169",
-          "AddressCountry": "Australia",
-          "AddressLine1": null,
-          "AddressLine2": null,
-          "AddressLine3": null,
-          "AddressPostalCode": null,
-          "AddressStateOrProvince": null,
-          "AddressSuburb": null,
-          "AnnualReports": [
-            {
-              "AISId": "3578b1c7-1e06-f111-8406-7ced8d33fdea",
-              "DateReceived": "2026-01-27T11:25:28.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2026-01-31T00:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2025",
-              "type": "Annual Information Statement 2025",
-              "uuid": "da187830-6f8f-ef11-8a6a-00224893b0ed"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2026-12-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Not yet submitted",
-              "Year": "2026",
-              "type": "Annual Information Statement 2026",
-              "uuid": "e4197830-6f8f-ef11-8a6a-00224893b0ed"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required - BRC",
-              "Year": "2025",
-              "type": "Financial Report 2025",
-              "uuid": "3d1a7830-6f8f-ef11-8a6a-00224893b0ed"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2026-12-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Pending",
-              "Year": "2026",
-              "type": "Financial Report 2026",
-              "uuid": "ae1a7830-6f8f-ef11-8a6a-00224893b0ed"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2027-12-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Not yet submitted",
-              "Year": "2027",
-              "type": "Annual Information Statement 2027",
-              "uuid": "4ba60bcb-0dff-f011-8406-6045bdc27ae7"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2027-12-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Pending",
-              "Year": "2027",
-              "type": "Financial Report 2027",
-              "uuid": "54a60bcb-0dff-f011-8406-6045bdc27ae7"
-            }
-          ],
-          "BasicReligiousCharityStatus": true,
-          "Beneficiaries": [
-            {
-              "Description": null,
-              "Name": "Overseas communities or charities",
-              "uuid": "7578b1c7-1e06-f111-8406-7ced8d33fdea"
-            },
-            {
-              "Description": null,
-              "Name": "General community in Australia",
-              "uuid": "7b78b1c7-1e06-f111-8406-7ced8d33fdea"
-            }
-          ],
-          "CharitySize": "Small",
-          "CharitySubtypeHistory": [
-            {
-              "EndDate": null,
-              "Purpose": "Advancing religion",
-              "StartDate": "2024-04-10T00:00:00.0000000Z",
-              "uuid": "f237d471-b28a-ef11-8a6a-000d3ad2bc8d"
-            }
-          ],
-          "CharityVersion": "62",
-          "ChildMemberEndDate": null,
-          "ChildMemberStartDate": null,
-          "ChooseToProvideAis": "No",
-          "Countries": [
-            {
-              "Name": "Australia",
-              "uuid": "f57b5602-9a4d-e811-a951-000d3ad06f2d"
-            }
-          ],
-          "DateEstablished": "2024-04-10T00:00:00.0000000Z",
-          "Documents": [
-            {
-              "Date": "2025-03-10T00:00:00.0000000",
-              "Title": "Charitable Trust Deed - Abounding Life Foundation (Redacted).pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/e437d471-b28a-ef11-8a6a-000d3ad2bc8d-aa5acea6-c98b-4dec-b3bb-8f0ce52bc9d4-Governing%20Document-3e9fc5d3-6bfd-ef11-bae3-6045bdc3d794-Charitable_Trust_Deed_-_Abounding_Life_Foundation_(Redacted).pdf",
-              "Year": null,
-              "type": "Governing Document",
-              "uuid": "3e9fc5d3-6bfd-ef11-bae3-6045bdc3d794"
-            }
-          ],
-          "Email": "p.o.box.5450@gmail.com",
-          "EnforcementOutcomes": [],
-          "FinancialYearEnd": "30/06",
-          "GovernmentAgencies": [
-            {
-              "Name": "Online fundraising",
-              "ReferenceNumber": null,
-              "uuid": "0e620edb-72fb-f011-8406-7ced8d33fe37"
-            }
-          ],
-          "GroupHeadFlag": false,
-          "LastReported": "2026-01-27T11:25:28.0000000Z",
-          "Name": "Abounding Life Foundation",
-          "NextReportDue": "2026-12-31T12:30:00.0000000Z",
-          "OperatingInStates": [],
-          "OtherDetails": null,
-          "OtherNames": [
-            {
-              "Name": "N. Mansour International Ministries",
-              "uuid": "01ed239c-80f9-ef11-a4de-000d3ad20122"
-            },
-            {
-              "Name": "N. Mansour Ministries",
-              "uuid": "b4e83e34-61fd-ef11-a4de-000d3ad20122"
-            },
-            {
-              "Name": "Nader Mansour Ministries",
-              "uuid": "b7e83e34-61fd-ef11-a4de-000d3ad20122"
-            }
-          ],
-          "ParentAccountAbn": null,
-          "ParentAccountId": null,
-          "Phone": null,
-          "Programs": [
-            {
-              "AisUuid": "3578b1c7-1e06-f111-8406-7ced8d33fdea",
-              "Name": "Spiritual Education & Biblical Life Skills",
-              "OperatesOnline": true,
-              "ProgramBeneficiaries": [
-                "General community in Australia"
-              ],
-              "ProgramClassie": [
-                {
-                  "classie_id": "741",
-                  "label": "Christianity",
-                  "parent_id": "738",
-                  "selected": true
-                },
-                {
-                  "classie_id": "738",
-                  "label": "Religion and faith-based spirituality",
-                  "parent_id": null,
-                  "selected": false
-                }
-              ],
-              "ProgramClassification": "Christianity",
-              "ProgramClassificationID": "741",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "Australia",
-                  "FormattedAddress": "Australia",
-                  "Marker": {
-                    "Latitude": -25.274398,
-                    "Longitude": 133.775136
-                  },
-                  "Name": "Australia",
-                  "uuid": "4978b1c7-1e06-f111-8406-7ced8d33fdea"
-                }
-              ],
-              "ProgramWeblink": null,
-              "uuid": "4478b1c7-1e06-f111-8406-7ced8d33fdea"
-            },
-            {
-              "AisUuid": "3578b1c7-1e06-f111-8406-7ced8d33fdea",
-              "Name": "Church Services & Ministry Programs",
-              "OperatesOnline": true,
-              "ProgramBeneficiaries": [
-                "Overseas communities or charities",
-                "General community in Australia"
-              ],
-              "ProgramClassie": [
-                {
-                  "classie_id": "741",
-                  "label": "Christianity",
-                  "parent_id": "738",
-                  "selected": true
-                },
-                {
-                  "classie_id": "738",
-                  "label": "Religion and faith-based spirituality",
-                  "parent_id": null,
-                  "selected": false
-                }
-              ],
-              "ProgramClassification": "Christianity",
-              "ProgramClassificationID": "741",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "Australia",
-                  "FormattedAddress": "Australia",
-                  "Marker": {
-                    "Latitude": -25.274398,
-                    "Longitude": 133.775136
-                  },
-                  "Name": "Australia",
-                  "uuid": "5178b1c7-1e06-f111-8406-7ced8d33fdea"
-                }
-              ],
-              "ProgramWeblink": null,
-              "uuid": "4b78b1c7-1e06-f111-8406-7ced8d33fdea"
-            },
-            {
-              "AisUuid": "3578b1c7-1e06-f111-8406-7ced8d33fdea",
-              "Name": "Multimedia Teaching & Digital Ministry",
-              "OperatesOnline": true,
-              "ProgramBeneficiaries": [
-                "Overseas communities or charities",
-                "General community in Australia"
-              ],
-              "ProgramClassie": [
-                {
-                  "classie_id": "741",
-                  "label": "Christianity",
-                  "parent_id": "738",
-                  "selected": true
-                },
-                {
-                  "classie_id": "738",
-                  "label": "Religion and faith-based spirituality",
-                  "parent_id": null,
-                  "selected": false
-                }
-              ],
-              "ProgramClassification": "Christianity",
-              "ProgramClassificationID": "741",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "Australia",
-                  "FormattedAddress": "Australia",
-                  "Marker": {
-                    "Latitude": -25.274398,
-                    "Longitude": 133.775136
-                  },
-                  "Name": "Australia",
-                  "uuid": "5b78b1c7-1e06-f111-8406-7ced8d33fdea"
-                }
-              ],
-              "ProgramWeblink": null,
-              "uuid": "5378b1c7-1e06-f111-8406-7ced8d33fdea"
-            },
-            {
-              "AisUuid": "3578b1c7-1e06-f111-8406-7ced8d33fdea",
-              "Name": "Online Courses & Christian Training",
-              "OperatesOnline": true,
-              "ProgramBeneficiaries": [
-                "Overseas communities or charities",
-                "General community in Australia"
-              ],
-              "ProgramClassie": [
-                {
-                  "classie_id": "741",
-                  "label": "Christianity",
-                  "parent_id": "738",
-                  "selected": true
-                },
-                {
-                  "classie_id": "738",
-                  "label": "Religion and faith-based spirituality",
-                  "parent_id": null,
-                  "selected": false
-                }
-              ],
-              "ProgramClassification": "Christianity",
-              "ProgramClassificationID": "741",
-              "ProgramCountries": [],
-              "ProgramLocations": [],
-              "ProgramWeblink": null,
-              "uuid": "5d78b1c7-1e06-f111-8406-7ced8d33fdea"
-            },
-            {
-              "AisUuid": "3578b1c7-1e06-f111-8406-7ced8d33fdea",
-              "Name": "Community Outreach & Faith Support",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Overseas communities or charities",
-                "General community in Australia"
-              ],
-              "ProgramClassie": [
-                {
-                  "classie_id": "741",
-                  "label": "Christianity",
-                  "parent_id": "738",
-                  "selected": true
-                },
-                {
-                  "classie_id": "738",
-                  "label": "Religion and faith-based spirituality",
-                  "parent_id": null,
-                  "selected": false
-                }
-              ],
-              "ProgramClassification": "Christianity",
-              "ProgramClassificationID": "741",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "Australia",
-                  "FormattedAddress": "Australia",
-                  "Marker": {
-                    "Latitude": -25.274398,
-                    "Longitude": 133.775136
-                  },
-                  "Name": "Australia",
-                  "uuid": "6e78b1c7-1e06-f111-8406-7ced8d33fdea"
-                }
-              ],
-              "ProgramWeblink": null,
-              "uuid": "6378b1c7-1e06-f111-8406-7ced8d33fdea"
-            }
-          ],
-          "ReferendumReturnsUrl": null,
-          "RegistrationStatusHistory": [
-            {
-              "EffectiveDate": "2024-04-10T00:00:00.0000000Z",
-              "Status": "Registered",
-              "TransactionDate": "2024-10-21T05:41:54.0000000Z",
-              "uuid": "6e9b652a-6f8f-ef11-8a6a-00224893b0ed"
-            }
-          ],
-          "RelatedPartyTransactions": null,
-          "RelevantTransactions": null,
-          "ReportingLate": "2027-06-30T12:30:00.0000000Z",
-          "ResponsiblePersons": [
-            {
-              "Name": "Nader Nabih Gabriel Mansour",
-              "Role": "Chairperson",
-              "uuid": "b2909ce3-387a-ef11-ac20-7c1e522ad574"
-            },
-            {
-              "Name": "Ehab Wadie Abadir",
-              "Role": "Board Member",
-              "uuid": "259117f2-b28a-ef11-8a6a-000d3ad2bc8d"
-            },
-            {
-              "Name": "Basem Abdel-Messieh Abdel-Messieh",
-              "Role": "Board Member",
-              "uuid": "3b9117f2-b28a-ef11-8a6a-000d3ad2bc8d"
-            }
-          ],
-          "Status": "Registered",
-          "SummaryOfActivities": "The Abounding Life Foundation advances the Christian faith by providing biblical teaching, practical life skills instruction, and spiritual encouragement to the community. The ministry develops and shares educational resources including sermons, study materials, and digital content to support personal growth and spiritual understanding. It also produces multimedia educational tools, such as video teachings, online courses, and documentary style content, to make faith based learning accessible to the public. Through all its activities, the foundation seeks to equip individuals to live their faith with love and kindness.",
-          "TotalExpensesEmployee": "0",
-          "TotalExpensesGrantsAndDonationsInAustralia": "0",
-          "TotalExpensesGrantsAndDonationsOutsideAustralia": "0",
-          "TotalExpensesInterest": "0",
-          "TotalExpensesOther": "0",
-          "TotalGrossIncomeDonationsAndRequests": "0",
-          "TotalGrossIncomeGoodsOrServices": "0",
-          "TotalGrossIncomeGovernmentGrants": "0",
-          "TotalGrossIncomeInvestments": "0",
-          "TotalGrossIncomeOtherRevenues": "0",
-          "TransparencyRegisterUrl": null,
-          "Website": "https://www.nadermansour.com",
-          "__normalized": true,
-          "type": "charity",
-          "uuid": "e437d471-b28a-ef11-8a6a-000d3ad2bc8d"
-        },
-        "type": "charity",
-        "uuid": "e437d471-b28a-ef11-8a6a-000d3ad2bc8d"
-      },
-      "canonical_field_mappings": {
-        "data.OtherNames": "operating_names",
-        "data.AddressStateOrProvince": "principal_location"
-      },
-      "evidence_ids": []
-    },
-    {
-      "source_record_id": "src:acnc-ais-detail:84981035169:3578b1c7-1e06-f111-8406-7ced8d33fdea:cb_ee13568163c645e2a5a5061d3897188f",
-      "source_family": "acnc-ais-detail",
-      "dataset_version": "2026-08-14-public-api",
-      "source_url": "https://www.acnc.gov.au/charity/charities/e437d471-b28a-ef11-8a6a-000d3ad2bc8d/documents/3578b1c7-1e06-f111-8406-7ced8d33fdea",
-      "retrieved_at": "2026-08-13T13:54:42.956606Z",
-      "observed_at": "2026-01-27",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "abn": "84981035169",
-        "ais_uuid": "3578b1c7-1e06-f111-8406-7ced8d33fdea",
-        "year": "2025",
-        "date_received": "2026-01-27T11:25:28.0000000Z"
-      },
-      "source_payload": {
-        "data": {
-          "Abn": "84981035169",
-          "ActivityAdvocacyNCivic": false,
-          "ActivityAgedCare": false,
-          "ActivityAnimalProtection": false,
-          "ActivityCultureAndArt": false,
-          "ActivityEconomicSocialCommunity": false,
-          "ActivityEmergencyNRelief": false,
-          "ActivityEmploymentNTraining": false,
-          "ActivityEnvironmental": false,
-          "ActivityGrantMaking": false,
-          "ActivityHealthRehabilitation": false,
-          "ActivityHigherEducation": false,
-          "ActivityHousing": false,
-          "ActivityIncomeSupportNMaintenance": false,
-          "ActivityInternational": false,
-          "ActivityInternationalDescription": null,
-          "ActivityInternationalOther": false,
-          "ActivityInternationalOtherDescription": null,
-          "ActivityLawNLegalServices": false,
-          "ActivityMain": null,
-          "ActivityMentalHealthCrisisIntervention": false,
-          "ActivityNdisSupported": null,
-          "ActivityNdisSupportedNext": null,
-          "ActivityOperating": true,
-          "ActivityOperatingOverseas": false,
-          "ActivityOther": false,
-          "ActivityOtherDescription": null,
-          "ActivityOtherEducation": false,
-          "ActivityOtherHealthServices": false,
-          "ActivityPersuitPurposesDescription": "The Abounding Life Foundation advances the Christian faith by providing biblical teaching, practical life skills instruction, and spiritual encouragement to the community. The ministry develops and shares educational resources including sermons, study materials, and digital content to support personal growth and spiritual understanding. It also produces multimedia educational tools, such as video teachings, online courses, and documentary style content, to make faith based learning accessible to the public. Through all its activities, the foundation seeks to equip individuals to live their faith with love and kindness.",
-          "ActivityPhilanthropicPromotion": false,
-          "ActivityPolitical": false,
-          "ActivityPrimarySecondaryEducation": false,
-          "ActivityPurposeChange": null,
-          "ActivityPurposeChangeDescription": null,
-          "ActivityRecreationSocialClub": false,
-          "ActivityReligious": false,
-          "ActivityResearch": false,
-          "ActivitySocialServices": false,
-          "ActivitySports": false,
-          "ActivityTransferringFundsGoods": false,
-          "AdvancementOfEducation": false,
-          "AdvancementOfReligion": false,
-          "AssetsandLiabilitiesDescription": null,
-          "BasicReligiousCharity": true,
-          "BeneficiaryAboriginalTorres": false,
-          "BeneficiaryAdults": false,
-          "BeneficiaryAllAges": false,
-          "BeneficiaryChildren": false,
-          "BeneficiaryChronicIllness": false,
-          "BeneficiaryCrimeVictims": false,
-          "BeneficiaryDisasterVictims": false,
-          "BeneficiaryEarlyChildhood": false,
-          "BeneficiaryEthnic": false,
-          "BeneficiaryFamilies": false,
-          "BeneficiaryFinanciallyDisadvantaged": false,
-          "BeneficiaryGeneral": false,
-          "BeneficiaryHomelessnessRisk": false,
-          "BeneficiaryLGBT": false,
-          "BeneficiaryMain": null,
-          "BeneficiaryMen": false,
-          "BeneficiaryMigrantsRefugees": false,
-          "BeneficiaryOffenderFamilies": false,
-          "BeneficiaryOther": false,
-          "BeneficiaryOtherCharities": false,
-          "BeneficiaryOtherDescription": null,
-          "BeneficiaryOverseas": false,
-          "BeneficiaryPeopleWithDisability": false,
-          "BeneficiaryRuralRegionalRemote": false,
-          "BeneficiarySeniors": false,
-          "BeneficiaryUnemployed": false,
-          "BeneficiaryVeteranFamilies": false,
-          "BeneficiaryWomen": false,
-          "BeneficiaryYouth": false,
-          "CharityAddressCountry": "Australia",
-          "CharityAddressLine1": null,
-          "CharityAddressLine2": null,
-          "CharityAddressPostalCode": null,
-          "CharityAddressStateOrProvince": null,
-          "CharityAddressSuburb": null,
-          "CharityEmail": "p.o.box.5450@gmail.com",
-          "CharitySize": "Small",
-          "CharityUuid": "e437d471-b28a-ef11-8a6a-000d3ad2bc8d",
-          "ChildCareServices": false,
-          "ExpenseEmployees": "0.0000",
-          "ExpenseGrantDonationsInAustralia": "0.0000",
-          "ExpenseGrantDonationsOutsideAustralia": "0.0000",
-          "ExpenseTotal": "0.0000",
-          "ExpensesOther": "0.0000",
-          "FinAccrualAccounting": null,
-          "FinConsolidatedReportFromMiltiple": null,
-          "FinDocumentedPoliciesRelatedPartyTransactions": null,
-          "FinFyeJune": false,
-          "FinProvideVoluntarily": "No",
-          "FinRelatedPartyTransactions": null,
-          "FinReportACT": false,
-          "FinReportFrom": null,
-          "FinReportNSW": false,
-          "FinReportNT": false,
-          "FinReportQLD": false,
-          "FinReportSA": false,
-          "FinReportTAS": false,
-          "FinReportTo": null,
-          "FinReportVIC": false,
-          "FinReportWA": false,
-          "FinReportingType": null,
-          "FinSapDate": null,
-          "FundRaisingNumberACT": null,
-          "FundRaisingNumberNSW": null,
-          "FundRaisingNumberQLD": null,
-          "FundRaisingNumberSA": null,
-          "FundRaisingNumberTAS": null,
-          "FundRaisingNumberVIC": null,
-          "FundRaisingNumberWA": null,
-          "GovDocAccurate": null,
-          "GrantCapacityBuildingPct": null,
-          "GrantMultiYearPct": null,
-          "GrantPublicOpenApplicationPct": null,
-          "GrantRuralRegionPct": null,
-          "HasSubmittedToRegulator": false,
-          "HoursPaid": null,
-          "HoursTotal": null,
-          "HoursVolunteer": null,
-          "HrCasualEmployees": "0",
-          "HrFteStaff": "",
-          "HrFullTimeEmployees": "0",
-          "HrPartTimeEmployees": "0",
-          "HrUnpainVolunteers": "3",
-          "IncomeDonationsBequests": "0.0000",
-          "IncomeGovernmentGrants": "0.0000",
-          "IncomeOther": "0.0000",
-          "IncomeOtherComprehinsive": "0.0000",
-          "IncomeOtherNeg": null,
-          "IncomeOtherReceipts": "0.0000",
-          "IncomeTotalComprehensive": "0.0000",
-          "IncomeTotalReceipts": "0.0000",
-          "IncorporationStatus": null,
-          "InterestExpense": "0.0000",
-          "IsIncorporatedAssociation": false,
-          "KeyManagementPersonnel": false,
-          "LegalName": "Abounding Life Foundation",
-          "NetAssetsLiabilities": "0.0000",
-          "NetSurplusDeficit": "0.0000",
-          "NonCurrentLoansPayable": "0.0000",
-          "NumberOfKeyManagementPersonnel": "0",
-          "OperatingCountries": null,
-          "OperatingInACT": false,
-          "OperatingInNSW": false,
-          "OperatingInNT": false,
-          "OperatingInQLD": false,
-          "OperatingInSA": false,
-          "OperatingInTAS": false,
-          "OperatingInVIC": false,
-          "OperatingInWA": false,
-          "OperatingOverseas": false,
-          "OtherNames": [],
-          "OtherNonCurrentAssets": "0.0000",
-          "OtherNonCurrentLiabilities": "0.0000",
-          "OtherPurposeDescription": null,
-          "OtherPurposes": "False",
-          "Programs": [
-            {
-              "AisUuid": "3578b1c7-1e06-f111-8406-7ced8d33fdea",
-              "Name": "Spiritual Education & Biblical Life Skills",
-              "OperatesOnline": true,
-              "ProgramBeneficiaries": [
-                "General community in Australia"
-              ],
-              "ProgramClassification": "Christianity",
-              "ProgramClassificationID": "741",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "Australia",
-                  "FormattedAddress": "Australia",
-                  "Marker": {
-                    "Latitude": -25.274398,
-                    "Longitude": 133.775136
-                  },
-                  "Name": "Australia",
-                  "uuid": "4978b1c7-1e06-f111-8406-7ced8d33fdea"
-                }
-              ],
-              "ProgramWeblink": null,
-              "uuid": "4478b1c7-1e06-f111-8406-7ced8d33fdea"
-            },
-            {
-              "AisUuid": "3578b1c7-1e06-f111-8406-7ced8d33fdea",
-              "Name": "Church Services & Ministry Programs",
-              "OperatesOnline": true,
-              "ProgramBeneficiaries": [
-                "Overseas communities or charities",
-                "General community in Australia"
-              ],
-              "ProgramClassification": "Christianity",
-              "ProgramClassificationID": "741",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "Australia",
-                  "FormattedAddress": "Australia",
-                  "Marker": {
-                    "Latitude": -25.274398,
-                    "Longitude": 133.775136
-                  },
-                  "Name": "Australia",
-                  "uuid": "5178b1c7-1e06-f111-8406-7ced8d33fdea"
-                }
-              ],
-              "ProgramWeblink": null,
-              "uuid": "4b78b1c7-1e06-f111-8406-7ced8d33fdea"
-            },
-            {
-              "AisUuid": "3578b1c7-1e06-f111-8406-7ced8d33fdea",
-              "Name": "Multimedia Teaching & Digital Ministry",
-              "OperatesOnline": true,
-              "ProgramBeneficiaries": [
-                "Overseas communities or charities",
-                "General community in Australia"
-              ],
-              "ProgramClassification": "Christianity",
-              "ProgramClassificationID": "741",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "Australia",
-                  "FormattedAddress": "Australia",
-                  "Marker": {
-                    "Latitude": -25.274398,
-                    "Longitude": 133.775136
-                  },
-                  "Name": "Australia",
-                  "uuid": "5b78b1c7-1e06-f111-8406-7ced8d33fdea"
-                }
-              ],
-              "ProgramWeblink": null,
-              "uuid": "5378b1c7-1e06-f111-8406-7ced8d33fdea"
-            },
-            {
-              "AisUuid": "3578b1c7-1e06-f111-8406-7ced8d33fdea",
-              "Name": "Online Courses & Christian Training",
-              "OperatesOnline": true,
-              "ProgramBeneficiaries": [
-                "Overseas communities or charities",
-                "General community in Australia"
-              ],
-              "ProgramClassification": "Christianity",
-              "ProgramClassificationID": "741",
-              "ProgramCountries": [],
-              "ProgramLocations": [],
-              "ProgramWeblink": null,
-              "uuid": "5d78b1c7-1e06-f111-8406-7ced8d33fdea"
-            },
-            {
-              "AisUuid": "3578b1c7-1e06-f111-8406-7ced8d33fdea",
-              "Name": "Community Outreach & Faith Support",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Overseas communities or charities",
-                "General community in Australia"
-              ],
-              "ProgramClassification": "Christianity",
-              "ProgramClassificationID": "741",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "Australia",
-                  "FormattedAddress": "Australia",
-                  "Marker": {
-                    "Latitude": -25.274398,
-                    "Longitude": 133.775136
-                  },
-                  "Name": "Australia",
-                  "uuid": "6e78b1c7-1e06-f111-8406-7ced8d33fdea"
-                }
-              ],
-              "ProgramWeblink": null,
-              "uuid": "6378b1c7-1e06-f111-8406-7ced8d33fdea"
-            }
-          ],
-          "RegulatedACT": false,
-          "RegulatedNSW": false,
-          "RegulatedNT": false,
-          "RegulatedQLD": false,
-          "RegulatedSA": false,
-          "RegulatedTAS": false,
-          "RegulatedVIC": false,
-          "RegulatedWA": false,
-          "Regulator": null,
-          "RegulatorAGMDateACT": null,
-          "RegulatorAGMDateNT": null,
-          "RegulatorAGMDateVIC": null,
-          "RegulatorAGMDateWA": null,
-          "RegulatorFundRaising": "No",
-          "RegulatorFundRaisingACT": false,
-          "RegulatorFundRaisingNSW": false,
-          "RegulatorFundRaisingNT": false,
-          "RegulatorFundRaisingOnline": false,
-          "RegulatorFundRaisingQLD": false,
-          "RegulatorFundRaisingSA": false,
-          "RegulatorFundRaisingTAS": false,
-          "RegulatorFundRaisingVIC": false,
-          "RegulatorFundRaisingWA": false,
-          "RegulatorIncorporatedAssociationACT": false,
-          "RegulatorIncorporatedAssociationNSW": false,
-          "RegulatorIncorporatedAssociationNT": false,
-          "RegulatorIncorporatedAssociationNumberACT": null,
-          "RegulatorIncorporatedAssociationNumberNSW": null,
-          "RegulatorIncorporatedAssociationNumberNT": null,
-          "RegulatorIncorporatedAssociationNumberQLD": null,
-          "RegulatorIncorporatedAssociationNumberSA": null,
-          "RegulatorIncorporatedAssociationNumberTAS": null,
-          "RegulatorIncorporatedAssociationNumberVIC": null,
-          "RegulatorIncorporatedAssociationNumberWA": null,
-          "RegulatorIncorporatedAssociationQLD": false,
-          "RegulatorIncorporatedAssociationSA": false,
-          "RegulatorIncorporatedAssociationTAS": false,
-          "RegulatorIncorporatedAssociationVIC": false,
-          "RegulatorIncorporatedAssociationWA": false,
-          "RegulatorMetRequirementACT": false,
-          "RegulatorMetRequirementWA": null,
-          "RegulatorOtherDetails": null,
-          "RegulatorPrograms": null,
-          "RegulatorStates": false,
-          "RelatedPartyDetails": null,
-          "RelatedPartyTransactions": [],
-          "ReliefOfPoverty": false,
-          "ReportingGroupFlag": false,
-          "ResponsiblePersonAccurate": null,
-          "RevenueGoodsServices": "0.0000",
-          "RevenueInvestments": "0.0000",
-          "RevenueTotal": "0.0000",
-          "StatementYear": "2025",
-          "SubTypesAccurate": null,
-          "TotalAssets": "0.0000",
-          "TotalCurrentAssets": "0.0000",
-          "TotalCurrentLiabilities": "0.0000",
-          "TotalLiabilities": "0.0000",
-          "TotalNonCurrentAssets": null,
-          "TotalNonCurrentLiabilities": "0.0000",
-          "TotalNonCurrentLoansReceivable": "0.0000",
-          "TotalPaidKMP": "$0.00",
-          "Website": null,
-          "__normalized": true,
-          "entityTypeVersion": "",
-          "entityVersion": "1861587509",
-          "timeStamp": "2026-02-10T01:21:17.0000000Z",
-          "type": "annual_information_statement",
-          "uuid": "3578b1c7-1e06-f111-8406-7ced8d33fdea"
-        },
-        "type": "annual_information_statement",
-        "uuid": "3578b1c7-1e06-f111-8406-7ced8d33fdea"
-      },
-      "canonical_field_mappings": {
-        "data.Programs": "programs",
-        "data.TotalRevenue": "financial_records[].revenue",
-        "data.TotalExpenses": "financial_records[].total_expenses"
-      },
-      "evidence_ids": [
-        "ev:acnc:ais:84981035169:3578b1c7-1e06-f111-8406-7ced8d33fdea"
-      ]
-    }
-  ],
-  "financial_records": [],
-  "financial_metrics": [],
-  "fundraising_expenditure": null,
-  "funding_sources": [],
-  "fundraising_methods": [],
-  "classifications": [
-    {
-      "taxonomy_id": "acnc-register",
-      "taxonomy_version": "2026-08-10",
-      "term_id": "purpose.religion",
-      "term_label": "religion",
-      "assignment_method": "source_native",
-      "confidence": "high",
-      "evidence_ids": [
-        "ev:acnc:84981035169"
-      ]
-    },
-    {
-      "taxonomy_id": "acnc-register",
-      "taxonomy_version": "2026-08-10",
-      "term_id": "beneficiary.general_community",
-      "term_label": "general community",
-      "assignment_method": "source_native",
-      "confidence": "high",
-      "evidence_ids": [
-        "ev:acnc:84981035169"
-      ]
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "activity.events_and_public_programming",
-      "term_label": "Events and public programming",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "participation.public_events",
-      "term_label": "Public events",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "beneficiary.general_community",
-      "term_label": "General community",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "geography.australia",
-      "term_label": "Australia",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
+      "review_status": "not_required",
+      "conflicting_signals": []
     }
   ],
   "evidence": [
     {
       "evidence_id": "ev:acnc:84981035169",
-      "source_type": "regulatory",
-      "title": "ACNC Register extract",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": null,
-      "observed_at": "2026-08-10",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "title": "ACNC Register extract"
     },
     {
       "evidence_id": "ev:web:84981035169:2026-08-10",
-      "source_type": "organisation_self_report",
       "title": "Organisation website homepage",
-      "publisher": "Abounding Life Foundation",
-      "url": "https://www.nadermansour.com",
-      "observed_at": "2026-08-10",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://www.nadermansour.com"
     },
     {
       "evidence_id": "ev:acnc:ais:84981035169:3578b1c7-1e06-f111-8406-7ced8d33fdea",
-      "source_type": "regulatory",
       "title": "ACNC Annual Information Statement 2025",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": "https://www.acnc.gov.au/charity/charities/e437d471-b28a-ef11-8a6a-000d3ad2bc8d/documents/3578b1c7-1e06-f111-8406-7ced8d33fdea",
-      "observed_at": "2026-01-27",
-      "reporting_period": "2025",
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://www.acnc.gov.au/charity/charities/e437d471-b28a-ef11-8a6a-000d3ad2bc8d/documents/3578b1c7-1e06-f111-8406-7ced8d33fdea"
     }
   ],
-  "embedding": {
-    "embedding_id": "cb_ee13568163c645e2a5a5061d3897188f:entity:text-embedding-3-small",
-    "embedding_type": "entity",
-    "model_id": "text-embedding-3-small",
-    "model_version": "text-embedding-3-small",
-    "dimensions": 1536,
-    "source_text_hash": "bc0e7cfa39b43b2507efc37043bd7c00cbc1ab3c379c40c8bae3bba01f425fb2",
-    "generated_at": "2026-08-10T13:53:24.456025Z",
-    "vector_ref": "embeddings.parquet#cb_ee13568163c645e2a5a5061d3897188f"
+  "summary": {
+    "derivative_id": "der:rc4:cb_ee13568163c645e2a5a5061d3897188f:summary",
+    "text": "Abounding Life Foundation (branded around Nader Mansour) is an Australia-based online Christian ministry with international reach. It publishes practical Bible teaching through video sermons and lectures, structured online courses marketed as \"My Bible Academy\", written study materials and audio sermons/podcasts. The site includes a user registration and course enrolment system, invites users to submit testimonies, and provides an online donation option labelled \"Give.\" The organisation presents its content as aimed at helping people read, understand and apply the Bible; it targets Christians and church leaders who use online teaching resources and encourages participation by watching videos, enrolling in courses, reading materials and listening to audio resources."
   },
-  "synthesis": {
-    "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
-    "parameters": {
-      "max_output_tokens": 3000,
-      "structured_output": true,
-      "output_contract": "causebase-summary-v0.3-rc2"
-    },
-    "evidence_input_hash": "a6fc3592507fd1458692097a96b6859d19c338557b7fb79e78c51ea38d418b9a",
-    "generated_at": "2026-08-12T13:45:47.805744Z",
-    "editorial_policy_version": "0.3-rc2"
-  },
-  "derivative_assessments": [
+  "activities": [],
+  "beneficiaries": [],
+  "descriptive_geography": [],
+  "navigation_geography": [],
+  "funding_sources": [],
+  "fundraising_methods": [],
+  "participation": [],
+  "opportunities": [],
+  "programs": [
     {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T13:45:47.805744Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-13T13:54:42.956606Z",
-      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
-      "input_hash": "a6fc3592507fd1458692097a96b6859d19c338557b7fb79e78c51ea38d418b9a",
-      "disposition": "reused",
-      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
-      "affected_dimensions": [
-        "summary"
-      ]
+      "observation_id": "obs:rc4:cb_ee13568163c645e2a5a5061d3897188f:program:prg:acnc:84981035169:4478b1c7-1e06-f111-8406-7ced8d33fdea",
+      "program_id": "prg:acnc:84981035169:4478b1c7-1e06-f111-8406-7ced8d33fdea",
+      "name": "Spiritual Education & Biblical Life Skills",
+      "description": "Christianity",
+      "url": "https://www.acnc.gov.au/charity/charities/e437d471-b28a-ef11-8a6a-000d3ad2bc8d/documents/3578b1c7-1e06-f111-8406-7ced8d33fdea",
+      "status": "current",
+      "claim_basis": "direct",
+      "extraction_method": "api",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:ais:84981035169:3578b1c7-1e06-f111-8406-7ced8d33fdea"
+      ],
+      "time": {
+        "reporting_period": {
+          "label": "2025"
+        }
+      },
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_ee13568163c645e2a5a5061d3897188f:program:prg:acnc:84981035169:4b78b1c7-1e06-f111-8406-7ced8d33fdea",
+      "program_id": "prg:acnc:84981035169:4b78b1c7-1e06-f111-8406-7ced8d33fdea",
+      "name": "Church Services & Ministry Programs",
+      "description": "Christianity",
+      "url": "https://www.acnc.gov.au/charity/charities/e437d471-b28a-ef11-8a6a-000d3ad2bc8d/documents/3578b1c7-1e06-f111-8406-7ced8d33fdea",
+      "status": "current",
+      "claim_basis": "direct",
+      "extraction_method": "api",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:ais:84981035169:3578b1c7-1e06-f111-8406-7ced8d33fdea"
+      ],
+      "time": {
+        "reporting_period": {
+          "label": "2025"
+        }
+      },
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_ee13568163c645e2a5a5061d3897188f:program:prg:acnc:84981035169:5378b1c7-1e06-f111-8406-7ced8d33fdea",
+      "program_id": "prg:acnc:84981035169:5378b1c7-1e06-f111-8406-7ced8d33fdea",
+      "name": "Multimedia Teaching & Digital Ministry",
+      "description": "Christianity",
+      "url": "https://www.acnc.gov.au/charity/charities/e437d471-b28a-ef11-8a6a-000d3ad2bc8d/documents/3578b1c7-1e06-f111-8406-7ced8d33fdea",
+      "status": "current",
+      "claim_basis": "direct",
+      "extraction_method": "api",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:ais:84981035169:3578b1c7-1e06-f111-8406-7ced8d33fdea"
+      ],
+      "time": {
+        "reporting_period": {
+          "label": "2025"
+        }
+      },
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_ee13568163c645e2a5a5061d3897188f:program:prg:acnc:84981035169:5d78b1c7-1e06-f111-8406-7ced8d33fdea",
+      "program_id": "prg:acnc:84981035169:5d78b1c7-1e06-f111-8406-7ced8d33fdea",
+      "name": "Online Courses & Christian Training",
+      "description": "Christianity",
+      "url": "https://www.acnc.gov.au/charity/charities/e437d471-b28a-ef11-8a6a-000d3ad2bc8d/documents/3578b1c7-1e06-f111-8406-7ced8d33fdea",
+      "status": "current",
+      "claim_basis": "direct",
+      "extraction_method": "api",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:ais:84981035169:3578b1c7-1e06-f111-8406-7ced8d33fdea"
+      ],
+      "time": {
+        "reporting_period": {
+          "label": "2025"
+        }
+      },
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_ee13568163c645e2a5a5061d3897188f:program:prg:acnc:84981035169:6378b1c7-1e06-f111-8406-7ced8d33fdea",
+      "program_id": "prg:acnc:84981035169:6378b1c7-1e06-f111-8406-7ced8d33fdea",
+      "name": "Community Outreach & Faith Support",
+      "description": "Christianity",
+      "url": "https://www.acnc.gov.au/charity/charities/e437d471-b28a-ef11-8a6a-000d3ad2bc8d/documents/3578b1c7-1e06-f111-8406-7ced8d33fdea",
+      "status": "current",
+      "claim_basis": "direct",
+      "extraction_method": "api",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:ais:84981035169:3578b1c7-1e06-f111-8406-7ced8d33fdea"
+      ],
+      "time": {
+        "reporting_period": {
+          "label": "2025"
+        }
+      },
+      "warnings": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-14-rc4-fundraising-projection-correction",
-  "card_schema_version": "0.4",
-  "editorial_policy_version": "0.4-rc4",
-  "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T13:54:42.956606Z"
+  "relationships": [],
+  "classifications": [
+    {
+      "observation_id": "obs:rc4:cb_ee13568163c645e2a5a5061d3897188f:classification:0",
+      "classification_id": "cls:rc4:cb_ee13568163c645e2a5a5061d3897188f:0",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "purpose.religion",
+      "term_label": "religion",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:84981035169"
+      ],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_ee13568163c645e2a5a5061d3897188f:classification:1",
+      "classification_id": "cls:rc4:cb_ee13568163c645e2a5a5061d3897188f:1",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "beneficiary.general_community",
+      "term_label": "general community",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:84981035169"
+      ],
+      "confidence": "high",
+      "warnings": []
+    }
+  ],
+  "coverage": {
+    "registry_id": "capability-registry-0.5-initial",
+    "current": [
+      {
+        "capability": "regulatory.acnc_profile",
+        "status": "observed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:acnc:84981035169"
+        ]
+      },
+      {
+        "capability": "regulatory.ais",
+        "status": "observed",
+        "assessed_at": "2026-01-27",
+        "source_record_ids": [
+          "src:acnc-ais-detail:84981035169:3578b1c7-1e06-f111-8406-7ced8d33fdea:cb_ee13568163c645e2a5a5061d3897188f"
+        ],
+        "evidence_ids": [
+          "ev:acnc:ais:84981035169:3578b1c7-1e06-f111-8406-7ced8d33fdea"
+        ]
+      },
+      {
+        "capability": "tax.dgr",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "web.website",
+        "status": "observed",
+        "assessed_at": "2026-08-13",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "report.annual_report",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "financial.report",
+        "status": "not_found_in_source",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "financial.statements",
+        "status": "not_found_in_source",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.activities",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.beneficiaries",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.geography",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "programs",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "participation",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "funding.sources",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.methods",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.expenditure",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "taxonomy.causebase",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "semantic.embedding",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      }
+    ]
+  },
+  "financial_reports": [],
+  "canonical_metrics": [],
+  "analytic_projections": [],
+  "derivatives": [
+    {
+      "derivative_id": "der:rc4:cb_ee13568163c645e2a5a5061d3897188f:summary",
+      "kind": "summary",
+      "input_observation_ids": [],
+      "evidence_ids": [
+        "ev:web:84981035169:2026-08-10",
+        "ev:acnc:84981035169"
+      ],
+      "generated_under": {
+        "output_contract_version": "phase2b-rc4-accepted-rc2-summary-reuse",
+        "input_hash": "a6fc3592507fd1458692097a96b6859d19c338557b7fb79e78c51ea38d418b9a",
+        "generated_at": "2026-08-12T13:45:47.805744Z"
+      },
+      "current_assessment": {
+        "assessed_at": "2026-08-13T13:54:42.956606Z",
+        "assessed_against_contract": "0.5",
+        "governing_input_hash": "a6fc3592507fd1458692097a96b6859d19c338557b7fb79e78c51ea38d418b9a",
+        "disposition": "reused",
+        "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs."
+      }
+    }
+  ],
+  "legacy_unbound": {
+    "origin_release": "rc4-2026-08-14",
+    "origin_card_sha256": "8956e9983edc67872fba92739dd3b1aec8eb24583f17e93b1dd68bd0eb65c357",
+    "activities": [
+      {
+        "value": "online video sermons and lectures",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "structured online courses (My Bible Academy)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "written articles and study materials",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "audio resources (podcast/sermon audio)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "user registration and course enrolment system",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "collection of testimonies",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "online donation option ('Give')",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "beneficiaries": [
+      {
+        "value": "people seeking to read, understand or apply the Bible",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Christians and church leaders who use online teaching resources",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "descriptive_geography": [
+      {
+        "value": "Australia",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "online / international",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "classifications": [
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "activity.events_and_public_programming",
+        "term_label": "Events and public programming",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "participation.public_events",
+        "term_label": "Public events",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "beneficiary.general_community",
+        "term_label": "General community",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "geography.australia",
+        "term_label": "Australia",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      }
+    ]
+  }
 }

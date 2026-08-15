@@ -1,1383 +1,424 @@
 {
   "causebase_id": "cb_e2cd8f20b7be45b6a9f44ca27eaa4c53",
+  "contract_version": "0.5",
   "subject_kind": "unknown",
-  "external_identifiers": [
-    {
-      "scheme": "abn",
-      "value": "15969822381",
-      "source_evidence_id": "ev:acnc:15969822381"
-    }
+  "identity": {
+    "legal_name": "Ananda Marga Pracaraka Samgha Ltd Preschool",
+    "display_name": "Ananda Marga Pracaraka Samgha Ltd Preschool",
+    "operating_names": [],
+    "former_names": [],
+    "entity_status": "registered",
+    "website": "http://www.sunrisepreschool.vic.edu.au/fitzroy-north/",
+    "external_identifiers": [
+      {
+        "scheme": "abn",
+        "value": "15969822381",
+        "evidence_ids": [
+          "ev:acnc:15969822381"
+        ]
+      }
+    ],
+    "registrations": [
+      {
+        "regulator": "ACNC",
+        "status": "registered",
+        "evidence_ids": [
+          "ev:acnc:15969822381"
+        ]
+      }
+    ],
+    "tax_statuses": []
+  },
+  "release": {
+    "release_id": "v0.5.0-2026-08-15",
+    "dataset_version": "0.5.0-2026-08-15",
+    "contract_version": "0.5",
+    "based_on_release": "rc4-2026-08-14",
+    "generated_at": "2026-08-15T00:00:00Z"
+  },
+  "source_record_refs": [
+    "src:acnc-public-profile:15969822381:e2b4c3a1-38af-e811-a961-000d3ad24182:cb_e2cd8f20b7be45b6a9f44ca27eaa4c53",
+    "src:acnc-ais-detail:15969822381:0efba02c-6966-f111-a826-6045bde523ce:cb_e2cd8f20b7be45b6a9f44ca27eaa4c53"
   ],
-  "registrations": [
-    {
-      "regulator": "ACNC",
-      "registration_id": null,
-      "status": "registered",
-      "evidence_ids": [
-        "ev:acnc:15969822381"
-      ]
-    }
-  ],
-  "tax_statuses": [],
-  "relationships": [],
-  "source_resolutions": [
+  "source_bindings": [
     {
       "source_record_id": "src:acnc-register:37b9077b-577f-5b9a-a798-0f7b55e53c4b",
       "resolution_status": "resolved",
       "resolution_basis": "automated authoritative ACNC promotion under acnc-authoritative-v1",
       "confidence": "high",
-      "supporting_signals": [
-        "ABN:15969822381",
-        "ACNC Register"
-      ],
-      "conflicting_signals": [],
-      "review_status": "not_required"
-    }
-  ],
-  "legal_name": "Ananda Marga Pracaraka Samgha Ltd Preschool",
-  "display_name": "Ananda Marga Pracaraka Samgha Ltd Preschool",
-  "entity_status": "registered",
-  "canonical_url": "https://gregorycwhill.github.io/CauseBase-Viewer/#cb_e2cd8f20b7be45b6a9f44ca27eaa4c53",
-  "acnc_profile_url": "https://www.acnc.gov.au/charity/charities/e2b4c3a1-38af-e811-a961-000d3ad24182/profile",
-  "acnc_ais_url": "https://www.acnc.gov.au/charity/charities/e2b4c3a1-38af-e811-a961-000d3ad24182/documents/0efba02c-6966-f111-a826-6045bde523ce",
-  "operating_names": [],
-  "former_names": [],
-  "principal_location": "Australia",
-  "coverage": [
-    {
-      "capability": "regulatory",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:acnc:15969822381"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "annual_report",
-      "status": "not_yet_processed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "fundraising_expenditure",
-      "status": "not_available_from_source",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": "No direct or defensible derived fundraising expenditure was found in selected Phase 2A evidence."
-    },
-    {
-      "capability": "financials",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:ais:15969822381:2023"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "latest_acnc_ais",
-      "status": "observed",
-      "source_record_id": "src:acnc-ais-detail:15969822381:0efba02c-6966-f111-a826-6045bde523ce:cb_e2cd8f20b7be45b6a9f44ca27eaa4c53",
-      "evidence_ids": [
-        "ev:acnc:ais:15969822381:0efba02c-6966-f111-a826-6045bde523ce"
-      ],
-      "observed_at": "2026-06-12",
-      "freshness_note": "Latest submitted AIS detail acquired from the public ACNC entity endpoint."
-    },
-    {
-      "capability": "website",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-13",
-      "freshness_note": "Public website locator acquired from the ACNC profile."
-    }
-  ],
-  "enrichment_level": "enriched",
-  "website": "http://www.sunrisepreschool.vic.edu.au/fitzroy-north/",
-  "geography": [
-    "Fitzroy North, Victoria, Australia"
-  ],
-  "geography_observations": [
-    {
-      "value": "Fitzroy North, Victoria, Australia",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "navigation_geography": [],
-  "causebase_summary": "Ananda Marga Pracaraka Samgha Ltd Preschool is a registered charity that operates a preschool in Fitzroy North, Victoria. In the 2023 reporting period the organisation provided preschool services (early childhood care and education) to children attending its program. The entity is recorded on the Australian Charities and Not-for-profits Commission register and submitted the 2023 Annual Information Statement. CauseBase identifies the organisation’s concrete work as delivering early childhood care and education at its Fitzroy North location; the available records do not provide detailed information about program scope, age ranges beyond ‘children’, or participation arrangements in this release.",
-  "summary_evidence_ids": [
-    "ev:acnc:15969822381",
-    "ev:ais:15969822381:2023"
-  ],
-  "organisation_self_description": null,
-  "activities": [
-    "Preschool services (early childhood care and education)",
-    "Reporting to ACNC (registered charity)"
-  ],
-  "activity_observations": [
-    {
-      "value": "Preschool services (early childhood care and education)",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Reporting to ACNC (registered charity)",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "beneficiaries": [
-    "Children using preschool services"
-  ],
-  "beneficiary_observations": [
-    {
-      "value": "Children using preschool services",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "participation_modes": [],
-  "participation_observations": [],
-  "opportunities": [],
-  "programs": [
-    {
-      "program_id": "prg:acnc:15969822381:2bfba02c-6966-f111-a826-6045bde523ce",
-      "name": "Neo-humanist Education",
-      "description": "Early childhood education",
-      "beneficiaries": [
-        "Early childhood - aged under 6"
-      ],
-      "geography": [
-        "199 Clauscen Street, Fitzroy North VIC, Australia"
-      ],
-      "status": "current",
-      "reporting_period": "2025",
-      "source_url": "https://www.acnc.gov.au/charity/charities/e2b4c3a1-38af-e811-a961-000d3ad24182/documents/0efba02c-6966-f111-a826-6045bde523ce",
-      "evidence_ids": [
-        "ev:acnc:ais:15969822381:0efba02c-6966-f111-a826-6045bde523ce"
-      ]
-    }
-  ],
-  "source_native_records": [
-    {
-      "source_record_id": "src:acnc-public-profile:15969822381:e2b4c3a1-38af-e811-a961-000d3ad24182:cb_e2cd8f20b7be45b6a9f44ca27eaa4c53",
-      "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-14-public-api",
-      "source_url": "https://www.acnc.gov.au/charity/charities/e2b4c3a1-38af-e811-a961-000d3ad24182/profile",
-      "retrieved_at": "2026-08-13T13:54:42.956606Z",
-      "observed_at": "2026-06-12",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "uuid": "e2b4c3a1-38af-e811-a961-000d3ad24182",
-        "abn": "15969822381"
-      },
-      "source_payload": {
-        "data": {
-          "AFSEmail": "dadajii@gmail.com",
-          "Abn": "15969822381",
-          "AddressCountry": "Australia",
-          "AddressLine1": null,
-          "AddressLine2": null,
-          "AddressLine3": null,
-          "AddressPostalCode": null,
-          "AddressStateOrProvince": null,
-          "AddressSuburb": null,
-          "AnnualReports": [
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2027-06-29T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Not yet submitted",
-              "Year": "2026",
-              "type": "Annual Information Statement 2026",
-              "uuid": "7c94b0d2-ba55-f011-bec1-000d3acb77bd"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2027-06-29T14:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Pending",
-              "Year": "2026",
-              "type": "Financial Report 2026",
-              "uuid": "a194b0d2-ba55-f011-bec1-000d3acb77bd"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2020-09-11T00:06:10.0000000Z",
-              "DocumentUuid": "7eaf5d8f-c2f3-ea11-a815-000d3ad1caaa",
-              "DueDate": "2020-08-30T14:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2019",
-              "type": "Financial Report 2019",
-              "uuid": "a7b453fb-1f25-e911-a977-000d3ad064bd"
-            },
-            {
-              "AISId": "d4f52a96-c2f3-ea11-a815-000d3ad1ce4e",
-              "DateReceived": "2020-09-11T00:06:15.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2020-08-30T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2019",
-              "type": "Annual Information Statement 2019",
-              "uuid": "c1b453fb-1f25-e911-a977-000d3ad064bd"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2021-07-26T07:30:24.0000000Z",
-              "DocumentUuid": "0b9dbe4e-e3ed-eb11-94ef-000d3acc2e72",
-              "DueDate": "2021-06-29T14:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2020",
-              "type": "Financial Report 2020",
-              "uuid": "e2b453fb-1f25-e911-a977-000d3ad064bd"
-            },
-            {
-              "AISId": "3e3bab55-e3ed-eb11-94ee-000d3acc2ca2",
-              "DateReceived": "2021-07-26T07:30:28.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2021-06-29T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2020",
-              "type": "Annual Information Statement 2020",
-              "uuid": "f6b453fb-1f25-e911-a977-000d3ad064bd"
-            },
-            {
-              "AISId": "1a191a61-4c07-ed11-82e5-002248944bc7",
-              "DateReceived": "2022-07-19T10:20:21.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2022-06-29T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2021",
-              "type": "Annual Information Statement 2021",
-              "uuid": "3eb6eafa-96eb-ea11-a815-000d3ad1fbf8"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2022-07-19T10:20:21.0000000Z",
-              "DocumentUuid": "1436335d-4c07-ed11-82e5-002248944e6d",
-              "DueDate": "2022-06-29T14:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2021",
-              "type": "Financial Report 2021",
-              "uuid": "61b6eafa-96eb-ea11-a815-000d3ad1fbf8"
-            },
-            {
-              "AISId": "c1e3bcf8-f39a-e911-a986-000d3ad02a61",
-              "DateReceived": "2019-06-30T05:00:28.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2019-06-29T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2018",
-              "type": "Annual Information Statement 2018",
-              "uuid": "8d99c380-3ac8-e811-a964-000d3ad24077"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2019-06-30T05:00:26.0000000Z",
-              "DocumentUuid": "b2fe1bef-f39a-e911-a971-000d3ad244fd",
-              "DueDate": "2019-06-29T14:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2018",
-              "type": "Financial Report 2018",
-              "uuid": "393dd734-3ec8-e811-a963-000d3ad24a0d"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2015-04-29T14:00:00.0000000Z",
-              "DocumentUuid": "5f842edc-44b0-e811-a963-000d3ad244fd",
-              "DueDate": "2015-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2014",
-              "type": "Financial Report 2014",
-              "uuid": "4d3dd734-3ec8-e811-a963-000d3ad24a0d"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2016-07-26T14:00:00.0000000Z",
-              "DocumentUuid": "8d842edc-44b0-e811-a963-000d3ad244fd",
-              "DueDate": "2016-06-29T14:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2015",
-              "type": "Financial Report 2015",
-              "uuid": "5a3dd734-3ec8-e811-a963-000d3ad24a0d"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2015-04-19T14:00:00.0000000Z",
-              "DocumentUuid": "ed832edc-44b0-e811-a963-000d3ad244fd",
-              "DueDate": "2014-03-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2013",
-              "type": "Financial Report 2013",
-              "uuid": "6d3dd734-3ec8-e811-a963-000d3ad24a0d"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2017-06-02T14:00:00.0000000Z",
-              "DocumentUuid": "bd842edc-44b0-e811-a963-000d3ad244fd",
-              "DueDate": "2017-06-29T14:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2016",
-              "type": "Financial Report 2016",
-              "uuid": "a43dd734-3ec8-e811-a963-000d3ad24a0d"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2018-06-18T14:00:00.0000000Z",
-              "DocumentUuid": "ec842edc-44b0-e811-a963-000d3ad244fd",
-              "DueDate": "2018-06-29T14:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2017",
-              "type": "Financial Report 2017",
-              "uuid": "b93dd734-3ec8-e811-a963-000d3ad24a0d"
-            },
-            {
-              "AISId": "d9a61b81-50c8-e811-a964-000d3ad24077",
-              "DateReceived": "2015-04-19T14:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2014-03-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2013",
-              "type": "Annual Information Statement 2013",
-              "uuid": "21b78b82-50c8-e811-a963-000d3ad24a0d"
-            },
-            {
-              "AISId": "dea61b81-50c8-e811-a964-000d3ad24077",
-              "DateReceived": "2015-04-29T14:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2015-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2014",
-              "type": "Annual Information Statement 2014",
-              "uuid": "27b78b82-50c8-e811-a963-000d3ad24a0d"
-            },
-            {
-              "AISId": "e9a61b81-50c8-e811-a964-000d3ad24077",
-              "DateReceived": "2016-07-26T14:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2016-06-29T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2015",
-              "type": "Annual Information Statement 2015",
-              "uuid": "2eb78b82-50c8-e811-a963-000d3ad24a0d"
-            },
-            {
-              "AISId": "f0a61b81-50c8-e811-a964-000d3ad24077",
-              "DateReceived": "2017-06-02T14:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2017-06-29T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2016",
-              "type": "Annual Information Statement 2016",
-              "uuid": "37b78b82-50c8-e811-a963-000d3ad24a0d"
-            },
-            {
-              "AISId": "05a71b81-50c8-e811-a964-000d3ad24077",
-              "DateReceived": "2018-06-18T14:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2018-06-29T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2017",
-              "type": "Annual Information Statement 2017",
-              "uuid": "3bb78b82-50c8-e811-a963-000d3ad24a0d"
-            },
-            {
-              "AISId": "0efba02c-6966-f111-a826-6045bde523ce",
-              "DateReceived": "2026-06-12T14:15:45.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2026-06-29T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2025",
-              "type": "Annual Information Statement 2025",
-              "uuid": "16480310-ea36-ef11-a316-0022481034e5"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2026-06-12T14:15:50.0000000Z",
-              "DocumentUuid": "3fa5d319-6966-f111-a826-6045bde523ce",
-              "DueDate": "2026-06-29T14:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2025",
-              "type": "Financial Report 2025",
-              "uuid": "26480310-ea36-ef11-a316-0022481034e5"
-            },
-            {
-              "AISId": "c7066f2d-82ff-ed11-8f6d-00224893cef4",
-              "DateReceived": "2023-05-31T07:10:36.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2023-06-29T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2022",
-              "type": "Annual Information Statement 2022",
-              "uuid": "fd387bbf-bcd9-eb11-bacb-0022481070a1"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2023-05-31T07:10:34.0000000Z",
-              "DocumentUuid": "b60bcb2b-82ff-ed11-8f6d-000d3ad1400f",
-              "DueDate": "2023-06-29T14:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2022",
-              "type": "Financial Report 2022",
-              "uuid": "10397bbf-bcd9-eb11-bacb-0022481070a1"
-            },
-            {
-              "AISId": "a3808158-5b2c-ef11-840a-00224895de44",
-              "DateReceived": "2024-06-17T03:40:43.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2024-06-29T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2023",
-              "type": "Annual Information Statement 2023",
-              "uuid": "77500595-8bf8-ec11-82e6-00224811d503"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2024-06-17T03:40:18.0000000Z",
-              "DocumentUuid": "72a15e47-5b2c-ef11-840b-002248964162",
-              "DueDate": "2024-06-29T14:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2023",
-              "type": "Financial Report 2023",
-              "uuid": "c7500595-8bf8-ec11-82e6-00224811d503"
-            },
-            {
-              "AISId": "0aaf1cfd-9068-f011-bec3-6045bdc33c93",
-              "DateReceived": "2025-07-24T13:21:32.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2025-06-29T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2024",
-              "type": "Annual Information Statement 2024",
-              "uuid": "5942862f-5117-ee11-8f6d-00224893bffb"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2025-07-24T13:20:44.0000000Z",
-              "DocumentUuid": "69c9e4f1-9068-f011-bec3-000d3ad2853b",
-              "DueDate": "2025-06-29T14:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2024",
-              "type": "Financial Report 2024",
-              "uuid": "7042862f-5117-ee11-8f6d-00224893bffb"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2028-06-29T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Not yet submitted",
-              "Year": "2027",
-              "type": "Annual Information Statement 2027",
-              "uuid": "37970fae-8c74-f111-ab0e-70a8a553ce37"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2028-06-29T14:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Pending",
-              "Year": "2027",
-              "type": "Financial Report 2027",
-              "uuid": "56970fae-8c74-f111-ab0e-70a8a553ce37"
-            }
-          ],
-          "Beneficiaries": [
-            {
-              "Description": null,
-              "Name": "Early childhood - aged under 6",
-              "uuid": "33fba02c-6966-f111-a826-6045bde523ce"
-            }
-          ],
-          "CharitySize": "Medium",
-          "CharitySubtypeHistory": [
-            {
-              "EndDate": "2013-12-30T13:00:00.0000000Z",
-              "Purpose": "2012 Advancement of education",
-              "StartDate": "2012-12-02T13:00:00.0000000Z",
-              "uuid": "cb4e75d7-fcc6-e811-a95f-000d3ad24c60"
-            },
-            {
-              "EndDate": null,
-              "Purpose": "Advancing education",
-              "StartDate": "2013-12-31T13:00:00.0000000Z",
-              "uuid": "77c96ddd-fcc6-e811-a95f-000d3ad24c60"
-            }
-          ],
-          "CharityVersion": "71",
-          "ChildMemberEndDate": null,
-          "ChildMemberStartDate": null,
-          "ChooseToProvideAis": null,
-          "Countries": [
-            {
-              "Name": "Australia",
-              "uuid": "f57b5602-9a4d-e811-a951-000d3ad06f2d"
-            }
-          ],
-          "DateEstablished": "1992-12-31T13:00:00.0000000Z",
-          "Documents": [
-            {
-              "Date": "2015-04-30T00:00:00.0000000",
-              "Title": "AMPSLtdConstitution.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/e2b4c3a1-38af-e811-a961-000d3ad24182-7f2aa7ae-5d67-46ae-b06d-02c5a2722d14-Governing%20Document-3b842edc-44b0-e811-a963-000d3ad244fd-AMPSLtdConstitution.pdf",
-              "Year": "2014",
-              "type": "Governing Document",
-              "uuid": "3b842edc-44b0-e811-a963-000d3ad244fd"
-            },
-            {
-              "Date": "2021-07-26T00:00:00.0000000",
-              "Title": "Sunrise Fitzroy 2020 Financial Statements.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/e2b4c3a1-38af-e811-a961-000d3ad24182-7f2aa7ae-5d67-46ae-b06d-02c5a2722d14-Financial%20Report-0b9dbe4e-e3ed-eb11-94ef-000d3acc2e72-Sunrise_Fitzroy_2020_Financial_Statements.pdf",
-              "Year": "2020",
-              "type": "Financial Report",
-              "uuid": "0b9dbe4e-e3ed-eb11-94ef-000d3acc2e72"
-            },
-            {
-              "Date": "2023-05-31T00:00:00.0000000",
-              "Title": "Sunrise Fitzroy 2022 Amended Financial Report.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/e2b4c3a1-38af-e811-a961-000d3ad24182-7f2aa7ae-5d67-46ae-b06d-02c5a2722d14-Financial%20Report-b60bcb2b-82ff-ed11-8f6d-000d3ad1400f-Sunrise_Fitzroy_2022_Amended_Financial_Report.pdf",
-              "Year": "2022",
-              "type": "Financial Report",
-              "uuid": "b60bcb2b-82ff-ed11-8f6d-000d3ad1400f"
-            },
-            {
-              "Date": "2020-09-11T00:00:00.0000000",
-              "Title": "AuditedFinancialsFitzroy.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/e2b4c3a1-38af-e811-a961-000d3ad24182-7f2aa7ae-5d67-46ae-b06d-02c5a2722d14-Financial%20Report-7eaf5d8f-c2f3-ea11-a815-000d3ad1caaa-AuditedFinancialsFitzroy.pdf",
-              "Year": "2019",
-              "type": "Financial Report",
-              "uuid": "7eaf5d8f-c2f3-ea11-a815-000d3ad1caaa"
-            },
-            {
-              "Date": "2015-04-20T00:00:00.0000000",
-              "Title": "Financial Report 2013.PDF",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/e2b4c3a1-38af-e811-a961-000d3ad24182-7f2aa7ae-5d67-46ae-b06d-02c5a2722d14-Financial%20Report-ed832edc-44b0-e811-a963-000d3ad244fd-Financial_Report_2013.PDF",
-              "Year": "2013",
-              "type": "Financial Report",
-              "uuid": "ed832edc-44b0-e811-a963-000d3ad244fd"
-            },
-            {
-              "Date": "2015-04-30T00:00:00.0000000",
-              "Title": "Financial report 2014.PDF",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/e2b4c3a1-38af-e811-a961-000d3ad24182-7f2aa7ae-5d67-46ae-b06d-02c5a2722d14-Financial%20Report-5f842edc-44b0-e811-a963-000d3ad244fd-Financial_report_2014.PDF",
-              "Year": "2014",
-              "type": "Financial Report",
-              "uuid": "5f842edc-44b0-e811-a963-000d3ad244fd"
-            },
-            {
-              "Date": "2016-07-27T00:00:00.0000000",
-              "Title": "ACNC AIS Financial.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/e2b4c3a1-38af-e811-a961-000d3ad24182-7f2aa7ae-5d67-46ae-b06d-02c5a2722d14-Financial%20Report-8d842edc-44b0-e811-a963-000d3ad244fd-ACNC_AIS_Financial.pdf",
-              "Year": "2015",
-              "type": "Financial Report",
-              "uuid": "8d842edc-44b0-e811-a963-000d3ad244fd"
-            },
-            {
-              "Date": "2017-06-03T00:00:00.0000000",
-              "Title": "EPSON037.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/e2b4c3a1-38af-e811-a961-000d3ad24182-7f2aa7ae-5d67-46ae-b06d-02c5a2722d14-Financial%20Report-bd842edc-44b0-e811-a963-000d3ad244fd-EPSON037.pdf",
-              "Year": "2016",
-              "type": "Financial Report",
-              "uuid": "bd842edc-44b0-e811-a963-000d3ad244fd"
-            },
-            {
-              "Date": "2018-06-19T00:00:00.0000000",
-              "Title": "Financial Statements Fitzoroy.2017pdf.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/e2b4c3a1-38af-e811-a961-000d3ad24182-7f2aa7ae-5d67-46ae-b06d-02c5a2722d14-Financial%20Report-ec842edc-44b0-e811-a963-000d3ad244fd-Financial_Statements_Fitzoroy.2017pdf.pdf",
-              "Year": "2017",
-              "type": "Financial Report",
-              "uuid": "ec842edc-44b0-e811-a963-000d3ad244fd"
-            },
-            {
-              "Date": "2019-06-30T00:00:00.0000000",
-              "Title": "SunFitz2018CR.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/e2b4c3a1-38af-e811-a961-000d3ad24182-7f2aa7ae-5d67-46ae-b06d-02c5a2722d14-Financial%20Report-b2fe1bef-f39a-e911-a971-000d3ad244fd-SunFitz2018CR.pdf",
-              "Year": "2018",
-              "type": "Financial Report",
-              "uuid": "b2fe1bef-f39a-e911-a971-000d3ad244fd"
-            },
-            {
-              "Date": "2025-07-24T00:00:00.0000000",
-              "Title": "Sunrise Preschool and Long Day Care - Fitzroy-Financial Statements-31122024 final signed.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/e2b4c3a1-38af-e811-a961-000d3ad24182-7f2aa7ae-5d67-46ae-b06d-02c5a2722d14-Financial%20Report-69c9e4f1-9068-f011-bec3-000d3ad2853b-Sunrise_Preschool_and_Long_Day_Care_-_Fitzroy-Financial_Statements-31122024_final_signed.pdf",
-              "Year": "2024",
-              "type": "Financial Report",
-              "uuid": "69c9e4f1-9068-f011-bec3-000d3ad2853b"
-            },
-            {
-              "Date": "2022-07-19T00:00:00.0000000",
-              "Title": "Sunrise Fitzroy 2021 Financial Report Final Signed.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/e2b4c3a1-38af-e811-a961-000d3ad24182-7f2aa7ae-5d67-46ae-b06d-02c5a2722d14-Financial%20Report-1436335d-4c07-ed11-82e5-002248944e6d-Sunrise_Fitzroy_2021_Financial_Report_Final_Signed.pdf",
-              "Year": "2021",
-              "type": "Financial Report",
-              "uuid": "1436335d-4c07-ed11-82e5-002248944e6d"
-            },
-            {
-              "Date": "2024-06-17T00:00:00.0000000",
-              "Title": "Sunrise Preschool and Long Day Care - Fitzroy-Financial Statements-31122023-57655277 (1)Final signed.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/e2b4c3a1-38af-e811-a961-000d3ad24182-7f2aa7ae-5d67-46ae-b06d-02c5a2722d14-Financial%20Report-72a15e47-5b2c-ef11-840b-002248964162-Sunrise_Preschool_and_Long_Day_Care_-_Fitzroy-Financial_Statements-31122023-57655277_(1)Final_signed.pdf",
-              "Year": "2023",
-              "type": "Financial Report",
-              "uuid": "72a15e47-5b2c-ef11-840b-002248964162"
-            },
-            {
-              "Date": "2026-06-13T00:00:00.0000000",
-              "Title": "Sunrise Preschool and Long Day Care - Fitzroy-Financial Statements-31122025.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/e2b4c3a1-38af-e811-a961-000d3ad24182-7f2aa7ae-5d67-46ae-b06d-02c5a2722d14-Financial%20Report-3fa5d319-6966-f111-a826-6045bde523ce-Sunrise_Preschool_and_Long_Day_Care_-_Fitzroy-Financial_Statements-31122025.pdf",
-              "Year": "2025",
-              "type": "Financial Report",
-              "uuid": "3fa5d319-6966-f111-a826-6045bde523ce"
-            }
-          ],
-          "Email": "sunrise.preschool@gmail.com",
-          "EnforcementOutcomes": [],
-          "FinancialYearEnd": "31/12",
-          "GovernmentAgencies": [
-            {
-              "Name": "Online fundraising",
-              "ReferenceNumber": null,
-              "uuid": "18427333-82ff-ed11-8f6d-00224893cef4"
-            },
-            {
-              "Name": "Online fundraising",
-              "ReferenceNumber": null,
-              "uuid": "87191a61-4c07-ed11-82e5-002248944bc7"
-            },
-            {
-              "Name": "Online fundraising",
-              "ReferenceNumber": null,
-              "uuid": "bb808158-5b2c-ef11-840a-00224895de44"
-            },
-            {
-              "Name": "Online fundraising",
-              "ReferenceNumber": null,
-              "uuid": "18af1cfd-9068-f011-bec3-6045bdc33c93"
-            },
-            {
-              "Name": "VIC - Fundraising",
-              "ReferenceNumber": null,
-              "uuid": "1efba02c-6966-f111-a826-6045bde523ce"
-            },
-            {
-              "Name": "Online fundraising",
-              "ReferenceNumber": null,
-              "uuid": "22fba02c-6966-f111-a826-6045bde523ce"
-            }
-          ],
-          "GroupHeadFlag": false,
-          "LastReported": "2026-06-12T14:15:50.0000000Z",
-          "Name": "Ananda Marga Pracaraka Samgha Ltd Preschool",
-          "NextReportDue": "2027-06-30T13:30:00.0000000Z",
-          "OperatingInStates": [
-            {
-              "Name": "Victoria",
-              "uuid": "4ea3219c-455e-e811-a95c-000d3ad1c715"
-            }
-          ],
-          "OtherDetails": null,
-          "OtherNames": [
-            {
-              "Name": null,
-              "uuid": "25427333-82ff-ed11-8f6d-00224893cef4"
-            },
-            {
-              "Name": null,
-              "uuid": "28427333-82ff-ed11-8f6d-00224893cef4"
-            }
-          ],
-          "ParentAccountAbn": null,
-          "ParentAccountId": null,
-          "Phone": null,
-          "Programs": [
-            {
-              "AisUuid": "0efba02c-6966-f111-a826-6045bde523ce",
-              "Name": "Neo-humanist Education",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Early childhood - aged under 6"
-              ],
-              "ProgramClassie": [
-                {
-                  "classie_id": "201",
-                  "label": "Early childhood education",
-                  "parent_id": "170",
-                  "selected": true
-                },
-                {
-                  "classie_id": "170",
-                  "label": "Education",
-                  "parent_id": null,
-                  "selected": false
-                }
-              ],
-              "ProgramClassification": "Early childhood education",
-              "ProgramClassificationID": "201",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "199 Clauscen Street, Fitzroy North VIC, Australia",
-                  "FormattedAddress": "Clauscen St, Fitzroy North VIC 3068, Australia",
-                  "Marker": {
-                    "Latitude": -37.7775698,
-                    "Longitude": 144.9816117
-                  },
-                  "Name": "Clauscen Street",
-                  "uuid": "30fba02c-6966-f111-a826-6045bde523ce"
-                }
-              ],
-              "ProgramWeblink": null,
-              "uuid": "2bfba02c-6966-f111-a826-6045bde523ce"
-            }
-          ],
-          "ReferendumReturnsUrl": null,
-          "RegistrationStatusHistory": [
-            {
-              "EffectiveDate": "2012-12-02T13:00:00.0000000Z",
-              "Status": "Registered",
-              "TransactionDate": "2012-12-02T13:00:00.0000000Z",
-              "uuid": "8f150687-06c6-e811-a964-000d3ad24077"
-            }
-          ],
-          "RelatedPartyTransactions": null,
-          "RelevantTransactions": null,
-          "ReportingLate": "2027-12-30T13:30:00.0000000Z",
-          "ResponsiblePersons": [
-            {
-              "Name": "David Tanner",
-              "Role": "Director",
-              "uuid": "7efcd9bf-03bc-e811-a963-000d3ad24a0d"
-            },
-            {
-              "Name": "Devendhran PIllay",
-              "Role": "Secretary",
-              "uuid": "b8f2ecde-5499-e911-a971-000d3ad244fd"
-            },
-            {
-              "Name": "Prakash Gupta",
-              "Role": "Director",
-              "uuid": "95fcd9bf-03bc-e811-a963-000d3ad24a0d"
-            },
-            {
-              "Name": "Colm Largey",
-              "Role": "Director",
-              "uuid": "c146ba92-14bc-e811-a95f-000d3ad24c60"
-            },
-            {
-              "Name": "Nayak Arati",
-              "Role": "Director",
-              "uuid": "9cfcd9bf-03bc-e811-a963-000d3ad24a0d"
-            },
-            {
-              "Name": "Prabanjamurthi Pillai",
-              "Role": "Chairperson",
-              "uuid": "52fcd9bf-03bc-e811-a963-000d3ad24a0d"
-            }
-          ],
-          "Status": "Registered",
-          "SummaryOfActivities": "We provided Neo-humanist education & teacher trainaing through our pre-schools in Nth Fitzroy & Thornbury",
-          "TotalExpensesEmployee": "526930",
-          "TotalExpensesGrantsAndDonationsInAustralia": "0",
-          "TotalExpensesGrantsAndDonationsOutsideAustralia": "0",
-          "TotalExpensesInterest": "0",
-          "TotalExpensesOther": "257194",
-          "TotalGrossIncomeDonationsAndRequests": "0",
-          "TotalGrossIncomeGoodsOrServices": "797287",
-          "TotalGrossIncomeGovernmentGrants": "79890",
-          "TotalGrossIncomeInvestments": "0",
-          "TotalGrossIncomeOtherRevenues": "0",
-          "TransparencyRegisterUrl": null,
-          "Website": "http://www.sunrisepreschool.vic.edu.au/fitzroy-north/",
-          "__normalized": true,
-          "type": "charity",
-          "uuid": "e2b4c3a1-38af-e811-a961-000d3ad24182"
-        },
-        "type": "charity",
-        "uuid": "e2b4c3a1-38af-e811-a961-000d3ad24182"
-      },
-      "canonical_field_mappings": {
-        "data.OtherNames": "operating_names",
-        "data.AddressStateOrProvince": "principal_location"
-      },
-      "evidence_ids": []
-    },
-    {
-      "source_record_id": "src:acnc-ais-detail:15969822381:0efba02c-6966-f111-a826-6045bde523ce:cb_e2cd8f20b7be45b6a9f44ca27eaa4c53",
-      "source_family": "acnc-ais-detail",
-      "dataset_version": "2026-08-14-public-api",
-      "source_url": "https://www.acnc.gov.au/charity/charities/e2b4c3a1-38af-e811-a961-000d3ad24182/documents/0efba02c-6966-f111-a826-6045bde523ce",
-      "retrieved_at": "2026-08-13T13:54:42.956606Z",
-      "observed_at": "2026-06-12",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "abn": "15969822381",
-        "ais_uuid": "0efba02c-6966-f111-a826-6045bde523ce",
-        "year": "2025",
-        "date_received": "2026-06-12T14:15:45.0000000Z"
-      },
-      "source_payload": {
-        "data": {
-          "Abn": "15969822381",
-          "ActivityAdvocacyNCivic": false,
-          "ActivityAgedCare": false,
-          "ActivityAnimalProtection": false,
-          "ActivityCultureAndArt": false,
-          "ActivityEconomicSocialCommunity": false,
-          "ActivityEmergencyNRelief": false,
-          "ActivityEmploymentNTraining": false,
-          "ActivityEnvironmental": false,
-          "ActivityGrantMaking": false,
-          "ActivityHealthRehabilitation": false,
-          "ActivityHigherEducation": false,
-          "ActivityHousing": false,
-          "ActivityIncomeSupportNMaintenance": false,
-          "ActivityInternational": false,
-          "ActivityInternationalDescription": null,
-          "ActivityInternationalOther": false,
-          "ActivityInternationalOtherDescription": null,
-          "ActivityLawNLegalServices": false,
-          "ActivityMain": null,
-          "ActivityMentalHealthCrisisIntervention": false,
-          "ActivityNdisSupported": null,
-          "ActivityNdisSupportedNext": null,
-          "ActivityOperating": true,
-          "ActivityOperatingOverseas": false,
-          "ActivityOther": false,
-          "ActivityOtherDescription": null,
-          "ActivityOtherEducation": false,
-          "ActivityOtherHealthServices": false,
-          "ActivityPersuitPurposesDescription": "We provided Neo-humanist education & teacher trainaing through our pre-schools in Nth Fitzroy & Thornbury",
-          "ActivityPhilanthropicPromotion": false,
-          "ActivityPolitical": false,
-          "ActivityPrimarySecondaryEducation": false,
-          "ActivityPurposeChange": null,
-          "ActivityPurposeChangeDescription": null,
-          "ActivityRecreationSocialClub": false,
-          "ActivityReligious": false,
-          "ActivityResearch": false,
-          "ActivitySocialServices": false,
-          "ActivitySports": false,
-          "ActivityTransferringFundsGoods": false,
-          "AdvancementOfEducation": false,
-          "AdvancementOfReligion": false,
-          "AssetsandLiabilitiesDescription": null,
-          "BasicReligiousCharity": false,
-          "BeneficiaryAboriginalTorres": false,
-          "BeneficiaryAdults": false,
-          "BeneficiaryAllAges": false,
-          "BeneficiaryChildren": false,
-          "BeneficiaryChronicIllness": false,
-          "BeneficiaryCrimeVictims": false,
-          "BeneficiaryDisasterVictims": false,
-          "BeneficiaryEarlyChildhood": false,
-          "BeneficiaryEthnic": false,
-          "BeneficiaryFamilies": false,
-          "BeneficiaryFinanciallyDisadvantaged": false,
-          "BeneficiaryGeneral": false,
-          "BeneficiaryHomelessnessRisk": false,
-          "BeneficiaryLGBT": false,
-          "BeneficiaryMain": null,
-          "BeneficiaryMen": false,
-          "BeneficiaryMigrantsRefugees": false,
-          "BeneficiaryOffenderFamilies": false,
-          "BeneficiaryOther": false,
-          "BeneficiaryOtherCharities": false,
-          "BeneficiaryOtherDescription": null,
-          "BeneficiaryOverseas": false,
-          "BeneficiaryPeopleWithDisability": false,
-          "BeneficiaryRuralRegionalRemote": false,
-          "BeneficiarySeniors": false,
-          "BeneficiaryUnemployed": false,
-          "BeneficiaryVeteranFamilies": false,
-          "BeneficiaryWomen": false,
-          "BeneficiaryYouth": false,
-          "CharityAddressCountry": "Australia",
-          "CharityAddressLine1": null,
-          "CharityAddressLine2": null,
-          "CharityAddressPostalCode": null,
-          "CharityAddressStateOrProvince": null,
-          "CharityAddressSuburb": null,
-          "CharityEmail": "sunrise.preschool@gmail.com",
-          "CharitySize": "Medium",
-          "CharityUuid": "e2b4c3a1-38af-e811-a961-000d3ad24182",
-          "ChildCareServices": false,
-          "ExpenseEmployees": "526930.0000",
-          "ExpenseGrantDonationsInAustralia": "0.0000",
-          "ExpenseGrantDonationsOutsideAustralia": "0.0000",
-          "ExpenseTotal": "784124.0000",
-          "ExpensesOther": "257194.0000",
-          "FinAccrualAccounting": null,
-          "FinConsolidatedReportFromMiltiple": "No",
-          "FinDocumentedPoliciesRelatedPartyTransactions": null,
-          "FinFyeJune": false,
-          "FinProvideVoluntarily": null,
-          "FinRelatedPartyTransactions": "No",
-          "FinReportACT": false,
-          "FinReportFrom": "2025-01-01T00:00:00.0000000Z",
-          "FinReportNSW": false,
-          "FinReportNT": false,
-          "FinReportQLD": false,
-          "FinReportSA": false,
-          "FinReportTAS": false,
-          "FinReportTo": "2025-12-31T00:00:00.0000000Z",
-          "FinReportVIC": false,
-          "FinReportWA": false,
-          "FinReportingType": "General purpose financial statements",
-          "FinSapDate": null,
-          "FundRaisingNumberACT": null,
-          "FundRaisingNumberNSW": null,
-          "FundRaisingNumberQLD": null,
-          "FundRaisingNumberSA": null,
-          "FundRaisingNumberTAS": null,
-          "FundRaisingNumberVIC": null,
-          "FundRaisingNumberWA": null,
-          "GovDocAccurate": null,
-          "GrantCapacityBuildingPct": null,
-          "GrantMultiYearPct": null,
-          "GrantPublicOpenApplicationPct": null,
-          "GrantRuralRegionPct": null,
-          "HasSubmittedToRegulator": false,
-          "HoursPaid": null,
-          "HoursTotal": null,
-          "HoursVolunteer": null,
-          "HrCasualEmployees": "7",
-          "HrFteStaff": "7.0000000000",
-          "HrFullTimeEmployees": "0",
-          "HrPartTimeEmployees": "4",
-          "HrUnpainVolunteers": "14",
-          "IncomeDonationsBequests": "0.0000",
-          "IncomeGovernmentGrants": "79890.0000",
-          "IncomeOther": "0.0000",
-          "IncomeOtherComprehinsive": "5942.0000",
-          "IncomeOtherNeg": null,
-          "IncomeOtherReceipts": "0.0000",
-          "IncomeTotalComprehensive": "98995.0000",
-          "IncomeTotalReceipts": "877177.0000",
-          "IncorporationStatus": null,
-          "InterestExpense": "0.0000",
-          "IsIncorporatedAssociation": false,
-          "KeyManagementPersonnel": false,
-          "LegalName": "Ananda Marga Pracaraka Samgha Ltd Preschool",
-          "NetAssetsLiabilities": "1767080.0000",
-          "NetSurplusDeficit": "93053.0000",
-          "NonCurrentLoansPayable": "0.0000",
-          "NumberOfKeyManagementPersonnel": "0",
-          "OperatingCountries": null,
-          "OperatingInACT": false,
-          "OperatingInNSW": false,
-          "OperatingInNT": false,
-          "OperatingInQLD": false,
-          "OperatingInSA": false,
-          "OperatingInTAS": false,
-          "OperatingInVIC": false,
-          "OperatingInWA": false,
-          "OperatingOverseas": false,
-          "OtherNames": [],
-          "OtherNonCurrentAssets": "0.0000",
-          "OtherNonCurrentLiabilities": "0.0000",
-          "OtherPurposeDescription": null,
-          "OtherPurposes": "False",
-          "Programs": [
-            {
-              "AisUuid": "0efba02c-6966-f111-a826-6045bde523ce",
-              "Name": "Neo-humanist Education",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Early childhood - aged under 6"
-              ],
-              "ProgramClassification": "Early childhood education",
-              "ProgramClassificationID": "201",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "199 Clauscen Street, Fitzroy North VIC, Australia",
-                  "FormattedAddress": "Clauscen St, Fitzroy North VIC 3068, Australia",
-                  "Marker": {
-                    "Latitude": -37.7775698,
-                    "Longitude": 144.9816117
-                  },
-                  "Name": "Clauscen Street",
-                  "uuid": "30fba02c-6966-f111-a826-6045bde523ce"
-                }
-              ],
-              "ProgramWeblink": null,
-              "uuid": "2bfba02c-6966-f111-a826-6045bde523ce"
-            }
-          ],
-          "RegulatedACT": false,
-          "RegulatedNSW": false,
-          "RegulatedNT": false,
-          "RegulatedQLD": false,
-          "RegulatedSA": false,
-          "RegulatedTAS": false,
-          "RegulatedVIC": false,
-          "RegulatedWA": false,
-          "Regulator": null,
-          "RegulatorAGMDateACT": null,
-          "RegulatorAGMDateNT": null,
-          "RegulatorAGMDateVIC": null,
-          "RegulatorAGMDateWA": null,
-          "RegulatorFundRaising": "Yes",
-          "RegulatorFundRaisingACT": false,
-          "RegulatorFundRaisingNSW": false,
-          "RegulatorFundRaisingNT": false,
-          "RegulatorFundRaisingOnline": true,
-          "RegulatorFundRaisingQLD": false,
-          "RegulatorFundRaisingSA": false,
-          "RegulatorFundRaisingTAS": false,
-          "RegulatorFundRaisingVIC": true,
-          "RegulatorFundRaisingWA": false,
-          "RegulatorIncorporatedAssociationACT": false,
-          "RegulatorIncorporatedAssociationNSW": false,
-          "RegulatorIncorporatedAssociationNT": false,
-          "RegulatorIncorporatedAssociationNumberACT": null,
-          "RegulatorIncorporatedAssociationNumberNSW": null,
-          "RegulatorIncorporatedAssociationNumberNT": null,
-          "RegulatorIncorporatedAssociationNumberQLD": null,
-          "RegulatorIncorporatedAssociationNumberSA": null,
-          "RegulatorIncorporatedAssociationNumberTAS": null,
-          "RegulatorIncorporatedAssociationNumberVIC": null,
-          "RegulatorIncorporatedAssociationNumberWA": null,
-          "RegulatorIncorporatedAssociationQLD": false,
-          "RegulatorIncorporatedAssociationSA": false,
-          "RegulatorIncorporatedAssociationTAS": false,
-          "RegulatorIncorporatedAssociationVIC": false,
-          "RegulatorIncorporatedAssociationWA": false,
-          "RegulatorMetRequirementACT": false,
-          "RegulatorMetRequirementWA": null,
-          "RegulatorOtherDetails": null,
-          "RegulatorPrograms": null,
-          "RegulatorStates": false,
-          "RelatedPartyDetails": null,
-          "RelatedPartyTransactions": [],
-          "ReliefOfPoverty": false,
-          "ReportingGroupFlag": false,
-          "ResponsiblePersonAccurate": null,
-          "RevenueGoodsServices": "797287.0000",
-          "RevenueInvestments": "0.0000",
-          "RevenueTotal": "877177.0000",
-          "StatementYear": "2025",
-          "SubTypesAccurate": null,
-          "TotalAssets": "1834418.0000",
-          "TotalCurrentAssets": "434316.0000",
-          "TotalCurrentLiabilities": "67338.0000",
-          "TotalLiabilities": "67338.0000",
-          "TotalNonCurrentAssets": "1400102.0000",
-          "TotalNonCurrentLiabilities": "0.0000",
-          "TotalNonCurrentLoansReceivable": "0.0000",
-          "TotalPaidKMP": "$0.00",
-          "Website": "http://www.sunrisepreschool.vic.edu.au/fitzroy-north/",
-          "__normalized": true,
-          "entityTypeVersion": "",
-          "entityVersion": "1945524934",
-          "timeStamp": "2026-06-12T14:15:39.0000000Z",
-          "type": "annual_information_statement",
-          "uuid": "0efba02c-6966-f111-a826-6045bde523ce"
-        },
-        "type": "annual_information_statement",
-        "uuid": "0efba02c-6966-f111-a826-6045bde523ce"
-      },
-      "canonical_field_mappings": {
-        "data.Programs": "programs",
-        "data.TotalRevenue": "financial_records[].revenue",
-        "data.TotalExpenses": "financial_records[].total_expenses"
-      },
-      "evidence_ids": [
-        "ev:acnc:ais:15969822381:0efba02c-6966-f111-a826-6045bde523ce"
-      ]
-    }
-  ],
-  "financial_records": [
-    {
-      "financial_record_id": "fr:ais:cb_e2cd8f20b7be45b6a9f44ca27eaa4c53:2023",
-      "period": {
-        "period_start": "2023-01-01",
-        "period_end": "2023-12-31",
-        "period_length_days": 365,
-        "label": "01/01/2023 to 31/12/2023",
-        "is_transitional_or_nonstandard": false
-      },
-      "reporting_scope": "subject",
-      "reporting_subject_causebase_id": "cb_e2cd8f20b7be45b6a9f44ca27eaa4c53",
-      "covered_subjects": [
-        "cb_e2cd8f20b7be45b6a9f44ca27eaa4c53"
-      ],
-      "consolidated": "false",
-      "attribution_method": "direct_subject_report",
-      "evidence_ids": [
-        "ev:ais:15969822381:2023"
-      ],
-      "revenue": {
-        "source_amount": "738678",
-        "source_currency": "AUD",
-        "source_unit_scale": "1",
-        "normalised_amount": "738678",
-        "normalised_currency": "AUD",
-        "source_unit_label": null,
-        "source_raw_value": "738678",
-        "source_precision": null
-      },
-      "donations": null,
-      "government_grants": null,
-      "employee_costs": null,
-      "total_expenses": {
-        "source_amount": "712354",
-        "source_currency": "AUD",
-        "source_unit_scale": "1",
-        "normalised_amount": "712354",
-        "normalised_currency": "AUD",
-        "source_unit_label": null,
-        "source_raw_value": "712354",
-        "source_precision": null
-      },
-      "assets": null,
-      "liabilities": null,
-      "net_assets": null,
-      "income_breakdown": [],
-      "expense_breakdown": [],
-      "balance_sheet_breakdown": [],
-      "source_ordered_line_items": [],
-      "statements": [],
-      "donations_gifts_bequests": null,
-      "functional_expense_allocations": []
-    }
-  ],
-  "financial_metrics": [
-    {
-      "metric": "revenue",
-      "observations": [
-        {
-          "financial_record_id": "fr:ais:cb_e2cd8f20b7be45b6a9f44ca27eaa4c53:2023",
-          "amount": {
-            "source_amount": "738678",
-            "source_currency": "AUD",
-            "source_unit_scale": "1",
-            "normalised_amount": "738678",
-            "normalised_currency": "AUD",
-            "source_unit_label": null,
-            "source_raw_value": "738678",
-            "source_precision": null
-          },
-          "metric_source_label": null,
-          "evidence_ids": [
-            "ev:ais:15969822381:2023"
-          ]
-        }
-      ],
-      "reconciliation_status": "single_observation",
-      "reconciliation_notes": null
-    },
-    {
-      "metric": "total_expenses",
-      "observations": [
-        {
-          "financial_record_id": "fr:ais:cb_e2cd8f20b7be45b6a9f44ca27eaa4c53:2023",
-          "amount": {
-            "source_amount": "712354",
-            "source_currency": "AUD",
-            "source_unit_scale": "1",
-            "normalised_amount": "712354",
-            "normalised_currency": "AUD",
-            "source_unit_label": null,
-            "source_raw_value": "712354",
-            "source_precision": null
-          },
-          "metric_source_label": null,
-          "evidence_ids": [
-            "ev:ais:15969822381:2023"
-          ]
-        }
-      ],
-      "reconciliation_status": "single_observation",
-      "reconciliation_notes": null
-    }
-  ],
-  "fundraising_expenditure": null,
-  "funding_sources": [],
-  "fundraising_methods": [],
-  "classifications": [
-    {
-      "taxonomy_id": "acnc-register",
-      "taxonomy_version": "2026-08-10",
-      "term_id": "purpose.education",
-      "term_label": "education",
-      "assignment_method": "source_native",
-      "confidence": "high",
-      "evidence_ids": [
-        "ev:acnc:15969822381"
-      ]
-    },
-    {
-      "taxonomy_id": "acnc-register",
-      "taxonomy_version": "2026-08-10",
-      "term_id": "beneficiary.other_beneficiary",
-      "term_label": "other beneficiary",
-      "assignment_method": "source_native",
-      "confidence": "high",
-      "evidence_ids": [
-        "ev:acnc:15969822381"
-      ]
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "activity.direct_service",
-      "term_label": "Direct service delivery",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "organisation.local",
-      "term_label": "Local organisation",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "geography.australia",
-      "term_label": "Australia",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "geography.local_or_regional",
-      "term_label": "Local or regional Australia",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
+      "review_status": "not_required",
+      "conflicting_signals": []
     }
   ],
   "evidence": [
     {
       "evidence_id": "ev:acnc:15969822381",
-      "source_type": "regulatory",
-      "title": "ACNC Register extract",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": null,
-      "observed_at": "2026-08-10",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "title": "ACNC Register extract"
     },
     {
       "evidence_id": "ev:ais:15969822381:2023",
-      "source_type": "regulatory",
-      "title": "ACNC AIS 2023 extract",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": null,
-      "observed_at": "2026-08-10",
-      "reporting_period": "01/01/2023 to 31/12/2023",
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "title": "ACNC AIS 2023 extract"
     },
     {
       "evidence_id": "ev:acnc:ais:15969822381:0efba02c-6966-f111-a826-6045bde523ce",
-      "source_type": "regulatory",
       "title": "ACNC Annual Information Statement 2025",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": "https://www.acnc.gov.au/charity/charities/e2b4c3a1-38af-e811-a961-000d3ad24182/documents/0efba02c-6966-f111-a826-6045bde523ce",
-      "observed_at": "2026-06-12",
-      "reporting_period": "2025",
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://www.acnc.gov.au/charity/charities/e2b4c3a1-38af-e811-a961-000d3ad24182/documents/0efba02c-6966-f111-a826-6045bde523ce"
     }
   ],
-  "embedding": {
-    "embedding_id": "cb_e2cd8f20b7be45b6a9f44ca27eaa4c53:entity:text-embedding-3-small",
-    "embedding_type": "entity",
-    "model_id": "text-embedding-3-small",
-    "model_version": "text-embedding-3-small",
-    "dimensions": 1536,
-    "source_text_hash": "8eca6aeb9dab8c055ede716886bf5259c86036d26d7a5c161297e59b57653ebc",
-    "generated_at": "2026-08-10T13:53:24.457656Z",
-    "vector_ref": "embeddings.parquet#cb_e2cd8f20b7be45b6a9f44ca27eaa4c53"
+  "summary": {
+    "derivative_id": "der:rc4:cb_e2cd8f20b7be45b6a9f44ca27eaa4c53:summary",
+    "text": "Ananda Marga Pracaraka Samgha Ltd Preschool is a registered charity that operates a preschool in Fitzroy North, Victoria. In the 2023 reporting period the organisation provided preschool services (early childhood care and education) to children attending its program. The entity is recorded on the Australian Charities and Not-for-profits Commission register and submitted the 2023 Annual Information Statement. CauseBase identifies the organisation\u2019s concrete work as delivering early childhood care and education at its Fitzroy North location; the available records do not provide detailed information about program scope, age ranges beyond \u2018children\u2019, or participation arrangements in this release."
   },
-  "synthesis": {
-    "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
-    "parameters": {
-      "max_output_tokens": 3000,
-      "structured_output": true,
-      "output_contract": "causebase-summary-v0.3-rc2"
-    },
-    "evidence_input_hash": "b34c10eec6049e461eb8e8c0921caa60446dafb9a6a666105b63bfcf03edd3d6",
-    "generated_at": "2026-08-12T14:10:53.189478Z",
-    "editorial_policy_version": "0.3-rc2"
-  },
-  "derivative_assessments": [
+  "activities": [],
+  "beneficiaries": [],
+  "descriptive_geography": [],
+  "navigation_geography": [],
+  "funding_sources": [],
+  "fundraising_methods": [],
+  "participation": [],
+  "opportunities": [],
+  "programs": [
     {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T14:10:53.189478Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-13T13:54:42.956606Z",
-      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
-      "input_hash": "b34c10eec6049e461eb8e8c0921caa60446dafb9a6a666105b63bfcf03edd3d6",
-      "disposition": "reused",
-      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
-      "affected_dimensions": [
-        "summary"
-      ]
+      "observation_id": "obs:rc4:cb_e2cd8f20b7be45b6a9f44ca27eaa4c53:program:prg:acnc:15969822381:2bfba02c-6966-f111-a826-6045bde523ce",
+      "program_id": "prg:acnc:15969822381:2bfba02c-6966-f111-a826-6045bde523ce",
+      "name": "Neo-humanist Education",
+      "description": "Early childhood education",
+      "url": "https://www.acnc.gov.au/charity/charities/e2b4c3a1-38af-e811-a961-000d3ad24182/documents/0efba02c-6966-f111-a826-6045bde523ce",
+      "status": "current",
+      "claim_basis": "direct",
+      "extraction_method": "api",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:ais:15969822381:0efba02c-6966-f111-a826-6045bde523ce"
+      ],
+      "time": {
+        "reporting_period": {
+          "label": "2025"
+        }
+      },
+      "warnings": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-14-rc4-fundraising-projection-correction",
-  "card_schema_version": "0.4",
-  "editorial_policy_version": "0.4-rc4",
-  "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T13:54:42.956606Z"
+  "relationships": [],
+  "classifications": [
+    {
+      "observation_id": "obs:rc4:cb_e2cd8f20b7be45b6a9f44ca27eaa4c53:classification:0",
+      "classification_id": "cls:rc4:cb_e2cd8f20b7be45b6a9f44ca27eaa4c53:0",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "purpose.education",
+      "term_label": "education",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:15969822381"
+      ],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_e2cd8f20b7be45b6a9f44ca27eaa4c53:classification:1",
+      "classification_id": "cls:rc4:cb_e2cd8f20b7be45b6a9f44ca27eaa4c53:1",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "beneficiary.other_beneficiary",
+      "term_label": "other beneficiary",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:15969822381"
+      ],
+      "confidence": "high",
+      "warnings": []
+    }
+  ],
+  "coverage": {
+    "registry_id": "capability-registry-0.5-initial",
+    "current": [
+      {
+        "capability": "regulatory.acnc_profile",
+        "status": "observed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:acnc:15969822381"
+        ]
+      },
+      {
+        "capability": "regulatory.ais",
+        "status": "observed",
+        "assessed_at": "2026-06-12",
+        "source_record_ids": [
+          "src:acnc-ais-detail:15969822381:0efba02c-6966-f111-a826-6045bde523ce:cb_e2cd8f20b7be45b6a9f44ca27eaa4c53"
+        ],
+        "evidence_ids": [
+          "ev:acnc:ais:15969822381:0efba02c-6966-f111-a826-6045bde523ce"
+        ]
+      },
+      {
+        "capability": "tax.dgr",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "web.website",
+        "status": "observed",
+        "assessed_at": "2026-08-13",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "report.annual_report",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "financial.report",
+        "status": "unknown",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:ais:15969822381:2023"
+        ]
+      },
+      {
+        "capability": "financial.statements",
+        "status": "unknown",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:ais:15969822381:2023"
+        ]
+      },
+      {
+        "capability": "understanding.activities",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.beneficiaries",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.geography",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "programs",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "participation",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "funding.sources",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.methods",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.expenditure",
+        "status": "not_available_from_source",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "taxonomy.causebase",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "semantic.embedding",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      }
+    ]
+  },
+  "financial_reports": [],
+  "canonical_metrics": [],
+  "analytic_projections": [],
+  "derivatives": [
+    {
+      "derivative_id": "der:rc4:cb_e2cd8f20b7be45b6a9f44ca27eaa4c53:summary",
+      "kind": "summary",
+      "input_observation_ids": [],
+      "evidence_ids": [
+        "ev:acnc:15969822381",
+        "ev:ais:15969822381:2023"
+      ],
+      "generated_under": {
+        "output_contract_version": "phase2b-rc4-accepted-rc2-summary-reuse",
+        "input_hash": "b34c10eec6049e461eb8e8c0921caa60446dafb9a6a666105b63bfcf03edd3d6",
+        "generated_at": "2026-08-12T14:10:53.189478Z"
+      },
+      "current_assessment": {
+        "assessed_at": "2026-08-13T13:54:42.956606Z",
+        "assessed_against_contract": "0.5",
+        "governing_input_hash": "b34c10eec6049e461eb8e8c0921caa60446dafb9a6a666105b63bfcf03edd3d6",
+        "disposition": "reused",
+        "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs."
+      }
+    }
+  ],
+  "legacy_unbound": {
+    "origin_release": "rc4-2026-08-14",
+    "origin_card_sha256": "fe4d6c8f49b138a0d50501c86afc61ba3148fdd1adf5099b942f50b9b10d1465",
+    "activities": [
+      {
+        "value": "Preschool services (early childhood care and education)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Reporting to ACNC (registered charity)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "beneficiaries": [
+      {
+        "value": "Children using preschool services",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "descriptive_geography": [
+      {
+        "value": "Fitzroy North, Victoria, Australia",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "classifications": [
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "activity.direct_service",
+        "term_label": "Direct service delivery",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "organisation.local",
+        "term_label": "Local organisation",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "geography.australia",
+        "term_label": "Australia",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "geography.local_or_regional",
+        "term_label": "Local or regional Australia",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      }
+    ],
+    "financial_records": [
+      {
+        "financial_record_id": "fr:ais:cb_e2cd8f20b7be45b6a9f44ca27eaa4c53:2023",
+        "period": {
+          "period_start": "2023-01-01",
+          "period_end": "2023-12-31",
+          "period_length_days": 365,
+          "label": "01/01/2023 to 31/12/2023",
+          "is_transitional_or_nonstandard": false
+        },
+        "reporting_scope": "subject",
+        "reporting_subject_causebase_id": "cb_e2cd8f20b7be45b6a9f44ca27eaa4c53",
+        "covered_subjects": [
+          "cb_e2cd8f20b7be45b6a9f44ca27eaa4c53"
+        ],
+        "consolidated": "false",
+        "attribution_method": "direct_subject_report",
+        "evidence_ids": [
+          "ev:ais:15969822381:2023"
+        ],
+        "revenue": {
+          "source_amount": "738678",
+          "source_currency": "AUD",
+          "source_unit_scale": "1",
+          "normalised_amount": "738678",
+          "normalised_currency": "AUD",
+          "source_unit_label": null,
+          "source_raw_value": "738678",
+          "source_precision": null
+        },
+        "donations": null,
+        "government_grants": null,
+        "employee_costs": null,
+        "total_expenses": {
+          "source_amount": "712354",
+          "source_currency": "AUD",
+          "source_unit_scale": "1",
+          "normalised_amount": "712354",
+          "normalised_currency": "AUD",
+          "source_unit_label": null,
+          "source_raw_value": "712354",
+          "source_precision": null
+        },
+        "assets": null,
+        "liabilities": null,
+        "net_assets": null,
+        "income_breakdown": [],
+        "expense_breakdown": [],
+        "balance_sheet_breakdown": [],
+        "source_ordered_line_items": [],
+        "statements": [],
+        "donations_gifts_bequests": null,
+        "functional_expense_allocations": []
+      }
+    ]
+  }
 }

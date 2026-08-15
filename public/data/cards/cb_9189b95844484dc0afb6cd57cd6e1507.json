@@ -1,1263 +1,358 @@
 {
   "causebase_id": "cb_9189b95844484dc0afb6cd57cd6e1507",
+  "contract_version": "0.5",
   "subject_kind": "unknown",
-  "external_identifiers": [
-    {
-      "scheme": "abn",
-      "value": "15602302867",
-      "source_evidence_id": "ev:acnc:15602302867"
-    }
+  "identity": {
+    "legal_name": "Access Church Limited",
+    "display_name": "Access Church Limited",
+    "operating_names": [
+      "Kingdom Culture Church"
+    ],
+    "former_names": [],
+    "entity_status": "registered",
+    "website": null,
+    "external_identifiers": [
+      {
+        "scheme": "abn",
+        "value": "15602302867",
+        "evidence_ids": [
+          "ev:acnc:15602302867"
+        ]
+      }
+    ],
+    "registrations": [
+      {
+        "regulator": "ACNC",
+        "status": "registered",
+        "evidence_ids": [
+          "ev:acnc:15602302867"
+        ]
+      }
+    ],
+    "tax_statuses": []
+  },
+  "release": {
+    "release_id": "v0.5.0-2026-08-15",
+    "dataset_version": "0.5.0-2026-08-15",
+    "contract_version": "0.5",
+    "based_on_release": "rc4-2026-08-14",
+    "generated_at": "2026-08-15T00:00:00Z"
+  },
+  "source_record_refs": [
+    "src:acnc-public-profile:15602302867:a5d2a650-3aaf-e811-a961-000d3ad24182:cb_9189b95844484dc0afb6cd57cd6e1507",
+    "src:acnc-ais-detail:15602302867:c5454adb-ae13-f111-8407-6045bde523ce:cb_9189b95844484dc0afb6cd57cd6e1507"
   ],
-  "registrations": [
-    {
-      "regulator": "ACNC",
-      "registration_id": null,
-      "status": "registered",
-      "evidence_ids": [
-        "ev:acnc:15602302867"
-      ]
-    }
-  ],
-  "tax_statuses": [],
-  "relationships": [],
-  "source_resolutions": [
+  "source_bindings": [
     {
       "source_record_id": "src:acnc-register:78345d15-c83a-5c11-a0c4-9b92907e4889",
       "resolution_status": "resolved",
       "resolution_basis": "automated authoritative ACNC promotion under acnc-authoritative-v1",
       "confidence": "high",
-      "supporting_signals": [
-        "ABN:15602302867",
-        "ACNC Register"
-      ],
-      "conflicting_signals": [],
-      "review_status": "not_required"
-    }
-  ],
-  "legal_name": "Access Church Limited",
-  "display_name": "Access Church Limited",
-  "entity_status": "registered",
-  "canonical_url": "https://gregorycwhill.github.io/CauseBase-Viewer/#cb_9189b95844484dc0afb6cd57cd6e1507",
-  "acnc_profile_url": "https://www.acnc.gov.au/charity/charities/a5d2a650-3aaf-e811-a961-000d3ad24182/profile",
-  "acnc_ais_url": "https://www.acnc.gov.au/charity/charities/a5d2a650-3aaf-e811-a961-000d3ad24182/documents/c5454adb-ae13-f111-8407-6045bde523ce",
-  "operating_names": [
-    "Kingdom Culture Church"
-  ],
-  "former_names": [],
-  "principal_location": "Australia",
-  "coverage": [
-    {
-      "capability": "regulatory",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:acnc:15602302867"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "annual_report",
-      "status": "not_yet_processed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "website",
-      "status": "not_available_from_source",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "fundraising_expenditure",
-      "status": "not_available_from_source",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": "No direct or defensible derived fundraising expenditure was found in selected Phase 2A evidence."
-    },
-    {
-      "capability": "financials",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:ais:15602302867:2023"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "latest_acnc_ais",
-      "status": "observed",
-      "source_record_id": "src:acnc-ais-detail:15602302867:c5454adb-ae13-f111-8407-6045bde523ce:cb_9189b95844484dc0afb6cd57cd6e1507",
-      "evidence_ids": [
-        "ev:acnc:ais:15602302867:c5454adb-ae13-f111-8407-6045bde523ce"
-      ],
-      "observed_at": "2026-02-27",
-      "freshness_note": "Latest submitted AIS detail acquired from the public ACNC entity endpoint."
-    }
-  ],
-  "enrichment_level": "enriched",
-  "website": null,
-  "geography": [],
-  "geography_observations": [],
-  "navigation_geography": [],
-  "causebase_summary": "Access Church Limited is an incorporated organisation registered with the Australian Charities and Not-for-profits Commission. CauseBase holds the ACNC register extract and the organisation’s 2023 Annual Information Statement covering 01/07/2022 to 30/06/2023. There is no website or self-description supplied in the available records, and the available filings do not describe the organisation’s programs, services or beneficiaries in descriptive terms. CauseBase does not have sufficient descriptive evidence in this release to independently identify specific activities or beneficiaries.",
-  "summary_evidence_ids": [
-    "ev:acnc:15602302867",
-    "ev:ais:15602302867:2023"
-  ],
-  "organisation_self_description": null,
-  "activities": [],
-  "activity_observations": [],
-  "beneficiaries": [],
-  "beneficiary_observations": [],
-  "participation_modes": [],
-  "participation_observations": [],
-  "opportunities": [],
-  "programs": [
-    {
-      "program_id": "prg:acnc:15602302867:eb454adb-ae13-f111-8407-6045bde523ce",
-      "name": "Religious / Humanitarian Activities",
-      "description": "Christianity",
-      "beneficiaries": [
-        "Families",
-        "People from a culturally and linguistically diverse background",
-        "People in rural/regional/remote communities",
-        "Financially disadvantaged people",
-        "Overseas communities or charities"
-      ],
-      "geography": [
-        "Burpengary QLD, Australia"
-      ],
-      "status": "current",
-      "reporting_period": "2025",
-      "source_url": "https://www.acnc.gov.au/charity/charities/a5d2a650-3aaf-e811-a961-000d3ad24182/documents/c5454adb-ae13-f111-8407-6045bde523ce",
-      "evidence_ids": [
-        "ev:acnc:ais:15602302867:c5454adb-ae13-f111-8407-6045bde523ce"
-      ]
-    }
-  ],
-  "source_native_records": [
-    {
-      "source_record_id": "src:acnc-public-profile:15602302867:a5d2a650-3aaf-e811-a961-000d3ad24182:cb_9189b95844484dc0afb6cd57cd6e1507",
-      "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-14-public-api",
-      "source_url": "https://www.acnc.gov.au/charity/charities/a5d2a650-3aaf-e811-a961-000d3ad24182/profile",
-      "retrieved_at": "2026-08-13T13:54:42.956606Z",
-      "observed_at": "2026-02-27",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "uuid": "a5d2a650-3aaf-e811-a961-000d3ad24182",
-        "abn": "15602302867"
-      },
-      "source_payload": {
-        "data": {
-          "AFSEmail": "accesschurch.int@gmail.com",
-          "Abn": "15602302867",
-          "AddressCountry": null,
-          "AddressLine1": null,
-          "AddressLine2": null,
-          "AddressLine3": null,
-          "AddressPostalCode": null,
-          "AddressStateOrProvince": null,
-          "AddressSuburb": null,
-          "AnnualReports": [
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required - small",
-              "Year": "2019",
-              "type": "Financial Report 2019",
-              "uuid": "00216bed-1f25-e911-a976-000d3ad05e15"
-            },
-            {
-              "AISId": "d41a2337-8f16-ec11-b6e5-000d3ad2b8a1",
-              "DateReceived": "2021-09-16T01:41:41.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2020-01-31T00:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2019",
-              "type": "Annual Information Statement 2019",
-              "uuid": "35216bed-1f25-e911-a976-000d3ad05e15"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required - small",
-              "Year": "2020",
-              "type": "Financial Report 2020",
-              "uuid": "6d216bed-1f25-e911-a976-000d3ad05e15"
-            },
-            {
-              "AISId": "2627df70-6317-ec11-b6e5-000d3a6a7e59",
-              "DateReceived": "2021-09-17T03:00:50.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2021-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2020",
-              "type": "Annual Information Statement 2020",
-              "uuid": "95216bed-1f25-e911-a976-000d3ad05e15"
-            },
-            {
-              "AISId": "f656985a-6817-ec11-b6e5-000d3a6a7e59",
-              "DateReceived": "2021-09-17T03:36:05.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2022-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2021",
-              "type": "Annual Information Statement 2021",
-              "uuid": "aaa1f7ab-8d44-ea11-a813-000d3ad1f497"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required - small",
-              "Year": "2021",
-              "type": "Financial Report 2021",
-              "uuid": "f5a1f7ab-8d44-ea11-a813-000d3ad1f497"
-            },
-            {
-              "AISId": "3deee306-3e91-ed11-aad1-002248933c76",
-              "DateReceived": "2023-01-10T23:25:20.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2023-01-31T00:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2022",
-              "type": "Annual Information Statement 2022",
-              "uuid": "9ce8b019-d063-eb11-b0b0-000d3ad1f9f4"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required - small",
-              "Year": "2022",
-              "type": "Financial Report 2022",
-              "uuid": "afe8b019-d063-eb11-b0b0-000d3ad1f9f4"
-            },
-            {
-              "AISId": "ddca9696-52c8-e811-a962-000d3ad24182",
-              "DateReceived": "2016-01-17T13:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2016-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2015",
-              "type": "Annual Information Statement 2015",
-              "uuid": "354e9c99-52c8-e811-a961-000d3ad24282"
-            },
-            {
-              "AISId": "e9ca9696-52c8-e811-a962-000d3ad24182",
-              "DateReceived": "2017-01-22T13:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2017-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2016",
-              "type": "Annual Information Statement 2016",
-              "uuid": "3f4e9c99-52c8-e811-a961-000d3ad24282"
-            },
-            {
-              "AISId": "f1ca9696-52c8-e811-a962-000d3ad24182",
-              "DateReceived": "2018-01-31T13:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2018-02-06T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2017",
-              "type": "Annual Information Statement 2017",
-              "uuid": "444e9c99-52c8-e811-a961-000d3ad24282"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": true,
-              "Status": "Not required",
-              "Year": "2013",
-              "type": "Annual Information Statement 2013",
-              "uuid": "9582d091-3bc8-e811-a963-000d3ad24a0d"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": true,
-              "Status": "Not required",
-              "Year": "2014",
-              "type": "Annual Information Statement 2014",
-              "uuid": "a482d091-3bc8-e811-a963-000d3ad24a0d"
-            },
-            {
-              "AISId": "327d0ae5-ca60-e911-a97c-000d3ad0574c",
-              "DateReceived": "2019-04-17T04:40:18.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2019-04-06T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2018",
-              "type": "Annual Information Statement 2018",
-              "uuid": "b282d091-3bc8-e811-a963-000d3ad24a0d"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required",
-              "Year": "2014",
-              "type": "Financial Report 2014",
-              "uuid": "543bb8a0-40c8-e811-a963-000d3ad24a0d"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required",
-              "Year": "2013",
-              "type": "Financial Report 2013",
-              "uuid": "6d3bb8a0-40c8-e811-a963-000d3ad24a0d"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2019-04-17T04:40:15.0000000Z",
-              "DocumentUuid": "a8c4b9dc-ca60-e911-a970-000d3ad24182",
-              "DueDate": "2019-04-06T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2018",
-              "type": "Financial Report 2018",
-              "uuid": "7f3bb8a0-40c8-e811-a963-000d3ad24a0d"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2017-01-22T13:00:00.0000000Z",
-              "DocumentUuid": "b83dded7-4fb0-e811-a961-000d3ad24182",
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2016",
-              "type": "Financial Report 2016",
-              "uuid": "953bb8a0-40c8-e811-a963-000d3ad24a0d"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2018-01-31T13:00:00.0000000Z",
-              "DocumentUuid": "a33eded7-4fb0-e811-a961-000d3ad24182",
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2017",
-              "type": "Financial Report 2017",
-              "uuid": "ac3bb8a0-40c8-e811-a963-000d3ad24a0d"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2016-01-17T13:00:00.0000000Z",
-              "DocumentUuid": "e25e1cd8-4fb0-e811-a95e-000d3ad24c60",
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2015",
-              "type": "Financial Report 2015",
-              "uuid": "cd3bb8a0-40c8-e811-a963-000d3ad24a0d"
-            },
-            {
-              "AISId": "b0622b08-b8ed-ef11-be20-00224896a8b6",
-              "DateReceived": "2025-02-18T05:20:24.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2024-01-31T00:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2023",
-              "type": "Annual Information Statement 2023",
-              "uuid": "05a2f13e-a182-ec11-8d20-002248929158"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required - small",
-              "Year": "2023",
-              "type": "Financial Report 2023",
-              "uuid": "16a2f13e-a182-ec11-8d20-002248929158"
-            },
-            {
-              "AISId": "c5454adb-ae13-f111-8407-6045bde523ce",
-              "DateReceived": "2026-02-27T07:35:27.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2026-01-31T00:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2025",
-              "type": "Annual Information Statement 2025",
-              "uuid": "5c4a8548-9bc0-ee11-907a-00224893b8c7"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required - small",
-              "Year": "2025",
-              "type": "Financial Report 2025",
-              "uuid": "b74a8548-9bc0-ee11-907a-00224893b8c7"
-            },
-            {
-              "AISId": "2c677691-1df0-ef11-be1f-7c1e528a1a75",
-              "DateReceived": "2025-02-21T06:32:13.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2025-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2024",
-              "type": "Annual Information Statement 2024",
-              "uuid": "bcaeff8c-c7a1-ed11-aad1-00224893bffb"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required - small",
-              "Year": "2024",
-              "type": "Financial Report 2024",
-              "uuid": "d4aeff8c-c7a1-ed11-aad1-00224893bffb"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2027-12-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Not yet submitted",
-              "Year": "2027",
-              "type": "Annual Information Statement 2027",
-              "uuid": "cbebc809-05ff-f011-8406-6045bdc3b801"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2027-12-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Pending",
-              "Year": "2027",
-              "type": "Financial Report 2027",
-              "uuid": "eeebc809-05ff-f011-8406-6045bdc3b801"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2026-12-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Not yet submitted",
-              "Year": "2026",
-              "type": "Annual Information Statement 2026",
-              "uuid": "c0e056cb-dbdf-ef11-a731-6045bde5a05c"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2026-12-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Pending",
-              "Year": "2026",
-              "type": "Financial Report 2026",
-              "uuid": "d7e056cb-dbdf-ef11-a731-6045bde5a05c"
-            }
-          ],
-          "Beneficiaries": [
-            {
-              "Description": null,
-              "Name": "People in rural/regional/remote communities",
-              "uuid": "0a464adb-ae13-f111-8407-6045bde523ce"
-            },
-            {
-              "Description": null,
-              "Name": "People from a culturally and linguistically diverse background",
-              "uuid": "19464adb-ae13-f111-8407-6045bde523ce"
-            },
-            {
-              "Description": null,
-              "Name": "Overseas communities or charities",
-              "uuid": "25464adb-ae13-f111-8407-6045bde523ce"
-            },
-            {
-              "Description": null,
-              "Name": "Financially disadvantaged people",
-              "uuid": "2b464adb-ae13-f111-8407-6045bde523ce"
-            },
-            {
-              "Description": null,
-              "Name": "Families",
-              "uuid": "32464adb-ae13-f111-8407-6045bde523ce"
-            }
-          ],
-          "CharitySize": "Small",
-          "CharitySubtypeHistory": [
-            {
-              "EndDate": null,
-              "Purpose": "Advancing social or public welfare",
-              "StartDate": "2014-12-31T13:00:00.0000000Z",
-              "uuid": "7756d7b0-fec6-e811-a961-000d3ad24282"
-            },
-            {
-              "EndDate": null,
-              "Purpose": "Advancing religion",
-              "StartDate": "2014-12-31T13:00:00.0000000Z",
-              "uuid": "9656d7b0-fec6-e811-a961-000d3ad24282"
-            }
-          ],
-          "CharityVersion": "141",
-          "ChildMemberEndDate": null,
-          "ChildMemberStartDate": null,
-          "ChooseToProvideAis": null,
-          "Countries": [
-            {
-              "Name": "Australia",
-              "uuid": "f57b5602-9a4d-e811-a951-000d3ad06f2d"
-            },
-            {
-              "Name": "Zambia",
-              "uuid": "6b7d5602-9a4d-e811-a951-000d3ad06f2d"
-            },
-            {
-              "Name": "Zimbabwe",
-              "uuid": "6d7d5602-9a4d-e811-a951-000d3ad06f2d"
-            }
-          ],
-          "DateEstablished": "2014-10-12T13:00:00.0000000Z",
-          "Documents": [
-            {
-              "Date": "2015-01-21T00:00:00.0000000",
-              "Title": "Access Church LTD.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/a5d2a650-3aaf-e811-a961-000d3ad24182-e330da7a-92d2-4119-b412-e775f2c0fdf7-Governing%20Document-da599ed6-4fb0-e811-a962-000d3ad24a0d-Access_Church_LTD.pdf",
-              "Year": null,
-              "type": "Governing Document",
-              "uuid": "da599ed6-4fb0-e811-a962-000d3ad24a0d"
-            },
-            {
-              "Date": "2019-04-17T00:00:00.0000000",
-              "Title": "Directors Report  Access Church 2018.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/a5d2a650-3aaf-e811-a961-000d3ad24182-e330da7a-92d2-4119-b412-e775f2c0fdf7-Annual%20Report-9dc4b9dc-ca60-e911-a970-000d3ad24182-Directors_Report__Access_Church_2018.pdf",
-              "Year": "2018",
-              "type": "Annual Report",
-              "uuid": "9dc4b9dc-ca60-e911-a970-000d3ad24182"
-            },
-            {
-              "Date": "2017-01-23T00:00:00.0000000",
-              "Title": "Access Church Ltd 2016 - Completed Financial Statements.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/a5d2a650-3aaf-e811-a961-000d3ad24182-e330da7a-92d2-4119-b412-e775f2c0fdf7-Financial%20Report-b83dded7-4fb0-e811-a961-000d3ad24182-Access_Church_Ltd_2016_-_Completed_Financial_Statements.pdf",
-              "Year": "2016",
-              "type": "Financial Report",
-              "uuid": "b83dded7-4fb0-e811-a961-000d3ad24182"
-            },
-            {
-              "Date": "2018-02-01T00:00:00.0000000",
-              "Title": "Audit Financial Report 2017 .pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/a5d2a650-3aaf-e811-a961-000d3ad24182-e330da7a-92d2-4119-b412-e775f2c0fdf7-Financial%20Report-a33eded7-4fb0-e811-a961-000d3ad24182-Audit_Financial_Report_2017_.pdf",
-              "Year": "2017",
-              "type": "Financial Report",
-              "uuid": "a33eded7-4fb0-e811-a961-000d3ad24182"
-            },
-            {
-              "Date": "2019-04-17T00:00:00.0000000",
-              "Title": "DRaft Audit Report 2018 ACCESS CHURCH FIN REPT-001.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/a5d2a650-3aaf-e811-a961-000d3ad24182-e330da7a-92d2-4119-b412-e775f2c0fdf7-Financial%20Report-a8c4b9dc-ca60-e911-a970-000d3ad24182-DRaft_Audit_Report_2018_ACCESS_CHURCH_FIN_REPT-001.pdf",
-              "Year": "2018",
-              "type": "Financial Report",
-              "uuid": "a8c4b9dc-ca60-e911-a970-000d3ad24182"
-            },
-            {
-              "Date": "2016-01-18T00:00:00.0000000",
-              "Title": "Access Church Ltd 2015 - Draft Financial Statements.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/a5d2a650-3aaf-e811-a961-000d3ad24182-e330da7a-92d2-4119-b412-e775f2c0fdf7-Financial%20Report-e25e1cd8-4fb0-e811-a95e-000d3ad24c60-Access_Church_Ltd_2015_-_Draft_Financial_Statements.pdf",
-              "Year": "2015",
-              "type": "Financial Report",
-              "uuid": "e25e1cd8-4fb0-e811-a95e-000d3ad24c60"
-            }
-          ],
-          "Email": "mfargnol@bigpond.net.au",
-          "EnforcementOutcomes": [],
-          "FinancialYearEnd": "30/06",
-          "GovernmentAgencies": [
-            {
-              "Name": "Australian Securities and Investment Commission",
-              "ReferenceNumber": "602302867",
-              "uuid": "e4e590be-e6af-e811-a95e-000d3ad24c60"
-            }
-          ],
-          "GroupHeadFlag": false,
-          "LastReported": "2026-02-27T07:35:27.0000000Z",
-          "Name": "Access Church Limited",
-          "NextReportDue": "2026-12-31T12:30:00.0000000Z",
-          "OperatingInStates": [
-            {
-              "Name": "Queensland",
-              "uuid": "2cf593a5-455e-e811-a95c-000d3ad1c715"
-            }
-          ],
-          "OtherDetails": null,
-          "OtherNames": [
-            {
-              "Name": "Kingdom Culture Church",
-              "uuid": "32e73156-6b64-ef11-a4e6-6045bdc3bf82"
-            }
-          ],
-          "ParentAccountAbn": null,
-          "ParentAccountId": null,
-          "Phone": "0407693608",
-          "Programs": [
-            {
-              "AisUuid": "c5454adb-ae13-f111-8407-6045bde523ce",
-              "Name": "Religious / Humanitarian Activities",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Families",
-                "People from a culturally and linguistically diverse background",
-                "People in rural/regional/remote communities",
-                "Financially disadvantaged people",
-                "Overseas communities or charities"
-              ],
-              "ProgramClassie": [
-                {
-                  "classie_id": "741",
-                  "label": "Christianity",
-                  "parent_id": "738",
-                  "selected": true
-                },
-                {
-                  "classie_id": "738",
-                  "label": "Religion and faith-based spirituality",
-                  "parent_id": null,
-                  "selected": false
-                }
-              ],
-              "ProgramClassification": "Christianity",
-              "ProgramClassificationID": "741",
-              "ProgramCountries": [
-                "Zambia",
-                "Zimbabwe"
-              ],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "Burpengary QLD, Australia",
-                  "FormattedAddress": "Burpengary QLD 4505, Australia",
-                  "Marker": {
-                    "Latitude": -27.1615373,
-                    "Longitude": 152.958072
-                  },
-                  "Name": "Burpengary",
-                  "uuid": "f5454adb-ae13-f111-8407-6045bde523ce"
-                }
-              ],
-              "ProgramWeblink": null,
-              "uuid": "eb454adb-ae13-f111-8407-6045bde523ce"
-            }
-          ],
-          "ReferendumReturnsUrl": null,
-          "RegistrationStatusHistory": [
-            {
-              "EffectiveDate": "2014-12-31T13:00:00.0000000Z",
-              "Status": "Registered",
-              "TransactionDate": "2015-02-11T13:00:00.0000000Z",
-              "uuid": "be7797f8-06c6-e811-a964-000d3ad24077"
-            }
-          ],
-          "RelatedPartyTransactions": null,
-          "RelevantTransactions": null,
-          "ReportingLate": "2027-06-30T12:30:00.0000000Z",
-          "ResponsiblePersons": [
-            {
-              "Name": "Andrea Fargnoli",
-              "Role": "Board Member",
-              "uuid": "a4e866bd-a8d7-ef11-a732-000d3ad0bafe"
-            },
-            {
-              "Name": "Marco Fargnoli",
-              "Role": "Director",
-              "uuid": "6ffb6969-ced6-ee11-904c-000d3acbd511"
-            },
-            {
-              "Name": "Daniel Jacob Rayner",
-              "Role": "Secretary",
-              "uuid": "10485cea-09bc-e811-a964-000d3ad244fd"
-            },
-            {
-              "Name": "Tamsanqa Ncube",
-              "Role": "Board Member",
-              "uuid": "c0622b08-b8ed-ef11-be20-00224896a8b6"
-            },
-            {
-              "Name": "Gianluca Fargnoli",
-              "Role": "Board Member",
-              "uuid": "e4622b08-b8ed-ef11-be20-00224896a8b6"
-            }
-          ],
-          "Status": "Registered",
-          "SummaryOfActivities": "Due to minimal activity the board has agreed to re structure the charity under a different corporate trustee  We are currently reviewing a new structure for Access Church & KRN",
-          "TotalExpensesEmployee": "0",
-          "TotalExpensesGrantsAndDonationsInAustralia": "0",
-          "TotalExpensesGrantsAndDonationsOutsideAustralia": "0",
-          "TotalExpensesInterest": "0",
-          "TotalExpensesOther": "0",
-          "TotalGrossIncomeDonationsAndRequests": "0",
-          "TotalGrossIncomeGoodsOrServices": "0",
-          "TotalGrossIncomeGovernmentGrants": "0",
-          "TotalGrossIncomeInvestments": "0",
-          "TotalGrossIncomeOtherRevenues": "0",
-          "TransparencyRegisterUrl": null,
-          "Website": null,
-          "__normalized": true,
-          "type": "charity",
-          "uuid": "a5d2a650-3aaf-e811-a961-000d3ad24182"
-        },
-        "type": "charity",
-        "uuid": "a5d2a650-3aaf-e811-a961-000d3ad24182"
-      },
-      "canonical_field_mappings": {
-        "data.OtherNames": "operating_names",
-        "data.AddressStateOrProvince": "principal_location"
-      },
-      "evidence_ids": []
-    },
-    {
-      "source_record_id": "src:acnc-ais-detail:15602302867:c5454adb-ae13-f111-8407-6045bde523ce:cb_9189b95844484dc0afb6cd57cd6e1507",
-      "source_family": "acnc-ais-detail",
-      "dataset_version": "2026-08-14-public-api",
-      "source_url": "https://www.acnc.gov.au/charity/charities/a5d2a650-3aaf-e811-a961-000d3ad24182/documents/c5454adb-ae13-f111-8407-6045bde523ce",
-      "retrieved_at": "2026-08-13T13:54:42.956606Z",
-      "observed_at": "2026-02-27",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "abn": "15602302867",
-        "ais_uuid": "c5454adb-ae13-f111-8407-6045bde523ce",
-        "year": "2025",
-        "date_received": "2026-02-27T07:35:27.0000000Z"
-      },
-      "source_payload": {
-        "data": {
-          "Abn": "15602302867",
-          "ActivityAdvocacyNCivic": false,
-          "ActivityAgedCare": false,
-          "ActivityAnimalProtection": false,
-          "ActivityCultureAndArt": false,
-          "ActivityEconomicSocialCommunity": false,
-          "ActivityEmergencyNRelief": false,
-          "ActivityEmploymentNTraining": false,
-          "ActivityEnvironmental": false,
-          "ActivityGrantMaking": false,
-          "ActivityHealthRehabilitation": false,
-          "ActivityHigherEducation": false,
-          "ActivityHousing": false,
-          "ActivityIncomeSupportNMaintenance": false,
-          "ActivityInternational": false,
-          "ActivityInternationalDescription": null,
-          "ActivityInternationalOther": false,
-          "ActivityInternationalOtherDescription": null,
-          "ActivityLawNLegalServices": false,
-          "ActivityMain": null,
-          "ActivityMentalHealthCrisisIntervention": false,
-          "ActivityNdisSupported": null,
-          "ActivityNdisSupportedNext": null,
-          "ActivityOperating": true,
-          "ActivityOperatingOverseas": false,
-          "ActivityOther": false,
-          "ActivityOtherDescription": null,
-          "ActivityOtherEducation": false,
-          "ActivityOtherHealthServices": false,
-          "ActivityPersuitPurposesDescription": "Due to minimal activity the board has agreed to re structure the charity under a different corporate trustee  We are currently reviewing a new structure for Access Church & KRN",
-          "ActivityPhilanthropicPromotion": false,
-          "ActivityPolitical": false,
-          "ActivityPrimarySecondaryEducation": false,
-          "ActivityPurposeChange": null,
-          "ActivityPurposeChangeDescription": null,
-          "ActivityRecreationSocialClub": false,
-          "ActivityReligious": false,
-          "ActivityResearch": false,
-          "ActivitySocialServices": false,
-          "ActivitySports": false,
-          "ActivityTransferringFundsGoods": true,
-          "AdvancementOfEducation": false,
-          "AdvancementOfReligion": false,
-          "AssetsandLiabilitiesDescription": "Due to minimal activity the board has agreed to re structure the charity under a different corporate trustee  We are currently reviewing a new structure for Access Church & KRN",
-          "BasicReligiousCharity": false,
-          "BeneficiaryAboriginalTorres": false,
-          "BeneficiaryAdults": false,
-          "BeneficiaryAllAges": false,
-          "BeneficiaryChildren": false,
-          "BeneficiaryChronicIllness": false,
-          "BeneficiaryCrimeVictims": false,
-          "BeneficiaryDisasterVictims": false,
-          "BeneficiaryEarlyChildhood": false,
-          "BeneficiaryEthnic": false,
-          "BeneficiaryFamilies": false,
-          "BeneficiaryFinanciallyDisadvantaged": false,
-          "BeneficiaryGeneral": false,
-          "BeneficiaryHomelessnessRisk": false,
-          "BeneficiaryLGBT": false,
-          "BeneficiaryMain": null,
-          "BeneficiaryMen": false,
-          "BeneficiaryMigrantsRefugees": false,
-          "BeneficiaryOffenderFamilies": false,
-          "BeneficiaryOther": false,
-          "BeneficiaryOtherCharities": false,
-          "BeneficiaryOtherDescription": null,
-          "BeneficiaryOverseas": false,
-          "BeneficiaryPeopleWithDisability": false,
-          "BeneficiaryRuralRegionalRemote": false,
-          "BeneficiarySeniors": false,
-          "BeneficiaryUnemployed": false,
-          "BeneficiaryVeteranFamilies": false,
-          "BeneficiaryWomen": false,
-          "BeneficiaryYouth": false,
-          "CharityAddressCountry": null,
-          "CharityAddressLine1": null,
-          "CharityAddressLine2": null,
-          "CharityAddressPostalCode": null,
-          "CharityAddressStateOrProvince": null,
-          "CharityAddressSuburb": null,
-          "CharityEmail": "mfargnol@bigpond.net.au",
-          "CharitySize": "Small",
-          "CharityUuid": "a5d2a650-3aaf-e811-a961-000d3ad24182",
-          "ChildCareServices": false,
-          "ExpenseEmployees": "0.0000",
-          "ExpenseGrantDonationsInAustralia": "0.0000",
-          "ExpenseGrantDonationsOutsideAustralia": "0.0000",
-          "ExpenseTotal": "0.0000",
-          "ExpensesOther": "0.0000",
-          "FinAccrualAccounting": "Cash",
-          "FinConsolidatedReportFromMiltiple": null,
-          "FinDocumentedPoliciesRelatedPartyTransactions": null,
-          "FinFyeJune": false,
-          "FinProvideVoluntarily": null,
-          "FinRelatedPartyTransactions": "No",
-          "FinReportACT": false,
-          "FinReportFrom": "2024-07-01T00:00:00.0000000Z",
-          "FinReportNSW": false,
-          "FinReportNT": false,
-          "FinReportQLD": false,
-          "FinReportSA": false,
-          "FinReportTAS": false,
-          "FinReportTo": "2025-06-30T00:00:00.0000000Z",
-          "FinReportVIC": false,
-          "FinReportWA": false,
-          "FinReportingType": null,
-          "FinSapDate": null,
-          "FundRaisingNumberACT": null,
-          "FundRaisingNumberNSW": null,
-          "FundRaisingNumberQLD": null,
-          "FundRaisingNumberSA": null,
-          "FundRaisingNumberTAS": null,
-          "FundRaisingNumberVIC": null,
-          "FundRaisingNumberWA": null,
-          "GovDocAccurate": null,
-          "GrantCapacityBuildingPct": null,
-          "GrantMultiYearPct": null,
-          "GrantPublicOpenApplicationPct": null,
-          "GrantRuralRegionPct": null,
-          "HasSubmittedToRegulator": false,
-          "HoursPaid": null,
-          "HoursTotal": null,
-          "HoursVolunteer": null,
-          "HrCasualEmployees": "0",
-          "HrFteStaff": "0.0000000000",
-          "HrFullTimeEmployees": "0",
-          "HrPartTimeEmployees": "0",
-          "HrUnpainVolunteers": "3",
-          "IncomeDonationsBequests": "0.0000",
-          "IncomeGovernmentGrants": "0.0000",
-          "IncomeOther": "0.0000",
-          "IncomeOtherComprehinsive": "0.0000",
-          "IncomeOtherNeg": null,
-          "IncomeOtherReceipts": "0.0000",
-          "IncomeTotalComprehensive": "0.0000",
-          "IncomeTotalReceipts": "0.0000",
-          "IncorporationStatus": null,
-          "InterestExpense": "0.0000",
-          "IsIncorporatedAssociation": false,
-          "KeyManagementPersonnel": false,
-          "LegalName": "Access Church Limited",
-          "NetAssetsLiabilities": "5.0000",
-          "NetSurplusDeficit": "0.0000",
-          "NonCurrentLoansPayable": "0.0000",
-          "NumberOfKeyManagementPersonnel": "0",
-          "OperatingCountries": null,
-          "OperatingInACT": false,
-          "OperatingInNSW": false,
-          "OperatingInNT": false,
-          "OperatingInQLD": false,
-          "OperatingInSA": false,
-          "OperatingInTAS": false,
-          "OperatingInVIC": false,
-          "OperatingInWA": false,
-          "OperatingOverseas": false,
-          "OtherNames": [],
-          "OtherNonCurrentAssets": "0.0000",
-          "OtherNonCurrentLiabilities": "0.0000",
-          "OtherPurposeDescription": null,
-          "OtherPurposes": "False",
-          "Programs": [
-            {
-              "AisUuid": "c5454adb-ae13-f111-8407-6045bde523ce",
-              "Name": "Religious / Humanitarian Activities",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Families",
-                "People from a culturally and linguistically diverse background",
-                "People in rural/regional/remote communities",
-                "Financially disadvantaged people",
-                "Overseas communities or charities"
-              ],
-              "ProgramClassification": "Christianity",
-              "ProgramClassificationID": "741",
-              "ProgramCountries": [
-                "Zambia",
-                "Zimbabwe"
-              ],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "Burpengary QLD, Australia",
-                  "FormattedAddress": "Burpengary QLD 4505, Australia",
-                  "Marker": {
-                    "Latitude": -27.1615373,
-                    "Longitude": 152.958072
-                  },
-                  "Name": "Burpengary",
-                  "uuid": "f5454adb-ae13-f111-8407-6045bde523ce"
-                }
-              ],
-              "ProgramWeblink": null,
-              "uuid": "eb454adb-ae13-f111-8407-6045bde523ce"
-            }
-          ],
-          "RegulatedACT": false,
-          "RegulatedNSW": false,
-          "RegulatedNT": false,
-          "RegulatedQLD": false,
-          "RegulatedSA": false,
-          "RegulatedTAS": false,
-          "RegulatedVIC": false,
-          "RegulatedWA": false,
-          "Regulator": null,
-          "RegulatorAGMDateACT": null,
-          "RegulatorAGMDateNT": null,
-          "RegulatorAGMDateVIC": null,
-          "RegulatorAGMDateWA": null,
-          "RegulatorFundRaising": "No",
-          "RegulatorFundRaisingACT": false,
-          "RegulatorFundRaisingNSW": false,
-          "RegulatorFundRaisingNT": false,
-          "RegulatorFundRaisingOnline": false,
-          "RegulatorFundRaisingQLD": false,
-          "RegulatorFundRaisingSA": false,
-          "RegulatorFundRaisingTAS": false,
-          "RegulatorFundRaisingVIC": false,
-          "RegulatorFundRaisingWA": false,
-          "RegulatorIncorporatedAssociationACT": false,
-          "RegulatorIncorporatedAssociationNSW": false,
-          "RegulatorIncorporatedAssociationNT": false,
-          "RegulatorIncorporatedAssociationNumberACT": null,
-          "RegulatorIncorporatedAssociationNumberNSW": null,
-          "RegulatorIncorporatedAssociationNumberNT": null,
-          "RegulatorIncorporatedAssociationNumberQLD": null,
-          "RegulatorIncorporatedAssociationNumberSA": null,
-          "RegulatorIncorporatedAssociationNumberTAS": null,
-          "RegulatorIncorporatedAssociationNumberVIC": null,
-          "RegulatorIncorporatedAssociationNumberWA": null,
-          "RegulatorIncorporatedAssociationQLD": false,
-          "RegulatorIncorporatedAssociationSA": false,
-          "RegulatorIncorporatedAssociationTAS": false,
-          "RegulatorIncorporatedAssociationVIC": false,
-          "RegulatorIncorporatedAssociationWA": false,
-          "RegulatorMetRequirementACT": false,
-          "RegulatorMetRequirementWA": null,
-          "RegulatorOtherDetails": null,
-          "RegulatorPrograms": null,
-          "RegulatorStates": false,
-          "RelatedPartyDetails": null,
-          "RelatedPartyTransactions": [],
-          "ReliefOfPoverty": false,
-          "ReportingGroupFlag": false,
-          "ResponsiblePersonAccurate": null,
-          "RevenueGoodsServices": "0.0000",
-          "RevenueInvestments": "0.0000",
-          "RevenueTotal": "0.0000",
-          "StatementYear": "2025",
-          "SubTypesAccurate": null,
-          "TotalAssets": "5.0000",
-          "TotalCurrentAssets": "0.0000",
-          "TotalCurrentLiabilities": "0.0000",
-          "TotalLiabilities": "0.0000",
-          "TotalNonCurrentAssets": null,
-          "TotalNonCurrentLiabilities": "0.0000",
-          "TotalNonCurrentLoansReceivable": "0.0000",
-          "TotalPaidKMP": "$0.00",
-          "Website": null,
-          "__normalized": true,
-          "entityTypeVersion": "",
-          "entityVersion": "1875268767",
-          "timeStamp": "2026-02-27T07:35:23.0000000Z",
-          "type": "annual_information_statement",
-          "uuid": "c5454adb-ae13-f111-8407-6045bde523ce"
-        },
-        "type": "annual_information_statement",
-        "uuid": "c5454adb-ae13-f111-8407-6045bde523ce"
-      },
-      "canonical_field_mappings": {
-        "data.Programs": "programs",
-        "data.TotalRevenue": "financial_records[].revenue",
-        "data.TotalExpenses": "financial_records[].total_expenses"
-      },
-      "evidence_ids": [
-        "ev:acnc:ais:15602302867:c5454adb-ae13-f111-8407-6045bde523ce"
-      ]
-    }
-  ],
-  "financial_records": [
-    {
-      "financial_record_id": "fr:ais:cb_9189b95844484dc0afb6cd57cd6e1507:2023",
-      "period": {
-        "period_start": "2022-07-01",
-        "period_end": "2023-06-30",
-        "period_length_days": 365,
-        "label": "01/07/2022 to 30/06/2023",
-        "is_transitional_or_nonstandard": false
-      },
-      "reporting_scope": "subject",
-      "reporting_subject_causebase_id": "cb_9189b95844484dc0afb6cd57cd6e1507",
-      "covered_subjects": [
-        "cb_9189b95844484dc0afb6cd57cd6e1507"
-      ],
-      "consolidated": "unknown",
-      "attribution_method": "direct_subject_report",
-      "evidence_ids": [
-        "ev:ais:15602302867:2023"
-      ],
-      "revenue": {
-        "source_amount": "0",
-        "source_currency": "AUD",
-        "source_unit_scale": "1",
-        "normalised_amount": "0",
-        "normalised_currency": "AUD",
-        "source_unit_label": null,
-        "source_raw_value": "0",
-        "source_precision": null
-      },
-      "donations": null,
-      "government_grants": null,
-      "employee_costs": null,
-      "total_expenses": {
-        "source_amount": "0",
-        "source_currency": "AUD",
-        "source_unit_scale": "1",
-        "normalised_amount": "0",
-        "normalised_currency": "AUD",
-        "source_unit_label": null,
-        "source_raw_value": "0",
-        "source_precision": null
-      },
-      "assets": null,
-      "liabilities": null,
-      "net_assets": null,
-      "income_breakdown": [],
-      "expense_breakdown": [],
-      "balance_sheet_breakdown": [],
-      "source_ordered_line_items": [],
-      "statements": [],
-      "donations_gifts_bequests": null,
-      "functional_expense_allocations": []
-    }
-  ],
-  "financial_metrics": [
-    {
-      "metric": "revenue",
-      "observations": [
-        {
-          "financial_record_id": "fr:ais:cb_9189b95844484dc0afb6cd57cd6e1507:2023",
-          "amount": {
-            "source_amount": "0",
-            "source_currency": "AUD",
-            "source_unit_scale": "1",
-            "normalised_amount": "0",
-            "normalised_currency": "AUD",
-            "source_unit_label": null,
-            "source_raw_value": "0",
-            "source_precision": null
-          },
-          "metric_source_label": null,
-          "evidence_ids": [
-            "ev:ais:15602302867:2023"
-          ]
-        }
-      ],
-      "reconciliation_status": "single_observation",
-      "reconciliation_notes": null
-    },
-    {
-      "metric": "total_expenses",
-      "observations": [
-        {
-          "financial_record_id": "fr:ais:cb_9189b95844484dc0afb6cd57cd6e1507:2023",
-          "amount": {
-            "source_amount": "0",
-            "source_currency": "AUD",
-            "source_unit_scale": "1",
-            "normalised_amount": "0",
-            "normalised_currency": "AUD",
-            "source_unit_label": null,
-            "source_raw_value": "0",
-            "source_precision": null
-          },
-          "metric_source_label": null,
-          "evidence_ids": [
-            "ev:ais:15602302867:2023"
-          ]
-        }
-      ],
-      "reconciliation_status": "single_observation",
-      "reconciliation_notes": null
-    }
-  ],
-  "fundraising_expenditure": null,
-  "funding_sources": [],
-  "fundraising_methods": [],
-  "classifications": [
-    {
-      "taxonomy_id": "acnc-register",
-      "taxonomy_version": "2026-08-10",
-      "term_id": "purpose.religion",
-      "term_label": "religion",
-      "assignment_method": "source_native",
-      "confidence": "high",
-      "evidence_ids": [
-        "ev:acnc:15602302867"
-      ]
-    },
-    {
-      "taxonomy_id": "acnc-register",
-      "taxonomy_version": "2026-08-10",
-      "term_id": "beneficiary.regional_remote",
-      "term_label": "regional remote",
-      "assignment_method": "source_native",
-      "confidence": "high",
-      "evidence_ids": [
-        "ev:acnc:15602302867"
-      ]
+      "review_status": "not_required",
+      "conflicting_signals": []
     }
   ],
   "evidence": [
     {
       "evidence_id": "ev:acnc:15602302867",
-      "source_type": "regulatory",
-      "title": "ACNC Register extract",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": null,
-      "observed_at": "2026-08-10",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "title": "ACNC Register extract"
     },
     {
       "evidence_id": "ev:ais:15602302867:2023",
-      "source_type": "regulatory",
-      "title": "ACNC AIS 2023 extract",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": null,
-      "observed_at": "2026-08-10",
-      "reporting_period": "01/07/2022 to 30/06/2023",
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "title": "ACNC AIS 2023 extract"
     },
     {
       "evidence_id": "ev:acnc:ais:15602302867:c5454adb-ae13-f111-8407-6045bde523ce",
-      "source_type": "regulatory",
       "title": "ACNC Annual Information Statement 2025",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": "https://www.acnc.gov.au/charity/charities/a5d2a650-3aaf-e811-a961-000d3ad24182/documents/c5454adb-ae13-f111-8407-6045bde523ce",
-      "observed_at": "2026-02-27",
-      "reporting_period": "2025",
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://www.acnc.gov.au/charity/charities/a5d2a650-3aaf-e811-a961-000d3ad24182/documents/c5454adb-ae13-f111-8407-6045bde523ce"
     }
   ],
-  "embedding": {
-    "embedding_id": "cb_9189b95844484dc0afb6cd57cd6e1507:entity:text-embedding-3-small",
-    "embedding_type": "entity",
-    "model_id": "text-embedding-3-small",
-    "model_version": "text-embedding-3-small",
-    "dimensions": 1536,
-    "source_text_hash": "6c289f13c88f85fb55778c2bb33d44527f0a1127e517c4e25a49ce5ae2fbd1f0",
-    "generated_at": "2026-08-10T13:53:24.455283Z",
-    "vector_ref": "embeddings.parquet#cb_9189b95844484dc0afb6cd57cd6e1507"
+  "summary": {
+    "derivative_id": "der:rc4:cb_9189b95844484dc0afb6cd57cd6e1507:summary",
+    "text": "Access Church Limited is an incorporated organisation registered with the Australian Charities and Not-for-profits Commission. CauseBase holds the ACNC register extract and the organisation\u2019s 2023 Annual Information Statement covering 01/07/2022 to 30/06/2023. There is no website or self-description supplied in the available records, and the available filings do not describe the organisation\u2019s programs, services or beneficiaries in descriptive terms. CauseBase does not have sufficient descriptive evidence in this release to independently identify specific activities or beneficiaries."
   },
-  "synthesis": {
-    "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
-    "parameters": {
-      "max_output_tokens": 3000,
-      "structured_output": true,
-      "output_contract": "causebase-summary-v0.3-rc2"
-    },
-    "evidence_input_hash": "9b4e4521dcb6f78401bb02efc75147a54df70c483090fd4050cff84a27b77d70",
-    "generated_at": "2026-08-12T13:36:56.181976Z",
-    "editorial_policy_version": "0.3-rc2"
-  },
-  "derivative_assessments": [
+  "activities": [],
+  "beneficiaries": [],
+  "descriptive_geography": [],
+  "navigation_geography": [],
+  "funding_sources": [],
+  "fundraising_methods": [],
+  "participation": [],
+  "opportunities": [],
+  "programs": [
     {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T13:36:56.181976Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-13T13:54:42.956606Z",
-      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
-      "input_hash": "9b4e4521dcb6f78401bb02efc75147a54df70c483090fd4050cff84a27b77d70",
-      "disposition": "reused",
-      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
-      "affected_dimensions": [
-        "summary"
-      ]
+      "observation_id": "obs:rc4:cb_9189b95844484dc0afb6cd57cd6e1507:program:prg:acnc:15602302867:eb454adb-ae13-f111-8407-6045bde523ce",
+      "program_id": "prg:acnc:15602302867:eb454adb-ae13-f111-8407-6045bde523ce",
+      "name": "Religious / Humanitarian Activities",
+      "description": "Christianity",
+      "url": "https://www.acnc.gov.au/charity/charities/a5d2a650-3aaf-e811-a961-000d3ad24182/documents/c5454adb-ae13-f111-8407-6045bde523ce",
+      "status": "current",
+      "claim_basis": "direct",
+      "extraction_method": "api",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:ais:15602302867:c5454adb-ae13-f111-8407-6045bde523ce"
+      ],
+      "time": {
+        "reporting_period": {
+          "label": "2025"
+        }
+      },
+      "warnings": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-14-rc4-fundraising-projection-correction",
-  "card_schema_version": "0.4",
-  "editorial_policy_version": "0.4-rc4",
-  "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T13:54:42.956606Z"
+  "relationships": [],
+  "classifications": [
+    {
+      "observation_id": "obs:rc4:cb_9189b95844484dc0afb6cd57cd6e1507:classification:0",
+      "classification_id": "cls:rc4:cb_9189b95844484dc0afb6cd57cd6e1507:0",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "purpose.religion",
+      "term_label": "religion",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:15602302867"
+      ],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_9189b95844484dc0afb6cd57cd6e1507:classification:1",
+      "classification_id": "cls:rc4:cb_9189b95844484dc0afb6cd57cd6e1507:1",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "beneficiary.regional_remote",
+      "term_label": "regional remote",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:15602302867"
+      ],
+      "confidence": "high",
+      "warnings": []
+    }
+  ],
+  "coverage": {
+    "registry_id": "capability-registry-0.5-initial",
+    "current": [
+      {
+        "capability": "regulatory.acnc_profile",
+        "status": "observed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:acnc:15602302867"
+        ]
+      },
+      {
+        "capability": "regulatory.ais",
+        "status": "observed",
+        "assessed_at": "2026-02-27",
+        "source_record_ids": [
+          "src:acnc-ais-detail:15602302867:c5454adb-ae13-f111-8407-6045bde523ce:cb_9189b95844484dc0afb6cd57cd6e1507"
+        ],
+        "evidence_ids": [
+          "ev:acnc:ais:15602302867:c5454adb-ae13-f111-8407-6045bde523ce"
+        ]
+      },
+      {
+        "capability": "tax.dgr",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "web.website",
+        "status": "not_available_from_source",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "report.annual_report",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "financial.report",
+        "status": "unknown",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:ais:15602302867:2023"
+        ]
+      },
+      {
+        "capability": "financial.statements",
+        "status": "unknown",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:ais:15602302867:2023"
+        ]
+      },
+      {
+        "capability": "understanding.activities",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.beneficiaries",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.geography",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "programs",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "participation",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "funding.sources",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.methods",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.expenditure",
+        "status": "not_available_from_source",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "taxonomy.causebase",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "semantic.embedding",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      }
+    ]
+  },
+  "financial_reports": [],
+  "canonical_metrics": [],
+  "analytic_projections": [],
+  "derivatives": [
+    {
+      "derivative_id": "der:rc4:cb_9189b95844484dc0afb6cd57cd6e1507:summary",
+      "kind": "summary",
+      "input_observation_ids": [],
+      "evidence_ids": [
+        "ev:acnc:15602302867",
+        "ev:ais:15602302867:2023"
+      ],
+      "generated_under": {
+        "output_contract_version": "phase2b-rc4-accepted-rc2-summary-reuse",
+        "input_hash": "9b4e4521dcb6f78401bb02efc75147a54df70c483090fd4050cff84a27b77d70",
+        "generated_at": "2026-08-12T13:36:56.181976Z"
+      },
+      "current_assessment": {
+        "assessed_at": "2026-08-13T13:54:42.956606Z",
+        "assessed_against_contract": "0.5",
+        "governing_input_hash": "9b4e4521dcb6f78401bb02efc75147a54df70c483090fd4050cff84a27b77d70",
+        "disposition": "reused",
+        "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs."
+      }
+    }
+  ],
+  "legacy_unbound": {
+    "origin_release": "rc4-2026-08-14",
+    "origin_card_sha256": "58e9ed71d578c96378cb25d685244f9c22af22ef466a5afbba820a8571d080a0",
+    "financial_records": [
+      {
+        "financial_record_id": "fr:ais:cb_9189b95844484dc0afb6cd57cd6e1507:2023",
+        "period": {
+          "period_start": "2022-07-01",
+          "period_end": "2023-06-30",
+          "period_length_days": 365,
+          "label": "01/07/2022 to 30/06/2023",
+          "is_transitional_or_nonstandard": false
+        },
+        "reporting_scope": "subject",
+        "reporting_subject_causebase_id": "cb_9189b95844484dc0afb6cd57cd6e1507",
+        "covered_subjects": [
+          "cb_9189b95844484dc0afb6cd57cd6e1507"
+        ],
+        "consolidated": "unknown",
+        "attribution_method": "direct_subject_report",
+        "evidence_ids": [
+          "ev:ais:15602302867:2023"
+        ],
+        "revenue": {
+          "source_amount": "0",
+          "source_currency": "AUD",
+          "source_unit_scale": "1",
+          "normalised_amount": "0",
+          "normalised_currency": "AUD",
+          "source_unit_label": null,
+          "source_raw_value": "0",
+          "source_precision": null
+        },
+        "donations": null,
+        "government_grants": null,
+        "employee_costs": null,
+        "total_expenses": {
+          "source_amount": "0",
+          "source_currency": "AUD",
+          "source_unit_scale": "1",
+          "normalised_amount": "0",
+          "normalised_currency": "AUD",
+          "source_unit_label": null,
+          "source_raw_value": "0",
+          "source_precision": null
+        },
+        "assets": null,
+        "liabilities": null,
+        "net_assets": null,
+        "income_breakdown": [],
+        "expense_breakdown": [],
+        "balance_sheet_breakdown": [],
+        "source_ordered_line_items": [],
+        "statements": [],
+        "donations_gifts_bequests": null,
+        "functional_expense_allocations": []
+      }
+    ]
+  }
 }

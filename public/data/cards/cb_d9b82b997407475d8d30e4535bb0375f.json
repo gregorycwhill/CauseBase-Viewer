@@ -1,1567 +1,509 @@
 {
   "causebase_id": "cb_d9b82b997407475d8d30e4535bb0375f",
+  "contract_version": "0.5",
   "subject_kind": "unknown",
-  "external_identifiers": [
-    {
-      "scheme": "abn",
-      "value": "92140312385",
-      "source_evidence_id": "ev:acnc:92140312385"
-    }
+  "identity": {
+    "legal_name": "Aboriginal And Torres Strait Islander Healing Foundation Limited",
+    "display_name": "Aboriginal And Torres Strait Islander Healing Foundation Limited",
+    "operating_names": [],
+    "former_names": [],
+    "entity_status": "registered",
+    "website": "www.healingfoundation.org.au",
+    "external_identifiers": [
+      {
+        "scheme": "abn",
+        "value": "92140312385",
+        "evidence_ids": [
+          "ev:acnc:92140312385"
+        ]
+      }
+    ],
+    "registrations": [
+      {
+        "regulator": "ACNC",
+        "status": "registered",
+        "evidence_ids": [
+          "ev:acnc:92140312385"
+        ]
+      }
+    ],
+    "tax_statuses": [
+      {
+        "scheme": "ABR DGR",
+        "status": "endorsed",
+        "evidence_ids": [
+          "ev:abr-dgr:92140312385:20260805"
+        ]
+      }
+    ]
+  },
+  "release": {
+    "release_id": "v0.5.0-2026-08-15",
+    "dataset_version": "0.5.0-2026-08-15",
+    "contract_version": "0.5",
+    "based_on_release": "rc4-2026-08-14",
+    "generated_at": "2026-08-15T00:00:00Z"
+  },
+  "source_record_refs": [
+    "src:acnc-public-profile:92140312385:80dbf4ea-38af-e811-a95e-000d3ad24c60:cb_d9b82b997407475d8d30e4535bb0375f",
+    "src:acnc-ais-detail:92140312385:73fcc44e-fa11-f111-8406-0022489549a2:cb_d9b82b997407475d8d30e4535bb0375f"
   ],
-  "registrations": [
-    {
-      "regulator": "ACNC",
-      "registration_id": null,
-      "status": "registered",
-      "evidence_ids": [
-        "ev:acnc:92140312385"
-      ]
-    }
-  ],
-  "tax_statuses": [
-    {
-      "scheme": "ABR DGR",
-      "status": "endorsed",
-      "detail": "Dated 2026-08-05 ABR bulk observation",
-      "evidence_ids": [
-        "ev:abr-dgr:92140312385:20260805"
-      ]
-    }
-  ],
-  "relationships": [],
-  "source_resolutions": [
+  "source_bindings": [
     {
       "source_record_id": "src:acnc-register:8829014f-8c10-5c40-a6cd-9174d5169d01",
       "resolution_status": "resolved",
       "resolution_basis": "automated authoritative ACNC promotion under acnc-authoritative-v1",
       "confidence": "high",
-      "supporting_signals": [
-        "ABN:92140312385",
-        "ACNC Register"
-      ],
-      "conflicting_signals": [],
-      "review_status": "not_required"
-    }
-  ],
-  "legal_name": "Aboriginal And Torres Strait Islander Healing Foundation Limited",
-  "display_name": "Aboriginal And Torres Strait Islander Healing Foundation Limited",
-  "entity_status": "registered",
-  "canonical_url": "https://gregorycwhill.github.io/CauseBase-Viewer/#cb_d9b82b997407475d8d30e4535bb0375f",
-  "acnc_profile_url": "https://www.acnc.gov.au/charity/charities/80dbf4ea-38af-e811-a95e-000d3ad24c60/profile",
-  "acnc_ais_url": "https://www.acnc.gov.au/charity/charities/80dbf4ea-38af-e811-a95e-000d3ad24c60/documents/73fcc44e-fa11-f111-8406-0022489549a2",
-  "operating_names": [],
-  "former_names": [],
-  "principal_location": "ACT, Australia",
-  "coverage": [
-    {
-      "capability": "regulatory",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:acnc:92140312385"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "annual_report",
-      "status": "not_yet_processed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "fundraising_expenditure",
-      "status": "not_available_from_source",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": "No direct or defensible derived fundraising expenditure was found in selected Phase 2A evidence."
-    },
-    {
-      "capability": "financials",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:ais:92140312385:2023"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "latest_acnc_ais",
-      "status": "observed",
-      "source_record_id": "src:acnc-ais-detail:92140312385:73fcc44e-fa11-f111-8406-0022489549a2:cb_d9b82b997407475d8d30e4535bb0375f",
-      "evidence_ids": [
-        "ev:acnc:ais:92140312385:73fcc44e-fa11-f111-8406-0022489549a2"
-      ],
-      "observed_at": "2026-01-30",
-      "freshness_note": "Latest submitted AIS detail acquired from the public ACNC entity endpoint."
-    },
-    {
-      "capability": "website",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-13",
-      "freshness_note": "Public website locator acquired from the ACNC profile."
-    }
-  ],
-  "enrichment_level": "enriched",
-  "website": "www.healingfoundation.org.au",
-  "geography": [
-    "Australia (self‑described national reach)",
-    "Australian Capital Territory (registered per ACNC)"
-  ],
-  "geography_observations": [
-    {
-      "value": "Australia (self‑described national reach)",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Australian Capital Territory (registered per ACNC)",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "navigation_geography": [],
-  "causebase_summary": "Aboriginal And Torres Strait Islander Healing Foundation Limited (The Healing Foundation) is a national Aboriginal and Torres Strait Islander organisation registered in the Australian Capital Territory. It works with Stolen Generations survivors, their families and broader Aboriginal and Torres Strait Islander communities to support survivor‑led, community‑led healing and to restore cultural connections. Its activities include community healing projects, a grants program for truth‑telling projects, production and dissemination of resources (fact sheets, reports, toolkits and videos), online events and public forums, and advocacy with government and policy makers about trauma‑aware, healing‑informed practice. The organisation also publishes policy material and maintains a library of resources for practitioners, survivors and other audiences.",
-  "summary_evidence_ids": [
-    "ev:web:92140312385:2026-08-10",
-    "ev:ais:92140312385:2023",
-    "ev:acnc:92140312385"
-  ],
-  "organisation_self_description": null,
-  "activities": [
-    "Advocacy with government and policymakers",
-    "Community‑led and survivor‑led healing projects",
-    "Resource production (fact sheets, reports, toolkits, videos)",
-    "Grant program for truth‑telling projects",
-    "Online events and public forums"
-  ],
-  "activity_observations": [
-    {
-      "value": "Advocacy with government and policymakers",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Community‑led and survivor‑led healing projects",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Resource production (fact sheets, reports, toolkits, videos)",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Grant program for truth‑telling projects",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Online events and public forums",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "beneficiaries": [
-    "Stolen Generations survivors and their families",
-    "Aboriginal and Torres Strait Islander communities"
-  ],
-  "beneficiary_observations": [
-    {
-      "value": "Stolen Generations survivors and their families",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Aboriginal and Torres Strait Islander communities",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "participation_modes": [
-    "Community‑led initiatives and survivor‑led participation",
-    "Attending public events and online forums",
-    "Applying for small grants / truth‑telling project funding",
-    "Using and subscribing to online resources and newsletters"
-  ],
-  "participation_observations": [],
-  "opportunities": [],
-  "programs": [
-    {
-      "program_id": "prg:acnc:92140312385:4a90c454-fa11-f111-8406-0022489549a2",
-      "name": "Aboriginal and Torres Strait Islander People",
-      "description": "Community development",
-      "beneficiaries": [
-        "People in rural/regional/remote communities",
-        "Aboriginal and Torres Strait Islander people"
-      ],
-      "geography": [
-        "Australia"
-      ],
-      "status": "current",
-      "reporting_period": "2025",
-      "source_url": "https://www.acnc.gov.au/charity/charities/80dbf4ea-38af-e811-a95e-000d3ad24c60/documents/73fcc44e-fa11-f111-8406-0022489549a2",
-      "evidence_ids": [
-        "ev:acnc:ais:92140312385:73fcc44e-fa11-f111-8406-0022489549a2"
-      ]
-    }
-  ],
-  "source_native_records": [
-    {
-      "source_record_id": "src:acnc-public-profile:92140312385:80dbf4ea-38af-e811-a95e-000d3ad24c60:cb_d9b82b997407475d8d30e4535bb0375f",
-      "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-14-public-api",
-      "source_url": "https://www.acnc.gov.au/charity/charities/80dbf4ea-38af-e811-a95e-000d3ad24c60/profile",
-      "retrieved_at": "2026-08-13T13:54:42.956606Z",
-      "observed_at": "2026-01-30",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "uuid": "80dbf4ea-38af-e811-a95e-000d3ad24c60",
-        "abn": "92140312385"
-      },
-      "source_payload": {
-        "data": {
-          "AFSAddressPostalCode": "2600",
-          "AFSEmail": "secretariat@healingfoundation.org.au",
-          "Abn": "92140312385",
-          "AddressCountry": "Australia",
-          "AddressLine1": "Off 11 11 National Cct",
-          "AddressLine2": null,
-          "AddressLine3": null,
-          "AddressPostalCode": "2600",
-          "AddressStateOrProvince": "ACT",
-          "AddressSuburb": "Barton",
-          "AddressSuburbStatePostcode": "Barton ACT 2600",
-          "AnnualReports": [
-            {
-              "AISId": null,
-              "DateReceived": "2019-09-26T23:10:32.0000000Z",
-              "DocumentUuid": "3c7c85d0-b2e0-e911-a812-000d3ad1caaa",
-              "DueDate": "2020-01-31T00:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2019",
-              "type": "Financial Report 2019",
-              "uuid": "6cc0ebcf-e725-e911-a976-000d3ad02a61"
-            },
-            {
-              "AISId": "f89f62d5-b2e0-e911-a812-000d3ad1ce4e",
-              "DateReceived": "2019-09-26T23:10:36.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2020-01-31T00:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2019",
-              "type": "Annual Information Statement 2019",
-              "uuid": "8bc0ebcf-e725-e911-a976-000d3ad02a61"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2020-10-27T03:20:26.0000000Z",
-              "DocumentUuid": "8069cb08-cf23-eb11-a813-000d3acae853",
-              "DueDate": "2021-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2020",
-              "type": "Financial Report 2020",
-              "uuid": "c6c0ebcf-e725-e911-a976-000d3ad02a61"
-            },
-            {
-              "AISId": "668b7612-cf23-eb11-bbf3-000d3ad1ce4e",
-              "DateReceived": "2020-10-26T13:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2021-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2020",
-              "type": "Annual Information Statement 2020",
-              "uuid": "dbc0ebcf-e725-e911-a976-000d3ad02a61"
-            },
-            {
-              "AISId": "23611c95-765c-ec11-8f8f-000d3ad21aaf",
-              "DateReceived": "2021-12-14T00:41:45.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2022-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2021",
-              "type": "Annual Information Statement 2021",
-              "uuid": "965dc565-9444-ea11-a813-000d3ad1f29c"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2021-12-14T00:41:29.0000000Z",
-              "DocumentUuid": "1895778b-765c-ec11-8f8f-000d3ad169d3",
-              "DueDate": "2022-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2021",
-              "type": "Financial Report 2021",
-              "uuid": "af5dc565-9444-ea11-a813-000d3ad1f29c"
-            },
-            {
-              "AISId": "b818b853-4491-ed11-aad1-002248122521",
-              "DateReceived": "2023-01-11T00:10:28.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2023-01-31T00:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2022",
-              "type": "Annual Information Statement 2022",
-              "uuid": "07cd11cd-d463-eb11-b0b0-000d3ad1f9f4"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2023-01-11T00:10:19.0000000Z",
-              "DocumentUuid": "e297f24d-4491-ed11-aad1-00224893b261",
-              "DueDate": "2023-01-31T00:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2022",
-              "type": "Financial Report 2022",
-              "uuid": "25cd11cd-d463-eb11-b0b0-000d3ad1f9f4"
-            },
-            {
-              "AISId": "435b9aef-50c8-e811-a95f-000d3ad24c60",
-              "DateReceived": "2014-12-21T13:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2015-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2014",
-              "type": "Annual Information Statement 2014",
-              "uuid": "dde8c4ee-50c8-e811-a962-000d3ad24182"
-            },
-            {
-              "AISId": "4d5b9aef-50c8-e811-a95f-000d3ad24c60",
-              "DateReceived": "2015-11-01T13:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2016-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2015",
-              "type": "Annual Information Statement 2015",
-              "uuid": "e5e8c4ee-50c8-e811-a962-000d3ad24182"
-            },
-            {
-              "AISId": "525b9aef-50c8-e811-a95f-000d3ad24c60",
-              "DateReceived": "2016-11-08T13:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2017-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2016",
-              "type": "Annual Information Statement 2016",
-              "uuid": "eee8c4ee-50c8-e811-a962-000d3ad24182"
-            },
-            {
-              "AISId": "5f5b9aef-50c8-e811-a95f-000d3ad24c60",
-              "DateReceived": "2017-10-02T13:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2018-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2017",
-              "type": "Annual Information Statement 2017",
-              "uuid": "f6e8c4ee-50c8-e811-a962-000d3ad24182"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2015-11-01T13:00:00.0000000Z",
-              "DocumentUuid": "84d6e7ab-46b0-e811-a961-000d3ad24182",
-              "DueDate": "2016-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2015",
-              "type": "Financial Report 2015",
-              "uuid": "63db53b5-3ec8-e811-a961-000d3ad24282"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2017-10-02T13:00:00.0000000Z",
-              "DocumentUuid": "605361ae-46b0-e811-a963-000d3ad244fd",
-              "DueDate": "2018-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2017",
-              "type": "Financial Report 2017",
-              "uuid": "78db53b5-3ec8-e811-a961-000d3ad24282"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2016-11-08T13:00:00.0000000Z",
-              "DocumentUuid": "0d1119ab-46b0-e811-a960-000d3ad24282",
-              "DueDate": "2017-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2016",
-              "type": "Financial Report 2016",
-              "uuid": "9fdb53b5-3ec8-e811-a961-000d3ad24282"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2018-10-15T03:30:17.0000000Z",
-              "DocumentUuid": "589dfd9f-2ad0-e811-a960-000d3ad24c60",
-              "DueDate": "2019-03-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2018",
-              "type": "Financial Report 2018",
-              "uuid": "bcdb53b5-3ec8-e811-a961-000d3ad24282"
-            },
-            {
-              "AISId": "afea8ca3-2ad0-e811-a965-000d3ad0574c",
-              "DateReceived": "2018-10-15T03:30:24.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2019-03-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2018",
-              "type": "Annual Information Statement 2018",
-              "uuid": "d04b96a6-3ac8-e811-a963-000d3ad24a0d"
-            },
-            {
-              "AISId": "395b9aef-50c8-e811-a95f-000d3ad24c60",
-              "DateReceived": "2013-12-12T13:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2014-03-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2013",
-              "type": "Annual Information Statement 2013",
-              "uuid": "d77589ee-50c8-e811-a963-000d3ad24a0d"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2013-12-12T13:00:00.0000000Z",
-              "DocumentUuid": "cb5361ae-46b0-e811-a963-000d3ad244fd",
-              "DueDate": "2014-03-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2013",
-              "type": "Financial Report 2013",
-              "uuid": "f01052b5-3ec8-e811-a95f-000d3ad24c60"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2014-12-21T13:00:00.0000000Z",
-              "DocumentUuid": "79d5e7ab-46b0-e811-a961-000d3ad24182",
-              "DueDate": "2015-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2014",
-              "type": "Financial Report 2014",
-              "uuid": "001152b5-3ec8-e811-a95f-000d3ad24c60"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2026-12-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Not yet submitted",
-              "Year": "2026",
-              "type": "Annual Information Statement 2026",
-              "uuid": "f6de8f99-d3df-ef11-a732-00224891e269"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2026-12-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Pending",
-              "Year": "2026",
-              "type": "Financial Report 2026",
-              "uuid": "17df8f99-d3df-ef11-a732-00224891e269"
-            },
-            {
-              "AISId": "5fd75c2f-8ab6-ee11-a568-002248110683",
-              "DateReceived": "2024-01-19T05:18:40.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2024-01-31T00:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2023",
-              "type": "Annual Information Statement 2023",
-              "uuid": "2ac79918-a782-ec11-8d20-002248929301"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2024-01-19T05:10:22.0000000Z",
-              "DocumentUuid": "ae893b05-89b6-ee11-a568-002248110683",
-              "DueDate": "2024-01-31T00:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2023",
-              "type": "Financial Report 2023",
-              "uuid": "56c79918-a782-ec11-8d20-002248929301"
-            },
-            {
-              "AISId": "73fcc44e-fa11-f111-8406-0022489549a2",
-              "DateReceived": "2026-01-30T05:11:05.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2026-01-31T00:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2025",
-              "type": "Annual Information Statement 2025",
-              "uuid": "7947e855-9bc0-ee11-907a-00224893b0ed"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2026-01-30T05:12:22.0000000Z",
-              "DocumentUuid": "7e6d0348-fa11-f111-8406-6045bde5b710",
-              "DueDate": "2026-01-31T00:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2025",
-              "type": "Financial Report 2025",
-              "uuid": "bb47e855-9bc0-ee11-907a-00224893b0ed"
-            },
-            {
-              "AISId": "65d1c736-aabd-ef11-a72f-000d3acc14e5",
-              "DateReceived": "2024-12-19T01:40:34.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2025-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2024",
-              "type": "Annual Information Statement 2024",
-              "uuid": "71ce0339-cba1-ed11-aad1-00224893b8c7"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2024-12-19T01:40:34.0000000Z",
-              "DocumentUuid": "4c6e792e-aabd-ef11-a72f-000d3a6af31d",
-              "DueDate": "2025-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2024",
-              "type": "Financial Report 2024",
-              "uuid": "a7ce0339-cba1-ed11-aad1-00224893b8c7"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2027-12-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Not yet submitted",
-              "Year": "2027",
-              "type": "Annual Information Statement 2027",
-              "uuid": "6c501098-0cff-f011-8407-6045bdc4655a"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2027-12-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Pending",
-              "Year": "2027",
-              "type": "Financial Report 2027",
-              "uuid": "8a501098-0cff-f011-8407-6045bdc4655a"
-            }
-          ],
-          "Beneficiaries": [
-            {
-              "Description": null,
-              "Name": "People in rural/regional/remote communities",
-              "uuid": "5690c454-fa11-f111-8406-0022489549a2"
-            },
-            {
-              "Description": null,
-              "Name": "Aboriginal and Torres Strait Islander people",
-              "uuid": "5990c454-fa11-f111-8406-0022489549a2"
-            }
-          ],
-          "CharitySize": "Large",
-          "CharitySubtypeHistory": [
-            {
-              "EndDate": "2013-12-30T13:00:00.0000000Z",
-              "Purpose": "2012 Institution whose principal activity is to promote the prevention or control of diseases in human beings (HPC)",
-              "StartDate": "2012-12-02T13:00:00.0000000Z",
-              "uuid": "56e25a37-fdc6-e811-a961-000d3ad24282"
-            },
-            {
-              "EndDate": "2013-12-30T13:00:00.0000000Z",
-              "Purpose": "2012 Another purpose beneficial to the community",
-              "StartDate": "2012-12-02T13:00:00.0000000Z",
-              "uuid": "63e25a37-fdc6-e811-a961-000d3ad24282"
-            },
-            {
-              "EndDate": null,
-              "Purpose": "Institution whose principal activity is to promote the prevention or control of diseases in human beings (Health Promotion Charity)(HPC)",
-              "StartDate": "2013-12-31T13:00:00.0000000Z",
-              "uuid": "7ae25a37-fdc6-e811-a961-000d3ad24282"
-            }
-          ],
-          "CharityVersion": "219",
-          "ChildMemberEndDate": null,
-          "ChildMemberStartDate": null,
-          "ChooseToProvideAis": null,
-          "Countries": [
-            {
-              "Name": "Australia",
-              "uuid": "f57b5602-9a4d-e811-a951-000d3ad06f2d"
-            }
-          ],
-          "DateEstablished": "2008-12-31T13:00:00.0000000Z",
-          "Documents": [
-            {
-              "Date": "2021-12-08T00:00:00.0000000",
-              "Title": "The Healing Foundation Constitution.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/80dbf4ea-38af-e811-a95e-000d3ad24c60-3d2ca369-6b82-45cc-9eb9-66e23b846d30-Governing%20Document-2700e3ec-ad57-ec11-8f8f-000d3acb101a-The_Healing_Foundation_Constitution.pdf",
-              "Year": null,
-              "type": "Governing Document",
-              "uuid": "2700e3ec-ad57-ec11-8f8f-000d3acb101a"
-            },
-            {
-              "Date": "2015-12-16T00:00:00.0000000",
-              "Title": "2015_92140312385_ANNLRPT.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/80dbf4ea-38af-e811-a95e-000d3ad24c60-3d2ca369-6b82-45cc-9eb9-66e23b846d30-Annual%20Report-121019ab-46b0-e811-a960-000d3ad24282-2015_92140312385_ANNLRPT.pdf",
-              "Year": null,
-              "type": "Annual Report",
-              "uuid": "121019ab-46b0-e811-a960-000d3ad24282"
-            },
-            {
-              "Date": "2024-12-19T00:00:00.0000000",
-              "Title": "The Healing Foundation Financial Statements 30 June 2024.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/80dbf4ea-38af-e811-a95e-000d3ad24c60-3d2ca369-6b82-45cc-9eb9-66e23b846d30-Financial%20Report-4c6e792e-aabd-ef11-a72f-000d3a6af31d-The_Healing_Foundation_Financial_Statements_30_June_2024.pdf",
-              "Year": "2024",
-              "type": "Financial Report",
-              "uuid": "4c6e792e-aabd-ef11-a72f-000d3a6af31d"
-            },
-            {
-              "Date": "2020-11-11T00:00:00.0000000",
-              "Title": "2019-2020 THF Signed Financial Statement.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/80dbf4ea-38af-e811-a95e-000d3ad24c60-3d2ca369-6b82-45cc-9eb9-66e23b846d30-Financial%20Report-8069cb08-cf23-eb11-a813-000d3acae853-2019-2020_THF_Signed_Financial_Statement.pdf",
-              "Year": "2020",
-              "type": "Financial Report",
-              "uuid": "8069cb08-cf23-eb11-a813-000d3acae853"
-            },
-            {
-              "Date": "2021-12-14T00:00:00.0000000",
-              "Title": "2020-2021 The Healing Foundation Audited Financial Report.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/80dbf4ea-38af-e811-a95e-000d3ad24c60-3d2ca369-6b82-45cc-9eb9-66e23b846d30-Financial%20Report-1895778b-765c-ec11-8f8f-000d3ad169d3-2020-2021_The_Healing_Foundation_Audited_Financial_Report.pdf",
-              "Year": "2021",
-              "type": "Financial Report",
-              "uuid": "1895778b-765c-ec11-8f8f-000d3ad169d3"
-            },
-            {
-              "Date": "2019-09-27T00:00:00.0000000",
-              "Title": "2018-19 The Healing Foundation Signed Financial Statement.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/80dbf4ea-38af-e811-a95e-000d3ad24c60-3d2ca369-6b82-45cc-9eb9-66e23b846d30-Financial%20Report-3c7c85d0-b2e0-e911-a812-000d3ad1caaa-2018-19_The_Healing_Foundation_Signed_Financial_Statement.pdf",
-              "Year": "2019",
-              "type": "Financial Report",
-              "uuid": "3c7c85d0-b2e0-e911-a812-000d3ad1caaa"
-            },
-            {
-              "Date": "2014-12-22T00:00:00.0000000",
-              "Title": "ATSIHF Audited financial Statement 2014 - Fully signed 28-11-14.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/80dbf4ea-38af-e811-a95e-000d3ad24c60-3d2ca369-6b82-45cc-9eb9-66e23b846d30-Financial%20Report-79d5e7ab-46b0-e811-a961-000d3ad24182-ATSIHF_Audited_financial_Statement_2014_-_Fully_signed_28-11-14.pdf",
-              "Year": "2014",
-              "type": "Financial Report",
-              "uuid": "79d5e7ab-46b0-e811-a961-000d3ad24182"
-            },
-            {
-              "Date": "2015-11-02T00:00:00.0000000",
-              "Title": "Healing Foundation FINS 2015.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/80dbf4ea-38af-e811-a95e-000d3ad24c60-3d2ca369-6b82-45cc-9eb9-66e23b846d30-Financial%20Report-84d6e7ab-46b0-e811-a961-000d3ad24182-Healing_Foundation_FINS_2015.pdf",
-              "Year": "2015",
-              "type": "Financial Report",
-              "uuid": "84d6e7ab-46b0-e811-a961-000d3ad24182"
-            },
-            {
-              "Date": "2016-11-09T00:00:00.0000000",
-              "Title": "2016 ATSIHF Financial Statements.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/80dbf4ea-38af-e811-a95e-000d3ad24c60-3d2ca369-6b82-45cc-9eb9-66e23b846d30-Financial%20Report-0d1119ab-46b0-e811-a960-000d3ad24282-2016_ATSIHF_Financial_Statements.pdf",
-              "Year": "2016",
-              "type": "Financial Report",
-              "uuid": "0d1119ab-46b0-e811-a960-000d3ad24282"
-            },
-            {
-              "Date": "2017-10-03T00:00:00.0000000",
-              "Title": "2017 Financial statements complete signed 7-9-17.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/80dbf4ea-38af-e811-a95e-000d3ad24c60-3d2ca369-6b82-45cc-9eb9-66e23b846d30-Financial%20Report-605361ae-46b0-e811-a963-000d3ad244fd-2017_Financial_statements_complete_signed_7-9-17.pdf",
-              "Year": "2017",
-              "type": "Financial Report",
-              "uuid": "605361ae-46b0-e811-a963-000d3ad244fd"
-            },
-            {
-              "Date": "2013-12-13T00:00:00.0000000",
-              "Title": "Audit ENDED June 2013.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/80dbf4ea-38af-e811-a95e-000d3ad24c60-3d2ca369-6b82-45cc-9eb9-66e23b846d30-Financial%20Report-cb5361ae-46b0-e811-a963-000d3ad244fd-Audit_ENDED_June_2013.pdf",
-              "Year": "2013",
-              "type": "Financial Report",
-              "uuid": "cb5361ae-46b0-e811-a963-000d3ad244fd"
-            },
-            {
-              "Date": "2018-10-15T00:00:00.0000000",
-              "Title": "2017-18 Final signed HF Financial Statements.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/80dbf4ea-38af-e811-a95e-000d3ad24c60-3d2ca369-6b82-45cc-9eb9-66e23b846d30-Financial%20Report-589dfd9f-2ad0-e811-a960-000d3ad24c60-2017-18_Final_signed_HF_Financial_Statements.pdf",
-              "Year": "2018",
-              "type": "Financial Report",
-              "uuid": "589dfd9f-2ad0-e811-a960-000d3ad24c60"
-            },
-            {
-              "Date": "2024-01-19T00:00:00.0000000",
-              "Title": "The Healing Foundation - Financial Statements 30 June 2023 - SIGNED.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/80dbf4ea-38af-e811-a95e-000d3ad24c60-3d2ca369-6b82-45cc-9eb9-66e23b846d30-Financial%20Report-ae893b05-89b6-ee11-a568-002248110683-The_Healing_Foundation_-_Financial_Statements_30_June_2023_-_SIGNED.pdf",
-              "Year": "2023",
-              "type": "Financial Report",
-              "uuid": "ae893b05-89b6-ee11-a568-002248110683"
-            },
-            {
-              "Date": "2023-01-11T00:00:00.0000000",
-              "Title": "Audited Financial Statements 2021-22.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/80dbf4ea-38af-e811-a95e-000d3ad24c60-3d2ca369-6b82-45cc-9eb9-66e23b846d30-Financial%20Report-e297f24d-4491-ed11-aad1-00224893b261-Audited_Financial_Statements_2021-22.pdf",
-              "Year": "2022",
-              "type": "Financial Report",
-              "uuid": "e297f24d-4491-ed11-aad1-00224893b261"
-            },
-            {
-              "Date": "2026-02-25T00:00:00.0000000",
-              "Title": "The Healing Foundation - Financial Statements 30 June 2025 - SIGNED (1).pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/80dbf4ea-38af-e811-a95e-000d3ad24c60-3d2ca369-6b82-45cc-9eb9-66e23b846d30-Financial%20Report-7e6d0348-fa11-f111-8406-6045bde5b710-The_Healing_Foundation_-_Financial_Statements_30_June_2025_-_SIGNED_(1).pdf",
-              "Year": "2025",
-              "type": "Financial Report",
-              "uuid": "7e6d0348-fa11-f111-8406-6045bde5b710"
-            }
-          ],
-          "Email": "secretariat@healingfoundation.org.au",
-          "EnforcementOutcomes": [],
-          "FinancialYearEnd": "30/06",
-          "GovernmentAgencies": [
-            {
-              "Name": "Online fundraising",
-              "ReferenceNumber": null,
-              "uuid": "c0d1c736-aabd-ef11-a72f-000d3acc14e5"
-            },
-            {
-              "Name": "Online fundraising",
-              "ReferenceNumber": null,
-              "uuid": "fcea8ca3-2ad0-e811-a965-000d3ad0574c"
-            },
-            {
-              "Name": "Online fundraising",
-              "ReferenceNumber": null,
-              "uuid": "5079b957-0318-eb11-a816-000d3ad1cd99"
-            },
-            {
-              "Name": "Online fundraising",
-              "ReferenceNumber": null,
-              "uuid": "52a062d5-b2e0-e911-a812-000d3ad1ce4e"
-            },
-            {
-              "Name": "Online fundraising",
-              "ReferenceNumber": null,
-              "uuid": "89a9149b-765c-ec11-8f8f-000d3ad21aaf"
-            },
-            {
-              "Name": "Australian Securities and Investment Commission",
-              "ReferenceNumber": "140312385",
-              "uuid": "a55006ad-e6af-e811-a962-000d3ad24a0d"
-            },
-            {
-              "Name": "Online fundraising",
-              "ReferenceNumber": null,
-              "uuid": "9fd75c2f-8ab6-ee11-a568-002248110683"
-            },
-            {
-              "Name": "Online fundraising",
-              "ReferenceNumber": null,
-              "uuid": "4bd0b259-4491-ed11-aad1-002248122521"
-            },
-            {
-              "Name": "ACT - Fundraising",
-              "ReferenceNumber": "19000874",
-              "uuid": "2e90c454-fa11-f111-8406-0022489549a2"
-            },
-            {
-              "Name": "NSW - Fundraising",
-              "ReferenceNumber": "23670",
-              "uuid": "3290c454-fa11-f111-8406-0022489549a2"
-            },
-            {
-              "Name": "QLD - Fundraising",
-              "ReferenceNumber": "CH2670",
-              "uuid": "3590c454-fa11-f111-8406-0022489549a2"
-            },
-            {
-              "Name": "SA - Fundraising",
-              "ReferenceNumber": "CCP2499",
-              "uuid": "3890c454-fa11-f111-8406-0022489549a2"
-            },
-            {
-              "Name": "TAS - Fundraising",
-              "ReferenceNumber": "C/10185",
-              "uuid": "3b90c454-fa11-f111-8406-0022489549a2"
-            },
-            {
-              "Name": "VIC - Fundraising",
-              "ReferenceNumber": "13369",
-              "uuid": "3e90c454-fa11-f111-8406-0022489549a2"
-            },
-            {
-              "Name": "WA - Fundraising",
-              "ReferenceNumber": "CC21819",
-              "uuid": "4190c454-fa11-f111-8406-0022489549a2"
-            },
-            {
-              "Name": "NT - Fundraising",
-              "ReferenceNumber": null,
-              "uuid": "4490c454-fa11-f111-8406-0022489549a2"
-            }
-          ],
-          "GroupHeadFlag": false,
-          "LastReported": "2026-01-30T05:12:22.0000000Z",
-          "Name": "Aboriginal And Torres Strait Islander Healing Foundation Limited",
-          "NextReportDue": "2026-12-31T12:30:00.0000000Z",
-          "OperatingInStates": [
-            {
-              "Name": "Australian Capital Territory",
-              "uuid": "db77d9b9-455e-e811-a95c-000d3ad1c715"
-            }
-          ],
-          "OtherDetails": null,
-          "OtherNames": [],
-          "ParentAccountAbn": null,
-          "ParentAccountId": null,
-          "Phone": "02 6272 7500",
-          "Programs": [
-            {
-              "AisUuid": "73fcc44e-fa11-f111-8406-0022489549a2",
-              "Name": "Aboriginal and Torres Strait Islander People",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "People in rural/regional/remote communities",
-                "Aboriginal and Torres Strait Islander people"
-              ],
-              "ProgramClassie": [
-                {
-                  "classie_id": "118",
-                  "label": "Community development",
-                  "parent_id": null,
-                  "selected": true
-                }
-              ],
-              "ProgramClassification": "Community development",
-              "ProgramClassificationID": "118",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "Australia",
-                  "FormattedAddress": "Australia",
-                  "Marker": {
-                    "Latitude": -25.274398,
-                    "Longitude": 133.775136
-                  },
-                  "Name": "Australia",
-                  "uuid": "5090c454-fa11-f111-8406-0022489549a2"
-                }
-              ],
-              "ProgramWeblink": null,
-              "uuid": "4a90c454-fa11-f111-8406-0022489549a2"
-            }
-          ],
-          "ReferendumReturnsUrl": null,
-          "RegistrationStatusHistory": [
-            {
-              "EffectiveDate": "2012-12-02T13:00:00.0000000Z",
-              "Status": "Registered",
-              "TransactionDate": "2012-12-02T13:00:00.0000000Z",
-              "uuid": "4db51e9a-06c6-e811-a962-000d3ad24182"
-            }
-          ],
-          "RelatedPartyTransactions": null,
-          "RelevantTransactions": null,
-          "ReportingLate": "2027-06-30T12:30:00.0000000Z",
-          "ResponsiblePersons": [
-            {
-              "Name": "Ian Hamm",
-              "Role": "Director",
-              "uuid": "6c6260b5-dac8-eb11-8235-000d3ad1226e"
-            },
-            {
-              "Name": "Ivy Trevallion",
-              "Role": "Director",
-              "uuid": "57d614b8-4c0c-ec11-b6e5-00224810b4df"
-            },
-            {
-              "Name": "Steven Larkin",
-              "Role": "Chairperson",
-              "uuid": "fc85eeec-96d4-f011-8543-00224893e6ae"
-            },
-            {
-              "Name": "Leann Wilson",
-              "Role": "Director",
-              "uuid": "01c54909-febb-e811-a964-000d3ad24077"
-            },
-            {
-              "Name": "Kirsten Gray",
-              "Role": "Director",
-              "uuid": "3df4da30-204b-f011-8779-00224896323a"
-            },
-            {
-              "Name": "Paige Webber",
-              "Role": "Secretary",
-              "uuid": "8e91e1ee-53ae-ec11-9840-0022489366a7"
-            },
-            {
-              "Name": "John Paterson",
-              "Role": "Director",
-              "uuid": "2b196980-44ce-f011-8543-6045bdc34ae6"
-            },
-            {
-              "Name": "IVAN INGRAM",
-              "Role": "Director",
-              "uuid": "bd180d6f-e856-ea11-a811-000d3ad1f9f4"
-            },
-            {
-              "Name": "Kristy Masella",
-              "Role": "Director",
-              "uuid": "30c30a81-ad7a-e911-a981-000d3ad02a61"
-            }
-          ],
-          "Status": "Registered",
-          "SummaryOfActivities": "The principal activities of Aboriginal and Torres Strait Islander Healing Foundation Limited (The Healing Foundation) during the financial year were to partner with communities to address trauma caused by actions like the forced removal of children, and to create an evidence-based policy environment ensuring quality healing responses.",
-          "TotalExpensesEmployee": "5671637",
-          "TotalExpensesGrantsAndDonationsInAustralia": "1535405",
-          "TotalExpensesGrantsAndDonationsOutsideAustralia": "0",
-          "TotalExpensesInterest": "16901",
-          "TotalExpensesOther": "5384923",
-          "TotalGrossIncomeDonationsAndRequests": "175605",
-          "TotalGrossIncomeGoodsOrServices": "0",
-          "TotalGrossIncomeGovernmentGrants": "12612811",
-          "TotalGrossIncomeInvestments": "234549",
-          "TotalGrossIncomeOtherRevenues": "375105",
-          "TransparencyRegisterUrl": null,
-          "Website": "www.healingfoundation.org.au",
-          "__normalized": true,
-          "type": "charity",
-          "uuid": "80dbf4ea-38af-e811-a95e-000d3ad24c60"
-        },
-        "type": "charity",
-        "uuid": "80dbf4ea-38af-e811-a95e-000d3ad24c60"
-      },
-      "canonical_field_mappings": {
-        "data.OtherNames": "operating_names",
-        "data.AddressStateOrProvince": "principal_location"
-      },
-      "evidence_ids": []
-    },
-    {
-      "source_record_id": "src:acnc-ais-detail:92140312385:73fcc44e-fa11-f111-8406-0022489549a2:cb_d9b82b997407475d8d30e4535bb0375f",
-      "source_family": "acnc-ais-detail",
-      "dataset_version": "2026-08-14-public-api",
-      "source_url": "https://www.acnc.gov.au/charity/charities/80dbf4ea-38af-e811-a95e-000d3ad24c60/documents/73fcc44e-fa11-f111-8406-0022489549a2",
-      "retrieved_at": "2026-08-13T13:54:42.956606Z",
-      "observed_at": "2026-01-30",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "abn": "92140312385",
-        "ais_uuid": "73fcc44e-fa11-f111-8406-0022489549a2",
-        "year": "2025",
-        "date_received": "2026-01-30T05:11:05.0000000Z"
-      },
-      "source_payload": {
-        "data": {
-          "Abn": "92140312385",
-          "ActivityAdvocacyNCivic": false,
-          "ActivityAgedCare": false,
-          "ActivityAnimalProtection": false,
-          "ActivityCultureAndArt": false,
-          "ActivityEconomicSocialCommunity": false,
-          "ActivityEmergencyNRelief": false,
-          "ActivityEmploymentNTraining": false,
-          "ActivityEnvironmental": false,
-          "ActivityGrantMaking": false,
-          "ActivityHealthRehabilitation": false,
-          "ActivityHigherEducation": false,
-          "ActivityHousing": false,
-          "ActivityIncomeSupportNMaintenance": false,
-          "ActivityInternational": false,
-          "ActivityInternationalDescription": null,
-          "ActivityInternationalOther": false,
-          "ActivityInternationalOtherDescription": null,
-          "ActivityLawNLegalServices": false,
-          "ActivityMain": null,
-          "ActivityMentalHealthCrisisIntervention": false,
-          "ActivityNdisSupported": null,
-          "ActivityNdisSupportedNext": null,
-          "ActivityOperating": true,
-          "ActivityOperatingOverseas": false,
-          "ActivityOther": false,
-          "ActivityOtherDescription": null,
-          "ActivityOtherEducation": false,
-          "ActivityOtherHealthServices": false,
-          "ActivityPersuitPurposesDescription": "The principal activities of Aboriginal and Torres Strait Islander Healing Foundation Limited (The Healing Foundation) during the financial year were to partner with communities to address trauma caused by actions like the forced removal of children, and to create an evidence-based policy environment ensuring quality healing responses.",
-          "ActivityPhilanthropicPromotion": false,
-          "ActivityPolitical": false,
-          "ActivityPrimarySecondaryEducation": false,
-          "ActivityPurposeChange": null,
-          "ActivityPurposeChangeDescription": null,
-          "ActivityRecreationSocialClub": false,
-          "ActivityReligious": false,
-          "ActivityResearch": false,
-          "ActivitySocialServices": false,
-          "ActivitySports": false,
-          "ActivityTransferringFundsGoods": false,
-          "AdvancementOfEducation": false,
-          "AdvancementOfReligion": false,
-          "AssetsandLiabilitiesDescription": null,
-          "BasicReligiousCharity": false,
-          "BeneficiaryAboriginalTorres": false,
-          "BeneficiaryAdults": false,
-          "BeneficiaryAllAges": false,
-          "BeneficiaryChildren": false,
-          "BeneficiaryChronicIllness": false,
-          "BeneficiaryCrimeVictims": false,
-          "BeneficiaryDisasterVictims": false,
-          "BeneficiaryEarlyChildhood": false,
-          "BeneficiaryEthnic": false,
-          "BeneficiaryFamilies": false,
-          "BeneficiaryFinanciallyDisadvantaged": false,
-          "BeneficiaryGeneral": false,
-          "BeneficiaryHomelessnessRisk": false,
-          "BeneficiaryLGBT": false,
-          "BeneficiaryMain": null,
-          "BeneficiaryMen": false,
-          "BeneficiaryMigrantsRefugees": false,
-          "BeneficiaryOffenderFamilies": false,
-          "BeneficiaryOther": false,
-          "BeneficiaryOtherCharities": false,
-          "BeneficiaryOtherDescription": null,
-          "BeneficiaryOverseas": false,
-          "BeneficiaryPeopleWithDisability": false,
-          "BeneficiaryRuralRegionalRemote": false,
-          "BeneficiarySeniors": false,
-          "BeneficiaryUnemployed": false,
-          "BeneficiaryVeteranFamilies": false,
-          "BeneficiaryWomen": false,
-          "BeneficiaryYouth": false,
-          "CharityAddressCountry": "Australia",
-          "CharityAddressLine1": "Off 11 11 National Cct",
-          "CharityAddressLine2": null,
-          "CharityAddressPostalCode": "2600",
-          "CharityAddressStateOrProvince": "ACT",
-          "CharityAddressSuburb": "Barton",
-          "CharityEmail": "secretariat@healingfoundation.org.au",
-          "CharitySize": "Large",
-          "CharityUuid": "80dbf4ea-38af-e811-a95e-000d3ad24c60",
-          "ChildCareServices": false,
-          "ExpenseEmployees": "5671637.0000",
-          "ExpenseGrantDonationsInAustralia": "1535405.0000",
-          "ExpenseGrantDonationsOutsideAustralia": "0.0000",
-          "ExpenseTotal": "12608866.0000",
-          "ExpensesOther": "5384923.0000",
-          "FinAccrualAccounting": null,
-          "FinConsolidatedReportFromMiltiple": "No",
-          "FinDocumentedPoliciesRelatedPartyTransactions": null,
-          "FinFyeJune": false,
-          "FinProvideVoluntarily": null,
-          "FinRelatedPartyTransactions": "No",
-          "FinReportACT": false,
-          "FinReportFrom": "2024-07-01T00:00:00.0000000Z",
-          "FinReportNSW": false,
-          "FinReportNT": false,
-          "FinReportQLD": false,
-          "FinReportSA": false,
-          "FinReportTAS": false,
-          "FinReportTo": "2025-06-30T00:00:00.0000000Z",
-          "FinReportVIC": false,
-          "FinReportWA": false,
-          "FinReportingType": "General purpose financial statements   simplified disclosure",
-          "FinSapDate": null,
-          "FundRaisingNumberACT": "19000874",
-          "FundRaisingNumberNSW": "23670",
-          "FundRaisingNumberQLD": "CH2670",
-          "FundRaisingNumberSA": "CCP2499",
-          "FundRaisingNumberTAS": "C/10185",
-          "FundRaisingNumberVIC": "13369",
-          "FundRaisingNumberWA": "CC21819",
-          "GovDocAccurate": null,
-          "GrantCapacityBuildingPct": null,
-          "GrantMultiYearPct": null,
-          "GrantPublicOpenApplicationPct": null,
-          "GrantRuralRegionPct": null,
-          "HasSubmittedToRegulator": false,
-          "HoursPaid": null,
-          "HoursTotal": null,
-          "HoursVolunteer": null,
-          "HrCasualEmployees": "0",
-          "HrFteStaff": "31.8300000000",
-          "HrFullTimeEmployees": "29",
-          "HrPartTimeEmployees": "6",
-          "HrUnpainVolunteers": "0",
-          "IncomeDonationsBequests": "175605.0000",
-          "IncomeGovernmentGrants": "12612811.0000",
-          "IncomeOther": "0.0000",
-          "IncomeOtherComprehinsive": "0.0000",
-          "IncomeOtherNeg": null,
-          "IncomeOtherReceipts": "375105.0000",
-          "IncomeTotalComprehensive": "789204.0000",
-          "IncomeTotalReceipts": "13398070.0000",
-          "IncorporationStatus": null,
-          "InterestExpense": "16901.0000",
-          "IsIncorporatedAssociation": false,
-          "KeyManagementPersonnel": true,
-          "LegalName": "Aboriginal And Torres Strait Islander Healing Foundation Limited",
-          "NetAssetsLiabilities": "4248268.0000",
-          "NetSurplusDeficit": "789204.0000",
-          "NonCurrentLoansPayable": "0.0000",
-          "NumberOfKeyManagementPersonnel": "13",
-          "OperatingCountries": null,
-          "OperatingInACT": false,
-          "OperatingInNSW": false,
-          "OperatingInNT": false,
-          "OperatingInQLD": false,
-          "OperatingInSA": false,
-          "OperatingInTAS": false,
-          "OperatingInVIC": false,
-          "OperatingInWA": false,
-          "OperatingOverseas": false,
-          "OtherNames": [],
-          "OtherNonCurrentAssets": "333144.0000",
-          "OtherNonCurrentLiabilities": "292516.0000",
-          "OtherPurposeDescription": null,
-          "OtherPurposes": "False",
-          "Programs": [
-            {
-              "AisUuid": "73fcc44e-fa11-f111-8406-0022489549a2",
-              "Name": "Aboriginal and Torres Strait Islander People",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "People in rural/regional/remote communities",
-                "Aboriginal and Torres Strait Islander people"
-              ],
-              "ProgramClassification": "Community development",
-              "ProgramClassificationID": "118",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "Australia",
-                  "FormattedAddress": "Australia",
-                  "Marker": {
-                    "Latitude": -25.274398,
-                    "Longitude": 133.775136
-                  },
-                  "Name": "Australia",
-                  "uuid": "5090c454-fa11-f111-8406-0022489549a2"
-                }
-              ],
-              "ProgramWeblink": null,
-              "uuid": "4a90c454-fa11-f111-8406-0022489549a2"
-            }
-          ],
-          "RegulatedACT": false,
-          "RegulatedNSW": false,
-          "RegulatedNT": false,
-          "RegulatedQLD": false,
-          "RegulatedSA": false,
-          "RegulatedTAS": false,
-          "RegulatedVIC": false,
-          "RegulatedWA": false,
-          "Regulator": null,
-          "RegulatorAGMDateACT": null,
-          "RegulatorAGMDateNT": null,
-          "RegulatorAGMDateVIC": null,
-          "RegulatorAGMDateWA": null,
-          "RegulatorFundRaising": "Yes",
-          "RegulatorFundRaisingACT": true,
-          "RegulatorFundRaisingNSW": true,
-          "RegulatorFundRaisingNT": true,
-          "RegulatorFundRaisingOnline": false,
-          "RegulatorFundRaisingQLD": true,
-          "RegulatorFundRaisingSA": true,
-          "RegulatorFundRaisingTAS": true,
-          "RegulatorFundRaisingVIC": true,
-          "RegulatorFundRaisingWA": true,
-          "RegulatorIncorporatedAssociationACT": false,
-          "RegulatorIncorporatedAssociationNSW": false,
-          "RegulatorIncorporatedAssociationNT": false,
-          "RegulatorIncorporatedAssociationNumberACT": null,
-          "RegulatorIncorporatedAssociationNumberNSW": null,
-          "RegulatorIncorporatedAssociationNumberNT": null,
-          "RegulatorIncorporatedAssociationNumberQLD": null,
-          "RegulatorIncorporatedAssociationNumberSA": null,
-          "RegulatorIncorporatedAssociationNumberTAS": null,
-          "RegulatorIncorporatedAssociationNumberVIC": null,
-          "RegulatorIncorporatedAssociationNumberWA": null,
-          "RegulatorIncorporatedAssociationQLD": false,
-          "RegulatorIncorporatedAssociationSA": false,
-          "RegulatorIncorporatedAssociationTAS": false,
-          "RegulatorIncorporatedAssociationVIC": false,
-          "RegulatorIncorporatedAssociationWA": false,
-          "RegulatorMetRequirementACT": false,
-          "RegulatorMetRequirementWA": null,
-          "RegulatorOtherDetails": null,
-          "RegulatorPrograms": null,
-          "RegulatorStates": false,
-          "RelatedPartyDetails": null,
-          "RelatedPartyTransactions": [],
-          "ReliefOfPoverty": false,
-          "ReportingGroupFlag": false,
-          "ResponsiblePersonAccurate": null,
-          "RevenueGoodsServices": "0.0000",
-          "RevenueInvestments": "234549.0000",
-          "RevenueTotal": "13398070.0000",
-          "StatementYear": "2025",
-          "SubTypesAccurate": null,
-          "TotalAssets": "9625658.0000",
-          "TotalCurrentAssets": "9292514.0000",
-          "TotalCurrentLiabilities": "5084874.0000",
-          "TotalLiabilities": "5377390.0000",
-          "TotalNonCurrentAssets": "333144.0000",
-          "TotalNonCurrentLiabilities": "292516.0000",
-          "TotalNonCurrentLoansReceivable": "0.0000",
-          "TotalPaidKMP": "$1,532,950.00",
-          "Website": "www.healingfoundation.org.au",
-          "__normalized": true,
-          "entityTypeVersion": "",
-          "entityVersion": "1873544548",
-          "timeStamp": "2026-02-25T03:30:29.0000000Z",
-          "type": "annual_information_statement",
-          "uuid": "73fcc44e-fa11-f111-8406-0022489549a2"
-        },
-        "type": "annual_information_statement",
-        "uuid": "73fcc44e-fa11-f111-8406-0022489549a2"
-      },
-      "canonical_field_mappings": {
-        "data.Programs": "programs",
-        "data.TotalRevenue": "financial_records[].revenue",
-        "data.TotalExpenses": "financial_records[].total_expenses"
-      },
-      "evidence_ids": [
-        "ev:acnc:ais:92140312385:73fcc44e-fa11-f111-8406-0022489549a2"
-      ]
-    }
-  ],
-  "financial_records": [
-    {
-      "financial_record_id": "fr:ais:cb_d9b82b997407475d8d30e4535bb0375f:2023",
-      "period": {
-        "period_start": "2022-07-01",
-        "period_end": "2023-06-30",
-        "period_length_days": 365,
-        "label": "01/07/2022 to 30/06/2023",
-        "is_transitional_or_nonstandard": false
-      },
-      "reporting_scope": "subject",
-      "reporting_subject_causebase_id": "cb_d9b82b997407475d8d30e4535bb0375f",
-      "covered_subjects": [
-        "cb_d9b82b997407475d8d30e4535bb0375f"
-      ],
-      "consolidated": "false",
-      "attribution_method": "direct_subject_report",
-      "evidence_ids": [
-        "ev:ais:92140312385:2023"
-      ],
-      "revenue": {
-        "source_amount": "9041707",
-        "source_currency": "AUD",
-        "source_unit_scale": "1",
-        "normalised_amount": "9041707",
-        "normalised_currency": "AUD",
-        "source_unit_label": null,
-        "source_raw_value": "9041707",
-        "source_precision": null
-      },
-      "donations": null,
-      "government_grants": null,
-      "employee_costs": null,
-      "total_expenses": {
-        "source_amount": "5783801",
-        "source_currency": "AUD",
-        "source_unit_scale": "1",
-        "normalised_amount": "5783801",
-        "normalised_currency": "AUD",
-        "source_unit_label": null,
-        "source_raw_value": "5783801",
-        "source_precision": null
-      },
-      "assets": null,
-      "liabilities": null,
-      "net_assets": null,
-      "income_breakdown": [],
-      "expense_breakdown": [],
-      "balance_sheet_breakdown": [],
-      "source_ordered_line_items": [],
-      "statements": [],
-      "donations_gifts_bequests": null,
-      "functional_expense_allocations": []
-    }
-  ],
-  "financial_metrics": [
-    {
-      "metric": "revenue",
-      "observations": [
-        {
-          "financial_record_id": "fr:ais:cb_d9b82b997407475d8d30e4535bb0375f:2023",
-          "amount": {
-            "source_amount": "9041707",
-            "source_currency": "AUD",
-            "source_unit_scale": "1",
-            "normalised_amount": "9041707",
-            "normalised_currency": "AUD",
-            "source_unit_label": null,
-            "source_raw_value": "9041707",
-            "source_precision": null
-          },
-          "metric_source_label": null,
-          "evidence_ids": [
-            "ev:ais:92140312385:2023"
-          ]
-        }
-      ],
-      "reconciliation_status": "single_observation",
-      "reconciliation_notes": null
-    },
-    {
-      "metric": "total_expenses",
-      "observations": [
-        {
-          "financial_record_id": "fr:ais:cb_d9b82b997407475d8d30e4535bb0375f:2023",
-          "amount": {
-            "source_amount": "5783801",
-            "source_currency": "AUD",
-            "source_unit_scale": "1",
-            "normalised_amount": "5783801",
-            "normalised_currency": "AUD",
-            "source_unit_label": null,
-            "source_raw_value": "5783801",
-            "source_precision": null
-          },
-          "metric_source_label": null,
-          "evidence_ids": [
-            "ev:ais:92140312385:2023"
-          ]
-        }
-      ],
-      "reconciliation_status": "single_observation",
-      "reconciliation_notes": null
-    }
-  ],
-  "fundraising_expenditure": null,
-  "funding_sources": [],
-  "fundraising_methods": [],
-  "classifications": [
-    {
-      "taxonomy_id": "acnc-register",
-      "taxonomy_version": "2026-08-10",
-      "term_id": "purpose.other_purpose",
-      "term_label": "other purpose",
-      "assignment_method": "source_native",
-      "confidence": "high",
-      "evidence_ids": [
-        "ev:acnc:92140312385"
-      ]
-    },
-    {
-      "taxonomy_id": "acnc-register",
-      "taxonomy_version": "2026-08-10",
-      "term_id": "beneficiary.regional_remote",
-      "term_label": "regional remote",
-      "assignment_method": "source_native",
-      "confidence": "high",
-      "evidence_ids": [
-        "ev:acnc:92140312385"
-      ]
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "activity.advocacy",
-      "term_label": "Advocacy",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "activity.events_and_public_programming",
-      "term_label": "Events and public programming",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "activity.direct_service",
-      "term_label": "Direct service delivery",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "approach.community_partnership",
-      "term_label": "Community partnership",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "geography.australia",
-      "term_label": "Australia",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "organisation.national",
-      "term_label": "National organisation",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "beneficiary.people_experiencing_disadvantage",
-      "term_label": "People experiencing disadvantage",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "participation.public_events",
-      "term_label": "Public events",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
+      "review_status": "not_required",
+      "conflicting_signals": []
     }
   ],
   "evidence": [
     {
       "evidence_id": "ev:acnc:92140312385",
-      "source_type": "regulatory",
-      "title": "ACNC Register extract",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": null,
-      "observed_at": "2026-08-10",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "title": "ACNC Register extract"
     },
     {
       "evidence_id": "ev:web:92140312385:2026-08-10",
-      "source_type": "organisation_self_report",
       "title": "Organisation website homepage",
-      "publisher": "Aboriginal And Torres Strait Islander Healing Foundation Limited",
-      "url": "https://www.healingfoundation.org.au",
-      "observed_at": "2026-08-10",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://www.healingfoundation.org.au"
     },
     {
       "evidence_id": "ev:ais:92140312385:2023",
-      "source_type": "regulatory",
-      "title": "ACNC AIS 2023 extract",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": null,
-      "observed_at": "2026-08-10",
-      "reporting_period": "01/07/2022 to 30/06/2023",
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "title": "ACNC AIS 2023 extract"
     },
     {
       "evidence_id": "ev:acnc:ais:92140312385:73fcc44e-fa11-f111-8406-0022489549a2",
-      "source_type": "regulatory",
       "title": "ACNC Annual Information Statement 2025",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": "https://www.acnc.gov.au/charity/charities/80dbf4ea-38af-e811-a95e-000d3ad24c60/documents/73fcc44e-fa11-f111-8406-0022489549a2",
-      "observed_at": "2026-01-30",
-      "reporting_period": "2025",
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://www.acnc.gov.au/charity/charities/80dbf4ea-38af-e811-a95e-000d3ad24c60/documents/73fcc44e-fa11-f111-8406-0022489549a2"
     },
     {
       "evidence_id": "ev:abr-dgr:92140312385:20260805",
-      "source_type": "regulatory",
       "title": "ABR DGR bulk observation",
-      "publisher": "Australian Business Register / Australian Taxation Office",
-      "url": "https://abr.business.gov.au/Tools/BulkExtract",
-      "observed_at": "2026-08-05",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://abr.business.gov.au/Tools/BulkExtract"
     }
   ],
-  "embedding": {
-    "embedding_id": "cb_d9b82b997407475d8d30e4535bb0375f:entity:text-embedding-3-small",
-    "embedding_type": "entity",
-    "model_id": "text-embedding-3-small",
-    "model_version": "text-embedding-3-small",
-    "dimensions": 1536,
-    "source_text_hash": "aabc78262483e62ae7110a3a493a96bae7b190ff651c13856c8591ac510fbec1",
-    "generated_at": "2026-08-10T13:53:24.456867Z",
-    "vector_ref": "embeddings.parquet#cb_d9b82b997407475d8d30e4535bb0375f"
+  "summary": {
+    "derivative_id": "der:rc4:cb_d9b82b997407475d8d30e4535bb0375f:summary",
+    "text": "Aboriginal And Torres Strait Islander Healing Foundation Limited (The Healing Foundation) is a national Aboriginal and Torres Strait Islander organisation registered in the Australian Capital Territory. It works with Stolen Generations survivors, their families and broader Aboriginal and Torres Strait Islander communities to support survivor\u2011led, community\u2011led healing and to restore cultural connections. Its activities include community healing projects, a grants program for truth\u2011telling projects, production and dissemination of resources (fact sheets, reports, toolkits and videos), online events and public forums, and advocacy with government and policy makers about trauma\u2011aware, healing\u2011informed practice. The organisation also publishes policy material and maintains a library of resources for practitioners, survivors and other audiences."
   },
-  "synthesis": {
-    "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
-    "parameters": {
-      "max_output_tokens": 3000,
-      "structured_output": true,
-      "output_contract": "causebase-summary-v0.3-rc2"
-    },
-    "evidence_input_hash": "5438e4ccd36c67a0bf494386d33332408d0e56f434945d6968f47ae46024a68f",
-    "generated_at": "2026-08-12T13:58:44.326945Z",
-    "editorial_policy_version": "0.3-rc2"
-  },
-  "derivative_assessments": [
+  "activities": [],
+  "beneficiaries": [],
+  "descriptive_geography": [],
+  "navigation_geography": [],
+  "funding_sources": [],
+  "fundraising_methods": [],
+  "participation": [],
+  "opportunities": [],
+  "programs": [
     {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T13:58:44.326945Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-13T13:54:42.956606Z",
-      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
-      "input_hash": "5438e4ccd36c67a0bf494386d33332408d0e56f434945d6968f47ae46024a68f",
-      "disposition": "reused",
-      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
-      "affected_dimensions": [
-        "summary"
-      ]
+      "observation_id": "obs:rc4:cb_d9b82b997407475d8d30e4535bb0375f:program:prg:acnc:92140312385:4a90c454-fa11-f111-8406-0022489549a2",
+      "program_id": "prg:acnc:92140312385:4a90c454-fa11-f111-8406-0022489549a2",
+      "name": "Aboriginal and Torres Strait Islander People",
+      "description": "Community development",
+      "url": "https://www.acnc.gov.au/charity/charities/80dbf4ea-38af-e811-a95e-000d3ad24c60/documents/73fcc44e-fa11-f111-8406-0022489549a2",
+      "status": "current",
+      "claim_basis": "direct",
+      "extraction_method": "api",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:ais:92140312385:73fcc44e-fa11-f111-8406-0022489549a2"
+      ],
+      "time": {
+        "reporting_period": {
+          "label": "2025"
+        }
+      },
+      "warnings": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-14-rc4-fundraising-projection-correction",
-  "card_schema_version": "0.4",
-  "editorial_policy_version": "0.4-rc4",
-  "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T13:54:42.956606Z"
+  "relationships": [],
+  "classifications": [
+    {
+      "observation_id": "obs:rc4:cb_d9b82b997407475d8d30e4535bb0375f:classification:0",
+      "classification_id": "cls:rc4:cb_d9b82b997407475d8d30e4535bb0375f:0",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "purpose.other_purpose",
+      "term_label": "other purpose",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:92140312385"
+      ],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_d9b82b997407475d8d30e4535bb0375f:classification:1",
+      "classification_id": "cls:rc4:cb_d9b82b997407475d8d30e4535bb0375f:1",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "beneficiary.regional_remote",
+      "term_label": "regional remote",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:92140312385"
+      ],
+      "confidence": "high",
+      "warnings": []
+    }
+  ],
+  "coverage": {
+    "registry_id": "capability-registry-0.5-initial",
+    "current": [
+      {
+        "capability": "regulatory.acnc_profile",
+        "status": "observed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:acnc:92140312385"
+        ]
+      },
+      {
+        "capability": "regulatory.ais",
+        "status": "observed",
+        "assessed_at": "2026-01-30",
+        "source_record_ids": [
+          "src:acnc-ais-detail:92140312385:73fcc44e-fa11-f111-8406-0022489549a2:cb_d9b82b997407475d8d30e4535bb0375f"
+        ],
+        "evidence_ids": [
+          "ev:acnc:ais:92140312385:73fcc44e-fa11-f111-8406-0022489549a2"
+        ]
+      },
+      {
+        "capability": "tax.dgr",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "web.website",
+        "status": "observed",
+        "assessed_at": "2026-08-13",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "report.annual_report",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "financial.report",
+        "status": "unknown",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:ais:92140312385:2023"
+        ]
+      },
+      {
+        "capability": "financial.statements",
+        "status": "unknown",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:ais:92140312385:2023"
+        ]
+      },
+      {
+        "capability": "understanding.activities",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.beneficiaries",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.geography",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "programs",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "participation",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "funding.sources",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.methods",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.expenditure",
+        "status": "not_available_from_source",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "taxonomy.causebase",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "semantic.embedding",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      }
+    ]
+  },
+  "financial_reports": [],
+  "canonical_metrics": [],
+  "analytic_projections": [],
+  "derivatives": [
+    {
+      "derivative_id": "der:rc4:cb_d9b82b997407475d8d30e4535bb0375f:summary",
+      "kind": "summary",
+      "input_observation_ids": [],
+      "evidence_ids": [
+        "ev:web:92140312385:2026-08-10",
+        "ev:ais:92140312385:2023",
+        "ev:acnc:92140312385"
+      ],
+      "generated_under": {
+        "output_contract_version": "phase2b-rc4-accepted-rc2-summary-reuse",
+        "input_hash": "5438e4ccd36c67a0bf494386d33332408d0e56f434945d6968f47ae46024a68f",
+        "generated_at": "2026-08-12T13:58:44.326945Z"
+      },
+      "current_assessment": {
+        "assessed_at": "2026-08-13T13:54:42.956606Z",
+        "assessed_against_contract": "0.5",
+        "governing_input_hash": "5438e4ccd36c67a0bf494386d33332408d0e56f434945d6968f47ae46024a68f",
+        "disposition": "reused",
+        "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs."
+      }
+    }
+  ],
+  "legacy_unbound": {
+    "origin_release": "rc4-2026-08-14",
+    "origin_card_sha256": "66d43e12544de17ff1fa7d1042afedab871980882692c448d26e041b961bcb02",
+    "activities": [
+      {
+        "value": "Advocacy with government and policymakers",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Community\u2011led and survivor\u2011led healing projects",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Resource production (fact sheets, reports, toolkits, videos)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Grant program for truth\u2011telling projects",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Online events and public forums",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "beneficiaries": [
+      {
+        "value": "Stolen Generations survivors and their families",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Aboriginal and Torres Strait Islander communities",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "descriptive_geography": [
+      {
+        "value": "Australia (self\u2011described national reach)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Australian Capital Territory (registered per ACNC)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "classifications": [
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "activity.advocacy",
+        "term_label": "Advocacy",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "activity.events_and_public_programming",
+        "term_label": "Events and public programming",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "activity.direct_service",
+        "term_label": "Direct service delivery",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "approach.community_partnership",
+        "term_label": "Community partnership",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "geography.australia",
+        "term_label": "Australia",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "organisation.national",
+        "term_label": "National organisation",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "beneficiary.people_experiencing_disadvantage",
+        "term_label": "People experiencing disadvantage",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "participation.public_events",
+        "term_label": "Public events",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      }
+    ],
+    "financial_records": [
+      {
+        "financial_record_id": "fr:ais:cb_d9b82b997407475d8d30e4535bb0375f:2023",
+        "period": {
+          "period_start": "2022-07-01",
+          "period_end": "2023-06-30",
+          "period_length_days": 365,
+          "label": "01/07/2022 to 30/06/2023",
+          "is_transitional_or_nonstandard": false
+        },
+        "reporting_scope": "subject",
+        "reporting_subject_causebase_id": "cb_d9b82b997407475d8d30e4535bb0375f",
+        "covered_subjects": [
+          "cb_d9b82b997407475d8d30e4535bb0375f"
+        ],
+        "consolidated": "false",
+        "attribution_method": "direct_subject_report",
+        "evidence_ids": [
+          "ev:ais:92140312385:2023"
+        ],
+        "revenue": {
+          "source_amount": "9041707",
+          "source_currency": "AUD",
+          "source_unit_scale": "1",
+          "normalised_amount": "9041707",
+          "normalised_currency": "AUD",
+          "source_unit_label": null,
+          "source_raw_value": "9041707",
+          "source_precision": null
+        },
+        "donations": null,
+        "government_grants": null,
+        "employee_costs": null,
+        "total_expenses": {
+          "source_amount": "5783801",
+          "source_currency": "AUD",
+          "source_unit_scale": "1",
+          "normalised_amount": "5783801",
+          "normalised_currency": "AUD",
+          "source_unit_label": null,
+          "source_raw_value": "5783801",
+          "source_precision": null
+        },
+        "assets": null,
+        "liabilities": null,
+        "net_assets": null,
+        "income_breakdown": [],
+        "expense_breakdown": [],
+        "balance_sheet_breakdown": [],
+        "source_ordered_line_items": [],
+        "statements": [],
+        "donations_gifts_bequests": null,
+        "functional_expense_allocations": []
+      }
+    ]
+  }
 }

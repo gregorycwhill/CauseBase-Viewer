@@ -1,987 +1,420 @@
 {
   "causebase_id": "cb_57b76ad8dc4d4628a4f07e602fbbcb44",
+  "contract_version": "0.5",
   "subject_kind": "unknown",
-  "external_identifiers": [
-    {
-      "scheme": "abn",
-      "value": "11580238789",
-      "source_evidence_id": "ev:acnc:11580238789"
-    }
+  "identity": {
+    "legal_name": "DARWIN VOLUNTEER UNIT (NTES) ASSOCIATION INCORPORATION",
+    "display_name": "DARWIN VOLUNTEER UNIT (NTES) ASSOCIATION INCORPORATION",
+    "operating_names": [],
+    "former_names": [],
+    "entity_status": "registered",
+    "website": "pfes.nt.gov.au/emergency-service",
+    "external_identifiers": [
+      {
+        "scheme": "abn",
+        "value": "11580238789",
+        "evidence_ids": [
+          "ev:acnc:11580238789"
+        ]
+      }
+    ],
+    "registrations": [
+      {
+        "regulator": "ACNC",
+        "status": "registered",
+        "evidence_ids": [
+          "ev:acnc:11580238789"
+        ]
+      }
+    ],
+    "tax_statuses": []
+  },
+  "release": {
+    "release_id": "v0.5.0-2026-08-15",
+    "dataset_version": "0.5.0-2026-08-15",
+    "contract_version": "0.5",
+    "based_on_release": "rc4-2026-08-14",
+    "generated_at": "2026-08-15T00:00:00Z"
+  },
+  "source_record_refs": [
+    "src:acnc-public-profile:11580238789:ceccfc3b-69f5-ee11-a1ff-002248122b18:cb_57b76ad8dc4d4628a4f07e602fbbcb44",
+    "src:acnc-ais-detail:11580238789:ba5452f5-0683-f011-b4cc-000d3ad25630:cb_57b76ad8dc4d4628a4f07e602fbbcb44"
   ],
-  "registrations": [
-    {
-      "regulator": "ACNC",
-      "registration_id": null,
-      "status": "registered",
-      "evidence_ids": [
-        "ev:acnc:11580238789"
-      ]
-    }
-  ],
-  "tax_statuses": [],
-  "relationships": [],
-  "source_resolutions": [
+  "source_bindings": [
     {
       "source_record_id": "src:acnc-register:988eb82e-629c-57c2-9942-09af838db040",
       "resolution_status": "resolved",
       "resolution_basis": "automated authoritative ACNC promotion under acnc-authoritative-v1",
       "confidence": "high",
-      "supporting_signals": [
-        "ABN:11580238789",
-        "ACNC Register"
-      ],
-      "conflicting_signals": [],
-      "review_status": "not_required"
-    }
-  ],
-  "legal_name": "DARWIN VOLUNTEER UNIT (NTES) ASSOCIATION INCORPORATION",
-  "display_name": "DARWIN VOLUNTEER UNIT (NTES) ASSOCIATION INCORPORATION",
-  "entity_status": "registered",
-  "canonical_url": "https://gregorycwhill.github.io/CauseBase-Viewer/#cb_57b76ad8dc4d4628a4f07e602fbbcb44",
-  "acnc_profile_url": "https://www.acnc.gov.au/charity/charities/ceccfc3b-69f5-ee11-a1ff-002248122b18/profile",
-  "acnc_ais_url": "https://www.acnc.gov.au/charity/charities/ceccfc3b-69f5-ee11-a1ff-002248122b18/documents/ba5452f5-0683-f011-b4cc-000d3ad25630",
-  "operating_names": [],
-  "former_names": [],
-  "principal_location": "NT, Australia",
-  "coverage": [
-    {
-      "capability": "regulatory",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:acnc:11580238789"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "annual_report",
-      "status": "not_yet_processed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "fundraising_expenditure",
-      "status": "not_yet_processed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "financials",
-      "status": "not_found_in_source",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "latest_acnc_ais",
-      "status": "observed",
-      "source_record_id": "src:acnc-ais-detail:11580238789:ba5452f5-0683-f011-b4cc-000d3ad25630:cb_57b76ad8dc4d4628a4f07e602fbbcb44",
-      "evidence_ids": [
-        "ev:acnc:ais:11580238789:ba5452f5-0683-f011-b4cc-000d3ad25630"
-      ],
-      "observed_at": "2025-08-27",
-      "freshness_note": "Latest submitted AIS detail acquired from the public ACNC entity endpoint."
-    },
-    {
-      "capability": "website",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-13",
-      "freshness_note": "Public website locator acquired from the ACNC profile."
-    }
-  ],
-  "enrichment_level": "enriched",
-  "website": "pfes.nt.gov.au/emergency-service",
-  "geography": [
-    "Northern Territory (NT)",
-    "Australia"
-  ],
-  "geography_observations": [
-    {
-      "value": "Northern Territory (NT)",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Australia",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "navigation_geography": [],
-  "causebase_summary": "Darwin Volunteer Unit (NTES) Association Incorporation is the volunteer component of the Northern Territory Emergency Service (NTES), part of NT Police, Fire and Emergency Services, operating across the Northern Territory. NTES maintains a volunteer-led response capability for floods, storms and cyclones, facilitates emergency management planning, and provides public information and community engagement on preparedness and public safety. Volunteers from a range of backgrounds support operational response activities and local community awareness initiatives, and NTES is affiliated with the Australia-wide State Emergency Service. The service publishes flood preparedness advice and practical guidance for residents and promotes community engagement in resilience and preparedness work.",
-  "summary_evidence_ids": [
-    "ev:acnc:11580238789",
-    "ev:web:11580238789:2026-08-10"
-  ],
-  "organisation_self_description": null,
-  "activities": [
-    "Emergency management planning",
-    "Volunteer-led emergency response for floods, storms and cyclones",
-    "Public awareness and flood preparedness information",
-    "Community engagement activities (community engagement page)"
-  ],
-  "activity_observations": [
-    {
-      "value": "Emergency management planning",
-      "source_role": "legacy_source_qualifier",
-      "provenance_note": "as described by NTES",
-      "evidence_ids": []
-    },
-    {
-      "value": "Volunteer-led emergency response for floods, storms and cyclones",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Public awareness and flood preparedness information",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Community engagement activities (community engagement page)",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "beneficiaries": [
-    "Residents and communities of the Northern Territory"
-  ],
-  "beneficiary_observations": [
-    {
-      "value": "Residents and communities of the Northern Territory",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "participation_modes": [
-    "Volunteering through NTES units",
-    "Participation in community engagement and public information activities"
-  ],
-  "participation_observations": [],
-  "opportunities": [],
-  "programs": [
-    {
-      "program_id": "prg:acnc:11580238789:2dda4701-0783-f011-b4cc-000d3ad25630",
-      "name": "Resources",
-      "description": "Disasters and emergency management",
-      "beneficiaries": [
-        "Adults - aged 25 to under 65",
-        "Adults - aged 65 and over",
-        "People with disabilities",
-        "Females",
-        "Males"
-      ],
-      "geography": [
-        "Darwin Northern Territory, Australia"
-      ],
-      "status": "current",
-      "reporting_period": "2025",
-      "source_url": "https://www.acnc.gov.au/charity/charities/ceccfc3b-69f5-ee11-a1ff-002248122b18/documents/ba5452f5-0683-f011-b4cc-000d3ad25630",
-      "evidence_ids": [
-        "ev:acnc:ais:11580238789:ba5452f5-0683-f011-b4cc-000d3ad25630"
-      ]
-    }
-  ],
-  "source_native_records": [
-    {
-      "source_record_id": "src:acnc-public-profile:11580238789:ceccfc3b-69f5-ee11-a1ff-002248122b18:cb_57b76ad8dc4d4628a4f07e602fbbcb44",
-      "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-14-public-api",
-      "source_url": "https://www.acnc.gov.au/charity/charities/ceccfc3b-69f5-ee11-a1ff-002248122b18/profile",
-      "retrieved_at": "2026-08-13T13:54:42.956606Z",
-      "observed_at": "2025-08-27",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "uuid": "ceccfc3b-69f5-ee11-a1ff-002248122b18",
-        "abn": "11580238789"
-      },
-      "source_payload": {
-        "data": {
-          "AFSAddressPostalCode": "0822",
-          "AFSEmail": "ntes_dvu@hotmail.com",
-          "Abn": "11580238789",
-          "AddressCountry": "Australia",
-          "AddressLine1": "265 Berrimah Rd",
-          "AddressLine2": null,
-          "AddressLine3": null,
-          "AddressPostalCode": "0822",
-          "AddressStateOrProvince": "NT",
-          "AddressSuburb": "Wishart",
-          "AddressSuburbStatePostcode": "Wishart NT 0822",
-          "AnnualReports": [
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2027-12-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Not yet submitted",
-              "Year": "2027",
-              "type": "Annual Information Statement 2027",
-              "uuid": "4f8e447d-0cff-f011-8406-00224810400c"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2027-12-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Pending",
-              "Year": "2027",
-              "type": "Financial Report 2027",
-              "uuid": "5d8e447d-0cff-f011-8406-00224810400c"
-            },
-            {
-              "AISId": "ba5452f5-0683-f011-b4cc-000d3ad25630",
-              "DateReceived": "2025-08-27T05:30:43.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2026-01-31T00:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2025",
-              "type": "Annual Information Statement 2025",
-              "uuid": "5a1cbe49-9e86-ef11-ac21-00224893b0ed"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2026-12-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Not yet submitted",
-              "Year": "2026",
-              "type": "Annual Information Statement 2026",
-              "uuid": "2c60b64f-9e86-ef11-ac21-00224893b0ed"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2025-08-27T05:30:22.0000000Z",
-              "DocumentUuid": "80ad96e5-0683-f011-b4cc-000d3acbcde3",
-              "DueDate": "2026-01-31T00:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2025",
-              "type": "Financial Report 2025",
-              "uuid": "3f60b64f-9e86-ef11-ac21-00224893b0ed"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2026-12-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Pending",
-              "Year": "2026",
-              "type": "Financial Report 2026",
-              "uuid": "5460b64f-9e86-ef11-ac21-00224893b0ed"
-            }
-          ],
-          "Beneficiaries": [
-            {
-              "Description": null,
-              "Name": "People with disabilities",
-              "uuid": "79a04207-0783-f011-b4cc-000d3ad25630"
-            },
-            {
-              "Description": null,
-              "Name": "Males",
-              "uuid": "81a04207-0783-f011-b4cc-000d3ad25630"
-            },
-            {
-              "Description": null,
-              "Name": "Females",
-              "uuid": "85a04207-0783-f011-b4cc-000d3ad25630"
-            },
-            {
-              "Description": null,
-              "Name": "Adults - aged 65 and over",
-              "uuid": "89a04207-0783-f011-b4cc-000d3ad25630"
-            },
-            {
-              "Description": null,
-              "Name": "Adults - aged 25 to under 65",
-              "uuid": "8ca04207-0783-f011-b4cc-000d3ad25630"
-            }
-          ],
-          "CharitySize": "Small",
-          "CharitySubtypeHistory": [
-            {
-              "EndDate": null,
-              "Purpose": "Advancing the security or safety of Australia or the Australian public",
-              "StartDate": "2023-07-01T00:00:00.0000000Z",
-              "uuid": "73b041c3-d37f-ef11-ac20-000d3acbf42a"
-            }
-          ],
-          "CharityVersion": "53",
-          "ChildMemberEndDate": null,
-          "ChildMemberStartDate": null,
-          "ChooseToProvideAis": null,
-          "Countries": [
-            {
-              "Name": "Australia",
-              "uuid": "f57b5602-9a4d-e811-a951-000d3ad06f2d"
-            }
-          ],
-          "DateEstablished": "1991-02-08T00:00:00.0000000Z",
-          "Documents": [
-            {
-              "Date": "2024-11-12T00:00:00.0000000",
-              "Title": "Constitution 24 September 2024.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/ceccfc3b-69f5-ee11-a1ff-002248122b18-2ef234b1-2f06-46ae-9dfa-116489e3d6ff-Governing%20Document-e6dbd108-9ea0-ef11-8a69-002248970cd7-Constitution_24_September_2024.pdf",
-              "Year": null,
-              "type": "Governing Document",
-              "uuid": "e6dbd108-9ea0-ef11-8a69-002248970cd7"
-            },
-            {
-              "Date": "2025-08-27T00:00:00.0000000",
-              "Title": "2025 Audited Financial Report - DVU AGM.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/ceccfc3b-69f5-ee11-a1ff-002248122b18-2ef234b1-2f06-46ae-9dfa-116489e3d6ff-Financial%20Report-80ad96e5-0683-f011-b4cc-000d3acbcde3-2025_Audited_Financial_Report_-_DVU_AGM.pdf",
-              "Year": "2025",
-              "type": "Financial Report",
-              "uuid": "80ad96e5-0683-f011-b4cc-000d3acbcde3"
-            }
-          ],
-          "Email": "ntes_dvu@hotmail.com",
-          "EnforcementOutcomes": [],
-          "FinancialYearEnd": "30/06",
-          "GovernmentAgencies": [
-            {
-              "Name": "NT - Incorporated Association",
-              "ReferenceNumber": "01591C/IA",
-              "uuid": "14da4701-0783-f011-b4cc-000d3ad25630"
-            },
-            {
-              "Name": "NT - Fundraising",
-              "ReferenceNumber": null,
-              "uuid": "1bda4701-0783-f011-b4cc-000d3ad25630"
-            }
-          ],
-          "GroupHeadFlag": false,
-          "LastReported": "2025-08-27T05:30:43.0000000Z",
-          "Name": "DARWIN VOLUNTEER UNIT (NTES) ASSOCIATION INCORPORATION",
-          "NextReportDue": "2026-12-31T12:30:00.0000000Z",
-          "OperatingInStates": [
-            {
-              "Name": "Northern Territory",
-              "uuid": "dd77d9b9-455e-e811-a95c-000d3ad1c715"
-            }
-          ],
-          "OtherDetails": null,
-          "OtherNames": [
-            {
-              "Name": null,
-              "uuid": "60b041c3-d37f-ef11-ac20-000d3acbf42a"
-            }
-          ],
-          "ParentAccountAbn": null,
-          "ParentAccountId": null,
-          "Phone": "0428558483",
-          "Programs": [
-            {
-              "AisUuid": "ba5452f5-0683-f011-b4cc-000d3ad25630",
-              "Name": "Resources",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Adults - aged 25 to under 65",
-                "Adults - aged 65 and over",
-                "People with disabilities",
-                "Females",
-                "Males"
-              ],
-              "ProgramClassie": [
-                {
-                  "classie_id": "699",
-                  "label": "Disasters and emergency management",
-                  "parent_id": "665",
-                  "selected": true
-                },
-                {
-                  "classie_id": "665",
-                  "label": "Public safety",
-                  "parent_id": null,
-                  "selected": false
-                }
-              ],
-              "ProgramClassification": "Disasters and emergency management",
-              "ProgramClassificationID": "699",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "Darwin Northern Territory, Australia",
-                  "FormattedAddress": "Darwin NT, Australia",
-                  "Marker": {
-                    "Latitude": -12.4637333,
-                    "Longitude": 130.8444446
-                  },
-                  "Name": "Darwin",
-                  "uuid": "30a04207-0783-f011-b4cc-000d3ad25630"
-                }
-              ],
-              "ProgramWeblink": null,
-              "uuid": "2dda4701-0783-f011-b4cc-000d3ad25630"
-            }
-          ],
-          "ReferendumReturnsUrl": null,
-          "RegistrationStatusHistory": [
-            {
-              "EffectiveDate": "2023-07-01T00:00:00.0000000Z",
-              "Status": "Registered",
-              "TransactionDate": "2024-10-10T00:26:31.0000000Z",
-              "uuid": "b0565c48-9e86-ef11-ac20-0022489806b3"
-            }
-          ],
-          "RelatedPartyTransactions": null,
-          "RelevantTransactions": null,
-          "ReportingLate": "2027-06-30T12:30:00.0000000Z",
-          "ResponsiblePersons": [
-            {
-              "Name": "Kym Williams",
-              "Role": "President",
-              "uuid": "b3b92a86-9d03-ef11-9f8a-00224893bffb"
-            },
-            {
-              "Name": "Mark Fishlock",
-              "Role": "Public Officer",
-              "uuid": "b01bf541-69f5-ee11-a1ff-002248122b18"
-            },
-            {
-              "Name": "Mark Fishlock",
-              "Role": "Treasurer",
-              "uuid": "b01bf541-69f5-ee11-a1ff-002248122b18"
-            },
-            {
-              "Name": "Rebecca Vale",
-              "Role": "Secretary",
-              "uuid": "4f920ffe-d37f-ef11-ac20-000d3acbf42a"
-            },
-            {
-              "Name": "William Murray",
-              "Role": "Committee Member",
-              "uuid": "2a1cf541-69f5-ee11-a1ff-002248122b18"
-            },
-            {
-              "Name": "Wayne Sanderson",
-              "Role": "Vice-president",
-              "uuid": "981bf541-69f5-ee11-a1ff-002248122b18"
-            },
-            {
-              "Name": "Luis Silva",
-              "Role": "Committee Member",
-              "uuid": "29cfb69d-0083-f011-b4cb-002248121c9c"
-            }
-          ],
-          "Status": "Registered",
-          "SummaryOfActivities": "We supported the volunteers of the Darwin Volunteer Unit by providing equipment and resources to assist the volunteers in their community operations. We also coordinated fundraising opportunities to enable the purchase of services required to support the  volunteers",
-          "TotalExpensesEmployee": "0",
-          "TotalExpensesGrantsAndDonationsInAustralia": "10710",
-          "TotalExpensesGrantsAndDonationsOutsideAustralia": "0",
-          "TotalExpensesInterest": "0",
-          "TotalExpensesOther": "3699",
-          "TotalGrossIncomeDonationsAndRequests": "42",
-          "TotalGrossIncomeGoodsOrServices": "0",
-          "TotalGrossIncomeGovernmentGrants": "10710",
-          "TotalGrossIncomeInvestments": "293",
-          "TotalGrossIncomeOtherRevenues": "585",
-          "TransparencyRegisterUrl": null,
-          "Website": "pfes.nt.gov.au/emergency-service",
-          "__normalized": true,
-          "type": "charity",
-          "uuid": "ceccfc3b-69f5-ee11-a1ff-002248122b18"
-        },
-        "type": "charity",
-        "uuid": "ceccfc3b-69f5-ee11-a1ff-002248122b18"
-      },
-      "canonical_field_mappings": {
-        "data.OtherNames": "operating_names",
-        "data.AddressStateOrProvince": "principal_location"
-      },
-      "evidence_ids": []
-    },
-    {
-      "source_record_id": "src:acnc-ais-detail:11580238789:ba5452f5-0683-f011-b4cc-000d3ad25630:cb_57b76ad8dc4d4628a4f07e602fbbcb44",
-      "source_family": "acnc-ais-detail",
-      "dataset_version": "2026-08-14-public-api",
-      "source_url": "https://www.acnc.gov.au/charity/charities/ceccfc3b-69f5-ee11-a1ff-002248122b18/documents/ba5452f5-0683-f011-b4cc-000d3ad25630",
-      "retrieved_at": "2026-08-13T13:54:42.956606Z",
-      "observed_at": "2025-08-27",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "abn": "11580238789",
-        "ais_uuid": "ba5452f5-0683-f011-b4cc-000d3ad25630",
-        "year": "2025",
-        "date_received": "2025-08-27T05:30:43.0000000Z"
-      },
-      "source_payload": {
-        "data": {
-          "Abn": "11580238789",
-          "ActivityAdvocacyNCivic": false,
-          "ActivityAgedCare": false,
-          "ActivityAnimalProtection": false,
-          "ActivityCultureAndArt": false,
-          "ActivityEconomicSocialCommunity": false,
-          "ActivityEmergencyNRelief": false,
-          "ActivityEmploymentNTraining": false,
-          "ActivityEnvironmental": false,
-          "ActivityGrantMaking": false,
-          "ActivityHealthRehabilitation": false,
-          "ActivityHigherEducation": false,
-          "ActivityHousing": false,
-          "ActivityIncomeSupportNMaintenance": false,
-          "ActivityInternational": false,
-          "ActivityInternationalDescription": null,
-          "ActivityInternationalOther": false,
-          "ActivityInternationalOtherDescription": null,
-          "ActivityLawNLegalServices": false,
-          "ActivityMain": null,
-          "ActivityMentalHealthCrisisIntervention": false,
-          "ActivityNdisSupported": null,
-          "ActivityNdisSupportedNext": null,
-          "ActivityOperating": true,
-          "ActivityOperatingOverseas": false,
-          "ActivityOther": false,
-          "ActivityOtherDescription": null,
-          "ActivityOtherEducation": false,
-          "ActivityOtherHealthServices": false,
-          "ActivityPersuitPurposesDescription": "We supported the volunteers of the Darwin Volunteer Unit by providing equipment and resources to assist the volunteers in their community operations. We also coordinated fundraising opportunities to enable the purchase of services required to support the  volunteers",
-          "ActivityPhilanthropicPromotion": false,
-          "ActivityPolitical": false,
-          "ActivityPrimarySecondaryEducation": false,
-          "ActivityPurposeChange": null,
-          "ActivityPurposeChangeDescription": null,
-          "ActivityRecreationSocialClub": false,
-          "ActivityReligious": false,
-          "ActivityResearch": false,
-          "ActivitySocialServices": false,
-          "ActivitySports": false,
-          "ActivityTransferringFundsGoods": false,
-          "AdvancementOfEducation": false,
-          "AdvancementOfReligion": false,
-          "AssetsandLiabilitiesDescription": null,
-          "BasicReligiousCharity": false,
-          "BeneficiaryAboriginalTorres": false,
-          "BeneficiaryAdults": false,
-          "BeneficiaryAllAges": false,
-          "BeneficiaryChildren": false,
-          "BeneficiaryChronicIllness": false,
-          "BeneficiaryCrimeVictims": false,
-          "BeneficiaryDisasterVictims": false,
-          "BeneficiaryEarlyChildhood": false,
-          "BeneficiaryEthnic": false,
-          "BeneficiaryFamilies": false,
-          "BeneficiaryFinanciallyDisadvantaged": false,
-          "BeneficiaryGeneral": false,
-          "BeneficiaryHomelessnessRisk": false,
-          "BeneficiaryLGBT": false,
-          "BeneficiaryMain": null,
-          "BeneficiaryMen": false,
-          "BeneficiaryMigrantsRefugees": false,
-          "BeneficiaryOffenderFamilies": false,
-          "BeneficiaryOther": false,
-          "BeneficiaryOtherCharities": false,
-          "BeneficiaryOtherDescription": null,
-          "BeneficiaryOverseas": false,
-          "BeneficiaryPeopleWithDisability": false,
-          "BeneficiaryRuralRegionalRemote": false,
-          "BeneficiarySeniors": false,
-          "BeneficiaryUnemployed": false,
-          "BeneficiaryVeteranFamilies": false,
-          "BeneficiaryWomen": false,
-          "BeneficiaryYouth": false,
-          "CharityAddressCountry": "Australia",
-          "CharityAddressLine1": "265 Berrimah Rd",
-          "CharityAddressLine2": null,
-          "CharityAddressPostalCode": "0822",
-          "CharityAddressStateOrProvince": "NT",
-          "CharityAddressSuburb": "Wishart",
-          "CharityEmail": "ntes_dvu@hotmail.com",
-          "CharitySize": "Small",
-          "CharityUuid": "ceccfc3b-69f5-ee11-a1ff-002248122b18",
-          "ChildCareServices": false,
-          "ExpenseEmployees": "0.0000",
-          "ExpenseGrantDonationsInAustralia": "10710.0000",
-          "ExpenseGrantDonationsOutsideAustralia": "0.0000",
-          "ExpenseTotal": "14409.0000",
-          "ExpensesOther": "3699.0000",
-          "FinAccrualAccounting": "Accrual",
-          "FinConsolidatedReportFromMiltiple": null,
-          "FinDocumentedPoliciesRelatedPartyTransactions": null,
-          "FinFyeJune": false,
-          "FinProvideVoluntarily": null,
-          "FinRelatedPartyTransactions": "No",
-          "FinReportACT": false,
-          "FinReportFrom": "2024-07-01T00:00:00.0000000Z",
-          "FinReportNSW": false,
-          "FinReportNT": false,
-          "FinReportQLD": false,
-          "FinReportSA": false,
-          "FinReportTAS": false,
-          "FinReportTo": "2025-06-30T00:00:00.0000000Z",
-          "FinReportVIC": false,
-          "FinReportWA": false,
-          "FinReportingType": null,
-          "FinSapDate": null,
-          "FundRaisingNumberACT": null,
-          "FundRaisingNumberNSW": null,
-          "FundRaisingNumberQLD": null,
-          "FundRaisingNumberSA": null,
-          "FundRaisingNumberTAS": null,
-          "FundRaisingNumberVIC": null,
-          "FundRaisingNumberWA": null,
-          "GovDocAccurate": null,
-          "GrantCapacityBuildingPct": null,
-          "GrantMultiYearPct": null,
-          "GrantPublicOpenApplicationPct": null,
-          "GrantRuralRegionPct": null,
-          "HasSubmittedToRegulator": false,
-          "HoursPaid": null,
-          "HoursTotal": null,
-          "HoursVolunteer": null,
-          "HrCasualEmployees": "0",
-          "HrFteStaff": "0.0000000000",
-          "HrFullTimeEmployees": "0",
-          "HrPartTimeEmployees": "0",
-          "HrUnpainVolunteers": "50",
-          "IncomeDonationsBequests": "42.0000",
-          "IncomeGovernmentGrants": "10710.0000",
-          "IncomeOther": "0.0000",
-          "IncomeOtherComprehinsive": "0.0000",
-          "IncomeOtherNeg": null,
-          "IncomeOtherReceipts": "585.0000",
-          "IncomeTotalComprehensive": "0.0000",
-          "IncomeTotalReceipts": "11630.0000",
-          "IncorporationStatus": null,
-          "InterestExpense": "0.0000",
-          "IsIncorporatedAssociation": true,
-          "KeyManagementPersonnel": false,
-          "LegalName": "DARWIN VOLUNTEER UNIT (NTES) ASSOCIATION INCORPORATION",
-          "NetAssetsLiabilities": "65525.0000",
-          "NetSurplusDeficit": "-2779.0000",
-          "NonCurrentLoansPayable": "0.0000",
-          "NumberOfKeyManagementPersonnel": "0",
-          "OperatingCountries": null,
-          "OperatingInACT": false,
-          "OperatingInNSW": false,
-          "OperatingInNT": false,
-          "OperatingInQLD": false,
-          "OperatingInSA": false,
-          "OperatingInTAS": false,
-          "OperatingInVIC": false,
-          "OperatingInWA": false,
-          "OperatingOverseas": false,
-          "OtherNames": [],
-          "OtherNonCurrentAssets": "0.0000",
-          "OtherNonCurrentLiabilities": "0.0000",
-          "OtherPurposeDescription": null,
-          "OtherPurposes": "False",
-          "Programs": [
-            {
-              "AisUuid": "ba5452f5-0683-f011-b4cc-000d3ad25630",
-              "Name": "Resources",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Adults - aged 25 to under 65",
-                "Adults - aged 65 and over",
-                "People with disabilities",
-                "Females",
-                "Males"
-              ],
-              "ProgramClassification": "Disasters and emergency management",
-              "ProgramClassificationID": "699",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "Darwin Northern Territory, Australia",
-                  "FormattedAddress": "Darwin NT, Australia",
-                  "Marker": {
-                    "Latitude": -12.4637333,
-                    "Longitude": 130.8444446
-                  },
-                  "Name": "Darwin",
-                  "uuid": "30a04207-0783-f011-b4cc-000d3ad25630"
-                }
-              ],
-              "ProgramWeblink": null,
-              "uuid": "2dda4701-0783-f011-b4cc-000d3ad25630"
-            }
-          ],
-          "RegulatedACT": false,
-          "RegulatedNSW": false,
-          "RegulatedNT": false,
-          "RegulatedQLD": false,
-          "RegulatedSA": false,
-          "RegulatedTAS": false,
-          "RegulatedVIC": false,
-          "RegulatedWA": false,
-          "Regulator": null,
-          "RegulatorAGMDateACT": null,
-          "RegulatorAGMDateNT": "2025-08-26T00:00:00.0000000",
-          "RegulatorAGMDateVIC": null,
-          "RegulatorAGMDateWA": null,
-          "RegulatorFundRaising": "Yes",
-          "RegulatorFundRaisingACT": false,
-          "RegulatorFundRaisingNSW": false,
-          "RegulatorFundRaisingNT": true,
-          "RegulatorFundRaisingOnline": false,
-          "RegulatorFundRaisingQLD": false,
-          "RegulatorFundRaisingSA": false,
-          "RegulatorFundRaisingTAS": false,
-          "RegulatorFundRaisingVIC": false,
-          "RegulatorFundRaisingWA": false,
-          "RegulatorIncorporatedAssociationACT": false,
-          "RegulatorIncorporatedAssociationNSW": false,
-          "RegulatorIncorporatedAssociationNT": true,
-          "RegulatorIncorporatedAssociationNumberACT": null,
-          "RegulatorIncorporatedAssociationNumberNSW": null,
-          "RegulatorIncorporatedAssociationNumberNT": "01591C/IA",
-          "RegulatorIncorporatedAssociationNumberQLD": null,
-          "RegulatorIncorporatedAssociationNumberSA": null,
-          "RegulatorIncorporatedAssociationNumberTAS": null,
-          "RegulatorIncorporatedAssociationNumberVIC": null,
-          "RegulatorIncorporatedAssociationNumberWA": null,
-          "RegulatorIncorporatedAssociationQLD": false,
-          "RegulatorIncorporatedAssociationSA": false,
-          "RegulatorIncorporatedAssociationTAS": false,
-          "RegulatorIncorporatedAssociationVIC": false,
-          "RegulatorIncorporatedAssociationWA": false,
-          "RegulatorMetRequirementACT": false,
-          "RegulatorMetRequirementWA": null,
-          "RegulatorOtherDetails": null,
-          "RegulatorPrograms": null,
-          "RegulatorStates": false,
-          "RelatedPartyDetails": null,
-          "RelatedPartyTransactions": [],
-          "ReliefOfPoverty": false,
-          "ReportingGroupFlag": false,
-          "ResponsiblePersonAccurate": null,
-          "RevenueGoodsServices": "0.0000",
-          "RevenueInvestments": "293.0000",
-          "RevenueTotal": "11630.0000",
-          "StatementYear": "2025",
-          "SubTypesAccurate": null,
-          "TotalAssets": "65525.0000",
-          "TotalCurrentAssets": "0.0000",
-          "TotalCurrentLiabilities": "0.0000",
-          "TotalLiabilities": "0.0000",
-          "TotalNonCurrentAssets": null,
-          "TotalNonCurrentLiabilities": "0.0000",
-          "TotalNonCurrentLoansReceivable": "0.0000",
-          "TotalPaidKMP": "$0.00",
-          "Website": "pfes.nt.gov.au/emergency-service",
-          "__normalized": true,
-          "entityTypeVersion": "",
-          "entityVersion": "1743058726",
-          "timeStamp": "2025-08-27T05:30:40.0000000Z",
-          "type": "annual_information_statement",
-          "uuid": "ba5452f5-0683-f011-b4cc-000d3ad25630"
-        },
-        "type": "annual_information_statement",
-        "uuid": "ba5452f5-0683-f011-b4cc-000d3ad25630"
-      },
-      "canonical_field_mappings": {
-        "data.Programs": "programs",
-        "data.TotalRevenue": "financial_records[].revenue",
-        "data.TotalExpenses": "financial_records[].total_expenses"
-      },
-      "evidence_ids": [
-        "ev:acnc:ais:11580238789:ba5452f5-0683-f011-b4cc-000d3ad25630"
-      ]
-    }
-  ],
-  "financial_records": [],
-  "financial_metrics": [],
-  "fundraising_expenditure": null,
-  "funding_sources": [],
-  "fundraising_methods": [],
-  "classifications": [
-    {
-      "taxonomy_id": "acnc-register",
-      "taxonomy_version": "2026-08-10",
-      "term_id": "purpose.other_purpose",
-      "term_label": "other purpose",
-      "assignment_method": "source_native",
-      "confidence": "high",
-      "evidence_ids": [
-        "ev:acnc:11580238789"
-      ]
-    },
-    {
-      "taxonomy_id": "acnc-register",
-      "taxonomy_version": "2026-08-10",
-      "term_id": "beneficiary.older_people",
-      "term_label": "older people",
-      "assignment_method": "source_native",
-      "confidence": "high",
-      "evidence_ids": [
-        "ev:acnc:11580238789"
-      ]
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "cause.humanitarian_assistance",
-      "term_label": "Humanitarian assistance",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "cause.community_wellbeing",
-      "term_label": "Community wellbeing",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "beneficiary.general_community",
-      "term_label": "General community",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "activity.direct_service",
-      "term_label": "Direct service delivery",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "activity.events_and_public_programming",
-      "term_label": "Events and public programming",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "approach.volunteer_enabled",
-      "term_label": "Volunteer-enabled delivery",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "participation.volunteering",
-      "term_label": "Volunteering",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "geography.local_or_regional",
-      "term_label": "Local or regional Australia",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
+      "review_status": "not_required",
+      "conflicting_signals": []
     }
   ],
   "evidence": [
     {
       "evidence_id": "ev:acnc:11580238789",
-      "source_type": "regulatory",
-      "title": "ACNC Register extract",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": null,
-      "observed_at": "2026-08-10",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "title": "ACNC Register extract"
     },
     {
       "evidence_id": "ev:web:11580238789:2026-08-10",
-      "source_type": "organisation_self_report",
       "title": "Organisation website homepage",
-      "publisher": "DARWIN VOLUNTEER UNIT (NTES) ASSOCIATION INCORPORATION",
-      "url": "https://pfes.nt.gov.au/emergency-service",
-      "observed_at": "2026-08-10",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://pfes.nt.gov.au/emergency-service"
     },
     {
       "evidence_id": "ev:acnc:ais:11580238789:ba5452f5-0683-f011-b4cc-000d3ad25630",
-      "source_type": "regulatory",
       "title": "ACNC Annual Information Statement 2025",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": "https://www.acnc.gov.au/charity/charities/ceccfc3b-69f5-ee11-a1ff-002248122b18/documents/ba5452f5-0683-f011-b4cc-000d3ad25630",
-      "observed_at": "2025-08-27",
-      "reporting_period": "2025",
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://www.acnc.gov.au/charity/charities/ceccfc3b-69f5-ee11-a1ff-002248122b18/documents/ba5452f5-0683-f011-b4cc-000d3ad25630"
     }
   ],
-  "embedding": {
-    "embedding_id": "cb_57b76ad8dc4d4628a4f07e602fbbcb44:entity:text-embedding-3-small",
-    "embedding_type": "entity",
-    "model_id": "text-embedding-3-small",
-    "model_version": "text-embedding-3-small",
-    "dimensions": 1536,
-    "source_text_hash": "de6f66204bc0f6c051c6a1202b151c86e45b4990c729328f402a8391e07170fc",
-    "generated_at": "2026-08-10T13:53:24.456259Z",
-    "vector_ref": "embeddings.parquet#cb_57b76ad8dc4d4628a4f07e602fbbcb44"
+  "summary": {
+    "derivative_id": "der:rc4:cb_57b76ad8dc4d4628a4f07e602fbbcb44:summary",
+    "text": "Darwin Volunteer Unit (NTES) Association Incorporation is the volunteer component of the Northern Territory Emergency Service (NTES), part of NT Police, Fire and Emergency Services, operating across the Northern Territory. NTES maintains a volunteer-led response capability for floods, storms and cyclones, facilitates emergency management planning, and provides public information and community engagement on preparedness and public safety. Volunteers from a range of backgrounds support operational response activities and local community awareness initiatives, and NTES is affiliated with the Australia-wide State Emergency Service. The service publishes flood preparedness advice and practical guidance for residents and promotes community engagement in resilience and preparedness work."
   },
-  "synthesis": {
-    "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
-    "parameters": {
-      "max_output_tokens": 3000,
-      "structured_output": true,
-      "output_contract": "causebase-summary-v0.3-rc2"
-    },
-    "evidence_input_hash": "f16401416968583a6eade106bb805e7d854e7834d1273245628163240a14bd68",
-    "generated_at": "2026-08-12T13:49:10.980297Z",
-    "editorial_policy_version": "0.3-rc2"
-  },
-  "derivative_assessments": [
+  "activities": [],
+  "beneficiaries": [],
+  "descriptive_geography": [],
+  "navigation_geography": [],
+  "funding_sources": [],
+  "fundraising_methods": [],
+  "participation": [],
+  "opportunities": [],
+  "programs": [
     {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T13:49:10.980297Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-13T13:54:42.956606Z",
-      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
-      "input_hash": "f16401416968583a6eade106bb805e7d854e7834d1273245628163240a14bd68",
-      "disposition": "reused",
-      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
-      "affected_dimensions": [
-        "summary"
-      ]
+      "observation_id": "obs:rc4:cb_57b76ad8dc4d4628a4f07e602fbbcb44:program:prg:acnc:11580238789:2dda4701-0783-f011-b4cc-000d3ad25630",
+      "program_id": "prg:acnc:11580238789:2dda4701-0783-f011-b4cc-000d3ad25630",
+      "name": "Resources",
+      "description": "Disasters and emergency management",
+      "url": "https://www.acnc.gov.au/charity/charities/ceccfc3b-69f5-ee11-a1ff-002248122b18/documents/ba5452f5-0683-f011-b4cc-000d3ad25630",
+      "status": "current",
+      "claim_basis": "direct",
+      "extraction_method": "api",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:ais:11580238789:ba5452f5-0683-f011-b4cc-000d3ad25630"
+      ],
+      "time": {
+        "reporting_period": {
+          "label": "2025"
+        }
+      },
+      "warnings": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-14-rc4-fundraising-projection-correction",
-  "card_schema_version": "0.4",
-  "editorial_policy_version": "0.4-rc4",
-  "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T13:54:42.956606Z"
+  "relationships": [],
+  "classifications": [
+    {
+      "observation_id": "obs:rc4:cb_57b76ad8dc4d4628a4f07e602fbbcb44:classification:0",
+      "classification_id": "cls:rc4:cb_57b76ad8dc4d4628a4f07e602fbbcb44:0",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "purpose.other_purpose",
+      "term_label": "other purpose",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:11580238789"
+      ],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_57b76ad8dc4d4628a4f07e602fbbcb44:classification:1",
+      "classification_id": "cls:rc4:cb_57b76ad8dc4d4628a4f07e602fbbcb44:1",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "beneficiary.older_people",
+      "term_label": "older people",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:11580238789"
+      ],
+      "confidence": "high",
+      "warnings": []
+    }
+  ],
+  "coverage": {
+    "registry_id": "capability-registry-0.5-initial",
+    "current": [
+      {
+        "capability": "regulatory.acnc_profile",
+        "status": "observed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:acnc:11580238789"
+        ]
+      },
+      {
+        "capability": "regulatory.ais",
+        "status": "observed",
+        "assessed_at": "2025-08-27",
+        "source_record_ids": [
+          "src:acnc-ais-detail:11580238789:ba5452f5-0683-f011-b4cc-000d3ad25630:cb_57b76ad8dc4d4628a4f07e602fbbcb44"
+        ],
+        "evidence_ids": [
+          "ev:acnc:ais:11580238789:ba5452f5-0683-f011-b4cc-000d3ad25630"
+        ]
+      },
+      {
+        "capability": "tax.dgr",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "web.website",
+        "status": "observed",
+        "assessed_at": "2026-08-13",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "report.annual_report",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "financial.report",
+        "status": "not_found_in_source",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "financial.statements",
+        "status": "not_found_in_source",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.activities",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.beneficiaries",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.geography",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "programs",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "participation",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "funding.sources",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.methods",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.expenditure",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "taxonomy.causebase",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "semantic.embedding",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      }
+    ]
+  },
+  "financial_reports": [],
+  "canonical_metrics": [],
+  "analytic_projections": [],
+  "derivatives": [
+    {
+      "derivative_id": "der:rc4:cb_57b76ad8dc4d4628a4f07e602fbbcb44:summary",
+      "kind": "summary",
+      "input_observation_ids": [],
+      "evidence_ids": [
+        "ev:acnc:11580238789",
+        "ev:web:11580238789:2026-08-10"
+      ],
+      "generated_under": {
+        "output_contract_version": "phase2b-rc4-accepted-rc2-summary-reuse",
+        "input_hash": "f16401416968583a6eade106bb805e7d854e7834d1273245628163240a14bd68",
+        "generated_at": "2026-08-12T13:49:10.980297Z"
+      },
+      "current_assessment": {
+        "assessed_at": "2026-08-13T13:54:42.956606Z",
+        "assessed_against_contract": "0.5",
+        "governing_input_hash": "f16401416968583a6eade106bb805e7d854e7834d1273245628163240a14bd68",
+        "disposition": "reused",
+        "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs."
+      }
+    }
+  ],
+  "legacy_unbound": {
+    "origin_release": "rc4-2026-08-14",
+    "origin_card_sha256": "5c99b4b674206bd83f35e52f2df7883aeb123f6fcf0f3059fe17f1bb845590b9",
+    "activities": [
+      {
+        "value": "Emergency management planning",
+        "source_role": "legacy_source_qualifier",
+        "provenance_note": "as described by NTES",
+        "evidence_ids": []
+      },
+      {
+        "value": "Volunteer-led emergency response for floods, storms and cyclones",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Public awareness and flood preparedness information",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Community engagement activities (community engagement page)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "beneficiaries": [
+      {
+        "value": "Residents and communities of the Northern Territory",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "descriptive_geography": [
+      {
+        "value": "Northern Territory (NT)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Australia",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "classifications": [
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "cause.humanitarian_assistance",
+        "term_label": "Humanitarian assistance",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "cause.community_wellbeing",
+        "term_label": "Community wellbeing",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "beneficiary.general_community",
+        "term_label": "General community",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "activity.direct_service",
+        "term_label": "Direct service delivery",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "activity.events_and_public_programming",
+        "term_label": "Events and public programming",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "approach.volunteer_enabled",
+        "term_label": "Volunteer-enabled delivery",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "participation.volunteering",
+        "term_label": "Volunteering",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "geography.local_or_regional",
+        "term_label": "Local or regional Australia",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      }
+    ]
+  }
 }

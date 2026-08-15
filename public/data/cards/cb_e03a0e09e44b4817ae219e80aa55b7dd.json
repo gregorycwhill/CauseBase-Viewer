@@ -1,1406 +1,465 @@
 {
   "causebase_id": "cb_e03a0e09e44b4817ae219e80aa55b7dd",
+  "contract_version": "0.5",
   "subject_kind": "unknown",
-  "external_identifiers": [
-    {
-      "scheme": "abn",
-      "value": "50060192008",
-      "source_evidence_id": "ev:acnc:50060192008"
-    }
+  "identity": {
+    "legal_name": "Spiritualists National Union Of Wa Inc",
+    "display_name": "Spiritualists National Union Of Wa Inc",
+    "operating_names": [],
+    "former_names": [],
+    "entity_status": "registered",
+    "website": "www.snuwa.org.au",
+    "external_identifiers": [
+      {
+        "scheme": "abn",
+        "value": "50060192008",
+        "evidence_ids": [
+          "ev:acnc:50060192008"
+        ]
+      }
+    ],
+    "registrations": [
+      {
+        "regulator": "ACNC",
+        "status": "registered",
+        "evidence_ids": [
+          "ev:acnc:50060192008"
+        ]
+      }
+    ],
+    "tax_statuses": []
+  },
+  "release": {
+    "release_id": "v0.5.0-2026-08-15",
+    "dataset_version": "0.5.0-2026-08-15",
+    "contract_version": "0.5",
+    "based_on_release": "rc4-2026-08-14",
+    "generated_at": "2026-08-15T00:00:00Z"
+  },
+  "source_record_refs": [
+    "src:acnc-public-profile:50060192008:a6af377e-38af-e811-a963-000d3ad244fd:cb_e03a0e09e44b4817ae219e80aa55b7dd",
+    "src:acnc-ais-detail:50060192008:dd89b4cf-42fd-f011-8406-6045bdc47b11:cb_e03a0e09e44b4817ae219e80aa55b7dd"
   ],
-  "registrations": [
-    {
-      "regulator": "ACNC",
-      "registration_id": null,
-      "status": "registered",
-      "evidence_ids": [
-        "ev:acnc:50060192008"
-      ]
-    }
-  ],
-  "tax_statuses": [],
-  "relationships": [],
-  "source_resolutions": [
+  "source_bindings": [
     {
       "source_record_id": "src:acnc-register:1c75b0ba-a337-541d-bd66-b36d8d35fe84",
       "resolution_status": "resolved",
       "resolution_basis": "automated authoritative ACNC promotion under acnc-authoritative-v1",
       "confidence": "high",
-      "supporting_signals": [
-        "ABN:50060192008",
-        "ACNC Register"
-      ],
-      "conflicting_signals": [],
-      "review_status": "not_required"
-    }
-  ],
-  "legal_name": "Spiritualists National Union Of Wa Inc",
-  "display_name": "Spiritualists National Union Of Wa Inc",
-  "entity_status": "registered",
-  "canonical_url": "https://gregorycwhill.github.io/CauseBase-Viewer/#cb_e03a0e09e44b4817ae219e80aa55b7dd",
-  "acnc_profile_url": "https://www.acnc.gov.au/charity/charities/a6af377e-38af-e811-a963-000d3ad244fd/profile",
-  "acnc_ais_url": "https://www.acnc.gov.au/charity/charities/a6af377e-38af-e811-a963-000d3ad244fd/documents/dd89b4cf-42fd-f011-8406-6045bdc47b11",
-  "operating_names": [],
-  "former_names": [],
-  "principal_location": "WA, Australia",
-  "coverage": [
-    {
-      "capability": "regulatory",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:acnc:50060192008"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "annual_report",
-      "status": "not_yet_processed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "fundraising_expenditure",
-      "status": "not_available_from_source",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": "No direct or defensible derived fundraising expenditure was found in selected Phase 2A evidence."
-    },
-    {
-      "capability": "financials",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:ais:50060192008:2023"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "latest_acnc_ais",
-      "status": "observed",
-      "source_record_id": "src:acnc-ais-detail:50060192008:dd89b4cf-42fd-f011-8406-6045bdc47b11:cb_e03a0e09e44b4817ae219e80aa55b7dd",
-      "evidence_ids": [
-        "ev:acnc:ais:50060192008:dd89b4cf-42fd-f011-8406-6045bdc47b11"
-      ],
-      "observed_at": "2026-01-29",
-      "freshness_note": "Latest submitted AIS detail acquired from the public ACNC entity endpoint."
-    },
-    {
-      "capability": "website",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-13",
-      "freshness_note": "Public website locator acquired from the ACNC profile."
-    }
-  ],
-  "enrichment_level": "enriched",
-  "website": "www.snuwa.org.au",
-  "geography": [
-    "Western Australia (WA)"
-  ],
-  "geography_observations": [
-    {
-      "value": "Western Australia (WA)",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "navigation_geography": [],
-  "causebase_summary": "Spiritualists National Union Of WA Inc is a spiritualist centre based in Western Australia. As of August 2026 it publishes a mediums schedule for regular services, runs a learning programme that includes spiritualism and mediumship training, and hosts gatherings where people share life experiences and explore spiritual growth. The organisation describes its attendees as \"like-minded people\" and invites contact for information or locations of its church. The available records identify these programmatic activities and participation routes (attendance at scheduled services and medium events, and participation in the learning programme) but do not provide detailed breakdowns of service locations or participant numbers in this release.",
-  "summary_evidence_ids": [
-    "ev:web:50060192008:2026-08-10",
-    "ev:acnc:50060192008",
-    "ev:ais:50060192008:2023"
-  ],
-  "organisation_self_description": null,
-  "activities": [
-    "publishes a mediums schedule for services and mediums",
-    "runs a learning programme in spiritualism and mediumship training",
-    "hosts gatherings for people to share life experiences and spiritual growth"
-  ],
-  "activity_observations": [
-    {
-      "value": "publishes a mediums schedule for services and mediums",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "runs a learning programme in spiritualism and mediumship training",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "hosts gatherings for people to share life experiences and spiritual growth",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "beneficiaries": [
-    "people who attend the centre"
-  ],
-  "beneficiary_observations": [
-    {
-      "value": "people who attend the centre",
-      "source_role": "legacy_source_qualifier",
-      "provenance_note": "described on the website as \"like-minded people\"",
-      "evidence_ids": []
-    }
-  ],
-  "participation_modes": [
-    "attending scheduled services and medium events",
-    "participating in the learning programme",
-    "contacting the organisation for information or location of the church"
-  ],
-  "participation_observations": [],
-  "opportunities": [],
-  "programs": [
-    {
-      "program_id": "prg:acnc:50060192008:f889b4cf-42fd-f011-8406-6045bdc47b11",
-      "name": "Lucy Saw Centre - collection point in WA.",
-      "description": "Shelter and residential care",
-      "beneficiaries": [
-        "Victims of crime (including family violence)"
-      ],
-      "geography": [
-        "Rockingham WA, Australia"
-      ],
-      "status": "current",
-      "reporting_period": "2025",
-      "source_url": "https://www.acnc.gov.au/charity/charities/a6af377e-38af-e811-a963-000d3ad244fd/documents/dd89b4cf-42fd-f011-8406-6045bdc47b11",
-      "evidence_ids": [
-        "ev:acnc:ais:50060192008:dd89b4cf-42fd-f011-8406-6045bdc47b11"
-      ]
-    },
-    {
-      "program_id": "prg:acnc:50060192008:008ab4cf-42fd-f011-8406-6045bdc47b11",
-      "name": "Animal Protection Society",
-      "description": "Animal welfare",
-      "beneficiaries": [
-        "Animals"
-      ],
-      "geography": [
-        "27 Talbot Road, Southern River WA, Australia"
-      ],
-      "status": "current",
-      "reporting_period": "2025",
-      "source_url": "apswa.asn.au",
-      "evidence_ids": [
-        "ev:acnc:ais:50060192008:dd89b4cf-42fd-f011-8406-6045bdc47b11"
-      ]
-    }
-  ],
-  "source_native_records": [
-    {
-      "source_record_id": "src:acnc-public-profile:50060192008:a6af377e-38af-e811-a963-000d3ad244fd:cb_e03a0e09e44b4817ae219e80aa55b7dd",
-      "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-14-public-api",
-      "source_url": "https://www.acnc.gov.au/charity/charities/a6af377e-38af-e811-a963-000d3ad244fd/profile",
-      "retrieved_at": "2026-08-13T13:54:42.956606Z",
-      "observed_at": "2026-01-29",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "uuid": "a6af377e-38af-e811-a963-000d3ad244fd",
-        "abn": "50060192008"
-      },
-      "source_payload": {
-        "data": {
-          "AFSAddressPostalCode": "6170",
-          "AFSEmail": "enquiry@snuwa.org.au",
-          "Abn": "50060192008",
-          "AddressCountry": "Australia",
-          "AddressLine1": "11 Dursely Street",
-          "AddressLine2": null,
-          "AddressLine3": null,
-          "AddressPostalCode": "6170",
-          "AddressStateOrProvince": "WA",
-          "AddressSuburb": "Wellard",
-          "AddressSuburbStatePostcode": "Wellard WA 6170",
-          "AnnualReports": [
-            {
-              "AISId": "dd0831d4-52c9-ed11-b596-00224893b261",
-              "DateReceived": "2023-03-23T08:15:24.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2023-01-31T00:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2022",
-              "type": "Annual Information Statement 2022",
-              "uuid": "8961d2b7-d163-eb11-b0b0-000d3acbaeea"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2023-03-23T08:15:22.0000000Z",
-              "DocumentUuid": "bf8f71cf-52c9-ed11-b596-00224893cef4",
-              "DueDate": "2023-01-31T00:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2022",
-              "type": "Financial Report 2022",
-              "uuid": "9c61d2b7-d163-eb11-b0b0-000d3acbaeea"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2019-12-31T07:35:23.0000000Z",
-              "DocumentUuid": "a2e7cc14-a02b-ea11-a810-000d3ad1cf4f",
-              "DueDate": "2020-01-31T00:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2019",
-              "type": "Financial Report 2019",
-              "uuid": "74293fea-fa25-e911-a973-000d3ad0574c"
-            },
-            {
-              "AISId": "6a3ec01a-a02b-ea11-a812-000d3ad1f497",
-              "DateReceived": "2019-12-31T07:35:26.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2020-01-31T00:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2019",
-              "type": "Annual Information Statement 2019",
-              "uuid": "9b293fea-fa25-e911-a973-000d3ad0574c"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2021-01-19T02:51:05.0000000Z",
-              "DocumentUuid": "ab7a4426-015a-eb11-a812-000d3a6abb36",
-              "DueDate": "2021-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2020",
-              "type": "Financial Report 2020",
-              "uuid": "bf293fea-fa25-e911-a973-000d3ad0574c"
-            },
-            {
-              "AISId": "af537528-015a-eb11-bb24-000d3a6b0983",
-              "DateReceived": "2021-01-19T02:51:06.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2021-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2020",
-              "type": "Annual Information Statement 2020",
-              "uuid": "eb293fea-fa25-e911-a973-000d3ad0574c"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2026-12-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Not yet submitted",
-              "Year": "2026",
-              "type": "Annual Information Statement 2026",
-              "uuid": "2b893825-d6df-ef11-a731-000d3ad059a3"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2026-12-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Pending",
-              "Year": "2026",
-              "type": "Financial Report 2026",
-              "uuid": "34893825-d6df-ef11-a731-000d3ad059a3"
-            },
-            {
-              "AISId": "6e39ee8f-6c82-ec11-8d20-002248929301",
-              "DateReceived": "2022-01-31T08:05:39.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2022-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2021",
-              "type": "Annual Information Statement 2021",
-              "uuid": "2f4299d6-9044-ea11-a813-000d3ad1f29c"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2022-01-31T08:05:28.0000000Z",
-              "DocumentUuid": "3f5a8e84-6c82-ec11-8d20-00224892921b",
-              "DueDate": "2022-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2021",
-              "type": "Financial Report 2021",
-              "uuid": "684299d6-9044-ea11-a813-000d3ad1f29c"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required",
-              "Year": "2016",
-              "type": "Financial Report 2016",
-              "uuid": "bbe80dec-3dc8-e811-a964-000d3ad24077"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required",
-              "Year": "2017",
-              "type": "Financial Report 2017",
-              "uuid": "80b405f2-3dc8-e811-a964-000d3ad24077"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required",
-              "Year": "2013",
-              "type": "Financial Report 2013",
-              "uuid": "8cb405f2-3dc8-e811-a964-000d3ad24077"
-            },
-            {
-              "AISId": "e9f57f7f-c04a-e911-a97a-000d3ad0574c",
-              "DateReceived": "2019-03-20T03:30:33.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2019-03-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2018",
-              "type": "Annual Information Statement 2018",
-              "uuid": "0180c76f-3ac8-e811-a964-000d3ad244fd"
-            },
-            {
-              "AISId": "d731f03c-45c8-e811-a962-000d3ad24182",
-              "DateReceived": "2016-02-24T13:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2015-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2014",
-              "type": "Annual Information Statement 2014",
-              "uuid": "e6db8e3c-45c8-e811-a964-000d3ad244fd"
-            },
-            {
-              "AISId": "dd31f03c-45c8-e811-a962-000d3ad24182",
-              "DateReceived": "2016-03-07T13:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2016-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2015",
-              "type": "Annual Information Statement 2015",
-              "uuid": "eddb8e3c-45c8-e811-a964-000d3ad244fd"
-            },
-            {
-              "AISId": "e231f03c-45c8-e811-a962-000d3ad24182",
-              "DateReceived": "2016-12-06T13:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2017-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2016",
-              "type": "Annual Information Statement 2016",
-              "uuid": "f3db8e3c-45c8-e811-a964-000d3ad244fd"
-            },
-            {
-              "AISId": "c031f03c-45c8-e811-a962-000d3ad24182",
-              "DateReceived": "2013-09-21T14:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2014-03-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2013",
-              "type": "Annual Information Statement 2013",
-              "uuid": "c0fa143b-45c8-e811-a963-000d3ad24a0d"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required - small",
-              "Year": "2018",
-              "type": "Financial Report 2018",
-              "uuid": "65b0beed-3dc8-e811-a95f-000d3ad24c60"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required",
-              "Year": "2014",
-              "type": "Financial Report 2014",
-              "uuid": "77b0beed-3dc8-e811-a95f-000d3ad24c60"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required",
-              "Year": "2015",
-              "type": "Financial Report 2015",
-              "uuid": "89b0beed-3dc8-e811-a95f-000d3ad24c60"
-            },
-            {
-              "AISId": "8731f03c-45c8-e811-a962-000d3ad24182",
-              "DateReceived": "2017-11-19T13:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2018-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2017",
-              "type": "Annual Information Statement 2017",
-              "uuid": "5476ff3a-45c8-e811-a95f-000d3ad24c60"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2027-12-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Not yet submitted",
-              "Year": "2027",
-              "type": "Annual Information Statement 2027",
-              "uuid": "68b2740c-0bff-f011-8406-00224810400c"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2027-12-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Pending",
-              "Year": "2027",
-              "type": "Financial Report 2027",
-              "uuid": "9db2740c-0bff-f011-8406-00224810400c"
-            },
-            {
-              "AISId": "cdd0c33e-8ef6-ee11-a1fe-00224897bb3d",
-              "DateReceived": "2024-04-09T16:28:57.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2024-01-31T00:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2023",
-              "type": "Annual Information Statement 2023",
-              "uuid": "448354ab-a282-ec11-8d20-0022489297f3"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2024-04-09T16:27:58.0000000Z",
-              "DocumentUuid": "55f1980e-8ef6-ee11-a1fe-00224810100d",
-              "DueDate": "2024-01-31T00:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2023",
-              "type": "Financial Report 2023",
-              "uuid": "588354ab-a282-ec11-8d20-0022489297f3"
-            },
-            {
-              "AISId": "dd89b4cf-42fd-f011-8406-6045bdc47b11",
-              "DateReceived": "2026-01-29T18:48:05.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2026-01-31T00:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2025",
-              "type": "Annual Information Statement 2025",
-              "uuid": "daba7da7-98c0-ee11-907a-00224893bfad"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2026-01-29T18:46:15.0000000Z",
-              "DocumentUuid": "bfc668b9-42fd-f011-8406-7ced8d33fdea",
-              "DueDate": "2026-01-31T00:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2025",
-              "type": "Financial Report 2025",
-              "uuid": "fcba7da7-98c0-ee11-907a-00224893bfad"
-            },
-            {
-              "AISId": "8fc291c0-a2e6-ef11-be21-7c1e522b0303",
-              "DateReceived": "2025-02-09T05:00:23.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2025-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2024",
-              "type": "Annual Information Statement 2024",
-              "uuid": "d853962d-c9a1-ed11-aad1-00224893bfad"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2025-02-09T05:00:22.0000000Z",
-              "DocumentUuid": "2cb86ebb-a2e6-ef11-be20-00224891d2a4",
-              "DueDate": "2025-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2024",
-              "type": "Financial Report 2024",
-              "uuid": "f853962d-c9a1-ed11-aad1-00224893bfad"
-            }
-          ],
-          "Beneficiaries": [
-            {
-              "Description": null,
-              "Name": "Victims of crime (including family violence)",
-              "uuid": "0d8ab4cf-42fd-f011-8406-6045bdc47b11"
-            },
-            {
-              "Description": null,
-              "Name": "Animals",
-              "uuid": "108ab4cf-42fd-f011-8406-6045bdc47b11"
-            }
-          ],
-          "CharitySize": "Small",
-          "CharitySubtypeHistory": [
-            {
-              "EndDate": null,
-              "Purpose": "Advancing religion",
-              "StartDate": "2013-12-31T13:00:00.0000000Z",
-              "uuid": "171922ac-fcc6-e811-a964-000d3ad244fd"
-            }
-          ],
-          "CharityVersion": "103",
-          "ChildMemberEndDate": null,
-          "ChildMemberStartDate": null,
-          "ChooseToProvideAis": null,
-          "Countries": [
-            {
-              "Name": "Australia",
-              "uuid": "f57b5602-9a4d-e811-a951-000d3ad06f2d"
-            }
-          ],
-          "DateEstablished": "1983-12-31T13:00:00.0000000Z",
-          "Documents": [
-            {
-              "Date": "2025-09-04T00:00:00.0000000",
-              "Title": "SNUWA Constitution.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/a6af377e-38af-e811-a963-000d3ad244fd-bd68ccac-28d5-48ec-9e5e-7095e96d96b0-Governing%20Document-f0c68826-fd88-f011-b4cc-0022480ff7a2-SNUWA_Constitution.pdf",
-              "Year": null,
-              "type": "Governing Document",
-              "uuid": "f0c68826-fd88-f011-b4cc-0022480ff7a2"
-            },
-            {
-              "Date": "2019-12-31T00:00:00.0000000",
-              "Title": "SNU of WA Inc. 2018-19 Financial Statements.PDF",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/a6af377e-38af-e811-a963-000d3ad244fd-bd68ccac-28d5-48ec-9e5e-7095e96d96b0-Annual%20Report-95e7cc14-a02b-ea11-a810-000d3ad1cf4f-SNU_of_WA_Inc._2018-19_Financial_Statements.PDF",
-              "Year": "2019",
-              "type": "Annual Report",
-              "uuid": "95e7cc14-a02b-ea11-a810-000d3ad1cf4f"
-            },
-            {
-              "Date": "2019-03-20T00:00:00.0000000",
-              "Title": "SNU Financial Statements for the year ended 30 June 2018.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/a6af377e-38af-e811-a963-000d3ad244fd-bd68ccac-28d5-48ec-9e5e-7095e96d96b0-Annual%20Report-968bc37c-c04a-e911-a970-000d3ad24a0d-SNU_Financial_Statements_for_the_year_ended_30_June_2018.pdf",
-              "Year": "2018",
-              "type": "Annual Report",
-              "uuid": "968bc37c-c04a-e911-a970-000d3ad24a0d"
-            },
-            {
-              "Date": "2021-01-19T00:00:00.0000000",
-              "Title": "SNU of WA Inc Audited Accounts as at 30 June 2020.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/a6af377e-38af-e811-a963-000d3ad244fd-bd68ccac-28d5-48ec-9e5e-7095e96d96b0-Financial%20Report-ab7a4426-015a-eb11-a812-000d3a6abb36-SNU_of_WA_Inc_Audited_Accounts_as_at_30_June_2020.pdf",
-              "Year": "2020",
-              "type": "Financial Report",
-              "uuid": "ab7a4426-015a-eb11-a812-000d3a6abb36"
-            },
-            {
-              "Date": "2019-12-31T00:00:00.0000000",
-              "Title": "SNU of WA Inc. 2018-19 Financial Statements.PDF",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/a6af377e-38af-e811-a963-000d3ad244fd-bd68ccac-28d5-48ec-9e5e-7095e96d96b0-Financial%20Report-a2e7cc14-a02b-ea11-a810-000d3ad1cf4f-SNU_of_WA_Inc._2018-19_Financial_Statements.PDF",
-              "Year": "2019",
-              "type": "Financial Report",
-              "uuid": "a2e7cc14-a02b-ea11-a810-000d3ad1cf4f"
-            },
-            {
-              "Date": "2024-04-10T00:00:00.0000000",
-              "Title": "1 July 2022 - 30 June 2023 - Audit Report.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/a6af377e-38af-e811-a963-000d3ad244fd-bd68ccac-28d5-48ec-9e5e-7095e96d96b0-Financial%20Report-55f1980e-8ef6-ee11-a1fe-00224810100d-1_July_2022_-_30_June_2023_-_Audit_Report.pdf",
-              "Year": "2023",
-              "type": "Financial Report",
-              "uuid": "55f1980e-8ef6-ee11-a1fe-00224810100d"
-            },
-            {
-              "Date": "2025-02-09T00:00:00.0000000",
-              "Title": "2024 - Audit 1 July 2023 - 30 June 2024 Report.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/a6af377e-38af-e811-a963-000d3ad244fd-bd68ccac-28d5-48ec-9e5e-7095e96d96b0-Financial%20Report-2cb86ebb-a2e6-ef11-be20-00224891d2a4-2024_-_Audit_1_July_2023_-_30_June_2024_Report.pdf",
-              "Year": "2024",
-              "type": "Financial Report",
-              "uuid": "2cb86ebb-a2e6-ef11-be20-00224891d2a4"
-            },
-            {
-              "Date": "2022-01-31T00:00:00.0000000",
-              "Title": "SNU Finance Report for the year ended 30 June 21 - GS.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/a6af377e-38af-e811-a963-000d3ad244fd-bd68ccac-28d5-48ec-9e5e-7095e96d96b0-Financial%20Report-3f5a8e84-6c82-ec11-8d20-00224892921b-SNU_Finance_Report_for_the_year_ended_30_June_21_-_GS.pdf",
-              "Year": "2021",
-              "type": "Financial Report",
-              "uuid": "3f5a8e84-6c82-ec11-8d20-00224892921b"
-            },
-            {
-              "Date": "2023-03-23T00:00:00.0000000",
-              "Title": "SNU Financial Statements 30 June 2022.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/a6af377e-38af-e811-a963-000d3ad244fd-bd68ccac-28d5-48ec-9e5e-7095e96d96b0-Financial%20Report-bf8f71cf-52c9-ed11-b596-00224893cef4-SNU_Financial_Statements_30_June_2022.pdf",
-              "Year": "2022",
-              "type": "Financial Report",
-              "uuid": "bf8f71cf-52c9-ed11-b596-00224893cef4"
-            },
-            {
-              "Date": "2026-01-30T00:00:00.0000000",
-              "Title": "SNU AGM Fin reports.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/a6af377e-38af-e811-a963-000d3ad244fd-bd68ccac-28d5-48ec-9e5e-7095e96d96b0-Financial%20Report-bfc668b9-42fd-f011-8406-7ced8d33fdea-SNU_AGM_Fin_reports.pdf",
-              "Year": "2025",
-              "type": "Financial Report",
-              "uuid": "bfc668b9-42fd-f011-8406-7ced8d33fdea"
-            }
-          ],
-          "Email": "enquiry@snuwa.org.au",
-          "EnforcementOutcomes": [],
-          "FinancialYearEnd": "30/06",
-          "GovernmentAgencies": [
-            {
-              "Name": "WA - Incorporated Association",
-              "ReferenceNumber": "A1003042L",
-              "uuid": "ef89b4cf-42fd-f011-8406-6045bdc47b11"
-            }
-          ],
-          "GroupHeadFlag": false,
-          "LastReported": "2026-01-29T18:48:05.0000000Z",
-          "Name": "Spiritualists National Union Of Wa Inc",
-          "NextReportDue": "2026-12-31T12:30:00.0000000Z",
-          "OperatingInStates": [
-            {
-              "Name": "Western Australia",
-              "uuid": "dc2782ae-455e-e811-a95c-000d3ad1c715"
-            }
-          ],
-          "OtherDetails": null,
-          "OtherNames": [
-            {
-              "Name": null,
-              "uuid": "683e2cda-52c9-ed11-b596-00224893b261"
-            }
-          ],
-          "ParentAccountAbn": null,
-          "ParentAccountId": null,
-          "Phone": null,
-          "Programs": [
-            {
-              "AisUuid": "dd89b4cf-42fd-f011-8406-6045bdc47b11",
-              "Name": "Lucy Saw Centre - collection point in WA.",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Victims of crime (including family violence)"
-              ],
-              "ProgramClassie": [
-                {
-                  "classie_id": "527",
-                  "label": "Shelter and residential care",
-                  "parent_id": "485",
-                  "selected": true
-                },
-                {
-                  "classie_id": "485",
-                  "label": "Human services",
-                  "parent_id": null,
-                  "selected": false
-                }
-              ],
-              "ProgramClassification": "Shelter and residential care",
-              "ProgramClassificationID": "527",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "Rockingham WA, Australia",
-                  "FormattedAddress": "Rockingham WA 6168, Australia",
-                  "Marker": {
-                    "Latitude": -32.2780969,
-                    "Longitude": 115.7351399
-                  },
-                  "Name": "Rockingham",
-                  "uuid": "fe89b4cf-42fd-f011-8406-6045bdc47b11"
-                }
-              ],
-              "ProgramWeblink": null,
-              "uuid": "f889b4cf-42fd-f011-8406-6045bdc47b11"
-            },
-            {
-              "AisUuid": "dd89b4cf-42fd-f011-8406-6045bdc47b11",
-              "Name": "Animal Protection Society",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Animals"
-              ],
-              "ProgramClassie": [
-                {
-                  "classie_id": "26",
-                  "label": "Animal welfare",
-                  "parent_id": null,
-                  "selected": true
-                }
-              ],
-              "ProgramClassification": "Animal welfare",
-              "ProgramClassificationID": "26",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "27 Talbot Road, Southern River WA, Australia",
-                  "FormattedAddress": "27 Talbot Rd, Southern River WA 6110, Australia",
-                  "Marker": {
-                    "Latitude": -32.118999,
-                    "Longitude": 115.9553427
-                  },
-                  "Name": "27 Talbot Rd",
-                  "uuid": "088ab4cf-42fd-f011-8406-6045bdc47b11"
-                }
-              ],
-              "ProgramWeblink": "apswa.asn.au",
-              "uuid": "008ab4cf-42fd-f011-8406-6045bdc47b11"
-            }
-          ],
-          "ReferendumReturnsUrl": null,
-          "RegistrationStatusHistory": [
-            {
-              "EffectiveDate": "2012-12-02T13:00:00.0000000Z",
-              "Status": "Registered",
-              "TransactionDate": "2012-12-02T13:00:00.0000000Z",
-              "uuid": "54b2e274-06c6-e811-a964-000d3ad24077"
-            }
-          ],
-          "RelatedPartyTransactions": null,
-          "RelevantTransactions": null,
-          "ReportingLate": "2027-06-30T12:30:00.0000000Z",
-          "ResponsiblePersons": [
-            {
-              "Name": "Andrew Thorpe",
-              "Role": "Secretary",
-              "uuid": "96c291c0-a2e6-ef11-be21-7c1e522b0303"
-            }
-          ],
-          "Status": "Registered",
-          "SummaryOfActivities": "Our charity aims to support the individuals in a time of need by following the Seven principles as set out in our constitution",
-          "TotalExpensesEmployee": "0",
-          "TotalExpensesGrantsAndDonationsInAustralia": "1000",
-          "TotalExpensesGrantsAndDonationsOutsideAustralia": "0",
-          "TotalExpensesInterest": "0",
-          "TotalExpensesOther": "16862",
-          "TotalGrossIncomeDonationsAndRequests": "0",
-          "TotalGrossIncomeGoodsOrServices": "22356",
-          "TotalGrossIncomeGovernmentGrants": "0",
-          "TotalGrossIncomeInvestments": "0",
-          "TotalGrossIncomeOtherRevenues": "0",
-          "TransparencyRegisterUrl": null,
-          "Website": "www.snuwa.org.au",
-          "__normalized": true,
-          "type": "charity",
-          "uuid": "a6af377e-38af-e811-a963-000d3ad244fd"
-        },
-        "type": "charity",
-        "uuid": "a6af377e-38af-e811-a963-000d3ad244fd"
-      },
-      "canonical_field_mappings": {
-        "data.OtherNames": "operating_names",
-        "data.AddressStateOrProvince": "principal_location"
-      },
-      "evidence_ids": []
-    },
-    {
-      "source_record_id": "src:acnc-ais-detail:50060192008:dd89b4cf-42fd-f011-8406-6045bdc47b11:cb_e03a0e09e44b4817ae219e80aa55b7dd",
-      "source_family": "acnc-ais-detail",
-      "dataset_version": "2026-08-14-public-api",
-      "source_url": "https://www.acnc.gov.au/charity/charities/a6af377e-38af-e811-a963-000d3ad244fd/documents/dd89b4cf-42fd-f011-8406-6045bdc47b11",
-      "retrieved_at": "2026-08-13T13:54:42.956606Z",
-      "observed_at": "2026-01-29",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "abn": "50060192008",
-        "ais_uuid": "dd89b4cf-42fd-f011-8406-6045bdc47b11",
-        "year": "2025",
-        "date_received": "2026-01-29T18:48:05.0000000Z"
-      },
-      "source_payload": {
-        "data": {
-          "Abn": "50060192008",
-          "ActivityAdvocacyNCivic": false,
-          "ActivityAgedCare": false,
-          "ActivityAnimalProtection": false,
-          "ActivityCultureAndArt": false,
-          "ActivityEconomicSocialCommunity": false,
-          "ActivityEmergencyNRelief": false,
-          "ActivityEmploymentNTraining": false,
-          "ActivityEnvironmental": false,
-          "ActivityGrantMaking": false,
-          "ActivityHealthRehabilitation": false,
-          "ActivityHigherEducation": false,
-          "ActivityHousing": false,
-          "ActivityIncomeSupportNMaintenance": false,
-          "ActivityInternational": false,
-          "ActivityInternationalDescription": null,
-          "ActivityInternationalOther": false,
-          "ActivityInternationalOtherDescription": null,
-          "ActivityLawNLegalServices": false,
-          "ActivityMain": null,
-          "ActivityMentalHealthCrisisIntervention": false,
-          "ActivityNdisSupported": null,
-          "ActivityNdisSupportedNext": null,
-          "ActivityOperating": true,
-          "ActivityOperatingOverseas": false,
-          "ActivityOther": false,
-          "ActivityOtherDescription": null,
-          "ActivityOtherEducation": false,
-          "ActivityOtherHealthServices": false,
-          "ActivityPersuitPurposesDescription": "Our charity aims to support the individuals in a time of need by following the Seven principles as set out in our constitution",
-          "ActivityPhilanthropicPromotion": false,
-          "ActivityPolitical": false,
-          "ActivityPrimarySecondaryEducation": false,
-          "ActivityPurposeChange": null,
-          "ActivityPurposeChangeDescription": null,
-          "ActivityRecreationSocialClub": false,
-          "ActivityReligious": false,
-          "ActivityResearch": false,
-          "ActivitySocialServices": false,
-          "ActivitySports": false,
-          "ActivityTransferringFundsGoods": false,
-          "AdvancementOfEducation": false,
-          "AdvancementOfReligion": false,
-          "AssetsandLiabilitiesDescription": "Building at 7/64 Kent Street, including fixed assets $2,51217 Cash at bank $39,778",
-          "BasicReligiousCharity": false,
-          "BeneficiaryAboriginalTorres": false,
-          "BeneficiaryAdults": false,
-          "BeneficiaryAllAges": false,
-          "BeneficiaryChildren": false,
-          "BeneficiaryChronicIllness": false,
-          "BeneficiaryCrimeVictims": false,
-          "BeneficiaryDisasterVictims": false,
-          "BeneficiaryEarlyChildhood": false,
-          "BeneficiaryEthnic": false,
-          "BeneficiaryFamilies": false,
-          "BeneficiaryFinanciallyDisadvantaged": false,
-          "BeneficiaryGeneral": false,
-          "BeneficiaryHomelessnessRisk": false,
-          "BeneficiaryLGBT": false,
-          "BeneficiaryMain": null,
-          "BeneficiaryMen": false,
-          "BeneficiaryMigrantsRefugees": false,
-          "BeneficiaryOffenderFamilies": false,
-          "BeneficiaryOther": false,
-          "BeneficiaryOtherCharities": false,
-          "BeneficiaryOtherDescription": null,
-          "BeneficiaryOverseas": false,
-          "BeneficiaryPeopleWithDisability": false,
-          "BeneficiaryRuralRegionalRemote": false,
-          "BeneficiarySeniors": false,
-          "BeneficiaryUnemployed": false,
-          "BeneficiaryVeteranFamilies": false,
-          "BeneficiaryWomen": false,
-          "BeneficiaryYouth": false,
-          "CharityAddressCountry": "Australia",
-          "CharityAddressLine1": "11 Dursely Street",
-          "CharityAddressLine2": null,
-          "CharityAddressPostalCode": "6170",
-          "CharityAddressStateOrProvince": "WA",
-          "CharityAddressSuburb": "Wellard",
-          "CharityEmail": "enquiry@snuwa.org.au",
-          "CharitySize": "Small",
-          "CharityUuid": "a6af377e-38af-e811-a963-000d3ad244fd",
-          "ChildCareServices": false,
-          "ExpenseEmployees": "0.0000",
-          "ExpenseGrantDonationsInAustralia": "1000.0000",
-          "ExpenseGrantDonationsOutsideAustralia": "0.0000",
-          "ExpenseTotal": "17862.0000",
-          "ExpensesOther": "16862.0000",
-          "FinAccrualAccounting": "Cash",
-          "FinConsolidatedReportFromMiltiple": null,
-          "FinDocumentedPoliciesRelatedPartyTransactions": null,
-          "FinFyeJune": false,
-          "FinProvideVoluntarily": null,
-          "FinRelatedPartyTransactions": "No",
-          "FinReportACT": false,
-          "FinReportFrom": "2024-07-01T00:00:00.0000000Z",
-          "FinReportNSW": false,
-          "FinReportNT": false,
-          "FinReportQLD": false,
-          "FinReportSA": false,
-          "FinReportTAS": false,
-          "FinReportTo": "2025-06-30T00:00:00.0000000Z",
-          "FinReportVIC": false,
-          "FinReportWA": false,
-          "FinReportingType": null,
-          "FinSapDate": null,
-          "FundRaisingNumberACT": null,
-          "FundRaisingNumberNSW": null,
-          "FundRaisingNumberQLD": null,
-          "FundRaisingNumberSA": null,
-          "FundRaisingNumberTAS": null,
-          "FundRaisingNumberVIC": null,
-          "FundRaisingNumberWA": null,
-          "GovDocAccurate": null,
-          "GrantCapacityBuildingPct": null,
-          "GrantMultiYearPct": null,
-          "GrantPublicOpenApplicationPct": null,
-          "GrantRuralRegionPct": null,
-          "HasSubmittedToRegulator": false,
-          "HoursPaid": null,
-          "HoursTotal": null,
-          "HoursVolunteer": null,
-          "HrCasualEmployees": "0",
-          "HrFteStaff": "0.0000000000",
-          "HrFullTimeEmployees": "0",
-          "HrPartTimeEmployees": "0",
-          "HrUnpainVolunteers": "15",
-          "IncomeDonationsBequests": "0.0000",
-          "IncomeGovernmentGrants": "0.0000",
-          "IncomeOther": "0.0000",
-          "IncomeOtherComprehinsive": "0.0000",
-          "IncomeOtherNeg": null,
-          "IncomeOtherReceipts": "0.0000",
-          "IncomeTotalComprehensive": "0.0000",
-          "IncomeTotalReceipts": "22356.0000",
-          "IncorporationStatus": null,
-          "InterestExpense": "0.0000",
-          "IsIncorporatedAssociation": true,
-          "KeyManagementPersonnel": false,
-          "LegalName": "Spiritualists National Union Of Wa Inc",
-          "NetAssetsLiabilities": "290995.0000",
-          "NetSurplusDeficit": "4494.0000",
-          "NonCurrentLoansPayable": "0.0000",
-          "NumberOfKeyManagementPersonnel": "0",
-          "OperatingCountries": null,
-          "OperatingInACT": false,
-          "OperatingInNSW": false,
-          "OperatingInNT": false,
-          "OperatingInQLD": false,
-          "OperatingInSA": false,
-          "OperatingInTAS": false,
-          "OperatingInVIC": false,
-          "OperatingInWA": false,
-          "OperatingOverseas": false,
-          "OtherNames": [],
-          "OtherNonCurrentAssets": "0.0000",
-          "OtherNonCurrentLiabilities": "0.0000",
-          "OtherPurposeDescription": null,
-          "OtherPurposes": "False",
-          "Programs": [
-            {
-              "AisUuid": "dd89b4cf-42fd-f011-8406-6045bdc47b11",
-              "Name": "Lucy Saw Centre - collection point in WA.",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Victims of crime (including family violence)"
-              ],
-              "ProgramClassification": "Shelter and residential care",
-              "ProgramClassificationID": "527",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "Rockingham WA, Australia",
-                  "FormattedAddress": "Rockingham WA 6168, Australia",
-                  "Marker": {
-                    "Latitude": -32.2780969,
-                    "Longitude": 115.7351399
-                  },
-                  "Name": "Rockingham",
-                  "uuid": "fe89b4cf-42fd-f011-8406-6045bdc47b11"
-                }
-              ],
-              "ProgramWeblink": null,
-              "uuid": "f889b4cf-42fd-f011-8406-6045bdc47b11"
-            },
-            {
-              "AisUuid": "dd89b4cf-42fd-f011-8406-6045bdc47b11",
-              "Name": "Animal Protection Society",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Animals"
-              ],
-              "ProgramClassification": "Animal welfare",
-              "ProgramClassificationID": "26",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "27 Talbot Road, Southern River WA, Australia",
-                  "FormattedAddress": "27 Talbot Rd, Southern River WA 6110, Australia",
-                  "Marker": {
-                    "Latitude": -32.118999,
-                    "Longitude": 115.9553427
-                  },
-                  "Name": "27 Talbot Rd",
-                  "uuid": "088ab4cf-42fd-f011-8406-6045bdc47b11"
-                }
-              ],
-              "ProgramWeblink": "apswa.asn.au",
-              "uuid": "008ab4cf-42fd-f011-8406-6045bdc47b11"
-            }
-          ],
-          "RegulatedACT": false,
-          "RegulatedNSW": false,
-          "RegulatedNT": false,
-          "RegulatedQLD": false,
-          "RegulatedSA": false,
-          "RegulatedTAS": false,
-          "RegulatedVIC": false,
-          "RegulatedWA": false,
-          "Regulator": null,
-          "RegulatorAGMDateACT": null,
-          "RegulatorAGMDateNT": null,
-          "RegulatorAGMDateVIC": null,
-          "RegulatorAGMDateWA": "2025-11-23T00:00:00.0000000",
-          "RegulatorFundRaising": "No",
-          "RegulatorFundRaisingACT": false,
-          "RegulatorFundRaisingNSW": false,
-          "RegulatorFundRaisingNT": false,
-          "RegulatorFundRaisingOnline": false,
-          "RegulatorFundRaisingQLD": false,
-          "RegulatorFundRaisingSA": false,
-          "RegulatorFundRaisingTAS": false,
-          "RegulatorFundRaisingVIC": false,
-          "RegulatorFundRaisingWA": false,
-          "RegulatorIncorporatedAssociationACT": false,
-          "RegulatorIncorporatedAssociationNSW": false,
-          "RegulatorIncorporatedAssociationNT": false,
-          "RegulatorIncorporatedAssociationNumberACT": null,
-          "RegulatorIncorporatedAssociationNumberNSW": null,
-          "RegulatorIncorporatedAssociationNumberNT": null,
-          "RegulatorIncorporatedAssociationNumberQLD": null,
-          "RegulatorIncorporatedAssociationNumberSA": null,
-          "RegulatorIncorporatedAssociationNumberTAS": null,
-          "RegulatorIncorporatedAssociationNumberVIC": null,
-          "RegulatorIncorporatedAssociationNumberWA": "A1003042L",
-          "RegulatorIncorporatedAssociationQLD": false,
-          "RegulatorIncorporatedAssociationSA": false,
-          "RegulatorIncorporatedAssociationTAS": false,
-          "RegulatorIncorporatedAssociationVIC": false,
-          "RegulatorIncorporatedAssociationWA": true,
-          "RegulatorMetRequirementACT": false,
-          "RegulatorMetRequirementWA": "Yes",
-          "RegulatorOtherDetails": null,
-          "RegulatorPrograms": null,
-          "RegulatorStates": false,
-          "RelatedPartyDetails": null,
-          "RelatedPartyTransactions": [],
-          "ReliefOfPoverty": false,
-          "ReportingGroupFlag": false,
-          "ResponsiblePersonAccurate": null,
-          "RevenueGoodsServices": "22356.0000",
-          "RevenueInvestments": "0.0000",
-          "RevenueTotal": "22356.0000",
-          "StatementYear": "2025",
-          "SubTypesAccurate": null,
-          "TotalAssets": "290995.0000",
-          "TotalCurrentAssets": "0.0000",
-          "TotalCurrentLiabilities": "0.0000",
-          "TotalLiabilities": "0.0000",
-          "TotalNonCurrentAssets": null,
-          "TotalNonCurrentLiabilities": "0.0000",
-          "TotalNonCurrentLoansReceivable": "0.0000",
-          "TotalPaidKMP": "$0.00",
-          "Website": "www.snuwa.org.au",
-          "__normalized": true,
-          "entityTypeVersion": "",
-          "entityVersion": "1842458268",
-          "timeStamp": "2026-01-29T18:46:30.0000000Z",
-          "type": "annual_information_statement",
-          "uuid": "dd89b4cf-42fd-f011-8406-6045bdc47b11"
-        },
-        "type": "annual_information_statement",
-        "uuid": "dd89b4cf-42fd-f011-8406-6045bdc47b11"
-      },
-      "canonical_field_mappings": {
-        "data.Programs": "programs",
-        "data.TotalRevenue": "financial_records[].revenue",
-        "data.TotalExpenses": "financial_records[].total_expenses"
-      },
-      "evidence_ids": [
-        "ev:acnc:ais:50060192008:dd89b4cf-42fd-f011-8406-6045bdc47b11"
-      ]
-    }
-  ],
-  "financial_records": [
-    {
-      "financial_record_id": "fr:ais:cb_e03a0e09e44b4817ae219e80aa55b7dd:2023",
-      "period": {
-        "period_start": "2022-07-01",
-        "period_end": "2023-06-30",
-        "period_length_days": 365,
-        "label": "01/07/2022 to 30/06/2023",
-        "is_transitional_or_nonstandard": false
-      },
-      "reporting_scope": "subject",
-      "reporting_subject_causebase_id": "cb_e03a0e09e44b4817ae219e80aa55b7dd",
-      "covered_subjects": [
-        "cb_e03a0e09e44b4817ae219e80aa55b7dd"
-      ],
-      "consolidated": "unknown",
-      "attribution_method": "direct_subject_report",
-      "evidence_ids": [
-        "ev:ais:50060192008:2023"
-      ],
-      "revenue": {
-        "source_amount": "22323",
-        "source_currency": "AUD",
-        "source_unit_scale": "1",
-        "normalised_amount": "22323",
-        "normalised_currency": "AUD",
-        "source_unit_label": null,
-        "source_raw_value": "22323",
-        "source_precision": null
-      },
-      "donations": null,
-      "government_grants": null,
-      "employee_costs": null,
-      "total_expenses": {
-        "source_amount": "17592",
-        "source_currency": "AUD",
-        "source_unit_scale": "1",
-        "normalised_amount": "17592",
-        "normalised_currency": "AUD",
-        "source_unit_label": null,
-        "source_raw_value": "17592",
-        "source_precision": null
-      },
-      "assets": null,
-      "liabilities": null,
-      "net_assets": null,
-      "income_breakdown": [],
-      "expense_breakdown": [],
-      "balance_sheet_breakdown": [],
-      "source_ordered_line_items": [],
-      "statements": [],
-      "donations_gifts_bequests": null,
-      "functional_expense_allocations": []
-    }
-  ],
-  "financial_metrics": [
-    {
-      "metric": "revenue",
-      "observations": [
-        {
-          "financial_record_id": "fr:ais:cb_e03a0e09e44b4817ae219e80aa55b7dd:2023",
-          "amount": {
-            "source_amount": "22323",
-            "source_currency": "AUD",
-            "source_unit_scale": "1",
-            "normalised_amount": "22323",
-            "normalised_currency": "AUD",
-            "source_unit_label": null,
-            "source_raw_value": "22323",
-            "source_precision": null
-          },
-          "metric_source_label": null,
-          "evidence_ids": [
-            "ev:ais:50060192008:2023"
-          ]
-        }
-      ],
-      "reconciliation_status": "single_observation",
-      "reconciliation_notes": null
-    },
-    {
-      "metric": "total_expenses",
-      "observations": [
-        {
-          "financial_record_id": "fr:ais:cb_e03a0e09e44b4817ae219e80aa55b7dd:2023",
-          "amount": {
-            "source_amount": "17592",
-            "source_currency": "AUD",
-            "source_unit_scale": "1",
-            "normalised_amount": "17592",
-            "normalised_currency": "AUD",
-            "source_unit_label": null,
-            "source_raw_value": "17592",
-            "source_precision": null
-          },
-          "metric_source_label": null,
-          "evidence_ids": [
-            "ev:ais:50060192008:2023"
-          ]
-        }
-      ],
-      "reconciliation_status": "single_observation",
-      "reconciliation_notes": null
-    }
-  ],
-  "fundraising_expenditure": null,
-  "funding_sources": [],
-  "fundraising_methods": [],
-  "classifications": [
-    {
-      "taxonomy_id": "acnc-register",
-      "taxonomy_version": "2026-08-10",
-      "term_id": "purpose.religion",
-      "term_label": "religion",
-      "assignment_method": "source_native",
-      "confidence": "high",
-      "evidence_ids": [
-        "ev:acnc:50060192008"
-      ]
-    },
-    {
-      "taxonomy_id": "acnc-register",
-      "taxonomy_version": "2026-08-10",
-      "term_id": "beneficiary.animals",
-      "term_label": "animals",
-      "assignment_method": "source_native",
-      "confidence": "high",
-      "evidence_ids": [
-        "ev:acnc:50060192008"
-      ]
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "activity.events_and_public_programming",
-      "term_label": "Events and public programming",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "participation.public_events",
-      "term_label": "Public events",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "beneficiary.general_community",
-      "term_label": "General community",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "geography.local_or_regional",
-      "term_label": "Local or regional Australia",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "organisation.local",
-      "term_label": "Local organisation",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
+      "review_status": "not_required",
+      "conflicting_signals": []
     }
   ],
   "evidence": [
     {
       "evidence_id": "ev:acnc:50060192008",
-      "source_type": "regulatory",
-      "title": "ACNC Register extract",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": null,
-      "observed_at": "2026-08-10",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "title": "ACNC Register extract"
     },
     {
       "evidence_id": "ev:web:50060192008:2026-08-10",
-      "source_type": "organisation_self_report",
       "title": "Organisation website homepage",
-      "publisher": "Spiritualists National Union Of Wa Inc",
-      "url": "https://www.snuwa.org.au",
-      "observed_at": "2026-08-10",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://www.snuwa.org.au"
     },
     {
       "evidence_id": "ev:ais:50060192008:2023",
-      "source_type": "regulatory",
-      "title": "ACNC AIS 2023 extract",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": null,
-      "observed_at": "2026-08-10",
-      "reporting_period": "01/07/2022 to 30/06/2023",
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "title": "ACNC AIS 2023 extract"
     },
     {
       "evidence_id": "ev:acnc:ais:50060192008:dd89b4cf-42fd-f011-8406-6045bdc47b11",
-      "source_type": "regulatory",
       "title": "ACNC Annual Information Statement 2025",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": "https://www.acnc.gov.au/charity/charities/a6af377e-38af-e811-a963-000d3ad244fd/documents/dd89b4cf-42fd-f011-8406-6045bdc47b11",
-      "observed_at": "2026-01-29",
-      "reporting_period": "2025",
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://www.acnc.gov.au/charity/charities/a6af377e-38af-e811-a963-000d3ad244fd/documents/dd89b4cf-42fd-f011-8406-6045bdc47b11"
     }
   ],
-  "embedding": {
-    "embedding_id": "cb_e03a0e09e44b4817ae219e80aa55b7dd:entity:text-embedding-3-small",
-    "embedding_type": "entity",
-    "model_id": "text-embedding-3-small",
-    "model_version": "text-embedding-3-small",
-    "dimensions": 1536,
-    "source_text_hash": "e71c22bad23a23043f0c580fc652328dfb3613bcbb4b30e296fee593d0b61047",
-    "generated_at": "2026-08-10T13:53:24.456891Z",
-    "vector_ref": "embeddings.parquet#cb_e03a0e09e44b4817ae219e80aa55b7dd"
+  "summary": {
+    "derivative_id": "der:rc4:cb_e03a0e09e44b4817ae219e80aa55b7dd:summary",
+    "text": "Spiritualists National Union Of WA Inc is a spiritualist centre based in Western Australia. As of August 2026 it publishes a mediums schedule for regular services, runs a learning programme that includes spiritualism and mediumship training, and hosts gatherings where people share life experiences and explore spiritual growth. The organisation describes its attendees as \"like-minded people\" and invites contact for information or locations of its church. The available records identify these programmatic activities and participation routes (attendance at scheduled services and medium events, and participation in the learning programme) but do not provide detailed breakdowns of service locations or participant numbers in this release."
   },
-  "synthesis": {
-    "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
-    "parameters": {
-      "max_output_tokens": 3000,
-      "structured_output": true,
-      "output_contract": "causebase-summary-v0.3-rc2"
-    },
-    "evidence_input_hash": "baaeece5b44ac979a2fee86372b575a9f80b4dcf02cab3270057488d0e70d43e",
-    "generated_at": "2026-08-12T13:59:01.937744Z",
-    "editorial_policy_version": "0.3-rc2"
-  },
-  "derivative_assessments": [
+  "activities": [],
+  "beneficiaries": [],
+  "descriptive_geography": [],
+  "navigation_geography": [],
+  "funding_sources": [],
+  "fundraising_methods": [],
+  "participation": [],
+  "opportunities": [],
+  "programs": [
     {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T13:59:01.937744Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-13T13:54:42.956606Z",
-      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
-      "input_hash": "baaeece5b44ac979a2fee86372b575a9f80b4dcf02cab3270057488d0e70d43e",
-      "disposition": "reused",
-      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
-      "affected_dimensions": [
-        "summary"
-      ]
+      "observation_id": "obs:rc4:cb_e03a0e09e44b4817ae219e80aa55b7dd:program:prg:acnc:50060192008:f889b4cf-42fd-f011-8406-6045bdc47b11",
+      "program_id": "prg:acnc:50060192008:f889b4cf-42fd-f011-8406-6045bdc47b11",
+      "name": "Lucy Saw Centre - collection point in WA.",
+      "description": "Shelter and residential care",
+      "url": "https://www.acnc.gov.au/charity/charities/a6af377e-38af-e811-a963-000d3ad244fd/documents/dd89b4cf-42fd-f011-8406-6045bdc47b11",
+      "status": "current",
+      "claim_basis": "direct",
+      "extraction_method": "api",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:ais:50060192008:dd89b4cf-42fd-f011-8406-6045bdc47b11"
+      ],
+      "time": {
+        "reporting_period": {
+          "label": "2025"
+        }
+      },
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_e03a0e09e44b4817ae219e80aa55b7dd:program:prg:acnc:50060192008:008ab4cf-42fd-f011-8406-6045bdc47b11",
+      "program_id": "prg:acnc:50060192008:008ab4cf-42fd-f011-8406-6045bdc47b11",
+      "name": "Animal Protection Society",
+      "description": "Animal welfare",
+      "url": "apswa.asn.au",
+      "status": "current",
+      "claim_basis": "direct",
+      "extraction_method": "api",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:ais:50060192008:dd89b4cf-42fd-f011-8406-6045bdc47b11"
+      ],
+      "time": {
+        "reporting_period": {
+          "label": "2025"
+        }
+      },
+      "warnings": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-14-rc4-fundraising-projection-correction",
-  "card_schema_version": "0.4",
-  "editorial_policy_version": "0.4-rc4",
-  "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T13:54:42.956606Z"
+  "relationships": [],
+  "classifications": [
+    {
+      "observation_id": "obs:rc4:cb_e03a0e09e44b4817ae219e80aa55b7dd:classification:0",
+      "classification_id": "cls:rc4:cb_e03a0e09e44b4817ae219e80aa55b7dd:0",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "purpose.religion",
+      "term_label": "religion",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:50060192008"
+      ],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_e03a0e09e44b4817ae219e80aa55b7dd:classification:1",
+      "classification_id": "cls:rc4:cb_e03a0e09e44b4817ae219e80aa55b7dd:1",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "beneficiary.animals",
+      "term_label": "animals",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:50060192008"
+      ],
+      "confidence": "high",
+      "warnings": []
+    }
+  ],
+  "coverage": {
+    "registry_id": "capability-registry-0.5-initial",
+    "current": [
+      {
+        "capability": "regulatory.acnc_profile",
+        "status": "observed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:acnc:50060192008"
+        ]
+      },
+      {
+        "capability": "regulatory.ais",
+        "status": "observed",
+        "assessed_at": "2026-01-29",
+        "source_record_ids": [
+          "src:acnc-ais-detail:50060192008:dd89b4cf-42fd-f011-8406-6045bdc47b11:cb_e03a0e09e44b4817ae219e80aa55b7dd"
+        ],
+        "evidence_ids": [
+          "ev:acnc:ais:50060192008:dd89b4cf-42fd-f011-8406-6045bdc47b11"
+        ]
+      },
+      {
+        "capability": "tax.dgr",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "web.website",
+        "status": "observed",
+        "assessed_at": "2026-08-13",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "report.annual_report",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "financial.report",
+        "status": "unknown",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:ais:50060192008:2023"
+        ]
+      },
+      {
+        "capability": "financial.statements",
+        "status": "unknown",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:ais:50060192008:2023"
+        ]
+      },
+      {
+        "capability": "understanding.activities",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.beneficiaries",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.geography",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "programs",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "participation",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "funding.sources",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.methods",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.expenditure",
+        "status": "not_available_from_source",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "taxonomy.causebase",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "semantic.embedding",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      }
+    ]
+  },
+  "financial_reports": [],
+  "canonical_metrics": [],
+  "analytic_projections": [],
+  "derivatives": [
+    {
+      "derivative_id": "der:rc4:cb_e03a0e09e44b4817ae219e80aa55b7dd:summary",
+      "kind": "summary",
+      "input_observation_ids": [],
+      "evidence_ids": [
+        "ev:web:50060192008:2026-08-10",
+        "ev:acnc:50060192008",
+        "ev:ais:50060192008:2023"
+      ],
+      "generated_under": {
+        "output_contract_version": "phase2b-rc4-accepted-rc2-summary-reuse",
+        "input_hash": "baaeece5b44ac979a2fee86372b575a9f80b4dcf02cab3270057488d0e70d43e",
+        "generated_at": "2026-08-12T13:59:01.937744Z"
+      },
+      "current_assessment": {
+        "assessed_at": "2026-08-13T13:54:42.956606Z",
+        "assessed_against_contract": "0.5",
+        "governing_input_hash": "baaeece5b44ac979a2fee86372b575a9f80b4dcf02cab3270057488d0e70d43e",
+        "disposition": "reused",
+        "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs."
+      }
+    }
+  ],
+  "legacy_unbound": {
+    "origin_release": "rc4-2026-08-14",
+    "origin_card_sha256": "32befa8b988cfb5f1254737b30bd017ab73e733fa543ac97c5db87c8c46e6025",
+    "activities": [
+      {
+        "value": "publishes a mediums schedule for services and mediums",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "runs a learning programme in spiritualism and mediumship training",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "hosts gatherings for people to share life experiences and spiritual growth",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "beneficiaries": [
+      {
+        "value": "people who attend the centre",
+        "source_role": "legacy_source_qualifier",
+        "provenance_note": "described on the website as \"like-minded people\"",
+        "evidence_ids": []
+      }
+    ],
+    "descriptive_geography": [
+      {
+        "value": "Western Australia (WA)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "classifications": [
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "activity.events_and_public_programming",
+        "term_label": "Events and public programming",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "participation.public_events",
+        "term_label": "Public events",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "beneficiary.general_community",
+        "term_label": "General community",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "geography.local_or_regional",
+        "term_label": "Local or regional Australia",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "organisation.local",
+        "term_label": "Local organisation",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      }
+    ],
+    "financial_records": [
+      {
+        "financial_record_id": "fr:ais:cb_e03a0e09e44b4817ae219e80aa55b7dd:2023",
+        "period": {
+          "period_start": "2022-07-01",
+          "period_end": "2023-06-30",
+          "period_length_days": 365,
+          "label": "01/07/2022 to 30/06/2023",
+          "is_transitional_or_nonstandard": false
+        },
+        "reporting_scope": "subject",
+        "reporting_subject_causebase_id": "cb_e03a0e09e44b4817ae219e80aa55b7dd",
+        "covered_subjects": [
+          "cb_e03a0e09e44b4817ae219e80aa55b7dd"
+        ],
+        "consolidated": "unknown",
+        "attribution_method": "direct_subject_report",
+        "evidence_ids": [
+          "ev:ais:50060192008:2023"
+        ],
+        "revenue": {
+          "source_amount": "22323",
+          "source_currency": "AUD",
+          "source_unit_scale": "1",
+          "normalised_amount": "22323",
+          "normalised_currency": "AUD",
+          "source_unit_label": null,
+          "source_raw_value": "22323",
+          "source_precision": null
+        },
+        "donations": null,
+        "government_grants": null,
+        "employee_costs": null,
+        "total_expenses": {
+          "source_amount": "17592",
+          "source_currency": "AUD",
+          "source_unit_scale": "1",
+          "normalised_amount": "17592",
+          "normalised_currency": "AUD",
+          "source_unit_label": null,
+          "source_raw_value": "17592",
+          "source_precision": null
+        },
+        "assets": null,
+        "liabilities": null,
+        "net_assets": null,
+        "income_breakdown": [],
+        "expense_breakdown": [],
+        "balance_sheet_breakdown": [],
+        "source_ordered_line_items": [],
+        "statements": [],
+        "donations_gifts_bequests": null,
+        "functional_expense_allocations": []
+      }
+    ]
+  }
 }

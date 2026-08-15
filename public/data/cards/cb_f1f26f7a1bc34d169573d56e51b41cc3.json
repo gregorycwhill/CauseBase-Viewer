@@ -1,1481 +1,464 @@
 {
   "causebase_id": "cb_f1f26f7a1bc34d169573d56e51b41cc3",
+  "contract_version": "0.5",
   "subject_kind": "unknown",
-  "external_identifiers": [
-    {
-      "scheme": "abn",
-      "value": "65175035512",
-      "source_evidence_id": "ev:acnc:65175035512"
-    }
+  "identity": {
+    "legal_name": "Young Voices Of Melbourne Inc",
+    "display_name": "Young Voices Of Melbourne Inc",
+    "operating_names": [],
+    "former_names": [],
+    "entity_status": "registered",
+    "website": "http://yvm.com.au",
+    "external_identifiers": [
+      {
+        "scheme": "abn",
+        "value": "65175035512",
+        "evidence_ids": [
+          "ev:acnc:65175035512"
+        ]
+      }
+    ],
+    "registrations": [
+      {
+        "regulator": "ACNC",
+        "status": "registered",
+        "evidence_ids": [
+          "ev:acnc:65175035512"
+        ]
+      }
+    ],
+    "tax_statuses": [
+      {
+        "scheme": "ABR DGR",
+        "status": "endorsed",
+        "evidence_ids": [
+          "ev:abr-dgr:65175035512:20260805"
+        ]
+      }
+    ]
+  },
+  "release": {
+    "release_id": "v0.5.0-2026-08-15",
+    "dataset_version": "0.5.0-2026-08-15",
+    "contract_version": "0.5",
+    "based_on_release": "rc4-2026-08-14",
+    "generated_at": "2026-08-15T00:00:00Z"
+  },
+  "source_record_refs": [
+    "src:acnc-public-profile:65175035512:4f095b6a-38af-e811-a963-000d3ad24077:cb_f1f26f7a1bc34d169573d56e51b41cc3",
+    "src:acnc-ais-detail:65175035512:a3595678-596f-f111-ab0d-6045bdc47b11:cb_f1f26f7a1bc34d169573d56e51b41cc3"
   ],
-  "registrations": [
-    {
-      "regulator": "ACNC",
-      "registration_id": null,
-      "status": "registered",
-      "evidence_ids": [
-        "ev:acnc:65175035512"
-      ]
-    }
-  ],
-  "tax_statuses": [
-    {
-      "scheme": "ABR DGR",
-      "status": "endorsed",
-      "detail": "Dated 2026-08-05 ABR bulk observation",
-      "evidence_ids": [
-        "ev:abr-dgr:65175035512:20260805"
-      ]
-    }
-  ],
-  "relationships": [],
-  "source_resolutions": [
+  "source_bindings": [
     {
       "source_record_id": "src:acnc-register:1e38dc54-4559-5621-a035-acb4516fa7e6",
       "resolution_status": "resolved",
       "resolution_basis": "automated authoritative ACNC promotion under acnc-authoritative-v1",
       "confidence": "high",
-      "supporting_signals": [
-        "ABN:65175035512",
-        "ACNC Register"
-      ],
-      "conflicting_signals": [],
-      "review_status": "not_required"
-    }
-  ],
-  "legal_name": "Young Voices Of Melbourne Inc",
-  "display_name": "Young Voices Of Melbourne Inc",
-  "entity_status": "registered",
-  "canonical_url": "https://gregorycwhill.github.io/CauseBase-Viewer/#cb_f1f26f7a1bc34d169573d56e51b41cc3",
-  "acnc_profile_url": "https://www.acnc.gov.au/charity/charities/4f095b6a-38af-e811-a963-000d3ad24077/profile",
-  "acnc_ais_url": "https://www.acnc.gov.au/charity/charities/4f095b6a-38af-e811-a963-000d3ad24077/documents/a3595678-596f-f111-ab0d-6045bdc47b11",
-  "operating_names": [],
-  "former_names": [],
-  "principal_location": "VIC, Australia",
-  "coverage": [
-    {
-      "capability": "regulatory",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:acnc:65175035512"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "annual_report",
-      "status": "not_yet_processed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "fundraising_expenditure",
-      "status": "not_available_from_source",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": "No direct or defensible derived fundraising expenditure was found in selected Phase 2A evidence."
-    },
-    {
-      "capability": "financials",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:ais:65175035512:2023"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "latest_acnc_ais",
-      "status": "observed",
-      "source_record_id": "src:acnc-ais-detail:65175035512:a3595678-596f-f111-ab0d-6045bdc47b11:cb_f1f26f7a1bc34d169573d56e51b41cc3",
-      "evidence_ids": [
-        "ev:acnc:ais:65175035512:a3595678-596f-f111-ab0d-6045bdc47b11"
-      ],
-      "observed_at": "2026-06-23",
-      "freshness_note": "Latest submitted AIS detail acquired from the public ACNC entity endpoint."
-    },
-    {
-      "capability": "website",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-13",
-      "freshness_note": "Public website locator acquired from the ACNC profile."
-    }
-  ],
-  "enrichment_level": "enriched",
-  "website": "http://yvm.com.au",
-  "geography": [
-    "Melbourne, Victoria, Australia"
-  ],
-  "geography_observations": [
-    {
-      "value": "Melbourne, Victoria, Australia",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "navigation_geography": [],
-  "causebase_summary": "Young Voices Of Melbourne Inc is a Melbourne-based youth choral organisation. As of 2026 it operates two ensembles, the Senior Training Choir and the Performing Choir, and enrolment is by membership of those named choirs. The group runs regular rehearsals and an annual rehearsal weekend (branded Supercamp; most recently held 27 Feb–1 Mar 2026), engages visiting and associate artists and choral clinicians (including the appointment of international conductor Dr Michael Barrett as Associate Artist in April 2026) and provides artistic leadership through an Artistic Director who began in 2025. Participation reported includes attendance at rehearsals, weekend training camps and specialist sessions led by visiting artists and artistic staff.",
-  "summary_evidence_ids": [
-    "ev:web:65175035512:2026-08-10",
-    "ev:acnc:65175035512",
-    "ev:ais:65175035512:2023"
-  ],
-  "organisation_self_description": null,
-  "activities": [
-    "Rehearsal weekends (Supercamp) for Senior Training Choir and Performing Choir",
-    "Regular choir rehearsals for Senior Training Choir and Performing Choir",
-    "Engagement of visiting/associate artist conductor and choral clinician",
-    "Artistic leadership and direction (Artistic Director role)"
-  ],
-  "activity_observations": [
-    {
-      "value": "Rehearsal weekends (Supercamp) for Senior Training Choir and Performing Choir",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Regular choir rehearsals for Senior Training Choir and Performing Choir",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Engagement of visiting/associate artist conductor and choral clinician",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Artistic leadership and direction (Artistic Director role)",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "beneficiaries": [
-    "Singers who are members of the Senior Training Choir and the Performing Choir"
-  ],
-  "beneficiary_observations": [
-    {
-      "value": "Singers who are members of the Senior Training Choir and the Performing Choir",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "participation_modes": [
-    "Membership of named choirs (Senior Training Choir, Performing Choir)",
-    "Attendance at rehearsals and weekend training camps",
-    "Engagement with visiting Associate Artist and artistic staff"
-  ],
-  "participation_observations": [],
-  "opportunities": [],
-  "programs": [
-    {
-      "program_id": "prg:acnc:65175035512:375a5678-596f-f111-ab0d-6045bdc47b11",
-      "name": "Rehearsal and music education program",
-      "description": "Music",
-      "beneficiaries": [
-        "Early childhood - aged under 6",
-        "Children - aged 6 to under 15",
-        "Youth - 15 to under 25",
-        "Adults - aged 25 to under 65",
-        "Females",
-        "Males"
-      ],
-      "geography": [
-        "Melbourne VIC, Australia"
-      ],
-      "status": "current",
-      "reporting_period": "2025",
-      "source_url": "https://www.acnc.gov.au/charity/charities/4f095b6a-38af-e811-a963-000d3ad24077/documents/a3595678-596f-f111-ab0d-6045bdc47b11",
-      "evidence_ids": [
-        "ev:acnc:ais:65175035512:a3595678-596f-f111-ab0d-6045bdc47b11"
-      ]
-    }
-  ],
-  "source_native_records": [
-    {
-      "source_record_id": "src:acnc-public-profile:65175035512:4f095b6a-38af-e811-a963-000d3ad24077:cb_f1f26f7a1bc34d169573d56e51b41cc3",
-      "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-14-public-api",
-      "source_url": "https://www.acnc.gov.au/charity/charities/4f095b6a-38af-e811-a963-000d3ad24077/profile",
-      "retrieved_at": "2026-08-13T13:54:42.956606Z",
-      "observed_at": "2026-06-23",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "uuid": "4f095b6a-38af-e811-a963-000d3ad24077",
-        "abn": "65175035512"
-      },
-      "source_payload": {
-        "data": {
-          "AFSAddressPostalCode": "3139",
-          "AFSEmail": "info@yvm.au",
-          "Abn": "65175035512",
-          "AddressCountry": "Australia",
-          "AddressLine1": "1475 Don Road",
-          "AddressLine2": null,
-          "AddressLine3": null,
-          "AddressPostalCode": "3139",
-          "AddressStateOrProvince": "VIC",
-          "AddressSuburb": "Don Valley",
-          "AddressSuburbStatePostcode": "Don Valley VIC 3139",
-          "AnnualReports": [
-            {
-              "AISId": "2c968b9b-3d2f-ee11-bdf3-00224893bd39",
-              "DateReceived": "2023-07-31T01:00:24.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2023-07-30T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2022",
-              "type": "Annual Information Statement 2022",
-              "uuid": "ba3d97e1-07f2-eb11-94ee-000d3acb5839"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2023-07-31T01:00:19.0000000Z",
-              "DocumentUuid": "d2bc6494-3d2f-ee11-bdf3-00224893cef4",
-              "DueDate": "2023-07-31T00:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2022",
-              "type": "Financial Report 2022",
-              "uuid": "ce3d97e1-07f2-eb11-94ee-000d3acb5839"
-            },
-            {
-              "AISId": "b5beb045-de77-f011-b4cc-00224893fe04",
-              "DateReceived": "2025-08-13T00:41:49.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2025-07-30T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2024",
-              "type": "Annual Information Statement 2024",
-              "uuid": "16bfe157-d910-ed11-b83b-000d3ad029ec"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2025-08-13T00:40:20.0000000Z",
-              "DocumentUuid": "0bdd4610-de77-f011-b4cc-6045bdc48fdc",
-              "DueDate": "2025-07-30T14:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2024",
-              "type": "Financial Report 2024",
-              "uuid": "34bfe157-d910-ed11-b83b-000d3ad029ec"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2020-07-22T06:08:03.0000000Z",
-              "DocumentUuid": "b75836ab-e1cb-ea11-a812-000d3acb05bc",
-              "DueDate": "2020-08-30T14:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2019",
-              "type": "Financial Report 2019",
-              "uuid": "fb465c4c-0426-e911-a979-000d3ad05ad0"
-            },
-            {
-              "AISId": "029345b0-e1cb-ea11-a812-000d3ad1ce4e",
-              "DateReceived": "2020-07-22T06:08:04.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2020-08-30T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2019",
-              "type": "Annual Information Statement 2019",
-              "uuid": "2a475c4c-0426-e911-a979-000d3ad05ad0"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2021-06-01T00:50:40.0000000Z",
-              "DocumentUuid": "8a523f4f-73c2-eb11-bacc-000d3ad1ae52",
-              "DueDate": "2021-07-30T14:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2020",
-              "type": "Financial Report 2020",
-              "uuid": "65475c4c-0426-e911-a979-000d3ad05ad0"
-            },
-            {
-              "AISId": "5c6edb60-73c2-eb11-8235-000d3a6a647c",
-              "DateReceived": "2021-06-01T00:50:42.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2021-07-30T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2020",
-              "type": "Annual Information Statement 2020",
-              "uuid": "96475c4c-0426-e911-a979-000d3ad05ad0"
-            },
-            {
-              "AISId": "82efce07-9841-ef11-a316-002248920ca7",
-              "DateReceived": "2024-07-14T04:17:56.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2024-07-30T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2023",
-              "type": "Annual Information Statement 2023",
-              "uuid": "d1475950-d910-ed11-b83b-000d3ad07fbb"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2024-07-14T04:17:12.0000000Z",
-              "DocumentUuid": "186226e3-9741-ef11-a316-002248920ca7",
-              "DueDate": "2024-07-30T14:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2023",
-              "type": "Financial Report 2023",
-              "uuid": "d5475950-d910-ed11-b83b-000d3ad07fbb"
-            },
-            {
-              "AISId": "98291a3b-56f1-ec11-bb3d-002248944bc7",
-              "DateReceived": "2022-06-21T11:35:29.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2022-07-30T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2021",
-              "type": "Annual Information Statement 2021",
-              "uuid": "7b998b18-99eb-ea11-a815-000d3ad1f29c"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2022-06-21T11:35:25.0000000Z",
-              "DocumentUuid": "f9795a32-56f1-ec11-bb3d-002248944339",
-              "DueDate": "2022-07-30T14:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2021",
-              "type": "Financial Report 2021",
-              "uuid": "84998b18-99eb-ea11-a815-000d3ad1f29c"
-            },
-            {
-              "AISId": "4579e723-45c8-e811-a964-000d3ad24077",
-              "DateReceived": "2016-08-24T14:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2016-07-30T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2015",
-              "type": "Annual Information Statement 2015",
-              "uuid": "b1751029-45c8-e811-a961-000d3ad24282"
-            },
-            {
-              "AISId": "4a79e723-45c8-e811-a964-000d3ad24077",
-              "DateReceived": "2017-06-18T14:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2017-07-30T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2016",
-              "type": "Annual Information Statement 2016",
-              "uuid": "b9751029-45c8-e811-a961-000d3ad24282"
-            },
-            {
-              "AISId": "4e79e723-45c8-e811-a964-000d3ad24077",
-              "DateReceived": "2018-09-19T14:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2018-07-30T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2017",
-              "type": "Annual Information Statement 2017",
-              "uuid": "bf751029-45c8-e811-a961-000d3ad24282"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2015-08-03T14:00:00.0000000Z",
-              "DocumentUuid": "95de3799-43b0-e811-a960-000d3ad24282",
-              "DueDate": "2015-07-30T14:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2014",
-              "type": "Financial Report 2014",
-              "uuid": "cde5aed1-3dc8-e811-a964-000d3ad244fd"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2016-08-24T14:00:00.0000000Z",
-              "DocumentUuid": "b0de3799-43b0-e811-a960-000d3ad24282",
-              "DueDate": "2016-07-30T14:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2015",
-              "type": "Financial Report 2015",
-              "uuid": "e0e5aed1-3dc8-e811-a964-000d3ad244fd"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2017-06-18T14:00:00.0000000Z",
-              "DocumentUuid": "c4de3799-43b0-e811-a960-000d3ad24282",
-              "DueDate": "2017-07-30T14:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2016",
-              "type": "Financial Report 2016",
-              "uuid": "f6e5aed1-3dc8-e811-a964-000d3ad244fd"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required",
-              "Year": "2013",
-              "type": "Financial Report 2013",
-              "uuid": "04e6aed1-3dc8-e811-a964-000d3ad244fd"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2019-06-05T04:45:17.0000000Z",
-              "DocumentUuid": "70b5abb3-4c87-e911-a972-000d3ad24a0d",
-              "DueDate": "2019-07-30T14:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2018",
-              "type": "Financial Report 2018",
-              "uuid": "23e6aed1-3dc8-e811-a964-000d3ad244fd"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2018-09-19T14:00:00.0000000Z",
-              "DocumentUuid": "6c6eef3f-5dc8-e811-a964-000d3ad24077",
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2017",
-              "type": "Financial Report 2017",
-              "uuid": "3be6aed1-3dc8-e811-a964-000d3ad244fd"
-            },
-            {
-              "AISId": "4d1351b4-4c87-e911-a985-000d3ad05e15",
-              "DateReceived": "2019-06-05T04:45:23.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2019-07-30T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2018",
-              "type": "Annual Information Statement 2018",
-              "uuid": "f4f9a56a-3ac8-e811-a963-000d3ad24a0d"
-            },
-            {
-              "AISId": "8d751029-45c8-e811-a961-000d3ad24282",
-              "DateReceived": "2014-09-15T14:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2014-07-30T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2013",
-              "type": "Annual Information Statement 2013",
-              "uuid": "9804fa28-45c8-e811-a95f-000d3ad24c60"
-            },
-            {
-              "AISId": "91751029-45c8-e811-a961-000d3ad24282",
-              "DateReceived": "2015-08-03T14:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2015-07-30T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2014",
-              "type": "Annual Information Statement 2014",
-              "uuid": "9e04fa28-45c8-e811-a95f-000d3ad24c60"
-            },
-            {
-              "AISId": "a3595678-596f-f111-ab0d-6045bdc47b11",
-              "DateReceived": "2026-06-23T23:16:22.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2026-07-30T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2025",
-              "type": "Annual Information Statement 2025",
-              "uuid": "786dac58-454f-ef11-a317-00224893bffb"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2026-06-23T23:15:29.0000000Z",
-              "DocumentUuid": "6c79855f-596f-f111-ab0d-002248111f49",
-              "DueDate": "2026-07-30T14:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2025",
-              "type": "Financial Report 2025",
-              "uuid": "966dac58-454f-ef11-a317-00224893bffb"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2027-07-30T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Not yet submitted",
-              "Year": "2026",
-              "type": "Annual Information Statement 2026",
-              "uuid": "5e36fec5-166e-f011-b4cb-002248992c11"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2027-07-30T14:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Pending",
-              "Year": "2026",
-              "type": "Financial Report 2026",
-              "uuid": "8936fec5-166e-f011-b4cb-002248992c11"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2028-07-30T14:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Not yet submitted",
-              "Year": "2027",
-              "type": "Annual Information Statement 2027",
-              "uuid": "fdc08945-e88c-f111-ab0f-6045bde65159"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2028-07-30T14:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Pending",
-              "Year": "2027",
-              "type": "Financial Report 2027",
-              "uuid": "3cc18945-e88c-f111-ab0f-6045bde65159"
-            }
-          ],
-          "Beneficiaries": [
-            {
-              "Description": null,
-              "Name": "Youth - 15 to under 25",
-              "uuid": "1bcf617e-596f-f111-ab0d-6045bdc47b11"
-            },
-            {
-              "Description": null,
-              "Name": "Males",
-              "uuid": "24cf617e-596f-f111-ab0d-6045bdc47b11"
-            },
-            {
-              "Description": null,
-              "Name": "Females",
-              "uuid": "29cf617e-596f-f111-ab0d-6045bdc47b11"
-            },
-            {
-              "Description": null,
-              "Name": "Early childhood - aged under 6",
-              "uuid": "31cf617e-596f-f111-ab0d-6045bdc47b11"
-            },
-            {
-              "Description": null,
-              "Name": "Children - aged 6 to under 15",
-              "uuid": "37cf617e-596f-f111-ab0d-6045bdc47b11"
-            },
-            {
-              "Description": null,
-              "Name": "Adults - aged 25 to under 65",
-              "uuid": "3dcf617e-596f-f111-ab0d-6045bdc47b11"
-            }
-          ],
-          "CharitySize": "Small",
-          "CharitySubtypeHistory": [
-            {
-              "EndDate": "2013-12-30T13:00:00.0000000Z",
-              "Purpose": "2012 Another purpose beneficial to the community",
-              "StartDate": "2012-12-02T13:00:00.0000000Z",
-              "uuid": "c2b4b994-fcc6-e811-a963-000d3ad24a0d"
-            },
-            {
-              "EndDate": null,
-              "Purpose": "Advancing culture",
-              "StartDate": "2013-12-31T13:00:00.0000000Z",
-              "uuid": "e0b4b994-fcc6-e811-a963-000d3ad24a0d"
-            }
-          ],
-          "CharityVersion": "51",
-          "ChildMemberEndDate": null,
-          "ChildMemberStartDate": null,
-          "ChooseToProvideAis": null,
-          "Countries": [
-            {
-              "Name": "Australia",
-              "uuid": "f57b5602-9a4d-e811-a951-000d3ad06f2d"
-            }
-          ],
-          "DateEstablished": "1989-12-31T13:00:00.0000000Z",
-          "Documents": [
-            {
-              "Date": "2013-04-16T00:00:00.0000000",
-              "Title": "Young Voices of Melbourne charity Constitution.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/4f095b6a-38af-e811-a963-000d3ad24077-7d6ccc3a-da68-473b-8ff3-28839fb09207-Governing%20Document-8ce64998-43b0-e811-a961-000d3ad24182-Young_Voices_of_Melbourne_charity_Constitution.pdf",
-              "Year": null,
-              "type": "Governing Document",
-              "uuid": "8ce64998-43b0-e811-a961-000d3ad24182"
-            },
-            {
-              "Date": "2020-07-22T00:00:00.0000000",
-              "Title": "2020 Pres Report.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/4f095b6a-38af-e811-a963-000d3ad24077-7d6ccc3a-da68-473b-8ff3-28839fb09207-Annual%20Report-aa5836ab-e1cb-ea11-a812-000d3acb05bc-2020_Pres_Report.pdf",
-              "Year": "2019",
-              "type": "Annual Report",
-              "uuid": "aa5836ab-e1cb-ea11-a812-000d3acb05bc"
-            },
-            {
-              "Date": "2019-06-05T00:00:00.0000000",
-              "Title": "Young Voices of Melbourne - 2018 Reports.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/4f095b6a-38af-e811-a963-000d3ad24077-7d6ccc3a-da68-473b-8ff3-28839fb09207-Annual%20Report-61b5abb3-4c87-e911-a972-000d3ad24a0d-Young_Voices_of_Melbourne_-_2018_Reports.pdf",
-              "Year": "2018",
-              "type": "Annual Report",
-              "uuid": "61b5abb3-4c87-e911-a972-000d3ad24a0d"
-            },
-            {
-              "Date": "2020-07-22T00:00:00.0000000",
-              "Title": "Young Voices of Melbourne - Signed 2020 Financial Statements.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/4f095b6a-38af-e811-a963-000d3ad24077-7d6ccc3a-da68-473b-8ff3-28839fb09207-Financial%20Report-b75836ab-e1cb-ea11-a812-000d3acb05bc-Young_Voices_of_Melbourne_-_Signed_2020_Financial_Statements.pdf",
-              "Year": "2019",
-              "type": "Financial Report",
-              "uuid": "b75836ab-e1cb-ea11-a812-000d3acb05bc"
-            },
-            {
-              "Date": "2021-06-01T00:00:00.0000000",
-              "Title": "Young Voices of Melbourne - 2021 Financial Statements.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/4f095b6a-38af-e811-a963-000d3ad24077-7d6ccc3a-da68-473b-8ff3-28839fb09207-Financial%20Report-8a523f4f-73c2-eb11-bacc-000d3ad1ae52-Young_Voices_of_Melbourne_-_2021_Financial_Statements.pdf",
-              "Year": "2020",
-              "type": "Financial Report",
-              "uuid": "8a523f4f-73c2-eb11-bacc-000d3ad1ae52"
-            },
-            {
-              "Date": "2018-09-20T00:00:00.0000000",
-              "Title": "Young Voices of Melbourne Inc - 2018 Audited Consolidated Financial Statements.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/4f095b6a-38af-e811-a963-000d3ad24077-7d6ccc3a-da68-473b-8ff3-28839fb09207-Financial%20Report-6c6eef3f-5dc8-e811-a964-000d3ad24077-Young_Voices_of_Melbourne_Inc_-_2018_Audited_Consolidated_Financial_Statements.pdf",
-              "Year": "2017",
-              "type": "Financial Report",
-              "uuid": "6c6eef3f-5dc8-e811-a964-000d3ad24077"
-            },
-            {
-              "Date": "2015-08-04T00:00:00.0000000",
-              "Title": "YVM Consolidated Financial Statements 2014 - 2015.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/4f095b6a-38af-e811-a963-000d3ad24077-7d6ccc3a-da68-473b-8ff3-28839fb09207-Financial%20Report-95de3799-43b0-e811-a960-000d3ad24282-YVM_Consolidated_Financial_Statements_2014_-_2015.pdf",
-              "Year": "2014",
-              "type": "Financial Report",
-              "uuid": "95de3799-43b0-e811-a960-000d3ad24282"
-            },
-            {
-              "Date": "2016-08-25T00:00:00.0000000",
-              "Title": "YVM_Consolidated_Finances_2015-2016.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/4f095b6a-38af-e811-a963-000d3ad24077-7d6ccc3a-da68-473b-8ff3-28839fb09207-Financial%20Report-b0de3799-43b0-e811-a960-000d3ad24282-YVM_Consolidated_Finances_2015-2016.pdf",
-              "Year": "2015",
-              "type": "Financial Report",
-              "uuid": "b0de3799-43b0-e811-a960-000d3ad24282"
-            },
-            {
-              "Date": "2017-06-19T00:00:00.0000000",
-              "Title": "YVM_ACNC_Finances_2016.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/4f095b6a-38af-e811-a963-000d3ad24077-7d6ccc3a-da68-473b-8ff3-28839fb09207-Financial%20Report-c4de3799-43b0-e811-a960-000d3ad24282-YVM_ACNC_Finances_2016.pdf",
-              "Year": "2016",
-              "type": "Financial Report",
-              "uuid": "c4de3799-43b0-e811-a960-000d3ad24282"
-            },
-            {
-              "Date": "2019-06-05T00:00:00.0000000",
-              "Title": "Young Voices of Melbourne - 2018 Reports.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/4f095b6a-38af-e811-a963-000d3ad24077-7d6ccc3a-da68-473b-8ff3-28839fb09207-Financial%20Report-70b5abb3-4c87-e911-a972-000d3ad24a0d-Young_Voices_of_Melbourne_-_2018_Reports.pdf",
-              "Year": "2018",
-              "type": "Financial Report",
-              "uuid": "70b5abb3-4c87-e911-a972-000d3ad24a0d"
-            },
-            {
-              "Date": "2026-06-24T00:00:00.0000000",
-              "Title": "2. 2026 Consolidated Financial Statements (1).pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/4f095b6a-38af-e811-a963-000d3ad24077-7d6ccc3a-da68-473b-8ff3-28839fb09207-Financial%20Report-6c79855f-596f-f111-ab0d-002248111f49-2._2026_Consolidated_Financial_Statements_(1).pdf",
-              "Year": "2025",
-              "type": "Financial Report",
-              "uuid": "6c79855f-596f-f111-ab0d-002248111f49"
-            },
-            {
-              "Date": "2024-07-14T00:00:00.0000000",
-              "Title": "2. 2024 Financial Statements.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/4f095b6a-38af-e811-a963-000d3ad24077-7d6ccc3a-da68-473b-8ff3-28839fb09207-Financial%20Report-186226e3-9741-ef11-a316-002248920ca7-2._2024_Financial_Statements.pdf",
-              "Year": "2023",
-              "type": "Financial Report",
-              "uuid": "186226e3-9741-ef11-a316-002248920ca7"
-            },
-            {
-              "Date": "2023-07-31T00:00:00.0000000",
-              "Title": "Young Voices of Melbourne - 2023 Financial Statements.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/4f095b6a-38af-e811-a963-000d3ad24077-7d6ccc3a-da68-473b-8ff3-28839fb09207-Financial%20Report-d2bc6494-3d2f-ee11-bdf3-00224893cef4-Young_Voices_of_Melbourne_-_2023_Financial_Statements.pdf",
-              "Year": "2022",
-              "type": "Financial Report",
-              "uuid": "d2bc6494-3d2f-ee11-bdf3-00224893cef4"
-            },
-            {
-              "Date": "2022-06-21T00:00:00.0000000",
-              "Title": "Young Voices of Melbourne - 2022 Financial Statements.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/4f095b6a-38af-e811-a963-000d3ad24077-7d6ccc3a-da68-473b-8ff3-28839fb09207-Financial%20Report-f9795a32-56f1-ec11-bb3d-002248944339-Young_Voices_of_Melbourne_-_2022_Financial_Statements.pdf",
-              "Year": "2021",
-              "type": "Financial Report",
-              "uuid": "f9795a32-56f1-ec11-bb3d-002248944339"
-            },
-            {
-              "Date": "2025-08-13T00:00:00.0000000",
-              "Title": "2025 Consolidated Financial Statements - Auditors report.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/4f095b6a-38af-e811-a963-000d3ad24077-7d6ccc3a-da68-473b-8ff3-28839fb09207-Financial%20Report-0bdd4610-de77-f011-b4cc-6045bdc48fdc-2025_Consolidated_Financial_Statements_-_Auditors_report.pdf",
-              "Year": "2024",
-              "type": "Financial Report",
-              "uuid": "0bdd4610-de77-f011-b4cc-6045bdc48fdc"
-            }
-          ],
-          "Email": "info@yvm.au",
-          "EnforcementOutcomes": [],
-          "FinancialYearEnd": "31/01",
-          "GovernmentAgencies": [
-            {
-              "Name": "VIC - Incorporated Association",
-              "ReferenceNumber": "A0020484F",
-              "uuid": "255a5678-596f-f111-ab0d-6045bdc47b11"
-            },
-            {
-              "Name": "VIC - Fundraising",
-              "ReferenceNumber": null,
-              "uuid": "2a5a5678-596f-f111-ab0d-6045bdc47b11"
-            }
-          ],
-          "GroupHeadFlag": false,
-          "LastReported": "2026-06-23T23:16:22.0000000Z",
-          "Name": "Young Voices Of Melbourne Inc",
-          "NextReportDue": "2027-07-31T13:30:00.0000000Z",
-          "OperatingInStates": [
-            {
-              "Name": "Victoria",
-              "uuid": "4ea3219c-455e-e811-a95c-000d3ad1c715"
-            }
-          ],
-          "OtherDetails": null,
-          "OtherNames": [],
-          "ParentAccountAbn": null,
-          "ParentAccountId": null,
-          "Phone": "+61431878743",
-          "Programs": [
-            {
-              "AisUuid": "a3595678-596f-f111-ab0d-6045bdc47b11",
-              "Name": "Rehearsal and music education program",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Early childhood - aged under 6",
-                "Children - aged 6 to under 15",
-                "Youth - 15 to under 25",
-                "Adults - aged 25 to under 65",
-                "Females",
-                "Males"
-              ],
-              "ProgramClassie": [
-                {
-                  "classie_id": "87",
-                  "label": "Music",
-                  "parent_id": "78",
-                  "selected": true
-                },
-                {
-                  "classie_id": "78",
-                  "label": "Performing arts",
-                  "parent_id": "42",
-                  "selected": false
-                },
-                {
-                  "classie_id": "42",
-                  "label": "Arts and culture",
-                  "parent_id": null,
-                  "selected": false
-                }
-              ],
-              "ProgramClassification": "Music",
-              "ProgramClassificationID": "87",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "Melbourne VIC, Australia",
-                  "FormattedAddress": "Melbourne VIC, Australia",
-                  "Marker": {
-                    "Latitude": -37.8136276,
-                    "Longitude": 144.9630576
-                  },
-                  "Name": "Melbourne",
-                  "uuid": "0acf617e-596f-f111-ab0d-6045bdc47b11"
-                }
-              ],
-              "ProgramWeblink": null,
-              "uuid": "375a5678-596f-f111-ab0d-6045bdc47b11"
-            }
-          ],
-          "ReferendumReturnsUrl": null,
-          "RegistrationStatusHistory": [
-            {
-              "EffectiveDate": "2012-12-02T13:00:00.0000000Z",
-              "Status": "Registered",
-              "TransactionDate": "2012-12-02T13:00:00.0000000Z",
-              "uuid": "bec5f172-06c6-e811-a95f-000d3ad24c60"
-            }
-          ],
-          "RelatedPartyTransactions": null,
-          "RelevantTransactions": null,
-          "ReportingLate": "2028-01-31T13:30:00.0000000Z",
-          "ResponsiblePersons": [
-            {
-              "Name": "Edith Harris",
-              "Role": "Board Member",
-              "uuid": "d5726b89-08bc-e811-a962-000d3ad24182"
-            },
-            {
-              "Name": "Katrina O'Leary",
-              "Role": "Secretary",
-              "uuid": "d919648f-08bc-e811-a962-000d3ad24182"
-            },
-            {
-              "Name": "Brett Kunkel",
-              "Role": "Committee Member",
-              "uuid": "312da374-21bc-e811-a963-000d3ad24a0d"
-            },
-            {
-              "Name": "Emily Dittman",
-              "Role": "Committee Member",
-              "uuid": "182b3de4-87c7-e811-a964-000d3ad24077"
-            },
-            {
-              "Name": "Deborah Polites",
-              "Role": "Committee Member",
-              "uuid": "90efce07-9841-ef11-a316-002248920ca7"
-            },
-            {
-              "Name": "Juliana Kay",
-              "Role": "President",
-              "uuid": "f274796c-f777-f011-b4cc-0022481296ec"
-            },
-            {
-              "Name": "Mark O'Leary",
-              "Role": "Vice-president",
-              "uuid": "07736b89-08bc-e811-a962-000d3ad24182"
-            },
-            {
-              "Name": "David Layton",
-              "Role": "Treasurer",
-              "uuid": "25d36d77-21bc-e811-a95f-000d3ad24c60"
-            }
-          ],
-          "Status": "Registered",
-          "SummaryOfActivities": "We provided outstanding music education and performance opportunities for young singers through participation in one of our six choirs. Our Performing Choir toured to Europe (England, Italy, Austria) and Exaudi toured in the Northern Territory (Darwin and Katherine)",
-          "TotalExpensesEmployee": "172068",
-          "TotalExpensesGrantsAndDonationsInAustralia": "0",
-          "TotalExpensesGrantsAndDonationsOutsideAustralia": "0",
-          "TotalExpensesInterest": "0",
-          "TotalExpensesOther": "50508",
-          "TotalGrossIncomeDonationsAndRequests": "26316",
-          "TotalGrossIncomeGoodsOrServices": "0",
-          "TotalGrossIncomeGovernmentGrants": "1909",
-          "TotalGrossIncomeInvestments": "4455",
-          "TotalGrossIncomeOtherRevenues": "132477",
-          "TransparencyRegisterUrl": null,
-          "Website": "http://yvm.com.au",
-          "__normalized": true,
-          "type": "charity",
-          "uuid": "4f095b6a-38af-e811-a963-000d3ad24077"
-        },
-        "type": "charity",
-        "uuid": "4f095b6a-38af-e811-a963-000d3ad24077"
-      },
-      "canonical_field_mappings": {
-        "data.OtherNames": "operating_names",
-        "data.AddressStateOrProvince": "principal_location"
-      },
-      "evidence_ids": []
-    },
-    {
-      "source_record_id": "src:acnc-ais-detail:65175035512:a3595678-596f-f111-ab0d-6045bdc47b11:cb_f1f26f7a1bc34d169573d56e51b41cc3",
-      "source_family": "acnc-ais-detail",
-      "dataset_version": "2026-08-14-public-api",
-      "source_url": "https://www.acnc.gov.au/charity/charities/4f095b6a-38af-e811-a963-000d3ad24077/documents/a3595678-596f-f111-ab0d-6045bdc47b11",
-      "retrieved_at": "2026-08-13T13:54:42.956606Z",
-      "observed_at": "2026-06-23",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "abn": "65175035512",
-        "ais_uuid": "a3595678-596f-f111-ab0d-6045bdc47b11",
-        "year": "2025",
-        "date_received": "2026-06-23T23:16:22.0000000Z"
-      },
-      "source_payload": {
-        "data": {
-          "Abn": "65175035512",
-          "ActivityAdvocacyNCivic": false,
-          "ActivityAgedCare": false,
-          "ActivityAnimalProtection": false,
-          "ActivityCultureAndArt": false,
-          "ActivityEconomicSocialCommunity": false,
-          "ActivityEmergencyNRelief": false,
-          "ActivityEmploymentNTraining": false,
-          "ActivityEnvironmental": false,
-          "ActivityGrantMaking": false,
-          "ActivityHealthRehabilitation": false,
-          "ActivityHigherEducation": false,
-          "ActivityHousing": false,
-          "ActivityIncomeSupportNMaintenance": false,
-          "ActivityInternational": false,
-          "ActivityInternationalDescription": null,
-          "ActivityInternationalOther": false,
-          "ActivityInternationalOtherDescription": null,
-          "ActivityLawNLegalServices": false,
-          "ActivityMain": null,
-          "ActivityMentalHealthCrisisIntervention": false,
-          "ActivityNdisSupported": null,
-          "ActivityNdisSupportedNext": null,
-          "ActivityOperating": true,
-          "ActivityOperatingOverseas": false,
-          "ActivityOther": false,
-          "ActivityOtherDescription": null,
-          "ActivityOtherEducation": false,
-          "ActivityOtherHealthServices": false,
-          "ActivityPersuitPurposesDescription": "We provided outstanding music education and performance opportunities for young singers through participation in one of our six choirs. Our Performing Choir toured to Europe (England, Italy, Austria) and Exaudi toured in the Northern Territory (Darwin and Katherine)",
-          "ActivityPhilanthropicPromotion": false,
-          "ActivityPolitical": false,
-          "ActivityPrimarySecondaryEducation": false,
-          "ActivityPurposeChange": null,
-          "ActivityPurposeChangeDescription": null,
-          "ActivityRecreationSocialClub": false,
-          "ActivityReligious": false,
-          "ActivityResearch": false,
-          "ActivitySocialServices": false,
-          "ActivitySports": false,
-          "ActivityTransferringFundsGoods": false,
-          "AdvancementOfEducation": false,
-          "AdvancementOfReligion": false,
-          "AssetsandLiabilitiesDescription": null,
-          "BasicReligiousCharity": false,
-          "BeneficiaryAboriginalTorres": false,
-          "BeneficiaryAdults": false,
-          "BeneficiaryAllAges": false,
-          "BeneficiaryChildren": false,
-          "BeneficiaryChronicIllness": false,
-          "BeneficiaryCrimeVictims": false,
-          "BeneficiaryDisasterVictims": false,
-          "BeneficiaryEarlyChildhood": false,
-          "BeneficiaryEthnic": false,
-          "BeneficiaryFamilies": false,
-          "BeneficiaryFinanciallyDisadvantaged": false,
-          "BeneficiaryGeneral": false,
-          "BeneficiaryHomelessnessRisk": false,
-          "BeneficiaryLGBT": false,
-          "BeneficiaryMain": null,
-          "BeneficiaryMen": false,
-          "BeneficiaryMigrantsRefugees": false,
-          "BeneficiaryOffenderFamilies": false,
-          "BeneficiaryOther": false,
-          "BeneficiaryOtherCharities": false,
-          "BeneficiaryOtherDescription": null,
-          "BeneficiaryOverseas": false,
-          "BeneficiaryPeopleWithDisability": false,
-          "BeneficiaryRuralRegionalRemote": false,
-          "BeneficiarySeniors": false,
-          "BeneficiaryUnemployed": false,
-          "BeneficiaryVeteranFamilies": false,
-          "BeneficiaryWomen": false,
-          "BeneficiaryYouth": false,
-          "CharityAddressCountry": "Australia",
-          "CharityAddressLine1": "1475 Don Road",
-          "CharityAddressLine2": null,
-          "CharityAddressPostalCode": "3139",
-          "CharityAddressStateOrProvince": "VIC",
-          "CharityAddressSuburb": "Don Valley",
-          "CharityEmail": "info@yvm.au",
-          "CharitySize": "Small",
-          "CharityUuid": "4f095b6a-38af-e811-a963-000d3ad24077",
-          "ChildCareServices": false,
-          "ExpenseEmployees": "172068.0000",
-          "ExpenseGrantDonationsInAustralia": "0.0000",
-          "ExpenseGrantDonationsOutsideAustralia": "0.0000",
-          "ExpenseTotal": "222576.0000",
-          "ExpensesOther": "50508.0000",
-          "FinAccrualAccounting": "Accrual",
-          "FinConsolidatedReportFromMiltiple": null,
-          "FinDocumentedPoliciesRelatedPartyTransactions": null,
-          "FinFyeJune": false,
-          "FinProvideVoluntarily": null,
-          "FinRelatedPartyTransactions": "No",
-          "FinReportACT": false,
-          "FinReportFrom": "2025-02-01T00:00:00.0000000Z",
-          "FinReportNSW": false,
-          "FinReportNT": false,
-          "FinReportQLD": false,
-          "FinReportSA": false,
-          "FinReportTAS": false,
-          "FinReportTo": "2026-01-31T00:00:00.0000000Z",
-          "FinReportVIC": false,
-          "FinReportWA": false,
-          "FinReportingType": null,
-          "FinSapDate": null,
-          "FundRaisingNumberACT": null,
-          "FundRaisingNumberNSW": null,
-          "FundRaisingNumberQLD": null,
-          "FundRaisingNumberSA": null,
-          "FundRaisingNumberTAS": null,
-          "FundRaisingNumberVIC": null,
-          "FundRaisingNumberWA": null,
-          "GovDocAccurate": null,
-          "GrantCapacityBuildingPct": null,
-          "GrantMultiYearPct": null,
-          "GrantPublicOpenApplicationPct": null,
-          "GrantRuralRegionPct": null,
-          "HasSubmittedToRegulator": false,
-          "HoursPaid": null,
-          "HoursTotal": null,
-          "HoursVolunteer": null,
-          "HrCasualEmployees": "4",
-          "HrFteStaff": "1.6000000000",
-          "HrFullTimeEmployees": "0",
-          "HrPartTimeEmployees": "4",
-          "HrUnpainVolunteers": "20",
-          "IncomeDonationsBequests": "26316.0000",
-          "IncomeGovernmentGrants": "1909.0000",
-          "IncomeOther": "0.0000",
-          "IncomeOtherComprehinsive": "0.0000",
-          "IncomeOtherNeg": null,
-          "IncomeOtherReceipts": "132477.0000",
-          "IncomeTotalComprehensive": "0.0000",
-          "IncomeTotalReceipts": "165157.0000",
-          "IncorporationStatus": null,
-          "InterestExpense": "0.0000",
-          "IsIncorporatedAssociation": true,
-          "KeyManagementPersonnel": false,
-          "LegalName": "Young Voices Of Melbourne Inc",
-          "NetAssetsLiabilities": "100960.0000",
-          "NetSurplusDeficit": "-57419.0000",
-          "NonCurrentLoansPayable": "0.0000",
-          "NumberOfKeyManagementPersonnel": "0",
-          "OperatingCountries": null,
-          "OperatingInACT": false,
-          "OperatingInNSW": false,
-          "OperatingInNT": false,
-          "OperatingInQLD": false,
-          "OperatingInSA": false,
-          "OperatingInTAS": false,
-          "OperatingInVIC": false,
-          "OperatingInWA": false,
-          "OperatingOverseas": false,
-          "OtherNames": [],
-          "OtherNonCurrentAssets": "0.0000",
-          "OtherNonCurrentLiabilities": "0.0000",
-          "OtherPurposeDescription": null,
-          "OtherPurposes": "False",
-          "Programs": [
-            {
-              "AisUuid": "a3595678-596f-f111-ab0d-6045bdc47b11",
-              "Name": "Rehearsal and music education program",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Early childhood - aged under 6",
-                "Children - aged 6 to under 15",
-                "Youth - 15 to under 25",
-                "Adults - aged 25 to under 65",
-                "Females",
-                "Males"
-              ],
-              "ProgramClassification": "Music",
-              "ProgramClassificationID": "87",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "Melbourne VIC, Australia",
-                  "FormattedAddress": "Melbourne VIC, Australia",
-                  "Marker": {
-                    "Latitude": -37.8136276,
-                    "Longitude": 144.9630576
-                  },
-                  "Name": "Melbourne",
-                  "uuid": "0acf617e-596f-f111-ab0d-6045bdc47b11"
-                }
-              ],
-              "ProgramWeblink": null,
-              "uuid": "375a5678-596f-f111-ab0d-6045bdc47b11"
-            }
-          ],
-          "RegulatedACT": false,
-          "RegulatedNSW": false,
-          "RegulatedNT": false,
-          "RegulatedQLD": false,
-          "RegulatedSA": false,
-          "RegulatedTAS": false,
-          "RegulatedVIC": false,
-          "RegulatedWA": false,
-          "Regulator": null,
-          "RegulatorAGMDateACT": null,
-          "RegulatorAGMDateNT": null,
-          "RegulatorAGMDateVIC": "2026-05-20T00:00:00.0000000",
-          "RegulatorAGMDateWA": null,
-          "RegulatorFundRaising": "Yes",
-          "RegulatorFundRaisingACT": false,
-          "RegulatorFundRaisingNSW": false,
-          "RegulatorFundRaisingNT": false,
-          "RegulatorFundRaisingOnline": false,
-          "RegulatorFundRaisingQLD": false,
-          "RegulatorFundRaisingSA": false,
-          "RegulatorFundRaisingTAS": false,
-          "RegulatorFundRaisingVIC": true,
-          "RegulatorFundRaisingWA": false,
-          "RegulatorIncorporatedAssociationACT": false,
-          "RegulatorIncorporatedAssociationNSW": false,
-          "RegulatorIncorporatedAssociationNT": false,
-          "RegulatorIncorporatedAssociationNumberACT": null,
-          "RegulatorIncorporatedAssociationNumberNSW": null,
-          "RegulatorIncorporatedAssociationNumberNT": null,
-          "RegulatorIncorporatedAssociationNumberQLD": null,
-          "RegulatorIncorporatedAssociationNumberSA": null,
-          "RegulatorIncorporatedAssociationNumberTAS": null,
-          "RegulatorIncorporatedAssociationNumberVIC": "A0020484F",
-          "RegulatorIncorporatedAssociationNumberWA": null,
-          "RegulatorIncorporatedAssociationQLD": false,
-          "RegulatorIncorporatedAssociationSA": false,
-          "RegulatorIncorporatedAssociationTAS": false,
-          "RegulatorIncorporatedAssociationVIC": true,
-          "RegulatorIncorporatedAssociationWA": false,
-          "RegulatorMetRequirementACT": false,
-          "RegulatorMetRequirementWA": null,
-          "RegulatorOtherDetails": null,
-          "RegulatorPrograms": null,
-          "RegulatorStates": false,
-          "RelatedPartyDetails": null,
-          "RelatedPartyTransactions": [],
-          "ReliefOfPoverty": false,
-          "ReportingGroupFlag": false,
-          "ResponsiblePersonAccurate": null,
-          "RevenueGoodsServices": "0.0000",
-          "RevenueInvestments": "4455.0000",
-          "RevenueTotal": "165157.0000",
-          "StatementYear": "2025",
-          "SubTypesAccurate": null,
-          "TotalAssets": "181887.0000",
-          "TotalCurrentAssets": "0.0000",
-          "TotalCurrentLiabilities": "0.0000",
-          "TotalLiabilities": "80927.0000",
-          "TotalNonCurrentAssets": null,
-          "TotalNonCurrentLiabilities": "0.0000",
-          "TotalNonCurrentLoansReceivable": "0.0000",
-          "TotalPaidKMP": "$0.00",
-          "Website": "http://yvm.com.au",
-          "__normalized": true,
-          "entityTypeVersion": "",
-          "entityVersion": "1951990542",
-          "timeStamp": "2026-06-23T23:15:56.0000000Z",
-          "type": "annual_information_statement",
-          "uuid": "a3595678-596f-f111-ab0d-6045bdc47b11"
-        },
-        "type": "annual_information_statement",
-        "uuid": "a3595678-596f-f111-ab0d-6045bdc47b11"
-      },
-      "canonical_field_mappings": {
-        "data.Programs": "programs",
-        "data.TotalRevenue": "financial_records[].revenue",
-        "data.TotalExpenses": "financial_records[].total_expenses"
-      },
-      "evidence_ids": [
-        "ev:acnc:ais:65175035512:a3595678-596f-f111-ab0d-6045bdc47b11"
-      ]
-    }
-  ],
-  "financial_records": [
-    {
-      "financial_record_id": "fr:ais:cb_f1f26f7a1bc34d169573d56e51b41cc3:2023",
-      "period": {
-        "period_start": "2023-02-01",
-        "period_end": "2024-01-31",
-        "period_length_days": 365,
-        "label": "01/02/2023 to 31/01/2024",
-        "is_transitional_or_nonstandard": false
-      },
-      "reporting_scope": "subject",
-      "reporting_subject_causebase_id": "cb_f1f26f7a1bc34d169573d56e51b41cc3",
-      "covered_subjects": [
-        "cb_f1f26f7a1bc34d169573d56e51b41cc3"
-      ],
-      "consolidated": "false",
-      "attribution_method": "direct_subject_report",
-      "evidence_ids": [
-        "ev:ais:65175035512:2023"
-      ],
-      "revenue": {
-        "source_amount": "583709",
-        "source_currency": "AUD",
-        "source_unit_scale": "1",
-        "normalised_amount": "583709",
-        "normalised_currency": "AUD",
-        "source_unit_label": null,
-        "source_raw_value": "583709",
-        "source_precision": null
-      },
-      "donations": null,
-      "government_grants": null,
-      "employee_costs": null,
-      "total_expenses": {
-        "source_amount": "658416",
-        "source_currency": "AUD",
-        "source_unit_scale": "1",
-        "normalised_amount": "658416",
-        "normalised_currency": "AUD",
-        "source_unit_label": null,
-        "source_raw_value": "658416",
-        "source_precision": null
-      },
-      "assets": null,
-      "liabilities": null,
-      "net_assets": null,
-      "income_breakdown": [],
-      "expense_breakdown": [],
-      "balance_sheet_breakdown": [],
-      "source_ordered_line_items": [],
-      "statements": [],
-      "donations_gifts_bequests": null,
-      "functional_expense_allocations": []
-    }
-  ],
-  "financial_metrics": [
-    {
-      "metric": "revenue",
-      "observations": [
-        {
-          "financial_record_id": "fr:ais:cb_f1f26f7a1bc34d169573d56e51b41cc3:2023",
-          "amount": {
-            "source_amount": "583709",
-            "source_currency": "AUD",
-            "source_unit_scale": "1",
-            "normalised_amount": "583709",
-            "normalised_currency": "AUD",
-            "source_unit_label": null,
-            "source_raw_value": "583709",
-            "source_precision": null
-          },
-          "metric_source_label": null,
-          "evidence_ids": [
-            "ev:ais:65175035512:2023"
-          ]
-        }
-      ],
-      "reconciliation_status": "single_observation",
-      "reconciliation_notes": null
-    },
-    {
-      "metric": "total_expenses",
-      "observations": [
-        {
-          "financial_record_id": "fr:ais:cb_f1f26f7a1bc34d169573d56e51b41cc3:2023",
-          "amount": {
-            "source_amount": "658416",
-            "source_currency": "AUD",
-            "source_unit_scale": "1",
-            "normalised_amount": "658416",
-            "normalised_currency": "AUD",
-            "source_unit_label": null,
-            "source_raw_value": "658416",
-            "source_precision": null
-          },
-          "metric_source_label": null,
-          "evidence_ids": [
-            "ev:ais:65175035512:2023"
-          ]
-        }
-      ],
-      "reconciliation_status": "single_observation",
-      "reconciliation_notes": null
-    }
-  ],
-  "fundraising_expenditure": null,
-  "funding_sources": [],
-  "fundraising_methods": [],
-  "classifications": [
-    {
-      "taxonomy_id": "acnc-register",
-      "taxonomy_version": "2026-08-10",
-      "term_id": "purpose.culture",
-      "term_label": "culture",
-      "assignment_method": "source_native",
-      "confidence": "high",
-      "evidence_ids": [
-        "ev:acnc:65175035512"
-      ]
-    },
-    {
-      "taxonomy_id": "acnc-register",
-      "taxonomy_version": "2026-08-10",
-      "term_id": "beneficiary.children",
-      "term_label": "children",
-      "assignment_method": "source_native",
-      "confidence": "high",
-      "evidence_ids": [
-        "ev:acnc:65175035512"
-      ]
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "cause.culture_and_heritage",
-      "term_label": "Culture and heritage",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "activity.direct_service",
-      "term_label": "Direct service delivery",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "geography.australia",
-      "term_label": "Australia",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "geography.local_or_regional",
-      "term_label": "Local or regional Australia",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "organisation.local",
-      "term_label": "Local organisation",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
+      "review_status": "not_required",
+      "conflicting_signals": []
     }
   ],
   "evidence": [
     {
       "evidence_id": "ev:acnc:65175035512",
-      "source_type": "regulatory",
-      "title": "ACNC Register extract",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": null,
-      "observed_at": "2026-08-10",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "title": "ACNC Register extract"
     },
     {
       "evidence_id": "ev:web:65175035512:2026-08-10",
-      "source_type": "organisation_self_report",
       "title": "Organisation website homepage",
-      "publisher": "Young Voices Of Melbourne Inc",
-      "url": "http://yvm.com.au",
-      "observed_at": "2026-08-10",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "http://yvm.com.au"
     },
     {
       "evidence_id": "ev:ais:65175035512:2023",
-      "source_type": "regulatory",
-      "title": "ACNC AIS 2023 extract",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": null,
-      "observed_at": "2026-08-10",
-      "reporting_period": "01/02/2023 to 31/01/2024",
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "title": "ACNC AIS 2023 extract"
     },
     {
       "evidence_id": "ev:acnc:ais:65175035512:a3595678-596f-f111-ab0d-6045bdc47b11",
-      "source_type": "regulatory",
       "title": "ACNC Annual Information Statement 2025",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": "https://www.acnc.gov.au/charity/charities/4f095b6a-38af-e811-a963-000d3ad24077/documents/a3595678-596f-f111-ab0d-6045bdc47b11",
-      "observed_at": "2026-06-23",
-      "reporting_period": "2025",
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://www.acnc.gov.au/charity/charities/4f095b6a-38af-e811-a963-000d3ad24077/documents/a3595678-596f-f111-ab0d-6045bdc47b11"
     },
     {
       "evidence_id": "ev:abr-dgr:65175035512:20260805",
-      "source_type": "regulatory",
       "title": "ABR DGR bulk observation",
-      "publisher": "Australian Business Register / Australian Taxation Office",
-      "url": "https://abr.business.gov.au/Tools/BulkExtract",
-      "observed_at": "2026-08-05",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://abr.business.gov.au/Tools/BulkExtract"
     }
   ],
-  "embedding": {
-    "embedding_id": "cb_f1f26f7a1bc34d169573d56e51b41cc3:entity:text-embedding-3-small",
-    "embedding_type": "entity",
-    "model_id": "text-embedding-3-small",
-    "model_version": "text-embedding-3-small",
-    "dimensions": 1536,
-    "source_text_hash": "39ea9ae4d4657e3c74175c88833c913b1ecbe19ccd43dec9ac75b361ebbcc95b",
-    "generated_at": "2026-08-10T13:53:24.455824Z",
-    "vector_ref": "embeddings.parquet#cb_f1f26f7a1bc34d169573d56e51b41cc3"
+  "summary": {
+    "derivative_id": "der:rc4:cb_f1f26f7a1bc34d169573d56e51b41cc3:summary",
+    "text": "Young Voices Of Melbourne Inc is a Melbourne-based youth choral organisation. As of 2026 it operates two ensembles, the Senior Training Choir and the Performing Choir, and enrolment is by membership of those named choirs. The group runs regular rehearsals and an annual rehearsal weekend (branded Supercamp; most recently held 27 Feb\u20131 Mar 2026), engages visiting and associate artists and choral clinicians (including the appointment of international conductor Dr Michael Barrett as Associate Artist in April 2026) and provides artistic leadership through an Artistic Director who began in 2025. Participation reported includes attendance at rehearsals, weekend training camps and specialist sessions led by visiting artists and artistic staff."
   },
-  "synthesis": {
-    "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
-    "parameters": {
-      "max_output_tokens": 3000,
-      "structured_output": true,
-      "output_contract": "causebase-summary-v0.3-rc2"
-    },
-    "evidence_input_hash": "efdab15dc8321c0401b370e16a57f514538e3534f24ce3ef8d6b1e6c977486c4",
-    "generated_at": "2026-08-12T13:42:43.622951Z",
-    "editorial_policy_version": "0.3-rc2"
-  },
-  "derivative_assessments": [
+  "activities": [],
+  "beneficiaries": [],
+  "descriptive_geography": [],
+  "navigation_geography": [],
+  "funding_sources": [],
+  "fundraising_methods": [],
+  "participation": [],
+  "opportunities": [],
+  "programs": [
     {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T13:42:43.622951Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-13T13:54:42.956606Z",
-      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
-      "input_hash": "efdab15dc8321c0401b370e16a57f514538e3534f24ce3ef8d6b1e6c977486c4",
-      "disposition": "reused",
-      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
-      "affected_dimensions": [
-        "summary"
-      ]
+      "observation_id": "obs:rc4:cb_f1f26f7a1bc34d169573d56e51b41cc3:program:prg:acnc:65175035512:375a5678-596f-f111-ab0d-6045bdc47b11",
+      "program_id": "prg:acnc:65175035512:375a5678-596f-f111-ab0d-6045bdc47b11",
+      "name": "Rehearsal and music education program",
+      "description": "Music",
+      "url": "https://www.acnc.gov.au/charity/charities/4f095b6a-38af-e811-a963-000d3ad24077/documents/a3595678-596f-f111-ab0d-6045bdc47b11",
+      "status": "current",
+      "claim_basis": "direct",
+      "extraction_method": "api",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:ais:65175035512:a3595678-596f-f111-ab0d-6045bdc47b11"
+      ],
+      "time": {
+        "reporting_period": {
+          "label": "2025"
+        }
+      },
+      "warnings": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-14-rc4-fundraising-projection-correction",
-  "card_schema_version": "0.4",
-  "editorial_policy_version": "0.4-rc4",
-  "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T13:54:42.956606Z"
+  "relationships": [],
+  "classifications": [
+    {
+      "observation_id": "obs:rc4:cb_f1f26f7a1bc34d169573d56e51b41cc3:classification:0",
+      "classification_id": "cls:rc4:cb_f1f26f7a1bc34d169573d56e51b41cc3:0",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "purpose.culture",
+      "term_label": "culture",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:65175035512"
+      ],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_f1f26f7a1bc34d169573d56e51b41cc3:classification:1",
+      "classification_id": "cls:rc4:cb_f1f26f7a1bc34d169573d56e51b41cc3:1",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "beneficiary.children",
+      "term_label": "children",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:65175035512"
+      ],
+      "confidence": "high",
+      "warnings": []
+    }
+  ],
+  "coverage": {
+    "registry_id": "capability-registry-0.5-initial",
+    "current": [
+      {
+        "capability": "regulatory.acnc_profile",
+        "status": "observed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:acnc:65175035512"
+        ]
+      },
+      {
+        "capability": "regulatory.ais",
+        "status": "observed",
+        "assessed_at": "2026-06-23",
+        "source_record_ids": [
+          "src:acnc-ais-detail:65175035512:a3595678-596f-f111-ab0d-6045bdc47b11:cb_f1f26f7a1bc34d169573d56e51b41cc3"
+        ],
+        "evidence_ids": [
+          "ev:acnc:ais:65175035512:a3595678-596f-f111-ab0d-6045bdc47b11"
+        ]
+      },
+      {
+        "capability": "tax.dgr",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "web.website",
+        "status": "observed",
+        "assessed_at": "2026-08-13",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "report.annual_report",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "financial.report",
+        "status": "unknown",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:ais:65175035512:2023"
+        ]
+      },
+      {
+        "capability": "financial.statements",
+        "status": "unknown",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:ais:65175035512:2023"
+        ]
+      },
+      {
+        "capability": "understanding.activities",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.beneficiaries",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.geography",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "programs",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "participation",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "funding.sources",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.methods",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.expenditure",
+        "status": "not_available_from_source",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "taxonomy.causebase",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "semantic.embedding",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      }
+    ]
+  },
+  "financial_reports": [],
+  "canonical_metrics": [],
+  "analytic_projections": [],
+  "derivatives": [
+    {
+      "derivative_id": "der:rc4:cb_f1f26f7a1bc34d169573d56e51b41cc3:summary",
+      "kind": "summary",
+      "input_observation_ids": [],
+      "evidence_ids": [
+        "ev:web:65175035512:2026-08-10",
+        "ev:acnc:65175035512",
+        "ev:ais:65175035512:2023"
+      ],
+      "generated_under": {
+        "output_contract_version": "phase2b-rc4-accepted-rc2-summary-reuse",
+        "input_hash": "efdab15dc8321c0401b370e16a57f514538e3534f24ce3ef8d6b1e6c977486c4",
+        "generated_at": "2026-08-12T13:42:43.622951Z"
+      },
+      "current_assessment": {
+        "assessed_at": "2026-08-13T13:54:42.956606Z",
+        "assessed_against_contract": "0.5",
+        "governing_input_hash": "efdab15dc8321c0401b370e16a57f514538e3534f24ce3ef8d6b1e6c977486c4",
+        "disposition": "reused",
+        "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs."
+      }
+    }
+  ],
+  "legacy_unbound": {
+    "origin_release": "rc4-2026-08-14",
+    "origin_card_sha256": "848ec9f91c443b338df4d85cad4d682fe2ca16af472453bb73c87c42c00bb552",
+    "activities": [
+      {
+        "value": "Rehearsal weekends (Supercamp) for Senior Training Choir and Performing Choir",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Regular choir rehearsals for Senior Training Choir and Performing Choir",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Engagement of visiting/associate artist conductor and choral clinician",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Artistic leadership and direction (Artistic Director role)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "beneficiaries": [
+      {
+        "value": "Singers who are members of the Senior Training Choir and the Performing Choir",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "descriptive_geography": [
+      {
+        "value": "Melbourne, Victoria, Australia",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "classifications": [
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "cause.culture_and_heritage",
+        "term_label": "Culture and heritage",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "activity.direct_service",
+        "term_label": "Direct service delivery",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "geography.australia",
+        "term_label": "Australia",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "geography.local_or_regional",
+        "term_label": "Local or regional Australia",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "organisation.local",
+        "term_label": "Local organisation",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      }
+    ],
+    "financial_records": [
+      {
+        "financial_record_id": "fr:ais:cb_f1f26f7a1bc34d169573d56e51b41cc3:2023",
+        "period": {
+          "period_start": "2023-02-01",
+          "period_end": "2024-01-31",
+          "period_length_days": 365,
+          "label": "01/02/2023 to 31/01/2024",
+          "is_transitional_or_nonstandard": false
+        },
+        "reporting_scope": "subject",
+        "reporting_subject_causebase_id": "cb_f1f26f7a1bc34d169573d56e51b41cc3",
+        "covered_subjects": [
+          "cb_f1f26f7a1bc34d169573d56e51b41cc3"
+        ],
+        "consolidated": "false",
+        "attribution_method": "direct_subject_report",
+        "evidence_ids": [
+          "ev:ais:65175035512:2023"
+        ],
+        "revenue": {
+          "source_amount": "583709",
+          "source_currency": "AUD",
+          "source_unit_scale": "1",
+          "normalised_amount": "583709",
+          "normalised_currency": "AUD",
+          "source_unit_label": null,
+          "source_raw_value": "583709",
+          "source_precision": null
+        },
+        "donations": null,
+        "government_grants": null,
+        "employee_costs": null,
+        "total_expenses": {
+          "source_amount": "658416",
+          "source_currency": "AUD",
+          "source_unit_scale": "1",
+          "normalised_amount": "658416",
+          "normalised_currency": "AUD",
+          "source_unit_label": null,
+          "source_raw_value": "658416",
+          "source_precision": null
+        },
+        "assets": null,
+        "liabilities": null,
+        "net_assets": null,
+        "income_breakdown": [],
+        "expense_breakdown": [],
+        "balance_sheet_breakdown": [],
+        "source_ordered_line_items": [],
+        "statements": [],
+        "donations_gifts_bequests": null,
+        "functional_expense_allocations": []
+      }
+    ]
+  }
 }

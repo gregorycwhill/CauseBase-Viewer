@@ -1,642 +1,304 @@
 {
   "causebase_id": "cb_125a0a275b7a4f8d873c143b616d0bf8",
+  "contract_version": "0.5",
   "subject_kind": "unknown",
-  "external_identifiers": [
-    {
-      "scheme": "abn",
-      "value": "32668161279",
-      "source_evidence_id": "ev:acnc:32668161279"
-    }
+  "identity": {
+    "legal_name": "JUUKAN GORGE LEGACY FOUNDATION LTD",
+    "display_name": "JUUKAN GORGE LEGACY FOUNDATION LTD",
+    "operating_names": [],
+    "former_names": [],
+    "entity_status": "registered",
+    "website": null,
+    "external_identifiers": [
+      {
+        "scheme": "abn",
+        "value": "32668161279",
+        "evidence_ids": [
+          "ev:acnc:32668161279"
+        ]
+      }
+    ],
+    "registrations": [
+      {
+        "regulator": "ACNC",
+        "status": "registered",
+        "evidence_ids": [
+          "ev:acnc:32668161279"
+        ]
+      }
+    ],
+    "tax_statuses": [
+      {
+        "scheme": "ABR DGR",
+        "status": "endorsed",
+        "evidence_ids": [
+          "ev:abr-dgr:32668161279:20260805"
+        ]
+      }
+    ]
+  },
+  "release": {
+    "release_id": "v0.5.0-2026-08-15",
+    "dataset_version": "0.5.0-2026-08-15",
+    "contract_version": "0.5",
+    "based_on_release": "rc4-2026-08-14",
+    "generated_at": "2026-08-15T00:00:00Z"
+  },
+  "source_record_refs": [
+    "src:acnc-public-profile:32668161279:97f39a84-7303-ee11-8f6e-00224893bfad:cb_125a0a275b7a4f8d873c143b616d0bf8"
   ],
-  "registrations": [
-    {
-      "regulator": "ACNC",
-      "registration_id": null,
-      "status": "registered",
-      "evidence_ids": [
-        "ev:acnc:32668161279"
-      ]
-    }
-  ],
-  "tax_statuses": [
-    {
-      "scheme": "ABR DGR",
-      "status": "endorsed",
-      "detail": "Dated 2026-08-05 ABR bulk observation",
-      "evidence_ids": [
-        "ev:abr-dgr:32668161279:20260805"
-      ]
-    }
-  ],
-  "relationships": [],
-  "source_resolutions": [
+  "source_bindings": [
     {
       "source_record_id": "src:acnc-register:af076d1e-607e-5a8c-8014-87307f29dd2a",
       "resolution_status": "resolved",
       "resolution_basis": "automated authoritative ACNC promotion under acnc-authoritative-v1",
       "confidence": "high",
-      "supporting_signals": [
-        "ABN:32668161279",
-        "ACNC Register"
-      ],
-      "conflicting_signals": [],
-      "review_status": "not_required"
-    }
-  ],
-  "legal_name": "JUUKAN GORGE LEGACY FOUNDATION LTD",
-  "display_name": "JUUKAN GORGE LEGACY FOUNDATION LTD",
-  "entity_status": "registered",
-  "canonical_url": "https://gregorycwhill.github.io/CauseBase-Viewer/#cb_125a0a275b7a4f8d873c143b616d0bf8",
-  "acnc_profile_url": "https://www.acnc.gov.au/charity/charities/97f39a84-7303-ee11-8f6e-00224893bfad/profile",
-  "acnc_ais_url": null,
-  "operating_names": [],
-  "former_names": [],
-  "principal_location": "WA, Australia",
-  "coverage": [
-    {
-      "capability": "regulatory",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:acnc:32668161279"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "annual_report",
-      "status": "not_yet_processed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "website",
-      "status": "not_available_from_source",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "fundraising_expenditure",
-      "status": "not_yet_processed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "financials",
-      "status": "not_found_in_source",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "latest_acnc_ais",
-      "status": "not_available_from_source",
-      "source_record_id": "src:acnc-public-profile:32668161279:97f39a84-7303-ee11-8f6e-00224893bfad:cb_125a0a275b7a4f8d873c143b616d0bf8",
-      "evidence_ids": [],
-      "observed_at": "2026-08-13",
-      "freshness_note": "No submitted AIS was returned by the public ACNC profile endpoint."
-    }
-  ],
-  "enrichment_level": "enriched",
-  "website": null,
-  "geography": [
-    "Western Australia (WA)"
-  ],
-  "geography_observations": [
-    {
-      "value": "Western Australia (WA)",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "navigation_geography": [],
-  "causebase_summary": "Juukan Gorge Legacy Foundation Ltd is an incorporated organisation recorded on the Australian Charities and Not-for-profits Commission register with a listed location of Western Australia. The only evidence in this release is the ACNC register entry observed 10 August 2026. CauseBase does not have sufficient descriptive evidence in this release to independently identify the organisation's specific activities, beneficiaries or modes of participation.",
-  "summary_evidence_ids": [
-    "ev:acnc:32668161279"
-  ],
-  "organisation_self_description": null,
-  "activities": [],
-  "activity_observations": [],
-  "beneficiaries": [],
-  "beneficiary_observations": [],
-  "participation_modes": [],
-  "participation_observations": [],
-  "opportunities": [],
-  "programs": [],
-  "source_native_records": [
-    {
-      "source_record_id": "src:acnc-public-profile:32668161279:97f39a84-7303-ee11-8f6e-00224893bfad:cb_125a0a275b7a4f8d873c143b616d0bf8",
-      "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-14-public-api",
-      "source_url": "https://www.acnc.gov.au/charity/charities/97f39a84-7303-ee11-8f6e-00224893bfad/profile",
-      "retrieved_at": "2026-08-13T13:54:42.956606Z",
-      "observed_at": "2026-08-13",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "uuid": "97f39a84-7303-ee11-8f6e-00224893bfad",
-        "abn": "32668161279"
-      },
-      "source_payload": {
-        "data": {
-          "AFSAddressPostalCode": "6892",
-          "AFSEmail": "christy.hawker@jglf.org.au",
-          "Abn": "32668161279",
-          "AddressCountry": "Australia",
-          "AddressLine1": "PO Box 6134",
-          "AddressLine2": null,
-          "AddressLine3": null,
-          "AddressPostalCode": "6892",
-          "AddressStateOrProvince": "WA",
-          "AddressSuburb": "East Perth",
-          "AddressSuburbStatePostcode": "East Perth WA 6892",
-          "AnnualReports": [
-            {
-              "DateReceived": "2025-01-07T01:15:37.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2025-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2024",
-              "type": "Annual Information Statement 2024",
-              "uuid": "77bd491c-1c25-ee11-9966-00224893bfad"
-            },
-            {
-              "DateReceived": "2025-12-16T08:00:34.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2026-01-31T00:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2025",
-              "type": "Annual Information Statement 2025",
-              "uuid": "c3bd491c-1c25-ee11-9966-00224893bfad"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2025-01-07T01:15:26.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2025-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2024",
-              "type": "Financial Report 2024",
-              "uuid": "cfbd491c-1c25-ee11-9966-00224893bfad"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2025-12-16T08:00:28.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2026-01-31T00:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2025",
-              "type": "Financial Report 2025",
-              "uuid": "d9bd491c-1c25-ee11-9966-00224893bfad"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2026-12-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Not yet submitted",
-              "Year": "2026",
-              "type": "Annual Information Statement 2026",
-              "uuid": "0dc4d9f5-d3df-ef11-a731-00224893f254"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2026-12-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Pending",
-              "Year": "2026",
-              "type": "Financial Report 2026",
-              "uuid": "2ac4d9f5-d3df-ef11-a731-00224893f254"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2027-12-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Not yet submitted",
-              "Year": "2027",
-              "type": "Annual Information Statement 2027",
-              "uuid": "347b11e2-06ff-f011-8406-6045bdc3b801"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2027-12-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Pending",
-              "Year": "2027",
-              "type": "Financial Report 2027",
-              "uuid": "407b11e2-06ff-f011-8406-6045bdc3b801"
-            }
-          ],
-          "Beneficiaries": [
-            {
-              "Description": null,
-              "Name": "Aboriginal and Torres Strait Islander people",
-              "uuid": "7b80704f-55da-f011-8544-7ced8d344b97"
-            }
-          ],
-          "CharitySize": "Large",
-          "CharitySubtypeHistory": [
-            {
-              "EndDate": null,
-              "Purpose": "Advancing social or public welfare",
-              "StartDate": "2023-05-22T00:00:00.0000000Z",
-              "uuid": "a9f39a84-7303-ee11-8f6e-00224893bfad"
-            },
-            {
-              "EndDate": null,
-              "Purpose": "Public Benevolent Institution (PBI)",
-              "StartDate": "2023-05-22T00:00:00.0000000Z",
-              "uuid": "b0f39a84-7303-ee11-8f6e-00224893bfad"
-            }
-          ],
-          "CharityVersion": "132",
-          "ChildMemberEndDate": null,
-          "ChildMemberStartDate": null,
-          "ChooseToProvideAis": null,
-          "Countries": [
-            {
-              "Name": "Australia",
-              "uuid": "f57b5602-9a4d-e811-a951-000d3ad06f2d"
-            }
-          ],
-          "DateEstablished": "2023-05-22T00:00:00.0000000Z",
-          "Documents": [
-            {
-              "Date": "2023-11-22T00:00:00.0000000",
-              "Title": "Juukan Gorge Legacy Foundation Rule Book 13 November 2023.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/97f39a84-7303-ee11-8f6e-00224893bfad-c28104a2-3c5c-4c74-a5d0-097d5bc830fe-Governing%20Document-61afdcf6-ce88-ee11-be36-002248933d22-Juukan_Gorge_Legacy_Foundation_Rule_Book_13_November_2023.pdf",
-              "Year": null,
-              "type": "Governing Document",
-              "uuid": "61afdcf6-ce88-ee11-be36-002248933d22"
-            }
-          ],
-          "Email": "christy.hawker@jglf.org.au",
-          "EnforcementOutcomes": [],
-          "FinancialYearEnd": "30/06",
-          "GovernmentAgencies": [
-            {
-              "Name": "Australian Securities and Investment Commission",
-              "ReferenceNumber": "668161279",
-              "uuid": "4037938a-7303-ee11-8f6e-00224893bfad"
-            }
-          ],
-          "GroupHeadFlag": false,
-          "LastReported": "2025-12-16T08:00:34.0000000Z",
-          "Name": "JUUKAN GORGE LEGACY FOUNDATION LTD",
-          "NextReportDue": "2026-12-31T12:30:00.0000000Z",
-          "OperatingInStates": [
-            {
-              "Name": "Western Australia",
-              "uuid": "dc2782ae-455e-e811-a95c-000d3ad1c715"
-            }
-          ],
-          "OtherDetails": null,
-          "OtherNames": [],
-          "ParentAccountAbn": null,
-          "ParentAccountId": null,
-          "Phone": "0450653743",
-          "Programs": [
-            {
-              "AisUuid": "a40e7849-55da-f011-8544-7ced8d344b97",
-              "Name": "Establish Strong Foundation",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Aboriginal and Torres Strait Islander people"
-              ],
-              "ProgramClassie": [
-                {
-                  "classie_id": "842",
-                  "label": "Unknown or not classified",
-                  "parent_id": null,
-                  "selected": true
-                }
-              ],
-              "ProgramClassification": "Unknown or not classified",
-              "ProgramClassificationID": "842",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "Pilbara, WA, Australia",
-                  "FormattedAddress": "Pilbara, WA, Australia",
-                  "Marker": {
-                    "Latitude": -21.5921433,
-                    "Longitude": 121.5236826
-                  },
-                  "Name": "Pilbara",
-                  "uuid": "53127849-55da-f011-8544-7ced8d344b97"
-                },
-                {
-                  "DisplayName": "Perth WA, Australia",
-                  "FormattedAddress": "Perth WA, Australia",
-                  "Marker": {
-                    "Latitude": -31.9513993,
-                    "Longitude": 115.8616783
-                  },
-                  "Name": "Perth",
-                  "uuid": "5a127849-55da-f011-8544-7ced8d344b97"
-                }
-              ],
-              "ProgramWeblink": null,
-              "uuid": "35127849-55da-f011-8544-7ced8d344b97"
-            },
-            {
-              "AisUuid": "a40e7849-55da-f011-8544-7ced8d344b97",
-              "Name": "Legacy Commercial",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Aboriginal and Torres Strait Islander people"
-              ],
-              "ProgramClassie": [
-                {
-                  "classie_id": "161",
-                  "label": "Entrepreneurship",
-                  "parent_id": "157",
-                  "selected": true
-                },
-                {
-                  "classie_id": "157",
-                  "label": "Business and industry",
-                  "parent_id": "133",
-                  "selected": false
-                },
-                {
-                  "classie_id": "133",
-                  "label": "Economic development",
-                  "parent_id": null,
-                  "selected": false
-                }
-              ],
-              "ProgramClassification": "Entrepreneurship",
-              "ProgramClassificationID": "161",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "Pilbara, WA, Australia",
-                  "FormattedAddress": "Pilbara, WA, Australia",
-                  "Marker": {
-                    "Latitude": -21.5921433,
-                    "Longitude": 121.5236826
-                  },
-                  "Name": "Pilbara",
-                  "uuid": "72127849-55da-f011-8544-7ced8d344b97"
-                }
-              ],
-              "ProgramWeblink": null,
-              "uuid": "5d127849-55da-f011-8544-7ced8d344b97"
-            },
-            {
-              "AisUuid": "a40e7849-55da-f011-8544-7ced8d344b97",
-              "Name": "Initial Priority Programs",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Aboriginal and Torres Strait Islander people"
-              ],
-              "ProgramClassie": [
-                {
-                  "classie_id": "842",
-                  "label": "Unknown or not classified",
-                  "parent_id": null,
-                  "selected": true
-                }
-              ],
-              "ProgramClassification": "Unknown or not classified",
-              "ProgramClassificationID": "842",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "Pilbara, WA, Australia",
-                  "FormattedAddress": "Pilbara, WA, Australia",
-                  "Marker": {
-                    "Latitude": -21.5921433,
-                    "Longitude": 121.5236826
-                  },
-                  "Name": "Pilbara",
-                  "uuid": "98127849-55da-f011-8544-7ced8d344b97"
-                }
-              ],
-              "ProgramWeblink": null,
-              "uuid": "83127849-55da-f011-8544-7ced8d344b97"
-            }
-          ],
-          "ReferendumReturnsUrl": null,
-          "RegistrationStatusHistory": [
-            {
-              "EffectiveDate": "2023-05-22T00:00:00.0000000Z",
-              "Status": "Registered",
-              "TransactionDate": "2023-07-18T03:35:17.0000000Z",
-              "uuid": "5ebc491c-1c25-ee11-9966-00224893bfad"
-            }
-          ],
-          "RelatedPartyTransactions": null,
-          "RelevantTransactions": null,
-          "ReportingLate": "2027-06-30T12:30:00.0000000Z",
-          "ResponsiblePersons": [
-            {
-              "Name": "Angie Cox",
-              "Role": "Director",
-              "uuid": "e59df17e-4168-ee11-9ae7-002248122b18"
-            },
-            {
-              "Name": "Kingsley Woodley",
-              "Role": "Director",
-              "uuid": "512472c0-616d-ee11-9ae7-002248122b18"
-            },
-            {
-              "Name": "Harold Ashburton",
-              "Role": "Director",
-              "uuid": "9c1b4d4a-e9e0-ee11-904d-00224893b0ed"
-            },
-            {
-              "Name": "Christy Hawker",
-              "Role": "Secretary",
-              "uuid": "1158d8c7-10bc-e811-a95f-000d3ad24c60"
-            },
-            {
-              "Name": "Burchell Hayes",
-              "Role": "Chairperson",
-              "uuid": "c9f39a84-7303-ee11-8f6e-00224893bfad"
-            },
-            {
-              "Name": "Sandra Hayes",
-              "Role": "Director",
-              "uuid": "f2f39a84-7303-ee11-8f6e-00224893bfad"
-            },
-            {
-              "Name": "Fabian Hayes",
-              "Role": "Director",
-              "uuid": "07f49a84-7303-ee11-8f6e-00224893bfad"
-            },
-            {
-              "Name": "Terry Hayes",
-              "Role": "Director",
-              "uuid": "1cf49a84-7303-ee11-8f6e-00224893bfad"
-            },
-            {
-              "Name": "Rehannan Chubby",
-              "Role": "Director",
-              "uuid": "c136938a-7303-ee11-8f6e-00224893bfad"
-            },
-            {
-              "Name": "Craig Hayes",
-              "Role": "Director",
-              "uuid": "8841d5d7-49ad-ef11-b8e8-6045bdc3889b"
-            },
-            {
-              "Name": "Timothy Ashburton",
-              "Role": "Director",
-              "uuid": "40f26177-29cc-f011-8543-7ced8d34ae75"
-            }
-          ],
-          "Status": "Registered",
-          "SummaryOfActivities": "We worked to establish a strong foundation to enable delivery on purpose. Through Legacy Commercial, we provided technical assistance to Aboriginal-owned businesses operating in the resource sector in the Pilbara region. We commenced designing our Initial Priority Programs.",
-          "TransparencyRegisterUrl": null,
-          "Website": null,
-          "__normalized": true,
-          "type": "charity",
-          "uuid": "97f39a84-7303-ee11-8f6e-00224893bfad"
-        },
-        "type": "charity",
-        "uuid": "97f39a84-7303-ee11-8f6e-00224893bfad"
-      },
-      "canonical_field_mappings": {
-        "data.OtherNames": "operating_names",
-        "data.AddressStateOrProvince": "principal_location"
-      },
-      "evidence_ids": []
-    }
-  ],
-  "financial_records": [],
-  "financial_metrics": [],
-  "fundraising_expenditure": null,
-  "funding_sources": [],
-  "fundraising_methods": [],
-  "classifications": [
-    {
-      "taxonomy_id": "acnc-register",
-      "taxonomy_version": "2026-08-10",
-      "term_id": "purpose.social_welfare",
-      "term_label": "social welfare",
-      "assignment_method": "source_native",
-      "confidence": "high",
-      "evidence_ids": [
-        "ev:acnc:32668161279"
-      ]
-    },
-    {
-      "taxonomy_id": "acnc-register",
-      "taxonomy_version": "2026-08-10",
-      "term_id": "beneficiary.other_beneficiary",
-      "term_label": "other beneficiary",
-      "assignment_method": "source_native",
-      "confidence": "high",
-      "evidence_ids": [
-        "ev:acnc:32668161279"
-      ]
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "geography.local_or_regional",
-      "term_label": "Local or regional Australia",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "geography.australia",
-      "term_label": "Australia",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
+      "review_status": "not_required",
+      "conflicting_signals": []
     }
   ],
   "evidence": [
     {
       "evidence_id": "ev:acnc:32668161279",
-      "source_type": "regulatory",
-      "title": "ACNC Register extract",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": null,
-      "observed_at": "2026-08-10",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "title": "ACNC Register extract"
     },
     {
       "evidence_id": "ev:abr-dgr:32668161279:20260805",
-      "source_type": "regulatory",
       "title": "ABR DGR bulk observation",
-      "publisher": "Australian Business Register / Australian Taxation Office",
-      "url": "https://abr.business.gov.au/Tools/BulkExtract",
-      "observed_at": "2026-08-05",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://abr.business.gov.au/Tools/BulkExtract"
     }
   ],
-  "embedding": {
-    "embedding_id": "cb_125a0a275b7a4f8d873c143b616d0bf8:entity:text-embedding-3-small",
-    "embedding_type": "entity",
-    "model_id": "text-embedding-3-small",
-    "model_version": "text-embedding-3-small",
-    "dimensions": 1536,
-    "source_text_hash": "7e9f1cbba6c90db2a42ae4870d95200999a9d8b4c5574dd2d8820460af1f1961",
-    "generated_at": "2026-08-10T13:53:24.457525Z",
-    "vector_ref": "embeddings.parquet#cb_125a0a275b7a4f8d873c143b616d0bf8"
+  "summary": {
+    "derivative_id": "der:rc4:cb_125a0a275b7a4f8d873c143b616d0bf8:summary",
+    "text": "Juukan Gorge Legacy Foundation Ltd is an incorporated organisation recorded on the Australian Charities and Not-for-profits Commission register with a listed location of Western Australia. The only evidence in this release is the ACNC register entry observed 10 August 2026. CauseBase does not have sufficient descriptive evidence in this release to independently identify the organisation's specific activities, beneficiaries or modes of participation."
   },
-  "synthesis": {
-    "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
-    "parameters": {
-      "max_output_tokens": 3000,
-      "structured_output": true,
-      "output_contract": "causebase-summary-v0.3-rc2"
-    },
-    "evidence_input_hash": "929b557f7632d0efcd4c639e9c5f54cfce3efad8be5f6197a1faf08249c081c9",
-    "generated_at": "2026-08-12T14:08:53.639536Z",
-    "editorial_policy_version": "0.3-rc2"
-  },
-  "derivative_assessments": [
+  "activities": [],
+  "beneficiaries": [],
+  "descriptive_geography": [],
+  "navigation_geography": [],
+  "funding_sources": [],
+  "fundraising_methods": [],
+  "participation": [],
+  "opportunities": [],
+  "programs": [],
+  "relationships": [],
+  "classifications": [
     {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T14:08:53.639536Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-13T13:54:42.956606Z",
-      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
-      "input_hash": "929b557f7632d0efcd4c639e9c5f54cfce3efad8be5f6197a1faf08249c081c9",
-      "disposition": "reused",
-      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
-      "affected_dimensions": [
-        "summary"
-      ]
+      "observation_id": "obs:rc4:cb_125a0a275b7a4f8d873c143b616d0bf8:classification:0",
+      "classification_id": "cls:rc4:cb_125a0a275b7a4f8d873c143b616d0bf8:0",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "purpose.social_welfare",
+      "term_label": "social welfare",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:32668161279"
+      ],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_125a0a275b7a4f8d873c143b616d0bf8:classification:1",
+      "classification_id": "cls:rc4:cb_125a0a275b7a4f8d873c143b616d0bf8:1",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "beneficiary.other_beneficiary",
+      "term_label": "other beneficiary",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:32668161279"
+      ],
+      "confidence": "high",
+      "warnings": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-14-rc4-fundraising-projection-correction",
-  "card_schema_version": "0.4",
-  "editorial_policy_version": "0.4-rc4",
-  "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T13:54:42.956606Z"
+  "coverage": {
+    "registry_id": "capability-registry-0.5-initial",
+    "current": [
+      {
+        "capability": "regulatory.acnc_profile",
+        "status": "observed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:acnc:32668161279"
+        ]
+      },
+      {
+        "capability": "regulatory.ais",
+        "status": "not_available_from_source",
+        "assessed_at": "2026-08-13",
+        "source_record_ids": [
+          "src:acnc-public-profile:32668161279:97f39a84-7303-ee11-8f6e-00224893bfad:cb_125a0a275b7a4f8d873c143b616d0bf8"
+        ],
+        "evidence_ids": []
+      },
+      {
+        "capability": "tax.dgr",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "web.website",
+        "status": "not_available_from_source",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "report.annual_report",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "financial.report",
+        "status": "not_found_in_source",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "financial.statements",
+        "status": "not_found_in_source",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.activities",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.beneficiaries",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.geography",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "programs",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "participation",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "funding.sources",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.methods",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.expenditure",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "taxonomy.causebase",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "semantic.embedding",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      }
+    ]
+  },
+  "financial_reports": [],
+  "canonical_metrics": [],
+  "analytic_projections": [],
+  "derivatives": [
+    {
+      "derivative_id": "der:rc4:cb_125a0a275b7a4f8d873c143b616d0bf8:summary",
+      "kind": "summary",
+      "input_observation_ids": [],
+      "evidence_ids": [
+        "ev:acnc:32668161279"
+      ],
+      "generated_under": {
+        "output_contract_version": "phase2b-rc4-accepted-rc2-summary-reuse",
+        "input_hash": "929b557f7632d0efcd4c639e9c5f54cfce3efad8be5f6197a1faf08249c081c9",
+        "generated_at": "2026-08-12T14:08:53.639536Z"
+      },
+      "current_assessment": {
+        "assessed_at": "2026-08-13T13:54:42.956606Z",
+        "assessed_against_contract": "0.5",
+        "governing_input_hash": "929b557f7632d0efcd4c639e9c5f54cfce3efad8be5f6197a1faf08249c081c9",
+        "disposition": "reused",
+        "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs."
+      }
+    }
+  ],
+  "legacy_unbound": {
+    "origin_release": "rc4-2026-08-14",
+    "origin_card_sha256": "7e847d246d067c9107246291f769c0825e2e93a0e14ba5b2b5d7e65e440ce2e3",
+    "descriptive_geography": [
+      {
+        "value": "Western Australia (WA)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "classifications": [
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "geography.local_or_regional",
+        "term_label": "Local or regional Australia",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "geography.australia",
+        "term_label": "Australia",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      }
+    ]
+  }
 }

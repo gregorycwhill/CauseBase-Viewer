@@ -1,774 +1,451 @@
 {
   "causebase_id": "cb_f1a207947b60442c97280736618ac5b8",
+  "contract_version": "0.5",
   "subject_kind": "unknown",
-  "external_identifiers": [
-    {
-      "scheme": "abn",
-      "value": "26687611356",
-      "source_evidence_id": "ev:acnc:26687611356"
-    }
+  "identity": {
+    "legal_name": "ROLDA LTD",
+    "display_name": "ROLDA LTD",
+    "operating_names": [],
+    "former_names": [],
+    "entity_status": "registered",
+    "website": "https://rolda.org.au/",
+    "external_identifiers": [
+      {
+        "scheme": "abn",
+        "value": "26687611356",
+        "evidence_ids": [
+          "ev:acnc:26687611356"
+        ]
+      }
+    ],
+    "registrations": [
+      {
+        "regulator": "ACNC",
+        "status": "registered",
+        "evidence_ids": [
+          "ev:acnc:26687611356"
+        ]
+      }
+    ],
+    "tax_statuses": []
+  },
+  "release": {
+    "release_id": "v0.5.0-2026-08-15",
+    "dataset_version": "0.5.0-2026-08-15",
+    "contract_version": "0.5",
+    "based_on_release": "rc4-2026-08-14",
+    "generated_at": "2026-08-15T00:00:00Z"
+  },
+  "source_record_refs": [
+    "src:acnc-public-profile:26687611356:8e571924-2769-f011-bec3-7c1e522b1d9f:cb_f1a207947b60442c97280736618ac5b8"
   ],
-  "registrations": [
-    {
-      "regulator": "ACNC",
-      "registration_id": null,
-      "status": "registered",
-      "evidence_ids": [
-        "ev:acnc:26687611356"
-      ]
-    }
-  ],
-  "tax_statuses": [],
-  "relationships": [],
-  "source_resolutions": [
+  "source_bindings": [
     {
       "source_record_id": "src:acnc-register:48a54271-ce63-59a0-892e-9ad507324e8c",
       "resolution_status": "resolved",
       "resolution_basis": "automated authoritative ACNC promotion under acnc-authoritative-v1",
       "confidence": "high",
-      "supporting_signals": [
-        "ABN:26687611356",
-        "ACNC Register"
-      ],
-      "conflicting_signals": [],
-      "review_status": "not_required"
-    }
-  ],
-  "legal_name": "ROLDA LTD",
-  "display_name": "ROLDA LTD",
-  "entity_status": "registered",
-  "canonical_url": "https://gregorycwhill.github.io/CauseBase-Viewer/#cb_f1a207947b60442c97280736618ac5b8",
-  "acnc_profile_url": "https://www.acnc.gov.au/charity/charities/8e571924-2769-f011-bec3-7c1e522b1d9f/profile",
-  "acnc_ais_url": null,
-  "operating_names": [],
-  "former_names": [],
-  "principal_location": "NSW, Australia",
-  "coverage": [
-    {
-      "capability": "regulatory",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:acnc:26687611356"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "annual_report",
-      "status": "not_yet_processed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "fundraising_expenditure",
-      "status": "not_yet_processed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "financials",
-      "status": "not_found_in_source",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "latest_acnc_ais",
-      "status": "not_available_from_source",
-      "source_record_id": "src:acnc-public-profile:26687611356:8e571924-2769-f011-bec3-7c1e522b1d9f:cb_f1a207947b60442c97280736618ac5b8",
-      "evidence_ids": [],
-      "observed_at": "2026-08-13",
-      "freshness_note": "No submitted AIS was returned by the public ACNC profile endpoint."
-    },
-    {
-      "capability": "website",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-13",
-      "freshness_note": "Public website locator acquired from the ACNC profile."
-    }
-  ],
-  "enrichment_level": "enriched",
-  "website": "https://rolda.org.au/",
-  "geography": [
-    "NSW, Australia",
-    "Romania (Galati and local shelters)",
-    "Ukraine (evacuations, treatment and support in conflict areas)",
-    "Venezuela (emergency aid after earthquake)",
-    "Bethlehem, Palestine (support for a local shelter)",
-    "Europe (rehoming of dogs in Europe)",
-    "Middle East (emergency aid described)"
-  ],
-  "geography_observations": [
-    {
-      "value": "NSW, Australia",
-      "source_role": "legacy_source_qualifier",
-      "provenance_note": "organisation registration and Australian fundraising",
-      "evidence_ids": []
-    },
-    {
-      "value": "Romania (Galati and local shelters)",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Ukraine (evacuations, treatment and support in conflict areas)",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Venezuela (emergency aid after earthquake)",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Bethlehem, Palestine (support for a local shelter)",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Europe (rehoming of dogs in Europe)",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Middle East (emergency aid described)",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "navigation_geography": [],
-  "causebase_summary": "ROLDA Ltd is an Australian-registered animal welfare organisation that raises funds in NSW and channels support to rescue work in Romania and other countries. It rescues and shelters dogs and cats from streets, puppy mills and disaster or conflict zones; provides food, shelter, urgent veterinary treatment and rehabilitation; evacuates animals from war and disaster areas; and rehomes animals in Europe or places them in foster care. ROLDA also buys and develops shelter land (including a cage-free sanctuary project), supports independent local rescue teams, and runs community education and early-intervention programmes that help vulnerable pet owners keep animals with their families.",
-  "summary_evidence_ids": [
-    "ev:web:26687611356:2026-08-10",
-    "ev:acnc:26687611356"
-  ],
-  "organisation_self_description": null,
-  "activities": [
-    "Rescue dogs and cats from streets, puppy mills and disaster/conflict zones",
-    "Provide shelter, food, warmth and urgent veterinary treatment",
-    "Rehabilitate animals and place them in foster care or rehome in Europe",
-    "Evacuate animals from conflict zones and disaster sites",
-    "Buy and develop land and shelter facilities (e.g. renovations near Galaţi, Little Haven sanctuary project)",
-    "Provide community education programmes about humane treatment and responsible ownership",
-    "Provide support (food and medical assistance) to vulnerable pet owners to prevent abandonment",
-    "Support independent local rescue teams ('ROLDA Heroes')"
-  ],
-  "activity_observations": [
-    {
-      "value": "Rescue dogs and cats from streets, puppy mills and disaster/conflict zones",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Provide shelter, food, warmth and urgent veterinary treatment",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Rehabilitate animals and place them in foster care or rehome in Europe",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Evacuate animals from conflict zones and disaster sites",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Buy and develop land and shelter facilities (e.g. renovations near Galaţi, Little Haven sanctuary project)",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Provide community education programmes about humane treatment and responsible ownership",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Provide support (food and medical assistance) to vulnerable pet owners to prevent abandonment",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Support independent local rescue teams ('ROLDA Heroes')",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "beneficiaries": [
-    "Dogs and cats rescued from streets, puppy mills and disaster/conflict zones",
-    "Vulnerable pet owners and disadvantaged community members who receive food or medical assistance for pets"
-  ],
-  "beneficiary_observations": [
-    {
-      "value": "Dogs and cats rescued from streets, puppy mills and disaster/conflict zones",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Vulnerable pet owners and disadvantaged community members who receive food or medical assistance for pets",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "participation_modes": [
-    "Donating to fundraising appeals",
-    "Joining public fundraising challenges (e.g. 20th anniversary #GiveHope challenge)",
-    "Fostering animals in temporary care",
-    "Supporting or working with local rescuers and independent rescue teams"
-  ],
-  "participation_observations": [],
-  "opportunities": [],
-  "programs": [],
-  "source_native_records": [
-    {
-      "source_record_id": "src:acnc-public-profile:26687611356:8e571924-2769-f011-bec3-7c1e522b1d9f:cb_f1a207947b60442c97280736618ac5b8",
-      "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-14-public-api",
-      "source_url": "https://www.acnc.gov.au/charity/charities/8e571924-2769-f011-bec3-7c1e522b1d9f/profile",
-      "retrieved_at": "2026-08-13T13:54:42.956606Z",
-      "observed_at": "2026-08-13",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "uuid": "8e571924-2769-f011-bec3-7c1e522b1d9f",
-        "abn": "26687611356"
-      },
-      "source_payload": {
-        "data": {
-          "AFSAddressPostalCode": "2009",
-          "AFSEmail": "contact@rolda.org.au",
-          "Abn": "26687611356",
-          "AddressCountry": "Australia",
-          "AddressLine1": "Level 3",
-          "AddressLine2": "55 Pyrmont Bridge Rd",
-          "AddressLine3": null,
-          "AddressPostalCode": "2009",
-          "AddressStateOrProvince": "NSW",
-          "AddressSuburb": "Pyrmont",
-          "AddressSuburbStatePostcode": "Pyrmont NSW 2009",
-          "AnnualReports": [
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2026-12-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Not yet submitted",
-              "Year": "2026",
-              "type": "Annual Information Statement 2026",
-              "uuid": "05548038-87a8-f011-bbd2-000d3acafaac"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2027-12-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Not yet submitted",
-              "Year": "2027",
-              "type": "Annual Information Statement 2027",
-              "uuid": "616d974a-87a8-f011-bbd2-000d3acafaac"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2026-12-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Pending",
-              "Year": "2026",
-              "type": "Financial Report 2026",
-              "uuid": "6555ee5c-87a8-f011-bbd2-000d3acafaac"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2027-12-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Pending",
-              "Year": "2027",
-              "type": "Financial Report 2027",
-              "uuid": "2fea8072-87a8-f011-bbd2-000d3acafaac"
-            }
-          ],
-          "Beneficiaries": [
-            {
-              "Description": null,
-              "Name": "Overseas communities or charities",
-              "uuid": "b915c703-5ca9-f011-bbd2-6045bdc214fd"
-            },
-            {
-              "Description": null,
-              "Name": "Animals",
-              "uuid": "bf15c703-5ca9-f011-bbd2-6045bdc214fd"
-            }
-          ],
-          "CharitySize": null,
-          "CharitySubtypeHistory": [
-            {
-              "EndDate": null,
-              "Purpose": "Preventing or relieving the suffering of animals",
-              "StartDate": "2025-06-03T00:00:00.0000000Z",
-              "uuid": "3e573981-2869-f011-bec3-0022481296ec"
-            }
-          ],
-          "CharityVersion": "42",
-          "ChildMemberEndDate": null,
-          "ChildMemberStartDate": null,
-          "ChooseToProvideAis": null,
-          "Countries": [
-            {
-              "Name": "Romania",
-              "uuid": "077d5602-9a4d-e811-a951-000d3ad06f2d"
-            }
-          ],
-          "DateEstablished": "2025-06-03T00:00:00.0000000Z",
-          "Documents": [
-            {
-              "Date": "2025-07-25T00:00:00.0000000",
-              "Title": "FINAL.ROLDA Ltd.Constitution.250605.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/8e571924-2769-f011-bec3-7c1e522b1d9f-c48d73fd-fa23-4f49-965f-a743bda86e3f-Governing%20Document-88aded1d-2769-f011-bec3-00224893fe04-FINAL.ROLDA_Ltd.Constitution.250605.pdf",
-              "Year": null,
-              "type": "Governing Document",
-              "uuid": "88aded1d-2769-f011-bec3-00224893fe04"
-            }
-          ],
-          "Email": "info@rolda.org.au",
-          "EnforcementOutcomes": [],
-          "FinancialYearEnd": "30/06",
-          "GovernmentAgencies": [
-            {
-              "Name": "Australian Securities and Investment Commission",
-              "ReferenceNumber": "687611356",
-              "uuid": "403b3487-2869-f011-bec3-0022481296ec"
-            },
-            {
-              "Name": "SA - Fundraising",
-              "ReferenceNumber": null,
-              "uuid": "433b3487-2869-f011-bec3-0022481296ec"
-            }
-          ],
-          "GroupHeadFlag": false,
-          "LastReported": null,
-          "Name": "ROLDA LTD",
-          "NextReportDue": "2026-12-31T12:30:00.0000000Z",
-          "OperatingInStates": [
-            {
-              "Name": "Victoria",
-              "uuid": "4ea3219c-455e-e811-a95c-000d3ad1c715"
-            },
-            {
-              "Name": "Tasmania",
-              "uuid": "4fa3219c-455e-e811-a95c-000d3ad1c715"
-            },
-            {
-              "Name": "New South Wales",
-              "uuid": "2bf593a5-455e-e811-a95c-000d3ad1c715"
-            },
-            {
-              "Name": "Queensland",
-              "uuid": "2cf593a5-455e-e811-a95c-000d3ad1c715"
-            },
-            {
-              "Name": "Western Australia",
-              "uuid": "dc2782ae-455e-e811-a95c-000d3ad1c715"
-            },
-            {
-              "Name": "South Australia",
-              "uuid": "dd2782ae-455e-e811-a95c-000d3ad1c715"
-            },
-            {
-              "Name": "Australian Capital Territory",
-              "uuid": "db77d9b9-455e-e811-a95c-000d3ad1c715"
-            },
-            {
-              "Name": "Northern Territory",
-              "uuid": "dd77d9b9-455e-e811-a95c-000d3ad1c715"
-            }
-          ],
-          "OtherDetails": null,
-          "OtherNames": [],
-          "ParentAccountAbn": null,
-          "ParentAccountId": null,
-          "Phone": "0468 070 277",
-          "Programs": [
-            {
-              "AisUuid": "00000000-0000-0000-0000-000000000000",
-              "Name": "Preventing or relieving the suffering of animals",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Animals",
-                "Overseas communities or charities"
-              ],
-              "ProgramClassie": [
-                {
-                  "classie_id": "26",
-                  "label": "Animal welfare",
-                  "parent_id": null,
-                  "selected": true
-                }
-              ],
-              "ProgramClassification": "Animal welfare",
-              "ProgramClassificationID": "26",
-              "ProgramCountries": [
-                "Romania"
-              ],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "Australian Capital Territory, Australia",
-                  "FormattedAddress": "Australian Capital Territory, Australia",
-                  "Marker": {
-                    "Latitude": -35.4734679,
-                    "Longitude": 149.0123679
-                  },
-                  "Name": "Australian Capital Territory",
-                  "uuid": "0415c703-5ca9-f011-bbd2-6045bdc214fd"
-                },
-                {
-                  "DisplayName": "New South Wales, Australia",
-                  "FormattedAddress": "New South Wales, Australia",
-                  "Marker": {
-                    "Latitude": -31.2532183,
-                    "Longitude": 146.921099
-                  },
-                  "Name": "New South Wales",
-                  "uuid": "0715c703-5ca9-f011-bbd2-6045bdc214fd"
-                },
-                {
-                  "DisplayName": "Northern Territory, Australia",
-                  "FormattedAddress": "Northern Territory, Australia",
-                  "Marker": {
-                    "Latitude": -19.4914108,
-                    "Longitude": 132.5509603
-                  },
-                  "Name": "Northern Territory",
-                  "uuid": "0915c703-5ca9-f011-bbd2-6045bdc214fd"
-                },
-                {
-                  "DisplayName": "Queensland, Australia",
-                  "FormattedAddress": "Queensland, Australia",
-                  "Marker": {
-                    "Latitude": -22.575197,
-                    "Longitude": 144.0847926
-                  },
-                  "Name": "Queensland",
-                  "uuid": "0b15c703-5ca9-f011-bbd2-6045bdc214fd"
-                },
-                {
-                  "DisplayName": "South Australia, Australia",
-                  "FormattedAddress": "South Australia, Australia",
-                  "Marker": {
-                    "Latitude": -30.0002315,
-                    "Longitude": 136.2091547
-                  },
-                  "Name": "South Australia",
-                  "uuid": "0d15c703-5ca9-f011-bbd2-6045bdc214fd"
-                },
-                {
-                  "DisplayName": "Tasmania, Australia",
-                  "FormattedAddress": "Tasmania, Australia",
-                  "Marker": {
-                    "Latitude": -42.0409059,
-                    "Longitude": 146.8087322
-                  },
-                  "Name": "Tasmania",
-                  "uuid": "1215c703-5ca9-f011-bbd2-6045bdc214fd"
-                },
-                {
-                  "DisplayName": "Victoria, Australia",
-                  "FormattedAddress": "Victoria, Australia",
-                  "Marker": {
-                    "Latitude": -36.9847807,
-                    "Longitude": 143.3906074
-                  },
-                  "Name": "Victoria",
-                  "uuid": "1915c703-5ca9-f011-bbd2-6045bdc214fd"
-                },
-                {
-                  "DisplayName": "Western Australia, Australia",
-                  "FormattedAddress": "Western Australia, Australia",
-                  "Marker": {
-                    "Latitude": -27.6728168,
-                    "Longitude": 121.6283098
-                  },
-                  "Name": "Western Australia",
-                  "uuid": "2515c703-5ca9-f011-bbd2-6045bdc214fd"
-                }
-              ],
-              "ProgramWeblink": null,
-              "uuid": "f914c703-5ca9-f011-bbd2-6045bdc214fd"
-            }
-          ],
-          "ReferendumReturnsUrl": null,
-          "RegistrationStatusHistory": [
-            {
-              "EffectiveDate": "2025-06-02T14:00:00.0000000Z",
-              "Status": "Registered",
-              "TransactionDate": null,
-              "uuid": "df6f3d98-87a8-f011-bbd2-6045bde67d52"
-            }
-          ],
-          "RelatedPartyTransactions": null,
-          "RelevantTransactions": null,
-          "ReportingLate": "2027-06-30T12:30:00.0000000Z",
-          "ResponsiblePersons": [
-            {
-              "Name": "Scott Mates",
-              "Role": "Director",
-              "uuid": "cf08965e-1439-f111-88b4-6045bde71776"
-            },
-            {
-              "Name": "Sukanya Balachandran",
-              "Role": "Public Officer",
-              "uuid": "57b81ba2-fc38-f111-88b5-70a8a554f30d"
-            },
-            {
-              "Name": "Sukanya Balachandran",
-              "Role": "Director",
-              "uuid": "57b81ba2-fc38-f111-88b5-70a8a554f30d"
-            },
-            {
-              "Name": "Elena Costin",
-              "Role": "Director",
-              "uuid": "37a90a89-e4b2-f011-bbd3-7ced8d330952"
-            },
-            {
-              "Name": "Ciprlan Tudor",
-              "Role": "Director",
-              "uuid": "cca90a89-e4b2-f011-bbd3-7ced8d330952"
-            },
-            {
-              "Name": "Madalina Brudasca",
-              "Role": "Director",
-              "uuid": "1aaa0a89-e4b2-f011-bbd3-7ced8d330952"
-            },
-            {
-              "Name": "Ancuta Branza",
-              "Role": "Director",
-              "uuid": "91ce1a8f-e4b2-f011-bbd3-7ced8d330952"
-            }
-          ],
-          "Status": "Registered",
-          "SummaryOfActivities": null,
-          "TotalExpensesEmployee": null,
-          "TotalExpensesGrantsAndDonationsInAustralia": null,
-          "TotalExpensesGrantsAndDonationsOutsideAustralia": null,
-          "TotalExpensesInterest": null,
-          "TotalExpensesOther": null,
-          "TotalGrossIncomeDonationsAndRequests": null,
-          "TotalGrossIncomeGoodsOrServices": null,
-          "TotalGrossIncomeGovernmentGrants": null,
-          "TotalGrossIncomeInvestments": null,
-          "TotalGrossIncomeOtherRevenues": null,
-          "TransparencyRegisterUrl": null,
-          "Website": "https://rolda.org.au/",
-          "__normalized": true,
-          "type": "charity",
-          "uuid": "8e571924-2769-f011-bec3-7c1e522b1d9f"
-        },
-        "type": "charity",
-        "uuid": "8e571924-2769-f011-bec3-7c1e522b1d9f"
-      },
-      "canonical_field_mappings": {
-        "data.OtherNames": "operating_names",
-        "data.AddressStateOrProvince": "principal_location"
-      },
-      "evidence_ids": []
-    }
-  ],
-  "financial_records": [],
-  "financial_metrics": [],
-  "fundraising_expenditure": null,
-  "funding_sources": [],
-  "fundraising_methods": [],
-  "classifications": [
-    {
-      "taxonomy_id": "acnc-register",
-      "taxonomy_version": "2026-08-10",
-      "term_id": "purpose.animal_welfare",
-      "term_label": "animal welfare",
-      "assignment_method": "source_native",
-      "confidence": "high",
-      "evidence_ids": [
-        "ev:acnc:26687611356"
-      ]
-    },
-    {
-      "taxonomy_id": "acnc-register",
-      "taxonomy_version": "2026-08-10",
-      "term_id": "beneficiary.animals",
-      "term_label": "animals",
-      "assignment_method": "source_native",
-      "confidence": "high",
-      "evidence_ids": [
-        "ev:acnc:26687611356"
-      ]
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "cause.animal_welfare",
-      "term_label": "Animal welfare",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "activity.direct_service",
-      "term_label": "Direct service delivery",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "activity.advocacy",
-      "term_label": "Advocacy",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "activity.events_and_public_programming",
-      "term_label": "Events and public programming",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "approach.community_partnership",
-      "term_label": "Community partnership",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "approach.volunteer_enabled",
-      "term_label": "Volunteer-enabled delivery",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "participation.volunteering",
-      "term_label": "Volunteering",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "geography.australia",
-      "term_label": "Australia",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
+      "review_status": "not_required",
+      "conflicting_signals": []
     }
   ],
   "evidence": [
     {
       "evidence_id": "ev:acnc:26687611356",
-      "source_type": "regulatory",
-      "title": "ACNC Register extract",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": null,
-      "observed_at": "2026-08-10",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "title": "ACNC Register extract"
     },
     {
       "evidence_id": "ev:web:26687611356:2026-08-10",
-      "source_type": "organisation_self_report",
       "title": "Organisation website homepage",
-      "publisher": "ROLDA LTD",
-      "url": "https://rolda.org.au/",
-      "observed_at": "2026-08-10",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://rolda.org.au/"
     }
   ],
-  "embedding": {
-    "embedding_id": "cb_f1a207947b60442c97280736618ac5b8:entity:text-embedding-3-small",
-    "embedding_type": "entity",
-    "model_id": "text-embedding-3-small",
-    "model_version": "text-embedding-3-small",
-    "dimensions": 1536,
-    "source_text_hash": "209a858bbb84221929c874e6da0608cb128a1943074fc6fd88f5880e58e539ac",
-    "generated_at": "2026-08-10T13:53:24.457785Z",
-    "vector_ref": "embeddings.parquet#cb_f1a207947b60442c97280736618ac5b8"
+  "summary": {
+    "derivative_id": "der:rc4:cb_f1a207947b60442c97280736618ac5b8:summary",
+    "text": "ROLDA Ltd is an Australian-registered animal welfare organisation that raises funds in NSW and channels support to rescue work in Romania and other countries. It rescues and shelters dogs and cats from streets, puppy mills and disaster or conflict zones; provides food, shelter, urgent veterinary treatment and rehabilitation; evacuates animals from war and disaster areas; and rehomes animals in Europe or places them in foster care. ROLDA also buys and develops shelter land (including a cage-free sanctuary project), supports independent local rescue teams, and runs community education and early-intervention programmes that help vulnerable pet owners keep animals with their families."
   },
-  "synthesis": {
-    "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
-    "parameters": {
-      "max_output_tokens": 3000,
-      "structured_output": true,
-      "output_contract": "causebase-summary-v0.3-rc2"
-    },
-    "evidence_input_hash": "745a1d48eb09c4674e9b5d0fa3e7bdcdc18c5154bf64b438ff9f4aa0bff7cf9e",
-    "generated_at": "2026-08-12T14:13:02.910716Z",
-    "editorial_policy_version": "0.3-rc2"
-  },
-  "derivative_assessments": [
+  "activities": [],
+  "beneficiaries": [],
+  "descriptive_geography": [],
+  "navigation_geography": [],
+  "funding_sources": [],
+  "fundraising_methods": [],
+  "participation": [],
+  "opportunities": [],
+  "programs": [],
+  "relationships": [],
+  "classifications": [
     {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T14:13:02.910716Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-13T13:54:42.956606Z",
-      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
-      "input_hash": "745a1d48eb09c4674e9b5d0fa3e7bdcdc18c5154bf64b438ff9f4aa0bff7cf9e",
-      "disposition": "reused",
-      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
-      "affected_dimensions": [
-        "summary"
-      ]
+      "observation_id": "obs:rc4:cb_f1a207947b60442c97280736618ac5b8:classification:0",
+      "classification_id": "cls:rc4:cb_f1a207947b60442c97280736618ac5b8:0",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "purpose.animal_welfare",
+      "term_label": "animal welfare",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:26687611356"
+      ],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_f1a207947b60442c97280736618ac5b8:classification:1",
+      "classification_id": "cls:rc4:cb_f1a207947b60442c97280736618ac5b8:1",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "beneficiary.animals",
+      "term_label": "animals",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:26687611356"
+      ],
+      "confidence": "high",
+      "warnings": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-14-rc4-fundraising-projection-correction",
-  "card_schema_version": "0.4",
-  "editorial_policy_version": "0.4-rc4",
-  "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T13:54:42.956606Z"
+  "coverage": {
+    "registry_id": "capability-registry-0.5-initial",
+    "current": [
+      {
+        "capability": "regulatory.acnc_profile",
+        "status": "observed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:acnc:26687611356"
+        ]
+      },
+      {
+        "capability": "regulatory.ais",
+        "status": "not_available_from_source",
+        "assessed_at": "2026-08-13",
+        "source_record_ids": [
+          "src:acnc-public-profile:26687611356:8e571924-2769-f011-bec3-7c1e522b1d9f:cb_f1a207947b60442c97280736618ac5b8"
+        ],
+        "evidence_ids": []
+      },
+      {
+        "capability": "tax.dgr",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "web.website",
+        "status": "observed",
+        "assessed_at": "2026-08-13",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "report.annual_report",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "financial.report",
+        "status": "not_found_in_source",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "financial.statements",
+        "status": "not_found_in_source",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.activities",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.beneficiaries",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.geography",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "programs",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "participation",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "funding.sources",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.methods",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.expenditure",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "taxonomy.causebase",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "semantic.embedding",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      }
+    ]
+  },
+  "financial_reports": [],
+  "canonical_metrics": [],
+  "analytic_projections": [],
+  "derivatives": [
+    {
+      "derivative_id": "der:rc4:cb_f1a207947b60442c97280736618ac5b8:summary",
+      "kind": "summary",
+      "input_observation_ids": [],
+      "evidence_ids": [
+        "ev:web:26687611356:2026-08-10",
+        "ev:acnc:26687611356"
+      ],
+      "generated_under": {
+        "output_contract_version": "phase2b-rc4-accepted-rc2-summary-reuse",
+        "input_hash": "745a1d48eb09c4674e9b5d0fa3e7bdcdc18c5154bf64b438ff9f4aa0bff7cf9e",
+        "generated_at": "2026-08-12T14:13:02.910716Z"
+      },
+      "current_assessment": {
+        "assessed_at": "2026-08-13T13:54:42.956606Z",
+        "assessed_against_contract": "0.5",
+        "governing_input_hash": "745a1d48eb09c4674e9b5d0fa3e7bdcdc18c5154bf64b438ff9f4aa0bff7cf9e",
+        "disposition": "reused",
+        "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs."
+      }
+    }
+  ],
+  "legacy_unbound": {
+    "origin_release": "rc4-2026-08-14",
+    "origin_card_sha256": "23aaa807c3daec71dcb7ee81eaab8ef34a17fb8552323c0762c796fc3eb25d2d",
+    "activities": [
+      {
+        "value": "Rescue dogs and cats from streets, puppy mills and disaster/conflict zones",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Provide shelter, food, warmth and urgent veterinary treatment",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Rehabilitate animals and place them in foster care or rehome in Europe",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Evacuate animals from conflict zones and disaster sites",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Buy and develop land and shelter facilities (e.g. renovations near Gala\u0163i, Little Haven sanctuary project)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Provide community education programmes about humane treatment and responsible ownership",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Provide support (food and medical assistance) to vulnerable pet owners to prevent abandonment",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Support independent local rescue teams ('ROLDA Heroes')",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "beneficiaries": [
+      {
+        "value": "Dogs and cats rescued from streets, puppy mills and disaster/conflict zones",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Vulnerable pet owners and disadvantaged community members who receive food or medical assistance for pets",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "descriptive_geography": [
+      {
+        "value": "NSW, Australia",
+        "source_role": "legacy_source_qualifier",
+        "provenance_note": "organisation registration and Australian fundraising",
+        "evidence_ids": []
+      },
+      {
+        "value": "Romania (Galati and local shelters)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Ukraine (evacuations, treatment and support in conflict areas)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Venezuela (emergency aid after earthquake)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Bethlehem, Palestine (support for a local shelter)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Europe (rehoming of dogs in Europe)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Middle East (emergency aid described)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "classifications": [
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "cause.animal_welfare",
+        "term_label": "Animal welfare",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "activity.direct_service",
+        "term_label": "Direct service delivery",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "activity.advocacy",
+        "term_label": "Advocacy",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "activity.events_and_public_programming",
+        "term_label": "Events and public programming",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "approach.community_partnership",
+        "term_label": "Community partnership",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "approach.volunteer_enabled",
+        "term_label": "Volunteer-enabled delivery",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "participation.volunteering",
+        "term_label": "Volunteering",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "geography.australia",
+        "term_label": "Australia",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      }
+    ]
+  }
 }

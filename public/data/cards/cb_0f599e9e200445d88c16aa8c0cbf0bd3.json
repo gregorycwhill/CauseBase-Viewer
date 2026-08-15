@@ -1,1382 +1,436 @@
 {
   "causebase_id": "cb_0f599e9e200445d88c16aa8c0cbf0bd3",
+  "contract_version": "0.5",
   "subject_kind": "unknown",
-  "external_identifiers": [
-    {
-      "scheme": "abn",
-      "value": "17527786900",
-      "source_evidence_id": "ev:acnc:17527786900"
-    }
+  "identity": {
+    "legal_name": "CAMPBELLTOWN COMMUNITY CHILDREN'S CENTRE INC",
+    "display_name": "CAMPBELLTOWN COMMUNITY CHILDREN'S CENTRE INC",
+    "operating_names": [],
+    "former_names": [],
+    "entity_status": "registered",
+    "website": "https://www.campbelltownccc.com.au/",
+    "external_identifiers": [
+      {
+        "scheme": "abn",
+        "value": "17527786900",
+        "evidence_ids": [
+          "ev:acnc:17527786900"
+        ]
+      }
+    ],
+    "registrations": [
+      {
+        "regulator": "ACNC",
+        "status": "registered",
+        "evidence_ids": [
+          "ev:acnc:17527786900"
+        ]
+      }
+    ],
+    "tax_statuses": []
+  },
+  "release": {
+    "release_id": "v0.5.0-2026-08-15",
+    "dataset_version": "0.5.0-2026-08-15",
+    "contract_version": "0.5",
+    "based_on_release": "rc4-2026-08-14",
+    "generated_at": "2026-08-15T00:00:00Z"
+  },
+  "source_record_refs": [
+    "src:acnc-public-profile:17527786900:f49ec95b-3aaf-e811-a95e-000d3ad24c60:cb_0f599e9e200445d88c16aa8c0cbf0bd3",
+    "src:acnc-ais-detail:17527786900:3aa9dc62-aec9-f011-bbd3-6045bde73edb:cb_0f599e9e200445d88c16aa8c0cbf0bd3"
   ],
-  "registrations": [
-    {
-      "regulator": "ACNC",
-      "registration_id": null,
-      "status": "registered",
-      "evidence_ids": [
-        "ev:acnc:17527786900"
-      ]
-    }
-  ],
-  "tax_statuses": [],
-  "relationships": [],
-  "source_resolutions": [
+  "source_bindings": [
     {
       "source_record_id": "src:acnc-register:8ec40fa4-0450-50b3-ac89-1f07d46b686d",
       "resolution_status": "resolved",
       "resolution_basis": "automated authoritative ACNC promotion under acnc-authoritative-v1",
       "confidence": "high",
-      "supporting_signals": [
-        "ABN:17527786900",
-        "ACNC Register"
-      ],
-      "conflicting_signals": [],
-      "review_status": "not_required"
-    }
-  ],
-  "legal_name": "CAMPBELLTOWN COMMUNITY CHILDREN'S CENTRE INC",
-  "display_name": "CAMPBELLTOWN COMMUNITY CHILDREN'S CENTRE INC",
-  "entity_status": "registered",
-  "canonical_url": "https://gregorycwhill.github.io/CauseBase-Viewer/#cb_0f599e9e200445d88c16aa8c0cbf0bd3",
-  "acnc_profile_url": "https://www.acnc.gov.au/charity/charities/f49ec95b-3aaf-e811-a95e-000d3ad24c60/profile",
-  "acnc_ais_url": "https://www.acnc.gov.au/charity/charities/f49ec95b-3aaf-e811-a95e-000d3ad24c60/documents/3aa9dc62-aec9-f011-bbd3-6045bde73edb",
-  "operating_names": [],
-  "former_names": [],
-  "principal_location": "SA, Australia",
-  "coverage": [
-    {
-      "capability": "regulatory",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:acnc:17527786900"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "annual_report",
-      "status": "not_yet_processed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "fundraising_expenditure",
-      "status": "not_available_from_source",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": "No direct or defensible derived fundraising expenditure was found in selected Phase 2A evidence."
-    },
-    {
-      "capability": "financials",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:ais:17527786900:2023"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "latest_acnc_ais",
-      "status": "observed",
-      "source_record_id": "src:acnc-ais-detail:17527786900:3aa9dc62-aec9-f011-bbd3-6045bde73edb:cb_0f599e9e200445d88c16aa8c0cbf0bd3",
-      "evidence_ids": [
-        "ev:acnc:ais:17527786900:3aa9dc62-aec9-f011-bbd3-6045bde73edb"
-      ],
-      "observed_at": "2025-11-25",
-      "freshness_note": "Latest submitted AIS detail acquired from the public ACNC entity endpoint."
-    },
-    {
-      "capability": "website",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-13",
-      "freshness_note": "Public website locator acquired from the ACNC profile."
-    }
-  ],
-  "enrichment_level": "enriched",
-  "website": "https://www.campbelltownccc.com.au/",
-  "geography": [
-    "South Australia (SA)"
-  ],
-  "geography_observations": [
-    {
-      "value": "South Australia (SA)",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "navigation_geography": [],
-  "causebase_summary": "Campbelltown Community Children's Centre Inc is registered as a community children's centre that operates in South Australia (Campbelltown). The organisation serves children, families and the local community and is identifiable by its legal name and website. It is registered with the Australian Charities and Not‑for‑profits Commission and lodged an Annual Information Statement covering 01/07/2022–30/06/2023. CauseBase does not have sufficient descriptive evidence in this release to independently identify specific programs, daily service models, client age ranges, participation modes (for example, volunteering or working bees) or other operational details beyond the organisation’s name, location and regulatory filings.",
-  "summary_evidence_ids": [
-    "ev:web:17527786900:2026-08-10",
-    "ev:acnc:17527786900",
-    "ev:ais:17527786900:2023"
-  ],
-  "organisation_self_description": null,
-  "activities": [
-    "Community children's centre"
-  ],
-  "activity_observations": [
-    {
-      "value": "Community children's centre",
-      "source_role": "legacy_source_qualifier",
-      "provenance_note": "Restructured identity evidence into a clean activity label.",
-      "evidence_ids": []
-    }
-  ],
-  "beneficiaries": [
-    "Children",
-    "Families",
-    "Local community in South Australia"
-  ],
-  "beneficiary_observations": [
-    {
-      "value": "Children",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Families",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Local community in South Australia",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "participation_modes": [],
-  "participation_observations": [],
-  "opportunities": [],
-  "programs": [
-    {
-      "program_id": "prg:acnc:17527786900:60a9dc62-aec9-f011-bbd3-6045bde73edb",
-      "name": "Campbelltown Community Children's Centre",
-      "description": "Child care",
-      "beneficiaries": [
-        "Early childhood - aged under 6"
-      ],
-      "geography": [
-        "Newton South Australia, Australia"
-      ],
-      "status": "current",
-      "reporting_period": "2025",
-      "source_url": "https://www.acnc.gov.au/charity/charities/f49ec95b-3aaf-e811-a95e-000d3ad24c60/documents/3aa9dc62-aec9-f011-bbd3-6045bde73edb",
-      "evidence_ids": [
-        "ev:acnc:ais:17527786900:3aa9dc62-aec9-f011-bbd3-6045bde73edb"
-      ]
-    }
-  ],
-  "source_native_records": [
-    {
-      "source_record_id": "src:acnc-public-profile:17527786900:f49ec95b-3aaf-e811-a95e-000d3ad24c60:cb_0f599e9e200445d88c16aa8c0cbf0bd3",
-      "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-14-public-api",
-      "source_url": "https://www.acnc.gov.au/charity/charities/f49ec95b-3aaf-e811-a95e-000d3ad24c60/profile",
-      "retrieved_at": "2026-08-13T13:54:42.956606Z",
-      "observed_at": "2025-11-25",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "uuid": "f49ec95b-3aaf-e811-a95e-000d3ad24c60",
-        "abn": "17527786900"
-      },
-      "source_payload": {
-        "data": {
-          "AFSAddressPostalCode": "5074",
-          "AFSEmail": "administrator@campbelltownccc.com.au",
-          "Abn": "17527786900",
-          "AddressCountry": "Australia",
-          "AddressLine1": "163a Montacute Rd",
-          "AddressLine2": null,
-          "AddressLine3": null,
-          "AddressPostalCode": "5074",
-          "AddressStateOrProvince": "SA",
-          "AddressSuburb": "Newton",
-          "AddressSuburbStatePostcode": "Newton SA 5074",
-          "AnnualReports": [
-            {
-              "AISId": null,
-              "DateReceived": "2021-09-21T01:34:58.0000000Z",
-              "DocumentUuid": "433cef5b-c80e-ec11-b6e6-00224810d44c",
-              "DueDate": "2020-01-31T00:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2019",
-              "type": "Financial Report 2019",
-              "uuid": "591038c2-2025-e911-a976-000d3ad02a61"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2020-01-31T00:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2019",
-              "type": "Annual Information Statement 2019",
-              "uuid": "a51038c2-2025-e911-a976-000d3ad02a61"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2021-09-23T04:23:15.0000000Z",
-              "DocumentUuid": "b11803f2-251c-ec11-b6e7-002248104a7f",
-              "DueDate": "2021-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2020",
-              "type": "Financial Report 2020",
-              "uuid": "c61038c2-2025-e911-a976-000d3ad02a61"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2021-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2020",
-              "type": "Annual Information Statement 2020",
-              "uuid": "e11038c2-2025-e911-a976-000d3ad02a61"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2023-11-01T01:15:20.0000000Z",
-              "DocumentUuid": "46cd4515-5478-ee11-8179-002248110683",
-              "DueDate": "2024-01-31T00:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2023",
-              "type": "Financial Report 2023",
-              "uuid": "610adcd7-e889-ed11-81ad-000d3ad1400f"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2026-12-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Not yet submitted",
-              "Year": "2026",
-              "type": "Annual Information Statement 2026",
-              "uuid": "bfce137a-d7df-ef11-a731-000d3ad18bb1"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2026-12-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Pending",
-              "Year": "2026",
-              "type": "Financial Report 2026",
-              "uuid": "c5ce137a-d7df-ef11-a731-000d3ad18bb1"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2014-03-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2013",
-              "type": "Annual Information Statement 2013",
-              "uuid": "95aa2392-3bc8-e811-a961-000d3ad24282"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2021-09-23T00:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2015-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2014",
-              "type": "Annual Information Statement 2014",
-              "uuid": "aaaa2392-3bc8-e811-a961-000d3ad24282"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2021-09-23T00:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2016-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2015",
-              "type": "Annual Information Statement 2015",
-              "uuid": "c1aa2392-3bc8-e811-a961-000d3ad24282"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2017-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2016",
-              "type": "Annual Information Statement 2016",
-              "uuid": "d7aa2392-3bc8-e811-a961-000d3ad24282"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2018-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2017",
-              "type": "Annual Information Statement 2017",
-              "uuid": "e9aa2392-3bc8-e811-a961-000d3ad24282"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2019-04-06T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2018",
-              "type": "Annual Information Statement 2018",
-              "uuid": "f6aa2392-3bc8-e811-a961-000d3ad24282"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2021-09-23T04:21:18.0000000Z",
-              "DocumentUuid": "9ec8d8a8-251c-ec11-b6e7-002248104a7f",
-              "DueDate": "2017-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2016",
-              "type": "Financial Report 2016",
-              "uuid": "6e4df9ab-40c8-e811-a961-000d3ad24282"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2021-09-23T04:22:34.0000000Z",
-              "DocumentUuid": "6b7042d3-251c-ec11-b6e7-002248104a7f",
-              "DueDate": "2018-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2017",
-              "type": "Financial Report 2017",
-              "uuid": "7b4df9ab-40c8-e811-a961-000d3ad24282"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2021-09-23T04:19:38.0000000Z",
-              "DocumentUuid": "37b4886c-251c-ec11-b6e7-002248104a7f",
-              "DueDate": "2014-03-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2013",
-              "type": "Financial Report 2013",
-              "uuid": "8f4df9ab-40c8-e811-a961-000d3ad24282"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2021-09-21T01:37:44.0000000Z",
-              "DocumentUuid": "743cef5b-c80e-ec11-b6e6-00224810d44c",
-              "DueDate": "2019-04-06T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2018",
-              "type": "Financial Report 2018",
-              "uuid": "a04df9ab-40c8-e811-a961-000d3ad24282"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2021-09-21T01:34:02.0000000Z",
-              "DocumentUuid": "573cef5b-c80e-ec11-b6e6-00224810d44c",
-              "DueDate": "2015-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2014",
-              "type": "Financial Report 2014",
-              "uuid": "b14df9ab-40c8-e811-a961-000d3ad24282"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2021-09-23T04:20:26.0000000Z",
-              "DocumentUuid": "1de4b78a-251c-ec11-b6e7-002248104a7f",
-              "DueDate": "2016-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2015",
-              "type": "Financial Report 2015",
-              "uuid": "ce4df9ab-40c8-e811-a961-000d3ad24282"
-            },
-            {
-              "AISId": "9cd8421b-5478-ee11-8179-002248110683",
-              "DateReceived": "2023-11-01T01:15:24.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2024-01-31T00:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2023",
-              "type": "Annual Information Statement 2023",
-              "uuid": "ae5f62cd-e889-ed11-81ac-00224892bbf7"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2023-01-25T06:00:29.0000000Z",
-              "DocumentUuid": "2931a489-759c-ed11-aad1-002248933d22",
-              "DueDate": "2023-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2022",
-              "type": "Financial Report 2022",
-              "uuid": "d6ef59a5-d04d-ed11-bba3-00224893362a"
-            },
-            {
-              "AISId": "3aa9dc62-aec9-f011-bbd3-6045bde73edb",
-              "DateReceived": "2025-11-25T03:25:33.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2026-01-31T00:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2025",
-              "type": "Annual Information Statement 2025",
-              "uuid": "2ff48354-98c0-ee11-907a-00224893b8c7"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2025-11-25T03:25:27.0000000Z",
-              "DocumentUuid": "ac08e756-aec9-f011-bbd3-6045bde679a9",
-              "DueDate": "2026-01-31T00:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2025",
-              "type": "Financial Report 2025",
-              "uuid": "60f48354-98c0-ee11-907a-00224893b8c7"
-            },
-            {
-              "AISId": "58631dc2-a77b-ef11-ac20-6045bdc2d865",
-              "DateReceived": "2024-09-26T01:36:40.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2025-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2024",
-              "type": "Annual Information Statement 2024",
-              "uuid": "bf593e3f-67a1-ed11-aad1-00224893b8c7"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2024-09-26T01:35:45.0000000Z",
-              "DocumentUuid": "0bd51f91-a77b-ef11-ac20-6045bdc2d865",
-              "DueDate": "2025-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2024",
-              "type": "Financial Report 2024",
-              "uuid": "c9593e3f-67a1-ed11-aad1-00224893b8c7"
-            },
-            {
-              "AISId": "9bffc294-759c-ed11-aad1-000d3acc4456",
-              "DateReceived": "2023-01-25T06:00:39.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2023-01-31T00:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2022",
-              "type": "Annual Information Statement 2022",
-              "uuid": "1aaf756e-26f8-ec11-82e7-002248944157"
-            },
-            {
-              "AISId": "e17cca5e-6906-ed11-82e5-002248944f2b",
-              "DateReceived": "2022-07-18T07:15:26.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2022-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2021",
-              "type": "Annual Information Statement 2021",
-              "uuid": "e4490106-dad4-ec11-a7b5-002248944339"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2022-07-18T07:15:17.0000000Z",
-              "DocumentUuid": "a881d757-6906-ed11-82e5-002248944157",
-              "DueDate": "2022-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2021",
-              "type": "Financial Report 2021",
-              "uuid": "3bfbb212-dad4-ec11-a7b5-002248944339"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2027-12-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Not yet submitted",
-              "Year": "2027",
-              "type": "Annual Information Statement 2027",
-              "uuid": "db1f3773-06ff-f011-8407-6045bdc4655a"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2027-12-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Pending",
-              "Year": "2027",
-              "type": "Financial Report 2027",
-              "uuid": "e91f3773-06ff-f011-8407-6045bdc4655a"
-            }
-          ],
-          "Beneficiaries": [
-            {
-              "Description": null,
-              "Name": "Early childhood - aged under 6",
-              "uuid": "75a9dc62-aec9-f011-bbd3-6045bde73edb"
-            }
-          ],
-          "CharitySize": "Large",
-          "CharitySubtypeHistory": [
-            {
-              "EndDate": null,
-              "Purpose": "Advancing social or public welfare",
-              "StartDate": "2012-12-03T00:00:00.0000000Z",
-              "uuid": "c07e9043-a820-ec11-b6e6-000d3a6b506d"
-            },
-            {
-              "EndDate": null,
-              "Purpose": "Advancing education",
-              "StartDate": "2012-12-02T13:00:00.0000000Z",
-              "uuid": "a6168d68-c80e-ec11-b6e5-00224810d1a7"
-            }
-          ],
-          "CharityVersion": "115",
-          "ChildMemberEndDate": null,
-          "ChildMemberStartDate": null,
-          "ChooseToProvideAis": null,
-          "Countries": [
-            {
-              "Name": "Australia",
-              "uuid": "f57b5602-9a4d-e811-a951-000d3ad06f2d"
-            }
-          ],
-          "DateEstablished": "1977-02-16T13:00:00.0000000Z",
-          "Documents": [
-            {
-              "Date": "2021-09-06T00:00:00.0000000",
-              "Title": "05.07.00 F Constitution for CCCC_2016.doc",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/f49ec95b-3aaf-e811-a95e-000d3ad24c60-4098ed11-5526-4274-bd73-f740c9542db1-Governing%20Document-173cef5b-c80e-ec11-b6e6-00224810d44c-05.07.00_F_Constitution_for_CCCC_2016.doc",
-              "Year": null,
-              "type": "Governing Document",
-              "uuid": "173cef5b-c80e-ec11-b6e6-00224810d44c"
-            },
-            {
-              "Date": "2015-04-28T00:00:00.0000000",
-              "Title": "Auditors report 2014.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/f49ec95b-3aaf-e811-a95e-000d3ad24c60-4098ed11-5526-4274-bd73-f740c9542db1-Annual%20Report-17fce249-50b0-e811-a95e-000d3ad24c60-Auditors_report_2014.pdf",
-              "Year": null,
-              "type": "Annual Report",
-              "uuid": "17fce249-50b0-e811-a95e-000d3ad24c60"
-            },
-            {
-              "Date": "2021-09-23T00:00:00.0000000",
-              "Title": "Financial 2012",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/f49ec95b-3aaf-e811-a95e-000d3ad24c60-4098ed11-5526-4274-bd73-f740c9542db1-Financial%20Report-9dbbd03b-251c-ec11-b6e7-002248104a7f-Audited_reports_2012.pdf",
-              "Year": "2012",
-              "type": "Financial Report",
-              "uuid": "9dbbd03b-251c-ec11-b6e7-002248104a7f"
-            },
-            {
-              "Date": "2021-09-23T00:00:00.0000000",
-              "Title": "Financials 2013",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/f49ec95b-3aaf-e811-a95e-000d3ad24c60-4098ed11-5526-4274-bd73-f740c9542db1-Financial%20Report-37b4886c-251c-ec11-b6e7-002248104a7f-Audited_reports_2013.pdf",
-              "Year": "2013",
-              "type": "Financial Report",
-              "uuid": "37b4886c-251c-ec11-b6e7-002248104a7f"
-            },
-            {
-              "Date": "2021-09-23T00:00:00.0000000",
-              "Title": "Financials 2015",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/f49ec95b-3aaf-e811-a95e-000d3ad24c60-4098ed11-5526-4274-bd73-f740c9542db1-Financial%20Report-1de4b78a-251c-ec11-b6e7-002248104a7f-Audited_reports_2015.pdf",
-              "Year": "2015",
-              "type": "Financial Report",
-              "uuid": "1de4b78a-251c-ec11-b6e7-002248104a7f"
-            },
-            {
-              "Date": "2021-09-23T00:00:00.0000000",
-              "Title": "Financials 2016",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/f49ec95b-3aaf-e811-a95e-000d3ad24c60-4098ed11-5526-4274-bd73-f740c9542db1-Financial%20Report-9ec8d8a8-251c-ec11-b6e7-002248104a7f-Audited_reports_2016.pdf",
-              "Year": "2016",
-              "type": "Financial Report",
-              "uuid": "9ec8d8a8-251c-ec11-b6e7-002248104a7f"
-            },
-            {
-              "Date": "2021-09-23T00:00:00.0000000",
-              "Title": "Financials 2017",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/f49ec95b-3aaf-e811-a95e-000d3ad24c60-4098ed11-5526-4274-bd73-f740c9542db1-Financial%20Report-6b7042d3-251c-ec11-b6e7-002248104a7f-Audited_reports_2017.pdf",
-              "Year": "2017",
-              "type": "Financial Report",
-              "uuid": "6b7042d3-251c-ec11-b6e7-002248104a7f"
-            },
-            {
-              "Date": "2021-09-23T00:00:00.0000000",
-              "Title": "Financials 2020",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/f49ec95b-3aaf-e811-a95e-000d3ad24c60-4098ed11-5526-4274-bd73-f740c9542db1-Financial%20Report-b11803f2-251c-ec11-b6e7-002248104a7f-Audited_reports_2020.pdf",
-              "Year": "2020",
-              "type": "Financial Report",
-              "uuid": "b11803f2-251c-ec11-b6e7-002248104a7f"
-            },
-            {
-              "Date": "2022-07-18T00:00:00.0000000",
-              "Title": "Audited reports 2021.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/f49ec95b-3aaf-e811-a95e-000d3ad24c60-4098ed11-5526-4274-bd73-f740c9542db1-Financial%20Report-a881d757-6906-ed11-82e5-002248944157-Audited_reports_2021.pdf",
-              "Year": "2021",
-              "type": "Financial Report",
-              "uuid": "a881d757-6906-ed11-82e5-002248944157"
-            },
-            {
-              "Date": "2021-09-06T00:00:00.0000000",
-              "Title": "Financial Report 2019",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/f49ec95b-3aaf-e811-a95e-000d3ad24c60-4098ed11-5526-4274-bd73-f740c9542db1-Financial%20Report-433cef5b-c80e-ec11-b6e6-00224810d44c-Financial_Report.pdf",
-              "Year": "2019",
-              "type": "Financial Report",
-              "uuid": "433cef5b-c80e-ec11-b6e6-00224810d44c"
-            },
-            {
-              "Date": "2021-09-06T00:00:00.0000000",
-              "Title": "Auditors report 2014.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/f49ec95b-3aaf-e811-a95e-000d3ad24c60-4098ed11-5526-4274-bd73-f740c9542db1-Financial%20Report-573cef5b-c80e-ec11-b6e6-00224810d44c-Auditors_report_2014.pdf",
-              "Year": "2014",
-              "type": "Financial Report",
-              "uuid": "573cef5b-c80e-ec11-b6e6-00224810d44c"
-            },
-            {
-              "Date": "2021-09-06T00:00:00.0000000",
-              "Title": "Audited reports 2018",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/f49ec95b-3aaf-e811-a95e-000d3ad24c60-4098ed11-5526-4274-bd73-f740c9542db1-Financial%20Report-743cef5b-c80e-ec11-b6e6-00224810d44c-Audited_reports_2017-18.pdf",
-              "Year": "2018",
-              "type": "Financial Report",
-              "uuid": "743cef5b-c80e-ec11-b6e6-00224810d44c"
-            },
-            {
-              "Date": "2021-09-06T00:00:00.0000000",
-              "Title": "Audited accounts 2008.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/f49ec95b-3aaf-e811-a95e-000d3ad24c60-4098ed11-5526-4274-bd73-f740c9542db1-Financial%20Report-8d3cef5b-c80e-ec11-b6e6-00224810d44c-Audited_accounts_2008.pdf",
-              "Year": "2008",
-              "type": "Financial Report",
-              "uuid": "8d3cef5b-c80e-ec11-b6e6-00224810d44c"
-            },
-            {
-              "Date": "2023-11-01T00:00:00.0000000",
-              "Title": "Audit reports 2022-2023.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/f49ec95b-3aaf-e811-a95e-000d3ad24c60-4098ed11-5526-4274-bd73-f740c9542db1-Financial%20Report-46cd4515-5478-ee11-8179-002248110683-Audit_reports_2022-2023.pdf",
-              "Year": "2023",
-              "type": "Financial Report",
-              "uuid": "46cd4515-5478-ee11-8179-002248110683"
-            },
-            {
-              "Date": "2023-01-25T00:00:00.0000000",
-              "Title": "Audit reports 2022-2023.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/f49ec95b-3aaf-e811-a95e-000d3ad24c60-4098ed11-5526-4274-bd73-f740c9542db1-Financial%20Report-2931a489-759c-ed11-aad1-002248933d22-Audit_reports_2022-2023.pdf",
-              "Year": "2022",
-              "type": "Financial Report",
-              "uuid": "2931a489-759c-ed11-aad1-002248933d22"
-            },
-            {
-              "Date": "2024-09-26T00:00:00.0000000",
-              "Title": "Financial Report 2024.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/f49ec95b-3aaf-e811-a95e-000d3ad24c60-4098ed11-5526-4274-bd73-f740c9542db1-Financial%20Report-0bd51f91-a77b-ef11-ac20-6045bdc2d865-Financial_Report_2024.pdf",
-              "Year": "2024",
-              "type": "Financial Report",
-              "uuid": "0bd51f91-a77b-ef11-ac20-6045bdc2d865"
-            },
-            {
-              "Date": "2025-11-25T00:00:00.0000000",
-              "Title": "Financial Auditor Reports 2024-2025.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/f49ec95b-3aaf-e811-a95e-000d3ad24c60-4098ed11-5526-4274-bd73-f740c9542db1-Financial%20Report-ac08e756-aec9-f011-bbd3-6045bde679a9-Financial_Auditor_Reports_2024-2025.pdf",
-              "Year": "2025",
-              "type": "Financial Report",
-              "uuid": "ac08e756-aec9-f011-bbd3-6045bde679a9"
-            }
-          ],
-          "Email": "accounts@campbelltownccc.com.au",
-          "EnforcementOutcomes": [],
-          "FinancialYearEnd": "30/06",
-          "GovernmentAgencies": [
-            {
-              "Name": "SA - Incorporated Association",
-              "ReferenceNumber": "A5288",
-              "uuid": "54a9dc62-aec9-f011-bbd3-6045bde73edb"
-            }
-          ],
-          "GroupHeadFlag": false,
-          "LastReported": "2025-11-25T03:25:33.0000000Z",
-          "Name": "CAMPBELLTOWN COMMUNITY CHILDREN'S CENTRE INC",
-          "NextReportDue": "2026-12-31T12:30:00.0000000Z",
-          "OperatingInStates": [
-            {
-              "Name": "South Australia",
-              "uuid": "dd2782ae-455e-e811-a95c-000d3ad1c715"
-            }
-          ],
-          "OtherDetails": null,
-          "OtherNames": [],
-          "ParentAccountAbn": null,
-          "ParentAccountId": null,
-          "Phone": "08 8336 2100",
-          "Programs": [
-            {
-              "AisUuid": "3aa9dc62-aec9-f011-bbd3-6045bde73edb",
-              "Name": "Campbelltown Community Children's Centre",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Early childhood - aged under 6"
-              ],
-              "ProgramClassie": [
-                {
-                  "classie_id": "500",
-                  "label": "Child care",
-                  "parent_id": "498",
-                  "selected": true
-                },
-                {
-                  "classie_id": "498",
-                  "label": "Child welfare",
-                  "parent_id": "496",
-                  "selected": false
-                },
-                {
-                  "classie_id": "496",
-                  "label": "Family services",
-                  "parent_id": "485",
-                  "selected": false
-                },
-                {
-                  "classie_id": "485",
-                  "label": "Human services",
-                  "parent_id": null,
-                  "selected": false
-                }
-              ],
-              "ProgramClassification": "Child care",
-              "ProgramClassificationID": "500",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "Newton South Australia, Australia",
-                  "FormattedAddress": "Newton SA 5074, Australia",
-                  "Marker": {
-                    "Latitude": -34.8813076,
-                    "Longitude": 138.6788286
-                  },
-                  "Name": "Newton",
-                  "uuid": "6aa9dc62-aec9-f011-bbd3-6045bde73edb"
-                }
-              ],
-              "ProgramWeblink": null,
-              "uuid": "60a9dc62-aec9-f011-bbd3-6045bde73edb"
-            }
-          ],
-          "ReferendumReturnsUrl": null,
-          "RegistrationStatusHistory": [
-            {
-              "EffectiveDate": "2012-12-03T00:00:00.0000000Z",
-              "Status": "Registered",
-              "TransactionDate": "2021-09-28T22:15:13.0000000Z",
-              "uuid": "075f468c-a920-ec11-b6e6-000d3acbb7bf"
-            }
-          ],
-          "RelatedPartyTransactions": null,
-          "RelevantTransactions": null,
-          "ReportingLate": "2027-06-30T12:30:00.0000000Z",
-          "ResponsiblePersons": [
-            {
-              "Name": "Sharmane Leonard",
-              "Role": "Director",
-              "uuid": "835e856e-c80e-ec11-b6e5-00224810d1a7"
-            }
-          ],
-          "Status": "Registered",
-          "SummaryOfActivities": "We provided education and care services to our local community, supporting those families who needs urgent care for them to return back in the workforce.",
-          "TotalExpensesEmployee": "2802229",
-          "TotalExpensesGrantsAndDonationsInAustralia": "0",
-          "TotalExpensesGrantsAndDonationsOutsideAustralia": "0",
-          "TotalExpensesInterest": "0",
-          "TotalExpensesOther": "396650",
-          "TotalGrossIncomeDonationsAndRequests": "0",
-          "TotalGrossIncomeGoodsOrServices": "1070765",
-          "TotalGrossIncomeGovernmentGrants": "2167439",
-          "TotalGrossIncomeInvestments": "56521",
-          "TotalGrossIncomeOtherRevenues": "22629",
-          "TransparencyRegisterUrl": null,
-          "Website": "https://www.campbelltownccc.com.au/",
-          "__normalized": true,
-          "type": "charity",
-          "uuid": "f49ec95b-3aaf-e811-a95e-000d3ad24c60"
-        },
-        "type": "charity",
-        "uuid": "f49ec95b-3aaf-e811-a95e-000d3ad24c60"
-      },
-      "canonical_field_mappings": {
-        "data.OtherNames": "operating_names",
-        "data.AddressStateOrProvince": "principal_location"
-      },
-      "evidence_ids": []
-    },
-    {
-      "source_record_id": "src:acnc-ais-detail:17527786900:3aa9dc62-aec9-f011-bbd3-6045bde73edb:cb_0f599e9e200445d88c16aa8c0cbf0bd3",
-      "source_family": "acnc-ais-detail",
-      "dataset_version": "2026-08-14-public-api",
-      "source_url": "https://www.acnc.gov.au/charity/charities/f49ec95b-3aaf-e811-a95e-000d3ad24c60/documents/3aa9dc62-aec9-f011-bbd3-6045bde73edb",
-      "retrieved_at": "2026-08-13T13:54:42.956606Z",
-      "observed_at": "2025-11-25",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "abn": "17527786900",
-        "ais_uuid": "3aa9dc62-aec9-f011-bbd3-6045bde73edb",
-        "year": "2025",
-        "date_received": "2025-11-25T03:25:33.0000000Z"
-      },
-      "source_payload": {
-        "data": {
-          "Abn": "17527786900",
-          "ActivityAdvocacyNCivic": false,
-          "ActivityAgedCare": false,
-          "ActivityAnimalProtection": false,
-          "ActivityCultureAndArt": false,
-          "ActivityEconomicSocialCommunity": false,
-          "ActivityEmergencyNRelief": false,
-          "ActivityEmploymentNTraining": false,
-          "ActivityEnvironmental": false,
-          "ActivityGrantMaking": false,
-          "ActivityHealthRehabilitation": false,
-          "ActivityHigherEducation": false,
-          "ActivityHousing": false,
-          "ActivityIncomeSupportNMaintenance": false,
-          "ActivityInternational": false,
-          "ActivityInternationalDescription": null,
-          "ActivityInternationalOther": false,
-          "ActivityInternationalOtherDescription": null,
-          "ActivityLawNLegalServices": false,
-          "ActivityMain": null,
-          "ActivityMentalHealthCrisisIntervention": false,
-          "ActivityNdisSupported": null,
-          "ActivityNdisSupportedNext": null,
-          "ActivityOperating": true,
-          "ActivityOperatingOverseas": false,
-          "ActivityOther": false,
-          "ActivityOtherDescription": null,
-          "ActivityOtherEducation": false,
-          "ActivityOtherHealthServices": false,
-          "ActivityPersuitPurposesDescription": "We provided education and care services to our local community, supporting those families who needs urgent care for them to return back in the workforce.",
-          "ActivityPhilanthropicPromotion": false,
-          "ActivityPolitical": false,
-          "ActivityPrimarySecondaryEducation": false,
-          "ActivityPurposeChange": null,
-          "ActivityPurposeChangeDescription": null,
-          "ActivityRecreationSocialClub": false,
-          "ActivityReligious": false,
-          "ActivityResearch": false,
-          "ActivitySocialServices": false,
-          "ActivitySports": false,
-          "ActivityTransferringFundsGoods": false,
-          "AdvancementOfEducation": false,
-          "AdvancementOfReligion": false,
-          "AssetsandLiabilitiesDescription": null,
-          "BasicReligiousCharity": false,
-          "BeneficiaryAboriginalTorres": false,
-          "BeneficiaryAdults": false,
-          "BeneficiaryAllAges": false,
-          "BeneficiaryChildren": false,
-          "BeneficiaryChronicIllness": false,
-          "BeneficiaryCrimeVictims": false,
-          "BeneficiaryDisasterVictims": false,
-          "BeneficiaryEarlyChildhood": false,
-          "BeneficiaryEthnic": false,
-          "BeneficiaryFamilies": false,
-          "BeneficiaryFinanciallyDisadvantaged": false,
-          "BeneficiaryGeneral": false,
-          "BeneficiaryHomelessnessRisk": false,
-          "BeneficiaryLGBT": false,
-          "BeneficiaryMain": null,
-          "BeneficiaryMen": false,
-          "BeneficiaryMigrantsRefugees": false,
-          "BeneficiaryOffenderFamilies": false,
-          "BeneficiaryOther": false,
-          "BeneficiaryOtherCharities": false,
-          "BeneficiaryOtherDescription": null,
-          "BeneficiaryOverseas": false,
-          "BeneficiaryPeopleWithDisability": false,
-          "BeneficiaryRuralRegionalRemote": false,
-          "BeneficiarySeniors": false,
-          "BeneficiaryUnemployed": false,
-          "BeneficiaryVeteranFamilies": false,
-          "BeneficiaryWomen": false,
-          "BeneficiaryYouth": false,
-          "CharityAddressCountry": "Australia",
-          "CharityAddressLine1": "163a Montacute Rd",
-          "CharityAddressLine2": null,
-          "CharityAddressPostalCode": "5074",
-          "CharityAddressStateOrProvince": "SA",
-          "CharityAddressSuburb": "Newton",
-          "CharityEmail": "accounts@campbelltownccc.com.au",
-          "CharitySize": "Large",
-          "CharityUuid": "f49ec95b-3aaf-e811-a95e-000d3ad24c60",
-          "ChildCareServices": false,
-          "ExpenseEmployees": "2802229.0000",
-          "ExpenseGrantDonationsInAustralia": "0.0000",
-          "ExpenseGrantDonationsOutsideAustralia": "0.0000",
-          "ExpenseTotal": "3198879.0000",
-          "ExpensesOther": "396650.0000",
-          "FinAccrualAccounting": null,
-          "FinConsolidatedReportFromMiltiple": "No",
-          "FinDocumentedPoliciesRelatedPartyTransactions": null,
-          "FinFyeJune": false,
-          "FinProvideVoluntarily": null,
-          "FinRelatedPartyTransactions": "No",
-          "FinReportACT": false,
-          "FinReportFrom": "2024-07-01T00:00:00.0000000Z",
-          "FinReportNSW": false,
-          "FinReportNT": false,
-          "FinReportQLD": false,
-          "FinReportSA": false,
-          "FinReportTAS": false,
-          "FinReportTo": "2025-06-30T00:00:00.0000000Z",
-          "FinReportVIC": false,
-          "FinReportWA": false,
-          "FinReportingType": "General purpose financial statements",
-          "FinSapDate": null,
-          "FundRaisingNumberACT": null,
-          "FundRaisingNumberNSW": null,
-          "FundRaisingNumberQLD": null,
-          "FundRaisingNumberSA": null,
-          "FundRaisingNumberTAS": null,
-          "FundRaisingNumberVIC": null,
-          "FundRaisingNumberWA": null,
-          "GovDocAccurate": null,
-          "GrantCapacityBuildingPct": null,
-          "GrantMultiYearPct": null,
-          "GrantPublicOpenApplicationPct": null,
-          "GrantRuralRegionPct": null,
-          "HasSubmittedToRegulator": false,
-          "HoursPaid": null,
-          "HoursTotal": null,
-          "HoursVolunteer": null,
-          "HrCasualEmployees": "28",
-          "HrFteStaff": "35.2300000000",
-          "HrFullTimeEmployees": "13",
-          "HrPartTimeEmployees": "30",
-          "HrUnpainVolunteers": "0",
-          "IncomeDonationsBequests": "0.0000",
-          "IncomeGovernmentGrants": "2167439.0000",
-          "IncomeOther": "0.0000",
-          "IncomeOtherComprehinsive": "0.0000",
-          "IncomeOtherNeg": null,
-          "IncomeOtherReceipts": "22629.0000",
-          "IncomeTotalComprehensive": "118475.0000",
-          "IncomeTotalReceipts": "3317354.0000",
-          "IncorporationStatus": null,
-          "InterestExpense": "0.0000",
-          "IsIncorporatedAssociation": true,
-          "KeyManagementPersonnel": false,
-          "LegalName": "CAMPBELLTOWN COMMUNITY CHILDREN'S CENTRE INC",
-          "NetAssetsLiabilities": "1055414.0000",
-          "NetSurplusDeficit": "118475.0000",
-          "NonCurrentLoansPayable": "220248.0000",
-          "NumberOfKeyManagementPersonnel": "0",
-          "OperatingCountries": null,
-          "OperatingInACT": false,
-          "OperatingInNSW": false,
-          "OperatingInNT": false,
-          "OperatingInQLD": false,
-          "OperatingInSA": false,
-          "OperatingInTAS": false,
-          "OperatingInVIC": false,
-          "OperatingInWA": false,
-          "OperatingOverseas": false,
-          "OtherNames": [],
-          "OtherNonCurrentAssets": "0.0000",
-          "OtherNonCurrentLiabilities": "0.0000",
-          "OtherPurposeDescription": null,
-          "OtherPurposes": "False",
-          "Programs": [
-            {
-              "AisUuid": "3aa9dc62-aec9-f011-bbd3-6045bde73edb",
-              "Name": "Campbelltown Community Children's Centre",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Early childhood - aged under 6"
-              ],
-              "ProgramClassification": "Child care",
-              "ProgramClassificationID": "500",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "Newton South Australia, Australia",
-                  "FormattedAddress": "Newton SA 5074, Australia",
-                  "Marker": {
-                    "Latitude": -34.8813076,
-                    "Longitude": 138.6788286
-                  },
-                  "Name": "Newton",
-                  "uuid": "6aa9dc62-aec9-f011-bbd3-6045bde73edb"
-                }
-              ],
-              "ProgramWeblink": null,
-              "uuid": "60a9dc62-aec9-f011-bbd3-6045bde73edb"
-            }
-          ],
-          "RegulatedACT": false,
-          "RegulatedNSW": false,
-          "RegulatedNT": false,
-          "RegulatedQLD": false,
-          "RegulatedSA": false,
-          "RegulatedTAS": false,
-          "RegulatedVIC": false,
-          "RegulatedWA": false,
-          "Regulator": null,
-          "RegulatorAGMDateACT": null,
-          "RegulatorAGMDateNT": null,
-          "RegulatorAGMDateVIC": null,
-          "RegulatorAGMDateWA": null,
-          "RegulatorFundRaising": "No",
-          "RegulatorFundRaisingACT": false,
-          "RegulatorFundRaisingNSW": false,
-          "RegulatorFundRaisingNT": false,
-          "RegulatorFundRaisingOnline": false,
-          "RegulatorFundRaisingQLD": false,
-          "RegulatorFundRaisingSA": false,
-          "RegulatorFundRaisingTAS": false,
-          "RegulatorFundRaisingVIC": false,
-          "RegulatorFundRaisingWA": false,
-          "RegulatorIncorporatedAssociationACT": false,
-          "RegulatorIncorporatedAssociationNSW": false,
-          "RegulatorIncorporatedAssociationNT": false,
-          "RegulatorIncorporatedAssociationNumberACT": null,
-          "RegulatorIncorporatedAssociationNumberNSW": null,
-          "RegulatorIncorporatedAssociationNumberNT": null,
-          "RegulatorIncorporatedAssociationNumberQLD": null,
-          "RegulatorIncorporatedAssociationNumberSA": "A5288",
-          "RegulatorIncorporatedAssociationNumberTAS": null,
-          "RegulatorIncorporatedAssociationNumberVIC": null,
-          "RegulatorIncorporatedAssociationNumberWA": null,
-          "RegulatorIncorporatedAssociationQLD": false,
-          "RegulatorIncorporatedAssociationSA": true,
-          "RegulatorIncorporatedAssociationTAS": false,
-          "RegulatorIncorporatedAssociationVIC": false,
-          "RegulatorIncorporatedAssociationWA": false,
-          "RegulatorMetRequirementACT": false,
-          "RegulatorMetRequirementWA": null,
-          "RegulatorOtherDetails": null,
-          "RegulatorPrograms": null,
-          "RegulatorStates": false,
-          "RelatedPartyDetails": null,
-          "RelatedPartyTransactions": [],
-          "ReliefOfPoverty": false,
-          "ReportingGroupFlag": false,
-          "ResponsiblePersonAccurate": null,
-          "RevenueGoodsServices": "1070765.0000",
-          "RevenueInvestments": "56521.0000",
-          "RevenueTotal": "3317354.0000",
-          "StatementYear": "2025",
-          "SubTypesAccurate": null,
-          "TotalAssets": "1600482.0000",
-          "TotalCurrentAssets": "1274115.0000",
-          "TotalCurrentLiabilities": "324820.0000",
-          "TotalLiabilities": "545068.0000",
-          "TotalNonCurrentAssets": "326367.0000",
-          "TotalNonCurrentLiabilities": "220248.0000",
-          "TotalNonCurrentLoansReceivable": "326367.0000",
-          "TotalPaidKMP": "$0.00",
-          "Website": "https://www.campbelltownccc.com.au/",
-          "__normalized": true,
-          "entityTypeVersion": "",
-          "entityVersion": "1797057440",
-          "timeStamp": "2025-11-25T03:25:30.0000000Z",
-          "type": "annual_information_statement",
-          "uuid": "3aa9dc62-aec9-f011-bbd3-6045bde73edb"
-        },
-        "type": "annual_information_statement",
-        "uuid": "3aa9dc62-aec9-f011-bbd3-6045bde73edb"
-      },
-      "canonical_field_mappings": {
-        "data.Programs": "programs",
-        "data.TotalRevenue": "financial_records[].revenue",
-        "data.TotalExpenses": "financial_records[].total_expenses"
-      },
-      "evidence_ids": [
-        "ev:acnc:ais:17527786900:3aa9dc62-aec9-f011-bbd3-6045bde73edb"
-      ]
-    }
-  ],
-  "financial_records": [
-    {
-      "financial_record_id": "fr:ais:cb_0f599e9e200445d88c16aa8c0cbf0bd3:2023",
-      "period": {
-        "period_start": "2022-07-01",
-        "period_end": "2023-06-30",
-        "period_length_days": 365,
-        "label": "01/07/2022 to 30/06/2023",
-        "is_transitional_or_nonstandard": false
-      },
-      "reporting_scope": "subject",
-      "reporting_subject_causebase_id": "cb_0f599e9e200445d88c16aa8c0cbf0bd3",
-      "covered_subjects": [
-        "cb_0f599e9e200445d88c16aa8c0cbf0bd3"
-      ],
-      "consolidated": "false",
-      "attribution_method": "direct_subject_report",
-      "evidence_ids": [
-        "ev:ais:17527786900:2023"
-      ],
-      "revenue": {
-        "source_amount": "2310243",
-        "source_currency": "AUD",
-        "source_unit_scale": "1",
-        "normalised_amount": "2310243",
-        "normalised_currency": "AUD",
-        "source_unit_label": null,
-        "source_raw_value": "2310243",
-        "source_precision": null
-      },
-      "donations": null,
-      "government_grants": null,
-      "employee_costs": null,
-      "total_expenses": {
-        "source_amount": "2321451",
-        "source_currency": "AUD",
-        "source_unit_scale": "1",
-        "normalised_amount": "2321451",
-        "normalised_currency": "AUD",
-        "source_unit_label": null,
-        "source_raw_value": "2321451",
-        "source_precision": null
-      },
-      "assets": null,
-      "liabilities": null,
-      "net_assets": null,
-      "income_breakdown": [],
-      "expense_breakdown": [],
-      "balance_sheet_breakdown": [],
-      "source_ordered_line_items": [],
-      "statements": [],
-      "donations_gifts_bequests": null,
-      "functional_expense_allocations": []
-    }
-  ],
-  "financial_metrics": [
-    {
-      "metric": "revenue",
-      "observations": [
-        {
-          "financial_record_id": "fr:ais:cb_0f599e9e200445d88c16aa8c0cbf0bd3:2023",
-          "amount": {
-            "source_amount": "2310243",
-            "source_currency": "AUD",
-            "source_unit_scale": "1",
-            "normalised_amount": "2310243",
-            "normalised_currency": "AUD",
-            "source_unit_label": null,
-            "source_raw_value": "2310243",
-            "source_precision": null
-          },
-          "metric_source_label": null,
-          "evidence_ids": [
-            "ev:ais:17527786900:2023"
-          ]
-        }
-      ],
-      "reconciliation_status": "single_observation",
-      "reconciliation_notes": null
-    },
-    {
-      "metric": "total_expenses",
-      "observations": [
-        {
-          "financial_record_id": "fr:ais:cb_0f599e9e200445d88c16aa8c0cbf0bd3:2023",
-          "amount": {
-            "source_amount": "2321451",
-            "source_currency": "AUD",
-            "source_unit_scale": "1",
-            "normalised_amount": "2321451",
-            "normalised_currency": "AUD",
-            "source_unit_label": null,
-            "source_raw_value": "2321451",
-            "source_precision": null
-          },
-          "metric_source_label": null,
-          "evidence_ids": [
-            "ev:ais:17527786900:2023"
-          ]
-        }
-      ],
-      "reconciliation_status": "single_observation",
-      "reconciliation_notes": null
-    }
-  ],
-  "fundraising_expenditure": null,
-  "funding_sources": [],
-  "fundraising_methods": [],
-  "classifications": [
-    {
-      "taxonomy_id": "acnc-register",
-      "taxonomy_version": "2026-08-10",
-      "term_id": "purpose.social_welfare",
-      "term_label": "social welfare",
-      "assignment_method": "source_native",
-      "confidence": "high",
-      "evidence_ids": [
-        "ev:acnc:17527786900"
-      ]
-    },
-    {
-      "taxonomy_id": "acnc-register",
-      "taxonomy_version": "2026-08-10",
-      "term_id": "beneficiary.other_beneficiary",
-      "term_label": "other beneficiary",
-      "assignment_method": "source_native",
-      "confidence": "high",
-      "evidence_ids": [
-        "ev:acnc:17527786900"
-      ]
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "activity.direct_service",
-      "term_label": "Direct service delivery",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "geography.australia",
-      "term_label": "Australia",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "geography.local_or_regional",
-      "term_label": "Local or regional Australia",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "organisation.local",
-      "term_label": "Local organisation",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
+      "review_status": "not_required",
+      "conflicting_signals": []
     }
   ],
   "evidence": [
     {
       "evidence_id": "ev:acnc:17527786900",
-      "source_type": "regulatory",
-      "title": "ACNC Register extract",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": null,
-      "observed_at": "2026-08-10",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "title": "ACNC Register extract"
     },
     {
       "evidence_id": "ev:web:17527786900:2026-08-10",
-      "source_type": "organisation_self_report",
       "title": "Organisation website homepage",
-      "publisher": "CAMPBELLTOWN COMMUNITY CHILDREN'S CENTRE INC",
-      "url": "https://www.campbelltownccc.com.au/",
-      "observed_at": "2026-08-10",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://www.campbelltownccc.com.au/"
     },
     {
       "evidence_id": "ev:ais:17527786900:2023",
-      "source_type": "regulatory",
-      "title": "ACNC AIS 2023 extract",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": null,
-      "observed_at": "2026-08-10",
-      "reporting_period": "01/07/2022 to 30/06/2023",
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "title": "ACNC AIS 2023 extract"
     },
     {
       "evidence_id": "ev:acnc:ais:17527786900:3aa9dc62-aec9-f011-bbd3-6045bde73edb",
-      "source_type": "regulatory",
       "title": "ACNC Annual Information Statement 2025",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": "https://www.acnc.gov.au/charity/charities/f49ec95b-3aaf-e811-a95e-000d3ad24c60/documents/3aa9dc62-aec9-f011-bbd3-6045bde73edb",
-      "observed_at": "2025-11-25",
-      "reporting_period": "2025",
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://www.acnc.gov.au/charity/charities/f49ec95b-3aaf-e811-a95e-000d3ad24c60/documents/3aa9dc62-aec9-f011-bbd3-6045bde73edb"
     }
   ],
-  "embedding": {
-    "embedding_id": "cb_0f599e9e200445d88c16aa8c0cbf0bd3:entity:text-embedding-3-small",
-    "embedding_type": "entity",
-    "model_id": "text-embedding-3-small",
-    "model_version": "text-embedding-3-small",
-    "dimensions": 1536,
-    "source_text_hash": "d25626a16c0f54b88e4473a211c37e9bd6b7e4b1748af37c09116c33d27aa5b4",
-    "generated_at": "2026-08-10T13:53:24.456757Z",
-    "vector_ref": "embeddings.parquet#cb_0f599e9e200445d88c16aa8c0cbf0bd3"
+  "summary": {
+    "derivative_id": "der:rc4:cb_0f599e9e200445d88c16aa8c0cbf0bd3:summary",
+    "text": "Campbelltown Community Children's Centre Inc is registered as a community children's centre that operates in South Australia (Campbelltown). The organisation serves children, families and the local community and is identifiable by its legal name and website. It is registered with the Australian Charities and Not\u2011for\u2011profits Commission and lodged an Annual Information Statement covering 01/07/2022\u201330/06/2023. CauseBase does not have sufficient descriptive evidence in this release to independently identify specific programs, daily service models, client age ranges, participation modes (for example, volunteering or working bees) or other operational details beyond the organisation\u2019s name, location and regulatory filings."
   },
-  "synthesis": {
-    "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
-    "parameters": {
-      "max_output_tokens": 3000,
-      "structured_output": true,
-      "output_contract": "causebase-summary-v0.3-rc2"
-    },
-    "evidence_input_hash": "397973b2af16fe658a10ef01cf1d631fc4444ade7d9255b34f20e7d88114206d",
-    "generated_at": "2026-08-12T13:56:54.453213Z",
-    "editorial_policy_version": "0.3-rc2"
-  },
-  "derivative_assessments": [
+  "activities": [],
+  "beneficiaries": [],
+  "descriptive_geography": [],
+  "navigation_geography": [],
+  "funding_sources": [],
+  "fundraising_methods": [],
+  "participation": [],
+  "opportunities": [],
+  "programs": [
     {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T13:56:54.453213Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-13T13:54:42.956606Z",
-      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
-      "input_hash": "397973b2af16fe658a10ef01cf1d631fc4444ade7d9255b34f20e7d88114206d",
-      "disposition": "reused",
-      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
-      "affected_dimensions": [
-        "summary"
-      ]
+      "observation_id": "obs:rc4:cb_0f599e9e200445d88c16aa8c0cbf0bd3:program:prg:acnc:17527786900:60a9dc62-aec9-f011-bbd3-6045bde73edb",
+      "program_id": "prg:acnc:17527786900:60a9dc62-aec9-f011-bbd3-6045bde73edb",
+      "name": "Campbelltown Community Children's Centre",
+      "description": "Child care",
+      "url": "https://www.acnc.gov.au/charity/charities/f49ec95b-3aaf-e811-a95e-000d3ad24c60/documents/3aa9dc62-aec9-f011-bbd3-6045bde73edb",
+      "status": "current",
+      "claim_basis": "direct",
+      "extraction_method": "api",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:ais:17527786900:3aa9dc62-aec9-f011-bbd3-6045bde73edb"
+      ],
+      "time": {
+        "reporting_period": {
+          "label": "2025"
+        }
+      },
+      "warnings": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-14-rc4-fundraising-projection-correction",
-  "card_schema_version": "0.4",
-  "editorial_policy_version": "0.4-rc4",
-  "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T13:54:42.956606Z"
+  "relationships": [],
+  "classifications": [
+    {
+      "observation_id": "obs:rc4:cb_0f599e9e200445d88c16aa8c0cbf0bd3:classification:0",
+      "classification_id": "cls:rc4:cb_0f599e9e200445d88c16aa8c0cbf0bd3:0",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "purpose.social_welfare",
+      "term_label": "social welfare",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:17527786900"
+      ],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_0f599e9e200445d88c16aa8c0cbf0bd3:classification:1",
+      "classification_id": "cls:rc4:cb_0f599e9e200445d88c16aa8c0cbf0bd3:1",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "beneficiary.other_beneficiary",
+      "term_label": "other beneficiary",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:17527786900"
+      ],
+      "confidence": "high",
+      "warnings": []
+    }
+  ],
+  "coverage": {
+    "registry_id": "capability-registry-0.5-initial",
+    "current": [
+      {
+        "capability": "regulatory.acnc_profile",
+        "status": "observed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:acnc:17527786900"
+        ]
+      },
+      {
+        "capability": "regulatory.ais",
+        "status": "observed",
+        "assessed_at": "2025-11-25",
+        "source_record_ids": [
+          "src:acnc-ais-detail:17527786900:3aa9dc62-aec9-f011-bbd3-6045bde73edb:cb_0f599e9e200445d88c16aa8c0cbf0bd3"
+        ],
+        "evidence_ids": [
+          "ev:acnc:ais:17527786900:3aa9dc62-aec9-f011-bbd3-6045bde73edb"
+        ]
+      },
+      {
+        "capability": "tax.dgr",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "web.website",
+        "status": "observed",
+        "assessed_at": "2026-08-13",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "report.annual_report",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "financial.report",
+        "status": "unknown",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:ais:17527786900:2023"
+        ]
+      },
+      {
+        "capability": "financial.statements",
+        "status": "unknown",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:ais:17527786900:2023"
+        ]
+      },
+      {
+        "capability": "understanding.activities",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.beneficiaries",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.geography",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "programs",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "participation",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "funding.sources",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.methods",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.expenditure",
+        "status": "not_available_from_source",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "taxonomy.causebase",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "semantic.embedding",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      }
+    ]
+  },
+  "financial_reports": [],
+  "canonical_metrics": [],
+  "analytic_projections": [],
+  "derivatives": [
+    {
+      "derivative_id": "der:rc4:cb_0f599e9e200445d88c16aa8c0cbf0bd3:summary",
+      "kind": "summary",
+      "input_observation_ids": [],
+      "evidence_ids": [
+        "ev:web:17527786900:2026-08-10",
+        "ev:acnc:17527786900",
+        "ev:ais:17527786900:2023"
+      ],
+      "generated_under": {
+        "output_contract_version": "phase2b-rc4-accepted-rc2-summary-reuse",
+        "input_hash": "397973b2af16fe658a10ef01cf1d631fc4444ade7d9255b34f20e7d88114206d",
+        "generated_at": "2026-08-12T13:56:54.453213Z"
+      },
+      "current_assessment": {
+        "assessed_at": "2026-08-13T13:54:42.956606Z",
+        "assessed_against_contract": "0.5",
+        "governing_input_hash": "397973b2af16fe658a10ef01cf1d631fc4444ade7d9255b34f20e7d88114206d",
+        "disposition": "reused",
+        "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs."
+      }
+    }
+  ],
+  "legacy_unbound": {
+    "origin_release": "rc4-2026-08-14",
+    "origin_card_sha256": "e92532073e0e81486df28714b72af072514a0114e5211b32a3ef3ff9b467d74c",
+    "activities": [
+      {
+        "value": "Community children's centre",
+        "source_role": "legacy_source_qualifier",
+        "provenance_note": "Restructured identity evidence into a clean activity label.",
+        "evidence_ids": []
+      }
+    ],
+    "beneficiaries": [
+      {
+        "value": "Children",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Families",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Local community in South Australia",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "descriptive_geography": [
+      {
+        "value": "South Australia (SA)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "classifications": [
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "activity.direct_service",
+        "term_label": "Direct service delivery",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "geography.australia",
+        "term_label": "Australia",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "geography.local_or_regional",
+        "term_label": "Local or regional Australia",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "organisation.local",
+        "term_label": "Local organisation",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      }
+    ],
+    "financial_records": [
+      {
+        "financial_record_id": "fr:ais:cb_0f599e9e200445d88c16aa8c0cbf0bd3:2023",
+        "period": {
+          "period_start": "2022-07-01",
+          "period_end": "2023-06-30",
+          "period_length_days": 365,
+          "label": "01/07/2022 to 30/06/2023",
+          "is_transitional_or_nonstandard": false
+        },
+        "reporting_scope": "subject",
+        "reporting_subject_causebase_id": "cb_0f599e9e200445d88c16aa8c0cbf0bd3",
+        "covered_subjects": [
+          "cb_0f599e9e200445d88c16aa8c0cbf0bd3"
+        ],
+        "consolidated": "false",
+        "attribution_method": "direct_subject_report",
+        "evidence_ids": [
+          "ev:ais:17527786900:2023"
+        ],
+        "revenue": {
+          "source_amount": "2310243",
+          "source_currency": "AUD",
+          "source_unit_scale": "1",
+          "normalised_amount": "2310243",
+          "normalised_currency": "AUD",
+          "source_unit_label": null,
+          "source_raw_value": "2310243",
+          "source_precision": null
+        },
+        "donations": null,
+        "government_grants": null,
+        "employee_costs": null,
+        "total_expenses": {
+          "source_amount": "2321451",
+          "source_currency": "AUD",
+          "source_unit_scale": "1",
+          "normalised_amount": "2321451",
+          "normalised_currency": "AUD",
+          "source_unit_label": null,
+          "source_raw_value": "2321451",
+          "source_precision": null
+        },
+        "assets": null,
+        "liabilities": null,
+        "net_assets": null,
+        "income_breakdown": [],
+        "expense_breakdown": [],
+        "balance_sheet_breakdown": [],
+        "source_ordered_line_items": [],
+        "statements": [],
+        "donations_gifts_bequests": null,
+        "functional_expense_allocations": []
+      }
+    ]
+  }
 }

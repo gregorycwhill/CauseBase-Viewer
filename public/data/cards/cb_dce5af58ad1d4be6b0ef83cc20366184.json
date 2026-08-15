@@ -1,1236 +1,404 @@
 {
   "causebase_id": "cb_dce5af58ad1d4be6b0ef83cc20366184",
+  "contract_version": "0.5",
   "subject_kind": "unknown",
-  "external_identifiers": [
-    {
-      "scheme": "abn",
-      "value": "94196952697",
-      "source_evidence_id": "ev:acnc:94196952697"
-    }
+  "identity": {
+    "legal_name": "BEECHFORD RESIDENTS AND PROPERTY OWNERS ASSOCIATION INC",
+    "display_name": "BEECHFORD RESIDENTS AND PROPERTY OWNERS ASSOCIATION INC",
+    "operating_names": [],
+    "former_names": [],
+    "entity_status": "registered",
+    "website": null,
+    "external_identifiers": [
+      {
+        "scheme": "abn",
+        "value": "94196952697",
+        "evidence_ids": [
+          "ev:acnc:94196952697"
+        ]
+      }
+    ],
+    "registrations": [
+      {
+        "regulator": "ACNC",
+        "status": "registered",
+        "evidence_ids": [
+          "ev:acnc:94196952697"
+        ]
+      }
+    ],
+    "tax_statuses": []
+  },
+  "release": {
+    "release_id": "v0.5.0-2026-08-15",
+    "dataset_version": "0.5.0-2026-08-15",
+    "contract_version": "0.5",
+    "based_on_release": "rc4-2026-08-14",
+    "generated_at": "2026-08-15T00:00:00Z"
+  },
+  "source_record_refs": [
+    "src:acnc-public-profile:94196952697:15ae171b-38af-e811-a961-000d3ad24182:cb_dce5af58ad1d4be6b0ef83cc20366184",
+    "src:acnc-ais-detail:94196952697:1e9b16ae-d3de-f011-8544-6045bde61b96:cb_dce5af58ad1d4be6b0ef83cc20366184"
   ],
-  "registrations": [
-    {
-      "regulator": "ACNC",
-      "registration_id": null,
-      "status": "registered",
-      "evidence_ids": [
-        "ev:acnc:94196952697"
-      ]
-    }
-  ],
-  "tax_statuses": [],
-  "relationships": [],
-  "source_resolutions": [
+  "source_bindings": [
     {
       "source_record_id": "src:acnc-register:5ca5ded8-6d21-550f-9f8f-1fd787568229",
       "resolution_status": "resolved",
       "resolution_basis": "automated authoritative ACNC promotion under acnc-authoritative-v1",
       "confidence": "high",
-      "supporting_signals": [
-        "ABN:94196952697",
-        "ACNC Register"
-      ],
-      "conflicting_signals": [],
-      "review_status": "not_required"
-    }
-  ],
-  "legal_name": "BEECHFORD RESIDENTS AND PROPERTY OWNERS ASSOCIATION INC",
-  "display_name": "BEECHFORD RESIDENTS AND PROPERTY OWNERS ASSOCIATION INC",
-  "entity_status": "registered",
-  "canonical_url": "https://gregorycwhill.github.io/CauseBase-Viewer/#cb_dce5af58ad1d4be6b0ef83cc20366184",
-  "acnc_profile_url": "https://www.acnc.gov.au/charity/charities/15ae171b-38af-e811-a961-000d3ad24182/profile",
-  "acnc_ais_url": "https://www.acnc.gov.au/charity/charities/15ae171b-38af-e811-a961-000d3ad24182/documents/1e9b16ae-d3de-f011-8544-6045bde61b96",
-  "operating_names": [],
-  "former_names": [],
-  "principal_location": "TAS, Australia",
-  "coverage": [
-    {
-      "capability": "regulatory",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:acnc:94196952697"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "annual_report",
-      "status": "not_yet_processed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "website",
-      "status": "not_available_from_source",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "fundraising_expenditure",
-      "status": "not_available_from_source",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": "No direct or defensible derived fundraising expenditure was found in selected Phase 2A evidence."
-    },
-    {
-      "capability": "financials",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:ais:94196952697:2023"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "latest_acnc_ais",
-      "status": "observed",
-      "source_record_id": "src:acnc-ais-detail:94196952697:1e9b16ae-d3de-f011-8544-6045bde61b96:cb_dce5af58ad1d4be6b0ef83cc20366184",
-      "evidence_ids": [
-        "ev:acnc:ais:94196952697:1e9b16ae-d3de-f011-8544-6045bde61b96"
-      ],
-      "observed_at": "2025-12-22",
-      "freshness_note": "Latest submitted AIS detail acquired from the public ACNC entity endpoint."
-    }
-  ],
-  "enrichment_level": "enriched",
-  "website": null,
-  "geography": [
-    "Tasmania",
-    "Australia"
-  ],
-  "geography_observations": [
-    {
-      "value": "Tasmania",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Australia",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "navigation_geography": [],
-  "causebase_summary": "Beechford Residents and Property Owners Association Inc is an incorporated association linked with Tasmania, Australia. It appears on the ACNC register and submitted an Annual Information Statement covering 1 July 2022 to 30 June 2023. CauseBase does not have sufficient descriptive evidence in this release to independently identify the organisation’s specific activities, services or beneficiary groups. No website, program descriptions or activity listings were available in the supplied regulatory extracts to allow a more detailed operational summary.",
-  "summary_evidence_ids": [
-    "ev:acnc:94196952697",
-    "ev:ais:94196952697:2023"
-  ],
-  "organisation_self_description": null,
-  "activities": [],
-  "activity_observations": [],
-  "beneficiaries": [],
-  "beneficiary_observations": [],
-  "participation_modes": [],
-  "participation_observations": [],
-  "opportunities": [],
-  "programs": [
-    {
-      "program_id": "prg:acnc:94196952697:4f9b16ae-d3de-f011-8544-6045bde61b96",
-      "name": "Community conclusion",
-      "description": "Social inclusion",
-      "beneficiaries": [
-        "People in rural/regional/remote communities"
-      ],
-      "geography": [
-        "Beechford TAS, Australia"
-      ],
-      "status": "current",
-      "reporting_period": "2025",
-      "source_url": "https://www.acnc.gov.au/charity/charities/15ae171b-38af-e811-a961-000d3ad24182/documents/1e9b16ae-d3de-f011-8544-6045bde61b96",
-      "evidence_ids": [
-        "ev:acnc:ais:94196952697:1e9b16ae-d3de-f011-8544-6045bde61b96"
-      ]
-    }
-  ],
-  "source_native_records": [
-    {
-      "source_record_id": "src:acnc-public-profile:94196952697:15ae171b-38af-e811-a961-000d3ad24182:cb_dce5af58ad1d4be6b0ef83cc20366184",
-      "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-14-public-api",
-      "source_url": "https://www.acnc.gov.au/charity/charities/15ae171b-38af-e811-a961-000d3ad24182/profile",
-      "retrieved_at": "2026-08-13T13:54:42.956606Z",
-      "observed_at": "2025-12-22",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "uuid": "15ae171b-38af-e811-a961-000d3ad24182",
-        "abn": "94196952697"
-      },
-      "source_payload": {
-        "data": {
-          "AFSAddressPostalCode": "7252",
-          "AFSEmail": "beechfordgroup@gmail.com",
-          "Abn": "94196952697",
-          "AddressCountry": "Australia",
-          "AddressLine1": "14 Higgins Street",
-          "AddressLine2": null,
-          "AddressLine3": null,
-          "AddressPostalCode": "7252",
-          "AddressStateOrProvince": "TAS",
-          "AddressSuburb": "Beechford",
-          "AddressSuburbStatePostcode": "Beechford TAS 7252",
-          "AnnualReports": [
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2026-12-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Not yet submitted",
-              "Year": "2026",
-              "type": "Annual Information Statement 2026",
-              "uuid": "8d6a7b29-d5df-ef11-a731-000d3ad059a3"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2026-12-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Pending",
-              "Year": "2026",
-              "type": "Financial Report 2026",
-              "uuid": "b96a7b29-d5df-ef11-a731-000d3ad059a3"
-            },
-            {
-              "AISId": "d938013f-84fd-ec11-82e6-002248944f2b",
-              "DateReceived": "2022-07-06T23:35:28.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2014-03-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2013",
-              "type": "Annual Information Statement 2013",
-              "uuid": "b94a5849-3ac8-e811-a95f-000d3ad24c60"
-            },
-            {
-              "AISId": "6ff03064-4ba3-ed11-aad1-0022489733de",
-              "DateReceived": "2023-01-31T13:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2015-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2014",
-              "type": "Annual Information Statement 2014",
-              "uuid": "cc4a5849-3ac8-e811-a95f-000d3ad24c60"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": true,
-              "Status": "Not required",
-              "Year": "2015",
-              "type": "Annual Information Statement 2015",
-              "uuid": "e04a5849-3ac8-e811-a95f-000d3ad24c60"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": true,
-              "Status": "Not required",
-              "Year": "2016",
-              "type": "Annual Information Statement 2016",
-              "uuid": "f84a5849-3ac8-e811-a95f-000d3ad24c60"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": true,
-              "Status": "Not required",
-              "Year": "2017",
-              "type": "Annual Information Statement 2017",
-              "uuid": "0b4b5849-3ac8-e811-a95f-000d3ad24c60"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": true,
-              "Status": "Not required",
-              "Year": "2018",
-              "type": "Annual Information Statement 2018",
-              "uuid": "204b5849-3ac8-e811-a95f-000d3ad24c60"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required",
-              "Year": "2017",
-              "type": "Financial Report 2017",
-              "uuid": "08dc246e-3dc8-e811-a95f-000d3ad24c60"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2014-03-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Overdue",
-              "Year": "2013",
-              "type": "Financial Report 2013",
-              "uuid": "10dc246e-3dc8-e811-a95f-000d3ad24c60"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required",
-              "Year": "2018",
-              "type": "Financial Report 2018",
-              "uuid": "1bdc246e-3dc8-e811-a95f-000d3ad24c60"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required",
-              "Year": "2016",
-              "type": "Financial Report 2016",
-              "uuid": "2edc246e-3dc8-e811-a95f-000d3ad24c60"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required - small",
-              "Year": "2014",
-              "type": "Financial Report 2014",
-              "uuid": "47dc246e-3dc8-e811-a95f-000d3ad24c60"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required",
-              "Year": "2015",
-              "type": "Financial Report 2015",
-              "uuid": "61dc246e-3dc8-e811-a95f-000d3ad24c60"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2027-12-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Not yet submitted",
-              "Year": "2027",
-              "type": "Annual Information Statement 2027",
-              "uuid": "f3e10593-07ff-f011-8406-00224810400c"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2027-12-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Pending",
-              "Year": "2027",
-              "type": "Financial Report 2027",
-              "uuid": "07e20593-07ff-f011-8406-00224810400c"
-            },
-            {
-              "AISId": "1e9b16ae-d3de-f011-8544-6045bde61b96",
-              "DateReceived": "2025-12-22T01:15:23.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2026-01-31T00:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2025",
-              "type": "Annual Information Statement 2025",
-              "uuid": "dbe6c6c9-a2c0-ee11-907a-00224893b0ed"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2025-12-22T01:15:37.0000000Z",
-              "DocumentUuid": "207a5ca8-d3de-f011-8544-7ced8d344b97",
-              "DueDate": "2026-01-31T00:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2025",
-              "type": "Financial Report 2025",
-              "uuid": "f9e6c6c9-a2c0-ee11-907a-00224893b0ed"
-            },
-            {
-              "AISId": "eb87b0a9-d8da-ef11-a730-00224891d2a4",
-              "DateReceived": "2025-01-25T04:56:13.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2025-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2024",
-              "type": "Annual Information Statement 2024",
-              "uuid": "162e9e43-67a1-ed11-aad1-00224893b0ed"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2025-01-25T04:56:13.0000000Z",
-              "DocumentUuid": "2f2f2ba4-d8da-ef11-a731-000d3a6b41c8",
-              "DueDate": "2025-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2024",
-              "type": "Financial Report 2024",
-              "uuid": "292e9e43-67a1-ed11-aad1-00224893b0ed"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required - small",
-              "Year": "2019",
-              "type": "Financial Report 2019",
-              "uuid": "f9c2f53f-3a92-ed11-aad1-00224893b8c7"
-            },
-            {
-              "AISId": "6c06cf7e-fe9a-ed11-aad1-00224893b0ed",
-              "DateReceived": "2023-01-23T09:15:47.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2020-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2019",
-              "type": "Annual Information Statement 2019",
-              "uuid": "14c3f53f-3a92-ed11-aad1-00224893b8c7"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required - small",
-              "Year": "2020",
-              "type": "Financial Report 2020",
-              "uuid": "19c3f53f-3a92-ed11-aad1-00224893b8c7"
-            },
-            {
-              "AISId": "3bf0deec-0f9b-ed11-aad1-00224893b304",
-              "DateReceived": "2023-01-23T11:20:27.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2021-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2020",
-              "type": "Annual Information Statement 2020",
-              "uuid": "1dc3f53f-3a92-ed11-aad1-00224893b8c7"
-            },
-            {
-              "AISId": "f35d7cb6-c771-ed11-81ab-00224893cef4",
-              "DateReceived": "2022-12-01T22:30:19.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2023-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2022",
-              "type": "Annual Information Statement 2022",
-              "uuid": "8081282f-4b3d-ed11-bba2-00224893bffb"
-            },
-            {
-              "AISId": "9f5039f8-be7e-ee11-8179-00224893d32a",
-              "DateReceived": "2023-11-09T05:15:31.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2024-01-31T00:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2023",
-              "type": "Annual Information Statement 2023",
-              "uuid": "8581282f-4b3d-ed11-bba2-00224893bffb"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2022-12-01T22:30:18.0000000Z",
-              "DocumentUuid": "e1537fb1-c771-ed11-81ac-00224893bc23",
-              "DueDate": "2023-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2022",
-              "type": "Financial Report 2022",
-              "uuid": "8981282f-4b3d-ed11-bba2-00224893bffb"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required - small",
-              "Year": "2023",
-              "type": "Financial Report 2023",
-              "uuid": "8c81282f-4b3d-ed11-bba2-00224893bffb"
-            }
-          ],
-          "Beneficiaries": [
-            {
-              "Description": null,
-              "Name": "People in rural/regional/remote communities",
-              "uuid": "609b16ae-d3de-f011-8544-6045bde61b96"
-            }
-          ],
-          "CharitySize": "Small",
-          "CharitySubtypeHistory": [
-            {
-              "EndDate": "2013-12-30T13:00:00.0000000Z",
-              "Purpose": "2012 Another purpose beneficial to the community",
-              "StartDate": "2012-12-02T13:00:00.0000000Z",
-              "uuid": "43d4612b-fcc6-e811-a964-000d3ad24077"
-            },
-            {
-              "EndDate": null,
-              "Purpose": "Purposes beneficial to the general public that may reasonably be regarded as analogous to, or within the spirit of, any of the other charitable purposes",
-              "StartDate": "2022-08-24T14:00:00.0000000Z",
-              "uuid": "b82b1fd7-1803-ed11-82e6-002248944f2b"
-            }
-          ],
-          "CharityVersion": "152",
-          "ChildMemberEndDate": null,
-          "ChildMemberStartDate": null,
-          "ChooseToProvideAis": null,
-          "Countries": [
-            {
-              "Name": "Australia",
-              "uuid": "f57b5602-9a4d-e811-a951-000d3ad06f2d"
-            }
-          ],
-          "DateEstablished": "2017-05-01T14:00:00.0000000Z",
-          "Documents": [
-            {
-              "Date": "2022-05-25T00:00:00.0000000",
-              "Title": "Beechford Resident and Property Owners Association Inc. Constitution October 2021.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/15ae171b-38af-e811-a961-000d3ad24182-bb1b5bd4-2048-4ba3-96dd-ff53681da5c7-Governing%20Document-432208ef-fddb-ec11-bb3d-002248944bc7-Beechford_Resident_and_Property_Owners_Association_Inc._Constitution_October_2021.pdf",
-              "Year": null,
-              "type": "Governing Document",
-              "uuid": "432208ef-fddb-ec11-bb3d-002248944bc7"
-            },
-            {
-              "Date": "2025-01-25T00:00:00.0000000",
-              "Title": "2024 Finance.jpg",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/15ae171b-38af-e811-a961-000d3ad24182-bb1b5bd4-2048-4ba3-96dd-ff53681da5c7-Financial%20Report-2f2f2ba4-d8da-ef11-a731-000d3a6b41c8-2024_Finance.jpg",
-              "Year": "2024",
-              "type": "Financial Report",
-              "uuid": "2f2f2ba4-d8da-ef11-a731-000d3a6b41c8"
-            },
-            {
-              "Date": "2022-12-02T00:00:00.0000000",
-              "Title": "Beechford Financial Statement 21-22.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/15ae171b-38af-e811-a961-000d3ad24182-bb1b5bd4-2048-4ba3-96dd-ff53681da5c7-Financial%20Report-e1537fb1-c771-ed11-81ac-00224893bc23-Beechford_Financial_Statement_21-22.pdf",
-              "Year": "2022",
-              "type": "Financial Report",
-              "uuid": "e1537fb1-c771-ed11-81ac-00224893bc23"
-            },
-            {
-              "Date": "2025-12-22T00:00:00.0000000",
-              "Title": "bEECHFORD PROFIT_LOSS 2024-2025 - Sheet1.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/15ae171b-38af-e811-a961-000d3ad24182-bb1b5bd4-2048-4ba3-96dd-ff53681da5c7-Financial%20Report-207a5ca8-d3de-f011-8544-7ced8d344b97-bEECHFORD_PROFIT_LOSS_2024-2025_-_Sheet1.pdf",
-              "Year": "2025",
-              "type": "Financial Report",
-              "uuid": "207a5ca8-d3de-f011-8544-7ced8d344b97"
-            }
-          ],
-          "Email": "beechfordgroup@gmail.com",
-          "EnforcementOutcomes": [],
-          "FinancialYearEnd": "30/06",
-          "GovernmentAgencies": [
-            {
-              "Name": "TAS - Incorporated Association",
-              "ReferenceNumber": "IA12048",
-              "uuid": "499b16ae-d3de-f011-8544-6045bde61b96"
-            }
-          ],
-          "GroupHeadFlag": false,
-          "LastReported": "2025-12-22T01:15:37.0000000Z",
-          "Name": "BEECHFORD RESIDENTS AND PROPERTY OWNERS ASSOCIATION INC",
-          "NextReportDue": "2026-12-31T12:30:00.0000000Z",
-          "OperatingInStates": [
-            {
-              "Name": "Tasmania",
-              "uuid": "4fa3219c-455e-e811-a95c-000d3ad1c715"
-            }
-          ],
-          "OtherDetails": null,
-          "OtherNames": [],
-          "ParentAccountAbn": null,
-          "ParentAccountId": null,
-          "Phone": "0418187379",
-          "Programs": [
-            {
-              "AisUuid": "1e9b16ae-d3de-f011-8544-6045bde61b96",
-              "Name": "Community conclusion",
-              "OperatesOnline": true,
-              "ProgramBeneficiaries": [
-                "People in rural/regional/remote communities"
-              ],
-              "ProgramClassie": [
-                {
-                  "classie_id": "464",
-                  "label": "Social inclusion",
-                  "parent_id": "462",
-                  "selected": true
-                },
-                {
-                  "classie_id": "462",
-                  "label": "Diversity and intergroup relations",
-                  "parent_id": "451",
-                  "selected": false
-                },
-                {
-                  "classie_id": "451",
-                  "label": "Human rights",
-                  "parent_id": null,
-                  "selected": false
-                }
-              ],
-              "ProgramClassification": "Social inclusion",
-              "ProgramClassificationID": "464",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "Beechford TAS, Australia",
-                  "FormattedAddress": "Beechford TAS 7252, Australia",
-                  "Marker": {
-                    "Latitude": -41.0279606,
-                    "Longitude": 146.9512111
-                  },
-                  "Name": "Beechford",
-                  "uuid": "569b16ae-d3de-f011-8544-6045bde61b96"
-                }
-              ],
-              "ProgramWeblink": null,
-              "uuid": "4f9b16ae-d3de-f011-8544-6045bde61b96"
-            }
-          ],
-          "ReferendumReturnsUrl": null,
-          "RegistrationStatusHistory": [
-            {
-              "EffectiveDate": "2015-03-29T13:00:00.0000000Z",
-              "Status": "Revoked RTS",
-              "TransactionDate": "2015-03-29T13:00:00.0000000Z",
-              "uuid": "c6798e57-06c6-e811-a963-000d3ad24a0d"
-            },
-            {
-              "EffectiveDate": "2012-12-02T13:00:00.0000000Z",
-              "Status": "Registered",
-              "TransactionDate": "2012-12-02T13:00:00.0000000Z",
-              "uuid": "d9798e57-06c6-e811-a963-000d3ad24a0d"
-            },
-            {
-              "EffectiveDate": "2022-08-24T14:00:00.0000000Z",
-              "Status": "Registered",
-              "TransactionDate": "2022-09-26T03:27:38.0000000Z",
-              "uuid": "f5163d29-4b3d-ed11-bba2-00224893b304"
-            }
-          ],
-          "RelatedPartyTransactions": null,
-          "RelevantTransactions": null,
-          "ReportingLate": "2027-06-30T12:30:00.0000000Z",
-          "ResponsiblePersons": [
-            {
-              "Name": "Charlotte Blank",
-              "Role": "Public Officer",
-              "uuid": "d76f4613-80b8-f011-bbd3-7ced8da2a128"
-            },
-            {
-              "Name": "Mathew Shaw",
-              "Role": "Vice-president",
-              "uuid": "bed5a8af-d8da-ef11-a730-00224891d2a4"
-            },
-            {
-              "Name": "Thomas French",
-              "Role": "Committee Member",
-              "uuid": "03d6a8af-d8da-ef11-a730-00224891d2a4"
-            },
-            {
-              "Name": "David Dunn",
-              "Role": "President",
-              "uuid": "b3a93f1d-4b3d-ed11-bba2-00224893b304"
-            },
-            {
-              "Name": "Kaylene Coltish",
-              "Role": "Treasurer",
-              "uuid": "dcc5d897-b8aa-ef11-b8e8-6045bdc3889b"
-            },
-            {
-              "Name": "Charlotte Blank",
-              "Role": "Secretary",
-              "uuid": "d76f4613-80b8-f011-bbd3-7ced8da2a128"
-            },
-            {
-              "Name": "Peter MacDonald",
-              "Role": "Board Member",
-              "uuid": "e4c2f39d-28bc-f011-bbd2-7ced8d34109a"
-            }
-          ],
-          "Status": "Registered",
-          "SummaryOfActivities": "Maintained our existing facilities and installed a wind shelter to the side of the BBQ shed. Liaise with Tasmanian Parks and George Town Council. We hosted a few community events.",
-          "TotalExpensesEmployee": "0",
-          "TotalExpensesGrantsAndDonationsInAustralia": "100",
-          "TotalExpensesGrantsAndDonationsOutsideAustralia": "0",
-          "TotalExpensesInterest": "0",
-          "TotalExpensesOther": "4159",
-          "TotalGrossIncomeDonationsAndRequests": "1085",
-          "TotalGrossIncomeGoodsOrServices": "121",
-          "TotalGrossIncomeGovernmentGrants": "2500",
-          "TotalGrossIncomeInvestments": "426",
-          "TotalGrossIncomeOtherRevenues": "2370",
-          "TransparencyRegisterUrl": null,
-          "Website": null,
-          "__normalized": true,
-          "type": "charity",
-          "uuid": "15ae171b-38af-e811-a961-000d3ad24182"
-        },
-        "type": "charity",
-        "uuid": "15ae171b-38af-e811-a961-000d3ad24182"
-      },
-      "canonical_field_mappings": {
-        "data.OtherNames": "operating_names",
-        "data.AddressStateOrProvince": "principal_location"
-      },
-      "evidence_ids": []
-    },
-    {
-      "source_record_id": "src:acnc-ais-detail:94196952697:1e9b16ae-d3de-f011-8544-6045bde61b96:cb_dce5af58ad1d4be6b0ef83cc20366184",
-      "source_family": "acnc-ais-detail",
-      "dataset_version": "2026-08-14-public-api",
-      "source_url": "https://www.acnc.gov.au/charity/charities/15ae171b-38af-e811-a961-000d3ad24182/documents/1e9b16ae-d3de-f011-8544-6045bde61b96",
-      "retrieved_at": "2026-08-13T13:54:42.956606Z",
-      "observed_at": "2025-12-22",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "abn": "94196952697",
-        "ais_uuid": "1e9b16ae-d3de-f011-8544-6045bde61b96",
-        "year": "2025",
-        "date_received": "2025-12-22T01:15:23.0000000Z"
-      },
-      "source_payload": {
-        "data": {
-          "Abn": "94196952697",
-          "ActivityAdvocacyNCivic": false,
-          "ActivityAgedCare": false,
-          "ActivityAnimalProtection": false,
-          "ActivityCultureAndArt": false,
-          "ActivityEconomicSocialCommunity": false,
-          "ActivityEmergencyNRelief": false,
-          "ActivityEmploymentNTraining": false,
-          "ActivityEnvironmental": false,
-          "ActivityGrantMaking": false,
-          "ActivityHealthRehabilitation": false,
-          "ActivityHigherEducation": false,
-          "ActivityHousing": false,
-          "ActivityIncomeSupportNMaintenance": false,
-          "ActivityInternational": false,
-          "ActivityInternationalDescription": null,
-          "ActivityInternationalOther": false,
-          "ActivityInternationalOtherDescription": null,
-          "ActivityLawNLegalServices": false,
-          "ActivityMain": null,
-          "ActivityMentalHealthCrisisIntervention": false,
-          "ActivityNdisSupported": null,
-          "ActivityNdisSupportedNext": null,
-          "ActivityOperating": true,
-          "ActivityOperatingOverseas": false,
-          "ActivityOther": false,
-          "ActivityOtherDescription": null,
-          "ActivityOtherEducation": false,
-          "ActivityOtherHealthServices": false,
-          "ActivityPersuitPurposesDescription": "Maintained our existing facilities and installed a wind shelter to the side of the BBQ shed. Liaise with Tasmanian Parks and George Town Council. We hosted a few community events.",
-          "ActivityPhilanthropicPromotion": false,
-          "ActivityPolitical": false,
-          "ActivityPrimarySecondaryEducation": false,
-          "ActivityPurposeChange": null,
-          "ActivityPurposeChangeDescription": null,
-          "ActivityRecreationSocialClub": false,
-          "ActivityReligious": false,
-          "ActivityResearch": false,
-          "ActivitySocialServices": false,
-          "ActivitySports": false,
-          "ActivityTransferringFundsGoods": false,
-          "AdvancementOfEducation": false,
-          "AdvancementOfReligion": false,
-          "AssetsandLiabilitiesDescription": "Our community association currently has $10,000 in a term deposit account.  We currently do not have any liabilities.",
-          "BasicReligiousCharity": false,
-          "BeneficiaryAboriginalTorres": false,
-          "BeneficiaryAdults": false,
-          "BeneficiaryAllAges": false,
-          "BeneficiaryChildren": false,
-          "BeneficiaryChronicIllness": false,
-          "BeneficiaryCrimeVictims": false,
-          "BeneficiaryDisasterVictims": false,
-          "BeneficiaryEarlyChildhood": false,
-          "BeneficiaryEthnic": false,
-          "BeneficiaryFamilies": false,
-          "BeneficiaryFinanciallyDisadvantaged": false,
-          "BeneficiaryGeneral": false,
-          "BeneficiaryHomelessnessRisk": false,
-          "BeneficiaryLGBT": false,
-          "BeneficiaryMain": null,
-          "BeneficiaryMen": false,
-          "BeneficiaryMigrantsRefugees": false,
-          "BeneficiaryOffenderFamilies": false,
-          "BeneficiaryOther": false,
-          "BeneficiaryOtherCharities": false,
-          "BeneficiaryOtherDescription": null,
-          "BeneficiaryOverseas": false,
-          "BeneficiaryPeopleWithDisability": false,
-          "BeneficiaryRuralRegionalRemote": false,
-          "BeneficiarySeniors": false,
-          "BeneficiaryUnemployed": false,
-          "BeneficiaryVeteranFamilies": false,
-          "BeneficiaryWomen": false,
-          "BeneficiaryYouth": false,
-          "CharityAddressCountry": "Australia",
-          "CharityAddressLine1": "14 Higgins Street",
-          "CharityAddressLine2": null,
-          "CharityAddressPostalCode": "7252",
-          "CharityAddressStateOrProvince": "TAS",
-          "CharityAddressSuburb": "Beechford",
-          "CharityEmail": "beechfordgroup@gmail.com",
-          "CharitySize": "Small",
-          "CharityUuid": "15ae171b-38af-e811-a961-000d3ad24182",
-          "ChildCareServices": false,
-          "ExpenseEmployees": "0.0000",
-          "ExpenseGrantDonationsInAustralia": "100.0000",
-          "ExpenseGrantDonationsOutsideAustralia": "0.0000",
-          "ExpenseTotal": "4259.0000",
-          "ExpensesOther": "4159.0000",
-          "FinAccrualAccounting": "Cash",
-          "FinConsolidatedReportFromMiltiple": null,
-          "FinDocumentedPoliciesRelatedPartyTransactions": null,
-          "FinFyeJune": false,
-          "FinProvideVoluntarily": null,
-          "FinRelatedPartyTransactions": "No",
-          "FinReportACT": false,
-          "FinReportFrom": "2024-07-01T00:00:00.0000000Z",
-          "FinReportNSW": false,
-          "FinReportNT": false,
-          "FinReportQLD": false,
-          "FinReportSA": false,
-          "FinReportTAS": false,
-          "FinReportTo": "2025-06-30T00:00:00.0000000Z",
-          "FinReportVIC": false,
-          "FinReportWA": false,
-          "FinReportingType": null,
-          "FinSapDate": null,
-          "FundRaisingNumberACT": null,
-          "FundRaisingNumberNSW": null,
-          "FundRaisingNumberQLD": null,
-          "FundRaisingNumberSA": null,
-          "FundRaisingNumberTAS": null,
-          "FundRaisingNumberVIC": null,
-          "FundRaisingNumberWA": null,
-          "GovDocAccurate": null,
-          "GrantCapacityBuildingPct": null,
-          "GrantMultiYearPct": null,
-          "GrantPublicOpenApplicationPct": null,
-          "GrantRuralRegionPct": null,
-          "HasSubmittedToRegulator": false,
-          "HoursPaid": null,
-          "HoursTotal": null,
-          "HoursVolunteer": null,
-          "HrCasualEmployees": "0",
-          "HrFteStaff": "8.0000000000",
-          "HrFullTimeEmployees": "0",
-          "HrPartTimeEmployees": "0",
-          "HrUnpainVolunteers": "25",
-          "IncomeDonationsBequests": "1085.0000",
-          "IncomeGovernmentGrants": "2500.0000",
-          "IncomeOther": "0.0000",
-          "IncomeOtherComprehinsive": "0.0000",
-          "IncomeOtherNeg": null,
-          "IncomeOtherReceipts": "2370.0000",
-          "IncomeTotalComprehensive": "0.0000",
-          "IncomeTotalReceipts": "6502.0000",
-          "IncorporationStatus": null,
-          "InterestExpense": "0.0000",
-          "IsIncorporatedAssociation": true,
-          "KeyManagementPersonnel": false,
-          "LegalName": "BEECHFORD RESIDENTS AND PROPERTY OWNERS ASSOCIATION INC",
-          "NetAssetsLiabilities": "10000.0000",
-          "NetSurplusDeficit": "2243.0000",
-          "NonCurrentLoansPayable": "0.0000",
-          "NumberOfKeyManagementPersonnel": "0",
-          "OperatingCountries": null,
-          "OperatingInACT": false,
-          "OperatingInNSW": false,
-          "OperatingInNT": false,
-          "OperatingInQLD": false,
-          "OperatingInSA": false,
-          "OperatingInTAS": false,
-          "OperatingInVIC": false,
-          "OperatingInWA": false,
-          "OperatingOverseas": false,
-          "OtherNames": [],
-          "OtherNonCurrentAssets": "0.0000",
-          "OtherNonCurrentLiabilities": "0.0000",
-          "OtherPurposeDescription": null,
-          "OtherPurposes": "False",
-          "Programs": [
-            {
-              "AisUuid": "1e9b16ae-d3de-f011-8544-6045bde61b96",
-              "Name": "Community conclusion",
-              "OperatesOnline": true,
-              "ProgramBeneficiaries": [
-                "People in rural/regional/remote communities"
-              ],
-              "ProgramClassification": "Social inclusion",
-              "ProgramClassificationID": "464",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "Beechford TAS, Australia",
-                  "FormattedAddress": "Beechford TAS 7252, Australia",
-                  "Marker": {
-                    "Latitude": -41.0279606,
-                    "Longitude": 146.9512111
-                  },
-                  "Name": "Beechford",
-                  "uuid": "569b16ae-d3de-f011-8544-6045bde61b96"
-                }
-              ],
-              "ProgramWeblink": null,
-              "uuid": "4f9b16ae-d3de-f011-8544-6045bde61b96"
-            }
-          ],
-          "RegulatedACT": false,
-          "RegulatedNSW": false,
-          "RegulatedNT": false,
-          "RegulatedQLD": false,
-          "RegulatedSA": false,
-          "RegulatedTAS": false,
-          "RegulatedVIC": false,
-          "RegulatedWA": false,
-          "Regulator": null,
-          "RegulatorAGMDateACT": null,
-          "RegulatorAGMDateNT": null,
-          "RegulatorAGMDateVIC": null,
-          "RegulatorAGMDateWA": null,
-          "RegulatorFundRaising": "No",
-          "RegulatorFundRaisingACT": false,
-          "RegulatorFundRaisingNSW": false,
-          "RegulatorFundRaisingNT": false,
-          "RegulatorFundRaisingOnline": false,
-          "RegulatorFundRaisingQLD": false,
-          "RegulatorFundRaisingSA": false,
-          "RegulatorFundRaisingTAS": false,
-          "RegulatorFundRaisingVIC": false,
-          "RegulatorFundRaisingWA": false,
-          "RegulatorIncorporatedAssociationACT": false,
-          "RegulatorIncorporatedAssociationNSW": false,
-          "RegulatorIncorporatedAssociationNT": false,
-          "RegulatorIncorporatedAssociationNumberACT": null,
-          "RegulatorIncorporatedAssociationNumberNSW": null,
-          "RegulatorIncorporatedAssociationNumberNT": null,
-          "RegulatorIncorporatedAssociationNumberQLD": null,
-          "RegulatorIncorporatedAssociationNumberSA": null,
-          "RegulatorIncorporatedAssociationNumberTAS": "IA12048",
-          "RegulatorIncorporatedAssociationNumberVIC": null,
-          "RegulatorIncorporatedAssociationNumberWA": null,
-          "RegulatorIncorporatedAssociationQLD": false,
-          "RegulatorIncorporatedAssociationSA": false,
-          "RegulatorIncorporatedAssociationTAS": true,
-          "RegulatorIncorporatedAssociationVIC": false,
-          "RegulatorIncorporatedAssociationWA": false,
-          "RegulatorMetRequirementACT": false,
-          "RegulatorMetRequirementWA": null,
-          "RegulatorOtherDetails": null,
-          "RegulatorPrograms": null,
-          "RegulatorStates": false,
-          "RelatedPartyDetails": null,
-          "RelatedPartyTransactions": [],
-          "ReliefOfPoverty": false,
-          "ReportingGroupFlag": false,
-          "ResponsiblePersonAccurate": null,
-          "RevenueGoodsServices": "121.0000",
-          "RevenueInvestments": "426.0000",
-          "RevenueTotal": "6502.0000",
-          "StatementYear": "2025",
-          "SubTypesAccurate": null,
-          "TotalAssets": "10000.0000",
-          "TotalCurrentAssets": "0.0000",
-          "TotalCurrentLiabilities": "0.0000",
-          "TotalLiabilities": "0.0000",
-          "TotalNonCurrentAssets": null,
-          "TotalNonCurrentLiabilities": "0.0000",
-          "TotalNonCurrentLoansReceivable": "0.0000",
-          "TotalPaidKMP": "$0.00",
-          "Website": null,
-          "__normalized": true,
-          "entityTypeVersion": "",
-          "entityVersion": "1814025101",
-          "timeStamp": "2025-12-22T01:15:21.0000000Z",
-          "type": "annual_information_statement",
-          "uuid": "1e9b16ae-d3de-f011-8544-6045bde61b96"
-        },
-        "type": "annual_information_statement",
-        "uuid": "1e9b16ae-d3de-f011-8544-6045bde61b96"
-      },
-      "canonical_field_mappings": {
-        "data.Programs": "programs",
-        "data.TotalRevenue": "financial_records[].revenue",
-        "data.TotalExpenses": "financial_records[].total_expenses"
-      },
-      "evidence_ids": [
-        "ev:acnc:ais:94196952697:1e9b16ae-d3de-f011-8544-6045bde61b96"
-      ]
-    }
-  ],
-  "financial_records": [
-    {
-      "financial_record_id": "fr:ais:cb_dce5af58ad1d4be6b0ef83cc20366184:2023",
-      "period": {
-        "period_start": "2022-07-01",
-        "period_end": "2023-06-30",
-        "period_length_days": 365,
-        "label": "01/07/2022 to 30/06/2023",
-        "is_transitional_or_nonstandard": false
-      },
-      "reporting_scope": "subject",
-      "reporting_subject_causebase_id": "cb_dce5af58ad1d4be6b0ef83cc20366184",
-      "covered_subjects": [
-        "cb_dce5af58ad1d4be6b0ef83cc20366184"
-      ],
-      "consolidated": "unknown",
-      "attribution_method": "direct_subject_report",
-      "evidence_ids": [
-        "ev:ais:94196952697:2023"
-      ],
-      "revenue": {
-        "source_amount": "3120",
-        "source_currency": "AUD",
-        "source_unit_scale": "1",
-        "normalised_amount": "3120",
-        "normalised_currency": "AUD",
-        "source_unit_label": null,
-        "source_raw_value": "3120",
-        "source_precision": null
-      },
-      "donations": null,
-      "government_grants": null,
-      "employee_costs": null,
-      "total_expenses": {
-        "source_amount": "0",
-        "source_currency": "AUD",
-        "source_unit_scale": "1",
-        "normalised_amount": "0",
-        "normalised_currency": "AUD",
-        "source_unit_label": null,
-        "source_raw_value": "0",
-        "source_precision": null
-      },
-      "assets": null,
-      "liabilities": null,
-      "net_assets": null,
-      "income_breakdown": [],
-      "expense_breakdown": [],
-      "balance_sheet_breakdown": [],
-      "source_ordered_line_items": [],
-      "statements": [],
-      "donations_gifts_bequests": null,
-      "functional_expense_allocations": []
-    }
-  ],
-  "financial_metrics": [
-    {
-      "metric": "revenue",
-      "observations": [
-        {
-          "financial_record_id": "fr:ais:cb_dce5af58ad1d4be6b0ef83cc20366184:2023",
-          "amount": {
-            "source_amount": "3120",
-            "source_currency": "AUD",
-            "source_unit_scale": "1",
-            "normalised_amount": "3120",
-            "normalised_currency": "AUD",
-            "source_unit_label": null,
-            "source_raw_value": "3120",
-            "source_precision": null
-          },
-          "metric_source_label": null,
-          "evidence_ids": [
-            "ev:ais:94196952697:2023"
-          ]
-        }
-      ],
-      "reconciliation_status": "single_observation",
-      "reconciliation_notes": null
-    },
-    {
-      "metric": "total_expenses",
-      "observations": [
-        {
-          "financial_record_id": "fr:ais:cb_dce5af58ad1d4be6b0ef83cc20366184:2023",
-          "amount": {
-            "source_amount": "0",
-            "source_currency": "AUD",
-            "source_unit_scale": "1",
-            "normalised_amount": "0",
-            "normalised_currency": "AUD",
-            "source_unit_label": null,
-            "source_raw_value": "0",
-            "source_precision": null
-          },
-          "metric_source_label": null,
-          "evidence_ids": [
-            "ev:ais:94196952697:2023"
-          ]
-        }
-      ],
-      "reconciliation_status": "single_observation",
-      "reconciliation_notes": null
-    }
-  ],
-  "fundraising_expenditure": null,
-  "funding_sources": [],
-  "fundraising_methods": [],
-  "classifications": [
-    {
-      "taxonomy_id": "acnc-register",
-      "taxonomy_version": "2026-08-10",
-      "term_id": "purpose.other_purpose",
-      "term_label": "other purpose",
-      "assignment_method": "source_native",
-      "confidence": "high",
-      "evidence_ids": [
-        "ev:acnc:94196952697"
-      ]
-    },
-    {
-      "taxonomy_id": "acnc-register",
-      "taxonomy_version": "2026-08-10",
-      "term_id": "beneficiary.regional_remote",
-      "term_label": "regional remote",
-      "assignment_method": "source_native",
-      "confidence": "high",
-      "evidence_ids": [
-        "ev:acnc:94196952697"
-      ]
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "geography.australia",
-      "term_label": "Australia",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "geography.local_or_regional",
-      "term_label": "Local or regional Australia",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
+      "review_status": "not_required",
+      "conflicting_signals": []
     }
   ],
   "evidence": [
     {
       "evidence_id": "ev:acnc:94196952697",
-      "source_type": "regulatory",
-      "title": "ACNC Register extract",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": null,
-      "observed_at": "2026-08-10",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "title": "ACNC Register extract"
     },
     {
       "evidence_id": "ev:ais:94196952697:2023",
-      "source_type": "regulatory",
-      "title": "ACNC AIS 2023 extract",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": null,
-      "observed_at": "2026-08-10",
-      "reporting_period": "01/07/2022 to 30/06/2023",
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "title": "ACNC AIS 2023 extract"
     },
     {
       "evidence_id": "ev:acnc:ais:94196952697:1e9b16ae-d3de-f011-8544-6045bde61b96",
-      "source_type": "regulatory",
       "title": "ACNC Annual Information Statement 2025",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": "https://www.acnc.gov.au/charity/charities/15ae171b-38af-e811-a961-000d3ad24182/documents/1e9b16ae-d3de-f011-8544-6045bde61b96",
-      "observed_at": "2025-12-22",
-      "reporting_period": "2025",
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://www.acnc.gov.au/charity/charities/15ae171b-38af-e811-a961-000d3ad24182/documents/1e9b16ae-d3de-f011-8544-6045bde61b96"
+    },
+    {
+      "evidence_id": "ev:rc4-recovery:cb_dce5af58ad1d4be6b0ef83cc20366184:descriptive_geography:0",
+      "title": "Exact public RC4 source-field recovery at /source_payload/data/OperatingInStates/0/Name"
     }
   ],
-  "embedding": {
-    "embedding_id": "cb_dce5af58ad1d4be6b0ef83cc20366184:entity:text-embedding-3-small",
-    "embedding_type": "entity",
-    "model_id": "text-embedding-3-small",
-    "model_version": "text-embedding-3-small",
-    "dimensions": 1536,
-    "source_text_hash": "18051d96f794540a5e80a83627155589392abf79d06872e7b6efd0daaf9b49ef",
-    "generated_at": "2026-08-10T13:53:24.457285Z",
-    "vector_ref": "embeddings.parquet#cb_dce5af58ad1d4be6b0ef83cc20366184"
+  "summary": {
+    "derivative_id": "der:rc4:cb_dce5af58ad1d4be6b0ef83cc20366184:summary",
+    "text": "Beechford Residents and Property Owners Association Inc is an incorporated association linked with Tasmania, Australia. It appears on the ACNC register and submitted an Annual Information Statement covering 1 July 2022 to 30 June 2023. CauseBase does not have sufficient descriptive evidence in this release to independently identify the organisation\u2019s specific activities, services or beneficiary groups. No website, program descriptions or activity listings were available in the supplied regulatory extracts to allow a more detailed operational summary."
   },
-  "synthesis": {
-    "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
-    "parameters": {
-      "max_output_tokens": 3000,
-      "structured_output": true,
-      "output_contract": "causebase-summary-v0.3-rc2"
-    },
-    "evidence_input_hash": "7e55034e7f4c005cae002daffe4f1b0a523238f1f4bb9573fa409ba616ed744f",
-    "generated_at": "2026-08-12T14:04:58.406935Z",
-    "editorial_policy_version": "0.3-rc2"
-  },
-  "derivative_assessments": [
+  "activities": [],
+  "beneficiaries": [],
+  "descriptive_geography": [
     {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T14:04:58.406935Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-13T13:54:42.956606Z",
-      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
-      "input_hash": "7e55034e7f4c005cae002daffe4f1b0a523238f1f4bb9573fa409ba616ed744f",
-      "disposition": "reused",
-      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
-      "affected_dimensions": [
-        "summary"
+      "observation_id": "obs:rc4:cb_dce5af58ad1d4be6b0ef83cc20366184:descriptive_geography:0",
+      "label": "Tasmania",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [
+        "src:acnc-public-profile:94196952697:15ae171b-38af-e811-a961-000d3ad24182:cb_dce5af58ad1d4be6b0ef83cc20366184"
+      ],
+      "evidence_ids": [
+        "ev:rc4-recovery:cb_dce5af58ad1d4be6b0ef83cc20366184:descriptive_geography:0"
+      ],
+      "warnings": [
+        "Recovered from /source_payload/data/OperatingInStates/0/Name"
       ]
     }
   ],
-  "dataset_version": "phase2b-2026-08-14-rc4-fundraising-projection-correction",
-  "card_schema_version": "0.4",
-  "editorial_policy_version": "0.4-rc4",
-  "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T13:54:42.956606Z"
+  "navigation_geography": [],
+  "funding_sources": [],
+  "fundraising_methods": [],
+  "participation": [],
+  "opportunities": [],
+  "programs": [
+    {
+      "observation_id": "obs:rc4:cb_dce5af58ad1d4be6b0ef83cc20366184:program:prg:acnc:94196952697:4f9b16ae-d3de-f011-8544-6045bde61b96",
+      "program_id": "prg:acnc:94196952697:4f9b16ae-d3de-f011-8544-6045bde61b96",
+      "name": "Community conclusion",
+      "description": "Social inclusion",
+      "url": "https://www.acnc.gov.au/charity/charities/15ae171b-38af-e811-a961-000d3ad24182/documents/1e9b16ae-d3de-f011-8544-6045bde61b96",
+      "status": "current",
+      "claim_basis": "direct",
+      "extraction_method": "api",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:ais:94196952697:1e9b16ae-d3de-f011-8544-6045bde61b96"
+      ],
+      "time": {
+        "reporting_period": {
+          "label": "2025"
+        }
+      },
+      "warnings": []
+    }
+  ],
+  "relationships": [],
+  "classifications": [
+    {
+      "observation_id": "obs:rc4:cb_dce5af58ad1d4be6b0ef83cc20366184:classification:0",
+      "classification_id": "cls:rc4:cb_dce5af58ad1d4be6b0ef83cc20366184:0",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "purpose.other_purpose",
+      "term_label": "other purpose",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:94196952697"
+      ],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_dce5af58ad1d4be6b0ef83cc20366184:classification:1",
+      "classification_id": "cls:rc4:cb_dce5af58ad1d4be6b0ef83cc20366184:1",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "beneficiary.regional_remote",
+      "term_label": "regional remote",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:94196952697"
+      ],
+      "confidence": "high",
+      "warnings": []
+    }
+  ],
+  "coverage": {
+    "registry_id": "capability-registry-0.5-initial",
+    "current": [
+      {
+        "capability": "regulatory.acnc_profile",
+        "status": "observed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:acnc:94196952697"
+        ]
+      },
+      {
+        "capability": "regulatory.ais",
+        "status": "observed",
+        "assessed_at": "2025-12-22",
+        "source_record_ids": [
+          "src:acnc-ais-detail:94196952697:1e9b16ae-d3de-f011-8544-6045bde61b96:cb_dce5af58ad1d4be6b0ef83cc20366184"
+        ],
+        "evidence_ids": [
+          "ev:acnc:ais:94196952697:1e9b16ae-d3de-f011-8544-6045bde61b96"
+        ]
+      },
+      {
+        "capability": "tax.dgr",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "web.website",
+        "status": "not_available_from_source",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "report.annual_report",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "financial.report",
+        "status": "unknown",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:ais:94196952697:2023"
+        ]
+      },
+      {
+        "capability": "financial.statements",
+        "status": "unknown",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:ais:94196952697:2023"
+        ]
+      },
+      {
+        "capability": "understanding.activities",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.beneficiaries",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.geography",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "programs",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "participation",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "funding.sources",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.methods",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.expenditure",
+        "status": "not_available_from_source",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "taxonomy.causebase",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "semantic.embedding",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      }
+    ]
+  },
+  "financial_reports": [],
+  "canonical_metrics": [],
+  "analytic_projections": [],
+  "derivatives": [
+    {
+      "derivative_id": "der:rc4:cb_dce5af58ad1d4be6b0ef83cc20366184:summary",
+      "kind": "summary",
+      "input_observation_ids": [],
+      "evidence_ids": [
+        "ev:acnc:94196952697",
+        "ev:ais:94196952697:2023"
+      ],
+      "generated_under": {
+        "output_contract_version": "phase2b-rc4-accepted-rc2-summary-reuse",
+        "input_hash": "7e55034e7f4c005cae002daffe4f1b0a523238f1f4bb9573fa409ba616ed744f",
+        "generated_at": "2026-08-12T14:04:58.406935Z"
+      },
+      "current_assessment": {
+        "assessed_at": "2026-08-13T13:54:42.956606Z",
+        "assessed_against_contract": "0.5",
+        "governing_input_hash": "7e55034e7f4c005cae002daffe4f1b0a523238f1f4bb9573fa409ba616ed744f",
+        "disposition": "reused",
+        "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs."
+      }
+    }
+  ],
+  "legacy_unbound": {
+    "origin_release": "rc4-2026-08-14",
+    "origin_card_sha256": "5cb1debf88ffc960ab0933e9993b3eb3c6420a810f07e490fb85176ce942b4df",
+    "descriptive_geography": [
+      {
+        "value": "Australia",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "classifications": [
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "geography.australia",
+        "term_label": "Australia",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "geography.local_or_regional",
+        "term_label": "Local or regional Australia",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      }
+    ],
+    "financial_records": [
+      {
+        "financial_record_id": "fr:ais:cb_dce5af58ad1d4be6b0ef83cc20366184:2023",
+        "period": {
+          "period_start": "2022-07-01",
+          "period_end": "2023-06-30",
+          "period_length_days": 365,
+          "label": "01/07/2022 to 30/06/2023",
+          "is_transitional_or_nonstandard": false
+        },
+        "reporting_scope": "subject",
+        "reporting_subject_causebase_id": "cb_dce5af58ad1d4be6b0ef83cc20366184",
+        "covered_subjects": [
+          "cb_dce5af58ad1d4be6b0ef83cc20366184"
+        ],
+        "consolidated": "unknown",
+        "attribution_method": "direct_subject_report",
+        "evidence_ids": [
+          "ev:ais:94196952697:2023"
+        ],
+        "revenue": {
+          "source_amount": "3120",
+          "source_currency": "AUD",
+          "source_unit_scale": "1",
+          "normalised_amount": "3120",
+          "normalised_currency": "AUD",
+          "source_unit_label": null,
+          "source_raw_value": "3120",
+          "source_precision": null
+        },
+        "donations": null,
+        "government_grants": null,
+        "employee_costs": null,
+        "total_expenses": {
+          "source_amount": "0",
+          "source_currency": "AUD",
+          "source_unit_scale": "1",
+          "normalised_amount": "0",
+          "normalised_currency": "AUD",
+          "source_unit_label": null,
+          "source_raw_value": "0",
+          "source_precision": null
+        },
+        "assets": null,
+        "liabilities": null,
+        "net_assets": null,
+        "income_breakdown": [],
+        "expense_breakdown": [],
+        "balance_sheet_breakdown": [],
+        "source_ordered_line_items": [],
+        "statements": [],
+        "donations_gifts_bequests": null,
+        "functional_expense_allocations": []
+      }
+    ]
+  }
 }

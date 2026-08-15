@@ -1,539 +1,384 @@
 {
   "causebase_id": "cb_c98b2e14f66e429aa26c655d3e2ba99b",
+  "contract_version": "0.5",
   "subject_kind": "unknown",
-  "external_identifiers": [
-    {
-      "scheme": "abn",
-      "value": "24602619634",
-      "source_evidence_id": "ev:acnc:24602619634"
-    }
+  "identity": {
+    "legal_name": "INNOVATE AUSTRALIA LTD",
+    "display_name": "INNOVATE AUSTRALIA LTD",
+    "operating_names": [],
+    "former_names": [],
+    "entity_status": "registered",
+    "website": "https://innovateaustralia.org/",
+    "external_identifiers": [
+      {
+        "scheme": "abn",
+        "value": "24602619634",
+        "evidence_ids": [
+          "ev:acnc:24602619634"
+        ]
+      }
+    ],
+    "registrations": [
+      {
+        "regulator": "ACNC",
+        "status": "registered",
+        "evidence_ids": [
+          "ev:acnc:24602619634"
+        ]
+      }
+    ],
+    "tax_statuses": []
+  },
+  "release": {
+    "release_id": "v0.5.0-2026-08-15",
+    "dataset_version": "0.5.0-2026-08-15",
+    "contract_version": "0.5",
+    "based_on_release": "rc4-2026-08-14",
+    "generated_at": "2026-08-15T00:00:00Z"
+  },
+  "source_record_refs": [
+    "src:acnc-public-profile:24602619634:7cffd720-9e2f-f011-8c4d-000d3ad259fb:cb_c98b2e14f66e429aa26c655d3e2ba99b"
   ],
-  "registrations": [
-    {
-      "regulator": "ACNC",
-      "registration_id": null,
-      "status": "registered",
-      "evidence_ids": [
-        "ev:acnc:24602619634"
-      ]
-    }
-  ],
-  "tax_statuses": [],
-  "relationships": [],
-  "source_resolutions": [
+  "source_bindings": [
     {
       "source_record_id": "src:acnc-register:ed37bbd2-cb38-5d15-9644-3d4e25dcd93d",
       "resolution_status": "resolved",
       "resolution_basis": "automated authoritative ACNC promotion under acnc-authoritative-v1",
       "confidence": "high",
-      "supporting_signals": [
-        "ABN:24602619634",
-        "ACNC Register"
-      ],
-      "conflicting_signals": [],
-      "review_status": "not_required"
-    }
-  ],
-  "legal_name": "INNOVATE AUSTRALIA LTD",
-  "display_name": "INNOVATE AUSTRALIA LTD",
-  "entity_status": "registered",
-  "canonical_url": "https://gregorycwhill.github.io/CauseBase-Viewer/#cb_c98b2e14f66e429aa26c655d3e2ba99b",
-  "acnc_profile_url": "https://www.acnc.gov.au/charity/charities/7cffd720-9e2f-f011-8c4d-000d3ad259fb/profile",
-  "acnc_ais_url": null,
-  "operating_names": [],
-  "former_names": [],
-  "principal_location": "WA, Australia",
-  "coverage": [
-    {
-      "capability": "regulatory",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:acnc:24602619634"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "annual_report",
-      "status": "not_yet_processed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "fundraising_expenditure",
-      "status": "not_yet_processed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "financials",
-      "status": "not_found_in_source",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "latest_acnc_ais",
-      "status": "not_available_from_source",
-      "source_record_id": "src:acnc-public-profile:24602619634:7cffd720-9e2f-f011-8c4d-000d3ad259fb:cb_c98b2e14f66e429aa26c655d3e2ba99b",
-      "evidence_ids": [],
-      "observed_at": "2026-08-13",
-      "freshness_note": "No submitted AIS was returned by the public ACNC profile endpoint."
-    },
-    {
-      "capability": "website",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-13",
-      "freshness_note": "Public website locator acquired from the ACNC profile."
-    }
-  ],
-  "enrichment_level": "enriched",
-  "website": "https://innovateaustralia.org/",
-  "geography": [
-    "Western Australia",
-    "Organisation states it has a wide national footprint across Australia"
-  ],
-  "geography_observations": [
-    {
-      "value": "Western Australia",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Organisation states it has a wide national footprint across Australia",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "navigation_geography": [],
-  "causebase_summary": "Innovate Australia Ltd is a not-for-profit facilitator of Australian innovation, established in 2014 and based in Western Australia; the organisation states it has a wide national footprint across Australia. It works with industry to encourage, assist and promote Australian innovation, develop innovation programs and networks, and showcase innovation through events and sponsorship. Innovate Australia also judges startup competitions and publishes online commentary — a June 9, 2026 post described the organisation’s experience judging AI startups. The organisation describes itself as independent and focused on bringing about and encouraging innovation through industry-facing programs, events and online publishing.",
-  "summary_evidence_ids": [
-    "ev:acnc:24602619634",
-    "ev:web:24602619634:2026-08-10"
-  ],
-  "organisation_self_description": null,
-  "activities": [
-    "Encouraging, assisting and promoting Australian innovation",
-    "Working with industry to develop innovation programs and networks",
-    "Showcasing innovation through events and sponsorship",
-    "Judging startup competitions and publishing online commentary"
-  ],
-  "activity_observations": [
-    {
-      "value": "Encouraging, assisting and promoting Australian innovation",
-      "source_role": "legacy_source_qualifier",
-      "provenance_note": "organisation claim",
-      "evidence_ids": []
-    },
-    {
-      "value": "Working with industry to develop innovation programs and networks",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Showcasing innovation through events and sponsorship",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Judging startup competitions and publishing online commentary",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "beneficiaries": [
-    "Industry participants",
-    "Startups, including AI startups"
-  ],
-  "beneficiary_observations": [
-    {
-      "value": "Industry participants",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Startups, including AI startups",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "participation_modes": [
-    "Judging competitions",
-    "Sponsoring events",
-    "Public events and showcases",
-    "Online publishing (blogs and commentary)"
-  ],
-  "participation_observations": [],
-  "opportunities": [],
-  "programs": [],
-  "source_native_records": [
-    {
-      "source_record_id": "src:acnc-public-profile:24602619634:7cffd720-9e2f-f011-8c4d-000d3ad259fb:cb_c98b2e14f66e429aa26c655d3e2ba99b",
-      "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-14-public-api",
-      "source_url": "https://www.acnc.gov.au/charity/charities/7cffd720-9e2f-f011-8c4d-000d3ad259fb/profile",
-      "retrieved_at": "2026-08-13T13:54:42.956606Z",
-      "observed_at": "2026-08-13",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "uuid": "7cffd720-9e2f-f011-8c4d-000d3ad259fb",
-        "abn": "24602619634"
-      },
-      "source_payload": {
-        "data": {
-          "AFSAddressPostalCode": "6000",
-          "AFSEmail": "peter@innovateaustralia.org",
-          "Abn": "24602619634",
-          "AddressCountry": "Australia",
-          "AddressLine1": "L 12 197 St Georges Tce",
-          "AddressLine2": null,
-          "AddressLine3": null,
-          "AddressPostalCode": "6000",
-          "AddressStateOrProvince": "WA",
-          "AddressSuburb": "Perth",
-          "AddressSuburbStatePostcode": "Perth WA 6000",
-          "AnnualReports": [
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2026-12-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Not yet submitted",
-              "Year": "2026",
-              "type": "Annual Information Statement 2026",
-              "uuid": "0b54a71b-c171-f011-b4cc-000d3acb4ab0"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2027-12-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Not yet submitted",
-              "Year": "2027",
-              "type": "Annual Information Statement 2027",
-              "uuid": "2e54a71b-c171-f011-b4cc-000d3acb4ab0"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2026-12-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Pending",
-              "Year": "2026",
-              "type": "Financial Report 2026",
-              "uuid": "3f54a71b-c171-f011-b4cc-000d3acb4ab0"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2027-12-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Pending",
-              "Year": "2027",
-              "type": "Financial Report 2027",
-              "uuid": "5154a71b-c171-f011-b4cc-000d3acb4ab0"
-            }
-          ],
-          "Beneficiaries": [
-            {
-              "Description": null,
-              "Name": "Overseas communities or charities",
-              "uuid": "96584d7c-9f2f-f011-8c4d-0022489910d0"
-            },
-            {
-              "Description": null,
-              "Name": "People from a culturally and linguistically diverse background",
-              "uuid": "99584d7c-9f2f-f011-8c4d-0022489910d0"
-            },
-            {
-              "Description": "We promote research, technology and innovation, the organisation helps those who are either in the field, in Research and Development or enthusiasts keeping abreast of interesting fields of work in Western Australia and abroad.",
-              "Name": "Other",
-              "uuid": "9c584d7c-9f2f-f011-8c4d-0022489910d0"
-            },
-            {
-              "Description": null,
-              "Name": "General community in Australia",
-              "uuid": "9f584d7c-9f2f-f011-8c4d-0022489910d0"
-            }
-          ],
-          "CharitySize": null,
-          "CharitySubtypeHistory": [
-            {
-              "EndDate": null,
-              "Purpose": "Purposes beneficial to the general public that may reasonably be regarded as analogous to, or within the spirit of, any of the other charitable purposes",
-              "StartDate": "2023-06-30T14:00:00.0000000Z",
-              "uuid": "8b584d7c-9f2f-f011-8c4d-0022489910d0"
-            }
-          ],
-          "CharityVersion": "15",
-          "ChildMemberEndDate": null,
-          "ChildMemberStartDate": null,
-          "ChooseToProvideAis": null,
-          "Countries": [],
-          "DateEstablished": "2014-10-31T00:00:00.0000000Z",
-          "Documents": [
-            {
-              "Date": "2025-05-13T00:00:00.0000000",
-              "Title": "Innovate Australia - Constitution 2014-compressed.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/7cffd720-9e2f-f011-8c4d-000d3ad259fb-385e3293-742f-4407-bd22-f3f0333a4c4b-Governing%20Document-620a3909-9e2f-f011-8c4d-002248929f50-Innovate_Australia_-_Constitution_2014-compressed.pdf",
-              "Year": null,
-              "type": "Governing Document",
-              "uuid": "620a3909-9e2f-f011-8c4d-002248929f50"
-            }
-          ],
-          "Email": "peter@innovateaustralia.org",
-          "EnforcementOutcomes": [],
-          "FinancialYearEnd": "30/06",
-          "GovernmentAgencies": [
-            {
-              "Name": "Australian Securities and Investment Commission",
-              "ReferenceNumber": "602619634",
-              "uuid": "c4584d7c-9f2f-f011-8c4d-0022489910d0"
-            }
-          ],
-          "GroupHeadFlag": false,
-          "LastReported": null,
-          "Name": "INNOVATE AUSTRALIA LTD",
-          "NextReportDue": "2026-12-31T12:30:00.0000000Z",
-          "OperatingInStates": [
-            {
-              "Name": "Western Australia",
-              "uuid": "dc2782ae-455e-e811-a95c-000d3ad1c715"
-            }
-          ],
-          "OtherDetails": null,
-          "OtherNames": [],
-          "ParentAccountAbn": null,
-          "ParentAccountId": null,
-          "Phone": "0422232340",
-          "Programs": [],
-          "ReferendumReturnsUrl": null,
-          "RegistrationStatusHistory": [
-            {
-              "EffectiveDate": "2023-06-30T14:00:00.0000000Z",
-              "Status": "Registered",
-              "TransactionDate": "2025-08-05T05:57:48.0000000Z",
-              "uuid": "acb26419-c171-f011-b4cc-000d3a6b1e4e"
-            }
-          ],
-          "RelatedPartyTransactions": null,
-          "RelevantTransactions": null,
-          "ReportingLate": "2027-06-30T12:30:00.0000000Z",
-          "ResponsiblePersons": [
-            {
-              "Name": "Peter Kasprzak",
-              "Role": "Chairperson",
-              "uuid": "1c41eee5-281c-eb11-a813-000d3ad1cf4f"
-            },
-            {
-              "Name": "ADAM OSSEIRAN",
-              "Role": "Director",
-              "uuid": "e872c614-a02f-f011-8c4d-0022489910d0"
-            },
-            {
-              "Name": "CRAIG GREGORY",
-              "Role": "Director",
-              "uuid": "2073c614-a02f-f011-8c4d-0022489910d0"
-            },
-            {
-              "Name": "PHIL TURTLE",
-              "Role": "Director",
-              "uuid": "3a73c614-a02f-f011-8c4d-0022489910d0"
-            },
-            {
-              "Name": "Michael Mischin",
-              "Role": "Director",
-              "uuid": "f45cebda-b8ee-f011-8407-6045bde679a9"
-            }
-          ],
-          "Status": "Registered",
-          "SummaryOfActivities": null,
-          "TotalExpensesEmployee": null,
-          "TotalExpensesGrantsAndDonationsInAustralia": null,
-          "TotalExpensesGrantsAndDonationsOutsideAustralia": null,
-          "TotalExpensesInterest": null,
-          "TotalExpensesOther": null,
-          "TotalGrossIncomeDonationsAndRequests": null,
-          "TotalGrossIncomeGoodsOrServices": null,
-          "TotalGrossIncomeGovernmentGrants": null,
-          "TotalGrossIncomeInvestments": null,
-          "TotalGrossIncomeOtherRevenues": null,
-          "TransparencyRegisterUrl": null,
-          "Website": "https://innovateaustralia.org/",
-          "__normalized": true,
-          "type": "charity",
-          "uuid": "7cffd720-9e2f-f011-8c4d-000d3ad259fb"
-        },
-        "type": "charity",
-        "uuid": "7cffd720-9e2f-f011-8c4d-000d3ad259fb"
-      },
-      "canonical_field_mappings": {
-        "data.OtherNames": "operating_names",
-        "data.AddressStateOrProvince": "principal_location"
-      },
-      "evidence_ids": []
-    }
-  ],
-  "financial_records": [],
-  "financial_metrics": [],
-  "fundraising_expenditure": null,
-  "funding_sources": [],
-  "fundraising_methods": [],
-  "classifications": [
-    {
-      "taxonomy_id": "acnc-register",
-      "taxonomy_version": "2026-08-10",
-      "term_id": "purpose.other_purpose",
-      "term_label": "other purpose",
-      "assignment_method": "source_native",
-      "confidence": "high",
-      "evidence_ids": [
-        "ev:acnc:24602619634"
-      ]
-    },
-    {
-      "taxonomy_id": "acnc-register",
-      "taxonomy_version": "2026-08-10",
-      "term_id": "beneficiary.general_community",
-      "term_label": "general community",
-      "assignment_method": "source_native",
-      "confidence": "high",
-      "evidence_ids": [
-        "ev:acnc:24602619634"
-      ]
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "activity.events_and_public_programming",
-      "term_label": "Events and public programming",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "activity.advocacy",
-      "term_label": "Advocacy",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "approach.community_partnership",
-      "term_label": "Community partnership",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "participation.public_events",
-      "term_label": "Public events",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "geography.australia",
-      "term_label": "Australia",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
+      "review_status": "not_required",
+      "conflicting_signals": []
     }
   ],
   "evidence": [
     {
       "evidence_id": "ev:acnc:24602619634",
-      "source_type": "regulatory",
-      "title": "ACNC Register extract",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": null,
-      "observed_at": "2026-08-10",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "title": "ACNC Register extract"
     },
     {
       "evidence_id": "ev:web:24602619634:2026-08-10",
-      "source_type": "organisation_self_report",
       "title": "Organisation website homepage",
-      "publisher": "INNOVATE AUSTRALIA LTD",
-      "url": "https://innovateaustralia.org/",
-      "observed_at": "2026-08-10",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://innovateaustralia.org/"
+    },
+    {
+      "evidence_id": "ev:rc4-recovery:cb_c98b2e14f66e429aa26c655d3e2ba99b:descriptive_geography:0",
+      "title": "Exact public RC4 source-field recovery at /source_payload/data/OperatingInStates/0/Name"
     }
   ],
-  "embedding": {
-    "embedding_id": "cb_c98b2e14f66e429aa26c655d3e2ba99b:entity:text-embedding-3-small",
-    "embedding_type": "entity",
-    "model_id": "text-embedding-3-small",
-    "model_version": "text-embedding-3-small",
-    "dimensions": 1536,
-    "source_text_hash": "9368da83dac60ac1b2bf563ad8e311feec88b42b9cbb305e91e19008e531d508",
-    "generated_at": "2026-08-10T13:53:24.456500Z",
-    "vector_ref": "embeddings.parquet#cb_c98b2e14f66e429aa26c655d3e2ba99b"
+  "summary": {
+    "derivative_id": "der:rc4:cb_c98b2e14f66e429aa26c655d3e2ba99b:summary",
+    "text": "Innovate Australia Ltd is a not-for-profit facilitator of Australian innovation, established in 2014 and based in Western Australia; the organisation states it has a wide national footprint across Australia. It works with industry to encourage, assist and promote Australian innovation, develop innovation programs and networks, and showcase innovation through events and sponsorship. Innovate Australia also judges startup competitions and publishes online commentary \u2014 a June 9, 2026 post described the organisation\u2019s experience judging AI startups. The organisation describes itself as independent and focused on bringing about and encouraging innovation through industry-facing programs, events and online publishing."
   },
-  "synthesis": {
-    "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
-    "parameters": {
-      "max_output_tokens": 3000,
-      "structured_output": true,
-      "output_contract": "causebase-summary-v0.3-rc2"
-    },
-    "evidence_input_hash": "0c4f987a055d5c9c77a304ec5a546509596dfdfc8dac828f7218a4afe2729af7",
-    "generated_at": "2026-08-12T13:52:17.361450Z",
-    "editorial_policy_version": "0.3-rc2"
-  },
-  "derivative_assessments": [
+  "activities": [],
+  "beneficiaries": [],
+  "descriptive_geography": [
     {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T13:52:17.361450Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-13T13:54:42.956606Z",
-      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
-      "input_hash": "0c4f987a055d5c9c77a304ec5a546509596dfdfc8dac828f7218a4afe2729af7",
-      "disposition": "reused",
-      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
-      "affected_dimensions": [
-        "summary"
+      "observation_id": "obs:rc4:cb_c98b2e14f66e429aa26c655d3e2ba99b:descriptive_geography:0",
+      "label": "Western Australia",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [
+        "src:acnc-public-profile:24602619634:7cffd720-9e2f-f011-8c4d-000d3ad259fb:cb_c98b2e14f66e429aa26c655d3e2ba99b"
+      ],
+      "evidence_ids": [
+        "ev:rc4-recovery:cb_c98b2e14f66e429aa26c655d3e2ba99b:descriptive_geography:0"
+      ],
+      "warnings": [
+        "Recovered from /source_payload/data/OperatingInStates/0/Name"
       ]
     }
   ],
-  "dataset_version": "phase2b-2026-08-14-rc4-fundraising-projection-correction",
-  "card_schema_version": "0.4",
-  "editorial_policy_version": "0.4-rc4",
-  "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T13:54:42.956606Z"
+  "navigation_geography": [],
+  "funding_sources": [],
+  "fundraising_methods": [],
+  "participation": [],
+  "opportunities": [],
+  "programs": [],
+  "relationships": [],
+  "classifications": [
+    {
+      "observation_id": "obs:rc4:cb_c98b2e14f66e429aa26c655d3e2ba99b:classification:0",
+      "classification_id": "cls:rc4:cb_c98b2e14f66e429aa26c655d3e2ba99b:0",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "purpose.other_purpose",
+      "term_label": "other purpose",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:24602619634"
+      ],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_c98b2e14f66e429aa26c655d3e2ba99b:classification:1",
+      "classification_id": "cls:rc4:cb_c98b2e14f66e429aa26c655d3e2ba99b:1",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "beneficiary.general_community",
+      "term_label": "general community",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:24602619634"
+      ],
+      "confidence": "high",
+      "warnings": []
+    }
+  ],
+  "coverage": {
+    "registry_id": "capability-registry-0.5-initial",
+    "current": [
+      {
+        "capability": "regulatory.acnc_profile",
+        "status": "observed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:acnc:24602619634"
+        ]
+      },
+      {
+        "capability": "regulatory.ais",
+        "status": "not_available_from_source",
+        "assessed_at": "2026-08-13",
+        "source_record_ids": [
+          "src:acnc-public-profile:24602619634:7cffd720-9e2f-f011-8c4d-000d3ad259fb:cb_c98b2e14f66e429aa26c655d3e2ba99b"
+        ],
+        "evidence_ids": []
+      },
+      {
+        "capability": "tax.dgr",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "web.website",
+        "status": "observed",
+        "assessed_at": "2026-08-13",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "report.annual_report",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "financial.report",
+        "status": "not_found_in_source",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "financial.statements",
+        "status": "not_found_in_source",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.activities",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.beneficiaries",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.geography",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "programs",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "participation",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "funding.sources",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.methods",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.expenditure",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "taxonomy.causebase",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "semantic.embedding",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      }
+    ]
+  },
+  "financial_reports": [],
+  "canonical_metrics": [],
+  "analytic_projections": [],
+  "derivatives": [
+    {
+      "derivative_id": "der:rc4:cb_c98b2e14f66e429aa26c655d3e2ba99b:summary",
+      "kind": "summary",
+      "input_observation_ids": [],
+      "evidence_ids": [
+        "ev:acnc:24602619634",
+        "ev:web:24602619634:2026-08-10"
+      ],
+      "generated_under": {
+        "output_contract_version": "phase2b-rc4-accepted-rc2-summary-reuse",
+        "input_hash": "0c4f987a055d5c9c77a304ec5a546509596dfdfc8dac828f7218a4afe2729af7",
+        "generated_at": "2026-08-12T13:52:17.361450Z"
+      },
+      "current_assessment": {
+        "assessed_at": "2026-08-13T13:54:42.956606Z",
+        "assessed_against_contract": "0.5",
+        "governing_input_hash": "0c4f987a055d5c9c77a304ec5a546509596dfdfc8dac828f7218a4afe2729af7",
+        "disposition": "reused",
+        "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs."
+      }
+    }
+  ],
+  "legacy_unbound": {
+    "origin_release": "rc4-2026-08-14",
+    "origin_card_sha256": "4d62140470439a408d1e684d874a260c2b8371d853c24e6ae70081f18c6a1855",
+    "activities": [
+      {
+        "value": "Encouraging, assisting and promoting Australian innovation",
+        "source_role": "legacy_source_qualifier",
+        "provenance_note": "organisation claim",
+        "evidence_ids": []
+      },
+      {
+        "value": "Working with industry to develop innovation programs and networks",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Showcasing innovation through events and sponsorship",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Judging startup competitions and publishing online commentary",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "beneficiaries": [
+      {
+        "value": "Industry participants",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Startups, including AI startups",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "descriptive_geography": [
+      {
+        "value": "Organisation states it has a wide national footprint across Australia",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "classifications": [
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "activity.events_and_public_programming",
+        "term_label": "Events and public programming",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "activity.advocacy",
+        "term_label": "Advocacy",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "approach.community_partnership",
+        "term_label": "Community partnership",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "participation.public_events",
+        "term_label": "Public events",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "geography.australia",
+        "term_label": "Australia",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      }
+    ]
+  }
 }

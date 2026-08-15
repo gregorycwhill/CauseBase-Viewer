@@ -1,1390 +1,440 @@
 {
   "causebase_id": "cb_34b9adafae054a8a94461072b6e66df1",
+  "contract_version": "0.5",
   "subject_kind": "unknown",
-  "external_identifiers": [
-    {
-      "scheme": "abn",
-      "value": "76000005210",
-      "source_evidence_id": "ev:acnc:76000005210"
-    }
+  "identity": {
+    "legal_name": "Catholic Church Insurance Limited",
+    "display_name": "Catholic Church Insurance Limited",
+    "operating_names": [],
+    "former_names": [],
+    "entity_status": "registered",
+    "website": "www.ccinsurance.org.au",
+    "external_identifiers": [
+      {
+        "scheme": "abn",
+        "value": "76000005210",
+        "evidence_ids": [
+          "ev:acnc:76000005210"
+        ]
+      }
+    ],
+    "registrations": [
+      {
+        "regulator": "ACNC",
+        "status": "registered",
+        "evidence_ids": [
+          "ev:acnc:76000005210"
+        ]
+      }
+    ],
+    "tax_statuses": []
+  },
+  "release": {
+    "release_id": "v0.5.0-2026-08-15",
+    "dataset_version": "0.5.0-2026-08-15",
+    "contract_version": "0.5",
+    "based_on_release": "rc4-2026-08-14",
+    "generated_at": "2026-08-15T00:00:00Z"
+  },
+  "source_record_refs": [
+    "src:acnc-public-profile:76000005210:23565117-39af-e811-a960-000d3ad24282:cb_34b9adafae054a8a94461072b6e66df1",
+    "src:acnc-ais-detail:76000005210:ad836831-c8db-f011-8544-7ced8d3448aa:cb_34b9adafae054a8a94461072b6e66df1"
   ],
-  "registrations": [
-    {
-      "regulator": "ACNC",
-      "registration_id": null,
-      "status": "registered",
-      "evidence_ids": [
-        "ev:acnc:76000005210"
-      ]
-    }
-  ],
-  "tax_statuses": [],
-  "relationships": [],
-  "source_resolutions": [
+  "source_bindings": [
     {
       "source_record_id": "src:acnc-register:31b79dba-71a4-54d3-beb3-fb0941e162ff",
       "resolution_status": "resolved",
       "resolution_basis": "automated authoritative ACNC promotion under acnc-authoritative-v1",
       "confidence": "high",
-      "supporting_signals": [
-        "ABN:76000005210",
-        "ACNC Register"
-      ],
-      "conflicting_signals": [],
-      "review_status": "not_required"
-    }
-  ],
-  "legal_name": "Catholic Church Insurance Limited",
-  "display_name": "Catholic Church Insurance Limited",
-  "entity_status": "registered",
-  "canonical_url": "https://gregorycwhill.github.io/CauseBase-Viewer/#cb_34b9adafae054a8a94461072b6e66df1",
-  "acnc_profile_url": "https://www.acnc.gov.au/charity/charities/23565117-39af-e811-a960-000d3ad24282/profile",
-  "acnc_ais_url": "https://www.acnc.gov.au/charity/charities/23565117-39af-e811-a960-000d3ad24282/documents/ad836831-c8db-f011-8544-7ced8d3448aa",
-  "operating_names": [],
-  "former_names": [],
-  "principal_location": "VIC, Australia",
-  "coverage": [
-    {
-      "capability": "regulatory",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:acnc:76000005210"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "annual_report",
-      "status": "not_yet_processed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "fundraising_expenditure",
-      "status": "not_available_from_source",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": "No direct or defensible derived fundraising expenditure was found in selected Phase 2A evidence."
-    },
-    {
-      "capability": "financials",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:ais:76000005210:2023"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "latest_acnc_ais",
-      "status": "observed",
-      "source_record_id": "src:acnc-ais-detail:76000005210:ad836831-c8db-f011-8544-7ced8d3448aa:cb_34b9adafae054a8a94461072b6e66df1",
-      "evidence_ids": [
-        "ev:acnc:ais:76000005210:ad836831-c8db-f011-8544-7ced8d3448aa"
-      ],
-      "observed_at": "2025-12-18",
-      "freshness_note": "Latest submitted AIS detail acquired from the public ACNC entity endpoint."
-    },
-    {
-      "capability": "website",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-13",
-      "freshness_note": "Public website locator acquired from the ACNC profile."
-    }
-  ],
-  "enrichment_level": "enriched",
-  "website": "www.ccinsurance.org.au",
-  "geography": [
-    "Victoria (registered location)",
-    "Australia"
-  ],
-  "geography_observations": [
-    {
-      "value": "Victoria (registered location)",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Australia",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "navigation_geography": [],
-  "causebase_summary": "Catholic Church Insurance Limited is a Victoria‑registered insurer operating in Australia. It provides customer‑facing insurance administration, including claims handling, issuing certificates of currency, accepting policy payments and online policy management via a customer portal. The organisation publishes information on financial hardship and maintains news and media statements, including a notice referencing subscription to the General Insurance Code of Practice and an update titled “orderly run‑off of CCI business” (May 2023). Regulatory filings include an Australian Information Statement for the 2022–23 year. Evidence for these activities and communications comes from the organisation’s website and regulator records cited below.",
-  "summary_evidence_ids": [
-    "ev:acnc:76000005210",
-    "ev:web:76000005210:2026-08-10",
-    "ev:ais:76000005210:2023"
-  ],
-  "organisation_self_description": null,
-  "activities": [
-    "Customer-facing insurance administration (claims processing, certificates of currency, policy payments)",
-    "Online policy management via customer portal",
-    "Information provision on financial hardship",
-    "Publication of news and media statements"
-  ],
-  "activity_observations": [
-    {
-      "value": "Customer-facing insurance administration (claims processing, certificates of currency, policy payments)",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Online policy management via customer portal",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Information provision on financial hardship",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Publication of news and media statements",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "beneficiaries": [],
-  "beneficiary_observations": [],
-  "participation_modes": [],
-  "participation_observations": [],
-  "opportunities": [],
-  "programs": [
-    {
-      "program_id": "prg:acnc:76000005210:c9836831-c8db-f011-8544-7ced8d3448aa",
-      "name": "Religious activities",
-      "description": "Catholicism",
-      "beneficiaries": [
-        "Other charities",
-        "Other - Organisations associated with the Catholic Church"
-      ],
-      "geography": [
-        "Australia"
-      ],
-      "status": "current",
-      "reporting_period": "2025",
-      "source_url": "https://www.acnc.gov.au/charity/charities/23565117-39af-e811-a960-000d3ad24282/documents/ad836831-c8db-f011-8544-7ced8d3448aa",
-      "evidence_ids": [
-        "ev:acnc:ais:76000005210:ad836831-c8db-f011-8544-7ced8d3448aa"
-      ]
-    }
-  ],
-  "source_native_records": [
-    {
-      "source_record_id": "src:acnc-public-profile:76000005210:23565117-39af-e811-a960-000d3ad24282:cb_34b9adafae054a8a94461072b6e66df1",
-      "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-14-public-api",
-      "source_url": "https://www.acnc.gov.au/charity/charities/23565117-39af-e811-a960-000d3ad24282/profile",
-      "retrieved_at": "2026-08-13T13:54:42.956606Z",
-      "observed_at": "2025-12-18",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "uuid": "23565117-39af-e811-a960-000d3ad24282",
-        "abn": "76000005210"
-      },
-      "source_payload": {
-        "data": {
-          "AFSAddressPostalCode": "3000",
-          "AFSEmail": "cosec@ccinsurance.org.au",
-          "Abn": "76000005210",
-          "AddressCountry": "Australia",
-          "AddressLine1": "Level 7, 180 Flinders Street",
-          "AddressLine2": null,
-          "AddressLine3": null,
-          "AddressPostalCode": "3000",
-          "AddressStateOrProvince": "VIC",
-          "AddressSuburb": "Melbourne",
-          "AddressSuburbStatePostcode": "Melbourne VIC 3000",
-          "AnnualReports": [
-            {
-              "AISId": null,
-              "DateReceived": "2020-01-13T01:06:20.0000000Z",
-              "DocumentUuid": "4feea5ee-a435-ea11-a813-000d3ad1cc03",
-              "DueDate": "2020-01-31T00:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2019",
-              "type": "Financial Report 2019",
-              "uuid": "84ce15c9-ec25-e911-a976-000d3ad02a61"
-            },
-            {
-              "AISId": "21e365f4-a435-ea11-a812-000d3ad1ce4e",
-              "DateReceived": "2020-01-13T01:06:22.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2020-01-31T00:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2019",
-              "type": "Annual Information Statement 2019",
-              "uuid": "b0ce15c9-ec25-e911-a976-000d3ad02a61"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2020-12-15T03:45:16.0000000Z",
-              "DocumentUuid": "6db537e9-873e-eb11-a813-000d3acae853",
-              "DueDate": "2021-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2020",
-              "type": "Financial Report 2020",
-              "uuid": "d9ce15c9-ec25-e911-a976-000d3ad02a61"
-            },
-            {
-              "AISId": "0106f7ed-873e-eb11-bf6b-000d3a6b0983",
-              "DateReceived": "2020-12-15T03:45:19.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2021-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2020",
-              "type": "Annual Information Statement 2020",
-              "uuid": "0bcf15c9-ec25-e911-a976-000d3ad02a61"
-            },
-            {
-              "AISId": "e0fc78bf-a642-ec11-8c60-000d3acbf13f",
-              "DateReceived": "2021-11-11T04:21:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2022-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2021",
-              "type": "Annual Information Statement 2021",
-              "uuid": "90f64ed2-9244-ea11-a813-000d3ad1ce4e"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2021-11-11T04:20:52.0000000Z",
-              "DocumentUuid": "f0b06aa7-a642-ec11-8c62-00224811e013",
-              "DueDate": "2022-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2021",
-              "type": "Financial Report 2021",
-              "uuid": "a0f64ed2-9244-ea11-a813-000d3ad1ce4e"
-            },
-            {
-              "AISId": "075dbe51-b076-ed11-81ab-00224810001d",
-              "DateReceived": "2022-12-08T04:25:29.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2023-01-31T00:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2022",
-              "type": "Annual Information Statement 2022",
-              "uuid": "5a8c6bd4-d063-eb11-b0b0-000d3ad1f29c"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2022-12-08T04:25:23.0000000Z",
-              "DocumentUuid": "546fe349-b076-ed11-81ac-00224893bc23",
-              "DueDate": "2023-01-31T00:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2022",
-              "type": "Financial Report 2022",
-              "uuid": "658c6bd4-d063-eb11-b0b0-000d3ad1f29c"
-            },
-            {
-              "AISId": "44f21536-51c8-e811-a964-000d3ad24077",
-              "DateReceived": "2014-10-28T13:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2015-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2014",
-              "type": "Annual Information Statement 2014",
-              "uuid": "d0f21536-51c8-e811-a964-000d3ad24077"
-            },
-            {
-              "AISId": "59f21536-51c8-e811-a964-000d3ad24077",
-              "DateReceived": "2016-01-20T13:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2016-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2015",
-              "type": "Annual Information Statement 2015",
-              "uuid": "d8f21536-51c8-e811-a964-000d3ad24077"
-            },
-            {
-              "AISId": "67f21536-51c8-e811-a964-000d3ad24077",
-              "DateReceived": "2016-11-06T13:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2017-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2016",
-              "type": "Annual Information Statement 2016",
-              "uuid": "e2f21536-51c8-e811-a964-000d3ad24077"
-            },
-            {
-              "AISId": "7ef21536-51c8-e811-a964-000d3ad24077",
-              "DateReceived": "2017-12-13T13:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2018-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2017",
-              "type": "Annual Information Statement 2017",
-              "uuid": "f0f21536-51c8-e811-a964-000d3ad24077"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2016-01-20T13:00:00.0000000Z",
-              "DocumentUuid": "a0bbfba7-47b0-e811-a962-000d3ad24a0d",
-              "DueDate": "2016-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2015",
-              "type": "Financial Report 2015",
-              "uuid": "f291fe0d-3fc8-e811-a964-000d3ad244fd"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2014-10-28T13:00:00.0000000Z",
-              "DocumentUuid": "7cbbfba7-47b0-e811-a962-000d3ad24a0d",
-              "DueDate": "2015-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2014",
-              "type": "Financial Report 2014",
-              "uuid": "0a92fe0d-3fc8-e811-a964-000d3ad244fd"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2016-11-06T13:00:00.0000000Z",
-              "DocumentUuid": "debbfba7-47b0-e811-a962-000d3ad24a0d",
-              "DueDate": "2017-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2016",
-              "type": "Financial Report 2016",
-              "uuid": "1f92fe0d-3fc8-e811-a964-000d3ad244fd"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2017-12-13T13:00:00.0000000Z",
-              "DocumentUuid": "fbbbfba7-47b0-e811-a962-000d3ad24a0d",
-              "DueDate": "2018-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2017",
-              "type": "Financial Report 2017",
-              "uuid": "3692fe0d-3fc8-e811-a964-000d3ad244fd"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required",
-              "Year": "2013",
-              "type": "Financial Report 2013",
-              "uuid": "4392fe0d-3fc8-e811-a964-000d3ad244fd"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2018-12-18T23:35:51.0000000Z",
-              "DocumentUuid": "3f554098-1d03-e911-a967-000d3ad24282",
-              "DueDate": "2019-03-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2018",
-              "type": "Financial Report 2018",
-              "uuid": "5e92fe0d-3fc8-e811-a964-000d3ad244fd"
-            },
-            {
-              "AISId": "32aa3ba4-1d03-e911-a971-000d3ad05e15",
-              "DateReceived": "2018-12-18T23:36:12.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2019-03-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2018",
-              "type": "Annual Information Statement 2018",
-              "uuid": "ee27c5be-3ac8-e811-a963-000d3ad24a0d"
-            },
-            {
-              "AISId": "d5217237-51c8-e811-a95f-000d3ad24c60",
-              "DateReceived": "2013-10-22T13:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2014-03-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2013",
-              "type": "Annual Information Statement 2013",
-              "uuid": "7911d036-51c8-e811-a963-000d3ad24a0d"
-            },
-            {
-              "AISId": "1c30d825-7c34-f011-8c4c-002248991b7d",
-              "DateReceived": "2024-01-31T12:46:19.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2024-01-31T00:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2023",
-              "type": "Annual Information Statement 2023",
-              "uuid": "7e3c18e2-a782-ec11-8d20-002248929301"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2024-01-31T12:45:40.0000000Z",
-              "DocumentUuid": "57b66d1b-7c34-f011-8c4c-002248112833",
-              "DueDate": "2024-01-31T00:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2023",
-              "type": "Financial Report 2023",
-              "uuid": "9a3c18e2-a782-ec11-8d20-002248929301"
-            },
-            {
-              "AISId": "01c75e17-7889-f111-ab0f-70a8a5547962",
-              "DateReceived": "2024-12-18T00:05:55.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2025-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2024",
-              "type": "Annual Information Statement 2024",
-              "uuid": "080c5415-caa1-ed11-aad1-00224893b0ed"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2024-12-18T00:06:03.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2025-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2024",
-              "type": "Financial Report 2024",
-              "uuid": "350c5415-caa1-ed11-aad1-00224893b0ed"
-            },
-            {
-              "AISId": "ad836831-c8db-f011-8544-7ced8d3448aa",
-              "DateReceived": "2025-12-18T04:15:36.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2026-01-31T00:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2025",
-              "type": "Annual Information Statement 2025",
-              "uuid": "a2e4f736-a3c0-ee11-907a-00224893bfad"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2025-12-18T04:15:21.0000000Z",
-              "DocumentUuid": "1c8b0726-c8db-f011-8544-7ced8d344e2d",
-              "DueDate": "2026-01-31T00:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2025",
-              "type": "Financial Report 2025",
-              "uuid": "c7e4f736-a3c0-ee11-907a-00224893bfad"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2027-12-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Not yet submitted",
-              "Year": "2027",
-              "type": "Annual Information Statement 2027",
-              "uuid": "2f31cbd2-04ff-f011-8406-6045bdc27ae7"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2027-12-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Pending",
-              "Year": "2027",
-              "type": "Financial Report 2027",
-              "uuid": "6631cbd2-04ff-f011-8406-6045bdc27ae7"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2026-12-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Not yet submitted",
-              "Year": "2026",
-              "type": "Annual Information Statement 2026",
-              "uuid": "e3e246e7-d3df-ef11-a731-7c1e522ad709"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2026-12-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Pending",
-              "Year": "2026",
-              "type": "Financial Report 2026",
-              "uuid": "16e346e7-d3df-ef11-a731-7c1e522ad709"
-            }
-          ],
-          "Beneficiaries": [
-            {
-              "Description": null,
-              "Name": "Other charities",
-              "uuid": "e7836831-c8db-f011-8544-7ced8d3448aa"
-            },
-            {
-              "Description": null,
-              "Name": "Other",
-              "uuid": "ef836831-c8db-f011-8544-7ced8d3448aa"
-            }
-          ],
-          "CharitySize": "Large",
-          "CharitySubtypeHistory": [
-            {
-              "EndDate": "2013-12-30T13:00:00.0000000Z",
-              "Purpose": "2012 Advancement of religion",
-              "StartDate": "2012-12-02T13:00:00.0000000Z",
-              "uuid": "1b695577-fdc6-e811-a964-000d3ad24077"
-            },
-            {
-              "EndDate": null,
-              "Purpose": "Advancing religion",
-              "StartDate": "2013-12-31T13:00:00.0000000Z",
-              "uuid": "2e695577-fdc6-e811-a964-000d3ad24077"
-            }
-          ],
-          "CharityVersion": "215",
-          "ChildMemberEndDate": null,
-          "ChildMemberStartDate": null,
-          "ChooseToProvideAis": null,
-          "Countries": [
-            {
-              "Name": "Australia",
-              "uuid": "f57b5602-9a4d-e811-a951-000d3ad06f2d"
-            }
-          ],
-          "DateEstablished": "1910-12-31T13:00:00.0000000Z",
-          "Documents": [
-            {
-              "Date": "2013-02-05T00:00:00.0000000",
-              "Title": "20130205 Catholic Church Insurance Limited GovDoc.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/23565117-39af-e811-a960-000d3ad24282-dd6487dc-7559-4a7a-b2e8-6e44a5818a7a-Governing%20Document-90f8ccab-47b0-e811-a961-000d3ad24182-20130205_Catholic_Church_Insurance_Limited_GovDoc.pdf",
-              "Year": null,
-              "type": "Governing Document",
-              "uuid": "90f8ccab-47b0-e811-a961-000d3ad24182"
-            },
-            {
-              "Date": "2020-01-13T00:00:00.0000000",
-              "Title": "https://www.ccinsurance.org.au/Documents/Annual%20Report%202019.pdf",
-              "Url": "https://www.ccinsurance.org.au/Documents/Annual%20Report%202019.pdf",
-              "Year": "2019",
-              "type": "Annual Report",
-              "uuid": "5ceea5ee-a435-ea11-a813-000d3ad1cc03"
-            },
-            {
-              "Date": "2020-12-15T00:00:00.0000000",
-              "Title": "CCI Signed Financial Statements FY20.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/23565117-39af-e811-a960-000d3ad24282-dd6487dc-7559-4a7a-b2e8-6e44a5818a7a-Financial%20Report-6db537e9-873e-eb11-a813-000d3acae853-CCI_Signed_Financial_Statements_FY20.pdf",
-              "Year": "2020",
-              "type": "Financial Report",
-              "uuid": "6db537e9-873e-eb11-a813-000d3acae853"
-            },
-            {
-              "Date": "2020-01-13T00:00:00.0000000",
-              "Title": "CCI - Financial and Audit Report 2019.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/23565117-39af-e811-a960-000d3ad24282-dd6487dc-7559-4a7a-b2e8-6e44a5818a7a-Financial%20Report-4feea5ee-a435-ea11-a813-000d3ad1cc03-CCI_-_Financial_and_Audit_Report_2019.pdf",
-              "Year": "2019",
-              "type": "Financial Report",
-              "uuid": "4feea5ee-a435-ea11-a813-000d3ad1cc03"
-            },
-            {
-              "Date": "2015-09-08T00:00:00.0000000",
-              "Title": "CCI Annual Report 2014 FINAL.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/23565117-39af-e811-a960-000d3ad24282-dd6487dc-7559-4a7a-b2e8-6e44a5818a7a-Financial%20Report-7cbbfba7-47b0-e811-a962-000d3ad24a0d-CCI_Annual_Report_2014_FINAL.pdf",
-              "Year": "2014",
-              "type": "Financial Report",
-              "uuid": "7cbbfba7-47b0-e811-a962-000d3ad24a0d"
-            },
-            {
-              "Date": "2018-12-19T00:00:00.0000000",
-              "Title": "Annual Report 2018.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/23565117-39af-e811-a960-000d3ad24282-dd6487dc-7559-4a7a-b2e8-6e44a5818a7a-Financial%20Report-3f554098-1d03-e911-a967-000d3ad24282-Annual_Report_2018.pdf",
-              "Year": "2018",
-              "type": "Financial Report",
-              "uuid": "3f554098-1d03-e911-a967-000d3ad24282"
-            },
-            {
-              "Date": "2016-01-21T00:00:00.0000000",
-              "Title": "2015 Annual Report.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/23565117-39af-e811-a960-000d3ad24282-dd6487dc-7559-4a7a-b2e8-6e44a5818a7a-Financial%20Report-a0bbfba7-47b0-e811-a962-000d3ad24a0d-2015_Annual_Report.pdf",
-              "Year": "2015",
-              "type": "Financial Report",
-              "uuid": "a0bbfba7-47b0-e811-a962-000d3ad24a0d"
-            },
-            {
-              "Date": "2016-11-07T00:00:00.0000000",
-              "Title": "CCI Annual Report 2016.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/23565117-39af-e811-a960-000d3ad24282-dd6487dc-7559-4a7a-b2e8-6e44a5818a7a-Financial%20Report-debbfba7-47b0-e811-a962-000d3ad24a0d-CCI_Annual_Report_2016.pdf",
-              "Year": "2016",
-              "type": "Financial Report",
-              "uuid": "debbfba7-47b0-e811-a962-000d3ad24a0d"
-            },
-            {
-              "Date": "2017-12-14T00:00:00.0000000",
-              "Title": "CCI Consolidated Financial Report 2017.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/23565117-39af-e811-a960-000d3ad24282-dd6487dc-7559-4a7a-b2e8-6e44a5818a7a-Financial%20Report-fbbbfba7-47b0-e811-a962-000d3ad24a0d-CCI_Consolidated_Financial_Report_2017.pdf",
-              "Year": "2017",
-              "type": "Financial Report",
-              "uuid": "fbbbfba7-47b0-e811-a962-000d3ad24a0d"
-            },
-            {
-              "Date": "2025-05-19T00:00:00.0000000",
-              "Title": "CCI-Annual-Report-2023 - FINAL.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/23565117-39af-e811-a960-000d3ad24282-dd6487dc-7559-4a7a-b2e8-6e44a5818a7a-Financial%20Report-57b66d1b-7c34-f011-8c4c-002248112833-CCI-Annual-Report-2023_-_FINAL.pdf",
-              "Year": "2023",
-              "type": "Financial Report",
-              "uuid": "57b66d1b-7c34-f011-8c4c-002248112833"
-            },
-            {
-              "Date": "2021-11-11T00:00:00.0000000",
-              "Title": "CCI Limited Annual Report 2021 (FINAL SIGNED AUDIT) 08.09.2021 ptp.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/23565117-39af-e811-a960-000d3ad24282-dd6487dc-7559-4a7a-b2e8-6e44a5818a7a-Financial%20Report-f0b06aa7-a642-ec11-8c62-00224811e013-CCI_Limited_Annual_Report_2021_(FINAL_SIGNED_AUDIT)_08.09.2021_ptp.pdf",
-              "Year": "2021",
-              "type": "Financial Report",
-              "uuid": "f0b06aa7-a642-ec11-8c62-00224811e013"
-            },
-            {
-              "Date": "2022-12-08T00:00:00.0000000",
-              "Title": "CCI 2022 Annual Report.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/23565117-39af-e811-a960-000d3ad24282-dd6487dc-7559-4a7a-b2e8-6e44a5818a7a-Financial%20Report-546fe349-b076-ed11-81ac-00224893bc23-CCI_2022_Annual_Report.pdf",
-              "Year": "2022",
-              "type": "Financial Report",
-              "uuid": "546fe349-b076-ed11-81ac-00224893bc23"
-            },
-            {
-              "Date": "2026-07-27T00:00:00.0000000",
-              "Title": "2024 CCI Annual Report.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/23565117-39af-e811-a960-000d3ad24282-dd6487dc-7559-4a7a-b2e8-6e44a5818a7a-Financial%20Report-9a4c3d09-7889-f111-ab0f-7c1e52636035-2024_CCI_Annual_Report.pdf",
-              "Year": "2024",
-              "type": "Financial Report",
-              "uuid": "9a4c3d09-7889-f111-ab0f-7c1e52636035"
-            },
-            {
-              "Date": "2025-12-18T00:00:00.0000000",
-              "Title": "CCI-Annual-Report-2025 AGM Version.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/23565117-39af-e811-a960-000d3ad24282-dd6487dc-7559-4a7a-b2e8-6e44a5818a7a-Financial%20Report-1c8b0726-c8db-f011-8544-7ced8d344e2d-CCI-Annual-Report-2025_AGM_Version.pdf",
-              "Year": "2025",
-              "type": "Financial Report",
-              "uuid": "1c8b0726-c8db-f011-8544-7ced8d344e2d"
-            }
-          ],
-          "Email": "cosec@ccinsurance.org.au",
-          "EnforcementOutcomes": [],
-          "FinancialYearEnd": "30/06",
-          "GovernmentAgencies": [
-            {
-              "Name": "Australian Securities and Investment Commission",
-              "ReferenceNumber": "000005210",
-              "uuid": "9bed91b9-e6af-e811-a961-000d3ad24182"
-            }
-          ],
-          "GroupHeadFlag": false,
-          "LastReported": "2025-12-18T04:15:36.0000000Z",
-          "Name": "Catholic Church Insurance Limited",
-          "NextReportDue": "2026-12-31T12:30:00.0000000Z",
-          "OperatingInStates": [],
-          "OtherDetails": null,
-          "OtherNames": [],
-          "ParentAccountAbn": null,
-          "ParentAccountId": null,
-          "Phone": null,
-          "Programs": [
-            {
-              "AisUuid": "ad836831-c8db-f011-8544-7ced8d3448aa",
-              "Name": "Religious activities",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Other charities",
-                "Other - Organisations associated with the Catholic Church"
-              ],
-              "ProgramClassie": [
-                {
-                  "classie_id": "742",
-                  "label": "Catholicism",
-                  "parent_id": "741",
-                  "selected": true
-                },
-                {
-                  "classie_id": "741",
-                  "label": "Christianity",
-                  "parent_id": "738",
-                  "selected": false
-                },
-                {
-                  "classie_id": "738",
-                  "label": "Religion and faith-based spirituality",
-                  "parent_id": null,
-                  "selected": false
-                }
-              ],
-              "ProgramClassification": "Catholicism",
-              "ProgramClassificationID": "742",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "Australia",
-                  "FormattedAddress": "Australia",
-                  "Marker": {
-                    "Latitude": -25.274398,
-                    "Longitude": 133.775136
-                  },
-                  "Name": "Australia",
-                  "uuid": "d6836831-c8db-f011-8544-7ced8d3448aa"
-                }
-              ],
-              "ProgramWeblink": null,
-              "uuid": "c9836831-c8db-f011-8544-7ced8d3448aa"
-            }
-          ],
-          "ReferendumReturnsUrl": null,
-          "RegistrationStatusHistory": [
-            {
-              "EffectiveDate": "2012-12-02T13:00:00.0000000Z",
-              "Status": "Registered",
-              "TransactionDate": "2012-12-02T13:00:00.0000000Z",
-              "uuid": "196d4eab-06c6-e811-a964-000d3ad244fd"
-            }
-          ],
-          "RelatedPartyTransactions": null,
-          "RelevantTransactions": null,
-          "ReportingLate": "2027-06-30T12:30:00.0000000Z",
-          "ResponsiblePersons": [
-            {
-              "Name": "Matthew Doquile",
-              "Role": "Director",
-              "uuid": "3fb310c8-5950-e911-a97c-000d3ad06f2d"
-            },
-            {
-              "Name": "Noel Condon",
-              "Role": "Director",
-              "uuid": "3acfe5fe-b43d-eb11-bf6b-000d3a6b0983"
-            },
-            {
-              "Name": "Joan Fitzpatrick",
-              "Role": "Director",
-              "uuid": "0674cdd7-59bc-e811-a964-000d3ad244fd"
-            },
-            {
-              "Name": "Eamonn Cunningham",
-              "Role": "Director",
-              "uuid": "8f2181fe-b5d7-eb11-bacb-0022481070a1"
-            },
-            {
-              "Name": "Benjamin John Carruthers",
-              "Role": "Secretary",
-              "uuid": "63ef854c-5b42-ef11-a316-002248128597"
-            },
-            {
-              "Name": "Janelle Howell",
-              "Role": "Other",
-              "uuid": "cd821d8f-e1f6-ee11-a1ff-000d3acc46f8"
-            },
-            {
-              "Name": "David Issa",
-              "Role": "Director",
-              "uuid": "dcf0d4da-886f-ed11-81ad-00224893bfad"
-            }
-          ],
-          "Status": "Registered",
-          "SummaryOfActivities": "Provision of insurance and risk services to the Catholic Church and its entities, and other religious and not-for-profit entities.",
-          "TotalExpensesEmployee": "17876765",
-          "TotalExpensesGrantsAndDonationsInAustralia": "0",
-          "TotalExpensesGrantsAndDonationsOutsideAustralia": "0",
-          "TotalExpensesInterest": "0",
-          "TotalExpensesOther": "0",
-          "TotalGrossIncomeDonationsAndRequests": "0",
-          "TotalGrossIncomeGoodsOrServices": "0",
-          "TotalGrossIncomeGovernmentGrants": "0",
-          "TotalGrossIncomeInvestments": "27756766",
-          "TotalGrossIncomeOtherRevenues": "78493737",
-          "TransparencyRegisterUrl": null,
-          "Website": "www.ccinsurance.org.au",
-          "__normalized": true,
-          "type": "charity",
-          "uuid": "23565117-39af-e811-a960-000d3ad24282"
-        },
-        "type": "charity",
-        "uuid": "23565117-39af-e811-a960-000d3ad24282"
-      },
-      "canonical_field_mappings": {
-        "data.OtherNames": "operating_names",
-        "data.AddressStateOrProvince": "principal_location"
-      },
-      "evidence_ids": []
-    },
-    {
-      "source_record_id": "src:acnc-ais-detail:76000005210:ad836831-c8db-f011-8544-7ced8d3448aa:cb_34b9adafae054a8a94461072b6e66df1",
-      "source_family": "acnc-ais-detail",
-      "dataset_version": "2026-08-14-public-api",
-      "source_url": "https://www.acnc.gov.au/charity/charities/23565117-39af-e811-a960-000d3ad24282/documents/ad836831-c8db-f011-8544-7ced8d3448aa",
-      "retrieved_at": "2026-08-13T13:54:42.956606Z",
-      "observed_at": "2025-12-18",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "abn": "76000005210",
-        "ais_uuid": "ad836831-c8db-f011-8544-7ced8d3448aa",
-        "year": "2025",
-        "date_received": "2025-12-18T04:15:36.0000000Z"
-      },
-      "source_payload": {
-        "data": {
-          "Abn": "76000005210",
-          "ActivityAdvocacyNCivic": false,
-          "ActivityAgedCare": false,
-          "ActivityAnimalProtection": false,
-          "ActivityCultureAndArt": false,
-          "ActivityEconomicSocialCommunity": false,
-          "ActivityEmergencyNRelief": false,
-          "ActivityEmploymentNTraining": false,
-          "ActivityEnvironmental": false,
-          "ActivityGrantMaking": false,
-          "ActivityHealthRehabilitation": false,
-          "ActivityHigherEducation": false,
-          "ActivityHousing": false,
-          "ActivityIncomeSupportNMaintenance": false,
-          "ActivityInternational": false,
-          "ActivityInternationalDescription": null,
-          "ActivityInternationalOther": false,
-          "ActivityInternationalOtherDescription": null,
-          "ActivityLawNLegalServices": false,
-          "ActivityMain": null,
-          "ActivityMentalHealthCrisisIntervention": false,
-          "ActivityNdisSupported": null,
-          "ActivityNdisSupportedNext": null,
-          "ActivityOperating": true,
-          "ActivityOperatingOverseas": false,
-          "ActivityOther": false,
-          "ActivityOtherDescription": null,
-          "ActivityOtherEducation": false,
-          "ActivityOtherHealthServices": false,
-          "ActivityPersuitPurposesDescription": "Provision of insurance and risk services to the Catholic Church and its entities, and other religious and not-for-profit entities.",
-          "ActivityPhilanthropicPromotion": false,
-          "ActivityPolitical": false,
-          "ActivityPrimarySecondaryEducation": false,
-          "ActivityPurposeChange": null,
-          "ActivityPurposeChangeDescription": null,
-          "ActivityRecreationSocialClub": false,
-          "ActivityReligious": false,
-          "ActivityResearch": false,
-          "ActivitySocialServices": false,
-          "ActivitySports": false,
-          "ActivityTransferringFundsGoods": false,
-          "AdvancementOfEducation": false,
-          "AdvancementOfReligion": false,
-          "AssetsandLiabilitiesDescription": null,
-          "BasicReligiousCharity": false,
-          "BeneficiaryAboriginalTorres": false,
-          "BeneficiaryAdults": false,
-          "BeneficiaryAllAges": false,
-          "BeneficiaryChildren": false,
-          "BeneficiaryChronicIllness": false,
-          "BeneficiaryCrimeVictims": false,
-          "BeneficiaryDisasterVictims": false,
-          "BeneficiaryEarlyChildhood": false,
-          "BeneficiaryEthnic": false,
-          "BeneficiaryFamilies": false,
-          "BeneficiaryFinanciallyDisadvantaged": false,
-          "BeneficiaryGeneral": false,
-          "BeneficiaryHomelessnessRisk": false,
-          "BeneficiaryLGBT": false,
-          "BeneficiaryMain": null,
-          "BeneficiaryMen": false,
-          "BeneficiaryMigrantsRefugees": false,
-          "BeneficiaryOffenderFamilies": false,
-          "BeneficiaryOther": false,
-          "BeneficiaryOtherCharities": false,
-          "BeneficiaryOtherDescription": null,
-          "BeneficiaryOverseas": false,
-          "BeneficiaryPeopleWithDisability": false,
-          "BeneficiaryRuralRegionalRemote": false,
-          "BeneficiarySeniors": false,
-          "BeneficiaryUnemployed": false,
-          "BeneficiaryVeteranFamilies": false,
-          "BeneficiaryWomen": false,
-          "BeneficiaryYouth": false,
-          "CharityAddressCountry": "Australia",
-          "CharityAddressLine1": "Level 7, 180 Flinders Street",
-          "CharityAddressLine2": null,
-          "CharityAddressPostalCode": "3000",
-          "CharityAddressStateOrProvince": "VIC",
-          "CharityAddressSuburb": "Melbourne",
-          "CharityEmail": "cosec@ccinsurance.org.au",
-          "CharitySize": "Large",
-          "CharityUuid": "23565117-39af-e811-a960-000d3ad24282",
-          "ChildCareServices": false,
-          "ExpenseEmployees": "17876765.0000",
-          "ExpenseGrantDonationsInAustralia": "0.0000",
-          "ExpenseGrantDonationsOutsideAustralia": "0.0000",
-          "ExpenseTotal": "17876765.0000",
-          "ExpensesOther": "0.0000",
-          "FinAccrualAccounting": null,
-          "FinConsolidatedReportFromMiltiple": "No",
-          "FinDocumentedPoliciesRelatedPartyTransactions": null,
-          "FinFyeJune": false,
-          "FinProvideVoluntarily": null,
-          "FinRelatedPartyTransactions": "No",
-          "FinReportACT": false,
-          "FinReportFrom": "2024-07-01T00:00:00.0000000Z",
-          "FinReportNSW": false,
-          "FinReportNT": false,
-          "FinReportQLD": false,
-          "FinReportSA": false,
-          "FinReportTAS": false,
-          "FinReportTo": "2025-06-30T00:00:00.0000000Z",
-          "FinReportVIC": false,
-          "FinReportWA": false,
-          "FinReportingType": "General purpose financial statements",
-          "FinSapDate": null,
-          "FundRaisingNumberACT": null,
-          "FundRaisingNumberNSW": null,
-          "FundRaisingNumberQLD": null,
-          "FundRaisingNumberSA": null,
-          "FundRaisingNumberTAS": null,
-          "FundRaisingNumberVIC": null,
-          "FundRaisingNumberWA": null,
-          "GovDocAccurate": null,
-          "GrantCapacityBuildingPct": null,
-          "GrantMultiYearPct": null,
-          "GrantPublicOpenApplicationPct": null,
-          "GrantRuralRegionPct": null,
-          "HasSubmittedToRegulator": false,
-          "HoursPaid": null,
-          "HoursTotal": null,
-          "HoursVolunteer": null,
-          "HrCasualEmployees": "0",
-          "HrFteStaff": "37.3000000000",
-          "HrFullTimeEmployees": "33",
-          "HrPartTimeEmployees": "6",
-          "HrUnpainVolunteers": "0",
-          "IncomeDonationsBequests": "0.0000",
-          "IncomeGovernmentGrants": "0.0000",
-          "IncomeOther": "2985471.0000",
-          "IncomeOtherComprehinsive": "0.0000",
-          "IncomeOtherNeg": null,
-          "IncomeOtherReceipts": "78493737.0000",
-          "IncomeTotalComprehensive": "91359209.0000",
-          "IncomeTotalReceipts": "109235974.0000",
-          "IncorporationStatus": null,
-          "InterestExpense": "0.0000",
-          "IsIncorporatedAssociation": false,
-          "KeyManagementPersonnel": true,
-          "LegalName": "Catholic Church Insurance Limited",
-          "NetAssetsLiabilities": "47705717.0000",
-          "NetSurplusDeficit": "91359209.0000",
-          "NonCurrentLoansPayable": "0.0000",
-          "NumberOfKeyManagementPersonnel": "6",
-          "OperatingCountries": null,
-          "OperatingInACT": false,
-          "OperatingInNSW": false,
-          "OperatingInNT": false,
-          "OperatingInQLD": false,
-          "OperatingInSA": false,
-          "OperatingInTAS": false,
-          "OperatingInVIC": false,
-          "OperatingInWA": false,
-          "OperatingOverseas": false,
-          "OtherNames": [],
-          "OtherNonCurrentAssets": "399032929.0000",
-          "OtherNonCurrentLiabilities": "335196968.0000",
-          "OtherPurposeDescription": null,
-          "OtherPurposes": "False",
-          "Programs": [
-            {
-              "AisUuid": "ad836831-c8db-f011-8544-7ced8d3448aa",
-              "Name": "Religious activities",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Other charities",
-                "Other - Organisations associated with the Catholic Church"
-              ],
-              "ProgramClassification": "Catholicism",
-              "ProgramClassificationID": "742",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "Australia",
-                  "FormattedAddress": "Australia",
-                  "Marker": {
-                    "Latitude": -25.274398,
-                    "Longitude": 133.775136
-                  },
-                  "Name": "Australia",
-                  "uuid": "d6836831-c8db-f011-8544-7ced8d3448aa"
-                }
-              ],
-              "ProgramWeblink": null,
-              "uuid": "c9836831-c8db-f011-8544-7ced8d3448aa"
-            }
-          ],
-          "RegulatedACT": false,
-          "RegulatedNSW": false,
-          "RegulatedNT": false,
-          "RegulatedQLD": false,
-          "RegulatedSA": false,
-          "RegulatedTAS": false,
-          "RegulatedVIC": false,
-          "RegulatedWA": false,
-          "Regulator": null,
-          "RegulatorAGMDateACT": null,
-          "RegulatorAGMDateNT": null,
-          "RegulatorAGMDateVIC": null,
-          "RegulatorAGMDateWA": null,
-          "RegulatorFundRaising": "No",
-          "RegulatorFundRaisingACT": false,
-          "RegulatorFundRaisingNSW": false,
-          "RegulatorFundRaisingNT": false,
-          "RegulatorFundRaisingOnline": false,
-          "RegulatorFundRaisingQLD": false,
-          "RegulatorFundRaisingSA": false,
-          "RegulatorFundRaisingTAS": false,
-          "RegulatorFundRaisingVIC": false,
-          "RegulatorFundRaisingWA": false,
-          "RegulatorIncorporatedAssociationACT": false,
-          "RegulatorIncorporatedAssociationNSW": false,
-          "RegulatorIncorporatedAssociationNT": false,
-          "RegulatorIncorporatedAssociationNumberACT": null,
-          "RegulatorIncorporatedAssociationNumberNSW": null,
-          "RegulatorIncorporatedAssociationNumberNT": null,
-          "RegulatorIncorporatedAssociationNumberQLD": null,
-          "RegulatorIncorporatedAssociationNumberSA": null,
-          "RegulatorIncorporatedAssociationNumberTAS": null,
-          "RegulatorIncorporatedAssociationNumberVIC": null,
-          "RegulatorIncorporatedAssociationNumberWA": null,
-          "RegulatorIncorporatedAssociationQLD": false,
-          "RegulatorIncorporatedAssociationSA": false,
-          "RegulatorIncorporatedAssociationTAS": false,
-          "RegulatorIncorporatedAssociationVIC": false,
-          "RegulatorIncorporatedAssociationWA": false,
-          "RegulatorMetRequirementACT": false,
-          "RegulatorMetRequirementWA": null,
-          "RegulatorOtherDetails": null,
-          "RegulatorPrograms": null,
-          "RegulatorStates": false,
-          "RelatedPartyDetails": null,
-          "RelatedPartyTransactions": [],
-          "ReliefOfPoverty": false,
-          "ReportingGroupFlag": false,
-          "ResponsiblePersonAccurate": null,
-          "RevenueGoodsServices": "0.0000",
-          "RevenueInvestments": "27756766.0000",
-          "RevenueTotal": "106250503.0000",
-          "StatementYear": "2025",
-          "SubTypesAccurate": null,
-          "TotalAssets": "596339456.0000",
-          "TotalCurrentAssets": "197306527.0000",
-          "TotalCurrentLiabilities": "213436771.0000",
-          "TotalLiabilities": "548633739.0000",
-          "TotalNonCurrentAssets": "399032929.0000",
-          "TotalNonCurrentLiabilities": "335196968.0000",
-          "TotalNonCurrentLoansReceivable": "0.0000",
-          "TotalPaidKMP": "$3,596,154.00",
-          "Website": "www.ccinsurance.org.au",
-          "__normalized": true,
-          "entityTypeVersion": "",
-          "entityVersion": "1812041198",
-          "timeStamp": "2025-12-18T04:15:34.0000000Z",
-          "type": "annual_information_statement",
-          "uuid": "ad836831-c8db-f011-8544-7ced8d3448aa"
-        },
-        "type": "annual_information_statement",
-        "uuid": "ad836831-c8db-f011-8544-7ced8d3448aa"
-      },
-      "canonical_field_mappings": {
-        "data.Programs": "programs",
-        "data.TotalRevenue": "financial_records[].revenue",
-        "data.TotalExpenses": "financial_records[].total_expenses"
-      },
-      "evidence_ids": [
-        "ev:acnc:ais:76000005210:ad836831-c8db-f011-8544-7ced8d3448aa"
-      ]
-    }
-  ],
-  "financial_records": [
-    {
-      "financial_record_id": "fr:ais:cb_34b9adafae054a8a94461072b6e66df1:2023",
-      "period": {
-        "period_start": "2022-07-01",
-        "period_end": "2023-06-30",
-        "period_length_days": 365,
-        "label": "01/07/2022 to 30/06/2023",
-        "is_transitional_or_nonstandard": false
-      },
-      "reporting_scope": "subject",
-      "reporting_subject_causebase_id": "cb_34b9adafae054a8a94461072b6e66df1",
-      "covered_subjects": [
-        "cb_34b9adafae054a8a94461072b6e66df1"
-      ],
-      "consolidated": "true",
-      "attribution_method": "direct_subject_report",
-      "evidence_ids": [
-        "ev:ais:76000005210:2023"
-      ],
-      "revenue": {
-        "source_amount": "699284628",
-        "source_currency": "AUD",
-        "source_unit_scale": "1",
-        "normalised_amount": "699284628",
-        "normalised_currency": "AUD",
-        "source_unit_label": null,
-        "source_raw_value": "699284628",
-        "source_precision": null
-      },
-      "donations": null,
-      "government_grants": null,
-      "employee_costs": null,
-      "total_expenses": {
-        "source_amount": "974618881",
-        "source_currency": "AUD",
-        "source_unit_scale": "1",
-        "normalised_amount": "974618881",
-        "normalised_currency": "AUD",
-        "source_unit_label": null,
-        "source_raw_value": "974618881",
-        "source_precision": null
-      },
-      "assets": null,
-      "liabilities": null,
-      "net_assets": null,
-      "income_breakdown": [],
-      "expense_breakdown": [],
-      "balance_sheet_breakdown": [],
-      "source_ordered_line_items": [],
-      "statements": [],
-      "donations_gifts_bequests": null,
-      "functional_expense_allocations": []
-    }
-  ],
-  "financial_metrics": [
-    {
-      "metric": "revenue",
-      "observations": [
-        {
-          "financial_record_id": "fr:ais:cb_34b9adafae054a8a94461072b6e66df1:2023",
-          "amount": {
-            "source_amount": "699284628",
-            "source_currency": "AUD",
-            "source_unit_scale": "1",
-            "normalised_amount": "699284628",
-            "normalised_currency": "AUD",
-            "source_unit_label": null,
-            "source_raw_value": "699284628",
-            "source_precision": null
-          },
-          "metric_source_label": null,
-          "evidence_ids": [
-            "ev:ais:76000005210:2023"
-          ]
-        }
-      ],
-      "reconciliation_status": "single_observation",
-      "reconciliation_notes": null
-    },
-    {
-      "metric": "total_expenses",
-      "observations": [
-        {
-          "financial_record_id": "fr:ais:cb_34b9adafae054a8a94461072b6e66df1:2023",
-          "amount": {
-            "source_amount": "974618881",
-            "source_currency": "AUD",
-            "source_unit_scale": "1",
-            "normalised_amount": "974618881",
-            "normalised_currency": "AUD",
-            "source_unit_label": null,
-            "source_raw_value": "974618881",
-            "source_precision": null
-          },
-          "metric_source_label": null,
-          "evidence_ids": [
-            "ev:ais:76000005210:2023"
-          ]
-        }
-      ],
-      "reconciliation_status": "single_observation",
-      "reconciliation_notes": null
-    }
-  ],
-  "fundraising_expenditure": null,
-  "funding_sources": [],
-  "fundraising_methods": [],
-  "classifications": [
-    {
-      "taxonomy_id": "acnc-register",
-      "taxonomy_version": "2026-08-10",
-      "term_id": "purpose.religion",
-      "term_label": "religion",
-      "assignment_method": "source_native",
-      "confidence": "high",
-      "evidence_ids": [
-        "ev:acnc:76000005210"
-      ]
-    },
-    {
-      "taxonomy_id": "acnc-register",
-      "taxonomy_version": "2026-08-10",
-      "term_id": "beneficiary.other_beneficiary",
-      "term_label": "other beneficiary",
-      "assignment_method": "source_native",
-      "confidence": "high",
-      "evidence_ids": [
-        "ev:acnc:76000005210"
-      ]
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "activity.direct_service",
-      "term_label": "Direct service delivery",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "geography.australia",
-      "term_label": "Australia",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "geography.local_or_regional",
-      "term_label": "Local or regional Australia",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "organisation.local",
-      "term_label": "Local organisation",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
+      "review_status": "not_required",
+      "conflicting_signals": []
     }
   ],
   "evidence": [
     {
       "evidence_id": "ev:acnc:76000005210",
-      "source_type": "regulatory",
-      "title": "ACNC Register extract",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": null,
-      "observed_at": "2026-08-10",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "title": "ACNC Register extract"
     },
     {
       "evidence_id": "ev:web:76000005210:2026-08-10",
-      "source_type": "organisation_self_report",
       "title": "Organisation website homepage",
-      "publisher": "Catholic Church Insurance Limited",
-      "url": "https://www.ccinsurance.org.au",
-      "observed_at": "2026-08-10",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://www.ccinsurance.org.au"
     },
     {
       "evidence_id": "ev:ais:76000005210:2023",
-      "source_type": "regulatory",
-      "title": "ACNC AIS 2023 extract",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": null,
-      "observed_at": "2026-08-10",
-      "reporting_period": "01/07/2022 to 30/06/2023",
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "title": "ACNC AIS 2023 extract"
     },
     {
       "evidence_id": "ev:acnc:ais:76000005210:ad836831-c8db-f011-8544-7ced8d3448aa",
-      "source_type": "regulatory",
       "title": "ACNC Annual Information Statement 2025",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": "https://www.acnc.gov.au/charity/charities/23565117-39af-e811-a960-000d3ad24282/documents/ad836831-c8db-f011-8544-7ced8d3448aa",
-      "observed_at": "2025-12-18",
-      "reporting_period": "2025",
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://www.acnc.gov.au/charity/charities/23565117-39af-e811-a960-000d3ad24282/documents/ad836831-c8db-f011-8544-7ced8d3448aa"
     }
   ],
-  "embedding": {
-    "embedding_id": "cb_34b9adafae054a8a94461072b6e66df1:entity:text-embedding-3-small",
-    "embedding_type": "entity",
-    "model_id": "text-embedding-3-small",
-    "model_version": "text-embedding-3-small",
-    "dimensions": 1536,
-    "source_text_hash": "3e48b933a54a37a1c647423e76be76b36f5dce6a87975fedc80c84a1b29b9d93",
-    "generated_at": "2026-08-10T13:53:24.457993Z",
-    "vector_ref": "embeddings.parquet#cb_34b9adafae054a8a94461072b6e66df1"
+  "summary": {
+    "derivative_id": "der:rc4:cb_34b9adafae054a8a94461072b6e66df1:summary",
+    "text": "Catholic Church Insurance Limited is a Victoria\u2011registered insurer operating in Australia. It provides customer\u2011facing insurance administration, including claims handling, issuing certificates of currency, accepting policy payments and online policy management via a customer portal. The organisation publishes information on financial hardship and maintains news and media statements, including a notice referencing subscription to the General Insurance Code of Practice and an update titled \u201corderly run\u2011off of CCI business\u201d (May 2023). Regulatory filings include an Australian Information Statement for the 2022\u201323 year. Evidence for these activities and communications comes from the organisation\u2019s website and regulator records cited below."
   },
-  "synthesis": {
-    "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
-    "parameters": {
-      "max_output_tokens": 3000,
-      "structured_output": true,
-      "output_contract": "causebase-summary-v0.3-rc2"
-    },
-    "evidence_input_hash": "4bbbd275aa789e9e3af773c8a3a05fc753a83fc1b74e7a1a89abbd1d1883b8af",
-    "generated_at": "2026-08-12T14:17:43.291418Z",
-    "editorial_policy_version": "0.3-rc2"
-  },
-  "derivative_assessments": [
+  "activities": [],
+  "beneficiaries": [],
+  "descriptive_geography": [],
+  "navigation_geography": [],
+  "funding_sources": [],
+  "fundraising_methods": [],
+  "participation": [],
+  "opportunities": [],
+  "programs": [
     {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T14:17:43.291418Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-13T13:54:42.956606Z",
-      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
-      "input_hash": "4bbbd275aa789e9e3af773c8a3a05fc753a83fc1b74e7a1a89abbd1d1883b8af",
-      "disposition": "reused",
-      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
-      "affected_dimensions": [
-        "summary"
-      ]
+      "observation_id": "obs:rc4:cb_34b9adafae054a8a94461072b6e66df1:program:prg:acnc:76000005210:c9836831-c8db-f011-8544-7ced8d3448aa",
+      "program_id": "prg:acnc:76000005210:c9836831-c8db-f011-8544-7ced8d3448aa",
+      "name": "Religious activities",
+      "description": "Catholicism",
+      "url": "https://www.acnc.gov.au/charity/charities/23565117-39af-e811-a960-000d3ad24282/documents/ad836831-c8db-f011-8544-7ced8d3448aa",
+      "status": "current",
+      "claim_basis": "direct",
+      "extraction_method": "api",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:ais:76000005210:ad836831-c8db-f011-8544-7ced8d3448aa"
+      ],
+      "time": {
+        "reporting_period": {
+          "label": "2025"
+        }
+      },
+      "warnings": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-14-rc4-fundraising-projection-correction",
-  "card_schema_version": "0.4",
-  "editorial_policy_version": "0.4-rc4",
-  "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T13:54:42.956606Z"
+  "relationships": [],
+  "classifications": [
+    {
+      "observation_id": "obs:rc4:cb_34b9adafae054a8a94461072b6e66df1:classification:0",
+      "classification_id": "cls:rc4:cb_34b9adafae054a8a94461072b6e66df1:0",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "purpose.religion",
+      "term_label": "religion",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:76000005210"
+      ],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_34b9adafae054a8a94461072b6e66df1:classification:1",
+      "classification_id": "cls:rc4:cb_34b9adafae054a8a94461072b6e66df1:1",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "beneficiary.other_beneficiary",
+      "term_label": "other beneficiary",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:76000005210"
+      ],
+      "confidence": "high",
+      "warnings": []
+    }
+  ],
+  "coverage": {
+    "registry_id": "capability-registry-0.5-initial",
+    "current": [
+      {
+        "capability": "regulatory.acnc_profile",
+        "status": "observed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:acnc:76000005210"
+        ]
+      },
+      {
+        "capability": "regulatory.ais",
+        "status": "observed",
+        "assessed_at": "2025-12-18",
+        "source_record_ids": [
+          "src:acnc-ais-detail:76000005210:ad836831-c8db-f011-8544-7ced8d3448aa:cb_34b9adafae054a8a94461072b6e66df1"
+        ],
+        "evidence_ids": [
+          "ev:acnc:ais:76000005210:ad836831-c8db-f011-8544-7ced8d3448aa"
+        ]
+      },
+      {
+        "capability": "tax.dgr",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "web.website",
+        "status": "observed",
+        "assessed_at": "2026-08-13",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "report.annual_report",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "financial.report",
+        "status": "unknown",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:ais:76000005210:2023"
+        ]
+      },
+      {
+        "capability": "financial.statements",
+        "status": "unknown",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:ais:76000005210:2023"
+        ]
+      },
+      {
+        "capability": "understanding.activities",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.beneficiaries",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.geography",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "programs",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "participation",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "funding.sources",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.methods",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.expenditure",
+        "status": "not_available_from_source",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "taxonomy.causebase",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "semantic.embedding",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      }
+    ]
+  },
+  "financial_reports": [],
+  "canonical_metrics": [],
+  "analytic_projections": [],
+  "derivatives": [
+    {
+      "derivative_id": "der:rc4:cb_34b9adafae054a8a94461072b6e66df1:summary",
+      "kind": "summary",
+      "input_observation_ids": [],
+      "evidence_ids": [
+        "ev:acnc:76000005210",
+        "ev:web:76000005210:2026-08-10",
+        "ev:ais:76000005210:2023"
+      ],
+      "generated_under": {
+        "output_contract_version": "phase2b-rc4-accepted-rc2-summary-reuse",
+        "input_hash": "4bbbd275aa789e9e3af773c8a3a05fc753a83fc1b74e7a1a89abbd1d1883b8af",
+        "generated_at": "2026-08-12T14:17:43.291418Z"
+      },
+      "current_assessment": {
+        "assessed_at": "2026-08-13T13:54:42.956606Z",
+        "assessed_against_contract": "0.5",
+        "governing_input_hash": "4bbbd275aa789e9e3af773c8a3a05fc753a83fc1b74e7a1a89abbd1d1883b8af",
+        "disposition": "reused",
+        "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs."
+      }
+    }
+  ],
+  "legacy_unbound": {
+    "origin_release": "rc4-2026-08-14",
+    "origin_card_sha256": "602c82ac529be13c973e7c088781f017919c4494e6412a2b79f5a39ea80642ee",
+    "activities": [
+      {
+        "value": "Customer-facing insurance administration (claims processing, certificates of currency, policy payments)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Online policy management via customer portal",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Information provision on financial hardship",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Publication of news and media statements",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "descriptive_geography": [
+      {
+        "value": "Victoria (registered location)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Australia",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "classifications": [
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "activity.direct_service",
+        "term_label": "Direct service delivery",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "geography.australia",
+        "term_label": "Australia",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "geography.local_or_regional",
+        "term_label": "Local or regional Australia",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "organisation.local",
+        "term_label": "Local organisation",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      }
+    ],
+    "financial_records": [
+      {
+        "financial_record_id": "fr:ais:cb_34b9adafae054a8a94461072b6e66df1:2023",
+        "period": {
+          "period_start": "2022-07-01",
+          "period_end": "2023-06-30",
+          "period_length_days": 365,
+          "label": "01/07/2022 to 30/06/2023",
+          "is_transitional_or_nonstandard": false
+        },
+        "reporting_scope": "subject",
+        "reporting_subject_causebase_id": "cb_34b9adafae054a8a94461072b6e66df1",
+        "covered_subjects": [
+          "cb_34b9adafae054a8a94461072b6e66df1"
+        ],
+        "consolidated": "true",
+        "attribution_method": "direct_subject_report",
+        "evidence_ids": [
+          "ev:ais:76000005210:2023"
+        ],
+        "revenue": {
+          "source_amount": "699284628",
+          "source_currency": "AUD",
+          "source_unit_scale": "1",
+          "normalised_amount": "699284628",
+          "normalised_currency": "AUD",
+          "source_unit_label": null,
+          "source_raw_value": "699284628",
+          "source_precision": null
+        },
+        "donations": null,
+        "government_grants": null,
+        "employee_costs": null,
+        "total_expenses": {
+          "source_amount": "974618881",
+          "source_currency": "AUD",
+          "source_unit_scale": "1",
+          "normalised_amount": "974618881",
+          "normalised_currency": "AUD",
+          "source_unit_label": null,
+          "source_raw_value": "974618881",
+          "source_precision": null
+        },
+        "assets": null,
+        "liabilities": null,
+        "net_assets": null,
+        "income_breakdown": [],
+        "expense_breakdown": [],
+        "balance_sheet_breakdown": [],
+        "source_ordered_line_items": [],
+        "statements": [],
+        "donations_gifts_bequests": null,
+        "functional_expense_allocations": []
+      }
+    ]
+  }
 }

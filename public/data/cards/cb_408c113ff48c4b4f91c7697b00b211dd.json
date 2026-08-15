@@ -1,1458 +1,496 @@
 {
   "causebase_id": "cb_408c113ff48c4b4f91c7697b00b211dd",
+  "contract_version": "0.5",
   "subject_kind": "unknown",
-  "external_identifiers": [
-    {
-      "scheme": "abn",
-      "value": "49929713439",
-      "source_evidence_id": "ev:acnc:49929713439"
-    }
+  "identity": {
+    "legal_name": "Defence Force Welfare Association - National Inc",
+    "display_name": "Defence Force Welfare Association - National Inc",
+    "operating_names": [],
+    "former_names": [],
+    "entity_status": "registered",
+    "website": "https://www.dfwa.org.au/",
+    "external_identifiers": [
+      {
+        "scheme": "abn",
+        "value": "49929713439",
+        "evidence_ids": [
+          "ev:acnc:49929713439"
+        ]
+      }
+    ],
+    "registrations": [
+      {
+        "regulator": "ACNC",
+        "status": "registered",
+        "evidence_ids": [
+          "ev:acnc:49929713439"
+        ]
+      }
+    ],
+    "tax_statuses": [
+      {
+        "scheme": "ABR DGR",
+        "status": "endorsed",
+        "evidence_ids": [
+          "ev:abr-dgr:49929713439:20260805"
+        ]
+      }
+    ]
+  },
+  "release": {
+    "release_id": "v0.5.0-2026-08-15",
+    "dataset_version": "0.5.0-2026-08-15",
+    "contract_version": "0.5",
+    "based_on_release": "rc4-2026-08-14",
+    "generated_at": "2026-08-15T00:00:00Z"
+  },
+  "source_record_refs": [
+    "src:acnc-public-profile:49929713439:a46b8058-38af-e811-a963-000d3ad244fd:cb_408c113ff48c4b4f91c7697b00b211dd",
+    "src:acnc-ais-detail:49929713439:79c04e7b-be3a-f111-88b5-002248111f49:cb_408c113ff48c4b4f91c7697b00b211dd"
   ],
-  "registrations": [
-    {
-      "regulator": "ACNC",
-      "registration_id": null,
-      "status": "registered",
-      "evidence_ids": [
-        "ev:acnc:49929713439"
-      ]
-    }
-  ],
-  "tax_statuses": [
-    {
-      "scheme": "ABR DGR",
-      "status": "endorsed",
-      "detail": "Dated 2026-08-05 ABR bulk observation",
-      "evidence_ids": [
-        "ev:abr-dgr:49929713439:20260805"
-      ]
-    }
-  ],
-  "relationships": [],
-  "source_resolutions": [
+  "source_bindings": [
     {
       "source_record_id": "src:acnc-register:b7c90a65-7c58-58c3-b44b-b5d302dbf937",
       "resolution_status": "resolved",
       "resolution_basis": "automated authoritative ACNC promotion under acnc-authoritative-v1",
       "confidence": "high",
-      "supporting_signals": [
-        "ABN:49929713439",
-        "ACNC Register"
-      ],
-      "conflicting_signals": [],
-      "review_status": "not_required"
-    }
-  ],
-  "legal_name": "Defence Force Welfare Association - National Inc",
-  "display_name": "Defence Force Welfare Association - National Inc",
-  "entity_status": "registered",
-  "canonical_url": "https://gregorycwhill.github.io/CauseBase-Viewer/#cb_408c113ff48c4b4f91c7697b00b211dd",
-  "acnc_profile_url": "https://www.acnc.gov.au/charity/charities/a46b8058-38af-e811-a963-000d3ad244fd/profile",
-  "acnc_ais_url": "https://www.acnc.gov.au/charity/charities/a46b8058-38af-e811-a963-000d3ad244fd/documents/79c04e7b-be3a-f111-88b5-002248111f49",
-  "operating_names": [],
-  "former_names": [],
-  "principal_location": "ACT, Australia",
-  "coverage": [
-    {
-      "capability": "regulatory",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:acnc:49929713439"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "annual_report",
-      "status": "not_yet_processed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "fundraising_expenditure",
-      "status": "not_available_from_source",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": "No direct or defensible derived fundraising expenditure was found in selected Phase 2A evidence."
-    },
-    {
-      "capability": "financials",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:ais:49929713439:2023"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "latest_acnc_ais",
-      "status": "observed",
-      "source_record_id": "src:acnc-ais-detail:49929713439:79c04e7b-be3a-f111-88b5-002248111f49:cb_408c113ff48c4b4f91c7697b00b211dd",
-      "evidence_ids": [
-        "ev:acnc:ais:49929713439:79c04e7b-be3a-f111-88b5-002248111f49"
-      ],
-      "observed_at": "2026-04-18",
-      "freshness_note": "Latest submitted AIS detail acquired from the public ACNC entity endpoint."
-    },
-    {
-      "capability": "website",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-13",
-      "freshness_note": "Public website locator acquired from the ACNC profile."
-    }
-  ],
-  "enrichment_level": "enriched",
-  "website": "https://www.dfwa.org.au/",
-  "geography": [
-    "Australia",
-    "Australian Capital Territory (ACT)"
-  ],
-  "geography_observations": [
-    {
-      "value": "Australia",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Australian Capital Territory (ACT)",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "navigation_geography": [],
-  "causebase_summary": "As of August 2026, the Defence Force Welfare Association – National Inc (DFWA) describes itself as an independent voice for Australian Defence Force members, veterans and their families. It advocates to government on ADF pay and conditions of service, rehabilitation of injured veterans, compensation for service injuries, retirement and superannuation, service delivery and veteran recognition. DFWA publishes a regular newsletter and the Camaraderie magazine, runs surveys to inform its WRA 2026–29 submission (including pre‑offer and post‑offer surveys), and is funded by branch membership fees and donations. The organisation invites branch membership, newsletter subscriptions and survey participation to help shape its submissions and communications.",
-  "summary_evidence_ids": [
-    "ev:web:49929713439:2026-08-10",
-    "ev:acnc:49929713439"
-  ],
-  "organisation_self_description": null,
-  "activities": [
-    "Advocacy to government on ADF pay and conditions of service",
-    "Advocacy on rehabilitation of injured veterans",
-    "Advocacy on compensation for service injuries",
-    "Advocacy on retirement and superannuation",
-    "Advocacy to improve service delivery and veteran recognition",
-    "Conducting and publishing surveys to inform WRA 2026–29 submissions",
-    "Publishing a newsletter and the Camaraderie magazine",
-    "Raising funds through branch membership fees and donations"
-  ],
-  "activity_observations": [
-    {
-      "value": "Advocacy to government on ADF pay and conditions of service",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Advocacy on rehabilitation of injured veterans",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Advocacy on compensation for service injuries",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Advocacy on retirement and superannuation",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Advocacy to improve service delivery and veteran recognition",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Conducting and publishing surveys to inform WRA 2026–29 submissions",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Publishing a newsletter and the Camaraderie magazine",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Raising funds through branch membership fees and donations",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "beneficiaries": [
-    "Australian Defence Force members",
-    "Veterans",
-    "Families of Defence Force members"
-  ],
-  "beneficiary_observations": [
-    {
-      "value": "Australian Defence Force members",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Veterans",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Families of Defence Force members",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "participation_modes": [
-    "Branch membership",
-    "Donations",
-    "Newsletter subscription and downloading Camaraderie issues",
-    "Responding to online surveys (WRA pre-offer and post-offer surveys)"
-  ],
-  "participation_observations": [],
-  "opportunities": [],
-  "programs": [
-    {
-      "program_id": "prg:acnc:49929713439:a0c04e7b-be3a-f111-88b5-002248111f49",
-      "name": "Public Welfare",
-      "description": "Public policy",
-      "beneficiaries": [
-        "Families",
-        "Adults - aged 65 and over",
-        "Adults - aged 25 to under 65",
-        "Males",
-        "Females",
-        "Veterans and/or their families"
-      ],
-      "geography": [
-        "Australia"
-      ],
-      "status": "current",
-      "reporting_period": "2025",
-      "source_url": "https://dfwa.org.au/",
-      "evidence_ids": [
-        "ev:acnc:ais:49929713439:79c04e7b-be3a-f111-88b5-002248111f49"
-      ]
-    }
-  ],
-  "source_native_records": [
-    {
-      "source_record_id": "src:acnc-public-profile:49929713439:a46b8058-38af-e811-a963-000d3ad244fd:cb_408c113ff48c4b4f91c7697b00b211dd",
-      "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-14-public-api",
-      "source_url": "https://www.acnc.gov.au/charity/charities/a46b8058-38af-e811-a963-000d3ad244fd/profile",
-      "retrieved_at": "2026-08-13T13:54:42.956606Z",
-      "observed_at": "2026-04-18",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "uuid": "a46b8058-38af-e811-a963-000d3ad244fd",
-        "abn": "49929713439"
-      },
-      "source_payload": {
-        "data": {
-          "AFSAddressPostalCode": "2600",
-          "AFSEmail": "national@dfwa.org.au",
-          "Abn": "49929713439",
-          "AddressCountry": "Australia",
-          "AddressLine1": "Building C110 Vowles Road",
-          "AddressLine2": null,
-          "AddressLine3": null,
-          "AddressPostalCode": "2600",
-          "AddressStateOrProvince": "ACT",
-          "AddressSuburb": "Duntroon",
-          "AddressSuburbStatePostcode": "Duntroon ACT 2600",
-          "AnnualReports": [
-            {
-              "AISId": null,
-              "DateReceived": "2020-01-20T04:51:25.0000000Z",
-              "DocumentUuid": "4c99ac7e-403b-ea11-a812-000d3ad1cc03",
-              "DueDate": "2020-01-31T00:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2019",
-              "type": "Financial Report 2019",
-              "uuid": "a771fdb0-ee25-e911-a973-000d3ad0574c"
-            },
-            {
-              "AISId": "2e495280-403b-ea11-a813-000d3ad1cd99",
-              "DateReceived": "2020-01-20T04:51:29.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2020-01-31T00:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2019",
-              "type": "Annual Information Statement 2019",
-              "uuid": "0e72fdb0-ee25-e911-a973-000d3ad0574c"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2021-07-21T02:05:21.0000000Z",
-              "DocumentUuid": "70167312-c8e9-eb11-bacb-000d3acc5a9b",
-              "DueDate": "2021-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2020",
-              "type": "Financial Report 2020",
-              "uuid": "3b72fdb0-ee25-e911-a973-000d3ad0574c"
-            },
-            {
-              "AISId": "0ccf9116-c8e9-eb11-bacb-000d3acc5d64",
-              "DateReceived": "2021-07-21T02:05:24.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2021-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2020",
-              "type": "Annual Information Statement 2020",
-              "uuid": "6672fdb0-ee25-e911-a973-000d3ad0574c"
-            },
-            {
-              "AISId": "ad4775ec-799c-ed11-aad1-000d3acc4456",
-              "DateReceived": "2023-01-25T06:31:43.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2023-01-31T00:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2022",
-              "type": "Annual Information Statement 2022",
-              "uuid": "2c353ab2-d163-eb11-b0b0-000d3ad1cd99"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2023-01-25T06:31:42.0000000Z",
-              "DocumentUuid": "45c8bde1-799c-ed11-aad1-00224893bc23",
-              "DueDate": "2023-01-31T00:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2022",
-              "type": "Financial Report 2022",
-              "uuid": "34353ab2-d163-eb11-b0b0-000d3ad1cd99"
-            },
-            {
-              "AISId": "ef2d18a7-119a-ec11-b400-00224892d2d7",
-              "DateReceived": "2022-03-02T10:15:29.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2022-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2021",
-              "type": "Annual Information Statement 2021",
-              "uuid": "b79445a6-9044-ea11-a813-000d3ad1ce4e"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2022-03-02T10:15:25.0000000Z",
-              "DocumentUuid": "e15c319f-119a-ec11-b400-00224892d670",
-              "DueDate": "2022-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2021",
-              "type": "Financial Report 2021",
-              "uuid": "c49445a6-9044-ea11-a813-000d3ad1ce4e"
-            },
-            {
-              "AISId": "ec87df17-45c8-e811-a964-000d3ad24077",
-              "DateReceived": "2014-06-03T14:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2014-03-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2013",
-              "type": "Annual Information Statement 2013",
-              "uuid": "2ec0e918-45c8-e811-a962-000d3ad24182"
-            },
-            {
-              "AISId": "f387df17-45c8-e811-a964-000d3ad24077",
-              "DateReceived": "2015-11-23T13:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2015-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2014",
-              "type": "Annual Information Statement 2014",
-              "uuid": "38c0e918-45c8-e811-a962-000d3ad24182"
-            },
-            {
-              "AISId": "fa87df17-45c8-e811-a964-000d3ad24077",
-              "DateReceived": "2015-11-23T13:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2016-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2015",
-              "type": "Annual Information Statement 2015",
-              "uuid": "40c0e918-45c8-e811-a962-000d3ad24182"
-            },
-            {
-              "AISId": "0888df17-45c8-e811-a964-000d3ad24077",
-              "DateReceived": "2016-11-25T13:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2017-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2016",
-              "type": "Annual Information Statement 2016",
-              "uuid": "4ac0e918-45c8-e811-a962-000d3ad24182"
-            },
-            {
-              "AISId": "1388df17-45c8-e811-a964-000d3ad24077",
-              "DateReceived": "2018-02-19T13:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2018-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2017",
-              "type": "Annual Information Statement 2017",
-              "uuid": "53c0e918-45c8-e811-a962-000d3ad24182"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required",
-              "Year": "2015",
-              "type": "Financial Report 2015",
-              "uuid": "d20433c5-3dc8-e811-a964-000d3ad244fd"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2018-02-19T13:00:00.0000000Z",
-              "DocumentUuid": "5e1e5612-3fb0-e811-a960-000d3ad24282",
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2017",
-              "type": "Financial Report 2017",
-              "uuid": "e10433c5-3dc8-e811-a964-000d3ad244fd"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required",
-              "Year": "2013",
-              "type": "Financial Report 2013",
-              "uuid": "ed0433c5-3dc8-e811-a964-000d3ad244fd"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required",
-              "Year": "2014",
-              "type": "Financial Report 2014",
-              "uuid": "36a141c1-3dc8-e811-a963-000d3ad24a0d"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required",
-              "Year": "2016",
-              "type": "Financial Report 2016",
-              "uuid": "44a141c1-3dc8-e811-a963-000d3ad24a0d"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2019-08-07T15:12:51.0000000Z",
-              "DocumentUuid": "631512bb-25b9-e911-a97e-000d3ad24282",
-              "DueDate": "2019-04-06T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2018",
-              "type": "Financial Report 2018",
-              "uuid": "4fa141c1-3dc8-e811-a963-000d3ad24a0d"
-            },
-            {
-              "AISId": "0eb72bce-25b9-e911-a98a-000d3ad02a61",
-              "DateReceived": "2019-08-07T15:12:54.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2019-04-06T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2018",
-              "type": "Annual Information Statement 2018",
-              "uuid": "ea633367-3ac8-e811-a95f-000d3ad24c60"
-            },
-            {
-              "AISId": "79c04e7b-be3a-f111-88b5-002248111f49",
-              "DateReceived": "2026-04-18T00:35:29.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2026-01-31T00:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2025",
-              "type": "Annual Information Statement 2025",
-              "uuid": "43416a8d-97c0-ee11-907a-002248122b18"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required - small",
-              "Year": "2025",
-              "type": "Financial Report 2025",
-              "uuid": "9e416a8d-97c0-ee11-907a-002248122b18"
-            },
-            {
-              "AISId": "8cb1e2e5-e8fd-ee11-a1fe-000d3a6a2b98",
-              "DateReceived": "2024-02-06T00:45:26.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2024-01-31T00:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2023",
-              "type": "Annual Information Statement 2023",
-              "uuid": "21d0d9c4-a782-ec11-8d20-002248929301"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2024-04-19T01:05:25.0000000Z",
-              "DocumentUuid": "5a1367d8-e8fd-ee11-9f8a-002248935564",
-              "DueDate": "2024-01-31T00:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2023",
-              "type": "Financial Report 2023",
-              "uuid": "28d0d9c4-a782-ec11-8d20-002248929301"
-            },
-            {
-              "AISId": "3cbbc9ba-360b-f011-bae3-00224893136d",
-              "DateReceived": "2025-03-27T18:10:23.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2025-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2024",
-              "type": "Annual Information Statement 2024",
-              "uuid": "ea345605-c9a1-ed11-aad1-00224893b304"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required - small",
-              "Year": "2024",
-              "type": "Financial Report 2024",
-              "uuid": "0b355605-c9a1-ed11-aad1-00224893b304"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2026-12-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Not yet submitted",
-              "Year": "2026",
-              "type": "Annual Information Statement 2026",
-              "uuid": "c789e022-d6df-ef11-a732-00224895e766"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2026-12-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Pending",
-              "Year": "2026",
-              "type": "Financial Report 2026",
-              "uuid": "f689e022-d6df-ef11-a732-00224895e766"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2027-12-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Not yet submitted",
-              "Year": "2027",
-              "type": "Annual Information Statement 2027",
-              "uuid": "78a3e209-0bff-f011-8406-6045bdc3b801"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2027-12-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Pending",
-              "Year": "2027",
-              "type": "Financial Report 2027",
-              "uuid": "91a3e209-0bff-f011-8406-6045bdc3b801"
-            }
-          ],
-          "Beneficiaries": [
-            {
-              "Description": null,
-              "Name": "Veterans and/or their families",
-              "uuid": "c3c04e7b-be3a-f111-88b5-002248111f49"
-            },
-            {
-              "Description": null,
-              "Name": "Males",
-              "uuid": "c7c04e7b-be3a-f111-88b5-002248111f49"
-            },
-            {
-              "Description": null,
-              "Name": "Females",
-              "uuid": "cbc04e7b-be3a-f111-88b5-002248111f49"
-            },
-            {
-              "Description": null,
-              "Name": "Families",
-              "uuid": "cfc04e7b-be3a-f111-88b5-002248111f49"
-            },
-            {
-              "Description": null,
-              "Name": "Adults - aged 65 and over",
-              "uuid": "d3c04e7b-be3a-f111-88b5-002248111f49"
-            },
-            {
-              "Description": null,
-              "Name": "Adults - aged 25 to under 65",
-              "uuid": "d7c04e7b-be3a-f111-88b5-002248111f49"
-            }
-          ],
-          "CharitySize": "Small",
-          "CharitySubtypeHistory": [
-            {
-              "EndDate": "2013-12-30T13:00:00.0000000Z",
-              "Purpose": "2012 Another purpose beneficial to the community",
-              "StartDate": "2012-12-02T13:00:00.0000000Z",
-              "uuid": "267e1e82-fcc6-e811-a963-000d3ad24a0d"
-            },
-            {
-              "EndDate": null,
-              "Purpose": "Advancing social or public welfare",
-              "StartDate": "2013-12-31T13:00:00.0000000Z",
-              "uuid": "337e1e82-fcc6-e811-a963-000d3ad24a0d"
-            },
-            {
-              "EndDate": null,
-              "Purpose": "Advancing public debate (promoting or opposing a change to any matter established by law, policy or practice in the Commonwealth, a state, territory or another country)",
-              "StartDate": "2013-12-31T13:00:00.0000000Z",
-              "uuid": "427e1e82-fcc6-e811-a963-000d3ad24a0d"
-            }
-          ],
-          "CharityVersion": "109",
-          "ChildMemberEndDate": null,
-          "ChildMemberStartDate": null,
-          "ChooseToProvideAis": null,
-          "Countries": [
-            {
-              "Name": "Australia",
-              "uuid": "f57b5602-9a4d-e811-a951-000d3ad06f2d"
-            }
-          ],
-          "DateEstablished": "1958-12-31T13:00:00.0000000Z",
-          "Documents": [
-            {
-              "Date": "2024-01-02T00:00:00.0000000",
-              "Title": "DFWA Constitution (12 November 2023).pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/a46b8058-38af-e811-a963-000d3ad244fd-881f04b9-4d11-4e3a-96e9-085c171df754-Governing%20Document-a9662b64-fea8-ee11-be37-002248122521-DFWA_Constitution_(12_November_2023).pdf",
-              "Year": null,
-              "type": "Governing Document",
-              "uuid": "a9662b64-fea8-ee11-be37-002248122521"
-            },
-            {
-              "Date": "2019-08-08T00:00:00.0000000",
-              "Title": "https://www.dfwa.org.au/about",
-              "Url": "https://www.dfwa.org.au/about",
-              "Year": "2018",
-              "type": "Annual Report",
-              "uuid": "701512bb-25b9-e911-a97e-000d3ad24282"
-            },
-            {
-              "Date": "2021-07-21T00:00:00.0000000",
-              "Title": "DFWA 2020 Financial Report.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/a46b8058-38af-e811-a963-000d3ad244fd-881f04b9-4d11-4e3a-96e9-085c171df754-Financial%20Report-70167312-c8e9-eb11-bacb-000d3acc5a9b-DFWA_2020_Financial_Report.pdf",
-              "Year": "2020",
-              "type": "Financial Report",
-              "uuid": "70167312-c8e9-eb11-bacb-000d3acc5a9b"
-            },
-            {
-              "Date": "2020-01-20T00:00:00.0000000",
-              "Title": "DFWA Financial Report 2019.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/a46b8058-38af-e811-a963-000d3ad244fd-881f04b9-4d11-4e3a-96e9-085c171df754-Financial%20Report-4c99ac7e-403b-ea11-a812-000d3ad1cc03-DFWA_Financial_Report_2019.pdf",
-              "Year": "2019",
-              "type": "Financial Report",
-              "uuid": "4c99ac7e-403b-ea11-a812-000d3ad1cc03"
-            },
-            {
-              "Date": "2018-02-20T00:00:00.0000000",
-              "Title": "DFWA Finance Report 30Jun17.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/a46b8058-38af-e811-a963-000d3ad244fd-881f04b9-4d11-4e3a-96e9-085c171df754-Financial%20Report-5e1e5612-3fb0-e811-a960-000d3ad24282-DFWA_Finance_Report_30Jun17.pdf",
-              "Year": "2017",
-              "type": "Financial Report",
-              "uuid": "5e1e5612-3fb0-e811-a960-000d3ad24282"
-            },
-            {
-              "Date": "2019-08-08T00:00:00.0000000",
-              "Title": "DFWA Financial Report 30Jun18.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/a46b8058-38af-e811-a963-000d3ad244fd-881f04b9-4d11-4e3a-96e9-085c171df754-Financial%20Report-631512bb-25b9-e911-a97e-000d3ad24282-DFWA_Financial_Report_30Jun18.pdf",
-              "Year": "2018",
-              "type": "Financial Report",
-              "uuid": "631512bb-25b9-e911-a97e-000d3ad24282"
-            },
-            {
-              "Date": "2022-03-02T00:00:00.0000000",
-              "Title": "DFWA Financial Report 2021.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/a46b8058-38af-e811-a963-000d3ad244fd-881f04b9-4d11-4e3a-96e9-085c171df754-Financial%20Report-e15c319f-119a-ec11-b400-00224892d670-DFWA_Financial_Report_2021.pdf",
-              "Year": "2021",
-              "type": "Financial Report",
-              "uuid": "e15c319f-119a-ec11-b400-00224892d670"
-            },
-            {
-              "Date": "2024-04-19T00:00:00.0000000",
-              "Title": "DFWA Financial Accounts 30.06.2023 signed.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/a46b8058-38af-e811-a963-000d3ad244fd-881f04b9-4d11-4e3a-96e9-085c171df754-Financial%20Report-5a1367d8-e8fd-ee11-9f8a-002248935564-DFWA_Financial_Accounts_30.06.2023_signed.pdf",
-              "Year": "2023",
-              "type": "Financial Report",
-              "uuid": "5a1367d8-e8fd-ee11-9f8a-002248935564"
-            },
-            {
-              "Date": "2023-01-25T00:00:00.0000000",
-              "Title": "DFWA Financial Report 2022.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/a46b8058-38af-e811-a963-000d3ad244fd-881f04b9-4d11-4e3a-96e9-085c171df754-Financial%20Report-45c8bde1-799c-ed11-aad1-00224893bc23-DFWA_Financial_Report_2022.pdf",
-              "Year": "2022",
-              "type": "Financial Report",
-              "uuid": "45c8bde1-799c-ed11-aad1-00224893bc23"
-            }
-          ],
-          "Email": "national@dfwa.org.au",
-          "EnforcementOutcomes": [],
-          "FinancialYearEnd": "30/06",
-          "GovernmentAgencies": [
-            {
-              "Name": "ACT - Incorporated Association",
-              "ReferenceNumber": "A01496",
-              "uuid": "9ac04e7b-be3a-f111-88b5-002248111f49"
-            }
-          ],
-          "GroupHeadFlag": false,
-          "LastReported": "2026-04-18T00:35:29.0000000Z",
-          "Name": "Defence Force Welfare Association - National Inc",
-          "NextReportDue": "2026-12-31T12:30:00.0000000Z",
-          "OperatingInStates": [],
-          "OtherDetails": null,
-          "OtherNames": [
-            {
-              "Name": null,
-              "uuid": "d9c871f8-799c-ed11-aad1-000d3acc4456"
-            },
-            {
-              "Name": null,
-              "uuid": "ddc871f8-799c-ed11-aad1-000d3acc4456"
-            }
-          ],
-          "ParentAccountAbn": null,
-          "ParentAccountId": null,
-          "Phone": "02 6265 9530",
-          "Programs": [
-            {
-              "AisUuid": "79c04e7b-be3a-f111-88b5-002248111f49",
-              "Name": "Public Welfare",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Families",
-                "Adults - aged 65 and over",
-                "Adults - aged 25 to under 65",
-                "Males",
-                "Females",
-                "Veterans and/or their families"
-              ],
-              "ProgramClassie": [
-                {
-                  "classie_id": "657",
-                  "label": "Public policy",
-                  "parent_id": "637",
-                  "selected": true
-                },
-                {
-                  "classie_id": "637",
-                  "label": "Public affairs",
-                  "parent_id": null,
-                  "selected": false
-                }
-              ],
-              "ProgramClassification": "Public policy",
-              "ProgramClassificationID": "657",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "Australia",
-                  "FormattedAddress": "Australia",
-                  "Marker": {
-                    "Latitude": -25.274398,
-                    "Longitude": 133.775136
-                  },
-                  "Name": "Australia",
-                  "uuid": "bbc04e7b-be3a-f111-88b5-002248111f49"
-                }
-              ],
-              "ProgramWeblink": "https://dfwa.org.au/",
-              "uuid": "a0c04e7b-be3a-f111-88b5-002248111f49"
-            }
-          ],
-          "ReferendumReturnsUrl": null,
-          "RegistrationStatusHistory": [
-            {
-              "EffectiveDate": "2012-12-02T13:00:00.0000000Z",
-              "Status": "Registered",
-              "TransactionDate": "2012-12-02T13:00:00.0000000Z",
-              "uuid": "309f0d6f-06c6-e811-a964-000d3ad244fd"
-            }
-          ],
-          "RelatedPartyTransactions": null,
-          "RelevantTransactions": null,
-          "ReportingLate": "2027-06-30T12:30:00.0000000Z",
-          "ResponsiblePersons": [
-            {
-              "Name": "Del Gaudry",
-              "Role": "Chairperson",
-              "uuid": "df4775ec-799c-ed11-aad1-000d3acc4456"
-            },
-            {
-              "Name": "Christopher Lowis",
-              "Role": "Treasurer",
-              "uuid": "e71a30b2-1c42-ee11-bdf3-00224893d32a"
-            },
-            {
-              "Name": "Kerry Mellor",
-              "Role": "Public Officer",
-              "uuid": "65f873e5-262c-ee11-9966-00224893bfad"
-            },
-            {
-              "Name": "Christopher Lowis",
-              "Role": "Secretary",
-              "uuid": "e71a30b2-1c42-ee11-bdf3-00224893d32a"
-            }
-          ],
-          "Status": "Registered",
-          "SummaryOfActivities": "* We advise or assist any serving or retired member of the Australian Defence Force,  including their families in matters affecting their welfare;  * We lobby to protect the conditions of service of Australian Defence Force members  and advocate at remuneration tribunals hearings: and  * We advocate on behalf of veterans seeking to redress inadequacies in military  superannuation invalidity compensation schemes and in veterans  disability compensation  payments.",
-          "TotalExpensesEmployee": "0",
-          "TotalExpensesGrantsAndDonationsInAustralia": "200",
-          "TotalExpensesGrantsAndDonationsOutsideAustralia": "0",
-          "TotalExpensesInterest": "0",
-          "TotalExpensesOther": "60787",
-          "TotalGrossIncomeDonationsAndRequests": "36691",
-          "TotalGrossIncomeGoodsOrServices": "30832",
-          "TotalGrossIncomeGovernmentGrants": "10000",
-          "TotalGrossIncomeInvestments": "0",
-          "TotalGrossIncomeOtherRevenues": "0",
-          "TransparencyRegisterUrl": null,
-          "Website": "https://www.dfwa.org.au/",
-          "__normalized": true,
-          "type": "charity",
-          "uuid": "a46b8058-38af-e811-a963-000d3ad244fd"
-        },
-        "type": "charity",
-        "uuid": "a46b8058-38af-e811-a963-000d3ad244fd"
-      },
-      "canonical_field_mappings": {
-        "data.OtherNames": "operating_names",
-        "data.AddressStateOrProvince": "principal_location"
-      },
-      "evidence_ids": []
-    },
-    {
-      "source_record_id": "src:acnc-ais-detail:49929713439:79c04e7b-be3a-f111-88b5-002248111f49:cb_408c113ff48c4b4f91c7697b00b211dd",
-      "source_family": "acnc-ais-detail",
-      "dataset_version": "2026-08-14-public-api",
-      "source_url": "https://www.acnc.gov.au/charity/charities/a46b8058-38af-e811-a963-000d3ad244fd/documents/79c04e7b-be3a-f111-88b5-002248111f49",
-      "retrieved_at": "2026-08-13T13:54:42.956606Z",
-      "observed_at": "2026-04-18",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "abn": "49929713439",
-        "ais_uuid": "79c04e7b-be3a-f111-88b5-002248111f49",
-        "year": "2025",
-        "date_received": "2026-04-18T00:35:29.0000000Z"
-      },
-      "source_payload": {
-        "data": {
-          "Abn": "49929713439",
-          "ActivityAdvocacyNCivic": false,
-          "ActivityAgedCare": false,
-          "ActivityAnimalProtection": false,
-          "ActivityCultureAndArt": false,
-          "ActivityEconomicSocialCommunity": false,
-          "ActivityEmergencyNRelief": false,
-          "ActivityEmploymentNTraining": false,
-          "ActivityEnvironmental": false,
-          "ActivityGrantMaking": false,
-          "ActivityHealthRehabilitation": false,
-          "ActivityHigherEducation": false,
-          "ActivityHousing": false,
-          "ActivityIncomeSupportNMaintenance": false,
-          "ActivityInternational": false,
-          "ActivityInternationalDescription": null,
-          "ActivityInternationalOther": false,
-          "ActivityInternationalOtherDescription": null,
-          "ActivityLawNLegalServices": false,
-          "ActivityMain": null,
-          "ActivityMentalHealthCrisisIntervention": false,
-          "ActivityNdisSupported": null,
-          "ActivityNdisSupportedNext": null,
-          "ActivityOperating": true,
-          "ActivityOperatingOverseas": false,
-          "ActivityOther": false,
-          "ActivityOtherDescription": null,
-          "ActivityOtherEducation": false,
-          "ActivityOtherHealthServices": false,
-          "ActivityPersuitPurposesDescription": "* We advise or assist any serving or retired member of the Australian Defence Force,  including their families in matters affecting their welfare;  * We lobby to protect the conditions of service of Australian Defence Force members  and advocate at remuneration tribunals hearings: and  * We advocate on behalf of veterans seeking to redress inadequacies in military  superannuation invalidity compensation schemes and in veterans  disability compensation  payments.",
-          "ActivityPhilanthropicPromotion": false,
-          "ActivityPolitical": false,
-          "ActivityPrimarySecondaryEducation": false,
-          "ActivityPurposeChange": null,
-          "ActivityPurposeChangeDescription": null,
-          "ActivityRecreationSocialClub": false,
-          "ActivityReligious": false,
-          "ActivityResearch": false,
-          "ActivitySocialServices": false,
-          "ActivitySports": false,
-          "ActivityTransferringFundsGoods": false,
-          "AdvancementOfEducation": false,
-          "AdvancementOfReligion": false,
-          "AssetsandLiabilitiesDescription": "Assets held - Cash at bank $80,161; balance of assets is accounts receivable. Liabilities are accounts payable, including unpaid volunteer expense reimbursements.",
-          "BasicReligiousCharity": false,
-          "BeneficiaryAboriginalTorres": false,
-          "BeneficiaryAdults": false,
-          "BeneficiaryAllAges": false,
-          "BeneficiaryChildren": false,
-          "BeneficiaryChronicIllness": false,
-          "BeneficiaryCrimeVictims": false,
-          "BeneficiaryDisasterVictims": false,
-          "BeneficiaryEarlyChildhood": false,
-          "BeneficiaryEthnic": false,
-          "BeneficiaryFamilies": false,
-          "BeneficiaryFinanciallyDisadvantaged": false,
-          "BeneficiaryGeneral": false,
-          "BeneficiaryHomelessnessRisk": false,
-          "BeneficiaryLGBT": false,
-          "BeneficiaryMain": null,
-          "BeneficiaryMen": false,
-          "BeneficiaryMigrantsRefugees": false,
-          "BeneficiaryOffenderFamilies": false,
-          "BeneficiaryOther": false,
-          "BeneficiaryOtherCharities": false,
-          "BeneficiaryOtherDescription": null,
-          "BeneficiaryOverseas": false,
-          "BeneficiaryPeopleWithDisability": false,
-          "BeneficiaryRuralRegionalRemote": false,
-          "BeneficiarySeniors": false,
-          "BeneficiaryUnemployed": false,
-          "BeneficiaryVeteranFamilies": false,
-          "BeneficiaryWomen": false,
-          "BeneficiaryYouth": false,
-          "CharityAddressCountry": "Australia",
-          "CharityAddressLine1": "Building C110 Vowles Road",
-          "CharityAddressLine2": null,
-          "CharityAddressPostalCode": "2600",
-          "CharityAddressStateOrProvince": "ACT",
-          "CharityAddressSuburb": "Duntroon",
-          "CharityEmail": "national@dfwa.org.au",
-          "CharitySize": "Small",
-          "CharityUuid": "a46b8058-38af-e811-a963-000d3ad244fd",
-          "ChildCareServices": false,
-          "ExpenseEmployees": "0.0000",
-          "ExpenseGrantDonationsInAustralia": "200.0000",
-          "ExpenseGrantDonationsOutsideAustralia": "0.0000",
-          "ExpenseTotal": "60987.0000",
-          "ExpensesOther": "60787.0000",
-          "FinAccrualAccounting": "Cash",
-          "FinConsolidatedReportFromMiltiple": null,
-          "FinDocumentedPoliciesRelatedPartyTransactions": null,
-          "FinFyeJune": false,
-          "FinProvideVoluntarily": null,
-          "FinRelatedPartyTransactions": "Yes",
-          "FinReportACT": false,
-          "FinReportFrom": "2024-07-01T00:00:00.0000000Z",
-          "FinReportNSW": false,
-          "FinReportNT": false,
-          "FinReportQLD": false,
-          "FinReportSA": false,
-          "FinReportTAS": false,
-          "FinReportTo": "2025-06-30T00:00:00.0000000Z",
-          "FinReportVIC": false,
-          "FinReportWA": false,
-          "FinReportingType": null,
-          "FinSapDate": null,
-          "FundRaisingNumberACT": null,
-          "FundRaisingNumberNSW": null,
-          "FundRaisingNumberQLD": null,
-          "FundRaisingNumberSA": null,
-          "FundRaisingNumberTAS": null,
-          "FundRaisingNumberVIC": null,
-          "FundRaisingNumberWA": null,
-          "GovDocAccurate": null,
-          "GrantCapacityBuildingPct": null,
-          "GrantMultiYearPct": null,
-          "GrantPublicOpenApplicationPct": null,
-          "GrantRuralRegionPct": null,
-          "HasSubmittedToRegulator": false,
-          "HoursPaid": null,
-          "HoursTotal": null,
-          "HoursVolunteer": null,
-          "HrCasualEmployees": "0",
-          "HrFteStaff": "0.0000000000",
-          "HrFullTimeEmployees": "0",
-          "HrPartTimeEmployees": "0",
-          "HrUnpainVolunteers": "6",
-          "IncomeDonationsBequests": "36691.0000",
-          "IncomeGovernmentGrants": "10000.0000",
-          "IncomeOther": "0.0000",
-          "IncomeOtherComprehinsive": "0.0000",
-          "IncomeOtherNeg": null,
-          "IncomeOtherReceipts": "0.0000",
-          "IncomeTotalComprehensive": "0.0000",
-          "IncomeTotalReceipts": "77523.0000",
-          "IncorporationStatus": null,
-          "InterestExpense": "0.0000",
-          "IsIncorporatedAssociation": true,
-          "KeyManagementPersonnel": false,
-          "LegalName": "Defence Force Welfare Association - National Inc",
-          "NetAssetsLiabilities": "67413.0000",
-          "NetSurplusDeficit": "16536.0000",
-          "NonCurrentLoansPayable": "0.0000",
-          "NumberOfKeyManagementPersonnel": "0",
-          "OperatingCountries": null,
-          "OperatingInACT": false,
-          "OperatingInNSW": false,
-          "OperatingInNT": false,
-          "OperatingInQLD": false,
-          "OperatingInSA": false,
-          "OperatingInTAS": false,
-          "OperatingInVIC": false,
-          "OperatingInWA": false,
-          "OperatingOverseas": false,
-          "OtherNames": [],
-          "OtherNonCurrentAssets": "0.0000",
-          "OtherNonCurrentLiabilities": "0.0000",
-          "OtherPurposeDescription": null,
-          "OtherPurposes": "False",
-          "Programs": [
-            {
-              "AisUuid": "79c04e7b-be3a-f111-88b5-002248111f49",
-              "Name": "Public Welfare",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Families",
-                "Adults - aged 65 and over",
-                "Adults - aged 25 to under 65",
-                "Males",
-                "Females",
-                "Veterans and/or their families"
-              ],
-              "ProgramClassification": "Public policy",
-              "ProgramClassificationID": "657",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "Australia",
-                  "FormattedAddress": "Australia",
-                  "Marker": {
-                    "Latitude": -25.274398,
-                    "Longitude": 133.775136
-                  },
-                  "Name": "Australia",
-                  "uuid": "bbc04e7b-be3a-f111-88b5-002248111f49"
-                }
-              ],
-              "ProgramWeblink": "https://dfwa.org.au/",
-              "uuid": "a0c04e7b-be3a-f111-88b5-002248111f49"
-            }
-          ],
-          "RegulatedACT": false,
-          "RegulatedNSW": false,
-          "RegulatedNT": false,
-          "RegulatedQLD": false,
-          "RegulatedSA": false,
-          "RegulatedTAS": false,
-          "RegulatedVIC": false,
-          "RegulatedWA": false,
-          "Regulator": null,
-          "RegulatorAGMDateACT": "2025-12-03T00:00:00.0000000Z",
-          "RegulatorAGMDateNT": null,
-          "RegulatorAGMDateVIC": null,
-          "RegulatorAGMDateWA": null,
-          "RegulatorFundRaising": "No",
-          "RegulatorFundRaisingACT": false,
-          "RegulatorFundRaisingNSW": false,
-          "RegulatorFundRaisingNT": false,
-          "RegulatorFundRaisingOnline": false,
-          "RegulatorFundRaisingQLD": false,
-          "RegulatorFundRaisingSA": false,
-          "RegulatorFundRaisingTAS": false,
-          "RegulatorFundRaisingVIC": false,
-          "RegulatorFundRaisingWA": false,
-          "RegulatorIncorporatedAssociationACT": true,
-          "RegulatorIncorporatedAssociationNSW": false,
-          "RegulatorIncorporatedAssociationNT": false,
-          "RegulatorIncorporatedAssociationNumberACT": "A01496",
-          "RegulatorIncorporatedAssociationNumberNSW": null,
-          "RegulatorIncorporatedAssociationNumberNT": null,
-          "RegulatorIncorporatedAssociationNumberQLD": null,
-          "RegulatorIncorporatedAssociationNumberSA": null,
-          "RegulatorIncorporatedAssociationNumberTAS": null,
-          "RegulatorIncorporatedAssociationNumberVIC": null,
-          "RegulatorIncorporatedAssociationNumberWA": null,
-          "RegulatorIncorporatedAssociationQLD": false,
-          "RegulatorIncorporatedAssociationSA": false,
-          "RegulatorIncorporatedAssociationTAS": false,
-          "RegulatorIncorporatedAssociationVIC": false,
-          "RegulatorIncorporatedAssociationWA": false,
-          "RegulatorMetRequirementACT": true,
-          "RegulatorMetRequirementWA": null,
-          "RegulatorOtherDetails": null,
-          "RegulatorPrograms": null,
-          "RegulatorStates": false,
-          "RelatedPartyDetails": null,
-          "RelatedPartyTransactions": [
-            {
-              "Description": "",
-              "Transaction": "Fees paid to a related party for providing goods or services to the charity",
-              "uuid": "7dc04e7b-be3a-f111-88b5-002248111f49"
-            }
-          ],
-          "ReliefOfPoverty": false,
-          "ReportingGroupFlag": false,
-          "ResponsiblePersonAccurate": null,
-          "RevenueGoodsServices": "30832.0000",
-          "RevenueInvestments": "0.0000",
-          "RevenueTotal": "77523.0000",
-          "StatementYear": "2025",
-          "SubTypesAccurate": null,
-          "TotalAssets": "80171.0000",
-          "TotalCurrentAssets": "0.0000",
-          "TotalCurrentLiabilities": "0.0000",
-          "TotalLiabilities": "12758.0000",
-          "TotalNonCurrentAssets": null,
-          "TotalNonCurrentLiabilities": "0.0000",
-          "TotalNonCurrentLoansReceivable": "0.0000",
-          "TotalPaidKMP": "$0.00",
-          "Website": "https://www.dfwa.org.au/",
-          "__normalized": true,
-          "entityTypeVersion": "",
-          "entityVersion": "1912626210",
-          "timeStamp": "2026-04-18T00:35:24.0000000Z",
-          "type": "annual_information_statement",
-          "uuid": "79c04e7b-be3a-f111-88b5-002248111f49"
-        },
-        "type": "annual_information_statement",
-        "uuid": "79c04e7b-be3a-f111-88b5-002248111f49"
-      },
-      "canonical_field_mappings": {
-        "data.Programs": "programs",
-        "data.TotalRevenue": "financial_records[].revenue",
-        "data.TotalExpenses": "financial_records[].total_expenses"
-      },
-      "evidence_ids": [
-        "ev:acnc:ais:49929713439:79c04e7b-be3a-f111-88b5-002248111f49"
-      ]
-    }
-  ],
-  "financial_records": [
-    {
-      "financial_record_id": "fr:ais:cb_408c113ff48c4b4f91c7697b00b211dd:2023",
-      "period": {
-        "period_start": "2022-07-01",
-        "period_end": "2023-06-30",
-        "period_length_days": 365,
-        "label": "01/07/2022 to 30/06/2023",
-        "is_transitional_or_nonstandard": false
-      },
-      "reporting_scope": "subject",
-      "reporting_subject_causebase_id": "cb_408c113ff48c4b4f91c7697b00b211dd",
-      "covered_subjects": [
-        "cb_408c113ff48c4b4f91c7697b00b211dd"
-      ],
-      "consolidated": "unknown",
-      "attribution_method": "direct_subject_report",
-      "evidence_ids": [
-        "ev:ais:49929713439:2023"
-      ],
-      "revenue": {
-        "source_amount": "80194",
-        "source_currency": "AUD",
-        "source_unit_scale": "1",
-        "normalised_amount": "80194",
-        "normalised_currency": "AUD",
-        "source_unit_label": null,
-        "source_raw_value": "80194",
-        "source_precision": null
-      },
-      "donations": null,
-      "government_grants": null,
-      "employee_costs": null,
-      "total_expenses": {
-        "source_amount": "84179",
-        "source_currency": "AUD",
-        "source_unit_scale": "1",
-        "normalised_amount": "84179",
-        "normalised_currency": "AUD",
-        "source_unit_label": null,
-        "source_raw_value": "84179",
-        "source_precision": null
-      },
-      "assets": null,
-      "liabilities": null,
-      "net_assets": null,
-      "income_breakdown": [],
-      "expense_breakdown": [],
-      "balance_sheet_breakdown": [],
-      "source_ordered_line_items": [],
-      "statements": [],
-      "donations_gifts_bequests": null,
-      "functional_expense_allocations": []
-    }
-  ],
-  "financial_metrics": [
-    {
-      "metric": "revenue",
-      "observations": [
-        {
-          "financial_record_id": "fr:ais:cb_408c113ff48c4b4f91c7697b00b211dd:2023",
-          "amount": {
-            "source_amount": "80194",
-            "source_currency": "AUD",
-            "source_unit_scale": "1",
-            "normalised_amount": "80194",
-            "normalised_currency": "AUD",
-            "source_unit_label": null,
-            "source_raw_value": "80194",
-            "source_precision": null
-          },
-          "metric_source_label": null,
-          "evidence_ids": [
-            "ev:ais:49929713439:2023"
-          ]
-        }
-      ],
-      "reconciliation_status": "single_observation",
-      "reconciliation_notes": null
-    },
-    {
-      "metric": "total_expenses",
-      "observations": [
-        {
-          "financial_record_id": "fr:ais:cb_408c113ff48c4b4f91c7697b00b211dd:2023",
-          "amount": {
-            "source_amount": "84179",
-            "source_currency": "AUD",
-            "source_unit_scale": "1",
-            "normalised_amount": "84179",
-            "normalised_currency": "AUD",
-            "source_unit_label": null,
-            "source_raw_value": "84179",
-            "source_precision": null
-          },
-          "metric_source_label": null,
-          "evidence_ids": [
-            "ev:ais:49929713439:2023"
-          ]
-        }
-      ],
-      "reconciliation_status": "single_observation",
-      "reconciliation_notes": null
-    }
-  ],
-  "fundraising_expenditure": null,
-  "funding_sources": [],
-  "fundraising_methods": [],
-  "classifications": [
-    {
-      "taxonomy_id": "acnc-register",
-      "taxonomy_version": "2026-08-10",
-      "term_id": "purpose.social_welfare",
-      "term_label": "social welfare",
-      "assignment_method": "source_native",
-      "confidence": "high",
-      "evidence_ids": [
-        "ev:acnc:49929713439"
-      ]
-    },
-    {
-      "taxonomy_id": "acnc-register",
-      "taxonomy_version": "2026-08-10",
-      "term_id": "beneficiary.older_people",
-      "term_label": "older people",
-      "assignment_method": "source_native",
-      "confidence": "high",
-      "evidence_ids": [
-        "ev:acnc:49929713439"
-      ]
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "activity.advocacy",
-      "term_label": "Advocacy",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "activity.events_and_public_programming",
-      "term_label": "Events and public programming",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "geography.australia",
-      "term_label": "Australia",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "organisation.national",
-      "term_label": "National organisation",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
+      "review_status": "not_required",
+      "conflicting_signals": []
     }
   ],
   "evidence": [
     {
       "evidence_id": "ev:acnc:49929713439",
-      "source_type": "regulatory",
-      "title": "ACNC Register extract",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": null,
-      "observed_at": "2026-08-10",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "title": "ACNC Register extract"
     },
     {
       "evidence_id": "ev:web:49929713439:2026-08-10",
-      "source_type": "organisation_self_report",
       "title": "Organisation website homepage",
-      "publisher": "Defence Force Welfare Association - National Inc",
-      "url": "https://dfwa.org.au/",
-      "observed_at": "2026-08-10",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://dfwa.org.au/"
     },
     {
       "evidence_id": "ev:ais:49929713439:2023",
-      "source_type": "regulatory",
-      "title": "ACNC AIS 2023 extract",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": null,
-      "observed_at": "2026-08-10",
-      "reporting_period": "01/07/2022 to 30/06/2023",
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "title": "ACNC AIS 2023 extract"
     },
     {
       "evidence_id": "ev:acnc:ais:49929713439:79c04e7b-be3a-f111-88b5-002248111f49",
-      "source_type": "regulatory",
       "title": "ACNC Annual Information Statement 2025",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": "https://www.acnc.gov.au/charity/charities/a46b8058-38af-e811-a963-000d3ad244fd/documents/79c04e7b-be3a-f111-88b5-002248111f49",
-      "observed_at": "2026-04-18",
-      "reporting_period": "2025",
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://www.acnc.gov.au/charity/charities/a46b8058-38af-e811-a963-000d3ad244fd/documents/79c04e7b-be3a-f111-88b5-002248111f49"
     },
     {
       "evidence_id": "ev:abr-dgr:49929713439:20260805",
-      "source_type": "regulatory",
       "title": "ABR DGR bulk observation",
-      "publisher": "Australian Business Register / Australian Taxation Office",
-      "url": "https://abr.business.gov.au/Tools/BulkExtract",
-      "observed_at": "2026-08-05",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://abr.business.gov.au/Tools/BulkExtract"
     }
   ],
-  "embedding": {
-    "embedding_id": "cb_408c113ff48c4b4f91c7697b00b211dd:entity:text-embedding-3-small",
-    "embedding_type": "entity",
-    "model_id": "text-embedding-3-small",
-    "model_version": "text-embedding-3-small",
-    "dimensions": 1536,
-    "source_text_hash": "8d52382b6863bdbecfb1c355e6fab3ec17e9244b1bc0e3b70fdf9702c7226aef",
-    "generated_at": "2026-08-10T13:53:24.456606Z",
-    "vector_ref": "embeddings.parquet#cb_408c113ff48c4b4f91c7697b00b211dd"
+  "summary": {
+    "derivative_id": "der:rc4:cb_408c113ff48c4b4f91c7697b00b211dd:summary",
+    "text": "As of August 2026, the Defence Force Welfare Association \u2013 National Inc (DFWA) describes itself as an independent voice for Australian Defence Force members, veterans and their families. It advocates to government on ADF pay and conditions of service, rehabilitation of injured veterans, compensation for service injuries, retirement and superannuation, service delivery and veteran recognition. DFWA publishes a regular newsletter and the Camaraderie magazine, runs surveys to inform its WRA 2026\u201329 submission (including pre\u2011offer and post\u2011offer surveys), and is funded by branch membership fees and donations. The organisation invites branch membership, newsletter subscriptions and survey participation to help shape its submissions and communications."
   },
-  "synthesis": {
-    "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
-    "parameters": {
-      "max_output_tokens": 3000,
-      "structured_output": true,
-      "output_contract": "causebase-summary-v0.3-rc2"
-    },
-    "evidence_input_hash": "66b664f3f89278d91e35f57c0066815d7e99a94fd5bef1ec7bd7cf7ee443305b",
-    "generated_at": "2026-08-12T13:54:03.407628Z",
-    "editorial_policy_version": "0.3-rc2"
-  },
-  "derivative_assessments": [
+  "activities": [],
+  "beneficiaries": [],
+  "descriptive_geography": [],
+  "navigation_geography": [],
+  "funding_sources": [],
+  "fundraising_methods": [],
+  "participation": [],
+  "opportunities": [],
+  "programs": [
     {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T13:54:03.407628Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-13T13:54:42.956606Z",
-      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
-      "input_hash": "66b664f3f89278d91e35f57c0066815d7e99a94fd5bef1ec7bd7cf7ee443305b",
-      "disposition": "reused",
-      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
-      "affected_dimensions": [
-        "summary"
-      ]
+      "observation_id": "obs:rc4:cb_408c113ff48c4b4f91c7697b00b211dd:program:prg:acnc:49929713439:a0c04e7b-be3a-f111-88b5-002248111f49",
+      "program_id": "prg:acnc:49929713439:a0c04e7b-be3a-f111-88b5-002248111f49",
+      "name": "Public Welfare",
+      "description": "Public policy",
+      "url": "https://dfwa.org.au/",
+      "status": "current",
+      "claim_basis": "direct",
+      "extraction_method": "api",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:ais:49929713439:79c04e7b-be3a-f111-88b5-002248111f49"
+      ],
+      "time": {
+        "reporting_period": {
+          "label": "2025"
+        }
+      },
+      "warnings": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-14-rc4-fundraising-projection-correction",
-  "card_schema_version": "0.4",
-  "editorial_policy_version": "0.4-rc4",
-  "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T13:54:42.956606Z"
+  "relationships": [],
+  "classifications": [
+    {
+      "observation_id": "obs:rc4:cb_408c113ff48c4b4f91c7697b00b211dd:classification:0",
+      "classification_id": "cls:rc4:cb_408c113ff48c4b4f91c7697b00b211dd:0",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "purpose.social_welfare",
+      "term_label": "social welfare",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:49929713439"
+      ],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_408c113ff48c4b4f91c7697b00b211dd:classification:1",
+      "classification_id": "cls:rc4:cb_408c113ff48c4b4f91c7697b00b211dd:1",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "beneficiary.older_people",
+      "term_label": "older people",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:49929713439"
+      ],
+      "confidence": "high",
+      "warnings": []
+    }
+  ],
+  "coverage": {
+    "registry_id": "capability-registry-0.5-initial",
+    "current": [
+      {
+        "capability": "regulatory.acnc_profile",
+        "status": "observed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:acnc:49929713439"
+        ]
+      },
+      {
+        "capability": "regulatory.ais",
+        "status": "observed",
+        "assessed_at": "2026-04-18",
+        "source_record_ids": [
+          "src:acnc-ais-detail:49929713439:79c04e7b-be3a-f111-88b5-002248111f49:cb_408c113ff48c4b4f91c7697b00b211dd"
+        ],
+        "evidence_ids": [
+          "ev:acnc:ais:49929713439:79c04e7b-be3a-f111-88b5-002248111f49"
+        ]
+      },
+      {
+        "capability": "tax.dgr",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "web.website",
+        "status": "observed",
+        "assessed_at": "2026-08-13",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "report.annual_report",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "financial.report",
+        "status": "unknown",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:ais:49929713439:2023"
+        ]
+      },
+      {
+        "capability": "financial.statements",
+        "status": "unknown",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:ais:49929713439:2023"
+        ]
+      },
+      {
+        "capability": "understanding.activities",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.beneficiaries",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.geography",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "programs",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "participation",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "funding.sources",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.methods",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.expenditure",
+        "status": "not_available_from_source",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "taxonomy.causebase",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "semantic.embedding",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      }
+    ]
+  },
+  "financial_reports": [],
+  "canonical_metrics": [],
+  "analytic_projections": [],
+  "derivatives": [
+    {
+      "derivative_id": "der:rc4:cb_408c113ff48c4b4f91c7697b00b211dd:summary",
+      "kind": "summary",
+      "input_observation_ids": [],
+      "evidence_ids": [
+        "ev:web:49929713439:2026-08-10",
+        "ev:acnc:49929713439"
+      ],
+      "generated_under": {
+        "output_contract_version": "phase2b-rc4-accepted-rc2-summary-reuse",
+        "input_hash": "66b664f3f89278d91e35f57c0066815d7e99a94fd5bef1ec7bd7cf7ee443305b",
+        "generated_at": "2026-08-12T13:54:03.407628Z"
+      },
+      "current_assessment": {
+        "assessed_at": "2026-08-13T13:54:42.956606Z",
+        "assessed_against_contract": "0.5",
+        "governing_input_hash": "66b664f3f89278d91e35f57c0066815d7e99a94fd5bef1ec7bd7cf7ee443305b",
+        "disposition": "reused",
+        "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs."
+      }
+    }
+  ],
+  "legacy_unbound": {
+    "origin_release": "rc4-2026-08-14",
+    "origin_card_sha256": "b9589fd0e5accd1d7e392d58c2296db239566f97e49af5a743e68fe335ff5dcd",
+    "activities": [
+      {
+        "value": "Advocacy to government on ADF pay and conditions of service",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Advocacy on rehabilitation of injured veterans",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Advocacy on compensation for service injuries",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Advocacy on retirement and superannuation",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Advocacy to improve service delivery and veteran recognition",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Conducting and publishing surveys to inform WRA 2026\u201329 submissions",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Publishing a newsletter and the Camaraderie magazine",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Raising funds through branch membership fees and donations",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "beneficiaries": [
+      {
+        "value": "Australian Defence Force members",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Veterans",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Families of Defence Force members",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "descriptive_geography": [
+      {
+        "value": "Australia",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Australian Capital Territory (ACT)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "classifications": [
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "activity.advocacy",
+        "term_label": "Advocacy",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "activity.events_and_public_programming",
+        "term_label": "Events and public programming",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "geography.australia",
+        "term_label": "Australia",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "organisation.national",
+        "term_label": "National organisation",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      }
+    ],
+    "financial_records": [
+      {
+        "financial_record_id": "fr:ais:cb_408c113ff48c4b4f91c7697b00b211dd:2023",
+        "period": {
+          "period_start": "2022-07-01",
+          "period_end": "2023-06-30",
+          "period_length_days": 365,
+          "label": "01/07/2022 to 30/06/2023",
+          "is_transitional_or_nonstandard": false
+        },
+        "reporting_scope": "subject",
+        "reporting_subject_causebase_id": "cb_408c113ff48c4b4f91c7697b00b211dd",
+        "covered_subjects": [
+          "cb_408c113ff48c4b4f91c7697b00b211dd"
+        ],
+        "consolidated": "unknown",
+        "attribution_method": "direct_subject_report",
+        "evidence_ids": [
+          "ev:ais:49929713439:2023"
+        ],
+        "revenue": {
+          "source_amount": "80194",
+          "source_currency": "AUD",
+          "source_unit_scale": "1",
+          "normalised_amount": "80194",
+          "normalised_currency": "AUD",
+          "source_unit_label": null,
+          "source_raw_value": "80194",
+          "source_precision": null
+        },
+        "donations": null,
+        "government_grants": null,
+        "employee_costs": null,
+        "total_expenses": {
+          "source_amount": "84179",
+          "source_currency": "AUD",
+          "source_unit_scale": "1",
+          "normalised_amount": "84179",
+          "normalised_currency": "AUD",
+          "source_unit_label": null,
+          "source_raw_value": "84179",
+          "source_precision": null
+        },
+        "assets": null,
+        "liabilities": null,
+        "net_assets": null,
+        "income_breakdown": [],
+        "expense_breakdown": [],
+        "balance_sheet_breakdown": [],
+        "source_ordered_line_items": [],
+        "statements": [],
+        "donations_gifts_bequests": null,
+        "functional_expense_allocations": []
+      }
+    ]
+  }
 }

@@ -1,1771 +1,555 @@
 {
   "causebase_id": "cb_b2755ba4bf894e7c825199e86ced96d4",
+  "contract_version": "0.5",
   "subject_kind": "unknown",
-  "external_identifiers": [
-    {
-      "scheme": "abn",
-      "value": "36314845868",
-      "source_evidence_id": "ev:acnc:36314845868"
-    }
+  "identity": {
+    "legal_name": "Befriend Inc.",
+    "display_name": "Befriend Inc.",
+    "operating_names": [],
+    "former_names": [],
+    "entity_status": "registered",
+    "website": "https://befriend.org.au",
+    "external_identifiers": [
+      {
+        "scheme": "abn",
+        "value": "36314845868",
+        "evidence_ids": [
+          "ev:acnc:36314845868"
+        ]
+      }
+    ],
+    "registrations": [
+      {
+        "regulator": "ACNC",
+        "status": "registered",
+        "evidence_ids": [
+          "ev:acnc:36314845868"
+        ]
+      }
+    ],
+    "tax_statuses": [
+      {
+        "scheme": "ABR DGR",
+        "status": "endorsed",
+        "evidence_ids": [
+          "ev:abr-dgr:36314845868:20260805"
+        ]
+      }
+    ]
+  },
+  "release": {
+    "release_id": "v0.5.0-2026-08-15",
+    "dataset_version": "0.5.0-2026-08-15",
+    "contract_version": "0.5",
+    "based_on_release": "rc4-2026-08-14",
+    "generated_at": "2026-08-15T00:00:00Z"
+  },
+  "source_record_refs": [
+    "src:acnc-public-profile:36314845868:16066b44-39af-e811-a963-000d3ad244fd:cb_b2755ba4bf894e7c825199e86ced96d4",
+    "src:acnc-ais-detail:36314845868:2eae36ea-86ce-f011-bbd3-6045bdc2c88b:cb_b2755ba4bf894e7c825199e86ced96d4"
   ],
-  "registrations": [
-    {
-      "regulator": "ACNC",
-      "registration_id": null,
-      "status": "registered",
-      "evidence_ids": [
-        "ev:acnc:36314845868"
-      ]
-    }
-  ],
-  "tax_statuses": [
-    {
-      "scheme": "ABR DGR",
-      "status": "endorsed",
-      "detail": "Dated 2026-08-05 ABR bulk observation",
-      "evidence_ids": [
-        "ev:abr-dgr:36314845868:20260805"
-      ]
-    }
-  ],
-  "relationships": [],
-  "source_resolutions": [
+  "source_bindings": [
     {
       "source_record_id": "src:acnc-register:ba6cbd15-6d1f-5e64-b15c-63c8bcaacee1",
       "resolution_status": "resolved",
       "resolution_basis": "automated authoritative ACNC promotion under acnc-authoritative-v1",
       "confidence": "high",
-      "supporting_signals": [
-        "ABN:36314845868",
-        "ACNC Register"
-      ],
-      "conflicting_signals": [],
-      "review_status": "not_required"
-    }
-  ],
-  "legal_name": "Befriend Inc.",
-  "display_name": "Befriend Inc.",
-  "entity_status": "registered",
-  "canonical_url": "https://gregorycwhill.github.io/CauseBase-Viewer/#cb_b2755ba4bf894e7c825199e86ced96d4",
-  "acnc_profile_url": "https://www.acnc.gov.au/charity/charities/16066b44-39af-e811-a963-000d3ad244fd/profile",
-  "acnc_ais_url": "https://www.acnc.gov.au/charity/charities/16066b44-39af-e811-a963-000d3ad244fd/documents/2eae36ea-86ce-f011-bbd3-6045bdc2c88b",
-  "operating_names": [],
-  "former_names": [],
-  "principal_location": "WA, Australia",
-  "coverage": [
-    {
-      "capability": "regulatory",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:acnc:36314845868"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "annual_report",
-      "status": "not_yet_processed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "fundraising_expenditure",
-      "status": "not_available_from_source",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": "No direct or defensible derived fundraising expenditure was found in selected Phase 2A evidence."
-    },
-    {
-      "capability": "financials",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:ais:36314845868:2023"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "latest_acnc_ais",
-      "status": "observed",
-      "source_record_id": "src:acnc-ais-detail:36314845868:2eae36ea-86ce-f011-bbd3-6045bdc2c88b:cb_b2755ba4bf894e7c825199e86ced96d4",
-      "evidence_ids": [
-        "ev:acnc:ais:36314845868:2eae36ea-86ce-f011-bbd3-6045bdc2c88b"
-      ],
-      "observed_at": "2025-12-01",
-      "freshness_note": "Latest submitted AIS detail acquired from the public ACNC entity endpoint."
-    },
-    {
-      "capability": "website",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-13",
-      "freshness_note": "Public website locator acquired from the ACNC profile."
-    }
-  ],
-  "enrichment_level": "enriched",
-  "website": "https://befriend.org.au",
-  "geography": [
-    "Western Australia",
-    "Greater Perth",
-    "Wanneroo and Perth’s northern corridor"
-  ],
-  "geography_observations": [
-    {
-      "value": "Western Australia",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Greater Perth",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Wanneroo and Perth’s northern corridor",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "navigation_geography": [],
-  "causebase_summary": "Befriend Inc. is a community organisation operating in Greater Perth, Western Australia, including Wanneroo and Perth’s northern corridor. It describes its purpose as sparking connections and supporting people who want a greater sense of belonging. Befriend runs weekly community groups and gatherings (examples include John’s WingSpan Group and Nat’s Art Circle), delivers workshops and courses, provides guidance and mentoring and runs a multi‑week Possibility Fellowship programme. The organisation organises local projects and public events such as the Swan Repair Café, Burns Beach Sunset Walk and the Neil Hawkins BBQ, and publishes articles, podcasts and a Social Impact Report. Services and activities are presented for people seeking social connection and belonging, people with disability (examples cited include autism and expressive aphasia) and residents of Greater Perth.",
-  "summary_evidence_ids": [
-    "ev:web:36314845868:2026-08-10",
-    "ev:acnc:36314845868",
-    "ev:ais:36314845868:2023"
-  ],
-  "organisation_self_description": null,
-  "activities": [
-    "Runs weekly community groups and gatherings (e.g. John’s WingSpan Group, Nat’s Art Circle)",
-    "Delivers workshops and courses",
-    "Provides guidance and mentoring and a Possibility Fellowship programme",
-    "Organises local projects and events (e.g. Swan Repair Café, Burns Beach Sunset Walk, Neil Hawkins BBQ)",
-    "Publishes articles, podcasts and a Social Impact Report"
-  ],
-  "activity_observations": [
-    {
-      "value": "Runs weekly community groups and gatherings (e.g. John’s WingSpan Group, Nat’s Art Circle)",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Delivers workshops and courses",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Provides guidance and mentoring and a Possibility Fellowship programme",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Organises local projects and events (e.g. Swan Repair Café, Burns Beach Sunset Walk, Neil Hawkins BBQ)",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Publishes articles, podcasts and a Social Impact Report",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "beneficiaries": [
-    "People seeking social connection and belonging",
-    "People with disability",
-    "Residents of Greater Perth, including Wanneroo and Perth’s northern corridor"
-  ],
-  "beneficiary_observations": [
-    {
-      "value": "People seeking social connection and belonging",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "People with disability",
-      "source_role": "legacy_source_qualifier",
-      "provenance_note": "examples on the website include autism and expressive aphasia",
-      "evidence_ids": []
-    },
-    {
-      "value": "Residents of Greater Perth, including Wanneroo and Perth’s northern corridor",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "participation_modes": [
-    "Volunteering (hosts and volunteers)",
-    "Attending groups and workshops",
-    "Attending public community events (walks, BBQs, repair café)",
-    "Participation in a multi‑week Possibility Fellowship programme"
-  ],
-  "participation_observations": [],
-  "opportunities": [],
-  "programs": [
-    {
-      "program_id": "prg:acnc:36314845868:92ae36ea-86ce-f011-bbd3-6045bdc2c88b",
-      "name": "Befriend Community Building",
-      "description": "Community development",
-      "beneficiaries": [
-        "Adults - aged 25 to under 65",
-        "Adults - aged 65 and over",
-        "People from a culturally and linguistically diverse background",
-        "People with disabilities"
-      ],
-      "geography": [
-        "Perth WA, Australia",
-        "Kwinana WA, Australia",
-        "Mandurah WA, Australia",
-        "Armadale WA, Australia",
-        "Gosnells WA, Australia",
-        "Merriwa WA, Australia",
-        "Wanneroo WA, Australia",
-        "Swan, WA, Australia",
-        "Canning, WA, Australia",
-        "East Perth WA, Australia"
-      ],
-      "status": "current",
-      "reporting_period": "2025",
-      "source_url": "https://www.acnc.gov.au/charity/charities/16066b44-39af-e811-a963-000d3ad244fd/documents/2eae36ea-86ce-f011-bbd3-6045bdc2c88b",
-      "evidence_ids": [
-        "ev:acnc:ais:36314845868:2eae36ea-86ce-f011-bbd3-6045bdc2c88b"
-      ]
-    },
-    {
-      "program_id": "prg:acnc:36314845868:f4ae36ea-86ce-f011-bbd3-6045bdc2c88b",
-      "name": "Relationships & Inclusion Consulting",
-      "description": "Community development",
-      "beneficiaries": [
-        "Adults - aged 25 to under 65",
-        "Adults - aged 65 and over",
-        "People from a culturally and linguistically diverse background",
-        "People with disabilities",
-        "People at risk of homelessness/ people experiencing homelessness"
-      ],
-      "geography": [
-        "Perth WA, Australia"
-      ],
-      "status": "current",
-      "reporting_period": "2025",
-      "source_url": "https://www.acnc.gov.au/charity/charities/16066b44-39af-e811-a963-000d3ad244fd/documents/2eae36ea-86ce-f011-bbd3-6045bdc2c88b",
-      "evidence_ids": [
-        "ev:acnc:ais:36314845868:2eae36ea-86ce-f011-bbd3-6045bdc2c88b"
-      ]
-    }
-  ],
-  "source_native_records": [
-    {
-      "source_record_id": "src:acnc-public-profile:36314845868:16066b44-39af-e811-a963-000d3ad244fd:cb_b2755ba4bf894e7c825199e86ced96d4",
-      "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-14-public-api",
-      "source_url": "https://www.acnc.gov.au/charity/charities/16066b44-39af-e811-a963-000d3ad244fd/profile",
-      "retrieved_at": "2026-08-13T13:54:42.956606Z",
-      "observed_at": "2025-12-01",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "uuid": "16066b44-39af-e811-a963-000d3ad244fd",
-        "abn": "36314845868"
-      },
-      "source_payload": {
-        "data": {
-          "AFSAddressPostalCode": "6000",
-          "AFSEmail": "rsvp@befriend.org.au",
-          "Abn": "36314845868",
-          "AddressCountry": "Australia",
-          "AddressLine1": "L 3 256 Adelaide Tce",
-          "AddressLine2": null,
-          "AddressLine3": null,
-          "AddressPostalCode": "6000",
-          "AddressStateOrProvince": "WA",
-          "AddressSuburb": "Perth",
-          "AddressSuburbStatePostcode": "Perth WA 6000",
-          "AnnualReports": [
-            {
-              "AISId": null,
-              "DateReceived": "2020-01-13T06:55:22.0000000Z",
-              "DocumentUuid": "4f12e6a2-d135-ea11-a813-000d3ad1cf4f",
-              "DueDate": "2020-01-31T00:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2019",
-              "type": "Financial Report 2019",
-              "uuid": "ca0974b3-ea25-e911-a976-000d3ad02a61"
-            },
-            {
-              "AISId": "79511fa8-d135-ea11-a812-000d3ad1f9f4",
-              "DateReceived": "2020-01-13T06:55:24.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2020-01-31T00:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2019",
-              "type": "Annual Information Statement 2019",
-              "uuid": "e70974b3-ea25-e911-a976-000d3ad02a61"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2021-01-25T09:35:25.0000000Z",
-              "DocumentUuid": "010e65b9-c3a8-eb11-9442-000d3acc089f",
-              "DueDate": "2021-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2020",
-              "type": "Financial Report 2020",
-              "uuid": "170a74b3-ea25-e911-a976-000d3ad02a61"
-            },
-            {
-              "AISId": "2dad0ebe-c3a8-eb11-9441-000d3acbeb6c",
-              "DateReceived": "2021-01-25T09:35:29.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2021-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2020",
-              "type": "Annual Information Statement 2020",
-              "uuid": "580a74b3-ea25-e911-a976-000d3ad02a61"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2026-12-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Not yet submitted",
-              "Year": "2026",
-              "type": "Annual Information Statement 2026",
-              "uuid": "bbc6f59a-d6df-ef11-a731-000d3ad18bb1"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2026-12-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Pending",
-              "Year": "2026",
-              "type": "Financial Report 2026",
-              "uuid": "fbc6f59a-d6df-ef11-a731-000d3ad18bb1"
-            },
-            {
-              "AISId": "09802710-754e-ec11-8f8e-000d3ad013b9",
-              "DateReceived": "2021-11-26T04:55:34.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2022-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2021",
-              "type": "Annual Information Statement 2021",
-              "uuid": "004fe8a1-8f44-ea11-a813-000d3ad1cd99"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2021-11-26T04:55:29.0000000Z",
-              "DocumentUuid": "3a89a806-754e-ec11-8f8e-00224811cb6e",
-              "DueDate": "2022-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2021",
-              "type": "Financial Report 2021",
-              "uuid": "1f4fe8a1-8f44-ea11-a813-000d3ad1cd99"
-            },
-            {
-              "AISId": "23a2c38d-1367-ed11-9560-0022489733de",
-              "DateReceived": "2022-11-18T07:35:25.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2023-01-31T00:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2022",
-              "type": "Annual Information Statement 2022",
-              "uuid": "bafa8e33-d263-eb11-b0b0-000d3ad1f29c"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2022-11-18T07:35:24.0000000Z",
-              "DocumentUuid": "a58eb986-1367-ed11-9561-00224893b958",
-              "DueDate": "2023-01-31T00:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2022",
-              "type": "Financial Report 2022",
-              "uuid": "c5fa8e33-d263-eb11-b0b0-000d3ad1f29c"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required",
-              "Year": "2016",
-              "type": "Financial Report 2016",
-              "uuid": "ae2f5b60-3fc8-e811-a964-000d3ad24077"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required",
-              "Year": "2014",
-              "type": "Financial Report 2014",
-              "uuid": "bd2f5b60-3fc8-e811-a964-000d3ad24077"
-            },
-            {
-              "AISId": "6759aa38-46c8-e811-a961-000d3ad24282",
-              "DateReceived": "2014-04-23T14:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2014-03-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2013",
-              "type": "Annual Information Statement 2013",
-              "uuid": "8e54993a-46c8-e811-a964-000d3ad24077"
-            },
-            {
-              "AISId": "6959aa38-46c8-e811-a961-000d3ad24282",
-              "DateReceived": "2015-03-29T13:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2015-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2014",
-              "type": "Annual Information Statement 2014",
-              "uuid": "9b54993a-46c8-e811-a964-000d3ad24077"
-            },
-            {
-              "AISId": "7359aa38-46c8-e811-a961-000d3ad24282",
-              "DateReceived": "2015-10-07T13:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2016-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2015",
-              "type": "Annual Information Statement 2015",
-              "uuid": "a554993a-46c8-e811-a964-000d3ad24077"
-            },
-            {
-              "AISId": "8559aa38-46c8-e811-a961-000d3ad24282",
-              "DateReceived": "2016-11-09T13:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2017-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2016",
-              "type": "Annual Information Statement 2016",
-              "uuid": "ac54993a-46c8-e811-a964-000d3ad24077"
-            },
-            {
-              "AISId": "8d59aa38-46c8-e811-a961-000d3ad24282",
-              "DateReceived": "2017-12-21T13:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2018-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2017",
-              "type": "Annual Information Statement 2017",
-              "uuid": "b354993a-46c8-e811-a964-000d3ad24077"
-            },
-            {
-              "AISId": "7ab1bf15-fd1d-e911-a976-000d3ad02a61",
-              "DateReceived": "2019-01-22T04:20:53.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2019-03-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2018",
-              "type": "Annual Information Statement 2018",
-              "uuid": "9c5bb8ed-3ac8-e811-a961-000d3ad24282"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required",
-              "Year": "2013",
-              "type": "Financial Report 2013",
-              "uuid": "260b0160-3fc8-e811-a961-000d3ad24282"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2017-12-21T13:00:00.0000000Z",
-              "DocumentUuid": "a1198499-48b0-e811-a962-000d3ad24a0d",
-              "DueDate": "2018-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2017",
-              "type": "Financial Report 2017",
-              "uuid": "440b0160-3fc8-e811-a961-000d3ad24282"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required",
-              "Year": "2015",
-              "type": "Financial Report 2015",
-              "uuid": "5b0b0160-3fc8-e811-a961-000d3ad24282"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2019-01-22T04:20:44.0000000Z",
-              "DocumentUuid": "57169c02-fd1d-e911-a96a-000d3ad244fd",
-              "DueDate": "2019-03-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2018",
-              "type": "Financial Report 2018",
-              "uuid": "680b0160-3fc8-e811-a961-000d3ad24282"
-            },
-            {
-              "AISId": "f32d3433-fd84-ee11-8179-002248935564",
-              "DateReceived": "2023-11-17T03:56:06.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2024-01-31T00:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2023",
-              "type": "Annual Information Statement 2023",
-              "uuid": "46d5b62c-a482-ec11-8d20-00224892973b"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2023-11-17T03:55:18.0000000Z",
-              "DocumentUuid": "6f215a1b-fd84-ee11-8179-002248122521",
-              "DueDate": "2024-01-31T00:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2023",
-              "type": "Financial Report 2023",
-              "uuid": "56d5b62c-a482-ec11-8d20-00224892973b"
-            },
-            {
-              "AISId": "2eae36ea-86ce-f011-bbd3-6045bdc2c88b",
-              "DateReceived": "2025-12-01T07:25:40.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2026-01-31T00:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2025",
-              "type": "Annual Information Statement 2025",
-              "uuid": "db0dd5f7-a5c0-ee11-907a-00224893b0ed"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2025-12-01T07:25:36.0000000Z",
-              "DocumentUuid": "988d51e5-86ce-f011-bbd3-000d3ad208e6",
-              "DueDate": "2026-01-31T00:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2025",
-              "type": "Financial Report 2025",
-              "uuid": "2ed7d6fd-a5c0-ee11-907a-00224893b0ed"
-            },
-            {
-              "AISId": "bab7a063-37a2-ef11-8a69-002248949d10",
-              "DateReceived": "2024-11-14T03:20:32.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2025-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2024",
-              "type": "Annual Information Statement 2024",
-              "uuid": "543a817f-c8a1-ed11-aad1-00224893bfad"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2024-11-14T03:20:27.0000000Z",
-              "DocumentUuid": "f96fd057-37a2-ef11-8a69-6045bde55b51",
-              "DueDate": "2025-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2024",
-              "type": "Financial Report 2024",
-              "uuid": "6d3a817f-c8a1-ed11-aad1-00224893bfad"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2027-12-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Not yet submitted",
-              "Year": "2027",
-              "type": "Annual Information Statement 2027",
-              "uuid": "ca59cf51-05ff-f011-8406-6045bdc3b801"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2027-12-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Pending",
-              "Year": "2027",
-              "type": "Financial Report 2027",
-              "uuid": "fd59cf51-05ff-f011-8406-6045bdc3b801"
-            }
-          ],
-          "Beneficiaries": [
-            {
-              "Description": null,
-              "Name": "People with disabilities",
-              "uuid": "1aaf36ea-86ce-f011-bbd3-6045bdc2c88b"
-            },
-            {
-              "Description": null,
-              "Name": "People from a culturally and linguistically diverse background",
-              "uuid": "23212ff0-86ce-f011-bbd3-6045bdc2c88b"
-            },
-            {
-              "Description": null,
-              "Name": "People at risk of homelessness/ people experiencing homelessness",
-              "uuid": "27212ff0-86ce-f011-bbd3-6045bdc2c88b"
-            },
-            {
-              "Description": null,
-              "Name": "Adults - aged 65 and over",
-              "uuid": "2a212ff0-86ce-f011-bbd3-6045bdc2c88b"
-            },
-            {
-              "Description": null,
-              "Name": "Adults - aged 25 to under 65",
-              "uuid": "2d212ff0-86ce-f011-bbd3-6045bdc2c88b"
-            }
-          ],
-          "CharitySize": "Medium",
-          "CharitySubtypeHistory": [
-            {
-              "EndDate": "2013-12-30T13:00:00.0000000Z",
-              "Purpose": "2012 Institution whose principal activity is to promote the prevention or control of diseases in human beings (HPC)",
-              "StartDate": "2012-12-02T13:00:00.0000000Z",
-              "uuid": "950c25b3-fdc6-e811-a964-000d3ad24077"
-            },
-            {
-              "EndDate": "2013-12-30T13:00:00.0000000Z",
-              "Purpose": "2012 Another purpose beneficial to the community",
-              "StartDate": "2012-12-02T13:00:00.0000000Z",
-              "uuid": "ba0c25b3-fdc6-e811-a964-000d3ad24077"
-            },
-            {
-              "EndDate": null,
-              "Purpose": "Institution whose principal activity is to promote the prevention or control of diseases in human beings (Health Promotion Charity)(HPC)",
-              "StartDate": "2013-12-31T13:00:00.0000000Z",
-              "uuid": "c40c25b3-fdc6-e811-a964-000d3ad24077"
-            }
-          ],
-          "CharityVersion": "93",
-          "ChildMemberEndDate": null,
-          "ChildMemberStartDate": null,
-          "ChooseToProvideAis": null,
-          "Countries": [
-            {
-              "Name": "Australia",
-              "uuid": "f57b5602-9a4d-e811-a951-000d3ad06f2d"
-            }
-          ],
-          "DateEstablished": "2009-12-31T13:00:00.0000000Z",
-          "Documents": [
-            {
-              "Date": "2019-01-22T00:00:00.0000000",
-              "Title": "Befriend Association Rules - Version as of Sept 2018.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/16066b44-39af-e811-a963-000d3ad244fd-48dc02a6-a3d9-435a-b1aa-4ad886e538c3-Governing%20Document-983916b0-fd1d-e911-a96a-000d3ad244fd-Befriend_Association_Rules_-_Version_as_of_Sept_2018.pdf",
-              "Year": null,
-              "type": "Governing Document",
-              "uuid": "983916b0-fd1d-e911-a96a-000d3ad244fd"
-            },
-            {
-              "Date": "2019-01-22T00:00:00.0000000",
-              "Title": "https://befriend.org.au/about-us/",
-              "Url": "https://befriend.org.au/about-us/",
-              "Year": "2018",
-              "type": "Annual Report",
-              "uuid": "60169c02-fd1d-e911-a96a-000d3ad244fd"
-            },
-            {
-              "Date": "2021-04-29T00:00:00.0000000",
-              "Title": "Befriend Inc - Special Purpose Financial Report - 30 June 2020 - Final Signed Version.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/16066b44-39af-e811-a963-000d3ad244fd-48dc02a6-a3d9-435a-b1aa-4ad886e538c3-Financial%20Report-010e65b9-c3a8-eb11-9442-000d3acc089f-Befriend_Inc_-_Special_Purpose_Financial_Report_-_30_June_2020_-_Final_Signed_Version.pdf",
-              "Year": "2020",
-              "type": "Financial Report",
-              "uuid": "010e65b9-c3a8-eb11-9442-000d3acc089f"
-            },
-            {
-              "Date": "2020-01-13T00:00:00.0000000",
-              "Title": "Befriend Inc 2019 Draft Annual Report.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/16066b44-39af-e811-a963-000d3ad244fd-48dc02a6-a3d9-435a-b1aa-4ad886e538c3-Financial%20Report-4f12e6a2-d135-ea11-a813-000d3ad1cf4f-Befriend_Inc_2019_Draft_Annual_Report.pdf",
-              "Year": "2019",
-              "type": "Financial Report",
-              "uuid": "4f12e6a2-d135-ea11-a813-000d3ad1cf4f"
-            },
-            {
-              "Date": "2025-12-01T00:00:00.0000000",
-              "Title": "Befriend Special Purpose Financial Report - 30 June 2025 - Final Signed Version.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/16066b44-39af-e811-a963-000d3ad244fd-48dc02a6-a3d9-435a-b1aa-4ad886e538c3-Financial%20Report-988d51e5-86ce-f011-bbd3-000d3ad208e6-Befriend_Special_Purpose_Financial_Report_-_30_June_2025_-_Final_Signed_Version.pdf",
-              "Year": "2025",
-              "type": "Financial Report",
-              "uuid": "988d51e5-86ce-f011-bbd3-000d3ad208e6"
-            },
-            {
-              "Date": "2019-01-22T00:00:00.0000000",
-              "Title": "Befriend Annual Report 2018.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/16066b44-39af-e811-a963-000d3ad244fd-48dc02a6-a3d9-435a-b1aa-4ad886e538c3-Financial%20Report-57169c02-fd1d-e911-a96a-000d3ad244fd-Befriend_Annual_Report_2018.pdf",
-              "Year": "2018",
-              "type": "Financial Report",
-              "uuid": "57169c02-fd1d-e911-a96a-000d3ad244fd"
-            },
-            {
-              "Date": "2017-12-22T00:00:00.0000000",
-              "Title": "Final Befriend Signed Financials 16-17 with review letter.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/16066b44-39af-e811-a963-000d3ad244fd-48dc02a6-a3d9-435a-b1aa-4ad886e538c3-Financial%20Report-a1198499-48b0-e811-a962-000d3ad24a0d-Final_Befriend_Signed_Financials_16-17_with_review_letter.pdf",
-              "Year": "2017",
-              "type": "Financial Report",
-              "uuid": "a1198499-48b0-e811-a962-000d3ad24a0d"
-            },
-            {
-              "Date": "2021-11-26T00:00:00.0000000",
-              "Title": "Befriend Inc - Special Purpose Financial Report - 30 June 2021 - Signed by Reviewer.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/16066b44-39af-e811-a963-000d3ad244fd-48dc02a6-a3d9-435a-b1aa-4ad886e538c3-Financial%20Report-3a89a806-754e-ec11-8f8e-00224811cb6e-Befriend_Inc_-_Special_Purpose_Financial_Report_-_30_June_2021_-_Signed_by_Reviewer.pdf",
-              "Year": "2021",
-              "type": "Financial Report",
-              "uuid": "3a89a806-754e-ec11-8f8e-00224811cb6e"
-            },
-            {
-              "Date": "2023-11-17T00:00:00.0000000",
-              "Title": "Befriend Inc - Special Purpose Financial Report - 30 June 2023 - Final Signed Version.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/16066b44-39af-e811-a963-000d3ad244fd-48dc02a6-a3d9-435a-b1aa-4ad886e538c3-Financial%20Report-6f215a1b-fd84-ee11-8179-002248122521-Befriend_Inc_-_Special_Purpose_Financial_Report_-_30_June_2023_-_Final_Signed_Version.pdf",
-              "Year": "2023",
-              "type": "Financial Report",
-              "uuid": "6f215a1b-fd84-ee11-8179-002248122521"
-            },
-            {
-              "Date": "2022-11-18T00:00:00.0000000",
-              "Title": "Befriend Inc - Special Purpose Financial Report - 30 June 2022 - Final Signed Version.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/16066b44-39af-e811-a963-000d3ad244fd-48dc02a6-a3d9-435a-b1aa-4ad886e538c3-Financial%20Report-a58eb986-1367-ed11-9561-00224893b958-Befriend_Inc_-_Special_Purpose_Financial_Report_-_30_June_2022_-_Final_Signed_Version.pdf",
-              "Year": "2022",
-              "type": "Financial Report",
-              "uuid": "a58eb986-1367-ed11-9561-00224893b958"
-            },
-            {
-              "Date": "2024-11-14T00:00:00.0000000",
-              "Title": "Befriend Inc - Special Purpose Financial Report - 30 June 2024 - Final Signed Version.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/16066b44-39af-e811-a963-000d3ad244fd-48dc02a6-a3d9-435a-b1aa-4ad886e538c3-Financial%20Report-f96fd057-37a2-ef11-8a69-6045bde55b51-Befriend_Inc_-_Special_Purpose_Financial_Report_-_30_June_2024_-_Final_Signed_Version.pdf",
-              "Year": "2024",
-              "type": "Financial Report",
-              "uuid": "f96fd057-37a2-ef11-8a69-6045bde55b51"
-            }
-          ],
-          "Email": "rsvp@befriend.org.au",
-          "EnforcementOutcomes": [],
-          "FinancialYearEnd": "30/06",
-          "GovernmentAgencies": [
-            {
-              "Name": "WA - Incorporated Association",
-              "ReferenceNumber": "A1014967X",
-              "uuid": "73ae36ea-86ce-f011-bbd3-6045bdc2c88b"
-            },
-            {
-              "Name": "WA - Fundraising",
-              "ReferenceNumber": "CC23909",
-              "uuid": "83ae36ea-86ce-f011-bbd3-6045bdc2c88b"
-            }
-          ],
-          "GroupHeadFlag": false,
-          "LastReported": "2025-12-01T07:25:40.0000000Z",
-          "Name": "Befriend Inc.",
-          "NextReportDue": "2026-12-31T12:30:00.0000000Z",
-          "OperatingInStates": [
-            {
-              "Name": "Western Australia",
-              "uuid": "dc2782ae-455e-e811-a95c-000d3ad1c715"
-            }
-          ],
-          "OtherDetails": null,
-          "OtherNames": [],
-          "ParentAccountAbn": null,
-          "ParentAccountId": null,
-          "Phone": null,
-          "Programs": [
-            {
-              "AisUuid": "2eae36ea-86ce-f011-bbd3-6045bdc2c88b",
-              "Name": "Befriend Community Building",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Adults - aged 25 to under 65",
-                "Adults - aged 65 and over",
-                "People from a culturally and linguistically diverse background",
-                "People with disabilities"
-              ],
-              "ProgramClassie": [
-                {
-                  "classie_id": "118",
-                  "label": "Community development",
-                  "parent_id": null,
-                  "selected": true
-                }
-              ],
-              "ProgramClassification": "Community development",
-              "ProgramClassificationID": "118",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "Perth WA, Australia",
-                  "FormattedAddress": "Perth WA, Australia",
-                  "Marker": {
-                    "Latitude": -31.9505269,
-                    "Longitude": 115.8604572
-                  },
-                  "Name": "Perth",
-                  "uuid": "c7ae36ea-86ce-f011-bbd3-6045bdc2c88b"
-                },
-                {
-                  "DisplayName": "Kwinana WA, Australia",
-                  "FormattedAddress": "Kwinana Beach WA 6167, Australia",
-                  "Marker": {
-                    "Latitude": -32.2260862,
-                    "Longitude": 115.7763846
-                  },
-                  "Name": "Kwinana Beach",
-                  "uuid": "cdae36ea-86ce-f011-bbd3-6045bdc2c88b"
-                },
-                {
-                  "DisplayName": "Mandurah WA, Australia",
-                  "FormattedAddress": "Mandurah WA, Australia",
-                  "Marker": {
-                    "Latitude": -32.5361038,
-                    "Longitude": 115.7424077
-                  },
-                  "Name": "Mandurah",
-                  "uuid": "dfae36ea-86ce-f011-bbd3-6045bdc2c88b"
-                },
-                {
-                  "DisplayName": "Armadale WA, Australia",
-                  "FormattedAddress": "Armadale WA 6112, Australia",
-                  "Marker": {
-                    "Latitude": -32.1473012,
-                    "Longitude": 116.0128764
-                  },
-                  "Name": "Armadale",
-                  "uuid": "e1ae36ea-86ce-f011-bbd3-6045bdc2c88b"
-                },
-                {
-                  "DisplayName": "Gosnells WA, Australia",
-                  "FormattedAddress": "Gosnells WA 6110, Australia",
-                  "Marker": {
-                    "Latitude": -32.0823022,
-                    "Longitude": 115.9902668
-                  },
-                  "Name": "Gosnells",
-                  "uuid": "e4ae36ea-86ce-f011-bbd3-6045bdc2c88b"
-                },
-                {
-                  "DisplayName": "Merriwa WA, Australia",
-                  "FormattedAddress": "Merriwa WA 6030, Australia",
-                  "Marker": {
-                    "Latitude": -31.6673101,
-                    "Longitude": 115.7127407
-                  },
-                  "Name": "Merriwa",
-                  "uuid": "e9ae36ea-86ce-f011-bbd3-6045bdc2c88b"
-                },
-                {
-                  "DisplayName": "Wanneroo WA, Australia",
-                  "FormattedAddress": "Wanneroo WA 6065, Australia",
-                  "Marker": {
-                    "Latitude": -31.7572961,
-                    "Longitude": 115.8064758
-                  },
-                  "Name": "Wanneroo",
-                  "uuid": "ecae36ea-86ce-f011-bbd3-6045bdc2c88b"
-                },
-                {
-                  "DisplayName": "Swan, WA, Australia",
-                  "FormattedAddress": "Swan, WA, Australia",
-                  "Marker": {
-                    "Latitude": -31.7358495,
-                    "Longitude": 116.0886704
-                  },
-                  "Name": "City of Swan",
-                  "uuid": "eeae36ea-86ce-f011-bbd3-6045bdc2c88b"
-                },
-                {
-                  "DisplayName": "Canning, WA, Australia",
-                  "FormattedAddress": "Canning, WA, Australia",
-                  "Marker": {
-                    "Latitude": -32.0396243,
-                    "Longitude": 115.91132
-                  },
-                  "Name": "City of Canning",
-                  "uuid": "f0ae36ea-86ce-f011-bbd3-6045bdc2c88b"
-                },
-                {
-                  "DisplayName": "East Perth WA, Australia",
-                  "FormattedAddress": "East Perth WA 6004, Australia",
-                  "Marker": {
-                    "Latitude": -31.957186,
-                    "Longitude": 115.8761576
-                  },
-                  "Name": "East Perth",
-                  "uuid": "f2ae36ea-86ce-f011-bbd3-6045bdc2c88b"
-                }
-              ],
-              "ProgramWeblink": null,
-              "uuid": "92ae36ea-86ce-f011-bbd3-6045bdc2c88b"
-            },
-            {
-              "AisUuid": "2eae36ea-86ce-f011-bbd3-6045bdc2c88b",
-              "Name": "Relationships & Inclusion Consulting",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Adults - aged 25 to under 65",
-                "Adults - aged 65 and over",
-                "People from a culturally and linguistically diverse background",
-                "People with disabilities",
-                "People at risk of homelessness/ people experiencing homelessness"
-              ],
-              "ProgramClassie": [
-                {
-                  "classie_id": "118",
-                  "label": "Community development",
-                  "parent_id": null,
-                  "selected": true
-                }
-              ],
-              "ProgramClassification": "Community development",
-              "ProgramClassificationID": "118",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "Perth WA, Australia",
-                  "FormattedAddress": "Perth WA, Australia",
-                  "Marker": {
-                    "Latitude": -31.9505269,
-                    "Longitude": 115.8604572
-                  },
-                  "Name": "Perth",
-                  "uuid": "13af36ea-86ce-f011-bbd3-6045bdc2c88b"
-                }
-              ],
-              "ProgramWeblink": null,
-              "uuid": "f4ae36ea-86ce-f011-bbd3-6045bdc2c88b"
-            }
-          ],
-          "ReferendumReturnsUrl": null,
-          "RegistrationStatusHistory": [
-            {
-              "EffectiveDate": "2012-12-02T13:00:00.0000000Z",
-              "Status": "Registered",
-              "TransactionDate": "2012-12-02T13:00:00.0000000Z",
-              "uuid": "c1dd9bb7-06c6-e811-a963-000d3ad24a0d"
-            }
-          ],
-          "RelatedPartyTransactions": null,
-          "RelevantTransactions": null,
-          "ReportingLate": "2027-06-30T12:30:00.0000000Z",
-          "ResponsiblePersons": [
-            {
-              "Name": "Ernst Scholtz",
-              "Role": "Board Member",
-              "uuid": "1c802710-754e-ec11-8f8e-000d3ad013b9"
-            },
-            {
-              "Name": "Mariana Silva",
-              "Role": "Secretary",
-              "uuid": "81802710-754e-ec11-8f8e-000d3ad013b9"
-            },
-            {
-              "Name": "Emma Ashcroft",
-              "Role": "Chairperson",
-              "uuid": "d0e95c4a-0abc-e811-a964-000d3ad244fd"
-            },
-            {
-              "Name": "Nicholas Maisey",
-              "Role": "Director",
-              "uuid": "37c26c67-18bc-e811-a95f-000d3ad24c60"
-            },
-            {
-              "Name": "Emily Lees",
-              "Role": "Board Member",
-              "uuid": "b909eccd-28bc-e811-a961-000d3ad24282"
-            },
-            {
-              "Name": "Joshua Lay",
-              "Role": "Board Member",
-              "uuid": "d0b7a063-37a2-ef11-8a69-002248949d10"
-            },
-            {
-              "Name": "Soumyasmita Das",
-              "Role": "Treasurer",
-              "uuid": "525d85f6-8f43-ed11-bba3-00224893b304"
-            },
-            {
-              "Name": "Michael Clark",
-              "Role": "Board Member",
-              "uuid": "33ae36ea-86ce-f011-bbd3-6045bdc2c88b"
-            }
-          ],
-          "Status": "Registered",
-          "SummaryOfActivities": "We support the operations of a Perth-wide inclusive community building network, through which we empower local residents to tackle social isolation and loneliness by connecting people in their local community. Our work further tackles social isolation, loneliness and social exclusion through training, capacity-building and consulting engagements with local councils, community organisations and businesses. For more info: https://befriend.org.au",
-          "TotalExpensesEmployee": "1036873",
-          "TotalExpensesGrantsAndDonationsInAustralia": "0",
-          "TotalExpensesGrantsAndDonationsOutsideAustralia": "0",
-          "TotalExpensesInterest": "0",
-          "TotalExpensesOther": "162784",
-          "TotalGrossIncomeDonationsAndRequests": "1747",
-          "TotalGrossIncomeGoodsOrServices": "42802",
-          "TotalGrossIncomeGovernmentGrants": "1110388",
-          "TotalGrossIncomeInvestments": "33972",
-          "TotalGrossIncomeOtherRevenues": "18567",
-          "TransparencyRegisterUrl": null,
-          "Website": "https://befriend.org.au",
-          "__normalized": true,
-          "type": "charity",
-          "uuid": "16066b44-39af-e811-a963-000d3ad244fd"
-        },
-        "type": "charity",
-        "uuid": "16066b44-39af-e811-a963-000d3ad244fd"
-      },
-      "canonical_field_mappings": {
-        "data.OtherNames": "operating_names",
-        "data.AddressStateOrProvince": "principal_location"
-      },
-      "evidence_ids": []
-    },
-    {
-      "source_record_id": "src:acnc-ais-detail:36314845868:2eae36ea-86ce-f011-bbd3-6045bdc2c88b:cb_b2755ba4bf894e7c825199e86ced96d4",
-      "source_family": "acnc-ais-detail",
-      "dataset_version": "2026-08-14-public-api",
-      "source_url": "https://www.acnc.gov.au/charity/charities/16066b44-39af-e811-a963-000d3ad244fd/documents/2eae36ea-86ce-f011-bbd3-6045bdc2c88b",
-      "retrieved_at": "2026-08-13T13:54:42.956606Z",
-      "observed_at": "2025-12-01",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "abn": "36314845868",
-        "ais_uuid": "2eae36ea-86ce-f011-bbd3-6045bdc2c88b",
-        "year": "2025",
-        "date_received": "2025-12-01T07:25:40.0000000Z"
-      },
-      "source_payload": {
-        "data": {
-          "Abn": "36314845868",
-          "ActivityAdvocacyNCivic": false,
-          "ActivityAgedCare": false,
-          "ActivityAnimalProtection": false,
-          "ActivityCultureAndArt": false,
-          "ActivityEconomicSocialCommunity": false,
-          "ActivityEmergencyNRelief": false,
-          "ActivityEmploymentNTraining": false,
-          "ActivityEnvironmental": false,
-          "ActivityGrantMaking": false,
-          "ActivityHealthRehabilitation": false,
-          "ActivityHigherEducation": false,
-          "ActivityHousing": false,
-          "ActivityIncomeSupportNMaintenance": false,
-          "ActivityInternational": false,
-          "ActivityInternationalDescription": null,
-          "ActivityInternationalOther": false,
-          "ActivityInternationalOtherDescription": null,
-          "ActivityLawNLegalServices": false,
-          "ActivityMain": null,
-          "ActivityMentalHealthCrisisIntervention": false,
-          "ActivityNdisSupported": null,
-          "ActivityNdisSupportedNext": null,
-          "ActivityOperating": true,
-          "ActivityOperatingOverseas": false,
-          "ActivityOther": false,
-          "ActivityOtherDescription": null,
-          "ActivityOtherEducation": false,
-          "ActivityOtherHealthServices": false,
-          "ActivityPersuitPurposesDescription": "We support the operations of a Perth-wide inclusive community building network, through which we empower local residents to tackle social isolation and loneliness by connecting people in their local community. Our work further tackles social isolation, loneliness and social exclusion through training, capacity-building and consulting engagements with local councils, community organisations and businesses. For more info: https://befriend.org.au",
-          "ActivityPhilanthropicPromotion": false,
-          "ActivityPolitical": false,
-          "ActivityPrimarySecondaryEducation": false,
-          "ActivityPurposeChange": null,
-          "ActivityPurposeChangeDescription": null,
-          "ActivityRecreationSocialClub": false,
-          "ActivityReligious": false,
-          "ActivityResearch": false,
-          "ActivitySocialServices": false,
-          "ActivitySports": false,
-          "ActivityTransferringFundsGoods": false,
-          "AdvancementOfEducation": false,
-          "AdvancementOfReligion": false,
-          "AssetsandLiabilitiesDescription": null,
-          "BasicReligiousCharity": false,
-          "BeneficiaryAboriginalTorres": false,
-          "BeneficiaryAdults": false,
-          "BeneficiaryAllAges": false,
-          "BeneficiaryChildren": false,
-          "BeneficiaryChronicIllness": false,
-          "BeneficiaryCrimeVictims": false,
-          "BeneficiaryDisasterVictims": false,
-          "BeneficiaryEarlyChildhood": false,
-          "BeneficiaryEthnic": false,
-          "BeneficiaryFamilies": false,
-          "BeneficiaryFinanciallyDisadvantaged": false,
-          "BeneficiaryGeneral": false,
-          "BeneficiaryHomelessnessRisk": false,
-          "BeneficiaryLGBT": false,
-          "BeneficiaryMain": null,
-          "BeneficiaryMen": false,
-          "BeneficiaryMigrantsRefugees": false,
-          "BeneficiaryOffenderFamilies": false,
-          "BeneficiaryOther": false,
-          "BeneficiaryOtherCharities": false,
-          "BeneficiaryOtherDescription": null,
-          "BeneficiaryOverseas": false,
-          "BeneficiaryPeopleWithDisability": false,
-          "BeneficiaryRuralRegionalRemote": false,
-          "BeneficiarySeniors": false,
-          "BeneficiaryUnemployed": false,
-          "BeneficiaryVeteranFamilies": false,
-          "BeneficiaryWomen": false,
-          "BeneficiaryYouth": false,
-          "CharityAddressCountry": "Australia",
-          "CharityAddressLine1": "L 3 256 Adelaide Tce",
-          "CharityAddressLine2": null,
-          "CharityAddressPostalCode": "6000",
-          "CharityAddressStateOrProvince": "WA",
-          "CharityAddressSuburb": "Perth",
-          "CharityEmail": "rsvp@befriend.org.au",
-          "CharitySize": "Medium",
-          "CharityUuid": "16066b44-39af-e811-a963-000d3ad244fd",
-          "ChildCareServices": false,
-          "ExpenseEmployees": "1036873.0000",
-          "ExpenseGrantDonationsInAustralia": "0.0000",
-          "ExpenseGrantDonationsOutsideAustralia": "0.0000",
-          "ExpenseTotal": "1199657.0000",
-          "ExpensesOther": "162784.0000",
-          "FinAccrualAccounting": null,
-          "FinConsolidatedReportFromMiltiple": "No",
-          "FinDocumentedPoliciesRelatedPartyTransactions": null,
-          "FinFyeJune": false,
-          "FinProvideVoluntarily": null,
-          "FinRelatedPartyTransactions": "No",
-          "FinReportACT": false,
-          "FinReportFrom": "2024-07-01T00:00:00.0000000Z",
-          "FinReportNSW": false,
-          "FinReportNT": false,
-          "FinReportQLD": false,
-          "FinReportSA": false,
-          "FinReportTAS": false,
-          "FinReportTo": "2025-06-30T00:00:00.0000000Z",
-          "FinReportVIC": false,
-          "FinReportWA": false,
-          "FinReportingType": "Special purpose financial statements",
-          "FinSapDate": null,
-          "FundRaisingNumberACT": null,
-          "FundRaisingNumberNSW": null,
-          "FundRaisingNumberQLD": null,
-          "FundRaisingNumberSA": null,
-          "FundRaisingNumberTAS": null,
-          "FundRaisingNumberVIC": null,
-          "FundRaisingNumberWA": "CC23909",
-          "GovDocAccurate": null,
-          "GrantCapacityBuildingPct": null,
-          "GrantMultiYearPct": null,
-          "GrantPublicOpenApplicationPct": null,
-          "GrantRuralRegionPct": null,
-          "HasSubmittedToRegulator": false,
-          "HoursPaid": null,
-          "HoursTotal": null,
-          "HoursVolunteer": null,
-          "HrCasualEmployees": "0",
-          "HrFteStaff": "10.5000000000",
-          "HrFullTimeEmployees": "1",
-          "HrPartTimeEmployees": "15",
-          "HrUnpainVolunteers": "140",
-          "IncomeDonationsBequests": "1747.0000",
-          "IncomeGovernmentGrants": "1110388.0000",
-          "IncomeOther": "0.0000",
-          "IncomeOtherComprehinsive": "0.0000",
-          "IncomeOtherNeg": null,
-          "IncomeOtherReceipts": "18567.0000",
-          "IncomeTotalComprehensive": "7819.0000",
-          "IncomeTotalReceipts": "1207476.0000",
-          "IncorporationStatus": null,
-          "InterestExpense": "0.0000",
-          "IsIncorporatedAssociation": true,
-          "KeyManagementPersonnel": false,
-          "LegalName": "Befriend Inc.",
-          "NetAssetsLiabilities": "404942.0000",
-          "NetSurplusDeficit": "7819.0000",
-          "NonCurrentLoansPayable": "0.0000",
-          "NumberOfKeyManagementPersonnel": "0",
-          "OperatingCountries": null,
-          "OperatingInACT": false,
-          "OperatingInNSW": false,
-          "OperatingInNT": false,
-          "OperatingInQLD": false,
-          "OperatingInSA": false,
-          "OperatingInTAS": false,
-          "OperatingInVIC": false,
-          "OperatingInWA": false,
-          "OperatingOverseas": false,
-          "OtherNames": [],
-          "OtherNonCurrentAssets": "0.0000",
-          "OtherNonCurrentLiabilities": "0.0000",
-          "OtherPurposeDescription": null,
-          "OtherPurposes": "False",
-          "Programs": [
-            {
-              "AisUuid": "2eae36ea-86ce-f011-bbd3-6045bdc2c88b",
-              "Name": "Befriend Community Building",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Adults - aged 25 to under 65",
-                "Adults - aged 65 and over",
-                "People from a culturally and linguistically diverse background",
-                "People with disabilities"
-              ],
-              "ProgramClassification": "Community development",
-              "ProgramClassificationID": "118",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "Perth WA, Australia",
-                  "FormattedAddress": "Perth WA, Australia",
-                  "Marker": {
-                    "Latitude": -31.9505269,
-                    "Longitude": 115.8604572
-                  },
-                  "Name": "Perth",
-                  "uuid": "c7ae36ea-86ce-f011-bbd3-6045bdc2c88b"
-                },
-                {
-                  "DisplayName": "Kwinana WA, Australia",
-                  "FormattedAddress": "Kwinana Beach WA 6167, Australia",
-                  "Marker": {
-                    "Latitude": -32.2260862,
-                    "Longitude": 115.7763846
-                  },
-                  "Name": "Kwinana Beach",
-                  "uuid": "cdae36ea-86ce-f011-bbd3-6045bdc2c88b"
-                },
-                {
-                  "DisplayName": "Mandurah WA, Australia",
-                  "FormattedAddress": "Mandurah WA, Australia",
-                  "Marker": {
-                    "Latitude": -32.5361038,
-                    "Longitude": 115.7424077
-                  },
-                  "Name": "Mandurah",
-                  "uuid": "dfae36ea-86ce-f011-bbd3-6045bdc2c88b"
-                },
-                {
-                  "DisplayName": "Armadale WA, Australia",
-                  "FormattedAddress": "Armadale WA 6112, Australia",
-                  "Marker": {
-                    "Latitude": -32.1473012,
-                    "Longitude": 116.0128764
-                  },
-                  "Name": "Armadale",
-                  "uuid": "e1ae36ea-86ce-f011-bbd3-6045bdc2c88b"
-                },
-                {
-                  "DisplayName": "Gosnells WA, Australia",
-                  "FormattedAddress": "Gosnells WA 6110, Australia",
-                  "Marker": {
-                    "Latitude": -32.0823022,
-                    "Longitude": 115.9902668
-                  },
-                  "Name": "Gosnells",
-                  "uuid": "e4ae36ea-86ce-f011-bbd3-6045bdc2c88b"
-                },
-                {
-                  "DisplayName": "Merriwa WA, Australia",
-                  "FormattedAddress": "Merriwa WA 6030, Australia",
-                  "Marker": {
-                    "Latitude": -31.6673101,
-                    "Longitude": 115.7127407
-                  },
-                  "Name": "Merriwa",
-                  "uuid": "e9ae36ea-86ce-f011-bbd3-6045bdc2c88b"
-                },
-                {
-                  "DisplayName": "Wanneroo WA, Australia",
-                  "FormattedAddress": "Wanneroo WA 6065, Australia",
-                  "Marker": {
-                    "Latitude": -31.7572961,
-                    "Longitude": 115.8064758
-                  },
-                  "Name": "Wanneroo",
-                  "uuid": "ecae36ea-86ce-f011-bbd3-6045bdc2c88b"
-                },
-                {
-                  "DisplayName": "Swan, WA, Australia",
-                  "FormattedAddress": "Swan, WA, Australia",
-                  "Marker": {
-                    "Latitude": -31.7358495,
-                    "Longitude": 116.0886704
-                  },
-                  "Name": "City of Swan",
-                  "uuid": "eeae36ea-86ce-f011-bbd3-6045bdc2c88b"
-                },
-                {
-                  "DisplayName": "Canning, WA, Australia",
-                  "FormattedAddress": "Canning, WA, Australia",
-                  "Marker": {
-                    "Latitude": -32.0396243,
-                    "Longitude": 115.91132
-                  },
-                  "Name": "City of Canning",
-                  "uuid": "f0ae36ea-86ce-f011-bbd3-6045bdc2c88b"
-                },
-                {
-                  "DisplayName": "East Perth WA, Australia",
-                  "FormattedAddress": "East Perth WA 6004, Australia",
-                  "Marker": {
-                    "Latitude": -31.957186,
-                    "Longitude": 115.8761576
-                  },
-                  "Name": "East Perth",
-                  "uuid": "f2ae36ea-86ce-f011-bbd3-6045bdc2c88b"
-                }
-              ],
-              "ProgramWeblink": null,
-              "uuid": "92ae36ea-86ce-f011-bbd3-6045bdc2c88b"
-            },
-            {
-              "AisUuid": "2eae36ea-86ce-f011-bbd3-6045bdc2c88b",
-              "Name": "Relationships & Inclusion Consulting",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Adults - aged 25 to under 65",
-                "Adults - aged 65 and over",
-                "People from a culturally and linguistically diverse background",
-                "People with disabilities",
-                "People at risk of homelessness/ people experiencing homelessness"
-              ],
-              "ProgramClassification": "Community development",
-              "ProgramClassificationID": "118",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "Perth WA, Australia",
-                  "FormattedAddress": "Perth WA, Australia",
-                  "Marker": {
-                    "Latitude": -31.9505269,
-                    "Longitude": 115.8604572
-                  },
-                  "Name": "Perth",
-                  "uuid": "13af36ea-86ce-f011-bbd3-6045bdc2c88b"
-                }
-              ],
-              "ProgramWeblink": null,
-              "uuid": "f4ae36ea-86ce-f011-bbd3-6045bdc2c88b"
-            }
-          ],
-          "RegulatedACT": false,
-          "RegulatedNSW": false,
-          "RegulatedNT": false,
-          "RegulatedQLD": false,
-          "RegulatedSA": false,
-          "RegulatedTAS": false,
-          "RegulatedVIC": false,
-          "RegulatedWA": false,
-          "Regulator": null,
-          "RegulatorAGMDateACT": null,
-          "RegulatorAGMDateNT": null,
-          "RegulatorAGMDateVIC": null,
-          "RegulatorAGMDateWA": "2025-11-11T00:00:00.0000000",
-          "RegulatorFundRaising": "Yes",
-          "RegulatorFundRaisingACT": false,
-          "RegulatorFundRaisingNSW": false,
-          "RegulatorFundRaisingNT": false,
-          "RegulatorFundRaisingOnline": false,
-          "RegulatorFundRaisingQLD": false,
-          "RegulatorFundRaisingSA": false,
-          "RegulatorFundRaisingTAS": false,
-          "RegulatorFundRaisingVIC": false,
-          "RegulatorFundRaisingWA": true,
-          "RegulatorIncorporatedAssociationACT": false,
-          "RegulatorIncorporatedAssociationNSW": false,
-          "RegulatorIncorporatedAssociationNT": false,
-          "RegulatorIncorporatedAssociationNumberACT": null,
-          "RegulatorIncorporatedAssociationNumberNSW": null,
-          "RegulatorIncorporatedAssociationNumberNT": null,
-          "RegulatorIncorporatedAssociationNumberQLD": null,
-          "RegulatorIncorporatedAssociationNumberSA": null,
-          "RegulatorIncorporatedAssociationNumberTAS": null,
-          "RegulatorIncorporatedAssociationNumberVIC": null,
-          "RegulatorIncorporatedAssociationNumberWA": "A1014967X",
-          "RegulatorIncorporatedAssociationQLD": false,
-          "RegulatorIncorporatedAssociationSA": false,
-          "RegulatorIncorporatedAssociationTAS": false,
-          "RegulatorIncorporatedAssociationVIC": false,
-          "RegulatorIncorporatedAssociationWA": true,
-          "RegulatorMetRequirementACT": false,
-          "RegulatorMetRequirementWA": "Yes",
-          "RegulatorOtherDetails": null,
-          "RegulatorPrograms": null,
-          "RegulatorStates": false,
-          "RelatedPartyDetails": null,
-          "RelatedPartyTransactions": [],
-          "ReliefOfPoverty": false,
-          "ReportingGroupFlag": false,
-          "ResponsiblePersonAccurate": null,
-          "RevenueGoodsServices": "42802.0000",
-          "RevenueInvestments": "33972.0000",
-          "RevenueTotal": "1207476.0000",
-          "StatementYear": "2025",
-          "SubTypesAccurate": null,
-          "TotalAssets": "683978.0000",
-          "TotalCurrentAssets": "679621.0000",
-          "TotalCurrentLiabilities": "205011.0000",
-          "TotalLiabilities": "279036.0000",
-          "TotalNonCurrentAssets": "4357.0000",
-          "TotalNonCurrentLiabilities": "74025.0000",
-          "TotalNonCurrentLoansReceivable": "0.0000",
-          "TotalPaidKMP": "$0.00",
-          "Website": "https://befriend.org.au",
-          "__normalized": true,
-          "entityTypeVersion": "",
-          "entityVersion": "1800625749",
-          "timeStamp": "2025-12-01T07:25:36.0000000Z",
-          "type": "annual_information_statement",
-          "uuid": "2eae36ea-86ce-f011-bbd3-6045bdc2c88b"
-        },
-        "type": "annual_information_statement",
-        "uuid": "2eae36ea-86ce-f011-bbd3-6045bdc2c88b"
-      },
-      "canonical_field_mappings": {
-        "data.Programs": "programs",
-        "data.TotalRevenue": "financial_records[].revenue",
-        "data.TotalExpenses": "financial_records[].total_expenses"
-      },
-      "evidence_ids": [
-        "ev:acnc:ais:36314845868:2eae36ea-86ce-f011-bbd3-6045bdc2c88b"
-      ]
-    }
-  ],
-  "financial_records": [
-    {
-      "financial_record_id": "fr:ais:cb_b2755ba4bf894e7c825199e86ced96d4:2023",
-      "period": {
-        "period_start": "2022-07-01",
-        "period_end": "2023-06-30",
-        "period_length_days": 365,
-        "label": "01/07/2022 to 30/06/2023",
-        "is_transitional_or_nonstandard": false
-      },
-      "reporting_scope": "subject",
-      "reporting_subject_causebase_id": "cb_b2755ba4bf894e7c825199e86ced96d4",
-      "covered_subjects": [
-        "cb_b2755ba4bf894e7c825199e86ced96d4"
-      ],
-      "consolidated": "false",
-      "attribution_method": "direct_subject_report",
-      "evidence_ids": [
-        "ev:ais:36314845868:2023"
-      ],
-      "revenue": {
-        "source_amount": "895313",
-        "source_currency": "AUD",
-        "source_unit_scale": "1",
-        "normalised_amount": "895313",
-        "normalised_currency": "AUD",
-        "source_unit_label": null,
-        "source_raw_value": "895313",
-        "source_precision": null
-      },
-      "donations": null,
-      "government_grants": null,
-      "employee_costs": null,
-      "total_expenses": {
-        "source_amount": "976329",
-        "source_currency": "AUD",
-        "source_unit_scale": "1",
-        "normalised_amount": "976329",
-        "normalised_currency": "AUD",
-        "source_unit_label": null,
-        "source_raw_value": "976329",
-        "source_precision": null
-      },
-      "assets": null,
-      "liabilities": null,
-      "net_assets": null,
-      "income_breakdown": [],
-      "expense_breakdown": [],
-      "balance_sheet_breakdown": [],
-      "source_ordered_line_items": [],
-      "statements": [],
-      "donations_gifts_bequests": null,
-      "functional_expense_allocations": []
-    }
-  ],
-  "financial_metrics": [
-    {
-      "metric": "revenue",
-      "observations": [
-        {
-          "financial_record_id": "fr:ais:cb_b2755ba4bf894e7c825199e86ced96d4:2023",
-          "amount": {
-            "source_amount": "895313",
-            "source_currency": "AUD",
-            "source_unit_scale": "1",
-            "normalised_amount": "895313",
-            "normalised_currency": "AUD",
-            "source_unit_label": null,
-            "source_raw_value": "895313",
-            "source_precision": null
-          },
-          "metric_source_label": null,
-          "evidence_ids": [
-            "ev:ais:36314845868:2023"
-          ]
-        }
-      ],
-      "reconciliation_status": "single_observation",
-      "reconciliation_notes": null
-    },
-    {
-      "metric": "total_expenses",
-      "observations": [
-        {
-          "financial_record_id": "fr:ais:cb_b2755ba4bf894e7c825199e86ced96d4:2023",
-          "amount": {
-            "source_amount": "976329",
-            "source_currency": "AUD",
-            "source_unit_scale": "1",
-            "normalised_amount": "976329",
-            "normalised_currency": "AUD",
-            "source_unit_label": null,
-            "source_raw_value": "976329",
-            "source_precision": null
-          },
-          "metric_source_label": null,
-          "evidence_ids": [
-            "ev:ais:36314845868:2023"
-          ]
-        }
-      ],
-      "reconciliation_status": "single_observation",
-      "reconciliation_notes": null
-    }
-  ],
-  "fundraising_expenditure": null,
-  "funding_sources": [],
-  "fundraising_methods": [],
-  "classifications": [
-    {
-      "taxonomy_id": "acnc-register",
-      "taxonomy_version": "2026-08-10",
-      "term_id": "purpose.other_purpose",
-      "term_label": "other purpose",
-      "assignment_method": "source_native",
-      "confidence": "high",
-      "evidence_ids": [
-        "ev:acnc:36314845868"
-      ]
-    },
-    {
-      "taxonomy_id": "acnc-register",
-      "taxonomy_version": "2026-08-10",
-      "term_id": "beneficiary.older_people",
-      "term_label": "older people",
-      "assignment_method": "source_native",
-      "confidence": "high",
-      "evidence_ids": [
-        "ev:acnc:36314845868"
-      ]
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "activity.direct_service",
-      "term_label": "Direct service delivery",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "activity.events_and_public_programming",
-      "term_label": "Events and public programming",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "approach.volunteer_enabled",
-      "term_label": "Volunteer-enabled delivery",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "approach.community_partnership",
-      "term_label": "Community partnership",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "participation.volunteering",
-      "term_label": "Volunteering",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "participation.public_events",
-      "term_label": "Public events",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "geography.local_or_regional",
-      "term_label": "Local or regional Australia",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "beneficiary.people_experiencing_disadvantage",
-      "term_label": "People experiencing disadvantage",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
+      "review_status": "not_required",
+      "conflicting_signals": []
     }
   ],
   "evidence": [
     {
       "evidence_id": "ev:acnc:36314845868",
-      "source_type": "regulatory",
-      "title": "ACNC Register extract",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": null,
-      "observed_at": "2026-08-10",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "title": "ACNC Register extract"
     },
     {
       "evidence_id": "ev:web:36314845868:2026-08-10",
-      "source_type": "organisation_self_report",
       "title": "Organisation website homepage",
-      "publisher": "Befriend Inc.",
-      "url": "https://befriend.org.au",
-      "observed_at": "2026-08-10",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://befriend.org.au"
     },
     {
       "evidence_id": "ev:ais:36314845868:2023",
-      "source_type": "regulatory",
-      "title": "ACNC AIS 2023 extract",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": null,
-      "observed_at": "2026-08-10",
-      "reporting_period": "01/07/2022 to 30/06/2023",
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "title": "ACNC AIS 2023 extract"
     },
     {
       "evidence_id": "ev:acnc:ais:36314845868:2eae36ea-86ce-f011-bbd3-6045bdc2c88b",
-      "source_type": "regulatory",
       "title": "ACNC Annual Information Statement 2025",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": "https://www.acnc.gov.au/charity/charities/16066b44-39af-e811-a963-000d3ad244fd/documents/2eae36ea-86ce-f011-bbd3-6045bdc2c88b",
-      "observed_at": "2025-12-01",
-      "reporting_period": "2025",
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://www.acnc.gov.au/charity/charities/16066b44-39af-e811-a963-000d3ad244fd/documents/2eae36ea-86ce-f011-bbd3-6045bdc2c88b"
     },
     {
       "evidence_id": "ev:abr-dgr:36314845868:20260805",
-      "source_type": "regulatory",
       "title": "ABR DGR bulk observation",
-      "publisher": "Australian Business Register / Australian Taxation Office",
-      "url": "https://abr.business.gov.au/Tools/BulkExtract",
-      "observed_at": "2026-08-05",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://abr.business.gov.au/Tools/BulkExtract"
+    },
+    {
+      "evidence_id": "ev:rc4-recovery:cb_b2755ba4bf894e7c825199e86ced96d4:descriptive_geography:0",
+      "title": "Exact public RC4 source-field recovery at /source_payload/data/OperatingInStates/0/Name"
     }
   ],
-  "embedding": {
-    "embedding_id": "cb_b2755ba4bf894e7c825199e86ced96d4:entity:text-embedding-3-small",
-    "embedding_type": "entity",
-    "model_id": "text-embedding-3-small",
-    "model_version": "text-embedding-3-small",
-    "dimensions": 1536,
-    "source_text_hash": "32863ead662fa9f6a32348cea556d4980f253e7b1f47af07359cb3173861ebcf",
-    "generated_at": "2026-08-10T13:53:24.456478Z",
-    "vector_ref": "embeddings.parquet#cb_b2755ba4bf894e7c825199e86ced96d4"
+  "summary": {
+    "derivative_id": "der:rc4:cb_b2755ba4bf894e7c825199e86ced96d4:summary",
+    "text": "Befriend Inc. is a community organisation operating in Greater Perth, Western Australia, including Wanneroo and Perth\u2019s northern corridor. It describes its purpose as sparking connections and supporting people who want a greater sense of belonging. Befriend runs weekly community groups and gatherings (examples include John\u2019s WingSpan Group and Nat\u2019s Art Circle), delivers workshops and courses, provides guidance and mentoring and runs a multi\u2011week Possibility Fellowship programme. The organisation organises local projects and public events such as the Swan Repair Caf\u00e9, Burns Beach Sunset Walk and the Neil Hawkins BBQ, and publishes articles, podcasts and a Social Impact Report. Services and activities are presented for people seeking social connection and belonging, people with disability (examples cited include autism and expressive aphasia) and residents of Greater Perth."
   },
-  "synthesis": {
-    "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
-    "parameters": {
-      "max_output_tokens": 3000,
-      "structured_output": true,
-      "output_contract": "causebase-summary-v0.3-rc2"
-    },
-    "evidence_input_hash": "7651ed303e42323d1af04ef17d08f09b8adece8ee63c6074d87560154606435b",
-    "generated_at": "2026-08-12T13:51:53.784265Z",
-    "editorial_policy_version": "0.3-rc2"
-  },
-  "derivative_assessments": [
+  "activities": [],
+  "beneficiaries": [],
+  "descriptive_geography": [
     {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T13:51:53.784265Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-13T13:54:42.956606Z",
-      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
-      "input_hash": "7651ed303e42323d1af04ef17d08f09b8adece8ee63c6074d87560154606435b",
-      "disposition": "reused",
-      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
-      "affected_dimensions": [
-        "summary"
+      "observation_id": "obs:rc4:cb_b2755ba4bf894e7c825199e86ced96d4:descriptive_geography:0",
+      "label": "Western Australia",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [
+        "src:acnc-public-profile:36314845868:16066b44-39af-e811-a963-000d3ad244fd:cb_b2755ba4bf894e7c825199e86ced96d4"
+      ],
+      "evidence_ids": [
+        "ev:rc4-recovery:cb_b2755ba4bf894e7c825199e86ced96d4:descriptive_geography:0"
+      ],
+      "warnings": [
+        "Recovered from /source_payload/data/OperatingInStates/0/Name"
       ]
     }
   ],
-  "dataset_version": "phase2b-2026-08-14-rc4-fundraising-projection-correction",
-  "card_schema_version": "0.4",
-  "editorial_policy_version": "0.4-rc4",
-  "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T13:54:42.956606Z"
+  "navigation_geography": [],
+  "funding_sources": [],
+  "fundraising_methods": [],
+  "participation": [],
+  "opportunities": [],
+  "programs": [
+    {
+      "observation_id": "obs:rc4:cb_b2755ba4bf894e7c825199e86ced96d4:program:prg:acnc:36314845868:92ae36ea-86ce-f011-bbd3-6045bdc2c88b",
+      "program_id": "prg:acnc:36314845868:92ae36ea-86ce-f011-bbd3-6045bdc2c88b",
+      "name": "Befriend Community Building",
+      "description": "Community development",
+      "url": "https://www.acnc.gov.au/charity/charities/16066b44-39af-e811-a963-000d3ad244fd/documents/2eae36ea-86ce-f011-bbd3-6045bdc2c88b",
+      "status": "current",
+      "claim_basis": "direct",
+      "extraction_method": "api",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:ais:36314845868:2eae36ea-86ce-f011-bbd3-6045bdc2c88b"
+      ],
+      "time": {
+        "reporting_period": {
+          "label": "2025"
+        }
+      },
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_b2755ba4bf894e7c825199e86ced96d4:program:prg:acnc:36314845868:f4ae36ea-86ce-f011-bbd3-6045bdc2c88b",
+      "program_id": "prg:acnc:36314845868:f4ae36ea-86ce-f011-bbd3-6045bdc2c88b",
+      "name": "Relationships & Inclusion Consulting",
+      "description": "Community development",
+      "url": "https://www.acnc.gov.au/charity/charities/16066b44-39af-e811-a963-000d3ad244fd/documents/2eae36ea-86ce-f011-bbd3-6045bdc2c88b",
+      "status": "current",
+      "claim_basis": "direct",
+      "extraction_method": "api",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:ais:36314845868:2eae36ea-86ce-f011-bbd3-6045bdc2c88b"
+      ],
+      "time": {
+        "reporting_period": {
+          "label": "2025"
+        }
+      },
+      "warnings": []
+    }
+  ],
+  "relationships": [],
+  "classifications": [
+    {
+      "observation_id": "obs:rc4:cb_b2755ba4bf894e7c825199e86ced96d4:classification:0",
+      "classification_id": "cls:rc4:cb_b2755ba4bf894e7c825199e86ced96d4:0",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "purpose.other_purpose",
+      "term_label": "other purpose",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:36314845868"
+      ],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_b2755ba4bf894e7c825199e86ced96d4:classification:1",
+      "classification_id": "cls:rc4:cb_b2755ba4bf894e7c825199e86ced96d4:1",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "beneficiary.older_people",
+      "term_label": "older people",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:36314845868"
+      ],
+      "confidence": "high",
+      "warnings": []
+    }
+  ],
+  "coverage": {
+    "registry_id": "capability-registry-0.5-initial",
+    "current": [
+      {
+        "capability": "regulatory.acnc_profile",
+        "status": "observed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:acnc:36314845868"
+        ]
+      },
+      {
+        "capability": "regulatory.ais",
+        "status": "observed",
+        "assessed_at": "2025-12-01",
+        "source_record_ids": [
+          "src:acnc-ais-detail:36314845868:2eae36ea-86ce-f011-bbd3-6045bdc2c88b:cb_b2755ba4bf894e7c825199e86ced96d4"
+        ],
+        "evidence_ids": [
+          "ev:acnc:ais:36314845868:2eae36ea-86ce-f011-bbd3-6045bdc2c88b"
+        ]
+      },
+      {
+        "capability": "tax.dgr",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "web.website",
+        "status": "observed",
+        "assessed_at": "2026-08-13",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "report.annual_report",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "financial.report",
+        "status": "unknown",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:ais:36314845868:2023"
+        ]
+      },
+      {
+        "capability": "financial.statements",
+        "status": "unknown",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:ais:36314845868:2023"
+        ]
+      },
+      {
+        "capability": "understanding.activities",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.beneficiaries",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.geography",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "programs",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "participation",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "funding.sources",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.methods",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.expenditure",
+        "status": "not_available_from_source",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "taxonomy.causebase",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "semantic.embedding",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      }
+    ]
+  },
+  "financial_reports": [],
+  "canonical_metrics": [],
+  "analytic_projections": [],
+  "derivatives": [
+    {
+      "derivative_id": "der:rc4:cb_b2755ba4bf894e7c825199e86ced96d4:summary",
+      "kind": "summary",
+      "input_observation_ids": [],
+      "evidence_ids": [
+        "ev:web:36314845868:2026-08-10",
+        "ev:acnc:36314845868",
+        "ev:ais:36314845868:2023"
+      ],
+      "generated_under": {
+        "output_contract_version": "phase2b-rc4-accepted-rc2-summary-reuse",
+        "input_hash": "7651ed303e42323d1af04ef17d08f09b8adece8ee63c6074d87560154606435b",
+        "generated_at": "2026-08-12T13:51:53.784265Z"
+      },
+      "current_assessment": {
+        "assessed_at": "2026-08-13T13:54:42.956606Z",
+        "assessed_against_contract": "0.5",
+        "governing_input_hash": "7651ed303e42323d1af04ef17d08f09b8adece8ee63c6074d87560154606435b",
+        "disposition": "reused",
+        "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs."
+      }
+    }
+  ],
+  "legacy_unbound": {
+    "origin_release": "rc4-2026-08-14",
+    "origin_card_sha256": "cb37396ed59002992948379ba9f7190b1c87b40135fad3ad35abece86ed82f88",
+    "activities": [
+      {
+        "value": "Runs weekly community groups and gatherings (e.g. John\u2019s WingSpan Group, Nat\u2019s Art Circle)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Delivers workshops and courses",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Provides guidance and mentoring and a Possibility Fellowship programme",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Organises local projects and events (e.g. Swan Repair Caf\u00e9, Burns Beach Sunset Walk, Neil Hawkins BBQ)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Publishes articles, podcasts and a Social Impact Report",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "beneficiaries": [
+      {
+        "value": "People seeking social connection and belonging",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "People with disability",
+        "source_role": "legacy_source_qualifier",
+        "provenance_note": "examples on the website include autism and expressive aphasia",
+        "evidence_ids": []
+      },
+      {
+        "value": "Residents of Greater Perth, including Wanneroo and Perth\u2019s northern corridor",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "descriptive_geography": [
+      {
+        "value": "Greater Perth",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Wanneroo and Perth\u2019s northern corridor",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "classifications": [
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "activity.direct_service",
+        "term_label": "Direct service delivery",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "activity.events_and_public_programming",
+        "term_label": "Events and public programming",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "approach.volunteer_enabled",
+        "term_label": "Volunteer-enabled delivery",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "approach.community_partnership",
+        "term_label": "Community partnership",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "participation.volunteering",
+        "term_label": "Volunteering",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "participation.public_events",
+        "term_label": "Public events",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "geography.local_or_regional",
+        "term_label": "Local or regional Australia",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "beneficiary.people_experiencing_disadvantage",
+        "term_label": "People experiencing disadvantage",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      }
+    ],
+    "financial_records": [
+      {
+        "financial_record_id": "fr:ais:cb_b2755ba4bf894e7c825199e86ced96d4:2023",
+        "period": {
+          "period_start": "2022-07-01",
+          "period_end": "2023-06-30",
+          "period_length_days": 365,
+          "label": "01/07/2022 to 30/06/2023",
+          "is_transitional_or_nonstandard": false
+        },
+        "reporting_scope": "subject",
+        "reporting_subject_causebase_id": "cb_b2755ba4bf894e7c825199e86ced96d4",
+        "covered_subjects": [
+          "cb_b2755ba4bf894e7c825199e86ced96d4"
+        ],
+        "consolidated": "false",
+        "attribution_method": "direct_subject_report",
+        "evidence_ids": [
+          "ev:ais:36314845868:2023"
+        ],
+        "revenue": {
+          "source_amount": "895313",
+          "source_currency": "AUD",
+          "source_unit_scale": "1",
+          "normalised_amount": "895313",
+          "normalised_currency": "AUD",
+          "source_unit_label": null,
+          "source_raw_value": "895313",
+          "source_precision": null
+        },
+        "donations": null,
+        "government_grants": null,
+        "employee_costs": null,
+        "total_expenses": {
+          "source_amount": "976329",
+          "source_currency": "AUD",
+          "source_unit_scale": "1",
+          "normalised_amount": "976329",
+          "normalised_currency": "AUD",
+          "source_unit_label": null,
+          "source_raw_value": "976329",
+          "source_precision": null
+        },
+        "assets": null,
+        "liabilities": null,
+        "net_assets": null,
+        "income_breakdown": [],
+        "expense_breakdown": [],
+        "balance_sheet_breakdown": [],
+        "source_ordered_line_items": [],
+        "statements": [],
+        "donations_gifts_bequests": null,
+        "functional_expense_allocations": []
+      }
+    ]
+  }
 }

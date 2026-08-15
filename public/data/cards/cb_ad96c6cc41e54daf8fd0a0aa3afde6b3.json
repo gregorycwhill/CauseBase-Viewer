@@ -1,1558 +1,494 @@
 {
   "causebase_id": "cb_ad96c6cc41e54daf8fd0a0aa3afde6b3",
+  "contract_version": "0.5",
   "subject_kind": "unknown",
-  "external_identifiers": [
-    {
-      "scheme": "abn",
-      "value": "54001276599",
-      "source_evidence_id": "ev:acnc:54001276599"
-    }
+  "identity": {
+    "legal_name": "Christian Community Services",
+    "display_name": "Christian Community Services",
+    "operating_names": [],
+    "former_names": [],
+    "entity_status": "registered",
+    "website": "www.ccs.com.au",
+    "external_identifiers": [
+      {
+        "scheme": "abn",
+        "value": "54001276599",
+        "evidence_ids": [
+          "ev:acnc:54001276599"
+        ]
+      }
+    ],
+    "registrations": [
+      {
+        "regulator": "ACNC",
+        "status": "registered",
+        "evidence_ids": [
+          "ev:acnc:54001276599"
+        ]
+      }
+    ],
+    "tax_statuses": [
+      {
+        "scheme": "ABR DGR",
+        "status": "endorsed",
+        "evidence_ids": [
+          "ev:abr-dgr:54001276599:20260805"
+        ]
+      }
+    ]
+  },
+  "release": {
+    "release_id": "v0.5.0-2026-08-15",
+    "dataset_version": "0.5.0-2026-08-15",
+    "contract_version": "0.5",
+    "based_on_release": "rc4-2026-08-14",
+    "generated_at": "2026-08-15T00:00:00Z"
+  },
+  "source_record_refs": [
+    "src:acnc-public-profile:54001276599:319e2dd7-2daf-e811-a960-000d3ad24282:cb_ad96c6cc41e54daf8fd0a0aa3afde6b3",
+    "src:acnc-ais-detail:54001276599:47eabc57-71b8-f011-bbd3-6045bde67d52:cb_ad96c6cc41e54daf8fd0a0aa3afde6b3"
   ],
-  "registrations": [
-    {
-      "regulator": "ACNC",
-      "registration_id": null,
-      "status": "registered",
-      "evidence_ids": [
-        "ev:acnc:54001276599"
-      ]
-    }
-  ],
-  "tax_statuses": [
-    {
-      "scheme": "ABR DGR",
-      "status": "endorsed",
-      "detail": "Dated 2026-08-05 ABR bulk observation",
-      "evidence_ids": [
-        "ev:abr-dgr:54001276599:20260805"
-      ]
-    }
-  ],
-  "relationships": [],
-  "source_resolutions": [
+  "source_bindings": [
     {
       "source_record_id": "src:acnc-register:fcc4d425-4ae4-54c4-893e-14f6328689e0",
       "resolution_status": "resolved",
       "resolution_basis": "automated authoritative ACNC promotion under acnc-authoritative-v1",
       "confidence": "high",
-      "supporting_signals": [
-        "ABN:54001276599",
-        "ACNC Register"
-      ],
-      "conflicting_signals": [],
-      "review_status": "not_required"
-    }
-  ],
-  "legal_name": "Christian Community Services",
-  "display_name": "Christian Community Services",
-  "entity_status": "registered",
-  "canonical_url": "https://gregorycwhill.github.io/CauseBase-Viewer/#cb_ad96c6cc41e54daf8fd0a0aa3afde6b3",
-  "acnc_profile_url": "https://www.acnc.gov.au/charity/charities/319e2dd7-2daf-e811-a960-000d3ad24282/profile",
-  "acnc_ais_url": "https://www.acnc.gov.au/charity/charities/319e2dd7-2daf-e811-a960-000d3ad24282/documents/47eabc57-71b8-f011-bbd3-6045bde67d52",
-  "operating_names": [],
-  "former_names": [],
-  "principal_location": "Australia",
-  "coverage": [
-    {
-      "capability": "regulatory",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:acnc:54001276599"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "annual_report",
-      "status": "not_yet_processed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "fundraising_expenditure",
-      "status": "not_available_from_source",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": "No direct or defensible derived fundraising expenditure was found in selected Phase 2A evidence."
-    },
-    {
-      "capability": "financials",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:ais:54001276599:2023"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "latest_acnc_ais",
-      "status": "observed",
-      "source_record_id": "src:acnc-ais-detail:54001276599:47eabc57-71b8-f011-bbd3-6045bde67d52:cb_ad96c6cc41e54daf8fd0a0aa3afde6b3",
-      "evidence_ids": [
-        "ev:acnc:ais:54001276599:47eabc57-71b8-f011-bbd3-6045bde67d52"
-      ],
-      "observed_at": "2025-11-03",
-      "freshness_note": "Latest submitted AIS detail acquired from the public ACNC entity endpoint."
-    },
-    {
-      "capability": "website",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-13",
-      "freshness_note": "Public website locator acquired from the ACNC profile."
-    }
-  ],
-  "enrichment_level": "enriched",
-  "website": "www.ccs.com.au",
-  "geography": [
-    "Australia",
-    "Three local or regional retirement communities"
-  ],
-  "geography_observations": [
-    {
-      "value": "Australia",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Three local or regional retirement communities",
-      "source_role": "legacy_source_qualifier",
-      "provenance_note": "Removed source narration and unsupported location caveat.",
-      "evidence_ids": []
-    }
-  ],
-  "navigation_geography": [],
-  "causebase_summary": "Christian Community Services is an Australian provider of retirement living and residential aged care. As of the available records it operates three retirement villages and residential care communities, with Carinya House referenced by name. The organisation employs on‑site carers to support residents and runs social activities for residents, for example organised bus outings. Prospective residents can book tours and view online video information about the villages. Christian Community Services states that its approach is shaped by long‑held Christian values and emphasises building personal relationships with residents and families.",
-  "summary_evidence_ids": [
-    "ev:web:54001276599:2026-08-10",
-    "ev:ais:54001276599:2023",
-    "ev:acnc:54001276599"
-  ],
-  "organisation_self_description": null,
-  "activities": [
-    "Operates three retirement villages",
-    "Operates residential aged care or residential care communities (Carinya House referenced)",
-    "Provides on-site care services through employed carers",
-    "Runs resident social activities such as bus outings",
-    "Offers tours and online video information for prospective residents"
-  ],
-  "activity_observations": [
-    {
-      "value": "Operates three retirement villages",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Operates residential aged care or residential care communities (Carinya House referenced)",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Provides on-site care services through employed carers",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Runs resident social activities such as bus outings",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Offers tours and online video information for prospective residents",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "beneficiaries": [
-    "Residents of retirement villages",
-    "People receiving residential aged care",
-    "Family members of residents",
-    "Older people / seniors"
-  ],
-  "beneficiary_observations": [
-    {
-      "value": "Residents of retirement villages",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "People receiving residential aged care",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Family members of residents",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Older people / seniors",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "participation_modes": [
-    "Prospective residents can book tours",
-    "Residents attend organised outings (bus outings)"
-  ],
-  "participation_observations": [],
-  "opportunities": [],
-  "programs": [
-    {
-      "program_id": "prg:acnc:54001276599:a1eabc57-71b8-f011-bbd3-6045bde67d52",
-      "name": "Residential Aged Care",
-      "description": "Palliative care",
-      "beneficiaries": [
-        "Adults - aged 65 and over",
-        "Males",
-        "Females",
-        "Veterans and/or their families",
-        "People with disabilities",
-        "People with chronic illness (including terminal illness)",
-        "Financially disadvantaged people",
-        "General community in Australia"
-      ],
-      "geography": [
-        "Greater Sydney Area, NSW, Australia",
-        "Newcastle NSW, Australia"
-      ],
-      "status": "current",
-      "reporting_period": "2025",
-      "source_url": "www.cbcs.com.au",
-      "evidence_ids": [
-        "ev:acnc:ais:54001276599:47eabc57-71b8-f011-bbd3-6045bde67d52"
-      ]
-    }
-  ],
-  "source_native_records": [
-    {
-      "source_record_id": "src:acnc-public-profile:54001276599:319e2dd7-2daf-e811-a960-000d3ad24282:cb_ad96c6cc41e54daf8fd0a0aa3afde6b3",
-      "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-14-public-api",
-      "source_url": "https://www.acnc.gov.au/charity/charities/319e2dd7-2daf-e811-a960-000d3ad24282/profile",
-      "retrieved_at": "2026-08-13T13:54:42.956606Z",
-      "observed_at": "2025-11-03",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "uuid": "319e2dd7-2daf-e811-a960-000d3ad24282",
-        "abn": "54001276599"
-      },
-      "source_payload": {
-        "data": {
-          "AFSEmail": "jyang@cbcs.com.au",
-          "Abn": "54001276599",
-          "AddressCountry": null,
-          "AddressLine1": null,
-          "AddressLine2": null,
-          "AddressLine3": null,
-          "AddressPostalCode": null,
-          "AddressStateOrProvince": null,
-          "AddressSuburb": null,
-          "AnnualReports": [
-            {
-              "AISId": null,
-              "DateReceived": "2023-01-05T00:15:25.0000000Z",
-              "DocumentUuid": "9b6c7304-8e8c-ed11-81ac-00224892bbf7",
-              "DueDate": "2023-01-31T00:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2022",
-              "type": "Financial Report 2022",
-              "uuid": "ec57b73c-d063-eb11-b0b0-000d3acbaeea"
-            },
-            {
-              "AISId": "682e492d-8e8c-ed11-81ad-00224893d32a",
-              "DateReceived": "2023-01-05T00:16:35.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2023-01-31T00:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2022",
-              "type": "Annual Information Statement 2022",
-              "uuid": "f457b73c-d063-eb11-b0b0-000d3acbaeea"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2020-02-18T08:45:29.0000000Z",
-              "DocumentUuid": "3b9157f5-2a52-ea11-a813-000d3ad1cc03",
-              "DueDate": "2020-01-31T00:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2019",
-              "type": "Financial Report 2019",
-              "uuid": "fda260f8-ec25-e911-a976-000d3ad05e15"
-            },
-            {
-              "AISId": "837d9900-2b52-ea11-a813-000d3ad1f497",
-              "DateReceived": "2020-02-18T08:45:34.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2020-01-31T00:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2019",
-              "type": "Annual Information Statement 2019",
-              "uuid": "51a360f8-ec25-e911-a976-000d3ad05e15"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2021-03-17T03:33:48.0000000Z",
-              "DocumentUuid": "c218828c-d186-eb11-a812-000d3ad1beaa",
-              "DueDate": "2021-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2020",
-              "type": "Financial Report 2020",
-              "uuid": "75a360f8-ec25-e911-a976-000d3ad05e15"
-            },
-            {
-              "AISId": "b62d9591-d186-eb11-b1ab-000d3ad1f9f4",
-              "DateReceived": "2021-03-17T03:33:53.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2021-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2020",
-              "type": "Annual Information Statement 2020",
-              "uuid": "aea360f8-ec25-e911-a976-000d3ad05e15"
-            },
-            {
-              "AISId": "c6d4673e-c35e-ec11-8f8f-000d3ad21a08",
-              "DateReceived": "2021-12-16T22:55:30.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2022-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2021",
-              "type": "Annual Information Statement 2021",
-              "uuid": "781e560e-9144-ea11-a813-000d3ad1cd99"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2021-12-16T22:55:21.0000000Z",
-              "DocumentUuid": "db88e238-c35e-ec11-8f8f-000d3ad169c0",
-              "DueDate": "2022-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2021",
-              "type": "Financial Report 2021",
-              "uuid": "911e560e-9144-ea11-a813-000d3ad1cd99"
-            },
-            {
-              "AISId": "22348d51-e481-e911-a982-000d3ad05ad0",
-              "DateReceived": "2019-05-29T07:35:26.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2019-04-06T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2018",
-              "type": "Annual Information Statement 2018",
-              "uuid": "fe4ca53e-3ac8-e811-a964-000d3ad24077"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2019-05-29T07:35:20.0000000Z",
-              "DocumentUuid": "d056fb49-e481-e911-a972-000d3ad24c60",
-              "DueDate": "2019-04-06T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2018",
-              "type": "Financial Report 2018",
-              "uuid": "4587454d-3dc8-e811-a964-000d3ad24077"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2017-10-23T13:00:00.0000000Z",
-              "DocumentUuid": "3b1102d4-3ab0-e811-a963-000d3ad24077",
-              "DueDate": "2018-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2017",
-              "type": "Financial Report 2017",
-              "uuid": "5087454d-3dc8-e811-a964-000d3ad24077"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2016-09-19T14:00:00.0000000Z",
-              "DocumentUuid": "271402d4-3ab0-e811-a963-000d3ad24077",
-              "DueDate": "2017-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2016",
-              "type": "Financial Report 2016",
-              "uuid": "5c87454d-3dc8-e811-a964-000d3ad24077"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2014-02-25T13:00:00.0000000Z",
-              "DocumentUuid": "411102d4-3ab0-e811-a963-000d3ad24077",
-              "DueDate": "2014-03-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2013",
-              "type": "Financial Report 2013",
-              "uuid": "7087454d-3dc8-e811-a964-000d3ad24077"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2014-09-30T14:00:00.0000000Z",
-              "DocumentUuid": "e61102d4-3ab0-e811-a963-000d3ad24077",
-              "DueDate": "2015-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2014",
-              "type": "Financial Report 2014",
-              "uuid": "b387454d-3dc8-e811-a964-000d3ad24077"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2015-10-06T13:00:00.0000000Z",
-              "DocumentUuid": "111302d4-3ab0-e811-a963-000d3ad24077",
-              "DueDate": "2016-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2015",
-              "type": "Financial Report 2015",
-              "uuid": "c387454d-3dc8-e811-a964-000d3ad24077"
-            },
-            {
-              "AISId": "a403afb8-44c8-e811-a962-000d3ad24182",
-              "DateReceived": "2014-02-25T13:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2014-03-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2013",
-              "type": "Annual Information Statement 2013",
-              "uuid": "a6a435b6-44c8-e811-a95f-000d3ad24c60"
-            },
-            {
-              "AISId": "ac03afb8-44c8-e811-a962-000d3ad24182",
-              "DateReceived": "2014-09-30T14:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2015-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2014",
-              "type": "Annual Information Statement 2014",
-              "uuid": "aea435b6-44c8-e811-a95f-000d3ad24c60"
-            },
-            {
-              "AISId": "b603afb8-44c8-e811-a962-000d3ad24182",
-              "DateReceived": "2015-10-06T13:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2016-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2015",
-              "type": "Annual Information Statement 2015",
-              "uuid": "b6a435b6-44c8-e811-a95f-000d3ad24c60"
-            },
-            {
-              "AISId": "c403afb8-44c8-e811-a962-000d3ad24182",
-              "DateReceived": "2016-09-19T14:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2017-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2016",
-              "type": "Annual Information Statement 2016",
-              "uuid": "c3a435b6-44c8-e811-a95f-000d3ad24c60"
-            },
-            {
-              "AISId": "d003afb8-44c8-e811-a962-000d3ad24182",
-              "DateReceived": "2017-10-23T13:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2018-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2017",
-              "type": "Annual Information Statement 2017",
-              "uuid": "c9a435b6-44c8-e811-a95f-000d3ad24c60"
-            },
-            {
-              "AISId": "e99c11d1-8d8d-ee11-be36-002248122521",
-              "DateReceived": "2023-11-28T01:31:25.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2024-01-31T00:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2023",
-              "type": "Annual Information Statement 2023",
-              "uuid": "3b566bc2-a582-ec11-8d20-002248929301"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2023-11-28T01:31:28.0000000Z",
-              "DocumentUuid": "736e74ca-8d8d-ee11-be36-002248935564",
-              "DueDate": "2024-01-31T00:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2023",
-              "type": "Financial Report 2023",
-              "uuid": "49566bc2-a582-ec11-8d20-002248929301"
-            },
-            {
-              "AISId": "47eabc57-71b8-f011-bbd3-6045bde67d52",
-              "DateReceived": "2025-11-03T04:55:45.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2026-01-31T00:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2025",
-              "type": "Annual Information Statement 2025",
-              "uuid": "2a06b52a-98c0-ee11-907a-00224893b8c7"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2025-11-03T04:55:21.0000000Z",
-              "DocumentUuid": "38c1e547-71b8-f011-bbd3-6045bde61dfb",
-              "DueDate": "2026-01-31T00:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2025",
-              "type": "Financial Report 2025",
-              "uuid": "4706b52a-98c0-ee11-907a-00224893b8c7"
-            },
-            {
-              "AISId": "a02adec5-e8aa-ef11-b8e8-002248972cc9",
-              "DateReceived": "2024-11-25T04:50:27.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2025-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2024",
-              "type": "Annual Information Statement 2024",
-              "uuid": "cc0fb945-c9a1-ed11-aad1-00224893bffb"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2024-11-25T04:50:21.0000000Z",
-              "DocumentUuid": "feab01bf-e8aa-ef11-b8e8-002248101c72",
-              "DueDate": "2025-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2024",
-              "type": "Financial Report 2024",
-              "uuid": "2010b945-c9a1-ed11-aad1-00224893bffb"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2026-12-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Not yet submitted",
-              "Year": "2026",
-              "type": "Annual Information Statement 2026",
-              "uuid": "4adcde46-dcdf-ef11-a731-00224893f254"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2026-12-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Pending",
-              "Year": "2026",
-              "type": "Financial Report 2026",
-              "uuid": "acdcde46-dcdf-ef11-a731-00224893f254"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2027-12-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Not yet submitted",
-              "Year": "2027",
-              "type": "Annual Information Statement 2027",
-              "uuid": "07fbc3d8-04ff-f011-8406-6045bdc27ae7"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2027-12-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Pending",
-              "Year": "2027",
-              "type": "Financial Report 2027",
-              "uuid": "30fbc3d8-04ff-f011-8406-6045bdc27ae7"
-            }
-          ],
-          "Beneficiaries": [
-            {
-              "Description": null,
-              "Name": "Veterans and/or their families",
-              "uuid": "9b9db55d-71b8-f011-bbd3-6045bde67d52"
-            },
-            {
-              "Description": null,
-              "Name": "People with disabilities",
-              "uuid": "ba9db55d-71b8-f011-bbd3-6045bde67d52"
-            },
-            {
-              "Description": null,
-              "Name": "People with chronic illness (including terminal illness)",
-              "uuid": "8358b063-71b8-f011-bbd3-6045bde67d52"
-            },
-            {
-              "Description": null,
-              "Name": "Males",
-              "uuid": "8e58b063-71b8-f011-bbd3-6045bde67d52"
-            },
-            {
-              "Description": null,
-              "Name": "General community in Australia",
-              "uuid": "9e58b063-71b8-f011-bbd3-6045bde67d52"
-            },
-            {
-              "Description": null,
-              "Name": "Financially disadvantaged people",
-              "uuid": "b258b063-71b8-f011-bbd3-6045bde67d52"
-            },
-            {
-              "Description": null,
-              "Name": "Females",
-              "uuid": "b758b063-71b8-f011-bbd3-6045bde67d52"
-            },
-            {
-              "Description": null,
-              "Name": "Adults - aged 65 and over",
-              "uuid": "bf58b063-71b8-f011-bbd3-6045bde67d52"
-            }
-          ],
-          "CharitySize": "Large",
-          "CharitySubtypeHistory": [
-            {
-              "EndDate": "2013-12-30T13:00:00.0000000Z",
-              "Purpose": "2012 Another purpose beneficial to the community",
-              "StartDate": "2012-12-02T13:00:00.0000000Z",
-              "uuid": "17b5530a-fcc6-e811-a963-000d3ad24a0d"
-            },
-            {
-              "EndDate": "2013-12-30T13:00:00.0000000Z",
-              "Purpose": "2012 Public benevolent institution",
-              "StartDate": "2012-12-02T13:00:00.0000000Z",
-              "uuid": "20b5530a-fcc6-e811-a963-000d3ad24a0d"
-            },
-            {
-              "EndDate": null,
-              "Purpose": "Public Benevolent Institution (PBI)",
-              "StartDate": "2013-12-31T13:00:00.0000000Z",
-              "uuid": "2bb5530a-fcc6-e811-a963-000d3ad24a0d"
-            },
-            {
-              "EndDate": null,
-              "Purpose": "Advancing health",
-              "StartDate": "2013-12-31T13:00:00.0000000Z",
-              "uuid": "33b5530a-fcc6-e811-a963-000d3ad24a0d"
-            }
-          ],
-          "CharityVersion": "204",
-          "ChildMemberEndDate": null,
-          "ChildMemberStartDate": null,
-          "ChooseToProvideAis": null,
-          "Countries": [],
-          "DateEstablished": "1975-12-31T13:00:00.0000000Z",
-          "Documents": [
-            {
-              "Date": "2016-12-21T00:00:00.0000000",
-              "Title": "CBCS Constitution 2016 - Final.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/319e2dd7-2daf-e811-a960-000d3ad24282-02ad4c6c-e3c6-4020-824e-5a5cb93729cb-Governing%20Document-9c1402d4-3ab0-e811-a963-000d3ad24077-CBCS_Constitution_2016_-_Final.pdf",
-              "Year": null,
-              "type": "Governing Document",
-              "uuid": "9c1402d4-3ab0-e811-a963-000d3ad24077"
-            },
-            {
-              "Date": "2019-05-29T00:00:00.0000000",
-              "Title": "ACNC Financial Report 2018 (Signed)-compressed.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/319e2dd7-2daf-e811-a960-000d3ad24282-02ad4c6c-e3c6-4020-824e-5a5cb93729cb-Annual%20Report-c456fb49-e481-e911-a972-000d3ad24c60-ACNC_Financial_Report_2018_(Signed)-compressed.pdf",
-              "Year": "2018",
-              "type": "Annual Report",
-              "uuid": "c456fb49-e481-e911-a972-000d3ad24c60"
-            },
-            {
-              "Date": "2021-12-17T00:00:00.0000000",
-              "Title": "CBCS - 2021 Financial Report (final).pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/319e2dd7-2daf-e811-a960-000d3ad24282-02ad4c6c-e3c6-4020-824e-5a5cb93729cb-Financial%20Report-db88e238-c35e-ec11-8f8f-000d3ad169c0-CBCS_-_2021_Financial_Report_(final).pdf",
-              "Year": "2021",
-              "type": "Financial Report",
-              "uuid": "db88e238-c35e-ec11-8f8f-000d3ad169c0"
-            },
-            {
-              "Date": "2021-03-17T00:00:00.0000000",
-              "Title": "CBCS - 2020 Financial Report (signed).pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/319e2dd7-2daf-e811-a960-000d3ad24282-02ad4c6c-e3c6-4020-824e-5a5cb93729cb-Financial%20Report-c218828c-d186-eb11-a812-000d3ad1beaa-CBCS_-_2020_Financial_Report_(signed).pdf",
-              "Year": "2020",
-              "type": "Financial Report",
-              "uuid": "c218828c-d186-eb11-a812-000d3ad1beaa"
-            },
-            {
-              "Date": "2020-02-18T00:00:00.0000000",
-              "Title": "CBCS 2019 Financial Report - ACNC.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/319e2dd7-2daf-e811-a960-000d3ad24282-02ad4c6c-e3c6-4020-824e-5a5cb93729cb-Financial%20Report-3b9157f5-2a52-ea11-a813-000d3ad1cc03-CBCS_2019_Financial_Report_-_ACNC.pdf",
-              "Year": "2019",
-              "type": "Financial Report",
-              "uuid": "3b9157f5-2a52-ea11-a813-000d3ad1cc03"
-            },
-            {
-              "Date": "2017-10-24T00:00:00.0000000",
-              "Title": "CBCS 2017 Financial Report - ACNC - Signed.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/319e2dd7-2daf-e811-a960-000d3ad24282-02ad4c6c-e3c6-4020-824e-5a5cb93729cb-Financial%20Report-3b1102d4-3ab0-e811-a963-000d3ad24077-CBCS_2017_Financial_Report_-_ACNC_-_Signed.pdf",
-              "Year": "2017",
-              "type": "Financial Report",
-              "uuid": "3b1102d4-3ab0-e811-a963-000d3ad24077"
-            },
-            {
-              "Date": "2014-02-26T00:00:00.0000000",
-              "Title": "CBCS 2013 Financial Report - Signed.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/319e2dd7-2daf-e811-a960-000d3ad24282-02ad4c6c-e3c6-4020-824e-5a5cb93729cb-Financial%20Report-411102d4-3ab0-e811-a963-000d3ad24077-CBCS_2013_Financial_Report_-_Signed.pdf",
-              "Year": "2013",
-              "type": "Financial Report",
-              "uuid": "411102d4-3ab0-e811-a963-000d3ad24077"
-            },
-            {
-              "Date": "2014-10-01T00:00:00.0000000",
-              "Title": "CBCS 2014 Financial Report - ACNC Purposes.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/319e2dd7-2daf-e811-a960-000d3ad24282-02ad4c6c-e3c6-4020-824e-5a5cb93729cb-Financial%20Report-e61102d4-3ab0-e811-a963-000d3ad24077-CBCS_2014_Financial_Report_-_ACNC_Purposes.pdf",
-              "Year": "2014",
-              "type": "Financial Report",
-              "uuid": "e61102d4-3ab0-e811-a963-000d3ad24077"
-            },
-            {
-              "Date": "2015-10-07T00:00:00.0000000",
-              "Title": "CBCS 2015 Financial Report - ACNC Purposes.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/319e2dd7-2daf-e811-a960-000d3ad24282-02ad4c6c-e3c6-4020-824e-5a5cb93729cb-Financial%20Report-111302d4-3ab0-e811-a963-000d3ad24077-CBCS_2015_Financial_Report_-_ACNC_Purposes.pdf",
-              "Year": "2015",
-              "type": "Financial Report",
-              "uuid": "111302d4-3ab0-e811-a963-000d3ad24077"
-            },
-            {
-              "Date": "2016-09-20T00:00:00.0000000",
-              "Title": "Annual Report - ACNC.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/319e2dd7-2daf-e811-a960-000d3ad24282-02ad4c6c-e3c6-4020-824e-5a5cb93729cb-Financial%20Report-271402d4-3ab0-e811-a963-000d3ad24077-Annual_Report_-_ACNC.pdf",
-              "Year": "2016",
-              "type": "Financial Report",
-              "uuid": "271402d4-3ab0-e811-a963-000d3ad24077"
-            },
-            {
-              "Date": "2019-05-29T00:00:00.0000000",
-              "Title": "ACNC Financial Report 2018 (Signed)-compressed.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/319e2dd7-2daf-e811-a960-000d3ad24282-02ad4c6c-e3c6-4020-824e-5a5cb93729cb-Financial%20Report-d056fb49-e481-e911-a972-000d3ad24c60-ACNC_Financial_Report_2018_(Signed)-compressed.pdf",
-              "Year": "2018",
-              "type": "Financial Report",
-              "uuid": "d056fb49-e481-e911-a972-000d3ad24c60"
-            },
-            {
-              "Date": "2024-11-25T00:00:00.0000000",
-              "Title": "CBCS - 2024 Financial Report (signed).pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/319e2dd7-2daf-e811-a960-000d3ad24282-02ad4c6c-e3c6-4020-824e-5a5cb93729cb-Financial%20Report-feab01bf-e8aa-ef11-b8e8-002248101c72-CBCS_-_2024_Financial_Report_(signed).pdf",
-              "Year": "2024",
-              "type": "Financial Report",
-              "uuid": "feab01bf-e8aa-ef11-b8e8-002248101c72"
-            },
-            {
-              "Date": "2023-01-05T00:00:00.0000000",
-              "Title": "Christian Brethren Community Services - 2022 Financial Report (signed).pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/319e2dd7-2daf-e811-a960-000d3ad24282-02ad4c6c-e3c6-4020-824e-5a5cb93729cb-Financial%20Report-9b6c7304-8e8c-ed11-81ac-00224892bbf7-Christian_Brethren_Community_Services_-_2022_Financial_Report_(signed).pdf",
-              "Year": "2022",
-              "type": "Financial Report",
-              "uuid": "9b6c7304-8e8c-ed11-81ac-00224892bbf7"
-            },
-            {
-              "Date": "2023-11-28T00:00:00.0000000",
-              "Title": "CBCS - 2023 Financial Report (final)v2.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/319e2dd7-2daf-e811-a960-000d3ad24282-02ad4c6c-e3c6-4020-824e-5a5cb93729cb-Financial%20Report-736e74ca-8d8d-ee11-be36-002248935564-CBCS_-_2023_Financial_Report_(final)v2.pdf",
-              "Year": "2023",
-              "type": "Financial Report",
-              "uuid": "736e74ca-8d8d-ee11-be36-002248935564"
-            },
-            {
-              "Date": "2025-11-03T00:00:00.0000000",
-              "Title": "Christian Community Services - 2025 Financial Report (final) GSH &PW signed.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/319e2dd7-2daf-e811-a960-000d3ad24282-02ad4c6c-e3c6-4020-824e-5a5cb93729cb-Financial%20Report-38c1e547-71b8-f011-bbd3-6045bde61dfb-Christian_Community_Services_-_2025_Financial_Report_(final)_GSH_&PW_signed.pdf",
-              "Year": "2025",
-              "type": "Financial Report",
-              "uuid": "38c1e547-71b8-f011-bbd3-6045bde61dfb"
-            }
-          ],
-          "Email": "admin@ccs.com.au",
-          "EnforcementOutcomes": [],
-          "FinancialYearEnd": "30/06",
-          "GovernmentAgencies": [
-            {
-              "Name": "Australian Securities and Investment Commission",
-              "ReferenceNumber": "001276599",
-              "uuid": "920a6cb9-e6af-e811-a963-000d3ad244fd"
-            }
-          ],
-          "GroupHeadFlag": false,
-          "LastReported": "2025-11-03T04:55:45.0000000Z",
-          "Name": "Christian Community Services",
-          "NextReportDue": "2026-12-31T12:30:00.0000000Z",
-          "OperatingInStates": [],
-          "OtherDetails": null,
-          "OtherNames": [],
-          "ParentAccountAbn": null,
-          "ParentAccountId": null,
-          "Phone": null,
-          "Programs": [
-            {
-              "AisUuid": "47eabc57-71b8-f011-bbd3-6045bde67d52",
-              "Name": "Residential Aged Care",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Adults - aged 65 and over",
-                "Males",
-                "Females",
-                "Veterans and/or their families",
-                "People with disabilities",
-                "People with chronic illness (including terminal illness)",
-                "Financially disadvantaged people",
-                "General community in Australia"
-              ],
-              "ProgramClassie": [
-                {
-                  "classie_id": "408",
-                  "label": "Palliative care",
-                  "parent_id": "405",
-                  "selected": true
-                },
-                {
-                  "classie_id": "405",
-                  "label": "Nursing care",
-                  "parent_id": "264",
-                  "selected": false
-                },
-                {
-                  "classie_id": "264",
-                  "label": "Health",
-                  "parent_id": null,
-                  "selected": false
-                }
-              ],
-              "ProgramClassification": "Palliative care",
-              "ProgramClassificationID": "408",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "Greater Sydney Area, NSW, Australia",
-                  "FormattedAddress": "Sydney Metropolitan Area, NSW, Australia",
-                  "Marker": {
-                    "Latitude": -33.8817547,
-                    "Longitude": 150.8609358
-                  },
-                  "Name": "Sydney Metropolitan Area",
-                  "uuid": "f79cb55d-71b8-f011-bbd3-6045bde67d52"
-                },
-                {
-                  "DisplayName": "Newcastle NSW, Australia",
-                  "FormattedAddress": "Newcastle NSW, Australia",
-                  "Marker": {
-                    "Latitude": -32.9282712,
-                    "Longitude": 151.7816802
-                  },
-                  "Name": "Newcastle",
-                  "uuid": "019db55d-71b8-f011-bbd3-6045bde67d52"
-                }
-              ],
-              "ProgramWeblink": "www.cbcs.com.au",
-              "uuid": "a1eabc57-71b8-f011-bbd3-6045bde67d52"
-            }
-          ],
-          "ReferendumReturnsUrl": null,
-          "RegistrationStatusHistory": [
-            {
-              "EffectiveDate": "2012-12-02T13:00:00.0000000Z",
-              "Status": "Registered",
-              "TransactionDate": "2012-12-02T13:00:00.0000000Z",
-              "uuid": "e4c4ec4e-06c6-e811-a95f-000d3ad24c60"
-            }
-          ],
-          "RelatedPartyTransactions": null,
-          "RelevantTransactions": null,
-          "ReportingLate": "2027-06-30T12:30:00.0000000Z",
-          "ResponsiblePersons": [
-            {
-              "Name": "Jean HAWKE",
-              "Role": "Director",
-              "uuid": "1ef53c8f-8ca4-ea11-a812-000d3ad1f29c"
-            },
-            {
-              "Name": "Fefe Lawson",
-              "Role": "Director",
-              "uuid": "7071c4b2-1d66-f111-a825-000d3ad23806"
-            },
-            {
-              "Name": "Hawke George",
-              "Role": "Secretary",
-              "uuid": "81861bf1-12bc-e811-a95f-000d3ad24c60"
-            },
-            {
-              "Name": "Jaggers Mark",
-              "Role": "Deputy Chairperson",
-              "uuid": "ecbe1a50-dcf5-ec11-82e6-002248116a15"
-            },
-            {
-              "Name": "Luna Gu",
-              "Role": "Other",
-              "uuid": "4b01ed42-ba8b-ed11-81ad-00224893362a"
-            },
-            {
-              "Name": "Peter Weldon",
-              "Role": "Chairperson",
-              "uuid": "d8d67eee-7363-ec11-8f8e-00224812259b"
-            },
-            {
-              "Name": "Na Yang",
-              "Role": "Other",
-              "uuid": "858a7ac0-627c-ee11-8179-00224893b8c7"
-            },
-            {
-              "Name": "Mark Newton",
-              "Role": "Other",
-              "uuid": "5d7c16c4-232d-ef11-840b-00224893bffb"
-            },
-            {
-              "Name": "James Kelly",
-              "Role": "Director",
-              "uuid": "a17f4bba-a6ab-ef11-b8e8-7c1e528a05e3"
-            }
-          ],
-          "Status": "Registered",
-          "SummaryOfActivities": "CCS provides residential aged care and retirement living in a warm and loving  Christian environment providing pastoral care and support to our residents and families",
-          "TotalExpensesEmployee": "27784608",
-          "TotalExpensesGrantsAndDonationsInAustralia": "0",
-          "TotalExpensesGrantsAndDonationsOutsideAustralia": "0",
-          "TotalExpensesInterest": "201865",
-          "TotalExpensesOther": "9064024",
-          "TotalGrossIncomeDonationsAndRequests": "309",
-          "TotalGrossIncomeGoodsOrServices": "10248932",
-          "TotalGrossIncomeGovernmentGrants": "26391712",
-          "TotalGrossIncomeInvestments": "1618931",
-          "TotalGrossIncomeOtherRevenues": "56554",
-          "TransparencyRegisterUrl": null,
-          "Website": "www.ccs.com.au",
-          "__normalized": true,
-          "type": "charity",
-          "uuid": "319e2dd7-2daf-e811-a960-000d3ad24282"
-        },
-        "type": "charity",
-        "uuid": "319e2dd7-2daf-e811-a960-000d3ad24282"
-      },
-      "canonical_field_mappings": {
-        "data.OtherNames": "operating_names",
-        "data.AddressStateOrProvince": "principal_location"
-      },
-      "evidence_ids": []
-    },
-    {
-      "source_record_id": "src:acnc-ais-detail:54001276599:47eabc57-71b8-f011-bbd3-6045bde67d52:cb_ad96c6cc41e54daf8fd0a0aa3afde6b3",
-      "source_family": "acnc-ais-detail",
-      "dataset_version": "2026-08-14-public-api",
-      "source_url": "https://www.acnc.gov.au/charity/charities/319e2dd7-2daf-e811-a960-000d3ad24282/documents/47eabc57-71b8-f011-bbd3-6045bde67d52",
-      "retrieved_at": "2026-08-13T13:54:42.956606Z",
-      "observed_at": "2025-11-03",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "abn": "54001276599",
-        "ais_uuid": "47eabc57-71b8-f011-bbd3-6045bde67d52",
-        "year": "2025",
-        "date_received": "2025-11-03T04:55:45.0000000Z"
-      },
-      "source_payload": {
-        "data": {
-          "Abn": "54001276599",
-          "ActivityAdvocacyNCivic": false,
-          "ActivityAgedCare": false,
-          "ActivityAnimalProtection": false,
-          "ActivityCultureAndArt": false,
-          "ActivityEconomicSocialCommunity": false,
-          "ActivityEmergencyNRelief": false,
-          "ActivityEmploymentNTraining": false,
-          "ActivityEnvironmental": false,
-          "ActivityGrantMaking": false,
-          "ActivityHealthRehabilitation": false,
-          "ActivityHigherEducation": false,
-          "ActivityHousing": false,
-          "ActivityIncomeSupportNMaintenance": false,
-          "ActivityInternational": false,
-          "ActivityInternationalDescription": null,
-          "ActivityInternationalOther": false,
-          "ActivityInternationalOtherDescription": null,
-          "ActivityLawNLegalServices": false,
-          "ActivityMain": null,
-          "ActivityMentalHealthCrisisIntervention": false,
-          "ActivityNdisSupported": null,
-          "ActivityNdisSupportedNext": null,
-          "ActivityOperating": true,
-          "ActivityOperatingOverseas": false,
-          "ActivityOther": false,
-          "ActivityOtherDescription": null,
-          "ActivityOtherEducation": false,
-          "ActivityOtherHealthServices": false,
-          "ActivityPersuitPurposesDescription": "CCS provides residential aged care and retirement living in a warm and loving  Christian environment providing pastoral care and support to our residents and families",
-          "ActivityPhilanthropicPromotion": false,
-          "ActivityPolitical": false,
-          "ActivityPrimarySecondaryEducation": false,
-          "ActivityPurposeChange": null,
-          "ActivityPurposeChangeDescription": null,
-          "ActivityRecreationSocialClub": false,
-          "ActivityReligious": false,
-          "ActivityResearch": false,
-          "ActivitySocialServices": false,
-          "ActivitySports": false,
-          "ActivityTransferringFundsGoods": false,
-          "AdvancementOfEducation": false,
-          "AdvancementOfReligion": false,
-          "AssetsandLiabilitiesDescription": null,
-          "BasicReligiousCharity": false,
-          "BeneficiaryAboriginalTorres": false,
-          "BeneficiaryAdults": false,
-          "BeneficiaryAllAges": false,
-          "BeneficiaryChildren": false,
-          "BeneficiaryChronicIllness": false,
-          "BeneficiaryCrimeVictims": false,
-          "BeneficiaryDisasterVictims": false,
-          "BeneficiaryEarlyChildhood": false,
-          "BeneficiaryEthnic": false,
-          "BeneficiaryFamilies": false,
-          "BeneficiaryFinanciallyDisadvantaged": false,
-          "BeneficiaryGeneral": false,
-          "BeneficiaryHomelessnessRisk": false,
-          "BeneficiaryLGBT": false,
-          "BeneficiaryMain": null,
-          "BeneficiaryMen": false,
-          "BeneficiaryMigrantsRefugees": false,
-          "BeneficiaryOffenderFamilies": false,
-          "BeneficiaryOther": false,
-          "BeneficiaryOtherCharities": false,
-          "BeneficiaryOtherDescription": null,
-          "BeneficiaryOverseas": false,
-          "BeneficiaryPeopleWithDisability": false,
-          "BeneficiaryRuralRegionalRemote": false,
-          "BeneficiarySeniors": false,
-          "BeneficiaryUnemployed": false,
-          "BeneficiaryVeteranFamilies": false,
-          "BeneficiaryWomen": false,
-          "BeneficiaryYouth": false,
-          "CharityAddressCountry": null,
-          "CharityAddressLine1": null,
-          "CharityAddressLine2": null,
-          "CharityAddressPostalCode": null,
-          "CharityAddressStateOrProvince": null,
-          "CharityAddressSuburb": null,
-          "CharityEmail": "admin@ccs.com.au",
-          "CharitySize": "Large",
-          "CharityUuid": "319e2dd7-2daf-e811-a960-000d3ad24282",
-          "ChildCareServices": false,
-          "ExpenseEmployees": "27784608.0000",
-          "ExpenseGrantDonationsInAustralia": "0.0000",
-          "ExpenseGrantDonationsOutsideAustralia": "0.0000",
-          "ExpenseTotal": "37050497.0000",
-          "ExpensesOther": "9064024.0000",
-          "FinAccrualAccounting": null,
-          "FinConsolidatedReportFromMiltiple": "No",
-          "FinDocumentedPoliciesRelatedPartyTransactions": null,
-          "FinFyeJune": false,
-          "FinProvideVoluntarily": null,
-          "FinRelatedPartyTransactions": "Yes",
-          "FinReportACT": false,
-          "FinReportFrom": "2024-07-01T00:00:00.0000000Z",
-          "FinReportNSW": false,
-          "FinReportNT": false,
-          "FinReportQLD": false,
-          "FinReportSA": false,
-          "FinReportTAS": false,
-          "FinReportTo": "2025-06-30T00:00:00.0000000Z",
-          "FinReportVIC": false,
-          "FinReportWA": false,
-          "FinReportingType": "General purpose financial statements",
-          "FinSapDate": null,
-          "FundRaisingNumberACT": null,
-          "FundRaisingNumberNSW": null,
-          "FundRaisingNumberQLD": null,
-          "FundRaisingNumberSA": null,
-          "FundRaisingNumberTAS": null,
-          "FundRaisingNumberVIC": null,
-          "FundRaisingNumberWA": null,
-          "GovDocAccurate": null,
-          "GrantCapacityBuildingPct": null,
-          "GrantMultiYearPct": null,
-          "GrantPublicOpenApplicationPct": null,
-          "GrantRuralRegionPct": null,
-          "HasSubmittedToRegulator": false,
-          "HoursPaid": null,
-          "HoursTotal": null,
-          "HoursVolunteer": null,
-          "HrCasualEmployees": "78",
-          "HrFteStaff": "193.0000000000",
-          "HrFullTimeEmployees": "51",
-          "HrPartTimeEmployees": "254",
-          "HrUnpainVolunteers": "32",
-          "IncomeDonationsBequests": "309.0000",
-          "IncomeGovernmentGrants": "26391712.0000",
-          "IncomeOther": "624155.0000",
-          "IncomeOtherComprehinsive": "0.0000",
-          "IncomeOtherNeg": null,
-          "IncomeOtherReceipts": "56554.0000",
-          "IncomeTotalComprehensive": "1890096.0000",
-          "IncomeTotalReceipts": "38940593.0000",
-          "IncorporationStatus": null,
-          "InterestExpense": "201865.0000",
-          "IsIncorporatedAssociation": false,
-          "KeyManagementPersonnel": true,
-          "LegalName": "Christian Community Services",
-          "NetAssetsLiabilities": "29248749.0000",
-          "NetSurplusDeficit": "1890096.0000",
-          "NonCurrentLoansPayable": "75756898.0000",
-          "NumberOfKeyManagementPersonnel": "2",
-          "OperatingCountries": null,
-          "OperatingInACT": false,
-          "OperatingInNSW": false,
-          "OperatingInNT": false,
-          "OperatingInQLD": false,
-          "OperatingInSA": false,
-          "OperatingInTAS": false,
-          "OperatingInVIC": false,
-          "OperatingInWA": false,
-          "OperatingOverseas": false,
-          "OtherNames": [],
-          "OtherNonCurrentAssets": "97907172.0000",
-          "OtherNonCurrentLiabilities": "2382528.0000",
-          "OtherPurposeDescription": null,
-          "OtherPurposes": "False",
-          "Programs": [
-            {
-              "AisUuid": "47eabc57-71b8-f011-bbd3-6045bde67d52",
-              "Name": "Residential Aged Care",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Adults - aged 65 and over",
-                "Males",
-                "Females",
-                "Veterans and/or their families",
-                "People with disabilities",
-                "People with chronic illness (including terminal illness)",
-                "Financially disadvantaged people",
-                "General community in Australia"
-              ],
-              "ProgramClassification": "Palliative care",
-              "ProgramClassificationID": "408",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "Greater Sydney Area, NSW, Australia",
-                  "FormattedAddress": "Sydney Metropolitan Area, NSW, Australia",
-                  "Marker": {
-                    "Latitude": -33.8817547,
-                    "Longitude": 150.8609358
-                  },
-                  "Name": "Sydney Metropolitan Area",
-                  "uuid": "f79cb55d-71b8-f011-bbd3-6045bde67d52"
-                },
-                {
-                  "DisplayName": "Newcastle NSW, Australia",
-                  "FormattedAddress": "Newcastle NSW, Australia",
-                  "Marker": {
-                    "Latitude": -32.9282712,
-                    "Longitude": 151.7816802
-                  },
-                  "Name": "Newcastle",
-                  "uuid": "019db55d-71b8-f011-bbd3-6045bde67d52"
-                }
-              ],
-              "ProgramWeblink": "www.cbcs.com.au",
-              "uuid": "a1eabc57-71b8-f011-bbd3-6045bde67d52"
-            }
-          ],
-          "RegulatedACT": false,
-          "RegulatedNSW": false,
-          "RegulatedNT": false,
-          "RegulatedQLD": false,
-          "RegulatedSA": false,
-          "RegulatedTAS": false,
-          "RegulatedVIC": false,
-          "RegulatedWA": false,
-          "Regulator": null,
-          "RegulatorAGMDateACT": null,
-          "RegulatorAGMDateNT": null,
-          "RegulatorAGMDateVIC": null,
-          "RegulatorAGMDateWA": null,
-          "RegulatorFundRaising": "No",
-          "RegulatorFundRaisingACT": false,
-          "RegulatorFundRaisingNSW": false,
-          "RegulatorFundRaisingNT": false,
-          "RegulatorFundRaisingOnline": false,
-          "RegulatorFundRaisingQLD": false,
-          "RegulatorFundRaisingSA": false,
-          "RegulatorFundRaisingTAS": false,
-          "RegulatorFundRaisingVIC": false,
-          "RegulatorFundRaisingWA": false,
-          "RegulatorIncorporatedAssociationACT": false,
-          "RegulatorIncorporatedAssociationNSW": false,
-          "RegulatorIncorporatedAssociationNT": false,
-          "RegulatorIncorporatedAssociationNumberACT": null,
-          "RegulatorIncorporatedAssociationNumberNSW": null,
-          "RegulatorIncorporatedAssociationNumberNT": null,
-          "RegulatorIncorporatedAssociationNumberQLD": null,
-          "RegulatorIncorporatedAssociationNumberSA": null,
-          "RegulatorIncorporatedAssociationNumberTAS": null,
-          "RegulatorIncorporatedAssociationNumberVIC": null,
-          "RegulatorIncorporatedAssociationNumberWA": null,
-          "RegulatorIncorporatedAssociationQLD": false,
-          "RegulatorIncorporatedAssociationSA": false,
-          "RegulatorIncorporatedAssociationTAS": false,
-          "RegulatorIncorporatedAssociationVIC": false,
-          "RegulatorIncorporatedAssociationWA": false,
-          "RegulatorMetRequirementACT": false,
-          "RegulatorMetRequirementWA": null,
-          "RegulatorOtherDetails": null,
-          "RegulatorPrograms": null,
-          "RegulatorStates": false,
-          "RelatedPartyDetails": null,
-          "RelatedPartyTransactions": [
-            {
-              "Description": "",
-              "Transaction": "Investment in a related party",
-              "uuid": "60eabc57-71b8-f011-bbd3-6045bde67d52"
-            }
-          ],
-          "ReliefOfPoverty": false,
-          "ReportingGroupFlag": false,
-          "ResponsiblePersonAccurate": null,
-          "RevenueGoodsServices": "10248932.0000",
-          "RevenueInvestments": "1618931.0000",
-          "RevenueTotal": "38316438.0000",
-          "StatementYear": "2025",
-          "SubTypesAccurate": null,
-          "TotalAssets": "140890636.0000",
-          "TotalCurrentAssets": "42983464.0000",
-          "TotalCurrentLiabilities": "33502461.0000",
-          "TotalLiabilities": "111641887.0000",
-          "TotalNonCurrentAssets": "97907172.0000",
-          "TotalNonCurrentLiabilities": "78139426.0000",
-          "TotalNonCurrentLoansReceivable": "0.0000",
-          "TotalPaidKMP": "$533,903.00",
-          "Website": "www.ccs.com.au",
-          "__normalized": true,
-          "entityTypeVersion": "",
-          "entityVersion": "1783336409",
-          "timeStamp": "2025-11-03T04:55:43.0000000Z",
-          "type": "annual_information_statement",
-          "uuid": "47eabc57-71b8-f011-bbd3-6045bde67d52"
-        },
-        "type": "annual_information_statement",
-        "uuid": "47eabc57-71b8-f011-bbd3-6045bde67d52"
-      },
-      "canonical_field_mappings": {
-        "data.Programs": "programs",
-        "data.TotalRevenue": "financial_records[].revenue",
-        "data.TotalExpenses": "financial_records[].total_expenses"
-      },
-      "evidence_ids": [
-        "ev:acnc:ais:54001276599:47eabc57-71b8-f011-bbd3-6045bde67d52"
-      ]
-    }
-  ],
-  "financial_records": [
-    {
-      "financial_record_id": "fr:ais:cb_ad96c6cc41e54daf8fd0a0aa3afde6b3:2023",
-      "period": {
-        "period_start": "2022-07-01",
-        "period_end": "2023-06-30",
-        "period_length_days": 365,
-        "label": "01/07/2022 to 30/06/2023",
-        "is_transitional_or_nonstandard": false
-      },
-      "reporting_scope": "subject",
-      "reporting_subject_causebase_id": "cb_ad96c6cc41e54daf8fd0a0aa3afde6b3",
-      "covered_subjects": [
-        "cb_ad96c6cc41e54daf8fd0a0aa3afde6b3"
-      ],
-      "consolidated": "false",
-      "attribution_method": "direct_subject_report",
-      "evidence_ids": [
-        "ev:ais:54001276599:2023"
-      ],
-      "revenue": {
-        "source_amount": "30276283",
-        "source_currency": "AUD",
-        "source_unit_scale": "1",
-        "normalised_amount": "30276283",
-        "normalised_currency": "AUD",
-        "source_unit_label": null,
-        "source_raw_value": "30276283",
-        "source_precision": null
-      },
-      "donations": null,
-      "government_grants": null,
-      "employee_costs": null,
-      "total_expenses": {
-        "source_amount": "29505018",
-        "source_currency": "AUD",
-        "source_unit_scale": "1",
-        "normalised_amount": "29505018",
-        "normalised_currency": "AUD",
-        "source_unit_label": null,
-        "source_raw_value": "29505018",
-        "source_precision": null
-      },
-      "assets": null,
-      "liabilities": null,
-      "net_assets": null,
-      "income_breakdown": [],
-      "expense_breakdown": [],
-      "balance_sheet_breakdown": [],
-      "source_ordered_line_items": [],
-      "statements": [],
-      "donations_gifts_bequests": null,
-      "functional_expense_allocations": []
-    }
-  ],
-  "financial_metrics": [
-    {
-      "metric": "revenue",
-      "observations": [
-        {
-          "financial_record_id": "fr:ais:cb_ad96c6cc41e54daf8fd0a0aa3afde6b3:2023",
-          "amount": {
-            "source_amount": "30276283",
-            "source_currency": "AUD",
-            "source_unit_scale": "1",
-            "normalised_amount": "30276283",
-            "normalised_currency": "AUD",
-            "source_unit_label": null,
-            "source_raw_value": "30276283",
-            "source_precision": null
-          },
-          "metric_source_label": null,
-          "evidence_ids": [
-            "ev:ais:54001276599:2023"
-          ]
-        }
-      ],
-      "reconciliation_status": "single_observation",
-      "reconciliation_notes": null
-    },
-    {
-      "metric": "total_expenses",
-      "observations": [
-        {
-          "financial_record_id": "fr:ais:cb_ad96c6cc41e54daf8fd0a0aa3afde6b3:2023",
-          "amount": {
-            "source_amount": "29505018",
-            "source_currency": "AUD",
-            "source_unit_scale": "1",
-            "normalised_amount": "29505018",
-            "normalised_currency": "AUD",
-            "source_unit_label": null,
-            "source_raw_value": "29505018",
-            "source_precision": null
-          },
-          "metric_source_label": null,
-          "evidence_ids": [
-            "ev:ais:54001276599:2023"
-          ]
-        }
-      ],
-      "reconciliation_status": "single_observation",
-      "reconciliation_notes": null
-    }
-  ],
-  "fundraising_expenditure": null,
-  "funding_sources": [],
-  "fundraising_methods": [],
-  "classifications": [
-    {
-      "taxonomy_id": "acnc-register",
-      "taxonomy_version": "2026-08-10",
-      "term_id": "purpose.health",
-      "term_label": "health",
-      "assignment_method": "source_native",
-      "confidence": "high",
-      "evidence_ids": [
-        "ev:acnc:54001276599"
-      ]
-    },
-    {
-      "taxonomy_id": "acnc-register",
-      "taxonomy_version": "2026-08-10",
-      "term_id": "beneficiary.older_people",
-      "term_label": "older people",
-      "assignment_method": "source_native",
-      "confidence": "high",
-      "evidence_ids": [
-        "ev:acnc:54001276599"
-      ]
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "activity.direct_service",
-      "term_label": "Direct service delivery",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "activity.events_and_public_programming",
-      "term_label": "Events and public programming",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "geography.australia",
-      "term_label": "Australia",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "geography.local_or_regional",
-      "term_label": "Local or regional Australia",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "organisation.local",
-      "term_label": "Local organisation",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
+      "review_status": "not_required",
+      "conflicting_signals": []
     }
   ],
   "evidence": [
     {
       "evidence_id": "ev:acnc:54001276599",
-      "source_type": "regulatory",
-      "title": "ACNC Register extract",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": null,
-      "observed_at": "2026-08-10",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "title": "ACNC Register extract"
     },
     {
       "evidence_id": "ev:web:54001276599:2026-08-10",
-      "source_type": "organisation_self_report",
       "title": "Organisation website homepage",
-      "publisher": "Christian Community Services",
-      "url": "https://ccs.com.au/",
-      "observed_at": "2026-08-10",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://ccs.com.au/"
     },
     {
       "evidence_id": "ev:ais:54001276599:2023",
-      "source_type": "regulatory",
-      "title": "ACNC AIS 2023 extract",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": null,
-      "observed_at": "2026-08-10",
-      "reporting_period": "01/07/2022 to 30/06/2023",
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "title": "ACNC AIS 2023 extract"
     },
     {
       "evidence_id": "ev:acnc:ais:54001276599:47eabc57-71b8-f011-bbd3-6045bde67d52",
-      "source_type": "regulatory",
       "title": "ACNC Annual Information Statement 2025",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": "https://www.acnc.gov.au/charity/charities/319e2dd7-2daf-e811-a960-000d3ad24282/documents/47eabc57-71b8-f011-bbd3-6045bde67d52",
-      "observed_at": "2025-11-03",
-      "reporting_period": "2025",
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://www.acnc.gov.au/charity/charities/319e2dd7-2daf-e811-a960-000d3ad24282/documents/47eabc57-71b8-f011-bbd3-6045bde67d52"
     },
     {
       "evidence_id": "ev:abr-dgr:54001276599:20260805",
-      "source_type": "regulatory",
       "title": "ABR DGR bulk observation",
-      "publisher": "Australian Business Register / Australian Taxation Office",
-      "url": "https://abr.business.gov.au/Tools/BulkExtract",
-      "observed_at": "2026-08-05",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://abr.business.gov.au/Tools/BulkExtract"
     }
   ],
-  "embedding": {
-    "embedding_id": "cb_ad96c6cc41e54daf8fd0a0aa3afde6b3:entity:text-embedding-3-small",
-    "embedding_type": "entity",
-    "model_id": "text-embedding-3-small",
-    "model_version": "text-embedding-3-small",
-    "dimensions": 1536,
-    "source_text_hash": "accc77c4ddc9f0e283e45ee5ca0e76c222db8ab158dd0a131ce848215e01c030",
-    "generated_at": "2026-08-10T13:53:24.456555Z",
-    "vector_ref": "embeddings.parquet#cb_ad96c6cc41e54daf8fd0a0aa3afde6b3"
+  "summary": {
+    "derivative_id": "der:rc4:cb_ad96c6cc41e54daf8fd0a0aa3afde6b3:summary",
+    "text": "Christian Community Services is an Australian provider of retirement living and residential aged care. As of the available records it operates three retirement villages and residential care communities, with Carinya House referenced by name. The organisation employs on\u2011site carers to support residents and runs social activities for residents, for example organised bus outings. Prospective residents can book tours and view online video information about the villages. Christian Community Services states that its approach is shaped by long\u2011held Christian values and emphasises building personal relationships with residents and families."
   },
-  "synthesis": {
-    "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
-    "parameters": {
-      "max_output_tokens": 3000,
-      "structured_output": true,
-      "output_contract": "causebase-summary-v0.3-rc2"
-    },
-    "evidence_input_hash": "7c6a66807a3dd777a459baad940284e0d0c5d7bfe4938d07945396967922ec3f",
-    "generated_at": "2026-08-12T13:53:14.043293Z",
-    "editorial_policy_version": "0.3-rc2"
-  },
-  "derivative_assessments": [
+  "activities": [],
+  "beneficiaries": [],
+  "descriptive_geography": [],
+  "navigation_geography": [],
+  "funding_sources": [],
+  "fundraising_methods": [],
+  "participation": [],
+  "opportunities": [],
+  "programs": [
     {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T13:53:14.043293Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-13T13:54:42.956606Z",
-      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
-      "input_hash": "7c6a66807a3dd777a459baad940284e0d0c5d7bfe4938d07945396967922ec3f",
-      "disposition": "reused",
-      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
-      "affected_dimensions": [
-        "summary"
-      ]
+      "observation_id": "obs:rc4:cb_ad96c6cc41e54daf8fd0a0aa3afde6b3:program:prg:acnc:54001276599:a1eabc57-71b8-f011-bbd3-6045bde67d52",
+      "program_id": "prg:acnc:54001276599:a1eabc57-71b8-f011-bbd3-6045bde67d52",
+      "name": "Residential Aged Care",
+      "description": "Palliative care",
+      "url": "www.cbcs.com.au",
+      "status": "current",
+      "claim_basis": "direct",
+      "extraction_method": "api",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:ais:54001276599:47eabc57-71b8-f011-bbd3-6045bde67d52"
+      ],
+      "time": {
+        "reporting_period": {
+          "label": "2025"
+        }
+      },
+      "warnings": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-14-rc4-fundraising-projection-correction",
-  "card_schema_version": "0.4",
-  "editorial_policy_version": "0.4-rc4",
-  "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T13:54:42.956606Z"
+  "relationships": [],
+  "classifications": [
+    {
+      "observation_id": "obs:rc4:cb_ad96c6cc41e54daf8fd0a0aa3afde6b3:classification:0",
+      "classification_id": "cls:rc4:cb_ad96c6cc41e54daf8fd0a0aa3afde6b3:0",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "purpose.health",
+      "term_label": "health",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:54001276599"
+      ],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_ad96c6cc41e54daf8fd0a0aa3afde6b3:classification:1",
+      "classification_id": "cls:rc4:cb_ad96c6cc41e54daf8fd0a0aa3afde6b3:1",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "beneficiary.older_people",
+      "term_label": "older people",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:54001276599"
+      ],
+      "confidence": "high",
+      "warnings": []
+    }
+  ],
+  "coverage": {
+    "registry_id": "capability-registry-0.5-initial",
+    "current": [
+      {
+        "capability": "regulatory.acnc_profile",
+        "status": "observed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:acnc:54001276599"
+        ]
+      },
+      {
+        "capability": "regulatory.ais",
+        "status": "observed",
+        "assessed_at": "2025-11-03",
+        "source_record_ids": [
+          "src:acnc-ais-detail:54001276599:47eabc57-71b8-f011-bbd3-6045bde67d52:cb_ad96c6cc41e54daf8fd0a0aa3afde6b3"
+        ],
+        "evidence_ids": [
+          "ev:acnc:ais:54001276599:47eabc57-71b8-f011-bbd3-6045bde67d52"
+        ]
+      },
+      {
+        "capability": "tax.dgr",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "web.website",
+        "status": "observed",
+        "assessed_at": "2026-08-13",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "report.annual_report",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "financial.report",
+        "status": "unknown",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:ais:54001276599:2023"
+        ]
+      },
+      {
+        "capability": "financial.statements",
+        "status": "unknown",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:ais:54001276599:2023"
+        ]
+      },
+      {
+        "capability": "understanding.activities",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.beneficiaries",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.geography",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "programs",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "participation",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "funding.sources",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.methods",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.expenditure",
+        "status": "not_available_from_source",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "taxonomy.causebase",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "semantic.embedding",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      }
+    ]
+  },
+  "financial_reports": [],
+  "canonical_metrics": [],
+  "analytic_projections": [],
+  "derivatives": [
+    {
+      "derivative_id": "der:rc4:cb_ad96c6cc41e54daf8fd0a0aa3afde6b3:summary",
+      "kind": "summary",
+      "input_observation_ids": [],
+      "evidence_ids": [
+        "ev:web:54001276599:2026-08-10",
+        "ev:ais:54001276599:2023",
+        "ev:acnc:54001276599"
+      ],
+      "generated_under": {
+        "output_contract_version": "phase2b-rc4-accepted-rc2-summary-reuse",
+        "input_hash": "7c6a66807a3dd777a459baad940284e0d0c5d7bfe4938d07945396967922ec3f",
+        "generated_at": "2026-08-12T13:53:14.043293Z"
+      },
+      "current_assessment": {
+        "assessed_at": "2026-08-13T13:54:42.956606Z",
+        "assessed_against_contract": "0.5",
+        "governing_input_hash": "7c6a66807a3dd777a459baad940284e0d0c5d7bfe4938d07945396967922ec3f",
+        "disposition": "reused",
+        "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs."
+      }
+    }
+  ],
+  "legacy_unbound": {
+    "origin_release": "rc4-2026-08-14",
+    "origin_card_sha256": "cf6ca93904e32b6187d82599df8022cc54e8e05e40f56e593d852359a2c04ca8",
+    "activities": [
+      {
+        "value": "Operates three retirement villages",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Operates residential aged care or residential care communities (Carinya House referenced)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Provides on-site care services through employed carers",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Runs resident social activities such as bus outings",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Offers tours and online video information for prospective residents",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "beneficiaries": [
+      {
+        "value": "Residents of retirement villages",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "People receiving residential aged care",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Family members of residents",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Older people / seniors",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "descriptive_geography": [
+      {
+        "value": "Australia",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Three local or regional retirement communities",
+        "source_role": "legacy_source_qualifier",
+        "provenance_note": "Removed source narration and unsupported location caveat.",
+        "evidence_ids": []
+      }
+    ],
+    "classifications": [
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "activity.direct_service",
+        "term_label": "Direct service delivery",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "activity.events_and_public_programming",
+        "term_label": "Events and public programming",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "geography.australia",
+        "term_label": "Australia",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "geography.local_or_regional",
+        "term_label": "Local or regional Australia",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "organisation.local",
+        "term_label": "Local organisation",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      }
+    ],
+    "financial_records": [
+      {
+        "financial_record_id": "fr:ais:cb_ad96c6cc41e54daf8fd0a0aa3afde6b3:2023",
+        "period": {
+          "period_start": "2022-07-01",
+          "period_end": "2023-06-30",
+          "period_length_days": 365,
+          "label": "01/07/2022 to 30/06/2023",
+          "is_transitional_or_nonstandard": false
+        },
+        "reporting_scope": "subject",
+        "reporting_subject_causebase_id": "cb_ad96c6cc41e54daf8fd0a0aa3afde6b3",
+        "covered_subjects": [
+          "cb_ad96c6cc41e54daf8fd0a0aa3afde6b3"
+        ],
+        "consolidated": "false",
+        "attribution_method": "direct_subject_report",
+        "evidence_ids": [
+          "ev:ais:54001276599:2023"
+        ],
+        "revenue": {
+          "source_amount": "30276283",
+          "source_currency": "AUD",
+          "source_unit_scale": "1",
+          "normalised_amount": "30276283",
+          "normalised_currency": "AUD",
+          "source_unit_label": null,
+          "source_raw_value": "30276283",
+          "source_precision": null
+        },
+        "donations": null,
+        "government_grants": null,
+        "employee_costs": null,
+        "total_expenses": {
+          "source_amount": "29505018",
+          "source_currency": "AUD",
+          "source_unit_scale": "1",
+          "normalised_amount": "29505018",
+          "normalised_currency": "AUD",
+          "source_unit_label": null,
+          "source_raw_value": "29505018",
+          "source_precision": null
+        },
+        "assets": null,
+        "liabilities": null,
+        "net_assets": null,
+        "income_breakdown": [],
+        "expense_breakdown": [],
+        "balance_sheet_breakdown": [],
+        "source_ordered_line_items": [],
+        "statements": [],
+        "donations_gifts_bequests": null,
+        "functional_expense_allocations": []
+      }
+    ]
+  }
 }

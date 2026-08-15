@@ -1,438 +1,271 @@
 {
   "causebase_id": "cb_69f412200748462cb5d81f2393cf1a56",
+  "contract_version": "0.5",
   "subject_kind": "unknown",
-  "external_identifiers": [
-    {
-      "scheme": "abn",
-      "value": "58421528146",
-      "source_evidence_id": "ev:acnc:58421528146"
-    }
+  "identity": {
+    "legal_name": "Boorhaman And District Landcare Group Inc",
+    "display_name": "Boorhaman And District Landcare Group Inc",
+    "operating_names": [],
+    "former_names": [],
+    "entity_status": "registered",
+    "website": null,
+    "external_identifiers": [
+      {
+        "scheme": "abn",
+        "value": "58421528146",
+        "evidence_ids": [
+          "ev:acnc:58421528146"
+        ]
+      }
+    ],
+    "registrations": [
+      {
+        "regulator": "ACNC",
+        "status": "registered",
+        "evidence_ids": [
+          "ev:acnc:58421528146"
+        ]
+      }
+    ],
+    "tax_statuses": []
+  },
+  "release": {
+    "release_id": "v0.5.0-2026-08-15",
+    "dataset_version": "0.5.0-2026-08-15",
+    "contract_version": "0.5",
+    "based_on_release": "rc4-2026-08-14",
+    "generated_at": "2026-08-15T00:00:00Z"
+  },
+  "source_record_refs": [
+    "src:acnc-public-profile:58421528146:2bd9e0c9-1761-f011-bec2-002248971dfc:cb_69f412200748462cb5d81f2393cf1a56"
   ],
-  "registrations": [
-    {
-      "regulator": "ACNC",
-      "registration_id": null,
-      "status": "registered",
-      "evidence_ids": [
-        "ev:acnc:58421528146"
-      ]
-    }
-  ],
-  "tax_statuses": [],
-  "relationships": [],
-  "source_resolutions": [
+  "source_bindings": [
     {
       "source_record_id": "src:acnc-register:b7abf93c-d961-5063-8a16-37366cbca9bb",
       "resolution_status": "resolved",
       "resolution_basis": "automated authoritative ACNC promotion under acnc-authoritative-v1",
       "confidence": "high",
-      "supporting_signals": [
-        "ABN:58421528146",
-        "ACNC Register"
-      ],
-      "conflicting_signals": [],
-      "review_status": "not_required"
-    }
-  ],
-  "legal_name": "Boorhaman And District Landcare Group Inc",
-  "display_name": "Boorhaman And District Landcare Group Inc",
-  "entity_status": "registered",
-  "canonical_url": "https://gregorycwhill.github.io/CauseBase-Viewer/#cb_69f412200748462cb5d81f2393cf1a56",
-  "acnc_profile_url": "https://www.acnc.gov.au/charity/charities/2bd9e0c9-1761-f011-bec2-002248971dfc/profile",
-  "acnc_ais_url": null,
-  "operating_names": [],
-  "former_names": [],
-  "principal_location": "VIC, Australia",
-  "coverage": [
-    {
-      "capability": "regulatory",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:acnc:58421528146"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "annual_report",
-      "status": "not_yet_processed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "website",
-      "status": "not_available_from_source",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "fundraising_expenditure",
-      "status": "not_yet_processed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "financials",
-      "status": "not_found_in_source",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "latest_acnc_ais",
-      "status": "not_available_from_source",
-      "source_record_id": "src:acnc-public-profile:58421528146:2bd9e0c9-1761-f011-bec2-002248971dfc:cb_69f412200748462cb5d81f2393cf1a56",
-      "evidence_ids": [],
-      "observed_at": "2026-08-13",
-      "freshness_note": "No submitted AIS was returned by the public ACNC profile endpoint."
-    }
-  ],
-  "enrichment_level": "enriched",
-  "website": null,
-  "geography": [
-    "Victoria (VIC)"
-  ],
-  "geography_observations": [
-    {
-      "value": "Victoria (VIC)",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "navigation_geography": [],
-  "causebase_summary": "Boorhaman And District Landcare Group Inc is an incorporated community landcare group based in Victoria, Australia. The supplied ACNC register extract records the organisation name and Victoria as its location but includes no website, program descriptions or other descriptive material in this release. CauseBase does not have sufficient descriptive evidence in this release to independently identify specific activities, projects, beneficiaries or participation modes for this organisation. Where present, local landcare groups typically undertake activities such as on-ground environmental work, education and volunteer coordination, but those activities are not documented in the supplied evidence and are not attributed to this organisation in this summary.",
-  "summary_evidence_ids": [
-    "ev:acnc:58421528146"
-  ],
-  "organisation_self_description": null,
-  "activities": [],
-  "activity_observations": [],
-  "beneficiaries": [],
-  "beneficiary_observations": [],
-  "participation_modes": [],
-  "participation_observations": [],
-  "opportunities": [],
-  "programs": [],
-  "source_native_records": [
-    {
-      "source_record_id": "src:acnc-public-profile:58421528146:2bd9e0c9-1761-f011-bec2-002248971dfc:cb_69f412200748462cb5d81f2393cf1a56",
-      "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-14-public-api",
-      "source_url": "https://www.acnc.gov.au/charity/charities/2bd9e0c9-1761-f011-bec2-002248971dfc/profile",
-      "retrieved_at": "2026-08-13T13:54:42.956606Z",
-      "observed_at": "2026-08-13",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "uuid": "2bd9e0c9-1761-f011-bec2-002248971dfc",
-        "abn": "58421528146"
-      },
-      "source_payload": {
-        "data": {
-          "AFSAddressPostalCode": "3685",
-          "AFSEmail": "boorhamanlandcaregroup@gmail.com",
-          "Abn": "58421528146",
-          "AddressCountry": "Australia",
-          "AddressLine1": "61 Kellys Rd",
-          "AddressLine2": null,
-          "AddressLine3": null,
-          "AddressPostalCode": "3685",
-          "AddressStateOrProvince": "VIC",
-          "AddressSuburb": "Brimin",
-          "AddressSuburbStatePostcode": "Brimin VIC 3685",
-          "AnnualReports": [
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2026-12-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Not yet submitted",
-              "Year": "2026",
-              "type": "Annual Information Statement 2026",
-              "uuid": "a1c578a9-c9db-f011-8543-6045bde5a498"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2027-12-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Not yet submitted",
-              "Year": "2027",
-              "type": "Annual Information Statement 2027",
-              "uuid": "abc578a9-c9db-f011-8543-6045bde5a498"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2026-12-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Pending",
-              "Year": "2026",
-              "type": "Financial Report 2026",
-              "uuid": "b3c578a9-c9db-f011-8543-6045bde5a498"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2027-12-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Pending",
-              "Year": "2027",
-              "type": "Financial Report 2027",
-              "uuid": "b9c578a9-c9db-f011-8543-6045bde5a498"
-            }
-          ],
-          "Beneficiaries": [
-            {
-              "Description": null,
-              "Name": "Adults - aged 25 to under 65",
-              "uuid": "51bb4b1a-08db-f011-8543-000d3ad20411"
-            },
-            {
-              "Description": null,
-              "Name": "Adults - aged 65 and over",
-              "uuid": "5bbb4b1a-08db-f011-8543-000d3ad20411"
-            },
-            {
-              "Description": null,
-              "Name": "Females",
-              "uuid": "68bb4b1a-08db-f011-8543-000d3ad20411"
-            },
-            {
-              "Description": null,
-              "Name": "Males",
-              "uuid": "c6bb4b1a-08db-f011-8543-000d3ad20411"
-            },
-            {
-              "Description": null,
-              "Name": "People in rural/regional/remote communities",
-              "uuid": "d0bb4b1a-08db-f011-8543-000d3ad20411"
-            },
-            {
-              "Description": null,
-              "Name": "Youth - 15 to under 25",
-              "uuid": "dabb4b1a-08db-f011-8543-000d3ad20411"
-            },
-            {
-              "Description": null,
-              "Name": "General community in Australia",
-              "uuid": "debb4b1a-08db-f011-8543-000d3ad20411"
-            },
-            {
-              "Description": null,
-              "Name": "Other gender identities",
-              "uuid": "e5bb4b1a-08db-f011-8543-000d3ad20411"
-            }
-          ],
-          "CharitySize": null,
-          "CharitySubtypeHistory": [
-            {
-              "EndDate": null,
-              "Purpose": "Advancing the natural environment",
-              "StartDate": "2025-02-17T13:00:00.0000000Z",
-              "uuid": "ceba4b1a-08db-f011-8543-000d3ad20411"
-            }
-          ],
-          "CharityVersion": "8",
-          "ChildMemberEndDate": null,
-          "ChildMemberStartDate": null,
-          "ChooseToProvideAis": null,
-          "Countries": [],
-          "DateEstablished": "2025-02-18T00:00:00.0000000Z",
-          "Documents": [
-            {
-              "Date": "2025-12-17T00:00:00.0000000",
-              "Title": "Model rules for an incorporated association -Boorhaman.docx.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/2bd9e0c9-1761-f011-bec2-002248971dfc-62e862f0-8c41-48c5-b3ef-6dd00bfe1345-Governing%20Document-ac012a15-08db-f011-8544-6045bde73a73-Model_rules_for_an_incorporated_association_-Boorhaman.docx.pdf",
-              "Year": null,
-              "type": "Governing Document",
-              "uuid": "ac012a15-08db-f011-8544-6045bde73a73"
-            }
-          ],
-          "Email": "boorhamanlandcaregroup@gmail.com",
-          "EnforcementOutcomes": [],
-          "FinancialYearEnd": "30/06",
-          "GovernmentAgencies": [
-            {
-              "Name": "VIC - Incorporated Association",
-              "ReferenceNumber": "A0126230Z",
-              "uuid": "c7564420-08db-f011-8543-000d3ad20411"
-            }
-          ],
-          "GroupHeadFlag": false,
-          "LastReported": null,
-          "Name": "Boorhaman And District Landcare Group Inc",
-          "NextReportDue": "2026-12-31T12:30:00.0000000Z",
-          "OperatingInStates": [
-            {
-              "Name": "Victoria",
-              "uuid": "4ea3219c-455e-e811-a95c-000d3ad1c715"
-            }
-          ],
-          "OtherDetails": null,
-          "OtherNames": [],
-          "ParentAccountAbn": null,
-          "ParentAccountId": null,
-          "Phone": "0439862373",
-          "Programs": [],
-          "ReferendumReturnsUrl": null,
-          "RegistrationStatusHistory": [
-            {
-              "EffectiveDate": "2025-02-17T13:00:00.0000000Z",
-              "Status": "Registered",
-              "TransactionDate": "2025-12-18T04:26:04.0000000Z",
-              "uuid": "2e887ba5-c9db-f011-8543-6045bde6f2ab"
-            }
-          ],
-          "RelatedPartyTransactions": null,
-          "RelevantTransactions": null,
-          "ReportingLate": "2027-06-30T12:30:00.0000000Z",
-          "ResponsiblePersons": [
-            {
-              "Name": "Dennis Watson",
-              "Role": "President",
-              "uuid": "0850a6d4-1961-f011-bec1-6045bdc35bda"
-            },
-            {
-              "Name": "Louise Kelly",
-              "Role": "Secretary",
-              "uuid": "2650a6d4-1961-f011-bec1-6045bdc35bda"
-            },
-            {
-              "Name": "Corey Uebergang",
-              "Role": "Treasurer",
-              "uuid": "4250a6d4-1961-f011-bec1-6045bdc35bda"
-            },
-            {
-              "Name": "Christopher Naughtin",
-              "Role": "Vice-president",
-              "uuid": "f73e3f26-08db-f011-8543-000d3ad20411"
-            }
-          ],
-          "Status": "Registered",
-          "SummaryOfActivities": null,
-          "TotalExpensesEmployee": null,
-          "TotalExpensesGrantsAndDonationsInAustralia": null,
-          "TotalExpensesGrantsAndDonationsOutsideAustralia": null,
-          "TotalExpensesInterest": null,
-          "TotalExpensesOther": null,
-          "TotalGrossIncomeDonationsAndRequests": null,
-          "TotalGrossIncomeGoodsOrServices": null,
-          "TotalGrossIncomeGovernmentGrants": null,
-          "TotalGrossIncomeInvestments": null,
-          "TotalGrossIncomeOtherRevenues": null,
-          "TransparencyRegisterUrl": null,
-          "Website": null,
-          "__normalized": true,
-          "type": "charity",
-          "uuid": "2bd9e0c9-1761-f011-bec2-002248971dfc"
-        },
-        "type": "charity",
-        "uuid": "2bd9e0c9-1761-f011-bec2-002248971dfc"
-      },
-      "canonical_field_mappings": {
-        "data.OtherNames": "operating_names",
-        "data.AddressStateOrProvince": "principal_location"
-      },
-      "evidence_ids": []
-    }
-  ],
-  "financial_records": [],
-  "financial_metrics": [],
-  "fundraising_expenditure": null,
-  "funding_sources": [],
-  "fundraising_methods": [],
-  "classifications": [
-    {
-      "taxonomy_id": "acnc-register",
-      "taxonomy_version": "2026-08-10",
-      "term_id": "purpose.environment",
-      "term_label": "environment",
-      "assignment_method": "source_native",
-      "confidence": "high",
-      "evidence_ids": [
-        "ev:acnc:58421528146"
-      ]
-    },
-    {
-      "taxonomy_id": "acnc-register",
-      "taxonomy_version": "2026-08-10",
-      "term_id": "beneficiary.young_people",
-      "term_label": "young people",
-      "assignment_method": "source_native",
-      "confidence": "high",
-      "evidence_ids": [
-        "ev:acnc:58421528146"
-      ]
+      "review_status": "not_required",
+      "conflicting_signals": []
     }
   ],
   "evidence": [
     {
       "evidence_id": "ev:acnc:58421528146",
-      "source_type": "regulatory",
-      "title": "ACNC Register extract",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": null,
-      "observed_at": "2026-08-10",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "title": "ACNC Register extract"
     }
   ],
-  "embedding": {
-    "embedding_id": "cb_69f412200748462cb5d81f2393cf1a56:entity:text-embedding-3-small",
-    "embedding_type": "entity",
-    "model_id": "text-embedding-3-small",
-    "model_version": "text-embedding-3-small",
-    "dimensions": 1536,
-    "source_text_hash": "6ea91664fc538225b9efb3cb9b1f8e5165c116df2611410c9b6d079db6bd77b4",
-    "generated_at": "2026-08-10T13:53:24.458111Z",
-    "vector_ref": "embeddings.parquet#cb_69f412200748462cb5d81f2393cf1a56"
+  "summary": {
+    "derivative_id": "der:rc4:cb_69f412200748462cb5d81f2393cf1a56:summary",
+    "text": "Boorhaman And District Landcare Group Inc is an incorporated community landcare group based in Victoria, Australia. The supplied ACNC register extract records the organisation name and Victoria as its location but includes no website, program descriptions or other descriptive material in this release. CauseBase does not have sufficient descriptive evidence in this release to independently identify specific activities, projects, beneficiaries or participation modes for this organisation. Where present, local landcare groups typically undertake activities such as on-ground environmental work, education and volunteer coordination, but those activities are not documented in the supplied evidence and are not attributed to this organisation in this summary."
   },
-  "synthesis": {
-    "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
-    "parameters": {
-      "max_output_tokens": 3000,
-      "structured_output": true,
-      "output_contract": "causebase-summary-v0.3-rc2"
-    },
-    "evidence_input_hash": "958bc361592797d938c669c7307917996f947ee7c66d8f3d5511394cd9b97ce5",
-    "generated_at": "2026-08-12T14:18:04.678090Z",
-    "editorial_policy_version": "0.3-rc2"
-  },
-  "derivative_assessments": [
+  "activities": [],
+  "beneficiaries": [],
+  "descriptive_geography": [],
+  "navigation_geography": [],
+  "funding_sources": [],
+  "fundraising_methods": [],
+  "participation": [],
+  "opportunities": [],
+  "programs": [],
+  "relationships": [],
+  "classifications": [
     {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T14:18:04.678090Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-13T13:54:42.956606Z",
-      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
-      "input_hash": "958bc361592797d938c669c7307917996f947ee7c66d8f3d5511394cd9b97ce5",
-      "disposition": "reused",
-      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
-      "affected_dimensions": [
-        "summary"
-      ]
+      "observation_id": "obs:rc4:cb_69f412200748462cb5d81f2393cf1a56:classification:0",
+      "classification_id": "cls:rc4:cb_69f412200748462cb5d81f2393cf1a56:0",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "purpose.environment",
+      "term_label": "environment",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:58421528146"
+      ],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_69f412200748462cb5d81f2393cf1a56:classification:1",
+      "classification_id": "cls:rc4:cb_69f412200748462cb5d81f2393cf1a56:1",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "beneficiary.young_people",
+      "term_label": "young people",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:58421528146"
+      ],
+      "confidence": "high",
+      "warnings": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-14-rc4-fundraising-projection-correction",
-  "card_schema_version": "0.4",
-  "editorial_policy_version": "0.4-rc4",
-  "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T13:54:42.956606Z"
+  "coverage": {
+    "registry_id": "capability-registry-0.5-initial",
+    "current": [
+      {
+        "capability": "regulatory.acnc_profile",
+        "status": "observed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:acnc:58421528146"
+        ]
+      },
+      {
+        "capability": "regulatory.ais",
+        "status": "not_available_from_source",
+        "assessed_at": "2026-08-13",
+        "source_record_ids": [
+          "src:acnc-public-profile:58421528146:2bd9e0c9-1761-f011-bec2-002248971dfc:cb_69f412200748462cb5d81f2393cf1a56"
+        ],
+        "evidence_ids": []
+      },
+      {
+        "capability": "tax.dgr",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "web.website",
+        "status": "not_available_from_source",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "report.annual_report",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "financial.report",
+        "status": "not_found_in_source",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "financial.statements",
+        "status": "not_found_in_source",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.activities",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.beneficiaries",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.geography",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "programs",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "participation",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "funding.sources",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.methods",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.expenditure",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "taxonomy.causebase",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "semantic.embedding",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      }
+    ]
+  },
+  "financial_reports": [],
+  "canonical_metrics": [],
+  "analytic_projections": [],
+  "derivatives": [
+    {
+      "derivative_id": "der:rc4:cb_69f412200748462cb5d81f2393cf1a56:summary",
+      "kind": "summary",
+      "input_observation_ids": [],
+      "evidence_ids": [
+        "ev:acnc:58421528146"
+      ],
+      "generated_under": {
+        "output_contract_version": "phase2b-rc4-accepted-rc2-summary-reuse",
+        "input_hash": "958bc361592797d938c669c7307917996f947ee7c66d8f3d5511394cd9b97ce5",
+        "generated_at": "2026-08-12T14:18:04.678090Z"
+      },
+      "current_assessment": {
+        "assessed_at": "2026-08-13T13:54:42.956606Z",
+        "assessed_against_contract": "0.5",
+        "governing_input_hash": "958bc361592797d938c669c7307917996f947ee7c66d8f3d5511394cd9b97ce5",
+        "disposition": "reused",
+        "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs."
+      }
+    }
+  ],
+  "legacy_unbound": {
+    "origin_release": "rc4-2026-08-14",
+    "origin_card_sha256": "5da9a252ee28aec12644ba3520c2bc02d899391bf3cf362f4d9ccc106ec9c55a",
+    "descriptive_geography": [
+      {
+        "value": "Victoria (VIC)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ]
+  }
 }

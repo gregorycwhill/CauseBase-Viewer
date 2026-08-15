@@ -1,996 +1,346 @@
 {
   "causebase_id": "cb_d760af0d10734d6db5f4c29f5c75227d",
+  "contract_version": "0.5",
   "subject_kind": "unknown",
-  "external_identifiers": [
-    {
-      "scheme": "abn",
-      "value": "34669915333",
-      "source_evidence_id": "ev:acnc:34669915333"
-    }
+  "identity": {
+    "legal_name": "ADMINISTRATORS FOR MINISTRIES LIMITED",
+    "display_name": "ADMINISTRATORS FOR MINISTRIES LIMITED",
+    "operating_names": [],
+    "former_names": [],
+    "entity_status": "registered",
+    "website": null,
+    "external_identifiers": [
+      {
+        "scheme": "abn",
+        "value": "34669915333",
+        "evidence_ids": [
+          "ev:acnc:34669915333"
+        ]
+      }
+    ],
+    "registrations": [
+      {
+        "regulator": "ACNC",
+        "status": "registered",
+        "evidence_ids": [
+          "ev:acnc:34669915333"
+        ]
+      }
+    ],
+    "tax_statuses": []
+  },
+  "release": {
+    "release_id": "v0.5.0-2026-08-15",
+    "dataset_version": "0.5.0-2026-08-15",
+    "contract_version": "0.5",
+    "based_on_release": "rc4-2026-08-14",
+    "generated_at": "2026-08-15T00:00:00Z"
+  },
+  "source_record_refs": [
+    "src:acnc-public-profile:34669915333:39803d36-482b-ee11-bdf4-002248122b18:cb_d760af0d10734d6db5f4c29f5c75227d",
+    "src:acnc-ais-detail:34669915333:eb54eb37-da86-f011-b4cc-0022481296ec:cb_d760af0d10734d6db5f4c29f5c75227d"
   ],
-  "registrations": [
-    {
-      "regulator": "ACNC",
-      "registration_id": null,
-      "status": "registered",
-      "evidence_ids": [
-        "ev:acnc:34669915333"
-      ]
-    }
-  ],
-  "tax_statuses": [],
-  "relationships": [],
-  "source_resolutions": [
+  "source_bindings": [
     {
       "source_record_id": "src:acnc-register:2cca74b4-16a0-5e4b-a3f7-d1cd874f6660",
       "resolution_status": "resolved",
       "resolution_basis": "automated authoritative ACNC promotion under acnc-authoritative-v1",
       "confidence": "high",
-      "supporting_signals": [
-        "ABN:34669915333",
-        "ACNC Register"
-      ],
-      "conflicting_signals": [],
-      "review_status": "not_required"
-    }
-  ],
-  "legal_name": "ADMINISTRATORS FOR MINISTRIES LIMITED",
-  "display_name": "ADMINISTRATORS FOR MINISTRIES LIMITED",
-  "entity_status": "registered",
-  "canonical_url": "https://gregorycwhill.github.io/CauseBase-Viewer/#cb_d760af0d10734d6db5f4c29f5c75227d",
-  "acnc_profile_url": "https://www.acnc.gov.au/charity/charities/39803d36-482b-ee11-bdf4-002248122b18/profile",
-  "acnc_ais_url": "https://www.acnc.gov.au/charity/charities/39803d36-482b-ee11-bdf4-002248122b18/documents/eb54eb37-da86-f011-b4cc-0022481296ec",
-  "operating_names": [],
-  "former_names": [],
-  "principal_location": "QLD, Australia",
-  "coverage": [
-    {
-      "capability": "regulatory",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:acnc:34669915333"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "annual_report",
-      "status": "not_yet_processed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "website",
-      "status": "not_available_from_source",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "fundraising_expenditure",
-      "status": "not_yet_processed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "financials",
-      "status": "not_found_in_source",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "latest_acnc_ais",
-      "status": "observed",
-      "source_record_id": "src:acnc-ais-detail:34669915333:eb54eb37-da86-f011-b4cc-0022481296ec:cb_d760af0d10734d6db5f4c29f5c75227d",
-      "evidence_ids": [
-        "ev:acnc:ais:34669915333:eb54eb37-da86-f011-b4cc-0022481296ec"
-      ],
-      "observed_at": "2025-09-01",
-      "freshness_note": "Latest submitted AIS detail acquired from the public ACNC entity endpoint."
-    }
-  ],
-  "enrichment_level": "enriched",
-  "website": null,
-  "geography": [
-    "Queensland (state of registration)",
-    "Australia"
-  ],
-  "geography_observations": [
-    {
-      "value": "Queensland (state of registration)",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Australia",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "navigation_geography": [],
-  "causebase_summary": "Administrators for Ministries Limited is a registered not‑for‑profit entity registered in Queensland, Australia. CauseBase does not have sufficient descriptive evidence in this release to independently identify the organisation’s specific activities, programs, or beneficiary groups. The only available record for this release is an ACNC register extract that shows the organisation’s legal name and state of registration but does not describe services, goals or participation modes.",
-  "summary_evidence_ids": [
-    "ev:acnc:34669915333"
-  ],
-  "organisation_self_description": null,
-  "activities": [],
-  "activity_observations": [],
-  "beneficiaries": [],
-  "beneficiary_observations": [],
-  "participation_modes": [],
-  "participation_observations": [],
-  "opportunities": [],
-  "programs": [
-    {
-      "program_id": "prg:acnc:34669915333:0e55eb37-da86-f011-b4cc-0022481296ec",
-      "name": "Advocating for the socially disadvantaged",
-      "description": "Family services",
-      "beneficiaries": [
-        "Families",
-        "Adults - aged 65 and over",
-        "People at risk of homelessness/ people experiencing homelessness",
-        "Financially disadvantaged people",
-        "General community in Australia"
-      ],
-      "geography": [
-        "Sunshine Coast QLD, Australia"
-      ],
-      "status": "current",
-      "reporting_period": "2025",
-      "source_url": "https://www.acnc.gov.au/charity/charities/39803d36-482b-ee11-bdf4-002248122b18/documents/eb54eb37-da86-f011-b4cc-0022481296ec",
-      "evidence_ids": [
-        "ev:acnc:ais:34669915333:eb54eb37-da86-f011-b4cc-0022481296ec"
-      ]
-    },
-    {
-      "program_id": "prg:acnc:34669915333:4155eb37-da86-f011-b4cc-0022481296ec",
-      "name": "Religious",
-      "description": "Christianity",
-      "beneficiaries": [
-        "Adults - aged 25 to under 65",
-        "Adults - aged 65 and over",
-        "Families",
-        "Financially disadvantaged people",
-        "People at risk of homelessness/ people experiencing homelessness",
-        "People with disabilities",
-        "Victims of crime (including family violence)",
-        "Females",
-        "Males"
-      ],
-      "geography": [
-        "Sunshine Coast QLD, Australia"
-      ],
-      "status": "current",
-      "reporting_period": "2025",
-      "source_url": "https://www.acnc.gov.au/charity/charities/39803d36-482b-ee11-bdf4-002248122b18/documents/eb54eb37-da86-f011-b4cc-0022481296ec",
-      "evidence_ids": [
-        "ev:acnc:ais:34669915333:eb54eb37-da86-f011-b4cc-0022481296ec"
-      ]
-    }
-  ],
-  "source_native_records": [
-    {
-      "source_record_id": "src:acnc-public-profile:34669915333:39803d36-482b-ee11-bdf4-002248122b18:cb_d760af0d10734d6db5f4c29f5c75227d",
-      "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-14-public-api",
-      "source_url": "https://www.acnc.gov.au/charity/charities/39803d36-482b-ee11-bdf4-002248122b18/profile",
-      "retrieved_at": "2026-08-13T13:54:42.956606Z",
-      "observed_at": "2025-09-01",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "uuid": "39803d36-482b-ee11-bdf4-002248122b18",
-        "abn": "34669915333"
-      },
-      "source_payload": {
-        "data": {
-          "AFSAddressPostalCode": "4560",
-          "AFSEmail": "petercroz@gmail.com",
-          "Abn": "34669915333",
-          "AddressCountry": "Australia",
-          "AddressLine1": "U 8 44 Zealey Rd",
-          "AddressLine2": null,
-          "AddressLine3": null,
-          "AddressPostalCode": "4560",
-          "AddressStateOrProvince": "QLD",
-          "AddressSuburb": "Nambour",
-          "AddressSuburbStatePostcode": "Nambour QLD 4560",
-          "AnnualReports": [
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2026-12-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Not yet submitted",
-              "Year": "2026",
-              "type": "Annual Information Statement 2026",
-              "uuid": "e4b7c11a-d7df-ef11-a731-000d3ad059a3"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2026-12-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Pending",
-              "Year": "2026",
-              "type": "Financial Report 2026",
-              "uuid": "f0b7c11a-d7df-ef11-a731-000d3ad059a3"
-            },
-            {
-              "AISId": "4ed5b5d1-7284-ef11-ac20-000d3a6afe06",
-              "DateReceived": "2024-10-07T06:10:24.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2025-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2024",
-              "type": "Annual Information Statement 2024",
-              "uuid": "63d569af-4a69-ee11-9ae7-00224893b0ed"
-            },
-            {
-              "AISId": "eb54eb37-da86-f011-b4cc-0022481296ec",
-              "DateReceived": "2025-09-01T02:20:40.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2026-01-31T00:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2025",
-              "type": "Annual Information Statement 2025",
-              "uuid": "92d569af-4a69-ee11-9ae7-00224893b0ed"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2024-10-07T06:10:21.0000000Z",
-              "DocumentUuid": "d2feebcd-7284-ef11-ac20-00224897020b",
-              "DueDate": "2025-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2024",
-              "type": "Financial Report 2024",
-              "uuid": "a2d569af-4a69-ee11-9ae7-00224893b0ed"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": null,
-              "IsAIS": false,
-              "Status": "Not required - small",
-              "Year": "2025",
-              "type": "Financial Report 2025",
-              "uuid": "afd569af-4a69-ee11-9ae7-00224893b0ed"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2027-12-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Not yet submitted",
-              "Year": "2027",
-              "type": "Annual Information Statement 2027",
-              "uuid": "dedf209f-06ff-f011-8406-6045bdc27ae7"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2027-12-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Pending",
-              "Year": "2027",
-              "type": "Financial Report 2027",
-              "uuid": "ffdf209f-06ff-f011-8406-6045bdc27ae7"
-            }
-          ],
-          "Beneficiaries": [
-            {
-              "Description": null,
-              "Name": "Victims of crime (including family violence)",
-              "uuid": "282be63d-da86-f011-b4cc-0022481296ec"
-            },
-            {
-              "Description": null,
-              "Name": "People with disabilities",
-              "uuid": "2c2be63d-da86-f011-b4cc-0022481296ec"
-            },
-            {
-              "Description": null,
-              "Name": "People at risk of homelessness/ people experiencing homelessness",
-              "uuid": "2f2be63d-da86-f011-b4cc-0022481296ec"
-            },
-            {
-              "Description": null,
-              "Name": "Males",
-              "uuid": "362be63d-da86-f011-b4cc-0022481296ec"
-            },
-            {
-              "Description": null,
-              "Name": "General community in Australia",
-              "uuid": "392be63d-da86-f011-b4cc-0022481296ec"
-            },
-            {
-              "Description": null,
-              "Name": "Financially disadvantaged people",
-              "uuid": "3f2be63d-da86-f011-b4cc-0022481296ec"
-            },
-            {
-              "Description": null,
-              "Name": "Females",
-              "uuid": "492be63d-da86-f011-b4cc-0022481296ec"
-            },
-            {
-              "Description": null,
-              "Name": "Families",
-              "uuid": "4e2be63d-da86-f011-b4cc-0022481296ec"
-            },
-            {
-              "Description": null,
-              "Name": "Adults - aged 65 and over",
-              "uuid": "522be63d-da86-f011-b4cc-0022481296ec"
-            },
-            {
-              "Description": null,
-              "Name": "Adults - aged 25 to under 65",
-              "uuid": "552be63d-da86-f011-b4cc-0022481296ec"
-            }
-          ],
-          "CharitySize": "Small",
-          "CharitySubtypeHistory": [
-            {
-              "EndDate": null,
-              "Purpose": "Advancing religion",
-              "StartDate": "2023-07-25T00:00:00.0000000Z",
-              "uuid": "de803d36-482b-ee11-bdf4-002248122b18"
-            },
-            {
-              "EndDate": null,
-              "Purpose": "Advancing social or public welfare",
-              "StartDate": "2023-07-25T00:00:00.0000000Z",
-              "uuid": "f7803d36-482b-ee11-bdf4-002248122b18"
-            }
-          ],
-          "CharityVersion": "38",
-          "ChildMemberEndDate": null,
-          "ChildMemberStartDate": null,
-          "ChooseToProvideAis": null,
-          "Countries": [],
-          "DateEstablished": "2023-07-24T00:00:00.0000000Z",
-          "Documents": [
-            {
-              "Date": "2023-07-26T00:00:00.0000000",
-              "Title": "AFM Company Limited by Guarantee 0723.docx",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/39803d36-482b-ee11-bdf4-002248122b18-67952820-3404-4d32-ad0b-99c8b4ea29a9-Governing%20Document-8ffb0632-482b-ee11-9965-00224893d32a-AFM_Company_Limited_by_Guarantee_0723.docx",
-              "Year": null,
-              "type": "Governing Document",
-              "uuid": "8ffb0632-482b-ee11-9965-00224893d32a"
-            },
-            {
-              "Date": "2024-10-07T00:00:00.0000000",
-              "Title": "AFM Accounts 2024.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/39803d36-482b-ee11-bdf4-002248122b18-67952820-3404-4d32-ad0b-99c8b4ea29a9-Financial%20Report-d2feebcd-7284-ef11-ac20-00224897020b-AFM_Accounts_2024.pdf",
-              "Year": "2024",
-              "type": "Financial Report",
-              "uuid": "d2feebcd-7284-ef11-ac20-00224897020b"
-            }
-          ],
-          "Email": "afmincvic@gmail.com",
-          "EnforcementOutcomes": [],
-          "FinancialYearEnd": "30/06",
-          "GovernmentAgencies": [
-            {
-              "Name": "Australian Securities and Investment Commission",
-              "ReferenceNumber": "669915333",
-              "uuid": "3c7c3042-482b-ee11-bdf4-002248122b18"
-            }
-          ],
-          "GroupHeadFlag": false,
-          "LastReported": "2025-09-01T02:20:40.0000000Z",
-          "Name": "ADMINISTRATORS FOR MINISTRIES LIMITED",
-          "NextReportDue": "2026-12-31T12:30:00.0000000Z",
-          "OperatingInStates": [],
-          "OtherDetails": null,
-          "OtherNames": [],
-          "ParentAccountAbn": null,
-          "ParentAccountId": null,
-          "Phone": "0411714885",
-          "Programs": [
-            {
-              "AisUuid": "eb54eb37-da86-f011-b4cc-0022481296ec",
-              "Name": "Advocating for the socially disadvantaged",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Families",
-                "Adults - aged 65 and over",
-                "People at risk of homelessness/ people experiencing homelessness",
-                "Financially disadvantaged people",
-                "General community in Australia"
-              ],
-              "ProgramClassie": [
-                {
-                  "classie_id": "496",
-                  "label": "Family services",
-                  "parent_id": "485",
-                  "selected": true
-                },
-                {
-                  "classie_id": "485",
-                  "label": "Human services",
-                  "parent_id": null,
-                  "selected": false
-                }
-              ],
-              "ProgramClassification": "Family services",
-              "ProgramClassificationID": "496",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "Sunshine Coast QLD, Australia",
-                  "FormattedAddress": "Sunshine Coast QLD, Australia",
-                  "Marker": {
-                    "Latitude": -26.65,
-                    "Longitude": 153.066667
-                  },
-                  "Name": "Sunshine Coast",
-                  "uuid": "3b55eb37-da86-f011-b4cc-0022481296ec"
-                }
-              ],
-              "ProgramWeblink": null,
-              "uuid": "0e55eb37-da86-f011-b4cc-0022481296ec"
-            },
-            {
-              "AisUuid": "eb54eb37-da86-f011-b4cc-0022481296ec",
-              "Name": "Religious",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Adults - aged 25 to under 65",
-                "Adults - aged 65 and over",
-                "Families",
-                "Financially disadvantaged people",
-                "People at risk of homelessness/ people experiencing homelessness",
-                "People with disabilities",
-                "Victims of crime (including family violence)",
-                "Females",
-                "Males"
-              ],
-              "ProgramClassie": [
-                {
-                  "classie_id": "741",
-                  "label": "Christianity",
-                  "parent_id": "738",
-                  "selected": true
-                },
-                {
-                  "classie_id": "738",
-                  "label": "Religion and faith-based spirituality",
-                  "parent_id": null,
-                  "selected": false
-                }
-              ],
-              "ProgramClassification": "Christianity",
-              "ProgramClassificationID": "741",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "Sunshine Coast QLD, Australia",
-                  "FormattedAddress": "Sunshine Coast QLD, Australia",
-                  "Marker": {
-                    "Latitude": -26.65,
-                    "Longitude": 153.066667
-                  },
-                  "Name": "Sunshine Coast",
-                  "uuid": "0c2be63d-da86-f011-b4cc-0022481296ec"
-                }
-              ],
-              "ProgramWeblink": null,
-              "uuid": "4155eb37-da86-f011-b4cc-0022481296ec"
-            }
-          ],
-          "ReferendumReturnsUrl": null,
-          "RegistrationStatusHistory": [
-            {
-              "EffectiveDate": "2023-07-25T00:00:00.0000000Z",
-              "Status": "Registered",
-              "TransactionDate": "2023-10-12T21:59:57.0000000Z",
-              "uuid": "891a5ca9-4a69-ee11-9ae7-00224893b0ed"
-            }
-          ],
-          "RelatedPartyTransactions": null,
-          "RelevantTransactions": null,
-          "ReportingLate": "2027-06-30T12:30:00.0000000Z",
-          "ResponsiblePersons": [
-            {
-              "Name": "Peter Crosby",
-              "Role": "Secretary",
-              "uuid": "bcd5599d-18bc-e811-a95f-000d3ad24c60"
-            },
-            {
-              "Name": "Alan Oh",
-              "Role": "Director",
-              "uuid": "b57b3042-482b-ee11-bdf4-002248122b18"
-            },
-            {
-              "Name": "Yongshun Hu",
-              "Role": "Director",
-              "uuid": "ca7b3042-482b-ee11-bdf4-002248122b18"
-            }
-          ],
-          "Status": "Registered",
-          "SummaryOfActivities": "Assisting the Socially Disadvantaged with food-only cards",
-          "TotalExpensesEmployee": "0",
-          "TotalExpensesGrantsAndDonationsInAustralia": "57519",
-          "TotalExpensesGrantsAndDonationsOutsideAustralia": "0",
-          "TotalExpensesInterest": "0",
-          "TotalExpensesOther": "0",
-          "TotalGrossIncomeDonationsAndRequests": "13867",
-          "TotalGrossIncomeGoodsOrServices": "47236",
-          "TotalGrossIncomeGovernmentGrants": "0",
-          "TotalGrossIncomeInvestments": "0",
-          "TotalGrossIncomeOtherRevenues": "0",
-          "TransparencyRegisterUrl": null,
-          "Website": null,
-          "__normalized": true,
-          "type": "charity",
-          "uuid": "39803d36-482b-ee11-bdf4-002248122b18"
-        },
-        "type": "charity",
-        "uuid": "39803d36-482b-ee11-bdf4-002248122b18"
-      },
-      "canonical_field_mappings": {
-        "data.OtherNames": "operating_names",
-        "data.AddressStateOrProvince": "principal_location"
-      },
-      "evidence_ids": []
-    },
-    {
-      "source_record_id": "src:acnc-ais-detail:34669915333:eb54eb37-da86-f011-b4cc-0022481296ec:cb_d760af0d10734d6db5f4c29f5c75227d",
-      "source_family": "acnc-ais-detail",
-      "dataset_version": "2026-08-14-public-api",
-      "source_url": "https://www.acnc.gov.au/charity/charities/39803d36-482b-ee11-bdf4-002248122b18/documents/eb54eb37-da86-f011-b4cc-0022481296ec",
-      "retrieved_at": "2026-08-13T13:54:42.956606Z",
-      "observed_at": "2025-09-01",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "abn": "34669915333",
-        "ais_uuid": "eb54eb37-da86-f011-b4cc-0022481296ec",
-        "year": "2025",
-        "date_received": "2025-09-01T02:20:40.0000000Z"
-      },
-      "source_payload": {
-        "data": {
-          "Abn": "34669915333",
-          "ActivityAdvocacyNCivic": false,
-          "ActivityAgedCare": false,
-          "ActivityAnimalProtection": false,
-          "ActivityCultureAndArt": false,
-          "ActivityEconomicSocialCommunity": false,
-          "ActivityEmergencyNRelief": false,
-          "ActivityEmploymentNTraining": false,
-          "ActivityEnvironmental": false,
-          "ActivityGrantMaking": false,
-          "ActivityHealthRehabilitation": false,
-          "ActivityHigherEducation": false,
-          "ActivityHousing": false,
-          "ActivityIncomeSupportNMaintenance": false,
-          "ActivityInternational": false,
-          "ActivityInternationalDescription": null,
-          "ActivityInternationalOther": false,
-          "ActivityInternationalOtherDescription": null,
-          "ActivityLawNLegalServices": false,
-          "ActivityMain": null,
-          "ActivityMentalHealthCrisisIntervention": false,
-          "ActivityNdisSupported": null,
-          "ActivityNdisSupportedNext": null,
-          "ActivityOperating": true,
-          "ActivityOperatingOverseas": false,
-          "ActivityOther": false,
-          "ActivityOtherDescription": null,
-          "ActivityOtherEducation": false,
-          "ActivityOtherHealthServices": false,
-          "ActivityPersuitPurposesDescription": "Assisting the Socially Disadvantaged with food-only cards",
-          "ActivityPhilanthropicPromotion": false,
-          "ActivityPolitical": false,
-          "ActivityPrimarySecondaryEducation": false,
-          "ActivityPurposeChange": null,
-          "ActivityPurposeChangeDescription": null,
-          "ActivityRecreationSocialClub": false,
-          "ActivityReligious": false,
-          "ActivityResearch": false,
-          "ActivitySocialServices": false,
-          "ActivitySports": false,
-          "ActivityTransferringFundsGoods": false,
-          "AdvancementOfEducation": false,
-          "AdvancementOfReligion": false,
-          "AssetsandLiabilitiesDescription": null,
-          "BasicReligiousCharity": false,
-          "BeneficiaryAboriginalTorres": false,
-          "BeneficiaryAdults": false,
-          "BeneficiaryAllAges": false,
-          "BeneficiaryChildren": false,
-          "BeneficiaryChronicIllness": false,
-          "BeneficiaryCrimeVictims": false,
-          "BeneficiaryDisasterVictims": false,
-          "BeneficiaryEarlyChildhood": false,
-          "BeneficiaryEthnic": false,
-          "BeneficiaryFamilies": false,
-          "BeneficiaryFinanciallyDisadvantaged": false,
-          "BeneficiaryGeneral": false,
-          "BeneficiaryHomelessnessRisk": false,
-          "BeneficiaryLGBT": false,
-          "BeneficiaryMain": null,
-          "BeneficiaryMen": false,
-          "BeneficiaryMigrantsRefugees": false,
-          "BeneficiaryOffenderFamilies": false,
-          "BeneficiaryOther": false,
-          "BeneficiaryOtherCharities": false,
-          "BeneficiaryOtherDescription": null,
-          "BeneficiaryOverseas": false,
-          "BeneficiaryPeopleWithDisability": false,
-          "BeneficiaryRuralRegionalRemote": false,
-          "BeneficiarySeniors": false,
-          "BeneficiaryUnemployed": false,
-          "BeneficiaryVeteranFamilies": false,
-          "BeneficiaryWomen": false,
-          "BeneficiaryYouth": false,
-          "CharityAddressCountry": "Australia",
-          "CharityAddressLine1": "U 8 44 Zealey Rd",
-          "CharityAddressLine2": null,
-          "CharityAddressPostalCode": "4560",
-          "CharityAddressStateOrProvince": "QLD",
-          "CharityAddressSuburb": "Nambour",
-          "CharityEmail": "afmincvic@gmail.com",
-          "CharitySize": "Small",
-          "CharityUuid": "39803d36-482b-ee11-bdf4-002248122b18",
-          "ChildCareServices": false,
-          "ExpenseEmployees": "0.0000",
-          "ExpenseGrantDonationsInAustralia": "57519.0000",
-          "ExpenseGrantDonationsOutsideAustralia": "0.0000",
-          "ExpenseTotal": "57519.0000",
-          "ExpensesOther": "0.0000",
-          "FinAccrualAccounting": "Cash",
-          "FinConsolidatedReportFromMiltiple": null,
-          "FinDocumentedPoliciesRelatedPartyTransactions": null,
-          "FinFyeJune": false,
-          "FinProvideVoluntarily": null,
-          "FinRelatedPartyTransactions": "No",
-          "FinReportACT": false,
-          "FinReportFrom": "2024-07-01T00:00:00.0000000Z",
-          "FinReportNSW": false,
-          "FinReportNT": false,
-          "FinReportQLD": false,
-          "FinReportSA": false,
-          "FinReportTAS": false,
-          "FinReportTo": "2025-06-30T00:00:00.0000000Z",
-          "FinReportVIC": false,
-          "FinReportWA": false,
-          "FinReportingType": null,
-          "FinSapDate": null,
-          "FundRaisingNumberACT": null,
-          "FundRaisingNumberNSW": null,
-          "FundRaisingNumberQLD": null,
-          "FundRaisingNumberSA": null,
-          "FundRaisingNumberTAS": null,
-          "FundRaisingNumberVIC": null,
-          "FundRaisingNumberWA": null,
-          "GovDocAccurate": null,
-          "GrantCapacityBuildingPct": null,
-          "GrantMultiYearPct": null,
-          "GrantPublicOpenApplicationPct": null,
-          "GrantRuralRegionPct": null,
-          "HasSubmittedToRegulator": false,
-          "HoursPaid": null,
-          "HoursTotal": null,
-          "HoursVolunteer": null,
-          "HrCasualEmployees": "0",
-          "HrFteStaff": "0.0000000000",
-          "HrFullTimeEmployees": "0",
-          "HrPartTimeEmployees": "0",
-          "HrUnpainVolunteers": "6",
-          "IncomeDonationsBequests": "13867.0000",
-          "IncomeGovernmentGrants": "0.0000",
-          "IncomeOther": "0.0000",
-          "IncomeOtherComprehinsive": "0.0000",
-          "IncomeOtherNeg": null,
-          "IncomeOtherReceipts": "0.0000",
-          "IncomeTotalComprehensive": "0.0000",
-          "IncomeTotalReceipts": "61103.0000",
-          "IncorporationStatus": null,
-          "InterestExpense": "0.0000",
-          "IsIncorporatedAssociation": false,
-          "KeyManagementPersonnel": false,
-          "LegalName": "ADMINISTRATORS FOR MINISTRIES LIMITED",
-          "NetAssetsLiabilities": "661.0000",
-          "NetSurplusDeficit": "3584.0000",
-          "NonCurrentLoansPayable": "0.0000",
-          "NumberOfKeyManagementPersonnel": "0",
-          "OperatingCountries": null,
-          "OperatingInACT": false,
-          "OperatingInNSW": false,
-          "OperatingInNT": false,
-          "OperatingInQLD": false,
-          "OperatingInSA": false,
-          "OperatingInTAS": false,
-          "OperatingInVIC": false,
-          "OperatingInWA": false,
-          "OperatingOverseas": false,
-          "OtherNames": [],
-          "OtherNonCurrentAssets": "0.0000",
-          "OtherNonCurrentLiabilities": "0.0000",
-          "OtherPurposeDescription": null,
-          "OtherPurposes": "False",
-          "Programs": [
-            {
-              "AisUuid": "eb54eb37-da86-f011-b4cc-0022481296ec",
-              "Name": "Advocating for the socially disadvantaged",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Families",
-                "Adults - aged 65 and over",
-                "People at risk of homelessness/ people experiencing homelessness",
-                "Financially disadvantaged people",
-                "General community in Australia"
-              ],
-              "ProgramClassification": "Family services",
-              "ProgramClassificationID": "496",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "Sunshine Coast QLD, Australia",
-                  "FormattedAddress": "Sunshine Coast QLD, Australia",
-                  "Marker": {
-                    "Latitude": -26.65,
-                    "Longitude": 153.066667
-                  },
-                  "Name": "Sunshine Coast",
-                  "uuid": "3b55eb37-da86-f011-b4cc-0022481296ec"
-                }
-              ],
-              "ProgramWeblink": null,
-              "uuid": "0e55eb37-da86-f011-b4cc-0022481296ec"
-            },
-            {
-              "AisUuid": "eb54eb37-da86-f011-b4cc-0022481296ec",
-              "Name": "Religious",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Adults - aged 25 to under 65",
-                "Adults - aged 65 and over",
-                "Families",
-                "Financially disadvantaged people",
-                "People at risk of homelessness/ people experiencing homelessness",
-                "People with disabilities",
-                "Victims of crime (including family violence)",
-                "Females",
-                "Males"
-              ],
-              "ProgramClassification": "Christianity",
-              "ProgramClassificationID": "741",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "Sunshine Coast QLD, Australia",
-                  "FormattedAddress": "Sunshine Coast QLD, Australia",
-                  "Marker": {
-                    "Latitude": -26.65,
-                    "Longitude": 153.066667
-                  },
-                  "Name": "Sunshine Coast",
-                  "uuid": "0c2be63d-da86-f011-b4cc-0022481296ec"
-                }
-              ],
-              "ProgramWeblink": null,
-              "uuid": "4155eb37-da86-f011-b4cc-0022481296ec"
-            }
-          ],
-          "RegulatedACT": false,
-          "RegulatedNSW": false,
-          "RegulatedNT": false,
-          "RegulatedQLD": false,
-          "RegulatedSA": false,
-          "RegulatedTAS": false,
-          "RegulatedVIC": false,
-          "RegulatedWA": false,
-          "Regulator": null,
-          "RegulatorAGMDateACT": null,
-          "RegulatorAGMDateNT": null,
-          "RegulatorAGMDateVIC": null,
-          "RegulatorAGMDateWA": null,
-          "RegulatorFundRaising": "No",
-          "RegulatorFundRaisingACT": false,
-          "RegulatorFundRaisingNSW": false,
-          "RegulatorFundRaisingNT": false,
-          "RegulatorFundRaisingOnline": false,
-          "RegulatorFundRaisingQLD": false,
-          "RegulatorFundRaisingSA": false,
-          "RegulatorFundRaisingTAS": false,
-          "RegulatorFundRaisingVIC": false,
-          "RegulatorFundRaisingWA": false,
-          "RegulatorIncorporatedAssociationACT": false,
-          "RegulatorIncorporatedAssociationNSW": false,
-          "RegulatorIncorporatedAssociationNT": false,
-          "RegulatorIncorporatedAssociationNumberACT": null,
-          "RegulatorIncorporatedAssociationNumberNSW": null,
-          "RegulatorIncorporatedAssociationNumberNT": null,
-          "RegulatorIncorporatedAssociationNumberQLD": null,
-          "RegulatorIncorporatedAssociationNumberSA": null,
-          "RegulatorIncorporatedAssociationNumberTAS": null,
-          "RegulatorIncorporatedAssociationNumberVIC": null,
-          "RegulatorIncorporatedAssociationNumberWA": null,
-          "RegulatorIncorporatedAssociationQLD": false,
-          "RegulatorIncorporatedAssociationSA": false,
-          "RegulatorIncorporatedAssociationTAS": false,
-          "RegulatorIncorporatedAssociationVIC": false,
-          "RegulatorIncorporatedAssociationWA": false,
-          "RegulatorMetRequirementACT": false,
-          "RegulatorMetRequirementWA": null,
-          "RegulatorOtherDetails": null,
-          "RegulatorPrograms": null,
-          "RegulatorStates": false,
-          "RelatedPartyDetails": null,
-          "RelatedPartyTransactions": [],
-          "ReliefOfPoverty": false,
-          "ReportingGroupFlag": false,
-          "ResponsiblePersonAccurate": null,
-          "RevenueGoodsServices": "47236.0000",
-          "RevenueInvestments": "0.0000",
-          "RevenueTotal": "61103.0000",
-          "StatementYear": "2025",
-          "SubTypesAccurate": null,
-          "TotalAssets": "661.0000",
-          "TotalCurrentAssets": "0.0000",
-          "TotalCurrentLiabilities": "0.0000",
-          "TotalLiabilities": "0.0000",
-          "TotalNonCurrentAssets": null,
-          "TotalNonCurrentLiabilities": "0.0000",
-          "TotalNonCurrentLoansReceivable": "0.0000",
-          "TotalPaidKMP": "$0.00",
-          "Website": null,
-          "__normalized": true,
-          "entityTypeVersion": "",
-          "entityVersion": "1745092029",
-          "timeStamp": "2025-09-01T02:20:27.0000000Z",
-          "type": "annual_information_statement",
-          "uuid": "eb54eb37-da86-f011-b4cc-0022481296ec"
-        },
-        "type": "annual_information_statement",
-        "uuid": "eb54eb37-da86-f011-b4cc-0022481296ec"
-      },
-      "canonical_field_mappings": {
-        "data.Programs": "programs",
-        "data.TotalRevenue": "financial_records[].revenue",
-        "data.TotalExpenses": "financial_records[].total_expenses"
-      },
-      "evidence_ids": [
-        "ev:acnc:ais:34669915333:eb54eb37-da86-f011-b4cc-0022481296ec"
-      ]
-    }
-  ],
-  "financial_records": [],
-  "financial_metrics": [],
-  "fundraising_expenditure": null,
-  "funding_sources": [],
-  "fundraising_methods": [],
-  "classifications": [
-    {
-      "taxonomy_id": "acnc-register",
-      "taxonomy_version": "2026-08-10",
-      "term_id": "purpose.religion",
-      "term_label": "religion",
-      "assignment_method": "source_native",
-      "confidence": "high",
-      "evidence_ids": [
-        "ev:acnc:34669915333"
-      ]
-    },
-    {
-      "taxonomy_id": "acnc-register",
-      "taxonomy_version": "2026-08-10",
-      "term_id": "beneficiary.older_people",
-      "term_label": "older people",
-      "assignment_method": "source_native",
-      "confidence": "high",
-      "evidence_ids": [
-        "ev:acnc:34669915333"
-      ]
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "geography.australia",
-      "term_label": "Australia",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "geography.local_or_regional",
-      "term_label": "Local or regional Australia",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
+      "review_status": "not_required",
+      "conflicting_signals": []
     }
   ],
   "evidence": [
     {
       "evidence_id": "ev:acnc:34669915333",
-      "source_type": "regulatory",
-      "title": "ACNC Register extract",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": null,
-      "observed_at": "2026-08-10",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "title": "ACNC Register extract"
     },
     {
       "evidence_id": "ev:acnc:ais:34669915333:eb54eb37-da86-f011-b4cc-0022481296ec",
-      "source_type": "regulatory",
       "title": "ACNC Annual Information Statement 2025",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": "https://www.acnc.gov.au/charity/charities/39803d36-482b-ee11-bdf4-002248122b18/documents/eb54eb37-da86-f011-b4cc-0022481296ec",
-      "observed_at": "2025-09-01",
-      "reporting_period": "2025",
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://www.acnc.gov.au/charity/charities/39803d36-482b-ee11-bdf4-002248122b18/documents/eb54eb37-da86-f011-b4cc-0022481296ec"
     }
   ],
-  "embedding": {
-    "embedding_id": "cb_d760af0d10734d6db5f4c29f5c75227d:entity:text-embedding-3-small",
-    "embedding_type": "entity",
-    "model_id": "text-embedding-3-small",
-    "model_version": "text-embedding-3-small",
-    "dimensions": 1536,
-    "source_text_hash": "aaf5bd0e630d11e86b273538904498453103788427ba4847f561b298a00a9e0f",
-    "generated_at": "2026-08-10T13:53:24.456212Z",
-    "vector_ref": "embeddings.parquet#cb_d760af0d10734d6db5f4c29f5c75227d"
+  "summary": {
+    "derivative_id": "der:rc4:cb_d760af0d10734d6db5f4c29f5c75227d:summary",
+    "text": "Administrators for Ministries Limited is a registered not\u2011for\u2011profit entity registered in Queensland, Australia. CauseBase does not have sufficient descriptive evidence in this release to independently identify the organisation\u2019s specific activities, programs, or beneficiary groups. The only available record for this release is an ACNC register extract that shows the organisation\u2019s legal name and state of registration but does not describe services, goals or participation modes."
   },
-  "synthesis": {
-    "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
-    "parameters": {
-      "max_output_tokens": 3000,
-      "structured_output": true,
-      "output_contract": "causebase-summary-v0.3-rc2"
-    },
-    "evidence_input_hash": "a2318e1bf88bc72997b9071274f551393f12b5a932afc94dcf6f58f97de09f27",
-    "generated_at": "2026-08-12T13:48:23.115473Z",
-    "editorial_policy_version": "0.3-rc2"
-  },
-  "derivative_assessments": [
+  "activities": [],
+  "beneficiaries": [],
+  "descriptive_geography": [],
+  "navigation_geography": [],
+  "funding_sources": [],
+  "fundraising_methods": [],
+  "participation": [],
+  "opportunities": [],
+  "programs": [
     {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T13:48:23.115473Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-13T13:54:42.956606Z",
-      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
-      "input_hash": "a2318e1bf88bc72997b9071274f551393f12b5a932afc94dcf6f58f97de09f27",
-      "disposition": "reused",
-      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
-      "affected_dimensions": [
-        "summary"
-      ]
+      "observation_id": "obs:rc4:cb_d760af0d10734d6db5f4c29f5c75227d:program:prg:acnc:34669915333:0e55eb37-da86-f011-b4cc-0022481296ec",
+      "program_id": "prg:acnc:34669915333:0e55eb37-da86-f011-b4cc-0022481296ec",
+      "name": "Advocating for the socially disadvantaged",
+      "description": "Family services",
+      "url": "https://www.acnc.gov.au/charity/charities/39803d36-482b-ee11-bdf4-002248122b18/documents/eb54eb37-da86-f011-b4cc-0022481296ec",
+      "status": "current",
+      "claim_basis": "direct",
+      "extraction_method": "api",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:ais:34669915333:eb54eb37-da86-f011-b4cc-0022481296ec"
+      ],
+      "time": {
+        "reporting_period": {
+          "label": "2025"
+        }
+      },
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_d760af0d10734d6db5f4c29f5c75227d:program:prg:acnc:34669915333:4155eb37-da86-f011-b4cc-0022481296ec",
+      "program_id": "prg:acnc:34669915333:4155eb37-da86-f011-b4cc-0022481296ec",
+      "name": "Religious",
+      "description": "Christianity",
+      "url": "https://www.acnc.gov.au/charity/charities/39803d36-482b-ee11-bdf4-002248122b18/documents/eb54eb37-da86-f011-b4cc-0022481296ec",
+      "status": "current",
+      "claim_basis": "direct",
+      "extraction_method": "api",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:ais:34669915333:eb54eb37-da86-f011-b4cc-0022481296ec"
+      ],
+      "time": {
+        "reporting_period": {
+          "label": "2025"
+        }
+      },
+      "warnings": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-14-rc4-fundraising-projection-correction",
-  "card_schema_version": "0.4",
-  "editorial_policy_version": "0.4-rc4",
-  "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T13:54:42.956606Z"
+  "relationships": [],
+  "classifications": [
+    {
+      "observation_id": "obs:rc4:cb_d760af0d10734d6db5f4c29f5c75227d:classification:0",
+      "classification_id": "cls:rc4:cb_d760af0d10734d6db5f4c29f5c75227d:0",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "purpose.religion",
+      "term_label": "religion",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:34669915333"
+      ],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_d760af0d10734d6db5f4c29f5c75227d:classification:1",
+      "classification_id": "cls:rc4:cb_d760af0d10734d6db5f4c29f5c75227d:1",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "beneficiary.older_people",
+      "term_label": "older people",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:34669915333"
+      ],
+      "confidence": "high",
+      "warnings": []
+    }
+  ],
+  "coverage": {
+    "registry_id": "capability-registry-0.5-initial",
+    "current": [
+      {
+        "capability": "regulatory.acnc_profile",
+        "status": "observed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:acnc:34669915333"
+        ]
+      },
+      {
+        "capability": "regulatory.ais",
+        "status": "observed",
+        "assessed_at": "2025-09-01",
+        "source_record_ids": [
+          "src:acnc-ais-detail:34669915333:eb54eb37-da86-f011-b4cc-0022481296ec:cb_d760af0d10734d6db5f4c29f5c75227d"
+        ],
+        "evidence_ids": [
+          "ev:acnc:ais:34669915333:eb54eb37-da86-f011-b4cc-0022481296ec"
+        ]
+      },
+      {
+        "capability": "tax.dgr",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "web.website",
+        "status": "not_available_from_source",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "report.annual_report",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "financial.report",
+        "status": "not_found_in_source",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "financial.statements",
+        "status": "not_found_in_source",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.activities",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.beneficiaries",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.geography",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "programs",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "participation",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "funding.sources",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.methods",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.expenditure",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "taxonomy.causebase",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "semantic.embedding",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      }
+    ]
+  },
+  "financial_reports": [],
+  "canonical_metrics": [],
+  "analytic_projections": [],
+  "derivatives": [
+    {
+      "derivative_id": "der:rc4:cb_d760af0d10734d6db5f4c29f5c75227d:summary",
+      "kind": "summary",
+      "input_observation_ids": [],
+      "evidence_ids": [
+        "ev:acnc:34669915333"
+      ],
+      "generated_under": {
+        "output_contract_version": "phase2b-rc4-accepted-rc2-summary-reuse",
+        "input_hash": "a2318e1bf88bc72997b9071274f551393f12b5a932afc94dcf6f58f97de09f27",
+        "generated_at": "2026-08-12T13:48:23.115473Z"
+      },
+      "current_assessment": {
+        "assessed_at": "2026-08-13T13:54:42.956606Z",
+        "assessed_against_contract": "0.5",
+        "governing_input_hash": "a2318e1bf88bc72997b9071274f551393f12b5a932afc94dcf6f58f97de09f27",
+        "disposition": "reused",
+        "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs."
+      }
+    }
+  ],
+  "legacy_unbound": {
+    "origin_release": "rc4-2026-08-14",
+    "origin_card_sha256": "677968fe042e507de7440244dc49223b51e8f05cb5c1a29701ca1ffe20831af5",
+    "descriptive_geography": [
+      {
+        "value": "Queensland (state of registration)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Australia",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "classifications": [
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "geography.australia",
+        "term_label": "Australia",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "geography.local_or_regional",
+        "term_label": "Local or regional Australia",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      }
+    ]
+  }
 }

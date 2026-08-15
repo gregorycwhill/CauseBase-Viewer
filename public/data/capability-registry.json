@@ -1,0 +1,108 @@
+{
+  "registry_id": "capability-registry-0.5-initial",
+  "contract_version": "0.5",
+  "capabilities": [
+    {
+      "capability_id": "regulatory.acnc_profile",
+      "definition": "ACNC public profile",
+      "observed_when": "An ACNC profile is governed.",
+      "applicability": "all_cards"
+    },
+    {
+      "capability_id": "regulatory.ais",
+      "definition": "ACNC annual information statement",
+      "observed_when": "An AIS source is governed.",
+      "applicability": "all_cards"
+    },
+    {
+      "capability_id": "tax.dgr",
+      "definition": "DGR status",
+      "observed_when": "A DGR observation is governed.",
+      "applicability": "all_cards"
+    },
+    {
+      "capability_id": "web.website",
+      "definition": "Public website",
+      "observed_when": "A website locator is governed.",
+      "applicability": "all_cards"
+    },
+    {
+      "capability_id": "report.annual_report",
+      "definition": "Annual report",
+      "observed_when": "An annual report is governed.",
+      "applicability": "all_cards"
+    },
+    {
+      "capability_id": "financial.report",
+      "definition": "Financial report",
+      "observed_when": "A financial report is governed.",
+      "applicability": "all_cards"
+    },
+    {
+      "capability_id": "financial.statements",
+      "definition": "Financial statements",
+      "observed_when": "Primary statement rows are governed.",
+      "applicability": "all_cards"
+    },
+    {
+      "capability_id": "understanding.activities",
+      "definition": "Activities",
+      "observed_when": "An activity observation is governed.",
+      "applicability": "all_cards"
+    },
+    {
+      "capability_id": "understanding.beneficiaries",
+      "definition": "Beneficiaries",
+      "observed_when": "A beneficiary observation is governed.",
+      "applicability": "all_cards"
+    },
+    {
+      "capability_id": "understanding.geography",
+      "definition": "Descriptive geography",
+      "observed_when": "A geography observation is governed.",
+      "applicability": "all_cards"
+    },
+    {
+      "capability_id": "programs",
+      "definition": "Programs",
+      "observed_when": "A program observation is governed.",
+      "applicability": "all_cards"
+    },
+    {
+      "capability_id": "participation",
+      "definition": "Participation",
+      "observed_when": "A participation or opportunity observation is governed.",
+      "applicability": "all_cards"
+    },
+    {
+      "capability_id": "funding.sources",
+      "definition": "Funding sources",
+      "observed_when": "A funding source observation is governed.",
+      "applicability": "all_cards"
+    },
+    {
+      "capability_id": "fundraising.methods",
+      "definition": "Fundraising methods",
+      "observed_when": "A fundraising method observation is governed.",
+      "applicability": "all_cards"
+    },
+    {
+      "capability_id": "fundraising.expenditure",
+      "definition": "Fundraising expenditure",
+      "observed_when": "A direct allocation or governed analytic is present.",
+      "applicability": "all_cards"
+    },
+    {
+      "capability_id": "taxonomy.causebase",
+      "definition": "CauseBase classification",
+      "observed_when": "A CauseBase classification is governed.",
+      "applicability": "all_cards"
+    },
+    {
+      "capability_id": "semantic.embedding",
+      "definition": "Semantic embedding",
+      "observed_when": "A release embedding is governed.",
+      "applicability": "all_cards"
+    }
+  ]
+}

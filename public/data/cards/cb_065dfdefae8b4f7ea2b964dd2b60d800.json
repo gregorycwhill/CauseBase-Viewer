@@ -1,1826 +1,548 @@
 {
   "causebase_id": "cb_065dfdefae8b4f7ea2b964dd2b60d800",
+  "contract_version": "0.5",
   "subject_kind": "unknown",
-  "external_identifiers": [
-    {
-      "scheme": "abn",
-      "value": "44552934060",
-      "source_evidence_id": "ev:acnc:44552934060"
-    }
+  "identity": {
+    "legal_name": "Araluen Botanic Park Foundation Inc",
+    "display_name": "Araluen Botanic Park Foundation Inc",
+    "operating_names": [],
+    "former_names": [],
+    "entity_status": "registered",
+    "website": "www.araluenbotanicpark.com.au",
+    "external_identifiers": [
+      {
+        "scheme": "abn",
+        "value": "44552934060",
+        "evidence_ids": [
+          "ev:acnc:44552934060"
+        ]
+      }
+    ],
+    "registrations": [
+      {
+        "regulator": "ACNC",
+        "status": "registered",
+        "evidence_ids": [
+          "ev:acnc:44552934060"
+        ]
+      }
+    ],
+    "tax_statuses": [
+      {
+        "scheme": "ABR DGR",
+        "status": "endorsed",
+        "evidence_ids": [
+          "ev:abr-dgr:44552934060:20260805"
+        ]
+      }
+    ]
+  },
+  "release": {
+    "release_id": "v0.5.0-2026-08-15",
+    "dataset_version": "0.5.0-2026-08-15",
+    "contract_version": "0.5",
+    "based_on_release": "rc4-2026-08-14",
+    "generated_at": "2026-08-15T00:00:00Z"
+  },
+  "source_record_refs": [
+    "src:acnc-public-profile:44552934060:6d50023d-38af-e811-a963-000d3ad24077:cb_065dfdefae8b4f7ea2b964dd2b60d800",
+    "src:acnc-ais-detail:44552934060:77bc3224-4bfb-f011-8406-6045bdc47a8f:cb_065dfdefae8b4f7ea2b964dd2b60d800"
   ],
-  "registrations": [
-    {
-      "regulator": "ACNC",
-      "registration_id": null,
-      "status": "registered",
-      "evidence_ids": [
-        "ev:acnc:44552934060"
-      ]
-    }
-  ],
-  "tax_statuses": [
-    {
-      "scheme": "ABR DGR",
-      "status": "endorsed",
-      "detail": "Dated 2026-08-05 ABR bulk observation",
-      "evidence_ids": [
-        "ev:abr-dgr:44552934060:20260805"
-      ]
-    }
-  ],
-  "relationships": [],
-  "source_resolutions": [
+  "source_bindings": [
     {
       "source_record_id": "src:acnc-register:bfacde73-0b0f-5c71-a167-dc6d5d94b147",
       "resolution_status": "resolved",
       "resolution_basis": "automated authoritative ACNC promotion under acnc-authoritative-v1",
       "confidence": "high",
-      "supporting_signals": [
-        "ABN:44552934060",
-        "ACNC Register"
-      ],
-      "conflicting_signals": [],
-      "review_status": "not_required"
-    }
-  ],
-  "legal_name": "Araluen Botanic Park Foundation Inc",
-  "display_name": "Araluen Botanic Park Foundation Inc",
-  "entity_status": "registered",
-  "canonical_url": "https://gregorycwhill.github.io/CauseBase-Viewer/#cb_065dfdefae8b4f7ea2b964dd2b60d800",
-  "acnc_profile_url": "https://www.acnc.gov.au/charity/charities/6d50023d-38af-e811-a963-000d3ad24077/profile",
-  "acnc_ais_url": "https://www.acnc.gov.au/charity/charities/6d50023d-38af-e811-a963-000d3ad24077/documents/77bc3224-4bfb-f011-8406-6045bdc47a8f",
-  "operating_names": [],
-  "former_names": [],
-  "principal_location": "WA, Australia",
-  "coverage": [
-    {
-      "capability": "regulatory",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:acnc:44552934060"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "annual_report",
-      "status": "not_yet_processed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "fundraising_expenditure",
-      "status": "not_available_from_source",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": "No direct or defensible derived fundraising expenditure was found in selected Phase 2A evidence."
-    },
-    {
-      "capability": "financials",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:ais:44552934060:2023"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "latest_acnc_ais",
-      "status": "observed",
-      "source_record_id": "src:acnc-ais-detail:44552934060:77bc3224-4bfb-f011-8406-6045bdc47a8f:cb_065dfdefae8b4f7ea2b964dd2b60d800",
-      "evidence_ids": [
-        "ev:acnc:ais:44552934060:77bc3224-4bfb-f011-8406-6045bdc47a8f"
-      ],
-      "observed_at": "2026-01-27",
-      "freshness_note": "Latest submitted AIS detail acquired from the public ACNC entity endpoint."
-    },
-    {
-      "capability": "website",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-13",
-      "freshness_note": "Public website locator acquired from the ACNC profile."
-    }
-  ],
-  "enrichment_level": "enriched",
-  "website": "www.araluenbotanicpark.com.au",
-  "geography": [
-    "Roleystone, Perth Hills, Western Australia",
-    "Approximately 40 minutes from Perth"
-  ],
-  "geography_observations": [
-    {
-      "value": "Roleystone, Perth Hills, Western Australia",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Approximately 40 minutes from Perth",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "navigation_geography": [],
-  "causebase_summary": "Araluen Botanic Park Foundation Inc manages Araluen Botanic Park in Roleystone in the Perth Hills, Western Australia. As of August 2026 it maintains 14 hectares of cultivated botanical gardens set within 59 hectares of native West Australian bushland, and manages a significant tree collection and remnant native forest on site. The park hosts public programming including a Tulip Festival, concerts and workshops, operates venue hire for weddings and other events and runs an on‑site café. It recruits and hosts volunteer activities such as a large bulb‑planting day (250,000 bulbs cited) and advertises regular opportunities for visitors to participate. The park is described as open to visitors and supports on‑site wildlife associated with the native bushland.",
-  "summary_evidence_ids": [
-    "ev:web:44552934060:2026-08-10",
-    "ev:acnc:44552934060"
-  ],
-  "organisation_self_description": null,
-  "activities": [
-    "Maintain 14 hectares of cultivated botanical gardens within 59 hectares of native bushland",
-    "Host public events and seasonal festivals including a Tulip Festival, concerts and workshops",
-    "Operate venue hire for weddings and events and an on‑site café",
-    "Recruit and host volunteer activities such as an advertised bulb‑planting day (250,000 bulbs mentioned)",
-    "Describe management and preservation of a tree collection and native forest on site"
-  ],
-  "activity_observations": [
-    {
-      "value": "Maintain 14 hectares of cultivated botanical gardens within 59 hectares of native bushland",
-      "source_role": "legacy_source_qualifier",
-      "provenance_note": "as described on the organisation's website",
-      "evidence_ids": []
-    },
-    {
-      "value": "Host public events and seasonal festivals including a Tulip Festival, concerts and workshops",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Operate venue hire for weddings and events and an on‑site café",
-      "source_role": "legacy_source_qualifier",
-      "provenance_note": "as advertised",
-      "evidence_ids": []
-    },
-    {
-      "value": "Recruit and host volunteer activities such as an advertised bulb‑planting day (250,000 bulbs mentioned)",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Describe management and preservation of a tree collection and native forest on site",
-      "source_role": "legacy_source_qualifier",
-      "provenance_note": "website statement",
-      "evidence_ids": []
-    }
-  ],
-  "beneficiaries": [
-    "Park visitors and members of the public",
-    "Wildlife associated with on‑site native West Australian bushland"
-  ],
-  "beneficiary_observations": [
-    {
-      "value": "Park visitors and members of the public",
-      "source_role": "legacy_source_qualifier",
-      "provenance_note": "website describes visitor services and events",
-      "evidence_ids": []
-    },
-    {
-      "value": "Wildlife associated with on‑site native West Australian bushland",
-      "source_role": "legacy_source_qualifier",
-      "provenance_note": "website refers to birds and native forest",
-      "evidence_ids": []
-    }
-  ],
-  "participation_modes": [
-    "Volunteer bulb‑planting events (advertised)",
-    "Public festivals and concerts (advertised)",
-    "Workshops such as a Flower Crown workshop (advertised)"
-  ],
-  "participation_observations": [],
-  "opportunities": [],
-  "programs": [
-    {
-      "program_id": "prg:acnc:44552934060:d6bc3224-4bfb-f011-8406-6045bdc47a8f",
-      "name": "Tulip Festival, It's Yates Springtime",
-      "description": "Parks",
-      "beneficiaries": [
-        "Families",
-        "Adults - aged 65 and over",
-        "Adults - aged 25 to under 65",
-        "Youth - 15 to under 25",
-        "Children - aged 6 to under 15",
-        "Early childhood - aged under 6",
-        "Aboriginal and Torres Strait Islander people",
-        "People from a culturally and linguistically diverse background",
-        "People in rural/regional/remote communities",
-        "People with disabilities",
-        "Veterans and/or their families",
-        "Females",
-        "Males",
-        "Environment"
-      ],
-      "geography": [
-        "362 Croyden Road, Roleystone WA, Australia"
-      ],
-      "status": "current",
-      "reporting_period": "2025",
-      "source_url": "https://www.acnc.gov.au/charity/charities/6d50023d-38af-e811-a963-000d3ad24077/documents/77bc3224-4bfb-f011-8406-6045bdc47a8f",
-      "evidence_ids": [
-        "ev:acnc:ais:44552934060:77bc3224-4bfb-f011-8406-6045bdc47a8f"
-      ]
-    },
-    {
-      "program_id": "prg:acnc:44552934060:74312b2a-4bfb-f011-8406-6045bdc47a8f",
-      "name": "Remembrance Day",
-      "description": "History",
-      "beneficiaries": [
-        "Families",
-        "Adults - aged 65 and over",
-        "Adults - aged 25 to under 65",
-        "Youth - 15 to under 25",
-        "Children - aged 6 to under 15",
-        "Early childhood - aged under 6",
-        "People from a culturally and linguistically diverse background",
-        "Aboriginal and Torres Strait Islander people",
-        "Males",
-        "Females",
-        "Veterans and/or their families"
-      ],
-      "geography": [
-        "362 Croyden Road, Roleystone WA, Australia"
-      ],
-      "status": "current",
-      "reporting_period": "2025",
-      "source_url": "https://www.acnc.gov.au/charity/charities/6d50023d-38af-e811-a963-000d3ad24077/documents/77bc3224-4bfb-f011-8406-6045bdc47a8f",
-      "evidence_ids": [
-        "ev:acnc:ais:44552934060:77bc3224-4bfb-f011-8406-6045bdc47a8f"
-      ]
-    },
-    {
-      "program_id": "prg:acnc:44552934060:a1312b2a-4bfb-f011-8406-6045bdc47a8f",
-      "name": "Carol's by Torchlight",
-      "description": "Parks",
-      "beneficiaries": [
-        "Early childhood - aged under 6",
-        "Children - aged 6 to under 15",
-        "Youth - 15 to under 25",
-        "Adults - aged 25 to under 65",
-        "Adults - aged 65 and over",
-        "Families",
-        "Aboriginal and Torres Strait Islander people",
-        "LGBTIQA+",
-        "People from a culturally and linguistically diverse background",
-        "Females",
-        "Males",
-        "Other gender identities"
-      ],
-      "geography": [
-        "362 Croyden Road, Roleystone WA, Australia"
-      ],
-      "status": "current",
-      "reporting_period": "2025",
-      "source_url": "www.araluenbotanicpark.com.au",
-      "evidence_ids": [
-        "ev:acnc:ais:44552934060:77bc3224-4bfb-f011-8406-6045bdc47a8f"
-      ]
-    }
-  ],
-  "source_native_records": [
-    {
-      "source_record_id": "src:acnc-public-profile:44552934060:6d50023d-38af-e811-a963-000d3ad24077:cb_065dfdefae8b4f7ea2b964dd2b60d800",
-      "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-14-public-api",
-      "source_url": "https://www.acnc.gov.au/charity/charities/6d50023d-38af-e811-a963-000d3ad24077/profile",
-      "retrieved_at": "2026-08-13T13:54:42.956606Z",
-      "observed_at": "2026-01-27",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "uuid": "6d50023d-38af-e811-a963-000d3ad24077",
-        "abn": "44552934060"
-      },
-      "source_payload": {
-        "data": {
-          "AFSAddressPostalCode": "6111",
-          "AFSEmail": "accounts@araluenbotanicpark.com.au",
-          "Abn": "44552934060",
-          "AddressCountry": "Australia",
-          "AddressLine1": "362 Croyden Rd",
-          "AddressLine2": null,
-          "AddressLine3": null,
-          "AddressPostalCode": "6111",
-          "AddressStateOrProvince": "WA",
-          "AddressSuburb": "Roleystone",
-          "AddressSuburbStatePostcode": "Roleystone WA 6111",
-          "AnnualReports": [
-            {
-              "AISId": null,
-              "DateReceived": "2020-01-30T13:00:00.0000000Z",
-              "DocumentUuid": "d98e6bdb-1609-eb11-a813-000d3ad1cc03",
-              "DueDate": "2020-01-31T00:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2019",
-              "type": "Financial Report 2019",
-              "uuid": "b8726186-e825-e911-a976-000d3ad05e15"
-            },
-            {
-              "AISId": "30fbf713-1709-eb11-a812-000d3ad1cd99",
-              "DateReceived": "2020-01-30T13:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2020-01-31T00:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2019",
-              "type": "Annual Information Statement 2019",
-              "uuid": "dc726186-e825-e911-a976-000d3ad05e15"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2021-01-28T07:10:20.0000000Z",
-              "DocumentUuid": "e73603df-3761-eb11-a812-000d3a6a4d58",
-              "DueDate": "2021-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2020",
-              "type": "Financial Report 2020",
-              "uuid": "0d736186-e825-e911-a976-000d3ad05e15"
-            },
-            {
-              "AISId": "ab1881e0-3761-eb11-89f5-000d3ad1cd99",
-              "DateReceived": "2021-01-28T07:10:26.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2021-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2020",
-              "type": "Annual Information Statement 2020",
-              "uuid": "37736186-e825-e911-a976-000d3ad05e15"
-            },
-            {
-              "AISId": "9b81a450-d281-ed11-81ad-002248933c76",
-              "DateReceived": "2022-12-22T08:26:30.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2023-01-31T00:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2022",
-              "type": "Annual Information Statement 2022",
-              "uuid": "aac5c04e-cd63-eb11-b0b0-000d3ad1ce4e"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2022-12-22T08:26:27.0000000Z",
-              "DocumentUuid": "d1264c49-d281-ed11-81ad-00224893bd39",
-              "DueDate": "2023-01-31T00:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2022",
-              "type": "Financial Report 2022",
-              "uuid": "bdc5c04e-cd63-eb11-b0b0-000d3ad1ce4e"
-            },
-            {
-              "AISId": "6e9ed43e-4182-ec11-8d20-00224892945b",
-              "DateReceived": "2022-01-31T02:55:40.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2022-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2021",
-              "type": "Annual Information Statement 2021",
-              "uuid": "895ae75e-9044-ea11-a813-000d3ad1f9f4"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2022-01-31T02:55:34.0000000Z",
-              "DocumentUuid": "6a196438-4182-ec11-8d20-002248929d53",
-              "DueDate": "2022-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2021",
-              "type": "Financial Report 2021",
-              "uuid": "a75ae75e-9044-ea11-a813-000d3ad1f9f4"
-            },
-            {
-              "AISId": "819d31f9-4fc8-e811-a962-000d3ad24182",
-              "DateReceived": "2018-01-08T13:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2018-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2017",
-              "type": "Annual Information Statement 2017",
-              "uuid": "bae529ff-4fc8-e811-a962-000d3ad24182"
-            },
-            {
-              "AISId": "4e5a4a2c-8d4b-e911-a97b-000d3ad064bd",
-              "DateReceived": "2019-03-21T03:55:37.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2019-03-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2018",
-              "type": "Annual Information Statement 2018",
-              "uuid": "2b1a7d5d-3ac8-e811-a961-000d3ad24282"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2014-04-09T14:00:00.0000000Z",
-              "DocumentUuid": "055defb4-3eb0-e811-a963-000d3ad244fd",
-              "DueDate": "2014-03-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2013",
-              "type": "Financial Report 2013",
-              "uuid": "5b66a4a6-3dc8-e811-a964-000d3ad244fd"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2015-04-29T14:00:00.0000000Z",
-              "DocumentUuid": "125defb4-3eb0-e811-a963-000d3ad244fd",
-              "DueDate": "2015-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2014",
-              "type": "Financial Report 2014",
-              "uuid": "6f66a4a6-3dc8-e811-a964-000d3ad244fd"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2016-01-21T13:00:00.0000000Z",
-              "DocumentUuid": "315defb4-3eb0-e811-a963-000d3ad244fd",
-              "DueDate": "2016-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2015",
-              "type": "Financial Report 2015",
-              "uuid": "7e66a4a6-3dc8-e811-a964-000d3ad244fd"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2018-01-08T13:00:00.0000000Z",
-              "DocumentUuid": "0835f0b4-3eb0-e811-a962-000d3ad24a0d",
-              "DueDate": "2018-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2017",
-              "type": "Financial Report 2017",
-              "uuid": "9366a4a6-3dc8-e811-a964-000d3ad244fd"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2016-12-28T13:00:00.0000000Z",
-              "DocumentUuid": "405defb4-3eb0-e811-a963-000d3ad244fd",
-              "DueDate": "2017-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2016",
-              "type": "Financial Report 2016",
-              "uuid": "a566a4a6-3dc8-e811-a964-000d3ad244fd"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2019-03-21T03:55:28.0000000Z",
-              "DocumentUuid": "11c31227-8d4b-e911-a96e-000d3ad24c60",
-              "DueDate": "2019-03-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2018",
-              "type": "Financial Report 2018",
-              "uuid": "b766a4a6-3dc8-e811-a964-000d3ad244fd"
-            },
-            {
-              "AISId": "2b9d31f9-4fc8-e811-a962-000d3ad24182",
-              "DateReceived": "2014-04-09T14:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2014-03-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2013",
-              "type": "Annual Information Statement 2013",
-              "uuid": "ed6592fe-4fc8-e811-a95f-000d3ad24c60"
-            },
-            {
-              "AISId": "349d31f9-4fc8-e811-a962-000d3ad24182",
-              "DateReceived": "2015-04-29T14:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2015-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2014",
-              "type": "Annual Information Statement 2014",
-              "uuid": "f66592fe-4fc8-e811-a95f-000d3ad24c60"
-            },
-            {
-              "AISId": "439d31f9-4fc8-e811-a962-000d3ad24182",
-              "DateReceived": "2016-01-21T13:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2016-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2015",
-              "type": "Annual Information Statement 2015",
-              "uuid": "006692fe-4fc8-e811-a95f-000d3ad24c60"
-            },
-            {
-              "AISId": "619d31f9-4fc8-e811-a962-000d3ad24182",
-              "DateReceived": "2016-12-28T13:00:00.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2017-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2016",
-              "type": "Annual Information Statement 2016",
-              "uuid": "086692fe-4fc8-e811-a95f-000d3ad24c60"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2026-12-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Not yet submitted",
-              "Year": "2026",
-              "type": "Annual Information Statement 2026",
-              "uuid": "255afbeb-d3df-ef11-a732-0022481019a9"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2026-12-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Pending",
-              "Year": "2026",
-              "type": "Financial Report 2026",
-              "uuid": "eb5afbeb-d3df-ef11-a732-0022481019a9"
-            },
-            {
-              "AISId": "b677c0f0-e5ca-ee11-9079-00224893d32a",
-              "DateReceived": "2024-02-14T03:05:56.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2024-01-31T00:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2023",
-              "type": "Annual Information Statement 2023",
-              "uuid": "eaf1b839-a582-ec11-8d20-0022489297b7"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2024-02-14T03:05:18.0000000Z",
-              "DocumentUuid": "aa2891dd-e5ca-ee11-9078-002248935564",
-              "DueDate": "2024-01-31T00:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2023",
-              "type": "Financial Report 2023",
-              "uuid": "08f2b839-a582-ec11-8d20-0022489297b7"
-            },
-            {
-              "AISId": "77bc3224-4bfb-f011-8406-6045bdc47a8f",
-              "DateReceived": "2026-01-27T06:41:07.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2026-01-31T00:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2025",
-              "type": "Annual Information Statement 2025",
-              "uuid": "a176d4ca-99c0-ee11-907a-00224893b0ed"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2026-01-27T06:40:53.0000000Z",
-              "DocumentUuid": "019afc17-4bfb-f011-8406-6045bdc47a8f",
-              "DueDate": "2026-01-31T00:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2025",
-              "type": "Financial Report 2025",
-              "uuid": "0377d4ca-99c0-ee11-907a-00224893b0ed"
-            },
-            {
-              "AISId": "3ae27b9d-c8b6-ef11-a72f-000d3ad09cb4",
-              "DateReceived": "2024-12-10T07:30:32.0000000Z",
-              "DocumentUuid": null,
-              "DueDate": "2025-01-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Submitted",
-              "Year": "2024",
-              "type": "Annual Information Statement 2024",
-              "uuid": "9831fd9c-c8a1-ed11-aad1-00224893b0ed"
-            },
-            {
-              "AISId": null,
-              "DateReceived": "2024-12-10T07:30:27.0000000Z",
-              "DocumentUuid": "6f716391-c8b6-ef11-a72f-000d3a6b4851",
-              "DueDate": "2025-01-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Submitted",
-              "Year": "2024",
-              "type": "Financial Report 2024",
-              "uuid": "c831fd9c-c8a1-ed11-aad1-00224893b0ed"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2027-12-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Not yet submitted",
-              "Year": "2027",
-              "type": "Annual Information Statement 2027",
-              "uuid": "a431784d-03ff-f011-8406-6045bdc27ae7"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2027-12-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Pending",
-              "Year": "2027",
-              "type": "Financial Report 2027",
-              "uuid": "b031784d-03ff-f011-8406-6045bdc27ae7"
-            }
-          ],
-          "Beneficiaries": [
-            {
-              "Description": null,
-              "Name": "Youth - 15 to under 25",
-              "uuid": "4b4a2130-4bfb-f011-8406-6045bdc47a8f"
-            },
-            {
-              "Description": null,
-              "Name": "Veterans and/or their families",
-              "uuid": "4f4a2130-4bfb-f011-8406-6045bdc47a8f"
-            },
-            {
-              "Description": null,
-              "Name": "People with disabilities",
-              "uuid": "534a2130-4bfb-f011-8406-6045bdc47a8f"
-            },
-            {
-              "Description": null,
-              "Name": "People in rural/regional/remote communities",
-              "uuid": "584a2130-4bfb-f011-8406-6045bdc47a8f"
-            },
-            {
-              "Description": null,
-              "Name": "People from a culturally and linguistically diverse background",
-              "uuid": "5e4a2130-4bfb-f011-8406-6045bdc47a8f"
-            },
-            {
-              "Description": null,
-              "Name": "Other gender identities",
-              "uuid": "634a2130-4bfb-f011-8406-6045bdc47a8f"
-            },
-            {
-              "Description": null,
-              "Name": "Males",
-              "uuid": "674a2130-4bfb-f011-8406-6045bdc47a8f"
-            },
-            {
-              "Description": null,
-              "Name": "LGBTIQA+",
-              "uuid": "6b4a2130-4bfb-f011-8406-6045bdc47a8f"
-            },
-            {
-              "Description": null,
-              "Name": "Females",
-              "uuid": "6f4a2130-4bfb-f011-8406-6045bdc47a8f"
-            },
-            {
-              "Description": null,
-              "Name": "Families",
-              "uuid": "734a2130-4bfb-f011-8406-6045bdc47a8f"
-            },
-            {
-              "Description": null,
-              "Name": "Environment",
-              "uuid": "774a2130-4bfb-f011-8406-6045bdc47a8f"
-            },
-            {
-              "Description": null,
-              "Name": "Early childhood - aged under 6",
-              "uuid": "7b4a2130-4bfb-f011-8406-6045bdc47a8f"
-            },
-            {
-              "Description": null,
-              "Name": "Children - aged 6 to under 15",
-              "uuid": "7f4a2130-4bfb-f011-8406-6045bdc47a8f"
-            },
-            {
-              "Description": null,
-              "Name": "Adults - aged 65 and over",
-              "uuid": "834a2130-4bfb-f011-8406-6045bdc47a8f"
-            },
-            {
-              "Description": null,
-              "Name": "Adults - aged 25 to under 65",
-              "uuid": "894a2130-4bfb-f011-8406-6045bdc47a8f"
-            },
-            {
-              "Description": null,
-              "Name": "Aboriginal and Torres Strait Islander people",
-              "uuid": "904a2130-4bfb-f011-8406-6045bdc47a8f"
-            }
-          ],
-          "CharitySize": "Large",
-          "CharitySubtypeHistory": [
-            {
-              "EndDate": null,
-              "Purpose": "Advancing culture",
-              "StartDate": "2013-12-31T13:00:00.0000000Z",
-              "uuid": "8bd0d962-fcc6-e811-a964-000d3ad24077"
-            },
-            {
-              "EndDate": null,
-              "Purpose": "Advancing the natural environment",
-              "StartDate": "2013-12-31T13:00:00.0000000Z",
-              "uuid": "99d0d962-fcc6-e811-a964-000d3ad24077"
-            },
-            {
-              "EndDate": "2013-12-30T13:00:00.0000000Z",
-              "Purpose": "2012 Another purpose beneficial to the community",
-              "StartDate": "2012-12-02T13:00:00.0000000Z",
-              "uuid": "38d1d962-fcc6-e811-a964-000d3ad24077"
-            }
-          ],
-          "CharityVersion": "94",
-          "ChildMemberEndDate": null,
-          "ChildMemberStartDate": null,
-          "ChooseToProvideAis": null,
-          "Countries": [
-            {
-              "Name": "Australia",
-              "uuid": "f57b5602-9a4d-e811-a951-000d3ad06f2d"
-            }
-          ],
-          "DateEstablished": "1989-12-31T13:00:00.0000000Z",
-          "Documents": [
-            {
-              "Date": "2014-04-10T00:00:00.0000000",
-              "Title": "Constitution - 131026.doc",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/6d50023d-38af-e811-a963-000d3ad24077-30bba835-ab39-4e38-aa68-cc0820aae530-Governing%20Document-f75cefb4-3eb0-e811-a963-000d3ad244fd-Constitution_-_131026.doc",
-              "Year": null,
-              "type": "Governing Document",
-              "uuid": "f75cefb4-3eb0-e811-a963-000d3ad244fd"
-            },
-            {
-              "Date": "2020-10-08T00:00:00.0000000",
-              "Title": "FINAL 2019 AGM Report -compressed.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/6d50023d-38af-e811-a963-000d3ad24077-30bba835-ab39-4e38-aa68-cc0820aae530-Annual%20Report-b94741a5-1609-eb11-a813-000d3ad1cc03-FINAL_2019_AGM_Report_-compressed.pdf",
-              "Year": "2019",
-              "type": "Annual Report",
-              "uuid": "b94741a5-1609-eb11-a813-000d3ad1cc03"
-            },
-            {
-              "Date": "2018-01-09T00:00:00.0000000",
-              "Title": "AGM Report 2017 final.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/6d50023d-38af-e811-a963-000d3ad24077-30bba835-ab39-4e38-aa68-cc0820aae530-Annual%20Report-1935f0b4-3eb0-e811-a962-000d3ad24a0d-AGM_Report_2017_final.pdf",
-              "Year": "2017",
-              "type": "Annual Report",
-              "uuid": "1935f0b4-3eb0-e811-a962-000d3ad24a0d"
-            },
-            {
-              "Date": "2019-03-21T00:00:00.0000000",
-              "Title": "AGM Report 2018-compressed.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/6d50023d-38af-e811-a963-000d3ad24077-30bba835-ab39-4e38-aa68-cc0820aae530-Annual%20Report-01c31227-8d4b-e911-a96e-000d3ad24c60-AGM_Report_2018-compressed.pdf",
-              "Year": "2018",
-              "type": "Annual Report",
-              "uuid": "01c31227-8d4b-e911-a96e-000d3ad24c60"
-            },
-            {
-              "Date": "2021-01-28T00:00:00.0000000",
-              "Title": "SIGNED Financial Report 30 June 2020[1].pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/6d50023d-38af-e811-a963-000d3ad24077-30bba835-ab39-4e38-aa68-cc0820aae530-Financial%20Report-e73603df-3761-eb11-a812-000d3a6a4d58-SIGNED_Financial_Report_30_June_2020[1].pdf",
-              "Year": "2020",
-              "type": "Financial Report",
-              "uuid": "e73603df-3761-eb11-a812-000d3a6a4d58"
-            },
-            {
-              "Date": "2024-12-10T00:00:00.0000000",
-              "Title": "Araluen Audit FINAL - Financial Statement for the financial year 2024 PKF.2 (1).pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/6d50023d-38af-e811-a963-000d3ad24077-30bba835-ab39-4e38-aa68-cc0820aae530-Financial%20Report-6f716391-c8b6-ef11-a72f-000d3a6b4851-Araluen_Audit_FINAL_-_Financial_Statement_for_the_financial_year_2024_PKF.2_(1).pdf",
-              "Year": "2024",
-              "type": "Financial Report",
-              "uuid": "6f716391-c8b6-ef11-a72f-000d3a6b4851"
-            },
-            {
-              "Date": "2020-10-08T00:00:00.0000000",
-              "Title": "FINAL 2019 AGM Report -compressed.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/6d50023d-38af-e811-a963-000d3ad24077-30bba835-ab39-4e38-aa68-cc0820aae530-Financial%20Report-d98e6bdb-1609-eb11-a813-000d3ad1cc03-FINAL_2019_AGM_Report_-compressed.pdf",
-              "Year": "2019",
-              "type": "Financial Report",
-              "uuid": "d98e6bdb-1609-eb11-a813-000d3ad1cc03"
-            },
-            {
-              "Date": "2014-04-22T00:00:00.0000000",
-              "Title": "Annual Report 2012-2013.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/6d50023d-38af-e811-a963-000d3ad24077-30bba835-ab39-4e38-aa68-cc0820aae530-Financial%20Report-055defb4-3eb0-e811-a963-000d3ad244fd-Annual_Report_2012-2013.pdf",
-              "Year": "2013",
-              "type": "Financial Report",
-              "uuid": "055defb4-3eb0-e811-a963-000d3ad244fd"
-            },
-            {
-              "Date": "2015-04-30T00:00:00.0000000",
-              "Title": "2014 Financials.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/6d50023d-38af-e811-a963-000d3ad24077-30bba835-ab39-4e38-aa68-cc0820aae530-Financial%20Report-125defb4-3eb0-e811-a963-000d3ad244fd-2014_Financials.pdf",
-              "Year": "2014",
-              "type": "Financial Report",
-              "uuid": "125defb4-3eb0-e811-a963-000d3ad244fd"
-            },
-            {
-              "Date": "2018-09-04T00:00:00.0000000",
-              "Title": "2015 Financial Statements.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/6d50023d-38af-e811-a963-000d3ad24077-30bba835-ab39-4e38-aa68-cc0820aae530-Financial%20Report-315defb4-3eb0-e811-a963-000d3ad244fd-2015_Financial_Statements.pdf",
-              "Year": "2015",
-              "type": "Financial Report",
-              "uuid": "315defb4-3eb0-e811-a963-000d3ad244fd"
-            },
-            {
-              "Date": "2016-12-29T00:00:00.0000000",
-              "Title": "SIGNED Financial Report 30 June 2016.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/6d50023d-38af-e811-a963-000d3ad24077-30bba835-ab39-4e38-aa68-cc0820aae530-Financial%20Report-405defb4-3eb0-e811-a963-000d3ad244fd-SIGNED_Financial_Report_30_June_2016.pdf",
-              "Year": "2016",
-              "type": "Financial Report",
-              "uuid": "405defb4-3eb0-e811-a963-000d3ad244fd"
-            },
-            {
-              "Date": "2018-01-09T00:00:00.0000000",
-              "Title": "-SIGNED Financial Report 30 June 2017_R.PDF",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/6d50023d-38af-e811-a963-000d3ad24077-30bba835-ab39-4e38-aa68-cc0820aae530-Financial%20Report-0835f0b4-3eb0-e811-a962-000d3ad24a0d-SIGNED_Financial_Report_30_June_2017_R.PDF",
-              "Year": "2017",
-              "type": "Financial Report",
-              "uuid": "0835f0b4-3eb0-e811-a962-000d3ad24a0d"
-            },
-            {
-              "Date": "2019-03-21T00:00:00.0000000",
-              "Title": "SIGNED Financial Report 30 June 2018_R_1.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/6d50023d-38af-e811-a963-000d3ad24077-30bba835-ab39-4e38-aa68-cc0820aae530-Financial%20Report-11c31227-8d4b-e911-a96e-000d3ad24c60-SIGNED_Financial_Report_30_June_2018_R_1.pdf",
-              "Year": "2018",
-              "type": "Financial Report",
-              "uuid": "11c31227-8d4b-e911-a96e-000d3ad24c60"
-            },
-            {
-              "Date": "2022-01-31T00:00:00.0000000",
-              "Title": "ABPF Financial Report 2021.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/6d50023d-38af-e811-a963-000d3ad24077-30bba835-ab39-4e38-aa68-cc0820aae530-Financial%20Report-6a196438-4182-ec11-8d20-002248929d53-ABPF_Financial_Report_2021.pdf",
-              "Year": "2021",
-              "type": "Financial Report",
-              "uuid": "6a196438-4182-ec11-8d20-002248929d53"
-            },
-            {
-              "Date": "2024-02-14T00:00:00.0000000",
-              "Title": "Araluen - Financial Report - 30 June 2023 signed.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/6d50023d-38af-e811-a963-000d3ad24077-30bba835-ab39-4e38-aa68-cc0820aae530-Financial%20Report-aa2891dd-e5ca-ee11-9078-002248935564-Araluen_-_Financial_Report_-_30_June_2023_signed.pdf",
-              "Year": "2023",
-              "type": "Financial Report",
-              "uuid": "aa2891dd-e5ca-ee11-9078-002248935564"
-            },
-            {
-              "Date": "2022-12-22T00:00:00.0000000",
-              "Title": "Araluen - Financial Report Final - 30 June 2022 - FINAL.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/6d50023d-38af-e811-a963-000d3ad24077-30bba835-ab39-4e38-aa68-cc0820aae530-Financial%20Report-d1264c49-d281-ed11-81ad-00224893bd39-Araluen_-_Financial_Report_Final_-_30_June_2022_-_FINAL.pdf",
-              "Year": "2022",
-              "type": "Financial Report",
-              "uuid": "d1264c49-d281-ed11-81ad-00224893bd39"
-            },
-            {
-              "Date": "2026-01-27T00:00:00.0000000",
-              "Title": "2024_25_ABPFFinancialReport.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/6d50023d-38af-e811-a963-000d3ad24077-30bba835-ab39-4e38-aa68-cc0820aae530-Financial%20Report-019afc17-4bfb-f011-8406-6045bdc47a8f-2024_25_ABPFFinancialReport.pdf",
-              "Year": "2025",
-              "type": "Financial Report",
-              "uuid": "019afc17-4bfb-f011-8406-6045bdc47a8f"
-            }
-          ],
-          "Email": "accounts@araluenbotanicpark.com.au",
-          "EnforcementOutcomes": [],
-          "FinancialYearEnd": "30/06",
-          "GovernmentAgencies": [
-            {
-              "Name": "WA - Incorporated Association",
-              "ReferenceNumber": "A1000563Z",
-              "uuid": "c3bc3224-4bfb-f011-8406-6045bdc47a8f"
-            }
-          ],
-          "GroupHeadFlag": false,
-          "LastReported": "2026-01-27T06:41:07.0000000Z",
-          "Name": "Araluen Botanic Park Foundation Inc",
-          "NextReportDue": "2026-12-31T12:30:00.0000000Z",
-          "OperatingInStates": [
-            {
-              "Name": "Western Australia",
-              "uuid": "dc2782ae-455e-e811-a95c-000d3ad1c715"
-            }
-          ],
-          "OtherDetails": null,
-          "OtherNames": [],
-          "ParentAccountAbn": null,
-          "ParentAccountId": null,
-          "Phone": "(08) 9496 1171",
-          "Programs": [
-            {
-              "AisUuid": "77bc3224-4bfb-f011-8406-6045bdc47a8f",
-              "Name": "Tulip Festival, It's Yates Springtime",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Families",
-                "Adults - aged 65 and over",
-                "Adults - aged 25 to under 65",
-                "Youth - 15 to under 25",
-                "Children - aged 6 to under 15",
-                "Early childhood - aged under 6",
-                "Aboriginal and Torres Strait Islander people",
-                "People from a culturally and linguistically diverse background",
-                "People in rural/regional/remote communities",
-                "People with disabilities",
-                "Veterans and/or their families",
-                "Females",
-                "Males",
-                "Environment"
-              ],
-              "ProgramClassie": [
-                {
-                  "classie_id": "834",
-                  "label": "Parks",
-                  "parent_id": "832",
-                  "selected": true
-                },
-                {
-                  "classie_id": "832",
-                  "label": "Community recreation",
-                  "parent_id": "831",
-                  "selected": false
-                },
-                {
-                  "classie_id": "831",
-                  "label": "Sport and recreation",
-                  "parent_id": null,
-                  "selected": false
-                }
-              ],
-              "ProgramClassification": "Parks",
-              "ProgramClassificationID": "834",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "362 Croyden Road, Roleystone WA, Australia",
-                  "FormattedAddress": "362 Croyden Rd, Roleystone WA 6111, Australia",
-                  "Marker": {
-                    "Latitude": -32.1232522,
-                    "Longitude": 116.1019932
-                  },
-                  "Name": "362 Croyden Rd",
-                  "uuid": "72312b2a-4bfb-f011-8406-6045bdc47a8f"
-                }
-              ],
-              "ProgramWeblink": null,
-              "uuid": "d6bc3224-4bfb-f011-8406-6045bdc47a8f"
-            },
-            {
-              "AisUuid": "77bc3224-4bfb-f011-8406-6045bdc47a8f",
-              "Name": "Remembrance Day",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Families",
-                "Adults - aged 65 and over",
-                "Adults - aged 25 to under 65",
-                "Youth - 15 to under 25",
-                "Children - aged 6 to under 15",
-                "Early childhood - aged under 6",
-                "People from a culturally and linguistically diverse background",
-                "Aboriginal and Torres Strait Islander people",
-                "Males",
-                "Females",
-                "Veterans and/or their families"
-              ],
-              "ProgramClassie": [
-                {
-                  "classie_id": "62",
-                  "label": "History",
-                  "parent_id": "60",
-                  "selected": true
-                },
-                {
-                  "classie_id": "60",
-                  "label": "Humanities",
-                  "parent_id": "42",
-                  "selected": false
-                },
-                {
-                  "classie_id": "42",
-                  "label": "Arts and culture",
-                  "parent_id": null,
-                  "selected": false
-                }
-              ],
-              "ProgramClassification": "History",
-              "ProgramClassificationID": "62",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "362 Croyden Road, Roleystone WA, Australia",
-                  "FormattedAddress": "362 Croyden Rd, Roleystone WA 6111, Australia",
-                  "Marker": {
-                    "Latitude": -32.1232522,
-                    "Longitude": 116.1019932
-                  },
-                  "Name": "362 Croyden Rd",
-                  "uuid": "9d312b2a-4bfb-f011-8406-6045bdc47a8f"
-                }
-              ],
-              "ProgramWeblink": null,
-              "uuid": "74312b2a-4bfb-f011-8406-6045bdc47a8f"
-            },
-            {
-              "AisUuid": "77bc3224-4bfb-f011-8406-6045bdc47a8f",
-              "Name": "Carol's by Torchlight",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Early childhood - aged under 6",
-                "Children - aged 6 to under 15",
-                "Youth - 15 to under 25",
-                "Adults - aged 25 to under 65",
-                "Adults - aged 65 and over",
-                "Families",
-                "Aboriginal and Torres Strait Islander people",
-                "LGBTIQA+",
-                "People from a culturally and linguistically diverse background",
-                "Females",
-                "Males",
-                "Other gender identities"
-              ],
-              "ProgramClassie": [
-                {
-                  "classie_id": "834",
-                  "label": "Parks",
-                  "parent_id": "832",
-                  "selected": true
-                },
-                {
-                  "classie_id": "832",
-                  "label": "Community recreation",
-                  "parent_id": "831",
-                  "selected": false
-                },
-                {
-                  "classie_id": "831",
-                  "label": "Sport and recreation",
-                  "parent_id": null,
-                  "selected": false
-                }
-              ],
-              "ProgramClassification": "Parks",
-              "ProgramClassificationID": "834",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "362 Croyden Road, Roleystone WA, Australia",
-                  "FormattedAddress": "362 Croyden Rd, Roleystone WA 6111, Australia",
-                  "Marker": {
-                    "Latitude": -32.1232522,
-                    "Longitude": 116.1019932
-                  },
-                  "Name": "362 Croyden Rd",
-                  "uuid": "dc312b2a-4bfb-f011-8406-6045bdc47a8f"
-                }
-              ],
-              "ProgramWeblink": "www.araluenbotanicpark.com.au",
-              "uuid": "a1312b2a-4bfb-f011-8406-6045bdc47a8f"
-            }
-          ],
-          "ReferendumReturnsUrl": null,
-          "RegistrationStatusHistory": [
-            {
-              "EffectiveDate": "2012-12-02T13:00:00.0000000Z",
-              "Status": "Registered",
-              "TransactionDate": "2012-12-02T13:00:00.0000000Z",
-              "uuid": "4a2fe666-06c6-e811-a95f-000d3ad24c60"
-            }
-          ],
-          "RelatedPartyTransactions": null,
-          "RelevantTransactions": null,
-          "ReportingLate": "2027-06-30T12:30:00.0000000Z",
-          "ResponsiblePersons": [
-            {
-              "Name": "Susan Parravicini",
-              "Role": "Other",
-              "uuid": "9b74489d-a0f0-e911-a811-000d3ad1f9f4"
-            },
-            {
-              "Name": "Charmaine Kettle",
-              "Role": "Other",
-              "uuid": "d677c0f0-e5ca-ee11-9079-00224893d32a"
-            }
-          ],
-          "Status": "Registered",
-          "SummaryOfActivities": "Maintained and presented a venue of historical and cultural significance for public enjoyment.  Provided recreational and educational experiences to more than 100,000 visitors.  Hosted a community Christmas Carols event, open by donation, attended by over 500 members of the local community.  Offered two-for-one entry for Companion Card holders to support accessibility and inclusion.  Waived six weeks of venue hire fees for the Perth Hills Armadale Visitor Centre to host a tourism pop-up stand at *It s Yates Springtime at Araluen*, representing an in-kind contribution valued at over $10,000.",
-          "TotalExpensesEmployee": "1193639",
-          "TotalExpensesGrantsAndDonationsInAustralia": "0",
-          "TotalExpensesGrantsAndDonationsOutsideAustralia": "0",
-          "TotalExpensesInterest": "0",
-          "TotalExpensesOther": "1556617",
-          "TotalGrossIncomeDonationsAndRequests": "951",
-          "TotalGrossIncomeGoodsOrServices": "2248381",
-          "TotalGrossIncomeGovernmentGrants": "1056500",
-          "TotalGrossIncomeInvestments": "51553",
-          "TotalGrossIncomeOtherRevenues": "63646",
-          "TransparencyRegisterUrl": null,
-          "Website": "www.araluenbotanicpark.com.au",
-          "__normalized": true,
-          "type": "charity",
-          "uuid": "6d50023d-38af-e811-a963-000d3ad24077"
-        },
-        "type": "charity",
-        "uuid": "6d50023d-38af-e811-a963-000d3ad24077"
-      },
-      "canonical_field_mappings": {
-        "data.OtherNames": "operating_names",
-        "data.AddressStateOrProvince": "principal_location"
-      },
-      "evidence_ids": []
-    },
-    {
-      "source_record_id": "src:acnc-ais-detail:44552934060:77bc3224-4bfb-f011-8406-6045bdc47a8f:cb_065dfdefae8b4f7ea2b964dd2b60d800",
-      "source_family": "acnc-ais-detail",
-      "dataset_version": "2026-08-14-public-api",
-      "source_url": "https://www.acnc.gov.au/charity/charities/6d50023d-38af-e811-a963-000d3ad24077/documents/77bc3224-4bfb-f011-8406-6045bdc47a8f",
-      "retrieved_at": "2026-08-13T13:54:42.956606Z",
-      "observed_at": "2026-01-27",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "abn": "44552934060",
-        "ais_uuid": "77bc3224-4bfb-f011-8406-6045bdc47a8f",
-        "year": "2025",
-        "date_received": "2026-01-27T06:41:07.0000000Z"
-      },
-      "source_payload": {
-        "data": {
-          "Abn": "44552934060",
-          "ActivityAdvocacyNCivic": false,
-          "ActivityAgedCare": false,
-          "ActivityAnimalProtection": false,
-          "ActivityCultureAndArt": false,
-          "ActivityEconomicSocialCommunity": false,
-          "ActivityEmergencyNRelief": false,
-          "ActivityEmploymentNTraining": false,
-          "ActivityEnvironmental": false,
-          "ActivityGrantMaking": false,
-          "ActivityHealthRehabilitation": false,
-          "ActivityHigherEducation": false,
-          "ActivityHousing": false,
-          "ActivityIncomeSupportNMaintenance": false,
-          "ActivityInternational": false,
-          "ActivityInternationalDescription": null,
-          "ActivityInternationalOther": false,
-          "ActivityInternationalOtherDescription": null,
-          "ActivityLawNLegalServices": false,
-          "ActivityMain": null,
-          "ActivityMentalHealthCrisisIntervention": false,
-          "ActivityNdisSupported": null,
-          "ActivityNdisSupportedNext": null,
-          "ActivityOperating": true,
-          "ActivityOperatingOverseas": false,
-          "ActivityOther": false,
-          "ActivityOtherDescription": null,
-          "ActivityOtherEducation": false,
-          "ActivityOtherHealthServices": false,
-          "ActivityPersuitPurposesDescription": "Maintained and presented a venue of historical and cultural significance for public enjoyment.  Provided recreational and educational experiences to more than 100,000 visitors.  Hosted a community Christmas Carols event, open by donation, attended by over 500 members of the local community.  Offered two-for-one entry for Companion Card holders to support accessibility and inclusion.  Waived six weeks of venue hire fees for the Perth Hills Armadale Visitor Centre to host a tourism pop-up stand at *It s Yates Springtime at Araluen*, representing an in-kind contribution valued at over $10,000.",
-          "ActivityPhilanthropicPromotion": false,
-          "ActivityPolitical": false,
-          "ActivityPrimarySecondaryEducation": false,
-          "ActivityPurposeChange": null,
-          "ActivityPurposeChangeDescription": null,
-          "ActivityRecreationSocialClub": false,
-          "ActivityReligious": false,
-          "ActivityResearch": false,
-          "ActivitySocialServices": false,
-          "ActivitySports": false,
-          "ActivityTransferringFundsGoods": false,
-          "AdvancementOfEducation": false,
-          "AdvancementOfReligion": false,
-          "AssetsandLiabilitiesDescription": null,
-          "BasicReligiousCharity": false,
-          "BeneficiaryAboriginalTorres": false,
-          "BeneficiaryAdults": false,
-          "BeneficiaryAllAges": false,
-          "BeneficiaryChildren": false,
-          "BeneficiaryChronicIllness": false,
-          "BeneficiaryCrimeVictims": false,
-          "BeneficiaryDisasterVictims": false,
-          "BeneficiaryEarlyChildhood": false,
-          "BeneficiaryEthnic": false,
-          "BeneficiaryFamilies": false,
-          "BeneficiaryFinanciallyDisadvantaged": false,
-          "BeneficiaryGeneral": false,
-          "BeneficiaryHomelessnessRisk": false,
-          "BeneficiaryLGBT": false,
-          "BeneficiaryMain": null,
-          "BeneficiaryMen": false,
-          "BeneficiaryMigrantsRefugees": false,
-          "BeneficiaryOffenderFamilies": false,
-          "BeneficiaryOther": false,
-          "BeneficiaryOtherCharities": false,
-          "BeneficiaryOtherDescription": null,
-          "BeneficiaryOverseas": false,
-          "BeneficiaryPeopleWithDisability": false,
-          "BeneficiaryRuralRegionalRemote": false,
-          "BeneficiarySeniors": false,
-          "BeneficiaryUnemployed": false,
-          "BeneficiaryVeteranFamilies": false,
-          "BeneficiaryWomen": false,
-          "BeneficiaryYouth": false,
-          "CharityAddressCountry": "Australia",
-          "CharityAddressLine1": "362 Croyden Rd",
-          "CharityAddressLine2": null,
-          "CharityAddressPostalCode": "6111",
-          "CharityAddressStateOrProvince": "WA",
-          "CharityAddressSuburb": "Roleystone",
-          "CharityEmail": "accounts@araluenbotanicpark.com.au",
-          "CharitySize": "Large",
-          "CharityUuid": "6d50023d-38af-e811-a963-000d3ad24077",
-          "ChildCareServices": false,
-          "ExpenseEmployees": "1193639.0000",
-          "ExpenseGrantDonationsInAustralia": "0.0000",
-          "ExpenseGrantDonationsOutsideAustralia": "0.0000",
-          "ExpenseTotal": "2750256.0000",
-          "ExpensesOther": "1556617.0000",
-          "FinAccrualAccounting": null,
-          "FinConsolidatedReportFromMiltiple": "No",
-          "FinDocumentedPoliciesRelatedPartyTransactions": null,
-          "FinFyeJune": false,
-          "FinProvideVoluntarily": null,
-          "FinRelatedPartyTransactions": "No",
-          "FinReportACT": false,
-          "FinReportFrom": "2024-07-01T00:00:00.0000000Z",
-          "FinReportNSW": false,
-          "FinReportNT": false,
-          "FinReportQLD": false,
-          "FinReportSA": false,
-          "FinReportTAS": false,
-          "FinReportTo": "2025-06-30T00:00:00.0000000Z",
-          "FinReportVIC": false,
-          "FinReportWA": false,
-          "FinReportingType": "General purpose financial statements",
-          "FinSapDate": null,
-          "FundRaisingNumberACT": null,
-          "FundRaisingNumberNSW": null,
-          "FundRaisingNumberQLD": null,
-          "FundRaisingNumberSA": null,
-          "FundRaisingNumberTAS": null,
-          "FundRaisingNumberVIC": null,
-          "FundRaisingNumberWA": null,
-          "GovDocAccurate": null,
-          "GrantCapacityBuildingPct": null,
-          "GrantMultiYearPct": null,
-          "GrantPublicOpenApplicationPct": null,
-          "GrantRuralRegionPct": null,
-          "HasSubmittedToRegulator": false,
-          "HoursPaid": null,
-          "HoursTotal": null,
-          "HoursVolunteer": null,
-          "HrCasualEmployees": "20",
-          "HrFteStaff": "15.8200000000",
-          "HrFullTimeEmployees": "2",
-          "HrPartTimeEmployees": "2",
-          "HrUnpainVolunteers": "580",
-          "IncomeDonationsBequests": "951.0000",
-          "IncomeGovernmentGrants": "1056500.0000",
-          "IncomeOther": "0.0000",
-          "IncomeOtherComprehinsive": "0.0000",
-          "IncomeOtherNeg": null,
-          "IncomeOtherReceipts": "63646.0000",
-          "IncomeTotalComprehensive": "670775.0000",
-          "IncomeTotalReceipts": "3421031.0000",
-          "IncorporationStatus": null,
-          "InterestExpense": "0.0000",
-          "IsIncorporatedAssociation": true,
-          "KeyManagementPersonnel": false,
-          "LegalName": "Araluen Botanic Park Foundation Inc",
-          "NetAssetsLiabilities": "3984823.0000",
-          "NetSurplusDeficit": "670775.0000",
-          "NonCurrentLoansPayable": "0.0000",
-          "NumberOfKeyManagementPersonnel": "0",
-          "OperatingCountries": null,
-          "OperatingInACT": false,
-          "OperatingInNSW": false,
-          "OperatingInNT": false,
-          "OperatingInQLD": false,
-          "OperatingInSA": false,
-          "OperatingInTAS": false,
-          "OperatingInVIC": false,
-          "OperatingInWA": false,
-          "OperatingOverseas": false,
-          "OtherNames": [],
-          "OtherNonCurrentAssets": "1406161.0000",
-          "OtherNonCurrentLiabilities": "4295.0000",
-          "OtherPurposeDescription": null,
-          "OtherPurposes": "False",
-          "Programs": [
-            {
-              "AisUuid": "77bc3224-4bfb-f011-8406-6045bdc47a8f",
-              "Name": "Tulip Festival, It's Yates Springtime",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Families",
-                "Adults - aged 65 and over",
-                "Adults - aged 25 to under 65",
-                "Youth - 15 to under 25",
-                "Children - aged 6 to under 15",
-                "Early childhood - aged under 6",
-                "Aboriginal and Torres Strait Islander people",
-                "People from a culturally and linguistically diverse background",
-                "People in rural/regional/remote communities",
-                "People with disabilities",
-                "Veterans and/or their families",
-                "Females",
-                "Males",
-                "Environment"
-              ],
-              "ProgramClassification": "Parks",
-              "ProgramClassificationID": "834",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "362 Croyden Road, Roleystone WA, Australia",
-                  "FormattedAddress": "362 Croyden Rd, Roleystone WA 6111, Australia",
-                  "Marker": {
-                    "Latitude": -32.1232522,
-                    "Longitude": 116.1019932
-                  },
-                  "Name": "362 Croyden Rd",
-                  "uuid": "72312b2a-4bfb-f011-8406-6045bdc47a8f"
-                }
-              ],
-              "ProgramWeblink": null,
-              "uuid": "d6bc3224-4bfb-f011-8406-6045bdc47a8f"
-            },
-            {
-              "AisUuid": "77bc3224-4bfb-f011-8406-6045bdc47a8f",
-              "Name": "Remembrance Day",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Families",
-                "Adults - aged 65 and over",
-                "Adults - aged 25 to under 65",
-                "Youth - 15 to under 25",
-                "Children - aged 6 to under 15",
-                "Early childhood - aged under 6",
-                "People from a culturally and linguistically diverse background",
-                "Aboriginal and Torres Strait Islander people",
-                "Males",
-                "Females",
-                "Veterans and/or their families"
-              ],
-              "ProgramClassification": "History",
-              "ProgramClassificationID": "62",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "362 Croyden Road, Roleystone WA, Australia",
-                  "FormattedAddress": "362 Croyden Rd, Roleystone WA 6111, Australia",
-                  "Marker": {
-                    "Latitude": -32.1232522,
-                    "Longitude": 116.1019932
-                  },
-                  "Name": "362 Croyden Rd",
-                  "uuid": "9d312b2a-4bfb-f011-8406-6045bdc47a8f"
-                }
-              ],
-              "ProgramWeblink": null,
-              "uuid": "74312b2a-4bfb-f011-8406-6045bdc47a8f"
-            },
-            {
-              "AisUuid": "77bc3224-4bfb-f011-8406-6045bdc47a8f",
-              "Name": "Carol's by Torchlight",
-              "OperatesOnline": false,
-              "ProgramBeneficiaries": [
-                "Early childhood - aged under 6",
-                "Children - aged 6 to under 15",
-                "Youth - 15 to under 25",
-                "Adults - aged 25 to under 65",
-                "Adults - aged 65 and over",
-                "Families",
-                "Aboriginal and Torres Strait Islander people",
-                "LGBTIQA+",
-                "People from a culturally and linguistically diverse background",
-                "Females",
-                "Males",
-                "Other gender identities"
-              ],
-              "ProgramClassification": "Parks",
-              "ProgramClassificationID": "834",
-              "ProgramCountries": [],
-              "ProgramLocations": [
-                {
-                  "DisplayName": "362 Croyden Road, Roleystone WA, Australia",
-                  "FormattedAddress": "362 Croyden Rd, Roleystone WA 6111, Australia",
-                  "Marker": {
-                    "Latitude": -32.1232522,
-                    "Longitude": 116.1019932
-                  },
-                  "Name": "362 Croyden Rd",
-                  "uuid": "dc312b2a-4bfb-f011-8406-6045bdc47a8f"
-                }
-              ],
-              "ProgramWeblink": "www.araluenbotanicpark.com.au",
-              "uuid": "a1312b2a-4bfb-f011-8406-6045bdc47a8f"
-            }
-          ],
-          "RegulatedACT": false,
-          "RegulatedNSW": false,
-          "RegulatedNT": false,
-          "RegulatedQLD": false,
-          "RegulatedSA": false,
-          "RegulatedTAS": false,
-          "RegulatedVIC": false,
-          "RegulatedWA": false,
-          "Regulator": null,
-          "RegulatorAGMDateACT": null,
-          "RegulatorAGMDateNT": null,
-          "RegulatorAGMDateVIC": null,
-          "RegulatorAGMDateWA": "2025-11-08T00:00:00.0000000",
-          "RegulatorFundRaising": "No",
-          "RegulatorFundRaisingACT": false,
-          "RegulatorFundRaisingNSW": false,
-          "RegulatorFundRaisingNT": false,
-          "RegulatorFundRaisingOnline": false,
-          "RegulatorFundRaisingQLD": false,
-          "RegulatorFundRaisingSA": false,
-          "RegulatorFundRaisingTAS": false,
-          "RegulatorFundRaisingVIC": false,
-          "RegulatorFundRaisingWA": false,
-          "RegulatorIncorporatedAssociationACT": false,
-          "RegulatorIncorporatedAssociationNSW": false,
-          "RegulatorIncorporatedAssociationNT": false,
-          "RegulatorIncorporatedAssociationNumberACT": null,
-          "RegulatorIncorporatedAssociationNumberNSW": null,
-          "RegulatorIncorporatedAssociationNumberNT": null,
-          "RegulatorIncorporatedAssociationNumberQLD": null,
-          "RegulatorIncorporatedAssociationNumberSA": null,
-          "RegulatorIncorporatedAssociationNumberTAS": null,
-          "RegulatorIncorporatedAssociationNumberVIC": null,
-          "RegulatorIncorporatedAssociationNumberWA": "A1000563Z",
-          "RegulatorIncorporatedAssociationQLD": false,
-          "RegulatorIncorporatedAssociationSA": false,
-          "RegulatorIncorporatedAssociationTAS": false,
-          "RegulatorIncorporatedAssociationVIC": false,
-          "RegulatorIncorporatedAssociationWA": true,
-          "RegulatorMetRequirementACT": false,
-          "RegulatorMetRequirementWA": "Yes",
-          "RegulatorOtherDetails": null,
-          "RegulatorPrograms": null,
-          "RegulatorStates": false,
-          "RelatedPartyDetails": null,
-          "RelatedPartyTransactions": [],
-          "ReliefOfPoverty": false,
-          "ReportingGroupFlag": false,
-          "ResponsiblePersonAccurate": null,
-          "RevenueGoodsServices": "2248381.0000",
-          "RevenueInvestments": "51553.0000",
-          "RevenueTotal": "3421031.0000",
-          "StatementYear": "2025",
-          "SubTypesAccurate": null,
-          "TotalAssets": "5406260.0000",
-          "TotalCurrentAssets": "4000099.0000",
-          "TotalCurrentLiabilities": "1417142.0000",
-          "TotalLiabilities": "1421437.0000",
-          "TotalNonCurrentAssets": "1406161.0000",
-          "TotalNonCurrentLiabilities": "4295.0000",
-          "TotalNonCurrentLoansReceivable": "0.0000",
-          "TotalPaidKMP": "$0.00",
-          "Website": "www.araluenbotanicpark.com.au",
-          "__normalized": true,
-          "entityTypeVersion": "",
-          "entityVersion": "1838475094",
-          "timeStamp": "2026-01-27T06:41:05.0000000Z",
-          "type": "annual_information_statement",
-          "uuid": "77bc3224-4bfb-f011-8406-6045bdc47a8f"
-        },
-        "type": "annual_information_statement",
-        "uuid": "77bc3224-4bfb-f011-8406-6045bdc47a8f"
-      },
-      "canonical_field_mappings": {
-        "data.Programs": "programs",
-        "data.TotalRevenue": "financial_records[].revenue",
-        "data.TotalExpenses": "financial_records[].total_expenses"
-      },
-      "evidence_ids": [
-        "ev:acnc:ais:44552934060:77bc3224-4bfb-f011-8406-6045bdc47a8f"
-      ]
-    }
-  ],
-  "financial_records": [
-    {
-      "financial_record_id": "fr:ais:cb_065dfdefae8b4f7ea2b964dd2b60d800:2023",
-      "period": {
-        "period_start": "2022-07-01",
-        "period_end": "2023-06-30",
-        "period_length_days": 365,
-        "label": "01/07/2022 to 30/06/2023",
-        "is_transitional_or_nonstandard": false
-      },
-      "reporting_scope": "subject",
-      "reporting_subject_causebase_id": "cb_065dfdefae8b4f7ea2b964dd2b60d800",
-      "covered_subjects": [
-        "cb_065dfdefae8b4f7ea2b964dd2b60d800"
-      ],
-      "consolidated": "false",
-      "attribution_method": "direct_subject_report",
-      "evidence_ids": [
-        "ev:ais:44552934060:2023"
-      ],
-      "revenue": {
-        "source_amount": "3029307",
-        "source_currency": "AUD",
-        "source_unit_scale": "1",
-        "normalised_amount": "3029307",
-        "normalised_currency": "AUD",
-        "source_unit_label": null,
-        "source_raw_value": "3029307",
-        "source_precision": null
-      },
-      "donations": null,
-      "government_grants": null,
-      "employee_costs": null,
-      "total_expenses": {
-        "source_amount": "2215004",
-        "source_currency": "AUD",
-        "source_unit_scale": "1",
-        "normalised_amount": "2215004",
-        "normalised_currency": "AUD",
-        "source_unit_label": null,
-        "source_raw_value": "2215004",
-        "source_precision": null
-      },
-      "assets": null,
-      "liabilities": null,
-      "net_assets": null,
-      "income_breakdown": [],
-      "expense_breakdown": [],
-      "balance_sheet_breakdown": [],
-      "source_ordered_line_items": [],
-      "statements": [],
-      "donations_gifts_bequests": null,
-      "functional_expense_allocations": []
-    }
-  ],
-  "financial_metrics": [
-    {
-      "metric": "revenue",
-      "observations": [
-        {
-          "financial_record_id": "fr:ais:cb_065dfdefae8b4f7ea2b964dd2b60d800:2023",
-          "amount": {
-            "source_amount": "3029307",
-            "source_currency": "AUD",
-            "source_unit_scale": "1",
-            "normalised_amount": "3029307",
-            "normalised_currency": "AUD",
-            "source_unit_label": null,
-            "source_raw_value": "3029307",
-            "source_precision": null
-          },
-          "metric_source_label": null,
-          "evidence_ids": [
-            "ev:ais:44552934060:2023"
-          ]
-        }
-      ],
-      "reconciliation_status": "single_observation",
-      "reconciliation_notes": null
-    },
-    {
-      "metric": "total_expenses",
-      "observations": [
-        {
-          "financial_record_id": "fr:ais:cb_065dfdefae8b4f7ea2b964dd2b60d800:2023",
-          "amount": {
-            "source_amount": "2215004",
-            "source_currency": "AUD",
-            "source_unit_scale": "1",
-            "normalised_amount": "2215004",
-            "normalised_currency": "AUD",
-            "source_unit_label": null,
-            "source_raw_value": "2215004",
-            "source_precision": null
-          },
-          "metric_source_label": null,
-          "evidence_ids": [
-            "ev:ais:44552934060:2023"
-          ]
-        }
-      ],
-      "reconciliation_status": "single_observation",
-      "reconciliation_notes": null
-    }
-  ],
-  "fundraising_expenditure": null,
-  "funding_sources": [],
-  "fundraising_methods": [],
-  "classifications": [
-    {
-      "taxonomy_id": "acnc-register",
-      "taxonomy_version": "2026-08-10",
-      "term_id": "purpose.environment",
-      "term_label": "environment",
-      "assignment_method": "source_native",
-      "confidence": "high",
-      "evidence_ids": [
-        "ev:acnc:44552934060"
-      ]
-    },
-    {
-      "taxonomy_id": "acnc-register",
-      "taxonomy_version": "2026-08-10",
-      "term_id": "beneficiary.children",
-      "term_label": "children",
-      "assignment_method": "source_native",
-      "confidence": "high",
-      "evidence_ids": [
-        "ev:acnc:44552934060"
-      ]
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "cause.environment",
-      "term_label": "Environmental protection",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "beneficiary.general_community",
-      "term_label": "General community",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "beneficiary.wildlife",
-      "term_label": "Wildlife",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "activity.events_and_public_programming",
-      "term_label": "Events and public programming",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "activity.environmental_restoration",
-      "term_label": "Environmental restoration",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "approach.volunteer_enabled",
-      "term_label": "Volunteer-enabled delivery",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "participation.volunteering",
-      "term_label": "Volunteering",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "participation.public_events",
-      "term_label": "Public events",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
+      "review_status": "not_required",
+      "conflicting_signals": []
     }
   ],
   "evidence": [
     {
       "evidence_id": "ev:acnc:44552934060",
-      "source_type": "regulatory",
-      "title": "ACNC Register extract",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": null,
-      "observed_at": "2026-08-10",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "title": "ACNC Register extract"
     },
     {
       "evidence_id": "ev:web:44552934060:2026-08-10",
-      "source_type": "organisation_self_report",
       "title": "Organisation website homepage",
-      "publisher": "Araluen Botanic Park Foundation Inc",
-      "url": "https://araluenbotanicpark.com.au/",
-      "observed_at": "2026-08-10",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://araluenbotanicpark.com.au/"
     },
     {
       "evidence_id": "ev:ais:44552934060:2023",
-      "source_type": "regulatory",
-      "title": "ACNC AIS 2023 extract",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": null,
-      "observed_at": "2026-08-10",
-      "reporting_period": "01/07/2022 to 30/06/2023",
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "title": "ACNC AIS 2023 extract"
     },
     {
       "evidence_id": "ev:acnc:ais:44552934060:77bc3224-4bfb-f011-8406-6045bdc47a8f",
-      "source_type": "regulatory",
       "title": "ACNC Annual Information Statement 2025",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": "https://www.acnc.gov.au/charity/charities/6d50023d-38af-e811-a963-000d3ad24077/documents/77bc3224-4bfb-f011-8406-6045bdc47a8f",
-      "observed_at": "2026-01-27",
-      "reporting_period": "2025",
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://www.acnc.gov.au/charity/charities/6d50023d-38af-e811-a963-000d3ad24077/documents/77bc3224-4bfb-f011-8406-6045bdc47a8f"
     },
     {
       "evidence_id": "ev:abr-dgr:44552934060:20260805",
-      "source_type": "regulatory",
       "title": "ABR DGR bulk observation",
-      "publisher": "Australian Business Register / Australian Taxation Office",
-      "url": "https://abr.business.gov.au/Tools/BulkExtract",
-      "observed_at": "2026-08-05",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://abr.business.gov.au/Tools/BulkExtract"
     }
   ],
-  "embedding": {
-    "embedding_id": "cb_065dfdefae8b4f7ea2b964dd2b60d800:entity:text-embedding-3-small",
-    "embedding_type": "entity",
-    "model_id": "text-embedding-3-small",
-    "model_version": "text-embedding-3-small",
-    "dimensions": 1536,
-    "source_text_hash": "d111f6dd69785b2eb9cbaa6fcf359418f84e67c45d9c946bf29b7901371c761b",
-    "generated_at": "2026-08-10T13:53:24.455697Z",
-    "vector_ref": "embeddings.parquet#cb_065dfdefae8b4f7ea2b964dd2b60d800"
+  "summary": {
+    "derivative_id": "der:rc4:cb_065dfdefae8b4f7ea2b964dd2b60d800:summary",
+    "text": "Araluen Botanic Park Foundation Inc manages Araluen Botanic Park in Roleystone in the Perth Hills, Western Australia. As of August 2026 it maintains 14 hectares of cultivated botanical gardens set within 59 hectares of native West Australian bushland, and manages a significant tree collection and remnant native forest on site. The park hosts public programming including a Tulip Festival, concerts and workshops, operates venue hire for weddings and other events and runs an on\u2011site caf\u00e9. It recruits and hosts volunteer activities such as a large bulb\u2011planting day (250,000 bulbs cited) and advertises regular opportunities for visitors to participate. The park is described as open to visitors and supports on\u2011site wildlife associated with the native bushland."
   },
-  "synthesis": {
-    "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
-    "parameters": {
-      "max_output_tokens": 3000,
-      "structured_output": true,
-      "output_contract": "causebase-summary-v0.3-rc2"
-    },
-    "evidence_input_hash": "bce16e04950effb37825e595af69998294328d06ccaae1a667055fefd67ffcb0",
-    "generated_at": "2026-08-12T13:40:57.054212Z",
-    "editorial_policy_version": "0.3-rc2"
-  },
-  "derivative_assessments": [
+  "activities": [],
+  "beneficiaries": [],
+  "descriptive_geography": [],
+  "navigation_geography": [],
+  "funding_sources": [],
+  "fundraising_methods": [],
+  "participation": [],
+  "opportunities": [],
+  "programs": [
     {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T13:40:57.054212Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-13T13:54:42.956606Z",
-      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
-      "input_hash": "bce16e04950effb37825e595af69998294328d06ccaae1a667055fefd67ffcb0",
-      "disposition": "reused",
-      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
-      "affected_dimensions": [
-        "summary"
-      ]
+      "observation_id": "obs:rc4:cb_065dfdefae8b4f7ea2b964dd2b60d800:program:prg:acnc:44552934060:d6bc3224-4bfb-f011-8406-6045bdc47a8f",
+      "program_id": "prg:acnc:44552934060:d6bc3224-4bfb-f011-8406-6045bdc47a8f",
+      "name": "Tulip Festival, It's Yates Springtime",
+      "description": "Parks",
+      "url": "https://www.acnc.gov.au/charity/charities/6d50023d-38af-e811-a963-000d3ad24077/documents/77bc3224-4bfb-f011-8406-6045bdc47a8f",
+      "status": "current",
+      "claim_basis": "direct",
+      "extraction_method": "api",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:ais:44552934060:77bc3224-4bfb-f011-8406-6045bdc47a8f"
+      ],
+      "time": {
+        "reporting_period": {
+          "label": "2025"
+        }
+      },
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_065dfdefae8b4f7ea2b964dd2b60d800:program:prg:acnc:44552934060:74312b2a-4bfb-f011-8406-6045bdc47a8f",
+      "program_id": "prg:acnc:44552934060:74312b2a-4bfb-f011-8406-6045bdc47a8f",
+      "name": "Remembrance Day",
+      "description": "History",
+      "url": "https://www.acnc.gov.au/charity/charities/6d50023d-38af-e811-a963-000d3ad24077/documents/77bc3224-4bfb-f011-8406-6045bdc47a8f",
+      "status": "current",
+      "claim_basis": "direct",
+      "extraction_method": "api",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:ais:44552934060:77bc3224-4bfb-f011-8406-6045bdc47a8f"
+      ],
+      "time": {
+        "reporting_period": {
+          "label": "2025"
+        }
+      },
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_065dfdefae8b4f7ea2b964dd2b60d800:program:prg:acnc:44552934060:a1312b2a-4bfb-f011-8406-6045bdc47a8f",
+      "program_id": "prg:acnc:44552934060:a1312b2a-4bfb-f011-8406-6045bdc47a8f",
+      "name": "Carol's by Torchlight",
+      "description": "Parks",
+      "url": "www.araluenbotanicpark.com.au",
+      "status": "current",
+      "claim_basis": "direct",
+      "extraction_method": "api",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:ais:44552934060:77bc3224-4bfb-f011-8406-6045bdc47a8f"
+      ],
+      "time": {
+        "reporting_period": {
+          "label": "2025"
+        }
+      },
+      "warnings": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-14-rc4-fundraising-projection-correction",
-  "card_schema_version": "0.4",
-  "editorial_policy_version": "0.4-rc4",
-  "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T13:54:42.956606Z"
+  "relationships": [],
+  "classifications": [
+    {
+      "observation_id": "obs:rc4:cb_065dfdefae8b4f7ea2b964dd2b60d800:classification:0",
+      "classification_id": "cls:rc4:cb_065dfdefae8b4f7ea2b964dd2b60d800:0",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "purpose.environment",
+      "term_label": "environment",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:44552934060"
+      ],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_065dfdefae8b4f7ea2b964dd2b60d800:classification:1",
+      "classification_id": "cls:rc4:cb_065dfdefae8b4f7ea2b964dd2b60d800:1",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "beneficiary.children",
+      "term_label": "children",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:44552934060"
+      ],
+      "confidence": "high",
+      "warnings": []
+    }
+  ],
+  "coverage": {
+    "registry_id": "capability-registry-0.5-initial",
+    "current": [
+      {
+        "capability": "regulatory.acnc_profile",
+        "status": "observed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:acnc:44552934060"
+        ]
+      },
+      {
+        "capability": "regulatory.ais",
+        "status": "observed",
+        "assessed_at": "2026-01-27",
+        "source_record_ids": [
+          "src:acnc-ais-detail:44552934060:77bc3224-4bfb-f011-8406-6045bdc47a8f:cb_065dfdefae8b4f7ea2b964dd2b60d800"
+        ],
+        "evidence_ids": [
+          "ev:acnc:ais:44552934060:77bc3224-4bfb-f011-8406-6045bdc47a8f"
+        ]
+      },
+      {
+        "capability": "tax.dgr",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "web.website",
+        "status": "observed",
+        "assessed_at": "2026-08-13",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "report.annual_report",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "financial.report",
+        "status": "unknown",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:ais:44552934060:2023"
+        ]
+      },
+      {
+        "capability": "financial.statements",
+        "status": "unknown",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:ais:44552934060:2023"
+        ]
+      },
+      {
+        "capability": "understanding.activities",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.beneficiaries",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.geography",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "programs",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "participation",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "funding.sources",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.methods",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.expenditure",
+        "status": "not_available_from_source",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "taxonomy.causebase",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "semantic.embedding",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      }
+    ]
+  },
+  "financial_reports": [],
+  "canonical_metrics": [],
+  "analytic_projections": [],
+  "derivatives": [
+    {
+      "derivative_id": "der:rc4:cb_065dfdefae8b4f7ea2b964dd2b60d800:summary",
+      "kind": "summary",
+      "input_observation_ids": [],
+      "evidence_ids": [
+        "ev:web:44552934060:2026-08-10",
+        "ev:acnc:44552934060"
+      ],
+      "generated_under": {
+        "output_contract_version": "phase2b-rc4-accepted-rc2-summary-reuse",
+        "input_hash": "bce16e04950effb37825e595af69998294328d06ccaae1a667055fefd67ffcb0",
+        "generated_at": "2026-08-12T13:40:57.054212Z"
+      },
+      "current_assessment": {
+        "assessed_at": "2026-08-13T13:54:42.956606Z",
+        "assessed_against_contract": "0.5",
+        "governing_input_hash": "bce16e04950effb37825e595af69998294328d06ccaae1a667055fefd67ffcb0",
+        "disposition": "reused",
+        "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs."
+      }
+    }
+  ],
+  "legacy_unbound": {
+    "origin_release": "rc4-2026-08-14",
+    "origin_card_sha256": "20eeea1751a7d10d8fcd4f4675d228bd6823ce5418b26b5996c61d687da20dba",
+    "activities": [
+      {
+        "value": "Maintain 14 hectares of cultivated botanical gardens within 59 hectares of native bushland",
+        "source_role": "legacy_source_qualifier",
+        "provenance_note": "as described on the organisation's website",
+        "evidence_ids": []
+      },
+      {
+        "value": "Host public events and seasonal festivals including a Tulip Festival, concerts and workshops",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Operate venue hire for weddings and events and an on\u2011site caf\u00e9",
+        "source_role": "legacy_source_qualifier",
+        "provenance_note": "as advertised",
+        "evidence_ids": []
+      },
+      {
+        "value": "Recruit and host volunteer activities such as an advertised bulb\u2011planting day (250,000 bulbs mentioned)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Describe management and preservation of a tree collection and native forest on site",
+        "source_role": "legacy_source_qualifier",
+        "provenance_note": "website statement",
+        "evidence_ids": []
+      }
+    ],
+    "beneficiaries": [
+      {
+        "value": "Park visitors and members of the public",
+        "source_role": "legacy_source_qualifier",
+        "provenance_note": "website describes visitor services and events",
+        "evidence_ids": []
+      },
+      {
+        "value": "Wildlife associated with on\u2011site native West Australian bushland",
+        "source_role": "legacy_source_qualifier",
+        "provenance_note": "website refers to birds and native forest",
+        "evidence_ids": []
+      }
+    ],
+    "descriptive_geography": [
+      {
+        "value": "Roleystone, Perth Hills, Western Australia",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Approximately 40 minutes from Perth",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "classifications": [
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "cause.environment",
+        "term_label": "Environmental protection",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "beneficiary.general_community",
+        "term_label": "General community",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "beneficiary.wildlife",
+        "term_label": "Wildlife",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "activity.events_and_public_programming",
+        "term_label": "Events and public programming",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "activity.environmental_restoration",
+        "term_label": "Environmental restoration",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "approach.volunteer_enabled",
+        "term_label": "Volunteer-enabled delivery",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "participation.volunteering",
+        "term_label": "Volunteering",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "participation.public_events",
+        "term_label": "Public events",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      }
+    ],
+    "financial_records": [
+      {
+        "financial_record_id": "fr:ais:cb_065dfdefae8b4f7ea2b964dd2b60d800:2023",
+        "period": {
+          "period_start": "2022-07-01",
+          "period_end": "2023-06-30",
+          "period_length_days": 365,
+          "label": "01/07/2022 to 30/06/2023",
+          "is_transitional_or_nonstandard": false
+        },
+        "reporting_scope": "subject",
+        "reporting_subject_causebase_id": "cb_065dfdefae8b4f7ea2b964dd2b60d800",
+        "covered_subjects": [
+          "cb_065dfdefae8b4f7ea2b964dd2b60d800"
+        ],
+        "consolidated": "false",
+        "attribution_method": "direct_subject_report",
+        "evidence_ids": [
+          "ev:ais:44552934060:2023"
+        ],
+        "revenue": {
+          "source_amount": "3029307",
+          "source_currency": "AUD",
+          "source_unit_scale": "1",
+          "normalised_amount": "3029307",
+          "normalised_currency": "AUD",
+          "source_unit_label": null,
+          "source_raw_value": "3029307",
+          "source_precision": null
+        },
+        "donations": null,
+        "government_grants": null,
+        "employee_costs": null,
+        "total_expenses": {
+          "source_amount": "2215004",
+          "source_currency": "AUD",
+          "source_unit_scale": "1",
+          "normalised_amount": "2215004",
+          "normalised_currency": "AUD",
+          "source_unit_label": null,
+          "source_raw_value": "2215004",
+          "source_precision": null
+        },
+        "assets": null,
+        "liabilities": null,
+        "net_assets": null,
+        "income_breakdown": [],
+        "expense_breakdown": [],
+        "balance_sheet_breakdown": [],
+        "source_ordered_line_items": [],
+        "statements": [],
+        "donations_gifts_bequests": null,
+        "functional_expense_allocations": []
+      }
+    ]
+  }
 }

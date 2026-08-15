@@ -1,679 +1,414 @@
 {
   "causebase_id": "cb_b77551387a114e6290750dd88fe9c83f",
+  "contract_version": "0.5",
   "subject_kind": "unknown",
-  "external_identifiers": [
-    {
-      "scheme": "abn",
-      "value": "16148061741",
-      "source_evidence_id": "ev:acnc:16148061741"
-    }
+  "identity": {
+    "legal_name": "AUSTRALIAN COMMUNITY TRANSPORT ASSOCIATION LIMITED",
+    "display_name": "AUSTRALIAN COMMUNITY TRANSPORT ASSOCIATION LIMITED",
+    "operating_names": [
+      "ACTA"
+    ],
+    "former_names": [],
+    "entity_status": "registered",
+    "website": "https://communitytransportaustralia.org.au/",
+    "external_identifiers": [
+      {
+        "scheme": "abn",
+        "value": "16148061741",
+        "evidence_ids": [
+          "ev:acnc:16148061741"
+        ]
+      }
+    ],
+    "registrations": [
+      {
+        "regulator": "ACNC",
+        "status": "registered",
+        "evidence_ids": [
+          "ev:acnc:16148061741"
+        ]
+      }
+    ],
+    "tax_statuses": []
+  },
+  "release": {
+    "release_id": "v0.5.0-2026-08-15",
+    "dataset_version": "0.5.0-2026-08-15",
+    "contract_version": "0.5",
+    "based_on_release": "rc4-2026-08-14",
+    "generated_at": "2026-08-15T00:00:00Z"
+  },
+  "source_record_refs": [
+    "src:acnc-public-profile:16148061741:8d760508-63c3-f011-bbd3-7c1e528a65f7:cb_b77551387a114e6290750dd88fe9c83f"
   ],
-  "registrations": [
-    {
-      "regulator": "ACNC",
-      "registration_id": null,
-      "status": "registered",
-      "evidence_ids": [
-        "ev:acnc:16148061741"
-      ]
-    }
-  ],
-  "tax_statuses": [],
-  "relationships": [],
-  "source_resolutions": [
+  "source_bindings": [
     {
       "source_record_id": "src:acnc-register:5f1e8770-20c3-5801-abe9-04ca4b7ad6d8",
       "resolution_status": "resolved",
       "resolution_basis": "automated authoritative ACNC promotion under acnc-authoritative-v1",
       "confidence": "high",
-      "supporting_signals": [
-        "ABN:16148061741",
-        "ACNC Register"
-      ],
-      "conflicting_signals": [],
-      "review_status": "not_required"
-    }
-  ],
-  "legal_name": "AUSTRALIAN COMMUNITY TRANSPORT ASSOCIATION LIMITED",
-  "display_name": "AUSTRALIAN COMMUNITY TRANSPORT ASSOCIATION LIMITED",
-  "entity_status": "registered",
-  "canonical_url": "https://gregorycwhill.github.io/CauseBase-Viewer/#cb_b77551387a114e6290750dd88fe9c83f",
-  "acnc_profile_url": "https://www.acnc.gov.au/charity/charities/8d760508-63c3-f011-bbd3-7c1e528a65f7/profile",
-  "acnc_ais_url": null,
-  "operating_names": [
-    "ACTA"
-  ],
-  "former_names": [],
-  "principal_location": "SA, Australia",
-  "coverage": [
-    {
-      "capability": "regulatory",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [
-        "ev:acnc:16148061741"
-      ],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "annual_report",
-      "status": "not_yet_processed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "fundraising_expenditure",
-      "status": "not_yet_processed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "financials",
-      "status": "not_found_in_source",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-10",
-      "freshness_note": null
-    },
-    {
-      "capability": "latest_acnc_ais",
-      "status": "not_available_from_source",
-      "source_record_id": "src:acnc-public-profile:16148061741:8d760508-63c3-f011-bbd3-7c1e528a65f7:cb_b77551387a114e6290750dd88fe9c83f",
-      "evidence_ids": [],
-      "observed_at": "2026-08-13",
-      "freshness_note": "No submitted AIS was returned by the public ACNC profile endpoint."
-    },
-    {
-      "capability": "website",
-      "status": "observed",
-      "source_record_id": null,
-      "evidence_ids": [],
-      "observed_at": "2026-08-13",
-      "freshness_note": "Public website locator acquired from the ACNC profile."
-    }
-  ],
-  "enrichment_level": "enriched",
-  "website": "https://communitytransportaustralia.org.au/",
-  "geography": [
-    "Australia (national; membership claimed across all states and territories)",
-    "Metropolitan, regional, rural and remote communities",
-    "South Australia (registered location on ACNC)"
-  ],
-  "geography_observations": [
-    {
-      "value": "Australia (national; membership claimed across all states and territories)",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Metropolitan, regional, rural and remote communities",
-      "source_role": "legacy_source_qualifier",
-      "provenance_note": "as described by ACTA",
-      "evidence_ids": []
-    },
-    {
-      "value": "South Australia (registered location on ACNC)",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "navigation_geography": [],
-  "causebase_summary": "Australian Community Transport Association (ACTA) is the national peak body for community transport providers in Australia, with membership spanning all states and territories and services delivered in metropolitan, regional, rural and remote communities. ACTA represents community transport providers (including not‑for‑profits, local governments and regional providers) and undertakes advocacy and policy reform aimed at transport equity, provides sector leadership and support for service providers, runs national conferences and webinars, and coordinates the National Community Transport Pricing Model (NCTPM) pilot. ACTA’s stated beneficiaries include older Australians, people with disability, carers and others facing transport disadvantage who use community transport services.",
-  "summary_evidence_ids": [
-    "ev:web:16148061741:2026-08-10",
-    "ev:acnc:16148061741"
-  ],
-  "organisation_self_description": null,
-  "activities": [
-    "Advocacy for transport equity",
-    "Policy reform and sector leadership",
-    "Support for community transport service providers",
-    "National conferences and webinars (public events)",
-    "Coordination of the National Community Transport Pricing Model (NCTPM) pilot"
-  ],
-  "activity_observations": [
-    {
-      "value": "Advocacy for transport equity",
-      "source_role": "legacy_source_qualifier",
-      "provenance_note": "as stated by ACTA",
-      "evidence_ids": []
-    },
-    {
-      "value": "Policy reform and sector leadership",
-      "source_role": "legacy_source_qualifier",
-      "provenance_note": "as stated by ACTA",
-      "evidence_ids": []
-    },
-    {
-      "value": "Support for community transport service providers",
-      "source_role": "legacy_source_qualifier",
-      "provenance_note": "as stated by ACTA",
-      "evidence_ids": []
-    },
-    {
-      "value": "National conferences and webinars (public events)",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Coordination of the National Community Transport Pricing Model (NCTPM) pilot",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    }
-  ],
-  "beneficiaries": [
-    "Community transport providers (members, including not‑for‑profits, local governments, regional providers)",
-    "Older Australians",
-    "People with disability",
-    "Carers and people facing transport disadvantage"
-  ],
-  "beneficiary_observations": [
-    {
-      "value": "Community transport providers (members, including not‑for‑profits, local governments, regional providers)",
-      "source_role": "unknown",
-      "provenance_note": null,
-      "evidence_ids": []
-    },
-    {
-      "value": "Older Australians",
-      "source_role": "legacy_source_qualifier",
-      "provenance_note": "as described by ACTA",
-      "evidence_ids": []
-    },
-    {
-      "value": "People with disability",
-      "source_role": "legacy_source_qualifier",
-      "provenance_note": "as described by ACTA",
-      "evidence_ids": []
-    },
-    {
-      "value": "Carers and people facing transport disadvantage",
-      "source_role": "legacy_source_qualifier",
-      "provenance_note": "as described by ACTA",
-      "evidence_ids": []
-    }
-  ],
-  "participation_modes": [
-    "Membership by organisations, individuals and community groups",
-    "Public events: webinars and a national conference",
-    "Participation in pilot projects (e.g. NCTPM pilot)"
-  ],
-  "participation_observations": [],
-  "opportunities": [],
-  "programs": [],
-  "source_native_records": [
-    {
-      "source_record_id": "src:acnc-public-profile:16148061741:8d760508-63c3-f011-bbd3-7c1e528a65f7:cb_b77551387a114e6290750dd88fe9c83f",
-      "source_family": "acnc-public-profile",
-      "dataset_version": "2026-08-14-public-api",
-      "source_url": "https://www.acnc.gov.au/charity/charities/8d760508-63c3-f011-bbd3-7c1e528a65f7/profile",
-      "retrieved_at": "2026-08-13T13:54:42.956606Z",
-      "observed_at": "2026-08-13",
-      "effective_from": null,
-      "effective_to": null,
-      "source_fields": {
-        "uuid": "8d760508-63c3-f011-bbd3-7c1e528a65f7",
-        "abn": "16148061741"
-      },
-      "source_payload": {
-        "data": {
-          "AFSAddressPostalCode": "5575",
-          "AFSEmail": "CEO@communitytransportaustralia.org.au",
-          "Abn": "16148061741",
-          "AddressCountry": "Australia",
-          "AddressLine1": "18 Fourth St",
-          "AddressLine2": null,
-          "AddressLine3": null,
-          "AddressPostalCode": "5575",
-          "AddressStateOrProvince": "SA",
-          "AddressSuburb": "Minlaton",
-          "AddressSuburbStatePostcode": "Minlaton SA 5575",
-          "AnnualReports": [
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2026-12-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Not yet submitted",
-              "Year": "2026",
-              "type": "Annual Information Statement 2026",
-              "uuid": "10cff50b-b90a-f111-8406-7ced8d32d9a3"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2027-12-30T13:00:00.0000000Z",
-              "IsAIS": true,
-              "Status": "Not yet submitted",
-              "Year": "2027",
-              "type": "Annual Information Statement 2027",
-              "uuid": "dc36f617-b90a-f111-8406-7ced8d32d9a3"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2026-12-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Pending",
-              "Year": "2026",
-              "type": "Financial Report 2026",
-              "uuid": "e92e281e-b90a-f111-8406-7ced8d32d9a3"
-            },
-            {
-              "AISId": null,
-              "DateReceived": null,
-              "DocumentUuid": null,
-              "DueDate": "2027-12-30T13:00:00.0000000Z",
-              "IsAIS": false,
-              "Status": "Pending",
-              "Year": "2027",
-              "type": "Financial Report 2027",
-              "uuid": "05862324-b90a-f111-8406-7ced8d32d9a3"
-            }
-          ],
-          "Beneficiaries": [
-            {
-              "Description": null,
-              "Name": "Aboriginal and Torres Strait Islander people",
-              "uuid": "ba760508-63c3-f011-bbd3-7c1e528a65f7"
-            },
-            {
-              "Description": null,
-              "Name": "Adults - aged 65 and over",
-              "uuid": "d9760508-63c3-f011-bbd3-7c1e528a65f7"
-            },
-            {
-              "Description": null,
-              "Name": "Financially disadvantaged people",
-              "uuid": "dd760508-63c3-f011-bbd3-7c1e528a65f7"
-            },
-            {
-              "Description": null,
-              "Name": "People from a culturally and linguistically diverse background",
-              "uuid": "e6760508-63c3-f011-bbd3-7c1e528a65f7"
-            },
-            {
-              "Description": null,
-              "Name": "People in rural/regional/remote communities",
-              "uuid": "ed760508-63c3-f011-bbd3-7c1e528a65f7"
-            },
-            {
-              "Description": null,
-              "Name": "People with chronic illness (including terminal illness)",
-              "uuid": "f1760508-63c3-f011-bbd3-7c1e528a65f7"
-            },
-            {
-              "Description": null,
-              "Name": "People with disabilities",
-              "uuid": "f8760508-63c3-f011-bbd3-7c1e528a65f7"
-            },
-            {
-              "Description": null,
-              "Name": "Other charities",
-              "uuid": "fd760508-63c3-f011-bbd3-7c1e528a65f7"
-            },
-            {
-              "Description": null,
-              "Name": "General community in Australia",
-              "uuid": "02770508-63c3-f011-bbd3-7c1e528a65f7"
-            }
-          ],
-          "CharitySize": null,
-          "CharitySubtypeHistory": [
-            {
-              "EndDate": null,
-              "Purpose": "Purposes beneficial to the general public that may reasonably be regarded as analogous to, or within the spirit of, any of the other charitable purposes",
-              "StartDate": "2025-07-02T00:00:00.0000000Z",
-              "uuid": "b0760508-63c3-f011-bbd3-7c1e528a65f7"
-            }
-          ],
-          "CharityVersion": "28",
-          "ChildMemberEndDate": null,
-          "ChildMemberStartDate": null,
-          "ChooseToProvideAis": null,
-          "Countries": [],
-          "DateEstablished": "2011-02-02T00:00:00.0000000Z",
-          "Documents": [
-            {
-              "Date": "2025-11-17T00:00:00.0000000",
-              "Title": "Constitution of Australian Community Transport Association Limited adopted on 2 July 2025.pdf",
-              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/8d760508-63c3-f011-bbd3-7c1e528a65f7-4bfb44e1-c22c-47cc-9c8e-b83969da83ea-Governing%20Document-49e5f3fa-62c3-f011-bbd3-6045bdc2c88b-Constitution_of_Australian_Community_Transport_Association_Limited_adopted_on_2_July_2025.pdf",
-              "Year": null,
-              "type": "Governing Document",
-              "uuid": "49e5f3fa-62c3-f011-bbd3-6045bdc2c88b"
-            }
-          ],
-          "Email": "CEO@communitytransportaustralia.org.au",
-          "EnforcementOutcomes": [],
-          "FinancialYearEnd": "30/06",
-          "GovernmentAgencies": [
-            {
-              "Name": "Australian Securities and Investment Commission",
-              "ReferenceNumber": "148061741",
-              "uuid": "38770508-63c3-f011-bbd3-7c1e528a65f7"
-            }
-          ],
-          "GroupHeadFlag": false,
-          "LastReported": null,
-          "Name": "AUSTRALIAN COMMUNITY TRANSPORT ASSOCIATION LIMITED",
-          "NextReportDue": "2026-12-31T12:30:00.0000000Z",
-          "OperatingInStates": [
-            {
-              "Name": "Victoria",
-              "uuid": "4ea3219c-455e-e811-a95c-000d3ad1c715"
-            },
-            {
-              "Name": "Tasmania",
-              "uuid": "4fa3219c-455e-e811-a95c-000d3ad1c715"
-            },
-            {
-              "Name": "New South Wales",
-              "uuid": "2bf593a5-455e-e811-a95c-000d3ad1c715"
-            },
-            {
-              "Name": "Queensland",
-              "uuid": "2cf593a5-455e-e811-a95c-000d3ad1c715"
-            },
-            {
-              "Name": "Western Australia",
-              "uuid": "dc2782ae-455e-e811-a95c-000d3ad1c715"
-            },
-            {
-              "Name": "South Australia",
-              "uuid": "dd2782ae-455e-e811-a95c-000d3ad1c715"
-            },
-            {
-              "Name": "Australian Capital Territory",
-              "uuid": "db77d9b9-455e-e811-a95c-000d3ad1c715"
-            },
-            {
-              "Name": "Northern Territory",
-              "uuid": "dd77d9b9-455e-e811-a95c-000d3ad1c715"
-            }
-          ],
-          "OtherDetails": null,
-          "OtherNames": [
-            {
-              "Name": "ACTA",
-              "uuid": "a9760508-63c3-f011-bbd3-7c1e528a65f7"
-            }
-          ],
-          "ParentAccountAbn": null,
-          "ParentAccountId": null,
-          "Phone": "0447712049",
-          "Programs": [],
-          "ReferendumReturnsUrl": null,
-          "RegistrationStatusHistory": [
-            {
-              "EffectiveDate": "2025-07-02T00:00:00.0000000Z",
-              "Status": "Registered",
-              "TransactionDate": "2026-02-15T21:54:42.0000000Z",
-              "uuid": "7ebb0aee-b80a-f111-8406-7ced8d32d9a3"
-            }
-          ],
-          "RelatedPartyTransactions": null,
-          "RelevantTransactions": null,
-          "ReportingLate": "2027-06-30T12:30:00.0000000Z",
-          "ResponsiblePersons": [
-            {
-              "Name": "Amanda Green",
-              "Role": "Board Member",
-              "uuid": "c9fb6a19-050f-ee11-8f6e-00224893bfad"
-            },
-            {
-              "Name": "Brody Mae-Munyard",
-              "Role": "Board Member",
-              "uuid": "fc904f5b-0a12-f111-8406-7c1e52629e53"
-            },
-            {
-              "Name": "Lyndon Stevenson",
-              "Role": "Director",
-              "uuid": "64fad224-ba13-e911-a970-000d3ad02a61"
-            },
-            {
-              "Name": "Rachel Thompson",
-              "Role": "Director",
-              "uuid": "37d6cf10-5d93-f011-b4cb-6045bde698d4"
-            },
-            {
-              "Name": "Joanna Cochrane",
-              "Role": "Director",
-              "uuid": "510afe0d-63c3-f011-bbd3-7c1e528a65f7"
-            },
-            {
-              "Name": "Terry O'Toole",
-              "Role": "Director",
-              "uuid": "ba7eded8-ede3-e911-a812-000d3ad1ce4e"
-            },
-            {
-              "Name": "David McDonald",
-              "Role": "Director",
-              "uuid": "f9f942a5-b0ea-eb11-bacb-000d3acc5692"
-            },
-            {
-              "Name": "Natalie Richards",
-              "Role": "Director",
-              "uuid": "130bfe0d-63c3-f011-bbd3-7c1e528a65f7"
-            },
-            {
-              "Name": "Tammy Shephard",
-              "Role": "Director",
-              "uuid": "3c0bfe0d-63c3-f011-bbd3-7c1e528a65f7"
-            },
-            {
-              "Name": "Prue Dimitry",
-              "Role": "Director",
-              "uuid": "971335d2-307b-ec11-8d20-00224891e096"
-            },
-            {
-              "Name": "Murray Coates",
-              "Role": "Secretary",
-              "uuid": "447f0cd2-270d-f111-8407-6045bdc47b11"
-            },
-            {
-              "Name": "Brad Cooper",
-              "Role": "Board Member",
-              "uuid": "88651f35-9cb7-eb11-8236-000d3a6a66c0"
-            }
-          ],
-          "Status": "Registered",
-          "SummaryOfActivities": null,
-          "TotalExpensesEmployee": null,
-          "TotalExpensesGrantsAndDonationsInAustralia": null,
-          "TotalExpensesGrantsAndDonationsOutsideAustralia": null,
-          "TotalExpensesInterest": null,
-          "TotalExpensesOther": null,
-          "TotalGrossIncomeDonationsAndRequests": null,
-          "TotalGrossIncomeGoodsOrServices": null,
-          "TotalGrossIncomeGovernmentGrants": null,
-          "TotalGrossIncomeInvestments": null,
-          "TotalGrossIncomeOtherRevenues": null,
-          "TransparencyRegisterUrl": null,
-          "Website": "https://communitytransportaustralia.org.au/",
-          "__normalized": true,
-          "type": "charity",
-          "uuid": "8d760508-63c3-f011-bbd3-7c1e528a65f7"
-        },
-        "type": "charity",
-        "uuid": "8d760508-63c3-f011-bbd3-7c1e528a65f7"
-      },
-      "canonical_field_mappings": {
-        "data.OtherNames": "operating_names",
-        "data.AddressStateOrProvince": "principal_location"
-      },
-      "evidence_ids": []
-    }
-  ],
-  "financial_records": [],
-  "financial_metrics": [],
-  "fundraising_expenditure": null,
-  "funding_sources": [],
-  "fundraising_methods": [],
-  "classifications": [
-    {
-      "taxonomy_id": "acnc-register",
-      "taxonomy_version": "2026-08-10",
-      "term_id": "purpose.other_purpose",
-      "term_label": "other purpose",
-      "assignment_method": "source_native",
-      "confidence": "high",
-      "evidence_ids": [
-        "ev:acnc:16148061741"
-      ]
-    },
-    {
-      "taxonomy_id": "acnc-register",
-      "taxonomy_version": "2026-08-10",
-      "term_id": "beneficiary.older_people",
-      "term_label": "older people",
-      "assignment_method": "source_native",
-      "confidence": "high",
-      "evidence_ids": [
-        "ev:acnc:16148061741"
-      ]
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "activity.advocacy",
-      "term_label": "Advocacy",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "activity.events_and_public_programming",
-      "term_label": "Events and public programming",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "approach.community_partnership",
-      "term_label": "Community partnership",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "participation.public_events",
-      "term_label": "Public events",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "geography.australia",
-      "term_label": "Australia",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "organisation.national",
-      "term_label": "National organisation",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
-    },
-    {
-      "taxonomy_id": "causebase",
-      "taxonomy_version": "0.1-phase2a",
-      "term_id": "beneficiary.people_experiencing_disadvantage",
-      "term_label": "People experiencing disadvantage",
-      "assignment_method": "llm_classification",
-      "confidence": "medium",
-      "evidence_ids": []
+      "review_status": "not_required",
+      "conflicting_signals": []
     }
   ],
   "evidence": [
     {
       "evidence_id": "ev:acnc:16148061741",
-      "source_type": "regulatory",
-      "title": "ACNC Register extract",
-      "publisher": "Australian Charities and Not-for-profits Commission",
-      "url": null,
-      "observed_at": "2026-08-10",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "title": "ACNC Register extract"
     },
     {
       "evidence_id": "ev:web:16148061741:2026-08-10",
-      "source_type": "organisation_self_report",
       "title": "Organisation website homepage",
-      "publisher": "AUSTRALIAN COMMUNITY TRANSPORT ASSOCIATION LIMITED",
-      "url": "https://communitytransportaustralia.org.au/",
-      "observed_at": "2026-08-10",
-      "reporting_period": null,
-      "page": null,
-      "section": null,
-      "content_hash": null
+      "url": "https://communitytransportaustralia.org.au/"
     }
   ],
-  "embedding": {
-    "embedding_id": "cb_b77551387a114e6290750dd88fe9c83f:entity:text-embedding-3-small",
-    "embedding_type": "entity",
-    "model_id": "text-embedding-3-small",
-    "model_version": "text-embedding-3-small",
-    "dimensions": 1536,
-    "source_text_hash": "f1ca99eb211bbf9deb4ab691edf511d5e93bdecca53f351c9605956aa9225401",
-    "generated_at": "2026-08-10T13:53:24.458063Z",
-    "vector_ref": "embeddings.parquet#cb_b77551387a114e6290750dd88fe9c83f"
+  "summary": {
+    "derivative_id": "der:rc4:cb_b77551387a114e6290750dd88fe9c83f:summary",
+    "text": "Australian Community Transport Association (ACTA) is the national peak body for community transport providers in Australia, with membership spanning all states and territories and services delivered in metropolitan, regional, rural and remote communities. ACTA represents community transport providers (including not\u2011for\u2011profits, local governments and regional providers) and undertakes advocacy and policy reform aimed at transport equity, provides sector leadership and support for service providers, runs national conferences and webinars, and coordinates the National Community Transport Pricing Model (NCTPM) pilot. ACTA\u2019s stated beneficiaries include older Australians, people with disability, carers and others facing transport disadvantage who use community transport services."
   },
-  "synthesis": {
-    "model_id": "gpt-5-mini-2025-08-07",
-    "prompt_version": "phase2b-rc2-1",
-    "parameters": {
-      "max_output_tokens": 3000,
-      "structured_output": true,
-      "output_contract": "causebase-summary-v0.3-rc2"
-    },
-    "evidence_input_hash": "9bc873fc3dbcccd98badd19e53f585127d32c6b16f6d90040f0fca0e19f3bd39",
-    "generated_at": "2026-08-12T14:17:07.952665Z",
-    "editorial_policy_version": "0.3-rc2"
-  },
-  "derivative_assessments": [
+  "activities": [],
+  "beneficiaries": [],
+  "descriptive_geography": [],
+  "navigation_geography": [],
+  "funding_sources": [],
+  "fundraising_methods": [],
+  "participation": [],
+  "opportunities": [],
+  "programs": [],
+  "relationships": [],
+  "classifications": [
     {
-      "derivative": "summary",
-      "generated_at": "2026-08-12T14:17:07.952665Z",
-      "evidence_through": null,
-      "last_assessed_at": "2026-08-13T13:54:42.956606Z",
-      "assessment_method": "phase2b-rc4-accepted-rc2-summary-reuse",
-      "input_hash": "9bc873fc3dbcccd98badd19e53f585127d32c6b16f6d90040f0fca0e19f3bd39",
-      "disposition": "reused",
-      "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs.",
-      "affected_dimensions": [
-        "summary"
-      ]
+      "observation_id": "obs:rc4:cb_b77551387a114e6290750dd88fe9c83f:classification:0",
+      "classification_id": "cls:rc4:cb_b77551387a114e6290750dd88fe9c83f:0",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "purpose.other_purpose",
+      "term_label": "other purpose",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:16148061741"
+      ],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_b77551387a114e6290750dd88fe9c83f:classification:1",
+      "classification_id": "cls:rc4:cb_b77551387a114e6290750dd88fe9c83f:1",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "beneficiary.older_people",
+      "term_label": "older people",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:16148061741"
+      ],
+      "confidence": "high",
+      "warnings": []
     }
   ],
-  "dataset_version": "phase2b-2026-08-14-rc4-fundraising-projection-correction",
-  "card_schema_version": "0.4",
-  "editorial_policy_version": "0.4-rc4",
-  "generator_version": "0.5.0-rc4",
-  "built_at": "2026-08-13T13:54:42.956606Z"
+  "coverage": {
+    "registry_id": "capability-registry-0.5-initial",
+    "current": [
+      {
+        "capability": "regulatory.acnc_profile",
+        "status": "observed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:acnc:16148061741"
+        ]
+      },
+      {
+        "capability": "regulatory.ais",
+        "status": "not_available_from_source",
+        "assessed_at": "2026-08-13",
+        "source_record_ids": [
+          "src:acnc-public-profile:16148061741:8d760508-63c3-f011-bbd3-7c1e528a65f7:cb_b77551387a114e6290750dd88fe9c83f"
+        ],
+        "evidence_ids": []
+      },
+      {
+        "capability": "tax.dgr",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "web.website",
+        "status": "observed",
+        "assessed_at": "2026-08-13",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "report.annual_report",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "financial.report",
+        "status": "not_found_in_source",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "financial.statements",
+        "status": "not_found_in_source",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.activities",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.beneficiaries",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.geography",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "programs",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "participation",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "funding.sources",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.methods",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.expenditure",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "taxonomy.causebase",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "semantic.embedding",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      }
+    ]
+  },
+  "financial_reports": [],
+  "canonical_metrics": [],
+  "analytic_projections": [],
+  "derivatives": [
+    {
+      "derivative_id": "der:rc4:cb_b77551387a114e6290750dd88fe9c83f:summary",
+      "kind": "summary",
+      "input_observation_ids": [],
+      "evidence_ids": [
+        "ev:web:16148061741:2026-08-10",
+        "ev:acnc:16148061741"
+      ],
+      "generated_under": {
+        "output_contract_version": "phase2b-rc4-accepted-rc2-summary-reuse",
+        "input_hash": "9bc873fc3dbcccd98badd19e53f585127d32c6b16f6d90040f0fca0e19f3bd39",
+        "generated_at": "2026-08-12T14:17:07.952665Z"
+      },
+      "current_assessment": {
+        "assessed_at": "2026-08-13T13:54:42.956606Z",
+        "assessed_against_contract": "0.5",
+        "governing_input_hash": "9bc873fc3dbcccd98badd19e53f585127d32c6b16f6d90040f0fca0e19f3bd39",
+        "disposition": "reused",
+        "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs."
+      }
+    }
+  ],
+  "legacy_unbound": {
+    "origin_release": "rc4-2026-08-14",
+    "origin_card_sha256": "be838fb757238c75296021c7c273276f6a9c4940bc9fbba3eb0611e245627168",
+    "activities": [
+      {
+        "value": "Advocacy for transport equity",
+        "source_role": "legacy_source_qualifier",
+        "provenance_note": "as stated by ACTA",
+        "evidence_ids": []
+      },
+      {
+        "value": "Policy reform and sector leadership",
+        "source_role": "legacy_source_qualifier",
+        "provenance_note": "as stated by ACTA",
+        "evidence_ids": []
+      },
+      {
+        "value": "Support for community transport service providers",
+        "source_role": "legacy_source_qualifier",
+        "provenance_note": "as stated by ACTA",
+        "evidence_ids": []
+      },
+      {
+        "value": "National conferences and webinars (public events)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Coordination of the National Community Transport Pricing Model (NCTPM) pilot",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "beneficiaries": [
+      {
+        "value": "Community transport providers (members, including not\u2011for\u2011profits, local governments, regional providers)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Older Australians",
+        "source_role": "legacy_source_qualifier",
+        "provenance_note": "as described by ACTA",
+        "evidence_ids": []
+      },
+      {
+        "value": "People with disability",
+        "source_role": "legacy_source_qualifier",
+        "provenance_note": "as described by ACTA",
+        "evidence_ids": []
+      },
+      {
+        "value": "Carers and people facing transport disadvantage",
+        "source_role": "legacy_source_qualifier",
+        "provenance_note": "as described by ACTA",
+        "evidence_ids": []
+      }
+    ],
+    "descriptive_geography": [
+      {
+        "value": "Australia (national; membership claimed across all states and territories)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Metropolitan, regional, rural and remote communities",
+        "source_role": "legacy_source_qualifier",
+        "provenance_note": "as described by ACTA",
+        "evidence_ids": []
+      },
+      {
+        "value": "South Australia (registered location on ACNC)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "classifications": [
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "activity.advocacy",
+        "term_label": "Advocacy",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "activity.events_and_public_programming",
+        "term_label": "Events and public programming",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "approach.community_partnership",
+        "term_label": "Community partnership",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "participation.public_events",
+        "term_label": "Public events",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "geography.australia",
+        "term_label": "Australia",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "organisation.national",
+        "term_label": "National organisation",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "beneficiary.people_experiencing_disadvantage",
+        "term_label": "People experiencing disadvantage",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      }
+    ]
+  }
 }
