@@ -1,11 +1,12 @@
-import { cp, mkdir, readFile, rm, stat, writeFile } from "node:fs/promises";
+import { cp, mkdir, readFile, readdir, rm, stat, writeFile } from "node:fs/promises";
 import { resolve } from "node:path";
 import { execFileSync } from "node:child_process";
+import { buildV05ViewModel } from "./v05-view-model.mjs";
 
 const root = resolve(import.meta.dirname, "..");
 const output = resolve(process.env.CAUSEBASE_OUTPUT_DIR ?? resolve(root, "dist"));
 const data = resolve(process.env.CAUSEBASE_DATA_DIR ?? resolve(root, "public", "data"));
-const required = [
+const legacyRequired = [
   "causebase.json", "causebase.jsonl", "causebase.csv", "causebase.parquet",
   "embeddings.json", "embeddings.parquet", "similarities.json", "similarities.parquet",
   "manifest.json", "coverage.json", "agent-guide.md", "schema/card.schema.json",
@@ -17,6 +18,8 @@ const manifest = JSON.parse(await readFile(resolve(data, "manifest.json"), "utf8
 if (manifest.validation?.status !== "passed" || manifest.entity_count < 100) {
   throw new Error("Refusing deployment: public/data is not a validated Phase 2A candidate.");
 }
+const v05 = manifest.contract_version === "0.5";
+const required = v05 ? ["cards", "source-records", "capability-registry.json"] : legacyRequired;
 for (const relative of required) {
   await stat(resolve(data, relative));
 }
@@ -33,6 +36,13 @@ await cp(resolve(root, "public"), resolve(output, "public"), { recursive: true }
 if (data !== resolve(root, "public", "data")) {
   await rm(resolve(output, "public", "data"), { recursive: true, force: true });
   await cp(data, resolve(output, "public", "data"), { recursive: true });
+}
+if (v05) {
+  const dataOutput = resolve(output, "public", "data");
+  const cards = await Promise.all((await readdir(resolve(data, "cards"))).filter(name => name.endsWith(".json")).sort().map(async name => JSON.parse(await readFile(resolve(data, "cards", name), "utf8"))));
+  const sources = await Promise.all((await readdir(resolve(data, "source-records"))).filter(name => name.endsWith(".json")).sort().map(async name => JSON.parse(await readFile(resolve(data, "source-records", name), "utf8"))));
+  await writeFile(resolve(dataOutput, "causebase.json"), JSON.stringify(buildV05ViewModel(cards, sources, manifest), null, 2) + "\n");
+  await writeFile(resolve(dataOutput, "similarities.json"), "[]\n");
 }
 const viewerCommit = process.env.GITHUB_SHA ?? execFileSync("git", ["rev-parse", "HEAD"], { cwd: root, encoding: "utf8" }).trim();
 await writeFile(resolve(output, "deployment.json"), JSON.stringify({
