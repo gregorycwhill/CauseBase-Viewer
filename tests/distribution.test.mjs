@@ -27,7 +27,8 @@ test("static build provides indexable direct routes and machine release discover
 });
 
 test("documented links retain representative v0.5 interpretation states", () => {
-  const release=resolve(root,"..","charitygraph-data","releases","v0.5.0-2026-08-15");
+  const dataRoot=existsSync(resolve(root,"charitygraph-data")) ? resolve(root,"charitygraph-data") : resolve(root,"..","charitygraph-data");
+  const release=resolve(dataRoot,"releases","v0.5.0-2026-08-15");
   const card=id => JSON.parse(readFileSync(join(release,"cards",`${id}.json`),"utf8"));
   const eja=card("cb_604da7f26c6c48dd934e713edc493e9f");
   const allocation=eja.financial_reports[0].functional_expense_allocations.find(item => item.allocation_label === "Fundraising");
