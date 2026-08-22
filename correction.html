@@ -3,19 +3,19 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Suggest a CauseBase correction</title>
+  <title>Suggest a CharityGraph correction</title>
   <meta name="robots" content="noindex,nofollow">
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
   <main class="correction-page">
-    <p><a href="./index.html">← CauseBase Viewer</a></p>
+    <p><a href="./index.html">← CharityGraph Viewer</a></p>
     <h1>Suggest a correction</h1>
     <p>
-      CauseBase is built from public evidence and may be incomplete or wrong.
-      CauseBase collects feedback through a private human-test form. Responses are not published automatically.
+      CharityGraph is built from public evidence and may be incomplete or wrong.
+      CharityGraph collects feedback through a private human-test form. Responses are not published automatically.
     </p>
-    <p><strong>CauseBase is experimental.</strong> Information may be incomplete or incorrect. You can suggest a correction or general feedback.</p>
+    <p><strong>CharityGraph is experimental.</strong> Information may be incomplete or incorrect. You can suggest a correction or general feedback.</p>
     <p><a id="form-link" href="https://docs.google.com/forms/d/e/1FAIpQLSfWpGlSeWv4IzmxSiHQeRsT-gDlUwDeIFnJiUQMbUWxZX8FHQ/viewform?usp=header">Open the feedback form</a></p>
     <div id="context" class="correction-box"></div>
   </main>
@@ -26,7 +26,7 @@
     }[ch]));
     document.querySelector("#context").innerHTML = `
       <p><strong>Organisation:</strong> ${safe(p.get("organisation"))}</p>
-      <p><strong>CauseBase subject:</strong> ${safe(p.get("causebase_id"))}</p>
+      <p><strong>Legacy subject ID:</strong> ${safe(p.get("causebase_id"))}</p>
       <p><strong>Field:</strong> ${safe(p.get("field"))}</p>
       <p><strong>Current value:</strong> ${safe(p.get("current_value"))}</p>
       <p><strong>Dataset version:</strong> ${safe(p.get("dataset_version"))}</p>

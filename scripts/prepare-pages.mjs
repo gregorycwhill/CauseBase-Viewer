@@ -20,7 +20,7 @@ const sourceHref = sourceId => `../../public/data/source-records/${encodeURIComp
 const cardMarkdown = (card, manifest) => {
   const identity=card.identity ?? {}; const title=identity.display_name ?? identity.legal_name ?? card.causebase_id;
   const coverage=(card.coverage?.current ?? []).map(item => `- ${item.capability}: ${item.status}`).join("\n");
-  return `# ${title}\n\n- CauseBase ID: ${card.causebase_id}\n- Dataset version: ${manifest.dataset_version}\n- Contract version: ${manifest.contract_version}\n\n${card.summary?.text ?? ""}\n\n## Coverage\n\n${coverage}\n\n## Data\n\n- JSON: ${siteBase}/public/data/cards/${encodeURIComponent(card.causebase_id)}.json\n- Canonical HTML: ${siteBase}/charity/${encodeURIComponent(card.causebase_id)}/\n`;
+  return `# ${title}\n\n- Legacy subject ID: ${card.causebase_id}\n- Dataset version: ${manifest.dataset_version}\n- Contract version: ${manifest.contract_version}\n\n${card.summary?.text ?? ""}\n\n## Coverage\n\n${coverage}\n\n## Data\n\n- JSON: ${siteBase}/public/data/cards/${encodeURIComponent(card.causebase_id)}.json\n- Canonical HTML: ${siteBase}/charity/${encodeURIComponent(card.causebase_id)}/\n`;
 };
 const cardHtml = (card, manifest) => {
   const identity=card.identity ?? {}; const title=identity.display_name ?? identity.legal_name ?? card.causebase_id;
