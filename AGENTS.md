@@ -1,12 +1,14 @@
-# CauseBase Viewer — Agent Instructions
+# CharityGraph Viewer — Agent Instructions
+
+> The former CauseBase name is retained only for documented legacy compatibility and immutable release material. Current Viewer code, URLs, environment variables, and documentation use CharityGraph.
 
 **Status:** Canonical repository instructions  
 **Version:** 0.1
 
-## Shared CauseBase project memory
+## Shared CharityGraph project memory
 
 The canonical shared state and planning documents live in the sibling
-[`CauseBase-Data`](https://github.com/gregorycwhill/CauseBase-Data) repository:
+[`charitygraph-data`](https://github.com/gregorycwhill/charitygraph-data) repository:
 
 - `CURRENT_STATE.md`
 - `ROADMAP.md`
