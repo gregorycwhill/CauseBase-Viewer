@@ -1,6 +1,6 @@
 # Ananda Marga Pracaraka Samgha Ltd Preschool
 
-- CauseBase ID: cb_e2cd8f20b7be45b6a9f44ca27eaa4c53
+- Legacy subject ID: cb_e2cd8f20b7be45b6a9f44ca27eaa4c53
 - Dataset version: 0.5.0-2026-08-15
 - Contract version: 0.5
 

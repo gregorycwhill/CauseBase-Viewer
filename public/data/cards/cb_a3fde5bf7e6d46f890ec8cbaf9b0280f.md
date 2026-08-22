@@ -1,6 +1,6 @@
 # ADELAIDE MOSQUE ISLAMIC SOCIETY LTD
 
-- CauseBase ID: cb_a3fde5bf7e6d46f890ec8cbaf9b0280f
+- Legacy subject ID: cb_a3fde5bf7e6d46f890ec8cbaf9b0280f
 - Dataset version: 0.5.0-2026-08-15
 - Contract version: 0.5
 

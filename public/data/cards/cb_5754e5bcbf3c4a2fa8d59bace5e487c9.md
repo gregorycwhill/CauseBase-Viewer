@@ -1,6 +1,6 @@
 # National Gallery Of Australia Foundation
 
-- CauseBase ID: cb_5754e5bcbf3c4a2fa8d59bace5e487c9
+- Legacy subject ID: cb_5754e5bcbf3c4a2fa8d59bace5e487c9
 - Dataset version: 0.5.0-2026-08-15
 - Contract version: 0.5
 

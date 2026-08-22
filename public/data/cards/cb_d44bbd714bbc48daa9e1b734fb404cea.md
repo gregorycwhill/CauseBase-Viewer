@@ -1,6 +1,6 @@
 # The Russian Imperial Order of Saint Michael Archangel
 
-- CauseBase ID: cb_d44bbd714bbc48daa9e1b734fb404cea
+- Legacy subject ID: cb_d44bbd714bbc48daa9e1b734fb404cea
 - Dataset version: 0.5.0-2026-08-15
 - Contract version: 0.5
 

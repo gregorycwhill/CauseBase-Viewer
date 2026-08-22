@@ -1,6 +1,6 @@
 # Settlement Council Of Australia
 
-- CauseBase ID: cb_bab735ab9e484cf7ae872ff040fada63
+- Legacy subject ID: cb_bab735ab9e484cf7ae872ff040fada63
 - Dataset version: 0.5.0-2026-08-15
 - Contract version: 0.5
 

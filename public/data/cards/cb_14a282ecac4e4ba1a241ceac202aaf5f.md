@@ -1,6 +1,6 @@
 # BROTHER TO ANOTHER LTD
 
-- CauseBase ID: cb_14a282ecac4e4ba1a241ceac202aaf5f
+- Legacy subject ID: cb_14a282ecac4e4ba1a241ceac202aaf5f
 - Dataset version: 0.5.0-2026-08-15
 - Contract version: 0.5
 

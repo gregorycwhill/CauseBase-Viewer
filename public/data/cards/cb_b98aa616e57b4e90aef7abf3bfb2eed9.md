@@ -1,6 +1,6 @@
 # Ara Irititja Aboriginal Corporation
 
-- CauseBase ID: cb_b98aa616e57b4e90aef7abf3bfb2eed9
+- Legacy subject ID: cb_b98aa616e57b4e90aef7abf3bfb2eed9
 - Dataset version: 0.5.0-2026-08-15
 - Contract version: 0.5
 

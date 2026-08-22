@@ -1,6 +1,6 @@
 # North East Men's Shed (Winnaleah) Inc.
 
-- CauseBase ID: cb_2669573b14e34eafa671c4d2bdcdedcd
+- Legacy subject ID: cb_2669573b14e34eafa671c4d2bdcdedcd
 - Dataset version: 0.5.0-2026-08-15
 - Contract version: 0.5
 

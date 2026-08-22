@@ -1,6 +1,6 @@
 # The Trustee For The Newman College Foundation
 
-- CauseBase ID: cb_3bbf4f13d74a432ab0ca1eb74741adae
+- Legacy subject ID: cb_3bbf4f13d74a432ab0ca1eb74741adae
 - Dataset version: 0.5.0-2026-08-15
 - Contract version: 0.5
 

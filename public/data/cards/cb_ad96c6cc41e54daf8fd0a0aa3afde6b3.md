@@ -1,6 +1,6 @@
 # Christian Community Services
 
-- CauseBase ID: cb_ad96c6cc41e54daf8fd0a0aa3afde6b3
+- Legacy subject ID: cb_ad96c6cc41e54daf8fd0a0aa3afde6b3
 - Dataset version: 0.5.0-2026-08-15
 - Contract version: 0.5
 

@@ -1,6 +1,6 @@
 # Araluen Botanic Park Foundation Inc
 
-- CauseBase ID: cb_065dfdefae8b4f7ea2b964dd2b60d800
+- Legacy subject ID: cb_065dfdefae8b4f7ea2b964dd2b60d800
 - Dataset version: 0.5.0-2026-08-15
 - Contract version: 0.5
 

@@ -1,6 +1,6 @@
 # Seniors Rights Service
 
-- CauseBase ID: cb_0efc3a5d9f844ddda1a19832eb00d6ee
+- Legacy subject ID: cb_0efc3a5d9f844ddda1a19832eb00d6ee
 - Dataset version: 0.5.0-2026-08-15
 - Contract version: 0.5
 

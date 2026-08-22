@@ -1,6 +1,6 @@
 # Aussie Vets PTSD Group Incorporated
 
-- CauseBase ID: cb_51c98d3295fb4a8fbcfeb8cece6b8412
+- Legacy subject ID: cb_51c98d3295fb4a8fbcfeb8cece6b8412
 - Dataset version: 0.5.0-2026-08-15
 - Contract version: 0.5
 
