@@ -19,7 +19,7 @@ export function fundraisingDisplay(entity) {
 }
 
 export function taxonomyHeading(taxonomyId) {
-  if (taxonomyId === "causebase") return "CauseBase classifications";
+  if (taxonomyId === "causebase") return "Legacy classifications";
   if (taxonomyId === "acnc-register") return "ACNC classifications";
   return `${taxonomyId} classifications`;
 }
@@ -47,12 +47,13 @@ export function compactMoney(amount, currency = "AUD") {
   }).format(amount).replace("K", "k");
 }
 
-export function validActionUrl(value, viewerOrigin = "https://gregorycwhill.github.io/CauseBase-Viewer/") {
+export function validActionUrl(value, viewerOrigin = "https://gregorycwhill.github.io/charitygraph-viewer/") {
   try {
     const url = new URL(value);
     if (!/^https?:$/.test(url.protocol) || !url.hostname) return null;
     const viewer = new URL(viewerOrigin);
-    if (url.origin === viewer.origin && url.pathname.startsWith(viewer.pathname)) return null;
+    const legacyViewer = new URL("https://gregorycwhill.github.io/CauseBase-Viewer/");
+    if ((url.origin === viewer.origin && url.pathname.startsWith(viewer.pathname)) || (url.origin === legacyViewer.origin && url.pathname.startsWith(legacyViewer.pathname))) return null;
     return url.href;
   } catch {
     return null;

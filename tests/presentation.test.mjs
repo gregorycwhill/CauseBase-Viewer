@@ -22,7 +22,7 @@ test("uses observation currency and preserves conflicting financial state", () =
 });
 
 test("uses friendly but separated taxonomy headings", () => {
-  assert.equal(taxonomyHeading("causebase"), "CauseBase classifications");
+  assert.equal(taxonomyHeading("causebase"), "Legacy classifications");
   assert.equal(taxonomyHeading("acnc-register"), "ACNC classifications");
 });
 
