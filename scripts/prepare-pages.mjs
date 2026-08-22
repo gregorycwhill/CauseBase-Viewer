@@ -4,8 +4,8 @@ import { execFileSync } from "node:child_process";
 import { buildV05ViewModel } from "./v05-view-model.mjs";
 
 const root = resolve(import.meta.dirname, "..");
-const output = resolve(process.env.CAUSEBASE_OUTPUT_DIR ?? resolve(root, "dist"));
-const data = resolve(process.env.CAUSEBASE_DATA_DIR ?? resolve(root, "public", "data"));
+const output = resolve(process.env.CHARITYGRAPH_OUTPUT_DIR ?? process.env.CAUSEBASE_OUTPUT_DIR ?? resolve(root, "dist"));
+const data = resolve(process.env.CHARITYGRAPH_DATA_DIR ?? process.env.CAUSEBASE_DATA_DIR ?? resolve(root, "public", "data"));
 const legacyRequired = [
   "causebase.json", "causebase.jsonl", "causebase.csv", "causebase.parquet",
   "embeddings.json", "embeddings.parquet", "similarities.json", "similarities.parquet",
@@ -13,7 +13,7 @@ const legacyRequired = [
   "taxonomy/causebase-v0.json", "source-inventory.json", "release-history.json",
 ];
 const forbidden = /(^|[/\\])(archive|cache|runtime|state)([/\\]|$)|\.(pdf|warc|env|sqlite|db)$/i;
-const siteBase = "https://gregorycwhill.github.io/CauseBase-Viewer";
+const siteBase = "https://gregorycwhill.github.io/charitygraph-viewer";
 const esc = value => String(value ?? "").replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;").replaceAll('"', "&quot;");
 const abn = card => card.identity?.external_identifiers?.find(item => item.scheme === "abn")?.value;
 const sourceHref = sourceId => `../../public/data/source-records/${encodeURIComponent(sourceId)}.json`;
@@ -57,12 +57,12 @@ if (v05) {
   const dataOutput = resolve(output, "public", "data");
   const cards = await Promise.all((await readdir(resolve(data, "cards"))).filter(name => name.endsWith(".json")).sort().map(async name => JSON.parse(await readFile(resolve(data, "cards", name), "utf8"))));
   const sources = await Promise.all((await readdir(resolve(data, "source-records"))).filter(name => name.endsWith(".json")).sort().map(async name => JSON.parse(await readFile(resolve(data, "source-records", name), "utf8"))));
-  await writeFile(resolve(dataOutput, "causebase.json"), JSON.stringify(buildV05ViewModel(cards, sources, manifest), null, 2) + "\n");
+  await writeFile(resolve(dataOutput, "charitygraph.json"), JSON.stringify(buildV05ViewModel(cards, sources, manifest), null, 2) + "\n");
   await writeFile(resolve(dataOutput, "similarities.json"), "[]\n");
   const routeRoot=resolve(output,"charity"); await mkdir(routeRoot,{recursive:true});
   for (const card of cards) {
     const directory=resolve(routeRoot,card.causebase_id); await mkdir(directory,{recursive:true});
-    await writeFile(resolve(directory,"index.html"),cardHtml(card,manifest));
+    await writeFile(resolve(directory,"index.html"),cardHtml(card,manifest).replaceAll("CauseBase", "CharityGraph"));
     await writeFile(resolve(dataOutput,"cards",`${card.causebase_id}.md`),cardMarkdown(card,manifest));
   }
   const urls=[`${siteBase}/`, ...cards.map(card => `${siteBase}/charity/${encodeURIComponent(card.causebase_id)}/`)];
@@ -71,7 +71,7 @@ if (v05) {
 }
 const viewerCommit = process.env.GITHUB_SHA ?? execFileSync("git", ["rev-parse", "HEAD"], { cwd: root, encoding: "utf8" }).trim();
 await writeFile(resolve(output, "deployment.json"), JSON.stringify({
-  deployment_type: "CauseBase human-test",
+  deployment_type: "CharityGraph human-test",
   source_branch: "main",
   deployment_branch: "gh-pages",
   dataset_version: manifest.dataset_version,

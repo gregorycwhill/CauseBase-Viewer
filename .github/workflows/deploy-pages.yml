@@ -1,4 +1,4 @@
-name: Deploy validated human-test site
+name: Deploy CharityGraph site
 
 on:
   workflow_dispatch:
@@ -15,9 +15,9 @@ jobs:
           ref: main
       - uses: actions/checkout@v4
         with:
-          repository: gregorycwhill/CauseBase-Data
+          repository: gregorycwhill/charitygraph-data
           ref: main
-          path: causebase-data
+          path: charitygraph-data
       - uses: actions/setup-node@v4
         with:
           node-version: 22
@@ -25,18 +25,18 @@ jobs:
         run: npm test
       - name: Build allowlisted deployment bundle
         env:
-          CAUSEBASE_DATA_RELEASE_DIR: ${{ github.workspace }}/causebase-data/releases/v0.5.0-2026-08-15
+          CHARITYGRAPH_DATA_RELEASE_DIR: ${{ github.workspace }}/charitygraph-data/releases/v0.5.0-2026-08-15
         run: npm run prepare-from-data
       - name: Publish static bundle to gh-pages
         run: |
           git fetch origin gh-pages
-          git worktree add ../causebase-pages gh-pages
-          git -C ../causebase-pages rm -rf .
-          cp -a dist/. ../causebase-pages/
-          git -C ../causebase-pages add --all
-          if git -C ../causebase-pages diff --cached --quiet; then
+          git worktree add ../charitygraph-pages gh-pages
+          git -C ../charitygraph-pages rm -rf .
+          cp -a dist/. ../charitygraph-pages/
+          git -C ../charitygraph-pages add --all
+          if git -C ../charitygraph-pages diff --cached --quiet; then
             echo "No deployment changes; gh-pages already matches the validated bundle."
             exit 0
           fi
-          git -C ../causebase-pages -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -m "Deploy validated human-test site ${GITHUB_SHA}"
-          git -C ../causebase-pages push origin gh-pages
+          git -C ../charitygraph-pages -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -m "Deploy CharityGraph site ${GITHUB_SHA}"
+          git -C ../charitygraph-pages push origin gh-pages
