@@ -28,5 +28,5 @@ Araluen Botanic Park Foundation Inc manages Araluen Botanic Park in Roleystone i
 
 ## Data
 
-- JSON: https://gregorycwhill.github.io/CauseBase-Viewer/public/data/cards/cb_065dfdefae8b4f7ea2b964dd2b60d800.json
-- Canonical HTML: https://gregorycwhill.github.io/CauseBase-Viewer/charity/cb_065dfdefae8b4f7ea2b964dd2b60d800/
+- JSON: https://gregorycwhill.github.io/charitygraph-viewer/public/data/cards/cb_065dfdefae8b4f7ea2b964dd2b60d800.json
+- Canonical HTML: https://gregorycwhill.github.io/charitygraph-viewer/charity/cb_065dfdefae8b4f7ea2b964dd2b60d800/

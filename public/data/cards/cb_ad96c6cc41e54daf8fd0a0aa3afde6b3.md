@@ -28,5 +28,5 @@ Christian Community Services is an Australian provider of retirement living and 
 
 ## Data
 
-- JSON: https://gregorycwhill.github.io/CauseBase-Viewer/public/data/cards/cb_ad96c6cc41e54daf8fd0a0aa3afde6b3.json
-- Canonical HTML: https://gregorycwhill.github.io/CauseBase-Viewer/charity/cb_ad96c6cc41e54daf8fd0a0aa3afde6b3/
+- JSON: https://gregorycwhill.github.io/charitygraph-viewer/public/data/cards/cb_ad96c6cc41e54daf8fd0a0aa3afde6b3.json
+- Canonical HTML: https://gregorycwhill.github.io/charitygraph-viewer/charity/cb_ad96c6cc41e54daf8fd0a0aa3afde6b3/

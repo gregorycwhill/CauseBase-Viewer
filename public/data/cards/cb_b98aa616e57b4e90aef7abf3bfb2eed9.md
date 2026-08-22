@@ -28,5 +28,5 @@ Ara Irititja Aboriginal Corporation is an incorporated Aboriginal corporation as
 
 ## Data
 
-- JSON: https://gregorycwhill.github.io/CauseBase-Viewer/public/data/cards/cb_b98aa616e57b4e90aef7abf3bfb2eed9.json
-- Canonical HTML: https://gregorycwhill.github.io/CauseBase-Viewer/charity/cb_b98aa616e57b4e90aef7abf3bfb2eed9/
+- JSON: https://gregorycwhill.github.io/charitygraph-viewer/public/data/cards/cb_b98aa616e57b4e90aef7abf3bfb2eed9.json
+- Canonical HTML: https://gregorycwhill.github.io/charitygraph-viewer/charity/cb_b98aa616e57b4e90aef7abf3bfb2eed9/

@@ -28,5 +28,5 @@ The Russian Imperial Order of Saint Michael Archangel is a dynastic order that o
 
 ## Data
 
-- JSON: https://gregorycwhill.github.io/CauseBase-Viewer/public/data/cards/cb_d44bbd714bbc48daa9e1b734fb404cea.json
-- Canonical HTML: https://gregorycwhill.github.io/CauseBase-Viewer/charity/cb_d44bbd714bbc48daa9e1b734fb404cea/
+- JSON: https://gregorycwhill.github.io/charitygraph-viewer/public/data/cards/cb_d44bbd714bbc48daa9e1b734fb404cea.json
+- Canonical HTML: https://gregorycwhill.github.io/charitygraph-viewer/charity/cb_d44bbd714bbc48daa9e1b734fb404cea/

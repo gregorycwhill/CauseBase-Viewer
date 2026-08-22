@@ -28,5 +28,5 @@ Avon Community Services (legal name Avon Youth Community And Family Services) is
 
 ## Data
 
-- JSON: https://gregorycwhill.github.io/CauseBase-Viewer/public/data/cards/cb_14e77d7e8f9c4fabb1c1011aacdacc99.json
-- Canonical HTML: https://gregorycwhill.github.io/CauseBase-Viewer/charity/cb_14e77d7e8f9c4fabb1c1011aacdacc99/
+- JSON: https://gregorycwhill.github.io/charitygraph-viewer/public/data/cards/cb_14e77d7e8f9c4fabb1c1011aacdacc99.json
+- Canonical HTML: https://gregorycwhill.github.io/charitygraph-viewer/charity/cb_14e77d7e8f9c4fabb1c1011aacdacc99/

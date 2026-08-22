@@ -28,5 +28,5 @@ North East Men's Shed (Winnaleah) Inc. is an incorporated not-for-profit organis
 
 ## Data
 
-- JSON: https://gregorycwhill.github.io/CauseBase-Viewer/public/data/cards/cb_2669573b14e34eafa671c4d2bdcdedcd.json
-- Canonical HTML: https://gregorycwhill.github.io/CauseBase-Viewer/charity/cb_2669573b14e34eafa671c4d2bdcdedcd/
+- JSON: https://gregorycwhill.github.io/charitygraph-viewer/public/data/cards/cb_2669573b14e34eafa671c4d2bdcdedcd.json
+- Canonical HTML: https://gregorycwhill.github.io/charitygraph-viewer/charity/cb_2669573b14e34eafa671c4d2bdcdedcd/

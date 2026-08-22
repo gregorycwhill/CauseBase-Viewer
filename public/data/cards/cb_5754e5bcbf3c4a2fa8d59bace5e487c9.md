@@ -28,5 +28,5 @@ National Gallery Of Australia Foundation is a registered foundation based in the
 
 ## Data
 
-- JSON: https://gregorycwhill.github.io/CauseBase-Viewer/public/data/cards/cb_5754e5bcbf3c4a2fa8d59bace5e487c9.json
-- Canonical HTML: https://gregorycwhill.github.io/CauseBase-Viewer/charity/cb_5754e5bcbf3c4a2fa8d59bace5e487c9/
+- JSON: https://gregorycwhill.github.io/charitygraph-viewer/public/data/cards/cb_5754e5bcbf3c4a2fa8d59bace5e487c9.json
+- Canonical HTML: https://gregorycwhill.github.io/charitygraph-viewer/charity/cb_5754e5bcbf3c4a2fa8d59bace5e487c9/

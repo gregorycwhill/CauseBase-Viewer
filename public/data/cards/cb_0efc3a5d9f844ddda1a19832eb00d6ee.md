@@ -28,5 +28,5 @@ Seniors Rights Service is a community legal and advocacy organisation based in S
 
 ## Data
 
-- JSON: https://gregorycwhill.github.io/CauseBase-Viewer/public/data/cards/cb_0efc3a5d9f844ddda1a19832eb00d6ee.json
-- Canonical HTML: https://gregorycwhill.github.io/CauseBase-Viewer/charity/cb_0efc3a5d9f844ddda1a19832eb00d6ee/
+- JSON: https://gregorycwhill.github.io/charitygraph-viewer/public/data/cards/cb_0efc3a5d9f844ddda1a19832eb00d6ee.json
+- Canonical HTML: https://gregorycwhill.github.io/charitygraph-viewer/charity/cb_0efc3a5d9f844ddda1a19832eb00d6ee/

@@ -28,5 +28,5 @@ Brother to Another Ltd is an Australian not‑for‑profit company registered wi
 
 ## Data
 
-- JSON: https://gregorycwhill.github.io/CauseBase-Viewer/public/data/cards/cb_14a282ecac4e4ba1a241ceac202aaf5f.json
-- Canonical HTML: https://gregorycwhill.github.io/CauseBase-Viewer/charity/cb_14a282ecac4e4ba1a241ceac202aaf5f/
+- JSON: https://gregorycwhill.github.io/charitygraph-viewer/public/data/cards/cb_14a282ecac4e4ba1a241ceac202aaf5f.json
+- Canonical HTML: https://gregorycwhill.github.io/charitygraph-viewer/charity/cb_14a282ecac4e4ba1a241ceac202aaf5f/

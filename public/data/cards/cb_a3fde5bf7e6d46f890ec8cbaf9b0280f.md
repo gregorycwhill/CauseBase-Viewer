@@ -28,5 +28,5 @@ Adelaide Mosque Islamic Society Ltd operates the Adelaide City Mosque in Adelaid
 
 ## Data
 
-- JSON: https://gregorycwhill.github.io/CauseBase-Viewer/public/data/cards/cb_a3fde5bf7e6d46f890ec8cbaf9b0280f.json
-- Canonical HTML: https://gregorycwhill.github.io/CauseBase-Viewer/charity/cb_a3fde5bf7e6d46f890ec8cbaf9b0280f/
+- JSON: https://gregorycwhill.github.io/charitygraph-viewer/public/data/cards/cb_a3fde5bf7e6d46f890ec8cbaf9b0280f.json
+- Canonical HTML: https://gregorycwhill.github.io/charitygraph-viewer/charity/cb_a3fde5bf7e6d46f890ec8cbaf9b0280f/

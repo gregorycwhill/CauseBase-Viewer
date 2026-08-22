@@ -28,5 +28,5 @@ Settlement Council of Australia (SCoA) is a national peak body based in Australi
 
 ## Data
 
-- JSON: https://gregorycwhill.github.io/CauseBase-Viewer/public/data/cards/cb_bab735ab9e484cf7ae872ff040fada63.json
-- Canonical HTML: https://gregorycwhill.github.io/CauseBase-Viewer/charity/cb_bab735ab9e484cf7ae872ff040fada63/
+- JSON: https://gregorycwhill.github.io/charitygraph-viewer/public/data/cards/cb_bab735ab9e484cf7ae872ff040fada63.json
+- Canonical HTML: https://gregorycwhill.github.io/charitygraph-viewer/charity/cb_bab735ab9e484cf7ae872ff040fada63/

@@ -28,5 +28,5 @@ Aussie Vets PTSD Group Incorporated is an incorporated charity registered in the
 
 ## Data
 
-- JSON: https://gregorycwhill.github.io/CauseBase-Viewer/public/data/cards/cb_51c98d3295fb4a8fbcfeb8cece6b8412.json
-- Canonical HTML: https://gregorycwhill.github.io/CauseBase-Viewer/charity/cb_51c98d3295fb4a8fbcfeb8cece6b8412/
+- JSON: https://gregorycwhill.github.io/charitygraph-viewer/public/data/cards/cb_51c98d3295fb4a8fbcfeb8cece6b8412.json
+- Canonical HTML: https://gregorycwhill.github.io/charitygraph-viewer/charity/cb_51c98d3295fb4a8fbcfeb8cece6b8412/

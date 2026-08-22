@@ -28,5 +28,5 @@ Newman College is a co‑educational residential college affiliated with the Uni
 
 ## Data
 
-- JSON: https://gregorycwhill.github.io/CauseBase-Viewer/public/data/cards/cb_3bbf4f13d74a432ab0ca1eb74741adae.json
-- Canonical HTML: https://gregorycwhill.github.io/CauseBase-Viewer/charity/cb_3bbf4f13d74a432ab0ca1eb74741adae/
+- JSON: https://gregorycwhill.github.io/charitygraph-viewer/public/data/cards/cb_3bbf4f13d74a432ab0ca1eb74741adae.json
+- Canonical HTML: https://gregorycwhill.github.io/charitygraph-viewer/charity/cb_3bbf4f13d74a432ab0ca1eb74741adae/
